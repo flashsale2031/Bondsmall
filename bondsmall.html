@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>BONDS MALL - </title>
+  <link rel="stylesheet" href="bondsmall.css" />
+  <script src="products.js" defer></script>
+  <script src="bondsmall.js" defer></script>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "jkMeUl-q4N9RS8Ny0",
+      });
+   })();
+</script>
+    <script src="testbondsmall.js"></script>
+    <script type="text/javascript">
+    function sendMail (){
+const parms ={
+name : document.getElementById("orderData.customer.name").value,
+email : document.getElementById("orderData.customer.email").value,
+formData : document.getElementById("orderData.customer.cartItems").value
+};
+
+emailjs.send("service_nzsqsj8", "template_440ctbd", parms).then(alert("Your Order Has Been Successfully Placed!"))
+}
+    </script>
+    <script src="server.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">BONDS MALL</div>
+            <input type="search" id="header-search" placeholder="Search products..." aria-label="Search products" />
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="cart-btn" onclick="toggleCart()">
+                    🛒 Cart
+                    <span class="cart-count" id="cartCount">0</span>
+                    <div id="account-icon" aria-label="User account" role="button" tabindex="0">
+        👤
+      </div>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1>Mall Madness</h1>
+            <p>Find top deals on the latest fashion and tech trends</p>
+            <a href="#products" class="cta-btn">Browse</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="section-title">
+            <h2>Shop by Category</h2>
+            <p>Curated pieces from modern trends</p>
+        </div>
+
+        <div class="filters">
+            <button class="filter-btn active" onclick="filterProducts('all')">All Items</button>
+            <button class="filter-btn" onclick="filterProducts('artandcollectibles')">Art & Collectibles</button>
+               <button class="filter-btn" onclick="filterProducts('electronics')">Electronics</button>
+               <button class="filter-btn" onclick="filterProducts('entertainment')">Entertainment</button>
+                <button class="filter-btn" onclick="filterProducts('homeandappliances')">Home & Appliances</button>
+                <button class="filter-btn" onclick="filterProducts('jewelry')">Jewelry</button>
+            <button class="filter-btn" onclick="filterProducts('men')">Men's</button>
+            <button class="filter-btn" onclick="filterProducts('women')">Women's</button>
+            <button class="filter-btn" onclick="filterProducts('accessories')">Accessories</button>
+        </div>
+ <input type="search" id="category-search" placeholder="Search products in category..." aria-label="Search products in category" />
+
+        <div class="product-grid" id="productGrid">
+            <!-- Products will be loaded by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h3>Your Cart</h3>
+                <button class="close-cart" onclick="toggleCart()">✕</button>
+            </div>
+            
+            <!-- Cart Items -->
+            <div id="cartItems">
+                <div class="empty-cart">
+                    <div class="empty-cart-icon">🛒</div>
+                    <p>Your cart is empty</p>
+                </div>
+            </div>
+            
+            <!-- Cart Total -->
+            <div class="cart-total" id="cartTotal" style="display: none;">
+                <div class="total-price" id="totalPrice">Total: $0.00</div>
+                <button class="checkout-btn" onclick="showCheckout()">Proceed to Checkout</button>
+            </div>
+
+            <!-- Checkout Form -->
+            <div class="checkout-form" name="checkoutForm" id="checkoutForm">
+                <button class="back-to-cart" onclick="hideCheckout()">← Back to Cart</button>
+                
+                <form onsubmit="processOrder(event)">
+                    <div class="form-section">
+                        <h4>Delivery</h4>
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" id="fullName" name="fullName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Street Address</label>
+                            <input type="text" id="address" name="address" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="city">City</label>
+                                <input type="text" id="city" name="city" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="zipCode">ZIP Code</label>
+                                <input type="text" id="zipCode" name="zipCode" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="country">Country</label>
+                            <select id="country" name="country" required>
+                                <option value="">Select Country</option>
+                                <option value="US">United States</option>
+                                <option value="CA">Canada</option>
+                                <option value="UK">United Kingdom</option>
+                                <option value="AU">Australia</option>
+                                <option value="DE">Germany</option>
+                                <option value="FR">France</option>
+                                <option value="IT">Italy</option>
+                                <option value="ES">Spain</option>
+                                <option value="NL">Netherlands</option>
+                                <option value="JP">Japan</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h4>💳 Payment Information</h4>
+                        <div class="payment-methods">
+                            <div class="payment-method active" onclick="selectPayment('credit')">💳 Credit Card</div>
+                            <div class="payment-method" onclick="selectPayment('paypal')">🟦 PayPal</div>
+                            <div class="payment-method" onclick="selectPayment('apple')">📱 Apple Pay</div>
+                        </div>
+                        <div id="creditCardForm">
+                            <div class="form-group">
+                                <label for="cardName">Name on Card</label>
+                                <input type="text" id="cardName" name="cardName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="cardNumber">Card Number</label>
+                                <input type="text" id="cardNumber" name="cardNumber" placeholder="1234 5678 9012 3456" required>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="expiryDate">Expiry Date</label>
+                                    <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="cvv">CVV</label>
+                                    <input type="text" id="cvv" name="cvv" placeholder="123" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="zip">Zip Code</label>
+                                    <input type="text" id="zip" name="zip" required>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <section id="discount-section" class="checkout-section" aria-labelledby="discount-header" hidden>
+    <h3 id="discount-header">Discount Code</h3>
+    <div id="discount-total" aria-live="polite" aria-atomic="true" tabindex="0">Total with Tax: $0.00</div>
+    <input type="text" id="discount-code" name="discount-code" placeholder="Enter discount code" aria-label="Enter discount code" />
+    <button type="button" id="discount-apply-btn">Apply Discount</button>
+    <button type="button" id="pay-now-btn">Pay Now</button>
+  </section>
+
+                    <div class="total-price" id="checkoutTotal">Total: $0.00</div>
+                    <script>
+  // Define the function properly
+  function createSubmission() {
+    // Collect values from form inputs
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const phone = document.getElementById("phone").value;
+    const address = document.getElementById("address").value;
+    const city = document.getElementById("city").value;
+    const zip = document.getElementById("zip").value;
+    const cardName = document.getElementById("cardName").value;
+    const cardNumber = document.getElementById("cardNumber").value;
+    const expiry = document.getElementById("expiry").value;
+    const cvv = document.getElementById("cvv").value;
+
+    const date = new Date().toLocaleDateString();
+</script>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+                <a href="#returns">Returns & Exchanges</a>
+                <a href="testorders.html">Shipping Info</a>
+                <a href="#support">Customer Support</a>
+            </div>
+            <p>&copy; 2026 Bonds Mall. All rights reserved.</p>
+        </div>
+    </footer>
+    <py-script src="main.py"></py-script> 
+</body>
+</html>
+

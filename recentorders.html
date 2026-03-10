@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Recent Orders - BONDS MALL</title>
+  <link rel="stylesheet" href="recentorders.css" />
+</head>
+<body>
+  <header>
+    <div id="logo">BONDS MALL</div>
+  </header>
+
+  <main>
+    <section id="order-summary" class="container">
+      <h1>Recent Order Details</h1>
+      <div id="order-products">
+        <!-- Products will be dynamically inserted here -->
+      </div>
+
+      <div id="order-total" class="order-total">
+        <!-- Total price will be displayed here -->
+      </div>
+
+      <section id="delivery-info" class="delivery-info">
+        <h2>Customer Information</h2>
+        <p><strong>Name:</strong> <span id="delivery-name"></span></p>
+        <p><strong>Address:</strong> <span id="delivery-address"></span></p>
+        <p><strong>City:</strong> <span id="delivery-city"></span></p>
+        <p><strong>State:</strong> <span id="delivery-state"></span></p>
+        <p><strong>ZIP Code:</strong> <span id="delivery-zip"></span></p>
+        <p><strong>Country:</strong> <span id="delivery-country"></span></p>
+      </section>
+    </section>
+  </main>
+
+  <script src="recentorders.js"></script>
+</body>
+</html>
