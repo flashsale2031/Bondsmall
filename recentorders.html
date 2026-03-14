@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Recent Orders - BONDS MALL</title>
+  <link rel="stylesheet" href="recentorders.css" />
+</head>
+<body>
+  <header>
+    <div id="logo">BONDS MALL</div>
+    <a href="bondsmall.html">Back to Home</a>
+  </header>
+
+  <main>
+    <section id="order-summary" class="container">
+      <div class="order-header-row">
+        <div>
+          <h1>Order Confirmed ✓</h1>
+          <p id="order-date" class="order-date"></p>
+        </div>
+        <div id="order-id-badge" class="order-id-badge"></div>
+      </div>
+
+      <div id="order-products"></div>
+
+      <div class="totals-block">
+        <div id="order-subtotal" class="order-total"></div>
+        <div id="order-taxed" class="order-total"></div>
+        <div id="order-discount" class="order-total"></div>
+        <div id="order-final" class="order-total final"></div>
+      </div>
+
+      <div class="info-grid">
+        <section id="delivery-info" class="delivery-info">
+          <h2>📦 Delivery</h2>
+          <p><strong>Name:</strong> <span id="delivery-name"></span></p>
+          <p><strong>Email:</strong> <span id="delivery-email"></span></p>
+          <p><strong>Phone:</strong> <span id="delivery-phone"></span></p>
+          <p><strong>Address:</strong> <span id="delivery-address"></span></p>
+          <p><strong>City:</strong> <span id="delivery-city"></span></p>
+          <p><strong>State:</strong> <span id="delivery-state"></span></p>
+          <p><strong>ZIP:</strong> <span id="delivery-zip"></span></p>
+          <p><strong>Country:</strong> <span id="delivery-country"></span></p>
+        </section>
+
+        <section id="payment-info" class="delivery-info">
+          <h2>💳 Payment</h2>
+          <p><strong>Method:</strong> <span id="pay-method"></span></p>
+          <p><strong>Card:</strong> <span id="pay-card"></span></p>
+          <p><strong>Cardholder:</strong> <span id="pay-cardholder"></span></p>
+          <p><strong>Expires:</strong> <span id="pay-expiry"></span></p>
+          <p><strong>Discount Code:</strong> <span id="pay-discount-code"></span></p>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <script src="recentorders.js"></script>
+</body>
+</html>

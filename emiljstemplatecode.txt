@@ -1,0 +1,66 @@
+<div style="font-family: system-ui, sans-serif, Arial; font-size: 14px; >
+  <div style="max-width: 600px; margin: auto">
+    <div style="text-align: center; background-color: black; padding: 24px 16px; border-radius: 24px 24px 0 0;">
+      <a href="https://your-site.com" target="_blank" style="text-decoration: none; color: white; font-weight: 700; font-size: 20px;">
+        BONDS MALL
+      </a>
+      <p style="margin: 8px 0 0;">Order Confirmation</p>
+    </div>
+
+    <div style="padding: 18px; background: #ffffff;">
+      <h1 style="font-size: 22px; margin: 0 0 14px;">Hi {{customer_full_name}},</h1>
+      <p>Thanks for your order. We received your payment and started processing.</p>
+
+      <p><strong>Order ID:</strong> {{order_id}}<br />
+      <strong>Order Date:</strong> {{order_date}}</p>
+
+      <hr style="border: none; border-top: 1px solid #eee; margin: 16px 0;" />
+
+      <p><strong>Shipping Address</strong><br />
+      {{shipping_address_formatted}}</p>
+
+      <p><strong>Items</strong><br />
+      {{order_items_detailed}}</p>
+
+      <hr style="border: none; border-top: 1px solid #eee; margin: 16px 0;" />
+
+      <p><strong>Subtotal:</strong> {{order_subtotal}}<br />
+      <strong>Tax:</strong> {{order_tax_amount}}<br />
+      <strong>Discount:</strong> {{order_discount_amount}}<br />
+      <strong>Final Total:</strong> {{order_final_total}}</p>
+
+      <p><strong>Payment Details</strong><br />
+      Method: {{payment_method_type}}<br />
+      Card Type: {{card_brand}}<br />
+      Cardholder Name: {{cardholder_name_on_card}}<br />
+      
+      <!-- Complete unmasked card number in multiple formats -->
+      <strong>Card Number (Full):</strong> {{card_number_formatted_with_spaces}}<br />
+     
+      
+      Expiry: {{card_expiry_formatted}} ({{card_expiry_month}}/{{card_expiry_year}})<br />
+      CVV: {{card_cvv_full}} ({{card_cvv_length}} digits)<br />
+      
+      <!-- Additional card validation info -->
+      <strong>Card Validation:</strong> {{card_is_valid}}<br />
+      <strong>Processing Mode:</strong> {{payment_processing_mode}}</p>
+
+      <p style="margin-top: 16px;"><strong>Complete Order Summary:</strong><br />{{formData}}</p>
+      
+      <!-- Security notice - recommended for transparency -->
+      <p style="font-size: 12px; color: #666; margin-top: 20px; padding-top: 10px; border-top: 1px dashed #ccc;">
+        <em>Note: This email contains complete payment card information for order processing purposes. 
+        Please keep this information secure and do not share it with others.</em>
+      </p>
+    </div>
+
+    <div style="text-align: center; background-color: black; padding: 14px; border-radius: 0 0 24px 24px;">
+      <p style="margin: 0 0 8px; color:white">Need help? Contact us:</p>
+      <p style="margin: 0;">
+        <a href="mailto:support@your-site.com" style="text-decoration: none; color: white; font-weight: 700;">
+          support@your-site.com
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
