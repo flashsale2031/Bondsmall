@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BONDS MALL</title>
+    <link rel="stylesheet" href="bondsmall.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="products.js" defer></script>
+    <script src="bondsmall.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">BONDS MALL</div>
+        <input type="search" id="header-search" placeholder="Search products..." aria-label="Search products">
+        <div class="header-actions">
+            <button id="cart-btn" class="icon-btn" aria-label="Open cart">
+                <span aria-hidden="true">🛍️</span>
+                <span>Cart</span>
+                <span id="cart-count" class="cart-count">0</span>
+            </button>
+            <button id="account-btn" class="icon-btn" aria-label="Account">
+                <span aria-hidden="true">👤</span>
+                <span>Account</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Mall Madness</h1>
+                <p>Find top deals in fashion and tech trends</p>
+                <button id="browse-btn" class="browse-btn">Browse</button>
+            </div>
+        </section>
+
+        <section id="category" class="category-section">
+            <div class="section-heading">
+                <h2>Shop by Category</h2>
+                <p>Curated pieces from modern trends</p>
+            </div>
+
+            <div id="category-buttons" class="category-buttons">
+                <button class="category-btn active" data-category="all">Shop All</button>
+                <button class="category-btn" data-category="accessories">Accessories</button>
+                <button class="category-btn" data-category="artandcollectibles">Art &amp; Collectibles</button>
+                <button class="category-btn" data-category="electronics">Electronics</button>
+                <button class="category-btn" data-category="entertainment">Entertainment</button>
+                <button class="category-btn" data-category="homeandappliances">Home &amp; Appliances</button>
+                <button class="category-btn" data-category="jewelry">Jewelry</button>
+                <button class="category-btn" data-category="men">Men's</button>
+                <button class="category-btn" data-category="women">Women's</button>
+            </div>
+
+            <input type="search" id="category-search" placeholder="Search in selected category..." aria-label="Search in selected category">
+
+            <div id="product-grid" class="product-grid"></div>
+        </section>
+    </main>
+
+    <div id="product-modal" class="modal hidden" aria-hidden="true">
+        <div class="modal-backdrop" data-close="modal"></div>
+        <article class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+            <button id="modal-close" class="close-btn" aria-label="Close product popup">X</button>
+            <img id="modal-main-image" src="" alt="Selected product" class="modal-main-image">
+            <div id="modal-thumbs" class="modal-thumbs"></div>
+            <h3 id="modal-title"></h3>
+            <p id="modal-category"></p>
+            <p id="modal-description"></p>
+            <div class="modal-footer">
+                <strong id="modal-price"></strong>
+                <button id="modal-add-btn" class="primary-btn">Add to Cart</button>
+            </div>
+        </article>
+    </div>
+
+    <aside id="cart-overlay" class="cart-overlay hidden">
+        <div class="cart-backdrop" id="cart-backdrop"></div>
+        <section id="cart-drawer" class="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+            <header class="cart-header">
+                <div>
+                    <h3 id="cart-title">Your Cart</h3>
+                    <p class="cart-subtitle">Curated picks ready to checkout</p>
+                </div>
+                <button id="close-cart" class="close-btn" aria-label="Close cart">X</button>
+            </header>
+
+            <div id="cart-items" class="cart-items">
+                <p class="empty-state">Your cart is empty</p>
+            </div>
+
+            <div id="cart-summary" class="cart-summary hidden">
+                <div class="totals-row">
+                    <span>Order Total</span>
+                    <strong id="cart-total">$0.00</strong>
+                </div>
+                <button id="to-shipping" class="primary-btn">Proceed To Checkout</button>
+            </div>
+
+            <div id="checkout-steps" class="checkout-steps hidden">
+                <section id="shipping-section" class="checkout-panel">
+                    <h4>Shipping Address</h4>
+                    <form id="shipping-form">
+                        <input type="text" id="ship-name" placeholder="Full name" required>
+                        <input type="email" id="ship-email" placeholder="Email" required>
+                        <input type="tel" id="ship-phone" placeholder="Phone" required>
+                        <input type="text" id="ship-address" placeholder="Street address" required>
+                        <input type="text" id="ship-city" placeholder="City" required>
+                        <input type="text" id="ship-state" placeholder="State" required>
+                        <input type="text" id="ship-zip" placeholder="ZIP code" required>
+                        <input type="text" id="ship-country" placeholder="Country" required>
+                        <button type="submit" class="primary-btn">Payment Information</button>
+                    </form>
+                </section>
+
+                <section id="payment-section" class="checkout-panel hidden">
+                    <h4>Payment Information</h4>
+                    <form id="payment-form">
+                        <div class="checkout-sticker-row">
+                            <span class="checkout-sticker">Secure Checkout</span>
+                            <span class="checkout-sticker subtle">ACH fallback active</span>
+                        </div>
+
+                        <div class="pay-type-row" role="radiogroup" aria-label="Payment method">
+                            <label class="pay-type active">
+                                <input type="radio" name="pay-method" value="credit" checked>
+                                <span>Credit Card</span>
+                            </label>
+                            <label class="pay-type">
+                                <input type="radio" name="pay-method" value="debit">
+                                <span>Debit Card</span>
+                            </label>
+                        </div>
+
+                        <div class="card-brands" aria-label="Supported cards">
+                            <span class="brand-badge">VISA</span>
+                            <span class="brand-badge">Mastercard</span>
+                            <span class="brand-badge">Amex</span>
+                        </div>
+
+                        <div id="card-fields">
+                            <input type="text" id="card-name" placeholder="Name on card" required>
+                            <input type="text" id="card-number" placeholder="Card number" inputmode="numeric" maxlength="23" required>
+                            <div class="form-row">
+                                <input type="text" id="card-expiry" placeholder="MM/YY" maxlength="5" required>
+                                <input type="text" id="card-cvv" placeholder="CVV" maxlength="4" inputmode="numeric" required>
+                            </div>
+                        </div>
+
+                        <p id="payment-feedback" class="payment-feedback" aria-live="polite"></p>
+                        <p class="ach-note">Temporary processing note: card payments are logged as ACH bank transfer fallback until Visa/MasterCard APIs are configured.</p>
+                        <button type="submit" class="primary-btn">Discount</button>
+                    </form>
+                </section>
+
+                <section id="discount-section" class="checkout-panel hidden">
+                    <h4>Discount</h4>
+                    <p id="tax-total" class="tax-total">Total with 8.7% tax: $0.00</p>
+                    <div class="discount-row">
+                        <input type="text" id="discount-code" placeholder="Enter discount code">
+                        <button id="apply-discount" class="secondary-btn" type="button">Apply</button>
+                    </div>
+                    <p id="final-total" class="final-total">Final total: $0.00</p>
+                    <button id="pay-now" class="primary-btn" type="button">Pay Now</button>
+                    <button id="back-to-cart" class="secondary-btn" type="button">Back to Cart</button>
+                </section>
+            </div>
+        </section>
+    </aside>
+
+    <footer class="footer">
+        <p>&copy; 2026 BONDS MALL</p>
+        
+    </footer>
+
+</body>
+</html>
+
