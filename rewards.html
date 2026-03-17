@@ -1,0 +1,234 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rewards - BONDS MALL</title>
+    <link rel="stylesheet" href="support-pages.css">
+    <link rel="stylesheet" href="site-footer.css">
+    <style>
+        .rewards-hero {
+            background: linear-gradient(135deg, #f8f5ef 0%, #fffdf8 100%);
+            border: 2px solid #1f4f90;
+            border-radius: 16px;
+            padding: 2rem;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .rewards-hero h1 {
+            color: #1f4f90;
+            margin: 0 0 0.5rem;
+        }
+
+        .rewards-balance {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #1f4f90;
+            margin: 1rem 0;
+        }
+
+        .rewards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .reward-item {
+            background: #fffdf8;
+            border: 1px solid #e9dece;
+            border-radius: 12px;
+            padding: 1.25rem;
+            text-align: center;
+        }
+
+        .reward-icon {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-family: "Segoe UI Emoji", "Segoe UI Symbol", "Arial Unicode MS", sans-serif;
+        }
+
+        .reward-item h3 {
+            margin: 0.5rem 0;
+            font-size: 1rem;
+            color: #1f1a14;
+        }
+
+        .reward-value {
+            font-size: 1.35rem;
+            font-weight: 800;
+            color: #1f4f90;
+        }
+
+        .tiers-section {
+            background: #fffdf8;
+            border: 1px solid #e9dece;
+            border-radius: 14px;
+            padding: 1.5rem;
+        }
+
+        .tier-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            border-bottom: 1px solid #f0e7db;
+            border-radius: 10px;
+            transition: background 0.2s;
+        }
+
+        .tier-item:hover {
+            background: #f8f0e2;
+        }
+
+        .tier-item:last-child {
+            border-bottom: none;
+        }
+
+        .tier-info h4 {
+            margin: 0;
+            color: #1f1a14;
+            font-weight: 700;
+        }
+
+        .tier-progress {
+            font-size: 0.85rem;
+            color: #5c5348;
+            margin: 0.3rem 0 0;
+        }
+
+        .tier-badge {
+            background: #212121;
+            color: #fff;
+            padding: 0.4rem 0.8rem;
+            border-radius: 8px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .progress-bar {
+            width: 120px;
+            height: 6px;
+            background: #e9dece;
+            border-radius: 3px;
+            overflow: hidden;
+            margin: 0.5rem 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: #1f4f90;
+            transition: width 0.3s;
+        }
+    </style>
+</head>
+<body data-page="rewards">
+    <header class="support-header">
+        <div class="brand">BONDS MALL</div>
+        <a href="bondsmall.html">Back to Home</a>
+    </header>
+
+    <main class="support-shell">
+        <section class="rewards-hero">
+            <h1>Loyalty Rewards</h1>
+            <p>Earn points on every purchase</p>
+            <div class="rewards-balance" id="points-balance">2,150</div>
+            <p style="color: #5c5348;">Available Points</p>
+        </section>
+
+        <section class="rewards-grid">
+            <div class="reward-item">
+                <div class="reward-icon">&#127873;</div>
+                <h3>Total Earned</h3>
+                <div class="reward-value" id="total-earned">5,420</div>
+            </div>
+            <div class="reward-item">
+                <div class="reward-icon">&#128640;</div>
+                <h3>Redeemed</h3>
+                <div class="reward-value" id="redeemed">3,270</div>
+            </div>
+            <div class="reward-item">
+                <div class="reward-icon">&#11088;</div>
+                <h3>Tier Level</h3>
+                <div class="reward-value" id="tier-level">Silver</div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>How Rewards Work</h2>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li style="padding: 0.75rem 0; border-bottom: 1px solid #f0e7db;">
+                    <strong style="color: #1f1a14;">1 Point</strong> earned for every <strong>$1</strong> spent
+                </li>
+                <li style="padding: 0.75rem 0; border-bottom: 1px solid #f0e7db;">
+                    <strong style="color: #1f1a14;">100 Points</strong> = <strong>$5</strong> discount on your next purchase
+                </li>
+                <li style="padding: 0.75rem 0;">
+                    <strong style="color: #1f1a14;">Bonus Points</strong> on birthdays and anniversaries
+                </li>
+            </ul>
+        </section>
+
+        <section class="tiers-section">
+            <h2 style="margin-top: 0; margin-bottom: 1rem;">Membership Tiers</h2>
+            <div class="tier-item">
+                <div class="tier-info">
+                    <h4>&#129353; Bronze</h4>
+                    <div class="tier-progress">$0 - $500 Annual Spend</div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 100%;"></div></div>
+                </div>
+                <span class="tier-badge">Unlocked</span>
+            </div>
+            <div class="tier-item">
+                <div class="tier-info">
+                    <h4>&#129352; Silver</h4>
+                    <div class="tier-progress">$500 - $2,000 Annual Spend</div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 65%;"></div></div>
+                </div>
+                <span class="tier-badge" style="background: #1f4f90;">Current</span>
+            </div>
+            <div class="tier-item">
+                <div class="tier-info">
+                    <h4>&#129351; Gold</h4>
+                    <div class="tier-progress">$2,000+ Annual Spend</div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 20%;"></div></div>
+                </div>
+                <span class="tier-badge">Locked</span>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+    <div class="site-footer-top">
+        <div class="site-footer-brand-wrap">
+            <div class="site-footer-brand">BONDS MALL</div>
+            <p class="site-footer-tagline">Premium commerce platform with trusted checkout and support.</p>
+        </div>
+        <div class="site-footer-stickers" aria-label="Trust stickers">
+            <span class="sticker">Secure Payments</span>
+            <span class="sticker">24/7 Support</span>
+            <span class="sticker">Verified Store</span>
+        </div>
+    </div>
+    <nav class="site-footer-menu" aria-label="Footer menu">
+        <a href="customer-service.html"><span class="footer-icon" aria-hidden="true">CS</span>Customer Service</a>
+        <a href="faq.html"><span class="footer-icon" aria-hidden="true">FQ</span>FAQ</a>
+        <a href="dispute-center.html"><span class="footer-icon" aria-hidden="true">DC</span>Dispute Center</a>
+        <a href="careers.html"><span class="footer-icon" aria-hidden="true">CR</span>Careers</a>
+        <a href="partner.html"><span class="footer-icon" aria-hidden="true">PT</span>Partner</a>
+        <a href="affiliate.html"><span class="footer-icon" aria-hidden="true">AF</span>Affiliate</a>
+        <a href="link-bank-account.html"><span class="footer-icon" aria-hidden="true">BK</span>Link Bank Account</a>
+        <a href="profile.html"><span class="footer-icon" aria-hidden="true">PR</span>Profile</a>
+        <a href="order-history.html"><span class="footer-icon" aria-hidden="true">OH</span>Order History</a>
+        <a href="track-order.html"><span class="footer-icon" aria-hidden="true">TM</span>Track Order</a>
+        <a href="rewards.html"><span class="footer-icon" aria-hidden="true">RW</span>Rewards</a>
+        <a href="recentorders.html"><span class="footer-icon" aria-hidden="true">RO</span>Recent Orders</a>
+    </nav>
+</footer>
+
+    <script src="rewards.js"></script>
+</body>
+</html>
+

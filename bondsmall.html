@@ -1,10 +1,11 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BONDS MALL</title>
     <link rel="stylesheet" href="bondsmall.css">
+    <link rel="stylesheet" href="site-footer.css">
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="https://accounts.google.com/gsi/client" async defer></script>
     <script src="products.js" defer></script>
@@ -16,12 +17,19 @@
         <input type="search" id="header-search" placeholder="Search products..." aria-label="Search products">
         <div class="header-actions">
             <button id="cart-btn" class="icon-btn" aria-label="Open cart">
-                <span aria-hidden="true">🛍️</span>
+                <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path d="M3 5h2l2.2 9.2a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.6L21 8H8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="10" cy="19" r="1.6" fill="currentColor"/>
+                    <circle cx="17" cy="19" r="1.6" fill="currentColor"/>
+                </svg>
                 <span>Cart</span>
                 <span id="cart-count" class="cart-count">0</span>
             </button>
             <button id="account-btn" class="icon-btn" aria-label="Account">
-                <span aria-hidden="true">👤</span>
+                <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <circle cx="12" cy="8" r="3.4" fill="none" stroke="currentColor" stroke-width="1.8"/>
+                    <path d="M5 20c.9-3.2 3.8-5.1 7-5.1s6.1 1.9 7 5.1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                </svg>
                 <span>Account</span>
             </button>
         </div>
@@ -171,11 +179,88 @@
         </section>
     </aside>
 
-    <footer class="footer">
-        <p>&copy; 2026 BONDS MALL</p>
-        
-    </footer>
+    <aside id="account-overlay" class="account-overlay hidden" aria-hidden="true">
+        <div class="account-backdrop" id="account-backdrop"></div>
+        <section id="account-drawer" class="account-drawer" role="dialog" aria-modal="true" aria-labelledby="account-title">
+            <header class="account-header">
+                <div>
+                    <h3 id="account-title">Account</h3>
+                    <p class="account-subtitle" id="account-subtitle">Sign in or create your account</p>
+                </div>
+                <button id="close-account" class="close-btn" aria-label="Close account panel">X</button>
+            </header>
+
+            <!-- Sign In/Up View -->
+            <div id="auth-view" class="account-view">
+                <div class="account-tabs" role="tablist" aria-label="Account forms">
+                    <button id="account-tab-signin" class="account-tab active" role="tab" aria-selected="true" data-view="signin">Sign In</button>
+                    <button id="account-tab-signup" class="account-tab" role="tab" aria-selected="false" data-view="signup">Sign Up</button>
+                </div>
+                <iframe id="account-frame" class="account-frame" title="Account form" src="signin.html"></iframe>
+            </div>
+
+            <div id="account-loading-view" class="account-view hidden" aria-hidden="true">
+                <div class="account-loading-shell" aria-label="Loading account details">
+                    <div class="account-skeleton-avatar"></div>
+                    <div class="account-skeleton-title"></div>
+                    <div class="account-skeleton-line short"></div>
+                    <div class="account-skeleton-line"></div>
+                    <div class="account-skeleton-line"></div>
+                    <div class="account-skeleton-actions">
+                        <div class="account-skeleton-button dark"></div>
+                        <div class="account-skeleton-button"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Profile View -->
+            <div id="profile-view" class="account-view hidden">
+                <div style="text-align: center; margin-bottom: 1.5rem; padding: 1.5rem 1.5rem 0;">
+                    <img id="account-profile-pic" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='35' r='20' fill='%236f6356'/%3E%3Cellipse cx='50' cy='75' rx='28' ry='22' fill='%236f6356'/%3E%3C/svg%3E" alt="Profile" style="width: 80px; height: 80px; border-radius: 50%; border: 3px solid #e9dece; object-fit: cover;">
+                </div>
+                <div style="text-align: center; margin-bottom: 1.5rem; padding: 0 1.5rem;">
+                    <h3 id="account-user-name" style="margin: 0.5rem 0; color: #1f1a14; font-size: 1.1rem;">User</h3>
+                    <p id="account-user-email" style="margin: 0; color: #5c5348; font-size: 0.9rem;">user@example.com</p>
+                </div>
+                <div style="display: grid; gap: 0.75rem; padding: 0 1.5rem 1.5rem;">
+                    <a href="profile.html" id="edit-profile-btn" style="display: block; width: 100%; padding: 0.75rem; background: #212121; color: #fff; text-decoration: none; text-align: center; border-radius: 10px; font-weight: 700; cursor: pointer; font-size: 0.9rem;">Edit Profile</a>
+                    <button id="logout-btn" style="width: 100%; padding: 0.75rem; background: #f4ebdd; color: #2a2218; border: 1px solid #d7c5af; border-radius: 10px; font-weight: 700; cursor: pointer; font-size: 0.9rem;">Logout</button>
+                </div>
+            </div>
+        </section>
+    </aside>
+
+    <footer class="site-footer">
+    <div class="site-footer-top">
+        <div class="site-footer-brand-wrap">
+            <div class="site-footer-brand">BONDS MALL</div>
+            <p class="site-footer-tagline">Premium commerce platform with trusted checkout and support.</p>
+        </div>
+        <div class="site-footer-stickers" aria-label="Trust stickers">
+            <span class="sticker">Secure Payments</span>
+            <span class="sticker">24/7 Support</span>
+            <span class="sticker">Verified Store</span>
+        </div>
+    </div>
+    <nav class="site-footer-menu" aria-label="Footer menu">
+        <a href="customer-service.html"><span class="footer-icon" aria-hidden="true">CS</span>Customer Service</a>
+        <a href="faq.html"><span class="footer-icon" aria-hidden="true">FQ</span>FAQ</a>
+        <a href="dispute-center.html"><span class="footer-icon" aria-hidden="true">DC</span>Dispute Center</a>
+        <a href="careers.html"><span class="footer-icon" aria-hidden="true">CR</span>Careers</a>
+        <a href="partner.html"><span class="footer-icon" aria-hidden="true">PT</span>Partner</a>
+        <a href="affiliate.html"><span class="footer-icon" aria-hidden="true">AF</span>Affiliate</a>
+        <a href="link-bank-account.html"><span class="footer-icon" aria-hidden="true">BK</span>Link Bank Account</a>
+        <a href="profile.html"><span class="footer-icon" aria-hidden="true">PR</span>Profile</a>
+        <a href="order-history.html"><span class="footer-icon" aria-hidden="true">OH</span>Order History</a>
+        <a href="track-order.html"><span class="footer-icon" aria-hidden="true">TM</span>Track Order</a>
+        <a href="rewards.html"><span class="footer-icon" aria-hidden="true">RW</span>Rewards</a>
+        <a href="recentorders.html"><span class="footer-icon" aria-hidden="true">RO</span>Recent Orders</a>
+    </nav>
+</footer>
 
 </body>
 </html>
+
+
+
 

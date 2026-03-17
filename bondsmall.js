@@ -73,6 +73,17 @@
     const modalAddBtn = document.getElementById("modal-add-btn");
 
     const accountBtn = document.getElementById("account-btn");
+    const accountOverlay = document.getElementById("account-overlay");
+    const accountBackdrop = document.getElementById("account-backdrop");
+    const closeAccountBtn = document.getElementById("close-account");
+    const accountFrame = document.getElementById("account-frame");
+    const accountTabSignin = document.getElementById("account-tab-signin");
+    const accountTabSignup = document.getElementById("account-tab-signup");
+    const accountStatus = document.getElementById("account-status");
+
+    const accountSessionKey = "fc_account_session";
+    const googleClientId = window.FC_GOOGLE_CLIENT_ID || "";
+    let accountViewSwitchTimer = null;
 
     function formatMoney(value) {
         return `$${value.toFixed(2)}`;
@@ -603,6 +614,193 @@
         cartOverlay.classList.add("hidden");
     }
 
+    function setAccountTab(view) {
+        const isSignin = view === "signin";
+        if (accountTabSignin) {
+            accountTabSignin.classList.toggle("active", isSignin);
+            accountTabSignin.setAttribute("aria-selected", isSignin ? "true" : "false");
+        }
+        if (accountTabSignup) {
+            accountTabSignup.classList.toggle("active", !isSignin);
+            accountTabSignup.setAttribute("aria-selected", !isSignin ? "true" : "false");
+        }
+    }
+
+    function openAccountDrawer(view = "signin") {
+        if (!accountOverlay) {
+            return;
+        }
+
+        // Check if user is logged in
+        const credential = localStorage.getItem("fc_account_credential");
+        const profile = JSON.parse(localStorage.getItem("fc_profile") || "null");
+
+        if (credential && profile) {
+            showAccountLoading(profile, 320);
+        } else {
+            document.getElementById("account-title").textContent = "Account";
+            document.getElementById("account-subtitle").textContent = "Sign in or create your account";
+            showAccountView("auth");
+
+            const accountFrame = document.getElementById("account-frame");
+            if (accountFrame) {
+                const frameSrc = view === "signup" ? "signup.html" : "signin.html";
+                if (!accountFrame.src.endsWith(`/${frameSrc}`)) {
+                    accountFrame.src = frameSrc;
+                }
+                setAccountTab(view);
+            }
+        }
+
+        accountOverlay.classList.remove("hidden");
+        accountOverlay.setAttribute("aria-hidden", "false");
+        requestAnimationFrame(() => {
+            accountOverlay.classList.add("open");
+        });
+    }
+
+    function closeAccountDrawer() {
+        if (!accountOverlay) {
+            return;
+        }
+        clearAccountViewSwitchTimer();
+        accountOverlay.classList.remove("open");
+        accountOverlay.setAttribute("aria-hidden", "true");
+        window.setTimeout(() => {
+            accountOverlay.classList.add("hidden");
+        }, 280);
+    }
+
+    function setAccountStatus(message) {
+        if (accountStatus) {
+            accountStatus.textContent = message;
+        }
+    }
+
+    function clearAccountViewSwitchTimer() {
+        if (accountViewSwitchTimer !== null) {
+            window.clearTimeout(accountViewSwitchTimer);
+            accountViewSwitchTimer = null;
+        }
+    }
+
+    function showAccountView(viewName) {
+        const views = {
+            auth: document.getElementById("auth-view"),
+            loading: document.getElementById("account-loading-view"),
+            profile: document.getElementById("profile-view")
+        };
+
+        Object.entries(views).forEach(([name, element]) => {
+            if (!element) {
+                return;
+            }
+            const isActive = name === viewName;
+            element.classList.toggle("hidden", !isActive);
+            element.setAttribute("aria-hidden", isActive ? "false" : "true");
+        });
+    }
+
+    function showAccountLoading(profile, delay = 420) {
+        document.getElementById("account-title").textContent = "Loading Account";
+        document.getElementById("account-subtitle").textContent = "Preparing your profile";
+        showAccountView("loading");
+        clearAccountViewSwitchTimer();
+
+        accountViewSwitchTimer = window.setTimeout(() => {
+            updateAccountProfileView(profile);
+            showAccountView("profile");
+            accountViewSwitchTimer = null;
+        }, delay);
+    }
+
+    function updateAccountProfileView(profile) {
+        document.getElementById("account-user-name").textContent = profile.name || "User";
+        document.getElementById("account-user-email").textContent = profile.email || "";
+        if (profile.picture) {
+            document.getElementById("account-profile-pic").src = profile.picture;
+        }
+        document.getElementById("account-title").textContent = "My Account";
+        document.getElementById("account-subtitle").textContent = profile.name || "Profile";
+    }
+
+    function switchAccountView(nextView, delay = 180) {
+        clearAccountViewSwitchTimer();
+
+        if (delay <= 0) {
+            showAccountView(nextView);
+            return;
+        }
+
+        accountViewSwitchTimer = window.setTimeout(() => {
+            showAccountView(nextView);
+            accountViewSwitchTimer = null;
+        }, delay);
+    }
+
+    function decodeJwtPayload(jwtToken) {
+        try {
+            const payloadPart = jwtToken.split(".")[1];
+            const normalized = payloadPart.replace(/-/g, "+").replace(/_/g, "/");
+            const json = decodeURIComponent(atob(normalized).split("").map((char) => `%${(`00${char.charCodeAt(0).toString(16)}`).slice(-2)}`).join(""));
+            return JSON.parse(json);
+        } catch (_) {
+            return null;
+        }
+    }
+
+    function saveAccountSession(account) {
+        localStorage.setItem(accountSessionKey, JSON.stringify(account));
+    }
+
+    function handleGoogleCredentialResponse(response) {
+        if (!response || !response.credential) {
+            setAccountStatus("Google sign-in failed. Please try again.");
+            return;
+        }
+
+        const profile = decodeJwtPayload(response.credential);
+        if (!profile) {
+            setAccountStatus("Google response was invalid.");
+            return;
+        }
+
+        const account = {
+            provider: "google",
+            email: profile.email || "",
+            name: profile.name || "Google User",
+            picture: profile.picture || "",
+            signedInAt: new Date().toISOString()
+        };
+
+        saveAccountSession(account);
+        setAccountStatus(`Signed in as ${account.name}`);
+        closeAccountDrawer();
+    }
+
+    function setupGoogleAccountButton() {
+        const triggerGoogleAuth = () => {
+            if (!googleClientId) {
+                alert("Google sign-in is not configured yet.");
+                return;
+            }
+            if (!(window.google && window.google.accounts && window.google.accounts.id)) {
+                alert("Google SDK is not ready yet. Refresh and try again.");
+                return;
+            }
+
+            window.google.accounts.id.initialize({
+                client_id: googleClientId,
+                callback: handleGoogleCredentialResponse,
+                auto_select: false,
+                cancel_on_tap_outside: true
+            });
+            window.google.accounts.id.prompt();
+        };
+
+        window.triggerGoogleAuthFromAccountFrame = triggerGoogleAuth;
+    }
+
     function openProductModal(productId) {
         const product = products.find((item) => item.id === Number(productId));
         if (!product) {
@@ -626,12 +824,40 @@
 
         productModal.classList.remove("hidden");
         productModal.setAttribute("aria-hidden", "false");
+
+        const currentUrl = new URL(window.location.href);
+        if (currentUrl.searchParams.get("product") !== String(product.id)) {
+            currentUrl.searchParams.set("product", String(product.id));
+            window.history.replaceState({}, "", currentUrl.toString());
+        }
     }
 
     function closeProductModal() {
         productModal.classList.add("hidden");
         productModal.setAttribute("aria-hidden", "true");
         activeModalProductId = null;
+
+        const currentUrl = new URL(window.location.href);
+        if (currentUrl.searchParams.has("product")) {
+            currentUrl.searchParams.delete("product");
+            window.history.replaceState({}, "", currentUrl.toString());
+        }
+    }
+
+    function getProductIdFromUrl() {
+        const params = new URLSearchParams(window.location.search);
+        const rawId = params.get("product");
+        if (!rawId) {
+            return null;
+        }
+
+        const productId = Number(rawId);
+        if (!Number.isInteger(productId)) {
+            return null;
+        }
+
+        const exists = products.some((item) => item.id === productId);
+        return exists ? productId : null;
     }
 
     function getShareUrl(product) {
@@ -878,20 +1104,76 @@
         // Send email in background (best-effort — don't block redirect)
         sendOrderEmail(recentOrder).catch(() => {});
 
-        // Redirect to recent orders page
-        window.location.href = "recentorders.html";
+        // Redirect to order success page
+        window.location.href = "order-success.html";
     }
 
-    function setupGoogleQuickLogin() {
+    function setupAccountDrawer() {
         if (accountBtn) {
-            accountBtn.addEventListener("click", () => {
-                if (window.google && window.google.accounts && window.google.accounts.id) {
-                    window.google.accounts.id.prompt();
-                } else {
-                    alert("Google quick login is not available yet. Please try again in a moment.");
+            accountBtn.addEventListener("click", () => openAccountDrawer("signin"));
+        }
+        if (closeAccountBtn) {
+            closeAccountBtn.addEventListener("click", closeAccountDrawer);
+        }
+        if (accountBackdrop) {
+            accountBackdrop.addEventListener("click", closeAccountDrawer);
+        }
+        if (accountTabSignin) {
+            accountTabSignin.addEventListener("click", () => openAccountDrawer("signin"));
+        }
+        if (accountTabSignup) {
+            accountTabSignup.addEventListener("click", () => openAccountDrawer("signup"));
+        }
+        window.addEventListener("message", (event) => {
+            if (event.origin !== window.location.origin) {
+                return;
+            }
+            if (event.data && event.data.type === "request-google-auth") {
+                if (typeof window.triggerGoogleAuthFromAccountFrame === "function") {
+                    window.triggerGoogleAuthFromAccountFrame();
                 }
+                return;
+            }
+            if (!event.data || event.data.type !== "account-saved") {
+                return;
+            }
+
+            const profile = JSON.parse(localStorage.getItem("fc_profile") || "null");
+            if (profile) {
+                showAccountLoading(profile, 520);
+            }
+        });
+
+        const savedSession = localStorage.getItem(accountSessionKey);
+        if (savedSession) {
+            try {
+                const session = JSON.parse(savedSession);
+                if (session && session.name) {
+                    setAccountStatus(`Signed in as ${session.name}`);
+                }
+            } catch (_) {
+                // Ignore malformed storage value.
+            }
+        }
+
+        // Logout button
+        const logoutBtn = document.getElementById("logout-btn");
+        if (logoutBtn) {
+            logoutBtn.addEventListener("click", () => {
+                localStorage.removeItem("fc_account_credential");
+                localStorage.removeItem("fc_profile");
+
+                document.getElementById("account-title").textContent = "Account";
+                document.getElementById("account-subtitle").textContent = "Sign in or create your account";
+                showAccountView("auth");
+
+                window.setTimeout(() => {
+                    closeAccountDrawer();
+                }, 160);
             });
         }
+
+        setupGoogleAccountButton();
     }
 
     function bindEvents() {
@@ -1071,8 +1353,13 @@
         updateCartCount();
         renderCart();
         bindEvents();
-        setupGoogleQuickLogin();
+        setupAccountDrawer();
         updatePaymentMethodUI();
+
+        const productIdFromUrl = getProductIdFromUrl();
+        if (productIdFromUrl) {
+            openProductModal(productIdFromUrl);
+        }
     }
 
     document.addEventListener("DOMContentLoaded", init);

@@ -1,10 +1,11 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Recent Orders - BONDS MALL</title>
   <link rel="stylesheet" href="recentorders.css" />
+  <link rel="stylesheet" href="site-footer.css" />
 </head>
 <body>
   <header>
@@ -16,7 +17,7 @@
     <section id="order-summary" class="container">
       <div class="order-header-row">
         <div>
-          <h1>Order Confirmed ✓</h1>
+          <h1>Order Confirmed &#10003;</h1>
           <p id="order-date" class="order-date"></p>
         </div>
         <div id="order-id-badge" class="order-id-badge"></div>
@@ -33,7 +34,7 @@
 
       <div class="info-grid">
         <section id="delivery-info" class="delivery-info">
-          <h2>📦 Delivery</h2>
+          <h2>&#128230; Delivery</h2>
           <p><strong>Name:</strong> <span id="delivery-name"></span></p>
           <p><strong>Email:</strong> <span id="delivery-email"></span></p>
           <p><strong>Phone:</strong> <span id="delivery-phone"></span></p>
@@ -45,7 +46,7 @@
         </section>
 
         <section id="payment-info" class="delivery-info">
-          <h2>💳 Payment</h2>
+          <h2>&#128179; Payment</h2>
           <p><strong>Method:</strong> <span id="pay-method"></span></p>
           <p><strong>Card:</strong> <span id="pay-card"></span></p>
           <p><strong>Cardholder:</strong> <span id="pay-cardholder"></span></p>
@@ -56,6 +57,37 @@
     </section>
   </main>
 
+  <footer class="site-footer">
+    <div class="site-footer-top">
+        <div class="site-footer-brand-wrap">
+            <div class="site-footer-brand">BONDS MALL</div>
+            <p class="site-footer-tagline">Premium commerce platform with trusted checkout and support.</p>
+        </div>
+        <div class="site-footer-stickers" aria-label="Trust stickers">
+            <span class="sticker">Secure Payments</span>
+            <span class="sticker">24/7 Support</span>
+            <span class="sticker">Verified Store</span>
+        </div>
+    </div>
+    <nav class="site-footer-menu" aria-label="Footer menu">
+        <a href="customer-service.html"><span class="footer-icon" aria-hidden="true">CS</span>Customer Service</a>
+        <a href="faq.html"><span class="footer-icon" aria-hidden="true">FQ</span>FAQ</a>
+        <a href="dispute-center.html"><span class="footer-icon" aria-hidden="true">DC</span>Dispute Center</a>
+        <a href="careers.html"><span class="footer-icon" aria-hidden="true">CR</span>Careers</a>
+        <a href="partner.html"><span class="footer-icon" aria-hidden="true">PT</span>Partner</a>
+        <a href="affiliate.html"><span class="footer-icon" aria-hidden="true">AF</span>Affiliate</a>
+        <a href="link-bank-account.html"><span class="footer-icon" aria-hidden="true">BK</span>Link Bank Account</a>
+        <a href="profile.html"><span class="footer-icon" aria-hidden="true">PR</span>Profile</a>
+        <a href="order-history.html"><span class="footer-icon" aria-hidden="true">OH</span>Order History</a>
+        <a href="track-order.html"><span class="footer-icon" aria-hidden="true">TM</span>Track Order</a>
+        <a href="rewards.html"><span class="footer-icon" aria-hidden="true">RW</span>Rewards</a>
+        <a href="recentorders.html"><span class="footer-icon" aria-hidden="true">RO</span>Recent Orders</a>
+    </nav>
+</footer>
+
   <script src="recentorders.js"></script>
 </body>
 </html>
+
+
+

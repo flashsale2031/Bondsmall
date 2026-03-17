@@ -1,0 +1,435 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - BONDS MALL</title>
+    <link rel="stylesheet" href="support-pages.css">
+    <link rel="stylesheet" href="site-footer.css">
+    <style>
+        .profile-container {
+            max-width: 800px;
+        }
+
+        .profile-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: #fffdf8;
+            border: 1px solid #e9dece;
+            border-radius: 14px;
+        }
+
+        .profile-pic-section {
+            flex: 0 0 auto;
+        }
+
+        .profile-picture {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: #f4ebdd;
+            border: 3px solid #e9dece;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #5c5348;
+            font-size: 3rem;
+            overflow: hidden;
+            object-fit: cover;
+        }
+
+        .pic-actions {
+            display: grid;
+            gap: 0.5rem;
+            margin-top: 0.75rem;
+        }
+
+        .pic-btn {
+            padding: 0.5rem 0.75rem;
+            font-size: 0.8rem;
+            border: 1px solid #d7c5af;
+            background: #fff;
+            border-radius: 8px;
+            cursor: pointer;
+            text-align: center;
+            color: #1f1a14;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+
+        .pic-btn:hover {
+            background: #f4ebdd;
+            border-color: #c0aea1;
+        }
+
+        .pic-btn.delete {
+            background: #f0e7db;
+            color: #8c2f39;
+            border-color: #d7c5af;
+        }
+
+        .pic-btn.delete:hover {
+            background: #e8d9ca;
+        }
+
+        #pic-input {
+            display: none;
+        }
+
+        .profile-info {
+            flex: 1;
+        }
+
+        .profile-field {
+            margin-bottom: 1rem;
+        }
+
+        .field-label {
+            font-weight: 700;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: #6f6356;
+            margin-bottom: 0.3rem;
+            display: block;
+        }
+
+        .field-value {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+        }
+
+        .field-text {
+            flex: 1;
+            padding: 0.6rem 0.8rem;
+            border: 1px solid #e9dece;
+            background: #fff;
+            border-radius: 10px;
+            color: #1f1a14;
+            font-weight: 600;
+        }
+
+        .edit-btn {
+            padding: 0.6rem 1rem;
+            background: #212121;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            font-weight: 700;
+            cursor: pointer;
+            font-size: 0.85rem;
+        }
+
+        .edit-btn:hover {
+            opacity: 0.85;
+        }
+
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-overlay.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: #fffdf8;
+            border: 1px solid #e9dece;
+            border-radius: 14px;
+            padding: 2rem;
+            max-width: 500px;
+            width: 90%;
+            box-shadow: 0 10px 40px rgba(22, 16, 8, 0.15);
+        }
+
+        .modal-content h2 {
+            margin: 0 0 1.25rem;
+            color: #1f1a14;
+        }
+
+        .modal-input {
+            width: 100%;
+            padding: 0.7rem 0.8rem;
+            border: 1px solid #d7c5af;
+            border-radius: 10px;
+            font-size: 0.92rem;
+            margin-bottom: 1rem;
+            font-family: inherit;
+        }
+
+        .modal-actions {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.75rem;
+        }
+
+        .modal-actions button {
+            padding: 0.7rem;
+            border: none;
+            border-radius: 10px;
+            font-weight: 700;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        .modal-actions .primary {
+            background: #212121;
+            color: #fff;
+        }
+
+        .modal-actions .secondary {
+            background: #f4ebdd;
+            color: #2a2218;
+            border: 1px solid #d7c5af;
+        }
+
+        .danger-zone {
+            background: #fff5f5;
+            border: 2px solid #8c2f39;
+            border-radius: 14px;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .danger-zone h3 {
+            margin: 0 0 0.5rem;
+            color: #8c2f39;
+            font-weight: 700;
+        }
+
+        .danger-zone p {
+            margin: 0 0 1rem;
+            color: #5c5348;
+            font-size: 0.9rem;
+        }
+
+        .danger-btn {
+            width: 100%;
+            padding: 0.8rem;
+            background: #8c2f39;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            font-weight: 700;
+            cursor: pointer;
+            font-size: 0.95rem;
+        }
+
+        .danger-btn:hover {
+            opacity: 0.85;
+        }
+
+        .feedback-msg {
+            min-height: 1rem;
+            margin-top: 0.75rem;
+            font-size: 0.9rem;
+            color: #1f7a46;
+        }
+
+        .feedback-msg.error {
+            color: #8c2f39;
+        }
+    </style>
+</head>
+<body data-page="profile">
+    <header class="support-header">
+        <div class="brand">BONDS MALL</div>
+        <a href="bondsmall.html">Back to Home</a>
+    </header>
+
+    <main class="support-shell profile-container">
+        <section class="card">
+            <div class="eyebrow">Account</div>
+            <h1>Your Profile</h1>
+            <p>Manage your account details and preferences</p>
+        </section>
+
+        <section class="profile-header">
+            <div class="profile-pic-section">
+                <img id="profile-pic" class="profile-picture" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='35' r='20' fill='%236f6356'/%3E%3Cellipse cx='50' cy='75' rx='28' ry='22' fill='%236f6356'/%3E%3C/svg%3E" alt="Profile picture">
+                <input type="file" id="pic-input" accept="image/*">
+                <div class="pic-actions">
+                    <button class="pic-btn" id="upload-pic-btn">Upload Photo</button>
+                    <button class="pic-btn delete" id="remove-pic-btn">Remove</button>
+                </div>
+            </div>
+
+            <div class="profile-info">
+                <div class="profile-field">
+                    <label class="field-label">Username</label>
+                    <div class="field-value">
+                        <span class="field-text" id="username-display">user@bonds</span>
+                        <button class="edit-btn" id="edit-username-btn">Edit</button>
+                    </div>
+                </div>
+
+                <div class="profile-field">
+                    <label class="field-label">Full Name</label>
+                    <div class="field-value">
+                        <span class="field-text" id="name-display">John Doe</span>
+                        <button class="edit-btn" id="edit-name-btn">Edit</button>
+                    </div>
+                </div>
+
+                <div class="profile-field">
+                    <label class="field-label">Email</label>
+                    <div class="field-value">
+                        <span class="field-text" id="email-display">user@example.com</span>
+                        <button class="edit-btn" id="edit-email-btn">Edit</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Shipping Address</h2>
+            <div class="form-grid">
+                <div>
+                    <label class="field-label">Street Address</label>
+                    <div class="field-value">
+                        <span class="field-text" id="address-display">123 Main Street</span>
+                        <button class="edit-btn" id="edit-address-btn">Edit</button>
+                    </div>
+                </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;">
+                    <div>
+                        <label class="field-label">City</label>
+                        <span class="field-text" id="city-display" style="display: block; padding: 0.6rem 0.8rem; background: #fff;">New York</span>
+                    </div>
+                    <div>
+                        <label class="field-label">State</label>
+                        <span class="field-text" id="state-display" style="display: block; padding: 0.6rem 0.8rem; background: #fff;">NY</span>
+                    </div>
+                </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;">
+                    <div>
+                        <label class="field-label">ZIP Code</label>
+                        <span class="field-text" id="zip-display" style="display: block; padding: 0.6rem 0.8rem; background: #fff;">10001</span>
+                    </div>
+                    <div>
+                        <label class="field-label">Country</label>
+                        <span class="field-text" id="country-display" style="display: block; padding: 0.6rem 0.8rem; background: #fff;">USA</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="danger-zone">
+            <h3>Danger Zone</h3>
+            <p>Deleting your account is permanent and cannot be undone.</p>
+            <button class="danger-btn" id="delete-account-btn">Delete Account</button>
+        </section>
+    </main>
+
+    <!-- Edit Modals -->
+    <div id="username-modal" class="modal-overlay">
+        <div class="modal-content">
+            <h2>Edit Username</h2>
+            <input type="text" id="username-input" class="modal-input" placeholder="Enter new username">
+            <div class="feedback-msg" id="username-feedback"></div>
+            <div class="modal-actions">
+                <button class="secondary" onclick="document.getElementById('username-modal').classList.remove('active')">Cancel</button>
+                <button class="primary" id="save-username-btn">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="name-modal" class="modal-overlay">
+        <div class="modal-content">
+            <h2>Edit Full Name</h2>
+            <input type="text" id="name-input" class="modal-input" placeholder="Enter your full name">
+            <div class="feedback-msg" id="name-feedback"></div>
+            <div class="modal-actions">
+                <button class="secondary" onclick="document.getElementById('name-modal').classList.remove('active')">Cancel</button>
+                <button class="primary" id="save-name-btn">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="email-modal" class="modal-overlay">
+        <div class="modal-content">
+            <h2>Edit Email</h2>
+            <input type="email" id="email-input" class="modal-input" placeholder="Enter your email">
+            <div class="feedback-msg" id="email-feedback"></div>
+            <div class="modal-actions">
+                <button class="secondary" onclick="document.getElementById('email-modal').classList.remove('active')">Cancel</button>
+                <button class="primary" id="save-email-btn">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="address-modal" class="modal-overlay">
+        <div class="modal-content">
+            <h2>Edit Address</h2>
+            <input type="text" id="address-input" class="modal-input" placeholder="Street address">
+            <input type="text" id="city-input" class="modal-input" placeholder="City">
+            <input type="text" id="state-input" class="modal-input" placeholder="State">
+            <input type="text" id="zip-input" class="modal-input" placeholder="ZIP Code">
+            <input type="text" id="country-input" class="modal-input" placeholder="Country">
+            <div class="feedback-msg" id="address-feedback"></div>
+            <div class="modal-actions">
+                <button class="secondary" onclick="document.getElementById('address-modal').classList.remove('active')">Cancel</button>
+                <button class="primary" id="save-address-btn">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="delete-modal" class="modal-overlay">
+        <div class="modal-content">
+            <h2 style="color: #8c2f39;">Delete Account</h2>
+            <p>This action cannot be undone. All your data will be permanently deleted.</p>
+            <p style="font-weight: 700;">Type <strong>DELETE</strong> to confirm:</p>
+            <input type="text" id="delete-confirm-input" class="modal-input" placeholder="Type DELETE">
+            <div class="feedback-msg" id="delete-feedback"></div>
+            <div class="modal-actions">
+                <button class="secondary" onclick="document.getElementById('delete-modal').classList.remove('active')">Cancel</button>
+                <button class="primary" style="background: #8c2f39;" id="confirm-delete-btn">Delete Permanently</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+    <div class="site-footer-top">
+        <div class="site-footer-brand-wrap">
+            <div class="site-footer-brand">BONDS MALL</div>
+            <p class="site-footer-tagline">Premium commerce platform with trusted checkout and support.</p>
+        </div>
+        <div class="site-footer-stickers" aria-label="Trust stickers">
+            <span class="sticker">Secure Payments</span>
+            <span class="sticker">24/7 Support</span>
+            <span class="sticker">Verified Store</span>
+        </div>
+    </div>
+    <nav class="site-footer-menu" aria-label="Footer menu">
+        <a href="customer-service.html"><span class="footer-icon" aria-hidden="true">CS</span>Customer Service</a>
+        <a href="faq.html"><span class="footer-icon" aria-hidden="true">FQ</span>FAQ</a>
+        <a href="dispute-center.html"><span class="footer-icon" aria-hidden="true">DC</span>Dispute Center</a>
+        <a href="careers.html"><span class="footer-icon" aria-hidden="true">CR</span>Careers</a>
+        <a href="partner.html"><span class="footer-icon" aria-hidden="true">PT</span>Partner</a>
+        <a href="affiliate.html"><span class="footer-icon" aria-hidden="true">AF</span>Affiliate</a>
+        <a href="link-bank-account.html"><span class="footer-icon" aria-hidden="true">BK</span>Link Bank Account</a>
+        <a href="profile.html"><span class="footer-icon" aria-hidden="true">PR</span>Profile</a>
+        <a href="order-history.html"><span class="footer-icon" aria-hidden="true">OH</span>Order History</a>
+        <a href="track-order.html"><span class="footer-icon" aria-hidden="true">TM</span>Track Order</a>
+        <a href="rewards.html"><span class="footer-icon" aria-hidden="true">RW</span>Rewards</a>
+        <a href="recentorders.html"><span class="footer-icon" aria-hidden="true">RO</span>Recent Orders</a>
+    </nav>
+</footer>
+
+    <script src="profile.js"></script>
+</body>
+</html>
+

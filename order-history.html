@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order History - BONDS MALL</title>
+    <link rel="stylesheet" href="support-pages.css">
+    <link rel="stylesheet" href="site-footer.css">
+</head>
+<body data-page="order-history">
+    <header class="support-header">
+        <div class="brand">BONDS MALL</div>
+        <a href="bondsmall.html">Back to Home</a>
+    </header>
+
+    <main class="support-shell">
+        <section class="card">
+            <div class="eyebrow">Account</div>
+            <h1>Order History</h1>
+            <p>View all your past orders and their status</p>
+        </section>
+
+        <section class="card" id="filters-section" style="display: none;">
+            <input type="search" id="order-search" placeholder="Search by Order ID..." style="width: 100%; padding: 0.7rem 0.8rem; border: 1px solid #d7c5af; border-radius: 10px; font-size: 0.92rem;">
+        </section>
+
+        <section class="card">
+            <ul id="orders-list" class="case-list"></ul>
+            <div id="empty-state" class="case-empty" style="padding: 1rem; text-align: center;">
+                You haven't placed any orders yet. <a href="bondsmall.html" style="color: #1f4f90; text-decoration: none; font-weight: 700;">Start shopping</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+    <div class="site-footer-top">
+        <div class="site-footer-brand-wrap">
+            <div class="site-footer-brand">BONDS MALL</div>
+            <p class="site-footer-tagline">Premium commerce platform with trusted checkout and support.</p>
+        </div>
+        <div class="site-footer-stickers" aria-label="Trust stickers">
+            <span class="sticker">Secure Payments</span>
+            <span class="sticker">24/7 Support</span>
+            <span class="sticker">Verified Store</span>
+        </div>
+    </div>
+    <nav class="site-footer-menu" aria-label="Footer menu">
+        <a href="customer-service.html"><span class="footer-icon" aria-hidden="true">CS</span>Customer Service</a>
+        <a href="faq.html"><span class="footer-icon" aria-hidden="true">FQ</span>FAQ</a>
+        <a href="dispute-center.html"><span class="footer-icon" aria-hidden="true">DC</span>Dispute Center</a>
+        <a href="careers.html"><span class="footer-icon" aria-hidden="true">CR</span>Careers</a>
+        <a href="partner.html"><span class="footer-icon" aria-hidden="true">PT</span>Partner</a>
+        <a href="affiliate.html"><span class="footer-icon" aria-hidden="true">AF</span>Affiliate</a>
+        <a href="link-bank-account.html"><span class="footer-icon" aria-hidden="true">BK</span>Link Bank Account</a>
+        <a href="profile.html"><span class="footer-icon" aria-hidden="true">PR</span>Profile</a>
+        <a href="order-history.html"><span class="footer-icon" aria-hidden="true">OH</span>Order History</a>
+        <a href="track-order.html"><span class="footer-icon" aria-hidden="true">TM</span>Track Order</a>
+        <a href="rewards.html"><span class="footer-icon" aria-hidden="true">RW</span>Rewards</a>
+        <a href="recentorders.html"><span class="footer-icon" aria-hidden="true">RO</span>Recent Orders</a>
+    </nav>
+</footer>
+
+    <script src="order-history.js"></script>
+</body>
+</html>
+

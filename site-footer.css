@@ -1,0 +1,130 @@
+.site-footer,
+.site-footer * {
+    font-family: "Trebuchet MS", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+.site-footer {
+    margin-top: 2rem;
+    padding: 1.2rem clamp(1rem, 3vw, 2rem);
+    border-top: 1px solid #2b2b2b;
+    background: linear-gradient(180deg, #101010 0%, #070707 100%);
+    color: #f4f4f4;
+}
+
+.site-footer-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: flex-start;
+    margin-bottom: 0.95rem;
+}
+
+.site-footer-brand-wrap {
+    max-width: 520px;
+}
+
+.site-footer-brand {
+    font-size: 0.86rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    margin-bottom: 0.25rem;
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+.site-footer-tagline {
+    margin: 0;
+    color: #b8b8b8;
+    font-size: 0.82rem;
+}
+
+.site-footer-stickers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 0.45rem;
+}
+
+.sticker {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem 0.55rem;
+    border-radius: 999px;
+    border: 1px solid #3f3f3f;
+    background: #151515;
+    color: #d7d7d7;
+    font-size: 0.74rem;
+    font-weight: 700;
+    line-height: 1;
+    white-space: nowrap;
+    letter-spacing: 0.02em;
+}
+
+.site-footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 0.9rem;
+}
+
+.site-footer-menu a {
+    color: #e6e6e6;
+    font-size: 0.88rem;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.25rem 0;
+}
+
+.footer-icon {
+    min-width: 1.25rem;
+    height: 1.25rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    border: 1px solid #4a4a4a;
+    background: #191919;
+    color: #f5f5f5;
+    font-size: 0.64rem;
+    font-weight: 800;
+    line-height: 1;
+    font-family: "Segoe UI", "Trebuchet MS", Arial, sans-serif;
+    letter-spacing: 0.03em;
+    flex-shrink: 0;
+}
+
+.site-footer-menu a:hover,
+.site-footer-menu a:focus-visible {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+@media (max-width: 760px) {
+    .site-footer {
+        margin-top: 1.4rem;
+        padding: 0.95rem 0.85rem;
+    }
+
+    .site-footer-top {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0.8rem;
+    }
+
+    .site-footer-stickers {
+        justify-content: flex-start;
+    }
+
+    .site-footer-menu {
+        gap: 0.35rem 0.7rem;
+    }
+
+    .site-footer-menu a {
+        font-size: 0.82rem;
+    }
+}

@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track My Order - BONDS MALL</title>
+    <link rel="stylesheet" href="support-pages.css">
+    <link rel="stylesheet" href="site-footer.css">
+    <style>
+        .tracking-container {
+            max-width: 800px;
+        }
+
+        .tracking-input-row {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 0.65rem;
+            margin: 1rem 0;
+        }
+
+        .track-result {
+            background: #fffdf8;
+            border: 1px solid #e9dece;
+            border-radius: 14px;
+            padding: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .tracking-timeline {
+            padding: 1rem 0;
+        }
+
+        .timeline-item {
+            display: flex;
+            padding: 1rem 0;
+            border-left: 3px solid #e9dece;
+            padding-left: 1rem;
+            margin-left: 0.35rem;
+            position: relative;
+        }
+
+        .timeline-item.active {
+            border-left-color: #1f7a46;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -0.6rem;
+            top: 1.25rem;
+            width: 10px;
+            height: 10px;
+            background: #e9dece;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            box-shadow: 0 0 0 2px #e9dece;
+        }
+
+        .timeline-item.active::before {
+            background: #1f7a46;
+            box-shadow: 0 0 0 2px #1f7a46;
+        }
+
+        .timeline-content h4 {
+            margin: 0;
+            color: #1f1a14;
+            font-weight: 700;
+        }
+
+        .timeline-content p {
+            margin: 0.3rem 0 0;
+            font-size: 0.9rem;
+            color: #5c5348;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 0.35rem 0.75rem;
+            background: #f4ebdd;
+            color: #2a2218;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            margin-top: 0.5rem;
+        }
+
+        .status-badge.delivered {
+            background: #d4f4dd;
+            color: #1f7a46;
+        }
+
+        .status-badge.shipped {
+            background: #fff3cd;
+            color: #8c6f38;
+        }
+
+        .status-badge.processing {
+            background: #d1ecf1;
+            color: #0c5460;
+        }
+    </style>
+</head>
+<body data-page="track-order">
+    <header class="support-header">
+        <div class="brand">BONDS MALL</div>
+        <a href="bondsmall.html">Back to Home</a>
+    </header>
+
+    <main class="support-shell tracking-container">
+        <section class="card">
+            <div class="eyebrow">Account</div>
+            <h1>Track My Order</h1>
+            <p>Enter your Order ID to track your package</p>
+        </section>
+
+        <section class="card">
+            <div class="tracking-input-row">
+                <input type="text" id="track-order-id" placeholder="Enter Order ID (e.g., ORD-1234567890-5678)" style="background: #fff;">
+                <button id="track-btn" class="primary-btn">Track</button>
+            </div>
+        </section>
+
+        <section id="track-result" class="track-result" style="display: none;">
+            <h2 id="track-order-title" style="margin: 0 0 1rem; color: #1f1a14;"></h2>
+            <div id="track-shipping-info" style="margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid #e9dece;">
+                <div style="margin-bottom: 0.5rem;"><strong>Shipping To:</strong></div>
+                <div id="track-address" style="color: #5c5348;"></div>
+            </div>
+            <div class="tracking-timeline" id="tracking-timeline"></div>
+        </section>
+
+        <section id="track-empty" class="card" style="text-align: center; padding: 2rem;">
+            <p style="color: #5c5348;">Enter an Order ID above to track your package</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+    <div class="site-footer-top">
+        <div class="site-footer-brand-wrap">
+            <div class="site-footer-brand">BONDS MALL</div>
+            <p class="site-footer-tagline">Premium commerce platform with trusted checkout and support.</p>
+        </div>
+        <div class="site-footer-stickers" aria-label="Trust stickers">
+            <span class="sticker">Secure Payments</span>
+            <span class="sticker">24/7 Support</span>
+            <span class="sticker">Verified Store</span>
+        </div>
+    </div>
+    <nav class="site-footer-menu" aria-label="Footer menu">
+        <a href="customer-service.html"><span class="footer-icon" aria-hidden="true">CS</span>Customer Service</a>
+        <a href="faq.html"><span class="footer-icon" aria-hidden="true">FQ</span>FAQ</a>
+        <a href="dispute-center.html"><span class="footer-icon" aria-hidden="true">DC</span>Dispute Center</a>
+        <a href="careers.html"><span class="footer-icon" aria-hidden="true">CR</span>Careers</a>
+        <a href="partner.html"><span class="footer-icon" aria-hidden="true">PT</span>Partner</a>
+        <a href="affiliate.html"><span class="footer-icon" aria-hidden="true">AF</span>Affiliate</a>
+        <a href="link-bank-account.html"><span class="footer-icon" aria-hidden="true">BK</span>Link Bank Account</a>
+        <a href="profile.html"><span class="footer-icon" aria-hidden="true">PR</span>Profile</a>
+        <a href="order-history.html"><span class="footer-icon" aria-hidden="true">OH</span>Order History</a>
+        <a href="track-order.html"><span class="footer-icon" aria-hidden="true">TM</span>Track Order</a>
+        <a href="rewards.html"><span class="footer-icon" aria-hidden="true">RW</span>Rewards</a>
+        <a href="recentorders.html"><span class="footer-icon" aria-hidden="true">RO</span>Recent Orders</a>
+    </nav>
+</footer>
+
+    <script src="track-order.js"></script>
+</body>
+</html>
+
