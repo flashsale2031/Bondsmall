@@ -1,0 +1,4 @@
+gmail:bondsmall32@gmail.com
+password:*Bondsmall123
+
+When you live this website please make sure you add URL in client side api so google auth worked otherwise it is not.

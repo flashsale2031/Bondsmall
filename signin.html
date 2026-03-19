@@ -79,10 +79,29 @@
             font-size: 0.86rem;
             margin-top: 0.2rem;
         }
+
+        .google-btn {
+            width: 100%;
+            margin-top: 0.2rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.55rem;
+            background: #ffffff;
+            color: #1f1f1f;
+            border: 1px solid #dadce0;
+            font-weight: 700;
+        }
+
+        .google-icon {
+            width: 18px;
+            height: 18px;
+            display: inline-block;
+        }
     </style>
 </head>
 <body>
-    <div id="success-modal" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.5); z-index: 1000; display: flex; align-items: center; justify-content: center;">
+    <div id="success-modal" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.5); z-index: 1000; align-items: center; justify-content: center;">
         <div style="background: #fffdf8; border-radius: 16px; padding: 2rem; text-align: center; max-width: 400px; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);">
             <div style="font-size: 3rem; margin-bottom: 1rem; color: #1f7a46;">✓</div>
             <h2 id="success-title" style="margin: 0 0 0.5rem; color: #1f7a46; font-size: 1.5rem;">Welcome Back!</h2>
@@ -99,6 +118,15 @@
             <input type="password" id="signin-password" placeholder="Password" required>
             <button type="submit">Sign In</button>
         </form>
+        <button id="signin-google-btn" class="google-btn" type="button" aria-label="Sign in with Google">
+            <svg class="google-icon" viewBox="0 0 48 48" aria-hidden="true">
+                <path fill="#EA4335" d="M24 9.5c3.1 0 5.9 1.1 8.1 3.2l6-6C34.3 3.1 29.5 1 24 1 14.6 1 6.5 6.4 2.6 14.3l7 5.4C11.6 13.5 17.3 9.5 24 9.5z"/>
+                <path fill="#4285F4" d="M46.1 24.5c0-1.6-.1-3.1-.4-4.5H24v9h12.4c-.5 2.9-2.1 5.4-4.5 7.1l6.9 5.3c4-3.7 6.3-9.2 6.3-16.9z"/>
+                <path fill="#FBBC05" d="M9.6 28.3c-.5-1.4-.8-2.8-.8-4.3s.3-2.9.8-4.3l-7-5.4C1 17.3 0 20.6 0 24s1 6.7 2.6 9.7l7-5.4z"/>
+                <path fill="#34A853" d="M24 47c6.5 0 12-2.1 16-5.8l-6.9-5.3c-1.9 1.3-4.4 2.1-9.1 2.1-6.7 0-12.4-4-14.4-10.2l-7 5.4C6.5 41.6 14.6 47 24 47z"/>
+            </svg>
+            <span>Sign In With Google</span>
+        </button>
         <p id="signin-feedback" class="feedback" aria-live="polite"></p>
     </section>
 
@@ -169,6 +197,12 @@
                 }
                 closeSuccessModal();
             }, 2000);
+        });
+
+        document.getElementById("signin-google-btn").addEventListener("click", function () {
+            if (window.parent && window.parent !== window) {
+                window.parent.postMessage({ type: "request-google-auth" }, window.location.origin);
+            }
         });
     </script>
 </body>
