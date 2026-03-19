@@ -9,6 +9,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="https://accounts.google.com/gsi/client" async defer></script>
     <script src="products.js" defer></script>
+    <script src="auth.js" defer></script>
+    <script src="bondsmall-account.js" defer></script>
     <script src="bondsmall.js" defer></script>
 </head>
 <body>
@@ -198,6 +200,9 @@
                 </div>
                 <iframe id="account-frame" class="account-frame" title="Account form" src="signin.html"></iframe>
             </div>
+
+            <p id="account-status" aria-live="polite" style="margin: 0 1rem 1rem; color: #1f7a46; font-size: 0.9rem;"></p>
+            <pre id="account-debug" style="display: none; margin: 0 1rem 1rem; white-space: pre-wrap; word-break: break-word; font-size: 0.75rem; line-height: 1.35; color: #7b2f2f; background: #fff4f4; border: 1px solid #efcece; border-radius: 8px; padding: 0.6rem;"></pre>
 
             <div id="account-loading-view" class="account-view hidden" aria-hidden="true">
                 <div class="account-loading-shell" aria-label="Loading account details">
