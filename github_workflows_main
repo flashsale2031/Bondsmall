@@ -1,5 +1,0 @@
-
-- name: Call ImprovMX API
-  run: |
-    curl -u "api:${{ secrets.IMPROVMX_KEY }}" \
-    -X GET https://api.improvmx.com/v2/domains/
