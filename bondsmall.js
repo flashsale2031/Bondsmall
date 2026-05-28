@@ -63,14 +63,11 @@
     const paymentFeedback = document.getElementById("payment-feedback");
 
     const productModal = document.getElementById("product-modal");
-    const modalClose = document.getElementById("modal-close");
-    const modalMainImage = document.getElementById("modal-main-image");
-    const modalThumbs = document.getElementById("modal-thumbs");
-    const modalTitle = document.getElementById("modal-title");
-    const modalCategory = document.getElementById("modal-category");
-    const modalDescription = document.getElementById("modal-description");
-    const modalPrice = document.getElementById("modal-price");
+    const modalClose = document.getElementById("modal-close"); // may be null (X button removed)
     const modalAddBtn = document.getElementById("modal-add-btn");
+    const popupHeaderSearch = document.getElementById("popup-header-search");
+    const popupSearchResults = document.getElementById("popup-search-results");
+    const popupBackBtn = document.getElementById("popup-back-btn");
 
     const accountBtn = document.getElementById("account-btn");
     const accountOverlay = document.getElementById("account-overlay");
@@ -91,7 +88,7 @@
     const preloadedImages = new Set();
 
     function formatMoney(value) {
-        return `$${value.toFixed(2)}`;
+        return `$${Number(value).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
     }
 
     function normalize(text) {
@@ -578,6 +575,68 @@
     }
 }
 
+    function getFavorites() {
+        try {
+            return JSON.parse(localStorage.getItem("fc_favorites") || "[]");
+        } catch (_) {
+            return [];
+        }
+    }
+
+    function toggleFavorite(productId) {
+        const id = Number(productId);
+        let favs = getFavorites();
+        if (favs.includes(id)) {
+            favs = favs.filter(fId => fId !== id);
+        } else {
+            favs.push(id);
+        }
+        localStorage.setItem("fc_favorites", JSON.stringify(favs));
+        updateFavoritesUI();
+    }
+
+    function updateFavoritesUI() {
+        const favs = getFavorites();
+        
+        // 1. Update the heart icons on the product cards
+        document.querySelectorAll(".fav-btn").forEach(btn => {
+            const id = Number(btn.dataset.id);
+            const isFav = favs.includes(id);
+            btn.classList.toggle("is-active", isFav);
+            const svg = btn.querySelector("svg");
+            if (svg) {
+                svg.setAttribute("fill", isFav ? "#8c2f39" : "none");
+                svg.setAttribute("stroke", isFav ? "#8c2f39" : "currentColor");
+            }
+        });
+
+        // 2. Render the Favorites list in the account drawer
+        const favListEl = document.getElementById("account-favorites-list");
+        if (favListEl) {
+            if (favs.length === 0) {
+                favListEl.innerHTML = '<p class="favorites-empty" style="font-size: 0.82rem; color: #665f57; margin: 0; font-style: italic;">Your favorite list is empty.</p>';
+            } else {
+                const favProducts = products.filter(p => favs.includes(p.id));
+                if (favProducts.length === 0) {
+                    favListEl.innerHTML = '<p class="favorites-empty" style="font-size: 0.82rem; color: #665f57; margin: 0; font-style: italic;">Your favorite list is empty.</p>';
+                } else {
+                    favListEl.innerHTML = favProducts.map(p => `
+                        <div class="fav-item" style="display: flex; align-items: center; gap: 0.65rem; padding: 0.45rem; border: 1px solid #eadfce; border-radius: 8px; background: #fff; margin-bottom: 0.5rem;">
+                            <img src="${p.image}" alt="${p.name}" style="width: 40px; height: 40px; object-fit: cover; border-radius: 6px; cursor: pointer;" onclick="window.BondsMallOpenProductById(${p.id})">
+                            <div style="flex: 1; min-width: 0; cursor: pointer;" onclick="window.BondsMallOpenProductById(${p.id})">
+                                <div style="font-size: 0.82rem; font-weight: 700; color: #1c1b1a; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${p.name}</div>
+                                <div style="font-size: 0.78rem; font-weight: 800; color: #1f7a46; margin-top: 0.1rem;">$${Number(p.price).toFixed(2)}</div>
+                            </div>
+                            <button data-action="remove-fav" data-id="${p.id}" style="background: none; border: none; color: #665f57; cursor: pointer; padding: 0.2rem; font-size: 0.95rem; display: flex; align-items: center; justify-content: center;" aria-label="Remove favorite">
+                                &#x2715;
+                            </button>
+                        </div>
+                    `).join("");
+                }
+            }
+        }
+    }
+
     function getFilteredProducts() {
         const globalTerm = normalize(headerSearch.value);
         const categoryTerm = normalize(categorySearch.value);
@@ -607,11 +666,16 @@
 
         productGrid.innerHTML = filtered.map((product, index) => {
             const imageSrc = optimizeGridImageUrl(product.image);
+            const favs = getFavorites();
+            const isFav = favs.includes(product.id);
             return `
             <article class="product-card">
                 <div class="product-image-wrap">
                     <img class="product-image" src="${imageSrc}" alt="${product.name}" width="640" height="640" loading="${index < 8 ? "eager" : "lazy"}" fetchpriority="${index < 4 ? "high" : "auto"}" decoding="async" data-action="open-modal" data-id="${product.id}">
                     <button class="share-btn" data-action="share-product" data-id="${product.id}" aria-label="Share ${product.name}"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg></button>
+                    <button class="fav-btn ${isFav ? "is-active" : ""}" data-action="fav-product" data-id="${product.id}" aria-label="Favorite ${product.name}">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="${isFav ? "#8c2f39" : "none"}" stroke="${isFav ? "#8c2f39" : "currentColor"}" stroke-width="2.3" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                    </button>
                 </div>
                 <div class="product-info">
                     <h3 class="product-name">${product.name}</h3>
@@ -624,9 +688,57 @@
         }).join("");
     }
 
+    function renderPopupSearchResults() {
+        if (!popupSearchResults || !popupHeaderSearch) return;
+
+        const term = normalize(popupHeaderSearch.value);
+
+        if (!term) {
+            popupSearchResults.hidden = true;
+            popupSearchResults.innerHTML = "";
+            return;
+        }
+
+        const matched = products.filter((p) => {
+            const hay = `${p.name} ${p.description || ""} ${categoryLabels[p.category] || p.category}`.toLowerCase();
+            return hay.includes(term);
+        }).slice(0, 20);
+
+        if (matched.length === 0) {
+            popupSearchResults.innerHTML = '<p class="popup-search-no-results">No products found.</p>';
+            popupSearchResults.hidden = false;
+            return;
+        }
+
+        popupSearchResults.innerHTML = matched.map((p) => `
+            <div class="popup-search-result-item" tabindex="0" role="button"
+                 aria-label="View ${p.name}" data-popup-result-id="${p.id}">
+                <img class="popup-search-result-img" src="${optimizeGridImageUrl(p.image)}" alt="" loading="lazy">
+                <div class="popup-search-result-info">
+                    <div class="popup-search-result-name">${p.name}</div>
+                    <div class="popup-search-result-cat">${categoryLabels[p.category] || p.category}</div>
+                </div>
+                <div class="popup-search-result-price">${formatMoney(p.price)}</div>
+            </div>
+        `).join("");
+
+        popupSearchResults.hidden = false;
+    }
+
+    function clearPopupSearch() {
+        if (popupHeaderSearch) popupHeaderSearch.value = "";
+        if (popupSearchResults) {
+            popupSearchResults.hidden = true;
+            popupSearchResults.innerHTML = "";
+        }
+    }
+
     function updateCartCount() {
         const count = cart.reduce((total, item) => total + item.quantity, 0);
         cartCount.textContent = String(count);
+        // Keep popup header cart badge in sync
+        const popupCartCount = document.getElementById("popup-cart-count");
+        if (popupCartCount) popupCartCount.textContent = String(count);
     }
 
     function subtotal() {
@@ -659,12 +771,13 @@
                 <img src="${item.image}" alt="${item.name}">
                 <div>
                     <strong class="cart-item-title">${item.name}</strong>
+                    ${item.condition ? `<span class="cart-item-condition-badge" style="display:inline-block; font-size:0.75rem; background:#1f1f1f; color:#fff; padding:0.15rem 0.4rem; border-radius:4px; font-weight:600; margin-top:0.2rem;">${item.condition}</span>` : ""}
                     <p class="cart-item-price">Unit: ${formatMoney(item.price)}</p>
                     <p class="cart-item-line-total">${formatMoney(item.price * item.quantity)}</p>
                     <div class="qty-row">
-                        <button class="qty-btn" data-action="dec" data-id="${item.id}">-</button>
+                        <button class="qty-btn" data-action="dec" data-id="${item.id}" data-condition="${item.condition || "New"}">-</button>
                         <span class="qty-count">${item.quantity}</span>
-                        <button class="qty-btn" data-action="inc" data-id="${item.id}">+</button>
+                        <button class="qty-btn" data-action="inc" data-id="${item.id}" data-condition="${item.condition || "New"}">+</button>
                     </div>
                 </div>
             </div>
@@ -675,17 +788,22 @@
         updateCheckoutTotals();
     }
 
-    function addToCart(productId) {
+    function addToCart(productId, addQty = 1, condition = "") {
         const product = products.find((item) => item.id === Number(productId));
         if (!product) {
             return;
         }
 
-        const existing = cart.find((item) => item.id === product.id);
+        const raw = Number(addQty);
+        const amount = Number.isFinite(raw) ? Math.min(999, Math.max(1, Math.floor(raw))) : 1;
+
+        const finalCondition = condition || (product.specifications && product.specifications.condition) || "New";
+
+        const existing = cart.find((item) => item.id === product.id && (item.condition || "New") === finalCondition);
         if (existing) {
-            existing.quantity += 1;
+            existing.quantity += amount;
         } else {
-            cart.push({ ...product, quantity: 1 });
+            cart.push({ ...product, quantity: amount, condition: finalCondition });
         }
 
         updateCartCount();
@@ -693,15 +811,16 @@
         openCart();
     }
 
-    function changeQuantity(productId, delta) {
-        const item = cart.find((entry) => entry.id === Number(productId));
+    function changeQuantity(productId, delta, condition = "") {
+        const targetCondition = condition || "New";
+        const item = cart.find((entry) => entry.id === Number(productId) && (entry.condition || "New") === targetCondition);
         if (!item) {
             return;
         }
 
         item.quantity += delta;
         if (item.quantity <= 0) {
-            cart = cart.filter((entry) => entry.id !== item.id);
+            cart = cart.filter((entry) => !(entry.id === item.id && (entry.condition || "New") === targetCondition));
         }
 
         updateCartCount();
@@ -764,19 +883,12 @@
         }
 
         activeModalProductId = product.id;
-        const extra = (product.images || []).filter((u) => u !== product.image);
-        const images = [product.image, ...extra];
 
-        modalTitle.textContent = product.name;
-        modalCategory.textContent = categoryLabels[product.category] || product.category;
-        modalDescription.textContent = product.description || "Great quality item available now.";
-        modalPrice.textContent = formatMoney(product.price);
+        if (typeof window.populateProductPopup === "function") {
+            window.populateProductPopup(product, { categoryLabels });
+        }
 
-        modalMainImage.src = images[0];
-        modalMainImage.alt = product.name;
-        modalThumbs.innerHTML = images.map((imageUrl, index) => `
-            <img src="${imageUrl}" alt="${product.name} view ${index + 1}" class="modal-thumb ${index === 0 ? "active" : ""}" data-img="${imageUrl}">
-        `).join("");
+        clearPopupSearch();
 
         productModal.classList.remove("hidden");
         productModal.setAttribute("aria-hidden", "false");
@@ -792,6 +904,7 @@
         productModal.classList.add("hidden");
         productModal.setAttribute("aria-hidden", "true");
         activeModalProductId = null;
+        clearPopupSearch();
 
         const currentUrl = new URL(window.location.href);
         if (currentUrl.searchParams.has("product")) {
@@ -1026,7 +1139,8 @@
                 category: categoryLabels[item.category] || item.category,
                 quantity: item.quantity,
                 price: item.price,
-                image: item.image
+                image: item.image,
+                condition: item.condition || "New"
             })),
             subtotal: base,
             taxedTotal: withTax,
@@ -1087,6 +1201,29 @@
         if (headerSearch) headerSearch.addEventListener("input", renderProducts);
         if (categorySearch) categorySearch.addEventListener("input", renderProducts);
 
+        if (popupHeaderSearch) {
+            popupHeaderSearch.addEventListener("input", renderPopupSearchResults);
+            popupHeaderSearch.addEventListener("search", renderPopupSearchResults); // fires on clear (x)
+        }
+
+        if (popupSearchResults) {
+            popupSearchResults.addEventListener("click", (e) => {
+                const item = e.target.closest("[data-popup-result-id]");
+                if (!item) return;
+                clearPopupSearch();
+                openProductModal(item.dataset.popupResultId);
+            });
+            popupSearchResults.addEventListener("keydown", (e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                    const item = e.target.closest("[data-popup-result-id]");
+                    if (!item) return;
+                    e.preventDefault();
+                    clearPopupSearch();
+                    openProductModal(item.dataset.popupResultId);
+                }
+            });
+        }
+
         if (categoryButtons) {
             categoryButtons.addEventListener("click", (event) => {
                 const btn = event.target.closest("button[data-category]");
@@ -1121,6 +1258,11 @@
                 if (action === "share-product") {
                     openSharePanel(id, actionTarget);
                 }
+
+                if (action === "fav-product") {
+                    event.stopPropagation();
+                    toggleFavorite(id);
+                }
             });
         }
 
@@ -1131,39 +1273,36 @@
                     return;
                 }
 
+                const id = target.dataset.id;
+                const condition = target.dataset.condition || "New";
+
                 if (target.dataset.action === "inc") {
-                    changeQuantity(target.dataset.id, 1);
+                    changeQuantity(id, 1, condition);
                 }
 
                 if (target.dataset.action === "dec") {
-                    changeQuantity(target.dataset.id, -1);
+                    changeQuantity(id, -1, condition);
                 }
-            });
-        }
-
-        if (modalThumbs) {
-            modalThumbs.addEventListener("click", (event) => {
-                const thumb = event.target.closest(".modal-thumb");
-                if (!thumb) {
-                    return;
-                }
-
-                modalMainImage.src = thumb.dataset.img;
-                document.querySelectorAll(".modal-thumb").forEach((item) => item.classList.remove("active"));
-                thumb.classList.add("active");
             });
         }
 
         if (modalAddBtn) {
             modalAddBtn.addEventListener("click", () => {
                 if (activeModalProductId) {
-                    addToCart(activeModalProductId);
+                    const qtyEl = document.getElementById("quantity");
+                    const rawQty = qtyEl ? Number(qtyEl.value) : 1;
+                    const qty = Number.isFinite(rawQty) ? rawQty : 1;
+                    const conditionEl = document.getElementById("condition-select");
+                    const condition = conditionEl ? conditionEl.value : "New";
+                    addToCart(activeModalProductId, qty, condition);
                 }
                 closeProductModal();
             });
         }
 
         if (modalClose) modalClose.addEventListener("click", closeProductModal);
+        if (popupBackBtn) popupBackBtn.addEventListener("click", closeProductModal);
+
         if (productModal) {
             productModal.addEventListener("click", (event) => {
                 if (event.target.dataset.close === "modal" || event.target === productModal) {
@@ -1173,6 +1312,10 @@
         }
 
         if (cartBtn) cartBtn.addEventListener("click", openCart);
+        const popupCartBtn = document.getElementById("popup-cart-btn");
+        if (popupCartBtn) popupCartBtn.addEventListener("click", openCart);
+        const popupAccountBtn = document.getElementById("popup-account-btn");
+        if (popupAccountBtn) popupAccountBtn.addEventListener("click", () => openAccountDrawer("signin"));
         if (closeCartBtn) closeCartBtn.addEventListener("click", closeCart);
         if (cartBackdrop) cartBackdrop.addEventListener("click", closeCart);
 
@@ -1247,6 +1390,16 @@
         if (applyDiscountBtn) applyDiscountBtn.addEventListener("click", applyDiscount);
         if (payNowBtn) payNowBtn.addEventListener("click", submitOrder);
         if (backToCartBtn) backToCartBtn.addEventListener("click", backToCart);
+
+        const favListEl = document.getElementById("account-favorites-list");
+        if (favListEl) {
+            favListEl.addEventListener("click", (event) => {
+                const target = event.target.closest("[data-action='remove-fav']");
+                if (target) {
+                    toggleFavorite(target.dataset.id);
+                }
+            });
+        }
     }
 
     function init() {
@@ -1257,12 +1410,28 @@
         bindEvents();
         setupAccountDrawer();
         updatePaymentMethodUI();
+        updateFavoritesUI();
 
         const productIdFromUrl = getProductIdFromUrl();
         if (productIdFromUrl) {
             openProductModal(productIdFromUrl);
         }
+
+        /* ── Logo text ↔ image crossfade every 10 seconds ── */
+        setInterval(() => {
+            document.querySelectorAll('.logo').forEach((logoContainer) => {
+                const text = logoContainer.querySelector('.logo-text');
+                const img = logoContainer.querySelector('.logo-img');
+                if (!text || !img) return;
+
+                const showingText = text.classList.contains('logo-face--active');
+                text.classList.toggle('logo-face--active', !showingText);
+                img.classList.toggle('logo-face--active', showingText);
+            });
+        }, 10000);
     }
+
+    window.BondsMallOpenProductById = openProductModal;
 
     document.addEventListener("DOMContentLoaded", init);
 })();

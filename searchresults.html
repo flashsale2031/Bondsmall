@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Search Results</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .product {
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+    .product h3 {
+      margin: 0 0 5px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Search Results</h2>
+  <div id="resultsQuantity"></div>
+  <div id="results"></div>
+
+  <script src="products.js"></script>
+  <script>
+    function getQueryParam(param) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
+    }
+
+    const query = getQueryParam('q')?.toLowerCase() || '';
+
+    const resultsQuantityContainer = document.getElementById('resultsQuantity');
+    const resultsContainer = document.getElementById('results');
+
+    if (!query) {
+      resultsQuantityContainer.textContent = '';
+      resultsContainer.textContent = 'What product are you looking for?';
+    } else {
+      const filteredProducts = products.filter(product =>
+        product.name.toLowerCase().includes(query) ||
+        product.description.toLowerCase().includes(query)
+      );
+
+      // Display the results quantity message
+      resultsQuantityContainer.textContent = `Results for "query":{query}":query":{filteredProducts.length}`;
+
+      if (filteredProducts.length === 0) {
+        resultsContainer.textContent = `No products found for "${query}".`;
+      } else {
+        resultsContainer.textContent = ''; // Clear any previous message
+
+        filteredProducts.forEach(product => {
+          const productDiv = document.createElement('div');
+          productDiv.className = 'product';
+
+          productDiv.innerHTML = `
+            <h3>${product.name}</h3>
+            <p>${product.description}</p>
+            <p><strong>Price:</strong> $${product.price}</p>
+          `;
+
+          resultsContainer.appendChild(productDiv);
+        });
+      }
+    }
+  </script>
+</body>
+
+</html>

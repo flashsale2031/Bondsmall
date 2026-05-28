@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Search</title>
+  <style>
+    /* Basic reset */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    .search-bar-section {
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      padding: 15px;
+      border-radius: 6px;
+      max-width: 900px;
+    }
+
+    .search-bar-row,
+    .price-filter,
+    .dropdown-filters,
+    .deals-filter,
+    .see-results-btn-container {
+      margin-bottom: 15px;
+    }
+
+    /* Search bar input */
+    #search-input {
+      width: 100%;
+      padding: 8px 12px;
+      font-size: 16px;
+      border-radius: 4px;
+      border: 1px solid #aaa;
+    }
+
+    /* Price filter inputs */
+    .price-filter label {
+      font-weight: bold;
+      margin-right: 6px;
+    }
+
+    .price-filter input[type="number"] {
+      width: 120px;
+      padding: 6px 8px;
+      font-size: 14px;
+      border-radius: 4px;
+      border: 1px solid #aaa;
+    }
+
+    .price-filter .price-inputs {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      margin-top: 6px;
+    }
+
+    /* Dropdown filters */
+    .dropdown-filters {
+      display: flex;
+      justify-content: flex-start;
+      gap: 40px;
+    }
+
+    .dropdown-filter {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .dropdown-filter label {
+      font-weight: bold;
+      white-space: nowrap;
+    }
+
+    select {
+      padding: 6px 8px;
+      font-size: 14px;
+      border-radius: 4px;
+      border: 1px solid #aaa;
+      min-width: 180px;
+    }
+
+    /* Deals checklist */
+    .deals-filter label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    .deals-options label {
+      display: block;
+      margin-bottom: 4px;
+      cursor: pointer;
+    }
+
+    /* See Results button */
+    .see-results-btn-container {
+      text-align: center;
+    }
+
+    #see-results-btn {
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 6px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    #see-results-btn:hover {
+      background-color: #0056b3;
+    }
+
+    /* Results display */
+    .results-display {
+      max-width: 900px;
+    }
+
+    .results-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .product-card {
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      background-color: #fafafa;
+    }
+
+    .product-name {
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .product-brand,
+    .product-price,
+    .product-condition,
+    .product-deal {
+      font-size: 14px;
+    }
+
+    /* Pagination */
+    .pagination {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .pagination button {
+      margin: 0 4px;
+      padding: 6px 12px;
+      border-radius: 4px;
+      border: 1px solid #007bff;
+      background-color: white;
+      color: #007bff;
+      cursor: pointer;
+      font-size: 14px;
+      min-width: 36px;
+    }
+
+    .pagination button.active,
+    .pagination button:hover {
+      background-color: #007bff;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <section class="search-bar-section" id="search-bar-section">
+    <div class="search-bar-row">
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Search products by keywords..."
+        aria-label="Search products"
+      />
+    </div>
+
+    <div class="price-filter" aria-label="Price filter section">
+      <div class="price-inputs">
+        <label for="min-price">Min</label>
+        <input
+          type="number"
+          id="min-price"
+          placeholder="Min price"
+          min="0"
+          aria-label="Minimum price"
+        />
+
+        <label for="max-price">Max</label>
+        <input
+          type="number"
+          id="max-price"
+          placeholder="Max price"
+          min="0"
+          aria-label="Maximum price"
+        />
+      </div>
+    </div>
+
+    <div class="dropdown-filters" aria-label="Filter by brand and condition">
+      <div class="dropdown-filter">
+        <label for="brand-select">Brand</label>
+        <select id="brand-select" aria-label="Brand filter">
+          <option value="">All Brands</option>
+        </select>
+      </div>
+
+      <div class="dropdown-filter">
+        <label for="condition-select">Condition</label>
+        <select id="condition-select" aria-label="Condition filter">
+          <option value="">All Conditions</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="deals-filter" aria-label="Deals filter section">
+      <label>Deals</label>
+      <div class="deals-options">
+        <label><input type="checkbox" value="10" /> 10% off</label>
+        <label><input type="checkbox" value="15" /> 15% off</label>
+        <label><input type="checkbox" value="20" /> 20% off</label>
+        <label><input type="checkbox" value="25" /> 25% off</label>
+      </div>
+    </div>
+
+    <div class="see-results-btn-container">
+      <button id="see-results-btn" aria-label="See search results">See Results</button>
+    </div>
+  </section>
+
+  <section class="results-display" id="results-display" aria-live="polite" aria-atomic="true">
+    <div class="results-grid" id="results-grid"></div>
+    <div class="pagination" id="pagination"></div>
+  </section>
+
+  <script src="products.js"></script>
+  <script>
+    (() => {
+      // Constants
+      const RESULTS_PER_PAGE = 18;
+
+      // DOM Elements
+      const searchInput = document.getElementById('search-input');
+      const minPriceInput = document.getElementById('min-price');
+      const maxPriceInput = document.getElementById('max-price');
+      const brandSelect = document.getElementById('brand-select');
+      const conditionSelect = document.getElementById('condition-select');
+      const dealsCheckboxes = [...document.querySelectorAll('.deals-options input[type="checkbox"]')];
+      const seeResultsBtn = document.getElementById('see-results-btn');
+      const resultsGrid = document.getElementById('results-grid');
+      const pagination = document.getElementById('pagination');
+
+      // Products (loaded from products.js)
+      let products = window.products || [];
+
+      // Current filtered results and pagination state
+      let filteredProducts = [];
+      let currentPage = 1;
+
+      // Utility: Get unique values with counts from products array for a given key
+      function getUniqueWithCounts(arr, key) {
+        const countMap = {};
+        arr.forEach((item) => {
+          const val = item[key];
+          if (val) {
+            countMap[val] = (countMap[val] || 0) + 1;
+          }
+        });
+        return Object.entries(countMap).map(([value, count]) => ({ value, count }));
+      }
+
+      // Populate Brand dropdown with unique brands and product counts
+      function populateBrandOptions(filteredForBrand = products) {
+        const uniqueBrands = getUniqueWithCounts(filteredForBrand, 'brand').sort((a, b) =>
+          a.value.localeCompare(b.value)
+        );
+
+        brandSelect.innerHTML = '<option value="">All Brands</option>';
+        uniqueBrands.forEach(({ value, count }) => {
+          const option = document.createElement('option');
+          option.value = value;
+          option.textContent = `value({value} (value({count} Product${count > 1 ? 's' : ''})`;
+          brandSelect.appendChild(option);
+        });
+      }
+
+      // Populate Condition dropdown with unique conditions and counts based on the current keyword filtered products
+      function populateConditionOptions(filteredForCondition = products) {
+        const uniqueConditions = getUniqueWithCounts(filteredForCondition, 'condition').sort((a, b) =>
+          a.value.localeCompare(b.value)
+        );
+
+        conditionSelect.innerHTML = '<option value="">All Conditions</option>';
+        uniqueConditions.forEach(({ value, count }) => {
+          const option = document.createElement('option');
+          option.value = value;
+          option.textContent = `value({value} (value({count} Product${count > 1 ? 's' : ''})`;
+          conditionSelect.appendChild(option);
+        });
+      }
+
+      // Filter products by keyword(s)
+      function filterByKeywords(productsArr, keywords) {
+        if (!keywords) return productsArr;
+        const lowerKeywords = keywords.toLowerCase().trim();
+
+        return productsArr.filter((product) => {
+          // Check if the product fields contain the keywords
+          // For simplicity, check name, brand, condition, and deal description
+          const combinedText =
+            (product.name || '') +
+            ' ' +
+            (product.brand || '') +
+            ' ' +
+            (product.condition || '') +
+            ' ' +
+            (product.dealDescription || '');
+          return combinedText.toLowerCase().includes(lowerKeywords);
+        });
+      }
+
+      // Filter products by Price range
+      function filterByPrice(productsArr, minPrice, maxPrice) {
+        return productsArr.filter((product) => {
+          const price = parseFloat(product.price);
+          if (isNaN(price)) return false;
+          if (minPrice !== null && price < minPrice) return false;
+          if (maxPrice !== null && price > maxPrice) return false;
+          return true;
+        });
+      }
+
+      // Filter products by Brand
+      function filterByBrand(productsArr, brand) {
+        if (!brand) return productsArr;
+        return productsArr.filter((product) => product.brand === brand);
+      }
+
+      // Filter products by Condition
+      function filterByCondition(productsArr, condition) {
+        if (!condition) return productsArr;
+        return productsArr.filter((product) => product.condition === condition);
+      }
+
+      // Filter products by Deals (discount)
+      function filterByDeals(productsArr, selectedDeals) {
+        if (selectedDeals.length === 0) return productsArr;
+        return productsArr.filter((product) => {
+          if (typeof product.discount !== 'number') return false;
+          return selectedDeals.includes(product.discount.toString());
+        });
+      }
+
+      // Render product cards for current page
+      function renderResultsPage(page) {
+        resultsGrid.innerHTML = '';
+        currentPage = page;
+
+        const startIndex = (page - 1) * RESULTS_PER_PAGE;
+        const endIndex = startIndex + RESULTS_PER_PAGE;
+        const pageProducts = filteredProducts.slice(startIndex, endIndex);
+
+        if (pageProducts.length === 0) {
+          resultsGrid.innerHTML = '<p>No products found matching your criteria.</p>';
+          pagination.innerHTML = '';
+          return;
+        }
+
+        pageProducts.forEach((product) => {
+          const card = document.createElement('div');
+          card.className = 'product-card';
+
+          const name = document.createElement('div');
+          name.className = 'product-name';
+          name.textContent = product.name;
+
+          const brand = document.createElement('div');
+          brand.className = 'product-brand';
+          brand.textContent = `Brand: ${product.brand}`;
+
+          const price = document.createElement('div');
+          price.className = 'product-price';
+          price.textContent = `Price: $${parseFloat(product.price).toFixed(2)}`;
+
+          const condition = document.createElement('div');
+          condition.className = 'product-condition';
+          condition.textContent = `Condition: ${product.condition}`;
+
+          const deal = document.createElement('div');
+          deal.className = 'product-deal';
+          deal.textContent =
+            product.discount && product.discount > 0
+              ? `Deal: ${product.discount}% off`
+              : 'Deal: None';
+
+          card.append(name, brand, price, condition, deal);
+          resultsGrid.appendChild(card);
+        });
+
+        renderPagination();
+      }
+
+      // Render pagination buttons
+      function renderPagination() {
+        pagination.innerHTML = '';
+        const totalPages = Math.ceil(filteredProducts.length / RESULTS_PER_PAGE);
+        if (totalPages <= 1) return;
+
+        for (let i = 1; i <= totalPages; i++) {
+          const btn = document.createElement('button');
+          btn.textContent = i;
+          btn.classList.toggle('active', i === currentPage);
+          btn.addEventListener('click', () => {
+            renderResultsPage(i);
+          });
+          pagination.appendChild(btn);
+        }
+      }
+
+      // Main function to filter products and update UI
+      function applyFiltersAndSearch() {
+        const keywords = searchInput.value;
+        const min = minPriceInput.value ? parseFloat(minPriceInput.value) : null;
+        const max = maxPriceInput.value ? parseFloat(maxPriceInput.value) : null;
+        const selectedBrand = brandSelect.value;
+        const selectedCondition = conditionSelect.value;
+        const selectedDeals = dealsCheckboxes
+          .filter((chk) => chk.checked)
+          .map((chk) => chk.value);
+
+        // Step 1: Filter by keyword
+        let filtered = filterByKeywords(products, keywords);
+
+        // Step 2: Populate condition options based on keyword filtered results
+        populateConditionOptions(filtered);
+
+        // Step 3: Filter by Price
+        filtered = filterByPrice(filtered, min, max);
+
+        // Step 4: Filter by Brand
+        filtered = filterByBrand(filtered, selectedBrand);
+
+        // Step 5: Filter by Condition
+        filtered = filterByCondition(filtered, selectedCondition);
+
+        // Step 6: Filter by Deals
+        filtered = filterByDeals(filtered, selectedDeals);
+
+        filteredProducts = filtered;
+
+        // Render first page of results
+        renderResultsPage(1);
+      }
+
+      // Update brand options based on all products on load
+      populateBrandOptions(products);
+
+      // Update condition options initially for all products
+      populateConditionOptions(products);
+
+      // Event listener for See Results button
+      seeResultsBtn.addEventListener('click', () => {
+        applyFiltersAndSearch();
+        // Optionally hide or collapse the search bar/filter section
+        // document.getElementById('search-bar-section').style.display = 'none';
+      });
+
+      // Optional: Update condition dropdown dynamically when search keywords change
+      searchInput.addEventListener('input', () => {
+        const keywords = searchInput.value;
+        const filteredByKeyword = filterByKeywords(products, keywords);
+        populateBrandOptions(filteredByKeyword);
+        populateConditionOptions(filteredByKeyword);
+      });
+    })();
+  </script>
+</body>
+</html>

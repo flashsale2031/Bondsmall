@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results — BONDS MALL</title>
+    <meta name="description" content="Search and browse all products at Bonds Mall. Filter by category, sort by price or rating.">
+    <link rel="stylesheet" href="bondsmall.css">
+    <link rel="stylesheet" href="site-footer.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="products.js" defer></script>
+    <script src="productpopup.js" defer></script>
+    <script src="search-results.js" defer></script>
+    <script src="category-menu.js" defer></script>
+</head>
+<body class="search-results-page">
+
+    <!-- Category Slide Drawer -->
+    <div id="cat-drawer-overlay" class="cat-drawer-overlay" role="dialog" aria-modal="true" aria-label="Category Menu" aria-hidden="true">
+        <div class="cat-drawer-backdrop" id="cat-drawer-backdrop"></div>
+        <nav class="cat-drawer" id="cat-drawer">
+            <div class="cat-drawer-header">
+                <span class="cat-drawer-title">Categories</span>
+                <button class="cat-drawer-close" id="cat-drawer-close" aria-label="Close category menu">&#x2715;</button>
+            </div>
+            <ul class="cat-drawer-list" role="list">
+                <li><button class="cat-drawer-item" data-cat="all">Shop All</button></li>
+                <li><button class="cat-drawer-item" data-cat="accessories">Accessories</button></li>
+                <li><button class="cat-drawer-item" data-cat="artandcollectibles">Art &amp; Collectibles</button></li>
+                <li><button class="cat-drawer-item" data-cat="electronics">Electronics</button></li>
+                <li><button class="cat-drawer-item" data-cat="entertainment">Entertainment</button></li>
+                <li><button class="cat-drawer-item" data-cat="homeandappliances">Home &amp; Appliances</button></li>
+                <li><button class="cat-drawer-item" data-cat="jewelry">Jewelry</button></li>
+                <li><button class="cat-drawer-item" data-cat="men">Men&#x27;s</button></li>
+                <li><button class="cat-drawer-item" data-cat="women">Women&#x27;s</button></li>
+            </ul>
+            <div class="cat-drawer-footer">
+                <div class="cat-drawer-footer-logo">BONDS MALL</div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- ════════════════ HEADER ════════════════ -->
+    <header class="header" id="sr-header">
+        <div class="header-left">
+            <button class="menu-btn" id="menu-btn" aria-label="Open category menu" aria-expanded="false" aria-controls="cat-drawer-overlay">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <a href="index.html" class="logo" aria-label="Bonds Mall home" style="text-decoration:none;color:inherit;">
+                <span class="logo-text logo-face logo-face--active">BONDS MALL</span>
+                <img class="logo-img logo-face" src="bonds-mall-logo.png" alt="Bonds Mall logo">
+            </a>
+        </div>
+
+        <input type="search" id="sr-search" placeholder="Search products..." aria-label="Search products">
+
+        <div class="header-actions">
+            <button id="sr-cart-btn" class="icon-btn" aria-label="Open cart">
+                <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path d="M3 5h2l2.2 9.2a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.6L21 8H8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="10" cy="19" r="1.6" fill="currentColor"/>
+                    <circle cx="17" cy="19" r="1.6" fill="currentColor"/>
+                </svg>
+                <span>Cart</span>
+                <span id="sr-cart-count" class="cart-count">0</span>
+            </button>
+            <button id="account-btn" class="icon-btn" aria-label="Account">
+                <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <circle cx="12" cy="8" r="3.4" fill="none" stroke="currentColor" stroke-width="1.8"/>
+                    <path d="M5 20c.9-3.2 3.8-5.1 7-5.1s6.1 1.9 7 5.1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                </svg>
+                <span>Account</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ════════════════ FILTER BAR ════════════════ -->
+    <div class="sr-filter-bar" id="sr-filter-bar" role="toolbar" aria-label="Filter and sort results">
+
+        <!-- Active query/category badge -->
+        <div class="sr-query-badge" id="sr-query-badge" style="display:none;" aria-live="polite"></div>
+
+        <div class="sr-filter-spacer"></div>
+
+        <span class="sr-results-count" id="sr-results-count" aria-live="polite"></span>
+
+        <!-- Filter button + dropdown -->
+        <div class="sr-ctrl-wrap">
+            <button class="sr-ctrl-btn" id="sr-filter-btn" aria-haspopup="true" aria-expanded="false" aria-controls="sr-filter-drop">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="4" y1="6" x2="20" y2="6"/>
+                    <line x1="8" y1="12" x2="16" y2="12"/>
+                    <line x1="11" y1="18" x2="13" y2="18"/>
+                </svg>
+                Filter
+            </button>
+            <div class="sr-dropdown" id="sr-filter-drop" hidden role="menu" aria-label="Filter options">
+                <div class="sr-dropdown-inner">
+                    <div class="sr-dropdown-label">Category</div>
+                    <button class="sr-dropdown-item" data-filter-cat="all" role="menuitem">
+                        Shop All <span class="check">&#x2713;</span>
+                    </button>
+                    <button class="sr-dropdown-item" data-filter-cat="accessories" role="menuitem">
+                        Accessories <span class="check">&#x2713;</span>
+                    </button>
+                    <button class="sr-dropdown-item" data-filter-cat="artandcollectibles" role="menuitem">
+                        Art &amp; Collectibles <span class="check">&#x2713;</span>
+                    </button>
+                    <button class="sr-dropdown-item" data-filter-cat="electronics" role="menuitem">
+                        Electronics <span class="check">&#x2713;</span>
+                    </button>
+                    <button class="sr-dropdown-item" data-filter-cat="entertainment" role="menuitem">
+                        Entertainment <span class="check">&#x2713;</span>
+                    </button>
+                    <button class="sr-dropdown-item" data-filter-cat="homeandappliances" role="menuitem">
+                        Home &amp; Appliances <span class="check">&#x2713;</span>
+                    </button>
+                    <button class="sr-dropdown-item" data-filter-cat="jewelry" role="menuitem">
+                        Jewelry <span class="check">&#x2713;</span>
+                    </button>
+                    <button class="sr-dropdown-item" data-filter-cat="men" role="menuitem">
+                        Men&#x27;s <span class="check">&#x2713;</span>
+                    </button>
+                    <button class="sr-dropdown-item" data-filter-cat="women" role="menuitem">
+                        Women&#x27;s <span class="check">&#x2713;</span>
+                    </button>
+
+                    <div class="sr-dropdown-divider"></div>
+                    <div class="sr-dropdown-label">Brand</div>
+                    <div class="sr-select-row">
+                        <select id="sr-brand-select" aria-label="Brand filter">
+                            <option value="">All Brands</option>
+                        </select>
+                    </div>
+
+                    <div class="sr-dropdown-divider"></div>
+                    <div class="sr-dropdown-label">Condition</div>
+                    <div class="sr-select-row">
+                        <select id="sr-condition-select" aria-label="Condition filter">
+                            <option value="">All Conditions</option>
+                        </select>
+                    </div>
+
+                    <div class="sr-dropdown-divider"></div>
+                    <div class="sr-dropdown-label">Deals</div>
+                    <div class="sr-deals-row">
+                        <label class="sr-deal-chk-label"><input type="checkbox" class="sr-deal-checkbox" value="10" /> 10% off</label>
+                        <label class="sr-deal-chk-label"><input type="checkbox" class="sr-deal-checkbox" value="15" /> 15% off</label>
+                        <label class="sr-deal-chk-label"><input type="checkbox" class="sr-deal-checkbox" value="20" /> 20% off</label>
+                        <label class="sr-deal-chk-label"><input type="checkbox" class="sr-deal-checkbox" value="25" /> 25% off</label>
+                    </div>
+
+                    <div class="sr-dropdown-divider"></div>
+                    <div class="sr-dropdown-label">Price Range</div>
+                    <div class="sr-price-row">
+                        <input type="number" class="sr-price-input" id="sr-min-price" placeholder="Min $" min="0" aria-label="Minimum price">
+                        <span class="sr-price-sep">–</span>
+                        <input type="number" class="sr-price-input" id="sr-max-price" placeholder="Max $" min="0" aria-label="Maximum price">
+                    </div>
+                    <button class="sr-apply-price" id="sr-apply-price" type="button">Apply Filters</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sort button + dropdown -->
+        <div class="sr-ctrl-wrap">
+            <button class="sr-ctrl-btn" id="sr-sort-btn" aria-haspopup="true" aria-expanded="false" aria-controls="sr-sort-drop">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M3 6l9-3 9 3M3 12l9 3 9-3M3 18l9 3 9-3"/>
+                </svg>
+                <span class="sr-sort-label">Sort</span>
+            </button>
+            <div class="sr-dropdown" id="sr-sort-drop" hidden role="menu" aria-label="Sort options">
+                <div class="sr-dropdown-inner">
+                    <div class="sr-dropdown-label">Sort by</div>
+                    <button class="sr-dropdown-item active" data-sort="default" role="menuitem">
+                        Default <span class="check">&#x2713;</span>
+                    </button>
+                    <button class="sr-dropdown-item" data-sort="price-asc" role="menuitem">
+                        Price: Low to High <span class="check">&#x2713;</span>
+                    </button>
+                    <button class="sr-dropdown-item" data-sort="price-desc" role="menuitem">
+                        Price: High to Low <span class="check">&#x2713;</span>
+                    </button>
+                    <div class="sr-dropdown-divider"></div>
+                    <button class="sr-dropdown-item" data-sort="top-sellers" role="menuitem">
+                        Top Sellers <span class="check">&#x2713;</span>
+                    </button>
+                    <button class="sr-dropdown-item" data-sort="highest-rated" role="menuitem">
+                        Highest Rated <span class="check">&#x2713;</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ════════════════ RESULTS AREA ════════════════ -->
+    <main>
+        <div class="sr-results-area">
+            <div class="sr-results-header">
+                <h1 class="sr-results-title" id="sr-results-title">All Products</h1>
+            </div>
+            <div id="sr-product-grid" class="product-grid" aria-live="polite" aria-label="Product results"></div>
+        </div>
+    </main>
+
+    <!-- ════════════════ PRODUCT DETAIL MODAL ════════════════ -->
+    <div id="product-modal" class="modal modal--product-detail hidden" aria-hidden="true">
+        <div class="modal-backdrop" data-close="modal"></div>
+        <article class="modal-card modal-card--product-detail" role="dialog" aria-modal="true" aria-labelledby="productName">
+            <header class="header popup-header">
+                <div class="header-left">
+                    <button id="popup-back-btn" class="popup-back-btn" aria-label="Back to results">&#x276e; Back</button>
+                    <a href="index.html" class="logo" aria-label="Bonds Mall home" style="text-decoration:none;color:inherit;">
+                        <span class="logo-text logo-face logo-face--active">BONDS MALL</span>
+                        <img class="logo-img logo-face" src="bonds-mall-logo.png" alt="Bonds Mall logo">
+                    </a>
+                </div>
+                <div class="popup-search-wrap">
+                    <input type="search" id="popup-header-search" placeholder="Search products..." aria-label="Search products">
+                </div>
+                <div class="header-actions">
+                    <button id="popup-cart-btn" class="icon-btn" aria-label="Open cart">
+                        <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                            <path d="M3 5h2l2.2 9.2a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.6L21 8H8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="10" cy="19" r="1.6" fill="currentColor"/>
+                            <circle cx="17" cy="19" r="1.6" fill="currentColor"/>
+                        </svg>
+                        <span>Cart</span>
+                        <span id="popup-cart-count" class="cart-count">0</span>
+                    </button>
+                    <button id="popup-account-btn" class="icon-btn" aria-label="Account">
+                        <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                            <circle cx="12" cy="8" r="3.4" fill="none" stroke="currentColor" stroke-width="1.8"/>
+                            <path d="M5 20c.9-3.2 3.8-5.1 7-5.1s6.1 1.9 7 5.1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                        </svg>
+                        <span>Account</span>
+                    </button>
+                </div>
+            </header>
+            <div id="popup-search-results" class="popup-search-results" aria-live="polite" hidden></div>
+            <div class="product-detail-modal-body">
+                <section id="product-display" class="popup-section popup-section--product" aria-label="Product Display Section">
+                    <div class="product-display-grid">
+                        <div class="product-image-col">
+                            <div class="photo-strip-carousel" id="photo-strip-carousel" aria-label="Product photos gallery">
+                                <button class="photo-strip-arrow photo-strip-prev" id="photo-strip-prev" aria-label="Previous photo" hidden>&#9650;</button>
+                                <div class="photo-strip-track" id="photo-strip-track" role="listbox" aria-label="Photo thumbnails"></div>
+                                <button class="photo-strip-arrow photo-strip-next" id="photo-strip-next" aria-label="Next photo">&#9660;</button>
+                            </div>
+                            <div class="main-photo" aria-live="polite" aria-atomic="true">
+                                <img id="main-photo" src="" alt="Main product photo" title="Click to view full size">
+                            </div>
+                        </div>
+                        <div class="product-details-col">
+                            <h1 id="productName" class="product-popup-heading"></h1>
+                            <p id="product-category-label" class="product-popup-category"></p>
+                            <div class="popup-price-row">
+                                <span class="retail-price popup-retail" id="retail-price"></span>
+                                <span class="sale-price popup-sale" id="sale-price"></span>
+                            </div>
+                            <div class="variants" id="variants" aria-hidden="false"></div>
+                            <div class="quantity-selector">
+                                <label for="quantity">Quantity:</label>
+                                <input id="quantity" type="number" min="1" value="1">
+                            </div>
+                            <button id="modal-add-btn" type="button" class="primary-btn popup-add-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="sold-by" class="popup-section" aria-label="Sold By Section"></section>
+                <section id="coverage" class="popup-section" aria-label="Coverage Section"></section>
+
+                <section id="delivery" class="popup-section" aria-label="Delivery Section">
+                    <h2 class="popup-h2">Delivery</h2>
+                    <div class="delivery-slide" id="delivery-options" role="radiogroup" aria-label="Shipping options"></div>
+                </section>
+
+                <section id="condition" class="popup-section" aria-label="Condition Option Section">
+                    <h2 class="popup-h2">Condition</h2>
+                    <select id="condition-select" aria-label="Select product condition" style="display:none;">
+                        <option value="New">New</option>
+                        <option value="Pre-Owned">Pre-Owned</option>
+                    </select>
+                </section>
+
+                <section id="description" class="popup-section" aria-label="Description Section">
+                    <h2 class="popup-h2">Description</h2>
+                    <p id="short-description"></p>
+                    <button type="button" class="dropdown-btn" id="toggle-description-btn" aria-expanded="false" aria-controls="full-description">See More</button>
+                    <p id="full-description" hidden></p>
+                </section>
+
+                <section id="specifications" class="popup-section" aria-label="Specifications Section">
+                    <h2 class="popup-h2">Specifications</h2>
+                    <div id="specifications-form" class="popup-spec-grid" aria-label="Product Specifications"></div>
+                </section>
+
+                <section id="similar-products" class="popup-section" aria-label="Similar Products Section">
+                    <h2 class="popup-h2">Similar Products</h2>
+                    <div class="similar-products-slide" id="similar-products-slide"></div>
+                    <div id="similar-products-controls">
+                        <button type="button" id="similar-prev" class="similar-nav-btn" aria-label="Previous similar products">◀</button>
+                        <button type="button" id="similar-next" class="similar-nav-btn" aria-label="Next similar products">▶</button>
+                    </div>
+                </section>
+
+                <section id="reviews" class="popup-section" aria-label="Reviews Section">
+                    <h2 class="popup-h2">Reviews</h2>
+                    <form id="review-form">
+                        <div class="stars popup-stars" role="radiogroup" aria-label="Star rating">
+                            <input type="radio" id="star5" name="rating" value="5"><label for="star5" title="5 stars">★</label>
+                            <input type="radio" id="star4" name="rating" value="4"><label for="star4" title="4 stars">★</label>
+                            <input type="radio" id="star3" name="rating" value="3"><label for="star3" title="3 stars">★</label>
+                            <input type="radio" id="star2" name="rating" value="2"><label for="star2" title="2 stars">★</label>
+                            <input type="radio" id="star1" name="rating" value="1"><label for="star1" title="1 star">★</label>
+                        </div>
+                        <label for="review-comment">Comment:</label>
+                        <textarea id="review-comment" rows="4" placeholder="Write your review here..." aria-label="Review comment"></textarea>
+                        <br>
+                        <button type="submit">Submit Review</button>
+                    </form>
+                    <div id="review-messages" role="alert" aria-live="polite"></div>
+                </section>
+            </div>
+        </article>
+    </div>
+
+    <!-- ════════════════ CART DRAWER ════════════════ -->
+    <aside id="cart-overlay" class="cart-overlay hidden">
+        <div class="cart-backdrop" id="cart-backdrop"></div>
+        <section id="cart-drawer" class="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+            <header class="cart-header">
+                <div>
+                    <h3 id="cart-title">Your Cart</h3>
+                    <p class="cart-subtitle">Curated picks ready to checkout</p>
+                </div>
+                <button id="close-cart" class="close-btn" aria-label="Close cart">X</button>
+            </header>
+
+            <div id="cart-items" class="cart-items">
+                <p class="empty-state">Your cart is empty</p>
+            </div>
+
+            <div id="cart-summary" class="cart-summary hidden">
+                <div class="totals-row">
+                    <span>Order Total</span>
+                    <strong id="cart-total">$0.00</strong>
+                </div>
+                <button id="to-shipping" class="primary-btn">Proceed To Checkout</button>
+            </div>
+
+            <div id="checkout-steps" class="checkout-steps hidden">
+                <section id="shipping-section" class="checkout-panel">
+                    <h4>Shipping Address</h4>
+                    <form id="shipping-form">
+                        <input type="text" id="ship-name" placeholder="Full name" required>
+                        <input type="email" id="ship-email" placeholder="Email" required>
+                        <input type="tel" id="ship-phone" placeholder="Phone" required>
+                        <input type="text" id="ship-address" placeholder="Street address" required>
+                        <input type="text" id="ship-city" placeholder="City" required>
+                        <input type="text" id="ship-state" placeholder="State" required>
+                        <input type="text" id="ship-zip" placeholder="ZIP code" required>
+                        <input type="text" id="ship-country" placeholder="Country" required>
+                        <button type="submit" class="primary-btn">Payment Information</button>
+                    </form>
+                </section>
+
+                <section id="payment-section" class="checkout-panel hidden">
+                    <h4>Payment Information</h4>
+                    <form id="payment-form">
+                        <div class="checkout-sticker-row">
+                            <span class="checkout-sticker">Secure Checkout</span>
+                            <span class="checkout-sticker subtle">ACH Processing</span>
+                        </div>
+                        <div class="pay-type-row" role="radiogroup" aria-label="Payment method">
+                            <label class="pay-type active">
+                                <input type="radio" name="pay-method" value="credit" checked>
+                                <span>Credit Card</span>
+                            </label>
+                            <label class="pay-type">
+                                <input type="radio" name="pay-method" value="debit">
+                                <span>Debit Card</span>
+                            </label>
+                        </div>
+                        <div class="card-brands" aria-label="Supported cards">
+                            <span class="brand-badge">VISA</span>
+                            <span class="brand-badge">Mastercard</span>
+                            <span class="brand-badge">Amex</span>
+                        </div>
+                        <div id="card-fields">
+                            <input type="text" id="card-name" placeholder="Name on card" required>
+                            <input type="text" id="card-number" placeholder="Card number" inputmode="numeric" maxlength="23" required>
+                            <div class="form-row">
+                                <input type="text" id="card-expiry" placeholder="MM/YY" maxlength="5" required>
+                                <input type="text" id="card-cvv" placeholder="CVV" maxlength="4" inputmode="numeric" required>
+                            </div>
+                        </div>
+                        <p id="payment-feedback" class="payment-feedback" aria-live="polite"></p>
+                        <p class="ach-note">Secure payments powered by Bonds Mall. Your payment details are encrypted and never stored on our servers.</p>
+                        <button type="submit" class="primary-btn">Discount</button>
+                    </form>
+                </section>
+
+                <section id="discount-section" class="checkout-panel hidden">
+                    <h4>Discount</h4>
+                    <p id="tax-total" class="tax-total">Total with 8.7% tax: $0.00</p>
+                    <div class="discount-row">
+                        <input type="text" id="discount-code" placeholder="Enter discount code">
+                        <button id="apply-discount" class="secondary-btn" type="button">Apply</button>
+                    </div>
+                    <p id="final-total" class="final-total">Final total: $0.00</p>
+                    <button id="pay-now" class="primary-btn" type="button">Pay Now</button>
+                    <button id="back-to-cart" class="secondary-btn" type="button">Back to Cart</button>
+                </section>
+            </div>
+        </section>
+    </aside>
+
+    <!-- ════════════════ ACCOUNT DRAWER ════════════════ -->
+    <aside id="account-overlay" class="account-overlay hidden" aria-hidden="true">
+        <div class="account-backdrop" id="account-backdrop"></div>
+        <section id="account-drawer" class="account-drawer" role="dialog" aria-modal="true" aria-labelledby="account-title">
+            <header class="account-header">
+                <div>
+                    <h3 id="account-title">Account</h3>
+                    <p class="account-subtitle" id="account-subtitle">Sign in or create your account</p>
+                </div>
+                <button id="close-account" class="close-btn" aria-label="Close account panel">X</button>
+            </header>
+            <div id="auth-view" class="account-view">
+                <div class="account-tabs" role="tablist" aria-label="Account forms">
+                    <button id="account-tab-signin" class="account-tab active" role="tab" aria-selected="true" data-view="signin">Sign In</button>
+                    <button id="account-tab-signup" class="account-tab" role="tab" aria-selected="false" data-view="signup">Sign Up</button>
+                </div>
+                <iframe id="account-frame" class="account-frame" title="Account form" src="signin.html"></iframe>
+            </div>
+            <p id="account-status" aria-live="polite" style="margin:0 1rem 1rem;color:#1f7a46;font-size:0.9rem;"></p>
+            <pre id="account-debug" style="display:none;margin:0 1rem 1rem;white-space:pre-wrap;word-break:break-word;font-size:0.75rem;line-height:1.35;color:#7b2f2f;background:#fff4f4;border:1px solid #efcece;border-radius:8px;padding:0.6rem;"></pre>
+            <div id="account-loading-view" class="account-view hidden" aria-hidden="true">
+                <div class="account-loading-shell" aria-label="Loading account details">
+                    <div class="account-skeleton-avatar"></div>
+                    <div class="account-skeleton-title"></div>
+                    <div class="account-skeleton-line short"></div>
+                    <div class="account-skeleton-line"></div>
+                    <div class="account-skeleton-line"></div>
+                    <div class="account-skeleton-actions">
+                        <div class="account-skeleton-button dark"></div>
+                        <div class="account-skeleton-button"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="profile-view" class="account-view hidden">
+                <div style="text-align:center;margin-bottom:1.5rem;padding:1.5rem 1.5rem 0;">
+                    <img id="account-profile-pic" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='35' r='20' fill='%236f6356'/%3E%3Cellipse cx='50' cy='75' rx='28' ry='22' fill='%236f6356'/%3E%3C/svg%3E" alt="Profile" style="width:80px;height:80px;border-radius:50%;border:3px solid #e9dece;object-fit:cover;">
+                </div>
+                <div style="text-align:center;margin-bottom:1.5rem;padding:0 1.5rem;">
+                    <h3 id="account-user-name" style="margin:0.5rem 0;color:#1f1a14;font-size:1.1rem;">User</h3>
+                    <p id="account-user-email" style="margin:0;color:#5c5348;font-size:0.9rem;">user@example.com</p>
+                </div>
+                <!-- Favorites Section -->
+                <div class="account-favorites-section" style="padding: 0 1.5rem 1rem; border-top: 1px solid #e6d8c5; margin-top: 1rem; padding-top: 1rem;">
+                    <h4 style="margin: 0 0 0.8rem; color: #1f1a14; font-size: 0.95rem; font-weight: 800; display: flex; align-items: center; gap: 0.4rem;">
+                        <svg style="width: 16px; height: 16px; color: #8c2f39;" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                        </svg>
+                        My Favorites
+                    </h4>
+                    <div id="account-favorites-list" style="display: grid; gap: 0.65rem; max-height: 200px; overflow-y: auto; padding-right: 0.2rem;">
+                        <p class="favorites-empty" style="font-size: 0.82rem; color: #665f57; margin: 0; font-style: italic;">Your favorite list is empty.</p>
+                    </div>
+                </div>
+                <div style="display:grid;gap:0.75rem;padding:0 1.5rem 1.5rem;">
+                    <a href="profile.html" id="edit-profile-btn" style="display:block;width:100%;padding:0.75rem;background:#212121;color:#fff;text-decoration:none;text-align:center;border-radius:10px;font-weight:700;cursor:pointer;font-size:0.9rem;">Edit Profile</a>
+                    <button id="logout-btn" style="width:100%;padding:0.75rem;background:#f4ebdd;color:#2a2218;border:1px solid #d7c5af;border-radius:10px;font-weight:700;cursor:pointer;font-size:0.9rem;">Logout</button>
+                </div>
+            </div>
+        </section>
+    </aside>
+
+    <!-- Image Lightbox Overlay -->
+    <div id="img-lightbox" class="img-lightbox" role="dialog" aria-modal="true" aria-label="Full size image" hidden>
+        <div class="img-lightbox-backdrop" id="img-lightbox-backdrop"></div>
+        <button class="img-lightbox-close" id="img-lightbox-close" aria-label="Close full size image">&#x2715;</button>
+        <button class="img-lightbox-nav img-lightbox-prev" id="img-lightbox-prev" aria-label="Previous image">&#10094;</button>
+        <div class="img-lightbox-content-wrap">
+            <img class="img-lightbox-img" id="img-lightbox-img" src="" alt="">
+            <div class="img-lightbox-thumbs-wrap">
+                <div class="img-lightbox-thumbs-track" id="img-lightbox-thumbs-track" role="listbox" aria-label="Lightbox thumbnails"></div>
+            </div>
+            <div class="img-lightbox-counter" id="img-lightbox-counter" aria-live="polite"></div>
+        </div>
+        <button class="img-lightbox-nav img-lightbox-next" id="img-lightbox-next" aria-label="Next image">&#10095;</button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="site-footer-top">
+            <div class="site-footer-brand-wrap">
+                <div class="site-footer-brand">BONDS MALL</div>
+                <p class="site-footer-tagline">Premium shopping with secure checkout and live customer support.</p>
+            </div>
+            <div class="site-footer-stickers" aria-label="Trust stickers">
+                <span class="sticker">Secure Payments</span>
+                <span class="sticker">24/7 Support</span>
+                <span class="sticker">Verified Store</span>
+            </div>
+        </div>
+        <nav class="site-footer-menu" aria-label="Footer menu">
+            <a href="customer-service.html"><span class="footer-icon" aria-hidden="true">CS</span>Customer Service</a>
+            <a href="faq.html"><span class="footer-icon" aria-hidden="true">FQ</span>FAQ</a>
+            <a href="dispute-center.html"><span class="footer-icon" aria-hidden="true">DC</span>Dispute Center</a>
+            <a href="careers.html"><span class="footer-icon" aria-hidden="true">CR</span>Careers</a>
+            <a href="partner.html"><span class="footer-icon" aria-hidden="true">PT</span>Partner</a>
+            <a href="affiliate.html"><span class="footer-icon" aria-hidden="true">AF</span>Affiliate</a>
+            <a href="profile.html"><span class="footer-icon" aria-hidden="true">PR</span>Profile</a>
+            <a href="order-history.html"><span class="footer-icon" aria-hidden="true">OH</span>Order History</a>
+            <a href="track-order.html"><span class="footer-icon" aria-hidden="true">TM</span>Track Order</a>
+            <a href="rewards.html"><span class="footer-icon" aria-hidden="true">RW</span>Rewards</a>
+            <a href="recentorders.html"><span class="footer-icon" aria-hidden="true">RO</span>Recent Orders</a>
+        </nav>
+    </footer>
+
+</body>
+</html>
