@@ -62,8 +62,15 @@ body.lightbox-open {
   overflow: visible;
 }
 
+.header-left > a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
 .logo {
-  font-size: clamp(1.6rem, 3.5vw, 2.3rem);
+  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
   letter-spacing: 0.12em;
   font-weight: 800;
   position: relative;
@@ -92,7 +99,7 @@ body.lightbox-open {
 .logo-img {
   position: absolute;
   top: 50%;
-  left: 0;
+  left: -1.5rem; /* Pull the logo image closer to the category hamburger option */
   transform: translateY(-50%);
   height: 110px; /* Fits cleanly and is prominent */
   width: auto;
@@ -1853,8 +1860,14 @@ input.input-error {
     grid-area: menu;
   }
 
-  .logo {
+  .header-left > a {
     grid-area: logo;
+    justify-self: start;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
     justify-content: flex-start;
   }
 
@@ -1884,8 +1897,11 @@ input.input-error {
     grid-area: back;
   }
 
-  .popup-header .logo {
+  .popup-header .header-left > a {
     grid-area: logo;
+    justify-self: start;
+    display: flex;
+    align-items: center;
   }
 
   .popup-header .popup-search-wrap {
