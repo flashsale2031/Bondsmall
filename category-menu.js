@@ -21,29 +21,42 @@
     const isSearchPage = document.body.classList.contains("search-results-page");
 
     /* ── DOM references ──────────────────────────── */
-    const menuBtn     = document.getElementById("menu-btn");
-    const overlay     = document.getElementById("cat-drawer-overlay");
-    const backdrop    = document.getElementById("cat-drawer-backdrop");
-    const closeBtn    = document.getElementById("cat-drawer-close");
-    const drawerItems = document.querySelectorAll(".cat-drawer-item");
+    const menuBtn      = document.getElementById("menu-btn");
+    const popupMenuBtn = document.getElementById("popup-menu-btn");
+    const overlay      = document.getElementById("cat-drawer-overlay");
+    const backdrop     = document.getElementById("cat-drawer-backdrop");
+    const closeBtn     = document.getElementById("cat-drawer-close");
+    const drawerItems  = document.querySelectorAll(".cat-drawer-item");
     const headerSearch = document.getElementById("header-search");
 
-    if (!menuBtn || !overlay) return; // guard: elements must exist
+    if ((!menuBtn && !popupMenuBtn) || !overlay) return; // guard: overlay and at least one menu button must exist
 
     /* ── Open / close ────────────────────────────── */
     function openDrawer() {
         overlay.classList.add("is-open");
         overlay.setAttribute("aria-hidden", "false");
-        menuBtn.classList.add("is-open");
-        menuBtn.setAttribute("aria-expanded", "true");
+        if (menuBtn) {
+            menuBtn.classList.add("is-open");
+            menuBtn.setAttribute("aria-expanded", "true");
+        }
+        if (popupMenuBtn) {
+            popupMenuBtn.classList.add("is-open");
+            popupMenuBtn.setAttribute("aria-expanded", "true");
+        }
         document.body.style.overflow = "hidden";
     }
 
     function closeDrawer() {
         overlay.classList.remove("is-open");
         overlay.setAttribute("aria-hidden", "true");
-        menuBtn.classList.remove("is-open");
-        menuBtn.setAttribute("aria-expanded", "false");
+        if (menuBtn) {
+            menuBtn.classList.remove("is-open");
+            menuBtn.setAttribute("aria-expanded", "false");
+        }
+        if (popupMenuBtn) {
+            popupMenuBtn.classList.remove("is-open");
+            popupMenuBtn.setAttribute("aria-expanded", "false");
+        }
         document.body.style.overflow = "";
     }
 
@@ -97,13 +110,25 @@
     }
 
     /* ── Events ──────────────────────────────────── */
-    menuBtn.addEventListener("click", () => {
-        if (overlay.classList.contains("is-open")) {
-            closeDrawer();
-        } else {
-            openDrawer();
-        }
-    });
+    if (menuBtn) {
+        menuBtn.addEventListener("click", () => {
+            if (overlay.classList.contains("is-open")) {
+                closeDrawer();
+            } else {
+                openDrawer();
+            }
+        });
+    }
+
+    if (popupMenuBtn) {
+        popupMenuBtn.addEventListener("click", () => {
+            if (overlay.classList.contains("is-open")) {
+                closeDrawer();
+            } else {
+                openDrawer();
+            }
+        });
+    }
 
     if (backdrop) backdrop.addEventListener("click", closeDrawer);
     if (closeBtn) closeBtn.addEventListener("click", closeDrawer);

@@ -41,167 +41,174 @@
         </nav>
     </div>
 
-    <!-- ════════════════ HEADER ════════════════ -->
-    <header class="header" id="sr-header">
-        <div class="header-left">
-            <button class="menu-btn" id="menu-btn" aria-label="Open category menu" aria-expanded="false" aria-controls="cat-drawer-overlay">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </button>
+    <!-- Wrapper to stick header and filter bar together -->
+    <div class="sticky-header-container">
+        <!-- ════════════════ HEADER ════════════════ -->
+        <header class="header" id="sr-header">
+            <div class="header-left">
+                <button class="menu-btn" id="menu-btn" aria-label="Open category menu" aria-expanded="false" aria-controls="cat-drawer-overlay">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
 
-            <a href="index.html" class="logo" aria-label="Bonds Mall home" style="text-decoration:none;color:inherit;">
-                <span class="logo-text logo-face logo-face--active">BONDS MALL</span>
-                <img class="logo-img logo-face" src="bonds-mall-logo.png" alt="Bonds Mall logo">
-            </a>
-        </div>
-
-        <input type="search" id="sr-search" placeholder="Search products..." aria-label="Search products">
-
-        <div class="header-actions">
-            <button id="sr-cart-btn" class="icon-btn" aria-label="Open cart">
-                <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                    <path d="M3 5h2l2.2 9.2a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.6L21 8H8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-                    <circle cx="10" cy="19" r="1.6" fill="currentColor"/>
-                    <circle cx="17" cy="19" r="1.6" fill="currentColor"/>
-                </svg>
-                <span>Cart</span>
-                <span id="sr-cart-count" class="cart-count">0</span>
-            </button>
-            <button id="account-btn" class="icon-btn" aria-label="Account">
-                <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                    <circle cx="12" cy="8" r="3.4" fill="none" stroke="currentColor" stroke-width="1.8"/>
-                    <path d="M5 20c.9-3.2 3.8-5.1 7-5.1s6.1 1.9 7 5.1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
-                </svg>
-                <span>Account</span>
-            </button>
-        </div>
-    </header>
-
-    <!-- ════════════════ FILTER BAR ════════════════ -->
-    <div class="sr-filter-bar" id="sr-filter-bar" role="toolbar" aria-label="Filter and sort results">
-
-        <!-- Active query/category badge -->
-        <div class="sr-query-badge" id="sr-query-badge" style="display:none;" aria-live="polite"></div>
-
-        <div class="sr-filter-spacer"></div>
-
-        <span class="sr-results-count" id="sr-results-count" aria-live="polite"></span>
-
-        <!-- Filter button + dropdown -->
-        <div class="sr-ctrl-wrap">
-            <button class="sr-ctrl-btn" id="sr-filter-btn" aria-haspopup="true" aria-expanded="false" aria-controls="sr-filter-drop">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <line x1="4" y1="6" x2="20" y2="6"/>
-                    <line x1="8" y1="12" x2="16" y2="12"/>
-                    <line x1="11" y1="18" x2="13" y2="18"/>
-                </svg>
-                Filter
-            </button>
-            <div class="sr-dropdown" id="sr-filter-drop" hidden role="menu" aria-label="Filter options">
-                <div class="sr-dropdown-inner">
-                    <div class="sr-dropdown-label">Category</div>
-                    <button class="sr-dropdown-item" data-filter-cat="all" role="menuitem">
-                        Shop All <span class="check">&#x2713;</span>
-                    </button>
-                    <button class="sr-dropdown-item" data-filter-cat="accessories" role="menuitem">
-                        Accessories <span class="check">&#x2713;</span>
-                    </button>
-                    <button class="sr-dropdown-item" data-filter-cat="artandcollectibles" role="menuitem">
-                        Art &amp; Collectibles <span class="check">&#x2713;</span>
-                    </button>
-                    <button class="sr-dropdown-item" data-filter-cat="electronics" role="menuitem">
-                        Electronics <span class="check">&#x2713;</span>
-                    </button>
-                    <button class="sr-dropdown-item" data-filter-cat="entertainment" role="menuitem">
-                        Entertainment <span class="check">&#x2713;</span>
-                    </button>
-                    <button class="sr-dropdown-item" data-filter-cat="homeandappliances" role="menuitem">
-                        Home &amp; Appliances <span class="check">&#x2713;</span>
-                    </button>
-                    <button class="sr-dropdown-item" data-filter-cat="jewelry" role="menuitem">
-                        Jewelry <span class="check">&#x2713;</span>
-                    </button>
-                    <button class="sr-dropdown-item" data-filter-cat="men" role="menuitem">
-                        Men&#x27;s <span class="check">&#x2713;</span>
-                    </button>
-                    <button class="sr-dropdown-item" data-filter-cat="women" role="menuitem">
-                        Women&#x27;s <span class="check">&#x2713;</span>
-                    </button>
-
-                    <div class="sr-dropdown-divider"></div>
-                    <div class="sr-dropdown-label">Brand</div>
-                    <div class="sr-select-row">
-                        <select id="sr-brand-select" aria-label="Brand filter">
-                            <option value="">All Brands</option>
-                        </select>
+                <a href="index.html" aria-label="Bonds Mall home" style="text-decoration:none;color:inherit;display:flex;">
+                    <div class="logo">
+                        <span class="logo-text logo-face logo-face--active">BONDS MALL</span>
+                        <img class="logo-img logo-face" src="bonds-mall-logo.png" alt="Bonds Mall logo">
                     </div>
+                </a>
+            </div>
 
-                    <div class="sr-dropdown-divider"></div>
-                    <div class="sr-dropdown-label">Condition</div>
-                    <div class="sr-select-row">
-                        <select id="sr-condition-select" aria-label="Condition filter">
-                            <option value="">All Conditions</option>
-                        </select>
-                    </div>
+            <input type="search" id="sr-search" placeholder="Search products..." aria-label="Search products">
 
-                    <div class="sr-dropdown-divider"></div>
-                    <div class="sr-dropdown-label">Deals</div>
-                    <div class="sr-deals-row">
-                        <label class="sr-deal-chk-label"><input type="checkbox" class="sr-deal-checkbox" value="10" /> 10% off</label>
-                        <label class="sr-deal-chk-label"><input type="checkbox" class="sr-deal-checkbox" value="15" /> 15% off</label>
-                        <label class="sr-deal-chk-label"><input type="checkbox" class="sr-deal-checkbox" value="20" /> 20% off</label>
-                        <label class="sr-deal-chk-label"><input type="checkbox" class="sr-deal-checkbox" value="25" /> 25% off</label>
-                    </div>
+            <div class="header-actions">
+                <button id="sr-cart-btn" class="icon-btn" aria-label="Open cart">
+                    <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                        <path d="M3 5h2l2.2 9.2a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.6L21 8H8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="10" cy="19" r="1.6" fill="currentColor"/>
+                        <circle cx="17" cy="19" r="1.6" fill="currentColor"/>
+                    </svg>
+                    <span>Cart</span>
+                    <span id="sr-cart-count" class="cart-count">0</span>
+                </button>
+                <button id="account-btn" class="icon-btn" aria-label="Account">
+                    <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                        <circle cx="12" cy="8" r="3.4" fill="none" stroke="currentColor" stroke-width="1.8"/>
+                        <path d="M5 20c.9-3.2 3.8-5.1 7-5.1s6.1 1.9 7 5.1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                    </svg>
+                    <span>Account</span>
+                </button>
+            </div>
+        </header>
 
-                    <div class="sr-dropdown-divider"></div>
-                    <div class="sr-dropdown-label">Price Range</div>
-                    <div class="sr-price-row">
-                        <input type="number" class="sr-price-input" id="sr-min-price" placeholder="Min $" min="0" aria-label="Minimum price">
-                        <span class="sr-price-sep">–</span>
-                        <input type="number" class="sr-price-input" id="sr-max-price" placeholder="Max $" min="0" aria-label="Maximum price">
+        <!-- ════════════════ FILTER BAR ════════════════ -->
+        <div class="sr-filter-bar" id="sr-filter-bar" role="toolbar" aria-label="Filter and sort results">
+
+            <!-- Active query/category badge -->
+            <div class="sr-query-badge" id="sr-query-badge" style="display:none;" aria-live="polite"></div>
+
+            <div class="sr-filter-spacer"></div>
+
+            <!-- Filter button + dropdown -->
+            <div class="sr-ctrl-wrap">
+                <button class="sr-ctrl-btn" id="sr-filter-btn" aria-haspopup="true" aria-expanded="false" aria-controls="sr-filter-drop">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <line x1="4" y1="6" x2="20" y2="6"/>
+                        <line x1="8" y1="12" x2="16" y2="12"/>
+                        <line x1="11" y1="18" x2="13" y2="18"/>
+                    </svg>
+                    Filter
+                </button>
+                <div class="sr-dropdown" id="sr-filter-drop" hidden role="menu" aria-label="Filter options">
+                    <div class="sr-dropdown-inner">
+                        <div class="sr-dropdown-label">Category</div>
+                        <button class="sr-dropdown-item" data-filter-cat="all" role="menuitem">
+                            Shop All <span class="check">&#x2713;</span>
+                        </button>
+                        <button class="sr-dropdown-item" data-filter-cat="accessories" role="menuitem">
+                            Accessories <span class="check">&#x2713;</span>
+                        </button>
+                        <button class="sr-dropdown-item" data-filter-cat="artandcollectibles" role="menuitem">
+                            Art &amp; Collectibles <span class="check">&#x2713;</span>
+                        </button>
+                        <button class="sr-dropdown-item" data-filter-cat="electronics" role="menuitem">
+                            Electronics <span class="check">&#x2713;</span>
+                        </button>
+                        <button class="sr-dropdown-item" data-filter-cat="entertainment" role="menuitem">
+                            Entertainment <span class="check">&#x2713;</span>
+                        </button>
+                        <button class="sr-dropdown-item" data-filter-cat="homeandappliances" role="menuitem">
+                            Home &amp; Appliances <span class="check">&#x2713;</span>
+                        </button>
+                        <button class="sr-dropdown-item" data-filter-cat="jewelry" role="menuitem">
+                            Jewelry <span class="check">&#x2713;</span>
+                        </button>
+                        <button class="sr-dropdown-item" data-filter-cat="men" role="menuitem">
+                            Men&#x27;s <span class="check">&#x2713;</span>
+                        </button>
+                        <button class="sr-dropdown-item" data-filter-cat="women" role="menuitem">
+                            Women&#x27;s <span class="check">&#x2713;</span>
+                        </button>
+
+                        <div class="sr-dropdown-divider"></div>
+                        <div class="sr-dropdown-label">Brand</div>
+                        <div class="sr-select-row">
+                            <select id="sr-brand-select" aria-label="Brand filter">
+                                <option value="">All Brands</option>
+                            </select>
+                        </div>
+
+                        <div class="sr-dropdown-divider"></div>
+                        <div class="sr-dropdown-label">Condition</div>
+                        <div class="sr-select-row">
+                            <select id="sr-condition-select" aria-label="Condition filter">
+                                <option value="">All Conditions</option>
+                            </select>
+                        </div>
+
+                        <div class="sr-dropdown-divider"></div>
+                        <div class="sr-dropdown-label">Deals</div>
+                        <div class="sr-deals-row">
+                            <label class="sr-deal-chk-label"><input type="checkbox" class="sr-deal-checkbox" value="10" /> 10% off</label>
+                            <label class="sr-deal-chk-label"><input type="checkbox" class="sr-deal-checkbox" value="15" /> 15% off</label>
+                            <label class="sr-deal-chk-label"><input type="checkbox" class="sr-deal-checkbox" value="20" /> 20% off</label>
+                            <label class="sr-deal-chk-label"><input type="checkbox" class="sr-deal-checkbox" value="25" /> 25% off</label>
+                        </div>
+
+                        <div class="sr-dropdown-divider"></div>
+                        <div class="sr-dropdown-label">Price Range</div>
+                        <div class="sr-price-row">
+                            <input type="number" class="sr-price-input" id="sr-min-price" placeholder="Min $" min="0" aria-label="Minimum price">
+                            <span class="sr-price-sep">–</span>
+                            <input type="number" class="sr-price-input" id="sr-max-price" placeholder="Max $" min="0" aria-label="Maximum price">
+                        </div>
+                        <button class="sr-apply-price" id="sr-apply-price" type="button">Apply Filters</button>
                     </div>
-                    <button class="sr-apply-price" id="sr-apply-price" type="button">Apply Filters</button>
                 </div>
             </div>
-        </div>
 
-        <!-- Sort button + dropdown -->
-        <div class="sr-ctrl-wrap">
-            <button class="sr-ctrl-btn" id="sr-sort-btn" aria-haspopup="true" aria-expanded="false" aria-controls="sr-sort-drop">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <path d="M3 6l9-3 9 3M3 12l9 3 9-3M3 18l9 3 9-3"/>
-                </svg>
-                <span class="sr-sort-label">Sort</span>
-            </button>
-            <div class="sr-dropdown" id="sr-sort-drop" hidden role="menu" aria-label="Sort options">
-                <div class="sr-dropdown-inner">
-                    <div class="sr-dropdown-label">Sort by</div>
-                    <button class="sr-dropdown-item active" data-sort="default" role="menuitem">
-                        Default <span class="check">&#x2713;</span>
-                    </button>
-                    <button class="sr-dropdown-item" data-sort="price-asc" role="menuitem">
-                        Price: Low to High <span class="check">&#x2713;</span>
-                    </button>
-                    <button class="sr-dropdown-item" data-sort="price-desc" role="menuitem">
-                        Price: High to Low <span class="check">&#x2713;</span>
-                    </button>
-                    <div class="sr-dropdown-divider"></div>
-                    <button class="sr-dropdown-item" data-sort="top-sellers" role="menuitem">
-                        Top Sellers <span class="check">&#x2713;</span>
-                    </button>
-                    <button class="sr-dropdown-item" data-sort="highest-rated" role="menuitem">
-                        Highest Rated <span class="check">&#x2713;</span>
-                    </button>
+            <!-- Sort button + dropdown -->
+            <div class="sr-ctrl-wrap">
+                <button class="sr-ctrl-btn" id="sr-sort-btn" aria-haspopup="true" aria-expanded="false" aria-controls="sr-sort-drop">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M3 6l9-3 9 3M3 12l9 3 9-3M3 18l9 3 9-3"/>
+                    </svg>
+                    <span class="sr-sort-label">Sort</span>
+                </button>
+                <div class="sr-dropdown" id="sr-sort-drop" hidden role="menu" aria-label="Sort options">
+                    <div class="sr-dropdown-inner">
+                        <div class="sr-dropdown-label">Sort by</div>
+                        <button class="sr-dropdown-item active" data-sort="default" role="menuitem">
+                            Default <span class="check">&#x2713;</span>
+                        </button>
+                        <button class="sr-dropdown-item" data-sort="price-asc" role="menuitem">
+                            Price: Low to High <span class="check">&#x2713;</span>
+                        </button>
+                        <button class="sr-dropdown-item" data-sort="price-desc" role="menuitem">
+                            Price: High to Low <span class="check">&#x2713;</span>
+                        </button>
+                        <div class="sr-dropdown-divider"></div>
+                        <button class="sr-dropdown-item" data-sort="top-sellers" role="menuitem">
+                            Top Sellers <span class="check">&#x2713;</span>
+                        </button>
+                        <button class="sr-dropdown-item" data-sort="highest-rated" role="menuitem">
+                            Highest Rated <span class="check">&#x2713;</span>
+                        </button>
+                    </div>
                 </div>
             </div>
-        </div>
 
+        </div>
     </div>
 
     <!-- ════════════════ RESULTS AREA ════════════════ -->
     <main>
         <div class="sr-results-area">
+            <!-- Quantity of results wrapper placed beneath header and above results display area -->
+            <div class="sr-results-count-wrap">
+                <span class="sr-results-count" id="sr-results-count" aria-live="polite"></span>
+            </div>
             <div class="sr-results-header">
                 <h1 class="sr-results-title" id="sr-results-title">All Products</h1>
             </div>
@@ -215,10 +222,16 @@
         <article class="modal-card modal-card--product-detail" role="dialog" aria-modal="true" aria-labelledby="productName">
             <header class="header popup-header">
                 <div class="header-left">
-                    <button id="popup-back-btn" class="popup-back-btn" aria-label="Back to results">&#x276e; Back</button>
-                    <a href="index.html" class="logo" aria-label="Bonds Mall home" style="text-decoration:none;color:inherit;">
-                        <span class="logo-text logo-face logo-face--active">BONDS MALL</span>
-                        <img class="logo-img logo-face" src="bonds-mall-logo.png" alt="Bonds Mall logo">
+                    <button class="menu-btn popup-menu-btn" id="popup-menu-btn" aria-label="Open category menu" aria-expanded="false" aria-controls="cat-drawer-overlay">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+                    <a href="index.html" aria-label="Bonds Mall home" style="text-decoration:none;color:inherit;display:flex;">
+                        <div class="logo">
+                            <span class="logo-text logo-face logo-face--active">BONDS MALL</span>
+                            <img class="logo-img logo-face" src="bonds-mall-logo.png" alt="Bonds Mall logo">
+                        </div>
                     </a>
                 </div>
                 <div class="popup-search-wrap">

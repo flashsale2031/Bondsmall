@@ -23,10 +23,12 @@
                 <span class="bar"></span>
                 <span class="bar"></span>
             </button>
-            <div class="logo">
-                <span class="logo-text logo-face logo-face--active">BONDS MALL</span>
-                <img class="logo-img logo-face" src="bonds-mall-logo.png" alt="Bonds Mall logo">
-            </div>
+            <a href="index.html" aria-label="Bonds Mall home" style="text-decoration:none;color:inherit;display:flex;">
+                <div class="logo">
+                    <span class="logo-text logo-face logo-face--active">BONDS MALL</span>
+                    <img class="logo-img logo-face" src="bonds-mall-logo.png" alt="Bonds Mall logo">
+                </div>
+            </a>
         </div>
         <input type="search" id="header-search" placeholder="Search products..." aria-label="Search products">
         <div class="header-actions">
@@ -113,11 +115,17 @@
         <article class="modal-card modal-card--product-detail" role="dialog" aria-modal="true" aria-labelledby="productName">
             <header class="header popup-header">
                 <div class="header-left">
-                    <button id="popup-back-btn" class="popup-back-btn" aria-label="Back to store">&#x276e; Back</button>
-                    <div class="logo">
-                        <span class="logo-text logo-face logo-face--active">BONDS MALL</span>
-                        <img class="logo-img logo-face" src="bonds-mall-logo.png" alt="Bonds Mall logo">
-                    </div>
+                    <button class="menu-btn popup-menu-btn" id="popup-menu-btn" aria-label="Open category menu" aria-expanded="false" aria-controls="cat-drawer-overlay">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+                    <a href="index.html" aria-label="Bonds Mall home" style="text-decoration:none;color:inherit;display:flex;">
+                        <div class="logo">
+                            <span class="logo-text logo-face logo-face--active">BONDS MALL</span>
+                            <img class="logo-img logo-face" src="bonds-mall-logo.png" alt="Bonds Mall logo">
+                        </div>
+                    </a>
                 </div>
                 <div class="popup-search-wrap">
                     <input type="search" id="popup-header-search" placeholder="Search products..." aria-label="Search products">

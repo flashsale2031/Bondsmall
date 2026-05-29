@@ -226,6 +226,11 @@
         
         const sortedBrands = Object.entries(countMap).sort((a, b) => a[0].localeCompare(b[0]));
         
+        // Reset currentBrand if it is no longer valid in the filtered results
+        if (currentBrand && !countMap[currentBrand]) {
+            currentBrand = "";
+        }
+        
         brandSelect.innerHTML = '<option value="">All Brands</option>';
         sortedBrands.forEach(([value, count]) => {
             const option = document.createElement("option");
@@ -246,6 +251,11 @@
         });
         
         const sortedConditions = Object.entries(countMap).sort((a, b) => a[0].localeCompare(b[0]));
+        
+        // Reset currentCondition if it is no longer valid in the filtered results
+        if (currentCondition && !countMap[currentCondition]) {
+            currentCondition = "";
+        }
         
         conditionSelect.innerHTML = '<option value="">All Conditions</option>';
         sortedConditions.forEach(([value, count]) => {
@@ -319,6 +329,29 @@
         }
     }
 
+    function getBaseFilteredProducts(excludeBrand = false, excludeCondition = false) {
+        if (typeof products === "undefined") return [];
+        return products.filter(p => {
+            const inCat = currentCategory === "all" || p.category === currentCategory;
+            const hay   = `${p.name} ${p.description || ""} ${categoryLabels[p.category] || p.category} ${p.brand || ""} ${p.condition || ""}`.toLowerCase();
+            const passQ = !currentQuery || hay.includes(normalize(currentQuery));
+            const overMin = priceMin === null || p.price >= priceMin;
+            const underMax = priceMax === null || p.price <= priceMax;
+            
+            // Brand filter
+            const passBrand = excludeBrand || !currentBrand || p.brand === currentBrand;
+            
+            // Condition filter
+            const passCondition = excludeCondition || !currentCondition || p.condition === currentCondition;
+            
+            // Deals filter
+            const passDeals = selectedDeals.length === 0 || 
+                (typeof p.discount === "number" && selectedDeals.includes(p.discount.toString()));
+                
+            return inCat && passQ && overMin && underMax && passBrand && passCondition && passDeals;
+        });
+    }
+
     function getFilteredProducts() {
         if (typeof products === "undefined") return [];
         let list = products.filter(p => {
@@ -378,7 +411,15 @@
                 : "All Products";
         }
         if (resultsCount) {
-            resultsCount.textContent = `${count} ${count === 1 ? "product" : "products"}`;
+            let text = "";
+            if (currentQuery) {
+                text = `${count} ${count === 1 ? "product matches" : "products match"} the keywords "${currentQuery}"`;
+            } else if (currentCategory !== "all") {
+                text = `${count} ${count === 1 ? "product matches" : "products match"} the category "${categoryLabels[currentCategory] || currentCategory}"`;
+            } else {
+                text = `${count} ${count === 1 ? "product matches" : "products match"} your search`;
+            }
+            resultsCount.textContent = text;
         }
 
         // Bind clear button
@@ -469,6 +510,8 @@
     }
 
     function renderAll() {
+        populateBrandDropdown(getBaseFilteredProducts(true, false));
+        populateConditionDropdown(getBaseFilteredProducts(false, true));
         renderResultsHeader();
         renderProducts();
     }
@@ -758,15 +801,6 @@
             searchInput.addEventListener("input", () => {
                 // live filtering
                 currentQuery = searchInput.value.trim();
-
-                // Update dynamic dropdown counts based on keyword-filtered subset
-                const keywordFiltered = products.filter(p => {
-                    const hay = `${p.name} ${p.description || ""} ${categoryLabels[p.category] || p.category} ${p.brand || ""} ${p.condition || ""}`.toLowerCase();
-                    return hay.includes(normalize(currentQuery));
-                });
-                populateBrandDropdown(keywordFiltered);
-                populateConditionDropdown(keywordFiltered);
-
                 renderAll();
                 writeUrlParams();
             });
@@ -817,9 +851,6 @@
         if (brandSelect) {
             brandSelect.addEventListener("change", () => {
                 currentBrand = brandSelect.value;
-                // Dynamically update condition counts based on current brand choice
-                const brandFiltered = products.filter(p => !currentBrand || p.brand === currentBrand);
-                populateConditionDropdown(brandFiltered);
                 renderAll();
             });
         }
@@ -829,9 +860,6 @@
         if (conditionSelect) {
             conditionSelect.addEventListener("change", () => {
                 currentCondition = conditionSelect.value;
-                // Dynamically update brand counts based on current condition choice
-                const conditionFiltered = products.filter(p => !currentCondition || p.condition === currentCondition);
-                populateBrandDropdown(conditionFiltered);
                 renderAll();
             });
         }
@@ -1050,8 +1078,6 @@
     /* ── Init ─────────────────────────────────── */
     function init() {
         decorateProducts();
-        populateBrandDropdown();
-        populateConditionDropdown();
         readUrlParams();
         renderAll();
         updateCartCount();
@@ -1091,10 +1117,6 @@
             // Clear price inputs
             if (minPriceInput) minPriceInput.value = "";
             if (maxPriceInput) maxPriceInput.value = "";
-
-            // Re-populate dropdowns
-            populateBrandDropdown(products);
-            populateConditionDropdown(products);
 
             readUrlParams();
             renderAll();
