@@ -385,7 +385,7 @@ var products = [
   },
   {
     id: 21,
-    name: "Men's Marc Jacob Watch",
+    name: "Men's Marc Jacobs Watch",
     category: "jewelry",
     price: 399.99,
     image: "https://images-bucket.bonanzastatic.com/afu/images/e00d/0bea/a1cd_7897527511/1.jpg",
