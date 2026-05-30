@@ -161,12 +161,13 @@
         else                     url.searchParams.delete("q");
         if (currentCategory !== "all") url.searchParams.set("category", currentCategory);
         else                     url.searchParams.delete("category");
-        window.history.replaceState({}, "", url.toString());
+        window.history.replaceState({}, "", cleanUrl(url.toString()));
     }
 
     /* ── Product Decoration for Brand, Condition, Deals ── */
     function decorateProducts() {
-        if (typeof products === "undefined") return;
+        if (typeof window.products === "undefined") return;
+        if (window.products._decorated) return;
         const knownBrands = [
             "Hanes", "Abercrombie & Fitch", "Abercrombie", "Dolce & Gabbana", "Levi", 
             "Ralph Lauren", "Louis Vuitton", "Columbia", "Apple", "Ferrari", 
@@ -213,6 +214,7 @@
                 }
             }
         });
+        window.products._decorated = true;
     }
 
     function populateBrandDropdown(filteredList = products) {
@@ -330,7 +332,7 @@
     }
 
     function getBaseFilteredProducts(excludeBrand = false, excludeCondition = false) {
-        if (typeof products === "undefined") return [];
+        if (typeof window.products === "undefined") return [];
         return products.filter(p => {
             const inCat = currentCategory === "all" || p.category === currentCategory;
             const hay   = `${p.name} ${p.description || ""} ${categoryLabels[p.category] || p.category} ${p.brand || ""} ${p.condition || ""}`.toLowerCase();
@@ -353,7 +355,7 @@
     }
 
     function getFilteredProducts() {
-        if (typeof products === "undefined") return [];
+        if (typeof window.products === "undefined") return [];
         let list = products.filter(p => {
             const inCat = currentCategory === "all" || p.category === currentCategory;
             const hay   = `${p.name} ${p.description || ""} ${categoryLabels[p.category] || p.category} ${p.brand || ""} ${p.condition || ""}`.toLowerCase();
@@ -417,7 +419,7 @@
             } else if (currentCategory !== "all") {
                 text = `${count} ${count === 1 ? "product matches" : "products match"} the category "${categoryLabels[currentCategory] || currentCategory}"`;
             } else {
-                text = `${count} ${count === 1 ? "product matches" : "products match"} your search`;
+                text = `Showing all ${count} product${count !== 1 ? "s" : ""}`;
             }
             resultsCount.textContent = text;
         }
@@ -447,18 +449,60 @@
                 // Clear min-max inputs
                 if (minPriceInput) minPriceInput.value = "";
                 if (maxPriceInput) maxPriceInput.value = "";
-                
-                // Re-populate dropdowns with all products
-                populateBrandDropdown(products);
-                populateConditionDropdown(products);
-                
-                renderAll();
+
                 writeUrlParams();
-                if (window.CategoryMenu) window.CategoryMenu.markActive("all");
+                renderAll();
             });
         }
     }
 
+    function cleanUrl(urlStr) {
+        if (!urlStr) return "";
+        try {
+            if (urlStr.startsWith("http://") || urlStr.startsWith("https://")) {
+                const url = new URL(urlStr);
+                if (url.hostname.includes("bondsmall.com") || url.hostname === window.location.hostname) {
+                    url.pathname = url.pathname.replace(/\.html$/, "");
+                    return url.toString();
+                }
+                return urlStr;
+            }
+            return urlStr.replace(/\.html(\?|#|$)/, "$1").replace(/\.html$/, "");
+        } catch (_) {
+            return urlStr.replace(/\.html(\?|#|$)/, "$1").replace(/\.html$/, "");
+        }
+    }
+
+    function getFooterHTML() {
+        return `
+<footer class="site-footer">
+    <div class="site-footer-top">
+        <div class="site-footer-brand-wrap">
+            <div class="site-footer-brand">BONDS MALL</div>
+            <p class="site-footer-tagline">Premium shopping with secure checkout and live customer support.</p>
+        </div>
+        <div class="site-footer-stickers" aria-label="Trust stickers">
+            <span class="sticker">Secure Payments</span>
+            <span class="sticker">24/7 Support</span>
+            <span class="sticker">Verified Store</span>
+        </div>
+    </div>
+    <nav class="site-footer-menu" aria-label="Footer menu">
+        <a href="customer-service.html"><span class="footer-icon" aria-hidden="true">CS</span>Customer Service</a>
+        <a href="faq.html"><span class="footer-icon" aria-hidden="true">FQ</span>FAQ</a>
+        <a href="dispute-center.html"><span class="footer-icon" aria-hidden="true">DC</span>Dispute Center</a>
+        <a href="careers.html"><span class="footer-icon" aria-hidden="true">CR</span>Careers</a>
+        <a href="partner.html"><span class="footer-icon" aria-hidden="true">PT</span>Partner</a>
+        <a href="affiliate.html"><span class="footer-icon" aria-hidden="true">AF</span>Affiliate</a>
+        <a href="link-bank-account.html"><span class="footer-icon" aria-hidden="true">BK</span>Link Bank Account</a>
+        <a href="profile.html"><span class="footer-icon" aria-hidden="true">PR</span>Profile</a>
+        <a href="order-history.html"><span class="footer-icon" aria-hidden="true">OH</span>Order History</a>
+        <a href="track-order.html"><span class="footer-icon" aria-hidden="true">TM</span>Track Order</a>
+        <a href="rewards.html"><span class="footer-icon" aria-hidden="true">RW</span>Rewards</a>
+        <a href="recentorders.html"><span class="footer-icon" aria-hidden="true">RO</span>Recent Orders</a>
+    </nav>
+</footer>`;
+    }
 
     function renderProducts() {
         if (!resultsGrid) return;
@@ -468,7 +512,7 @@
                 <div class="sr-empty-state">
                     <h2>No products found</h2>
                     <p>Try a different search term or browse all categories.</p>
-                    <a href="index.html" class="sr-empty-browse-btn">Back to Store</a>
+                    <a href="index" class="sr-empty-browse-btn">Back to Store</a>
                 </div>
             `;
             return;
@@ -476,33 +520,46 @@
 
         filtered.slice(0, 12).forEach(p => warmupImageHost(optimizeGridImageUrl(p.image)));
 
+        const luxuryBrands = ["dolce & gabbana", "louis vuitton", "yves saint laurent", "gucci", "prada", "hermes", "fendi", "chanel", "dior", "abercrombie & fitch", "bathing ape", "bathing apes", "michael kors", "rolex", "patek philippe", "marc jacobs", "us mint"];
+
         resultsGrid.innerHTML = filtered.map((product, index) => {
             const imgSrc = optimizeGridImageUrl(product.image);
             const favs = getFavorites();
             const isFav = favs.includes(product.id);
+            const isLuxury = luxuryBrands.some(brand => (product.name || "").toLowerCase().includes(brand));
+            const luxuryBadgeHTML = isLuxury ? `
+                <span class="luxury-badge" style="position: absolute; top: 0.5rem; left: 50%; transform: translateX(-50%); z-index: 2; background: #ffffff; color: #dfb23a; font-size: 0.55rem; font-weight: 800; text-transform: uppercase; padding: 0.25rem 0.5rem; border-radius: 4px; border: 1px solid #dfb23a; letter-spacing: 0.04em; font-family: var(--badge-font); display: inline-flex; align-items: center; gap: 3px; pointer-events: none; box-shadow: 0 2px 6px rgba(0,0,0,0.06); white-space: nowrap;">
+                    <svg style="width: 8px; height: 8px; flex-shrink: 0;" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                    Authenticity Guaranteed
+                </span>
+            ` : '';
+
             return `
             <article class="product-card">
-                <div class="product-image-wrap">
-                    <img class="product-image" src="${imgSrc}" alt="${product.name}"
-                         width="640" height="640"
-                         loading="${index < 8 ? "eager" : "lazy"}"
-                         fetchpriority="${index < 4 ? "high" : "auto"}"
-                         decoding="async"
-                         data-action="open-modal" data-id="${product.id}">
-                    <button class="share-btn" data-action="share-product" data-id="${product.id}" aria-label="Share ${product.name}">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
-                            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
-                        </svg>
-                    </button>
-                    <button class="fav-btn ${isFav ? "is-active" : ""}" data-action="fav-product" data-id="${product.id}" aria-label="Favorite ${product.name}">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="${isFav ? "#8c2f39" : "none"}" stroke="${isFav ? "#8c2f39" : "currentColor"}" stroke-width="2.3" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-                    </button>
-                </div>
                 <div class="product-info">
-                    <h3 class="product-name">${product.name}</h3>
-                    <p class="product-category">${categoryLabels[product.category] || product.category}</p>
-                    <div class="product-price">${formatMoney(product.price)}</div>
+                    <div class="product-image-wrap" style="position: relative; margin: -0.9rem -0.9rem 0.8rem -0.9rem; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px;">
+                        <img class="product-image" src="${imgSrc}" alt="${product.name}"
+                              width="640" height="640"
+                              loading="${index < 8 ? "eager" : "lazy"}"
+                              fetchpriority="${index < 4 ? "high" : "auto"}"
+                              decoding="async"
+                              data-action="open-modal" data-id="${product.id}">
+                        <button class="share-btn" data-action="share-product" data-id="${product.id}" aria-label="Share ${product.name}">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+                                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+                            </svg>
+                        </button>
+                        <button class="fav-btn ${isFav ? "is-active" : ""}" data-action="fav-product" data-id="${product.id}" aria-label="Favorite ${product.name}">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="${isFav ? "#8c2f39" : "none"}" stroke="${isFav ? "#8c2f39" : "currentColor"}" stroke-width="2.3" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                        </button>
+                        ${luxuryBadgeHTML}
+                    </div>
+                    <h3 class="product-name" style="cursor: pointer;" data-action="open-modal" data-id="${product.id}">${product.name}</h3>
+                    <div class="product-price-row" style="display: flex; gap: 0.5rem; align-items: baseline; margin-bottom: 0.3rem; flex-wrap: wrap;">
+                        <span class="retail-price" style="text-decoration: line-through; color: var(--muted); font-size: 0.85rem;">${formatMoney(product.price * 1.1)}</span>
+                        <span class="sale-price" style="color: var(--good, #1f7a46); font-weight: 800; font-size: 1rem;">${formatMoney(product.price)}</span>
+                    </div>
                     <button class="add-btn" data-action="add-cart" data-id="${product.id}">Add to Cart</button>
                 </div>
             </article>`;
@@ -651,7 +708,7 @@
 
     /* ── Product modal ────────────────────────── */
     function openProductModal(productId) {
-        const product = (typeof products !== "undefined") ? products.find(p => p.id === Number(productId)) : null;
+        const product = (window.products || []).find(p => p.id === Number(productId));
         if (!product || !productModal) return;
         activeModalProductId = product.id;
         if (typeof window.populateProductPopup === "function") {
@@ -662,8 +719,9 @@
         productModal.setAttribute("aria-hidden", "false");
         const url = new URL(window.location.href);
         url.searchParams.set("product", String(product.id));
-        window.history.replaceState({}, "", url.toString());
+        window.history.replaceState({}, "", cleanUrl(url.toString()));
     }
+    window.BondsMallOpenProductById = openProductModal;
 
     function closeProductModal() {
         if (!productModal) return;
@@ -673,7 +731,7 @@
         clearPopupSearch();
         const url = new URL(window.location.href);
         url.searchParams.delete("product");
-        window.history.replaceState({}, "", url.toString());
+        window.history.replaceState({}, "", cleanUrl(url.toString()));
     }
 
     /* ── Popup search ─────────────────────────── */
@@ -692,7 +750,7 @@
         }).slice(0, 20);
 
         if (matched.length === 0) {
-            popupSearchResults.innerHTML = '<p class="popup-search-no-results">No products found.</p>';
+            popupSearchResults.innerHTML = '<p class="popup-search-no-results">No products found.</p>' + getFooterHTML();
             popupSearchResults.hidden = false;
             return;
         }
@@ -705,7 +763,7 @@
                     <div class="popup-search-result-cat">${categoryLabels[p.category] || p.category}</div>
                 </div>
                 <div class="popup-search-result-price">${formatMoney(p.price)}</div>
-            </div>`).join("");
+            </div>`).join("") + getFooterHTML();
         popupSearchResults.hidden = false;
     }
 
@@ -1003,7 +1061,7 @@
                 updateCartCount();
                 renderCart();
                 closeCart();
-                window.location.href = "order-success.html";
+                window.location.href = cleanUrl("order-success");
             });
         }
 
@@ -1077,6 +1135,7 @@
 
     /* ── Init ─────────────────────────────────── */
     function init() {
+        window.history.replaceState({}, "", cleanUrl(window.location.href));
         decorateProducts();
         readUrlParams();
         renderAll();
@@ -1086,12 +1145,11 @@
         if (accountManager && accountManager.setupAccountDrawer) accountManager.setupAccountDrawer();
         bindEvents();
         updateFavoritesUI();
-        window.BondsMallOpenProductById = openProductModal;
 
         // If a ?product= param is in URL, open that product
         const params = new URLSearchParams(window.location.search);
         const productId = Number(params.get("product"));
-        if (productId && typeof products !== "undefined" && products.some(p => p.id === productId)) {
+        if (productId && window.products && window.products.some(p => p.id === productId)) {
             openProductModal(productId);
         }
     }
@@ -1099,6 +1157,7 @@
     /* ── Expose refresh API for category-menu.js ── */
     window.SRPage = {
         refresh() {
+            decorateProducts();
             currentBrand     = "";
             currentCondition = "";
             selectedDeals    = [];

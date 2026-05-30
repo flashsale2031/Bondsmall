@@ -1,63 +1,1151 @@
-const products = [
-  { id: 1, name: "Men's Hanes Premium Cotton T-Shirt", category: "men", price: 9.99, image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80", description: "A soft premium cotton tee made for everyday comfort.", images: ["https://www.uberprints.com/content/products/flat/800x800/ha5180_1_wht.jpg"] },
-  { id: 2, name: "Women's Abercrombie & Fitch Sweater", category: "women", price: 79.99, image: "https://img.abercrombie.com/is/image/anf/KIC_152-6225-00640-112_model4?policy=product-medium", description: "A new collection that celebrates our one hundred year history—inspired by our vintage archives and redesigned for today. This comfortable popover hoodie is in our softAF Max fleece fabric and classic Sunday silhouette. Features a drop-shoulder fit, vintage-inspired graphic logo details at the chest, front pouch pocket and banded hem and cuffs. Imported.", images: ["https://img.abercrombie.com/is/image/anf/KIC_152-6225-00640-112_model3?policy=product-medium"] },
-  { id: 3, name: "Women's Dolce & Gabbana Crossbody Bag", category: "accessories", price: 1129.99, image: "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg", description: "A sleek crossbody bag designed for day-to-night style.", images: ["https://marissacollections.com/cdn/shop/files/dolce-gabbana-handbagshoulder-nero-os-3_5-crossbody-bag-nero-3.jpg?v=1732570457&width=713"] },
-  { id: 4, name: "Men's Levi Jeans", category: "men", price: 39.99, image: "https://lscoglobal.scene7.com/is/image/lscoglobal/MB_00501-3673_GLO_CL_FV?fmt=webp&qlt=70&resMode=sharp2&fit=crop,1&op_usm=0.6,0.6,8&wid=1534&hei=1918", description: "Close your eyes. Think “jeans.” Now open. They were 501® Originals, right? With a classic straight leg and iconic styling, they’re literally the blueprint for every pair of modern jeans in existence—burned into the world’s collective cortex ever since Levi Strauss (the man himself!) introduced them in 1873. To this day they’ve never gone out of style. And they never will.", images: ["https://lscoglobal.scene7.com/is/image/lscoglobal/MB_00501-3673_GLO_CM_SV?fmt=webp&qlt=80&resMode=sharp2&fit=crop,1&op_usm=1.25,0.6,8&wid=2000&hei=2500"] },
-  { id: 5, name: "Patio Furniture Set", category: "homeandappliances", price: 79.99, image: "https://assets.wfcdn.com/im/65157649/resize-h800-w800%5Ecompr-r85/3083/308338247/7+Pieces+Outdoor+Conversation+Sets+Patio+Sectional+Furniture+Set+Clearance-1144849090-1158748572.jpg", description: "A versatile patio set built for outdoor relaxation.", images: ["https://assets.wfcdn.com/im/65157649/resize-h800-w800%5Ecompr-r85/3083/308338247/7+Pieces+Outdoor+Conversation+Sets+Patio+Sectional+Furniture+Set+Clearance-1144849090-1158748572.jpg"] },
-  { id: 6, name: "Women's Necklace & Bracelet Set", category: "jewelry", price: 49.99, image: "https://m.media-amazon.com/images/I/61qOG0oAmSL._AC_SY675_.jpg", description: "A matching jewelry set that adds a polished finish.", images: ["https://m.media-amazon.com/images/I/61qOG0oAmSL._AC_SY675_.jpg"] },
-  { id: 7, name: "Men's Dolce & Gabbana Sweater", category: "men", price: 119.99, image: "https://www.dolcegabbana.com/dw/image/v2/BKDB_PRD/on/demandware.static/-/Sites-15/default/dwf324185d/images/zoom/GXZBJZJBCJC_A4567_0.jpg?sw=912.5&sh=1160&sm=fit", description: "A luxury-inspired sweater with rich texture and warmth.", images: ["https://www.dolcegabbana.com/dw/image/v2/BKDB_PRD/on/demandware.static/-/Sites-15/default/dwf324185d/images/zoom/GXZBJZJBCJC_A4567_0.jpg?sw=912.5&sh=1160&sm=fit"] },
-  { id: 8, name: "Women's PINK Campus Fleece Full-Zip Hoodie", category: "women", price: 39.99, image: "data:image/webp;base64,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", description: "Cozy Victoria's Secret PINK Ivy Fleece Campus full-zip hoodie in classic black. Soft fleece interior with a relaxed, comfortable fit. Features a funnel neck design, front PINK logo, and bold PINK 86 graphic on the back. Perfect for casual wear, lounging, travel, or everyday streetwear.", images: ["https://media-photos.depop.com/b1/261082783/3513130316_c3bf7ad439e04861b8f5d1f0d37d634d/P0.jpg"] },
-  { id: 9, name: "Dior Sunglasses", category: "accessories", price: 79.99, image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80", description: "Statement sunglasses with UV protection and style.", images: ["https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"] },
-  { id: 10, name: "Men's Ralph Lauren Casual Polo Shirt", category: "men", price: 69.99, image: "https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-AI790977725004_alternate10?$rl_4x5_pdp$", description: "A timeless polo shirt with breathable fabric.", images: ["https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-AI790977725004_alternate10?$rl_4x5_pdp$"] },
-  { id: 11, name: "Women's Louis Vuitton Sweater", category: "women", price: 599.99, image: "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-floral-detail-cardigan--FUKG70B5A534_PM1_Worn%20view.png?wid=490&hei=490", description: "An elevated designer knit for standout looks.", images: ["https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-floral-detail-cardigan--FUKG70B5A534_PM1_Worn%20view.png?wid=490&hei=490"] },
-  { id: 12, name: "Modern King Size Bed Set", category: "homeandappliances", price: 199.99, image: "https://m.media-amazon.com/images/I/71GyAwvod-L._AC_SX679_.jpg", description: "A sleek king-size bedroom centerpiece with modern lines.", images: ["https://m.media-amazon.com/images/I/71GyAwvod-L._AC_SX679_.jpg"] },
-  { id: 13, name: "Columbia Whirlibird Watch Cap", category: "accessories", price: 199.99, image: "https://www.merchology.com/cdn/shop/products/118518-Black-1_1024x1024.jpg?v=1756303666", description: "Have a bit of fun with a custom embroidery Columbia Men's Black Whirlibird Watch Cap. The simple design is perfect for hitting the slopes to board or ski as it is made of 100% soft acrylic yarn which is cashmere like in feel. Created from a 4 point beanie construction, this is a one size fits most adult build that makes a perfect custom gift for friends and loved ones. Add a custom logo to this cap to enjoy a look all your own or to share with others at trade shows or events as needed. An ideal promotional item that can be worn and enjoyed for years to come, this cap is a must have for those who want to grab the attention of others.", images: ["https://www.merchology.com/cdn/shop/products/118518-Black-1_1024x1024.jpg?v=1756303666"] },
-  { id: 14, name: "Apple iMac Pro 27 in Retina 5K (2020) 512 GB", category: "electronics", price: 299.99, image: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTqIW7TlTKtd6YLCgnfJ48K8msh3WxptIdpuNDWTR8M5MZEwcqHzgWWU42Tn5QA70wtrUyygrHQNmFuTAoFSkX5Qrw444PBMcbmDFsilq9IiXUeAAYPB2YiEg", description: "The 2020 27-inch iMac (Mid 2020) is considered the peak of Apple's Intel-based, all-in-one desktops, offering up to 10-core 10th Gen Intel Core i9 processors, faster AMD Radeon Pro 5000 series graphics, and standard SSD storage. It features a 5K Retina display with optional nano-texture glass, improved 1080p camera, and user-upgradable RAM. This iMac is in excellent condition with enhanced performance upgrades. ", images: ["https://macpro-la.com/cdn/shop/products/1596546059_IMG_1397377.jpg?v=1755385804"] },
-  { id: 15, name: "Men's Ferrari Jacket", category: "men", price: 199.99, image: "https://jackets4racing.com/cdn/shop/files/ferrari-f1-vintage-racing-jacket-classic-edition-6945007_720x.png?v=1759659711", description: "A racing-inspired jacket with bold premium styling.", images: ["https://jackets4racing.com/cdn/shop/files/ferrari-f1-vintage-racing-jacket-classic-edition-6945007_720x.png?v=1759659711"] },
-  { id: 16, name: "Women's Yves Saint Laurent Lavallière Blouse In Silk Georgette And Lace", category: "women", price: 3479.99, image: "https://saint-laurent.dam.kering.com/asset/2ae46e85-18af-4408-8ea2-aed00051d7df/Medium/853054Y059R7060_A.jpg?v=2", description: "A cropped lavallière blouse made with certified silk, featuring a lace yoke insert, elasticized hem, and bishop sleeves. Do Not Wash, Do Not Bleach, Do Not Tumble Dry, Iron At Maximum Temperature 120°C - Without Steam, Iron With A Cloth Between, Dry Cleaning With Tetrachloroethene Or Hydrocarbons - Mild Process", images: ["https://www.ysl.com/en-us/pr/lavalliere-blouse-in-silk-georgette-and-lace-853054Y059R7060.html"] },
-  { id: 17, name: "Gucci Hat & Scarf Set", category: "accessories", price: 249.99, image: "https://di2ponv0v5otw.cloudfront.net/posts/2023/09/24/6510ab99253a8c8f5bdf1f97/m_6510ad733b982a2570ecf0a4.jpg", description: "A coordinated winter set with signature detailing.", images: ["https://di2ponv0v5otw.cloudfront.net/posts/2023/09/24/6510ab99253a8c8f5bdf1f97/m_6510ad733b982a2570ecf0a4.jpg"] },
-  { id: 18, name: "Men's Bathing Apes Hoodie", category: "men", price: 199.99, image: "https://cdn-images.farfetch-contents.com/32/20/25/66/32202566_62150086_1000.jpg", description: "Streetwear hoodie with warm fleece comfort.", images: ["https://cdn-images.farfetch-contents.com/32/20/25/66/32202566_62150086_1000.jpg"] },
-  { id: 19, name: "Women's Chanel Handbag", category: "accessories", price: 2499.99, image: "https://atlantaluxurybags.com/cdn/shop/files/Chanel_18160-001.jpg?v=1764948624&width=1080", description: "Iconic handbag crafted with timeless silhouette.", images: ["https://atlantaluxurybags.com/cdn/shop/files/Chanel_18160-001.jpg?v=1764948624&width=1080"] },
-  { id: 20, name: "Ralph Lauren Wallet", category: "accessories", price: 14.99, image: "https://slimages.macysassets.com/is/image/MCY/products/2/optimized/35420612_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp", description: "Slim wallet with practical card and cash storage.", images: ["https://slimages.macysassets.com/is/image/MCY/products/2/optimized/35420612_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp"] },
-  { id: 21, name: "Men's Marc Jacob Watch", category: "jewelry", price: 399.99, image: "https://images-bucket.bonanzastatic.com/afu/images/e00d/0bea/a1cd_7897527511/1.jpg", description: "A modern watch design with precision movement.", images: ["https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQZlO5Su0nbiyffQ285ZO-LCMMRp8T1_Yh7eQS3BerAVIfyhCGIkaWDTgs-mkbVtvsStXQiAqP5VAtMVOB3MAtaAH_0L7TDvoFc4BhLUsd1YdiJ_nGDsjg"] },
-  { id: 22, name: "GE Smart Refrigerator", category: "homeandappliances", price: 599.99, image: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRoby_42NL_9PUFVO4y2gjlTlNWXmnqT2yql0GDb7wlqM4Q5-UpQDiG5-WNeS-4hb7CC25AFOZ3uLrbfbjxIBSNk5BMiyCul-JZzCqaLkj8A1mlLXSAuxRNBg", description: "Large-capacity smart fridge with efficient cooling.", images: ["https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRoby_42NL_9PUFVO4y2gjlTlNWXmnqT2yql0GDb7wlqM4Q5-UpQDiG5-WNeS-4hb7CC25AFOZ3uLrbfbjxIBSNk5BMiyCul-JZzCqaLkj8A1mlLXSAuxRNBg"] },
-  { id: 23, name: "Apple Macbook Pro 15 Inch Screen With Retina Display (2018) 512 GB", category: "electronics", price: 299.99, image: "https://target.scene7.com/is/image/Target/GUEST_65c8c016-bdbe-42ec-ac11-9bae624670d9?wid=800&hei=800&qlt=80", description: "Condition- Excellent• Hard-Drive Size	512 GB• Operating System	macOS 11 Big Sur• Graphics Description	Integrated• Hard Disk Description	SSD• Item Weight	3 Pounds• Video Processor	Apple• Specific Uses For Product	Business• Graphics Ram Type	DDR3 SDRAM• Item Dimensions L x W x Thickness	11.97in L x 8.36in W x 0.59in Th.", images: ["https://www.backmarket.com/cdn-cgi/image/format%3Dauto%2Cquality%3D75%2Cwidth%3D750/https://d2e6ccujb3mkqf.cloudfront.net/83242086-ce9d-4a13-9772-2e2ad9361fbb-6_cd7d6208-a023-4a5e-ac51-4a906b3b6ac4.jpg"] },
-  { id: 24, name: "XBOX Series X", category: "entertainment", price: 299.99, image: "https://www.skupkonsol.pl/wp-content/uploads/2021/04/skup-xbox-series-x.jpg", description: "Experience brighter worlds, vivid imagery, and sharper details with 4K gaming and up to 120 FPS that makes everything feel so real it’s unreal. Seamlessly switch between your favorite games and pick up right where you left off with Quick Resume. Play four generations of games with backward compatibility, plus games that are optimized for Xbox Series X|S that look and play better than ever. Jump into your favorite games like Fortnite and Grand Theft Auto instantly with lightning-fast load times. Get the most out of your Xbox Series X with Xbox Game Pass Ultimate (membership sold separately). Play new games like The Outer Worlds 2, Call of Duty: Black Ops 7, NINJA GAIDEN 4, and more on day one. Choose from hundreds of high-quality games like DOOM: The Dark Ages, Tony Hawk’s Pro Skater 3+4, and Grounded 2. Dive into legendary franchises including Call of Duty, Forza, Diablo, Halo, and everything in between.", images: ["https://pisces.bbystatic.com/image2/BestBuy_US/images/products/17330070-8f7d-41f5-a20e-b02c1dbaee09.jpg;maxHeight=1920;maxWidth=900?format=webp"] },
-  { id: 25, name: "Benjamin Franklin Bust", category: "artandcollectibles", price: 199.99, image: "https://www.nationalarchivesstore.org/cdn/shop/products/Mackenzie_Fisher_-_105506_BUST_6_FRANKLIN_6_1024x1024.jpg?v=1542388876", description: "A collectible bust honoring a historic icon.", images: ["https://www.nationalarchivesstore.org/cdn/shop/products/Mackenzie_Fisher_-_105506_BUST_6_FRANKLIN_6_1024x1024.jpg?v=1542388876"] },
-  { id: 26, name: "2021 American Liberty Bronco 1 OZ Gold $100 Coin", category: "artandcollectibles", price: 5999.99, image: "https://cdn11.bigcommerce.com/s-ojbexn9zb6/images/stencil/1500x1500/products/189262/237437/2021-american-liberty-high-relief-gold-coin-obverse__48730.1767536143.jpg?c=1", description: "The 2021 American Liberty High Relief Gold Coin is the fifth coin in the American Liberty series. Since its debut in 2015, the American Liberty Gold Coin and Silver Medal Program features coins and medals with modern depictions of allegorical Liberty on the obverse. The reverse features complementary eagle designs. The designs represent what liberty means to each of us individually as Americans, or collectively as a nation.", images: ["https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477808267.coreimg.jpeg/1746477874968/2021-american-liberty-high-relief-gold-coin-reverse.jpeg"] },
-  { id: 27, name: "2026 American Buffalo 1 OZ Gold $50 Coin", category: "artandcollectibles", price: 3999.99, image: "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwf875f1a3/images/hi-res/coin-programs/American-Buffalo/26el_c.jpg?sw=1200&sh=1200&sm=fit", description: "The rugged designs featured on the iconic Buffalo Nickel have never fallen out of favor with collectors who have proven time and time again their love for the romance of the Wild West that the coin epitomizes. The series ended in 1938 but was not forgotten. The design appears each year on the United States Mint’s spectacular $50 Gold Buffalo coin, and now the 2026 Gold Buffalos are getting ready to rumble out of The Mint and stampede their way into your collection!", images: ["https://www.govmint.com/media/catalog/product/4/5/456064_2.png?optimize=high&fit=bounds&height=186&width=186&canvas=186:186&format=jpeg"] },
-  { id: 28, name: "2026 American Eagle 1 OZ Gold $50 Coin", category: "artandcollectibles", price: 3749.99, image: "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw39628b9a/images/hi-res/coin-programs/American-Eagle/26eb_c.jpg?sw=1200&sh=1200&sm=fit", description: "The 2026 American Eagle One Ounce Gold Proof Coin celebrates the 250th anniversary of our Nation’s founding with this limited-edition release! Includes anti-counterfeit variable reeding. Struck at the United States Mint facility at West Point. Quantities are limited—don’t miss this “golden” opportunity for this special one-year only edition!", images: ["https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw9db3e08e/images/hi-res/coin-programs/American-Eagle/26eb_b.jpg?sw=1200&sh=1200&sm=fit"] },
-  { id: 29, name: "Wall Art Set", category: "artandcollectibles", price: 49.99, image: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSKgjXsEf-PQBIY5oQdNGIUhUQcnL9F3RvD1oYbKvZYC5N7PRXskbD800lFnYuxoY1sbeWUJI26kUVBpk9JUR3FIK2PN587K0_ZstaHzD5G", description: "A coordinated wall art set to refresh interiors.", images: ["https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSKgjXsEf-PQBIY5oQdNGIUhUQcnL9F3RvD1oYbKvZYC5N7PRXskbD800lFnYuxoY1sbeWUJI26kUVBpk9JUR3FIK2PN587K0_ZstaHzD5G"] },
-  { id: 30, name: "Men's Cuban Link Bracelet Set", category: "jewelry", price: 49.99, image: "https://imperiumjewelry.com/cdn/shop/files/Untitleddesign_12_700x.png?v=1766788654", description: "A bold bracelet set with polished finish.", images: ["https://imperiumjewelry.com/cdn/shop/files/Untitleddesign_12_700x.png?v=1766788654"] },
-  { id: 31, name: "Men's Nike Sports Outfit", category: "men", price: 59.99, image: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTNO0pJpIDMUQAt3_neCb7xnqsfEW7qSpsr_CRaqzHM2fIvVA1f539sUCpW-AlXMxZfm3o44RJHifpbQ1V5RZaMiTsmcV3lRw", description: "A breathable sport outfit for training days.", images: ["https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTNO0pJpIDMUQAt3_neCb7xnqsfEW7qSpsr_CRaqzHM2fIvVA1f539sUCpW-AlXMxZfm3o44RJHifpbQ1V5RZaMiTsmcV3lRw"] },
-  { id: 32, name: "Women's Adidas Sweater", category: "women", price: 29.99, image: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRHakCWty8aWRjBoF4r6cqx3EGfEubh8qcOuLcmUN6SpDeJYj4gvieNg5kike5L5uGuVyeJ8oTqF5FhxUTejI_9RmvdPVs4YEsvHhfO0c7Y1hyOD1izvQJ4JJM", description: "A lightweight sweater with athletic styling.", images: ["https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRHakCWty8aWRjBoF4r6cqx3EGfEubh8qcOuLcmUN6SpDeJYj4gvieNg5kike5L5uGuVyeJ8oTqF5FhxUTejI_9RmvdPVs4YEsvHhfO0c7Y1hyOD1izvQJ4JJM"] },
-  { id: 33, name: "Men's Gucci Travel Bag", category: "accessories", price: 1089.99, image: "https://www.mytheresa.com/media/1094/1238/100/2f/P01139856.jpg", description: "A premium travel companion with elegant structure.", images: ["https://www.mytheresa.com/media/1094/1238/100/2f/P01139856.jpg"] },
-  { id: 34, name: "Men's Ferrari Coat", category: "men", price: 79.99, image: "https://www.vintagedrip.in/cdn/shop/files/Photoroom-20240907_195051.png?v=1725721569", description: "A winter coat built for warmth and signature style.", images: ["https://www.vintagedrip.in/cdn/shop/files/Photoroom-20240907_195051.png?v=1725721569"] },
-  { id: 35, name: "Dining Table Set", category: "homeandappliances", price: 149.99, image: "https://assets.wfcdn.com/im/06193693/resize-h800-w800%5Ecompr-r85/3318/331838374/Aveline+Extendable+Dining+Table+47%22+To+63%22+-+Expandable+Table+With+X-Brace+Metal+Legs%2C+Smooth+Glide+Mechanism%2C+Seats+6-8%2C+Space+Saving+For+Small+Areas-283322098.jpg", description: "A modern dining set to anchor your space.", images: ["https://assets.wfcdn.com/im/30949317/resize-h800-w800%5Ecompr-r85/3516/351661152/Aveline+Extendable+Dining+Table+47%22+To+63%22+-+Expandable+Table+With+X-Brace+Metal+Legs%2C+Smooth+Glide+Mechanism%2C+Seats+6-8%2C+Space+Saving+For+Small+Areas-283322098.jpg"] },
-  { id: 36, name: "LED Light Wall Art Set", category: "artandcollectibles", price: 29.99, image: "https://www.thedecorvilla.com/cdn/shop/files/WhatsApp_Image_2025-10-14_at_12.19.02_3956751c.jpg?v=1760429104&width=990", description: "Decorative light art that adds ambient character.", images: ["https://www.thedecorvilla.com/cdn/shop/files/WhatsApp_Image_2025-10-14_at_12.19.02_3956751c.jpg?v=1760429104&width=990"] },
-  { id: 37, name: "Flying Drone With 8K Ultra HD Video Camera", category: "electronics", price: 99.99, image: "https://www.provideocoalition.com/wp-content/uploads/antigravity1drone002.jpg", description: "Capture aerial shots with high-resolution clarity.", images: ["https://www.provideocoalition.com/wp-content/uploads/antigravity1drone002.jpg"] },
-  { id: 38, name: "Albert Einstein Sculpture", category: "artandcollectibles", price: 29.99, image: "https://m.media-amazon.com/images/I/414IVtFKcML.jpg", description: "A creative sculpture piece for shelf display.", images: ["https://i.etsystatic.com/43097437/r/il/3aff9e/6760090084/il_794xN.6760090084_cl2i.jpg"] },
-  { id: 39, name: "Men's The Northface Jacket", category: "men", price: 199.99, image: "https://assets.thenorthface.com/images/t_img/f_auto,h_400,e_unsharp_mask:100,w_344/dpr_2.0/v1723253112/NF0A883RKX8-HERO/Mens-Yumiori-FullZip-Jacket-TNF-HERO.png", description: "An insulated jacket for cold-weather layering.", images: ["https://assets.thenorthface.com/images/t_img/f_auto,h_400,e_unsharp_mask:100,w_344/dpr_2.0/v1723253109/NF0A883RKX8-HERO2/Mens-Yumiori-FullZip-Jacket-TNF-HERO2.png"] },
-  { id: 40, name: "Women's Nike Joggers", category: "women", price: 29.99, image: "https://jcpenney.scene7.com/is/image/JCPenney/DP0407202507094199M?hei=550&wid=550&op_usm=.4%2C.8%2C0%2C0&resmode=sharp2&op_sharpen=1", description: "Relaxed joggers with soft stretch comfort.", images: ["https://jcpenney.scene7.com/is/image/JCPenney/DP0407202507094094M?hei=550&wid=550&op_usm=.4%2C.8%2C0%2C0&resmode=sharp2&op_sharpen=1"] },
-  { id: 41, name: "Men's Hermes Belt", category: "accessories", price: 199.99, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWBUbkH9uWDGC227Yu9oQ02eSSiS3JUbNwNA&s", description: "A polished belt that sharpens formal looks.", images: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWBUbkH9uWDGC227Yu9oQ02eSSiS3JUbNwNA&s"] },
-  { id: 42, name: "Men's Gucci Sweater", category: "men", price: 1099.99, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwHj0TR7IPCqvJIHJLbLj938kBKS02a0BncQ&s", description: "A premium knit with luxury finish and feel.", images: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwHj0TR7IPCqvJIHJLbLj938kBKS02a0BncQ&s"] },
-  { id: 43, name: "Women's Prada Handbag", category: "accessories", price: 1999.99, image: "https://assets.levelshoes.com/cdn-cgi/image/width=720,height=1008,quality=85,format=webp/media/catalog/product/1/b/1ba906eomnzvf0002v_1.jpg?ts=20241102035016", description: "A structured handbag with refined detailing.", images: ["https://assets.levelshoes.com/cdn-cgi/image/width=720,height=1008,quality=85,format=webp/media/catalog/product/1/b/1ba906eomnzvf0002v_1.jpg?ts=20241102035016"] },
-  { id: 44, name: "Men's Louis Vuitton Travel Bag", category: "accessories", price: 1499.99, image: "https://me.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-keepall-bandouliere-55--M56714_PM2_Front%20view.jpg", description: "Spacious travel bag with premium material blend.", images: ["https://me.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-keepall-bandouliere-55--M56714_PM2_Front%20view.jpg"] },
-  { id: 45, name: "Men's Michael Kors Watch", category: "jewelry", price: 599.99, image: "https://dreamspakistan.com/cdn/shop/files/77093_ae11af48-c101-4490-a16c-acf0932feadd.png?v=1756807097&width=600", description: "A statement timepiece with classic profile.", images: ["https://dreamspakistan.com/cdn/shop/files/77093_ae11af48-c101-4490-a16c-acf0932feadd.png?v=1756807097&width=600"] },
-  { id: 46, name: "LG Smart Refrigerator", category: "homeandappliances", price: 499.99, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwaB13Lpqd_aB9KvTHFvJc9wX4X02rYJhmdQ&s", description: "A connected appliance for modern kitchens.", images: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwaB13Lpqd_aB9KvTHFvJc9wX4X02rYJhmdQ&s"] },
-  { id: 47, name: "Apple Macbook Air 13 in Retina Display (2020) M1 Series - 512 GB", category: "electronics", price: 199.99, image: "https://www.apple.com/newsroom/images/product/mac/standard/Apple_new-macbookair-wallpaper-screen_11102020_big.jpg.large.jpg", description: "This 2020 MacBook Air is a landmark laptop in the revolutionary M1-chip version (late 2020), marking a shift to Apple Silicon. Known for its 13.3-inch Retina display, reliable Magic Keyboard, and 2.8 lb weight, it offers a portable design. The M1 model remains highly capable for modern day tasks.", images: ["https://www.backmarket.com/cdn-cgi/image/format%3Dauto%2Cquality%3D75%2Cwidth%3D260/https://d2e6ccujb3mkqf.cloudfront.net/7048c924-9e7b-45bc-93bf-112104c1f293-2_d1177492-33a7-45a5-a894-23324f1b8246.jpg"] },
-  { id: 48, name: "Sony Playstation 5 (Disc Version)", category: "entertainment", price: 299.99, image: "https://gameforce.pk/wp-content/uploads/2024/02/Sony-PlayStation-5-Standard-Disk-Edition-3.jpg", description: "The PS5 console unleashes new gaming possibilities that you never anticipated. Experience lightning fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D Audio, and an all-new generation of incredible PlayStation games. Lightning Speed Harness the power of a custom CPU, GPU, and SSD with Integrated I/O that rewrite the rules of what a PlayStation console can do. Stunning Games Marvel at incredible graphics and experience new PS5 features. Play a back catalog of supported PS4 games. Breathtaking Immersion Discover a deeper gaming experience with support for haptic feedback, adaptive triggers, and 3D Audio technology. Vertical stand sold separately. PS5 console (CFI-2100 model group – slim). The CFI-2100 models are compatible with PS5 accessories for CFI-2000 products, including Console Covers (sold separately). 3D audio via built-in TV speakers or analog/USB stereo headphones. Set up and latest system software update required.  Internet connection required to pair Disc Drive and PS5 console upon setup.", images: ["https://gameforce.pk/wp-content/uploads/2024/02/Sony-PlayStation-5-Standard-Disk-Edition-3.jpg"] },
-  { id: 49, name: "Abraham Lincoln Sculpture", category: "artandcollectibles", price: 59.99, image: "https://www.capronicollection.com/cdn/shop/files/IMG_6289_copy.jpg?v=1750789948&width=1220", description: "A collectible sculpture for history enthusiasts.", images: ["https://www.capronicollection.com/cdn/shop/files/IMG_6289_copy.jpg?v=1750789948&width=1220"] },
-  { id: 50, name: "Nintendo Switch 2", category: "entertainment", price: 249.99, image: "https://i5.walmartimages.com/seo/Nintendo-Switch-2-Mario-Kart-World-Bundle_527bef2f-a6d3-4a7d-a7c6-8cc12d2a1def.048bb537cf3e6d24898c86f2fcbe49aa.png?odnHeight=768&odnWidth=768&odnBg=FFFFFF", description: "Three Play Modes: One system with TV, Tabletop, and Handheld modes for versatile gaming experiences.Enhanced Display: Features a larger, vivid 7.9 LCD touch screen with HDR support and up to 120 fps.4K Dock Support: Updated dock supports 4K resolution when connected to a compatible TV.GameChat Integration: Voice chat, share game screens, and connect via video chat with GameChat.Ample Storage: 256GB internal storage, expandable with microSD Express cards (sold separately).Joy-Con 2 Controllers: Magnetic attachment with mouse control capabilities in compatible games. Multiplayer Options: Supports same-system, local wireless, and online multiplayer gaming.Exclusive Games: Home to exclusive titles like Mario Kart World and Donkey Kong Bananza.Start your next gaming adventure with the Nintendo Switch™ 2 system —packed with upgrades and fun ways to connect and play together!", images: ["https://media.wired.com/photos/684078fb4c7f1a7ba8855010/master/w_960,c_limit/Reselling-Switch2-Consoles-Gear-NintendoSwitch2_HW_33.jpg"] },
-  { id: 51, name: "Women's Nike Jacket", category: "women", price: 29.99, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDAVXbt7Q4QgHkL2x8sEHYkVppcsVGUmDYCA&s", description: "A sporty jacket with lightweight warmth.", images: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDAVXbt7Q4QgHkL2x8sEHYkVppcsVGUmDYCA&s"] },
-  { id: 52, name: "Men's Hermes Wallet", category: "accessories", price: 99.99, image: "https://shoppoint.pk/cdn/shop/files/Hermes_Black_Leather_Wallet_For_Men.webp?v=1761111583", description: "A compact wallet with premium finish and feel.", images: ["https://shoppoint.pk/cdn/shop/files/Hermes_Black_Leather_Wallet_For_Men.webp?v=1761111583"] },
-  { id: 53, name: "Men's Fendi Sweater", category: "men", price: 1099.99, image: "https://cdn.shopify.com/s/files/1/0603/3031/1875/products/main-square_5eba8382-336e-4a82-ba24-d76dd0377d04.jpg?v=1694768841", description: "A designer sweater with statement branding.", images: ["https://cdn.shopify.com/s/files/1/0603/3031/1875/products/main-square_5eba8382-336e-4a82-ba24-d76dd0377d04.jpg?v=1694768841"] },
-  { id: 54, name: "Women's Fendi Sweater", category: "women", price: 1999.99, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5N3RqKqEBiqLC7ugfmmExb1Y__qvqhCl5nw&s", description: "A luxury knit built for standout layering.", images: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5N3RqKqEBiqLC7ugfmmExb1Y__qvqhCl5nw&s"] },
-  { id: 55, name: "Gucci Glasses", category: "accessories", price: 1499.99, image: "https://www.eye-oo.com/cdn/shop/files/307177cb3c9392f078ad775d0875800e.jpg?v=1771632379", description: "A durable travel bag with premium craftsmanship.", images: ["https://www.eye-oo.com/cdn/shop/files/307177cb3c9392f078ad775d0875800e.jpg?v=1771632379"] },
-  { id: 56, name: "Women's Michael Kors Watch", category: "jewelry", price: 599.99, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmdp2ZE0Ax625HywcY-h6GxvueiaZZ4NTb5w&s", description: "An elegant watch designed for everyday glam.", images: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmdp2ZE0Ax625HywcY-h6GxvueiaZZ4NTb5w&s"] },
-  { id: 57, name: "Hamilton Beach Coffee Maker", category: "homeandappliances", price: 49.99, image: "https://target.scene7.com/is/image/Target/GUEST_57e2d054-fd81-4dac-84d7-3a1fffaa0582?wid=800&hei=800&qlt=80", description: "A compact coffee maker for quick morning brews.", images: ["https://target.scene7.com/is/image/Target/GUEST_57e2d054-fd81-4dac-84d7-3a1fffaa0582?wid=800&hei=800&qlt=80"] },
-  { id: 58, name: "Samsung Laptop", category: "electronics", price: 199.99, image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8e09ff69-4142-48ff-938b-75232dd5da79.jpg;maxHeight=1920;maxWidth=900?format=webp", description: "A dependable laptop for work and study needs.", images: ["https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8e09ff69-4142-48ff-938b-75232dd5da79.jpg;maxHeight=1920;maxWidth=900?format=webp"] },
-  { id: 59, name: "Sony Playstation 5 (Digital Version)", category: "entertainment", price: 299.99, image: "https://zonetech.ma/wp-content/uploads/2023/12/cc5ec51b-06a4-410b-9449-572704333dbd.webp", description: "The PS5 Digital Edition unleashes new gaming possibilities that you never anticipated. Experience lightning fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D Audio, and an all-new generation of incredible PlayStation games. PS5 Digital Edition is an all-digital version of the PS5 console with no disc drive. Sign into your account for PlayStation Network and go to PlayStation Store to buy and download games. PS5 Digital Edition (CFI-2100 model group – slim). The CFI-2100 models are compatible with PS5 accessories for CFI-2000 products, including Console Covers and Disc Drives (sold separately). Account for PlayStation Network required. Full terms apply – playstation.com/PSNTerms.  3D audio via built-in TV speakers or analog/USB stereo headphones. Set up and latest system software update required.", images: ["https://media.gamestop.com/i/gamestop/11108141/Sony-PlayStation-5-Digital-Edition-Console?w=320&h=320&fmt=auto"] }
+var products = [
+  {
+    id: 1,
+    name: "Men's Hanes Premium Cotton T-Shirt",
+    category: "men",
+    price: 9.99,
+    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    description: "A soft premium cotton tee made for everyday comfort.",
+    images: ["https://www.uberprints.com/content/products/flat/800x800/ha5180_1_wht.jpg"],
+    specifications: {
+      material: "100% Premium Cotton",
+      fit: "Regular Fit",
+      sizes_available: "S, M, L, XL, XXL",
+      care_instructions: "Machine wash cold, tumble dry low",
+      country_of_origin: "USA",
+      gender: "Men",
+      style: "Casual",
+      season: "All Season"
+    }
+  },
+  {
+    id: 2,
+    name: "Women's Abercrombie & Fitch Sweater",
+    category: "women",
+    price: 79.99,
+    image: "https://img.abercrombie.com/is/image/anf/KIC_152-6225-00640-112_model4?policy=product-medium",
+    description: "A new collection that celebrates our one hundred year history—inspired by our vintage archives and redesigned for today. This comfortable popover hoodie is in our softAF Max fleece fabric and classic Sunday silhouette. Features a drop-shoulder fit, vintage-inspired graphic logo details at the chest, front pouch pocket and banded hem and cuffs. Imported.",
+    images: ["https://img.abercrombie.com/is/image/anf/KIC_152-6225-00640-112_model3?policy=product-medium"],
+    specifications: {
+      material: "70% Cotton, 30% Polyester (softAF Max fleece)",
+      fit: "Relaxed Drop-Shoulder Fit",
+      sizes_available: "XS, S, M, L, XL",
+      care_instructions: "Machine wash cold, lay flat to dry",
+      country_of_origin: "Imported",
+      gender: "Women",
+      style: "Casual / Streetwear",
+      season: "Winter / Fall"
+    }
+  },
+  {
+    id: 3,
+    name: "Women's Dolce & Gabbana Crossbody Bag",
+    category: "accessories",
+    price: 1129.99,
+    image: "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    description: "A sleek crossbody bag designed for day-to-night style.",
+    images: ["https://marissacollections.com/cdn/shop/files/dolce-gabbana-handbagshoulder-nero-os-3_5-crossbody-bag-nero-3.jpg?v=1732570457&width=713"],
+    specifications: {
+      material: "100% Calfskin Leather",
+      dimensions: "8.5in x 5.7in x 2.4in",
+      weight: "1.1 lbs",
+      closure_type: "Magnetic flap closure",
+      strap_type: "Adjustable chain crossbody strap",
+      color_options: "Nero (Black)",
+      gender: "Women",
+      brand_origin: "Italy"
+    }
+  },
+  {
+    id: 4,
+    name: "Men's Levi Jeans",
+    category: "men",
+    price: 39.99,
+    image: "https://lscoglobal.scene7.com/is/image/lscoglobal/MB_00501-3673_GLO_CL_FV?fmt=webp&qlt=70&resMode=sharp2&fit=crop,1&op_usm=0.6,0.6,8&wid=1534&hei=1918",
+    description: "Close your eyes. Think “jeans.” Now open. They were 501® Originals, right? With a classic straight leg and iconic styling, they’re literally the blueprint for every pair of modern jeans in existence—burned into the world’s collective cortex ever since Levi Strauss (the man himself!) introduced them in 1873. To this day they’ve never gone out of style. And they never will.",
+    images: ["https://lscoglobal.scene7.com/is/image/lscoglobal/MB_00501-3673_GLO_CM_SV?fmt=webp&qlt=80&resMode=sharp2&fit=crop,1&op_usm=1.25,0.6,8&wid=2000&hei=2500"],
+    specifications: {
+      material: "100% Cotton",
+      fit: "Classic Straight Fit (501® Original)",
+      sizes_available: "29x30, 30x30, 32x32, 34x32, 36x34",
+      care_instructions: "Machine wash cold, tumble dry medium, wash inside out",
+      country_of_origin: "Mexico / Egypt",
+      gender: "Men",
+      style: "Casual",
+      season: "All Season"
+    }
+  },
+  {
+    id: 5,
+    name: "Patio Furniture Set",
+    category: "homeandappliances",
+    price: 79.99,
+    image: "https://assets.wfcdn.com/im/65157649/resize-h800-w800%5Ecompr-r85/3083/308338247/7+Pieces+Outdoor+Conversation+Sets+Patio+Sectional+Furniture+Set+Clearance-1144849090-1158748572.jpg",
+    description: "A versatile patio set built for outdoor relaxation.",
+    images: ["https://assets.wfcdn.com/im/65157649/resize-h800-w800%5Ecompr-r85/3083/308338247/7+Pieces+Outdoor+Conversation+Sets+Patio+Sectional+Furniture+Set+Clearance-1144849090-1158748572.jpg"],
+    specifications: {
+      material: "PE Rattan, Steel Frame, Polyester Cushions",
+      dimensions: "7-Piece Sectional Set (Varying Dimensions)",
+      weight: "145 lbs",
+      color_options: "Brown Rattan with Beige Cushions",
+      energy_rating: "N/A",
+      capacity: "N/A",
+      assembly_required: "Yes",
+      warranty: "1 Year Limited Warranty",
+      power: "N/A"
+    }
+  },
+  {
+    id: 6,
+    name: "Women's Necklace & Bracelet Set",
+    category: "jewelry",
+    price: 49.99,
+    image: "https://m.media-amazon.com/images/I/61qOG0oAmSL._AC_SY675_.jpg",
+    description: "A matching jewelry set that adds a polished finish.",
+    images: ["https://m.media-amazon.com/images/I/61qOG0oAmSL._AC_SY675_.jpg"],
+    specifications: {
+      material: "14K Gold Plated Brass, Cubic Zirconia",
+      dial_size: "N/A",
+      band_material: "N/A",
+      water_resistance: "Not water resistant",
+      movement: "N/A",
+      chain_length: "16-inch necklace + 2-inch extender, 7-inch bracelet",
+      gender: "Women",
+      warranty: "6 Month Limited Warranty"
+    }
+  },
+  {
+    id: 7,
+    name: "Men's Dolce & Gabbana Sweater",
+    category: "men",
+    price: 119.99,
+    image: "https://www.dolcegabbana.com/dw/image/v2/BKDB_PRD/on/demandware.static/-/Sites-15/default/dwf324185d/images/zoom/GXZBJZJBCJC_A4567_0.jpg?sw=912.5&sh=1160&sm=fit",
+    description: "A luxury-inspired sweater with rich texture and warmth.",
+    images: ["https://www.dolcegabbana.com/dw/image/v2/BKDB_PRD/on/demandware.static/-/Sites-15/default/dwf324185d/images/zoom/GXZBJZJBCJC_A4567_0.jpg?sw=912.5&sh=1160&sm=fit"],
+    specifications: {
+      material: "80% Virgin Wool, 20% Cashmere",
+      fit: "Regular Fit",
+      sizes_available: "S, M, L, XL, XXL",
+      care_instructions: "Dry clean only",
+      country_of_origin: "Italy",
+      gender: "Men",
+      style: "Luxury / Casual",
+      season: "Winter / Fall"
+    }
+  },
+  {
+    id: 8,
+    name: "Women's PINK Campus Fleece Full-Zip Hoodie",
+    category: "women",
+    price: 39.99,
+    image: "data:image/webp;base64,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&width=713",
+    description: "A soft premium cotton tee made for everyday comfort.",
+    images: ["https://www.uberprints.com/content/products/flat/800x800/ha5180_1_wht.jpg"],
+    specifications: {
+      material: "60% Cotton, 40% Polyester Fleece (softAF)",
+      fit: "Relaxed Fit / Drop-Shoulder",
+      sizes_available: "XS, S, M, L",
+      care_instructions: "Machine wash cold inside out, tumble dry low",
+      country_of_origin: "Imported",
+      gender: "Women",
+      style: "Athleisure / Streetwear",
+      season: "All Season"
+    }
+  },
+  {
+    id: 9,
+    name: "Dior Sunglasses",
+    category: "accessories",
+    price: 79.99,
+    image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    description: "Statement sunglasses with UV protection and style.",
+    images: ["https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"],
+    specifications: {
+      material: "Acetate and Metal Frame, Nylon Lenses",
+      dimensions: "58mm Lens Width x 16mm Bridge x 145mm Temple",
+      weight: "0.1 lbs",
+      closure_type: "Protective leather case included",
+      strap_type: "N/A",
+      color_options: "Black / Gold",
+      gender: "Unisex",
+      brand_origin: "Italy"
+    }
+  },
+  {
+    id: 10,
+    name: "Men's Ralph Lauren Casual Polo Shirt",
+    category: "men",
+    price: 69.99,
+    image: "https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-AI790977725004_alternate10?$rl_4x5_pdp$",
+    description: "A timeless polo shirt with breathable fabric.",
+    images: ["https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-AI790977725004_alternate10?$rl_4x5_pdp$"],
+    specifications: {
+      material: "100% Breathable Cotton Mesh",
+      fit: "Classic Fit",
+      sizes_available: "S, M, L, XL, XXL, 3XL",
+      care_instructions: "Machine wash warm, tumble dry low",
+      country_of_origin: "Imported",
+      gender: "Men",
+      style: "Casual / Preppy",
+      season: "Summer / Spring"
+    }
+  },
+  {
+    id: 11,
+    name: "Women's Louis Vuitton Sweater",
+    category: "women",
+    price: 599.99,
+    image: "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-floral-detail-cardigan--FUKG70B5A534_PM1_Worn%20view.png?wid=490&hei=490",
+    description: "An elevated designer knit for standout looks.",
+    images: ["https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-floral-detail-cardigan--FUKG70B5A534_PM1_Worn%20view.png?wid=490&hei=490"],
+    specifications: {
+      material: "64% Silk, 36% Wool",
+      fit: "Regular Fit",
+      sizes_available: "XS, S, M, L, XL",
+      care_instructions: "Dry clean only",
+      country_of_origin: "France",
+      gender: "Women",
+      style: "Luxury / Elegant",
+      season: "Fall / Winter"
+    }
+  },
+  {
+    id: 12,
+    name: "Modern King Size Bed Set",
+    category: "homeandappliances",
+    price: 199.99,
+    image: "https://m.media-amazon.com/images/I/71GyAwvod-L._AC_SX679_.jpg",
+    description: "A sleek king-size bedroom centerpiece with modern lines.",
+    images: ["https://m.media-amazon.com/images/I/71GyAwvod-L._AC_SX679_.jpg"],
+    specifications: {
+      material: "Solid Oak Wood & Premium Linen Fabric upholstery",
+      dimensions: "84in W x 88in L x 48in H",
+      weight: "185 lbs",
+      color_options: "Charcoal Gray, Beige, Walnut",
+      energy_rating: "N/A",
+      capacity: "King Size (Supports up to 800 lbs)",
+      assembly_required: "Yes",
+      warranty: "3 Year Limited Warranty",
+      power: "N/A"
+    }
+  },
+  {
+    id: 13,
+    name: "Columbia Whirlibird Watch Cap",
+    category: "accessories",
+    price: 199.99,
+    image: "https://www.merchology.com/cdn/shop/products/118518-Black-1_1024x1024.jpg?v=1756303666",
+    description: "Have a bit of fun with a custom embroidery Columbia Men's Black Whirlibird Watch Cap. The simple design is perfect for hitting the slopes to board or ski as it is made of 100% soft acrylic yarn which is cashmere like in feel. Created from a 4 point beanie construction, this is a one size fits most adult build that makes a perfect custom gift for friends and loved ones. Add a custom logo to this cap to enjoy a look all your own or to share with others at trade shows or events as needed. An ideal promotional item that can be worn and enjoyed for years to come, this cap is a must have for those who want to grab the attention of others.",
+    images: ["https://www.merchology.com/cdn/shop/products/118518-Black-1_1024x1024.jpg?v=1756303666"],
+    specifications: {
+      material: "100% Soft Acrylic Yarn",
+      dimensions: "One Size Fits Most (Adult)",
+      weight: "0.2 lbs",
+      closure_type: "Pull-on / Beanie",
+      strap_type: "Cuffed Brim",
+      color_options: "Black, Charcoal, Navy",
+      gender: "Unisex",
+      brand_origin: "USA"
+    }
+  },
+  {
+    id: 14,
+    name: "Apple iMac Pro 27 in Retina 5K (2020) 512 GB",
+    category: "electronics",
+    price: 299.99,
+    image: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTqIW7TlTKtd6YLCgnfJ48K8msh3WxptIdpuNDWTR8M5MZEwcqHzgWWU42Tn5QA70wtrUyygrHQNmFuTAoFSkX5Qrw444PBMcbmDFsilq9IiXUeAAYPB2YiEg",
+    description: "The 2020 27-inch iMac (Mid 2020) is considered the peak of Apple's Intel-based, all-in-one desktops, offering up to 10-core 10th Gen Intel Core i9 processors, faster AMD Radeon Pro 5000 series graphics, and standard SSD storage. It features a 5K Retina display with optional nano-texture glass, improved 1080p camera, and user-upgradable RAM. This iMac is in excellent condition with enhanced performance upgrades. ",
+    images: ["https://macpro-la.com/cdn/shop/products/1596546059_IMG_1397377.jpg?v=1755385804"],
+    specifications: {
+      processor: "3.8GHz 8-Core 10th-generation Intel Core i7",
+      ram: "16GB 2666MHz DDR4 memory",
+      storage: "512GB SSD",
+      display: "27-inch (diagonal) Retina 5K display, 5120x2880 resolution",
+      graphics: "AMD Radeon Pro 5500 XT with 8GB of GDDR6 memory",
+      battery_life: "Corded (N/A)",
+      operating_system: "macOS Ventura",
+      ports: "4x USB 3 Ports, 2x Thunderbolt 3 (USB-C) Ports, Gigabit Ethernet",
+      weight: "19.7 lbs",
+      color: "Silver"
+    }
+  },
+  {
+    id: 15,
+    name: "Men's Ferrari Jacket",
+    category: "men",
+    price: 199.99,
+    image: "https://jackets4racing.com/cdn/shop/files/ferrari-f1-vintage-racing-jacket-classic-edition-6945007_720x.png?v=1759659711",
+    description: "A racing-inspired jacket with bold premium styling.",
+    images: ["https://jackets4racing.com/cdn/shop/files/ferrari-f1-vintage-racing-jacket-classic-edition-6945007_720x.png?v=1759659711"],
+    specifications: {
+      material: "100% Nylon Shell, Polyester Lining",
+      fit: "Sport / Regular Fit",
+      sizes_available: "S, M, L, XL, XXL",
+      care_instructions: "Machine wash cold, gentle cycle, hang dry",
+      country_of_origin: "Italy",
+      gender: "Men",
+      style: "Racing / Streetwear",
+      season: "Fall / Spring"
+    }
+  },
+  {
+    id: 16,
+    name: "Women's Yves Saint Laurent Lavallière Blouse In Silk Georgette And Lace",
+    category: "women",
+    price: 3479.99,
+    image: "https://saint-laurent.dam.kering.com/asset/2ae46e85-18af-4408-8ea2-aed00051d7df/Medium/853054Y059R7060_A.jpg?v=2",
+    description: "A cropped lavallière blouse made with certified silk, featuring a lace yoke insert, elasticized hem, and bishop sleeves. Do Not Wash, Do Not Bleach, Do Not Tumble Dry, Iron At Maximum Temperature 120°C - Without Steam, Iron With A Cloth Between, Dry Cleaning With Tetrachloroethene Or Hydrocarbons - Mild Process",
+    images: ["https://www.ysl.com/en-us/pr/lavalliere-blouse-in-silk-georgette-and-lace-853054Y059R7060.html"],
+    specifications: {
+      material: "100% Certified Organic Silk Georgette with Lace detailing",
+      fit: "Cropped, Bishop Sleeves",
+      sizes_available: "FR 34, FR 36, FR 38, FR 40, FR 42",
+      care_instructions: "Dry clean only, mild process, do not wash or bleach",
+      country_of_origin: "Italy",
+      gender: "Women",
+      style: "High Luxury / Formal",
+      season: "All Season"
+    }
+  },
+  {
+    id: 17,
+    name: "Gucci Hat & Scarf Set",
+    category: "accessories",
+    price: 249.99,
+    image: "https://di2ponv0v5otw.cloudfront.net/posts/2023/09/24/6510ab99253a8c8f5bdf1f97/m_6510ad733b982a2570ecf0a4.jpg",
+    description: "A coordinated winter set with signature detailing.",
+    images: ["https://di2ponv0v5otw.cloudfront.net/posts/2023/09/24/6510ab99253a8c8f5bdf1f97/m_6510ad733b982a2570ecf0a4.jpg"],
+    specifications: {
+      material: "100% Wool knit with Signature GG logo webbing",
+      dimensions: "Scarf: 70in x 10in, Hat: One Size (Stretchy)",
+      weight: "0.9 lbs",
+      closure_type: "Pull-on / Knit wrap",
+      strap_type: "N/A",
+      color_options: "Beige/Brown, Anthracite/Black",
+      gender: "Unisex",
+      brand_origin: "Italy"
+    }
+  },
+  {
+    id: 18,
+    name: "Men's Bathing Apes Hoodie",
+    category: "men",
+    price: 199.99,
+    image: "https://cdn-images.farfetch-contents.com/32/20/25/66/32202566_62150086_1000.jpg",
+    description: "Streetwear hoodie with warm fleece comfort.",
+    images: ["https://cdn-images.farfetch-contents.com/32/20/25/66/32202566_62150086_1000.jpg"],
+    specifications: {
+      material: "100% Heavyweight Cotton Fleece",
+      fit: "Relaxed Fit",
+      sizes_available: "S, M, L, XL, XXL",
+      care_instructions: "Machine wash cold, line dry",
+      country_of_origin: "Japan",
+      gender: "Men / Unisex",
+      style: "Streetwear",
+      season: "Fall / Winter"
+    }
+  },
+  {
+    id: 19,
+    name: "Women's Chanel Handbag",
+    category: "accessories",
+    price: 2499.99,
+    image: "https://atlantaluxurybags.com/cdn/shop/files/Chanel_18160-001.jpg?v=1764948624&width=1080",
+    description: "Iconic handbag crafted with timeless silhouette.",
+    images: ["https://atlantaluxurybags.com/cdn/shop/files/Chanel_18160-001.jpg?v=1764948624&width=1080"],
+    specifications: {
+      material: "Quilted Lambskin Leather and Gold-Tone Metal hardware",
+      dimensions: "10in x 6.3in x 3in (Medium Double Flap)",
+      weight: "1.4 lbs",
+      closure_type: "Signature CC Turn-lock",
+      strap_type: "Leather-threaded gold chain strap (adjustable)",
+      color_options: "Classic Black with Gold Hardware",
+      gender: "Women",
+      brand_origin: "France"
+    }
+  },
+  {
+    id: 20,
+    name: "Ralph Lauren Wallet",
+    category: "accessories",
+    price: 14.99,
+    image: "https://slimages.macysassets.com/is/image/MCY/products/2/optimized/35420612_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp",
+    description: "Slim wallet with practical card and cash storage.",
+    images: ["https://slimages.macysassets.com/is/image/MCY/products/2/optimized/35420612_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp"],
+    specifications: {
+      material: "100% Genuine Pebbled Leather",
+      dimensions: "4.3in x 3.6in x 0.5in",
+      weight: "0.2 lbs",
+      closure_type: "Bifold",
+      strap_type: "N/A",
+      color_options: "Black, Dark Brown, Tan",
+      gender: "Men",
+      brand_origin: "USA"
+    }
+  },
+  {
+    id: 21,
+    name: "Men's Marc Jacob Watch",
+    category: "jewelry",
+    price: 399.99,
+    image: "https://images-bucket.bonanzastatic.com/afu/images/e00d/0bea/a1cd_7897527511/1.jpg",
+    description: "A modern watch design with precision movement.",
+    images: ["https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQZlO5Su0nbiyffQ285ZO-LCMMRp8T1_Yh7eQS3BerAVIfyhCGIkaWDTgs-mkbVtvsStXQiAqP5VAtMVOB3MAtaAH_0L7TDvoFc4BhLUsd1YdiJ_nGDsjg"],
+    specifications: {
+      material: "316L Marine-Grade Stainless Steel",
+      dial_size: "42mm Case Diameter",
+      band_material: "Brushed & Polished Stainless Steel Link Band",
+      water_resistance: "50 meters (5 ATM)",
+      movement: "Japanese Miyota Quartz Movement",
+      chain_length: "N/A",
+      gender: "Men",
+      warranty: "2 Year Manufacturer Warranty"
+    }
+  },
+  {
+    id: 22,
+    name: "GE Smart Refrigerator",
+    category: "homeandappliances",
+    price: 599.99,
+    image: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRoby_42NL_9PUFVO4y2gjlTlNWXmnqT2yql0GDb7wlqM4Q5-UpQDiG5-WNeS-4hb7CC25AFOZ3uLrbfbjxIBSNk5BMiyCul-JZzCqaLkj8A1mlLXSAuxRNBg",
+    description: "Large-capacity smart fridge with efficient cooling.",
+    images: ["https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRoby_42NL_9PUFVO4y2gjlTlNWXmnqT2yql0GDb7wlqM4Q5-UpQDiG5-WNeS-4hb7CC25AFOZ3uLrbfbjxIBSNk5BMiyCul-JZzCqaLkj8A1mlLXSAuxRNBg"],
+    specifications: {
+      material: "Fingerprint Resistant Stainless Steel",
+      dimensions: "70in H x 36in W x 31in D",
+      weight: "320 lbs",
+      color_options: "Stainless Steel, Black Stainless, Slate",
+      energy_rating: "Energy Star Certified",
+      capacity: "27.8 cu ft French Door",
+      assembly_required: "No",
+      warranty: "1 Year Full, 5 Year Sealed System Warranty",
+      power: "120V / 60Hz, 15A"
+    }
+  },
+  {
+    id: 23,
+    name: "Apple Macbook Pro 15 Inch Screen With Retina Display (2018) 512 GB",
+    category: "electronics",
+    price: 299.99,
+    image: "https://target.scene7.com/is/image/Target/GUEST_65c8c016-bdbe-42ec-ac11-9bae624670d9?wid=800&hei=800&qlt=80",
+    description: "Condition- Excellent• Hard-Drive Size	512 GB• Operating System	macOS 11 Big Sur• Graphics Description	Integrated• Hard Disk Description	SSD• Item Weight	3 Pounds• Video Processor	Apple• Specific Uses For Product	Business• Graphics Ram Type	DDR3 SDRAM• Item Dimensions L x W x Thickness	11.97in L x 8.36in W x 0.59in Th.",
+    images: ["https://www.backmarket.com/cdn-cgi/image/format%3Dauto%2Cquality%3D75%2Cwidth%3D750/https://d2e6ccujb3mkqf.cloudfront.net/83242086-ce9d-4a13-9772-2e2ad9361fbb-6_cd7d6208-a023-4a5e-ac51-4a906b3b6ac4.jpg"],
+    specifications: {
+      processor: "2.6GHz 6-core Intel Core i7, Turbo Boost up to 4.3GHz",
+      ram: "16GB 2400MHz DDR4 onboard memory",
+      storage: "512GB PCIe-based onboard SSD",
+      display: "15.4-inch Retina LED-backlit display with True Tone (2880x1800)",
+      graphics: "Radeon Pro 555X with 4GB GDDR5 / Intel UHD Graphics 630",
+      battery_life: "Up to 10 hours wireless web",
+      operating_system: "macOS Monterey (Upgradable)",
+      ports: "4x Thunderbolt 3 (USB-C) ports, 3.5mm headphone jack",
+      weight: "4.0 lbs",
+      color: "Space Gray / Silver"
+    }
+  },
+  {
+    id: 24,
+    name: "XBOX Series X",
+    category: "entertainment",
+    price: 299.99,
+    image: "https://www.skupkonsol.pl/wp-content/uploads/2021/04/skup-xbox-series-x.jpg",
+    description: "Experience brighter worlds, vivid imagery, and sharper details with 4K gaming and up to 120 FPS that makes everything feel so real it’s unreal. Seamlessly switch between your favorite games and pick up right where you left off with Quick Resume. Play four generations of games with backward compatibility, plus games that are optimized for Xbox Series X|S that look and play better than ever. Jump into your favorite games like Fortnite and Grand Theft Auto instantly with lightning-fast load times. Get the most out of your Xbox Series X with Xbox Game Pass Ultimate (membership sold separately). Play new games like The Outer Worlds 2, Call of Duty: Black Ops 7, NINJA GAIDEN 4, and more on day one. Choose from hundreds of high-quality games like DOOM: The Dark Ages, Tony Hawk’s Pro Skater 3+4, and Grounded 2. Dive into legendary franchises including Call of Duty, Forza, Diablo, Halo, and everything in between.",
+    images: ["https://pisces.bbystatic.com/image2/BestBuy_US/images/products/17330070-8f7d-41f5-a20e-b02c1dbaee09.jpg;maxHeight=1920;maxWidth=900?format=webp"],
+    specifications: {
+      storage: "1TB Custom NVMe SSD",
+      resolution: "True 4K Gaming, Up to 8K HDR Support",
+      frame_rate: "Up to 120 FPS",
+      optical_drive: "4K UHD Blu-ray Drive",
+      connectivity: "1x HDMI 2.1, 3x USB 3.1 Gen 1, dual-band 802.11ac Wi-Fi, Ethernet",
+      controllers_included: "1x Xbox Wireless Controller (Carbon Black)",
+      backward_compatible: "Yes, plays thousands of Xbox One, Xbox 360, and Original Xbox games",
+      dimensions: "11.8in x 5.9in x 5.9in",
+      weight: "9.8 lbs"
+    }
+  },
+  {
+    id: 25,
+    name: "Benjamin Franklin Bust",
+    category: "artandcollectibles",
+    price: 199.99,
+    image: "https://www.nationalarchivesstore.org/cdn/shop/products/Mackenzie_Fisher_-_105506_BUST_6_FRANKLIN_6_1024x1024.jpg?v=1542388876",
+    description: "A collectible bust honoring a historic icon.",
+    images: ["https://www.nationalarchivesstore.org/cdn/shop/products/Mackenzie_Fisher_-_105506_BUST_6_FRANKLIN_6_1024x1024.jpg?v=1542388876"],
+    specifications: {
+      material: "Hand-poured Cast Plaster / Polyresin",
+      dimensions: "9.5in H x 6in W x 4.5in D",
+      weight: "4.2 lbs",
+      edition: "Open Edition Historic Reproduction",
+      authenticity: "Includes National Archives Certificate of Origin",
+      finish: "Hand-painted Antique Alabaster Matte Finish",
+      country_of_mint: "N/A",
+      purity: "N/A",
+      framed: "No"
+    }
+  },
+  {
+    id: 26,
+    name: "2021 American Liberty Bronco 1 OZ Gold $100 Coin",
+    category: "artandcollectibles",
+    price: 5999.99,
+    image: "https://cdn11.bigcommerce.com/s-ojbexn9zb6/images/stencil/1500x1500/products/189262/237437/2021-american-liberty-high-relief-gold-coin-obverse__48730.1767536143.jpg?c=1",
+    description: "The 2021 American Liberty High Relief Gold Coin is the fifth coin in the American Liberty series. Since its debut in 2015, the American Liberty Gold Coin and Silver Medal Program features coins and medals with modern depictions of allegorical Liberty on the obverse. The reverse features complementary eagle designs. The designs represent what liberty means to each of us individually as Americans, or collectively as a nation.",
+    images: ["https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477808267.coreimg.jpeg/1746477874968/2021-american-liberty-high-relief-gold-coin-reverse.jpeg"],
+    specifications: {
+      material: "24K Gold",
+      dimensions: "30.61mm Diameter x 2.45mm Thickness",
+      weight: "1.000 troy oz (31.108 grams)",
+      edition: "High Relief Limited Edition Proof",
+      authenticity: "Comes with Certificate of Authenticity & US Mint Presentation Case",
+      finish: "Proof finish with frosted devices and mirror-like fields",
+      country_of_mint: "United States Mint (West Point)",
+      purity: ".9999 Fine Gold",
+      framed: "No"
+    }
+  },
+  {
+    id: 27,
+    name: "2026 American Buffalo 1 OZ Gold $50 Coin",
+    category: "artandcollectibles",
+    price: 3999.99,
+    image: "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwf875f1a3/images/hi-res/coin-programs/American-Buffalo/26el_c.jpg?sw=1200&sh=1200&sm=fit",
+    description: "The rugged designs featured on the iconic Buffalo Nickel have never fallen out of favor with collectors who have proven time and time again their love for the romance of the Wild West that the coin epitomizes. The series ended in 1938 but was not forgotten. The design appears each year on the United States Mint’s spectacular $50 Gold Buffalo coin, and now the 2026 Gold Buffalos are getting ready to rumble out of The Mint and stampede their way into your collection!",
+    images: ["https://www.govmint.com/media/catalog/product/4/5/456064_2.png?optimize=high&fit=bounds&height=186&width=186&canvas=186:186&format=jpeg"],
+    specifications: {
+      material: "24K Gold",
+      dimensions: "32.7mm Diameter x 2.95mm Thickness",
+      weight: "1.000 troy oz (31.108 grams)",
+      edition: "Annual Release Proof Collection",
+      authenticity: "Comes with Certificate of Authenticity & US Mint Custom Box",
+      finish: "Glistening Proof finish",
+      country_of_mint: "United States Mint (West Point)",
+      purity: ".9999 Fine Gold",
+      framed: "No"
+    }
+  },
+  {
+    id: 28,
+    name: "2026 American Eagle 1 OZ Gold $50 Coin",
+    category: "artandcollectibles",
+    price: 3749.99,
+    image: "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw39628b9a/images/hi-res/coin-programs/American-Eagle/26eb_c.jpg?sw=1200&sh=1200&sm=fit",
+    description: "The 2026 American Eagle One Ounce Gold Proof Coin celebrates the 250th anniversary of our Nation’s founding with this limited-edition release! Includes anti-counterfeit variable reeding. Struck at the United States Mint facility at West Point. Quantities are limited—don’t miss this “golden” opportunity for this special one-year only edition!",
+    images: ["https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw9db3e08e/images/hi-res/coin-programs/American-Eagle/26eb_b.jpg?sw=1200&sh=1200&sm=fit"],
+    specifications: {
+      material: "22K Gold (Standard American Gold Eagle alloy)",
+      dimensions: "32.7mm Diameter x 2.87mm Thickness",
+      weight: "1.000 troy oz (33.931 grams total weight)",
+      edition: "Annual Collector Proof (Limited Edition 250th Anniversary)",
+      authenticity: "Comes with Certificate of Authenticity & West Point Mint Box",
+      finish: "Frosted Proof with high-relief details",
+      country_of_mint: "United States Mint (West Point)",
+      purity: ".9167 Gold (.9999 Fine Gold Content balance)",
+      framed: "No"
+    }
+  },
+  {
+    id: 29,
+    name: "Wall Art Set",
+    category: "artandcollectibles",
+    price: 49.99,
+    image: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSKgjXsEf-PQBIY5oQdNGIUhUQcnL9F3RvD1oYbKvZYC5N7PRXskbD800lFnYuxoY1sbeWUJI26kUVBpk9JUR3FIK2PN587K0_ZstaHzD5G",
+    description: "A coordinated wall art set to refresh interiors.",
+    images: ["https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSKgjXsEf-PQBIY5oQdNGIUhUQcnL9F3RvD1oYbKvZYC5N7PRXskbD800lFnYuxoY1sbeWUJI26kUVBpk9JUR3FIK2PN587K0_ZstaHzD5G"],
+    specifications: {
+      material: "Archival Ink on Heavyweight Textured Canvas",
+      dimensions: "3 panels, each 12in x 16in",
+      weight: "2.5 lbs total",
+      edition: "Open Edition Decor Collection",
+      authenticity: "Comes with Artist Print Registration Certificate",
+      finish: "Semi-Gloss Giclée Print",
+      country_of_mint: "N/A",
+      purity: "N/A",
+      framed: "Yes (Stretched on Pine Wood Frames)"
+    }
+  },
+  {
+    id: 30,
+    name: "Men's Cuban Link Bracelet Set",
+    category: "jewelry",
+    price: 49.99,
+    image: "https://imperiumjewelry.com/cdn/shop/files/Untitleddesign_12_700x.png?v=1766788654",
+    description: "A bold bracelet set with polished finish.",
+    images: ["https://imperiumjewelry.com/cdn/shop/files/Untitleddesign_12_700x.png?v=1766788654"],
+    specifications: {
+      material: "316L Surgical-Grade Stainless Steel & 18K Yellow Gold Plating",
+      dial_size: "N/A",
+      band_material: "N/A",
+      water_resistance: "100% Sweat & Waterproof",
+      movement: "N/A",
+      chain_length: "8.5 inches (both bracelets included in set)",
+      gender: "Men",
+      warranty: "Lifetime Color-Guarantee Warranty"
+    }
+  },
+  {
+    id: 31,
+    name: "Men's Nike Sports Outfit",
+    category: "men",
+    price: 59.99,
+    image: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTNO0pJpIDMUQAt3_neCb7xnqsfEW7qSpsr_CRaqzHM2fIvVA1f539sUCpW-AlXMxZfm3o44RJHifpbQ1V5RZaMiTsmcV3lRw",
+    description: "A breathable sport outfit for training days.",
+    images: ["https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTNO0pJpIDMUQAt3_neCb7xnqsfEW7qSpsr_CRaqzHM2fIvVA1f539sUCpW-AlXMxZfm3o44RJHifpbQ1V5RZaMiTsmcV3lRw"],
+    specifications: {
+      material: "100% Polyester Dri-FIT Tech",
+      fit: "Active Fit (T-shirt & Running Shorts Set)",
+      sizes_available: "S, M, L, XL, XXL",
+      care_instructions: "Machine wash cold with like colors, do not use fabric softeners",
+      country_of_origin: "Vietnam / Indonesia",
+      gender: "Men",
+      style: "Athletic / Training",
+      season: "Summer / Spring"
+    }
+  },
+  {
+    id: 32,
+    name: "Women's Adidas Sweater",
+    category: "women",
+    price: 29.99,
+    image: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRHakCWty8aWRjBoF4r6cqx3EGfEubh8qcOuLcmUN6SpDeJYj4gvieNg5kike5L5uGuVyeJ8oTqF5FhxUTejI_9RmvdPVs4YEsvHhfO0c7Y1hyOD1izvQJ4JJM",
+    description: "A lightweight sweater with athletic styling.",
+    images: ["https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRHakCWty8aWRjBoF4r6cqx3EGfEubh8qcOuLcmUN6SpDeJYj4gvieNg5kike5L5uGuVyeJ8oTqF5FhxUTejI_9RmvdPVs4YEsvHhfO0c7Y1hyOD1izvQJ4JJM"],
+    specifications: {
+      material: "70% Recycled Polyester, 30% Cotton French Terry",
+      fit: "Relaxed Crop Sweatshirt Fit",
+      sizes_available: "XS, S, M, L, XL",
+      care_instructions: "Machine wash cold delicate, tumble dry low",
+      country_of_origin: "Cambodia",
+      gender: "Women",
+      style: "Athleisure / Sporty",
+      season: "All Season"
+    }
+  },
+  {
+    id: 33,
+    name: "Men's Gucci Travel Bag",
+    category: "accessories",
+    price: 1089.99,
+    image: "https://www.mytheresa.com/media/1094/1238/100/2f/P01139856.jpg",
+    description: "A premium travel companion with elegant structure.",
+    images: ["https://www.mytheresa.com/media/1094/1238/100/2f/P01139856.jpg"],
+    specifications: {
+      material: "GG Supreme Canvas & Premium Leather Trim with Green/Red Web",
+      dimensions: "18.5in W x 11.5in H x 8.5in D (Duffle Size)",
+      weight: "2.8 lbs",
+      closure_type: "Double-way Zip Closure with padlock",
+      strap_type: "Detachable & adjustable nylon shoulder strap",
+      color_options: "Beige / Ebony GG Canvas with Dark Brown Leather",
+      gender: "Men / Unisex",
+      brand_origin: "Italy"
+    }
+  },
+  {
+    id: 34,
+    name: "Men's Ferrari Coat",
+    category: "men",
+    price: 79.99,
+    image: "https://www.vintagedrip.in/cdn/shop/files/Photoroom-20240907_195051.png?v=1725721569",
+    description: "A winter coat built for warmth and signature style.",
+    images: ["https://www.vintagedrip.in/cdn/shop/files/Photoroom-20240907_195051.png?v=1725721569"],
+    specifications: {
+      material: "100% Water-Resistant Polyester Shell with synthetic down filling",
+      fit: "Regular Fit (Insulated Puffer)",
+      sizes_available: "S, M, L, XL, XXL",
+      care_instructions: "Machine wash cold gentle, close all zippers, line dry",
+      country_of_origin: "Italy / Romania",
+      gender: "Men",
+      style: "Sporty Winter Outerwear",
+      season: "Winter"
+    }
+  },
+  {
+    id: 35,
+    name: "Dining Table Set",
+    category: "homeandappliances",
+    price: 149.99,
+    image: "https://assets.wfcdn.com/im/06193693/resize-h800-w800%5Ecompr-r85/3318/331838374/Aveline+Extendable+Dining+Table+47%22+To+63%22+-+Expandable+Table+With+X-Brace+Metal+Legs%2C+Smooth+Glide+Mechanism%2C+Seats+6-8%2C+Space+Saving+For+Small+Areas-283322098.jpg",
+    description: "A modern dining set to anchor your space.",
+    images: ["https://assets.wfcdn.com/im/30949317/resize-h800-w800%5Ecompr-r85/3516/351661152/Aveline+Extendable+Dining+Table+47%22+To+63%22+-+Expandable+Table+With+X-Brace+Metal+Legs%2C+Smooth+Glide+Mechanism%2C+Seats+6-8%2C+Space+Saving+For+Small+Areas-283322098.jpg"],
+    specifications: {
+      material: "Solid Pine Wood Top, Powder-Coated Steel X-Brace Frame",
+      dimensions: "47in to 63in L x 31in W x 30in H",
+      weight: "112 lbs",
+      color_options: "Rustic Wood with Matte Black Metal legs",
+      energy_rating: "N/A",
+      capacity: "Seats 4 to 6 people comfortably",
+      assembly_required: "Yes",
+      warranty: "1 Year Limited Manufacturer Warranty",
+      power: "N/A"
+    }
+  },
+  {
+    id: 36,
+    name: "LED Light Wall Art Set",
+    category: "artandcollectibles",
+    price: 29.99,
+    image: "https://www.thedecorvilla.com/cdn/shop/files/WhatsApp_Image_2025-10-14_at_12.19.02_3956751c.jpg?v=1760429104&width=990",
+    description: "Decorative light art that adds ambient character.",
+    images: ["https://www.thedecorvilla.com/cdn/shop/files/WhatsApp_Image_2025-10-14_at_12.19.02_3956751c.jpg?v=1760429104&width=990"],
+    specifications: {
+      material: "Acrylic Panels, Aluminum Frame, Integrated Flexible LED strips",
+      dimensions: "24in x 16in x 1.2in",
+      weight: "3.4 lbs",
+      edition: "Modern Ambient Art Edition",
+      authenticity: "Includes FCC Certificate of Compliance",
+      finish: "Anodized Black Rim, Matte Opal Diffuser",
+      country_of_mint: "N/A",
+      purity: "N/A",
+      framed: "Yes (Built-in Aluminum Frame)"
+    }
+  },
+  {
+    id: 37,
+    name: "Flying Drone With 8K Ultra HD Video Camera",
+    category: "electronics",
+    price: 99.99,
+    image: "https://www.provideocoalition.com/wp-content/uploads/antigravity1drone002.jpg",
+    description: "Capture aerial shots with high-resolution clarity.",
+    images: ["https://www.provideocoalition.com/wp-content/uploads/antigravity1drone002.jpg"],
+    specifications: {
+      processor: "High-Speed Realtek Ambarella Image SoC",
+      ram: "4GB RAM on-board system controller",
+      storage: "64GB Internal flash storage (Supports up to 256GB MicroSD)",
+      display: "Remote: 5.5-inch High-Brightness Touchscreen Display",
+      graphics: "8K UHD Gimbal Camera Stabilization Sensor",
+      battery_life: "Up to 45 minutes flight time per battery pack",
+      operating_system: "Antigravity Flight OS v4.2",
+      ports: "1x USB-C charging, 1x MicroSD slot on drone and remote control",
+      weight: "0.55 lbs (249g - no FAA registration required)",
+      color: "Stealth Gray"
+    }
+  },
+  {
+    id: 38,
+    name: "Albert Einstein Sculpture",
+    category: "artandcollectibles",
+    price: 29.99,
+    image: "https://m.media-amazon.com/images/I/414IVtFKcML.jpg",
+    description: "A creative sculpture piece for shelf display.",
+    images: ["https://i.etsystatic.com/43097437/r/il/3aff9e/6760090084/il_794xN.6760090084_cl2i.jpg"],
+    specifications: {
+      material: "Cold-Cast Bronze & Sculptural Resin",
+      dimensions: "8in H x 4.5in W x 4.2in D",
+      weight: "2.3 lbs",
+      edition: "Open Edition Artistic Sculpture Collection",
+      authenticity: "Includes Artist Signed Certificate of Quality",
+      finish: "Bronze Patina Matte Finish",
+      country_of_mint: "N/A",
+      purity: "N/A",
+      framed: "No"
+    }
+  },
+  {
+    id: 39,
+    name: "Men's The Northface Jacket",
+    category: "men",
+    price: 199.99,
+    image: "https://assets.thenorthface.com/images/t_img/f_auto,h_400,e_unsharp_mask:100,w_344/dpr_2.0/v1723253112/NF0A883RKX8-HERO/Mens-Yumiori-FullZip-Jacket-TNF-HERO.png",
+    description: "An insulated jacket for cold-weather layering.",
+    images: ["https://assets.thenorthface.com/images/t_img/f_auto,h_400,e_unsharp_mask:100,w_344/dpr_2.0/v1723253109/NF0A883RKX8-HERO2/Mens-Yumiori-FullZip-Jacket-TNF-HERO2.png"],
+    specifications: {
+      material: "100% Recycled Polyester Polartec® Fleece (Yumiori Series)",
+      fit: "Relaxed Fit",
+      sizes_available: "S, M, L, XL, XXL, 3XL",
+      care_instructions: "Machine wash cold inside out, tumble dry low, do not iron",
+      country_of_origin: "Imported",
+      gender: "Men",
+      style: "Outdoor Casual / Gorpcore",
+      season: "Fall / Winter / Spring"
+    }
+  },
+  {
+    id: 40,
+    name: "Women's Nike Joggers",
+    category: "women",
+    price: 29.99,
+    image: "https://jcpenney.scene7.com/is/image/JCPenney/DP0407202507094199M?hei=550&wid=550&op_usm=.4%2C.8%2C0%2C0&resmode=sharp2&op_sharpen=1",
+    description: "Relaxed joggers with soft stretch comfort.",
+    images: ["https://jcpenney.scene7.com/is/image/JCPenney/DP0407202507094094M?hei=550&wid=550&op_usm=.4%2C.8%2C0%2C0&resmode=sharp2&op_sharpen=1"],
+    specifications: {
+      material: "80% Cotton, 20% Polyester Club Fleece fabric",
+      fit: "Relaxed Standard Fit",
+      sizes_available: "XS, S, M, L, XL",
+      care_instructions: "Machine wash cold, tumble dry low, warm iron if needed",
+      country_of_origin: "Vietnam / Jordan",
+      gender: "Women",
+      style: "Athleisure / Sportswear",
+      season: "All Season"
+    }
+  },
+  {
+    id: 41,
+    name: "Men's Hermes Belt",
+    category: "accessories",
+    price: 199.99,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWBUbkH9uWDGC227Yu9oQ02eSSiS3JUbNwNA&s",
+    description: "A polished belt that sharpens formal looks.",
+    images: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWBUbkH9uWDGC227Yu9oQ02eSSiS3JUbNwNA&s"],
+    specifications: {
+      material: "Reversible Epsom Calfskin Leather & brushed gold-plated buckle",
+      dimensions: "32mm Width, Length custom adjustable to waist sizes 30in - 42in",
+      weight: "0.5 lbs",
+      closure_type: "Signature Constance 'H' Buckle closure",
+      strap_type: "N/A",
+      color_options: "Black / Gold Reversible strap",
+      gender: "Men",
+      brand_origin: "France"
+    }
+  },
+  {
+    id: 42,
+    name: "Men's Gucci Sweater",
+    category: "men",
+    price: 1099.99,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwHj0TR7IPCqvJIHJLbLj938kBKS02a0BncQ&s",
+    description: "A premium knit with luxury finish and feel.",
+    images: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwHj0TR7IPCqvJIHJLbLj938kBKS02a0BncQ&s"],
+    specifications: {
+      material: "100% Fine Organic Wool Knit",
+      fit: "Regular fit with retro logo jacquard trim",
+      sizes_available: "S, M, L, XL, XXL",
+      care_instructions: "Professional dry clean only",
+      country_of_origin: "Italy",
+      gender: "Men",
+      style: "High Luxury / Smart Casual",
+      season: "Winter / Fall"
+    }
+  },
+  {
+    id: 43,
+    name: "Women's Prada Handbag",
+    category: "accessories",
+    price: 1999.99,
+    image: "https://assets.levelshoes.com/cdn-cgi/image/width=720,height=1008,quality=85,format=webp/media/catalog/product/1/b/1ba906eomnzvf0002v_1.jpg?ts=20241102035016",
+    description: "A structured handbag with refined detailing.",
+    images: ["https://assets.levelshoes.com/cdn-cgi/image/width=720,height=1008,quality=85,format=webp/media/catalog/product/1/b/1ba906eomnzvf0002v_1.jpg?ts=20241102035016"],
+    specifications: {
+      material: "Signature Saffiano Leather & Nylon Lining",
+      dimensions: "9.5in W x 6.5in H x 4.3in D (Galleria bag)",
+      weight: "1.6 lbs",
+      closure_type: "Top Zip and side snaps",
+      strap_type: "Dual top handles and detachable, adjustable leather strap",
+      color_options: "Nero (Black), Bianco (White)",
+      gender: "Women",
+      brand_origin: "Italy"
+    }
+  },
+  {
+    id: 44,
+    name: "Men's Louis Vuitton Travel Bag",
+    category: "accessories",
+    price: 1499.99,
+    image: "https://me.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-keepall-bandouliere-55--M56714_PM2_Front%20view.jpg",
+    description: "Spacious travel bag with premium material blend.",
+    images: ["https://me.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-keepall-bandouliere-55--M56714_PM2_Front%20view.jpg"],
+    specifications: {
+      material: "Monogram Eclipse Canvas & cowhide leather trim with textile lining",
+      dimensions: "21.7in W x 12.2in H x 9.4in D (Keepall Bandoulière 55)",
+      weight: "3.2 lbs",
+      closure_type: "Double-way secure zip closure with lock and key set",
+      strap_type: "Adjustable, detachable shoulder strap with leather shoulder pad",
+      color_options: "Monogram Eclipse Charcoal/Black",
+      gender: "Men / Unisex",
+      brand_origin: "France"
+    }
+  },
+  {
+    id: 45,
+    name: "Men's Michael Kors Watch",
+    category: "jewelry",
+    price: 599.99,
+    image: "https://dreamspakistan.com/cdn/shop/files/77093_ae11af48-c101-4490-a16c-acf0932feadd.png?v=1756807097&width=600",
+    description: "A statement timepiece with classic profile.",
+    images: ["https://dreamspakistan.com/cdn/shop/files/77093_ae11af48-c101-4490-a16c-acf0932feadd.png?v=1756807097&width=600"],
+    specifications: {
+      material: "Stainless Steel with Brushed Gold-Tone Finish",
+      dial_size: "44mm Case Diameter",
+      band_material: "Stainless Steel Gold-Tone 3-Link Bracelet",
+      water_resistance: "100 meters (10 ATM)",
+      movement: "Japanese Quartz Chronograph Movement",
+      chain_length: "N/A",
+      gender: "Men",
+      warranty: "2 Year Manufacturer Warranty"
+    }
+  },
+  {
+    id: 46,
+    name: "LG Smart Refrigerator",
+    category: "homeandappliances",
+    price: 499.99,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwaB13Lpqd_aB9KvTHFvJc9wX4X02rYJhmdQ&s",
+    description: "A connected appliance for modern kitchens.",
+    images: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwaB13Lpqd_aB9KvTHFvJc9wX4X02rYJhmdQ&s"],
+    specifications: {
+      material: "PrintProof™ Smudge Resistant Stainless Steel",
+      dimensions: "69.8in H x 35.8in W x 34.3in D",
+      weight: "305 lbs",
+      color_options: "Stainless Steel, Matte Black Stainless",
+      energy_rating: "Energy Star Certified",
+      capacity: "26 cu ft Side-by-Side with InstaView™",
+      assembly_required: "No",
+      warranty: "1 Year Parts & Labor, 5 Year Sealed Compressor System",
+      power: "120V / 60Hz, 15A"
+    }
+  },
+  {
+    id: 47,
+    name: "Apple Macbook Air 13 in Retina Display (2020) M1 Series - 512 GB",
+    category: "electronics",
+    price: 199.99,
+    image: "https://www.apple.com/newsroom/images/product/mac/standard/Apple_new-macbookair-wallpaper-screen_11102020_big.jpg.large.jpg",
+    description: "This 2020 MacBook Air is a landmark laptop in the revolutionary M1-chip version (late 2020), marking a shift to Apple Silicon. Known for its 13.3-inch Retina display, reliable Magic Keyboard, and 2.8 lb weight, it offers a portable design. The M1 model remains highly capable for modern day tasks.",
+    images: ["https://www.backmarket.com/cdn-cgi/image/format%3Dauto%2Cquality%3D75%2Cwidth%3D260/https://d2e6ccujb3mkqf.cloudfront.net/7048c924-9e7b-45bc-93bf-112104c1f293-2_d1177492-33a7-45a5-a894-23324f1b8246.jpg"],
+    specifications: {
+      processor: "Apple M1 8-Core CPU / 7-Core GPU",
+      ram: "8GB Unified Memory",
+      storage: "512GB PCIe-based SSD",
+      display: "13.3-inch Retina display with IPS technology, 2560x1600 resolution",
+      graphics: "Apple 7-Core Integrated GPU",
+      battery_life: "Up to 15 hours wireless web, 18 hours movie playback",
+      operating_system: "macOS Big Sur (Upgradable to macOS Sequoia)",
+      ports: "2x Thunderbolt / USB 4 ports, 3.5mm headphone jack",
+      weight: "2.8 lbs (1.29 kg)",
+      color: "Space Gray / Silver / Gold"
+    }
+  },
+  {
+    id: 48,
+    name: "Sony Playstation 5 (Disc Version)",
+    category: "entertainment",
+    price: 299.99,
+    image: "https://gameforce.pk/wp-content/uploads/2024/02/Sony-PlayStation-5-Standard-Disk-Edition-3.jpg",
+    description: "The PS5 console unleashes new gaming possibilities that you never anticipated. Experience lightning fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D Audio, and an all-new generation of incredible PlayStation games. Lightning Speed Harness the power of a custom CPU, GPU, and SSD with Integrated I/O that rewrite the rules of what a PlayStation console can do. Stunning Games Marvel at incredible graphics and experience new PS5 features. Play a back catalog of supported PS4 games. Breathtaking Immersion Discover a deeper gaming experience with support for haptic feedback, adaptive triggers, and 3D Audio technology. Vertical stand sold separately. PS5 console (CFI-2100 model group – slim). The CFI-2100 models are compatible with PS5 accessories for CFI-2000 products, including Console Covers (sold separately). 3D audio via built-in TV speakers or analog/USB stereo headphones. Set up and latest system software update required.  Internet connection required to pair Disc Drive and PS5 console upon setup.",
+    images: ["https://gameforce.pk/wp-content/uploads/2024/02/Sony-PlayStation-5-Standard-Disk-Edition-3.jpg"],
+    specifications: {
+      storage: "825GB Custom High-Speed SSD (slim models have 1TB SSD)",
+      resolution: "4K UHD Gaming, Up to 8K Output support",
+      frame_rate: "Up to 120 FPS at 120Hz output",
+      optical_drive: "4K UHD Blu-ray Disc Drive (removable on slim)",
+      connectivity: "1x HDMI 2.1, 2x USB-C, 2x USB-A, Wi-Fi 6, Bluetooth 5.1, Ethernet",
+      controllers_included: "1x DualSense Wireless Controller (White)",
+      backward_compatible: "Yes, plays over 99% of PS4 disc and digital games",
+      dimensions: "15.4in x 10.2in x 4.1in",
+      weight: "9.9 lbs"
+    }
+  },
+  {
+    id: 49,
+    name: "Abraham Lincoln Sculpture",
+    category: "artandcollectibles",
+    price: 59.99,
+    image: "https://www.capronicollection.com/cdn/shop/files/IMG_6289_copy.jpg?v=1750789948&width=1220",
+    description: "A collectible sculpture for history enthusiasts.",
+    images: ["https://www.capronicollection.com/cdn/shop/files/IMG_6289_copy.jpg?v=1750789948&width=1220"],
+    specifications: {
+      material: "Cast Plaster / Polymer Bronze Blend",
+      dimensions: "11.2in H x 5.5in W x 5.2in D",
+      weight: "4.8 lbs",
+      edition: "Open Edition Historic Reproduction",
+      authenticity: "Includes Caproni Collection Certificate of Quality",
+      finish: "Hand-applied Faux Bronze Patina",
+      country_of_mint: "N/A",
+      purity: "N/A",
+      framed: "No"
+    }
+  },
+  {
+    id: 50,
+    name: "Nintendo Switch 2",
+    category: "entertainment",
+    price: 249.99,
+    image: "https://i5.walmartimages.com/seo/Nintendo-Switch-2-Mario-Kart-World-Bundle_527bef2f-a6d3-4a7d-a7c6-8cc12d2a1def.048bb537cf3e6d24898c86f2fcbe49aa.png?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+    description: "Three Play Modes: One system with TV, Tabletop, and Handheld modes for versatile gaming experiences.Enhanced Display: Features a larger, vivid 7.9 LCD touch screen with HDR support and up to 120 fps.4K Dock Support: Updated dock supports 4K resolution when connected to a compatible TV.GameChat Integration: Voice chat, share game screens, and connect via video chat with GameChat.Ample Storage: 256GB internal storage, expandable with microSD Express cards (sold separately).Joy-Con 2 Controllers: Magnetic attachment with mouse control capabilities in compatible games. Multiplayer Options: Supports same-system, local wireless, and online multiplayer gaming.Exclusive Games: Home to exclusive titles like Mario Kart World and Donkey Kong Bananza.Start your next gaming adventure with the Nintendo Switch™ 2 system —packed with upgrades and fun ways to connect and play together!",
+    images: ["https://media.wired.com/photos/684078fb4c7f1a7ba8855010/master/w_960,c_limit/Reselling-Switch2-Consoles-Gear-NintendoSwitch2_HW_33.jpg"],
+    specifications: {
+      storage: "256GB Internal High-Speed NVMe Storage (Expandable up to 2TB)",
+      resolution: "Up to 4K UHD in Docked Mode, 1080p Full HD in Handheld Mode",
+      frame_rate: "Up to 120 FPS in Docked Mode, 60 FPS in Handheld Mode",
+      optical_drive: "Physical Switch 2 Game Cards / Digital eShop Downloads",
+      connectivity: "Wi-Fi 6E, Bluetooth 5.2, USB-C, HDMI 2.1 (Dock)",
+      controllers_included: "2x Joy-Con 2 Controllers (Left and Right)",
+      backward_compatible: "Yes, supports original Nintendo Switch digital and physical library",
+      dimensions: "10.2in x 4.3in x 0.6in (Handheld)",
+      weight: "0.95 lbs"
+    }
+  },
+  {
+    id: 51,
+    name: "Women's Nike Jacket",
+    category: "women",
+    price: 29.99,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDAVXbt7Q4QgHkL2x8sEHYkVppcsVGUmDYCA&s",
+    description: "A sporty jacket with lightweight warmth.",
+    images: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDAVXbt7Q4QgHkL2x8sEHYkVppcsVGUmDYCA&s"],
+    specifications: {
+      material: "100% Recycled Polyester (Dri-FIT tech)",
+      fit: "Standard Fit windbreaker",
+      sizes_available: "XS, S, M, L, XL",
+      care_instructions: "Machine wash cold wash inside out, do not bleach",
+      country_of_origin: "Vietnam",
+      gender: "Women",
+      style: "Athletic / Running Jacket",
+      season: "Spring / Fall"
+    }
+  },
+  {
+    id: 52,
+    name: "Men's Hermes Wallet",
+    category: "accessories",
+    price: 99.99,
+    image: "https://shoppoint.pk/cdn/shop/files/Hermes_Black_Leather_Wallet_For_Men.webp?v=1761111583",
+    description: "A compact wallet with premium finish and feel.",
+    images: ["https://shoppoint.pk/cdn/shop/files/Hermes_Black_Leather_Wallet_For_Men.webp?v=1761111583"],
+    specifications: {
+      material: "Epsom Calfskin Leather with goatskin lining",
+      dimensions: "4.5in x 3.5in x 0.4in",
+      weight: "0.2 lbs",
+      closure_type: "Fold-over leather tab closure with signature 'H' lock",
+      strap_type: "N/A",
+      color_options: "Noir (Black), Gold (Brown), Etain (Gray)",
+      gender: "Men",
+      brand_origin: "France"
+    }
+  },
+  {
+    id: 53,
+    name: "Men's Fendi Sweater",
+    category: "men",
+    price: 1099.99,
+    image: "https://cdn.shopify.com/s/files/1/0603/3031/1875/products/main-square_5eba8382-336e-4a82-ba24-d76dd0377d04.jpg?v=1694768841",
+    description: "A designer sweater with statement branding.",
+    images: ["https://cdn.shopify.com/s/files/1/0603/3031/1875/products/main-square_5eba8382-336e-4a82-ba24-d76dd0377d04.jpg?v=1694768841"],
+    specifications: {
+      material: "60% Silk, 40% Fine Cashmere knit",
+      fit: "Regular fit with all-over FF jacquard monogram pattern",
+      sizes_available: "S, M, L, XL, XXL",
+      care_instructions: "Dry clean only, low iron",
+      country_of_origin: "Italy",
+      gender: "Men",
+      style: "High Luxury / Streetwear",
+      season: "Fall / Winter"
+    }
+  },
+  {
+    id: 54,
+    name: "Women's Fendi Sweater",
+    category: "women",
+    price: 1999.99,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5N3RqKqEBiqLC7ugfmmExb1Y__qvqhCl5nw&s",
+    description: "A luxury knit built for standout layering.",
+    images: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5N3RqKqEBiqLC7ugfmmExb1Y__qvqhCl5nw&s"],
+    specifications: {
+      material: "100% Cashmere",
+      fit: "Cropped Oversized Fit with FF Karligraphy embossing",
+      sizes_available: "XS, S, M, L, XL",
+      care_instructions: "Dry clean only, lay flat to dry, do not wring",
+      country_of_origin: "Italy",
+      gender: "Women",
+      style: "Luxury / High Fashion",
+      season: "Fall / Winter"
+    }
+  },
+  {
+    id: 55,
+    name: "Gucci Glasses",
+    category: "accessories",
+    price: 1499.99,
+    image: "https://www.eye-oo.com/cdn/shop/files/307177cb3c9392f078ad775d0875800e.jpg?v=1771632379",
+    description: "A durable travel bag with premium craftsmanship.",
+    images: ["https://www.eye-oo.com/cdn/shop/files/307177cb3c9392f078ad775d0875800e.jpg?v=1771632379"],
+    specifications: {
+      material: "Lightweight Gold-Plated Metal and acetate tips",
+      dimensions: "53mm Lens width x 18mm Bridge width x 140mm Temple length",
+      weight: "0.08 lbs",
+      closure_type: "Includes velvet hard case and cleaning cloth",
+      strap_type: "N/A",
+      color_options: "Gold / Havana Brown",
+      gender: "Unisex",
+      brand_origin: "Italy"
+    }
+  },
+  {
+    id: 56,
+    name: "Women's Michael Kors Watch",
+    category: "jewelry",
+    price: 599.99,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmdp2ZE0Ax625HywcY-h6GxvueiaZZ4NTb5w&s",
+    description: "An elegant watch designed for everyday glam.",
+    images: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmdp2ZE0Ax625HywcY-h6GxvueiaZZ4NTb5w&s"],
+    specifications: {
+      material: "Stainless Steel with Rose Gold-Tone plating & crystal bezel setting",
+      dial_size: "38mm Case Diameter",
+      band_material: "Stainless Steel Rose Gold-Tone Link Band",
+      water_resistance: "50 meters (5 ATM)",
+      movement: "Japanese Quartz Multi-Function Movement",
+      chain_length: "N/A",
+      gender: "Women",
+      warranty: "2 Year Manufacturer Warranty"
+    }
+  },
+  {
+    id: 57,
+    name: "Hamilton Beach Coffee Maker",
+    category: "homeandappliances",
+    price: 49.99,
+    image: "https://target.scene7.com/is/image/Target/GUEST_57e2d054-fd81-4dac-84d7-3a1fffaa0582?wid=800&hei=800&qlt=80",
+    description: "A compact coffee maker for quick morning brews.",
+    images: ["https://target.scene7.com/is/image/Target/GUEST_57e2d054-fd81-4dac-84d7-3a1fffaa0582?wid=800&hei=800&qlt=80"],
+    specifications: {
+      material: "Stainless Steel Accent & High-Temperature Glass Carafe",
+      dimensions: "13.7in H x 7.9in W x 11.5in D",
+      weight: "6.8 lbs",
+      color_options: "Black / Stainless Steel",
+      energy_rating: "N/A",
+      capacity: "12 Cup drip coffee maker",
+      assembly_required: "No",
+      warranty: "1 Year Limited Warranty",
+      power: "120V / 60Hz, 950W"
+    }
+  },
+  {
+    id: 58,
+    name: "Samsung Laptop",
+    category: "electronics",
+    price: 199.99,
+    image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8e09ff69-4142-48ff-938b-75232dd5da79.jpg;maxHeight=1920;maxWidth=900?format=webp",
+    description: "A dependable laptop for work and study needs.",
+    images: ["https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8e09ff69-4142-48ff-938b-75232dd5da79.jpg;maxHeight=1920;maxWidth=900?format=webp"],
+    specifications: {
+      processor: "Intel Core i5-1135G7 Processor, 2.4GHz up to 4.2GHz",
+      ram: "8GB LPDDR4x Memory",
+      storage: "256GB NVMe SSD",
+      display: "15.6-inch FHD LED Display, 1920x1080 resolution",
+      graphics: "Intel Iris Xe Graphics",
+      battery_life: "Up to 12 hours",
+      operating_system: "Windows 11 Home",
+      ports: "1x USB-C, 2x USB 3.2, 1x HDMI, 1x MicroSD Multi-media Card Reader",
+      weight: "3.5 lbs",
+      color: "Mystic Silver"
+    }
+  },
+  {
+    id: 59,
+    name: "Sony Playstation 5 (Digital Version)",
+    category: "entertainment",
+    price: 299.99,
+    image: "https://zonetech.ma/wp-content/uploads/2023/12/cc5ec51b-06a4-410b-9449-572704333dbd.webp",
+    description: "The PS5 Digital Edition unleashes new gaming possibilities that you never anticipated. Experience lightning fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D Audio, and an all-new generation of incredible PlayStation games. PS5 Digital Edition is an all-digital version of the PS5 console with no disc drive. Sign into your account for PlayStation Network and go to PlayStation Store to buy and download games. PS5 Digital Edition (CFI-2100 model group – slim). The CFI-2100 models are compatible with PS5 accessories for CFI-2000 products, including Console Covers and Disc Drives (sold separately). Account for PlayStation Network required. Full terms apply – playstation.com/PSNTerms.  3D audio via built-in TV speakers or analog/USB stereo headphones. Set up and latest system software update required.",
+    images: ["https://media.gamestop.com/i/gamestop/11108141/Sony-PlayStation-5-Digital-Edition-Console?w=320&h=320&fmt=auto"],
+    specifications: {
+      storage: "825GB Custom High-Speed NVMe SSD (slim models feature 1TB SSD)",
+      resolution: "4K UHD Gaming support, Up to 8K HDR output",
+      frame_rate: "Up to 120 FPS at 120Hz refresh rate",
+      optical_drive: "Digital Only (No optical drive, supports modular drive add-on)",
+      connectivity: "1x HDMI 2.1, 2x USB-C, 2x USB-A, Wi-Fi 6, Bluetooth 5.1, Ethernet",
+      controllers_included: "1x DualSense Wireless Controller (White)",
+      backward_compatible: "Yes, plays thousands of digital PS4 games",
+      dimensions: "15.4in x 10.2in x 3.6in",
+      weight: "8.6 lbs"
+    }
+  }
 ];
-
-

@@ -1,4 +1,4 @@
-import { products } from './products.js';
+const products = window.products || [];
 
 const searchInput = document.getElementById('searchInput');
 const dropdown = document.getElementById('dropdown');
@@ -44,7 +44,7 @@ function renderProductDisplay(products) {
     card.classList.add('product-card');
 
     const img = document.createElement('img');
-    img.src = product.imageUrl;
+    img.src = product.image;
     img.alt = product.name;
 
     const name = document.createElement('div');
@@ -57,7 +57,7 @@ function renderProductDisplay(products) {
 
     const price = document.createElement('div');
     price.classList.add('price');
-    price.textContent = `$${product.price.toFixed(2)}`;
+    price.textContent = `$${Number(product.price).toFixed(2)}`;
 
     card.appendChild(img);
     card.appendChild(name);

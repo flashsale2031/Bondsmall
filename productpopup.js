@@ -103,10 +103,96 @@ function initCoverageSection() {
         ' and our 90-Day Warranty</p>';
 }
 
-function initVariantsPlaceholder() {
+function initVariants(product) {
     const el = document.getElementById("variants");
     if (!el) return;
-    el.innerHTML = '<span class="variant-chip">Standard</span>';
+    el.innerHTML = ""; // Clear existing
+
+    const name = (product.name || "").toLowerCase();
+    const description = (product.description || "").toLowerCase();
+    const category = (product.category || "").toLowerCase();
+    const brand = (product.brand || "").toLowerCase();
+
+    const shoeWords = ["shoe", "sneaker", "boot", "sandal", "heel"];
+    const isShoe = shoeWords.some(w => name.includes(w) || description.includes(w));
+
+    let labelText = "";
+    let options = [];
+    let variantType = "default";
+
+    if (isShoe) {
+        variantType = "shoe";
+        labelText = "Shoe Size";
+        options = ["5", "5.5", "6", "6.5", "7", "7.5", "8", "8.5", "9", "9.5", "10", "10.5", "11", "11.5", "12", "12.5", "13"];
+    } else if (category === "men" || category === "women") {
+        variantType = "clothing";
+        labelText = "Size";
+        options = ["S", "M", "L", "XL"];
+    } else if (category === "electronics" && (brand.includes("apple") || name.includes("apple"))) {
+        variantType = "apple";
+        labelText = "Storage";
+        options = ["256 GB", "512 GB", "1 TB", "2 TB", "4 TB"];
+    } else {
+        variantType = "default";
+        labelText = "";
+        options = ["Standard"];
+    }
+
+    // Set initial window._selectedVariant to the first option
+    window._selectedVariant = options[0];
+
+    // For default, we render a single chip
+    if (variantType === "default") {
+        const chipGroup = document.createElement("div");
+        chipGroup.className = "condition-chips";
+        chipGroup.setAttribute("role", "radiogroup");
+        chipGroup.setAttribute("aria-label", "Variant Selection");
+
+        const chip = document.createElement("button");
+        chip.type = "button";
+        chip.className = "condition-chip active";
+        chip.textContent = "Standard";
+        chip.setAttribute("role", "radio");
+        chip.setAttribute("aria-checked", "true");
+        chipGroup.appendChild(chip);
+        el.appendChild(chipGroup);
+        return;
+    }
+
+    // Label heading
+    const sectionLabel = document.createElement("h2");
+    sectionLabel.className = "popup-h2";
+    sectionLabel.style.marginBottom = "0.45rem";
+    sectionLabel.textContent = labelText;
+    el.appendChild(sectionLabel);
+
+    const chipGroup = document.createElement("div");
+    chipGroup.className = "condition-chips";
+    chipGroup.setAttribute("role", "radiogroup");
+    chipGroup.setAttribute("aria-label", labelText);
+
+    options.forEach((opt, idx) => {
+        const chip = document.createElement("button");
+        chip.type = "button";
+        chip.className = "condition-chip" + (idx === 0 ? " active" : "");
+        chip.textContent = opt;
+        chip.setAttribute("role", "radio");
+        chip.setAttribute("aria-checked", idx === 0 ? "true" : "false");
+
+        chip.addEventListener("click", () => {
+            chipGroup.querySelectorAll(".condition-chip").forEach((c) => {
+                c.classList.remove("active");
+                c.setAttribute("aria-checked", "false");
+            });
+            chip.classList.add("active");
+            chip.setAttribute("aria-checked", "true");
+            window._selectedVariant = opt;
+        });
+
+        chipGroup.appendChild(chip);
+    });
+
+    el.appendChild(chipGroup);
 }
 
 function initCondition(product) {
@@ -219,39 +305,49 @@ function initDescription(product) {
     }
 }
 
+function formatSpecKey(key) {
+    if (key.toLowerCase() === "ram") return "RAM";
+    if (key.toLowerCase() === "os") return "OS";
+    if (key.toLowerCase() === "gpu") return "GPU";
+    if (key.toLowerCase() === "ssd") return "SSD";
+    if (key.toLowerCase() === "hdmi") return "HDMI";
+    if (key.toLowerCase() === "cpu") return "CPU";
+    
+    return key
+        .split(/[_-]/)
+        .map(word => {
+            if (word.toLowerCase() === "of") return "of";
+            return word.charAt(0).toUpperCase() + word.slice(1);
+        })
+        .join(" ");
+}
+
 function initSpecifications(product) {
-    const specs = [
-        "Brand",
-        "Model",
-        "Year",
-        "Condition",
-        "Color",
-        "Material",
-        "Weight",
-        "Length",
-        "Height",
-        "Width"
-    ];
     const container = document.getElementById("specifications-form");
     if (!container) return;
     container.innerHTML = "";
 
-    specs.forEach((spec) => {
-        const key = spec.toLowerCase();
-        const value = (product.specifications && product.specifications[key]) || "";
+    const specsObj = product.specifications || {};
+    Object.keys(specsObj).forEach((key) => {
+        const rawValue = specsObj[key];
+        // Only display if the value is not empty, not "N/A", and not a placeholder dash
+        if (rawValue !== undefined && rawValue !== null && rawValue !== "" && rawValue !== "—" && rawValue !== "N/A") {
+            const formattedLabel = formatSpecKey(key);
 
-        const div = document.createElement("div");
+            const div = document.createElement("div");
 
-        const label = document.createElement("label");
-        label.textContent = `${spec}:`;
+            const label = document.createElement("label");
+            label.textContent = `${formattedLabel}:`;
 
-        const span = document.createElement("span");
-        span.className = "spec-value";
-        span.textContent = value || "—";
+            const span = document.createElement("span");
+            span.className = "spec-value";
+            span.style.fontWeight = "normal"; // Ensure value is in regular (non-bold) text
+            span.textContent = rawValue;
 
-        div.appendChild(label);
-        div.appendChild(span);
-        container.appendChild(div);
+            div.appendChild(label);
+            div.appendChild(span);
+            container.appendChild(div);
+        }
     });
 }
 
@@ -504,6 +600,37 @@ function resetReviewUi() {
     });
 }
 
+function getFooterHTML() {
+    return `
+<footer class="site-footer">
+    <div class="site-footer-top">
+        <div class="site-footer-brand-wrap">
+            <div class="site-footer-brand">BONDS MALL</div>
+            <p class="site-footer-tagline">Premium shopping with secure checkout and live customer support.</p>
+        </div>
+        <div class="site-footer-stickers" aria-label="Trust stickers">
+            <span class="sticker">Secure Payments</span>
+            <span class="sticker">24/7 Support</span>
+            <span class="sticker">Verified Store</span>
+        </div>
+    </div>
+    <nav class="site-footer-menu" aria-label="Footer menu">
+        <a href="customer-service.html"><span class="footer-icon" aria-hidden="true">CS</span>Customer Service</a>
+        <a href="faq.html"><span class="footer-icon" aria-hidden="true">FQ</span>FAQ</a>
+        <a href="dispute-center.html"><span class="footer-icon" aria-hidden="true">DC</span>Dispute Center</a>
+        <a href="careers.html"><span class="footer-icon" aria-hidden="true">CR</span>Careers</a>
+        <a href="partner.html"><span class="footer-icon" aria-hidden="true">PT</span>Partner</a>
+        <a href="affiliate.html"><span class="footer-icon" aria-hidden="true">AF</span>Affiliate</a>
+        <a href="link-bank-account.html"><span class="footer-icon" aria-hidden="true">BK</span>Link Bank Account</a>
+        <a href="profile.html"><span class="footer-icon" aria-hidden="true">PR</span>Profile</a>
+        <a href="order-history.html"><span class="footer-icon" aria-hidden="true">OH</span>Order History</a>
+        <a href="track-order.html"><span class="footer-icon" aria-hidden="true">TM</span>Track Order</a>
+        <a href="rewards.html"><span class="footer-icon" aria-hidden="true">RW</span>Rewards</a>
+        <a href="recentorders.html"><span class="footer-icon" aria-hidden="true">RO</span>Recent Orders</a>
+    </nav>
+</footer>`;
+}
+
 window.populateProductPopup = function populateProductPopup(product, opts) {
     const categoryLabels = (opts && opts.categoryLabels) || {};
     ensureDelegatedListeners();
@@ -517,7 +644,12 @@ window.populateProductPopup = function populateProductPopup(product, opts) {
     if (titleEl) titleEl.textContent = enriched.name || "";
 
     const catEl = document.getElementById("product-category-label");
-    if (catEl) catEl.textContent = categoryLabels[product.category] || product.category || "";
+    const luxuryBrands = ["dolce & gabbana", "louis vuitton", "yves saint laurent", "gucci", "prada", "hermes", "fendi", "chanel", "dior", "abercrombie & fitch", "bathing ape", "bathing apes", "michael kors", "rolex", "patek philippe", "marc jacobs", "us mint"];
+    const isLuxury = luxuryBrands.some(brand => (product.name || "").toLowerCase().includes(brand));
+
+    if (catEl) {
+        catEl.textContent = categoryLabels[product.category] || product.category || "";
+    }
 
     const retailEl = document.getElementById("retail-price");
     const saleEl = document.getElementById("sale-price");
@@ -527,12 +659,123 @@ window.populateProductPopup = function populateProductPopup(product, opts) {
     populatePhotos(enriched);
     initDeliveryOptions();
     initSoldBySection();
+
+    // Fix 2: Separated, independent Authenticity and Sold By sections
+    const originalSoldBy = document.getElementById("sold-by");
+    if (originalSoldBy) {
+        originalSoldBy.style.display = "none"; // Hide original container
+
+        // Inject responsive CSS if not already present in <head>
+        if (!document.getElementById("popup-sections-responsive-style")) {
+            const style = document.createElement("style");
+            style.id = "popup-sections-responsive-style";
+            style.textContent = `
+                .popup-split-section {
+                    border-top: 1px solid #eadfce;
+                    padding: 0.85rem 0;
+                    margin-top: 1.25rem;
+                    width: 100%;
+                    box-sizing: border-box;
+                }
+                #popup-authenticity-section + #popup-sold-by-section {
+                    margin-top: 0;
+                }
+                #popup-sold-by-section + #sold-by + .popup-section,
+                #popup-sold-by-section + .popup-section {
+                    margin-top: 0;
+                }
+                @media (max-width: 480px) {
+                    .popup-split-section {
+                        padding: 0.65rem 0;
+                        margin-top: 1rem;
+                    }
+                }
+            `;
+            document.head.appendChild(style);
+        }
+
+        // Clean up previously created elements to prevent duplication on re-open
+        const oldAuth = document.getElementById("popup-authenticity-section");
+        if (oldAuth) oldAuth.remove();
+        const oldSoldBy = document.getElementById("popup-sold-by-section");
+        if (oldSoldBy) oldSoldBy.remove();
+
+        // Create independent Authenticity section
+        const authSection = document.createElement("div");
+        authSection.id = "popup-authenticity-section";
+        authSection.className = "popup-split-section";
+        authSection.style.display = "flex";
+        authSection.style.justifyContent = "flex-end";
+        authSection.style.alignItems = "center";
+        authSection.style.textAlign = "right";
+
+        if (isLuxury) {
+            authSection.innerHTML = `
+                <span class="luxury-badge-popup" style="background: #ffffff; color: #1c1b1a; font-size: 0.62rem; font-weight: 800; text-transform: uppercase; padding: 0.2rem 0.5rem; border-radius: 6px; border: 1px solid #d0c9be; letter-spacing: 0.04em; font-family: var(--badge-font); display: inline-flex; align-items: center; gap: 3px; vertical-align: middle; pointer-events: none;">
+                    <svg style="width: 9px; height: 9px; flex-shrink: 0;" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                    Authenticity Guaranteed
+                </span>
+            `;
+            originalSoldBy.parentNode.insertBefore(authSection, originalSoldBy);
+        }
+
+        // Create independent Sold By section
+        const soldBySection = document.createElement("div");
+        soldBySection.id = "popup-sold-by-section";
+        soldBySection.className = "popup-split-section";
+        soldBySection.style.display = "flex";
+        soldBySection.style.justifyContent = "flex-start";
+        soldBySection.style.alignItems = "center";
+        soldBySection.style.textAlign = "left";
+        soldBySection.innerHTML = `<p class="sold-by-text" style="margin: 0; color: #5c5348; font-size: 0.95rem;">Sold by <em style="font-style:italic">Bonds Mall</em></p>`;
+        originalSoldBy.parentNode.insertBefore(soldBySection, originalSoldBy);
+    }
+
+
+    
     initCoverageSection();
-    initVariantsPlaceholder();
+    initVariants(enriched);
     initCondition(enriched);
     initDescription(enriched);
     initSpecifications(enriched);
     initSimilarProducts(enriched);
+
+    // Dynamic JSON-LD structured data injection for Product
+    const oldScript = document.getElementById('dynamic-product-schema');
+    if (oldScript) {
+        oldScript.remove();
+    }
+    const additionalImages = (product.images || []).filter(Boolean);
+    const allImages = [product.image, ...additionalImages].slice(0, 3);
+    const schema = {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": product.name,
+        "image": allImages.length > 1 ? allImages : product.image,
+        "description": product.description || "",
+        "offers": {
+            "@type": "Offer",
+            "price": typeof product.price === "number" ? product.price.toFixed(2) : "0.00",
+            "priceCurrency": "USD",
+            "url": `https://www.bondsmall.com/?product=${product.id}`
+        }
+    };
+    const script = document.createElement('script');
+    script.id = 'dynamic-product-schema';
+    script.type = 'application/ld+json';
+    script.text = JSON.stringify(schema);
+    document.head.appendChild(script);
+
+    // Dynamic footer menu injection inside product popup
+    const modalBody = document.querySelector(".product-detail-modal-body");
+    if (modalBody) {
+        let existingFooter = modalBody.querySelector(".site-footer");
+        if (!existingFooter) {
+            const footerContainer = document.createElement("div");
+            footerContainer.innerHTML = getFooterHTML();
+            modalBody.appendChild(footerContainer.firstElementChild);
+        }
+    }
 
     resetReviewUi();
 };

@@ -22,14 +22,13 @@
 
     /* ── DOM references ──────────────────────────── */
     const menuBtn      = document.getElementById("menu-btn");
-    const popupMenuBtn = document.getElementById("popup-menu-btn");
     const overlay      = document.getElementById("cat-drawer-overlay");
     const backdrop     = document.getElementById("cat-drawer-backdrop");
     const closeBtn     = document.getElementById("cat-drawer-close");
     const drawerItems  = document.querySelectorAll(".cat-drawer-item");
     const headerSearch = document.getElementById("header-search");
 
-    if ((!menuBtn && !popupMenuBtn) || !overlay) return; // guard: overlay and at least one menu button must exist
+    if (!menuBtn || !overlay) return; // guard: overlay and main menu button must exist
 
     /* ── Open / close ────────────────────────────── */
     function openDrawer() {
@@ -39,9 +38,10 @@
             menuBtn.classList.add("is-open");
             menuBtn.setAttribute("aria-expanded", "true");
         }
-        if (popupMenuBtn) {
-            popupMenuBtn.classList.add("is-open");
-            popupMenuBtn.setAttribute("aria-expanded", "true");
+        const currentPopupBtn = document.getElementById("popup-menu-btn");
+        if (currentPopupBtn) {
+            currentPopupBtn.classList.add("is-open");
+            currentPopupBtn.setAttribute("aria-expanded", "true");
         }
         document.body.style.overflow = "hidden";
     }
@@ -53,9 +53,10 @@
             menuBtn.classList.remove("is-open");
             menuBtn.setAttribute("aria-expanded", "false");
         }
-        if (popupMenuBtn) {
-            popupMenuBtn.classList.remove("is-open");
-            popupMenuBtn.setAttribute("aria-expanded", "false");
+        const currentPopupBtn = document.getElementById("popup-menu-btn");
+        if (currentPopupBtn) {
+            currentPopupBtn.classList.remove("is-open");
+            currentPopupBtn.setAttribute("aria-expanded", "false");
         }
         document.body.style.overflow = "";
     }
@@ -65,6 +66,23 @@
         drawerItems.forEach(btn => {
             btn.classList.toggle("active", btn.dataset.cat === catKey);
         });
+    }
+
+    function cleanUrl(urlStr) {
+        if (!urlStr) return "";
+        try {
+            if (urlStr.startsWith("http://") || urlStr.startsWith("https://")) {
+                const url = new URL(urlStr);
+                if (url.hostname.includes("bondsmall.com") || url.hostname === window.location.hostname) {
+                    url.pathname = url.pathname.replace(/\.html$/, "");
+                    return url.toString();
+                }
+                return urlStr;
+            }
+            return urlStr.replace(/\.html(\?|#|$)/, "$1").replace(/\.html$/, "");
+        } catch (_) {
+            return urlStr.replace(/\.html(\?|#|$)/, "$1").replace(/\.html$/, "");
+        }
     }
 
     /* ── Handle category click ───────────────────── */
@@ -81,19 +99,19 @@
             }
             // Clear text query when browsing by category from drawer
             url.searchParams.delete("q");
-            window.history.replaceState({}, "", url.toString());
+            window.history.replaceState({}, "", cleanUrl(url.toString()));
 
             // Trigger the search results page to re-render if its API is available
             if (typeof window.SRPage !== "undefined" && typeof window.SRPage.refresh === "function") {
                 window.SRPage.refresh();
             }
         } else {
-            // On index.html: navigate to search-results.html
-            if (catKey === "all") {
-                window.location.href = "search-results.html";
-            } else {
-                window.location.href = `search-results.html?category=${encodeURIComponent(catKey)}`;
-            }
+            // In-page filtering on index.html
+            const categoryBtns = document.querySelectorAll(".category-btn");
+            categoryBtns.forEach(btn => btn.classList.toggle("active", btn.dataset.category === catKey));
+            // Dispatch a custom event to sync with bondsmall.js
+            const event = new CustomEvent("drawer-category-select", { detail: { category: catKey } });
+            document.dispatchEvent(event);
         }
     }
 
@@ -120,15 +138,15 @@
         });
     }
 
-    if (popupMenuBtn) {
-        popupMenuBtn.addEventListener("click", () => {
-            if (overlay.classList.contains("is-open")) {
-                closeDrawer();
-            } else {
-                openDrawer();
-            }
-        });
-    }
+    document.addEventListener("click", (e) => {
+        const btn = e.target.closest("#popup-menu-btn");
+        if (!btn) return;
+        if (overlay.classList.contains("is-open")) {
+            closeDrawer();
+        } else {
+            openDrawer();
+        }
+    });
 
     if (backdrop) backdrop.addEventListener("click", closeDrawer);
     if (closeBtn) closeBtn.addEventListener("click", closeDrawer);

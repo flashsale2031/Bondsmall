@@ -41,13 +41,13 @@
       resultsQuantityContainer.textContent = '';
       resultsContainer.textContent = 'What product are you looking for?';
     } else {
-      const filteredProducts = products.filter(product =>
-        product.name.toLowerCase().includes(query) ||
-        product.description.toLowerCase().includes(query)
-      );
+      const filteredProducts = products.filter(product => {
+        const hay = [product.name, product.description, product.category, product.brand || ""].join(" ").toLowerCase();
+        return hay.includes(query);
+      });
 
       // Display the results quantity message
-      resultsQuantityContainer.textContent = `Results for "query":{query}":query":{filteredProducts.length}`;
+      resultsQuantityContainer.textContent = `Results for "${query}": ${filteredProducts.length} product(s)`;
 
       if (filteredProducts.length === 0) {
         resultsContainer.textContent = `No products found for "${query}".`;

@@ -25,6 +25,12 @@ body {
   min-height: 100vh;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 .hidden {
@@ -989,6 +995,7 @@ body.lightbox-open {
 .popup-add-btn {
   width: 100%;
   margin-top: 1rem;
+  margin-bottom: 1.5rem;
   padding: 0.72rem;
 }
 
@@ -2981,4 +2988,18 @@ input.input-error {
 
 .fav-btn.is-active {
   color: #8c2f39;
+}
+
+/* ── Responsive Luxury Brand Badges on Phones ── */
+@media (max-width: 600px) {
+  .luxury-badge {
+    font-size: 0.52rem !important;
+    padding: 0.15rem 0.35rem !important;
+    border-radius: 4px !important;
+  }
+  .luxury-badge-popup {
+    font-size: 0.55rem !important;
+    padding: 0.12rem 0.35rem !important;
+    border-radius: 3px !important;
+  }
 }

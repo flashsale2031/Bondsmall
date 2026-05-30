@@ -291,7 +291,7 @@
         uniqueBrands.forEach(({ value, count }) => {
           const option = document.createElement('option');
           option.value = value;
-          option.textContent = `value({value} (value({count} Product${count > 1 ? 's' : ''})`;
+          option.textContent = `${value} (${count} Product${count > 1 ? 's' : ''})`;
           brandSelect.appendChild(option);
         });
       }
@@ -306,7 +306,7 @@
         uniqueConditions.forEach(({ value, count }) => {
           const option = document.createElement('option');
           option.value = value;
-          option.textContent = `value({value} (value({count} Product${count > 1 ? 's' : ''})`;
+          option.textContent = `${value} (${count} Product${count > 1 ? 's' : ''})`;
           conditionSelect.appendChild(option);
         });
       }

