@@ -19,13 +19,28 @@ function inferBrandFromName(name) {
 
 /** Catalog row → popup shape (salePrice, retailPrice, specs, brand, …) */
 function enrichForPopup(product) {
-    const price = typeof product.price === "number" ? product.price : 0;
     const imgs = [...new Set([product.image, ...(product.images || [])].filter(Boolean))];
-    const brandGuess = inferBrandFromName(product.name);
+
+    let retailPrice = product["retail price"] || product.retailPrice || 0;
+    if (!retailPrice) {
+        retailPrice = (typeof product.price === "number" ? product.price : 0) * 1.1;
+    }
+
+    let salePrice = product["sale price"] || product.salePrice || retailPrice;
+    if (!salePrice) {
+        salePrice = typeof product.price === "number" ? product.price : retailPrice;
+    }
+
+    const preOwnedPrice = product["pre-owned price"] || null;
+
+    const brand = (product.specifications && product.specifications.brand && product.specifications.brand.trim())
+        || product.brand
+        || inferBrandFromName(product.name)
+        || "";
 
     const specifications = Object.assign(
         {
-            brand: brandGuess,
+            brand: brand,
             model: "",
             year: "",
             condition: "New",
@@ -38,14 +53,16 @@ function enrichForPopup(product) {
         },
         product.specifications || {}
     );
+    specifications.brand = brand;
 
     return {
         ...product,
         mainPhoto: imgs[0] || "",
         images: imgs,
-        salePrice: price,
-        retailPrice: price > 0 ? Math.round(price * 1.1 * 100) / 100 : 0,
-        brand: product.brand || brandGuess || undefined,
+        salePrice: salePrice,
+        retailPrice: retailPrice,
+        preOwnedPrice: preOwnedPrice,
+        brand: brand,
         productType: product.productType || product.category,
         specifications
     };
@@ -469,18 +486,27 @@ function ensureDelegatedListeners() {
 /* ── Photo strip carousel (max 8 photos, one-at-a-time navigation) ── */
 function populatePhotos(enrichedProduct) {
     const mainImg = document.getElementById("main-photo");
+    if (!mainImg) {
+        console.warn("Element #main-photo not found in DOM.");
+        return;
+    }
+
     const track   = document.getElementById("photo-strip-track");
     let prevBtn    = document.getElementById("photo-strip-prev");
     let nextBtn    = document.getElementById("photo-strip-next");
 
     const MAX_PHOTOS = 8;
-    const urls = (enrichedProduct.images || []).filter(Boolean).slice(0, MAX_PHOTOS);
+    let urls = (enrichedProduct.images || []).filter(Boolean).slice(0, MAX_PHOTOS);
+    if (urls.length === 0 && enrichedProduct.image) {
+        urls = [enrichedProduct.image];
+    }
 
     /* ── Set the main display image ── */
-    if (mainImg) {
-        mainImg.src = urls[0] || "";
-        mainImg.alt = enrichedProduct.name || "";
-    }
+    mainImg.src = urls[0] || "";
+    mainImg.alt = enrichedProduct.name || "";
+    mainImg.style.display = "block";
+    mainImg.style.maxWidth = "100%";
+
 
     if (!track) return;
     track.innerHTML = "";
@@ -655,6 +681,27 @@ window.populateProductPopup = function populateProductPopup(product, opts) {
     const saleEl = document.getElementById("sale-price");
     if (retailEl) retailEl.textContent = formatPopupMoney(enriched.retailPrice);
     if (saleEl) saleEl.textContent = formatPopupMoney(enriched.salePrice);
+
+    let preownedEl = document.getElementById("preowned-price");
+    if (enriched.preOwnedPrice && enriched.preOwnedPrice > 0) {
+        if (!preownedEl) {
+            preownedEl = document.createElement("span");
+            preownedEl.id = "preowned-price";
+            preownedEl.style.color = "#8c2f39";
+            preownedEl.style.fontWeight = "800";
+            preownedEl.style.fontSize = "1rem";
+            preownedEl.style.marginLeft = "0.5rem";
+            if (saleEl) {
+                saleEl.parentNode.insertBefore(preownedEl, saleEl.nextSibling);
+            }
+        }
+        preownedEl.textContent = `Pre-Owned: ${formatPopupMoney(enriched.preOwnedPrice)}`;
+        preownedEl.style.display = "";
+    } else {
+        if (preownedEl) {
+            preownedEl.style.display = "none";
+        }
+    }
 
     populatePhotos(enriched);
     initDeliveryOptions();
@@ -912,6 +959,30 @@ document.addEventListener("DOMContentLoaded", ensureDelegatedListeners);
         updateCounter();
         updateNavVisibility();
 
+        /* ── Attach 2× hover zoom to lightbox image (desktop pointer only) ── */
+        if (window.matchMedia("(pointer: fine)").matches) {
+            lbImg.style.cursor = "crosshair";
+            lbImg.style.transformOrigin = "50% 50%";
+            lbImg.style.transform = "scale(1)";
+            lbImg._lbZoomMove = (e) => {
+                const rect = lbImg.getBoundingClientRect();
+                const x = ((e.clientX - rect.left) / rect.width) * 100;
+                const y = ((e.clientY - rect.top) / rect.height) * 100;
+                lbImg.style.transition = "none";
+                lbImg.style.transformOrigin = `${x}% ${y}%`;
+                lbImg.style.transform = "scale(2)";
+            };
+            lbImg._lbZoomLeave = () => {
+                lbImg.style.transition = "transform 0.15s ease";
+                lbImg.style.transform = "scale(1)";
+                lbImg.style.transformOrigin = "50% 50%";
+            };
+            lbImg.removeEventListener("mousemove", lbImg._lbZoomMove);
+            lbImg.removeEventListener("mouseleave", lbImg._lbZoomLeave);
+            lbImg.addEventListener("mousemove", lbImg._lbZoomMove);
+            lbImg.addEventListener("mouseleave", lbImg._lbZoomLeave);
+        }
+
         /* Save scroll position before locking */
         savedScrollY = window.scrollY;
         lightbox.hidden = false;
@@ -924,6 +995,12 @@ document.addEventListener("DOMContentLoaded", ensureDelegatedListeners);
         lightbox.hidden = true;
         lbImg.src = "";
         lbImg.classList.remove("lb-slide-right", "lb-slide-left");
+        /* Reset zoom state */
+        lbImg.style.transform = "scale(1)";
+        lbImg.style.transformOrigin = "50% 50%";
+        lbImg.style.cursor = "";
+        if (lbImg._lbZoomMove)  lbImg.removeEventListener("mousemove",  lbImg._lbZoomMove);
+        if (lbImg._lbZoomLeave) lbImg.removeEventListener("mouseleave", lbImg._lbZoomLeave);
         /* Restore scroll position after unlocking */
         document.body.classList.remove("lightbox-open");
         document.body.style.top = "";

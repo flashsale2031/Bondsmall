@@ -718,8 +718,8 @@
                     </div>
                     <h3 class="product-name" style="cursor: pointer;" data-action="open-modal" data-id="${product.id}">${product.name}</h3>
                     <div class="product-price-row" style="display: flex; gap: 0.5rem; align-items: baseline; margin-bottom: 0.3rem; flex-wrap: wrap;">
-                        <span class="retail-price" style="text-decoration: line-through; color: var(--muted); font-size: 0.85rem;">${formatMoney(product.price * 1.1)}</span>
-                        <span class="sale-price" style="color: var(--good, #1f7a46); font-weight: 800; font-size: 1rem;">${formatMoney(product.price)}</span>
+                        <span class="retail-price" style="text-decoration: line-through; color: var(--muted); font-size: 0.85rem;">${formatMoney(product["retail price"] || product.retailPrice || product.price * 1.1)}</span>
+                        <span class="sale-price" style="color: var(--good, #1f7a46); font-weight: 800; font-size: 1rem;">${formatMoney(product["sale price"] || product.salePrice || product.price)}</span>
                     </div>
                     <button class="add-btn" data-action="add-cart" data-id="${product.id}">Add to Cart</button>
                 </div>
@@ -1482,6 +1482,19 @@
         });
     }
 
+    function normalizeProducts() {
+        if (typeof products === "undefined") return;
+        products.forEach(p => {
+            if (typeof p.price !== "number" || p.price === 0) {
+                const sp = p["sale price"];
+                const rp = p["retail price"];
+                p.price = typeof sp === "number" && sp > 0 ? sp
+                        : typeof rp === "number" && rp > 0 ? rp
+                        : 0;
+            }
+        });
+    }
+
     function init() {
         window.history.replaceState({}, "", cleanUrl(window.location.href));
         
@@ -1498,6 +1511,7 @@
         document.head.appendChild(badgeStyle);
 
         initializeAccountManager();
+        normalizeProducts();
         renderProducts();
         updateCartCount();
         renderCart();

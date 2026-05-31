@@ -177,14 +177,22 @@
         ];
 
         products.forEach(p => {
+            p.salePrice = p["sale price"] || p.price || 0;
+            p.price     = p.salePrice; // ensure p.price always has a usable number
+
             // 1. Inferred Brand
             if (!p.brand) {
-                const foundBrand = knownBrands.find(b => p.name.toLowerCase().includes(b.toLowerCase()));
-                if (foundBrand) {
-                    p.brand = foundBrand;
+                const specBrand = p.specifications && p.specifications.brand && p.specifications.brand.trim();
+                if (specBrand) {
+                    p.brand = specBrand;
                 } else {
-                    const firstWord = p.name.split(" ")[0].replace(/[^a-zA-Z]/g, "");
-                    p.brand = firstWord || "Bonds Mall";
+                    const foundBrand = knownBrands.find(b => p.name.toLowerCase().includes(b.toLowerCase()));
+                    if (foundBrand) {
+                        p.brand = foundBrand;
+                    } else {
+                        const firstWord = p.name.split(" ")[0].replace(/[^a-zA-Z]/g, "");
+                        p.brand = firstWord || "Bonds Mall";
+                    }
                 }
             }
 
@@ -557,8 +565,8 @@
                     </div>
                     <h3 class="product-name" style="cursor: pointer;" data-action="open-modal" data-id="${product.id}">${product.name}</h3>
                     <div class="product-price-row" style="display: flex; gap: 0.5rem; align-items: baseline; margin-bottom: 0.3rem; flex-wrap: wrap;">
-                        <span class="retail-price" style="text-decoration: line-through; color: var(--muted); font-size: 0.85rem;">${formatMoney(product.price * 1.1)}</span>
-                        <span class="sale-price" style="color: var(--good, #1f7a46); font-weight: 800; font-size: 1rem;">${formatMoney(product.price)}</span>
+                        <span class="retail-price" style="text-decoration: line-through; color: var(--muted); font-size: 0.85rem;">${formatMoney(product["retail price"] || product.retailPrice || product.price * 1.1)}</span>
+                        <span class="sale-price" style="color: var(--good, #1f7a46); font-weight: 800; font-size: 1rem;">${formatMoney(product["sale price"] || product.salePrice || product.price)}</span>
                     </div>
                     <button class="add-btn" data-action="add-cart" data-id="${product.id}">Add to Cart</button>
                 </div>
