@@ -536,8 +536,8 @@
             const isFav = favs.includes(product.id);
             const isLuxury = luxuryBrands.some(brand => (product.name || "").toLowerCase().includes(brand));
             const luxuryBadgeHTML = isLuxury ? `
-                <span class="luxury-badge" style="position: absolute; top: 0.5rem; left: 50%; transform: translateX(-50%); z-index: 2; background: #ffffff; color: #dfb23a; font-size: 0.55rem; font-weight: 800; text-transform: uppercase; padding: 0.25rem 0.5rem; border-radius: 4px; border: 1px solid #dfb23a; letter-spacing: 0.04em; font-family: var(--badge-font); display: inline-flex; align-items: center; gap: 3px; pointer-events: none; box-shadow: 0 2px 6px rgba(0,0,0,0.06); white-space: nowrap;">
-                    <svg style="width: 8px; height: 8px; flex-shrink: 0;" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                <span class="luxury-badge" style="position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%); z-index: 2; background: #ffffff; color: #1c1b1a; border: 1px solid #d0c9be; font-size: 0.62rem; font-weight: 800; padding: 0.28rem 0.55rem; border-radius: 6px; white-space: nowrap; max-width: calc(100% - 24px); overflow: hidden; text-overflow: ellipsis; pointer-events: none; letter-spacing: 0.03em; display: inline-flex; align-items: center; gap: 4px;">
+                    <svg style="width: 10px; height: 10px; flex-shrink: 0;" fill="#1c1b1a" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
                     Authenticity Guaranteed
                 </span>
             ` : '';
