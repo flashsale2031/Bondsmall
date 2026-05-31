@@ -5,9 +5,9 @@ var products = [
     category: "men",
     "retail price": 14.99,
     "sale price": 9.99,
-    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: ["https://i5.walmartimages.com/seo/Hanes-Men-s-White-Crew-T-Shirt-Undershirts-3-Pack_3f962556-eda3-4adb-a5fa-803f0d0712aa_1.b85081d7ea1cfce8752d1be117a6e317.jpeg?odnHeight=1067&odnWidth=800&odnBg=FFFFFF"],
     description: "A soft premium cotton tee made for everyday comfort.",
-    images: ["https://www.uberprints.com/content/products/flat/800x800/ha5180_1_wht.jpg"],
+    images: ["https://i5.walmartimages.com/asr/baf613be-c244-408e-9df6-027f9ded4cf2.53ac102778378b94be81c0394938e337.jpeg?odnHeight=1067&odnWidth=800&odnBg=FFFFFF", "https://i5.walmartimages.com/asr/1e172b7e-3788-49f7-b3b4-4158e70b2544.6b9ba1b78c0dc275c066d26792695038.jpeg?odnHeight=1067&odnWidth=800&odnBg=FFFFFF", "https://i5.walmartimages.com/asr/c67458d0-bb3b-4b80-a8d7-db347d895744.39fb216db61d52440767c4014772c7e5.jpeg?odnHeight=1067&odnWidth=800&odnBg=FFFFFF", "https://i5.walmartimages.com/asr/7da1e4b7-5076-4ce1-b863-8f9a6a11ff3c.2110899883a15f78035dda099678876d.jpeg?odnHeight=1067&odnWidth=800&odnBg=FFFFFF", "https://i5.walmartimages.com/asr/4332f63e-4227-4f40-9de6-f89b3faea928.5f45085050e6f79241a2030cddfeaacf.jpeg?odnHeight=1067&odnWidth=800&odnBg=FFFFFF", "https://i5.walmartimages.com/asr/eb602de7-258d-4367-8cf9-0933b04c7f29.69eee44556230c51a679327afa8ad2bb.jpeg?odnHeight=1067&odnWidth=800&odnBg=FFFFFF", "https://i5.walmartimages.com/asr/2d9172ce-7845-4941-afe7-08799adacb0c.f25946a509b90f685ada28483110e02f.jpeg?odnHeight=1067&odnWidth=800&odnBg=FFFFFF"],
     specifications: {
       brand: "Hanes",
       material: "100% Premium Cotton",
@@ -26,9 +26,9 @@ var products = [
     category: "women",
     "retail price": 149.99,
     "sale price": 79.99,
-    image: "https://img.abercrombie.com/is/image/anf/KIC_152-6225-00640-112_model4?policy=product-medium",
+    image: "https://img.abercrombie.com/is/image/anf/KIC_150-6263-00773-500_life1?policy=product-medium",
     description: "A new collection that celebrates our one hundred year history—inspired by our vintage archives and redesigned for today. This comfortable popover hoodie is in our softAF Max fleece fabric and classic Sunday silhouette. Features a drop-shoulder fit, vintage-inspired graphic logo details at the chest, front pouch pocket and banded hem and cuffs. Imported.",
-    images: ["https://img.abercrombie.com/is/image/anf/KIC_152-6225-00640-112_model3?policy=product-medium"],
+    images: ["https://img.abercrombie.com/is/image/anf/KIC_150-6263-00773-500_model1?policy=product-medium", "https://img.abercrombie.com/is/image/anf/KIC_150-6263-00773-500_model2?policy=product-medium", "https://img.abercrombie.com/is/image/anf/KIC_150-6263-00773-500_model3?policy=product-medium", "https://img.abercrombie.com/is/image/anf/KIC_150-6263-00773-500_model4?policy=product-medium", "https://img.abercrombie.com/is/image/anf/KIC_150-6263-00773-500_model5?policy=product-medium", "https://img.abercrombie.com/is/image/anf/KIC_150-6263-00773-500_prod1?policy=product-medium"],
     specifications: {
       brand: "Abercrombie & Fitch",
       material: "70% Cotton, 30% Polyester (softAF Max fleece)",
@@ -49,7 +49,7 @@ var products = [
     "sale price": 1129.99,
     image: "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
     description: "A sleek crossbody bag designed for day-to-night style.",
-    images: ["https://marissacollections.com/cdn/shop/files/dolce-gabbana-handbagshoulder-nero-os-3_5-crossbody-bag-nero-3.jpg?v=1732570457&width=713"],
+    images: ["https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp", "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp", "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"],
     specifications: {
       brand: "Dolce & Gabbana",
       material: "100% Calfskin Leather",
