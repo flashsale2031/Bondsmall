@@ -153,9 +153,9 @@ var products = [
     category: "women",
     "retail price": 79.99,
     "sale price": 39.99,
-    image: "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=500&q=80",
+    image: "https://www.victoriassecret.com/p/874x1165/png/zz/25/12/23/02/112629647KFJ_OM_S.jpg",
     description: "A cozy full-zip hoodie in PINK's signature campus fleece fabric.",
-    images: ["https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=500&q=80", "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&q=80"],
+    images: ["https://www.victoriassecret.com/p/874x1165/png/zz/25/11/06/02/112629647KFJ_OM_F.jpg", "https://www.victoriassecret.com/p/874x1165/png/zz/25/11/06/02/112629647KFJ_OM_B.jpg", "https://www.victoriassecret.com/p/874x1165/png/zz/26/01/15/01/112629647KFJ_OF_F.jpg"],
     specifications: {
       brand: "Victoria's Secret",
       material: "60% Cotton, 40% Polyester Fleece (softAF)",
