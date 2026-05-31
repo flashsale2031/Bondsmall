@@ -132,9 +132,9 @@ var products = [
     category: "men",
     "retail price": 4999.99,
     "sale price": 1199.99,
-    image: "https://www.dolcegabbana.com/dw/image/v2/BKDB_PRD/on/demandware.static/-/Sites-15/default/dwf324185d/images/zoom/GXZBJZJBCJC_A4567_0.jpg?sw=912.5&sh=1160&sm=fit",
+    image: "https://cdn-images.farfetch-contents.com/19/75/78/58/19757858_44320372_600.jpg",
     description: "A luxury-inspired sweater with rich texture and warmth.",
-    images: ["https://www.dolcegabbana.com/dw/image/v2/BKDB_PRD/on/demandware.static/-/Sites-15/default/dwf324185d/images/zoom/GXZBJZJBCJC_A4567_0.jpg?sw=912.5&sh=1160&sm=fit"],
+    images: ["https://cdn-images.farfetch-contents.com/19/75/78/58/19757858_44319077_600.jpg", "https://cdn-images.farfetch-contents.com/19/75/78/58/19757858_44320369_600.jpg", "https://cdn-images.farfetch-contents.com/19/75/78/58/19757858_44320370_600.jpg", "https://cdn-images.farfetch-contents.com/19/75/78/58/19757858_44320371_600.jpg"],
     specifications: {
       brand: "Dolce & Gabbana",
       material: "80% Virgin Wool, 20% Cashmere",
