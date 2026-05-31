@@ -117,7 +117,7 @@ function initCoverageSection() {
         '<path d="M5 15L15 5M15 5H8M15 5V12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>' +
         '</svg>' +
         '</a>' +
-        ' and our 90-Day Warranty</p>';
+        ' & our 90-day warranty.</p>';
 }
 
 function initVariants(product) {
