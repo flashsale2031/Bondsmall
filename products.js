@@ -1085,7 +1085,7 @@ var products = [
     "sale price": 29.99,
     image: "https://static.sportpoint.ru/upload/product_images/base/hv/hv41/hv4107/hv4107-010_00.jpg@722x1036?1755081605",
     description: "A sporty jacket with lightweight warmth.",
-    images: ["https://static.sportpoint.ru/upload/product_images/base/hv/hv41/hv4107/hv4107-010_01.jpg@722x1036?1756737603,"https://static.sportpoint.ru/upload/product_images/base/hv/hv41/hv4107/hv4107-010_02.jpg@722x1036?1756737604", "https://static.sportpoint.ru/upload/product_images/base/hv/hv41/hv4107/hv4107-010_03.jpg@722x1036?1756737605", "https://static.sportpoint.ru/upload/product_images/base/hv/hv41/hv4107/hv4107-010_04.jpg@722x1036?1755081606"],
+    images: ["https://static.sportpoint.ru/upload/product_images/base/hv/hv41/hv4107/hv4107-010_01.jpg@722x1036?1756737603", "https://static.sportpoint.ru/upload/product_images/base/hv/hv41/hv4107/hv4107-010_02.jpg@722x1036?1756737604", "https://static.sportpoint.ru/upload/product_images/base/hv/hv41/hv4107/hv4107-010_03.jpg@722x1036?1756737605", "https://static.sportpoint.ru/upload/product_images/base/hv/hv41/hv4107/hv4107-010_04.jpg@722x1036?1755081606"],
     specifications: {
       brand: "Nike",
       material: "100% Recycled Polyester (Dri-FIT tech)",
@@ -1269,7 +1269,7 @@ var products = [
       purity: ".9999 Fine Gold"
     }
   },
-    {
+  {
     id: 60,
     name: "Sony Playstation 5 (Digital Version)",
     category: "entertainment",

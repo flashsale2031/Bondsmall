@@ -1,0 +1,13 @@
+{
+  "name": "bonds-mall",
+  "version": "1.0.0",
+  "description": "Bonds Mall E-Commerce Site",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "dev": "serve"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}

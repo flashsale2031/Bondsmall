@@ -3005,3 +3005,46 @@ input.input-error {
     border-radius: 3px !important;
   }
 }
+
+/* ── Logo gleam: premium luxury shine sweep on the text face ── */
+
+/* NOTE: .logo already has position:relative from line 78 — no override needed */
+
+.logo-gleam-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 10;
+  overflow: hidden;
+  border-radius: inherit;
+}
+
+.logo-gleam-sweep {
+  position: absolute;
+  top: -20%;
+  left: -120%;
+  width: 60%;
+  height: 140%;
+  background: linear-gradient(
+    105deg,
+    transparent           0%,
+    rgba(255,255,255,0)   30%,
+    rgba(255,253,235,0.18) 43%,
+    rgba(255,255,255,0.55) 50%,
+    rgba(255,253,235,0.18) 57%,
+    rgba(255,255,255,0)   70%,
+    transparent           100%
+  );
+  animation: logo-sweep 2.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s forwards;
+  opacity: 0;
+  transform: skewX(-18deg);
+  filter: none;
+  mix-blend-mode: screen;
+}
+
+@keyframes logo-sweep {
+  0%   { left: -120%; opacity: 0; }
+  8%   { opacity: 1; }
+  92%  { opacity: 1; }
+  100% { left: 160%; opacity: 0; }
+}

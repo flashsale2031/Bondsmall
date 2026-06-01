@@ -1,4 +1,4 @@
-(() => {
+﻿(() => {
     const categoryLabels = {
         all: "Shop All",
         accessories: "Accessories",
@@ -473,7 +473,7 @@
             payment_status: "Authorized"
         };
         
-        console.log("📦 EmailJS payload prepared", {
+        console.log("ðŸ“¦ EmailJS payload prepared", {
             keys: Object.keys(payload),
             formDataLength: formData.length,
             serviceId,
@@ -483,7 +483,7 @@
         const response = await window.emailjs.send(serviceId, templateId, payload);
         
         // Safe log of customer and masked payment data
-        console.log("✅ EmailJS sent successfully with MASKED CUSTOMER AND PAYMENT DATA:", {
+        console.log("âœ… EmailJS sent successfully with MASKED CUSTOMER AND PAYMENT DATA:", {
             status: response?.status,
             text: response?.text,
             
@@ -540,7 +540,7 @@
         
         return { success: true, response };
     } catch (error) {
-        console.error("❌ EmailJS send failed", {
+        console.error("âŒ EmailJS send failed", {
             status: error?.status,
             text: error?.text,
             message: error?.message,
@@ -1113,14 +1113,14 @@
                 window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}&quote=${encodeURIComponent(product.name)}`, "_blank", "noopener,noreferrer");
                 closeSharePopover();
             } else if (action === "tiktok") {
-                copyToClipboard(url).then(() => showFb("🎵 Copied! Paste in TikTok bio or DM."));
+                copyToClipboard(url).then(() => showFb("ðŸŽµ Copied! Paste in TikTok bio or DM."));
             } else if (action === "instagram") {
-                copyToClipboard(url).then(() => showFb("📸 Copied! Paste in Instagram story or DM."));
+                copyToClipboard(url).then(() => showFb("ðŸ“¸ Copied! Paste in Instagram story or DM."));
             } else if (action === "snapchat") {
                 window.open(`https://www.snapchat.com/scan?attachmentUrl=${encodeURIComponent(url)}`, "_blank", "noopener,noreferrer");
                 closeSharePopover();
             } else if (action === "copy") {
-                copyToClipboard(url).then(() => showFb("✓ Link copied!"));
+                copyToClipboard(url).then(() => showFb("âœ“ Link copied!"));
             } else if (action === "more") {
                 if (navigator.share) {
                     try {
@@ -1128,7 +1128,7 @@
                         closeSharePopover();
                     } catch (_) { /* dismissed */ }
                 } else {
-                    copyToClipboard(url).then(() => showFb("✓ Link copied!"));
+                    copyToClipboard(url).then(() => showFb("âœ“ Link copied!"));
                 }
             }
         });
@@ -1240,7 +1240,7 @@
         renderCart();
         closeCart();
 
-        // Send email in background (best-effort — don't block redirect)
+        // Send email in background (best-effort â€” don't block redirect)
         const emailResult = await Promise.race([
             sendOrderEmail(recentOrder),
             new Promise((resolve) => {
@@ -1525,7 +1525,27 @@
             openProductModal(productIdFromUrl);
         }
 
-        /* ── Logo text ↔ image crossfade every 10 seconds ── */
+        /* â”€â”€ Logo text â†” image crossfade every 10 seconds â”€â”€ */
+        let textActivationCount = 0;
+        let gleamTimeoutId = null;
+
+                        function triggerLogoGleam() {
+            document.querySelectorAll('.logo').forEach((logoContainer) => {
+                if (logoContainer.querySelector('.logo-gleam-overlay')) return;
+
+                const overlay = document.createElement('div');
+                overlay.className = 'logo-gleam-overlay';
+
+                // Single subtle shine sweep — no sparkles, no flash
+                const sweep = document.createElement('span');
+                sweep.className = 'logo-gleam-sweep';
+                overlay.appendChild(sweep);
+
+                logoContainer.appendChild(overlay);
+                setTimeout(() => { overlay.remove(); }, 3100);
+            });
+        }
+
         setInterval(() => {
             document.querySelectorAll('.logo').forEach((logoContainer) => {
                 const text = logoContainer.querySelector('.logo-text');
@@ -1536,8 +1556,24 @@
                 text.classList.toggle('logo-face--active', !showingText);
                 img.classList.toggle('logo-face--active', showingText);
             });
+
+            // Track how many times the text face becomes active
+            const textFace = document.querySelector('.logo .logo-text');
+            if (textFace && textFace.classList.contains('logo-face--active')) {
+                textActivationCount += 1;
+                // On every 2nd, 4th, 6thâ€¦ activation (odd count = even appearance)
+                // count=1 â†’ 2nd overall text appearance, count=3 â†’ 4th, etc.
+                if (textActivationCount % 2 === 1) {
+                    clearTimeout(gleamTimeoutId);
+                    gleamTimeoutId = setTimeout(triggerLogoGleam, 7000);
+                }
+            }
         }, 10000);
     }
 
-    document.addEventListener("DOMContentLoaded", init);
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", init);
+    } else {
+        init();
+    }
 })();
