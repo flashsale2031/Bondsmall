@@ -1146,9 +1146,9 @@ var products = [
     category: "women",
     "retail price": 4999.99,
     "sale price": 1999.99,
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5N3RqKqEBiqLC7ugfmmExb1Y__qvqhCl5nw&s",
+    image: "https://cdn-images.farfetch-contents.com/23/88/57/94/23885794_54788028_600.jpg",
     description: "A luxury knit built for standout layering.",
-    images: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5N3RqKqEBiqLC7ugfmmExb1Y__qvqhCl5nw&s"],
+    images: ["https://cdn-images.farfetch-contents.com/23/88/57/94/23885794_54788048_600.jpg", "https://cdn-images.farfetch-contents.com/23/88/57/94/23885794_54788024_600.jpg", "https://cdn-images.farfetch-contents.com/23/88/57/94/23885794_54788043_600.jpg", "https://cdn-images.farfetch-contents.com/23/88/57/94/23885794_54788031_600.jpg"],
     specifications: {
       brand: "Fendi",
       material: "100% Cashmere",
