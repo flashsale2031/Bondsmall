@@ -432,7 +432,7 @@ var products = [
     "sale price": 399.99,
     image: "https://images-bucket.bonanzastatic.com/afu/images/e00d/0bea/a1cd_7897527511/1.jpg",
     description: "A modern watch design with precision movement.",
-    images: ["https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQZlO5Su0nbiyffQ285ZO-LCMMRp8T1_Yh7eQS3BerAVIfyhCGIkaWDTgs-mkbVtvsStXQiAqP5VAtMVOB3MAtaAH_0L7TDvoFc4BhLUsd1YdiJ_nGDsjg"],
+    images: ["https://www.watch-connection.com/cdn/shop/files/marc-jacobs-mj3572-130459_e21fae82-81b0-4769-931b-a3a879609dad_1024x1024.jpg?v=1776515768", "https://www.watch-connection.com/cdn/shop/files/6511aae4-d7e9-404d-9182-5041b63689c7_1.1340d8aa6a714213cdee239fb2a8db3c_1024x1024.jpg?v=1776515773", "https://www.watch-connection.com/cdn/shop/files/60823b8662758-23042021101414_1024x1024.jpg?v=1776515781", "https://www.watch-connection.com/cdn/shop/files/dong-ho-hieu-mj3572_25052020120746_1024x1024.jpg?v=1776515809"],
     specifications: {
       brand: "Marc Jacobs",
       material: "316L Marine-Grade Stainless Steel",
