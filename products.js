@@ -651,7 +651,7 @@ var products = [
     "sale price": 59.99,
     image: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTNO0pJpIDMUQAt3_neCb7xnqsfEW7qSpsr_CRaqzHM2fIvVA1f539sUCpW-AlXMxZfm3o44RJHifpbQ1V5RZaMiTsmcV3lRw",
     description: "A breathable sport outfit for training days.",
-    images: ["https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTNO0pJpIDMUQAt3_neCb7xnqsfEW7qSpsr_CRaqzHM2fIvVA1f539sUCpW-AlXMxZfm3o44RJHifpbQ1V5RZaMiTsmcV3lRw"],
+    images: ["https://images.stockx.com/images/Nike-Sportswear-Kids-Club-Fleece-Pullover-Hoodie-University-Red.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1674511397", "https://images.stockx.com/images/Nike-Sportswear-Kids-Club-Fleece-Pullover-Hoodie-University-Red-2.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1674511397"],
     specifications: {
       brand: "Nike",
       material: "100% Polyester Dri-FIT Tech",
