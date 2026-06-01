@@ -348,7 +348,7 @@ var products = [
     "sale price": 249.99,
     image: "https://di2ponv0v5otw.cloudfront.net/posts/2023/09/24/6510ab99253a8c8f5bdf1f97/m_6510ad733b982a2570ecf0a4.jpg",
     description: "A coordinated winter set with signature detailing.",
-    images: ["https://di2ponv0v5otw.cloudfront.net/posts/2023/09/24/6510ab99253a8c8f5bdf1f97/m_6510ad733b982a2570ecf0a4.jpg"],
+    images: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJDnH-5MSp82RzVgkBtNhHZYv2Y20KpZF3oRo4qM0-Qg&s=10", "https://di2ponv0v5otw.cloudfront.net/posts/2022/02/17/620e88cdff8304bc676a2330/l_620e8a62ff83048a9f6a2fe9.jpg"],
     specifications: {
       brand: "Gucci",
       material: "100% Wool knit with Signature GG logo webbing",
