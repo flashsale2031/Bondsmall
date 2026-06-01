@@ -950,7 +950,7 @@ var products = [
     "sale price": 599.99,
     image: "https://dreamspakistan.com/cdn/shop/files/77093_ae11af48-c101-4490-a16c-acf0932feadd.png?v=1756807097&width=600",
     description: "A statement timepiece with classic profile.",
-    images: ["https://dreamspakistan.com/cdn/shop/files/77093_ae11af48-c101-4490-a16c-acf0932feadd.png?v=1756807097&width=600"],
+    images: ["https://slimages.macysassets.com/is/image/MCY/products/8/optimized/22295868_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp", "https://slimages.macysassets.com/is/image/MCY/products/9/optimized/22295869_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp", "https://slimages.macysassets.com/is/image/MCY/products/7/optimized/22295867_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp", "https://slimages.macysassets.com/is/image/MCY/products/0/optimized/22295870_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp", "https://slimages.macysassets.com/is/image/MCY/products/1/optimized/22295871_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp"],
     specifications: {
       brand: "Michael Kors",
       material: "Stainless Steel with Brushed Gold-Tone Finish",
