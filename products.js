@@ -630,7 +630,7 @@ var products = [
     "sale price": 49.99,
     image: "https://imperiumjewelry.com/cdn/shop/files/Untitleddesign_12_700x.png?v=1766788654",
     description: "A bold bracelet set with polished finish.",
-    images: ["https://imperiumjewelry.com/cdn/shop/files/Untitleddesign_12_700x.png?v=1766788654"],
+    images: ["https://imperiumjewelry.com/cdn/shop/files/1_6ca51269-3b0c-43ec-b131-4f715dbf94b4_800x.png?v=1762198279", "https://m.media-amazon.com/images/I/61Akt-BAvQS._AC_UY1000_.jpg"],
     specifications: {
       brand: "",
       material: "316L Surgical-Grade Stainless Steel & 18K Yellow Gold Plating",
