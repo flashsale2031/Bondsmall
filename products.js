@@ -1167,9 +1167,9 @@ var products = [
     category: "accessories",
     "retail price": 4999.99,
     "sale price": 1499.99,
-    image: "https://www.eye-oo.com/cdn/shop/files/307177cb3c9392f078ad775d0875800e.jpg?v=1771632379",
+    image: "https://www.opticabassol.com/cdn/shop/files/gg1670sk-002_1_9iy9xgqatmocdjpv.jpg?v=1736518521&width=700",
     description: "A durable travel bag with premium craftsmanship.",
-    images: ["https://www.eye-oo.com/cdn/shop/files/307177cb3c9392f078ad775d0875800e.jpg?v=1771632379"],
+    images: ["https://www.opticabassol.com/cdn/shop/files/gg1670sk-002_2_0zaiuy360yovb2ot.jpg?v=1736518521&width=700", "https://www.opticabassol.com/cdn/shop/files/gg1670sk-002_3_6hpl9ne0phiilutf.jpg?v=1736518521&width=700", "https://www.eye-oo.com/cdn/shop/files/307177cb3c9392f078ad775d0875800e.jpg?v=1771632379"],
     specifications: {
       brand: "Gucci",
       material: "Lightweight Gold-Plated Metal and acetate tips",
