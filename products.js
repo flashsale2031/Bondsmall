@@ -1188,9 +1188,9 @@ var products = [
     category: "jewelry",
     "retail price": 999.99,
     "sale price": 599.99,
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmdp2ZE0Ax625HywcY-h6GxvueiaZZ4NTb5w&s",
+    image: "https://slimages.macysassets.com/is/image/MCY/products/1/optimized/32057711_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp",
     description: "An elegant watch designed for everyday glam.",
-    images: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmdp2ZE0Ax625HywcY-h6GxvueiaZZ4NTb5w&s"],
+    images: ["https://slimages.macysassets.com/is/image/MCY/products/3/optimized/32057713_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp", "https://slimages.macysassets.com/is/image/MCY/products/4/optimized/32057714_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp", "https://slimages.macysassets.com/is/image/MCY/products/2/optimized/32057712_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp"],
     specifications: {
       brand: "Michael Kors",
       material: "Stainless Steel with Rose Gold-Tone plating & crystal bezel setting",
