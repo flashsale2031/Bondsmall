@@ -1268,5 +1268,28 @@ var products = [
       country_of_mint: "United States Mint (West Point)",
       purity: ".9999 Fine Gold",
     }
+  },
+    {
+    id: 60,
+    name: "Sony Playstation 5 (Digital Version)",
+    category: "entertainment",
+    "retail price": 599.99,
+    "sale price": 399.99,
+    "pre-owned price": 299.99,
+    image: "https://gameforce.pk/wp-content/uploads/2024/02/Sony-PlayStation-5-Standard-Disk-Edition-3.jpg",
+    description: "The PS5 console unleashes new gaming possibilities that you never anticipated. Experience lightning fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D Audio, and an all-new generation of incredible PlayStation games. Lightning Speed Harness the power of a custom CPU, GPU, and SSD with Integrated I/O that rewrite the rules of what a PlayStation console can do. Stunning Games Marvel at incredible graphics and experience new PS5 features. Play a back catalog of supported PS4 games. Breathtaking Immersion Discover a deeper gaming experience with support for haptic feedback, adaptive triggers, and 3D Audio technology. Vertical stand sold separately. PS5 console (CFI-2100 model group – slim). The CFI-2100 models are compatible with PS5 accessories for CFI-2000 products, including Console Covers (sold separately). 3D audio via built-in TV speakers or analog/USB stereo headphones. Set up and latest system software update required.  Internet connection required to pair Disc Drive and PS5 console upon setup.",
+    images: ["https://gameforce.pk/wp-content/uploads/2024/02/Sony-PlayStation-5-Standard-Disk-Edition-3.jpg"],
+    specifications: {
+      brand: "Sony",
+      storage: "825GB Custom High-Speed SSD (slim models have 1TB SSD)",
+      resolution: "4K UHD Gaming, Up to 8K Output support",
+      frame_rate: "Up to 120 FPS at 120Hz output",
+      optical_drive: "4K UHD Blu-ray Disc Drive (removable on slim)",
+      connectivity: "1x HDMI 2.1, 2x USB-C, 2x USB-A, Wi-Fi 6, Bluetooth 5.1, Ethernet",
+      controllers_included: "1x DualSense Wireless Controller (White)",
+      backward_compatible: "Yes, plays over 99% of PS4 disc and digital games",
+      dimensions: "15.4in x 10.2in x 4.1in",
+      weight: "9.9 lbs"
+    }
   }
 ];
