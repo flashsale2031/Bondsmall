@@ -908,7 +908,7 @@ var products = [
       "sale price": 1999.99,
     image: "https://assets.levelshoes.com/cdn-cgi/image/width=720,height=1008,quality=85,format=webp/media/catalog/product/1/b/1ba906eomnzvf0002v_1.jpg?ts=20241102035016",
     description: "A structured handbag with refined detailing.",
-    images: ["https://assets.levelshoes.com/cdn-cgi/image/width=720,height=1008,quality=85,format=webp/media/catalog/product/1/b/1ba906eomnzvf0002v_1.jpg?ts=20241102035016"],
+    images: ["https://www.fashionphile.com/cdn/shop/files/b07eb6a0d144203db5b2b72e8bb36993.jpg?v=1774376356&width=713", "https://www.fashionphile.com/cdn/shop/files/bcedf006e90619ef75e2b3a3367fce2b.jpg?v=1774376356&width=713", "https://www.fashionphile.com/cdn/shop/files/1e9a04a0463bc3fc194d6e43ef7c50f6.jpg?v=1774376356&width=713", "https://www.fashionphile.com/cdn/shop/files/23401d0b259a8c9cfb5265fc115d9eb0.jpg?v=1774376356&width=713", "https://www.fashionphile.com/cdn/shop/files/3fe8150f8d9c4a3f02dc88ae7e793dc3.jpg?v=1774376356&width=713", "https://www.fashionphile.com/cdn/shop/files/5042f1be6fc9ed72b6a9c4b9b2a6a7e7.jpg?v=1774376356&width=713", "https://www.fashionphile.com/cdn/shop/files/2c5f6c76b56fb849254cc5a314c4fbc3.jpg?v=1774376356&width=713", "https://www.fashionphile.com/cdn/shop/files/5a6587aa81e3591c5c623d391034b44f.jpg?v=1774376356&width=713"],
     specifications: {
       brand: "Prada",
       material: "Signature Saffiano Leather & Nylon Lining",
