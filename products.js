@@ -887,7 +887,7 @@ var products = [
     "sale price": 1099.99,
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwHj0TR7IPCqvJIHJLbLj938kBKS02a0BncQ&s",
     description: "A premium knit with luxury finish and feel.",
-    images: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwHj0TR7IPCqvJIHJLbLj938kBKS02a0BncQ&s"],
+    images: ["https://images.stockx.com/images/Nike-Sportswear-Kids-Club-Fleece-Pullover-Hoodie-University-Red-2.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1674511397"],
     specifications: {
       brand: "Gucci",
       material: "100% Fine Organic Wool Knit",
