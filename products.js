@@ -1106,7 +1106,7 @@ var products = [
     "sale price": 499.99,
     image: "https://shoppoint.pk/cdn/shop/files/Hermes_Black_Leather_Wallet_For_Men.webp?v=1761111583",
     description: "A compact wallet with premium finish and feel.",
-    images: ["https://shoppoint.pk/cdn/shop/files/Hermes_Black_Leather_Wallet_For_Men.webp?v=1761111583"],
+    images: ["https://di2ponv0v5otw.cloudfront.net/posts/2023/01/02/63b351d88bb2e233db5054d6/l_63b35755bd0629b3f1eb5f32.jpg"],
     specifications: {
       brand: "Hermes",
       material: "Epsom Calfskin Leather with goatskin lining",
