@@ -1127,7 +1127,7 @@ var products = [
     "sale price": 1099.99,
     image: "https://cdn.shopify.com/s/files/1/0603/3031/1875/products/main-square_5eba8382-336e-4a82-ba24-d76dd0377d04.jpg?v=1694768841",
     description: "A designer sweater with statement branding.",
-    images: ["https://cdn.shopify.com/s/files/1/0603/3031/1875/products/main-square_5eba8382-336e-4a82-ba24-d76dd0377d04.jpg?v=1694768841"],
+    images: ["https://cdn.clothbase.com/uploads/766e91c0-dabf-4214-994e-74f1d78e26d3/191693M201004_2.jpg"],
     specifications: {
       brand: "Fendi",
       material: "60% Silk, 40% Fine Cashmere knit",
