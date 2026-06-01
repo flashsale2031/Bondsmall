@@ -693,7 +693,7 @@ var products = [
     "sale price": 1089.99,
     image: "https://www.mytheresa.com/media/1094/1238/100/2f/P01139856.jpg",
     description: "A premium travel companion with elegant structure.",
-    images: ["https://www.mytheresa.com/media/1094/1238/100/2f/P01139856.jpg"],
+    images: ["https://images.stockx.com/images/Gucci-Ophidia-GG-Carry-on-Duffle-Medium-Beige-Ebony.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&trimcolor=ffffff&updated_at=1606317719", "https://images.stockx.com/images/Gucci-Ophidia-GG-Carry-on-Duffle-Medium-Beige-Ebony-2.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&trimcolor=ffffff&updated_at=1606317720", "https://images.stockx.com/images/Gucci-Ophidia-GG-Carry-on-Duffle-Medium-Beige-Ebony-3.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&trimcolor=ffffff&updated_at=1606317720"],
     specifications: {
       brand: "Gucci",
       material: "GG Supreme Canvas & Premium Leather Trim with Green/Red Web",
