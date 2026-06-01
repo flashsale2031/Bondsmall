@@ -714,7 +714,7 @@ var products = [
     "sale price": 79.99,
     image: "https://www.vintagedrip.in/cdn/shop/files/Photoroom-20240907_195051.png?v=1725721569",
     description: "A winter coat built for warmth and signature style.",
-    images: ["https://www.vintagedrip.in/cdn/shop/files/Photoroom-20240907_195051.png?v=1725721569"],
+    images: ["https://www.mercywear.in/cdn/shop/files/vintage_motorsport_jacket_red_and_black_design.webp?v=1761664237&width=713"],
     specifications: {
       brand: "Ferrari",
       material: "100% Water-Resistant Polyester Shell with synthetic down filling",
