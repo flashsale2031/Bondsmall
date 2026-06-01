@@ -1083,9 +1083,9 @@ var products = [
     category: "women",
     "retail price": 99.99,
     "sale price": 29.99,
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDAVXbt7Q4QgHkL2x8sEHYkVppcsVGUmDYCA&s",
+    image: "https://static.sportpoint.ru/upload/product_images/base/hv/hv41/hv4107/hv4107-010_00.jpg@722x1036?1755081605",
     description: "A sporty jacket with lightweight warmth.",
-    images: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDAVXbt7Q4QgHkL2x8sEHYkVppcsVGUmDYCA&s"],
+    images: ["https://static.sportpoint.ru/upload/product_images/base/hv/hv41/hv4107/hv4107-010_01.jpg@722x1036?1756737603,"https://static.sportpoint.ru/upload/product_images/base/hv/hv41/hv4107/hv4107-010_02.jpg@722x1036?1756737604", "https://static.sportpoint.ru/upload/product_images/base/hv/hv41/hv4107/hv4107-010_03.jpg@722x1036?1756737605", "https://static.sportpoint.ru/upload/product_images/base/hv/hv41/hv4107/hv4107-010_04.jpg@722x1036?1755081606"],
     specifications: {
       brand: "Nike",
       material: "100% Recycled Polyester (Dri-FIT tech)",
