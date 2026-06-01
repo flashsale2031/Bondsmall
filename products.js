@@ -283,7 +283,7 @@ var products = [
     "pre-owned price": 299.99,
     image: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTqIW7TlTKtd6YLCgnfJ48K8msh3WxptIdpuNDWTR8M5MZEwcqHzgWWU42Tn5QA70wtrUyygrHQNmFuTAoFSkX5Qrw444PBMcbmDFsilq9IiXUeAAYPB2YiEg",
     description: "The 2020 27-inch iMac (Mid 2020) is considered the peak of Apple's Intel-based, all-in-one desktops, offering up to 10-core 10th Gen Intel Core i9 processors, faster AMD Radeon Pro 5000 series graphics, and standard SSD storage. It features a 5K Retina display with optional nano-texture glass, improved 1080p camera, and user-upgradable RAM. This iMac is in excellent condition with enhanced performance upgrades. ",
-    images: ["https://macpro-la.com/cdn/shop/products/1596546059_IMG_1397377.jpg?v=1755385804"],
+    images: ["https://stock4less.com/cdn/shop/files/71Y5raKAYML._AC_SL1500.png?v=1749487669", "https://stock4less.com/cdn/shop/files/refurbished-apple-imac-27-2020-v.png?v=1749487669", "https://stock4less.com/cdn/shop/files/71gEGBx93L._AC_SL1500.png?v=1749487669", "https://stock4less.com/cdn/shop/files/refurbished-apple-imac-27-2020-v.png?v=1749487669"],
     specifications: {
      brand: "Apple",
       processor: "3.8GHz 8-Core 10th-generation Intel Core i7",
