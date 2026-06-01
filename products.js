@@ -1266,7 +1266,7 @@ var products = [
       authenticity: "Comes with Certificate of Authenticity & US Mint Custom Box",
       finish: "Glistening Proof finish",
       country_of_mint: "United States Mint (West Point)",
-      purity: ".9999 Fine Gold",
+      purity: ".9999 Fine Gold"
     }
   },
     {
@@ -1289,7 +1289,7 @@ var products = [
       controllers_included: "1x DualSense Wireless Controller (White)",
       backward_compatible: "Yes, plays over 99% of PS4 disc and digital games",
       dimensions: "15.4in x 10.2in x 4.1in",
-      weight: "9.9 lbs"
+      weight: "9.9 lbs",
     }
   }
 ];
