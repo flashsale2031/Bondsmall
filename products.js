@@ -564,7 +564,7 @@ var products = [
     "sale price": 3999.99,
     image: "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwf875f1a3/images/hi-res/coin-programs/American-Buffalo/26el_c.jpg?sw=1200&sh=1200&sm=fit",
     description: "The rugged designs featured on the iconic Buffalo Nickel have never fallen out of favor with collectors who have proven time and time again their love for the romance of the Wild West that the coin epitomizes. The series ended in 1938 but was not forgotten. The design appears each year on the United States Mint’s spectacular $50 Gold Buffalo coin, and now the 2026 Gold Buffalos are getting ready to rumble out of The Mint and stampede their way into your collection!",
-    images: ["https://www.govmint.com/media/catalog/product/4/5/456064_2.png?optimize=high&fit=bounds&height=186&width=186&canvas=186:186&format=jpeg"],
+    images: ["https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-obverse.jpg", "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-reverse.jpg", "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof.jpg", "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-both-cases.jpg", "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-case.jpg"],
     specifications: {
       brand: "American Buffalo",
       material: "24K Gold",
