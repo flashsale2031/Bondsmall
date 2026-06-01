@@ -929,7 +929,7 @@ var products = [
     "sale price": 1499.99,
     image: "https://me.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-keepall-bandouliere-55--M56714_PM2_Front%20view.jpg",
     description: "Spacious travel bag with premium material blend.",
-    images: ["https://me.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-keepall-bandouliere-55--M56714_PM2_Front%20view.jpg"],
+    images: ["https://images.stockx.com/images/Louis-Vuitton-Keepall-Bandouliere-Monogram-Macassar-With-Accessories-55-Brass.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&trimcolor=ffffff&updated_at=1608475510", "https://images.stockx.com/images/Louis-Vuitton-Keepall-Bandouliere-Monogram-Macassar-With-Accessories-55-Brass-2.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&trimcolor=ffffff&updated_at=1608475510", "https://images.stockx.com/images/Louis-Vuitton-Keepall-Bandouliere-Monogram-Macassar-With-Accessories-55-Brass-3.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&trimcolor=ffffff&updated_at=1608475510"],
     specifications: {
       brand: "Louis Vuitton",
       material: "Monogram Eclipse Canvas & cowhide leather trim with textile lining",
