@@ -390,7 +390,7 @@ var products = [
     "sale price": 2499.99,
     image: "https://atlantaluxurybags.com/cdn/shop/files/Chanel_18160-001.jpg?v=1764948624&width=1080",
     description: "Iconic handbag crafted with timeless silhouette.",
-    images: ["https://atlantaluxurybags.com/cdn/shop/files/Chanel_18160-001.jpg?v=1764948624&width=1080"],
+    images: ["https://www.fashionphile.com/cdn/shop/files/798ae037278a4f0507a4a89b478e085f.jpg?v=1772634956", "https://www.fashionphile.com/cdn/shop/files/902266b8e5cfc8f8ddd7491e07a4e758.jpg?v=1772634955", "https://www.fashionphile.com/cdn/shop/files/94c5be711b8863ebf811190969339b44.jpg?v=1772634965", "https://www.fashionphile.com/cdn/shop/files/6ad298dcc4724277394710cc2e1fff79.jpg?v=1772634956", "https://www.fashionphile.com/cdn/shop/files/c4e3203c17b7860d434c39add556415f.jpg?v=1772634956"],
     specifications: {
       brand: "Chanel",
       material: "Quilted Lambskin Leather and Gold-Tone Metal hardware",
