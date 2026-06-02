@@ -111,13 +111,13 @@ function initCoverageSection() {
     section.innerHTML =
         '<h2 class="coverage-heading">Coverage</h2>' +
         '<p class="coverage-text">Covered by ' +
-        '<a class="coverage-link" href="https://www.example.com/purchase-protection" target="_blank" rel="noopener noreferrer">' +
+        '<a class="coverage-link" href="https://www.bondsmall.com/purchaseprotection.html" target="_blank" rel="noopener noreferrer">' +
         'Purchase Protection Insurance' +
         '<svg class="coverage-link-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">' +
         '<path d="M5 15L15 5M15 5H8M15 5V12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>' +
         '</svg>' +
         '</a>' +
-        ' and our 90-Day Warranty</p>';
+        ' & our 90-day warranty.</p>';
 }
 
 function initVariants(product) {
