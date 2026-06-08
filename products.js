@@ -1251,7 +1251,7 @@ var products = [
   {
     id: 59,
     name: "2017 American Liberty 1 OZ Gold $100 Coin",
-    category: "entertainment",
+    category: "artandcollectibles",
     "retail price": 5499.99,
     "sale price": 2999.99,
     image: "https://www.pcgs.com/UserImages/category-545532-slot-2-obverse.jpg",
