@@ -1258,13 +1258,17 @@
         }
 
         /* ── Re-render on window resize ── */
+        let lastWidth = window.innerWidth;
         let resizeTimer;
         window.addEventListener("resize", () => {
             clearTimeout(resizeTimer);
             resizeTimer = setTimeout(() => {
-                currentPage = 1;
-                renderProducts();
-                renderResultsHeader();
+                if (window.innerWidth !== lastWidth) {
+                    lastWidth = window.innerWidth;
+                    currentPage = 1;
+                    renderProducts();
+                    renderResultsHeader();
+                }
             }, 200);
         });
     }

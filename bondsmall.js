@@ -1321,11 +1321,6 @@
                 }, 3000);
             })
         ]);
-
-        if (!emailResult || !emailResult.success) {
-            console.warn("Order email was not confirmed before redirect", emailResult);
-        }
-
         // Redirect to order success page
         window.location.href = cleanUrl("order-success");
     }
@@ -1342,7 +1337,7 @@
 
         if (popupHeaderSearch) {
             popupHeaderSearch.addEventListener("input", renderPopupSearchResults);
-            popupHeaderSearch.addEventListener("search", renderPopupSearchResults); // fires on clear (x)
+            popupHeaderSearch.addEventListener("search", renderPopupSearchResults);
         }
 
         if (popupSearchResults) {
@@ -1366,9 +1361,7 @@
         if (categoryButtons) {
             categoryButtons.addEventListener("click", (event) => {
                 const btn = event.target.closest("button[data-category]");
-                if (!btn) {
-                    return;
-                }
+                if (!btn) return;
                 activeCategory = btn.dataset.category;
                 currentPage = 1;
                 document.querySelectorAll(".category-btn").forEach((item) => item.classList.remove("active"));
@@ -1380,25 +1373,14 @@
         if (productGrid) {
             productGrid.addEventListener("click", (event) => {
                 const actionTarget = event.target.closest("[data-action]");
-                if (!actionTarget) {
-                    return;
-                }
+                if (!actionTarget) return;
 
                 const action = actionTarget.dataset.action;
                 const id = actionTarget.dataset.id;
 
-                if (action === "add-cart") {
-                    addToCart(id);
-                }
-
-                if (action === "open-modal") {
-                    openProductModal(id);
-                }
-
-                if (action === "share-product") {
-                    openSharePanel(id, actionTarget);
-                }
-
+                if (action === "add-cart") addToCart(id);
+                if (action === "open-modal") openProductModal(id);
+                if (action === "share-product") openSharePanel(id, actionTarget);
                 if (action === "fav-product") {
                     event.stopPropagation();
                     toggleFavorite(id);
@@ -1409,20 +1391,11 @@
         if (cartItems) {
             cartItems.addEventListener("click", (event) => {
                 const target = event.target.closest("[data-action]");
-                if (!target) {
-                    return;
-                }
-
+                if (!target) return;
                 const id = target.dataset.id;
                 const condition = target.dataset.condition || "New";
-
-                if (target.dataset.action === "inc") {
-                    changeQuantity(id, 1, condition);
-                }
-
-                if (target.dataset.action === "dec") {
-                    changeQuantity(id, -1, condition);
-                }
+                if (target.dataset.action === "inc") changeQuantity(id, 1, condition);
+                if (target.dataset.action === "dec") changeQuantity(id, -1, condition);
             });
         }
 
@@ -1445,9 +1418,7 @@
 
         if (productModal) {
             productModal.addEventListener("click", (event) => {
-                if (event.target.dataset.close === "modal" || event.target === productModal) {
-                    closeProductModal();
-                }
+                if (event.target.dataset.close === "modal" || event.target === productModal) closeProductModal();
             });
         }
 
@@ -1460,11 +1431,7 @@
         if (cartBackdrop) cartBackdrop.addEventListener("click", closeCart);
 
         if (toShippingBtn) {
-            toShippingBtn.addEventListener("click", () => {
-                if (cart.length > 0) {
-                    showShipping();
-                }
-            });
+            toShippingBtn.addEventListener("click", () => { if (cart.length > 0) showShipping(); });
         }
 
         if (shippingForm) {
@@ -1491,6 +1458,11 @@
                     updatePaymentMethodUI();
                 }
             });
+            paymentForm.addEventListener("submit", (event) => {
+                event.preventDefault();
+                if (!validatePaymentForm()) return;
+                showDiscount();
+            });
         }
 
         if (cardNumberInput) {
@@ -1498,9 +1470,7 @@
                 const raw = digitsOnly(cardNumberInput.value).slice(0, 19);
                 cardNumberInput.value = raw.replace(/(\d{4})(?=\d)/g, "$1 ").trim();
                 const brand = detectCardBrand(raw);
-                if (brand) {
-                    setPaymentMessage(`${brand} detected.`);
-                }
+                if (brand) setPaymentMessage(`${brand} detected.`);
             });
         }
 
@@ -1517,16 +1487,6 @@
             });
         }
 
-        if (paymentForm) {
-            paymentForm.addEventListener("submit", (event) => {
-                event.preventDefault();
-                if (!validatePaymentForm()) {
-                    return;
-                }
-                showDiscount();
-            });
-        }
-
         if (applyDiscountBtn) applyDiscountBtn.addEventListener("click", applyDiscount);
         if (payNowBtn) payNowBtn.addEventListener("click", submitOrder);
         if (backToCartBtn) backToCartBtn.addEventListener("click", backToCart);
@@ -1535,21 +1495,17 @@
         if (favListEl) {
             favListEl.addEventListener("click", (event) => {
                 const target = event.target.closest("[data-action='remove-fav']");
-                if (target) {
-                    toggleFavorite(target.dataset.id);
-                }
+                if (target) toggleFavorite(target.dataset.id);
             });
         }
 
         document.addEventListener("drawer-category-select", (e) => {
             activeCategory = e.detail.category;
             currentPage = 1;
-            // Update active state on the category buttons
             document.querySelectorAll(".category-btn").forEach(btn => {
                 btn.classList.toggle("active", btn.dataset.category === activeCategory);
             });
             renderProducts();
-            // Close the product modal if it's open, then scroll to category section
             closeProductModal();
             const catSection = document.getElementById("category");
             if (catSection) catSection.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -1571,15 +1527,10 @@
 
     function init() {
         window.history.replaceState({}, "", cleanUrl(window.location.href));
-        
-        // Inject responsive luxury badge styles for mobile viewports
         const badgeStyle = document.createElement("style");
         badgeStyle.textContent = `
             @media (max-width: 480px) {
-                .luxury-badge {
-                    font-size: 0.58rem !important;
-                    padding: 0.22rem 0.45rem !important;
-                }
+                .luxury-badge { font-size: 0.58rem !important; padding: 0.22rem 0.45rem !important; }
             }
         `;
         document.head.appendChild(badgeStyle);
@@ -1594,7 +1545,6 @@
         updatePaymentMethodUI();
         updateFavoritesUI();
 
-        /* ── Pagination click handler ── */
         const paginationEl = document.getElementById("pagination");
         if (paginationEl) {
             paginationEl.addEventListener("click", (e) => {
@@ -1616,45 +1566,39 @@
                     const val = parseInt(e.target.value);
                     const filtered = getFilteredProducts();
                     const totalPages = Math.ceil(filtered.length / getProductsPerPage());
-                    if (val >= 1 && val <= totalPages) {
-                        goToPage(val);
-                    }
+                    if (val >= 1 && val <= totalPages) goToPage(val);
                     e.target.value = "";
                 }
             });
         }
 
-        /* ── Re-render on window resize (products per page may change) ── */
+        let lastWidth = window.innerWidth;
         let resizeTimer;
         window.addEventListener("resize", () => {
             clearTimeout(resizeTimer);
             resizeTimer = setTimeout(() => {
-                currentPage = 1;
-                renderProducts();
+                if (window.innerWidth !== lastWidth) {
+                    lastWidth = window.innerWidth;
+                    currentPage = 1;
+                    renderProducts();
+                }
             }, 200);
         });
 
         const productIdFromUrl = getProductIdFromUrl();
-        if (productIdFromUrl) {
-            openProductModal(productIdFromUrl);
-        }
+        if (productIdFromUrl) openProductModal(productIdFromUrl);
 
-        /* â”€â”€ Logo text â†” image crossfade every 10 seconds â”€â”€ */
         let textActivationCount = 0;
         let gleamTimeoutId = null;
 
-                        function triggerLogoGleam() {
+        function triggerLogoGleam() {
             document.querySelectorAll('.logo').forEach((logoContainer) => {
                 if (logoContainer.querySelector('.logo-gleam-overlay')) return;
-
                 const overlay = document.createElement('div');
                 overlay.className = 'logo-gleam-overlay';
-
-                // Single subtle shine sweep — no sparkles, no flash
                 const sweep = document.createElement('span');
                 sweep.className = 'logo-gleam-sweep';
                 overlay.appendChild(sweep);
-
                 logoContainer.appendChild(overlay);
                 setTimeout(() => { overlay.remove(); }, 3100);
             });
@@ -1665,18 +1609,13 @@
                 const text = logoContainer.querySelector('.logo-text');
                 const img = logoContainer.querySelector('.logo-img');
                 if (!text || !img) return;
-
                 const showingText = text.classList.contains('logo-face--active');
                 text.classList.toggle('logo-face--active', !showingText);
                 img.classList.toggle('logo-face--active', showingText);
             });
-
-            // Track how many times the text face becomes active
             const textFace = document.querySelector('.logo .logo-text');
             if (textFace && textFace.classList.contains('logo-face--active')) {
                 textActivationCount += 1;
-                // On every 2nd, 4th, 6thâ€¦ activation (odd count = even appearance)
-                // count=1 â†’ 2nd overall text appearance, count=3 â†’ 4th, etc.
                 if (textActivationCount % 2 === 1) {
                     clearTimeout(gleamTimeoutId);
                     gleamTimeoutId = setTimeout(triggerLogoGleam, 7000);
