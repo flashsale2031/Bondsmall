@@ -3048,3 +3048,155 @@ input.input-error {
   92%  { opacity: 1; }
   100% { left: 160%; opacity: 0; }
 }
+
+/* ═══════════════════════════════════════════════════════
+   PAGINATION
+   ═══════════════════════════════════════════════════════ */
+
+.bm-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding: 1.5rem 0.5rem 1rem;
+  user-select: none;
+}
+
+.bm-pagination .pg-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 36px;
+  height: 36px;
+  padding: 0 0.55rem;
+  background: #fff;
+  border: 1px solid #d9ccbe;
+  border-radius: 9px;
+  color: #1c1b1a;
+  font-size: 0.84rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.12s ease, box-shadow 0.15s ease;
+  font-family: inherit;
+  line-height: 1;
+}
+
+.bm-pagination .pg-btn:hover:not(.pg-active):not(.pg-disabled) {
+  background: #f5ede2;
+  border-color: #b8aa98;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+.bm-pagination .pg-btn:active:not(.pg-disabled) {
+  transform: scale(0.96);
+}
+
+.bm-pagination .pg-active {
+  background: #1c1b1a;
+  border-color: #1c1b1a;
+  color: #fff;
+  font-weight: 800;
+  pointer-events: none;
+  box-shadow: 0 2px 8px rgba(28,27,26,0.2);
+}
+
+.bm-pagination .pg-disabled {
+  opacity: 0.38;
+  cursor: default;
+  pointer-events: none;
+}
+
+.bm-pagination .pg-ellipsis {
+  min-width: auto;
+  padding: 0 0.25rem;
+  border: none;
+  background: none;
+  color: #7a7068;
+  cursor: default;
+  pointer-events: none;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.bm-pagination .pg-nav {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  padding: 0 0.7rem;
+}
+
+.bm-pagination .pg-goto-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-left: 0.65rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #5c5348;
+}
+
+.bm-pagination .pg-goto-input {
+  width: 52px;
+  height: 34px;
+  padding: 0 0.4rem;
+  border: 1px solid #d9ccbe;
+  border-radius: 8px;
+  font-size: 0.84rem;
+  font-weight: 600;
+  text-align: center;
+  background: #fff;
+  color: #1c1b1a;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  font-family: inherit;
+}
+
+.bm-pagination .pg-goto-input:focus {
+  outline: none;
+  border-color: #1c1b1a;
+  box-shadow: 0 0 0 3px rgba(28,27,26,0.12);
+}
+
+.bm-pagination .pg-goto-input::-webkit-inner-spin-button,
+.bm-pagination .pg-goto-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.bm-pagination .pg-goto-input {
+  -moz-appearance: textfield;
+}
+
+/* ── Pagination responsive ─────────────────── */
+@media (max-width: 600px) {
+  .bm-pagination {
+    gap: 0.25rem;
+    padding: 1.2rem 0.35rem 0.8rem;
+  }
+
+  .bm-pagination .pg-btn {
+    min-width: 32px;
+    height: 32px;
+    font-size: 0.78rem;
+    padding: 0 0.4rem;
+    border-radius: 7px;
+  }
+
+  .bm-pagination .pg-nav {
+    font-size: 0.72rem;
+    padding: 0 0.45rem;
+  }
+
+  .bm-pagination .pg-goto-wrap {
+    margin-left: 0.3rem;
+    font-size: 0.76rem;
+    gap: 0.3rem;
+  }
+
+  .bm-pagination .pg-goto-input {
+    width: 44px;
+    height: 30px;
+    font-size: 0.78rem;
+  }
+}

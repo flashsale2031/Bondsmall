@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bonds Mall - Products</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  #product-display {
+    display: grid;
+    gap: 16px;
+  }
+  /* Mobile: 2 columns */
+  @media (max-width: 768px) {
+    #product-display {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  /* PC: 3 columns */
+  @media (min-width: 769px) {
+    #product-display {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  .product-card {
+    border: 1px solid #ccc;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: #fafafa;
+  }
+  #pagination {
+    margin-top: 20px;
+    text-align: center;
+    user-select: none;
+  }
+  #pagination span {
+    margin: 0 6px;
+    cursor: pointer;
+    font-weight: normal;
+    user-select: none;
+  }
+  #pagination span.active {
+    font-weight: bold;
+  }
+  #pagination input[type="number"] {
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+
+<h1>Bonds Mall Products</h1>
+
+<div id="product-display"></div>
+
+<div id="pagination"></div>
+
+<script>
+  // Example product data - 100 products
+  const products = [];
+  for (let i = 1; i <= 100; i++) {
+    products.push({
+      id: i,
+      name: `Product ${i}`,
+      description: `Description for product ${i}`,
+    });
+  }
+
+  const productDisplay = document.getElementById('product-display');
+  const pagination = document.getElementById('pagination');
+
+  // Get product limit per page based on viewport width
+  function getProductsPerPage() {
+    if (window.innerWidth <= 768) {
+      return 20; // Mobile
+    } else {
+      return 21; // PC
+    }
+  }
+
+  // Render products on the page
+  function renderProducts(page = 1) {
+    const productsPerPage = getProductsPerPage();
+    const startIndex = (page - 1) * productsPerPage;
+    const endIndex = startIndex + productsPerPage;
+    const productsToShow = products.slice(startIndex, endIndex);
+
+    productDisplay.innerHTML = '';
+
+    productsToShow.forEach(product => {
+      const productCard = document.createElement('div');
+      productCard.className = 'product-card';
+      productCard.innerHTML = `
+        <h3>${product.name}</h3>
+        <p>${product.description}</p>
+      `;
+      productDisplay.appendChild(productCard);
+    });
+
+    renderPagination(page, productsPerPage);
+  }
+
+  // Render pagination controls with First, Prev, Next, Last, ellipsis and input
+  function renderPagination(currentPage, productsPerPage) {
+    pagination.innerHTML = '';
+
+    const totalPages = Math.ceil(products.length / productsPerPage);
+
+    function createPageSpan(page, text = page) {
+      const span = document.createElement('span');
+      span.textContent = text;
+      if (page === currentPage) {
+        span.classList.add('active');
+      }
+      if (text !== '...') {
+        span.style.cursor = 'pointer';
+        span.addEventListener('click', () => {
+          renderProducts(page);
+        });
+      } else {
+        span.style.cursor = 'default';
+      }
+      return span;
+    }
+
+    // First button
+    const first = document.createElement('span');
+    first.textContent = 'First';
+    first.style.cursor = currentPage > 1 ? 'pointer' : 'default';
+    first.style.marginRight = '10px';
+    if (currentPage > 1) {
+      first.addEventListener('click', () => {
+        renderProducts(1);
+      });
+    }
+    pagination.appendChild(first);
+
+    // Prev button
+    const prev = document.createElement('span');
+    prev.textContent = 'Prev';
+    prev.style.cursor = currentPage > 1 ? 'pointer' : 'default';
+    prev.style.marginRight = '10px';
+    if (currentPage > 1) {
+      prev.addEventListener('click', () => {
+        renderProducts(currentPage - 1);
+      });
+    }
+    pagination.appendChild(prev);
+
+    if (totalPages <= 7) {
+      // Show all pages
+      for (let i = 1; i <= totalPages; i++) {
+        pagination.appendChild(createPageSpan(i));
+      }
+    } else {
+      // Show first page
+      pagination.appendChild(createPageSpan(1));
+
+      // Show first ellipsis if needed
+      if (currentPage > 4) {
+        pagination.appendChild(createPageSpan(null, '...'));
+      }
+
+      // Calculate range of middle pages
+      let start = Math.max(2, currentPage - 1);
+      let end = Math.min(totalPages - 1, currentPage + 1);
+
+      for (let i = start; i <= end; i++) {
+        pagination.appendChild(createPageSpan(i));
+      }
+
+      // Show second ellipsis if needed
+      if (currentPage < totalPages - 3) {
+        pagination.appendChild(createPageSpan(null, '...'));
+      }
+
+      // Show last page
+      pagination.appendChild(createPageSpan(totalPages));
+    }
+
+    // Next button
+    const next = document.createElement('span');
+    next.textContent = 'Next';
+    next.style.cursor = currentPage < totalPages ? 'pointer' : 'default';
+    next.style.marginLeft = '10px';
+    if (currentPage < totalPages) {
+      next.addEventListener('click', () => {
+        renderProducts(currentPage + 1);
+      });
+    }
+    pagination.appendChild(next);
+
+    // Last button
+    const last = document.createElement('span');
+    last.textContent = 'Last';
+    last.style.cursor = currentPage < totalPages ? 'pointer' : 'default';
+    last.style.marginLeft = '10px';
+    if (currentPage < totalPages) {
+      last.addEventListener('click', () => {
+        renderProducts(totalPages);
+      });
+    }
+    pagination.appendChild(last);
+
+    // Direct page input
+    const inputWrapper = document.createElement('span');
+    inputWrapper.style.marginLeft = '20px';
+    inputWrapper.style.userSelect = 'none';
+
+    const input = document.createElement('input');
+    input.type = 'number';
+    input.min = '1';
+    input.max = totalPages.toString();
+    input.placeholder = 'Page #';
+    input.style.width = '60px';
+    input.style.padding = '2px 4px';
+    input.style.marginLeft = '10px';
+
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        let val = parseInt(input.value);
+        if (val >= 1 && val <= totalPages) {
+          renderProducts(val);
+        } else {
+          alert(`Please enter a number between 1 and ${totalPages}`);
+        }
+        input.value = '';
+      }
+    });
+
+    inputWrapper.appendChild(document.createTextNode('Go to:'));
+    inputWrapper.appendChild(input);
+
+    pagination.appendChild(inputWrapper);
+  }
+
+  // Initial render
+  renderProducts();
+
+  // Re-render on window resize (reset to page 1)
+  window.addEventListener('resize', () => {
+    renderProducts(1);
+  });
+</script>
+
+</body>
+</html>

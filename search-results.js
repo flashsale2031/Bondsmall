@@ -33,6 +33,7 @@
     let currentBrand         = "";
     let currentCondition     = "";
     let selectedDeals         = [];
+    let currentPage          = 1;
 
     /* ── DOM References ───────────────────────── */
     const searchInput   = document.getElementById("sr-search");
@@ -512,6 +513,58 @@
 </footer>`;
     }
 
+    /* ── Pagination helpers ────────────────────── */
+    function getProductsPerPage() {
+        return window.innerWidth <= 600 ? 20 : 21;
+    }
+
+    function renderSRPagination(totalItems) {
+        const paginationEl = document.getElementById("sr-pagination");
+        if (!paginationEl) return;
+        const perPage = getProductsPerPage();
+        const totalPages = Math.ceil(totalItems / perPage);
+        if (totalPages <= 1) { paginationEl.innerHTML = ""; return; }
+
+        let html = "";
+
+        html += `<button class="pg-btn pg-nav${currentPage <= 1 ? " pg-disabled" : ""}" data-pg-action="first">First</button>`;
+        html += `<button class="pg-btn pg-nav${currentPage <= 1 ? " pg-disabled" : ""}" data-pg-action="prev">Prev</button>`;
+
+        if (totalPages <= 7) {
+            for (let i = 1; i <= totalPages; i++) {
+                html += `<button class="pg-btn${i === currentPage ? " pg-active" : ""}" data-pg-num="${i}">${i}</button>`;
+            }
+        } else {
+            html += `<button class="pg-btn${1 === currentPage ? " pg-active" : ""}" data-pg-num="1">1</button>`;
+            if (currentPage > 4) html += `<span class="pg-btn pg-ellipsis">…</span>`;
+            const start = Math.max(2, currentPage - 1);
+            const end = Math.min(totalPages - 1, currentPage + 1);
+            for (let i = start; i <= end; i++) {
+                html += `<button class="pg-btn${i === currentPage ? " pg-active" : ""}" data-pg-num="${i}">${i}</button>`;
+            }
+            if (currentPage < totalPages - 3) html += `<span class="pg-btn pg-ellipsis">…</span>`;
+            html += `<button class="pg-btn${totalPages === currentPage ? " pg-active" : ""}" data-pg-num="${totalPages}">${totalPages}</button>`;
+        }
+
+        html += `<button class="pg-btn pg-nav${currentPage >= totalPages ? " pg-disabled" : ""}" data-pg-action="next">Next</button>`;
+        html += `<button class="pg-btn pg-nav${currentPage >= totalPages ? " pg-disabled" : ""}" data-pg-action="last" data-pg-total="${totalPages}">Last</button>`;
+        html += `<span class="pg-goto-wrap">Go to: <input type="number" class="pg-goto-input" min="1" max="${totalPages}" placeholder="#" aria-label="Go to page"></span>`;
+
+        paginationEl.innerHTML = html;
+    }
+
+    function goToPage(page) {
+        const filtered = getFilteredProducts();
+        const perPage = getProductsPerPage();
+        const totalPages = Math.ceil(filtered.length / perPage);
+        const target = Math.max(1, Math.min(totalPages, page));
+        if (target === currentPage) return;
+        currentPage = target;
+        renderProducts();
+        renderResultsHeader();
+        if (resultsGrid) resultsGrid.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
     function renderProducts() {
         if (!resultsGrid) return;
         const filtered = getFilteredProducts();
@@ -523,14 +576,24 @@
                     <a href="index" class="sr-empty-browse-btn">Back to Store</a>
                 </div>
             `;
+            const paginationEl = document.getElementById("sr-pagination");
+            if (paginationEl) paginationEl.innerHTML = "";
             return;
         }
 
-        filtered.slice(0, 12).forEach(p => warmupImageHost(optimizeGridImageUrl(p.image)));
+        // Paginate
+        const perPage = getProductsPerPage();
+        const totalPages = Math.ceil(filtered.length / perPage);
+        if (currentPage > totalPages) currentPage = totalPages;
+        if (currentPage < 1) currentPage = 1;
+        const startIdx = (currentPage - 1) * perPage;
+        const pageProducts = filtered.slice(startIdx, startIdx + perPage);
+
+        pageProducts.slice(0, 12).forEach(p => warmupImageHost(optimizeGridImageUrl(p.image)));
 
         const luxuryBrands = ["dolce & gabbana", "louis vuitton", "yves saint laurent", "gucci", "prada", "hermes", "fendi", "chanel", "dior", "abercrombie & fitch", "bathing ape", "bathing apes", "michael kors", "rolex", "patek philippe", "marc jacobs", "us mint"];
 
-        resultsGrid.innerHTML = filtered.map((product, index) => {
+        resultsGrid.innerHTML = pageProducts.map((product, index) => {
             const imgSrc = optimizeGridImageUrl(product.image);
             const favs = getFavorites();
             const isFav = favs.includes(product.id);
@@ -572,9 +635,12 @@
                 </div>
             </article>`;
         }).join("");
+
+        renderSRPagination(filtered.length);
     }
 
     function renderAll() {
+        currentPage = 1;
         populateBrandDropdown(getBaseFilteredProducts(true, false));
         populateConditionDropdown(getBaseFilteredProducts(false, true));
         renderResultsHeader();
@@ -1160,6 +1226,47 @@
         if (productId && window.products && window.products.some(p => p.id === productId)) {
             openProductModal(productId);
         }
+
+        /* ── Pagination click handler ── */
+        const paginationEl = document.getElementById("sr-pagination");
+        if (paginationEl) {
+            paginationEl.addEventListener("click", (e) => {
+                const btn = e.target.closest("[data-pg-num]");
+                if (btn) { goToPage(Number(btn.dataset.pgNum)); return; }
+                const nav = e.target.closest("[data-pg-action]");
+                if (!nav) return;
+                const filtered = getFilteredProducts();
+                const totalPages = Math.ceil(filtered.length / getProductsPerPage());
+                switch (nav.dataset.pgAction) {
+                    case "first": goToPage(1); break;
+                    case "prev":  goToPage(currentPage - 1); break;
+                    case "next":  goToPage(currentPage + 1); break;
+                    case "last":  goToPage(totalPages); break;
+                }
+            });
+            paginationEl.addEventListener("keydown", (e) => {
+                if (e.key === "Enter" && e.target.classList.contains("pg-goto-input")) {
+                    const val = parseInt(e.target.value);
+                    const filtered = getFilteredProducts();
+                    const totalPages = Math.ceil(filtered.length / getProductsPerPage());
+                    if (val >= 1 && val <= totalPages) {
+                        goToPage(val);
+                    }
+                    e.target.value = "";
+                }
+            });
+        }
+
+        /* ── Re-render on window resize ── */
+        let resizeTimer;
+        window.addEventListener("resize", () => {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(() => {
+                currentPage = 1;
+                renderProducts();
+                renderResultsHeader();
+            }, 200);
+        });
     }
 
     /* ── Expose refresh API for category-menu.js ── */

@@ -1,4 +1,4 @@
-﻿(() => {
+(() => {
     const categoryLabels = {
         all: "Shop All",
         accessories: "Accessories",
@@ -25,6 +25,7 @@
     let shippingData = null;
     let activeDiscountRate = 0;
     let activePaymentMethod = "credit";
+    let currentPage = 1;
 
     const productGrid = document.getElementById("product-grid");
     const headerSearch = document.getElementById("header-search");
@@ -677,23 +678,92 @@
 </footer>`;
     }
 
+    /* ── Pagination helpers ────────────────────── */
+    function getProductsPerPage() {
+        return window.innerWidth <= 600 ? 20 : 21;
+    }
+
+    function renderPagination(totalItems) {
+        const paginationEl = document.getElementById("pagination");
+        if (!paginationEl) return;
+        const perPage = getProductsPerPage();
+        const totalPages = Math.ceil(totalItems / perPage);
+        if (totalPages <= 1) { paginationEl.innerHTML = ""; return; }
+
+        let html = "";
+
+        // First
+        html += `<button class="pg-btn pg-nav${currentPage <= 1 ? " pg-disabled" : ""}" data-pg-action="first">First</button>`;
+        // Prev
+        html += `<button class="pg-btn pg-nav${currentPage <= 1 ? " pg-disabled" : ""}" data-pg-action="prev">Prev</button>`;
+
+        if (totalPages <= 7) {
+            for (let i = 1; i <= totalPages; i++) {
+                html += `<button class="pg-btn${i === currentPage ? " pg-active" : ""}" data-pg-num="${i}">${i}</button>`;
+            }
+        } else {
+            // Always show page 1
+            html += `<button class="pg-btn${1 === currentPage ? " pg-active" : ""}" data-pg-num="1">1</button>`;
+            if (currentPage > 4) html += `<span class="pg-btn pg-ellipsis">…</span>`;
+            const start = Math.max(2, currentPage - 1);
+            const end = Math.min(totalPages - 1, currentPage + 1);
+            for (let i = start; i <= end; i++) {
+                html += `<button class="pg-btn${i === currentPage ? " pg-active" : ""}" data-pg-num="${i}">${i}</button>`;
+            }
+            if (currentPage < totalPages - 3) html += `<span class="pg-btn pg-ellipsis">…</span>`;
+            html += `<button class="pg-btn${totalPages === currentPage ? " pg-active" : ""}" data-pg-num="${totalPages}">${totalPages}</button>`;
+        }
+
+        // Next
+        html += `<button class="pg-btn pg-nav${currentPage >= totalPages ? " pg-disabled" : ""}" data-pg-action="next">Next</button>`;
+        // Last
+        html += `<button class="pg-btn pg-nav${currentPage >= totalPages ? " pg-disabled" : ""}" data-pg-action="last" data-pg-total="${totalPages}">Last</button>`;
+
+        // Go-to input
+        html += `<span class="pg-goto-wrap">Go to: <input type="number" class="pg-goto-input" min="1" max="${totalPages}" placeholder="#" aria-label="Go to page"></span>`;
+
+        paginationEl.innerHTML = html;
+    }
+
+    function goToPage(page) {
+        const filtered = getFilteredProducts();
+        const perPage = getProductsPerPage();
+        const totalPages = Math.ceil(filtered.length / perPage);
+        const target = Math.max(1, Math.min(totalPages, page));
+        if (target === currentPage) return;
+        currentPage = target;
+        renderProducts();
+        // Scroll to top of product grid
+        if (productGrid) productGrid.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
     function renderProducts() {
         const filtered = getFilteredProducts();
 
         if (filtered.length === 0) {
             productGrid.innerHTML = '<p class="empty-state">No products matched your search.</p>';
+            const paginationEl = document.getElementById("pagination");
+            if (paginationEl) paginationEl.innerHTML = "";
             return;
         }
 
-        filtered.slice(0, 12).forEach((product) => {
+        // Paginate
+        const perPage = getProductsPerPage();
+        const totalPages = Math.ceil(filtered.length / perPage);
+        if (currentPage > totalPages) currentPage = totalPages;
+        if (currentPage < 1) currentPage = 1;
+        const startIdx = (currentPage - 1) * perPage;
+        const pageProducts = filtered.slice(startIdx, startIdx + perPage);
+
+        pageProducts.slice(0, 12).forEach((product) => {
             warmupImageHost(optimizeGridImageUrl(product.image));
         });
 
-        preloadVisibleImages(filtered);
+        preloadVisibleImages(pageProducts);
 
         const luxuryBrands = ["dolce & gabbana", "louis vuitton", "yves saint laurent", "gucci", "prada", "hermes", "fendi", "chanel", "dior", "abercrombie & fitch", "bathing ape", "bathing apes", "michael kors", "rolex", "patek philippe", "marc jacobs", "us mint"];
 
-        productGrid.innerHTML = filtered.map((product, index) => {
+        productGrid.innerHTML = pageProducts.map((product, index) => {
             const imageSrc = optimizeGridImageUrl(product.image);
             const favs = getFavorites();
             const isFav = favs.includes(product.id);
@@ -726,6 +796,8 @@
             </article>
         `;
         }).join("");
+
+        renderPagination(filtered.length);
     }
 
     function renderPopupSearchResults() {
@@ -1265,8 +1337,8 @@
             });
         }
 
-        if (headerSearch) headerSearch.addEventListener("input", renderProducts);
-        if (categorySearch) categorySearch.addEventListener("input", renderProducts);
+        if (headerSearch) headerSearch.addEventListener("input", () => { currentPage = 1; renderProducts(); });
+        if (categorySearch) categorySearch.addEventListener("input", () => { currentPage = 1; renderProducts(); });
 
         if (popupHeaderSearch) {
             popupHeaderSearch.addEventListener("input", renderPopupSearchResults);
@@ -1298,6 +1370,7 @@
                     return;
                 }
                 activeCategory = btn.dataset.category;
+                currentPage = 1;
                 document.querySelectorAll(".category-btn").forEach((item) => item.classList.remove("active"));
                 btn.classList.add("active");
                 renderProducts();
@@ -1470,6 +1543,7 @@
 
         document.addEventListener("drawer-category-select", (e) => {
             activeCategory = e.detail.category;
+            currentPage = 1;
             // Update active state on the category buttons
             document.querySelectorAll(".category-btn").forEach(btn => {
                 btn.classList.toggle("active", btn.dataset.category === activeCategory);
@@ -1519,6 +1593,46 @@
         setupAccountDrawer();
         updatePaymentMethodUI();
         updateFavoritesUI();
+
+        /* ── Pagination click handler ── */
+        const paginationEl = document.getElementById("pagination");
+        if (paginationEl) {
+            paginationEl.addEventListener("click", (e) => {
+                const btn = e.target.closest("[data-pg-num]");
+                if (btn) { goToPage(Number(btn.dataset.pgNum)); return; }
+                const nav = e.target.closest("[data-pg-action]");
+                if (!nav) return;
+                const filtered = getFilteredProducts();
+                const totalPages = Math.ceil(filtered.length / getProductsPerPage());
+                switch (nav.dataset.pgAction) {
+                    case "first": goToPage(1); break;
+                    case "prev":  goToPage(currentPage - 1); break;
+                    case "next":  goToPage(currentPage + 1); break;
+                    case "last":  goToPage(totalPages); break;
+                }
+            });
+            paginationEl.addEventListener("keydown", (e) => {
+                if (e.key === "Enter" && e.target.classList.contains("pg-goto-input")) {
+                    const val = parseInt(e.target.value);
+                    const filtered = getFilteredProducts();
+                    const totalPages = Math.ceil(filtered.length / getProductsPerPage());
+                    if (val >= 1 && val <= totalPages) {
+                        goToPage(val);
+                    }
+                    e.target.value = "";
+                }
+            });
+        }
+
+        /* ── Re-render on window resize (products per page may change) ── */
+        let resizeTimer;
+        window.addEventListener("resize", () => {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(() => {
+                currentPage = 1;
+                renderProducts();
+            }, 200);
+        });
 
         const productIdFromUrl = getProductIdFromUrl();
         if (productIdFromUrl) {
