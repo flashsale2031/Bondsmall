@@ -3,6 +3,8 @@
  * Exposes window.populateProductPopup(product, { categoryLabels }).
  */
 
+let activeReviewProductId = "";
+
 function formatPopupMoney(value) {
     return `$${Number(value).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
 }
@@ -66,6 +68,151 @@ function enrichForPopup(product) {
         productType: product.productType || product.category,
         specifications
     };
+}
+
+function getReviewStorageKey(productId) {
+    return productId ? `bm_reviews_${productId}` : "";
+}
+
+function loadProductReviews(productId) {
+    const key = getReviewStorageKey(productId);
+    if (!key) return [];
+
+    try {
+        const parsed = JSON.parse(localStorage.getItem(key) || "[]");
+        return Array.isArray(parsed) ? parsed : [];
+    } catch (error) {
+        console.warn("Unable to load product reviews.", error);
+        return [];
+    }
+}
+
+function saveProductReviews(productId, reviews) {
+    const key = getReviewStorageKey(productId);
+    if (!key) return;
+    localStorage.setItem(key, JSON.stringify(reviews));
+}
+
+function getStoredJsonFromAnyStorage(key) {
+    for (const storage of [sessionStorage, localStorage]) {
+        try {
+            const raw = storage.getItem(key);
+            if (raw) return JSON.parse(raw);
+        } catch (_) {
+            // Ignore malformed or unavailable storage.
+        }
+    }
+    return null;
+}
+
+function getCurrentReviewAuthor() {
+    const session = getStoredJsonFromAnyStorage("fc_account_session");
+    const profile = getStoredJsonFromAnyStorage("fc_profile");
+    const expiresAt = session && session.expiresAt ? new Date(session.expiresAt).getTime() : null;
+    const isSignedIn = Boolean(profile) && (!expiresAt || expiresAt > Date.now());
+
+    if (!isSignedIn) {
+        return {
+            username: "Guest",
+            picture: ""
+        };
+    }
+
+    return {
+        username: profile.username || profile.name || (profile.email || "User").split("@")[0],
+        picture: profile.picture || ""
+    };
+}
+
+function renderProductReviews(productId) {
+    const listEl = document.getElementById("reviews-list");
+    const summaryEl = document.getElementById("reviews-summary");
+    const reviews = loadProductReviews(productId);
+    const count = reviews.length;
+    const average = count
+        ? reviews.reduce((sum, review) => sum + Number(review.rating || 0), 0) / count
+        : 0;
+
+    if (summaryEl) {
+        summaryEl.textContent = count
+            ? `${average.toFixed(1)} average rating · ${count} review${count === 1 ? "" : "s"}`
+            : "No reviews yet.";
+    }
+
+    document.querySelectorAll(".average-rating").forEach((el) => {
+        el.textContent = count ? average.toFixed(1) : "0.0";
+    });
+    document.querySelectorAll(".review-count").forEach((el) => {
+        el.textContent = String(count);
+    });
+
+    if (!listEl) return;
+    listEl.innerHTML = "";
+
+    if (!count) {
+        const empty = document.createElement("p");
+        empty.className = "empty-state reviews-empty-state";
+        empty.textContent = "No reviews yet. Be the first to review this product.";
+        listEl.appendChild(empty);
+        return;
+    }
+
+    reviews
+        .slice()
+        .reverse()
+        .forEach((review) => {
+            const item = document.createElement("article");
+            item.className = "review-item";
+
+            const author = review.author || { username: "Guest", picture: "" };
+            const authorEl = document.createElement("div");
+            authorEl.className = "review-author";
+
+            const avatar = document.createElement("div");
+            avatar.className = "review-avatar";
+
+            if (author.picture) {
+                const img = document.createElement("img");
+                img.src = author.picture;
+                img.alt = "";
+                img.loading = "lazy";
+                avatar.appendChild(img);
+            } else {
+                avatar.classList.add("review-avatar--default");
+                avatar.setAttribute("aria-hidden", "true");
+                avatar.textContent = "G";
+            }
+
+            const username = document.createElement("div");
+            username.className = "review-username";
+            username.textContent = author.username || "Guest";
+
+            authorEl.append(avatar, username);
+
+            const body = document.createElement("div");
+            body.className = "review-body";
+
+            const meta = document.createElement("div");
+            meta.className = "review-item-meta";
+
+            const stars = document.createElement("span");
+            stars.className = "review-item-stars";
+            stars.textContent = "★".repeat(Number(review.rating || 0));
+
+            const date = document.createElement("time");
+            date.dateTime = review.date || "";
+            date.textContent = review.date
+                ? new Date(review.date).toLocaleDateString()
+                : "";
+
+            const comment = document.createElement("p");
+            comment.textContent = review.comment || "";
+
+            meta.append(stars, date);
+            body.append(meta, comment);
+            item.append(authorEl, body);
+            listEl.appendChild(item);
+        });
 }
 
 function initDeliveryOptions() {
@@ -464,12 +611,29 @@ function ensureDelegatedListeners() {
         const ratingChecked = document.querySelector('#review-form input[name="rating"]:checked');
         const commentEl = document.getElementById("review-comment");
 
-        const starCount = ratingChecked ? ratingChecked.value : null;
+        const starCount = ratingChecked ? Number(ratingChecked.value) : null;
+        const comment = commentEl ? commentEl.value.trim() : "";
+
+        if (!activeReviewProductId || !starCount) {
+            if (msg) {
+                msg.textContent = "Please choose a star rating before submitting your review.";
+                msg.style.display = "block";
+            }
+            return;
+        }
+
+        const reviews = loadProductReviews(activeReviewProductId);
+        reviews.push({
+            rating: starCount,
+            comment,
+            author: getCurrentReviewAuthor(),
+            date: new Date().toISOString()
+        });
+        saveProductReviews(activeReviewProductId, reviews);
+        renderProductReviews(activeReviewProductId);
 
         if (msg) {
-            msg.textContent = starCount
-                ? `Thanks for your ${starCount}-star review!`
-                : "Thanks for your review!";
+            msg.textContent = `Thanks for your ${starCount}-star review!`;
             msg.style.display = "block";
         }
 
@@ -624,6 +788,7 @@ function resetReviewUi() {
     document.querySelectorAll('#review-form input[name="rating"]').forEach((r) => {
         r.checked = false;
     });
+    renderProductReviews(activeReviewProductId);
 }
 
 function getFooterHTML() {
@@ -654,6 +819,7 @@ function getFooterHTML() {
         <a href="rewards.html"><span class="footer-icon" aria-hidden="true">RW</span>Rewards</a>
         <a href="recentorders.html"><span class="footer-icon" aria-hidden="true">RO</span>Recent Orders</a>
     </nav>
+    <div class="site-footer-bottom">2026 © Bonds Mall. All Rights Are Reserved.</div>
 </footer>`;
 }
 
@@ -662,6 +828,7 @@ window.populateProductPopup = function populateProductPopup(product, opts) {
     ensureDelegatedListeners();
 
     const enriched = enrichForPopup(product);
+    activeReviewProductId = enriched.id || product.id || "";
 
     const qty = document.getElementById("quantity");
     if (qty) qty.value = 1;
@@ -1062,4 +1229,3 @@ document.addEventListener("DOMContentLoaded", ensureDelegatedListeners);
         else        showImage(lbIndex - 1, "left");  // swipe right → prev
     }, { passive: true });
 })();
-

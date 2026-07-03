@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="google-site-verification" content="jllyF46thaKZtbVvBgF-62NqZQJRxBI_gv1MJaS_X8g" />
     <title>BONDS MALL</title>
-    <link rel="stylesheet" href="bondsmall.css">
-    <link rel="stylesheet" href="site-footer.css">
+    <link rel="stylesheet" href="bondsmall.css?v=1.0.2">
+    <link rel="stylesheet" href="site-footer.css?v=1.0.2">
+    <!-- Replace this placeholder with the real Google OAuth Web client ID. -->
+    <!-- Add https://bondsmall.com and https://www.bondsmall.com to Authorized JavaScript origins in Google Cloud Console for this client ID. This console setting is required to clear "Error 400: origin_mismatch"; it is not a code change. -->
+    <script>window.FC_GOOGLE_CLIENT_ID = "REPLACE_WITH_OAUTH_CLIENT_ID.apps.googleusercontent.com";</script>
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="https://accounts.google.com/gsi/client" async defer></script>
-    <script src="products.js" defer></script>
-    <script src="auth.js" defer></script>
-    <script src="bondsmall-account.js" defer></script>
-    <script src="productpopup.js" defer></script>
-    <script src="bondsmall.js" defer></script>
-    <script src="category-menu.js" defer></script>
+    <script src="products.js?v=1.0.2" defer></script>
+    <script src="productpopup.js?v=1.0.2" defer></script>
+    <script src="bondsmall-account.js?v=1.0.2" defer></script>
+    <script src="bondsmall.js?v=1.0.2" defer></script>
+    <script src="category-menu.js?v=1.0.2" defer></script>
 </head>
 <body>
     <header class="header">
@@ -240,6 +241,8 @@
                         <button type="submit">Submit Review</button>
                     </form>
                     <div id="review-messages" role="alert" aria-live="polite"></div>
+                    <div id="reviews-summary" class="reviews-summary" aria-live="polite"></div>
+                    <div id="reviews-list" class="reviews-list"></div>
                 </section>
             </div>
         </article>
@@ -356,7 +359,7 @@
                     <button id="account-tab-signin" class="account-tab active" role="tab" aria-selected="true" data-view="signin">Sign In</button>
                     <button id="account-tab-signup" class="account-tab" role="tab" aria-selected="false" data-view="signup">Sign Up</button>
                 </div>
-                <iframe id="account-frame" class="account-frame" title="Account form" src="signin.html"></iframe>
+                <iframe id="account-frame" class="account-frame" title="Account form" src="about:blank"></iframe>
             </div>
 
             <p id="account-status" aria-live="polite" style="margin: 0 1rem 1rem; color: #1f7a46; font-size: 0.9rem;"></p>
@@ -431,6 +434,7 @@
         <a href="rewards.html"><span class="footer-icon" aria-hidden="true">RW</span>Rewards</a>
         <a href="recentorders.html"><span class="footer-icon" aria-hidden="true">RO</span>Recent Orders</a>
     </nav>
+    <div class="site-footer-bottom">2026 © Bonds Mall. All Rights Are Reserved.</div>
 </footer>
 
 <!-- Image Lightbox Overlay -->
