@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bonds Mall Inventory</title>
+<link rel="stylesheet" href="bondsmall.css">
+<link rel="stylesheet" href="site-footer.css">
+<script src="category-menu.js" defer></script>
+<style>
+  :root {
+    --good: #1f7a46;
+    --warn: #8c2f39;
+  }
+
+  body.modal-open {
+    overflow: hidden;
+  }
+
+  .page {
+    width: min(1180px, calc(100% - 2rem));
+    margin: 2rem auto 3rem;
+  }
+
+  .page-head {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .page h1 {
+    margin: 0;
+    font-size: clamp(2rem, 5vw, 3.6rem);
+    line-height: 0.95;
+    letter-spacing: 0;
+  }
+
+  .page-subtitle {
+    margin: 0.45rem 0 0;
+    color: var(--muted);
+  }
+
+  .toolbar {
+    display: grid;
+    grid-template-columns: auto minmax(220px, 1fr) auto auto;
+    gap: 0.75rem;
+    align-items: center;
+    padding: 0.9rem;
+    border: 1px solid var(--line);
+    background: rgba(255, 253, 248, 0.78);
+    border-radius: 10px;
+    margin-bottom: 0.75rem;
+  }
+
+  .bulk-control {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 42px;
+    padding: 0 0.85rem;
+    border: 1px solid #d9ccbe;
+    border-radius: 10px;
+    background: #fff;
+    font-weight: 800;
+    white-space: nowrap;
+  }
+
+  .bulk-control input {
+    width: 18px;
+    height: 18px;
+    accent-color: var(--accent);
+  }
+
+  .toolbar-search {
+    width: 100%;
+    min-height: 42px;
+    padding: 0 0.9rem;
+    border: 1px solid #d9ccbe;
+    border-radius: 10px;
+    background: #fff;
+    color: var(--ink);
+    font: inherit;
+    outline: none;
+  }
+
+  .toolbar-search:focus {
+    border-color: #1f1a14;
+    box-shadow: 0 0 0 3px rgba(31, 26, 20, 0.08);
+  }
+
+  .status {
+    min-height: 1.35rem;
+    margin: 0.75rem 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+
+  .table-wrap {
+    overflow: auto;
+    border: 1px solid var(--line);
+    background: rgba(255, 253, 248, 0.86);
+    border-radius: 10px;
+  }
+
+  table {
+    width: 100%;
+    min-width: 850px;
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    padding: 0.82rem 0.75rem;
+    border-bottom: 1px solid var(--line);
+    text-align: left;
+    vertical-align: middle;
+  }
+
+  th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #f4eee5;
+    color: #3d342b;
+    font-size: 0.82rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  tbody tr:hover {
+    background: #fff8ed;
+  }
+
+  .product-img {
+    width: 54px;
+    height: 54px;
+    object-fit: cover;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: #fff;
+  }
+
+  .empty-row {
+    color: var(--muted);
+    text-align: center;
+  }
+
+  /* ── Row actions (Edit / Delete) ─────────────────── */
+  .actions-cell {
+    white-space: nowrap;
+  }
+
+  .row-actions {
+    display: flex;
+    gap: 0.4rem;
+  }
+
+  .row-action-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 34px;
+    padding: 0.4rem 0.75rem;
+    border-radius: 999px;
+    border: 1px solid #d9ccbe;
+    background: #fff;
+    color: var(--ink);
+    font-size: 0.82rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+  }
+
+  .row-action-btn:hover {
+    background: #f5ede2;
+  }
+
+  .row-action-btn--danger {
+    color: var(--warn);
+    border-color: #e2b9bd;
+  }
+
+  .row-action-btn--danger:hover {
+    background: #fbeef0;
+  }
+
+  /* ── Add Product modal ─────────────────────────── */
+  .modal-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 10050;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: rgba(28, 27, 26, 0.55);
+  }
+
+  .modal-overlay.is-open {
+    display: flex;
+  }
+
+  .modal-panel {
+    width: min(920px, 100%);
+    max-height: min(92vh, 900px);
+    overflow: auto;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    box-shadow: 0 24px 70px rgba(28, 27, 26, 0.28);
+  }
+
+  .modal-head {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem clamp(1rem, 3vw, 1.5rem);
+    background: rgba(255, 253, 248, 0.96);
+    border-bottom: 1px solid var(--line);
+  }
+
+  .modal-title {
+    margin: 0;
+    font-size: clamp(1.4rem, 3vw, 2rem);
+    letter-spacing: 0;
+  }
+
+  .modal-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+  }
+
+  .modal-close {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 1px solid #d9ccbe;
+    background: #fff;
+    color: var(--ink);
+    font-size: 1.25rem;
+    cursor: pointer;
+  }
+
+  .modal-panel form {
+    padding: 1.25rem clamp(1rem, 3vw, 1.5rem) 1.5rem;
+  }
+
+  .form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .field {
+    display: grid;
+    gap: 0.4rem;
+  }
+
+  .field--wide {
+    grid-column: 1 / -1;
+  }
+
+  .field label,
+  .group-label {
+    font-size: 0.84rem;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .modal-panel input,
+  .modal-panel textarea,
+  .modal-panel select {
+    width: 100%;
+    min-height: 44px;
+    padding: 0.72rem 0.9rem;
+    border-radius: 8px;
+    border: 1px solid #d4c8b9;
+    background: #fffdf8;
+    color: var(--ink);
+    font: inherit;
+    outline: none;
+  }
+
+  .modal-panel input:focus,
+  .modal-panel textarea:focus,
+  .modal-panel select:focus {
+    border-color: #1f1a14;
+    box-shadow: 0 0 0 3px rgba(31, 26, 20, 0.08);
+  }
+
+  .modal-panel textarea {
+    min-height: 96px;
+    resize: vertical;
+    line-height: 1.45;
+  }
+
+  .specifications {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .spec-row {
+    display: grid;
+    grid-template-columns: minmax(120px, 0.75fr) minmax(180px, 1.25fr) auto;
+    gap: 0.6rem;
+    align-items: center;
+  }
+
+  .spec-remove {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 1px solid #d9ccbe;
+    background: #fff;
+    color: var(--ink);
+    font-size: 1.25rem;
+    cursor: pointer;
+  }
+
+  @media (max-width: 780px) {
+    .toolbar,
+    .page-head,
+    .form-grid,
+    .spec-row {
+      grid-template-columns: 1fr;
+    }
+
+    .toolbar {
+      align-items: stretch;
+    }
+
+    .modal-actions {
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+  }
+</style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-left">
+      <button class="menu-btn" id="menu-btn" aria-label="Open category menu" aria-expanded="false" aria-controls="cat-drawer-overlay">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <a href="index.html" aria-label="Bonds Mall home" style="text-decoration:none;color:inherit;display:flex;">
+        <div class="logo">
+          <span class="logo-text logo-face logo-face--active">BONDS MALL</span>
+          <img class="logo-img logo-face" src="bonds-mall-logo.png" alt="Bonds Mall logo">
+        </div>
+      </a>
+    </div>
+    <input type="search" id="header-search" placeholder="Search products..." aria-label="Search products">
+    <div class="header-actions">
+      <button id="cart-btn" class="icon-btn" aria-label="Open cart">
+        <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M3 5h2l2.2 9.2a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.6L21 8H8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="10" cy="19" r="1.6" fill="currentColor"/>
+          <circle cx="17" cy="19" r="1.6" fill="currentColor"/>
+        </svg>
+        <span>Cart</span>
+      </button>
+      <button id="account-btn" class="icon-btn" aria-label="Account">
+        <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <circle cx="12" cy="8" r="3.4" fill="none" stroke="currentColor" stroke-width="1.8"/>
+          <path d="M5 20c.9-3.2 3.8-5.1 7-5.1s6.1 1.9 7 5.1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+        <span>Account</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Category Slide Drawer (shared with the rest of the site) -->
+  <div id="cat-drawer-overlay" class="cat-drawer-overlay" role="dialog" aria-modal="true" aria-label="Category Menu" aria-hidden="true">
+    <div class="cat-drawer-backdrop" id="cat-drawer-backdrop"></div>
+    <nav class="cat-drawer" id="cat-drawer">
+      <div class="cat-drawer-header">
+        <span class="cat-drawer-title" style="display:flex;align-items:center;gap:10px;"><img src="bonds-mall-logo.png" alt="Bonds Mall logo" style="height:58px;width:auto;object-fit:contain;filter:brightness(0) invert(1);flex-shrink:0;">Categories</span>
+        <button class="cat-drawer-close" id="cat-drawer-close" aria-label="Close category menu">&#x2715;</button>
+      </div>
+      <ul class="cat-drawer-list" role="list">
+        <li><button class="cat-drawer-item" data-cat="all">Shop All</button></li>
+        <li><button class="cat-drawer-item" data-cat="accessories">Accessories</button></li>
+        <li><button class="cat-drawer-item" data-cat="artandcollectibles">Art &amp; Collectibles</button></li>
+        <li><button class="cat-drawer-item" data-cat="electronics">Electronics</button></li>
+        <li><button class="cat-drawer-item" data-cat="entertainment">Entertainment</button></li>
+        <li><button class="cat-drawer-item" data-cat="homeandappliances">Home &amp; Appliances</button></li>
+        <li><button class="cat-drawer-item" data-cat="jewelry">Jewelry</button></li>
+        <li><button class="cat-drawer-item" data-cat="men">Men&#x27;s</button></li>
+        <li><button class="cat-drawer-item" data-cat="women">Women&#x27;s</button></li>
+      </ul>
+      <div class="cat-drawer-footer">
+        <div class="cat-drawer-footer-logo">BONDS MALL</div>
+      </div>
+    </nav>
+  </div>
+
+  <main class="page">
+    <div class="page-head">
+      <div>
+        <h1>Inventory</h1>
+        <p class="page-subtitle" id="inventoryCount">Loading products...</p>
+      </div>
+      <button class="secondary-btn" type="button" id="connectProductsBtn">Connect products.js</button>
+    </div>
+
+    <div class="toolbar">
+      <label class="bulk-control" for="bulkSelectAll">
+        <input type="checkbox" id="bulkSelectAll" aria-label="Select all products" />
+        Bulk Actions
+      </label>
+      <input type="search" id="bulkSearch" class="toolbar-search" placeholder="Search inventory..." aria-label="Search inventory" />
+      <button class="secondary-btn" type="button" id="exportProductsBtn">Export products.js</button>
+      <button class="primary-btn" type="button" id="addProductBtn">Add Product</button>
+    </div>
+
+    <p class="status" id="statusMessage" role="status"></p>
+
+    <div class="table-wrap">
+      <table aria-label="Product Inventory Table">
+        <thead>
+          <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Category</th>
+            <th>Product Type</th>
+            <th>Inventory</th>
+            <th>SKU</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="productTableBody"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <div class="modal-overlay" id="addProductModal" aria-hidden="true">
+    <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="addProductTitle">
+      <div class="modal-head">
+        <h2 class="modal-title" id="addProductTitle">Add A Product</h2>
+        <div class="modal-actions">
+          <button class="primary-btn" id="saveProductBtn" type="submit" form="addProductForm" disabled>Save</button>
+          <button class="modal-close" id="closeProductModalBtn" type="button" aria-label="Close">x</button>
+        </div>
+      </div>
+      <form id="addProductForm" novalidate>
+        <div class="form-grid">
+          <div class="field">
+            <label for="productIdInput">ID</label>
+            <input type="number" id="productIdInput" name="productId" min="1" step="1" required />
+          </div>
+          <div class="field">
+            <label for="productSkuInput">SKU</label>
+            <input type="text" id="productSkuInput" name="sku" autocomplete="off" />
+          </div>
+          <div class="field field--wide">
+            <label for="productNameInput">Name</label>
+            <input type="text" id="productNameInput" name="productName" autocomplete="off" required />
+          </div>
+          <div class="field">
+            <label for="productCategoryInput">Category</label>
+            <select id="productCategoryInput" name="category" required>
+              <option value="">Select category</option>
+              <option value="accessories">Accessories</option>
+              <option value="artandcollectibles">Art &amp; Collectibles</option>
+              <option value="electronics">Electronics</option>
+              <option value="entertainment">Entertainment</option>
+              <option value="homeandappliances">Home &amp; Appliances</option>
+              <option value="jewelry">Jewelry</option>
+              <option value="men">Men's</option>
+              <option value="women">Women's</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="productTypeInput">Product Type</label>
+            <input type="text" id="productTypeInput" name="productType" list="typeOptions" autocomplete="off" />
+            <datalist id="typeOptions"></datalist>
+          </div>
+          <div class="field">
+            <label for="retailPriceInput">Retail Price</label>
+            <input type="number" id="retailPriceInput" name="retailPrice" min="0" step="0.01" required />
+          </div>
+          <div class="field">
+            <label for="salePriceInput">Sale Price</label>
+            <input type="number" id="salePriceInput" name="salePrice" min="0" step="0.01" required />
+          </div>
+          <div class="field">
+            <label for="preownedPriceInput">Pre-Owned Price</label>
+            <input type="number" id="preownedPriceInput" name="preownedPrice" min="0" step="0.01" />
+          </div>
+          <div class="field">
+            <label for="inventoryInput">Inventory</label>
+            <input type="number" id="inventoryInput" name="inventory" min="0" step="1" value="1" />
+          </div>
+          <div class="field field--wide">
+            <label for="imageInput">Image URL</label>
+            <input type="url" id="imageInput" name="image" autocomplete="off" required />
+          </div>
+          <div class="field field--wide">
+            <label for="imagesInput">Gallery URLs</label>
+            <input type="text" id="imagesInput" name="images" autocomplete="off" placeholder="https://example.com/1.jpg, https://example.com/2.jpg" />
+          </div>
+          <div class="field field--wide">
+            <label for="descriptionInput">Description</label>
+            <textarea id="descriptionInput" name="description" required></textarea>
+          </div>
+          <div class="field field--wide specifications">
+            <div class="group-label">Specifications</div>
+            <div id="specificationsRows"></div>
+            <button class="secondary-btn" id="addSpecificationBtn" type="button">Add Specification</button>
+          </div>
+        </div>
+      </form>
+    </section>
+  </div>
+
+  <footer class="site-footer">
+    <div class="site-footer-top">
+      <div class="site-footer-brand-wrap">
+        <div class="site-footer-brand">BONDS MALL</div>
+        <p class="site-footer-tagline">Premium shopping with secure checkout and live customer support.</p>
+      </div>
+      <div class="site-footer-stickers" aria-label="Trust stickers">
+        <span class="sticker">Secure Payments</span>
+        <span class="sticker">24/7 Support</span>
+        <span class="sticker">Verified Store</span>
+      </div>
+    </div>
+    <nav class="site-footer-menu" aria-label="Footer menu">
+      <a href="customer-service.html"><span class="footer-icon" aria-hidden="true">CS</span>Customer Service</a>
+      <a href="faq.html"><span class="footer-icon" aria-hidden="true">FQ</span>FAQ</a>
+      <a href="dispute-center.html"><span class="footer-icon" aria-hidden="true">DC</span>Dispute Center</a>
+      <a href="careers.html"><span class="footer-icon" aria-hidden="true">CR</span>Careers</a>
+      <a href="partner.html"><span class="footer-icon" aria-hidden="true">PT</span>Partner</a>
+      <a href="affiliate.html"><span class="footer-icon" aria-hidden="true">AF</span>Affiliate</a>
+      <a href="link-bank-account.html"><span class="footer-icon" aria-hidden="true">BK</span>Link Bank Account</a>
+      <a href="profile.html"><span class="footer-icon" aria-hidden="true">PR</span>Profile</a>
+      <a href="order-history.html"><span class="footer-icon" aria-hidden="true">OH</span>Order History</a>
+      <a href="track-order.html"><span class="footer-icon" aria-hidden="true">TM</span>Track Order</a>
+      <a href="rewards.html"><span class="footer-icon" aria-hidden="true">RW</span>Rewards</a>
+      <a href="recentorders.html"><span class="footer-icon" aria-hidden="true">RO</span>Recent Orders</a>
+    </nav>
+    <div class="site-footer-bottom">2026 © Bonds Mall. All Rights Are Reserved.</div>
+  </footer>
+
+  <script src="products.js"></script>
+  <script>
+(() => {
+  "use strict";
+
+  let productList = [];
+  let productsFileHandle = null;
+  let editingIndex = null;
+
+  const els = {
+    addProductBtn: document.getElementById("addProductBtn"),
+    addProductModal: document.getElementById("addProductModal"),
+    closeProductModalBtn: document.getElementById("closeProductModalBtn"),
+    saveProductBtn: document.getElementById("saveProductBtn"),
+    addProductForm: document.getElementById("addProductForm"),
+    productTableBody: document.getElementById("productTableBody"),
+    bulkSearch: document.getElementById("bulkSearch"),
+    siteSearch: document.getElementById("header-search"),
+    inventoryCount: document.getElementById("inventoryCount"),
+    statusMessage: document.getElementById("statusMessage"),
+    specificationsRows: document.getElementById("specificationsRows"),
+    addSpecificationBtn: document.getElementById("addSpecificationBtn"),
+    connectProductsBtn: document.getElementById("connectProductsBtn"),
+    exportProductsBtn: document.getElementById("exportProductsBtn"),
+    typeOptions: document.getElementById("typeOptions"),
+    modalTitle: document.getElementById("addProductTitle")
+  };
+
+  function asNumber(value, fallback = 0) {
+    const parsed = Number(value);
+    return Number.isFinite(parsed) ? parsed : fallback;
+  }
+
+  function getFirstImage(product) {
+    if (Array.isArray(product.image)) return product.image.find(Boolean) || "";
+    return product.image || "";
+  }
+
+  function getRetailPrice(product) {
+    return asNumber(product["retail price"] ?? product.retailPrice ?? product.price);
+  }
+
+  function getSalePrice(product) {
+    return asNumber(product["sale price"] ?? product.salePrice ?? product.salePrice);
+  }
+
+  function getProductType(product) {
+    return product.productType || product.type || product.specifications?.product_type || product.specifications?.style || "";
+  }
+
+  function getSku(product) {
+    return product.sku || product.SKU || product.specifications?.sku || "";
+  }
+
+  function setStatus(message, tone = "neutral") {
+    els.statusMessage.textContent = message;
+    els.statusMessage.style.color = tone === "error" ? "var(--warn)" : tone === "success" ? "var(--good)" : "var(--muted)";
+  }
+
+  function loadScript(src) {
+    return new Promise((resolve, reject) => {
+      const script = document.createElement("script");
+      script.src = src;
+      script.onload = resolve;
+      script.onerror = () => reject(new Error(src));
+      document.head.appendChild(script);
+    });
+  }
+
+  async function loadProductsCatalog() {
+    if (Array.isArray(window.products)) {
+      productList = window.products;
+      return true;
+    }
+
+    // Fallback in case products.js didn't load from the <script> tag above
+    // (e.g. this file was opened from a different folder).
+    const productPaths = ["products.js", "../products.js"];
+
+    for (const path of productPaths) {
+      try {
+        await loadScript(path);
+        if (Array.isArray(window.products)) {
+          productList = window.products;
+          setStatus(`Loaded catalog from ${path}.`, "success");
+          return true;
+        }
+      } catch (error) {
+        // Try the next likely location.
+      }
+    }
+
+    productList = [];
+    setStatus("Could not load products.js. Make sure inventory.html is in the same folder as products.js, then refresh.", "error");
+    return false;
+  }
+
+  function renderTypeOptions() {
+    const types = [...new Set(productList.map(getProductType).filter(Boolean))].sort((a, b) => a.localeCompare(b));
+    els.typeOptions.innerHTML = types.map(type => `<option value="${escapeHtml(type)}"></option>`).join("");
+  }
+
+  function escapeHtml(value) {
+    return String(value)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+  }
+
+  function renderProducts(filter = "") {
+    const query = filter.trim().toLowerCase();
+    const filtered = productList
+      .filter(product => {
+        const haystack = [
+          product.name,
+          product.category,
+          getProductType(product),
+          getSku(product),
+          product.id
+        ].join(" ").toLowerCase();
+        return haystack.includes(query);
+      })
+      .sort((a, b) => String(a.name || "").localeCompare(String(b.name || "")));
+
+    els.inventoryCount.textContent = `${filtered.length} of ${productList.length} products`;
+
+    if (!filtered.length) {
+      els.productTableBody.innerHTML = `<tr><td class="empty-row" colspan="8">No products found.</td></tr>`;
+      return;
+    }
+
+    els.productTableBody.innerHTML = filtered.map(product => {
+      const retail = getRetailPrice(product);
+      const sale = getSalePrice(product);
+      const price = sale && sale !== retail
+        ? `$${sale.toFixed(2)}`
+        : `$${retail.toFixed(2)}`;
+      const idAttr = escapeHtml(String(product.id));
+      return `
+        <tr>
+          <td><img class="product-img" src="${escapeHtml(getFirstImage(product))}" alt="${escapeHtml(product.name || "Product image")}" loading="lazy"></td>
+          <td>${escapeHtml(product.name || "")}</td>
+          <td>${price}</td>
+          <td>${escapeHtml(product.category || "")}</td>
+          <td>${escapeHtml(getProductType(product))}</td>
+          <td>${product.inventory ?? ""}</td>
+          <td>${escapeHtml(getSku(product))}</td>
+          <td class="actions-cell">
+            <div class="row-actions">
+              <button class="row-action-btn" type="button" data-action="edit" data-id="${idAttr}">Edit</button>
+              <button class="row-action-btn row-action-btn--danger" type="button" data-action="delete" data-id="${idAttr}">Delete</button>
+            </div>
+          </td>
+        </tr>
+      `;
+    }).join("");
+  }
+
+  function findIndexById(id) {
+    return productList.findIndex(product => String(product.id) === String(id));
+  }
+
+  function getGalleryImages(product) {
+    const main = getFirstImage(product);
+    const fromImageField = Array.isArray(product.image) ? product.image.slice(1) : [];
+    const fromImagesField = Array.isArray(product.images) ? product.images : [];
+    const merged = [...fromImageField, ...fromImagesField].filter(Boolean);
+    return [...new Set(merged)].filter(img => img !== main);
+  }
+
+  function getNextProductId() {
+    return productList.reduce((max, product) => Math.max(max, asNumber(product.id)), 0) + 1;
+  }
+
+  function getNextSku() {
+    const nextId = getNextProductId();
+    return `BM-${String(nextId).padStart(4, "0")}`;
+  }
+
+  function openProductModal(index = null) {
+    editingIndex = index;
+    const isEdit = index !== null && productList[index];
+    const product = isEdit ? productList[index] : null;
+
+    els.addProductForm.reset();
+    els.specificationsRows.innerHTML = "";
+
+    if (isEdit) {
+      els.modalTitle.textContent = "Edit Product";
+      els.saveProductBtn.textContent = "Save Changes";
+
+      els.addProductForm.productId.value = product.id;
+      els.addProductForm.sku.value = getSku(product);
+      els.addProductForm.productName.value = product.name || "";
+      els.addProductForm.category.value = product.category || "";
+      els.addProductForm.productType.value = getProductType(product);
+      els.addProductForm.retailPrice.value = getRetailPrice(product) || "";
+      els.addProductForm.salePrice.value = getSalePrice(product) || "";
+      els.addProductForm.preownedPrice.value = product["pre-owned price"] ?? "";
+      els.addProductForm.inventory.value = product.inventory ?? "";
+      els.addProductForm.image.value = getFirstImage(product);
+      els.addProductForm.images.value = getGalleryImages(product).join(", ");
+      els.addProductForm.description.value = product.description || "";
+
+      const specEntries = Object.entries(product.specifications || {});
+      if (specEntries.length) {
+        specEntries.forEach(([key, value]) => addSpecificationRow(key, value));
+      } else {
+        addSpecificationRow("brand", "");
+        addSpecificationRow("material", "");
+      }
+    } else {
+      els.modalTitle.textContent = "Add A Product";
+      els.saveProductBtn.textContent = "Save";
+
+      els.addProductForm.productId.value = getNextProductId();
+      els.addProductForm.sku.value = getNextSku();
+      els.addProductForm.inventory.value = "1";
+      addSpecificationRow("brand", "");
+      addSpecificationRow("material", "");
+    }
+
+    updateSaveButton();
+    els.addProductModal.classList.add("is-open");
+    els.addProductModal.setAttribute("aria-hidden", "false");
+    document.body.classList.add("modal-open");
+    window.setTimeout(() => els.addProductForm.productName.focus(), 0);
+  }
+
+  function closeAddProductModal() {
+    els.addProductModal.classList.remove("is-open");
+    els.addProductModal.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("modal-open");
+    editingIndex = null;
+  }
+
+  function addSpecificationRow(key = "", value = "") {
+    const row = document.createElement("div");
+    row.className = "spec-row";
+    row.innerHTML = `
+      <input type="text" class="spec-key" placeholder="Specification" value="${escapeHtml(key)}" autocomplete="off">
+      <input type="text" class="spec-value" placeholder="Detail" value="${escapeHtml(value)}" autocomplete="off">
+      <button class="spec-remove" type="button" aria-label="Remove specification">x</button>
+    `;
+    row.querySelector(".spec-remove").addEventListener("click", () => {
+      row.remove();
+      updateSaveButton();
+    });
+    row.addEventListener("input", updateSaveButton);
+    els.specificationsRows.appendChild(row);
+  }
+
+  function updateSaveButton() {
+    const form = els.addProductForm;
+    const hasRequired = [
+      form.productId.value,
+      form.productName.value,
+      form.category.value,
+      form.retailPrice.value,
+      form.salePrice.value,
+      form.image.value,
+      form.description.value
+    ].every(value => String(value).trim());
+
+    const hasSpec = [...els.specificationsRows.querySelectorAll(".spec-row")].some(row => {
+      return row.querySelector(".spec-key").value.trim() && row.querySelector(".spec-value").value.trim();
+    });
+
+    const duplicateId = productList.some((product, idx) => idx !== editingIndex && String(product.id) === String(form.productId.value.trim()));
+    els.saveProductBtn.disabled = !hasRequired || !hasSpec || duplicateId;
+
+    if (duplicateId) {
+      setStatus("A product with that ID already exists.", "error");
+    } else if (!els.statusMessage.textContent.includes("products.js")) {
+      setStatus("");
+    }
+  }
+
+  function normalizeSpecKey(key) {
+    return key.trim().toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "");
+  }
+
+  function gatherProductFromForm() {
+    const form = els.addProductForm;
+    const image = form.image.value.trim();
+    const gallery = form.images.value
+      .split(",")
+      .map(url => url.trim())
+      .filter(Boolean);
+    const images = [...new Set([image, ...gallery].filter(Boolean))];
+    const specifications = {};
+
+    els.specificationsRows.querySelectorAll(".spec-row").forEach(row => {
+      const key = normalizeSpecKey(row.querySelector(".spec-key").value);
+      const value = row.querySelector(".spec-value").value.trim();
+      if (key && value) specifications[key] = value;
+    });
+
+    const product = {
+      id: asNumber(form.productId.value, form.productId.value.trim()),
+      name: form.productName.value.trim(),
+      category: form.category.value.trim(),
+      "retail price": asNumber(form.retailPrice.value),
+      "sale price": asNumber(form.salePrice.value),
+      image,
+      description: form.description.value.trim(),
+      images,
+      specifications
+    };
+
+    const sku = form.sku.value.trim();
+    const productType = form.productType.value.trim();
+    const inventory = form.inventory.value.trim();
+    const preownedPrice = form.preownedPrice.value.trim();
+
+    if (sku) product.sku = sku;
+    if (productType) product.productType = productType;
+    if (inventory !== "") product.inventory = asNumber(inventory);
+    if (preownedPrice !== "") product["pre-owned price"] = asNumber(preownedPrice);
+
+    return product;
+  }
+
+  function buildProductsJsSource() {
+    return `var products = ${JSON.stringify(productList, null, 2)};\n`;
+  }
+
+  async function chooseProductsFile() {
+    if (!window.showOpenFilePicker) {
+      setStatus("File picker is not available here. Use Export products.js to download the updated file.", "error");
+      return false;
+    }
+
+    const [handle] = await window.showOpenFilePicker({
+      multiple: false,
+      types: [{
+        description: "JavaScript",
+        accept: { "text/javascript": [".js"] }
+      }]
+    });
+
+    if (!handle || handle.name !== "products.js") {
+      setStatus("Choose the existing products.js file.", "error");
+      return false;
+    }
+
+    productsFileHandle = handle;
+    setStatus("products.js connected. New products will be written to that file.", "success");
+    return true;
+  }
+
+  async function writeProductsFile() {
+    if (!productsFileHandle) {
+      const connected = await chooseProductsFile();
+      if (!connected) return false;
+    }
+
+    const writable = await productsFileHandle.createWritable();
+    await writable.write(buildProductsJsSource());
+    await writable.close();
+    setStatus("products.js updated.", "success");
+    return true;
+  }
+
+  function downloadProductsFile() {
+    const blob = new Blob([buildProductsJsSource()], { type: "text/javascript" });
+    const link = document.createElement("a");
+    link.href = URL.createObjectURL(blob);
+    link.download = "products.js";
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(link.href);
+    setStatus("Updated products.js downloaded.", "success");
+  }
+
+  async function saveProduct(event) {
+    event.preventDefault();
+    updateSaveButton();
+    if (els.saveProductBtn.disabled) return;
+
+    const product = gatherProductFromForm();
+    const wasEditingIndex = editingIndex;
+    const isEdit = wasEditingIndex !== null;
+    const previous = isEdit ? productList[wasEditingIndex] : null;
+
+    if (isEdit) {
+      productList[wasEditingIndex] = product;
+    } else {
+      productList.push(product);
+    }
+
+    renderTypeOptions();
+    renderProducts(els.bulkSearch.value || els.siteSearch.value);
+    closeAddProductModal();
+
+    try {
+      const wroteFile = await writeProductsFile();
+      if (!wroteFile) downloadProductsFile();
+    } catch (error) {
+      if (isEdit) {
+        productList[wasEditingIndex] = previous;
+      } else {
+        productList.pop();
+      }
+      renderTypeOptions();
+      renderProducts(els.bulkSearch.value || els.siteSearch.value);
+      setStatus(`Could not update products.js: ${error.message}`, "error");
+      openProductModal(isEdit ? wasEditingIndex : null);
+    }
+  }
+
+  async function deleteProduct(id) {
+    const index = findIndexById(id);
+    if (index === -1) return;
+
+    const product = productList[index];
+    const confirmed = window.confirm(`Delete "${product.name || "this product"}"? This can't be undone.`);
+    if (!confirmed) return;
+
+    const removed = productList.splice(index, 1)[0];
+    renderTypeOptions();
+    renderProducts(els.bulkSearch.value || els.siteSearch.value);
+
+    try {
+      const wroteFile = await writeProductsFile();
+      if (!wroteFile) downloadProductsFile();
+      setStatus(`Deleted "${removed.name || "product"}" and updated products.js.`, "success");
+    } catch (error) {
+      productList.splice(index, 0, removed);
+      renderTypeOptions();
+      renderProducts(els.bulkSearch.value || els.siteSearch.value);
+      setStatus(`Could not update products.js: ${error.message}`, "error");
+    }
+  }
+
+  function wireEvents() {
+    els.addProductBtn.addEventListener("click", () => openProductModal(null));
+    els.closeProductModalBtn.addEventListener("click", closeAddProductModal);
+    els.addProductModal.addEventListener("click", event => {
+      if (event.target === els.addProductModal) closeAddProductModal();
+    });
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape" && els.addProductModal.classList.contains("is-open")) {
+        closeAddProductModal();
+      }
+    });
+
+    els.productTableBody.addEventListener("click", event => {
+      const btn = event.target.closest(".row-action-btn");
+      if (!btn) return;
+      const id = btn.dataset.id;
+      if (btn.dataset.action === "edit") {
+        const index = findIndexById(id);
+        if (index !== -1) openProductModal(index);
+      } else if (btn.dataset.action === "delete") {
+        deleteProduct(id);
+      }
+    });
+
+    els.addProductForm.addEventListener("input", updateSaveButton);
+    els.addProductForm.addEventListener("submit", saveProduct);
+    els.addSpecificationBtn.addEventListener("click", () => addSpecificationRow());
+    els.connectProductsBtn.addEventListener("click", async () => {
+      try {
+        await chooseProductsFile();
+      } catch (error) {
+        setStatus(`Could not connect products.js: ${error.message}`, "error");
+      }
+    });
+    els.exportProductsBtn.addEventListener("click", downloadProductsFile);
+
+    [els.bulkSearch, els.siteSearch].forEach(input => {
+      input.addEventListener("input", () => {
+        const value = input.value;
+        if (input === els.bulkSearch) els.siteSearch.value = value;
+        if (input === els.siteSearch) els.bulkSearch.value = value;
+        renderProducts(value);
+      });
+    });
+  }
+
+  async function init() {
+    wireEvents();
+    await loadProductsCatalog();
+    renderTypeOptions();
+    renderProducts();
+  }
+
+  init();
+})();
+  </script>
+</body>
+</html>
