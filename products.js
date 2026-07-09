@@ -1615,5 +1615,443 @@ var products = [
     "productType": "Watch",
     "inventory": 100,
     "pre-owned price": 799.99
+  },
+  {
+    "id": 67,
+    "name": "Men's Gucci Socks",
+    "category": "men",
+    "retail price": 149.99,
+    "sale price": 59.99,
+    "image": "gucci.com/mens-gucci-logo-socks",
+    "description": "Men's Gucci logo socks",
+    "images": [
+      "gucci.com/mens-gucci-logo-socks"
+    ],
+    "specifications": {
+      "brand": "Gucci",
+      "material": "Cotton"
+    },
+    "sku": "BM-0067",
+    "productType": "Socks",
+    "inventory": 100
+  },
+  {
+    "id": 68,
+    "name": "Men's Gucci Underwear",
+    "category": "men",
+    "retail price": 99.99,
+    "sale price": 39.99,
+    "image": "Gucci.com/mens-Underwear",
+    "description": "Men's Gucci logo underwear",
+    "images": [
+      "Gucci.com/mens-Underwear"
+    ],
+    "specifications": {
+      "brand": "Gucci",
+      "material": "Cotton"
+    },
+    "sku": "BM-0068",
+    "productType": "Underwear",
+    "inventory": 100
+  },
+  {
+    "id": 69,
+    "name": "Men's Gucci Sweater",
+    "category": "men",
+    "retail price": 1999.99,
+    "sale price": 1299.99,
+    "image": "gucci.com/mens-sweater",
+    "description": "Men's Gucci sweater",
+    "images": [
+      "gucci.com/mens-sweater"
+    ],
+    "specifications": {
+      "brand": "Gucci",
+      "material": "Silk"
+    },
+    "sku": "BM-0069",
+    "productType": "Sweater",
+    "inventory": 100,
+    "pre-owned price": 799.99
+  },
+  {
+    "id": 70,
+    "name": "Men's Gucci Shorts",
+    "category": "men",
+    "retail price": 199.99,
+    "sale price": 49.99,
+    "image": "gucci.com/mens-shorts",
+    "description": "Men's Gucci shorts",
+    "images": [
+      "gucci.com/mens-shorts"
+    ],
+    "specifications": {
+      "brand": "Gucci",
+      "material": "Cotton"
+    },
+    "sku": "BM-0070",
+    "productType": "Shorts",
+    "inventory": 100
+  },
+  {
+    "id": 71,
+    "name": "Men's Gucci Casual Pants",
+    "category": "men",
+    "retail price": 499.99,
+    "sale price": 99.99,
+    "image": "gucci.com/mens-pants",
+    "description": "Men's Gucci casual pants",
+    "images": [
+      "gucci.com/mens-pants"
+    ],
+    "specifications": {
+      "brand": "Gucci",
+      "material": "Linen"
+    },
+    "sku": "BM-0071",
+    "productType": "Pants",
+    "inventory": 100
+  },
+  {
+    "id": 72,
+    "name": "Men's Gucci Hooded Sweatshirt",
+    "category": "men",
+    "retail price": 599.99,
+    "sale price": 199.99,
+    "image": "gucci.com/mens-hooded-sweatshirt",
+    "description": "Men's Gucci logo hooded sweatshirt",
+    "images": [
+      "gucci.com/mens-hooded-sweatshirt"
+    ],
+    "specifications": {
+      "brand": "Gucci",
+      "material": "Cotton"
+    },
+    "sku": "BM-0072",
+    "productType": "Sweater",
+    "inventory": 100
+  },
+  {
+    "id": 73,
+    "name": "Men's Gucci Jacket",
+    "category": "men",
+    "retail price": 2999.99,
+    "sale price": 399.99,
+    "image": "gucci.com/mens-jacket",
+    "description": "Men's Gucci jacket",
+    "images": [
+      "gucci.com/mens-jacket"
+    ],
+    "specifications": {
+      "brand": "Gucci",
+      "material": "Leather"
+    },
+    "sku": "BM-0073",
+    "productType": "Jacket",
+    "inventory": 1
+  },
+  {
+    "id": 74,
+    "name": "Women's Gucci Shirt",
+    "category": "women",
+    "retail price": 799.99,
+    "sale price": 99.99,
+    "image": "Gucci.com/womens-shirt",
+    "description": "Women's Gucci logo shirt",
+    "images": [
+      "Gucci.com/womens-shirt"
+    ],
+    "specifications": {
+      "brand": "Gucci",
+      "material": "Cotton"
+    },
+    "sku": "BM-0074",
+    "productType": "Shirt",
+    "inventory": 100
+  },
+  {
+    "id": 75,
+    "name": "Women's Burberry Shirt",
+    "category": "women",
+    "retail price": 499.99,
+    "sale price": 79.99,
+    "image": "burberry.com/womens-shirt",
+    "description": "Women's Burberry shirt",
+    "images": [
+      "burberry.com/womens-shirt"
+    ],
+    "specifications": {
+      "brand": "Burberry",
+      "material": "Cotton"
+    },
+    "sku": "BM-0075",
+    "productType": "Shirt",
+    "inventory": 100
+  },
+  {
+    "id": 76,
+    "name": "Canon Rebel EOS",
+    "category": "electronics",
+    "retail price": 499.99,
+    "sale price": 199.99,
+    "image": "canon.com/rebel-eos",
+    "description": "Canon Rebel EOS camera",
+    "images": [
+      "canon.com/rebel-eos"
+    ],
+    "specifications": {
+      "brand": "Canon",
+      "material": "Metal"
+    },
+    "sku": "BM-0076",
+    "productType": "Camera",
+    "inventory": 1
+  },
+  {
+    "id": 77,
+    "name": "Women's Dolce & Gabbana Slippers",
+    "category": "women",
+    "retail price": 99.99,
+    "sale price": 39.99,
+    "image": "dolce.com/womens-slippers",
+    "description": "Women's Dolce & Gabbana Slippers",
+    "images": [
+      "dolce.com/womens-slippers"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "Cotton"
+    },
+    "sku": "BM-0077",
+    "productType": "Slippers",
+    "inventory": 400
+  },
+  {
+    "id": 78,
+    "name": "Men's Adidas Snapback",
+    "category": "men",
+    "retail price": 19.99,
+    "sale price": 14.99,
+    "image": "adidas.com/mens-snapback",
+    "description": "Men's Adidas Snapback",
+    "images": [
+      "adidas.com/mens-snapback"
+    ],
+    "specifications": {
+      "brand": "Adidas",
+      "material": "Linen"
+    },
+    "sku": "BM-0078",
+    "productType": "Snapback",
+    "inventory": 100
+  },
+  {
+    "id": 79,
+    "name": "Women's Burberry Handbag",
+    "category": "women",
+    "retail price": 2499.99,
+    "sale price": 999.99,
+    "image": "burberry.com/womens-handbag",
+    "description": "Women's Burberry handbag",
+    "images": [
+      "burberry.com/womens-handbag"
+    ],
+    "specifications": {
+      "brand": "Burberry",
+      "material": "Leather"
+    },
+    "sku": "BM-0079",
+    "productType": "Handbag",
+    "inventory": 100
+  },
+  {
+    "id": 80,
+    "name": "Women's Celine Handbag",
+    "category": "women",
+    "retail price": 2499.99,
+    "sale price": 999.99,
+    "image": "celine.com/womens-handbag",
+    "description": "Women's",
+    "images": [
+      "celine.com/womens-handbag"
+    ],
+    "specifications": {
+      "brand": "Celine",
+      "material": "Leather"
+    },
+    "sku": "BM-0080",
+    "productType": "Handbag",
+    "inventory": 100
+  },
+  {
+    "id": 81,
+    "name": "Samsung Wireless Headphones",
+    "category": "electronics",
+    "retail price": 79.99,
+    "sale price": 49.99,
+    "image": "walmart.com/samsung-headphones",
+    "description": "Headphones",
+    "images": [
+      "walmart.com/samsung-headphones"
+    ],
+    "specifications": {
+      "brand": "Samsung",
+      "material": "Plastic"
+    },
+    "sku": "BM-0081",
+    "productType": "Headphones",
+    "inventory": 100
+  },
+  {
+    "id": 82,
+    "name": "Clipboard",
+    "category": "accessories",
+    "retail price": 1.99,
+    "sale price": 0.99,
+    "image": "walmart.com/clipboard",
+    "description": "Clipboard",
+    "images": [
+      "walmart.com/clipboard"
+    ],
+    "specifications": {
+      "brand": "Papermate",
+      "material": "Wood"
+    },
+    "sku": "BM-0082",
+    "productType": "Clipboard",
+    "inventory": 100
+  },
+  {
+    "id": 83,
+    "name": "HP Printer",
+    "category": "electronics",
+    "retail price": 29.99,
+    "sale price": 29.99,
+    "image": "walmart.com/hp-printer",
+    "description": "HP printer",
+    "images": [
+      "walmart.com/hp-printer"
+    ],
+    "specifications": {
+      "brand": "HP",
+      "material": "Plastic"
+    },
+    "sku": "BM-0083",
+    "productType": "Printer",
+    "inventory": 1
+  },
+  {
+    "id": 84,
+    "name": "Men's Nike Snapback",
+    "category": "men",
+    "retail price": 29.99,
+    "sale price": 14.99,
+    "image": "Nike.com/mens-snapback",
+    "description": "Men's Nike Snapback",
+    "images": [
+      "Nike.com/mens-snapback"
+    ],
+    "specifications": {
+      "brand": "Nike",
+      "material": "Linen"
+    },
+    "sku": "BM-0084",
+    "productType": "Snapback",
+    "inventory": 1
+  },
+  {
+    "id": 85,
+    "name": "Men's True Religion Snapback",
+    "category": "men",
+    "retail price": 79.99,
+    "sale price": 19.99,
+    "image": "truereligion.com/mens-snapback",
+    "description": "Men's True Religion Snapback",
+    "images": [
+      "truereligion.com/mens-snapback"
+    ],
+    "specifications": {
+      "brand": "True Religion",
+      "material": "Linen"
+    },
+    "sku": "BM-0085",
+    "productType": "Snapback",
+    "inventory": 100
+  },
+  {
+    "id": 86,
+    "name": "Women's Coach Jacket",
+    "category": "women",
+    "retail price": 399.99,
+    "sale price": 79.99,
+    "image": "coach.com/womens-jacket",
+    "description": "Women's Coach jacket",
+    "images": [
+      "coach.com/womens-jacket"
+    ],
+    "specifications": {
+      "brand": "Coach",
+      "material": "Suede"
+    },
+    "sku": "BM-0086",
+    "productType": "Jacket",
+    "inventory": 1
+  },
+  {
+    "id": 87,
+    "name": "Men's Guess Slippers",
+    "category": "men",
+    "retail price": 99.99,
+    "sale price": 49.99,
+    "image": "guess.com",
+    "description": "Men's",
+    "images": [
+      "guess.com"
+    ],
+    "specifications": {
+      "brand": "Guess",
+      "material": "Linen"
+    },
+    "sku": "BM-0087",
+    "productType": "Slippers",
+    "inventory": 100
+  },
+  {
+    "id": 88,
+    "name": "Men's Hermés Cologne",
+    "category": "men",
+    "retail price": 599.99,
+    "sale price": 99.99,
+    "image": "hermes.com/mens-cologne",
+    "description": "Mega Hermés cologne",
+    "images": [
+      "hermes.com/mens-cologne"
+    ],
+    "specifications": {
+      "brand": "Hermés",
+      "material": "Oil"
+    },
+    "sku": "BM-0088",
+    "productType": "Cologne",
+    "inventory": 100
+  },
+  {
+    "id": 89,
+    "name": "Men's Lacoste Sleeveless Hooded Sweatshirt",
+    "category": "men",
+    "retail price": 799.99,
+    "sale price": 99.99,
+    "image": "Lacoste.com",
+    "description": "Men's",
+    "images": [
+      "Lacoste.com"
+    ],
+    "specifications": {
+      "brand": "Lacoste",
+      "material": "Cotton"
+    },
+    "sku": "BM-0089",
+    "productType": "Hoodie",
+    "inventory": 100
   }
 ];
