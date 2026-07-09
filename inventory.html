@@ -60,7 +60,7 @@
 
   .toolbar {
     display: grid;
-    grid-template-columns: auto minmax(220px, 1fr) auto auto;
+    grid-template-columns: auto minmax(220px, 1fr) auto auto auto;
     gap: 0.75rem;
     align-items: center;
     padding: 0.9rem;
@@ -68,6 +68,38 @@
     background: rgba(255, 253, 248, 0.78);
     border-radius: 10px;
     margin-bottom: 0.75rem;
+  }
+
+  .link-file-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    min-height: 42px;
+    padding: 0 0.85rem;
+    border-radius: 10px;
+    border: 1px solid #d9ccbe;
+    background: #fff;
+    color: var(--ink);
+    font: inherit;
+    font-size: 0.82rem;
+    font-weight: 800;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s ease, border-color 0.15s ease;
+  }
+
+  .link-file-btn.is-linked {
+    border-color: #1f7a46;
+    color: #1f7a46;
+    background: #f0faf4;
+  }
+
+  .link-file-btn:hover {
+    background: #f5ede2;
+  }
+
+  .link-file-btn.is-linked:hover {
+    background: #e4f5ec;
   }
 
   .bulk-control {
@@ -359,7 +391,8 @@
       align-items: stretch;
     }
 
-    .modal-actions {
+    .modal-actions,
+    .toolbar {
       flex-wrap: wrap;
       justify-content: flex-end;
     }
@@ -383,21 +416,21 @@
     </div>
     <input type="search" id="header-search" placeholder="Search products..." aria-label="Search products">
     <div class="header-actions">
-      <button id="cart-btn" class="icon-btn" aria-label="Open cart">
+      <a href="index.html" id="cart-btn" class="icon-btn" aria-label="Go to cart" style="text-decoration:none;color:inherit;">
         <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
           <path d="M3 5h2l2.2 9.2a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.6L21 8H8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
           <circle cx="10" cy="19" r="1.6" fill="currentColor"/>
           <circle cx="17" cy="19" r="1.6" fill="currentColor"/>
         </svg>
         <span>Cart</span>
-      </button>
-      <button id="account-btn" class="icon-btn" aria-label="Account">
+      </a>
+      <a href="index.html" id="account-btn" class="icon-btn" aria-label="Go to account" style="text-decoration:none;color:inherit;">
         <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
           <circle cx="12" cy="8" r="3.4" fill="none" stroke="currentColor" stroke-width="1.8"/>
           <path d="M5 20c.9-3.2 3.8-5.1 7-5.1s6.1 1.9 7 5.1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
         </svg>
         <span>Account</span>
-      </button>
+      </a>
     </div>
   </header>
 
@@ -410,15 +443,15 @@
         <button class="cat-drawer-close" id="cat-drawer-close" aria-label="Close category menu">&#x2715;</button>
       </div>
       <ul class="cat-drawer-list" role="list">
-        <li><button class="cat-drawer-item" data-cat="all">Shop All</button></li>
-        <li><button class="cat-drawer-item" data-cat="accessories">Accessories</button></li>
-        <li><button class="cat-drawer-item" data-cat="artandcollectibles">Art &amp; Collectibles</button></li>
-        <li><button class="cat-drawer-item" data-cat="electronics">Electronics</button></li>
-        <li><button class="cat-drawer-item" data-cat="entertainment">Entertainment</button></li>
-        <li><button class="cat-drawer-item" data-cat="homeandappliances">Home &amp; Appliances</button></li>
-        <li><button class="cat-drawer-item" data-cat="jewelry">Jewelry</button></li>
-        <li><button class="cat-drawer-item" data-cat="men">Men&#x27;s</button></li>
-        <li><button class="cat-drawer-item" data-cat="women">Women&#x27;s</button></li>
+        <li><a class="cat-drawer-item" href="index.html" style="text-decoration:none;">Shop All</a></li>
+        <li><a class="cat-drawer-item" href="index.html?category=accessories" style="text-decoration:none;">Accessories</a></li>
+        <li><a class="cat-drawer-item" href="index.html?category=artandcollectibles" style="text-decoration:none;">Art &amp; Collectibles</a></li>
+        <li><a class="cat-drawer-item" href="index.html?category=electronics" style="text-decoration:none;">Electronics</a></li>
+        <li><a class="cat-drawer-item" href="index.html?category=entertainment" style="text-decoration:none;">Entertainment</a></li>
+        <li><a class="cat-drawer-item" href="index.html?category=homeandappliances" style="text-decoration:none;">Home &amp; Appliances</a></li>
+        <li><a class="cat-drawer-item" href="index.html?category=jewelry" style="text-decoration:none;">Jewelry</a></li>
+        <li><a class="cat-drawer-item" href="index.html?category=men" style="text-decoration:none;">Men&#x27;s</a></li>
+        <li><a class="cat-drawer-item" href="index.html?category=women" style="text-decoration:none;">Women&#x27;s</a></li>
       </ul>
       <div class="cat-drawer-footer">
         <div class="cat-drawer-footer-logo">BONDS MALL</div>
@@ -434,7 +467,7 @@
       </div>
     </div>
 
-    <p class="publish-note">Adding, editing, or deleting a product downloads an updated <strong>products.js</strong> file to this device. Upload that file to your hosting (replacing the old one) to make the change live on the site.</p>
+
 
     <div class="toolbar">
       <label class="bulk-control" for="bulkSelectAll">
@@ -442,7 +475,11 @@
         Bulk Actions
       </label>
       <input type="search" id="bulkSearch" class="toolbar-search" placeholder="Search inventory..." aria-label="Search inventory" />
-      <button class="secondary-btn" type="button" id="exportProductsBtn">Export products.js</button>
+      <button class="link-file-btn" type="button" id="linkFileBtn" title="Link products.js for live saving">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>
+        <span id="linkFileBtnLabel">Link File</span>
+      </button>
+      <button class="secondary-btn" type="button" id="exportProductsBtn">Export</button>
       <button class="primary-btn" type="button" id="addProductBtn">Add Product</button>
     </div>
 
@@ -583,6 +620,7 @@
 
   let productList = [];
   let editingIndex = null;
+  let productsFileHandle = null;  // File System Access API handle
 
   const els = {
     addProductBtn: document.getElementById("addProductBtn"),
@@ -598,6 +636,8 @@
     specificationsRows: document.getElementById("specificationsRows"),
     addSpecificationBtn: document.getElementById("addSpecificationBtn"),
     exportProductsBtn: document.getElementById("exportProductsBtn"),
+    linkFileBtn: document.getElementById("linkFileBtn"),
+    linkFileBtnLabel: document.getElementById("linkFileBtnLabel"),
     typeOptions: document.getElementById("typeOptions"),
     modalTitle: document.getElementById("addProductTitle")
   };
@@ -903,6 +943,91 @@
     return `var products = ${JSON.stringify(productList, null, 2)};\n`;
   }
 
+  // ── File System Access API: write directly to products.js on disk ──────────
+  const canAccessFS = typeof window.showOpenFilePicker === "function";
+
+  function updateLinkBtn() {
+    if (!els.linkFileBtn) return;
+    if (!canAccessFS) {
+      els.linkFileBtn.style.display = "none";
+      return;
+    }
+    if (productsFileHandle) {
+      els.linkFileBtn.classList.add("is-linked");
+      els.linkFileBtnLabel.textContent = "✓ Linked";
+      els.linkFileBtn.title = `Linked: ${productsFileHandle.name} — changes save automatically`;
+    } else {
+      els.linkFileBtn.classList.remove("is-linked");
+      els.linkFileBtnLabel.textContent = "Link File";
+      els.linkFileBtn.title = "Link products.js for live auto-saving";
+    }
+  }
+
+  async function pickProductsFile() {
+    if (!canAccessFS) return null;
+    try {
+      const [handle] = await window.showOpenFilePicker({
+        types: [{ description: "JavaScript", accept: { "text/javascript": [".js"] } }],
+        multiple: false
+      });
+      productsFileHandle = handle;
+      updateLinkBtn();
+      setStatus(`Linked to ${handle.name} — changes will now save automatically.`, "success");
+      return handle;
+    } catch (err) {
+      if (err.name !== "AbortError") {
+        setStatus("Could not access file: " + err.message, "error");
+      }
+      return null;
+    }
+  }
+
+  async function writeToLinkedFile() {
+    if (!productsFileHandle) return false;
+    try {
+      // Verify we still have write permission
+      const perm = await productsFileHandle.queryPermission({ mode: "readwrite" });
+      if (perm !== "granted") {
+        const req = await productsFileHandle.requestPermission({ mode: "readwrite" });
+        if (req !== "granted") {
+          setStatus("Write permission denied — use Export instead.", "error");
+          return false;
+        }
+      }
+      const writable = await productsFileHandle.createWritable();
+      await writable.write(buildProductsJsSource());
+      await writable.close();
+      return true;
+    } catch (err) {
+      // Handle stale handle (e.g. file moved/deleted)
+      productsFileHandle = null;
+      updateLinkBtn();
+      setStatus("Auto-save failed — file may have moved. Re-link it.", "error");
+      return false;
+    }
+  }
+
+  async function liveWrite(successLabel) {
+    if (!canAccessFS) {
+      // Fallback: browser doesn't support File System Access — just show export reminder
+      setStatus(successLabel + " Use Export to save products.js.", "success");
+      return;
+    }
+    if (!productsFileHandle) {
+      // First time — ask user to pick the file
+      setStatus("Pick your products.js file to enable live saving...", "neutral");
+      const handle = await pickProductsFile();
+      if (!handle) {
+        setStatus(successLabel + " Link a file to enable live saving.", "success");
+        return;
+      }
+    }
+    const wrote = await writeToLinkedFile();
+    if (wrote) {
+      setStatus(`${successLabel} ✓ products.js updated on disk.`, "success");
+    }
+  }
+
   function downloadProductsFile() {
     const blob = new Blob([buildProductsJsSource()], { type: "text/javascript" });
     const link = document.createElement("a");
@@ -912,7 +1037,12 @@
     link.click();
     link.remove();
     URL.revokeObjectURL(link.href);
-    setStatus("Updated products.js downloaded. Upload this file to your site to publish the change.", "success");
+    setStatus("products.js downloaded — replace the file on your hosting.", "success");
+  }
+
+  function syncWindowProducts() {
+    // Keep window.products in sync so other scripts see the latest list.
+    window.products = productList.slice();
   }
 
   async function saveProduct(event) {
@@ -931,23 +1061,12 @@
       productList.push(product);
     }
 
+    syncWindowProducts();
     renderTypeOptions();
     renderProducts(els.bulkSearch.value || els.siteSearch.value);
     closeAddProductModal();
-
-    try {
-      downloadProductsFile();
-    } catch (error) {
-      if (isEdit) {
-        productList[wasEditingIndex] = previous;
-      } else {
-        productList.pop();
-      }
-      renderTypeOptions();
-      renderProducts(els.bulkSearch.value || els.siteSearch.value);
-      setStatus(`Could not prepare the updated products.js: ${error.message}`, "error");
-      openProductModal(isEdit ? wasEditingIndex : null);
-    }
+    const label = isEdit ? `"${product.name}" updated.` : `"${product.name}" added.`;
+    await liveWrite(label);
   }
 
   async function deleteProduct(id) {
@@ -959,17 +1078,10 @@
     if (!confirmed) return;
 
     const removed = productList.splice(index, 1)[0];
+    syncWindowProducts();
     renderTypeOptions();
     renderProducts(els.bulkSearch.value || els.siteSearch.value);
-
-    try {
-      downloadProductsFile();
-    } catch (error) {
-      productList.splice(index, 0, removed);
-      renderTypeOptions();
-      renderProducts(els.bulkSearch.value || els.siteSearch.value);
-      setStatus(`Could not prepare the updated products.js: ${error.message}`, "error");
-    }
+    await liveWrite(`"${removed.name}" deleted.`);
   }
 
   function wireEvents() {
@@ -1000,6 +1112,18 @@
     els.addProductForm.addEventListener("submit", saveProduct);
     els.addSpecificationBtn.addEventListener("click", () => addSpecificationRow());
     els.exportProductsBtn.addEventListener("click", downloadProductsFile);
+    if (els.linkFileBtn) {
+      els.linkFileBtn.addEventListener("click", async () => {
+        if (productsFileHandle) {
+          // Already linked — clicking again re-links (lets user pick a different file)
+          productsFileHandle = null;
+          updateLinkBtn();
+          setStatus("File unlinked. Click Link File to connect a new file.", "neutral");
+        } else {
+          await pickProductsFile();
+        }
+      });
+    }
 
     [els.bulkSearch, els.siteSearch].forEach(input => {
       input.addEventListener("input", () => {
@@ -1013,6 +1137,7 @@
 
   async function init() {
     wireEvents();
+    updateLinkBtn();
     await loadProductsCatalog();
     renderTypeOptions();
     renderProducts();
