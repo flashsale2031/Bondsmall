@@ -42,6 +42,22 @@
     color: var(--muted);
   }
 
+  .publish-note {
+    margin: 0 0 0.9rem;
+    padding: 0.7rem 0.95rem;
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--accent);
+    background: rgba(255, 253, 248, 0.9);
+    color: var(--muted);
+    font-size: 0.88rem;
+    line-height: 1.5;
+    border-radius: 6px;
+  }
+
+  .publish-note strong {
+    color: var(--ink);
+  }
+
   .toolbar {
     display: grid;
     grid-template-columns: auto minmax(220px, 1fr) auto auto;
@@ -416,8 +432,9 @@
         <h1>Inventory</h1>
         <p class="page-subtitle" id="inventoryCount">Loading products...</p>
       </div>
-      <button class="secondary-btn" type="button" id="connectProductsBtn">Connect products.js</button>
     </div>
+
+    <p class="publish-note">Adding, editing, or deleting a product downloads an updated <strong>products.js</strong> file to this device. Upload that file to your hosting (replacing the old one) to make the change live on the site.</p>
 
     <div class="toolbar">
       <label class="bulk-control" for="bulkSelectAll">
@@ -565,7 +582,6 @@
   "use strict";
 
   let productList = [];
-  let productsFileHandle = null;
   let editingIndex = null;
 
   const els = {
@@ -581,7 +597,6 @@
     statusMessage: document.getElementById("statusMessage"),
     specificationsRows: document.getElementById("specificationsRows"),
     addSpecificationBtn: document.getElementById("addSpecificationBtn"),
-    connectProductsBtn: document.getElementById("connectProductsBtn"),
     exportProductsBtn: document.getElementById("exportProductsBtn"),
     typeOptions: document.getElementById("typeOptions"),
     modalTitle: document.getElementById("addProductTitle")
@@ -888,43 +903,6 @@
     return `var products = ${JSON.stringify(productList, null, 2)};\n`;
   }
 
-  async function chooseProductsFile() {
-    if (!window.showOpenFilePicker) {
-      setStatus("File picker is not available here. Use Export products.js to download the updated file.", "error");
-      return false;
-    }
-
-    const [handle] = await window.showOpenFilePicker({
-      multiple: false,
-      types: [{
-        description: "JavaScript",
-        accept: { "text/javascript": [".js"] }
-      }]
-    });
-
-    if (!handle || handle.name !== "products.js") {
-      setStatus("Choose the existing products.js file.", "error");
-      return false;
-    }
-
-    productsFileHandle = handle;
-    setStatus("products.js connected. New products will be written to that file.", "success");
-    return true;
-  }
-
-  async function writeProductsFile() {
-    if (!productsFileHandle) {
-      const connected = await chooseProductsFile();
-      if (!connected) return false;
-    }
-
-    const writable = await productsFileHandle.createWritable();
-    await writable.write(buildProductsJsSource());
-    await writable.close();
-    setStatus("products.js updated.", "success");
-    return true;
-  }
-
   function downloadProductsFile() {
     const blob = new Blob([buildProductsJsSource()], { type: "text/javascript" });
     const link = document.createElement("a");
@@ -934,7 +912,7 @@
     link.click();
     link.remove();
     URL.revokeObjectURL(link.href);
-    setStatus("Updated products.js downloaded.", "success");
+    setStatus("Updated products.js downloaded. Upload this file to your site to publish the change.", "success");
   }
 
   async function saveProduct(event) {
@@ -958,8 +936,7 @@
     closeAddProductModal();
 
     try {
-      const wroteFile = await writeProductsFile();
-      if (!wroteFile) downloadProductsFile();
+      downloadProductsFile();
     } catch (error) {
       if (isEdit) {
         productList[wasEditingIndex] = previous;
@@ -968,7 +945,7 @@
       }
       renderTypeOptions();
       renderProducts(els.bulkSearch.value || els.siteSearch.value);
-      setStatus(`Could not update products.js: ${error.message}`, "error");
+      setStatus(`Could not prepare the updated products.js: ${error.message}`, "error");
       openProductModal(isEdit ? wasEditingIndex : null);
     }
   }
@@ -986,14 +963,12 @@
     renderProducts(els.bulkSearch.value || els.siteSearch.value);
 
     try {
-      const wroteFile = await writeProductsFile();
-      if (!wroteFile) downloadProductsFile();
-      setStatus(`Deleted "${removed.name || "product"}" and updated products.js.`, "success");
+      downloadProductsFile();
     } catch (error) {
       productList.splice(index, 0, removed);
       renderTypeOptions();
       renderProducts(els.bulkSearch.value || els.siteSearch.value);
-      setStatus(`Could not update products.js: ${error.message}`, "error");
+      setStatus(`Could not prepare the updated products.js: ${error.message}`, "error");
     }
   }
 
@@ -1024,13 +999,6 @@
     els.addProductForm.addEventListener("input", updateSaveButton);
     els.addProductForm.addEventListener("submit", saveProduct);
     els.addSpecificationBtn.addEventListener("click", () => addSpecificationRow());
-    els.connectProductsBtn.addEventListener("click", async () => {
-      try {
-        await chooseProductsFile();
-      } catch (error) {
-        setStatus(`Could not connect products.js: ${error.message}`, "error");
-      }
-    });
     els.exportProductsBtn.addEventListener("click", downloadProductsFile);
 
     [els.bulkSearch, els.siteSearch].forEach(input => {
