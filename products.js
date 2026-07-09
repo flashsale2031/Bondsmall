@@ -2116,7 +2116,7 @@ var products = [
   },
 {
     id: 93,
-    name: "Women's Dolce & Gabbana Crossbody Bag",
+    name: "Women's Guess Crossbody Bag",
     category: "accessories",
     "retail price": 2499.99,
     "sale price": 1129.99,
