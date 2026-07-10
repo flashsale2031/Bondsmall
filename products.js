@@ -2053,5 +2053,1630 @@
     "sku": "BM-0089",
     "productType": "Hoodie",
     "inventory": 100
+  },
+  {
+    "id": 90,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 91,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 92,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 93,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 94,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 95,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 96,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 97,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 98,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 99,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 100,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 101,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 103,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 104,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 105,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 106,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 107,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 108,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 109,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 110,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 111,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 112,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 113,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 114,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 115,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 116,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 117,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 118,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 119,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 120,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 121,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 122,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 123,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 124,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 125,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 126,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 127,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 128,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 129,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 130,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 131,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 132,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 133,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 134,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 135,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 136,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 137,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 138,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 139,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 140,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 141,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 142,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 143,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 144,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 145,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 146,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 147,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 148,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 149,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 150,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 151,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 152,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 153,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 154,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
+  },
+  {
+    "id": 155,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/22/66/01/85/22660185_52664030_1000.jpg",
+    "description": "A sleek crossbody bag designed for day-to-night style.",
+    "images": [
+      "https://product-usa-img.sensershop.com/tmp/KCr8Fw_1704694971333.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/pjwEPG_1704694950877.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp",
+      "https://product-usa-img.sensershop.com/tmp/5E4sFB_1704694971632.png?x-oss-process=image/resize,m_pad,w_1575,h_2101/quality,q_90/format,webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Leather",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    }
   }
 ];
