@@ -1,0 +1,47 @@
+[
+  {
+    "domain": ".craigslist.org",
+    "httpOnly": false,
+    "name": "cl_b",
+    "path": "/",
+    "secure": true,
+    "value": "4|872a398051fe158b3b66fd03207007f611ca0ad1|1783053444lUHUA",
+    "expiry": 1817613443
+  },
+  {
+    "domain": ".craigslist.org",
+    "httpOnly": false,
+    "name": "cl_login",
+    "path": "/",
+    "secure": true,
+    "value": "408075920%3Anavvv619%40gmail.com",
+    "expiry": 1785647218
+  },
+  {
+    "domain": ".craigslist.org",
+    "httpOnly": true,
+    "name": "cl_session",
+    "path": "/",
+    "secure": true,
+    "value": "emG3gHiPWgzzcKnRWWQxdUjztfc239km5Edg8l8tCJdVPQDYSCyoD37xFBFMFA5n",
+    "expiry": 1785647218
+  },
+  {
+    "domain": ".craigslist.org",
+    "httpOnly": false,
+    "name": "cl_def_hp_www",
+    "path": "/",
+    "secure": true,
+    "value": "chandigarh",
+    "expiry": 1814591224
+  },
+  {
+    "domain": ".craigslist.org",
+    "httpOnly": false,
+    "name": "noAboutPage",
+    "path": "/",
+    "secure": false,
+    "value": "1",
+    "expiry": 1785823320
+  }
+]

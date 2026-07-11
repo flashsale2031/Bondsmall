@@ -1,0 +1,44 @@
+{
+  "platform": "craigslist",
+  "email": "navvv619@gmail.com",
+  "password": "S1A2L3E4E5M6.",
+  "gmail_app_password": "",
+  "two_captcha_key": "",
+  "city": "chandigarh",
+  "zip_code": "16001",
+  "city_name": "chandigarh",
+  "state": "chandigarh",
+  "subarea": "chandigarh",
+  "products": [
+    {
+      "title": "Men's Michael Kors Watch",
+      "description": "A statement timepiece with classic profile.",
+      "price": 599.99,
+      "category": "jewelry",
+      "condition": "new",
+      "zip_code": "90001",
+      "delivery_available": true,
+      "photo_paths": [
+        "https://dreamspakistan.com/cdn/shop/files/77093_ae11af48-c101-4490-a16c-acf0932feadd.png?v=1756807097&width=600"
+      ],
+      "_location_zip": "16001",
+      "_location_city": "chandigarh",
+      "_location_state": "chandigarh"
+    },
+    {
+      "title": "Men's Nike Sports Outfit",
+      "description": "A breathable sport outfit for training days.",
+      "price": 59.99,
+      "category": "men",
+      "condition": "new",
+      "zip_code": "90001",
+      "delivery_available": true,
+      "photo_paths": [
+        "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTNO0pJpIDMUQAt3_neCb7xnqsfEW7qSpsr_CRaqzHM2fIvVA1f539sUCpW-AlXMxZfm3o44RJHifpbQ1V5RZaMiTsmcV3lRw"
+      ],
+      "_location_zip": "16001",
+      "_location_city": "chandigarh",
+      "_location_state": "chandigarh"
+    }
+  ]
+}

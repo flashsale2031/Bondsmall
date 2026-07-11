@@ -1,0 +1,31 @@
+{
+  "craigslist": [
+    {
+      "city": "",
+      "email": "navvv619@gmail.com",
+      "gmail_app_password": "",
+      "id": "cl_0",
+      "isSaved": true,
+      "label": "Account 1",
+      "locations": [
+        {
+          "city": "chandigarh",
+          "state": "chandigarh",
+          "zip": "16001"
+        }
+      ],
+      "password": "S1A2L3E4E5M6.",
+      "selectedLocationIdx": 0
+    }
+  ],
+  "classifiedads": [
+    {
+      "id": "ca_0",
+      "label": "Account 1",
+      "email": "",
+      "password": "",
+      "city": "",
+      "isSaved": false
+    }
+  ]
+}
