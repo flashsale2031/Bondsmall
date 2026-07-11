@@ -258,13 +258,13 @@ function initCoverageSection() {
     section.innerHTML =
         '<h2 class="coverage-heading">Coverage</h2>' +
         '<p class="coverage-text">Covered by ' +
-        '<a class="coverage-link" href="https://www.example.com/purchase-protection" target="_blank" rel="noopener noreferrer">' +
+        '<a class="coverage-link" href="https://www.bondsmall.com/purchaseprotection" target="_blank" rel="noopener noreferrer">' +
         'Purchase Protection Insurance' +
         '<svg class="coverage-link-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">' +
         '<path d="M5 15L15 5M15 5H8M15 5V12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>' +
         '</svg>' +
         '</a>' +
-        ' and our 90-Day Warranty</p>';
+        ' and our 90-day warranty.</p>';
 }
 
 function initVariants(product) {
@@ -320,6 +320,7 @@ function initVariants(product) {
         chip.setAttribute("aria-checked", "true");
         chipGroup.appendChild(chip);
         el.appendChild(chipGroup);
+        appendColorVariant(product, el);
         return;
     }
 
@@ -357,6 +358,64 @@ function initVariants(product) {
     });
 
     el.appendChild(chipGroup);
+
+    appendColorVariant(product, el);
+}
+
+// Color is an optional variant: only rendered when the product actually has
+// color_options, never pre-selected, and clicking an active swatch clears it.
+function appendColorVariant(product, container) {
+    const specs = product.specifications || {};
+    const raw = specs.color_options || specs.color || "";
+    const colors = raw
+        .split(",")
+        .map((c) => c.trim())
+        .filter((c) => c && c !== "N/A" && c !== "—");
+
+    if (colors.length === 0) return;
+
+    window._selectedColor = null;
+
+    const sectionLabel = document.createElement("h2");
+    sectionLabel.className = "popup-h2";
+    sectionLabel.style.marginTop = "0.9rem";
+    sectionLabel.style.marginBottom = "0.45rem";
+    sectionLabel.textContent = "Color (Optional)";
+    container.appendChild(sectionLabel);
+
+    const chipGroup = document.createElement("div");
+    chipGroup.className = "condition-chips";
+    chipGroup.setAttribute("role", "radiogroup");
+    chipGroup.setAttribute("aria-label", "Color");
+
+    colors.forEach((color) => {
+        const chip = document.createElement("button");
+        chip.type = "button";
+        chip.className = "condition-chip";
+        chip.textContent = color;
+        chip.setAttribute("role", "radio");
+        chip.setAttribute("aria-checked", "false");
+
+        chip.addEventListener("click", () => {
+            const wasActive = chip.classList.contains("active");
+            chipGroup.querySelectorAll(".condition-chip").forEach((c) => {
+                c.classList.remove("active");
+                c.setAttribute("aria-checked", "false");
+            });
+            if (wasActive) {
+                // Clicking the already-selected color deselects it — color stays optional.
+                window._selectedColor = null;
+            } else {
+                chip.classList.add("active");
+                chip.setAttribute("aria-checked", "true");
+                window._selectedColor = color;
+            }
+        });
+
+        chipGroup.appendChild(chip);
+    });
+
+    container.appendChild(chipGroup);
 }
 
 function initCondition(product) {
