@@ -2043,10 +2043,14 @@ var products = [
     "category": "electronics",
     "retail price": 29.99,
     "sale price": 29.99,
-    "image": "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=800",
+    "image": "https://i5.walmartimages.com/seo/HP-Envy-6152e-Wireless-All-in-One-Color-Photo-Inkjet-Printer-Scanner-Copier-3-Months-FREE-Ink_765c7219-720f-47e0-9c28-1d55f5cce032.48d1b0e9f9cfe7420953a64128ae55ce.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
     "description": "A high-performance all-in-one printer from HP, supporting printing, copying, scanning, and fast wireless setup.",
     "images": [
-      "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=800"
+      "https://i5.walmartimages.com/seo/HP-Envy-6152e-Wireless-All-in-One-Color-Photo-Inkjet-Printer-Scanner-Copier-3-Months-FREE-Ink_765c7219-720f-47e0-9c28-1d55f5cce032.48d1b0e9f9cfe7420953a64128ae55ce.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/a9b145c7-2810-4168-ab26-570fe03b6794.5d332b8068df302193d88132a210e9c6.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/78da91fa-6578-4103-81cb-1d85a8fb8ed2.902a5ef80614df8f792cae800cb32827.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/e9d2cf59-9a2e-4733-b9fd-ffabb100b0da.ac84f24172c882c79809ec911c8d3736.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/252c8762-bb56-4c56-a923-4d51e044ffce.67e795a047a0dc337b16d4f319319b5f.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF"
     ],
     "specifications": {
       "brand": "HP",
@@ -2059,7 +2063,7 @@ var products = [
     },
     "sku": "BM-0083",
     "productType": "Printer",
-    "inventory": 1
+    "inventory": 10
   },
   {
     "id": 84,
