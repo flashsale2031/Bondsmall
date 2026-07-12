@@ -64,10 +64,14 @@ var products = [
     "category": "accessories",
     "retail price": 4999.99,
     "sale price": 1999.99,
-    "image": "https://images.unsplash.com/photo-1564422170194-896b89110ef8?w=1000",
+    "image": "https://images.bloomingdalesassets.com/is/image/BLM/products/1/optimized/15009231_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp",
     "description": "The Prada Clutch is a timeless masterpiece of Italian craftsmanship. Constructed from supple Saffiano leather, it features the iconic triangular Prada logo, a secure zip closure, and a refined interior with card slots and a mirror. Perfect for evening occasions and formal events.",
     "images": [
-      "https://images.unsplash.com/photo-1564422170194-896b89110ef8?w=1000"
+      "https://images.bloomingdalesassets.com/is/image/BLM/products/1/optimized/15009231_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp",
+      "https://images.bloomingdalesassets.com/is/image/BLM/products/9/optimized/15009229_fpx.tif?op_sharpen=1&wid=500&fit=fit",
+      "1&fmt=webp",
+      "https://images.bloomingdalesassets.com/is/image/BLM/products/8/optimized/15009228_fpx.tif?op_sharpen=1&wid=500&fit=fit",
+      "https://images.bloomingdalesassets.com/is/image/BLM/products/7/optimized/16265587_fpx.tif?op_sharpen=1&wid=500&fit=fit"
     ],
     "specifications": {
       "brand": "Prada",
@@ -1469,11 +1473,11 @@ var products = [
     "category": "entertainment",
     "retail price": 599.99,
     "sale price": 399.99,
-    "pre-owned price": 299.99,
-    "image": "https://gameforce.pk/wp-content/uploads/2024/02/Sony-PlayStation-5-Standard-Disk-Edition-3.jpg",
+    "image": "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80",
     "description": "The PS5 console unleashes new gaming possibilities that you never anticipated. Experience lightning fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D Audio, and an all-new generation of incredible PlayStation games. Lightning Speed Harness the power of a custom CPU, GPU, and SSD with Integrated I/O that rewrite the rules of what a PlayStation console can do. Stunning Games Marvel at incredible graphics and experience new PS5 features. Play a back catalog of supported PS4 games. Breathtaking Immersion Discover a deeper gaming experience with support for haptic feedback, adaptive triggers, and 3D Audio technology. Vertical stand sold separately. PS5 console (CFI-2100 model group â€“ slim). The CFI-2100 models are compatible with PS5 accessories for CFI-2000 products, including Console Covers (sold separately). 3D audio via built-in TV speakers or analog/USB stereo headphones. Set up and latest system software update required.  Internet connection required to pair Disc Drive and PS5 console upon setup.",
     "images": [
-      "https://gameforce.pk/wp-content/uploads/2024/02/Sony-PlayStation-5-Standard-Disk-Edition-3.jpg"
+      "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_d70f18e4-4f32-4eb5-85a5-03cbdbdebd54?wid=800&hei=800&qlt=80"
     ],
     "specifications": {
       "brand": "Sony",
@@ -1486,7 +1490,8 @@ var products = [
       "backward_compatible": "Yes, plays over 99% of PS4 disc and digital games",
       "dimensions": "15.4in x 10.2in x 4.1in",
       "weight": "9.9 lbs"
-    }
+    },
+    "pre-owned price": 299.99
   },
   {
     "id": 61,
@@ -1663,10 +1668,10 @@ var products = [
     "category": "men",
     "retail price": 149.99,
     "sale price": 59.99,
-    "image": "https://images.unsplash.com/photo-1582966772680-860e372bb558?w=800",
+    "image": "https://editorialist.com/thumbnail/600/2026/7/044/053/702/44053702~flamedgren_1782894655224_0.webp?width=600&quality=60",
     "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
     "images": [
-      "https://images.unsplash.com/photo-1582966772680-860e372bb558?w=800"
+      "https://editorialist.com/thumbnail/600/2026/7/044/053/702/44053702~flamedgren_1782894655224_0.webp?width=600&quality=60"
     ],
     "specifications": {
       "brand": "Gucci",
@@ -1687,10 +1692,10 @@ var products = [
     "category": "men",
     "retail price": 99.99,
     "sale price": 39.99,
-    "image": "https://images.unsplash.com/photo-1640765937555-6f413ed1d936?w=800",
+    "image": "https://editorialist.com/thumbnail/600/2026/7/044/217/913/44217913~black_1783044119714_0.webp?width=600&quality=60",
     "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
     "images": [
-      "https://images.unsplash.com/photo-1640765937555-6f413ed1d936?w=800"
+      "https://editorialist.com/thumbnail/600/2026/7/044/217/913/44217913~black_1783044119714_0.webp?width=600&quality=60"
     ],
     "specifications": {
       "brand": "Gucci",
@@ -1711,10 +1716,12 @@ var products = [
     "category": "men",
     "retail price": 1999.99,
     "sale price": 1299.99,
-    "image": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?w=800",
+    "image": "https://www.mytheresa.com/image/1094/1238/100/47/P01124224.jpg",
     "description": "A premium designer knitwear piece from Gucci crafted with warm wool and cashmere fibers.",
     "images": [
-      "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?w=800"
+      "https://www.mytheresa.com/image/1094/1238/100/47/P01124224.jpg",
+      "https://www.mytheresa.com/image/1094/1238/100/47/P01124224_d2.jpg",
+      "https://www.mytheresa.com/image/1094/1238/100/47/P01124224_d1.jpg"
     ],
     "specifications": {
       "brand": "Gucci",
@@ -1738,10 +1745,10 @@ var products = [
     "category": "men",
     "retail price": 199.99,
     "sale price": 49.99,
-    "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800",
+    "image": "https://images.stockx.com/images/Gucci-Technical-Jersey-Shorts-Black.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1637771600",
     "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
     "images": [
-      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800"
+      "https://images.stockx.com/images/Gucci-Technical-Jersey-Shorts-Black.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1637771600"
     ],
     "specifications": {
       "brand": "Gucci",
@@ -2043,10 +2050,14 @@ var products = [
     "category": "electronics",
     "retail price": 29.99,
     "sale price": 29.99,
-    "image": "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=800",
+    "image": "https://i5.walmartimages.com/seo/HP-Envy-6152e-Wireless-All-in-One-Color-Photo-Inkjet-Printer-Scanner-Copier-3-Months-FREE-Ink_765c7219-720f-47e0-9c28-1d55f5cce032.48d1b0e9f9cfe7420953a64128ae55ce.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
     "description": "A high-performance all-in-one printer from HP, supporting printing, copying, scanning, and fast wireless setup.",
     "images": [
-      "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=800"
+      "https://i5.walmartimages.com/seo/HP-Envy-6152e-Wireless-All-in-One-Color-Photo-Inkjet-Printer-Scanner-Copier-3-Months-FREE-Ink_765c7219-720f-47e0-9c28-1d55f5cce032.48d1b0e9f9cfe7420953a64128ae55ce.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/a9b145c7-2810-4168-ab26-570fe03b6794.5d332b8068df302193d88132a210e9c6.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/78da91fa-6578-4103-81cb-1d85a8fb8ed2.902a5ef80614df8f792cae800cb32827.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/e9d2cf59-9a2e-4733-b9fd-ffabb100b0da.ac84f24172c882c79809ec911c8d3736.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/252c8762-bb56-4c56-a923-4d51e044ffce.67e795a047a0dc337b16d4f319319b5f.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF"
     ],
     "specifications": {
       "brand": "HP",
@@ -2059,7 +2070,7 @@ var products = [
     },
     "sku": "BM-0083",
     "productType": "Printer",
-    "inventory": 1
+    "inventory": 10
   },
   {
     "id": 84,
@@ -2131,10 +2142,13 @@ var products = [
     "category": "men",
     "retail price": 99.99,
     "sale price": 49.99,
-    "image": "https://editorialist.com/thumbnails/600/2026/5/042/290/122/42290122~brown_1778149407665_3.webp",
+    "image": "https://slimages.macysassets.com/is/image/MCY/products/4/optimized/33221164_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp",
     "description": "Comfortable footwear from Guess, styled with refined leather detailing and a soft footbed.",
     "images": [
-      "https://editorialist.com/thumbnails/600/2026/5/042/290/122/42290122~brown_1778149407665_3.webp"
+      "https://slimages.macysassets.com/is/image/MCY/products/4/optimized/33221164_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp",
+      "https://slimages.macysassets.com/is/image/MCY/products/5/optimized/33221135_fpx.tif?op_sharpen=1&wid=500&fit=fit",
+      "1&fmt=webp",
+      "https://slimages.macysassets.com/is/image/MCY/products/6/optimized/33221136_fpx.tif?op_sharpen=1&wid=500&fit=fit"
     ],
     "specifications": {
       "brand": "Guess",
@@ -2333,17 +2347,17 @@ var products = [
   },
   {
     "id": 96,
-    "name": "Women's HermÃ©s Bracelet",
+    "name": "Women's Hermés Bracelet",
     "category": "jewelry",
     "retail price": 999.99,
     "sale price": 399.99,
     "image": "https://images.unsplash.com/photo-1638617501607-5dfb8b079ebf?w=800",
-    "description": "A polished signature bracelet from HermÃ©s, designed to add a sophisticated touch to any outfit.",
+    "description": "A polished signature bracelet from Hermés, designed to add a sophisticated touch to any outfit.",
     "images": [
       "https://images.unsplash.com/photo-1638617501607-5dfb8b079ebf?w=800"
     ],
     "specifications": {
-      "brand": "HermÃ©s",
+      "brand": "Hermés",
       "material": "18K Gold Plated Brass",
       "water_resistance": "Water Resistant",
       "chain_length": "7.5 inches",
@@ -2424,10 +2438,14 @@ var products = [
     "category": "accessories",
     "retail price": 99.99,
     "sale price": 49.99,
-    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800",
+    "image": "https://dks.scene7.com/is/image/GolfGalaxy/21NIKUNKBRSLMDFF9TRVA_Black_Black_White?wid=600&qlt=70&hei=600&fit=constrain&fmt=webp&op_sharpen=1",
     "description": "A refined leather handbag from Nike with a structured silhouette and spacious compartments.",
     "images": [
-      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800"
+      "https://dks.scene7.com/is/image/GolfGalaxy/21NIKUNKBRSLMDFF9TRVA_Black_Black_White?wid=600&qlt=70&hei=600&fit=constrain&fmt=webp&op_sharpen=1",
+      "https://dks.scene7.com/is/image/GolfGalaxy/DH7710_010-BlackBlackWhite_OPN-alt1?wid=769&qlt=70&hei=769&fit=constrain&fmt=webp&op_sharpen=1",
+      "https://dks.scene7.com/is/image/GolfGalaxy/DH7710_010-BlackBlackWhite_OPN?wid=769&qlt=70&hei=769&fit=constrain&fmt=webp&op_sharpen=1",
+      "https://dks.scene7.com/is/image/GolfGalaxy/DH7710_010-BlackBlackWhite_SDE?wid=769&qlt=70&hei=769&fit=constrain&fmt=webp&op_sharpen=1",
+      "https://dks.scene7.com/is/image/GolfGalaxy/DH7710_010-BlackBlackWhite_BCK?wid=769&qlt=70&hei=769&fit=constrain&fmt=webp&op_sharpen=1"
     ],
     "specifications": {
       "brand": "Nike",
@@ -2439,11 +2457,12 @@ var products = [
       "color_options": "Black, Brown, Tan, Cream",
       "gender": "Men",
       "brand_origin": "Italy"
-    }
+    },
+    "productType": "Travel Bag"
   },
   {
     "id": 101,
-    "name": "Women's HermÃ©s Satchel",
+    "name": "Women's Hermés Satchel",
     "category": "accessories",
     "retail price": 2499.99,
     "sale price": 1129.99,
@@ -2453,7 +2472,7 @@ var products = [
       "https://images.unsplash.com/photo-1600857062241-98e5dba7f214?w=800"
     ],
     "specifications": {
-      "brand": "HermÃ©s",
+      "brand": "Hermés",
       "material": "100% Calfskin Saffiano Leather",
       "dimensions": "11.0in x 7.5in x 4.0in",
       "weight": "1.2 lbs",
@@ -2493,10 +2512,14 @@ var products = [
     "category": "women",
     "retail price": 2299.99,
     "sale price": 399.99,
-    "image": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?w=800",
+    "image": "https://images.vestiairecollective.com/images/resized/w=375,q=75,f=auto,/produit/black-cashmere-chanel-knitwear-63591300-1_3.jpg",
     "description": "A premium designer knitwear piece from Chanel crafted with warm wool and cashmere fibers.",
     "images": [
-      "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?w=800"
+      "https://images.vestiairecollective.com/images/resized/w=375,q=75,f=auto,/produit/black-cashmere-chanel-knitwear-63591300-1_3.jpg",
+      "https://images.vestiairecollective.com/images/resized/w=480",
+      "q=75",
+      "f=auto",
+      "/produit/black-cashmere-chanel-knitwear-59301751-1_2.jpg"
     ],
     "specifications": {
       "brand": "Chanel",
@@ -2508,7 +2531,8 @@ var products = [
       "gender": "Women",
       "style": "Designer Knitwear",
       "season": "Winter / Fall"
-    }
+    },
+    "productType": "Designer Knitwear"
   },
   {
     "id": 105,
@@ -2554,14 +2578,15 @@ var products = [
   },
   {
     "id": 107,
-    "name": "LG 55\" Smart TV",
+    "name": "LG 48\" Smart TV",
     "category": "homeandappliances",
     "retail price": 499.99,
     "sale price": 299.99,
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?w=800",
+    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/21afec55-4335-4253-8147-06dd44a6f68b.jpg;maxHeight=828;maxWidth=400?format=webp",
     "description": "An ultra high-definition Smart TV featuring vivid colors, deep contrast, and advanced smart platform streaming.",
     "images": [
-      "https://images.unsplash.com/photo-1593784991095-a205069470b6?w=800"
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/21afec55-4335-4253-8147-06dd44a6f68b.jpg;maxHeight=828;maxWidth=400?format=webp",
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/70df9969-a281-429c-bb76-1c6ca121546e.jpg;maxHeight=828;maxWidth=400?format=webp"
     ],
     "specifications": {
       "brand": "LG",
@@ -2629,10 +2654,14 @@ var products = [
     "category": "accessories",
     "retail price": 2499.99,
     "sale price": 999.99,
-    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1000",
+    "image": "https://images.bloomingdalesassets.com/is/image/BLM/products/8/optimized/16129758_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp",
     "description": "A refined leather handbag from MCM with a structured silhouette and spacious compartments.",
     "images": [
-      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1000"
+      "https://images.bloomingdalesassets.com/is/image/BLM/products/8/optimized/16129758_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp",
+      "https://images.bloomingdalesassets.com/is/image/BLM/products/9/optimized/16129759_fpx.tif?op_sharpen=1&wid=500&fit=fit",
+      "1&fmt=webp",
+      "https://images.bloomingdalesassets.com/is/image/BLM/products/0/optimized/16129760_fpx.tif?op_sharpen=1&wid=500&fit=fit",
+      "https://images.bloomingdalesassets.com/is/image/BLM/products/2/optimized/16129762_fpx.tif?op_sharpen=1&wid=500&fit=fit"
     ],
     "specifications": {
       "brand": "MCM",
@@ -2698,10 +2727,11 @@ var products = [
     "category": "women",
     "retail price": 2499.99,
     "sale price": 1129.99,
-    "image": "https://editorialist.com/thumbnails/600/2026/5/042/290/122/42290122~brown_1778149407665_3.webp",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTYmDpEqcZ31jYXN-noLMOHTPROSFf1EFnbqlV57Qt64-by-5_7C7PmsbVfpogzyr_uXdhM1be1",
     "description": "Comfortable footwear from Chanel, styled with refined leather detailing and a soft footbed.",
     "images": [
-      "https://editorialist.com/thumbnails/600/2026/5/042/290/122/42290122~brown_1778149407665_3.webp"
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTYmDpEqcZ31jYXN-noLMOHTPROSFf1EFnbqlV57Qt64-by-5_7C7PmsbVfpogzyr_uXdhM1be1",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRlnGfr8YN4RJi6uKYr3Qr_xXwLXwNtqympBbqjugJYf2GzC7QQ4rVOa6w0w6uItasth2TyG6-u"
     ],
     "specifications": {
       "brand": "Chanel",
@@ -2740,7 +2770,7 @@ var products = [
   {
     "id": 115,
     "name": "Women's Ferragamo Sweatshirt",
-    "category": "accessories",
+    "category": "women",
     "retail price": 2499.99,
     "sale price": 799.99,
     "image": "https://editorialist.com/thumbnail/600/2026/6/043/927/695/43927695~red_1782352695819_0.webp?width=600&quality=60AND_PMAX&utm_source=google&utm_medium=cpc&gclsrc=aw.ds&&wt_ga=_&wt_kw=__&gad_source=1&gad_campaignid=23068939813&gbraid=0AAAAADKBVd3zM-wHf3yxRnu66AkIDYQPG&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDpax94lbh-anp_8Lb7GGHvgmDOCfTwA_P-W2HsXaYamy688WPIn0xEaAmX-EALw_wcB",
@@ -3024,14 +3054,16 @@ var products = [
   },
   {
     "id": 128,
-    "name": "Mortal Kombat 2",
+    "name": "Mortal Kombat 11",
     "category": "entertainment",
     "retail price": 59.99,
     "sale price": 49.99,
-    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800",
+    "image": "https://target.scene7.com/is/image/Target/GUEST_e1bb5fde-7941-4692-8bac-f8cd371ca28c?wid=800&hei=800&qlt=80",
     "description": "The highly anticipated fighting game sequel featuring legendary combatants, intense martial arts combos, and cinematic graphics.",
     "images": [
-      "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800"
+      "https://target.scene7.com/is/image/Target/GUEST_e1bb5fde-7941-4692-8bac-f8cd371ca28c?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_d8ade063-856f-46a1-9216-9be00c13d38f?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_6aab17bb-f076-4e27-a240-e019ac3ac12f?wid=800&hei=800&qlt=80"
     ],
     "specifications": {
       "brand": "NetherRealm Studios",
@@ -3255,11 +3287,15 @@ var products = [
     "name": "Men's Versace Versus Watch",
     "category": "jewelry",
     "retail price": 2499.99,
-    "sale price": 1129.99,
-    "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=800",
+    "sale price": 599.99,
+    "image": "https://cdn-images.farfetch-contents.com/26/60/24/86/26602486_57148523_600.jpg",
     "description": "An exquisite luxury timepiece from Versace, featuring Swiss precision movement and high-grade stainless steel casing.",
     "images": [
-      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=800"
+      "https://cdn-images.farfetch-contents.com/26/60/24/86/26602486_57148523_600.jpg",
+      "https://cdn-images.farfetch-contents.com/26/60/24/86/26602486_57148524_600.jpg",
+      "https://cdn-images.farfetch-contents.com/26/60/24/86/26602486_57148538_600.jpg",
+      "https://cdn-images.farfetch-contents.com/26/60/24/86/26602486_57148541_600.jpg",
+      "https://cdn-images.farfetch-contents.com/26/60/24/86/26602486_57148519_600.jpg"
     ],
     "specifications": {
       "brand": "Versace",
@@ -3387,10 +3423,12 @@ var products = [
     "category": "men",
     "retail price": 79.99,
     "sale price": 29.99,
-    "image": "https://images.unsplash.com/photo-1571867424485-369464ed33cc?w=800",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRm4uW0A-OjdSid08-7FIg_YdkKd3MRpt-Wr-cB2kQbU8khoeuZxqG73afcZSk1_BB4h52fR5PA",
     "description": "A sleek winter coat from Nike, styled with a windproof exterior shell and high-loft down insulation.",
     "images": [
-      "https://images.unsplash.com/photo-1571867424485-369464ed33cc?w=800"
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRm4uW0A-OjdSid08-7FIg_YdkKd3MRpt-Wr-cB2kQbU8khoeuZxqG73afcZSk1_BB4h52fR5PA",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHCsj7Kgw1u9BSG7FodxkFb9keehZvzCNoYDPXGsixzFYX2ImlgTS5oHftmhzhCVyrCg7H48-i",
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTlZrwsobTN-0jCIe-fCDFJt0FC6vUi9b2iKEW4ib6MlmiuFbNaZPvkMRnI7oqvE5lBfpQEa4Zy"
     ],
     "specifications": {
       "brand": "Nike",
@@ -3402,7 +3440,8 @@ var products = [
       "gender": "Men",
       "style": "Luxury Outerwear",
       "season": "Winter / Fall"
-    }
+    },
+    "productType": "Luxury Outerwear"
   },
   {
     "id": 145,
@@ -3530,10 +3569,12 @@ var products = [
     "category": "men",
     "retail price": 2499.99,
     "sale price": 1129.99,
-    "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800",
+    "image": "https://cdn-images.farfetch-contents.com/20/53/15/86/20531586_50546418_600.jpg",
     "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
     "images": [
-      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800"
+      "https://cdn-images.farfetch-contents.com/20/53/15/86/20531586_50546418_600.jpg",
+      "https://cdn-images.farfetch-contents.com/20/53/15/86/20531586_50546416_600.jpg",
+      "https://cdn-images.farfetch-contents.com/20/53/15/86/20531586_50546417_600.jpg"
     ],
     "specifications": {
       "brand": "Dolce & Gabbana",
@@ -3545,7 +3586,8 @@ var products = [
       "gender": "Men",
       "style": "Casual / Summer",
       "season": "Summer"
-    }
+    },
+    "productType": "Casual / Summer"
   },
   {
     "id": 151,
