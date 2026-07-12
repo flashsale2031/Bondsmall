@@ -1526,10 +1526,12 @@ var products = [
     "category": "men",
     "retail price": 2499.99,
     "sale price": 1499.99,
-    "image": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=800",
+    "image": "https://editorialist.com/thumbnail/600/2025/9/038/132/970/38132970~black_1782991430059_0.webp?width=600&quality=60",
     "description": "A sleek winter coat from Gucci, styled with a windproof exterior shell and high-loft down insulation.",
     "images": [
-      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=800"
+      "https://editorialist.com/thumbnail/600/2025/9/038/132/970/38132970~black_1782991430059_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnails/600/2025/9/038/132/970/38132970~black_1782991430059_1.webp",
+      "https://editorialist.com/thumbnails/600/2025/9/038/132/970/38132970~black_1782991430059_2.webp"
     ],
     "specifications": {
       "brand": "Gucci",
@@ -1550,7 +1552,7 @@ var products = [
   {
     "id": 63,
     "name": "Men's Gucci Travel Bag",
-    "category": "men",
+    "category": "accessories",
     "retail price": 2999.99,
     "sale price": 799.99,
     "image": "https://img.the-fashion-square.com/32600bc847168fd4c3cdecfea82d3d87_1200.webp",
@@ -1611,12 +1613,12 @@ var products = [
     "category": "accessories",
     "retail price": 599.99,
     "sale price": 499.99,
-    "image": "https://images.unsplash.com/photo-1552224614-2a4345873a96?w=800",
+    "image": "https://images.stockx.com/images/Gucci-Double-G-Gold-Buckle-15W-Leather-Belt-Black-Studio-1.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&trimcolor=ffffff&updated_at=1606318953",
     "description": "A classic leather belt from Gucci featuring a signature gold-plated brass buckle.",
     "images": [
-      "https://images.unsplash.com/photo-1552224614-2a4345873a96?w=800",
-      "https://images.unsplash.com/photo-1590508340390-ea4ba24fca36?w=800",
-      "https://images.unsplash.com/photo-1684510334550-0c4fa8aaffd1?w=800"
+      "https://images.stockx.com/images/Gucci-Double-G-Gold-Buckle-15W-Leather-Belt-Black-Studio-1.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&trimcolor=ffffff&updated_at=1606318953",
+      "https://images.stockx.com/images/Gucci-Double-G-Gold-Buckle-15W-Leather-Belt-Black-Studio-2.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&trimcolor=ffffff&updated_at=1606318953",
+      "https://images.stockx.com/images/Gucci-Double-G-Gold-Buckle-15W-Leather-Belt-Black-Studio-3.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&trimcolor=ffffff&updated_at=1606318954"
     ],
     "specifications": {
       "brand": "Gucci",
@@ -1631,7 +1633,7 @@ var products = [
     },
     "sku": "BM-0065",
     "productType": "Belt",
-    "inventory": 1,
+    "inventory": 100,
     "pre-owned price": 199.99
   },
   {
@@ -1797,10 +1799,13 @@ var products = [
     "category": "men",
     "retail price": 599.99,
     "sale price": 199.99,
-    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcROOVj3H0Mgwd5gCJsPJS0v26nNtAMmoDhnsKPC_vNMFd7MMUU",
     "description": "A classic knit cotton shirt from Gucci, tailored for everyday style and casual comfort.",
     "images": [
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800"
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcROOVj3H0Mgwd5gCJsPJS0v26nNtAMmoDhnsKPC_vNMFd7MMUU",
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSAuD16M7aEZzmnA8BEu_4VwVJ3XOqQVW05XLrygBtXwgCt7okq-iGHAxyp-RzlG3WOVhV8jYc",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR0z-k46IYEjIgcSF4Mdqzhd-gUhwHpCv7z8uHVuHVZ6WZgD2xQOMj4T-4MPW2qy55uunV3ltg",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQzELDviNEuxXXNbzw6pfPDxTN8Kdw0JxZzLOCagS_46weW4ZCO"
     ],
     "specifications": {
       "brand": "Gucci",
@@ -1823,10 +1828,13 @@ var products = [
     "category": "men",
     "retail price": 2999.99,
     "sale price": 399.99,
-    "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800",
+    "image": "https://editorialist.com/thumbnails/600/2026/2/040/629/114/40629114~blue_1770370506523_0.webp",
     "description": "A sleek winter coat from Gucci, styled with a windproof exterior shell and high-loft down insulation.",
     "images": [
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800"
+      "https://editorialist.com/thumbnails/600/2026/2/040/629/114/40629114~blue_1770370506523_0.webp",
+      "https://editorialist.com/thumbnails/600/2026/2/040/629/114/40629114~blue_1770370506523_1.webp",
+      "https://editorialist.com/thumbnails/600/2026/2/040/629/114/40629114~blue_1770370506523_2.webp",
+      "https://editorialist.com/thumbnails/600/2026/2/040/629/114/40629114~blue_1770370506523_3.webp"
     ],
     "specifications": {
       "brand": "Gucci",
@@ -1849,10 +1857,10 @@ var products = [
     "category": "women",
     "retail price": 799.99,
     "sale price": 99.99,
-    "image": "https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?w=800",
+    "image": "https://editorialist.com/thumbnail/600/2026/5/042/711/333/42711333~navy_1783566016064_0.webp?width=600&quality=60",
     "description": "A classic knit cotton shirt from Gucci, tailored for everyday style and casual comfort.",
     "images": [
-      "https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?w=800"
+      "https://editorialist.com/thumbnail/600/2026/5/042/711/333/42711333~navy_1783566016064_0.webp?width=600&quality=60"
     ],
     "specifications": {
       "brand": "Gucci",
@@ -1936,13 +1944,15 @@ var products = [
   {
     "id": 78,
     "name": "Men's Adidas Snapback",
-    "category": "men",
+    "category": "accessories",
     "retail price": 19.99,
     "sale price": 14.99,
-    "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800",
+    "image": "https://images.footballfanatics.com/adidas-originals/mens-white-adidas-originals-emblem-20-snapback-hat_ss5_p-203433842+pv-1+u-i1gaoysxxtnyakdrsmtr+v-6bbfwluskdiwva5s8mes.jpg?_hv=2&w=1018",
     "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
     "images": [
-      "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800"
+      "https://images.footballfanatics.com/adidas-originals/mens-white-adidas-originals-emblem-20-snapback-hat_ss5_p-203433842+pv-1+u-i1gaoysxxtnyakdrsmtr+v-6bbfwluskdiwva5s8mes.jpg?_hv=2&w=1018",
+      "https://images.footballfanatics.com/adidas-originals/mens-white-adidas-originals-emblem-20-snapback-hat_ss5_p-203433842+pv-3+u-i1gaoysxxtnyakdrsmtr+v-i1rlqonorpd4sdp5dthk.jpg?_hv=2&w=1018",
+      "https://images.footballfanatics.com/adidas-originals/mens-white-adidas-originals-emblem-20-snapback-hat_ss5_p-203433842+pv-2+u-i1gaoysxxtnyakdrsmtr+v-77rcjzhbs7v2pvy1dhlu.jpg?_hv=2&w=1018"
     ],
     "specifications": {
       "brand": "Bonds",
@@ -1955,7 +1965,7 @@ var products = [
   {
     "id": 79,
     "name": "Women's Burberry Handbag",
-    "category": "women",
+    "category": "accessories",
     "retail price": 2499.99,
     "sale price": 999.99,
     "image": "https://images.unsplash.com/photo-1682745230951-8a5aa9a474a0?w=800",
@@ -1981,7 +1991,7 @@ var products = [
   {
     "id": 80,
     "name": "Women's Celine Handbag",
-    "category": "women",
+    "category": "accessories",
     "retail price": 2499.99,
     "sale price": 999.99,
     "image": "https://images.unsplash.com/photo-1705909237050-7a7625b47fac?w=1000",
@@ -2010,10 +2020,12 @@ var products = [
     "category": "electronics",
     "retail price": 79.99,
     "sale price": 49.99,
-    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800",
+    "image": "https://i5.walmartimages.com/seo/Wireless-Headphones-for-Samsung-Galaxy-S23-S22-S21-S20-Ultra-Plus-Foldable-Headset-w-Mic-Hands-free-Earphones-Earbuds-Over-Ear_52440e5a-7f91-4838-bb30-ad7731263d77.76beccc25ae7160ad92777a4e70dc8cc.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
     "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
     "images": [
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
+      "https://i5.walmartimages.com/seo/Wireless-Headphones-for-Samsung-Galaxy-S23-S22-S21-S20-Ultra-Plus-Foldable-Headset-w-Mic-Hands-free-Earphones-Earbuds-Over-Ear_52440e5a-7f91-4838-bb30-ad7731263d77.76beccc25ae7160ad92777a4e70dc8cc.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/49f2be71-6924-4e8d-b3b3-b422c653e747.fbaad283b8bbdc1e49fa6cfff1fdc79c.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/74c58236-c9e8-4e34-b584-5f99da85c1d5.65331ca9cad4adefaa96443925065385.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
     ],
     "specifications": {
       "brand": "Samsung",
@@ -2029,9 +2041,10 @@ var products = [
     "category": "accessories",
     "retail price": 1.99,
     "sale price": 0.99,
-    "image": "https://images.unsplash.com/photo-1762341104168-63ddb56e9805?w=800",
+    "image": "https://pipevet.com/media/catalog/product/p/a/parclipboard.jpg",
     "description": "A sturdy wooden clipboard with a strong steel tension clip, ideal for work, classroom, or office note-taking.",
     "images": [
+      "https://pipevet.com/media/catalog/product/p/a/parclipboard.jpg",
       "https://images.unsplash.com/photo-1762341104168-63ddb56e9805?w=800"
     ],
     "specifications": {
@@ -2078,10 +2091,12 @@ var products = [
     "category": "men",
     "retail price": 29.99,
     "sale price": 14.99,
-    "image": "https://images.unsplash.com/photo-1534215754734-18e55d13e346?w=800",
+    "image": "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf80561c5/1000x1000/478/249/100/478249100a.jpg?sw=800&sh=1028&q=100",
     "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
     "images": [
-      "https://images.unsplash.com/photo-1534215754734-18e55d13e346?w=800"
+      "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf80561c5/1000x1000/478/249/100/478249100a.jpg?sw=800&sh=1028&q=100",
+      "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw777235bd/1000x1000/478/249/100/478249100.jpg?sw=800&sh=1028&q=100",
+      "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw90d74e3d/1000x1000/478/249/100/478249100b.jpg?sw=800&sh=1028&q=100"
     ],
     "specifications": {
       "brand": "Nike",
@@ -2089,18 +2104,23 @@ var products = [
     },
     "sku": "BM-0084",
     "productType": "Snapback",
-    "inventory": 1
+    "inventory": 100
   },
   {
     "id": 85,
     "name": "Men's True Religion Snapback",
-    "category": "men",
+    "category": "accessories",
     "retail price": 79.99,
     "sale price": 19.99,
-    "image": "https://images.unsplash.com/photo-1575428652377-a2d80e2277fc?w=800",
+    "image": "https://media.truereligion.com/image/upload/t_kiosk_large,e_sharpen:70/f_auto,q_auto/tr4398_1001_dtl4",
     "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
     "images": [
-      "https://images.unsplash.com/photo-1575428652377-a2d80e2277fc?w=800"
+      "https://media.truereligion.com/image/upload/t_kiosk_large,e_sharpen:70/f_auto,q_auto/tr4398_1001_dtl4",
+      "https://media.truereligion.com/image/upload/t_kiosk_large",
+      "e_sharpen:70/f_auto",
+      "q_auto/tr4398_1001_frt1",
+      "q_auto/tr4398_1001_dtl6",
+      "q_auto/tr4398_1001_dtl5"
     ],
     "specifications": {
       "brand": "True Religion",
@@ -2116,10 +2136,12 @@ var products = [
     "category": "women",
     "retail price": 399.99,
     "sale price": 79.99,
-    "image": "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=800",
+    "image": "https://coach.scene7.com/is/image/Coach/cdk37_b5h_a0?$mobileProductV6$",
     "description": "A sleek winter coat from Coach, styled with a windproof exterior shell and high-loft down insulation.",
     "images": [
-      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=800"
+      "https://coach.scene7.com/is/image/Coach/cdk37_b5h_a0?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cdk37_b5h_a45?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cdk37_b5h_a46?$mobileProductV6$"
     ],
     "specifications": {
       "brand": "Coach",
@@ -2134,7 +2156,7 @@ var products = [
     },
     "sku": "BM-0086",
     "productType": "Jacket",
-    "inventory": 1
+    "inventory": 100
   },
   {
     "id": 87,
@@ -2169,10 +2191,12 @@ var products = [
     "category": "men",
     "retail price": 599.99,
     "sale price": 99.99,
-    "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRdppciVKyXtBI3GnH0jDO-CHizT75F7mJFKYgsuUk2tz--A5lKGmKybl6l6ps",
     "description": "A sophisticated men's fragrance featuring fresh citrus notes blended with rich woody accords.",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRdppciVKyXtBI3GnH0jDO-CHizT75F7mJFKYgsuUk2tz--A5lKGmKybl6l6ps",
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTIGqw4H55iDHPyZ-lNVUxQW9WTrfuCSHV8NodYc1SP1R-QHTX7FWvRdx-bMA",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQtIojTOzfz4NXb1MQgDgwQFMsB3DcTohD_7i7RtXZ7tBJ0CME0nB6qvPfb70sXw7oKPRR0rQBk"
     ],
     "specifications": {
       "brand": "Hermés",
@@ -2189,14 +2213,14 @@ var products = [
   },
   {
     "id": 89,
-    "name": "Men's Lacoste Sleeveless Hooded Sweatshirt",
+    "name": "Men's Lacoste Hooded Sweatshirt",
     "category": "men",
     "retail price": 799.99,
     "sale price": 99.99,
-    "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800",
+    "image": "https://images.vestiairecollective.com/images/resized/w=2920,q=75,f=auto,/produit/navy-cotton-lacoste-jacket-40436010-1_6.jpg",
     "description": "A classic knit cotton shirt from Lacoste, tailored for everyday style and casual comfort.",
     "images": [
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800"
+      "https://images.vestiairecollective.com/images/resized/w=2920,q=75,f=auto,/produit/navy-cotton-lacoste-jacket-40436010-1_6.jpg"
     ],
     "specifications": {
       "brand": "Lacoste",
@@ -2371,9 +2395,11 @@ var products = [
     "category": "homeandappliances",
     "retail price": 599.99,
     "sale price": 299.99,
-    "image": "https://images.unsplash.com/photo-1535016120720-40c646be5580?w=800",
+    "image": "https://images.crutchfieldonline.com/ImageHandler/trim/704/528/products/2022/14/158/g158W5000ES-o_other3.jpg",
     "description": "A native 4K home theater projector by Sony, offering stunning cinematic brightness and sharp details.",
     "images": [
+      "https://images.crutchfieldonline.com/ImageHandler/trim/704/528/products/2022/14/158/g158W5000ES-o_other3.jpg",
+      "https://images.crutchfieldonline.com/ImageHandler/trim/704/528/products/2022/14/158/g158W5000ES-F.jpg",
       "https://images.unsplash.com/photo-1535016120720-40c646be5580?w=800"
     ],
     "specifications": {
@@ -2386,7 +2412,8 @@ var products = [
       "weight": "31 lbs",
       "dimensions": "18.1in W x 7.9in H x 19.9in D",
       "warranty": "3 Year Limited Warranty"
-    }
+    },
+    "inventory": 100
   },
   {
     "id": 98,
@@ -2532,7 +2559,8 @@ var products = [
       "style": "Designer Knitwear",
       "season": "Winter / Fall"
     },
-    "productType": "Designer Knitwear"
+    "productType": "Designer Knitwear",
+    "inventory": 100
   },
   {
     "id": 105,
@@ -2540,10 +2568,12 @@ var products = [
     "category": "men",
     "retail price": 2499.99,
     "sale price": 599.99,
-    "image": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?w=800",
+    "image": "https://www.theoutnet.com/variants/images/46376663163101657/F/w920_q80.jpg",
     "description": "A premium designer knitwear piece from Givenchy crafted with warm wool and cashmere fibers.",
     "images": [
-      "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?w=800"
+      "https://www.theoutnet.com/variants/images/46376663163101657/F/w920_q80.jpg",
+      "https://www.theoutnet.com/variants/images/46376663163101657/R/w920_q80.jpg",
+      "https://www.theoutnet.com/variants/images/46376663163101657/E/w920_q80.jpg"
     ],
     "specifications": {
       "brand": "Givenchy",
@@ -2555,26 +2585,29 @@ var products = [
       "gender": "Men",
       "style": "Designer Knitwear",
       "season": "Winter / Fall"
-    }
+    },
+    "productType": "Designer Knitwear"
   },
   {
     "id": 106,
     "name": "Men's Burberry Bucket Hat",
-    "category": "men",
+    "category": "accessories",
     "retail price": 399.99,
     "sale price": 59.99,
-    "image": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=800",
+    "image": "https://cdn-images.farfetch-contents.com/15/36/84/80/15368480_37224527_600.jpg",
     "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
     "images": [
-      "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=800",
-      "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800",
-      "https://images.unsplash.com/photo-1575428652377-a2d80e2277fc?w=800"
+      "https://cdn-images.farfetch-contents.com/15/36/84/80/15368480_37224527_600.jpg",
+      "https://images.stockx.com/images/Burberry-Check-Cotton-Canvas-Bucket-Hat-Birch-Brown.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1642447308",
+      "https://cdn-images.farfetch-contents.com/15/36/84/80/15368480_37224528_600.jpg",
+      "https://images.stockx.com/images/Burberry-Check-Cotton-Canvas-Bucket-Hat-Birch-Brown-2.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1642447308"
     ],
     "specifications": {
       "brand": "Burberry",
       "material": "Premium construction material"
     },
-    "productType": "Hat"
+    "productType": "Hat",
+    "inventory": 100
   },
   {
     "id": 107,
@@ -2741,7 +2774,8 @@ var products = [
       "care_instructions": "Specialist leather or suede cleaner",
       "country_of_origin": "Italy",
       "gender": "Women"
-    }
+    },
+    "inventory": 100
   },
   {
     "id": 114,
@@ -2749,10 +2783,10 @@ var products = [
     "category": "men",
     "retail price": 99.99,
     "sale price": 29.99,
-    "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=800",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRozStpy3iE0iZCJdXdF0yQex2Nh45h3Yr_hhpZjvTraGgeRkegFSeK4rIZWu2QDhiGFF4_ous",
     "description": "A classic knit cotton shirt from Abercrombie & Fitch, tailored for everyday style and casual comfort.",
     "images": [
-      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=800"
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRozStpy3iE0iZCJdXdF0yQex2Nh45h3Yr_hhpZjvTraGgeRkegFSeK4rIZWu2QDhiGFF4_ous"
     ],
     "specifications": {
       "brand": "Abercrombie & Fitch",
@@ -2794,7 +2828,8 @@ var products = [
       "color_options": "Nero (Black)",
       "gender": "Women",
       "brand_origin": "Italy"
-    }
+    },
+    "inventory": 100
   },
   {
     "id": 116,
@@ -2928,7 +2963,7 @@ var products = [
   {
     "id": 122,
     "name": "Aristotle Sculpture",
-    "category": "accessories",
+    "category": "artandcollectibles",
     "retail price": 199.99,
     "sale price": 99.99,
     "image": "https://images.unsplash.com/photo-1714393674893-b89e436cc6c4?w=800",
@@ -2948,13 +2983,17 @@ var products = [
   {
     "id": 123,
     "name": "Ryobi Leaf Blower",
-    "category": "accessories",
+    "category": "homeandappliances",
     "retail price": 199.99,
     "sale price": 99.99,
-    "image": "https://images.unsplash.com/photo-1733286125300-b4c5563295ad?w=800",
+    "image": "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/617eb17a4f5946c4b406ae24ab5bc0e0_1824x874.jpg?v=1734041953&width=100&height=100&crop=center",
     "description": "A lightweight cordless leaf blower featuring Whisper technology and variable speed settings for easy yard cleanup.",
     "images": [
-      "https://images.unsplash.com/photo-1733286125300-b4c5563295ad?w=800"
+      "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/617eb17a4f5946c4b406ae24ab5bc0e0_1824x874.jpg?v=1734041953&width=100&height=100&crop=center",
+      "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/b922cbfd67944fa58b55f4d9f6070cf7_1824x874.jpg?v=1734041953&width=100&height=100&crop=center",
+      "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/22380974f4ec4b04b58e84b68738447f_1824x874.jpg?v=1734041953&width=100&height=100&crop=center",
+      "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/bef5a254d0c1491296f9b56bcfb0d6b1_1824x874.jpg?v=1734041953&width=100&height=100&crop=center",
+      "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/5b4fa95cf05f4126ba77f6571c946eb4_1824x874.jpg?v=1734041953&width=100&height=100&crop=center"
     ],
     "specifications": {
       "brand": "Ryobi",
@@ -2965,18 +3004,20 @@ var products = [
       "weight": "8.5 lbs",
       "noise_rating": "57 dB",
       "warranty": "5 Year Tool Warranty"
-    }
+    },
+    "inventory": 200
   },
   {
     "id": 124,
     "name": "Women's Abercrombie & Fitch Sweater",
-    "category": "accessories",
+    "category": "women",
     "retail price": 399.99,
     "sale price": 79.99,
-    "image": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?w=800",
+    "image": "https://cf-assets-thredup.thredup.com/assets/860756177/large.jpg",
     "description": "A premium designer knitwear piece from Abercrombie & Fitch crafted with warm wool and cashmere fibers.",
     "images": [
-      "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?w=800"
+      "https://cf-assets-thredup.thredup.com/assets/860756177/large.jpg",
+      "https://cf-assets-thredup.thredup.com/assets/860756221/large.jpg"
     ],
     "specifications": {
       "brand": "Abercrombie & Fitch",
@@ -2988,7 +3029,8 @@ var products = [
       "gender": "Women",
       "style": "Designer Knitwear",
       "season": "Winter / Fall"
-    }
+    },
+    "productType": "Designer Knitwear"
   },
   {
     "id": 125,
@@ -3012,10 +3054,12 @@ var products = [
     "category": "women",
     "retail price": 599.99,
     "sale price": 99.99,
-    "image": "https://images.unsplash.com/photo-1603252109303-2751441dd157?w=800",
+    "image": "https://editorialist.com/thumbnail/600/2022/8/020/342/401/20342401~black_0.webp?width=600&quality=60",
     "description": "A classic knit cotton shirt from Dolce & Gabbana, tailored for everyday style and casual comfort.",
     "images": [
-      "https://images.unsplash.com/photo-1603252109303-2751441dd157?w=800"
+      "https://editorialist.com/thumbnail/600/2022/8/020/342/401/20342401~black_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnails/600/2022/8/020/342/401/20342401~black_1.webp",
+      "https://editorialist.com/thumbnails/600/2022/8/020/342/401/20342401~black_3.webp"
     ],
     "specifications": {
       "brand": "Dolce & Gabbana",
@@ -3027,12 +3071,14 @@ var products = [
       "gender": "Women",
       "style": "Casual / Designer",
       "season": "All Season"
-    }
+    },
+    "productType": "Casual / Designer",
+    "inventory": 100
   },
   {
     "id": 127,
     "name": "Women's Abercrombie & Fitch Shirt",
-    "category": "accessories",
+    "category": "women",
     "retail price": 99.99,
     "sale price": 29.99,
     "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800",
@@ -3050,7 +3096,8 @@ var products = [
       "gender": "Women",
       "style": "Casual / Designer",
       "season": "All Season"
-    }
+    },
+    "productType": "Casual / Designer"
   },
   {
     "id": 128,
@@ -3080,10 +3127,13 @@ var products = [
     "category": "men",
     "retail price": 3999.99,
     "sale price": 1199.99,
-    "image": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?w=800",
+    "image": "https://www.theoutnet.com/variants/images/46376663163029858/F/w920_q80.jpg",
     "description": "A premium designer knitwear piece from Bonds crafted with warm wool and cashmere fibers.",
     "images": [
-      "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?w=800"
+      "https://www.theoutnet.com/variants/images/46376663163029858/F/w920_q80.jpg",
+      "https://www.theoutnet.com/variants/images/46376663163029858/R/w920_q80.jpg",
+      "https://www.theoutnet.com/variants/images/46376663163029858/E/w920_q80.jpg",
+      "https://www.theoutnet.com/variants/images/46376663163029858/D/w920_q80.jpg"
     ],
     "specifications": {
       "brand": "Bonds",
@@ -3095,7 +3145,9 @@ var products = [
       "gender": "Men",
       "style": "Designer Knitwear",
       "season": "Winter / Fall"
-    }
+    },
+    "productType": "Designer Knitwear",
+    "inventory": 20
   },
   {
     "id": 130,
@@ -3123,7 +3175,7 @@ var products = [
   {
     "id": 131,
     "name": "Dolce & Gabbana Twill Baseball Cap",
-    "category": "men",
+    "category": "accessories",
     "retail price": 299.99,
     "sale price": 199.99,
     "image": "https://cdn-images.farfetch-contents.com/20/04/45/98/20044598_50412127_600.jpg",
@@ -3149,13 +3201,17 @@ var products = [
   {
     "id": 132,
     "name": "Men's Rolex Watch",
-    "category": "men",
+    "category": "jewelry",
     "retail price": 9999.99,
     "sale price": 7999.99,
-    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800",
+    "image": "https://www.frostnyc.com/cdn/shop/products/Rolex_1ct_black_1_2_900x.jpg?v=1742234857",
     "description": "An exquisite luxury timepiece from Bonds, featuring Swiss precision movement and high-grade stainless steel casing.",
     "images": [
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
+      "https://www.frostnyc.com/cdn/shop/products/Rolex_1ct_black_1_2_900x.jpg?v=1742234857",
+      "https://www.frostnyc.com/cdn/shop/products/RD_2_d45526b2-3476-4337-82a1-270e784cf4b4_900x.jpg?v=1742234858",
+      "https://www.frostnyc.com/cdn/shop/products/TT_RadialBluedial_5_51c7b043-8cf2-4514-9cca-aeb1c0f87887_900x.jpg?v=1742234858",
+      "https://www.frostnyc.com/cdn/shop/products/Stainless_Steel_Black_2_900x.jpg?v=1742234858",
+      "https://www.frostnyc.com/cdn/shop/products/Stainless_Steel_Black_900x.jpg?v=1742234858"
     ],
     "specifications": {
       "brand": "Bonds",
@@ -3194,10 +3250,14 @@ var products = [
     "category": "accessories",
     "retail price": 2499.99,
     "sale price": 1299.99,
-    "image": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?w=800",
+    "image": "https://editorialist.com/thumbnails/600/2026/5/042/891/963/42891963~brown_1779977546165_0.webp",
     "description": "A premium designer knitwear piece from Armani crafted with warm wool and cashmere fibers.",
     "images": [
-      "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?w=800"
+      "https://editorialist.com/thumbnails/600/2026/5/042/891/963/42891963~brown_1779977546165_0.webp",
+      "https://editorialist.com/thumbnails/600/2026/5/042/891/963/42891963~brown_1779977546165_4.webp",
+      "https://editorialist.com/thumbnails/600/2026/5/042/891/963",
+      "/42891963~brown_1779977546165_3.webp",
+      "https://editorialist.com/thumbnails/600/2026/5/042/891/963/42891963~brown_1779977546165_5.webp"
     ],
     "specifications": {
       "brand": "Armani",
@@ -3209,7 +3269,8 @@ var products = [
       "gender": "Men",
       "style": "Designer Knitwear",
       "season": "Winter / Fall"
-    }
+    },
+    "productType": "Designer Knitwear"
   },
   {
     "id": 135,
@@ -3238,12 +3299,17 @@ var products = [
     "id": 136,
     "name": "Men's Cartier Watch",
     "category": "jewelry",
-    "retail price": 9999.99,
-    "sale price": 3999.99,
-    "image": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=800",
+    "retail price": 59999.99,
+    "sale price": 39999.99,
+    "image": "https://content.thewosgroup.com/productimage/17311097/17311097_1.jpg?impolicy=zoom",
     "description": "An exquisite luxury timepiece from Cartier, featuring Swiss precision movement and high-grade stainless steel casing.",
     "images": [
-      "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=800"
+      "https://content.thewosgroup.com/productimage/17311097/17311097_1.jpg?impolicy=zoom",
+      "https://content.thewosgroup.com/productimage/17311097/17311097_4.jpg?impolicy=zoom",
+      "https://content.thewosgroup.com/productimage/17311097/17311097_5.jpg?impolicy=zoom",
+      "https://content.thewosgroup.com/productimage/17311097/17311097_8.jpg?impolicy=zoom",
+      "https://content.thewosgroup.com/productimage/17311097/17311097_7.jpg?impolicy=zoom",
+      "https://content.thewosgroup.com/productimage/17311097/17311097_3.jpg?impolicy=zoom"
     ],
     "specifications": {
       "brand": "Cartier",
@@ -3255,12 +3321,14 @@ var products = [
       "chain_length": "N/A",
       "gender": "Men",
       "warranty": "5 Year Manufacturer Warranty"
-    }
+    },
+    "productType": "Watch",
+    "inventory": 100
   },
   {
     "id": 137,
     "name": "Women's Chloe Handbag",
-    "category": "women",
+    "category": "accessories",
     "retail price": 2499.99,
     "sale price": 1129.99,
     "image": "https://images.unsplash.com/photo-1575202332411-b01fe9ace7a8?w=800",
@@ -3399,10 +3467,12 @@ var products = [
     "category": "women",
     "retail price": 199.99,
     "sale price": 59.99,
-    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800",
+    "image": "https://img.abercrombie.com/is/image/anf/KIC_152-6071-00628-112_model1?policy=product-medium",
     "description": "A classic knit cotton shirt from Abercrombie & Fitch, tailored for everyday style and casual comfort.",
     "images": [
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800"
+      "https://img.abercrombie.com/is/image/anf/KIC_152-6071-00628-112_model1?policy=product-medium",
+      "https://img.abercrombie.com/is/image/anf/KIC_152-6071-00628-112_model3?policy=product-medium",
+      "https://img.abercrombie.com/is/image/anf/KIC_152-6071-00628-112_model2?policy=product-medium"
     ],
     "specifications": {
       "brand": "Abercrombie & Fitch",
@@ -3415,7 +3485,8 @@ var products = [
       "style": "Casual / Designer",
       "season": "All Season"
     },
-    "productType": "Sweater"
+    "productType": "Sweater",
+    "inventory": 100
   },
   {
     "id": 144,
@@ -3445,14 +3516,16 @@ var products = [
   },
   {
     "id": 145,
-    "name": "Men's Louis Vuitton Jacket",
+    "name": "Men's Louis Vuitton Leather Puffer Jacket",
     "category": "men",
     "retail price": 2499.99,
     "sale price": 1129.99,
-    "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800",
+    "image": "https://images.stockx.com/images/Louis-Vuitton-Monogram-Leather-Puffer-Jacket-Monogram-Brown.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1768318408",
     "description": "A sleek winter coat from Bonds, styled with a windproof exterior shell and high-loft down insulation.",
     "images": [
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800"
+      "https://images.stockx.com/images/Louis-Vuitton-Monogram-Leather-Puffer-Jacket-Monogram-Brown.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1768318408",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-monogram-leather-puffer-jacket--HUL92WPW285M_PM1_Worn%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-monogram-leather-puffer-jacket--HUL92WPW285M_PM1_Cropped%20worn%20view.jpg"
     ],
     "specifications": {
       "brand": "Bonds",
@@ -3464,7 +3537,8 @@ var products = [
       "gender": "Men",
       "style": "Luxury Outerwear",
       "season": "Winter / Fall"
-    }
+    },
+    "productType": "Luxury Outerwear"
   },
   {
     "id": 146,
@@ -3546,10 +3620,15 @@ var products = [
     "category": "women",
     "retail price": 299.99,
     "sale price": 99.99,
-    "image": "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=800",
+    "image": "https://slimages.macysassets.com/is/image/MCY/products/3/optimized/34584323_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp",
     "description": "A sleek winter coat from Michael Kors, styled with a windproof exterior shell and high-loft down insulation.",
     "images": [
-      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=800"
+      "https://slimages.macysassets.com/is/image/MCY/products/3/optimized/34584323_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp",
+      "https://slimages.macysassets.com/is/image/MCY/products/0/optimized/34584330_fpx.tif?op_sharpen=1&wid=500&fit=fit",
+      "1&fmt=webp",
+      "https://slimages.macysassets.com/is/image/MCY/products/9/optimized/34584329_fpx.tif?op_sharpen=1&wid=500&fit=fit",
+      "https://slimages.macysassets.com/is/image/MCY/products/4/optimized/34850354_fpx.tif?op_sharpen=1&wid=500&fit=fit",
+      "https://slimages.macysassets.com/is/image/MCY/products/4/optimized/34584324_fpx.tif?op_sharpen=1&wid=500&fit=fit"
     ],
     "specifications": {
       "brand": "Michael Kors",
@@ -3561,7 +3640,9 @@ var products = [
       "gender": "Women",
       "style": "Luxury Outerwear",
       "season": "Winter / Fall"
-    }
+    },
+    "productType": "Luxury Outerwear",
+    "inventory": 100
   },
   {
     "id": 150,
@@ -3592,7 +3673,7 @@ var products = [
   {
     "id": 151,
     "name": "Leather Sectional Sofa Set",
-    "category": "accessories",
+    "category": "homeandappliances",
     "retail price": 1799.99,
     "sale price": 999.99,
     "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=800",
@@ -3637,10 +3718,12 @@ var products = [
     "category": "women",
     "retail price": 299.99,
     "sale price": 99.99,
-    "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800",
+    "image": "https://editorialist.com/thumbnail/600/2025/1/034/206/344/34206344~black_1737144980388_0.webp?width=600&quality=60",
     "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
     "images": [
-      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800"
+      "https://editorialist.com/thumbnail/600/2025/1/034/206/344/34206344~black_1737144980388_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnails/600/2025/1/034/206/344/34206344~black_1737144980388_1.webp",
+      "https://editorialist.com/thumbnails/600/2025/1/034/206/344/34206344~black_1737144980388_2.webp"
     ],
     "specifications": {
       "brand": "Dolce & Gabbana",
@@ -3652,7 +3735,9 @@ var products = [
       "gender": "Women",
       "style": "Casual / Summer",
       "season": "Summer"
-    }
+    },
+    "productType": "Casual / Summer",
+    "inventory": 100
   },
   {
     "id": 154,
