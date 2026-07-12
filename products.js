@@ -187,12 +187,14 @@ var products = [
     "category": "women",
     "retail price": 79.99,
     "sale price": 39.99,
-    "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800",
+    "image": "https://www.victoriassecret.com.au/dw/image/v2/BLPL_PRD/on/demandware.static/-/Sites-pink-master-catalog/default/dw48288871/large/112629647KFJ_OF_F.jpg?sw=3000&sh=3000&sm=fit",
     "description": "A cozy full-zip hoodie in PINK's signature campus fleece fabric.",
     "images": [
-      "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800",
-      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=800",
-      "https://images.unsplash.com/photo-1519340241574-2cec6aef0c01?w=800"
+      "https://www.victoriassecret.com.au/dw/image/v2/BLPL_PRD/on/demandware.static/-/Sites-pink-master-catalog/default/dw48288871/large/112629647KFJ_OF_F.jpg?sw=3000&sh=3000&sm=fit",
+      "https://www.victoriassecret.com/p/874x1165/png/zz/25/12/23/02/112629647KFJ_OM_S.jpg",
+      "https://images.unsplash.com/photo-1519340241574-2cec6aef0c01?w=800",
+      "https://m.media-amazon.com/images/I/71Gx7PTQBXL._AC_SL1500_.jpg",
+      "https://www.victoriassecret.com.au/dw/image/v2/BLPL_PRD/on/demandware.static/-/Sites-pink-master-catalog/default/dw5dcae484/large/112629647KFJ_OM_B.jpg?sw=3000&sh=3000&sm=fit"
     ],
     "specifications": {
       "brand": "Victoria's Secret",
@@ -204,7 +206,9 @@ var products = [
       "gender": "Women",
       "style": "Athleisure / Streetwear",
       "season": "All Season"
-    }
+    },
+    "productType": "Athleisure / Streetwear",
+    "inventory": 100
   },
   {
     "id": 9,
@@ -2188,7 +2192,7 @@ var products = [
   {
     "id": 88,
     "name": "Men's Hermés Cologne",
-    "category": "men",
+    "category": "accessories",
     "retail price": 599.99,
     "sale price": 99.99,
     "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRdppciVKyXtBI3GnH0jDO-CHizT75F7mJFKYgsuUk2tz--A5lKGmKybl6l6ps",
@@ -2288,10 +2292,14 @@ var products = [
     "category": "electronics",
     "retail price": 99.99,
     "sale price": 59.99,
-    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800",
+    "image": "https://i5.walmartimages.com/seo/Sony-WH-CH520-Wireless-Bluetooth-Headphones-with-Microphone-Black_2bf4c6c6-fe00-4c7d-a96c-7377c4d22468.5c9df151b25b3a1328a6ed171566c71c.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
     "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
     "images": [
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
+      "https://i5.walmartimages.com/seo/Sony-WH-CH520-Wireless-Bluetooth-Headphones-with-Microphone-Black_2bf4c6c6-fe00-4c7d-a96c-7377c4d22468.5c9df151b25b3a1328a6ed171566c71c.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/8f993e04-a18a-4ddc-98fd-90891962a117.04e852db72f22a7f356a01bea1f3d4b1.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/9ca0de9b-7f0c-4ee5-ac8e-e66af0eb714f.2571e1e0b3b46e0d122f12006a63cb86.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/7db3cb7f-c463-45cf-a99e-30e0756ccec1.12fac20fdc1c21a988389c1cb30f6051.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/598ab724-5c5b-486f-b475-7ac9fd0a3ed8.9e81de388b75b40638926171398707cb.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF"
     ],
     "specifications": {
       "brand": "Sony",
@@ -2375,10 +2383,11 @@ var products = [
     "category": "jewelry",
     "retail price": 999.99,
     "sale price": 399.99,
-    "image": "https://images.unsplash.com/photo-1638617501607-5dfb8b079ebf?w=800",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR_b3k4qxmqjlilEFOqj8l2bWz0Vg-td3nFhT-2wzegVHucN99_O9cpE_e6U6BSxZVgeQimfRZ45dpg7YcEraDrEVv6tx2rkA",
     "description": "A polished signature bracelet from Hermés, designed to add a sophisticated touch to any outfit.",
     "images": [
-      "https://images.unsplash.com/photo-1638617501607-5dfb8b079ebf?w=800"
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR_b3k4qxmqjlilEFOqj8l2bWz0Vg-td3nFhT-2wzegVHucN99_O9cpE_e6U6BSxZVgeQimfRZ45dpg7YcEraDrEVv6tx2rkA",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT_iWFY8KPzO4z5X9fEMbb8eBEiWWmdYIVdP_PL8QiNMb3KyOqfNayEkkdQ18SKf1NuDx4RAwZTK1G842a8d-9l0Z2XH28zHA"
     ],
     "specifications": {
       "brand": "Hermés",
@@ -2387,7 +2396,9 @@ var products = [
       "chain_length": "7.5 inches",
       "gender": "Women",
       "warranty": "1 Year Limited Warranty"
-    }
+    },
+    "productType": "Bracelet",
+    "inventory": 100
   },
   {
     "id": 97,
@@ -2444,10 +2455,17 @@ var products = [
     "category": "men",
     "retail price": 2999.99,
     "sale price": 399.99,
-    "image": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=800",
+    "image": "https://assets.levelshoes.com/cdn-cgi/image/width=720,height=1008,quality=85,format=webp/media/catalog/product/1/0/1012629-1a09123-1b00v_3.jpg?ts=20231124032014",
     "description": "Comfortable footwear from Versace, styled with refined leather detailing and a soft footbed.",
     "images": [
-      "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=800"
+      "https://assets.levelshoes.com/cdn-cgi/image/width=720,height=1008,quality=85,format=webp/media/catalog/product/1/0/1012629-1a09123-1b00v_3.jpg?ts=20231124032014",
+      "https://assets.levelshoes.com/cdn-cgi/image/width=720",
+      "height=1008",
+      "quality=85",
+      "format=webp/media/catalog/product/1/0/1012629-1a09123-1b00v_5.jpg?ts=20231124032014",
+      "format=webp/media/catalog/product/1/0/1012629-1a09123-1b00v_1.jpg?ts=20231124032014",
+      "format=webp/media/catalog/product/1/0/1012629-1a09123-1b00v_4.jpg?ts=20231124032014",
+      "format=webp/media/catalog/product/1/0/1012629-1a09123-1b00v_2.jpg?ts=20231124032014"
     ],
     "specifications": {
       "brand": "Versace",
@@ -2457,7 +2475,8 @@ var products = [
       "care_instructions": "Specialist leather or suede cleaner",
       "country_of_origin": "Italy",
       "gender": "Men"
-    }
+    },
+    "inventory": 100
   },
   {
     "id": 100,
@@ -3038,15 +3057,19 @@ var products = [
     "category": "entertainment",
     "retail price": 499.99,
     "sale price": 299.99,
-    "image": "https://images.unsplash.com/photo-1749138149339-b744bb979317?w=800",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTOAYQxW6w0_IfNYm67PVh_phvb65c-nZZXDdrS0uXRJZLpasUI-kKRNMAyzwy6iiylYrEF0-yqSsgt0lauSUDdHpmBKSa0aetPGNbBQZHSYZZMtnlLYqIabA",
     "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
     "images": [
-      "https://images.unsplash.com/photo-1749138149339-b744bb979317?w=800"
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTOAYQxW6w0_IfNYm67PVh_phvb65c-nZZXDdrS0uXRJZLpasUI-kKRNMAyzwy6iiylYrEF0-yqSsgt0lauSUDdHpmBKSa0aetPGNbBQZHSYZZMtnlLYqIabA",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcREq_P5-iqtoALnVjYHBrbvjmr4xuu_vc_Fsysg-9U1bVLqfgmJE9-7H-jBAS-KRnKZ9ZSsXoo3LjYlzO7NJfWVn6sE1OUy06pU8ecI0Pn1VWU1BkFl36QeLkx6",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRmAFJbHVTua9nw6kyVQwJCCNOVeA8ViVDOKXopBDaJlFaukfM6FJ62_lwWLUDy2LIe2JZXUhHqIyD-28F_puBXNvrLWD7VBY9z0AQLQNl-uz1CCQXaPiNLPw",
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQYIlWdv6p-F0Bwc397mlCvidUeRCZ7NNNfMC6HLvAIxpxBCa8pVx7Q1HTIa6858HTfImXNq5oXtnQw9-3Ebeh3of_-zsVV6hJsmuRpzDJSUMuc-MDZsqSIL8A"
     ],
     "specifications": {
       "brand": "Bonds",
       "material": "Premium construction material"
-    }
+    },
+    "inventory": 100
   },
   {
     "id": 126,
@@ -3427,15 +3450,21 @@ var products = [
     "category": "electronics",
     "retail price": 499.99,
     "sale price": 119.99,
-    "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ_TR0IC6uoAllHXDMgJNLPIoo4WjGPFkuya6sEYhPzVd2TxPtI5zN_cgBfBefy6EwAd1jv1qJjNwSPUeLiGvgZm0TQ0yU41S7AVnuJW8t5EjhZWzWLCM97fQ",
     "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
     "images": [
-      "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800"
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ_TR0IC6uoAllHXDMgJNLPIoo4WjGPFkuya6sEYhPzVd2TxPtI5zN_cgBfBefy6EwAd1jv1qJjNwSPUeLiGvgZm0TQ0yU41S7AVnuJW8t5EjhZWzWLCM97fQ",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR6GM9sI4b83eRHhY1sP--nhdwbMFZ56-A9CWXVw2YY_dabuHWX3Sh6w07LPnFsqzxMPtwDa2chjh0-rIGoRYPklPa2ZeVbGG_uxIfWXQPvd9zTo4h7jI8ToQ",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSkST0mc03sKd-o4DytCKwHq_bR2B2cDYvb5l49zCajLHg2064OOiu9lxG0ZvIV-MqK0B9djc9ptRmm49o34yKFf_eQcs1GPWu1NaXgQYDoIyxunEDixFxI2w",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQOsqn9oMDdDBUttlXmkyPmrrDN5jryph_HkfEdp3vxoX2D4psdI5fmhQ6ZIBT6pG9I2FM32ZBwYeMw5HsT06Zxgm328ohdQ_jEvw6JeBwriJyaWAldOqmOpg",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTWzcvzqI6pnltWVhwZXqgx7Pxt3pI7Ro0J8TVCNi-z8BbJqGnq9-CIW3zzGsj398WNZbBjbbGGxOEQLPl4s8dwF5P3xQYH",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQsCFDPswYxmcNms_33dg3imFZ1SqzeHHTVhBpFZS6fmfiK-z86qYlHrIFbcwzfGQaJKLIzjynJuv-6RSKUZxU3yweg5QAIX6gbn7tViOAujyK_7IjTJ3_zgQ"
     ],
     "specifications": {
       "brand": "Sony",
       "material": "Premium construction material"
-    }
+    },
+    "inventory": 100
   },
   {
     "id": 142,
@@ -3596,10 +3625,16 @@ var products = [
     "category": "homeandappliances",
     "retail price": 5999.99,
     "sale price": 1999.99,
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?w=800",
+    "image": "https://i5.walmartimages.com/seo/Sony-BRAVIA-3-II-85-4K-HDR-LED-Google-TV-with-Gemini_035abbdf-5fab-48bf-bec9-d9115c363631.3ed217d6013de471ec911379b541bd48.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
     "description": "An ultra high-definition Smart TV featuring vivid colors, deep contrast, and advanced smart platform streaming.",
     "images": [
-      "https://images.unsplash.com/photo-1593784991095-a205069470b6?w=800"
+      "https://i5.walmartimages.com/seo/Sony-BRAVIA-3-II-85-4K-HDR-LED-Google-TV-with-Gemini_035abbdf-5fab-48bf-bec9-d9115c363631.3ed217d6013de471ec911379b541bd48.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/99c92ebe-61b2-4548-a1db-32696c0aec97.784e278e193ca75d65197e098caec020.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/1f9cc169-6f53-4503-82f3-d1d910d230fd.a0d8a9ccb877a2d780a13859f778e5ba.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/000a7986-f593-4c71-8fea-56685c1d974f.4ac1c04f50a2a67186dc7570febb2e20.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/12406174-b0f5-4fa4-86c4-5fcee926fb1d.53e188e2bb10beda14daea7e51093c86.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/8d96694d-2b5d-4a1e-9f25-873fd800c05d.522ca0254da8981a7a1f558f85916fd9.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/cd0708ed-3274-4d5b-9608-8e71497bb3c6.0c4a77bb286d03d34483a96fc6e1feff.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF"
     ],
     "specifications": {
       "brand": "Sony",
@@ -3612,7 +3647,8 @@ var products = [
       "dimensions": "74.8in W x 43.0in H x 1.8in D",
       "warranty": "2 Year Manufacturer Warranty"
     },
-    "productType": "TV"
+    "productType": "TV",
+    "inventory": 100
   },
   {
     "id": 149,
@@ -3745,10 +3781,15 @@ var products = [
     "category": "electronics",
     "retail price": 499.99,
     "sale price": 139.99,
-    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800",
+    "image": "https://i5.walmartimages.com/seo/Sony-FDR-AX43-UHD-4K-Handycam-Camcorder-Sold-without-manufacturer-warranty_41131016-94b6-438d-ae80-7a731f7a4065.121ec5c5cbbdb456e9ac4200a265f020.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
     "description": "A high-resolution 4K digital camcorder designed for smooth handheld shooting and crystal-clear video capture.",
     "images": [
-      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800"
+      "https://i5.walmartimages.com/seo/Sony-FDR-AX43-UHD-4K-Handycam-Camcorder-Sold-without-manufacturer-warranty_41131016-94b6-438d-ae80-7a731f7a4065.121ec5c5cbbdb456e9ac4200a265f020.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/fa8c7a6e-6b12-493e-a80f-3d2a0a115879.9e2038a488694b290623962e64ede1f1.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/a1853fe7-2c19-4bdd-beb3-685a2de08e0f.2a670983469197a3fd1773f9fedf6a82.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/2b600759-0e28-4fc2-bba9-aeb81eed393e.4309baa7f3f57090ec647bdf2a338c7a.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/e3bcb7d5-4834-4f25-b440-223474ee0ff3.ea5cf97b70b1939624adda9a1a7948d9.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/41131016-94b6-438d-ae80-7a731f7a4065.121ec5c5cbbdb456e9ac4200a265f020.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF"
     ],
     "specifications": {
       "brand": "Sony",
@@ -3757,7 +3798,8 @@ var products = [
       "stabilization": "Balanced Optical SteadyShot",
       "weight": "1.8 lbs",
       "warranty": "1 Year Limited Warranty"
-    }
+    },
+    "inventory": 100
   },
   {
     "id": 155,
