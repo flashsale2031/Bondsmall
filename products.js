@@ -1663,10 +1663,10 @@ var products = [
     "category": "men",
     "retail price": 149.99,
     "sale price": 59.99,
-    "image": "https://editorialist.com/thumbnail/600/2026/7/044/053/702/44053702~flamedgren_1782894655224_0.webp?width=600&quality=60",
+    "image": "https://images.unsplash.com/photo-1582966772680-860e372bb558?w=800",
     "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
     "images": [
-      "https://editorialist.com/thumbnail/600/2026/7/044/053/702/44053702~flamedgren_1782894655224_0.webp?width=600&quality=60"
+      "https://images.unsplash.com/photo-1582966772680-860e372bb558?w=800"
     ],
     "specifications": {
       "brand": "Gucci",
@@ -1687,10 +1687,10 @@ var products = [
     "category": "men",
     "retail price": 99.99,
     "sale price": 39.99,
-    "image": "https://editorialist.com/thumbnail/600/2026/7/044/217/913/44217913~black_1783044119714_0.webp?width=600&quality=60",
+    "image": "https://images.unsplash.com/photo-1640765937555-6f413ed1d936?w=800",
     "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
     "images": [
-      "https://editorialist.com/thumbnail/600/2026/7/044/217/913/44217913~black_1783044119714_0.webp?width=600&quality=60"
+      "https://images.unsplash.com/photo-1640765937555-6f413ed1d936?w=800"
     ],
     "specifications": {
       "brand": "Gucci",
@@ -2043,14 +2043,10 @@ var products = [
     "category": "electronics",
     "retail price": 29.99,
     "sale price": 29.99,
-    "image": "https://i5.walmartimages.com/seo/HP-Envy-6152e-Wireless-All-in-One-Color-Photo-Inkjet-Printer-Scanner-Copier-3-Months-FREE-Ink_765c7219-720f-47e0-9c28-1d55f5cce032.48d1b0e9f9cfe7420953a64128ae55ce.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "image": "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=800",
     "description": "A high-performance all-in-one printer from HP, supporting printing, copying, scanning, and fast wireless setup.",
     "images": [
-      "https://i5.walmartimages.com/seo/HP-Envy-6152e-Wireless-All-in-One-Color-Photo-Inkjet-Printer-Scanner-Copier-3-Months-FREE-Ink_765c7219-720f-47e0-9c28-1d55f5cce032.48d1b0e9f9cfe7420953a64128ae55ce.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/a9b145c7-2810-4168-ab26-570fe03b6794.5d332b8068df302193d88132a210e9c6.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/78da91fa-6578-4103-81cb-1d85a8fb8ed2.902a5ef80614df8f792cae800cb32827.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/e9d2cf59-9a2e-4733-b9fd-ffabb100b0da.ac84f24172c882c79809ec911c8d3736.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/252c8762-bb56-4c56-a923-4d51e044ffce.67e795a047a0dc337b16d4f319319b5f.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF"
+      "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=800"
     ],
     "specifications": {
       "brand": "HP",
@@ -2063,7 +2059,7 @@ var products = [
     },
     "sku": "BM-0083",
     "productType": "Printer",
-    "inventory": 10
+    "inventory": 1
   },
   {
     "id": 84,
