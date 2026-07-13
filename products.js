@@ -684,7 +684,7 @@ var products = [
     "retail price": 5249.99,
     "sale price": 3749.99,
     "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw39628b9a/images/hi-res/coin-programs/American-Eagle/26eb_c.jpg?sw=1200&sh=1200&sm=fit",
-    "description": "The 2026 American Eagle One Ounce Gold Proof Coin celebrates the 250th anniversary of our Nationâ€™s founding with this limited-edition release! Includes anti-counterfeit variable reeding. Struck at the United States Mint facility at West Point. Quantities are limitedâ€”donâ€™t miss this â€œgoldenâ€ opportunity for this special one-year only edition!",
+    "description": "The 2026 American Eagle One Ounce Gold Proof Coin celebrates the 250th anniversary of our Nation's founding with this limited-edition release! Includes anti-counterfeit variable reeding. Struck at the United States Mint facility at West Point. Quantities are limited, don't miss this golden opportunity for this special one-year only edition!",
     "images": [
       "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw9db3e08e/images/hi-res/coin-programs/American-Eagle/26eb_b.jpg?sw=1200&sh=1200&sm=fit",
       "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw061f3645/images/hi-res/coin-programs/American-Eagle/26eb_a.jpg?sw=1200&sh=1200&sm=fit",
