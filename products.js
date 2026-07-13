@@ -651,7 +651,7 @@ var products = [
   },
   {
     "id": 27,
-    "name": "2026 American Buffalo 1 OZ Gold $50 Coin",
+    "name": "Random Year American Buffalo 1 OZ Gold $50 Coin",
     "category": "artandcollectibles",
     "retail price": 5499.99,
     "sale price": 3999.99,
