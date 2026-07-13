@@ -3012,7 +3012,7 @@ var products = [
       "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/B15816s3.jpg?im=Resize"
     ],
     "specifications": {
-      "brand": "Bonds",
+      "brand": "Tommy Hilfiger",
       "material": "Polyester & Nylon Shell",
       "fit": "Regular Fit",
       "sizes_available": "S, M, L, XL",
@@ -3264,7 +3264,7 @@ var products = [
       "https://www.theoutnet.com/variants/images/46376663163029858/D/w920_q80.jpg"
     ],
     "specifications": {
-      "brand": "Bonds",
+      "brand": "Maison Margiela",
       "material": "80% Wool, 20% Cashmere",
       "fit": "Relaxed Fit",
       "sizes_available": "S, M, L, XL",
@@ -3349,7 +3349,7 @@ var products = [
       "https://www.frostnyc.com/cdn/shop/products/Stainless_Steel_Black_900x.jpg?v=1742234858"
     ],
     "specifications": {
-      "brand": "Bonds",
+      "brand": "Rolex",
       "material": "18K Gold Plated Stainless Steel",
       "dial_size": "40mm Case",
       "band_material": "Stainless Steel Link Bracelet",
@@ -3682,7 +3682,7 @@ var products = [
       "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-monogram-leather-puffer-jacket--HUL92WPW285M_PM1_Cropped%20worn%20view.jpg"
     ],
     "specifications": {
-      "brand": "Bonds",
+      "brand": "Louis Vuitton",
       "material": "Polyester & Nylon Shell",
       "fit": "Regular Fit",
       "sizes_available": "S, M, L, XL",
@@ -3738,7 +3738,7 @@ var products = [
       "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-boulogne-pm--M12930_PM1_Worn%20view.png?wid=730&hei=730"
     ],
     "specifications": {
-      "brand": "Bonds",
+      "brand": "Louis Vuitton",
       "material": "100% Calfskin Saffiano Leather",
       "dimensions": "11.0in x 7.5in x 4.0in",
       "weight": "1.2 lbs",
