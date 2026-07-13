@@ -239,10 +239,10 @@ var products = [
     "category": "men",
     "retail price": 79.99,
     "sale price": 69.99,
-    "image": "https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-AI790977725004_alternate10?$rl_4x5_pdp$",
+    "image": "https://athenabodywear-usa.com/cdn/shop/files/PoloRalphLaurenBigPonyPoloShirt20thAnniversary_3.png?v=1783374543&width=1946",
     "description": "A timeless polo shirt with breathable fabric.",
     "images": [
-      "https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-AI790977725004_alternate10?$rl_4x5_pdp$"
+      "https://athenabodywear-usa.com/cdn/shop/files/PoloRalphLaurenBigPonyPoloShirt20thAnniversary_3.png?v=1783374543&width=1946"
     ],
     "specifications": {
       "brand": "Ralph Lauren",
@@ -254,7 +254,9 @@ var products = [
       "gender": "Men",
       "style": "Casual / Preppy",
       "season": "Summer / Spring"
-    }
+    },
+    "productType": "Casual / Preppy",
+    "inventory": 100
   },
   {
     "id": 11,
@@ -3029,10 +3031,18 @@ var products = [
     "category": "accessories",
     "retail price": 599.99,
     "sale price": 119.99,
-    "image": "https://images.unsplash.com/photo-1591561954555-607968c989ab?w=1000",
+    "image": "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a0?$mobileProductV6$",
     "description": "A refined leather handbag from Coach with a structured silhouette and spacious compartments.",
     "images": [
-      "https://images.unsplash.com/photo-1591561954555-607968c989ab?w=1000"
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a0?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a21?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a88?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a3?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a5?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a10?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a99?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a6?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a8?$mobileProductV6$"
     ],
     "specifications": {
       "brand": "Coach",
@@ -3044,7 +3054,8 @@ var products = [
       "color_options": "Black, Brown, Tan, Cream",
       "gender": "Men",
       "brand_origin": "USA"
-    }
+    },
+    "inventory": 100
   },
   {
     "id": 121,
@@ -3689,15 +3700,16 @@ var products = [
     "category": "accessories",
     "retail price": 1999.99,
     "sale price": 999.99,
-    "image": "https://images.unsplash.com/photo-1589731119540-c4586781dae1?w=800",
-    "description": "A refined leather handbag from Bonds with a structured silhouette and spacious compartments.",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT4pMDqyUA-Zi5WOs1nBSzFFwh66npvURC-e2CTxxYLqKN0iXARt-MAw18WvrzrCdqdDJEyA6Rn1WE",
+    "description": "A refined leather handbag from Christian Dior with a structured silhouette and spacious compartments.",
     "images": [
-      "https://images.unsplash.com/photo-1589731119540-c4586781dae1?w=800",
-      "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800",
-      "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=800"
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT4pMDqyUA-Zi5WOs1nBSzFFwh66npvURC-e2CTxxYLqKN0iXARt-MAw18WvrzrCdqdDJEyA6Rn1WE",
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSzmnk6TcPNw-tnMGCdbUAGad4AqNU4gX6Hd5J8F2nDnq2z2RGhvaUvQAkamP3ibFzNIOPA_DIQ_Q",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ3qYFlEpsLr4eijM51SqYxYGr7QhCd5eCoxJNFzUYmJJiP4RkNe3uw1bS42NjlrkQuF-Tpqtuy",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQPAwv92vb9vmIkXfakZlPTH9Z6XHVK1uXu9G1XkwFwEyQg0XjHLA_C1D7ns3SMf0ybsGiLr-A"
     ],
     "specifications": {
-      "brand": "Bonds",
+      "brand": "Dior",
       "material": "100% Calfskin Saffiano Leather",
       "dimensions": "11.0in x 7.5in x 4.0in",
       "weight": "1.2 lbs",
@@ -3706,7 +3718,8 @@ var products = [
       "color_options": "Black, Brown, Tan, Cream",
       "gender": "Men",
       "brand_origin": "Italy"
-    }
+    },
+    "inventory": 100
   },
   {
     "id": 147,
