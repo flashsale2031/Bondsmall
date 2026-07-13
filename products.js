@@ -1651,7 +1651,7 @@ var products = [
   {
     "id": 66,
     "name": "Men's Gucci Watch",
-    "category": "accessories",
+    "category": "jewelry",
     "retail price": 1999.99,
     "sale price": 1249.99,
     "image": "https://www.bezali.com/cdn/shop/products/YA126407_2048x.jpg?v=1604959027",
@@ -1970,7 +1970,7 @@ var products = [
       "https://images.footballfanatics.com/adidas-originals/mens-white-adidas-originals-emblem-20-snapback-hat_ss5_p-203433842+pv-2+u-i1gaoysxxtnyakdrsmtr+v-77rcjzhbs7v2pvy1dhlu.jpg?_hv=2&w=1018"
     ],
     "specifications": {
-      "brand": "Bonds",
+      "brand": "Adidas",
       "material": "Premium construction material"
     },
     "sku": "BM-0078",
@@ -3165,7 +3165,7 @@ var products = [
       "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQYIlWdv6p-F0Bwc397mlCvidUeRCZ7NNNfMC6HLvAIxpxBCa8pVx7Q1HTIa6858HTfImXNq5oXtnQw9-3Ebeh3of_-zsVV6hJsmuRpzDJSUMuc-MDZsqSIL8A"
     ],
     "specifications": {
-      "brand": "Bonds",
+      "brand": "Nintendo",
       "material": "Premium construction material"
     },
     "inventory": 100
@@ -3529,7 +3529,7 @@ var products = [
   {
     "id": 139,
     "name": "Men's Gucci Watch",
-    "category": "men",
+    "category": "jewelry",
     "retail price": 799.99,
     "sale price": 99.99,
     "image": "https://www.watch-connection.com/cdn/shop/files/91gjM560cFL._AC_UY1000_1024x1024_72f387c3-81c8-4b21-ba5b-62c30e0a8fb7_1024x1024.jpg?v=1776520493",
