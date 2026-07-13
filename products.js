@@ -2549,10 +2549,23 @@ var products = [
     "category": "accessories",
     "retail price": 3499.99,
     "sale price": 1119.99,
-    "image": "https://images.unsplash.com/photo-1605733513597-a8f8341084e6?w=1000",
+    "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_418/01/nm_4957234_100106_m",
     "description": "A refined leather handbag from Yves Saint Laurent with a structured silhouette and spacious compartments.",
     "images": [
-      "https://images.unsplash.com/photo-1605733513597-a8f8341084e6?w=1000"
+      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_418/01/nm_4957234_100106_m",
+      "https://saint-laurent.dam.kering.com/m/7673648721a01958/Medium2-801439AAEAX1000_F.jpg?v=1",
+      "https://media.neimanmarcus.com/f_auto",
+      "q_auto:low",
+      "ar_4:5",
+      "c_fill",
+      "dpr_2.0",
+      "w_418/01/nm_4957234_100106_b",
+      "https://saint-laurent.dam.kering.com/m/7c1118b1b358d47a/Medium2-801439AAEAX1000_D.jpg?v=1",
+      "https://saint-laurent.dam.kering.com/m/32f56814cf5ea274/Medium2-801439AAEAX1000_E.jpg?v=1",
+      "w_1200/01/nm_4957234_100106_c",
+      "https://saint-laurent.dam.kering.com/m/759c8aa016e3f201/Medium2-801439AAEAX1000_C.jpg?v=1",
+      "w_1200/01/nm_4957234_100106_z",
+      "w_418/01/nm_4957234_100106_a"
     ],
     "specifications": {
       "brand": "Yves Saint Laurent",
@@ -2564,7 +2577,8 @@ var products = [
       "color_options": "Black, Brown, Tan, Cream",
       "gender": "Men",
       "brand_origin": "Italy"
-    }
+    },
+    "inventory": 100
   },
   {
     "id": 104,
