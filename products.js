@@ -262,10 +262,11 @@ var products = [
     "category": "women",
     "retail price": 4999.99,
     "sale price": 2499.99,
-    "image": "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-floral-detail-cardigan--FUKG70B5A534_PM1_Worn%20view.png?wid=490&hei=490",
+    "image": "https://www.24s.com/static/images/I0CVE2Qizn-CXwk-YFs3Br_0MY4=/fit-in/375x395/737dbe4541084b6cb70b82514ab6c3f8",
     "description": "An elevated designer knit for standout looks.",
     "images": [
-      "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-floral-detail-cardigan--FUKG70B5A534_PM1_Worn%20view.png?wid=490&hei=490"
+      "https://www.24s.com/static/images/I0CVE2Qizn-CXwk-YFs3Br_0MY4=/fit-in/375x395/737dbe4541084b6cb70b82514ab6c3f8",
+      "https://www.24s.com/static/images/dDoy8U7tIfQI1AcxqZz0STnhcH4=/fit-in/375x395/d4daa3103e12478cbf88a8deaaf48e37"
     ],
     "specifications": {
       "brand": "Louis Vuitton",
@@ -277,7 +278,9 @@ var products = [
       "gender": "Women",
       "style": "Luxury / Elegant",
       "season": "Fall / Winter"
-    }
+    },
+    "productType": "Luxury / Elegant",
+    "inventory": 100
   },
   {
     "id": 12,
@@ -1978,10 +1981,20 @@ var products = [
     "category": "accessories",
     "retail price": 2499.99,
     "sale price": 999.99,
-    "image": "https://images.unsplash.com/photo-1682745230951-8a5aa9a474a0?w=800",
+    "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5499473_100296_m",
     "description": "A refined leather handbag from Burberry with a structured silhouette and spacious compartments.",
     "images": [
-      "https://images.unsplash.com/photo-1682745230951-8a5aa9a474a0?w=800"
+      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5499473_100296_m",
+      "https://media.neimanmarcus.com/f_auto",
+      "q_auto:low",
+      "ar_4:5",
+      "c_fill",
+      "dpr_2.0",
+      "w_420/01/nm_5499473_100296_z",
+      "w_420/01/nm_5499473_100296_a",
+      "w_420/01/nm_5499473_100296_h",
+      "w_420/01/nm_5499473_100296_b",
+      "w_420/01/nm_5499473_100296_c"
     ],
     "specifications": {
       "brand": "Burberry",
@@ -2004,10 +2017,14 @@ var products = [
     "category": "accessories",
     "retail price": 2499.99,
     "sale price": 999.99,
-    "image": "https://images.unsplash.com/photo-1705909237050-7a7625b47fac?w=1000",
+    "image": "https://image.celine.com/c608082db4ab6ee7/original/118113GG2-01RC_1_SPR25_P1_W.tif?im=Resize=(900)",
     "description": "A refined leather handbag from Celine with a structured silhouette and spacious compartments.",
     "images": [
-      "https://images.unsplash.com/photo-1705909237050-7a7625b47fac?w=1000"
+      "https://image.celine.com/c608082db4ab6ee7/original/118113GG2-01RC_1_SPR25_P1_W.tif?im=Resize=(900)",
+      "https://image.celine.com/f4816010a1343abf/original/118113GG2-01RC_2_SPR25_P1_W.tif?im=Resize=(900)",
+      "https://image.celine.com/12edc6570452414c/original/118113GG2-01RC_3_SPR25_P1_W.tif?im=Resize=(900)",
+      "https://image.celine.com/d60781e74c535b01/original/118113GG2-01RC_4_SPR25_P1_W.tif?im=Resize=(900)",
+      "https://image.celine.com/29b3905478b8e799/original/118113GG2-01RC_5_SPR25_P1_W.tif?im=Resize=(900)"
     ],
     "specifications": {
       "brand": "Celine",
@@ -2251,12 +2268,12 @@ var products = [
     "id": 90,
     "name": "Men's Patek Philippe Watch",
     "category": "jewelry",
-    "retail price": 49999.99,
-    "sale price": 29999.99,
-    "image": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=800",
+    "retail price": 13649999.99,
+    "sale price": 13599999.99,
+    "image": "https://watchxnyc.com/cdn/shop/files/watchxnyc-watch-default-title-patek-philippe-grand-complications-grandmaster-chime-black-time-calendar-diamond-dial-white-gold-reversible-case-leather-strap-49-4mm-6300-400g-001-31315235700917.jpg?v=1753988293&width=768",
     "description": "An exquisite luxury timepiece from Patek Philippe, featuring Swiss precision movement and high-grade stainless steel casing.",
     "images": [
-      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=800"
+      "https://watchxnyc.com/cdn/shop/files/watchxnyc-watch-default-title-patek-philippe-grand-complications-grandmaster-chime-black-time-calendar-diamond-dial-white-gold-reversible-case-leather-strap-49-4mm-6300-400g-001-31315235700917.jpg?v=1753988293&width=768"
     ],
     "specifications": {
       "brand": "Patek Philippe",
@@ -2269,7 +2286,7 @@ var products = [
       "gender": "Men",
       "warranty": "5 Year Manufacturer Warranty"
     },
-    "pre-owned price": 9999.99
+    "pre-owned price": 12999999.99
   },
   {
     "id": 91,
@@ -2319,10 +2336,19 @@ var products = [
     "category": "women",
     "retail price": 2499.99,
     "sale price": 1129.99,
-    "image": "https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?w=800",
+    "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5588120_100296_m",
     "description": "A sleek winter coat from Burberry, styled with a windproof exterior shell and high-loft down insulation.",
     "images": [
-      "https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?w=800"
+      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5588120_100296_m",
+      "https://media.neimanmarcus.com/f_auto",
+      "q_auto:low",
+      "ar_4:5",
+      "c_fill",
+      "dpr_2.0",
+      "w_420/01/nm_5588120_100296_n",
+      "w_420/01/nm_5588120_100296_h",
+      "w_420/01/nm_5588120_100296_c",
+      "w_420/01/nm_5588120_100296_d"
     ],
     "specifications": {
       "brand": "Burberry",
@@ -2334,18 +2360,30 @@ var products = [
       "gender": "Women",
       "style": "Luxury Outerwear",
       "season": "Winter / Fall"
-    }
+    },
+    "productType": "Luxury Outerwear",
+    "inventory": 100
   },
   {
     "id": 94,
     "name": "Women's Yves Saint Laurent Handbag",
     "category": "accessories",
     "retail price": 2999.99,
-    "sale price": 799.99,
-    "image": "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=1000",
+    "sale price": 1799.99,
+    "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5519293_100106_m",
     "description": "A refined leather handbag from Yves Saint Laurent with a structured silhouette and spacious compartments.",
     "images": [
-      "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=1000"
+      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5519293_100106_m",
+      "https://media.neimanmarcus.com/f_auto",
+      "q_auto:low",
+      "ar_4:5",
+      "c_fill",
+      "dpr_2.0",
+      "w_420/01/nm_5519293_100106_d",
+      "w_420/01/nm_5519293_100106_b",
+      "w_420/01/nm_5519293_100106_c",
+      "w_420/01/nm_5519293_100106_z",
+      "w_420/01/nm_5519293_100106_a"
     ],
     "specifications": {
       "brand": "Yves Saint Laurent",
@@ -2358,6 +2396,7 @@ var products = [
       "gender": "Men",
       "brand_origin": "Italy"
     },
+    "inventory": 100,
     "pre-owned price": 499.99
   },
   {
@@ -2889,13 +2928,21 @@ var products = [
     "category": "accessories",
     "retail price": 4999.99,
     "sale price": 1999.99,
-    "image": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=1000",
+    "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5610215_100106_m",
     "description": "A refined leather handbag from Bonds with a structured silhouette and spacious compartments.",
     "images": [
-      "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=1000"
+      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5610215_100106_m",
+      "https://media.neimanmarcus.com/f_auto",
+      "q_auto:low",
+      "ar_4:5",
+      "c_fill",
+      "dpr_2.0",
+      "w_420/01/nm_5610215_100106_b",
+      "w_420/01/nm_5610215_100106_d",
+      "w_420/01/nm_5610215_100106_c"
     ],
     "specifications": {
-      "brand": "Bonds",
+      "brand": "Christian Louboutin",
       "material": "100% Calfskin Saffiano Leather",
       "dimensions": "11.0in x 7.5in x 4.0in",
       "weight": "1.2 lbs",
@@ -2905,6 +2952,7 @@ var products = [
       "gender": "Men",
       "brand_origin": "Italy"
     },
+    "inventory": 100,
     "pre-owned price": 999.99
   },
   {
@@ -2947,14 +2995,19 @@ var products = [
   },
   {
     "id": 119,
-    "name": "Women's Tommy Hilfiger Coat",
+    "name": "Women's Tommy Hilfiger Winter Coat",
     "category": "women",
     "retail price": 199.99,
     "sale price": 79.99,
-    "image": "https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?w=800",
+    "image": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/B15816s6.jpg?im=Resize,width=750",
     "description": "A sleek winter coat from Bonds, styled with a windproof exterior shell and high-loft down insulation.",
     "images": [
-      "https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?w=800"
+      "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/B15816s6.jpg?im=Resize,width=750",
+      "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/B15816s2.jpg?im=Resize",
+      "width=750",
+      "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/B15816s5.jpg?im=Resize",
+      "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/B15816s4.jpg?im=Resize",
+      "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/B15816s3.jpg?im=Resize"
     ],
     "specifications": {
       "brand": "Bonds",
@@ -2966,7 +3019,9 @@ var products = [
       "gender": "Women",
       "style": "Luxury Outerwear",
       "season": "Winter / Fall"
-    }
+    },
+    "productType": "Luxury Outerwear",
+    "inventory": 100
   },
   {
     "id": 120,
@@ -3137,10 +3192,15 @@ var products = [
     "category": "women",
     "retail price": 99.99,
     "sale price": 29.99,
-    "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800",
+    "image": "https://img.abercrombie.com/is/image/anf/KIC_139-6641-00427-114_prod1?policy=product-medium",
     "description": "A classic knit cotton shirt from Abercrombie & Fitch, tailored for everyday style and casual comfort.",
     "images": [
-      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800"
+      "https://img.abercrombie.com/is/image/anf/KIC_139-6641-00427-114_prod1?policy=product-medium",
+      "https://img.abercrombie.com/is/image/anf/KIC_139-6641-00427-114_model1?policy=product-medium",
+      "https://img.abercrombie.com/is/image/anf/KIC_139-6641-00427-114_model2?policy=product-medium",
+      "https://img.abercrombie.com/is/image/anf/KIC_139-6641-00427-114_model3?policy=product-medium",
+      "https://img.abercrombie.com/is/image/anf/KIC_139-6641-00427-114_model4?policy=product-medium",
+      "https://img.abercrombie.com/is/image/anf/KIC_139-6641-00427-114_model5?policy=product-medium"
     ],
     "specifications": {
       "brand": "Abercrombie & Fitch",
@@ -3153,7 +3213,8 @@ var products = [
       "style": "Casual / Designer",
       "season": "All Season"
     },
-    "productType": "Casual / Designer"
+    "productType": "Casual / Designer",
+    "inventory": 100
   },
   {
     "id": 128,
@@ -3653,12 +3714,15 @@ var products = [
     "category": "accessories",
     "retail price": 2499.99,
     "sale price": 1129.99,
-    "image": "https://images.unsplash.com/photo-1591561954557-26941169b49e?w=800",
+    "image": "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-boulogne-pm--M12930_PM2_Front%20view.png?wid=730&hei=730",
     "description": "A refined leather handbag from Bonds with a structured silhouette and spacious compartments.",
     "images": [
-      "https://images.unsplash.com/photo-1591561954557-26941169b49e?w=800",
-      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800",
-      "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800"
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-boulogne-pm--M12930_PM2_Front%20view.png?wid=730&hei=730",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-boulogne-pm--M12930_PM1_Side%20view.png?wid=730&hei=730",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-boulogne-pm--M12930_PM1_Interior%20view.png?wid=730&hei=730",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-boulogne-pm--M12930_PM1_Back%20view.png?wid=730&hei=730",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-boulogne-pm--M12930_PM1_Cropped%20worn%20view.png?wid=730&hei=730",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-boulogne-pm--M12930_PM1_Worn%20view.png?wid=730&hei=730"
     ],
     "specifications": {
       "brand": "Bonds",
@@ -3670,7 +3734,9 @@ var products = [
       "color_options": "Black, Brown, Tan, Cream",
       "gender": "Men",
       "brand_origin": "Italy"
-    }
+    },
+    "productType": "Handbag",
+    "inventory": 100
   },
   {
     "id": 148,
@@ -3864,10 +3930,18 @@ var products = [
     "category": "electronics",
     "retail price": 299.99,
     "sale price": 99.99,
-    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800",
+    "image": "https://de2wfhoo6xqi5.cloudfront.net/size/400/f29/082/98327e489585792a2cfadfe24b01605cbd.jpg",
     "description": "A sleek, lightweight tablet featuring a brilliant AMOLED screen, high-performance processor, and long battery life.",
     "images": [
-      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800"
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/f29/082/98327e489585792a2cfadfe24b01605cbd.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/108/b23/62a38dce07c76e3d939fc056f93f7bcaaa.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/022/2ec/a04668ae05cba2650db99f09b465f062cf.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/201/3df/6022095e0acbb4b9885b4cae3dc2df7c9a.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/27b/762/713e6103a229a7c76e3187b9733ffbcb0c.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/408/e81/f9081d76293aba53e796a442c122290026.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/42d/7a7/6b5fd332a4ae354aa8968305a882dee9e6.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/45d/a0b/665e9fb344a5358319bb9dbc8d8fa43fe2.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/50e/677/433b5679396a28caee702fc7dd8e7e4b46.jpg"
     ],
     "specifications": {
       "brand": "Samsung",
@@ -3879,6 +3953,7 @@ var products = [
       "ports": "USB-C",
       "weight": "1.1 lbs",
       "warranty": "1 Year Limited Warranty"
-    }
+    },
+    "inventory": 100
   }
 ];
