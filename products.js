@@ -454,10 +454,12 @@ var products = [
     "category": "accessories",
     "retail price": 5599.99,
     "sale price": 2499.99,
-    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=1200",
+    "image": "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7803_V1.jpg",
     "description": "Iconic handbag crafted with timeless silhouette.",
     "images": [
-      "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=1200"
+      "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7803_V1.jpg",
+      "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7803_V2.jpg",
+      "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7803_V3.jpg"
     ],
     "specifications": {
       "brand": "Chanel",
@@ -469,7 +471,8 @@ var products = [
       "color_options": "Classic Black with Gold Hardware",
       "gender": "Women",
       "brand_origin": "France"
-    }
+    },
+    "inventory": 100
   },
   {
     "id": 20,
@@ -1887,10 +1890,13 @@ var products = [
     "category": "women",
     "retail price": 499.99,
     "sale price": 79.99,
-    "image": "https://images.unsplash.com/photo-1598554747436-c9293d6a588f?w=800",
+    "image": "https://is4.fwrdassets.com/images/p/fw/zs/BURF-WS205_V1.jpg",
     "description": "A classic knit cotton shirt from Burberry, tailored for everyday style and casual comfort.",
     "images": [
-      "https://images.unsplash.com/photo-1598554747436-c9293d6a588f?w=800"
+      "https://is4.fwrdassets.com/images/p/fw/zs/BURF-WS205_V1.jpg",
+      "https://is4.fwrdassets.com/images/p/fw/zs/BURF-WS205_V4.jpg",
+      "https://is4.fwrdassets.com/images/p/fw/zs/BURF-WS205_V2.jpg",
+      "https://is4.fwrdassets.com/images/p/fw/zs/BURF-WS205_V3.jpg"
     ],
     "specifications": {
       "brand": "Burberry",
@@ -2304,7 +2310,8 @@ var products = [
     "specifications": {
       "brand": "Sony",
       "material": "Premium construction material"
-    }
+    },
+    "inventory": 100
   },
   {
     "id": 93,
@@ -2430,12 +2437,14 @@ var products = [
     "id": 98,
     "name": "Women's Versace Crossbody Bag",
     "category": "accessories",
-    "retail price": 2499.99,
-    "sale price": 1129.99,
-    "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=1000",
+    "retail price": 1799.99,
+    "sale price": 799.99,
+    "image": "https://cdn-images.farfetch-contents.com/32/66/01/95/32660195_63083148_600.jpg",
     "description": "A refined leather handbag from Versace with a structured silhouette and spacious compartments.",
     "images": [
-      "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=1000"
+      "https://cdn-images.farfetch-contents.com/32/66/01/95/32660195_63083148_600.jpg",
+      "https://cdn-images.farfetch-contents.com/32/66/01/95/32660195_63075310_600.jpg",
+      "https://cdn-images.farfetch-contents.com/32/66/01/95/32660195_63076375_600.jpg"
     ],
     "specifications": {
       "brand": "Versace",
@@ -2447,7 +2456,8 @@ var products = [
       "color_options": "Black, Brown, Tan, Cream",
       "gender": "Men",
       "brand_origin": "Italy"
-    }
+    },
+    "inventory": 100
   },
   {
     "id": 99,
@@ -2508,14 +2518,17 @@ var products = [
   },
   {
     "id": 101,
-    "name": "Women's Hermés Satchel",
+    "name": "Women's Hermés Epsom Birkin 30 Handbag",
     "category": "accessories",
-    "retail price": 2499.99,
-    "sale price": 1129.99,
-    "image": "https://images.unsplash.com/photo-1600857062241-98e5dba7f214?w=800",
-    "description": "A refined leather handbag from HermÃ©s with a structured silhouette and spacious compartments.",
+    "retail price": 29999.99,
+    "sale price": 19999.99,
+    "image": "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7825_V1.jpg",
+    "description": "A refined leather handbag from Hermés with a structured silhouette and spacious compartments.",
     "images": [
-      "https://images.unsplash.com/photo-1600857062241-98e5dba7f214?w=800"
+      "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7825_V1.jpg",
+      "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7825_V2.jpg",
+      "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7825_V4.jpg",
+      "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7825_V3.jpg"
     ],
     "specifications": {
       "brand": "Hermés",
@@ -2525,9 +2538,10 @@ var products = [
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Men",
-      "brand_origin": "Italy"
-    }
+      "gender": "Women",
+      "brand_origin": "Paris"
+    },
+    "inventory": 100
   },
   {
     "id": 103,
@@ -2681,24 +2695,29 @@ var products = [
   },
   {
     "id": 109,
-    "name": "Women's Timberland Boots",
+    "name": "Women's Bailey Bow II UGG Boots",
     "category": "women",
-    "retail price": 199.99,
-    "sale price": 99.99,
-    "image": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?w=800",
-    "description": "Comfortable footwear from Timberland, styled with refined leather detailing and a soft footbed.",
+    "retail price": 214.99,
+    "sale price": 119.99,
+    "image": "https://dms.deckers.com/ugg/image/upload/t_pdp-slider-small-wp/v1729719376/1016225-CHE_2.png?_s=RAABAB0",
+    "description": "We added silky bows to our iconic sheepskin boot for a sweet, feminine look that's always been a fan fave. Crafted with soft sheepskin, this versatile boot features a durable, ultra-lightweight sole. The pretreated sheepskin upper repels moisture and protects against stains. These pull on boots are available in a range of neutral colors including black, browns, and greys.\n\nThe outsole of this product is either a sugarcane EVA outsole, which is a responsible compound using sugarcane foam that allows us to reduce dependency on fossil fuels by replacing petroleum-based ethylene, or a Treadlite by UGG™ outsole.\n\nThis product was made in a factory that supports women in our supply chain with the help of Reimagining Industry to Support Equality (RISE). This collaborative initiative creates partnerships with brands like ours to empower and educate women in the workplace.",
     "images": [
-      "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?w=800"
+      "https://dms.deckers.com/ugg/image/upload/t_pdp-slider-small-wp/v1729719376/1016225-CHE_2.png?_s=RAABAB0",
+      "https://dms.deckers.com/ugg/image/upload/t_pdp-slider-small-wp/v1733781475/1016225-CHE_3.png?_s=RAABAB0",
+      "https://dms.deckers.com/ugg/image/upload/t_pdp-slider-small-wp/v1729719375/1016225-CHE_1.png?_s=RAABAB0",
+      "https://dms.deckers.com/ugg/image/upload/t_pdp-slider-small-wp/v1729719762/1016225-CHE_4.png?_s=RAABAB0",
+      "https://dms.deckers.com/ugg/image/upload/t_pdp-slider-small-wp/v1729719696/1016225-CHE_5.png?_s=RAABAB0"
     ],
     "specifications": {
-      "brand": "Timberland",
-      "material": "Waterproof Nubuck Leather",
+      "brand": "UGG",
+      "material": "Sheepskin",
       "fit": "Standard Width, True to Size",
-      "sizes_available": "US 7, 8, 9, 10, 11",
+      "sizes_available": "US 5, 6, 7, 8, 9, 10, 11",
       "care_instructions": "Specialist leather or suede cleaner",
       "country_of_origin": "Italy",
       "gender": "Women"
-    }
+    },
+    "inventory": 100
   },
   {
     "id": 110,
@@ -3178,10 +3197,17 @@ var products = [
     "category": "accessories",
     "retail price": 2499.99,
     "sale price": 1129.99,
-    "image": "https://images.unsplash.com/photo-1591561954557-26941169b49e?w=1000",
+    "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_1200/01/nm_3437979_100106_m",
     "description": "A refined leather handbag from Dolce & Gabbana with a structured silhouette and spacious compartments.",
     "images": [
-      "https://images.unsplash.com/photo-1591561954557-26941169b49e?w=1000"
+      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_1200/01/nm_3437979_100106_m",
+      "https://media.neimanmarcus.com/f_auto",
+      "q_auto:low",
+      "ar_4:5",
+      "c_fill",
+      "dpr_2.0",
+      "w_1200/01/nm_3437979_100106_b",
+      "w_1200/01/nm_3437979_100106_c"
     ],
     "specifications": {
       "brand": "Dolce & Gabbana",
@@ -3301,10 +3327,14 @@ var products = [
     "category": "accessories",
     "retail price": 2499.99,
     "sale price": 1129.99,
-    "image": "https://images.unsplash.com/photo-1559563458-527698bf5295?w=1200",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTeEyuSkMAIth9VZDSvcQL5hcHFrsuoOejZAnk8E88Wj14bVbrQ-ldbqmMxdzChs9GBii6jE3kM6Q",
     "description": "A refined leather handbag from Chanel with a structured silhouette and spacious compartments.",
     "images": [
-      "https://images.unsplash.com/photo-1559563458-527698bf5295?w=1200"
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTeEyuSkMAIth9VZDSvcQL5hcHFrsuoOejZAnk8E88Wj14bVbrQ-ldbqmMxdzChs9GBii6jE3kM6Q",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQFjGJOVB6lZeXLzormbFgaPagFElNfLo6vkeuvUKK_ZZfYNa9TY3KPllaz08lbFZHyCOnPancINJY",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRqAuQkM01iZgux7NwJNScZTajswTJS3Erh6oUA27LOO2d6nIsNdqsgTX7T-vwTSzXqF1cSS9M",
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRiGzDNOpkZ0xNAg2YCAAqIlyCGYNujYfPou77hSxL-jcgmCNwXmZCHw08149bwCDpe6172XPnTrg",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQeOs6Y2DMeKtLlsP0U_OOfsxMt6icLhhwMoDyNOQQBTSwLvEGOE-Q1avfs34WLqjGE1C19vvw"
     ],
     "specifications": {
       "brand": "Chanel",
@@ -3316,7 +3346,8 @@ var products = [
       "color_options": "Black, Brown, Tan, Cream",
       "gender": "Men",
       "brand_origin": "Italy"
-    }
+    },
+    "inventory": 100
   },
   {
     "id": 136,
@@ -3354,12 +3385,19 @@ var products = [
     "category": "accessories",
     "retail price": 2499.99,
     "sale price": 1129.99,
-    "image": "https://images.unsplash.com/photo-1575202332411-b01fe9ace7a8?w=800",
+    "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_4103480_100168_m",
     "description": "A refined leather handbag from Chloe with a structured silhouette and spacious compartments.",
     "images": [
-      "https://images.unsplash.com/photo-1575202332411-b01fe9ace7a8?w=800",
-      "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=800",
-      "https://images.unsplash.com/photo-1591561954555-607968c989ab?w=800"
+      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_4103480_100168_m",
+      "https://media.neimanmarcus.com/f_auto",
+      "q_auto:low",
+      "ar_4:5",
+      "c_fill",
+      "dpr_2.0",
+      "w_420/01/nm_4103480_100168_c",
+      "w_420/01/nm_4103480_100168_a",
+      "w_420/01/nm_4103480_100168_z",
+      "w_420/01/nm_4103480_100000_e"
     ],
     "specifications": {
       "brand": "Chloe",
@@ -3371,7 +3409,8 @@ var products = [
       "color_options": "Black, Brown, Tan, Cream",
       "gender": "Men",
       "brand_origin": "Italy"
-    }
+    },
+    "inventory": 100
   },
   {
     "id": 138,
@@ -3733,10 +3772,13 @@ var products = [
     "category": "entertainment",
     "retail price": 299.99,
     "sale price": 99.99,
-    "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=800",
+    "image": "https://i5.walmartimages.com/asr/524febbb-8253-4f8b-8244-decf90540eb9.6f896536388a05d3c6e7d9a2c9959aae.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
     "description": "A next-generation virtual reality headset bundle, delivering breathtaking immersion, haptic feedback, and 3D audio.",
     "images": [
-      "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=800"
+      "https://i5.walmartimages.com/asr/524febbb-8253-4f8b-8244-decf90540eb9.6f896536388a05d3c6e7d9a2c9959aae.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/71257da3-f206-40ad-b3df-1e1be19561fa.f10ed899ae0af6a8db30a25265214e79.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/ab381bdd-03ef-4a1f-a792-fc4d7b48b255.a17b2591729885d32e253b30c184fa86.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/230721e8-7bfa-4c2b-b78d-80aaf80bfb02.bde5f6d355d690ba102e4a674313f610.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
     ],
     "specifications": {
       "brand": "Sony",
@@ -3746,7 +3788,8 @@ var products = [
       "controllers": "2x VR Sense Controllers included",
       "connectivity": "USB-C",
       "warranty": "1 Year Limited Warranty"
-    }
+    },
+    "inventory": 100
   },
   {
     "id": 153,
