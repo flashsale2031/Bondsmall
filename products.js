@@ -3382,7 +3382,7 @@ var products = [
   {
     "id": 134,
     "name": "Men's Armani Cashmere Sweater",
-    "category": "accessories",
+    "category": "men",
     "retail price": 2499.99,
     "sale price": 1299.99,
     "image": "https://editorialist.com/thumbnails/600/2026/5/042/891/963/42891963~brown_1779977546165_0.webp",
