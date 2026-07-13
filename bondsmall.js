@@ -761,7 +761,7 @@
 
         preloadVisibleImages(pageProducts);
 
-        const luxuryBrands = ["dolce & gabbana", "louis vuitton", "yves saint laurent", "gucci", "prada", "hermes", "hermés", "fendi", "chanel", "dior", "abercrombie & fitch", "bathing ape", "bathing apes", "michael kors", "rolex", "patek philippe", "marc jacobs", "coach", "chloe", "givenchy", "burberry", "ugg", "mcm", "ferragamo", "true religion", "guess", "lacoste", "versace", "celine", "tommy hilfiger", "us mint"];
+        const luxuryBrands = ["dolce & gabbana", "louis vuitton", "maison margiela", "yves saint laurent", "gucci", "prada", "hermes", "hermés", "fendi", "chanel", "dior", "abercrombie & fitch", "bathing ape", "bathing apes", "michael kors", "rolex", "patek philippe", "marc jacobs", "coach", "chloe", "givenchy", "burberry", "ugg", "mcm", "ferragamo", "true religion", "guess", "lacoste", "versace", "celine", "tommy hilfiger", "us mint"];
 
         productGrid.innerHTML = pageProducts.map((product, index) => {
             const imageSrc = optimizeGridImageUrl(product.image);
