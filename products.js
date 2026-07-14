@@ -1988,16 +1988,10 @@ var products = [
     "description": "A refined leather handbag from Burberry with a structured silhouette and spacious compartments.",
     "images": [
       "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5499473_100296_m",
-      "https://media.neimanmarcus.com/f_auto",
-      "q_auto:low",
-      "ar_4:5",
-      "c_fill",
-      "dpr_2.0",
-      "w_420/01/nm_5499473_100296_z",
-      "w_420/01/nm_5499473_100296_a",
-      "w_420/01/nm_5499473_100296_h",
-      "w_420/01/nm_5499473_100296_b",
-      "w_420/01/nm_5499473_100296_c"
+      "https://cdn-images.farfetch-contents.com/32/55/06/24/32550624_62919687_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/32/55/06/24/32550624_62919719_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/32/55/06/24/32550624_62919658_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/32/55/06/24/32550624_62919664_1000.jpg"
     ],
     "specifications": {
       "brand": "Burberry",
@@ -2152,8 +2146,7 @@ var products = [
     ],
     "specifications": {
       "brand": "True Religion",
-      "material": "Premium construction material",
-      "size": "One size fits all"
+      "material": "Premium construction material"
     },
     "sku": "BM-0085",
     "productType": "Snapback",
@@ -3485,11 +3478,7 @@ var products = [
     "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_4103480_100168_m",
     "description": "A redefined leather handbag from Chloe with a structured silhouette and spacious compartments.",
     "images": [
-      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_4103480_100168_m",
-      "https://cdn-images.farfetch-contents.com/32/55/06/24/32550624_62919687_1000.jpg",
-      "https://cdn-images.farfetch-contents.com/32/55/06/24/32550624_62919719_1000.jpg",
-      "https://cdn-images.farfetch-contents.com/32/55/06/24/32550624_62919658_1000.jpg",
-      "https://cdn-images.farfetch-contents.com/32/55/06/24/32550624_62919664_1000.jpg"
+      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_4103480_100168_m"
     ],
     "specifications": {
       "brand": "Chloe",
@@ -4101,8 +4090,7 @@ var products = [
     ],
     "specifications": {
       "brand": "True Religion",
-      "material": "Linen",
-      "size": "One size fits all"
+      "material": "Linen"
     },
     "sku": "BM-0160",
     "productType": "Snapback",
