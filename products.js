@@ -2152,7 +2152,8 @@ var products = [
     ],
     "specifications": {
       "brand": "True Religion",
-      "material": "Premium construction material"
+      "material": "Premium construction material",
+      "size": "One size fits all"
     },
     "sku": "BM-0085",
     "productType": "Snapback",
@@ -4100,7 +4101,8 @@ var products = [
     ],
     "specifications": {
       "brand": "True Religion",
-      "material": "Linen"
+      "material": "Linen",
+      "size": "One size fits all"
     },
     "sku": "BM-0160",
     "productType": "Snapback",
