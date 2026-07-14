@@ -2006,7 +2006,7 @@ var products = [
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Men",
+      "gender": "Women",
       "brand_origin": "Italy"
     },
     "sku": "BM-0079",
@@ -2036,7 +2036,7 @@ var products = [
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Men",
+      "gender": "Women",
       "brand_origin": "Italy"
     },
     "sku": "BM-0080",
@@ -2395,7 +2395,7 @@ var products = [
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Men",
+      "gender": "Women",
       "brand_origin": "Italy"
     },
     "inventory": 100,
@@ -2495,7 +2495,7 @@ var products = [
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Men",
+      "gender": "Women",
       "brand_origin": "Italy"
     },
     "inventory": 100
@@ -2616,7 +2616,7 @@ var products = [
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Men",
+      "gender": "Women",
       "brand_origin": "Italy"
     },
     "inventory": 100
@@ -2963,10 +2963,18 @@ var products = [
     "category": "electronics",
     "retail price": 299.99,
     "sale price": 199.99,
-    "image": "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=800",
+    "image": "https://de2wfhoo6xqi5.cloudfront.net/size/400/ccc/53f/e70c3c2033c168ad579245b551613c2674.jpg",
     "description": "A high-performance all-in-one printer from HP, supporting printing, copying, scanning, and fast wireless setup.",
     "images": [
-      "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=800"
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/ccc/53f/e70c3c2033c168ad579245b551613c2674.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/403/375/06591467116fe8391462be84353058e718.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/0df/0f4/c2317c681c64b248343f85c5f150ebf48b.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/034/650/748f94a2291111befe45d0254f5102ec94.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/234/4a3/72760fc3b26f753358050b6fbf63b38d62.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/234/f11/480c1714da95ca98750fbef96c23180954.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/270/06f/80c35ab8b35b62b67222b66a55b8bcd256.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/494/071/93a569ddd42bd4b7708b657e6466a96c14.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/564/c3f/d35370fdfe8dea17427d96d098c801c100.jpg"
     ],
     "specifications": {
       "brand": "HP",
@@ -2976,7 +2984,9 @@ var products = [
       "max_resolution": "4800 x 1200 dpi",
       "paper_capacity": "250 sheets",
       "warranty": "1 Year Limited Hardware Warranty"
-    }
+    },
+    "productType": "Printer",
+    "inventory": 100
   },
   {
     "id": 118,
@@ -3052,7 +3062,7 @@ var products = [
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Men",
+      "gender": "Women",
       "brand_origin": "USA"
     },
     "inventory": 100
@@ -3303,9 +3313,10 @@ var products = [
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Men",
+      "gender": "Women",
       "brand_origin": "Italy"
-    }
+    },
+    "inventory": 100
   },
   {
     "id": 131,
@@ -3493,7 +3504,7 @@ var products = [
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Men",
+      "gender": "Women",
       "brand_origin": "Italy"
     },
     "inventory": 100
@@ -3716,7 +3727,7 @@ var products = [
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Men",
+      "gender": "Women",
       "brand_origin": "Italy"
     },
     "inventory": 100
@@ -3968,5 +3979,87 @@ var products = [
       "warranty": "1 Year Limited Warranty"
     },
     "inventory": 100
+  },
+  {
+    "id": 156,
+    "name": "2025 United States DC Comic Wonder Woman $50 Gold Coin",
+    "category": "artandcollectibles",
+    "retail price": 5999.99,
+    "sale price": 3999.99,
+    "image": "https://i.ebayimg.com/images/g/RHsAAeSwx~hp0WgU/s-l1200.jpg",
+    "description": "Leaping into action, Wonder Woman™ is the next release in the Comic Art Coin and Medal Program, our groundbreaking celebration of comic book art as a uniquely American art form. A devoted warrior for peace and equality, see her newly minted in proof finish 24-karat gold coin, fine silver medals, and later in a three-medal set. This coin and these medals depict Wonder Woman’s strength and agility along with her constant pursuit of peace. Add one—or all—to your collection today!",
+    "images": [
+      "https://i.ebayimg.com/images/g/RHsAAeSwx~hp0WgU/s-l1200.jpg",
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwe1525999/images/hi-res/coin-programs/comic-art/25DWG_c.jpg?sw=1200&sh=1200&sm=fit",
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwe7ffc1d1/images/hi-res/coin-programs/comic-art/25DWG_b.jpg?sw=1200&sh=1200&sm=fit",
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwe509cdaf/images/hi-res/coin-programs/comic-art/25DWG_c%20v2.jpg?sw=1200&sh=1200&sm=fit",
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa70ea855/images/hi-res/coin-programs/comic-art/25DWG_e.jpg?sw=1200&sh=1200&sm=fit",
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwaac34f3a/images/hi-res/coin-programs/comic-art/25DWG_d.jpg?sw=1200&sh=1200&sm=fit"
+    ],
+    "specifications": {
+      "brand": "U.S. Mint",
+      "material": ".9999 gold",
+      "finish": "Proof",
+      "weight": "1/2 OZ",
+      "diameter": "1.063\"",
+      "edge": "Reeded",
+      "mint": "West Point",
+      "mint_mark": "W"
+    },
+    "sku": "BM-0156",
+    "productType": "Coin",
+    "inventory": 100,
+    "pre-owned price": 3499.99
+  },
+  {
+    "id": 157,
+    "name": "Mortal Kombat 11 XBOX XS",
+    "category": "entertainment",
+    "retail price": 59.99,
+    "sale price": 49.99,
+    "image": "https://target.scene7.com/is/image/Target/GUEST_c9dda879-9293-4ee0-84eb-042bc626d00b?wid=800&hei=800&qlt=80",
+    "description": "The definitive MK11 experience! Take control of Earthrealm's protectors in the game's TWO critically acclaimed, time-bending Story Campaigns as they race to stop Kronika from rewinding time and rebooting history. Friendships are tested, and new alliances forged, in the battle to save all of existence. MK11 Ultimate features the komplete 37-character roster, including new additions Rain, Mileena & Rambo.\nMortal Kombat 11 showcases every amusing friendship, gory fatality and soul-crushing fatal blow like never before. You'll be so close to the fight, you can feel it! Includes Mortal Kombat 11, Kombat Pack 1, Aftermath Expansion & Kombat Pack 2.",
+    "images": [
+      "https://target.scene7.com/is/image/Target/GUEST_c9dda879-9293-4ee0-84eb-042bc626d00b?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_d276c054-c4f1-4d6b-bb33-174f4b330718?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_1f346cf0-9421-42df-8080-5a44c5ce83d8?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_5ddc9070-457b-4caa-824b-bd45382ae2c6?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_f37a37f6-a572-48b9-90c7-d965dd96f644?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_a8236379-92ab-41af-81c2-28ae06e22916?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_18ab24be-e8ca-42c9-953d-5f8404bac09d?wid=800&hei=800&qlt=80"
+    ],
+    "specifications": {
+      "brand": "NetheRealms",
+      "age_rating": "M- Mature",
+      "multiplayer": "1-4"
+    },
+    "sku": "BM-0157",
+    "productType": "Video Game",
+    "inventory": 100
+  },
+  {
+    "id": 158,
+    "name": "Nintendo Switch OLED",
+    "category": "entertainment",
+    "retail price": 599.99,
+    "sale price": 399.99,
+    "image": "https://target.scene7.com/is/image/Target/GUEST_9a3c8a89-8104-41fa-8699-ded1ea81dc15?wid=800&hei=800&qlt=80",
+    "description": "Play on your TV at home or pick up and play in handheld mode on a vivid 7-inch OLED screen with the Nintendo Switch™ – OLED Model system. The system also features 64 GB of internal storage, enhanced audio, a wide, adjustable stand, and a dock with a wired LAN port.\n \nEnjoy three modes in one system\nTV mode: Connect your system to the TV using the included dock to enjoy a traditional gaming experience in HD.",
+    "images": [
+      "https://target.scene7.com/is/image/Target/GUEST_9a3c8a89-8104-41fa-8699-ded1ea81dc15?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_a659abce-259a-472a-af07-43f1f0c4d1ab?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_376e0872-0ea2-4cbe-8e68-212cc3d16901?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_37434913-04ac-407b-b468-c582f37cf614?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_dc2a6675-763f-4225-8647-299aefd203d7?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_b7a705a3-a759-4ca7-b4fb-20c68d105cef?wid=800&hei=800&qlt=80"
+    ],
+    "specifications": {
+      "brand": "Nintendo",
+      "model": "Switch OLED"
+    },
+    "sku": "BM-0158",
+    "productType": "Game Console",
+    "inventory": 100,
+    "pre-owned price": 299.99
   }
 ];
