@@ -4077,7 +4077,7 @@ var products = [
   },
   {
     "id": 160,
-    "name": "Men's True Religion Horseshoe Logo Trucker Hat",
+    "name": "Men's True Religion Alt Logo Trucker Hat",
     "category": "accessories",
     "retail price": 79.99,
     "sale price": 29.99,
