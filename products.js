@@ -192,7 +192,6 @@ var products = [
     "images": [
       "https://www.victoriassecret.com.au/dw/image/v2/BLPL_PRD/on/demandware.static/-/Sites-pink-master-catalog/default/dw48288871/large/112629647KFJ_OF_F.jpg?sw=3000&sh=3000&sm=fit",
       "https://www.victoriassecret.com/p/874x1165/png/zz/25/12/23/02/112629647KFJ_OM_S.jpg",
-      "https://images.unsplash.com/photo-1519340241574-2cec6aef0c01?w=800",
       "https://m.media-amazon.com/images/I/71Gx7PTQBXL._AC_SL1500_.jpg",
       "https://www.victoriassecret.com.au/dw/image/v2/BLPL_PRD/on/demandware.static/-/Sites-pink-master-catalog/default/dw5dcae484/large/112629647KFJ_OM_B.jpg?sw=3000&sh=3000&sm=fit"
     ],
