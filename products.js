@@ -1026,7 +1026,9 @@ var products = [
     "description": "A premium knit with luxury finish and feel.",
     "images": [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwHj0TR7IPCqvJIHJLbLj938kBKS02a0BncQ&s",
-      "https://images.stockx.com/images/Nike-Sportswear-Kids-Club-Fleece-Pullover-Hoodie-University-Red-2.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1674511397"
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQABVho5eU5jwGaGnBhDQdelNF5W6fVSQ9nB8R_LrnOiX5zKjtqMpKkbAYAX50eOZYT3-LdS5hUiC5baXM9_OAqoIQQ0b1tPV912PSzy99oOnbMj8ZwnkOU",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS6ory00ZtOrNWAQ28gWKZHrQe1biMsatOdpl0Ck8v8s11oB2EJOFbaOfLpHyt5jWcLu4DgJcVOwlJlHaFlHZ03EUURXCzJSKnGnYu27cLk-WhSdjmLCo5O",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS59GRZ2R_dv4M-nM0bBL8bFAKLO3Z7QzBs5-zrQin-1AtIiXgBOJ0RMrRWmUqFeRXJj-9gSLlh-feZh3OVp1tdNrJa5PMoE_AqQ7KO-bIP"
     ],
     "specifications": {
       "brand": "Gucci",
@@ -1999,10 +2001,10 @@ var products = [
     ],
     "specifications": {
       "brand": "Burberry",
-      "material": "100% Calfskin Saffiano Leather",
+      "material": "100% Leather",
       "dimensions": "11.0in x 7.5in x 4.0in",
-      "weight": "1.2 lbs",
-      "closure_type": "Magnetic flap closure",
+      "weight": "1.1 lbs",
+      "closure_type": "Chain latch closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
       "gender": "Women",
@@ -2140,15 +2142,13 @@ var products = [
     "category": "accessories",
     "retail price": 79.99,
     "sale price": 19.99,
-    "image": "https://media.truereligion.com/image/upload/t_kiosk_large,e_sharpen:70/f_auto,q_auto/tr4398_1001_dtl4",
+    "image": "https://sites.google.com/u/0/sitesv-images-rt/ACHe0d1WGmDaKtFDMviSNL5wLG_YvV1fWw5mwg9fMSV9eNnjFQlyN_VliRS7n6PsSuHRUhfMrwJH410_0ZPMTArcUZsoYPH7KBVLdcqUzZjmRgrmkDmCugkwHHQdcBOqs2V-lFzlQ2MaAE12NQy-wcfFfvtTM6irhgX0zUrNTp8UFSxq8jHGklAmW8g-omBz_BVLMsVOS6rHciaTid3f_RRs8RknPbVyKtTTeqi6zwZRlec=w1280",
     "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
     "images": [
-      "https://media.truereligion.com/image/upload/t_kiosk_large,e_sharpen:70/f_auto,q_auto/tr4398_1001_dtl4",
-      "https://media.truereligion.com/image/upload/t_kiosk_large",
-      "e_sharpen:70/f_auto",
-      "q_auto/tr4398_1001_frt1",
-      "q_auto/tr4398_1001_dtl6",
-      "q_auto/tr4398_1001_dtl5"
+      "https://sites.google.com/u/0/sitesv-images-rt/ACHe0d1WGmDaKtFDMviSNL5wLG_YvV1fWw5mwg9fMSV9eNnjFQlyN_VliRS7n6PsSuHRUhfMrwJH410_0ZPMTArcUZsoYPH7KBVLdcqUzZjmRgrmkDmCugkwHHQdcBOqs2V-lFzlQ2MaAE12NQy-wcfFfvtTM6irhgX0zUrNTp8UFSxq8jHGklAmW8g-omBz_BVLMsVOS6rHciaTid3f_RRs8RknPbVyKtTTeqi6zwZRlec=w1280",
+      "https://sites.google.com/u/0/sitesv-images-rt/ACHe0d3gUkQI0j48C3LHpGDeLIP71uw4kJxvAhrcfCIy93uy6IZFYNxB2H4f03HeYiUj0DUxIiBGhmM0Tlz0_osScM_yfL5Dc0psmBKy8gSXnkWVjxmZ_mU18Yhtl9o-cat_ZStHWz_uRmq9QYTY-8uZZuWl4AlC6hALESY9m4Rka5JjmUWeTpRbYzhYDKbaWr1dwYcvvLzSkK94008pCuxzBhK8y-p1qX_F3H-rtxx3=w1280",
+      "https://sites.google.com/u/0/sitesv-images-rt/ACHe0d3Jtz0xEiJWfvBUyLM2zkpLOxZxcRRVqlodKAgV1OOcp5vg1mdYejlWWIwBF4rR2KWLuRVT-ZkGsZkhzzWghsNLnOr2x19-tjE8UQd-f7sU0qnUfdUbpx93E2J5AnZlwO1Rvbyzc3I3mHI5e1CYle2oPX0F8uRpEMqDLheJ_PQURYjNPzS1zXG7Rr6VXiMUljjt4yf5I3UDQLD9eB-_Sr61JQ1bekpyjY-TFxzIPwA=w1280",
+      "https://sites.google.com/u/0/sitesv-images-rt/ACHe0d0-3ehD85YXJikwNy5znMJ_HgDvQvhihk-qUyp5-yQIaElUcBHb2RwFMUfYpsAwH0MzoLBDSfrT3s6jdD7gAfz81m5befaePpaObTNC06_Xl866NWy6ApOhhN8x9Rrlelp4XumDeSZZ8-bk6lA8TNMm4jsUeLvYMOION6UCJSlOPVQL7jIgiUHNA683oVzZTM5Hyzu-GqnEQxmXqMeNKCShV79bFdb8EilhDftshsA=w1280"
     ],
     "specifications": {
       "brand": "True Religion",
@@ -3479,34 +3479,31 @@ var products = [
     "id": 137,
     "name": "Women's Chloe Handbag",
     "category": "accessories",
-    "retail price": 2499.99,
+    "retail price": 2999.99,
     "sale price": 1129.99,
     "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_4103480_100168_m",
-    "description": "A refined leather handbag from Chloe with a structured silhouette and spacious compartments.",
+    "description": "A redefined leather handbag from Chloe with a structured silhouette and spacious compartments.",
     "images": [
       "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_4103480_100168_m",
-      "https://media.neimanmarcus.com/f_auto",
-      "q_auto:low",
-      "ar_4:5",
-      "c_fill",
-      "dpr_2.0",
-      "w_420/01/nm_4103480_100168_c",
-      "w_420/01/nm_4103480_100168_a",
-      "w_420/01/nm_4103480_100168_z",
-      "w_420/01/nm_4103480_100000_e"
+      "https://cdn-images.farfetch-contents.com/32/55/06/24/32550624_62919687_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/32/55/06/24/32550624_62919719_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/32/55/06/24/32550624_62919658_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/32/55/06/24/32550624_62919664_1000.jpg"
     ],
     "specifications": {
       "brand": "Chloe",
-      "material": "100% Calfskin Saffiano Leather",
+      "material": "100% Cream Leather",
       "dimensions": "11.0in x 7.5in x 4.0in",
-      "weight": "1.2 lbs",
-      "closure_type": "Magnetic flap closure",
+      "weight": "1.6 lbs",
+      "closure_type": "B clip closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
       "gender": "Women",
       "brand_origin": "Italy"
     },
-    "inventory": 100
+    "productType": "Handbag",
+    "inventory": 100,
+    "pre-owned price": 899.99
   },
   {
     "id": 138,
@@ -4012,7 +4009,7 @@ var products = [
   },
   {
     "id": 157,
-    "name": "Mortal Kombat 11 XBOX XS",
+    "name": "Mortal Kombat 11",
     "category": "entertainment",
     "retail price": 59.99,
     "sale price": 49.99,
@@ -4060,5 +4057,53 @@ var products = [
     "productType": "Game Console",
     "inventory": 100,
     "pre-owned price": 299.99
+  },
+  {
+    "id": 159,
+    "name": "XBOX Series X|S Controller",
+    "category": "entertainment",
+    "retail price": 99.99,
+    "sale price": 49.99,
+    "image": "https://target.scene7.com/is/image/Target/GUEST_fc9f79b6-0ce1-4ca5-aa25-3a61e939ca73?wid=750&qlt=80",
+    "description": "Experience the modernized design of the XBOX Wireless Controller in Carbon Black, featuring sculpted surfaces and refined geometry for enhanced comfort during gameplay. Stay on target with a hybrid D-pad and textured grip on the triggers, bumpers, and back-case. Seamlessly capture and share content such as screenshots, recordings, and more with the Share button. Connect using the USB-C port for direct plug and play to console and PC. Support for AA batteries is included on the rear. Get up to 40 hours of battery life. Plug in any compatible headset with the 3.5mm audio jack. Use the XBOX Accessories app to remap buttons and create custom controller profiles for your favorite games. Quickly pair with, play on, and switch between devices including XBOX Series X|S, XBOX One, Windows PCs, and Android and iOS phones and tablets.",
+    "images": [
+      "https://target.scene7.com/is/image/Target/GUEST_fc9f79b6-0ce1-4ca5-aa25-3a61e939ca73?wid=750&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_d381b499-a288-4112-bca2-8847c05b0419?wid=750&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_f381450b-796d-475e-b729-4a7fcd271db3?wid=750&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_98a4a3e9-f143-4aee-a434-51db26259376?wid=750&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_50b11b82-1c36-4105-a71d-9eba43cd6ace?wid=750&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_de278317-f0bf-47b2-9a1e-ab615e2b2e76?wid=750&qlt=80"
+    ],
+    "specifications": {
+      "brand": "Microsoft",
+      "weight": ".84 lbs",
+      "connection_type": "USB C",
+      "batteries": "AA"
+    },
+    "sku": "BM-0159",
+    "productType": "Controller",
+    "inventory": 100,
+    "pre-owned price": 29.99
+  },
+  {
+    "id": 160,
+    "name": "Men's True Religion Horseshoe Logo Trucker Hat",
+    "category": "accessories",
+    "retail price": 79.99,
+    "sale price": 29.99,
+    "image": "https://sites.google.com/u/0/sitesv-images-rt/ACHe0d3LvQ_cFV5CHRNvpbP8AOK6516OOQe3VgDQ66JrHx6VNzLsQTgcsW0ZPpTh6pWrrbCtBYUanvqpqWAisJSkXDMyEZ3E_kjp6aQ0TBTwuPptblD9aYnFsnSkGZL02RI42cdxGw1LFGQ1y1MbYiL2UTAMrblqoz7MxngVkLkeBHQSo71z-whL5Cd6JNcjIkZL4RbUcpRHvziXgsVchMnhXzVUIgzFGgmr4HvpE3NP=w1280",
+    "description": "Don’t forget to top off the look. The Logo Trucker Hat features contrast-colored panels and bold embroidered logos for a signature flex, while a snapback strap and breathable mesh backing keep it cool and comfortable for all-day wear.",
+    "images": [
+      "https://sites.google.com/u/0/sitesv-images-rt/ACHe0d3LvQ_cFV5CHRNvpbP8AOK6516OOQe3VgDQ66JrHx6VNzLsQTgcsW0ZPpTh6pWrrbCtBYUanvqpqWAisJSkXDMyEZ3E_kjp6aQ0TBTwuPptblD9aYnFsnSkGZL02RI42cdxGw1LFGQ1y1MbYiL2UTAMrblqoz7MxngVkLkeBHQSo71z-whL5Cd6JNcjIkZL4RbUcpRHvziXgsVchMnhXzVUIgzFGgmr4HvpE3NP=w1280",
+      "https://sites.google.com/u/0/sitesv-images-rt/ACHe0d2pog386Gec-cOuFhaKnuphKrfB6QGAL9-11U16u2n1w6sqeMIPwprMim_L6wzB-KPrg-vX5CQLYLl8KbsPg86n-E8DwrLQ1m1zFpd1tQ5xsZCGHIj_MfxWQBJCNjyNQogCQQlmXtWDwaBvOuzlt_scwXxICECa9aCjoGlUyLon3Byy_NAe_-cY8nWM_J2T7OJuVdJLHBWJnLfKbtaEI4jqIoeuCKDRwGeHNlzq6Gs=w1280",
+      "https://sites.google.com/u/0/sitesv-images-rt/ACHe0d2C88XoRLq5TfBkug1zUW4GqZAsSCZp-AFGxvHW8VQPenvR8MK-VpeKLqz936MIOihg4sGKOFT_-ZVSdj3G97hu_I8TcDPu3TVsvRvcOQWDLRiSjycTUbGmItZPCstjfrW8wx9TlGa3vmCo_gyjAV_urEyvXWySi21B_tSJ69PRDrM_kz6QLoBlkTrllh2_R1QrGCsJm2BHMddNtRchb65vVcnXB6REie42eyK3c7U=w1280"
+    ],
+    "specifications": {
+      "brand": "True Religion",
+      "material": "Linen"
+    },
+    "sku": "BM-0160",
+    "productType": "Snapback",
+    "inventory": 100
   }
 ];
