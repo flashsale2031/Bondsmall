@@ -2136,13 +2136,11 @@ var products = [
     "category": "accessories",
     "retail price": 79.99,
     "sale price": 19.99,
-    "image": "https://sites.google.com/u/0/sitesv-images-rt/ACHe0d1WGmDaKtFDMviSNL5wLG_YvV1fWw5mwg9fMSV9eNnjFQlyN_VliRS7n6PsSuHRUhfMrwJH410_0ZPMTArcUZsoYPH7KBVLdcqUzZjmRgrmkDmCugkwHHQdcBOqs2V-lFzlQ2MaAE12NQy-wcfFfvtTM6irhgX0zUrNTp8UFSxq8jHGklAmW8g-omBz_BVLMsVOS6rHciaTid3f_RRs8RknPbVyKtTTeqi6zwZRlec=w1280",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcReGDk-fOu0tz8U8vQNjD_oTW_eHTM2xnZ6qj9zr4Xf9e1W8UvnyYORtesYe0B892p_HO0PzfKCNnkoFIGrIKzsh_XvNPmFy3mm27YVAsEBczcyyTjpUpsE",
     "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
     "images": [
-      "https://sites.google.com/u/0/sitesv-images-rt/ACHe0d1WGmDaKtFDMviSNL5wLG_YvV1fWw5mwg9fMSV9eNnjFQlyN_VliRS7n6PsSuHRUhfMrwJH410_0ZPMTArcUZsoYPH7KBVLdcqUzZjmRgrmkDmCugkwHHQdcBOqs2V-lFzlQ2MaAE12NQy-wcfFfvtTM6irhgX0zUrNTp8UFSxq8jHGklAmW8g-omBz_BVLMsVOS6rHciaTid3f_RRs8RknPbVyKtTTeqi6zwZRlec=w1280",
-      "https://sites.google.com/u/0/sitesv-images-rt/ACHe0d3gUkQI0j48C3LHpGDeLIP71uw4kJxvAhrcfCIy93uy6IZFYNxB2H4f03HeYiUj0DUxIiBGhmM0Tlz0_osScM_yfL5Dc0psmBKy8gSXnkWVjxmZ_mU18Yhtl9o-cat_ZStHWz_uRmq9QYTY-8uZZuWl4AlC6hALESY9m4Rka5JjmUWeTpRbYzhYDKbaWr1dwYcvvLzSkK94008pCuxzBhK8y-p1qX_F3H-rtxx3=w1280",
-      "https://sites.google.com/u/0/sitesv-images-rt/ACHe0d3Jtz0xEiJWfvBUyLM2zkpLOxZxcRRVqlodKAgV1OOcp5vg1mdYejlWWIwBF4rR2KWLuRVT-ZkGsZkhzzWghsNLnOr2x19-tjE8UQd-f7sU0qnUfdUbpx93E2J5AnZlwO1Rvbyzc3I3mHI5e1CYle2oPX0F8uRpEMqDLheJ_PQURYjNPzS1zXG7Rr6VXiMUljjt4yf5I3UDQLD9eB-_Sr61JQ1bekpyjY-TFxzIPwA=w1280",
-      "https://sites.google.com/u/0/sitesv-images-rt/ACHe0d0-3ehD85YXJikwNy5znMJ_HgDvQvhihk-qUyp5-yQIaElUcBHb2RwFMUfYpsAwH0MzoLBDSfrT3s6jdD7gAfz81m5befaePpaObTNC06_Xl866NWy6ApOhhN8x9Rrlelp4XumDeSZZ8-bk6lA8TNMm4jsUeLvYMOION6UCJSlOPVQL7jIgiUHNA683oVzZTM5Hyzu-GqnEQxmXqMeNKCShV79bFdb8EilhDftshsA=w1280"
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcReGDk-fOu0tz8U8vQNjD_oTW_eHTM2xnZ6qj9zr4Xf9e1W8UvnyYORtesYe0B892p_HO0PzfKCNnkoFIGrIKzsh_XvNPmFy3mm27YVAsEBczcyyTjpUpsE",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRhhxJU-rNTvUYlDty1UmfXx09Wsqh5PuIgxikhGYpmvtiO6iZUnyQizmKRYdZgChokLJ_6s1SC6FOxmhshqHL_flfbD0xeN2P1FJUFA2cs3KIWaMVW1Kx9Lg"
     ],
     "specifications": {
       "brand": "True Religion",
@@ -2268,7 +2266,10 @@ var products = [
     "image": "https://watchxnyc.com/cdn/shop/files/watchxnyc-watch-default-title-patek-philippe-grand-complications-grandmaster-chime-black-time-calendar-diamond-dial-white-gold-reversible-case-leather-strap-49-4mm-6300-400g-001-31315235700917.jpg?v=1753988293&width=768",
     "description": "An exquisite luxury timepiece from Patek Philippe, featuring Swiss precision movement and high-grade stainless steel casing.",
     "images": [
-      "https://watchxnyc.com/cdn/shop/files/watchxnyc-watch-default-title-patek-philippe-grand-complications-grandmaster-chime-black-time-calendar-diamond-dial-white-gold-reversible-case-leather-strap-49-4mm-6300-400g-001-31315235700917.jpg?v=1753988293&width=768"
+      "https://watchxnyc.com/cdn/shop/files/watchxnyc-watch-default-title-patek-philippe-grand-complications-grandmaster-chime-black-time-calendar-diamond-dial-white-gold-reversible-case-leather-strap-49-4mm-6300-400g-001-31315235700917.jpg?v=1753988293&width=768",
+      "https://www.hourstriker.com/core/images/dbitems/medium/patek-philippe-grand-complications-grandmaster-chime-haute-joaillerie-6300400g-3-22-2024.webp",
+      "https://cdn.thewatchpages.com/app/uploads/2023/10/03170001/patek-philippe-grand-complications-grandmaster-chime-haute-joaillerie-6300400g-001-3.jpeg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Wg_fkW7imr7zYQZg4iacXphaRsZPE0h55Al_JTxHRVK95kHwgtjEOa4&s=10"
     ],
     "specifications": {
       "brand": "Patek Philippe",
