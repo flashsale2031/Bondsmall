@@ -4082,12 +4082,13 @@ var products = [
     "category": "accessories",
     "retail price": 79.99,
     "sale price": 29.99,
-    "image": "https://sites.google.com/u/0/sitesv-images-rt/ACHe0d3LvQ_cFV5CHRNvpbP8AOK6516OOQe3VgDQ66JrHx6VNzLsQTgcsW0ZPpTh6pWrrbCtBYUanvqpqWAisJSkXDMyEZ3E_kjp6aQ0TBTwuPptblD9aYnFsnSkGZL02RI42cdxGw1LFGQ1y1MbYiL2UTAMrblqoz7MxngVkLkeBHQSo71z-whL5Cd6JNcjIkZL4RbUcpRHvziXgsVchMnhXzVUIgzFGgmr4HvpE3NP=w1280",
+    "image": "https://www.dtlr.com/cdn/shop/files/true_20religion_TR5002042.jpg?v=1754925056",
     "description": "Don’t forget to top off the look. The Logo Trucker Hat features contrast-colored panels and bold embroidered logos for a signature flex, while a snapback strap and breathable mesh backing keep it cool and comfortable for all-day wear.",
     "images": [
-      "https://sites.google.com/u/0/sitesv-images-rt/ACHe0d3LvQ_cFV5CHRNvpbP8AOK6516OOQe3VgDQ66JrHx6VNzLsQTgcsW0ZPpTh6pWrrbCtBYUanvqpqWAisJSkXDMyEZ3E_kjp6aQ0TBTwuPptblD9aYnFsnSkGZL02RI42cdxGw1LFGQ1y1MbYiL2UTAMrblqoz7MxngVkLkeBHQSo71z-whL5Cd6JNcjIkZL4RbUcpRHvziXgsVchMnhXzVUIgzFGgmr4HvpE3NP=w1280",
-      "https://sites.google.com/u/0/sitesv-images-rt/ACHe0d2pog386Gec-cOuFhaKnuphKrfB6QGAL9-11U16u2n1w6sqeMIPwprMim_L6wzB-KPrg-vX5CQLYLl8KbsPg86n-E8DwrLQ1m1zFpd1tQ5xsZCGHIj_MfxWQBJCNjyNQogCQQlmXtWDwaBvOuzlt_scwXxICECa9aCjoGlUyLon3Byy_NAe_-cY8nWM_J2T7OJuVdJLHBWJnLfKbtaEI4jqIoeuCKDRwGeHNlzq6Gs=w1280",
-      "https://sites.google.com/u/0/sitesv-images-rt/ACHe0d2C88XoRLq5TfBkug1zUW4GqZAsSCZp-AFGxvHW8VQPenvR8MK-VpeKLqz936MIOihg4sGKOFT_-ZVSdj3G97hu_I8TcDPu3TVsvRvcOQWDLRiSjycTUbGmItZPCstjfrW8wx9TlGa3vmCo_gyjAV_urEyvXWySi21B_tSJ69PRDrM_kz6QLoBlkTrllh2_R1QrGCsJm2BHMddNtRchb65vVcnXB6REie42eyK3c7U=w1280"
+      "https://www.dtlr.com/cdn/shop/files/true_20religion_TR5002042.jpg?v=1754925056",
+      "https://www.dtlr.com/cdn/shop/files/true_20religion_TR5002043.jpg?v=1754925056",
+      "https://www.dtlr.com/cdn/shop/files/true_20religion_TR5002044.jpg?v=1754925056",
+      "https://www.dtlr.com/cdn/shop/files/true_20religion_TR5002045.jpg?v=1754925056"
     ],
     "specifications": {
       "brand": "True Religion",
