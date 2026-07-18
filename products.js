@@ -652,11 +652,12 @@ var products = [
     "id": 27,
     "name": "Random Year American Buffalo 1 OZ Gold $50 Coin",
     "category": "artandcollectibles",
-    "retail price": 5499.99,
-    "sale price": 3999.99,
+    "retail price": 7999.99,
+    "sale price": 4999.99,
     "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwf875f1a3/images/hi-res/coin-programs/American-Buffalo/26el_c.jpg?sw=1200&sh=1200&sm=fit",
     "description": "The rugged designs featured on the iconic Buffalo Nickel have never fallen out of favor with collectors who have proven time and time again their love for the romance of the Wild West that the coin epitomizes. The series ended in 1938 but was not forgotten. The design appears each year on the United States Mint's spectacular $50 Gold Buffalo coin, and now the 2026 Gold Buffalos are getting ready to rumble out of The Mint and stampede their way into your collection!",
     "images": [
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwf875f1a3/images/hi-res/coin-programs/American-Buffalo/26el_c.jpg?sw=1200&sh=1200&sm=fit",
       "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-obverse.jpg",
       "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-reverse.jpg",
       "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof.jpg",
@@ -674,17 +675,21 @@ var products = [
       "country_of_mint": "United States Mint (West Point)",
       "purity": ".9999 Fine Gold",
       "framed": "No"
-    }
+    },
+    "productType": "Coin",
+    "inventory": 78,
+    "pre-owned price": 3999.99
   },
   {
     "id": 28,
     "name": "2026 American Eagle 1 OZ Gold $50 Coin",
     "category": "artandcollectibles",
-    "retail price": 5249.99,
-    "sale price": 3749.99,
+    "retail price": 7499.99,
+    "sale price": 5799.99,
     "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw39628b9a/images/hi-res/coin-programs/American-Eagle/26eb_c.jpg?sw=1200&sh=1200&sm=fit",
     "description": "The 2026 American Eagle One Ounce Gold Proof Coin celebrates the 250th anniversary of our Nation's founding with this limited-edition release! Includes anti-counterfeit variable reeding. Struck at the United States Mint facility at West Point. Quantities are limited, don't miss this golden opportunity for this special one-year only edition!",
     "images": [
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw39628b9a/images/hi-res/coin-programs/American-Eagle/26eb_c.jpg?sw=1200&sh=1200&sm=fit",
       "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw9db3e08e/images/hi-res/coin-programs/American-Eagle/26eb_b.jpg?sw=1200&sh=1200&sm=fit",
       "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw061f3645/images/hi-res/coin-programs/American-Eagle/26eb_a.jpg?sw=1200&sh=1200&sm=fit",
       "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw581d899d/images/hi-res/coin-programs/American-Eagle/26eb_f.jpg?sw=1200&sh=1200&sm=fit",
@@ -701,7 +706,9 @@ var products = [
       "country_of_mint": "United States Mint (West Point)",
       "purity": ".9167 Gold (.9999 Fine Gold Content balance)",
       "framed": "No"
-    }
+    },
+    "inventory": 91,
+    "pre-owned price": 3749.99
   },
   {
     "id": 29,
@@ -1458,8 +1465,8 @@ var products = [
     "id": 59,
     "name": "2017 American Liberty 1 OZ Gold $100 Coin",
     "category": "artandcollectibles",
-    "retail price": 5499.99,
-    "sale price": 2999.99,
+    "retail price": 6499.99,
+    "sale price": 4999.99,
     "image": "https://www.pcgs.com/UserImages/category-545532-slot-2-obverse.jpg",
     "description": "The 2017 $100 American Liberty 225th Anniversary Gold Coin (1oz) was made to celerbate the 225th anniversary of the US Mint. The obverse depicts Lady Liberty with a crown of stars. The reverse features a fierce looking eagle mid flight. This coin is 1oz .9999 pure gold and was struck at West Point. Only 100,000 of these were ever minted.",
     "images": [
@@ -1478,7 +1485,8 @@ var products = [
       "finish": "Glistening Proof finish",
       "country_of_mint": "United States Mint (West Point)",
       "purity": ".9999 Fine Gold"
-    }
+    },
+    "pre-owned price": 3999.99
   },
   {
     "id": 60,
@@ -2801,7 +2809,7 @@ var products = [
     "name": "2025 DC Comic Batman Gold $50 Coin",
     "category": "artandcollectibles",
     "retail price": 5999.99,
-    "sale price": 3999.99,
+    "sale price": 4999.99,
     "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw8fda21fc/images/hi-res/coin-programs/comic-art/25DBG_c.jpg?sw=1200&sh=1200&sm=fit",
     "description": "From the shadows, the Dark Knight emerges as the second release in our Comic Art Coin Program. Batman is newly etched in a 99.9% 24-Karat gold proof coin.",
     "images": [
@@ -2818,7 +2826,10 @@ var products = [
       "country_of_mint": "United States Mint (West Point)",
       "edition": "Limited Edition Collection",
       "authenticity": "Certificate of Authenticity & Presentation Case included"
-    }
+    },
+    "productType": "Coin",
+    "inventory": 86,
+    "pre-owned price": 3999.99
   },
   {
     "id": 112,
@@ -3593,8 +3604,8 @@ var products = [
     "id": 142,
     "name": "2025 DC Comic Superman Gold $50 Coin",
     "category": "artandcollectibles",
-    "retail price": 4999.99,
-    "sale price": 3499.99,
+    "retail price": 5999.99,
+    "sale price": 4999.99,
     "image": "https://i5.walmartimages.com/seo/2025-W-50-1-2-oz-Proof-Superman-DC-Comics-Gold-Coin-w-Box-OGP_3223f0d2-51cf-4818-840f-1748ae1466db.373291d167476d253e4cc4281404ba4c.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
     "description": "An exceptional proof gold coin celebrating the Man of Steel. Professionally graded and encapsulated by U.S. Mint's approved comic art series.",
     "images": [
@@ -3611,7 +3622,9 @@ var products = [
       "country_of_mint": "United States Mint (West Point)",
       "edition": "Limited Edition Collection",
       "authenticity": "Certificate of Authenticity & Presentation Case included"
-    }
+    },
+    "inventory": 93,
+    "pre-owned price": 3999.99
   },
   {
     "id": 143,
@@ -3972,7 +3985,7 @@ var products = [
     "name": "2025 United States DC Comic Wonder Woman $50 Gold Coin",
     "category": "artandcollectibles",
     "retail price": 5999.99,
-    "sale price": 3999.99,
+    "sale price": 4999.99,
     "image": "https://i.ebayimg.com/images/g/RHsAAeSwx~hp0WgU/s-l1200.jpg",
     "description": "Leaping into action, Wonder Woman™ is the next release in the Comic Art Coin and Medal Program, our groundbreaking celebration of comic book art as a uniquely American art form. A devoted warrior for peace and equality, see her newly minted in proof finish 24-karat gold coin, fine silver medals, and later in a three-medal set. This coin and these medals depict Wonder Woman’s strength and agility along with her constant pursuit of peace. Add one—or all—to your collection today!",
     "images": [
@@ -3996,7 +4009,7 @@ var products = [
     "sku": "BM-0156",
     "productType": "Coin",
     "inventory": 100,
-    "pre-owned price": 3499.99
+    "pre-owned price": 3999.99
   },
   {
     "id": 157,
