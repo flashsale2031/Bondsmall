@@ -654,6 +654,7 @@ var products = [
     "category": "artandcollectibles",
     "retail price": 7999.99,
     "sale price": 4999.99,
+    "pre-owned price": 3999.99,
     "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwf875f1a3/images/hi-res/coin-programs/American-Buffalo/26el_c.jpg?sw=1200&sh=1200&sm=fit",
     "description": "The rugged designs featured on the iconic Buffalo Nickel have never fallen out of favor with collectors who have proven time and time again their love for the romance of the Wild West that the coin epitomizes. The series ended in 1938 but was not forgotten. The design appears each year on the United States Mint's spectacular $50 Gold Buffalo coin, and now the 2026 Gold Buffalos are getting ready to rumble out of The Mint and stampede their way into your collection!",
     "images": [
@@ -677,8 +678,8 @@ var products = [
       "framed": "No"
     },
     "productType": "Coin",
-    "inventory": 78,
-    "pre-owned price": 3999.99
+    "inventory": 78
+    
   },
   {
     "id": 28,
@@ -686,6 +687,7 @@ var products = [
     "category": "artandcollectibles",
     "retail price": 7499.99,
     "sale price": 5799.99,
+    "pre-owned price": 3749.99,
     "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw39628b9a/images/hi-res/coin-programs/American-Eagle/26eb_c.jpg?sw=1200&sh=1200&sm=fit",
     "description": "The 2026 American Eagle One Ounce Gold Proof Coin celebrates the 250th anniversary of our Nation's founding with this limited-edition release! Includes anti-counterfeit variable reeding. Struck at the United States Mint facility at West Point. Quantities are limited, don't miss this golden opportunity for this special one-year only edition!",
     "images": [
@@ -707,8 +709,8 @@ var products = [
       "purity": ".9167 Gold (.9999 Fine Gold Content balance)",
       "framed": "No"
     },
-    "inventory": 91,
-    "pre-owned price": 3749.99
+    "inventory": 91
+    
   },
   {
     "id": 29,
