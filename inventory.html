@@ -11,6 +11,11 @@
   :root {
     --good: #1f7a46;
     --warn: #8c2f39;
+    --accent: #d4a373;
+    --line: #d9ccbe;
+    --surface: #fffdf8;
+    --ink: #1f1a14;
+    --muted: #6b5f52;
   }
 
   body.modal-open {
@@ -42,25 +47,9 @@
     color: var(--muted);
   }
 
-  .publish-note {
-    margin: 0 0 0.9rem;
-    padding: 0.7rem 0.95rem;
-    border: 1px solid var(--line);
-    border-left: 4px solid var(--accent);
-    background: rgba(255, 253, 248, 0.9);
-    color: var(--muted);
-    font-size: 0.88rem;
-    line-height: 1.5;
-    border-radius: 6px;
-  }
-
-  .publish-note strong {
-    color: var(--ink);
-  }
-
   .toolbar {
     display: grid;
-    grid-template-columns: auto minmax(220px, 1fr) auto auto auto;
+    grid-template-columns: auto minmax(220px, 1fr) auto auto auto auto;
     gap: 0.75rem;
     align-items: center;
     padding: 0.9rem;
@@ -70,14 +59,14 @@
     margin-bottom: 0.75rem;
   }
 
-  .link-file-btn {
+  .btn {
     display: inline-flex;
     align-items: center;
     gap: 0.45rem;
     min-height: 42px;
     padding: 0 0.85rem;
     border-radius: 10px;
-    border: 1px solid #d9ccbe;
+    border: 1px solid var(--line);
     background: #fff;
     color: var(--ink);
     font: inherit;
@@ -88,54 +77,41 @@
     transition: background 0.15s ease, border-color 0.15s ease;
   }
 
-  .link-file-btn.is-linked {
-    border-color: #1f7a46;
-    color: #1f7a46;
-    background: #f0faf4;
-  }
-
-  .link-file-btn:hover {
+  .btn:hover {
     background: #f5ede2;
   }
 
-  .link-file-btn.is-linked:hover {
-    background: #e4f5ec;
+  .btn--primary {
+    background: var(--ink);
+    color: #fff;
+    border-color: var(--ink);
   }
 
-  .bulk-control {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    min-height: 42px;
-    padding: 0 0.85rem;
-    border: 1px solid #d9ccbe;
-    border-radius: 10px;
-    background: #fff;
-    font-weight: 800;
-    white-space: nowrap;
+  .btn--primary:hover {
+    background: #332b22;
   }
 
-  .bulk-control input {
-    width: 18px;
-    height: 18px;
-    accent-color: var(--accent);
+  .btn--github {
+    border-color: #24292e;
+    color: #24292e;
+  }
+
+  .btn--github.is-active {
+    background: #f6f8fa;
+    border-color: #1f7a46;
+    color: #1f7a46;
   }
 
   .toolbar-search {
     width: 100%;
     min-height: 42px;
     padding: 0 0.9rem;
-    border: 1px solid #d9ccbe;
+    border: 1px solid var(--line);
     border-radius: 10px;
     background: #fff;
     color: var(--ink);
     font: inherit;
     outline: none;
-  }
-
-  .toolbar-search:focus {
-    border-color: #1f1a14;
-    box-shadow: 0 0 0 3px rgba(31, 26, 20, 0.08);
   }
 
   .status {
@@ -158,8 +134,7 @@
     border-collapse: collapse;
   }
 
-  th,
-  td {
+  th, td {
     padding: 0.82rem 0.75rem;
     border-bottom: 1px solid var(--line);
     text-align: left;
@@ -167,74 +142,20 @@
   }
 
   th {
-    position: sticky;
-    top: 0;
-    z-index: 1;
     background: #f4eee5;
-    color: #3d342b;
     font-size: 0.82rem;
-    letter-spacing: 0.04em;
     text-transform: uppercase;
-  }
-
-  tbody tr:hover {
-    background: #fff8ed;
   }
 
   .product-img {
     width: 54px;
     height: 54px;
     object-fit: cover;
-    border: 1px solid var(--line);
     border-radius: 6px;
     background: #fff;
   }
 
-  .empty-row {
-    color: var(--muted);
-    text-align: center;
-  }
-
-  /* ── Row actions (Edit / Delete) ─────────────────── */
-  .actions-cell {
-    white-space: nowrap;
-  }
-
-  .row-actions {
-    display: flex;
-    gap: 0.4rem;
-  }
-
-  .row-action-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 34px;
-    padding: 0.4rem 0.75rem;
-    border-radius: 999px;
-    border: 1px solid #d9ccbe;
-    background: #fff;
-    color: var(--ink);
-    font-size: 0.82rem;
-    font-weight: 800;
-    cursor: pointer;
-    transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
-  }
-
-  .row-action-btn:hover {
-    background: #f5ede2;
-  }
-
-  .row-action-btn--danger {
-    color: var(--warn);
-    border-color: #e2b9bd;
-  }
-
-  .row-action-btn--danger:hover {
-    background: #fbeef0;
-  }
-
-  /* ── Add Product modal ─────────────────────────── */
+  /* ── Modal Styles ─────────────────────────── */
   .modal-overlay {
     position: fixed;
     inset: 0;
@@ -252,10 +173,9 @@
 
   .modal-panel {
     width: min(920px, 100%);
-    max-height: min(92vh, 900px);
+    max-height: 90vh;
     overflow: auto;
     background: var(--surface);
-    border: 1px solid var(--line);
     border-radius: 14px;
     box-shadow: 0 24px 70px rgba(28, 27, 26, 0.28);
   }
@@ -263,138 +183,77 @@
   .modal-head {
     position: sticky;
     top: 0;
-    z-index: 2;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1rem;
-    padding: 1rem clamp(1rem, 3vw, 1.5rem);
+    padding: 1rem 1.5rem;
     background: rgba(255, 253, 248, 0.96);
     border-bottom: 1px solid var(--line);
   }
 
-  .modal-title {
-    margin: 0;
-    font-size: clamp(1.4rem, 3vw, 2rem);
-    letter-spacing: 0;
-  }
-
-  .modal-actions {
-    display: flex;
-    align-items: center;
-    gap: 0.55rem;
-  }
-
-  .modal-close {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 42px;
-    height: 42px;
-    border-radius: 50%;
-    border: 1px solid #d9ccbe;
-    background: #fff;
-    color: var(--ink);
-    font-size: 1.25rem;
-    cursor: pointer;
-  }
-
   .modal-panel form {
-    padding: 1.25rem clamp(1rem, 3vw, 1.5rem) 1.5rem;
+    padding: 1.5rem;
   }
 
   .form-grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-  }
-
-  .field {
-    display: grid;
-    gap: 0.4rem;
   }
 
   .field--wide {
     grid-column: 1 / -1;
   }
 
-  .field label,
-  .group-label {
+  .field label {
     font-size: 0.84rem;
     font-weight: 900;
-    letter-spacing: 0.04em;
     text-transform: uppercase;
+    display: block;
+    margin-bottom: 0.4rem;
   }
 
-  .modal-panel input,
-  .modal-panel textarea,
-  .modal-panel select {
+  input, select, textarea {
     width: 100%;
-    min-height: 44px;
-    padding: 0.72rem 0.9rem;
+    padding: 0.75rem;
     border-radius: 8px;
-    border: 1px solid #d4c8b9;
-    background: #fffdf8;
-    color: var(--ink);
-    font: inherit;
-    outline: none;
-  }
-
-  .modal-panel input:focus,
-  .modal-panel textarea:focus,
-  .modal-panel select:focus {
-    border-color: #1f1a14;
-    box-shadow: 0 0 0 3px rgba(31, 26, 20, 0.08);
-  }
-
-  .modal-panel textarea {
-    min-height: 96px;
-    resize: vertical;
-    line-height: 1.45;
-  }
-
-  .specifications {
-    display: grid;
-    gap: 0.75rem;
-  }
-
-  .spec-row {
-    display: grid;
-    grid-template-columns: minmax(120px, 0.75fr) minmax(180px, 1.25fr) auto;
-    gap: 0.6rem;
-    align-items: center;
-  }
-
-  .spec-remove {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 42px;
-    height: 42px;
-    border-radius: 50%;
-    border: 1px solid #d9ccbe;
+    border: 1px solid var(--line);
     background: #fff;
-    color: var(--ink);
-    font-size: 1.25rem;
+    font: inherit;
+  }
+
+  .upload-btn {
+    padding: 0.5rem 0.75rem;
+    background: #f4eee5;
+    border: 1px solid var(--line);
+    border-radius: 6px;
     cursor: pointer;
+    margin-bottom: 0.4rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
+  /* ── GitHub Config Panel ─────────────────────────── */
+  .github-config {
+    display: none;
+    padding: 1.5rem;
+    background: #f6f8fa;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .github-config.is-open {
+    display: block;
+  }
+
+  .github-config h3 {
+    margin-top: 0;
   }
 
   @media (max-width: 780px) {
-    .toolbar,
-    .page-head,
-    .form-grid,
-    .spec-row {
+    .toolbar, .form-grid {
       grid-template-columns: 1fr;
-    }
-
-    .toolbar {
-      align-items: stretch;
-    }
-
-    .modal-actions,
-    .toolbar {
-      flex-wrap: wrap;
-      justify-content: flex-end;
     }
   }
 </style>
@@ -402,62 +261,12 @@
 <body>
   <header class="header">
     <div class="header-left">
-      <button class="menu-btn" id="menu-btn" aria-label="Open category menu" aria-expanded="false" aria-controls="cat-drawer-overlay">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </button>
-      <a href="/" aria-label="Bonds Mall home" style="text-decoration:none;color:inherit;display:flex;">
-        <div class="logo">
-          <span class="logo-text logo-face logo-face--active">BONDS MALL</span>
-          <img class="logo-img logo-face" src="bonds-mall-logo.png" alt="Bonds Mall logo">
-        </div>
-      </a>
+      <div class="logo">BONDS MALL</div>
     </div>
-    <input type="search" id="header-search" placeholder="Search products..." aria-label="Search products">
     <div class="header-actions">
-      <a href="/" id="cart-btn" class="icon-btn" aria-label="Go to cart" style="text-decoration:none;color:inherit;">
-        <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-          <path d="M3 5h2l2.2 9.2a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.6L21 8H8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-          <circle cx="10" cy="19" r="1.6" fill="currentColor"/>
-          <circle cx="17" cy="19" r="1.6" fill="currentColor"/>
-        </svg>
-        <span>Cart</span>
-      </a>
-      <a href="/" id="account-btn" class="icon-btn" aria-label="Go to account" style="text-decoration:none;color:inherit;">
-        <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-          <circle cx="12" cy="8" r="3.4" fill="none" stroke="currentColor" stroke-width="1.8"/>
-          <path d="M5 20c.9-3.2 3.8-5.1 7-5.1s6.1 1.9 7 5.1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
-        </svg>
-        <span>Account</span>
-      </a>
+      <button class="btn btn--github" id="githubConfigBtn">GitHub Sync</button>
     </div>
   </header>
-
-  <!-- Category Slide Drawer (shared with the rest of the site) -->
-  <div id="cat-drawer-overlay" class="cat-drawer-overlay" role="dialog" aria-modal="true" aria-label="Category Menu" aria-hidden="true">
-    <div class="cat-drawer-backdrop" id="cat-drawer-backdrop"></div>
-    <nav class="cat-drawer" id="cat-drawer">
-      <div class="cat-drawer-header">
-        <span class="cat-drawer-title" style="display:flex;align-items:center;gap:10px;"><img src="bonds-mall-logo.png" alt="Bonds Mall logo" style="height:58px;width:auto;object-fit:contain;filter:brightness(0) invert(1);flex-shrink:0;">Categories</span>
-        <button class="cat-drawer-close" id="cat-drawer-close" aria-label="Close category menu">&#x2715;</button>
-      </div>
-      <ul class="cat-drawer-list" role="list">
-        <li><a class="cat-drawer-item" href="/" style="text-decoration:none;">Shop All</a></li>
-        <li><a class="cat-drawer-item" href="/?category=accessories" style="text-decoration:none;">Accessories</a></li>
-        <li><a class="cat-drawer-item" href="/?category=artandcollectibles" style="text-decoration:none;">Art &amp; Collectibles</a></li>
-        <li><a class="cat-drawer-item" href="/?category=electronics" style="text-decoration:none;">Electronics</a></li>
-        <li><a class="cat-drawer-item" href="/?category=entertainment" style="text-decoration:none;">Entertainment</a></li>
-        <li><a class="cat-drawer-item" href="/?category=homeandappliances" style="text-decoration:none;">Home &amp; Appliances</a></li>
-        <li><a class="cat-drawer-item" href="/?category=jewelry" style="text-decoration:none;">Jewelry</a></li>
-        <li><a class="cat-drawer-item" href="/?category=men" style="text-decoration:none;">Men&#x27;s</a></li>
-        <li><a class="cat-drawer-item" href="/?category=women" style="text-decoration:none;">Women&#x27;s</a></li>
-      </ul>
-      <div class="cat-drawer-footer">
-        <div class="cat-drawer-footer-logo">BONDS MALL</div>
-      </div>
-    </nav>
-  </div>
 
   <main class="page">
     <div class="page-head">
@@ -467,33 +276,54 @@
       </div>
     </div>
 
-
-
-    <div class="toolbar">
-      <label class="bulk-control" for="bulkSelectAll">
-        <input type="checkbox" id="bulkSelectAll" aria-label="Select all products" />
-        Bulk Actions
-      </label>
-      <input type="search" id="bulkSearch" class="toolbar-search" placeholder="Search inventory..." aria-label="Search inventory" />
-      <button class="link-file-btn" type="button" id="linkFileBtn" title="Link products.js for live saving">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>
-        <span id="linkFileBtnLabel">Link File</span>
-      </button>
-      <button class="secondary-btn" type="button" id="exportProductsBtn">Export</button>
-      <button class="primary-btn" type="button" id="addProductBtn">Add Product</button>
+    <!-- GitHub Configuration Panel -->
+    <div class="github-config" id="githubConfigPanel">
+      <h3>GitHub Synchronization Settings</h3>
+      <p style="font-size: 0.85rem; color: var(--muted); margin-bottom: 1rem;">
+        Provide a Personal Access Token (classic) with 'repo' scope to enable automatic saving to GitHub.
+      </p>
+      <div class="form-grid">
+        <div class="field">
+          <label for="ghToken">Personal Access Token</label>
+          <input type="password" id="ghToken" placeholder="ghp_xxxxxxxxxxxx">
+        </div>
+        <div class="field">
+          <label for="ghRepo">Repository (owner/repo)</label>
+          <input type="text" id="ghRepo" placeholder="username/repository">
+        </div>
+        <div class="field">
+          <label for="ghBranch">Branch</label>
+          <input type="text" id="ghBranch" value="main">
+        </div>
+        <div class="field">
+          <label for="ghPath">File Path</label>
+          <input type="text" id="ghPath" value="products.js">
+        </div>
+      </div>
+      <div style="margin-top: 1rem; display: flex; gap: 0.5rem;">
+        <button class="btn btn--primary" id="saveGhConfig">Save Config</button>
+        <button class="btn" id="testGhConn">Test Connection</button>
+      </div>
     </div>
 
-    <p class="status" id="statusMessage" role="status"></p>
+    <div class="toolbar">
+      <input type="search" id="bulkSearch" class="toolbar-search" placeholder="Search inventory..." />
+      <button class="btn" id="exportProductsBtn">Export</button>
+      <button class="btn btn--primary" id="addProductBtn">Add Product</button>
+    </div>
+
+    <p class="status" id="statusMessage"></p>
 
     <div class="table-wrap">
-      <table aria-label="Product Inventory Table">
+      <table>
         <thead>
           <tr>
             <th>Image</th>
             <th>Name</th>
             <th>Price</th>
             <th>Category</th>
-            <th>Product Type</th>
+            <th>Age Group</th>
+            <th>Gender</th>
             <th>Inventory</th>
             <th>SKU</th>
             <th>Actions</th>
@@ -504,647 +334,302 @@
     </div>
   </main>
 
-  <div class="modal-overlay" id="addProductModal" aria-hidden="true">
-    <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="addProductTitle">
+  <!-- Add/Edit Modal -->
+  <div class="modal-overlay" id="productModal">
+    <section class="modal-panel">
       <div class="modal-head">
-        <h2 class="modal-title" id="addProductTitle">Add A Product</h2>
+        <h2 class="modal-title" id="modalTitle">Add Product</h2>
         <div class="modal-actions">
-          <button class="primary-btn" id="saveProductBtn" type="submit" form="addProductForm" disabled>Save</button>
-          <button class="modal-close" id="closeProductModalBtn" type="button" aria-label="Close">x</button>
+          <button class="btn btn--primary" id="saveProductBtn" type="submit" form="productForm">Save</button>
+          <button class="btn" id="closeModalBtn">Cancel</button>
         </div>
       </div>
-      <form id="addProductForm" novalidate>
+      <form id="productForm">
         <div class="form-grid">
           <div class="field">
-            <label for="productIdInput">ID</label>
-            <input type="number" id="productIdInput" name="productId" min="1" step="1" required />
+            <label>ID</label>
+            <input type="number" name="productId" required>
           </div>
           <div class="field">
-            <label for="productSkuInput">SKU</label>
-            <input type="text" id="productSkuInput" name="sku" autocomplete="off" />
+            <label>SKU</label>
+            <input type="text" name="sku">
           </div>
           <div class="field field--wide">
-            <label for="productNameInput">Name</label>
-            <input type="text" id="productNameInput" name="productName" autocomplete="off" required />
+            <label>Name</label>
+            <input type="text" name="productName" required>
           </div>
           <div class="field">
-            <label for="productCategoryInput">Category</label>
-            <select id="productCategoryInput" name="category" required>
-              <option value="">Select category</option>
+            <label>Category</label>
+            <select name="category" required>
               <option value="accessories">Accessories</option>
-              <option value="artandcollectibles">Art &amp; Collectibles</option>
-              <option value="electronics">Electronics</option>
-              <option value="entertainment">Entertainment</option>
-              <option value="homeandappliances">Home &amp; Appliances</option>
-              <option value="jewelry">Jewelry</option>
               <option value="men">Men's</option>
               <option value="women">Women's</option>
+              <option value="electronics">Electronics</option>
+              <option value="homeandappliances">Home & Appliances</option>
+              <option value="jewelry">Jewelry</option>
             </select>
           </div>
           <div class="field">
-            <label for="productTypeInput">Product Type</label>
-            <input type="text" id="productTypeInput" name="productType" list="typeOptions" autocomplete="off" />
-            <datalist id="typeOptions"></datalist>
+            <label>Product Type</label>
+            <input type="text" name="productType">
           </div>
           <div class="field">
-            <label for="retailPriceInput">Retail Price</label>
-            <input type="number" id="retailPriceInput" name="retailPrice" min="0" step="0.01" required />
+            <label>Age Group</label>
+            <select name="ageGroup">
+              <option value="Adult">Adult</option>
+              <option value="Kids">Kids</option>
+            </select>
           </div>
           <div class="field">
-            <label for="salePriceInput">Sale Price</label>
-            <input type="number" id="salePriceInput" name="salePrice" min="0" step="0.01" required />
+            <label>Gender</label>
+            <select name="gender">
+              <option value="Unisex">Unisex</option>
+              <option value="Men">Men</option>
+              <option value="Women">Women</option>
+            </select>
           </div>
           <div class="field">
-            <label for="preownedPriceInput">Pre-Owned Price</label>
-            <input type="number" id="preownedPriceInput" name="preownedPrice" min="0" step="0.01" />
+            <label>Retail Price</label>
+            <input type="number" name="retailPrice" step="0.01" required>
           </div>
           <div class="field">
-            <label for="inventoryInput">Inventory</label>
-            <input type="number" id="inventoryInput" name="inventory" min="0" step="1" value="1" />
+            <label>Sale Price</label>
+            <input type="number" name="salePrice" step="0.01" required>
+          </div>
+          <div class="field">
+            <label>Inventory</label>
+            <input type="number" name="inventory" value="1">
           </div>
           <div class="field field--wide">
-            <label for="imageInput">Image URL</label>
-            <input type="url" id="imageInput" name="image" autocomplete="off" required />
+            <label>Main Image</label>
+            <button type="button" class="upload-btn" onclick="document.getElementById('mainUpload').click()">Upload Image</button>
+            <input type="file" id="mainUpload" accept="image/*" style="display:none" onchange="handleFile(this, 'imageInput')">
+            <input type="url" id="imageInput" name="image" placeholder="Image URL" required>
           </div>
           <div class="field field--wide">
-            <label for="imagesInput">Gallery URLs</label>
-            <input type="text" id="imagesInput" name="images" autocomplete="off" placeholder="https://example.com/1.jpg, https://example.com/2.jpg" />
+            <label>Gallery Images (comma separated)</label>
+            <button type="button" class="upload-btn" onclick="document.getElementById('galleryUpload').click()">Upload Image</button>
+            <input type="file" id="galleryUpload" accept="image/*" style="display:none" onchange="handleFile(this, 'imagesInput', true)">
+            <input type="text" id="imagesInput" name="images" placeholder="URL1, URL2">
           </div>
           <div class="field field--wide">
-            <label for="descriptionInput">Description</label>
-            <textarea id="descriptionInput" name="description" required></textarea>
-          </div>
-          <div class="field field--wide specifications">
-            <div class="group-label">Specifications</div>
-            <div id="specificationsRows"></div>
-            <button class="secondary-btn" id="addSpecificationBtn" type="button">Add Specification</button>
+            <label>Description</label>
+            <textarea name="description" required></textarea>
           </div>
         </div>
       </form>
     </section>
   </div>
 
-  <footer class="site-footer">
-    <div class="site-footer-top">
-      <div class="site-footer-brand-wrap">
-        <div class="site-footer-brand">BONDS MALL</div>
-        <p class="site-footer-tagline">Premium shopping with secure checkout and live customer support.</p>
-      </div>
-      <div class="site-footer-stickers" aria-label="Trust stickers">
-        <span class="sticker">Secure Payments</span>
-        <span class="sticker">24/7 Support</span>
-        <span class="sticker">Verified Store</span>
-      </div>
-    </div>
-    <nav class="site-footer-menu" aria-label="Footer menu">
-      <a href="customer-service.html"><span class="footer-icon" aria-hidden="true">CS</span>Customer Service</a>
-      <a href="faq.html"><span class="footer-icon" aria-hidden="true">FQ</span>FAQ</a>
-      <a href="dispute-center.html"><span class="footer-icon" aria-hidden="true">DC</span>Dispute Center</a>
-      <a href="careers.html"><span class="footer-icon" aria-hidden="true">CR</span>Careers</a>
-      <a href="partner.html"><span class="footer-icon" aria-hidden="true">PT</span>Partner</a>
-      <a href="affiliate.html"><span class="footer-icon" aria-hidden="true">AF</span>Affiliate</a>
-      <a href="link-bank-account.html"><span class="footer-icon" aria-hidden="true">BK</span>Link Bank Account</a>
-      <a href="profile.html"><span class="footer-icon" aria-hidden="true">PR</span>Profile</a>
-      <a href="order-history.html"><span class="footer-icon" aria-hidden="true">OH</span>Order History</a>
-      <a href="track-order.html"><span class="footer-icon" aria-hidden="true">TM</span>Track Order</a>
-      <a href="rewards.html"><span class="footer-icon" aria-hidden="true">RW</span>Rewards</a>
-      <a href="recentorders.html"><span class="footer-icon" aria-hidden="true">RO</span>Recent Orders</a>
-    </nav>
-    <div class="site-footer-bottom">2026 © Bonds Mall. All Rights Are Reserved.</div>
-  </footer>
-
   <script src="products.js"></script>
   <script>
-(() => {
-  "use strict";
+    let productList = window.products || [];
+    let editingIndex = null;
+    let ghConfig = JSON.parse(localStorage.getItem('ghConfig') || '{}');
 
-  let productList = [];
-  let editingIndex = null;
-  let productsFileHandle = null;  // File System Access API handle
-
-  const els = {
-    addProductBtn: document.getElementById("addProductBtn"),
-    addProductModal: document.getElementById("addProductModal"),
-    closeProductModalBtn: document.getElementById("closeProductModalBtn"),
-    saveProductBtn: document.getElementById("saveProductBtn"),
-    addProductForm: document.getElementById("addProductForm"),
-    productTableBody: document.getElementById("productTableBody"),
-    bulkSearch: document.getElementById("bulkSearch"),
-    siteSearch: document.getElementById("header-search"),
-    inventoryCount: document.getElementById("inventoryCount"),
-    statusMessage: document.getElementById("statusMessage"),
-    specificationsRows: document.getElementById("specificationsRows"),
-    addSpecificationBtn: document.getElementById("addSpecificationBtn"),
-    exportProductsBtn: document.getElementById("exportProductsBtn"),
-    linkFileBtn: document.getElementById("linkFileBtn"),
-    linkFileBtnLabel: document.getElementById("linkFileBtnLabel"),
-    typeOptions: document.getElementById("typeOptions"),
-    modalTitle: document.getElementById("addProductTitle")
-  };
-
-  function asNumber(value, fallback = 0) {
-    const parsed = Number(value);
-    return Number.isFinite(parsed) ? parsed : fallback;
-  }
-
-  function getFirstImage(product) {
-    if (Array.isArray(product.image)) return product.image.find(Boolean) || "";
-    return product.image || "";
-  }
-
-  function getRetailPrice(product) {
-    return asNumber(product["retail price"] ?? product.retailPrice ?? product.price);
-  }
-
-  function getSalePrice(product) {
-    return asNumber(product["sale price"] ?? product.salePrice ?? product.salePrice);
-  }
-
-  function getProductType(product) {
-    return product.productType || product.type || product.specifications?.product_type || product.specifications?.style || "";
-  }
-
-  function getSku(product) {
-    return product.sku || product.SKU || product.specifications?.sku || "";
-  }
-
-  function setStatus(message, tone = "neutral") {
-    els.statusMessage.textContent = message;
-    els.statusMessage.style.color = tone === "error" ? "var(--warn)" : tone === "success" ? "var(--good)" : "var(--muted)";
-  }
-
-  function loadScript(src) {
-    return new Promise((resolve, reject) => {
-      const script = document.createElement("script");
-      script.src = src;
-      script.onload = resolve;
-      script.onerror = () => reject(new Error(src));
-      document.head.appendChild(script);
-    });
-  }
-
-  async function loadProductsCatalog() {
-    if (Array.isArray(window.products)) {
-      productList = window.products;
-      return true;
-    }
-
-    // Fallback in case products.js didn't load from the <script> tag above
-    // (e.g. this file was opened from a different folder).
-    const productPaths = ["products.js", "../products.js"];
-
-    for (const path of productPaths) {
-      try {
-        await loadScript(path);
-        if (Array.isArray(window.products)) {
-          productList = window.products;
-          setStatus(`Loaded catalog from ${path}.`, "success");
-          return true;
-        }
-      } catch (error) {
-        // Try the next likely location.
-      }
-    }
-
-    productList = [];
-    setStatus("Could not load products.js. Make sure inventory.html is in the same folder as products.js, then refresh.", "error");
-    return false;
-  }
-
-  function renderTypeOptions() {
-    const types = [...new Set(productList.map(getProductType).filter(Boolean))].sort((a, b) => a.localeCompare(b));
-    els.typeOptions.innerHTML = types.map(type => `<option value="${escapeHtml(type)}"></option>`).join("");
-  }
-
-  function escapeHtml(value) {
-    return String(value)
-      .replaceAll("&", "&amp;")
-      .replaceAll("<", "&lt;")
-      .replaceAll(">", "&gt;")
-      .replaceAll('"', "&quot;")
-      .replaceAll("'", "&#039;");
-  }
-
-  function renderProducts(filter = "") {
-    const query = filter.trim().toLowerCase();
-    const filtered = productList
-      .filter(product => {
-        const haystack = [
-          product.name,
-          product.category,
-          getProductType(product),
-          getSku(product),
-          product.id
-        ].join(" ").toLowerCase();
-        return haystack.includes(query);
-      })
-      .sort((a, b) => String(a.name || "").localeCompare(String(b.name || "")));
-
-    els.inventoryCount.textContent = `${filtered.length} of ${productList.length} products`;
-
-    if (!filtered.length) {
-      els.productTableBody.innerHTML = `<tr><td class="empty-row" colspan="8">No products found.</td></tr>`;
-      return;
-    }
-
-    els.productTableBody.innerHTML = filtered.map(product => {
-      const retail = getRetailPrice(product);
-      const sale = getSalePrice(product);
-      const price = sale && sale !== retail
-        ? `$${sale.toFixed(2)}`
-        : `$${retail.toFixed(2)}`;
-      const idAttr = escapeHtml(String(product.id));
-      return `
-        <tr>
-          <td><img class="product-img" src="${escapeHtml(getFirstImage(product))}" alt="${escapeHtml(product.name || "Product image")}" loading="lazy"></td>
-          <td>${escapeHtml(product.name || "")}</td>
-          <td>${price}</td>
-          <td>${escapeHtml(product.category || "")}</td>
-          <td>${escapeHtml(getProductType(product))}</td>
-          <td>${product.inventory ?? ""}</td>
-          <td>${escapeHtml(getSku(product))}</td>
-          <td class="actions-cell">
-            <div class="row-actions">
-              <button class="row-action-btn" type="button" data-action="edit" data-id="${idAttr}">Edit</button>
-              <button class="row-action-btn row-action-btn--danger" type="button" data-action="delete" data-id="${idAttr}">Delete</button>
-            </div>
-          </td>
-        </tr>
-      `;
-    }).join("");
-  }
-
-  function findIndexById(id) {
-    return productList.findIndex(product => String(product.id) === String(id));
-  }
-
-  function getGalleryImages(product) {
-    const main = getFirstImage(product);
-    const fromImageField = Array.isArray(product.image) ? product.image.slice(1) : [];
-    const fromImagesField = Array.isArray(product.images) ? product.images : [];
-    const merged = [...fromImageField, ...fromImagesField].filter(Boolean);
-    return [...new Set(merged)].filter(img => img !== main);
-  }
-
-  function getNextProductId() {
-    return productList.reduce((max, product) => Math.max(max, asNumber(product.id)), 0) + 1;
-  }
-
-  function getNextSku() {
-    const nextId = getNextProductId();
-    return `BM-${String(nextId).padStart(4, "0")}`;
-  }
-
-  function openProductModal(index = null) {
-    editingIndex = index;
-    const isEdit = index !== null && productList[index];
-    const product = isEdit ? productList[index] : null;
-
-    els.addProductForm.reset();
-    els.specificationsRows.innerHTML = "";
-
-    if (isEdit) {
-      els.modalTitle.textContent = "Edit Product";
-      els.saveProductBtn.textContent = "Save Changes";
-
-      els.addProductForm.productId.value = product.id;
-      els.addProductForm.sku.value = getSku(product);
-      els.addProductForm.productName.value = product.name || "";
-      els.addProductForm.category.value = product.category || "";
-      els.addProductForm.productType.value = getProductType(product);
-      els.addProductForm.retailPrice.value = getRetailPrice(product) || "";
-      els.addProductForm.salePrice.value = getSalePrice(product) || "";
-      els.addProductForm.preownedPrice.value = product["pre-owned price"] ?? "";
-      els.addProductForm.inventory.value = product.inventory ?? "";
-      els.addProductForm.image.value = getFirstImage(product);
-      els.addProductForm.images.value = getGalleryImages(product).join(", ");
-      els.addProductForm.description.value = product.description || "";
-
-      const specEntries = Object.entries(product.specifications || {});
-      if (specEntries.length) {
-        specEntries.forEach(([key, value]) => addSpecificationRow(key, value));
-      } else {
-        addSpecificationRow("brand", "");
-        addSpecificationRow("material", "");
-      }
-    } else {
-      els.modalTitle.textContent = "Add A Product";
-      els.saveProductBtn.textContent = "Save";
-
-      els.addProductForm.productId.value = getNextProductId();
-      els.addProductForm.sku.value = getNextSku();
-      els.addProductForm.inventory.value = "1";
-      addSpecificationRow("brand", "");
-      addSpecificationRow("material", "");
-    }
-
-    updateSaveButton();
-    els.addProductModal.classList.add("is-open");
-    els.addProductModal.setAttribute("aria-hidden", "false");
-    document.body.classList.add("modal-open");
-    window.setTimeout(() => els.addProductForm.productName.focus(), 0);
-  }
-
-  function closeAddProductModal() {
-    els.addProductModal.classList.remove("is-open");
-    els.addProductModal.setAttribute("aria-hidden", "true");
-    document.body.classList.remove("modal-open");
-    editingIndex = null;
-  }
-
-  function addSpecificationRow(key = "", value = "") {
-    const row = document.createElement("div");
-    row.className = "spec-row";
-    row.innerHTML = `
-      <input type="text" class="spec-key" placeholder="Specification" value="${escapeHtml(key)}" autocomplete="off">
-      <input type="text" class="spec-value" placeholder="Detail" value="${escapeHtml(value)}" autocomplete="off">
-      <button class="spec-remove" type="button" aria-label="Remove specification">x</button>
-    `;
-    row.querySelector(".spec-remove").addEventListener("click", () => {
-      row.remove();
-      updateSaveButton();
-    });
-    row.addEventListener("input", updateSaveButton);
-    els.specificationsRows.appendChild(row);
-  }
-
-  function updateSaveButton() {
-    const form = els.addProductForm;
-    const hasRequired = [
-      form.productId.value,
-      form.productName.value,
-      form.category.value,
-      form.retailPrice.value,
-      form.salePrice.value,
-      form.image.value,
-      form.description.value
-    ].every(value => String(value).trim());
-
-    const hasSpec = [...els.specificationsRows.querySelectorAll(".spec-row")].some(row => {
-      return row.querySelector(".spec-key").value.trim() && row.querySelector(".spec-value").value.trim();
-    });
-
-    const duplicateId = productList.some((product, idx) => idx !== editingIndex && String(product.id) === String(form.productId.value.trim()));
-    els.saveProductBtn.disabled = !hasRequired || !hasSpec || duplicateId;
-
-    if (duplicateId) {
-      setStatus("A product with that ID already exists.", "error");
-    } else if (!els.statusMessage.textContent.includes("products.js")) {
-      setStatus("");
-    }
-  }
-
-  function normalizeSpecKey(key) {
-    return key.trim().toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "");
-  }
-
-  function gatherProductFromForm() {
-    const form = els.addProductForm;
-    const image = form.image.value.trim();
-    const gallery = form.images.value
-      .split(",")
-      .map(url => url.trim())
-      .filter(Boolean);
-    const images = [...new Set([image, ...gallery].filter(Boolean))];
-    const specifications = {};
-
-    els.specificationsRows.querySelectorAll(".spec-row").forEach(row => {
-      const key = normalizeSpecKey(row.querySelector(".spec-key").value);
-      const value = row.querySelector(".spec-value").value.trim();
-      if (key && value) specifications[key] = value;
-    });
-
-    const product = {
-      id: asNumber(form.productId.value, form.productId.value.trim()),
-      name: form.productName.value.trim(),
-      category: form.category.value.trim(),
-      "retail price": asNumber(form.retailPrice.value),
-      "sale price": asNumber(form.salePrice.value),
-      image,
-      description: form.description.value.trim(),
-      images,
-      specifications
+    const els = {
+      tableBody: document.getElementById('productTableBody'),
+      count: document.getElementById('inventoryCount'),
+      status: document.getElementById('statusMessage'),
+      modal: document.getElementById('productModal'),
+      form: document.getElementById('productForm'),
+      configPanel: document.getElementById('githubConfigPanel'),
+      configBtn: document.getElementById('githubConfigBtn')
     };
 
-    const sku = form.sku.value.trim();
-    const productType = form.productType.value.trim();
-    const inventory = form.inventory.value.trim();
-    const preownedPrice = form.preownedPrice.value.trim();
-
-    if (sku) product.sku = sku;
-    if (productType) product.productType = productType;
-    if (inventory !== "") product.inventory = asNumber(inventory);
-    if (preownedPrice !== "") product["pre-owned price"] = asNumber(preownedPrice);
-
-    return product;
-  }
-
-  function buildProductsJsSource() {
-    return `var products = ${JSON.stringify(productList, null, 2)};\n`;
-  }
-
-  // ── File System Access API: write directly to products.js on disk ──────────
-  const canAccessFS = typeof window.showOpenFilePicker === "function";
-
-  function updateLinkBtn() {
-    if (!els.linkFileBtn) return;
-    if (!canAccessFS) {
-      els.linkFileBtn.style.display = "none";
-      return;
-    }
-    if (productsFileHandle) {
-      els.linkFileBtn.classList.add("is-linked");
-      els.linkFileBtnLabel.textContent = "✓ Linked";
-      els.linkFileBtn.title = `Linked: ${productsFileHandle.name} — changes save automatically`;
-    } else {
-      els.linkFileBtn.classList.remove("is-linked");
-      els.linkFileBtnLabel.textContent = "Link File";
-      els.linkFileBtn.title = "Link products.js for live auto-saving";
-    }
-  }
-
-  async function pickProductsFile() {
-    if (!canAccessFS) return null;
-    try {
-      const [handle] = await window.showOpenFilePicker({
-        types: [{ description: "JavaScript", accept: { "text/javascript": [".js"] } }],
-        multiple: false
-      });
-      productsFileHandle = handle;
-      updateLinkBtn();
-      setStatus(`Linked to ${handle.name} — changes will now save automatically.`, "success");
-      return handle;
-    } catch (err) {
-      if (err.name !== "AbortError") {
-        setStatus("Could not access file: " + err.message, "error");
-      }
-      return null;
-    }
-  }
-
-  async function writeToLinkedFile() {
-    if (!productsFileHandle) return false;
-    try {
-      // Verify we still have write permission
-      const perm = await productsFileHandle.queryPermission({ mode: "readwrite" });
-      if (perm !== "granted") {
-        const req = await productsFileHandle.requestPermission({ mode: "readwrite" });
-        if (req !== "granted") {
-          setStatus("Write permission denied — use Export instead.", "error");
-          return false;
-        }
-      }
-      const writable = await productsFileHandle.createWritable();
-      await writable.write(buildProductsJsSource());
-      await writable.close();
-      return true;
-    } catch (err) {
-      // Handle stale handle (e.g. file moved/deleted)
-      productsFileHandle = null;
-      updateLinkBtn();
-      setStatus("Auto-save failed — file may have moved. Re-link it.", "error");
-      return false;
-    }
-  }
-
-  async function liveWrite(successLabel) {
-    if (!canAccessFS) {
-      // Fallback: browser doesn't support File System Access — just show export reminder
-      setStatus(successLabel + " Use Export to save products.js.", "success");
-      return;
-    }
-    if (!productsFileHandle) {
-      // First time — ask user to pick the file
-      setStatus("Pick your products.js file to enable live saving...", "neutral");
-      const handle = await pickProductsFile();
-      if (!handle) {
-        setStatus(successLabel + " Link a file to enable live saving.", "success");
-        return;
-      }
-    }
-    const wrote = await writeToLinkedFile();
-    if (wrote) {
-      setStatus(`${successLabel} ✓ products.js updated on disk.`, "success");
-    }
-  }
-
-  function downloadProductsFile() {
-    const blob = new Blob([buildProductsJsSource()], { type: "text/javascript" });
-    const link = document.createElement("a");
-    link.href = URL.createObjectURL(blob);
-    link.download = "products.js";
-    document.body.appendChild(link);
-    link.click();
-    link.remove();
-    URL.revokeObjectURL(link.href);
-    setStatus("products.js downloaded — replace the file on your hosting.", "success");
-  }
-
-  function syncWindowProducts() {
-    // Keep window.products in sync so other scripts see the latest list.
-    window.products = productList.slice();
-  }
-
-  async function saveProduct(event) {
-    event.preventDefault();
-    updateSaveButton();
-    if (els.saveProductBtn.disabled) return;
-
-    const product = gatherProductFromForm();
-    const wasEditingIndex = editingIndex;
-    const isEdit = wasEditingIndex !== null;
-    const previous = isEdit ? productList[wasEditingIndex] : null;
-
-    if (isEdit) {
-      productList[wasEditingIndex] = product;
-    } else {
-      productList.push(product);
-    }
-
-    syncWindowProducts();
-    renderTypeOptions();
-    renderProducts(els.bulkSearch.value || els.siteSearch.value);
-    closeAddProductModal();
-    const label = isEdit ? `"${product.name}" updated.` : `"${product.name}" added.`;
-    await liveWrite(label);
-  }
-
-  async function deleteProduct(id) {
-    const index = findIndexById(id);
-    if (index === -1) return;
-
-    const product = productList[index];
-    const confirmed = window.confirm(`Delete "${product.name || "this product"}"? This can't be undone.`);
-    if (!confirmed) return;
-
-    const removed = productList.splice(index, 1)[0];
-    syncWindowProducts();
-    renderTypeOptions();
-    renderProducts(els.bulkSearch.value || els.siteSearch.value);
-    await liveWrite(`"${removed.name}" deleted.`);
-  }
-
-  function wireEvents() {
-    els.addProductBtn.addEventListener("click", () => openProductModal(null));
-    els.closeProductModalBtn.addEventListener("click", closeAddProductModal);
-    els.addProductModal.addEventListener("click", event => {
-      if (event.target === els.addProductModal) closeAddProductModal();
-    });
-    document.addEventListener("keydown", event => {
-      if (event.key === "Escape" && els.addProductModal.classList.contains("is-open")) {
-        closeAddProductModal();
-      }
-    });
-
-    els.productTableBody.addEventListener("click", event => {
-      const btn = event.target.closest(".row-action-btn");
-      if (!btn) return;
-      const id = btn.dataset.id;
-      if (btn.dataset.action === "edit") {
-        const index = findIndexById(id);
-        if (index !== -1) openProductModal(index);
-      } else if (btn.dataset.action === "delete") {
-        deleteProduct(id);
-      }
-    });
-
-    els.addProductForm.addEventListener("input", updateSaveButton);
-    els.addProductForm.addEventListener("submit", saveProduct);
-    els.addSpecificationBtn.addEventListener("click", () => addSpecificationRow());
-    els.exportProductsBtn.addEventListener("click", downloadProductsFile);
-    if (els.linkFileBtn) {
-      els.linkFileBtn.addEventListener("click", async () => {
-        if (productsFileHandle) {
-          // Already linked — clicking again re-links (lets user pick a different file)
-          productsFileHandle = null;
-          updateLinkBtn();
-          setStatus("File unlinked. Click Link File to connect a new file.", "neutral");
+    function handleFile(input, targetId, isGallery = false) {
+      const file = input.files[0];
+      if (file) {
+        const target = document.getElementsByName(targetId)[0] || document.getElementById(targetId);
+        const path = `product_images/${file.name}`;
+        if (isGallery) {
+          target.value = target.value ? `${target.value}, ${path}` : path;
         } else {
-          await pickProductsFile();
+          target.value = path;
         }
-      });
+      }
     }
 
-    [els.bulkSearch, els.siteSearch].forEach(input => {
-      input.addEventListener("input", () => {
-        const value = input.value;
-        if (input === els.bulkSearch) els.siteSearch.value = value;
-        if (input === els.siteSearch) els.bulkSearch.value = value;
-        renderProducts(value);
-      });
-    });
-  }
+    function setStatus(msg, type = 'neutral') {
+      els.status.textContent = msg;
+      els.status.style.color = type === 'error' ? 'var(--warn)' : type === 'success' ? 'var(--good)' : 'var(--muted)';
+    }
 
-  async function init() {
-    wireEvents();
-    updateLinkBtn();
-    await loadProductsCatalog();
-    renderTypeOptions();
-    renderProducts();
-  }
+    function render() {
+      const query = document.getElementById('bulkSearch').value.toLowerCase();
+      const filtered = productList.filter(p => p.name.toLowerCase().includes(query));
+      els.count.textContent = `${filtered.length} products`;
+      els.tableBody.innerHTML = filtered.map((p, i) => `
+        <tr>
+          <td><img src="${Array.isArray(p.image) ? p.image[0] : p.image}" class="product-img"></td>
+          <td>${p.name}</td>
+          <td>$${(p['sale price'] || p['retail price']).toFixed(2)}</td>
+          <td>${p.category}</td>
+          <td>${p.age_group || 'Adult'}</td>
+          <td>${p.gender || 'Unisex'}</td>
+          <td>${p.inventory || 0}</td>
+          <td>${p.sku || ''}</td>
+          <td>
+            <button onclick="editProduct(${i})">Edit</button>
+            <button onclick="deleteProduct(${i})" style="color:var(--warn)">Delete</button>
+          </td>
+        </tr>
+      `).join('');
+    }
 
-  init();
-})();
+    function editProduct(i) {
+      editingIndex = i;
+      const p = productList[i];
+      document.getElementById('modalTitle').textContent = 'Edit Product';
+      const f = els.form;
+      f.productId.value = p.id;
+      f.sku.value = p.sku || '';
+      f.productName.value = p.name;
+      f.category.value = p.category;
+      f.productType.value = p.productType || '';
+      f.ageGroup.value = p.age_group || 'Adult';
+      f.gender.value = p.gender || 'Unisex';
+      f.retailPrice.value = p['retail price'];
+      f.salePrice.value = p['sale price'];
+      f.inventory.value = p.inventory || 1;
+      f.image.value = Array.isArray(p.image) ? p.image[0] : p.image;
+      f.images.value = (p.images || []).join(', ');
+      f.description.value = p.description;
+      els.modal.classList.add('is-open');
+    }
+
+    function deleteProduct(i) {
+      if (confirm('Delete this product?')) {
+        productList.splice(i, 1);
+        saveAndSync();
+      }
+    }
+
+    async function saveAndSync() {
+      render();
+      if (ghConfig.token && ghConfig.repo) {
+        await syncToGitHub();
+      } else {
+        setStatus('Saved locally. Connect GitHub for auto-sync.', 'neutral');
+      }
+    }
+
+    async function syncToGitHub() {
+      setStatus('Syncing to GitHub...', 'neutral');
+      const { token, repo, branch, path } = ghConfig;
+      const url = `https://api.github.com/repos/${repo}/contents/${path}`;
+      const content = `var products = ${JSON.stringify(productList, null, 2)};`;
+      
+      try {
+        // 1. Get current file SHA
+        const getRes = await fetch(`${url}?ref=${branch}`, {
+          headers: { 'Authorization': `token ${token}` }
+        });
+        
+        let sha = null;
+        if (getRes.ok) {
+          const data = await getRes.json();
+          sha = data.sha;
+        }
+
+        // 2. Update file
+        const putRes = await fetch(url, {
+          method: 'PUT',
+          headers: {
+            'Authorization': `token ${token}`,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            message: `Update inventory: ${new Date().toISOString()}`,
+            content: btoa(unescape(encodeURIComponent(content))),
+            sha: sha,
+            branch: branch
+          })
+        });
+
+        if (putRes.ok) {
+          setStatus('Successfully synced to GitHub!', 'success');
+        } else {
+          const err = await putRes.json();
+          throw new Error(err.message);
+        }
+      } catch (err) {
+        console.error(err);
+        setStatus(`GitHub Sync Error: ${err.message}`, 'error');
+      }
+    }
+
+    els.form.onsubmit = (e) => {
+      e.preventDefault();
+      const f = new FormData(els.form);
+      const data = {
+        id: Number(f.get('productId')),
+        sku: f.get('sku'),
+        name: f.get('productName'),
+        category: f.get('category'),
+        productType: f.get('productType'),
+        age_group: f.get('ageGroup'),
+        gender: f.get('gender'),
+        'retail price': Number(f.get('retailPrice')),
+        'sale price': Number(f.get('salePrice')),
+        inventory: Number(f.get('inventory')),
+        image: f.get('image'),
+        images: f.get('images').split(',').map(s => s.trim()).filter(Boolean),
+        description: f.get('description')
+      };
+
+      if (editingIndex !== null) productList[editingIndex] = data;
+      else productList.push(data);
+
+      els.modal.classList.remove('is-open');
+      saveAndSync();
+    };
+
+    els.configBtn.onclick = () => els.configPanel.classList.toggle('is-open');
+    
+    document.getElementById('saveGhConfig').onclick = () => {
+      ghConfig = {
+        token: document.getElementById('ghToken').value,
+        repo: document.getElementById('ghRepo').value,
+        branch: document.getElementById('ghBranch').value,
+        path: document.getElementById('ghPath').value
+      };
+      localStorage.setItem('ghConfig', JSON.stringify(ghConfig));
+      setStatus('GitHub configuration saved.', 'success');
+    };
+
+    document.getElementById('testGhConn').onclick = async () => {
+      const { token, repo } = ghConfig;
+      if (!token || !repo) return setStatus('Token and Repo required.', 'error');
+      setStatus('Testing connection...');
+      try {
+        const res = await fetch(`https://api.github.com/repos/${repo}`, {
+          headers: { 'Authorization': `token ${token}` }
+        });
+        if (res.ok) setStatus('GitHub connection verified!', 'success');
+        else throw new Error('Invalid token or repository.');
+      } catch (err) {
+        setStatus(err.message, 'error');
+      }
+    };
+
+    document.getElementById('addProductBtn').onclick = () => {
+      editingIndex = null;
+      els.form.reset();
+      document.getElementById('modalTitle').textContent = 'Add Product';
+      els.modal.classList.add('is-open');
+    };
+
+    document.getElementById('closeModalBtn').onclick = () => els.modal.classList.remove('is-open');
+    document.getElementById('bulkSearch').oninput = render;
+
+    // Load saved config into inputs
+    if (ghConfig.token) document.getElementById('ghToken').value = ghConfig.token;
+    if (ghConfig.repo) document.getElementById('ghRepo').value = ghConfig.repo;
+    if (ghConfig.branch) document.getElementById('ghBranch').value = ghConfig.branch;
+    if (ghConfig.path) document.getElementById('ghPath').value = ghConfig.path;
+
+    render();
   </script>
 </body>
 </html>
