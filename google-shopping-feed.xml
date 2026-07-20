@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+<channel>
+  <title>Bonds Mall</title>
+  <link>https://www.bondsmall.com</link>
+  <description>Google Shopping Product Feed — Bonds Mall</description>
+
+  <item>
+    <g:id>bm-001</g:id>
+    <g:title>Men&apos;s Rolex Submariner Watch</g:title>
+    <g:description><![CDATA[Iconic Swiss-made luxury dive watch. Stainless steel case, black ceramic bezel, and Oyster bracelet. Water-resistant to 300 m.]]></g:description>
+    <g:link>https://www.bondsmall.com/?product=bm-001</g:link>
+    <g:image_link>https://www.bondsmall.com/images/rolex-submariner-main.jpg</g:image_link>
+    <g:additional_image_link>https://www.bondsmall.com/images/rolex-submariner-side.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.bondsmall.com/images/rolex-submariner-clasp.jpg</g:additional_image_link>
+    <g:price>10995.00 USD</g:price>
+    <g:sale_price>10995.00 USD</g:sale_price>
+    <g:availability>in stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:brand>Rolex</g:brand>
+    <g:product_type>Watches</g:product_type>
+    <g:mpn>Submariner 124060</g:mpn>
+    <g:color>Black</g:color>
+    <g:material>Stainless Steel</g:material>
+  </item>
+
+  <item>
+    <g:id>bm-002</g:id>
+    <g:title>Women&apos;s Louis Vuitton Neverfull MM Tote</g:title>
+    <g:description><![CDATA[The Neverfull MM in Damier Ebene canvas with a rose ballerine interior. Spacious, lightweight, and effortlessly chic.]]></g:description>
+    <g:link>https://www.bondsmall.com/?product=bm-002</g:link>
+    <g:image_link>https://www.bondsmall.com/images/lv-neverfull-main.jpg</g:image_link>
+    <g:additional_image_link>https://www.bondsmall.com/images/lv-neverfull-open.jpg</g:additional_image_link>
+    <g:price>1690.00 USD</g:price>
+    <g:sale_price>1690.00 USD</g:sale_price>
+    <g:availability>in stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:brand>Louis Vuitton</g:brand>
+    <g:product_type>Handbags</g:product_type>
+    <g:mpn>Neverfull MM</g:mpn>
+    <g:color>Brown</g:color>
+    <g:material>Damier Ebene Canvas</g:material>
+  </item>
+
+  <item>
+    <g:id>bm-003</g:id>
+    <g:title>Apple MacBook Pro 14-inch M3 Pro</g:title>
+    <g:description><![CDATA[Supercharged by M3 Pro chip. Liquid Retina XDR display, up to 22 hours battery life, and MagSafe 3 charging.]]></g:description>
+    <g:link>https://www.bondsmall.com/?product=bm-003</g:link>
+    <g:image_link>https://www.bondsmall.com/images/macbook-pro-14-main.jpg</g:image_link>
+    <g:additional_image_link>https://www.bondsmall.com/images/macbook-pro-14-ports.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.bondsmall.com/images/macbook-pro-14-keyboard.jpg</g:additional_image_link>
+    <g:price>1999.00 USD</g:price>
+    <g:sale_price>1999.00 USD</g:sale_price>
+    <g:availability>in stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:brand>Apple</g:brand>
+    <g:product_type>Laptops</g:product_type>
+    <g:mpn>MacBook Pro 14-inch (M3 Pro)</g:mpn>
+    <g:color>Space Black</g:color>
+  </item>
+
+  <item>
+    <g:id>bm-004</g:id>
+    <g:title>Men&apos;s Nike Air Jordan 1 Retro High OG</g:title>
+    <g:description><![CDATA[The shoe that started it all. Premium leather upper, Air-Sole unit for lightweight cushioning, and iconic Wings logo.]]></g:description>
+    <g:link>https://www.bondsmall.com/?product=bm-004</g:link>
+    <g:image_link>https://www.bondsmall.com/images/jordan1-chicago-main.jpg</g:image_link>
+    <g:additional_image_link>https://www.bondsmall.com/images/jordan1-chicago-sole.jpg</g:additional_image_link>
+    <g:price>180.00 USD</g:price>
+    <g:availability>in stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:brand>Nike</g:brand>
+    <g:product_type>Sneakers</g:product_type>
+    <g:mpn>Air Jordan 1 Retro High OG Chicago</g:mpn>
+    <g:color>Red/White/Black</g:color>
+    <g:material>Leather</g:material>
+  </item>
+
+  <item>
+    <g:id>bm-005</g:id>
+    <g:title>Women&apos;s Gucci GG Marmont Mini Bag</g:title>
+    <g:description><![CDATA[Mini top-handle bag in matelassé chevron leather with the iconic Double G hardware. Detachable chain strap included.]]></g:description>
+    <g:link>https://www.bondsmall.com/?product=bm-005</g:link>
+    <g:image_link>https://www.bondsmall.com/images/gucci-marmont-mini-main.jpg</g:image_link>
+    <g:additional_image_link>https://www.bondsmall.com/images/gucci-marmont-mini-back.jpg</g:additional_image_link>
+    <g:price>1150.00 USD</g:price>
+    <g:sale_price>1150.00 USD</g:sale_price>
+    <g:availability>in stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:brand>Gucci</g:brand>
+    <g:product_type>Handbags</g:product_type>
+    <g:mpn>GG Marmont Mini Top Handle</g:mpn>
+    <g:color>Black</g:color>
+    <g:material>Matelassé Leather</g:material>
+  </item>
+
+  <item>
+    <g:id>bm-006</g:id>
+    <g:title>Sony WH-1000XM5 Wireless Headphones</g:title>
+    <g:description><![CDATA[Industry-leading noise cancellation with Auto NC Optimizer. 30-hour battery, multipoint connection, and crystal-clear call quality.]]></g:description>
+    <g:link>https://www.bondsmall.com/?product=bm-006</g:link>
+    <g:image_link>https://www.bondsmall.com/images/sony-xm5-main.jpg</g:image_link>
+    <g:additional_image_link>https://www.bondsmall.com/images/sony-xm5-folded.jpg</g:additional_image_link>
+    <g:price>349.99 USD</g:price>
+    <g:sale_price>349.99 USD</g:sale_price>
+    <g:availability>in stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:brand>Sony</g:brand>
+    <g:product_type>Headphones</g:product_type>
+    <g:mpn>WH-1000XM5</g:mpn>
+    <g:color>Black</g:color>
+    <g:material>Plastic / Synthetic Leather</g:material>
+  </item>
+
+  <item>
+    <g:id>bm-007</g:id>
+    <g:title>Men&apos;s Prada Re-Nylon Bomber Jacket</g:title>
+    <g:description><![CDATA[Lightweight Re-Nylon bomber jacket with signature triangular logo plaque. Zip closure, ribbed cuffs, and two side pockets.]]></g:description>
+    <g:link>https://www.bondsmall.com/?product=bm-007</g:link>
+    <g:image_link>https://www.bondsmall.com/images/prada-bomber-main.jpg</g:image_link>
+    <g:additional_image_link>https://www.bondsmall.com/images/prada-bomber-detail.jpg</g:additional_image_link>
+    <g:price>1850.00 USD</g:price>
+    <g:sale_price>1850.00 USD</g:sale_price>
+    <g:availability>in stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:brand>Prada</g:brand>
+    <g:product_type>Jackets</g:product_type>
+    <g:mpn>Re-Nylon Bomber</g:mpn>
+    <g:color>Black</g:color>
+    <g:material>Re-Nylon</g:material>
+  </item>
+
+  <item>
+    <g:id>bm-008</g:id>
+    <g:title>Women&apos;s Chanel Classic Flap Bag Medium</g:title>
+    <g:description><![CDATA[Timeless quilted lambskin leather with interlocking CC turn-lock closure. Gold-tone chain strap, burgundy leather lining.]]></g:description>
+    <g:link>https://www.bondsmall.com/?product=bm-008</g:link>
+    <g:image_link>https://www.bondsmall.com/images/chanel-flap-medium-main.jpg</g:image_link>
+    <g:additional_image_link>https://www.bondsmall.com/images/chanel-flap-medium-open.jpg</g:additional_image_link>
+    <g:price>8800.00 USD</g:price>
+    <g:sale_price>8800.00 USD</g:sale_price>
+    <g:availability>in stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:brand>Chanel</g:brand>
+    <g:product_type>Handbags</g:product_type>
+    <g:mpn>Classic Flap Medium</g:mpn>
+    <g:color>Black</g:color>
+    <g:material>Lambskin Leather</g:material>
+  </item>
+
+</channel>
+</rss>
