@@ -9,12 +9,16 @@
     <!-- Replace this placeholder with the real Google OAuth Web client ID. -->
     <!-- Add https://bondsmall.com and https://www.bondsmall.com to Authorized JavaScript origins in Google Cloud Console for this client ID. This console setting is required to clear "Error 400: origin_mismatch"; it is not a code change. -->
     <script>window.FC_GOOGLE_CLIENT_ID = "REPLACE_WITH_OAUTH_CLIENT_ID.apps.googleusercontent.com";</script>
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <!-- defer: this CDN is only read lazily (guarded by `if (!window.emailjs)`), so it must
+         never block the page from rendering if the CDN is slow, blocked, or offline. -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
     <script src="https://accounts.google.com/gsi/client" async defer></script>
     <script src="products.js?v=1.0.2" defer></script>
-    <script src="productpopup.js?v=1.0.2" defer></script>
+    <script src="supabase-config.js?v=1.0.2" defer></script>
+    <script src="reviews-cloud.js?v=1.0.2" defer></script>
+    <script src="productpopup.js?v=1.0.4" defer></script>
     <script src="bondsmall-account.js?v=1.0.2" defer></script>
-    <script src="bondsmall.js?v=1.0.2" defer></script>
+    <script src="bondsmall.js?v=1.0.3" defer></script>
     <script src="category-menu.js?v=1.0.2" defer></script>
 </head>
 <body>

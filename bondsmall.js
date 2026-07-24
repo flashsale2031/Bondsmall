@@ -761,7 +761,7 @@
 
         preloadVisibleImages(pageProducts);
 
-        const luxuryBrands = ["dolce & gabbana", "ralph lauren", "armani", "the northface", "louis vuitton", "maison margiela", "yves saint laurent", "gucci", "prada", "hermes", "hermés", "fendi", "chanel", "dior", "abercrombie & fitch", "bathing ape", "bapes", "michael kors", "rolex", "patek philippe", "marc jacobs", "coach", "chloe", "givenchy", "burberry", "ugg", "mcm", "ferragamo", "true religion", "guess", "lacoste", "versace", "celine", "tommy hilfiger", "christian louboutin", "cartier", "us mint"];
+        const luxuryBrands = ["dolce & gabbana", "louis vuitton", "yves saint laurent", "gucci", "prada", "hermes", "fendi", "chanel", "dior", "abercrombie & fitch", "bathing ape", "bathing apes", "michael kors", "rolex", "patek philippe", "marc jacobs", "us mint"];
 
         productGrid.innerHTML = pageProducts.map((product, index) => {
             const imageSrc = optimizeGridImageUrl(product.image);
@@ -900,6 +900,17 @@
         updateCheckoutTotals();
     }
 
+    function getPreOwnedPrice(product) {
+        // Prefer the explicit pre-owned price from the product data; otherwise
+        // fall back to a generic 20%-off discount on the sale price.
+        const explicit = Number(product["pre-owned price"] || product.preOwnedPrice);
+        if (Number.isFinite(explicit) && explicit > 0) {
+            return explicit;
+        }
+        const base = Number(product.price || product["sale price"] || product.salePrice) || 0;
+        return Math.round(base * 0.8 * 100) / 100;
+    }
+
     function addToCart(productId, addQty = 1, condition = "") {
         const product = products.find((item) => item.id === Number(productId));
         if (!product) {
@@ -911,11 +922,14 @@
 
         const finalCondition = condition || (product.specifications && product.specifications.condition) || "New";
 
+        // Pre-Owned items are charged the pre-owned price, not the New/sale price.
+        const unitPrice = finalCondition === "Pre-Owned" ? getPreOwnedPrice(product) : product.price;
+
         const existing = cart.find((item) => item.id === product.id && (item.condition || "New") === finalCondition);
         if (existing) {
             existing.quantity += amount;
         } else {
-            cart.push({ ...product, quantity: amount, condition: finalCondition });
+            cart.push({ ...product, price: unitPrice, quantity: amount, condition: finalCondition });
         }
 
         updateCartCount();
@@ -1008,7 +1022,11 @@
         const currentUrl = new URL(window.location.href);
         if (currentUrl.searchParams.get("product") !== String(product.id)) {
             currentUrl.searchParams.set("product", String(product.id));
-            window.history.replaceState({}, "", cleanUrl(currentUrl.toString()));
+            try {
+                window.history.replaceState({}, "", cleanUrl(currentUrl.toString()));
+            } catch (e) {
+                console.warn("replaceState failed:", e);
+            }
         }
 
         // Dynamic JSON-LD structured data injection for Product
@@ -1048,7 +1066,11 @@
         const currentUrl = new URL(window.location.href);
         if (currentUrl.searchParams.has("product")) {
             currentUrl.searchParams.delete("product");
-            window.history.replaceState({}, "", cleanUrl(currentUrl.toString()));
+            try {
+                window.history.replaceState({}, "", cleanUrl(currentUrl.toString()));
+            } catch (e) {
+                console.warn("replaceState failed:", e);
+            }
         }
     }
 
@@ -1526,7 +1548,11 @@
     }
 
     function init() {
-        window.history.replaceState({}, "", cleanUrl(window.location.href));
+        try {
+            window.history.replaceState({}, "", cleanUrl(window.location.href));
+        } catch (e) {
+            console.warn("replaceState failed:", e);
+        }
         const badgeStyle = document.createElement("style");
         badgeStyle.textContent = `
             @media (max-width: 480px) {

@@ -5,14 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Results — BONDS MALL</title>
     <meta name="description" content="Search and browse all products at Bonds Mall. Filter by category, sort by price or rating.">
-    <link rel="stylesheet" href="bondsmall.css">
-    <link rel="stylesheet" href="site-footer.css">
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <link rel="stylesheet" href="bondsmall.css?v=1.0.2">
+    <link rel="stylesheet" href="site-footer.css?v=1.0.2">
+    <!-- Replace this placeholder with the real Google OAuth Web client ID. -->
+    <!-- Add https://bondsmall.com and https://www.bondsmall.com to Authorized JavaScript origins in Google Cloud Console for this client ID. This console setting is required to clear "Error 400: origin_mismatch"; it is not a code change. -->
+    <script>window.FC_GOOGLE_CLIENT_ID = "REPLACE_WITH_OAUTH_CLIENT_ID.apps.googleusercontent.com";</script>
+    <!-- defer: this CDN is only read lazily (guarded by `if (!window.emailjs)`), so it must
+         never block the page from rendering if the CDN is slow, blocked, or offline. -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
     <script src="https://accounts.google.com/gsi/client" async defer></script>
-    <script src="products.js" defer></script>
-    <script src="productpopup.js" defer></script>
-    <script src="search-results.js?v=1.0.1" defer></script>
-    <script src="category-menu.js" defer></script>
+    <script src="products.js?v=1.0.2" defer></script>
+    <script src="supabase-config.js?v=1.0.2" defer></script>
+    <script src="reviews-cloud.js?v=1.0.2" defer></script>
+    <script src="productpopup.js?v=1.0.4" defer></script>
+    <script src="bondsmall-account.js?v=1.0.2" defer></script>
+    <script src="search-results.js?v=1.0.3" defer></script>
+    <script src="category-menu.js?v=1.0.2" defer></script>
 </head>
 <body class="search-results-page">
 
@@ -21,7 +29,7 @@
         <div class="cat-drawer-backdrop" id="cat-drawer-backdrop"></div>
         <nav class="cat-drawer" id="cat-drawer">
             <div class="cat-drawer-header">
-                <span class="cat-drawer-title">Categories</span>
+                <span class="cat-drawer-title" style="display:flex;align-items:center;gap:10px;"><img src="bonds-mall-logo.png" alt="Bonds Mall logo" style="height:58px;width:auto;object-fit:contain;filter:brightness(0) invert(1);flex-shrink:0;">Categories</span>
                 <button class="cat-drawer-close" id="cat-drawer-close" aria-label="Close category menu">&#x2715;</button>
             </div>
             <ul class="cat-drawer-list" role="list">
@@ -341,6 +349,8 @@
                         <button type="submit">Submit Review</button>
                     </form>
                     <div id="review-messages" role="alert" aria-live="polite"></div>
+                    <div id="reviews-summary" class="reviews-summary" aria-live="polite"></div>
+                    <div id="reviews-list" class="reviews-list"></div>
                 </section>
             </div>
         </article>
@@ -453,7 +463,7 @@
                     <button id="account-tab-signin" class="account-tab active" role="tab" aria-selected="true" data-view="signin">Sign In</button>
                     <button id="account-tab-signup" class="account-tab" role="tab" aria-selected="false" data-view="signup">Sign Up</button>
                 </div>
-                <iframe id="account-frame" class="account-frame" title="Account form" src="signin.html"></iframe>
+                <iframe id="account-frame" class="account-frame" title="Account form" src="about:blank"></iframe>
             </div>
             <p id="account-status" aria-live="polite" style="margin:0 1rem 1rem;color:#1f7a46;font-size:0.9rem;"></p>
             <pre id="account-debug" style="display:none;margin:0 1rem 1rem;white-space:pre-wrap;word-break:break-word;font-size:0.75rem;line-height:1.35;color:#7b2f2f;background:#fff4f4;border:1px solid #efcece;border-radius:8px;padding:0.6rem;"></pre>
@@ -540,6 +550,7 @@
             <a href="rewards.html"><span class="footer-icon" aria-hidden="true">RW</span>Rewards</a>
             <a href="recentorders.html"><span class="footer-icon" aria-hidden="true">RO</span>Recent Orders</a>
         </nav>
+        <div class="site-footer-bottom">2026 © Bonds Mall. All Rights Are Reserved.</div>
     </footer>
 
 </body>
