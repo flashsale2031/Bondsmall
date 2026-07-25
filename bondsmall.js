@@ -725,7 +725,7 @@
         paginationEl.innerHTML = html;
     }
 
-    function goToPage(page) {
+    function goToPage(page, { push = true } = {}) {
         const filtered = getFilteredProducts();
         const perPage = getProductsPerPage();
         const totalPages = Math.ceil(filtered.length / perPage);
@@ -733,6 +733,23 @@
         if (target === currentPage) return;
         currentPage = target;
         renderProducts();
+
+        // Reflect the page in the URL (?page=N) so the Back arrow returns to the
+        // previous page instead of leaving the site. Skip when driven by history.
+        if (push) {
+            const url = new URL(window.location.href);
+            if (target > 1) {
+                url.searchParams.set("page", String(target));
+            } else {
+                url.searchParams.delete("page");
+            }
+            try {
+                window.history.pushState({}, "", cleanUrl(url.toString()));
+            } catch (e) {
+                console.warn("pushState failed:", e);
+            }
+        }
+
         // Scroll to top of product grid
         if (productGrid) productGrid.scrollIntoView({ behavior: "smooth", block: "start" });
     }
@@ -1002,7 +1019,7 @@
         }
     }
 
-    function openProductModal(productId) {
+    function openProductModal(productId, { push = true } = {}) {
         const product = products.find((item) => item.id === Number(productId));
         if (!product) {
             return;
@@ -1019,13 +1036,18 @@
         productModal.classList.remove("hidden");
         productModal.setAttribute("aria-hidden", "false");
 
-        const currentUrl = new URL(window.location.href);
-        if (currentUrl.searchParams.get("product") !== String(product.id)) {
-            currentUrl.searchParams.set("product", String(product.id));
-            try {
-                window.history.replaceState({}, "", cleanUrl(currentUrl.toString()));
-            } catch (e) {
-                console.warn("replaceState failed:", e);
+        // Push a history entry so the browser Back arrow (or the popup back
+        // button) returns to the listing instead of leaving the site. When the
+        // open is driven by history/URL (push === false) we don't add an entry.
+        if (push) {
+            const currentUrl = new URL(window.location.href);
+            if (currentUrl.searchParams.get("product") !== String(product.id)) {
+                currentUrl.searchParams.set("product", String(product.id));
+                try {
+                    window.history.pushState({}, "", cleanUrl(currentUrl.toString()));
+                } catch (e) {
+                    console.warn("pushState failed:", e);
+                }
             }
         }
 
@@ -1057,20 +1079,34 @@
     }
     window.BondsMallOpenProductById = openProductModal;
 
-    function closeProductModal() {
+    // Visually hide the modal only. URL/history is handled by the callers so
+    // that back/forward navigation stays in sync.
+    function hideProductModal() {
         productModal.classList.add("hidden");
         productModal.setAttribute("aria-hidden", "true");
         activeModalProductId = null;
         clearPopupSearch();
+    }
 
-        const currentUrl = new URL(window.location.href);
-        if (currentUrl.searchParams.has("product")) {
-            currentUrl.searchParams.delete("product");
-            try {
-                window.history.replaceState({}, "", cleanUrl(currentUrl.toString()));
-            } catch (e) {
-                console.warn("replaceState failed:", e);
-            }
+    // Go back one step in history so the URL returns to the previous page or
+    // window. If there is no history to return to, fall back to the home page.
+    function goBack() {
+        if (window.history.length > 1) {
+            window.history.back();
+        } else {
+            window.location.href = "https://bondsmall.com";
+        }
+    }
+    window.goBack = goBack;
+
+    function closeProductModal() {
+        // When the product is reflected in the URL, unwind that history entry
+        // (popstate then hides the modal). Otherwise just hide it directly.
+        const params = new URLSearchParams(window.location.search);
+        if (params.has("product")) {
+            goBack();
+        } else {
+            hideProductModal();
         }
     }
 
@@ -1088,6 +1124,12 @@
 
         const exists = products.some((item) => item.id === productId);
         return exists ? productId : null;
+    }
+
+    function getPageFromUrl() {
+        const params = new URLSearchParams(window.location.search);
+        const raw = parseInt(params.get("page"), 10);
+        return Number.isInteger(raw) && raw >= 1 ? raw : 1;
     }
 
     function getShareUrl(product) {
@@ -1563,6 +1605,7 @@
 
         initializeAccountManager();
         normalizeProducts();
+        currentPage = getPageFromUrl();
         renderProducts();
         updateCartCount();
         renderCart();
@@ -1611,8 +1654,37 @@
             }, 200);
         });
 
+        // Keep pagination and the product modal in sync with browser history so
+        // the Back arrow returns to the previous page/product instead of leaving
+        // the site.
+        window.addEventListener("popstate", () => {
+            const pageFromUrl = getPageFromUrl();
+            if (pageFromUrl !== currentPage) {
+                currentPage = pageFromUrl;
+                renderProducts();
+            }
+            const id = getProductIdFromUrl();
+            if (id) {
+                if (activeModalProductId !== id) openProductModal(id, { push: false });
+            } else if (activeModalProductId !== null) {
+                hideProductModal();
+            }
+        });
+
         const productIdFromUrl = getProductIdFromUrl();
-        if (productIdFromUrl) openProductModal(productIdFromUrl);
+        if (productIdFromUrl) {
+            // Synthesize a "grid" history entry behind the product so the Back
+            // arrow returns to the listing even when the product link was opened
+            // directly (new tab, shared URL, etc.).
+            const gridUrl = new URL(window.location.href);
+            gridUrl.searchParams.delete("product");
+            try {
+                window.history.replaceState({}, "", cleanUrl(gridUrl.toString()));
+            } catch (e) {
+                console.warn("replaceState failed:", e);
+            }
+            openProductModal(productIdFromUrl, { push: true });
+        }
 
         let textActivationCount = 0;
         let gleamTimeoutId = null;
