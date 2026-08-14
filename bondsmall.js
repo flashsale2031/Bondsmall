@@ -1624,7 +1624,15 @@
         initializeAccountManager();
         normalizeProducts();
         currentPage = getPageFromUrl();
-        renderProducts();
+        const initialCatalogLoad = window.BondsmallCatalog
+            ? window.BondsmallCatalog.ensurePage(currentPage, getProductsPerPage())
+            : Promise.resolve();
+        if (currentPage === 1) renderProducts();
+        Promise.resolve(initialCatalogLoad).then(() => {
+            renderProducts();
+        }).catch(() => {
+            renderProducts();
+        });
         updateCartCount();
         renderCart();
         bindEvents();
@@ -1640,7 +1648,8 @@
                 const nav = e.target.closest("[data-pg-action]");
                 if (!nav) return;
                 const filtered = getFilteredProducts();
-                const totalPages = Math.ceil(filtered.length / getProductsPerPage());
+                const catalogTotal = window.BondsmallCatalog ? window.BondsmallCatalog.totalCount : filtered.length;
+                const totalPages = Math.ceil(Math.max(filtered.length, catalogTotal) / getProductsPerPage());
                 switch (nav.dataset.pgAction) {
                     case "first": goToPage(1); break;
                     case "prev":  goToPage(currentPage - 1); break;
@@ -1652,7 +1661,8 @@
                 if (e.key === "Enter" && e.target.classList.contains("pg-goto-input")) {
                     const val = parseInt(e.target.value);
                     const filtered = getFilteredProducts();
-                    const totalPages = Math.ceil(filtered.length / getProductsPerPage());
+                    const catalogTotal = window.BondsmallCatalog ? window.BondsmallCatalog.totalCount : filtered.length;
+                    const totalPages = Math.ceil(Math.max(filtered.length, catalogTotal) / getProductsPerPage());
                     if (val >= 1 && val <= totalPages) goToPage(val);
                     e.target.value = "";
                 }
