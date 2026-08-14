@@ -1,2 +1,2 @@
-// Bondsmall catalog bootstrap. Product records are loaded from catalog-parts/*.js.
+// Bondsmall catalog bootstrap; records load on demand from catalog-parts.
 var products = window.products = [];

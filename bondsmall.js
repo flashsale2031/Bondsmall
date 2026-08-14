@@ -739,11 +739,13 @@
     function goToPage(page, { push = true } = {}) {
         const filtered = getFilteredProducts();
         const perPage = getProductsPerPage();
-        const totalPages = Math.ceil(filtered.length / perPage);
+        const catalogTotal = window.BondsmallCatalog ? window.BondsmallCatalog.totalCount : filtered.length;
+        const totalPages = Math.ceil(Math.max(filtered.length, catalogTotal) / perPage);
         const target = Math.max(1, Math.min(totalPages, page));
         if (target === currentPage) return;
         currentPage = target;
-        renderProducts();
+        const load = window.BondsmallCatalog ? window.BondsmallCatalog.ensurePage(target, perPage) : Promise.resolve();
+        Promise.resolve(load).then(() => renderProducts()).catch(() => renderProducts());
 
         // Reflect the page in the URL (?page=N) so the Back arrow returns to the
         // previous page instead of leaving the site. Skip when driven by history.
@@ -775,13 +777,15 @@
             return;
         }
 
-        // Paginate
+        // Paginate. Lazy catalog mode keeps only one 1,000-record chunk in memory.
         const perPage = getProductsPerPage();
-        const totalPages = Math.ceil(filtered.length / perPage);
+        const catalogTotal = window.BondsmallCatalog ? window.BondsmallCatalog.totalCount : filtered.length;
+        const totalPages = Math.ceil(Math.max(filtered.length, catalogTotal) / perPage);
         if (currentPage > totalPages) currentPage = totalPages;
         if (currentPage < 1) currentPage = 1;
         const startIdx = (currentPage - 1) * perPage;
-        const pageProducts = filtered.slice(startIdx, startIdx + perPage);
+        const localStart = window.BondsmallCatalog ? (startIdx % window.BondsmallCatalog.chunkSize) : startIdx;
+        const pageProducts = filtered.slice(localStart, localStart + perPage);
 
         pageProducts.slice(0, 12).forEach((product) => {
             warmupImageHost(optimizeGridImageUrl(product.image));
@@ -825,7 +829,7 @@
         `;
         }).join("");
 
-        renderPagination(filtered.length);
+        renderPagination(Math.max(filtered.length, catalogTotal));
     }
 
     function renderPopupSearchResults() {
@@ -1733,9 +1737,17 @@
         }, 10000);
     }
 
+    function startWhenCatalogReady() {
+        if (window.BondsmallCatalogReady || !window.BondsmallCatalog) init();
+        else document.addEventListener('bondsmall-catalog-ready', init, { once: true });
+        document.addEventListener('bondsmall-catalog-error', () => {
+            const grid = document.getElementById('product-grid');
+            if (grid) grid.innerHTML = '<p class="empty-state">Products are loading. Please refresh in a moment.</p>';
+        }, { once: true });
+    }
     if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", init);
+        document.addEventListener("DOMContentLoaded", startWhenCatalogReady);
     } else {
-        init();
+        startWhenCatalogReady();
     }
 })();
