@@ -423,10 +423,16 @@
     </section>
   </div>
 
-  <script src="products.js"></script>
+  <div id="inventoryPagination" class="inventory-pagination" aria-label="Inventory pagination"></div>
+
+  <script src="catalog-first-page.js?v=1.1.3"></script>
+  <script src="products.js?v=1.1.3"></script>
+  <script src="catalog-loader.js?v=1.1.5"></script>
   <script>
     let productList = window.products || [];
     let editingIndex = null;
+    let inventoryPage = 1;
+    const INVENTORY_PER_PAGE = 50;
     let ghConfig = JSON.parse(localStorage.getItem('ghConfig') || '{}');
 
     const els = {
@@ -459,9 +465,14 @@
 
     function render() {
       const query = document.getElementById('bulkSearch').value.toLowerCase();
-      const filtered = productList.filter(p => p.name.toLowerCase().includes(query));
-      els.count.textContent = `${filtered.length} products`;
-      els.tableBody.innerHTML = filtered.map((p, i) => `
+      const filtered = productList.filter(p => (p.name || '').toLowerCase().includes(query));
+      const total = window.BondsmallCatalog ? window.BondsmallCatalog.totalCount : filtered.length;
+      const localStart = window.BondsmallCatalog
+        ? (((inventoryPage - 1) * INVENTORY_PER_PAGE) % window.BondsmallCatalog.chunkSize)
+        : ((inventoryPage - 1) * INVENTORY_PER_PAGE);
+      const pageProducts = filtered.slice(localStart, localStart + INVENTORY_PER_PAGE);
+      els.count.textContent = query ? `Showing ${pageProducts.length} matching products in this loaded chunk` : `Showing ${pageProducts.length} of ${total} products`;
+      els.tableBody.innerHTML = pageProducts.map((p, i) => `
         <tr>
           <td><img src="${Array.isArray(p.image) ? p.image[0] : p.image}" class="product-img"></td>
           <td>${p.name}</td>
@@ -477,6 +488,26 @@
           </td>
         </tr>
       `).join('');
+      renderInventoryPagination(total);
+    }
+
+    function renderInventoryPagination(total) {
+      const host = document.getElementById('inventoryPagination');
+      if (!host || !total) return;
+      const pages = Math.ceil(total / INVENTORY_PER_PAGE);
+      host.innerHTML = `<button type="button" data-inv-page="prev" ${inventoryPage <= 1 ? 'disabled' : ''}>Prev</button><span>Page ${inventoryPage} of ${pages}</span><button type="button" data-inv-page="next" ${inventoryPage >= pages ? 'disabled' : ''}>Next</button>`;
+    }
+
+    async function loadInventoryPage(page) {
+      const total = window.BondsmallCatalog ? window.BondsmallCatalog.totalCount : productList.length;
+      const pages = Math.max(1, Math.ceil(total / INVENTORY_PER_PAGE));
+      inventoryPage = Math.max(1, Math.min(pages, Number(page) || 1));
+      if (window.BondsmallCatalog) {
+        try { await window.BondsmallCatalog.ensurePage(inventoryPage, INVENTORY_PER_PAGE); }
+        catch (error) { setStatus(`Unable to load inventory page: ${error.message}`, 'error'); }
+      }
+      productList = window.products || productList;
+      render();
     }
 
     function editProduct(i) {
@@ -623,7 +654,16 @@
     };
 
     document.getElementById('closeModalBtn').onclick = () => els.modal.classList.remove('is-open');
-    document.getElementById('bulkSearch').oninput = render;
+    document.getElementById('bulkSearch').oninput = () => { inventoryPage = 1; render(); };
+    document.getElementById('inventoryPagination').onclick = (event) => {
+      const action = event.target.closest('[data-inv-page]')?.dataset.invPage;
+      if (action === 'prev') loadInventoryPage(inventoryPage - 1);
+      if (action === 'next') loadInventoryPage(inventoryPage + 1);
+    };
+    document.addEventListener('bondsmall-catalog-chunk-loaded', () => {
+      productList = window.products || productList;
+      render();
+    });
 
     // Load saved config into inputs
     if (ghConfig.token) document.getElementById('ghToken').value = ghConfig.token;
@@ -632,6 +672,7 @@
     if (ghConfig.path) document.getElementById('ghPath').value = ghConfig.path;
 
     render();
+    if (window.BondsmallCatalog) loadInventoryPage(1);
   </script>
 </body>
 </html>
