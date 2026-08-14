@@ -557,13 +557,20 @@
     function goToPage(page) {
         const filtered = getFilteredProducts();
         const perPage = getProductsPerPage();
-        const totalPages = Math.ceil(filtered.length / perPage);
+        const catalogTotal = window.BondsmallCatalog ? window.BondsmallCatalog.totalCount : filtered.length;
+        const totalPages = Math.ceil(Math.max(filtered.length, catalogTotal) / perPage);
         const target = Math.max(1, Math.min(totalPages, page));
         if (target === currentPage) return;
         currentPage = target;
-        renderProducts();
-        renderResultsHeader();
-        if (resultsGrid) resultsGrid.scrollIntoView({ behavior: "smooth", block: "start" });
+        const loading = window.BondsmallCatalog ? window.BondsmallCatalog.ensurePage(target, perPage) : Promise.resolve();
+        Promise.resolve(loading).then(() => {
+            renderProducts();
+            renderResultsHeader();
+            if (resultsGrid) resultsGrid.scrollIntoView({ behavior: "smooth", block: "start" });
+        }).catch(() => {
+            renderProducts();
+            renderResultsHeader();
+        });
     }
 
     function renderProducts() {
@@ -582,13 +589,15 @@
             return;
         }
 
-        // Paginate
+        // Paginate across the full catalog while rendering only the active chunk.
         const perPage = getProductsPerPage();
-        const totalPages = Math.ceil(filtered.length / perPage);
+        const catalogTotal = window.BondsmallCatalog ? window.BondsmallCatalog.totalCount : filtered.length;
+        const totalPages = Math.ceil(Math.max(filtered.length, catalogTotal) / perPage);
         if (currentPage > totalPages) currentPage = totalPages;
         if (currentPage < 1) currentPage = 1;
         const startIdx = (currentPage - 1) * perPage;
-        const pageProducts = filtered.slice(startIdx, startIdx + perPage);
+        const localStart = window.BondsmallCatalog ? (startIdx % window.BondsmallCatalog.chunkSize) : startIdx;
+        const pageProducts = filtered.slice(localStart, localStart + perPage);
 
         pageProducts.slice(0, 12).forEach(p => warmupImageHost(optimizeGridImageUrl(p.image)));
 
@@ -637,7 +646,7 @@
             </article>`;
         }).join("");
 
-        renderSRPagination(filtered.length);
+        renderSRPagination(Math.max(filtered.length, catalogTotal));
     }
 
     function renderAll() {
