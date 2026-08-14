@@ -66,14 +66,13 @@
   };
 
   // catalog-first-page.js is synchronous and already populated the first 21 records.
+  // Keep them intact through the first render; hydrate the complete first chunk only
+  // after the browser has had time to paint the initial product grid.
   if (target.length > 0) {
-    loaded.set(0, target.slice());
     window.BondsmallCatalogReady = true;
     document.dispatchEvent(new CustomEvent('bondsmall-catalog-ready'));
-    // Hydrate the complete first chunk after the first render, without blocking it.
     const hydrate = () => window.BondsmallCatalog.hydrateFirstChunk().catch((error) => console.warn(error));
-    if ('requestIdleCallback' in window) requestIdleCallback(hydrate, { timeout: 1200 });
-    else setTimeout(hydrate, 0);
+    setTimeout(hydrate, 1500);
   } else {
     fetchChunk(0, false).then(() => {
       window.BondsmallCatalogReady = true;
