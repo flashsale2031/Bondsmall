@@ -5,54 +5,83 @@
   const PART_COUNT = Math.ceil(TOTAL_RECORDS / CHUNK_SIZE);
   const loaded = new Map();
   const pending = new Map();
-  // The custom domain can retain negative CDN cache entries for newly created paths.
-  // GitHub Pages serves the same committed chunks immediately and allows script loading.
   const base = 'https://flashsale2031.github.io/Bondsmall/catalog-parts/';
+  const target = window.products = window.products || [];
+
+  function fetchChunk(index, force) {
+    index = Math.max(0, Math.min(PART_COUNT - 1, Number(index) || 0));
+    if (!force && loaded.has(index)) {
+      target.length = 0;
+      target.push(...loaded.get(index));
+      return Promise.resolve(loaded.get(index));
+    }
+    if (pending.has(index)) return pending.get(index);
+    const promise = new Promise((resolve, reject) => {
+      target.length = 0;
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = `${base}products-part-${String(index + 1).padStart(4, '0')}.js?v=1.1.3`;
+      script.onload = () => {
+        const records = target.slice();
+        loaded.set(index, records);
+        target.length = 0;
+        target.push(...records);
+        pending.delete(index);
+        resolve(records);
+      };
+      script.onerror = () => {
+        pending.delete(index);
+        reject(new Error(`Unable to load catalog chunk ${index + 1}`));
+      };
+      document.head.appendChild(script);
+    });
+    pending.set(index, promise);
+    return promise;
+  }
+
   window.BondsmallCatalog = {
     totalCount: TOTAL_RECORDS,
     chunkSize: CHUNK_SIZE,
     partCount: PART_COUNT,
     loadedChunks: loaded,
-    get totalPages() { return Math.ceil(TOTAL_RECORDS / (window.innerWidth <= 600 ? 20 : 21)); },
-    async loadChunk(chunkIndex) {
-      const index = Math.max(0, Math.min(PART_COUNT - 1, Number(chunkIndex) || 0));
-      if (loaded.has(index)) { window.products = loaded.get(index); return loaded.get(index); }
-      if (pending.has(index)) return pending.get(index);
-      const promise = new Promise((resolve, reject) => {
-        const script = document.createElement('script');
-        script.async = true;
-        script.src = `${base}products-part-${String(index + 1).padStart(4, '0')}.js`;
-        script.onload = () => {
-          const records = window.products.slice();
-          loaded.set(index, records);
-          window.products.length = 0;
-          window.products.push(...records);
-          pending.delete(index);
-          resolve(records);
-        };
-        script.onerror = () => { pending.delete(index); reject(new Error(`Unable to load catalog chunk ${index + 1}`)); };
-        document.head.appendChild(script);
-      });
-      pending.set(index, promise);
-      return promise;
+    get totalPages() {
+      return Math.ceil(TOTAL_RECORDS / (window.innerWidth <= 600 ? 20 : 21));
     },
-    async ensurePage(page, perPage) {
+    loadChunk(index) {
+      return fetchChunk(index, false);
+    },
+    ensurePage(page, perPage) {
       const offset = Math.max(0, (Number(page) - 1) * Number(perPage || 21));
-      return this.loadChunk(Math.floor(offset / CHUNK_SIZE));
+      return fetchChunk(Math.floor(offset / CHUNK_SIZE), false);
     },
     async getProductById(productId) {
       const id = Number(productId);
       if (!Number.isFinite(id) || id < 1 || id > TOTAL_RECORDS) return null;
-      const chunk = await this.loadChunk(Math.floor((id - 1) / CHUNK_SIZE));
+      const chunk = await fetchChunk(Math.floor((id - 1) / CHUNK_SIZE), false);
       return chunk.find((product) => Number(product.id) === id) || null;
+    },
+    hydrateFirstChunk() {
+      return fetchChunk(0, true);
     }
   };
-  window.products = window.products || [];
-  window.BondsmallCatalog.loadChunk(0).then(() => {
+
+  // catalog-first-page.js is synchronous and already populated the first 21 records.
+  if (target.length > 0) {
+    loaded.set(0, target.slice());
     window.BondsmallCatalogReady = true;
     document.dispatchEvent(new CustomEvent('bondsmall-catalog-ready'));
-  }).catch((error) => {
-    console.error(error);
-    document.dispatchEvent(new CustomEvent('bondsmall-catalog-error', { detail: error }));
-  });
+    // Hydrate the complete first chunk after the first render, without blocking it.
+    const hydrate = () => window.BondsmallCatalog.hydrateFirstChunk().catch((error) => console.warn(error));
+    if ('requestIdleCallback' in window) requestIdleCallback(hydrate, { timeout: 1200 });
+    else setTimeout(hydrate, 0);
+  } else {
+    fetchChunk(0, false).then(() => {
+      window.BondsmallCatalogReady = true;
+      document.dispatchEvent(new CustomEvent('bondsmall-catalog-ready'));
+    }).catch((error) => {
+      console.warn('Catalog background load failed:', error);
+      window.BondsmallCatalogReady = true;
+      document.dispatchEvent(new CustomEvent('bondsmall-catalog-ready'));
+    });
+  }
 })();
