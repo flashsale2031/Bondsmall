@@ -11,9 +11,11 @@
   function fetchChunk(index, force) {
     index = Math.max(0, Math.min(PART_COUNT - 1, Number(index) || 0));
     if (!force && loaded.has(index)) {
+      const cached = loaded.get(index);
+      if (cached.length < CHUNK_SIZE) return fetchChunk(index, true);
       target.length = 0;
-      target.push(...loaded.get(index));
-      return Promise.resolve(loaded.get(index));
+      target.push(...cached);
+      return Promise.resolve(cached);
     }
     if (pending.has(index)) return pending.get(index);
     const promise = new Promise((resolve, reject) => {
@@ -30,6 +32,7 @@
         target.length = 0;
         target.push(...records);
         pending.delete(index);
+        document.dispatchEvent(new CustomEvent('bondsmall-catalog-chunk-loaded', { detail: { index, records } }));
         resolve(records);
       };
       script.onerror = () => {
@@ -70,13 +73,15 @@
   };
 
   // catalog-first-page.js is synchronous and already populated the first 21 records.
-  // Keep them intact through the first render; hydrate the complete first chunk only
-  // after the browser has had time to paint the initial product grid.
+  // Register them immediately so ensurePage(1) doesn't trigger a redundant fetch.
   if (target.length > 0) {
+    loaded.set(0, target.slice());
     window.BondsmallCatalogReady = true;
     document.dispatchEvent(new CustomEvent('bondsmall-catalog-ready'));
+    // Hydrate the complete first chunk in the background.
     const hydrate = () => window.BondsmallCatalog.hydrateFirstChunk().catch((error) => console.warn(error));
-    setTimeout(hydrate, 1500);
+    if ('requestIdleCallback' in window) requestIdleCallback(hydrate, { timeout: 2000 });
+    else setTimeout(hydrate, 1000);
   } else {
     fetchChunk(0, false).then(() => {
       window.BondsmallCatalogReady = true;

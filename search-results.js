@@ -662,6 +662,10 @@
         renderCart();
     });
 
+    document.addEventListener('bondsmall-catalog-chunk-loaded', () => {
+        renderAll();
+    });
+
     /* ── Sort dropdown ────────────────────────── */
     function updateSortDropdown() {
         if (!sortDrop) return;
