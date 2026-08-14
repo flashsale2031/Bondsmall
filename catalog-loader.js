@@ -5,7 +5,9 @@
   const PART_COUNT = Math.ceil(TOTAL_RECORDS / CHUNK_SIZE);
   const loaded = new Map();
   const pending = new Map();
-  const base = 'catalog-parts/';
+  // The custom domain can retain negative CDN cache entries for newly created paths.
+  // GitHub Pages serves the same committed chunks immediately and allows script loading.
+  const base = 'https://flashsale2031.github.io/Bondsmall/catalog-parts/';
   window.BondsmallCatalog = {
     totalCount: TOTAL_RECORDS,
     chunkSize: CHUNK_SIZE,
