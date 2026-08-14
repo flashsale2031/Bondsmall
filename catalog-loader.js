@@ -5,6 +5,7 @@
   const PART_COUNT = Math.ceil(TOTAL_RECORDS / CHUNK_SIZE);
   const loaded = new Map();
   const pending = new Map();
+  let orderedTail = Promise.resolve();
   const base = 'https://flashsale2031.github.io/Bondsmall/catalog-parts/';
   const target = window.products = window.products || [];
 
@@ -46,11 +47,26 @@
     return promise;
   }
 
+  function loadThrough(index) {
+    index = Math.max(0, Math.min(PART_COUNT - 1, Number(index) || 0));
+    const request = orderedTail.then(async () => {
+      for (let cursor = 0; cursor <= index; cursor += 1) {
+        const cached = loaded.get(cursor);
+        if (cached && cached.length >= CHUNK_SIZE) continue;
+        await fetchChunk(cursor, Boolean(cached && cached.length < CHUNK_SIZE));
+      }
+      return loaded.get(index) || [];
+    });
+    orderedTail = request.catch(() => undefined);
+    return request;
+  }
+
   window.BondsmallCatalog = {
     totalCount: TOTAL_RECORDS,
     chunkSize: CHUNK_SIZE,
     partCount: PART_COUNT,
     loadedChunks: loaded,
+    loadThrough,
     get totalPages() {
       return Math.ceil(TOTAL_RECORDS / (window.innerWidth <= 600 ? 20 : 21));
     },
@@ -59,16 +75,16 @@
     },
     ensurePage(page, perPage) {
       const offset = Math.max(0, (Number(page) - 1) * Number(perPage || 21));
-      return fetchChunk(Math.floor(offset / CHUNK_SIZE), false);
+      return loadThrough(Math.floor(offset / CHUNK_SIZE));
     },
     async getProductById(productId) {
       const id = Number(productId);
       if (!Number.isFinite(id) || id < 1 || id > TOTAL_RECORDS) return null;
-      const chunk = await fetchChunk(Math.floor((id - 1) / CHUNK_SIZE), false);
+      const chunk = await loadThrough(Math.floor((id - 1) / CHUNK_SIZE));
       return chunk.find((product) => Number(product.id) === id) || null;
     },
     hydrateFirstChunk() {
-      return fetchChunk(0, true);
+      return loadThrough(0);
     }
   };
 
@@ -79,7 +95,7 @@
     window.BondsmallCatalogReady = true;
     document.dispatchEvent(new CustomEvent('bondsmall-catalog-ready'));
     // Hydrate the complete first chunk in the background.
-    const hydrate = () => window.BondsmallCatalog.hydrateFirstChunk().catch((error) => console.warn(error));
+    const hydrate = () => window.BondsmallCatalog.loadThrough(0).catch((error) => console.warn(error));
     if ('requestIdleCallback' in window) requestIdleCallback(hydrate, { timeout: 2000 });
     else setTimeout(hydrate, 1000);
   } else {
