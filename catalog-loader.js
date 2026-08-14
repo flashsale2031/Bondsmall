@@ -17,12 +17,15 @@
     }
     if (pending.has(index)) return pending.get(index);
     const promise = new Promise((resolve, reject) => {
-      target.length = 0;
+      const capture = [];
+      const previousProducts = window.products;
+      window.products = capture;
       const script = document.createElement('script');
       script.async = true;
-      script.src = `${base}products-part-${String(index + 1).padStart(4, '0')}.js?v=1.1.3`;
+      script.src = `${base}products-part-${String(index + 1).padStart(4, '0')}.js?v=1.1.4`;
       script.onload = () => {
-        const records = target.slice();
+        window.products = previousProducts;
+        const records = capture.slice();
         loaded.set(index, records);
         target.length = 0;
         target.push(...records);
@@ -30,6 +33,7 @@
         resolve(records);
       };
       script.onerror = () => {
+        window.products = previousProducts;
         pending.delete(index);
         reject(new Error(`Unable to load catalog chunk ${index + 1}`));
       };
