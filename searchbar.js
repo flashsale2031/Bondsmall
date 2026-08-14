@@ -57,7 +57,7 @@ function renderProductDisplay(products) {
 
     const price = document.createElement('div');
     price.classList.add('price');
-    price.textContent = `$${Number(product.price).toFixed(2)}`;
+    price.textContent = window.BondsmallLocale && typeof window.BondsmallLocale.formatMoney === 'function' ? window.BondsmallLocale.formatMoney(product.price) : `$${Number(product.price).toFixed(2)}`;
 
     card.appendChild(img);
     card.appendChild(name);

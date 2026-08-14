@@ -108,6 +108,7 @@
 
     /* ── Utility ──────────────────────────────── */
     function formatMoney(v) {
+        if (window.BondsmallLocale && typeof window.BondsmallLocale.formatMoney === 'function') return window.BondsmallLocale.formatMoney(v);
         return `$${Number(v).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
     }
 
@@ -328,7 +329,7 @@
                             <img src="${p.image}" alt="${p.name}" style="width: 40px; height: 40px; object-fit: cover; border-radius: 6px; cursor: pointer;" onclick="window.BondsMallOpenProductById(${p.id})">
                             <div style="flex: 1; min-width: 0; cursor: pointer;" onclick="window.BondsMallOpenProductById(${p.id})">
                                 <div style="font-size: 0.82rem; font-weight: 700; color: #1c1b1a; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${p.name}</div>
-                                <div style="font-size: 0.78rem; font-weight: 800; color: #1f7a46; margin-top: 0.1rem;">$${Number(p.price).toFixed(2)}</div>
+                                <div style="font-size: 0.78rem; font-weight: 800; color: #1f7a46; margin-top: 0.1rem;">${formatMoney(p.price)}</div>
                             </div>
                             <button data-action="remove-fav" data-id="${p.id}" style="background: none; border: none; color: #665f57; cursor: pointer; padding: 0.2rem; font-size: 0.95rem; display: flex; align-items: center; justify-content: center;" aria-label="Remove favorite">
                                 &#x2715;
@@ -646,6 +647,11 @@
         renderResultsHeader();
         renderProducts();
     }
+
+    document.addEventListener('bondsmall-locale-change', () => {
+        renderAll();
+        renderCart();
+    });
 
     /* ── Sort dropdown ────────────────────────── */
     function updateSortDropdown() {

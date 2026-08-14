@@ -6,6 +6,7 @@
 let activeReviewProductId = "";
 
 function formatPopupMoney(value) {
+    if (window.BondsmallLocale && typeof window.BondsmallLocale.formatMoney === 'function') return window.BondsmallLocale.formatMoney(value);
     return `$${Number(value).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
 }
 
