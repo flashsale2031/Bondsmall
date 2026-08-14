@@ -8,7 +8,7 @@
   const pending = new Map();
   const base = 'catalog-pages/';
   const target = window.products = window.products || [];
-  const version = '2.1.0';
+  const version = '2.2.0';
 
   function clampPage(index) {
     return Math.max(0, Math.min(PAGE_COUNT - 1, Number(index) || 0));
@@ -91,14 +91,19 @@
     hydrateFirstChunk: () => fetchPage(0),
   };
 
-  // Preserve the synchronous first-page experience, then replace it with the exact first 20 records.
+  // Preserve the synchronous first-page experience. On direct later-page URLs,
+  // do not hydrate page 1 asynchronously because that would overwrite the
+  // requested page after its own chunk has loaded.
+  const initialPage = Math.max(1, Number(new URLSearchParams(window.location.search).get('page')) || 1);
   if (target.length > 0) {
     loaded.set(0, target.slice(0, PAGE_SIZE));
     window.BondsmallCatalogReady = true;
     document.dispatchEvent(new CustomEvent('bondsmall-catalog-ready'));
-    const hydrate = () => fetchPage(0).catch((error) => console.warn('Catalog page hydration failed:', error));
-    if ('requestIdleCallback' in window) requestIdleCallback(hydrate, { timeout: 2000 });
-    else setTimeout(hydrate, 1000);
+    if (initialPage === 1) {
+      const hydrate = () => fetchPage(0).catch((error) => console.warn('Catalog page hydration failed:', error));
+      if ('requestIdleCallback' in window) requestIdleCallback(hydrate, { timeout: 2000 });
+      else setTimeout(hydrate, 1000);
+    }
   } else {
     fetchPage(0).then(() => {
       window.BondsmallCatalogReady = true;
