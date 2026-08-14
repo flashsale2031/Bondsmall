@@ -39,6 +39,12 @@
     async ensurePage(page, perPage) {
       const offset = Math.max(0, (Number(page) - 1) * Number(perPage || 21));
       return this.loadChunk(Math.floor(offset / CHUNK_SIZE));
+    },
+    async getProductById(productId) {
+      const id = Number(productId);
+      if (!Number.isFinite(id) || id < 1 || id > TOTAL_RECORDS) return null;
+      const chunk = await this.loadChunk(Math.floor((id - 1) / CHUNK_SIZE));
+      return chunk.find((product) => Number(product.id) === id) || null;
     }
   };
   window.products = window.products || [];

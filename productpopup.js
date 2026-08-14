@@ -1289,3 +1289,19 @@ document.addEventListener("DOMContentLoaded", ensureDelegatedListeners);
         else        showImage(lbIndex - 1, "left");  // swipe right → prev
     }, { passive: true });
 })();
+
+
+// Resolve products from the bootstrap or the appropriate lazy catalog chunk.
+window.populateProductPopupById = async function populateProductPopupById(productId, opts) {
+    const id = Number(productId);
+    let product = Array.isArray(window.products)
+        ? window.products.find((item) => Number(item.id) === id)
+        : null;
+    if (!product && window.BondsmallCatalog && typeof window.BondsmallCatalog.getProductById === "function") {
+        product = await window.BondsmallCatalog.getProductById(id);
+    }
+    if (!product || typeof window.populateProductPopup !== "function") return false;
+    window.populateProductPopup(product, opts);
+    return true;
+};
+

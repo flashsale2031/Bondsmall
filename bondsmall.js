@@ -1034,8 +1034,11 @@
         }
     }
 
-    function openProductModal(productId, { push = true } = {}) {
-        const product = products.find((item) => item.id === Number(productId));
+    async function openProductModal(productId, { push = true } = {}) {
+        let product = products.find((item) => item.id === Number(productId));
+        if (!product && window.BondsmallCatalog && typeof window.BondsmallCatalog.getProductById === "function") {
+            product = await window.BondsmallCatalog.getProductById(productId);
+        }
         if (!product) {
             return;
         }
