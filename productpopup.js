@@ -1020,7 +1020,7 @@ window.populateProductPopup = function populateProductPopup(product, opts) {
         oldScript.remove();
     }
     const additionalImages = (product.images || []).filter(Boolean);
-    const allImages = [product.image, ...additionalImages].slice(0, 3);
+    const allImages = [...new Set([product.image, ...additionalImages].filter(Boolean))].slice(0, 2);
     const schema = {
         "@context": "https://schema.org",
         "@type": "Product",
