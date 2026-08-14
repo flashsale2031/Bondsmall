@@ -89,12 +89,23 @@
     const preloadedImages = new Set();
 
     function formatMoney(value) {
+        if (window.BondsmallLocale && typeof window.BondsmallLocale.formatMoney === 'function') {
+            return window.BondsmallLocale.formatMoney(value);
+        }
         return `$${Number(value).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
     }
 
     function normalize(text) {
         return text.toLowerCase().trim();
     }
+
+    document.addEventListener('bondsmall-locale-change', () => {
+        if (typeof renderProducts === 'function') renderProducts();
+        if (typeof renderCart === 'function') renderCart();
+        if (typeof updateFavoritesUI === 'function') updateFavoritesUI();
+        if (typeof updateCheckoutTotals === 'function') updateCheckoutTotals();
+        if (typeof activeModalProductId !== 'undefined' && activeModalProductId !== null && typeof renderProductModal === 'function') renderProductModal(activeModalProductId);
+    });
 
     function optimizeGridImageUrl(rawUrl) {
         if (!rawUrl) {
