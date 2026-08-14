@@ -8,7 +8,7 @@
   const pending = new Map();
   const base = 'catalog-pages/';
   const target = window.products = window.products || [];
-  const version = '2.0.0';
+  const version = '2.1.0';
 
   function clampPage(index) {
     return Math.max(0, Math.min(PAGE_COUNT - 1, Number(index) || 0));
