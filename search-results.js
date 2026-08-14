@@ -109,7 +109,9 @@
     /* ── Utility ──────────────────────────────── */
     function formatMoney(v) {
         if (window.BondsmallLocale && typeof window.BondsmallLocale.formatMoney === 'function') return window.BondsmallLocale.formatMoney(v);
-        return `$${Number(v).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+        const numeric = Number(v);
+        const safeValue = Number.isFinite(numeric) ? numeric : 0;
+        return `$${safeValue.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
     }
 
     function normalize(t) { return (t || "").toLowerCase().trim(); }
@@ -516,7 +518,7 @@
 
     /* ── Pagination helpers ────────────────────── */
     function getProductsPerPage() {
-        return window.innerWidth <= 600 ? 20 : 21;
+        return 20;
     }
 
     function renderSRPagination(totalItems) {

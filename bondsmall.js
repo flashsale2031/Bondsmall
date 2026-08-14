@@ -92,7 +92,9 @@
         if (window.BondsmallLocale && typeof window.BondsmallLocale.formatMoney === 'function') {
             return window.BondsmallLocale.formatMoney(value);
         }
-        return `$${Number(value).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+        const numeric = Number(value);
+        const safeValue = Number.isFinite(numeric) ? numeric : 0;
+        return `$${safeValue.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
     }
 
     function normalize(text) {
@@ -691,7 +693,7 @@
 
     /* ── Pagination helpers ────────────────────── */
     function getProductsPerPage() {
-        return window.innerWidth <= 600 ? 20 : 21;
+        return 20;
     }
 
     function renderPagination(totalItems) {

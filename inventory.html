@@ -427,12 +427,12 @@
 
   <script src="catalog-first-page.js?v=1.1.3"></script>
   <script src="products.js?v=1.1.3"></script>
-  <script src="catalog-loader.js?v=1.1.6"></script>
+  <script src="catalog-loader.js?v=2.0.0"></script>
   <script>
     let productList = window.products || [];
     let editingIndex = null;
     let inventoryPage = 1;
-    const INVENTORY_PER_PAGE = 50;
+    const INVENTORY_PER_PAGE = 20;
     let ghConfig = JSON.parse(localStorage.getItem('ghConfig') || '{}');
 
     const els = {

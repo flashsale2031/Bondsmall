@@ -1,22 +1,31 @@
-(function () {
+/* Bondsmall page-sized catalog loader: one 20-product chunk per storefront page. */
+(() => {
   'use strict';
   const TOTAL_RECORDS = 1231539;
-  const CHUNK_SIZE = 1000;
-  const PART_COUNT = Math.ceil(TOTAL_RECORDS / CHUNK_SIZE);
+  const PAGE_SIZE = 20;
+  const PAGE_COUNT = 61577;
   const loaded = new Map();
   const pending = new Map();
-  let orderedTail = Promise.resolve();
-  const base = 'https://flashsale2031.github.io/Bondsmall/catalog-parts/';
+  const base = 'catalog-pages/';
   const target = window.products = window.products || [];
+  const version = '2.0.0';
 
-  function fetchChunk(index, force) {
-    index = Math.max(0, Math.min(PART_COUNT - 1, Number(index) || 0));
+  function clampPage(index) {
+    return Math.max(0, Math.min(PAGE_COUNT - 1, Number(index) || 0));
+  }
+
+  function setTarget(records) {
+    target.length = 0;
+    target.push(...records);
+    window.products = target;
+  }
+
+  function fetchPage(index, force = false) {
+    index = clampPage(index);
     if (!force && loaded.has(index)) {
-      const cached = loaded.get(index);
-      if (cached.length < CHUNK_SIZE) return fetchChunk(index, true);
-      target.length = 0;
-      target.push(...cached);
-      return Promise.resolve(cached);
+      const records = loaded.get(index);
+      setTarget(records);
+      return Promise.resolve(records);
     }
     if (pending.has(index)) return pending.get(index);
     const promise = new Promise((resolve, reject) => {
@@ -25,13 +34,17 @@
       window.products = capture;
       const script = document.createElement('script');
       script.async = true;
-      script.src = `${base}products-part-${String(index + 1).padStart(4, '0')}.js?v=1.1.4`;
+      script.src = `${base}products-page-${String(index + 1).padStart(5, '0')}.js?v=${version}`;
       script.onload = () => {
         window.products = previousProducts;
         const records = capture.slice();
+        if (!records.length) {
+          pending.delete(index);
+          reject(new Error(`Catalog page ${index + 1} returned no products`));
+          return;
+        }
         loaded.set(index, records);
-        target.length = 0;
-        target.push(...records);
+        setTarget(records);
         pending.delete(index);
         document.dispatchEvent(new CustomEvent('bondsmall-catalog-chunk-loaded', { detail: { index, records } }));
         resolve(records);
@@ -39,7 +52,7 @@
       script.onerror = () => {
         window.products = previousProducts;
         pending.delete(index);
-        reject(new Error(`Unable to load catalog chunk ${index + 1}`));
+        reject(new Error(`Unable to load catalog page ${index + 1}`));
       };
       document.head.appendChild(script);
     });
@@ -47,63 +60,51 @@
     return promise;
   }
 
-  function loadThrough(index) {
-    index = Math.max(0, Math.min(PART_COUNT - 1, Number(index) || 0));
-    const request = orderedTail.then(async () => {
-      for (let cursor = 0; cursor <= index; cursor += 1) {
-        const cached = loaded.get(cursor);
-        if (cached && cached.length >= CHUNK_SIZE) continue;
-        await fetchChunk(cursor, Boolean(cached && cached.length < CHUNK_SIZE));
-      }
-      return loaded.get(index) || [];
-    });
-    orderedTail = request.catch(() => undefined);
-    return request;
+  async function ensurePage(page, perPage = PAGE_SIZE) {
+    const pageNumber = Math.max(1, Math.min(Math.ceil(TOTAL_RECORDS / perPage), Number(page) || 1));
+    const start = (pageNumber - 1) * perPage;
+    const first = Math.floor(start / PAGE_SIZE);
+    const last = Math.floor((start + Math.min(perPage, TOTAL_RECORDS - start) - 1) / PAGE_SIZE);
+    const records = [];
+    for (let index = first; index <= last; index += 1) {
+      records.push(...await fetchPage(index));
+    }
+    setTarget(records);
+    return records;
   }
 
   window.BondsmallCatalog = {
     totalCount: TOTAL_RECORDS,
-    chunkSize: CHUNK_SIZE,
-    partCount: PART_COUNT,
+    chunkSize: PAGE_SIZE,
+    pageSize: PAGE_SIZE,
+    partCount: PAGE_COUNT,
+    totalPages: PAGE_COUNT,
     loadedChunks: loaded,
-    loadThrough,
-    get totalPages() {
-      return Math.ceil(TOTAL_RECORDS / (window.innerWidth <= 600 ? 20 : 21));
-    },
-    loadChunk(index) {
-      return fetchChunk(index, false);
-    },
-    ensurePage(page, perPage) {
-      const offset = Math.max(0, (Number(page) - 1) * Number(perPage || 21));
-      return loadThrough(Math.floor(offset / CHUNK_SIZE));
-    },
-    async getProductById(productId) {
+    loadChunk: (index) => fetchPage(index),
+    loadThrough: (index) => fetchPage(index),
+    ensurePage,
+    getProductById(productId) {
       const id = Number(productId);
-      if (!Number.isFinite(id) || id < 1 || id > TOTAL_RECORDS) return null;
-      const chunk = await loadThrough(Math.floor((id - 1) / CHUNK_SIZE));
-      return chunk.find((product) => Number(product.id) === id) || null;
+      if (!Number.isFinite(id) || id < 1 || id > TOTAL_RECORDS) return Promise.resolve(null);
+      return fetchPage(Math.floor((id - 1) / PAGE_SIZE)).then((records) => records.find((product) => Number(product.id) === id) || null);
     },
-    hydrateFirstChunk() {
-      return loadThrough(0);
-    }
+    hydrateFirstChunk: () => fetchPage(0),
   };
 
-  // catalog-first-page.js is synchronous and already populated the first 21 records.
-  // Register them immediately so ensurePage(1) doesn't trigger a redundant fetch.
+  // Preserve the synchronous first-page experience, then replace it with the exact first 20 records.
   if (target.length > 0) {
-    loaded.set(0, target.slice());
+    loaded.set(0, target.slice(0, PAGE_SIZE));
     window.BondsmallCatalogReady = true;
     document.dispatchEvent(new CustomEvent('bondsmall-catalog-ready'));
-    // Hydrate the complete first chunk in the background.
-    const hydrate = () => window.BondsmallCatalog.loadThrough(0).catch((error) => console.warn(error));
+    const hydrate = () => fetchPage(0).catch((error) => console.warn('Catalog page hydration failed:', error));
     if ('requestIdleCallback' in window) requestIdleCallback(hydrate, { timeout: 2000 });
     else setTimeout(hydrate, 1000);
   } else {
-    fetchChunk(0, false).then(() => {
+    fetchPage(0).then(() => {
       window.BondsmallCatalogReady = true;
       document.dispatchEvent(new CustomEvent('bondsmall-catalog-ready'));
     }).catch((error) => {
-      console.warn('Catalog background load failed:', error);
+      console.warn('Catalog first page load failed:', error);
       window.BondsmallCatalogReady = true;
       document.dispatchEvent(new CustomEvent('bondsmall-catalog-ready'));
     });
