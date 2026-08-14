@@ -1,0 +1,60 @@
+{
+  "records": 1231339,
+  "two_images": 1231339,
+  "bad_images": 0,
+  "local_secondary": 1447,
+  "failed_external_secondary": 30303,
+  "other_external_secondary": 1199589,
+  "samples_failed": [
+    {
+      "id": 1541,
+      "name": "Airplane Piggy Bank",
+      "url": "https://datasets-server.huggingface.co/cached-assets/Shopify/product-catalogue/--/d5c517c509f5aca99053897ef1de797d6d7e5aa5/--/default/train/0/product_image/image.jpg?Expires=1786669613&Signature=AOaDKPKh6PaT4ppo0k-8LxuW7T~ymBcUBZudqWPlTcEPJ7kzlwRrapB6PRsFpoZaE032eLlX9Mqys3D5zE9Eh6prc13QczAvBuIRzxjSruwKHycoHVFfEvfEP76FD5aeDFyPJal13OSTQsSeNL14hqfvGuu46yX9ZJOUDqk2PcY0lrNZTkAVCDawkbfXhMkFG7MZmt~l559sVwu8zs5PLh4yFiaW9oXbKcG9rXnoHMavTy2QGFp-2G7lt3IKEtrS~HrOjUMVSKITbaydWfy8dgRkrxX~OyvAcEGtzAwG4~CofKBd5acZxdTtR9V2p-wZMgUtCUgh02vLI3xq4uI-rQ__&Key-Pair-Id=K3C0L9WB6U5DUC"
+    },
+    {
+      "id": 1542,
+      "name": "PostuEase™ - Justerbart hållningsbälte för ryggen",
+      "url": "https://datasets-server.huggingface.co/cached-assets/Shopify/product-catalogue/--/d5c517c509f5aca99053897ef1de797d6d7e5aa5/--/default/train/1/product_image/image.jpg?Expires=1786669613&Signature=rpabuh4Ry3wddzXRHkNaBtQpCUkWrfMUBZlFtK7xRQIelwjOVNnO33mlBvBDQ9-NTjM66vf7vO-sy06khstXbYjhuvcOFurznaHRQp3dga~slFcMKYJAOPT9KWFGd18AeqG9x0jbKChFJ1BSic8jfOvioLa16ER3bCGQrPCoQXQ~Bf881A1N2E7xQryxMpSiM~8RbCf~nbpeqcDW1FGA4XHpBrvg3qZB3CMEOxP1uzYyeAtnaEgqMVqnMRinx5VQ1BF2K6504Jkq84OGsY7ab8OZjVCx4VO9MOg-iPFdHsfsy0W58QpilsoUp3oaVHGtKUtSFWyARvkUOWeLpf1YcQ__&Key-Pair-Id=K3C0L9WB6U5DUC"
+    },
+    {
+      "id": 19522,
+      "name": "Sidewinder for Metal Baton System - for 5mm Squared Tilting Rod",
+      "url": "https://datasets-server.huggingface.co/cached-assets/Shopify/product-catalogue/--/d5c517c509f5aca99053897ef1de797d6d7e5aa5/--/default/train/0/product_image/image.jpg?Expires=1786669613&Signature=AOaDKPKh6PaT4ppo0k-8LxuW7T~ymBcUBZudqWPlTcEPJ7kzlwRrapB6PRsFpoZaE032eLlX9Mqys3D5zE9Eh6prc13QczAvBuIRzxjSruwKHycoHVFfEvfEP76FD5aeDFyPJal13OSTQsSeNL14hqfvGuu46yX9ZJOUDqk2PcY0lrNZTkAVCDawkbfXhMkFG7MZmt~l559sVwu8zs5PLh4yFiaW9oXbKcG9rXnoHMavTy2QGFp-2G7lt3IKEtrS~HrOjUMVSKITbaydWfy8dgRkrxX~OyvAcEGtzAwG4~CofKBd5acZxdTtR9V2p-wZMgUtCUgh02vLI3xq4uI-rQ__&Key-Pair-Id=K3C0L9WB6U5DUC"
+    },
+    {
+      "id": 19523,
+      "name": "Stanley - 9-31/32\" OAL x 1\" Blade Width Wood Chisel - 1\" Tip, Hornbeam Wood Handle",
+      "url": "https://datasets-server.huggingface.co/cached-assets/Shopify/product-catalogue/--/d5c517c509f5aca99053897ef1de797d6d7e5aa5/--/default/train/0/product_image/image.jpg?Expires=1786669613&Signature=AOaDKPKh6PaT4ppo0k-8LxuW7T~ymBcUBZudqWPlTcEPJ7kzlwRrapB6PRsFpoZaE032eLlX9Mqys3D5zE9Eh6prc13QczAvBuIRzxjSruwKHycoHVFfEvfEP76FD5aeDFyPJal13OSTQsSeNL14hqfvGuu46yX9ZJOUDqk2PcY0lrNZTkAVCDawkbfXhMkFG7MZmt~l559sVwu8zs5PLh4yFiaW9oXbKcG9rXnoHMavTy2QGFp-2G7lt3IKEtrS~HrOjUMVSKITbaydWfy8dgRkrxX~OyvAcEGtzAwG4~CofKBd5acZxdTtR9V2p-wZMgUtCUgh02vLI3xq4uI-rQ__&Key-Pair-Id=K3C0L9WB6U5DUC"
+    },
+    {
+      "id": 19524,
+      "name": "2024 Mizuno FINCH (-13) Fastpitch Softball Bat",
+      "url": "https://datasets-server.huggingface.co/cached-assets/Shopify/product-catalogue/--/d5c517c509f5aca99053897ef1de797d6d7e5aa5/--/default/train/0/product_image/image.jpg?Expires=1786669613&Signature=AOaDKPKh6PaT4ppo0k-8LxuW7T~ymBcUBZudqWPlTcEPJ7kzlwRrapB6PRsFpoZaE032eLlX9Mqys3D5zE9Eh6prc13QczAvBuIRzxjSruwKHycoHVFfEvfEP76FD5aeDFyPJal13OSTQsSeNL14hqfvGuu46yX9ZJOUDqk2PcY0lrNZTkAVCDawkbfXhMkFG7MZmt~l559sVwu8zs5PLh4yFiaW9oXbKcG9rXnoHMavTy2QGFp-2G7lt3IKEtrS~HrOjUMVSKITbaydWfy8dgRkrxX~OyvAcEGtzAwG4~CofKBd5acZxdTtR9V2p-wZMgUtCUgh02vLI3xq4uI-rQ__&Key-Pair-Id=K3C0L9WB6U5DUC"
+    },
+    {
+      "id": 19525,
+      "name": "capteur de parking additionnel",
+      "url": "https://datasets-server.huggingface.co/cached-assets/Shopify/product-catalogue/--/d5c517c509f5aca99053897ef1de797d6d7e5aa5/--/default/train/0/product_image/image.jpg?Expires=1786669613&Signature=AOaDKPKh6PaT4ppo0k-8LxuW7T~ymBcUBZudqWPlTcEPJ7kzlwRrapB6PRsFpoZaE032eLlX9Mqys3D5zE9Eh6prc13QczAvBuIRzxjSruwKHycoHVFfEvfEP76FD5aeDFyPJal13OSTQsSeNL14hqfvGuu46yX9ZJOUDqk2PcY0lrNZTkAVCDawkbfXhMkFG7MZmt~l559sVwu8zs5PLh4yFiaW9oXbKcG9rXnoHMavTy2QGFp-2G7lt3IKEtrS~HrOjUMVSKITbaydWfy8dgRkrxX~OyvAcEGtzAwG4~CofKBd5acZxdTtR9V2p-wZMgUtCUgh02vLI3xq4uI-rQ__&Key-Pair-Id=K3C0L9WB6U5DUC"
+    },
+    {
+      "id": 19526,
+      "name": "Nokta Makro The Legend",
+      "url": "https://datasets-server.huggingface.co/cached-assets/Shopify/product-catalogue/--/d5c517c509f5aca99053897ef1de797d6d7e5aa5/--/default/train/0/product_image/image.jpg?Expires=1786669613&Signature=AOaDKPKh6PaT4ppo0k-8LxuW7T~ymBcUBZudqWPlTcEPJ7kzlwRrapB6PRsFpoZaE032eLlX9Mqys3D5zE9Eh6prc13QczAvBuIRzxjSruwKHycoHVFfEvfEP76FD5aeDFyPJal13OSTQsSeNL14hqfvGuu46yX9ZJOUDqk2PcY0lrNZTkAVCDawkbfXhMkFG7MZmt~l559sVwu8zs5PLh4yFiaW9oXbKcG9rXnoHMavTy2QGFp-2G7lt3IKEtrS~HrOjUMVSKITbaydWfy8dgRkrxX~OyvAcEGtzAwG4~CofKBd5acZxdTtR9V2p-wZMgUtCUgh02vLI3xq4uI-rQ__&Key-Pair-Id=K3C0L9WB6U5DUC"
+    },
+    {
+      "id": 19527,
+      "name": "PNY USB2.0 Attache 4 16GB",
+      "url": "https://datasets-server.huggingface.co/cached-assets/Shopify/product-catalogue/--/d5c517c509f5aca99053897ef1de797d6d7e5aa5/--/default/train/0/product_image/image.jpg?Expires=1786669613&Signature=AOaDKPKh6PaT4ppo0k-8LxuW7T~ymBcUBZudqWPlTcEPJ7kzlwRrapB6PRsFpoZaE032eLlX9Mqys3D5zE9Eh6prc13QczAvBuIRzxjSruwKHycoHVFfEvfEP76FD5aeDFyPJal13OSTQsSeNL14hqfvGuu46yX9ZJOUDqk2PcY0lrNZTkAVCDawkbfXhMkFG7MZmt~l559sVwu8zs5PLh4yFiaW9oXbKcG9rXnoHMavTy2QGFp-2G7lt3IKEtrS~HrOjUMVSKITbaydWfy8dgRkrxX~OyvAcEGtzAwG4~CofKBd5acZxdTtR9V2p-wZMgUtCUgh02vLI3xq4uI-rQ__&Key-Pair-Id=K3C0L9WB6U5DUC"
+    },
+    {
+      "id": 19528,
+      "name": "Alabama Crimson Tide Luggage Tag",
+      "url": "https://datasets-server.huggingface.co/cached-assets/Shopify/product-catalogue/--/d5c517c509f5aca99053897ef1de797d6d7e5aa5/--/default/train/0/product_image/image.jpg?Expires=1786669613&Signature=AOaDKPKh6PaT4ppo0k-8LxuW7T~ymBcUBZudqWPlTcEPJ7kzlwRrapB6PRsFpoZaE032eLlX9Mqys3D5zE9Eh6prc13QczAvBuIRzxjSruwKHycoHVFfEvfEP76FD5aeDFyPJal13OSTQsSeNL14hqfvGuu46yX9ZJOUDqk2PcY0lrNZTkAVCDawkbfXhMkFG7MZmt~l559sVwu8zs5PLh4yFiaW9oXbKcG9rXnoHMavTy2QGFp-2G7lt3IKEtrS~HrOjUMVSKITbaydWfy8dgRkrxX~OyvAcEGtzAwG4~CofKBd5acZxdTtR9V2p-wZMgUtCUgh02vLI3xq4uI-rQ__&Key-Pair-Id=K3C0L9WB6U5DUC"
+    },
+    {
+      "id": 19529,
+      "name": "Jim Thorpe: A Biography",
+      "url": "https://datasets-server.huggingface.co/cached-assets/Shopify/product-catalogue/--/d5c517c509f5aca99053897ef1de797d6d7e5aa5/--/default/train/0/product_image/image.jpg?Expires=1786669613&Signature=AOaDKPKh6PaT4ppo0k-8LxuW7T~ymBcUBZudqWPlTcEPJ7kzlwRrapB6PRsFpoZaE032eLlX9Mqys3D5zE9Eh6prc13QczAvBuIRzxjSruwKHycoHVFfEvfEP76FD5aeDFyPJal13OSTQsSeNL14hqfvGuu46yX9ZJOUDqk2PcY0lrNZTkAVCDawkbfXhMkFG7MZmt~l559sVwu8zs5PLh4yFiaW9oXbKcG9rXnoHMavTy2QGFp-2G7lt3IKEtrS~HrOjUMVSKITbaydWfy8dgRkrxX~OyvAcEGtzAwG4~CofKBd5acZxdTtR9V2p-wZMgUtCUgh02vLI3xq4uI-rQ__&Key-Pair-Id=K3C0L9WB6U5DUC"
+    }
+  ]
+}

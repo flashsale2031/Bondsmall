@@ -1,0 +1,19 @@
+{
+  "failed_urls": 132,
+  "candidate_urls": 28,
+  "crop_assets_total": 103,
+  "unresolved_urls": 29,
+  "references_replaced": 10,
+  "unresolved_samples": [
+    "https://fotovue.com/wp-content/uploads/2020/07/@-Salisbury-Cathedral-Viewpoint-1-March-UK19-070-Salisbury-Cathedral-Wiltshire.jpg",
+    "https://datasets-server.huggingface.co/cached-assets/Shopify/product-catalogue/--/d5c517c509f5aca99053897ef1de797d6d7e5aa5/--/default/train/1/product_image/image.jpg?Expires=1786669613&Signature=rpabuh4Ry3wddzXRHkNaBtQpCUkWrfMUBZlFtK7xRQIelwjOVNnO33mlBvBDQ9-NTjM66vf7vO-sy06khstXbYjhuvcOFurznaHRQp3dga~slFcMKYJAOPT9KWFGd18AeqG9x0jbKChFJ1BSic8jfOvioLa16ER3bCGQrPCoQXQ~Bf881A1N2E7xQryxMpSiM~8RbCf~nbpeqcDW1FGA4XHpBrvg3qZB3CMEOxP1uzYyeAtnaEgqMVqnMRinx5VQ1BF2K6504Jkq84OGsY7ab8OZjVCx4VO9MOg-iPFdHsfsy0W58QpilsoUp3oaVHGtKUtSFWyARvkUOWeLpf1YcQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+    "https://de.healing-sounds.com/cdn/shop/files/IMG_9690.jpg?v=1752420323&width=2160",
+    "https://www.loukko.com/assets/ProductCatalog/411/SilverShop_Page_Product-410223/31G-BE-2-TO_a__WatermarkWzAsMCwzODg5LDI1OTIsIkNlbnRlciIsMjY2OTQxXQ.jpg",
+    "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100015422236047",
+    "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122095835859386926",
+    "https://www.dailyindependent.com.pk/wp-content/uploads/2025/03/154320359_113155357484615_2103888095756550789_n.jpg",
+    "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1457944398879885",
+    "https://www.sheetmusicplus.com/dw/image/v2/BJFX_PRD/on/demandware.static/-/Sites-smp-main/default/dwa79691a0/images/8908/548908_file_2_page_1.png?sw=450&sh=600&sm=fit",
+    "https://datasets-server.huggingface.co/cached-assets/Shopify/product-catalogue/--/d5c517c509f5aca99053897ef1de797d6d7e5aa5/--/default/test/0/product_image/image.jpg?Expires=1786670374&Signature=qsm1pIgcyEFF55WARmuW~mmUv1~aZv6AKkwMU7jOe376MuT5tQhhMW95gzyYnKLE3cY1D~2KJ7HOmRG5GxbwbyI7kIEZf9QrBOetjuZH67DS-~CP1x8zErFAe5e9Ek4B~XA1~KAuz2MjfRr9XHuKfzqFmpNWy5jTNeJLBR1y-uCPT8WMBNJ2kOMt6Jzo7aERf81lXvj7uD8iVcsAwXyR2iBBCUAgPYyTCtJI0uZjaCzN2yCkIp~jElhj1VhpUVDEZAqxQhHMULjMjDbLNK5pzySPhp18XF0K6VzjLuv~9VVcKcDnm0nafnhEsLY9h8gtHRMSgxyAHUTc0q1QwvrFbg__&Key-Pair-Id=K3C0L9WB6U5DUC"
+  ]
+}
