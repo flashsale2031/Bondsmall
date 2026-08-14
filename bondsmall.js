@@ -1610,6 +1610,7 @@
     }
 
     function init() {
+        const requestedPage = getPageFromUrl();
         try {
             window.history.replaceState({}, "", cleanUrl(window.location.href));
         } catch (e) {
@@ -1625,7 +1626,7 @@
 
         initializeAccountManager();
         normalizeProducts();
-        currentPage = getPageFromUrl();
+        currentPage = requestedPage;
         const initialCatalogLoad = window.BondsmallCatalog
             ? window.BondsmallCatalog.ensurePage(currentPage, getProductsPerPage())
             : Promise.resolve();
