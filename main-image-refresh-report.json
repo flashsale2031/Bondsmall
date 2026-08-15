@@ -1,0 +1,10 @@
+{
+  "affected_records": 38506,
+  "unique_hf_indices": 38506,
+  "fresh_signed_urls": 38506,
+  "updated_records": 38505,
+  "changed_pages": 1927,
+  "download_errors": [
+    "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='datasets-server.huggingface.co', port=443): Read timed out. (read timeout=90)\"))"
+  ]
+}

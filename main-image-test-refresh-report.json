@@ -1,0 +1,9 @@
+{
+  "affected": 9659,
+  "fresh_urls": 9659,
+  "updated": 9658,
+  "changed_pages": 484,
+  "errors": [
+    "HTTPError('403 Client Error: Forbidden for url: https://datasets-server.huggingface.co/cached-assets/Shopify/product-catalogue/--/d5c517c509f5aca99053897ef1de797d6d7e5aa5/--/default/train/34841/product_image/image.jpg?Expires=1786756155&Signature=sXp1rvfI9ZmuC97HngD-ZL9iidVepI69XBTkknT7zwAZdFGDhsk2vODLCG-p7P1o3Tf2E6KRO6dtvYDJBqAvoiEOA2q32Ln9O6vuqAEf7MdZ6BGpCiJ5USL3o5XpVBhs5C5KlQI9Vill9Px71NP6eDTd391cbGfrUAgQxeGVTEkl9BvvfKaHdjza8yjw4kK6iBLxNFFPLpN-WwrEfkKLXIdSRYErL37-PqhWZCWDLNTKrzvC5SL7ZcZeqmgaxXByOg2k7M3t~SyHKiPW2l5x7j9R8wUf8cOsjcdtwE83HSmqQi~7bt-xZhwBJSGOCnpFiacf17IEKgjjpAM15WopRw__&Key-Pair-Id=K3C0L9WB6U5DUC')"
+  ]
+}
