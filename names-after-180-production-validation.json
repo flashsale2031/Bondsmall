@@ -1,0 +1,16 @@
+{
+  "summary": {
+    "products": 1231539,
+    "pages": 61577,
+    "min_id": 1,
+    "max_id": 1231540,
+    "unique_ids": 1231539,
+    "duplicate_ids": 0,
+    "post_180": 1231360,
+    "long_post_180": 0,
+    "invalid_chunks": 0,
+    "valid": true
+  },
+  "long": [],
+  "invalid": []
+}
