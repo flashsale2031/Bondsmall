@@ -1,0 +1,174 @@
+{
+  "pages": {
+    "10": {
+      "records": 20,
+      "failures": 19
+    },
+    "11": {
+      "records": 20,
+      "failures": 0
+    },
+    "12": {
+      "records": 20,
+      "failures": 0
+    },
+    "13": {
+      "records": 20,
+      "failures": 0
+    },
+    "14": {
+      "records": 20,
+      "failures": 0
+    },
+    "15": {
+      "records": 20,
+      "failures": 0
+    },
+    "16": {
+      "records": 20,
+      "failures": 0
+    },
+    "17": {
+      "records": 20,
+      "failures": 0
+    }
+  },
+  "repaired": 141,
+  "source_fetched": 1,
+  "crop_fallbacks": 141,
+  "failures": [
+    {
+      "page": 10,
+      "id": 182,
+      "name": "Everlasting Stained Glass Orchid",
+      "main": false,
+      "alt": true
+    },
+    {
+      "page": 10,
+      "id": 183,
+      "name": "Everlasting Stained Glass Succulents",
+      "main": false,
+      "alt": true
+    },
+    {
+      "page": 10,
+      "id": 184,
+      "name": "MLB Wall Sculpture Stadium Art",
+      "main": false,
+      "alt": true
+    },
+    {
+      "page": 10,
+      "id": 185,
+      "name": "Dodgers 2025 World Series Champions Stadium Art",
+      "main": false,
+      "alt": true
+    },
+    {
+      "page": 10,
+      "id": 186,
+      "name": "Stained Glass Floral Stem",
+      "main": false,
+      "alt": true
+    },
+    {
+      "page": 10,
+      "id": 187,
+      "name": "Welcoming Branch Wall Sculpture",
+      "main": false,
+      "alt": true
+    },
+    {
+      "page": 10,
+      "id": 188,
+      "name": "College Town Wall Sculpture",
+      "main": false,
+      "alt": true
+    },
+    {
+      "page": 10,
+      "id": 189,
+      "name": "Personalized Heart Wall Sculpture",
+      "main": false,
+      "alt": true
+    },
+    {
+      "page": 10,
+      "id": 190,
+      "name": "NHL Sculpture Candle",
+      "main": false,
+      "alt": true
+    },
+    {
+      "page": 10,
+      "id": 191,
+      "name": "Keith Haring Pop Shop 40th Anniversary Monopoly",
+      "main": false,
+      "alt": true
+    },
+    {
+      "page": 10,
+      "id": 192,
+      "name": "Fresh Fruit Premium Giclee Print",
+      "main": false,
+      "alt": true
+    },
+    {
+      "page": 10,
+      "id": 193,
+      "name": "Ocean Turtle Art Print",
+      "main": false,
+      "alt": true
+    },
+    {
+      "page": 10,
+      "id": 194,
+      "name": "Amelia's Neutral Garden II Art Print",
+      "main": false,
+      "alt": true
+    },
+    {
+      "page": 10,
+      "id": 195,
+      "name": "Genuine North Pole Recipe Premium Giclee Print",
+      "main": false,
+      "alt": true
+    },
+    {
+      "page": 10,
+      "id": 196,
+      "name": "Paris Fleurs Premium Giclee Print",
+      "main": false,
+      "alt": true
+    },
+    {
+      "page": 10,
+      "id": 197,
+      "name": "Silence Premium Giclee Print",
+      "main": false,
+      "alt": true
+    },
+    {
+      "page": 10,
+      "id": 198,
+      "name": "Intimacy on Display Premium Giclee Print",
+      "main": false,
+      "alt": true
+    },
+    {
+      "page": 10,
+      "id": 199,
+      "name": "Santana: Shaman on White Premium Giclee Print",
+      "main": false,
+      "alt": true
+    },
+    {
+      "page": 10,
+      "id": 200,
+      "name": "Flowers and Ferns 1 Premium Giclee Print",
+      "main": false,
+      "alt": true
+    }
+  ]
+}
