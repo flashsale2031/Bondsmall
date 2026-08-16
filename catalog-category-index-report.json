@@ -1,5 +1,5 @@
 {
-  "totalRecords": 1231539,
+  "totalRecords": 1231540,
   "categories": {
     "accessories": {
       "count": 24821,
@@ -26,8 +26,8 @@
       "chunkCount": 4331
     },
     "men": {
-      "count": 236,
-      "chunkCount": 204
+      "count": 237,
+      "chunkCount": 205
     },
     "women": {
       "count": 22535,
