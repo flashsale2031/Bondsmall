@@ -1,0 +1,36 @@
+{
+  "updated_records": 5,
+  "available_exact_matches": 5,
+  "samples": [
+    {
+      "id": 201,
+      "name": "HyperGear Flip 2-in-1 Bluetooth Folding Over-Ear Headphones",
+      "images": 7,
+      "manufacturer_url": "https://myhypergear.com/products/flip-2-in-1-wireless-headphones-speaker-black"
+    },
+    {
+      "id": 205,
+      "name": "Logitech C920e Full HD 1080p Business Webcam",
+      "images": 12,
+      "manufacturer_url": "https://www.logitech.com/en-us/products/webcams/c920e-business-webcam.html"
+    },
+    {
+      "id": 210,
+      "name": "Logitech MX Brio 4K Ultra HD Webcam",
+      "images": 12,
+      "manufacturer_url": "https://www.logitech.com/en-us/shop/p/mx-brio-4k-webcam"
+    },
+    {
+      "id": 216,
+      "name": "Fujifilm instax SQUARE Link Smartphone Printer",
+      "images": 1,
+      "manufacturer_url": "https://www.instax.com/square_link/en/"
+    },
+    {
+      "id": 219,
+      "name": "Fujifilm instax WIDE Link Wireless Photo Printer",
+      "images": 1,
+      "manufacturer_url": "https://www.instax.com/link_wide/en/"
+    }
+  ]
+}

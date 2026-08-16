@@ -1,0 +1,16 @@
+{
+  "summary": {
+    "target_records": 5,
+    "found_records": 5,
+    "gallery_sizes": {
+      "201": 7,
+      "205": 12,
+      "210": 12,
+      "216": 2,
+      "219": 2
+    },
+    "invalid_images": 0,
+    "valid": true
+  },
+  "bad": []
+}
