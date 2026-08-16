@@ -1,0 +1,27 @@
+{
+  "updated": [
+    {
+      "id": 23,
+      "retail_price": 1999.99,
+      "sale_price": 499.99,
+      "sources": [
+        {
+          "url": "https://www.apple.com/shop/refurbished/mac/macbook-pro",
+          "observed": "$1,699-$1,999",
+          "type": "manufacturer/refurbished"
+        },
+        {
+          "url": "https://www.backmarket.com/en-us/p/macbook-pro-2018-intel",
+          "observed": "$299 refurbished",
+          "type": "refurbished comparable"
+        },
+        {
+          "url": "https://www.ebay.com/b/2018-Apple-MacBook-Pro-Laptops/111422/bn_108862120",
+          "observed": "about $249-$645 used/refurbished",
+          "type": "marketplace comparable"
+        }
+      ]
+    }
+  ],
+  "policy": "No product may remain at $0.00; nonzero comparable price required."
+}
