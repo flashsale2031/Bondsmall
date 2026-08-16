@@ -1695,8 +1695,9 @@
                 if (e.key === "Enter" && e.target.classList.contains("pg-goto-input")) {
                     const val = parseInt(e.target.value);
                     const filtered = getFilteredProducts();
-                    const catalogTotal = window.BondsmallCatalog ? window.BondsmallCatalog.totalCount : filtered.length;
-                    const totalPages = Math.ceil(Math.max(filtered.length, catalogTotal) / getProductsPerPage());
+                    const categoryView = activeCategory !== "all" && window.BondsmallCatalog && typeof window.BondsmallCatalog.getCategoryTotal === "function";
+                    const catalogTotal = categoryView ? window.BondsmallCatalog.getCategoryTotal(activeCategory) : (window.BondsmallCatalog ? window.BondsmallCatalog.totalCount : filtered.length);
+                    const totalPages = Math.ceil((categoryView ? catalogTotal : Math.max(filtered.length, catalogTotal)) / getProductsPerPage());
                     if (val >= 1 && val <= totalPages) goToPage(val);
                     e.target.value = "";
                 }

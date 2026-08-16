@@ -1288,7 +1288,9 @@
                 const nav = e.target.closest("[data-pg-action]");
                 if (!nav) return;
                 const filtered = getFilteredProducts();
-                const totalPages = Math.ceil(filtered.length / getProductsPerPage());
+                const categoryView = currentCategory !== "all" && window.BondsmallCatalog && typeof window.BondsmallCatalog.getCategoryTotal === "function";
+                const totalItems = categoryView ? window.BondsmallCatalog.getCategoryTotal(currentCategory) : filtered.length;
+                const totalPages = Math.ceil(totalItems / getProductsPerPage());
                 switch (nav.dataset.pgAction) {
                     case "first": goToPage(1); break;
                     case "prev":  goToPage(currentPage - 1); break;
@@ -1300,7 +1302,9 @@
                 if (e.key === "Enter" && e.target.classList.contains("pg-goto-input")) {
                     const val = parseInt(e.target.value);
                     const filtered = getFilteredProducts();
-                    const totalPages = Math.ceil(filtered.length / getProductsPerPage());
+                    const categoryView = currentCategory !== "all" && window.BondsmallCatalog && typeof window.BondsmallCatalog.getCategoryTotal === "function";
+                    const totalItems = categoryView ? window.BondsmallCatalog.getCategoryTotal(currentCategory) : filtered.length;
+                    const totalPages = Math.ceil(totalItems / getProductsPerPage());
                     if (val >= 1 && val <= totalPages) {
                         goToPage(val);
                     }
