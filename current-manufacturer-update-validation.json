@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "target_records": 6,
+    "found_records": 6,
+    "invalid_images": 0,
+    "all_galleries_at_least_two": true,
+    "valid": true
+  },
+  "records": {
+    "201": {
+      "name": "HyperGear Flip 2-in-1 Bluetooth Folding Over-Ear Headphones",
+      "count": 2,
+      "source": "https://i.ytimg.com/vi/q0SlfmlOBGI/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGHIgTyg2MA8=&rs=AOn4CLCRTwluW3cguQFpj9SWtSVG1bssLA"
+    },
+    "205": {
+      "name": "Logitech C920e Full HD 1080p Business Webcam",
+      "count": 12,
+      "source": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/logitechgprox2wireless-1.jpg"
+    },
+    "210": {
+      "name": "Logitech MX Brio 4K Ultra HD Webcam",
+      "count": 12,
+      "source": "indexed-image-search"
+    },
+    "216": {
+      "name": "Fujifilm instax SQUARE Link Smartphone Printer",
+      "count": 2,
+      "source": "https://shop.tigersoft.de/media/54/b1/fe/1755090385/sc100_1.jpg?ts=1755090385"
+    },
+    "219": {
+      "name": "Fujifilm instax WIDE Link Wireless Photo Printer",
+      "count": 2,
+      "source": "https://realschule-benrath.de/wp-content/uploads/2022/11/Bildschirmfoto-2022-11-28-um-21.56.39-1200x828.png"
+    },
+    "2441": {
+      "name": "Electric Knife Set with Cutting Board",
+      "count": 12,
+      "source": "https://www.cuisinart.com/electric-knife-set-with-cutting-board/CEK-41.html"
+    }
+  },
+  "bad": []
+}
