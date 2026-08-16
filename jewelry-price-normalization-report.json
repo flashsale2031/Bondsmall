@@ -1,0 +1,14 @@
+{
+  "jewelry_records": 25869,
+  "changed_records": 1,
+  "touched_chunks": 1,
+  "examples": [
+    {
+      "position": 90,
+      "id": 90,
+      "retail": 13649999.99,
+      "old_sale": 13599999.99,
+      "new_sale": 11602499.99
+    }
+  ]
+}
