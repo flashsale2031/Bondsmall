@@ -1,14 +1,14 @@
 /* Bondsmall page-sized catalog loader: one 20-product chunk per storefront page. */
 (() => {
   'use strict';
-  const TOTAL_RECORDS = 1231539;
+  const TOTAL_RECORDS = 1231541;
   const PAGE_SIZE = 20;
   const PAGE_COUNT = 61577;
   const loaded = new Map();
   const pending = new Map();
   const base = 'catalog-pages/';
   const target = window.products = window.products || [];
-  const version = '2.3.4';
+  const version = '2.3.5';
   const categoryIndex = (window.BondsmallCategoryIndex && window.BondsmallCategoryIndex.categories) || {};
   const categoryStates = new Map();
 
