@@ -21,6 +21,7 @@
   const REGION_CURRENCY = { US:'USD',CA:'CAD',GB:'GBP',AU:'AUD',NZ:'AUD',JP:'JPY',CN:'CNY',HK:'CNY',IN:'INR',MX:'MXN',DE:'EUR',FR:'EUR',ES:'EUR',IT:'EUR',PT:'EUR',NL:'EUR',BE:'EUR',AT:'EUR',IE:'EUR',FI:'EUR',GR:'EUR',BR:'USD',KR:'USD',SA:'USD' };
   const LANG_KEY = 'bondsmall_language';
   const CURRENCY_KEY = 'bondsmall_currency';
+  const CURRENCY_MANUAL_KEY = 'bondsmall_currency_manual';
   const AUTO_KEY = 'bondsmall_preferences_initialized';
   const getBaseLanguage = (value) => String(value || '').toLowerCase().split('-')[0].split('_')[0];
   function detectLanguage() {
@@ -39,14 +40,18 @@
   }
   const storedLanguage = localStorage.getItem(LANG_KEY);
   const storedCurrency = localStorage.getItem(CURRENCY_KEY);
+  const storedCurrencyManual = localStorage.getItem(CURRENCY_MANUAL_KEY) === '1';
   const firstVisit = !localStorage.getItem(AUTO_KEY);
   let state = {
     language: LANGUAGES[storedLanguage] ? storedLanguage : (firstVisit ? detectLanguage() : 'en'),
-    currency: CURRENCIES[storedCurrency] ? storedCurrency : (firstVisit ? detectCurrency(storedLanguage || detectLanguage()) : 'USD')
+    currency: CURRENCIES[storedCurrency] ? storedCurrency : (firstVisit ? detectCurrency(storedLanguage || detectLanguage()) : 'USD'),
+    currencyManual: storedCurrencyManual
   };
+  if (!state.currencyManual) state.currency = detectCurrency(state.language);
   localStorage.setItem(AUTO_KEY, '1');
   if (!storedLanguage) localStorage.setItem(LANG_KEY, state.language);
-  if (!storedCurrency) localStorage.setItem(CURRENCY_KEY, state.currency);
+  localStorage.setItem(CURRENCY_KEY, state.currency);
+  localStorage.setItem(CURRENCY_MANUAL_KEY, state.currencyManual ? '1' : '0');
   const dictionaries = {
     es: { 'Cart':'Carrito','Account':'Cuenta','Search products...':'Buscar productos...','Shop All':'Comprar todo','Accessories':'Accesorios','Electronics':'Electrónica','Entertainment':'Entretenimiento','Jewelry':'Joyería','Add to Cart':'Añadir al carrito','Browse':'Explorar','Shop by Category':'Comprar por categoría','No products matched your search.':'No hay productos que coincidan con tu búsqueda.','Language':'Idioma','Currency':'Moneda','Automatic':'Automático' },
     fr: { 'Cart':'Panier','Account':'Compte','Search products...':'Rechercher des produits...','Shop All':'Tout voir','Accessories':'Accessoires','Electronics':'Électronique','Entertainment':'Divertissement','Jewelry':'Bijoux','Add to Cart':'Ajouter au panier','Browse':'Parcourir','Shop by Category':'Acheter par catégorie','Language':'Langue','Currency':'Devise','Automatic':'Automatique' },
@@ -84,10 +89,10 @@
     const ls=wrap.querySelector('#bondsmall-language'), cs=wrap.querySelector('#bondsmall-currency');
     Object.entries(LANGUAGES).forEach(([k,v])=>ls.add(new Option(v.label,k))); Object.entries(CURRENCIES).forEach(([k,v])=>cs.add(new Option(`${k} — ${v.label}`,k)));
     ls.value=state.language; cs.value=state.currency;
-    ls.addEventListener('change',()=>{state.language=ls.value;localStorage.setItem(LANG_KEY,state.language);apply();});
-    cs.addEventListener('change',()=>{state.currency=cs.value;localStorage.setItem(CURRENCY_KEY,state.currency);apply();});
+    ls.addEventListener('change',()=>{state.language=ls.value;localStorage.setItem(LANG_KEY,state.language);if(!state.currencyManual){state.currency=detectCurrency(state.language);localStorage.setItem(CURRENCY_KEY,state.currency);}apply();close();});
+    cs.addEventListener('change',()=>{state.currency=cs.value;state.currencyManual=true;localStorage.setItem(CURRENCY_KEY,state.currency);localStorage.setItem(CURRENCY_MANUAL_KEY,'1');apply();close();});
   }
-  function apply(){ const ls=document.getElementById('bondsmall-language'),cs=document.getElementById('bondsmall-currency'),toggle=document.getElementById('bondsmall-locale-toggle'); if(ls)ls.value=state.language;if(cs)cs.value=state.currency;if(toggle){toggle.textContent=state.language.toUpperCase();toggle.setAttribute('aria-label',`${LANGUAGES[state.language].label} language, ${CURRENCIES[state.currency].label} currency`);} translateDom(); document.dispatchEvent(new CustomEvent('bondsmall-locale-change',{detail:{...state,formatMoney}})); }
-  window.BondsmallLocale={formatMoney,get language(){return state.language;},get currency(){return state.currency;},languages:LANGUAGES,currencies:CURRENCIES,setLanguage:(x)=>{if(LANGUAGES[x]){state.language=x;localStorage.setItem(LANG_KEY,x);apply();}},setCurrency:(x)=>{if(CURRENCIES[x]){state.currency=x;localStorage.setItem(CURRENCY_KEY,x);apply();}},detectLanguage,detectCurrency};
+  function apply(){ const ls=document.getElementById('bondsmall-language'),cs=document.getElementById('bondsmall-currency'),toggle=document.getElementById('bondsmall-locale-toggle'),auto=document.getElementById('bondsmall-locale-auto'); if(ls)ls.value=state.language;if(cs)cs.value=state.currency;if(toggle){toggle.textContent=state.language.toUpperCase();toggle.setAttribute('aria-label',`${LANGUAGES[state.language].label} language, ${CURRENCIES[state.currency].label} currency`);}if(auto)auto.textContent=state.currencyManual?'':'Automatic currency'; translateDom(); document.dispatchEvent(new CustomEvent('bondsmall-locale-change',{detail:{...state,formatMoney}})); }
+  window.BondsmallLocale={formatMoney,get language(){return state.language;},get currency(){return state.currency;},languages:LANGUAGES,currencies:CURRENCIES,setLanguage:(x)=>{if(LANGUAGES[x]){state.language=x;localStorage.setItem(LANG_KEY,x);if(!state.currencyManual){state.currency=detectCurrency(state.language);localStorage.setItem(CURRENCY_KEY,state.currency);}apply();}},setCurrency:(x)=>{if(CURRENCIES[x]){state.currency=x;state.currencyManual=true;localStorage.setItem(CURRENCY_KEY,x);localStorage.setItem(CURRENCY_MANUAL_KEY,'1');apply();}},detectLanguage,detectCurrency};
   document.addEventListener('DOMContentLoaded',()=>{renderControls();apply();});
 })();
