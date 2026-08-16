@@ -1,0 +1,45 @@
+{
+  "updated": [
+    {
+      "id": 295284,
+      "previous_brand": "Unknown",
+      "new_brand": "Santa's Studio",
+      "product_name": "Santa's Studio Package of 12-80mm Clear Acrylic Fillable Christmas Tree Ornaments",
+      "basis": "The indexed Amazon product page identifies the product as Santa's Studio and links to a Santa's Studio brand store.",
+      "source_urls": [
+        "https://www.amazon.sa/-/en/bCreative-Christmas-Sticker-Comes-Sheets-Assorted/dp/B09ZGGCD3Q",
+        "https://www.amazon.com/Santas-Studio/b/ref=mh_bl_sl_ap_ap_mw_53446397011?ie=UTF8&node=53446397011&field-lbr_brands_browse-bin=Santa%27s+Studio"
+      ],
+      "image_policy": "No new images were substituted because the available source was a brand-store/indexed listing rather than a product-specific official manufacturer gallery. Existing two-image gallery was preserved."
+    }
+  ],
+  "not_updated": [
+    {
+      "record_example": 281267,
+      "apparent_name_brand": "bCreative",
+      "reason": "The indexed product page labels the product brand as Generic, while bCreative describes itself as a licensing agency rather than the product manufacturer. Brand was not changed."
+    },
+    {
+      "record_example": 280829,
+      "apparent_name_brand": "Jägermeister",
+      "reason": "Jägermeister is a legitimate brand and operates an official merchandise shop, but the specific wall-clock manufacturer or licensed-product record was not verified. Brand was not changed."
+    }
+  ],
+  "policy": "No fabricated or closely related brand names were created. Records without a substantiated brand remain Unbranded, Generic, Unknown, or marketplace-labeled until verified."
+}
+
+Sources:
+- https://www.amazon.com/Santas-Studio/b/ref=mh_bl_sl_ap_ap_mw_53446397011?ie=UTF8&node=53446397011&field-lbr_brands_browse-bin=Santa%27s+Studio
+- https://www.amazon.sa/-/en/bCreative-Christmas-Sticker-Comes-Sheets-Assorted/dp/B09ZGGCD3Q
+- https://bcreative.com/our-history/
+- https://shop.jagermeister.com/
+- https://us.jagermeister.com/
+
+Note: The bCreative URL above was used to inspect the product-listing precedent for record 281267; it was not used as evidence for Santa's Studio.
+
+References:
+[1] [Santa's Studio Amazon brand store](https://www.amazon.com/Santas-Studio/b/ref=mh_bl_sl_ap_ap_mw_53446397011?ie=UTF8&node=53446397011&field-lbr_brands_browse-bin=Santa%27s+Studio)
+[2] [Indexed product listing showing Generic brand for the bCreative-named sticker](https://www.amazon.sa/-/en/bCreative-Christmas-Sticker-Comes-Sheets-Assorted/dp/B09ZGGCD3Q)
+[3] [bCreative company history and licensing description](https://bcreative.com/our-history/)
+[4] [Official Jägermeister shop](https://shop.jagermeister.com/)
+[5] [Official Jägermeister brand site](https://us.jagermeister.com/)
