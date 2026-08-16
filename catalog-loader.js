@@ -8,7 +8,9 @@
   const pending = new Map();
   const base = 'catalog-pages/';
   const target = window.products = window.products || [];
-  const version = '2.3.3';
+  const version = '2.3.4';
+  const categoryIndex = (window.BondsmallCategoryIndex && window.BondsmallCategoryIndex.categories) || {};
+  const categoryStates = new Map();
 
   function clampPage(index) {
     return Math.max(0, Math.min(PAGE_COUNT - 1, Number(index) || 0));
@@ -73,6 +75,39 @@
     return records;
   }
 
+  function normalizeCategory(category) {
+    return String(category || 'all').toLowerCase().replace(/[^a-z]/g, '');
+  }
+
+  function getCategoryTotal(category) {
+    if (normalizeCategory(category) === 'all') return TOTAL_RECORDS;
+    return Number((categoryIndex[normalizeCategory(category)] || {}).count || 0);
+  }
+
+  async function ensureCategoryPage(category, page, perPage = PAGE_SIZE) {
+    const key = normalizeCategory(category);
+    if (key === 'all' || !categoryIndex[key]) return ensurePage(page, perPage);
+    const total = getCategoryTotal(key);
+    const pageNumber = Math.max(1, Math.min(Math.ceil(total / perPage), Number(page) || 1));
+    const end = Math.min(total, pageNumber * perPage);
+    let state = categoryStates.get(key);
+    if (!state) {
+      state = { records: [], scanned: 0 };
+      categoryStates.set(key, state);
+    }
+    const chunkList = categoryIndex[key].chunks || [];
+    while (state.records.length < end && state.scanned < chunkList.length) {
+      const chunkIndex = chunkList[state.scanned++];
+      const chunkRecords = await fetchPage(chunkIndex);
+      state.records.push(...chunkRecords.filter(product => normalizeCategory(product.category) === key));
+    }
+    const start = (pageNumber - 1) * perPage;
+    const records = state.records.slice(start, start + perPage);
+    setTarget(records);
+    document.dispatchEvent(new CustomEvent('bondsmall-category-page-loaded', { detail: { category: key, page: pageNumber, records, total } }));
+    return records;
+  }
+
   window.BondsmallCatalog = {
     totalCount: TOTAL_RECORDS,
     chunkSize: PAGE_SIZE,
@@ -83,6 +118,8 @@
     loadChunk: (index) => fetchPage(index),
     loadThrough: (index) => fetchPage(index),
     ensurePage,
+    ensureCategoryPage,
+    getCategoryTotal,
     getProductById(productId) {
       const id = Number(productId);
       if (!Number.isFinite(id) || id < 1 || id > TOTAL_RECORDS) return Promise.resolve(null);

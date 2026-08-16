@@ -27,38 +27,39 @@
     const closeBtn     = document.getElementById("cat-drawer-close");
     const drawerItems  = document.querySelectorAll(".cat-drawer-item");
     const headerSearch = document.getElementById("header-search");
+    const searchPageInput = document.getElementById("sr-search");
+    const popupSearch = document.getElementById("popup-header-search");
 
-    if (!menuBtn || !overlay) return; // guard: overlay and main menu button must exist
+    if (!overlay) return; // guard: pages without the shared drawer should not throw
+
+    const menuButtons = document.querySelectorAll("#menu-btn, #popup-menu-btn");
 
     /* ── Open / close ────────────────────────────── */
-    function openDrawer() {
+    let lastMenuTrigger = null;
+
+    function openDrawer(trigger = null) {
+        lastMenuTrigger = trigger || document.activeElement;
         overlay.classList.add("is-open");
         overlay.setAttribute("aria-hidden", "false");
-        if (menuBtn) {
-            menuBtn.classList.add("is-open");
-            menuBtn.setAttribute("aria-expanded", "true");
-        }
-        const currentPopupBtn = document.getElementById("popup-menu-btn");
-        if (currentPopupBtn) {
-            currentPopupBtn.classList.add("is-open");
-            currentPopupBtn.setAttribute("aria-expanded", "true");
-        }
+        menuButtons.forEach(btn => {
+            btn.classList.add("is-open");
+            btn.setAttribute("aria-expanded", "true");
+        });
         document.body.style.overflow = "hidden";
+        if (closeBtn) requestAnimationFrame(() => closeBtn.focus());
     }
 
-    function closeDrawer() {
+    function closeDrawer({ restoreFocus = true } = {}) {
         overlay.classList.remove("is-open");
         overlay.setAttribute("aria-hidden", "true");
-        if (menuBtn) {
-            menuBtn.classList.remove("is-open");
-            menuBtn.setAttribute("aria-expanded", "false");
-        }
-        const currentPopupBtn = document.getElementById("popup-menu-btn");
-        if (currentPopupBtn) {
-            currentPopupBtn.classList.remove("is-open");
-            currentPopupBtn.setAttribute("aria-expanded", "false");
-        }
+        menuButtons.forEach(btn => {
+            btn.classList.remove("is-open");
+            btn.setAttribute("aria-expanded", "false");
+        });
         document.body.style.overflow = "";
+        if (restoreFocus && lastMenuTrigger && typeof lastMenuTrigger.focus === "function") {
+            requestAnimationFrame(() => lastMenuTrigger.focus());
+        }
     }
 
     /* ── Mark active category in drawer ─────────── */
@@ -116,39 +117,35 @@
     }
 
     /* ── Header search → navigate to results ──────── */
-    if (headerSearch && !isSearchPage) {
-        headerSearch.addEventListener("keydown", (e) => {
-            if (e.key === "Enter") {
-                const term = headerSearch.value.trim();
-                if (term) {
-                    window.location.href = `search-results.html?q=${encodeURIComponent(term)}`;
-                }
-            }
+    if (!isSearchPage) {
+        [headerSearch].filter(Boolean).forEach(input => {
+            input.addEventListener("keydown", (e) => {
+                if (e.key !== "Enter") return;
+                const term = input.value.trim();
+                if (term) window.location.href = `search-results.html?q=${encodeURIComponent(term)}`;
+            });
         });
     }
+
+    // The search-results page owns its live filtering; this keeps its header
+    // input and the popup/header variants consistent without double-rendering.
+    if (isSearchPage && searchPageInput) {
+        searchPageInput.setAttribute("autocomplete", "off");
+    }
+    if (popupSearch) popupSearch.setAttribute("autocomplete", "off");
 
     /* ── Events ──────────────────────────────────── */
-    if (menuBtn) {
-        menuBtn.addEventListener("click", () => {
-            if (overlay.classList.contains("is-open")) {
-                closeDrawer();
-            } else {
-                openDrawer();
-            }
-        });
-    }
-
+    // Delegation keeps the main header and any dynamically rendered popup
+    // header on the same behavior path without double-toggling.
     document.addEventListener("click", (e) => {
-        const btn = e.target.closest("#popup-menu-btn");
+        const btn = e.target.closest("#menu-btn, #popup-menu-btn");
         if (!btn) return;
-        if (overlay.classList.contains("is-open")) {
-            closeDrawer();
-        } else {
-            openDrawer();
-        }
+        e.preventDefault();
+        if (overlay.classList.contains("is-open")) closeDrawer();
+        else openDrawer(btn);
     });
 
-    if (backdrop) backdrop.addEventListener("click", closeDrawer);
+    if (backdrop) backdrop.addEventListener("click", () => closeDrawer({ restoreFocus: false }));
     if (closeBtn) closeBtn.addEventListener("click", closeDrawer);
 
     document.addEventListener("keydown", (e) => {
@@ -161,11 +158,23 @@
         btn.addEventListener("click", () => handleCategoryClick(btn.dataset.cat));
     });
 
+    // Keep the drawer and inline category buttons synchronized on index.html.
+    document.addEventListener("click", (e) => {
+        const inlineBtn = e.target.closest("#category-buttons button[data-category]");
+        if (inlineBtn) markActive(inlineBtn.dataset.category);
+    });
+    document.addEventListener("drawer-category-select", (e) => {
+        if (e.detail && e.detail.category) markActive(e.detail.category);
+    });
+
     /* ── On search results page: highlight active cat ─ */
     if (isSearchPage) {
         const params = new URLSearchParams(window.location.search);
         const activeCat = params.get("category") || "all";
         markActive(activeCat);
+    } else {
+        const inlineActive = document.querySelector("#category-buttons .category-btn.active");
+        markActive(inlineActive?.dataset.category || "all");
     }
 
     /* ── Expose for SRPage to call after re-render ─── */

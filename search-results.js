@@ -397,6 +397,21 @@
         return list;
     }
 
+    let categoryRequestToken = 0;
+
+    function requestCategoryPage(page = 1) {
+        const token = ++categoryRequestToken;
+        currentPage = page;
+        if (currentCategory === "all" || !window.BondsmallCatalog || typeof window.BondsmallCatalog.ensureCategoryPage !== "function") {
+            renderAll();
+            return;
+        }
+        if (resultsGrid) resultsGrid.innerHTML = '<div class="sr-empty-state"><p>Loading category products…</p></div>';
+        window.BondsmallCatalog.ensureCategoryPage(currentCategory, page, getProductsPerPage())
+            .then(() => { if (token === categoryRequestToken) renderAll(); })
+            .catch(() => { if (token === categoryRequestToken) renderAll(); });
+    }
+
     /* ── Render products ──────────────────────── */
     function renderResultsHeader() {
         // Query badge
@@ -418,7 +433,10 @@
 
         // Results title
         const filtered = getFilteredProducts();
-        const count    = filtered.length;
+        const categoryTotal = currentCategory !== "all" && window.BondsmallCatalog && typeof window.BondsmallCatalog.getCategoryTotal === "function"
+            ? window.BondsmallCatalog.getCategoryTotal(currentCategory)
+            : filtered.length;
+        const count    = currentCategory !== "all" && !currentQuery ? categoryTotal : filtered.length;
         if (resultsTitle) {
             resultsTitle.textContent = hasBadge
                 ? (currentQuery ? `Results for "${currentQuery}"` : `${categoryLabels[currentCategory] || currentCategory}`)
@@ -559,12 +577,17 @@
     function goToPage(page) {
         const filtered = getFilteredProducts();
         const perPage = getProductsPerPage();
-        const catalogTotal = window.BondsmallCatalog ? window.BondsmallCatalog.totalCount : filtered.length;
-        const totalPages = Math.ceil(Math.max(filtered.length, catalogTotal) / perPage);
+        const categoryView = currentCategory !== "all" && window.BondsmallCatalog && typeof window.BondsmallCatalog.getCategoryTotal === "function";
+        const catalogTotal = categoryView ? window.BondsmallCatalog.getCategoryTotal(currentCategory) : (window.BondsmallCatalog ? window.BondsmallCatalog.totalCount : filtered.length);
+        const totalPages = Math.ceil((categoryView ? catalogTotal : Math.max(filtered.length, catalogTotal)) / perPage);
         const target = Math.max(1, Math.min(totalPages, page));
         if (target === currentPage) return;
         currentPage = target;
-        const loading = window.BondsmallCatalog ? window.BondsmallCatalog.ensurePage(target, perPage) : Promise.resolve();
+        const loading = window.BondsmallCatalog
+            ? (categoryView && typeof window.BondsmallCatalog.ensureCategoryPage === "function"
+                ? window.BondsmallCatalog.ensureCategoryPage(currentCategory, target, perPage)
+                : window.BondsmallCatalog.ensurePage(target, perPage))
+            : Promise.resolve();
         Promise.resolve(loading).then(() => {
             renderProducts();
             renderResultsHeader();
@@ -593,12 +616,13 @@
 
         // Paginate across the full catalog while rendering only the active chunk.
         const perPage = getProductsPerPage();
-        const catalogTotal = window.BondsmallCatalog ? window.BondsmallCatalog.totalCount : filtered.length;
-        const totalPages = Math.ceil(Math.max(filtered.length, catalogTotal) / perPage);
+        const categoryView = currentCategory !== "all" && window.BondsmallCatalog && typeof window.BondsmallCatalog.getCategoryTotal === "function";
+        const catalogTotal = categoryView ? window.BondsmallCatalog.getCategoryTotal(currentCategory) : (window.BondsmallCatalog ? window.BondsmallCatalog.totalCount : filtered.length);
+        const totalPages = Math.ceil((categoryView ? catalogTotal : Math.max(filtered.length, catalogTotal)) / perPage);
         if (currentPage > totalPages) currentPage = totalPages;
         if (currentPage < 1) currentPage = 1;
         const startIdx = (currentPage - 1) * perPage;
-        const localStart = window.BondsmallCatalog ? (startIdx % window.BondsmallCatalog.chunkSize) : startIdx;
+        const localStart = categoryView ? 0 : (window.BondsmallCatalog ? (startIdx % window.BondsmallCatalog.chunkSize) : startIdx);
         const pageProducts = filtered.slice(localStart, localStart + perPage);
 
         pageProducts.slice(0, 12).forEach(p => warmupImageHost(optimizeGridImageUrl(p.image)));
@@ -652,7 +676,7 @@
     }
 
     function renderAll() {
-        currentPage = 1;
+        if (currentCategory === "all") currentPage = 1;
         populateBrandDropdown(getBaseFilteredProducts(true, false));
         populateConditionDropdown(getBaseFilteredProducts(false, true));
         renderResultsHeader();
@@ -665,7 +689,10 @@
     });
 
     document.addEventListener('bondsmall-catalog-chunk-loaded', () => {
-        renderAll();
+        if (currentCategory === "all") renderAll();
+    });
+    document.addEventListener('bondsmall-category-page-loaded', () => {
+        if (currentCategory !== "all") renderAll();
     });
 
     /* ── Sort dropdown ────────────────────────── */
@@ -1233,7 +1260,11 @@
         window.history.replaceState({}, "", cleanUrl(window.location.href));
         decorateProducts();
         readUrlParams();
-        renderAll();
+        if (currentCategory !== "all" && window.BondsmallCatalog && typeof window.BondsmallCatalog.ensureCategoryPage === "function") {
+            requestCategoryPage(1);
+        } else {
+            renderAll();
+        }
         updateCartCount();
         renderCart();
         initAccountManager();
@@ -1318,7 +1349,12 @@
             if (maxPriceInput) maxPriceInput.value = "";
 
             readUrlParams();
-            renderAll();
+            currentPage = 1;
+            if (currentCategory !== "all" && window.BondsmallCatalog && typeof window.BondsmallCatalog.ensureCategoryPage === "function") {
+                requestCategoryPage(1);
+            } else {
+                renderAll();
+            }
             if (window.CategoryMenu) {
                 window.CategoryMenu.markActive(currentCategory);
             }

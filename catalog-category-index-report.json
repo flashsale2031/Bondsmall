@@ -1,0 +1,37 @@
+{
+  "totalRecords": 1231539,
+  "categories": {
+    "accessories": {
+      "count": 24821,
+      "chunkCount": 2806
+    },
+    "artandcollectibles": {
+      "count": 4871,
+      "chunkCount": 2123
+    },
+    "electronics": {
+      "count": 23802,
+      "chunkCount": 2932
+    },
+    "entertainment": {
+      "count": 21218,
+      "chunkCount": 1949
+    },
+    "homeandappliances": {
+      "count": 1109216,
+      "chunkCount": 57380
+    },
+    "jewelry": {
+      "count": 24840,
+      "chunkCount": 3170
+    },
+    "men": {
+      "count": 272,
+      "chunkCount": 239
+    },
+    "women": {
+      "count": 22499,
+      "chunkCount": 2295
+    }
+  }
+}

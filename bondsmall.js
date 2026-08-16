@@ -629,7 +629,30 @@
         }
     }
 
+        let categoryRenderToken = 0;
+
+    function getCategoryTotal() {
+        if (activeCategory === "all") return window.BondsmallCatalog ? window.BondsmallCatalog.totalCount : products.length;
+        return window.BondsmallCatalog && typeof window.BondsmallCatalog.getCategoryTotal === "function"
+            ? window.BondsmallCatalog.getCategoryTotal(activeCategory)
+            : getFilteredProducts().length;
+    }
+
+    function requestCategoryRender() {
+        const token = ++categoryRenderToken;
+        currentPage = 1;
+        if (activeCategory === "all" || !window.BondsmallCatalog || typeof window.BondsmallCatalog.ensureCategoryPage !== "function") {
+            renderProducts();
+            return;
+        }
+        if (productGrid) productGrid.innerHTML = '<p class="loading-state">Loading category products…</p>';
+        window.BondsmallCatalog.ensureCategoryPage(activeCategory, currentPage, getProductsPerPage())
+            .then(() => { if (token === categoryRenderToken) renderProducts(); })
+            .catch(() => { if (token === categoryRenderToken) renderProducts(); });
+    }
+
     function getFilteredProducts() {
+
         const globalTerm = normalize(headerSearch.value);
         const categoryTerm = normalize(categorySearch.value);
 
@@ -741,12 +764,17 @@
     function goToPage(page, { push = true } = {}) {
         const filtered = getFilteredProducts();
         const perPage = getProductsPerPage();
-        const catalogTotal = window.BondsmallCatalog ? window.BondsmallCatalog.totalCount : filtered.length;
-        const totalPages = Math.ceil(Math.max(filtered.length, catalogTotal) / perPage);
+        const categoryView = activeCategory !== "all" && window.BondsmallCatalog && typeof window.BondsmallCatalog.getCategoryTotal === "function";
+        const catalogTotal = categoryView ? window.BondsmallCatalog.getCategoryTotal(activeCategory) : (window.BondsmallCatalog ? window.BondsmallCatalog.totalCount : filtered.length);
+        const totalPages = Math.ceil((categoryView ? catalogTotal : Math.max(filtered.length, catalogTotal)) / perPage);
         const target = Math.max(1, Math.min(totalPages, page));
         if (target === currentPage) return;
         currentPage = target;
-        const load = window.BondsmallCatalog ? window.BondsmallCatalog.ensurePage(target, perPage) : Promise.resolve();
+        const load = window.BondsmallCatalog
+            ? (categoryView && typeof window.BondsmallCatalog.ensureCategoryPage === "function"
+                ? window.BondsmallCatalog.ensureCategoryPage(activeCategory, target, perPage)
+                : window.BondsmallCatalog.ensurePage(target, perPage))
+            : Promise.resolve();
         Promise.resolve(load).then(() => renderProducts()).catch(() => renderProducts());
 
         // Reflect the page in the URL (?page=N) so the Back arrow returns to the
@@ -781,12 +809,13 @@
 
         // Paginate. Lazy catalog mode keeps only one 1,000-record chunk in memory.
         const perPage = getProductsPerPage();
-        const catalogTotal = window.BondsmallCatalog ? window.BondsmallCatalog.totalCount : filtered.length;
-        const totalPages = Math.ceil(Math.max(filtered.length, catalogTotal) / perPage);
+        const categoryView = activeCategory !== "all" && window.BondsmallCatalog && typeof window.BondsmallCatalog.getCategoryTotal === "function";
+        const catalogTotal = categoryView ? window.BondsmallCatalog.getCategoryTotal(activeCategory) : (window.BondsmallCatalog ? window.BondsmallCatalog.totalCount : filtered.length);
+        const totalPages = Math.ceil((categoryView ? catalogTotal : Math.max(filtered.length, catalogTotal)) / perPage);
         if (currentPage > totalPages) currentPage = totalPages;
         if (currentPage < 1) currentPage = 1;
         const startIdx = (currentPage - 1) * perPage;
-        const localStart = window.BondsmallCatalog ? (startIdx % window.BondsmallCatalog.chunkSize) : startIdx;
+        const localStart = categoryView ? 0 : (window.BondsmallCatalog ? (startIdx % window.BondsmallCatalog.chunkSize) : startIdx);
         const pageProducts = filtered.slice(localStart, localStart + perPage);
 
         pageProducts.slice(0, 12).forEach((product) => {
@@ -1447,10 +1476,9 @@
                 const btn = event.target.closest("button[data-category]");
                 if (!btn) return;
                 activeCategory = btn.dataset.category;
-                currentPage = 1;
                 document.querySelectorAll(".category-btn").forEach((item) => item.classList.remove("active"));
                 btn.classList.add("active");
-                renderProducts();
+                requestCategoryRender();
             });
         }
 
@@ -1589,7 +1617,7 @@
             document.querySelectorAll(".category-btn").forEach(btn => {
                 btn.classList.toggle("active", btn.dataset.category === activeCategory);
             });
-            renderProducts();
+            requestCategoryRender();
             closeProductModal();
             const catSection = document.getElementById("category");
             if (catSection) catSection.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -1628,7 +1656,9 @@
         normalizeProducts();
         currentPage = requestedPage;
         const initialCatalogLoad = window.BondsmallCatalog
-            ? window.BondsmallCatalog.ensurePage(currentPage, getProductsPerPage())
+            ? (activeCategory !== "all" && typeof window.BondsmallCatalog.ensureCategoryPage === "function"
+                ? window.BondsmallCatalog.ensureCategoryPage(activeCategory, currentPage, getProductsPerPage())
+                : window.BondsmallCatalog.ensurePage(currentPage, getProductsPerPage()))
             : Promise.resolve();
         if (currentPage === 1) renderProducts();
         Promise.resolve(initialCatalogLoad).then(() => {
@@ -1651,8 +1681,9 @@
                 const nav = e.target.closest("[data-pg-action]");
                 if (!nav) return;
                 const filtered = getFilteredProducts();
-                const catalogTotal = window.BondsmallCatalog ? window.BondsmallCatalog.totalCount : filtered.length;
-                const totalPages = Math.ceil(Math.max(filtered.length, catalogTotal) / getProductsPerPage());
+                const categoryView = activeCategory !== "all" && window.BondsmallCatalog && typeof window.BondsmallCatalog.getCategoryTotal === "function";
+                const catalogTotal = categoryView ? window.BondsmallCatalog.getCategoryTotal(activeCategory) : (window.BondsmallCatalog ? window.BondsmallCatalog.totalCount : filtered.length);
+                const totalPages = Math.ceil((categoryView ? catalogTotal : Math.max(filtered.length, catalogTotal)) / getProductsPerPage());
                 switch (nav.dataset.pgAction) {
                     case "first": goToPage(1); break;
                     case "prev":  goToPage(currentPage - 1); break;
