@@ -68,19 +68,26 @@
     const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
     const nodes=[]; while (walker.nextNode()) nodes.push(walker.currentNode);
     nodes.forEach((node) => { const key=node.nodeValue.trim(); if (dict[key] && node.parentElement && !['SCRIPT','STYLE','OPTION'].includes(node.parentElement.tagName)) node.nodeValue=node.nodeValue.replace(key,dict[key]); });
+    document.querySelectorAll('[data-locale-label]').forEach((el) => { const key = el.dataset.localeLabel === 'language' ? 'Language' : 'Currency'; el.textContent = dict[key] || key; });
   }
   function renderControls() {
     if (document.getElementById('bondsmall-locale-controls')) return;
+    const host = document.querySelector('.header-actions') || document.body;
     const wrap=document.createElement('div'); wrap.id='bondsmall-locale-controls'; wrap.className='bondsmall-locale-controls';
-    wrap.innerHTML='<label><span data-locale-label="language">Language</span><select id="bondsmall-language"></select></label><label><span data-locale-label="currency">Currency</span><select id="bondsmall-currency"></select></label><span class="bondsmall-locale-auto" id="bondsmall-locale-auto"></span>';
-    document.body.appendChild(wrap);
+    wrap.innerHTML='<button type="button" class="bondsmall-locale-toggle" id="bondsmall-locale-toggle" aria-expanded="false" aria-controls="bondsmall-locale-panel" aria-label="Language and currency settings">EN</button><div class="bondsmall-locale-panel" id="bondsmall-locale-panel" hidden><label><span data-locale-label="language">Language</span><select id="bondsmall-language"></select></label><label><span data-locale-label="currency">Currency</span><select id="bondsmall-currency"></select></label><span class="bondsmall-locale-auto" id="bondsmall-locale-auto"></span></div>';
+    host.appendChild(wrap);
+    const toggle=wrap.querySelector('#bondsmall-locale-toggle'), panel=wrap.querySelector('#bondsmall-locale-panel');
+    const close = () => { panel.hidden=true; wrap.classList.remove('is-open'); toggle.setAttribute('aria-expanded','false'); };
+    toggle.addEventListener('click', () => { const open = panel.hidden; panel.hidden=!open; wrap.classList.toggle('is-open', open); toggle.setAttribute('aria-expanded', String(open)); if (open) wrap.querySelector('select')?.focus(); });
+    document.addEventListener('click', (event) => { if (!wrap.contains(event.target)) close(); });
+    document.addEventListener('keydown', (event) => { if (event.key === 'Escape') close(); });
     const ls=wrap.querySelector('#bondsmall-language'), cs=wrap.querySelector('#bondsmall-currency');
     Object.entries(LANGUAGES).forEach(([k,v])=>ls.add(new Option(v.label,k))); Object.entries(CURRENCIES).forEach(([k,v])=>cs.add(new Option(`${k} — ${v.label}`,k)));
     ls.value=state.language; cs.value=state.currency;
     ls.addEventListener('change',()=>{state.language=ls.value;localStorage.setItem(LANG_KEY,state.language);apply();});
     cs.addEventListener('change',()=>{state.currency=cs.value;localStorage.setItem(CURRENCY_KEY,state.currency);apply();});
   }
-  function apply(){ const ls=document.getElementById('bondsmall-language'),cs=document.getElementById('bondsmall-currency'); if(ls)ls.value=state.language;if(cs)cs.value=state.currency; translateDom(); document.dispatchEvent(new CustomEvent('bondsmall-locale-change',{detail:{...state,formatMoney}})); }
+  function apply(){ const ls=document.getElementById('bondsmall-language'),cs=document.getElementById('bondsmall-currency'),toggle=document.getElementById('bondsmall-locale-toggle'); if(ls)ls.value=state.language;if(cs)cs.value=state.currency;if(toggle){toggle.textContent=state.language.toUpperCase();toggle.setAttribute('aria-label',`${LANGUAGES[state.language].label} language, ${CURRENCIES[state.currency].label} currency`);} translateDom(); document.dispatchEvent(new CustomEvent('bondsmall-locale-change',{detail:{...state,formatMoney}})); }
   window.BondsmallLocale={formatMoney,get language(){return state.language;},get currency(){return state.currency;},languages:LANGUAGES,currencies:CURRENCIES,setLanguage:(x)=>{if(LANGUAGES[x]){state.language=x;localStorage.setItem(LANG_KEY,x);apply();}},setCurrency:(x)=>{if(CURRENCIES[x]){state.currency=x;localStorage.setItem(CURRENCY_KEY,x);apply();}},detectLanguage,detectCurrency};
   document.addEventListener('DOMContentLoaded',()=>{renderControls();apply();});
 })();
