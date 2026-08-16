@@ -1,0 +1,17 @@
+{
+  "scope": "post-180",
+  "candidate_count": 0,
+  "script_counts": {
+    "CJK": 0,
+    "Japanese": 0,
+    "Korean": 0,
+    "Cyrillic": 0,
+    "Arabic": 0,
+    "Devanagari": 0,
+    "Greek": 0,
+    "Hebrew": 0,
+    "Thai": 0,
+    "Vietnamese": 0
+  },
+  "candidates": []
+}
