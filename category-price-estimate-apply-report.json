@@ -1,0 +1,619 @@
+{
+  "policy": "Category-level luxury-to-generic baseline; $.99 endings; existing numeric prices preserved.",
+  "updated_count": 1230000,
+  "by_segment": {
+    "small_appliances": 795444,
+    "decor_prints_games": 45366,
+    "collectibles": 5237,
+    "small_electronics": 10720,
+    "fashion_jewelry": 61484,
+    "fashion_accessories_apparel": 68871,
+    "major_appliances": 75164,
+    "bags_watches_shoes": 8687,
+    "parts_adapters": 107011,
+    "premium_electronics": 5743,
+    "fine_jewelry": 46273
+  },
+  "sample": [
+    {
+      "id": 1541,
+      "segment": "small_appliances",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1542,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1543,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1544,
+      "segment": "small_appliances",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1545,
+      "segment": "collectibles",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1546,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1547,
+      "segment": "small_electronics",
+      "retail_price": 199.99,
+      "sale_price": 79.99
+    },
+    {
+      "id": 1548,
+      "segment": "small_appliances",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1549,
+      "segment": "small_electronics",
+      "retail_price": 199.99,
+      "sale_price": 79.99
+    },
+    {
+      "id": 1550,
+      "segment": "collectibles",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1551,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1552,
+      "segment": "fashion_jewelry",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1553,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1554,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1555,
+      "segment": "small_electronics",
+      "retail_price": 199.99,
+      "sale_price": 79.99
+    },
+    {
+      "id": 1556,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1557,
+      "segment": "fashion_accessories_apparel",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1558,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1559,
+      "segment": "small_appliances",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1560,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1561,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1562,
+      "segment": "collectibles",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1563,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1564,
+      "segment": "small_appliances",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1565,
+      "segment": "small_electronics",
+      "retail_price": 199.99,
+      "sale_price": 79.99
+    },
+    {
+      "id": 1566,
+      "segment": "fashion_jewelry",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1567,
+      "segment": "small_appliances",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1568,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1569,
+      "segment": "small_appliances",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1570,
+      "segment": "collectibles",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1571,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1572,
+      "segment": "collectibles",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1573,
+      "segment": "collectibles",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1574,
+      "segment": "small_appliances",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1575,
+      "segment": "small_appliances",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1576,
+      "segment": "small_electronics",
+      "retail_price": 199.99,
+      "sale_price": 79.99
+    },
+    {
+      "id": 1577,
+      "segment": "small_electronics",
+      "retail_price": 199.99,
+      "sale_price": 79.99
+    },
+    {
+      "id": 1578,
+      "segment": "small_electronics",
+      "retail_price": 199.99,
+      "sale_price": 79.99
+    },
+    {
+      "id": 1579,
+      "segment": "fashion_jewelry",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1580,
+      "segment": "collectibles",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1581,
+      "segment": "fashion_accessories_apparel",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1582,
+      "segment": "collectibles",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1583,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1584,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1585,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1586,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1587,
+      "segment": "small_appliances",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1588,
+      "segment": "collectibles",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1589,
+      "segment": "collectibles",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1590,
+      "segment": "fashion_accessories_apparel",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1591,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1592,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1593,
+      "segment": "major_appliances",
+      "retail_price": 1999.99,
+      "sale_price": 999.99
+    },
+    {
+      "id": 1594,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1595,
+      "segment": "small_appliances",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1596,
+      "segment": "bags_watches_shoes",
+      "retail_price": 299.99,
+      "sale_price": 149.99
+    },
+    {
+      "id": 1597,
+      "segment": "collectibles",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1598,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1599,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1600,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1601,
+      "segment": "small_electronics",
+      "retail_price": 199.99,
+      "sale_price": 79.99
+    },
+    {
+      "id": 1602,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1603,
+      "segment": "small_appliances",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1604,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1605,
+      "segment": "collectibles",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1606,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1607,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1608,
+      "segment": "parts_adapters",
+      "retail_price": 79.99,
+      "sale_price": 29.99
+    },
+    {
+      "id": 1609,
+      "segment": "small_appliances",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1610,
+      "segment": "premium_electronics",
+      "retail_price": 999.99,
+      "sale_price": 499.99
+    },
+    {
+      "id": 1611,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1612,
+      "segment": "small_appliances",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1613,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1614,
+      "segment": "collectibles",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1615,
+      "segment": "small_electronics",
+      "retail_price": 199.99,
+      "sale_price": 79.99
+    },
+    {
+      "id": 1616,
+      "segment": "parts_adapters",
+      "retail_price": 79.99,
+      "sale_price": 29.99
+    },
+    {
+      "id": 1617,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1618,
+      "segment": "small_appliances",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1619,
+      "segment": "collectibles",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1620,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1621,
+      "segment": "fashion_accessories_apparel",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1622,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1623,
+      "segment": "collectibles",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1624,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1625,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1626,
+      "segment": "small_appliances",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1627,
+      "segment": "collectibles",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1628,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1629,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1630,
+      "segment": "small_appliances",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1631,
+      "segment": "small_electronics",
+      "retail_price": 199.99,
+      "sale_price": 79.99
+    },
+    {
+      "id": 1632,
+      "segment": "small_appliances",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1633,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1634,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1635,
+      "segment": "small_electronics",
+      "retail_price": 199.99,
+      "sale_price": 79.99
+    },
+    {
+      "id": 1636,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1637,
+      "segment": "small_appliances",
+      "retail_price": 499.99,
+      "sale_price": 199.99
+    },
+    {
+      "id": 1638,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1639,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    },
+    {
+      "id": 1640,
+      "segment": "decor_prints_games",
+      "retail_price": 99.99,
+      "sale_price": 49.99
+    }
+  ]
+}

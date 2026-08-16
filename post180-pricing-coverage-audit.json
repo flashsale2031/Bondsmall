@@ -1,0 +1,772 @@
+{
+  "policy": "Luxury-to-generic comparable range baseline; generated prices use $.99 endings; insufficient evidence retains current price.",
+  "post180_count": 1231360,
+  "with_source_url": 1231360,
+  "with_numeric_prices": 1360,
+  "with_benchmark_metadata": 1,
+  "missing_or_invalid_prices": 1230000,
+  "categories": {
+    "artandcollectibles": 4858,
+    "electronics": 23786,
+    "entertainment": 21208,
+    "homeandappliances": 1109201,
+    "accessories": 24784,
+    "jewelry": 24808,
+    "women": 22475,
+    "men": 240
+  },
+  "top_brands": [
+    [
+      "Amazon marketplace",
+      41571
+    ],
+    [
+      "Unbranded",
+      22615
+    ],
+    [
+      "BaubleBar",
+      12929
+    ],
+    [
+      "Whirlpool",
+      8884
+    ],
+    [
+      "Generic",
+      7956
+    ],
+    [
+      "GE",
+      5239
+    ],
+    [
+      "FRIGIDAIRE",
+      3187
+    ],
+    [
+      "3dRose",
+      2587
+    ],
+    [
+      "SAMSUNG",
+      2497
+    ],
+    [
+      "Missoma",
+      2426
+    ],
+    [
+      "CafePress",
+      2245
+    ],
+    [
+      "Hallmark",
+      2067
+    ],
+    [
+      "LG",
+      2009
+    ],
+    [
+      "mDesign",
+      1998
+    ],
+    [
+      "Ambesonne",
+      1890
+    ],
+    [
+      "Amazon Renewed",
+      1857
+    ],
+    [
+      "Enesco",
+      1612
+    ],
+    [
+      "UpStart Components",
+      1580
+    ],
+    [
+      "Department 56",
+      1517
+    ],
+    [
+      "Kurt S. Adler",
+      1486
+    ],
+    [
+      "KitchenAid",
+      1485
+    ],
+    [
+      "Upstart Battery",
+      1444
+    ],
+    [
+      "Disney",
+      1388
+    ],
+    [
+      "Unknown",
+      1376
+    ],
+    [
+      "Frigidaire",
+      1348
+    ],
+    [
+      "Collections Etc",
+      1326
+    ],
+    [
+      "Cuisinart",
+      1287
+    ],
+    [
+      "Wilton",
+      1251
+    ],
+    [
+      "Trademark Fine Art",
+      1244
+    ],
+    [
+      "Beistle",
+      1224
+    ],
+    [
+      "Lenox",
+      1213
+    ],
+    [
+      "Creative Converting",
+      1210
+    ],
+    [
+      "MyGift",
+      1146
+    ],
+    [
+      "Signature Design by Ashley",
+      1125
+    ],
+    [
+      "amscan",
+      1122
+    ],
+    [
+      "Supplying Demand",
+      1104
+    ],
+    [
+      "Tervis",
+      1098
+    ],
+    [
+      "Coaster Home Furnishings",
+      1091
+    ],
+    [
+      "ForeverPRO",
+      1041
+    ],
+    [
+      "SuperFan by BaubleBar",
+      1013
+    ],
+    [
+      "DII",
+      992
+    ],
+    [
+      "Fine",
+      955
+    ],
+    [
+      "Deconovo",
+      948
+    ],
+    [
+      "Christopher Knight Home",
+      948
+    ],
+    [
+      "Creative Co-Op",
+      945
+    ],
+    [
+      "Safavieh",
+      936
+    ],
+    [
+      "Tupperware",
+      931
+    ],
+    [
+      "uxcell",
+      928
+    ],
+    [
+      "Deco 79",
+      920
+    ],
+    [
+      "Edgewater Parts",
+      919
+    ]
+  ],
+  "sample_first_50": [
+    {
+      "id": 181,
+      "name": "Stained Glass Butterflies with a Message",
+      "category": "artandcollectibles",
+      "brand": "Uncommon Goods",
+      "retail_price": 74.0,
+      "sale_price": 74.0,
+      "source_url": "https://www.uncommongoods.com/product/stained-glass-butterflies-with-a-message",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 182,
+      "name": "Everlasting Stained Glass Orchid",
+      "category": "artandcollectibles",
+      "brand": "Uncommon Goods",
+      "retail_price": 89.99,
+      "sale_price": 59.99,
+      "source_url": "https://www.uncommongoods.com/product/everlasting-stained-glass-orchid",
+      "has_source": true,
+      "price_benchmark_method": "Retail benchmark near the verified luxury/independent-maker source band ($90-$99); sale benchmark below that band and above the lowest generic window-decor comparables."
+    },
+    {
+      "id": 183,
+      "name": "Everlasting Stained Glass Succulents",
+      "category": "artandcollectibles",
+      "brand": "Uncommon Goods",
+      "retail_price": 90.0,
+      "sale_price": 90.0,
+      "source_url": "https://www.uncommongoods.com/product/everlasting-stained-glass-succulents",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 184,
+      "name": "MLB Wall Sculpture Stadium Art",
+      "category": "artandcollectibles",
+      "brand": "Uncommon Goods",
+      "retail_price": 85.0,
+      "sale_price": 85.0,
+      "source_url": "https://www.uncommongoods.com/product/mlb-wall-sculpture-stadium-art",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 185,
+      "name": "Dodgers 2025 World Series Champions Stadium Art",
+      "category": "artandcollectibles",
+      "brand": "Uncommon Goods",
+      "retail_price": 85.0,
+      "sale_price": 85.0,
+      "source_url": "https://www.uncommongoods.com/product/dodgers-2025-world-series-champions-stadium-art",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 186,
+      "name": "Stained Glass Floral Stem",
+      "category": "artandcollectibles",
+      "brand": "Samara Phillips",
+      "retail_price": 40.0,
+      "sale_price": 40.0,
+      "source_url": "https://www.uncommongoods.com/product/stained-glass-floral-stem",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 187,
+      "name": "Welcoming Branch Wall Sculpture",
+      "category": "artandcollectibles",
+      "brand": "Uncommon Goods",
+      "retail_price": 98.0,
+      "sale_price": 98.0,
+      "source_url": "https://www.uncommongoods.com/product/welcoming-branch-wall-sculpture",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 188,
+      "name": "College Town Wall Sculpture",
+      "category": "artandcollectibles",
+      "brand": "Uncommon Goods",
+      "retail_price": 198.0,
+      "sale_price": 198.0,
+      "source_url": "https://www.uncommongoods.com/product/college-town-wall-sculpture",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 189,
+      "name": "Personalized Heart Wall Sculpture",
+      "category": "artandcollectibles",
+      "brand": "Uncommon Goods",
+      "retail_price": 119.0,
+      "sale_price": 119.0,
+      "source_url": "https://www.uncommongoods.com/product/personalized-heart-wall-sculpture",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 190,
+      "name": "NHL Sculpture Candle",
+      "category": "artandcollectibles",
+      "brand": "Uncommon Goods",
+      "retail_price": 48.0,
+      "sale_price": 48.0,
+      "source_url": "https://www.uncommongoods.com/product/nhl-sculpture-candle",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 191,
+      "name": "Keith Haring Pop Shop 40th Anniversary Monopoly",
+      "category": "artandcollectibles",
+      "brand": "Uncommon Goods",
+      "retail_price": 80.0,
+      "sale_price": 80.0,
+      "source_url": "https://www.uncommongoods.com/product/keith-haring-pop-shop-40th-anniversary-monopoly",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 192,
+      "name": "Fresh Fruit Premium Giclee Print",
+      "category": "artandcollectibles",
+      "brand": "Lucille Price",
+      "retail_price": 50.0,
+      "sale_price": 50.0,
+      "source_url": "https://www.art.com/products/p62326293692-sa-i13091023/lucille-price-fresh-fruit.htm",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 193,
+      "name": "Ocean Turtle Art Print",
+      "category": "artandcollectibles",
+      "brand": "Lucille Price",
+      "retail_price": 50.0,
+      "sale_price": 50.0,
+      "source_url": "https://www.art.com/products/p60714434493-sa-i12943152/lucille-price-ocean-turtle.htm",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 194,
+      "name": "Amelia's Neutral Garden II Art Print",
+      "category": "artandcollectibles",
+      "brand": "Lucille Price",
+      "retail_price": 50.0,
+      "sale_price": 50.0,
+      "source_url": "https://www.art.com/products/p62326283415-sa-i13090923/lucille-price-amelia-s-neutral-garden-ii.htm",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 195,
+      "name": "Genuine North Pole Recipe Premium Giclee Print",
+      "category": "artandcollectibles",
+      "brand": "Lucille Price",
+      "retail_price": 50.0,
+      "sale_price": 50.0,
+      "source_url": "https://www.art.com/products/p61315140488-sa-i13002871/lucille-price-genuine-north-pole-recipe.htm",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 196,
+      "name": "Paris Fleurs Premium Giclee Print",
+      "category": "artandcollectibles",
+      "brand": "Lucille Price",
+      "retail_price": 50.0,
+      "sale_price": 50.0,
+      "source_url": "https://www.art.com/products/p62537751885-sa-i13124097/lucille-price-paris-fleurs.htm",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 197,
+      "name": "Silence Premium Giclee Print",
+      "category": "artandcollectibles",
+      "brand": "Ailian Price",
+      "retail_price": 121.0,
+      "sale_price": 121.0,
+      "source_url": "https://www.art.com/products/p53765950042-sa-i10360623/ailian-price-silence.htm",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 198,
+      "name": "Intimacy on Display Premium Giclee Print",
+      "category": "artandcollectibles",
+      "brand": "Agnes Cecile",
+      "retail_price": 80.0,
+      "sale_price": 80.0,
+      "source_url": "https://www.art.com/products/intimacy-on-display",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 199,
+      "name": "Santana: Shaman on White Premium Giclee Print",
+      "category": "artandcollectibles",
+      "brand": "Art.com",
+      "retail_price": 75.0,
+      "sale_price": 75.0,
+      "source_url": "https://www.art.com/products/santana-shaman-on-white",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 200,
+      "name": "Flowers and Ferns 1 Premium Giclee Print",
+      "category": "artandcollectibles",
+      "brand": "Albert Koetsier",
+      "retail_price": 70.0,
+      "sale_price": 70.0,
+      "source_url": "https://www.art.com/products/flowers-and-ferns-1",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 201,
+      "name": "HyperGear Flip 2-in-1 Bluetooth Folding Over-Ear Headphones",
+      "category": "electronics",
+      "brand": "HyperGear",
+      "retail_price": 109.99,
+      "sale_price": 109.99,
+      "source_url": "https://www.bestbuy.com/product/hypergear-flip-2-in-1-bluetooth-folding-over-ear-headphones-mic-aux-input-fm-speaker-headphone-modes-10-hr-play-time-white/JX2Z463L5P",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 202,
+      "name": "Marshall Major IV Wireless On-Ear Bluetooth Headphones",
+      "category": "electronics",
+      "brand": "Marshall",
+      "retail_price": 99.99,
+      "sale_price": 99.99,
+      "source_url": "https://www.bestbuy.com/product/marshall-major-iv-wireless-on-ear-bluetooth-headphones-with-lightweight-foldable-design-and-microphone-for-calls-black/CFCR4HKG2L",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 203,
+      "name": "Supersonic IQ127BT Bluetooth Wireless Headphone and Mic",
+      "category": "electronics",
+      "brand": "Supersonic",
+      "retail_price": 29.95,
+      "sale_price": 29.95,
+      "source_url": "https://www.bestbuy.com/product/supersonic-iq127bt-bluetooth-wireless-headphone-and-mic/JXXT5745JX/sku/12828412",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 204,
+      "name": "Delton 87X Wireless Single-Ear Bluetooth Computer Headset",
+      "category": "electronics",
+      "brand": "Delton",
+      "retail_price": 119.99,
+      "sale_price": 119.99,
+      "source_url": "https://www.bestbuy.com/product/delton-87x-wireless-single-ear-bluetooth-computer-headset-with-mic-black/J38PCKS6ZR",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 205,
+      "name": "Logitech C920e Full HD 1080p Business Webcam",
+      "category": "electronics",
+      "brand": "Logitech",
+      "retail_price": 69.99,
+      "sale_price": 69.99,
+      "source_url": "https://www.bestbuy.com/product/logitech-c920e-full-hd-1080p-business-webcam-black/J7H7ZY39PJ",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 206,
+      "name": "Brio 4K",
+      "category": "electronics",
+      "brand": "Logitech",
+      "retail_price": 161.49,
+      "sale_price": 161.49,
+      "source_url": "https://www.bestbuy.com/product/logitech-4k-pro-4096-x-2160-webcam-with-noise-canceling-mic-black/J7H7ZY35Y8",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 207,
+      "name": "Logitech Brio 100 1080p Full HD Webcam",
+      "category": "electronics",
+      "brand": "Logitech",
+      "retail_price": 29.99,
+      "sale_price": 29.99,
+      "source_url": "https://www.bestbuy.com/product/logitech-brio-100-1080p-full-hd-webcam-for-meetings-and-streaming-graphite/J7H7ZYGJW6",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 208,
+      "name": "Logitech Pro Full HD 1080 Webcam",
+      "category": "electronics",
+      "brand": "Logitech",
+      "retail_price": 29.99,
+      "sale_price": 29.99,
+      "source_url": "https://www.bestbuy.com/product/logitech-pro-webcam-full-hd-1080-for-laptops-with-ultra-wide-angle-black/J7H7ZYCHJ4",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 209,
+      "name": "Logitech C920s Pro 1080 Webcam with Privacy Shutter",
+      "category": "electronics",
+      "brand": "Logitech",
+      "retail_price": 59.99,
+      "sale_price": 59.99,
+      "source_url": "https://www.bestbuy.com/product/logitech-c920s-pro-1080-video-conferencing-streaming-and-gaming-webcam-with-privacy-shutter-black/J7H7ZYXLLL",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 210,
+      "name": "Logitech MX Brio 4K Ultra HD Webcam",
+      "category": "electronics",
+      "brand": "Logitech",
+      "retail_price": 169.99,
+      "sale_price": 169.99,
+      "source_url": "https://www.logitech.com/en-us/shop/p/mx-brio",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 211,
+      "name": "Logitech Keys-To-Go 2 Slim Portable Bluetooth Keyboard",
+      "category": "electronics",
+      "brand": "Logitech",
+      "retail_price": 69.99,
+      "sale_price": 69.99,
+      "source_url": "https://www.bestbuy.com/product/logitech-keys-to-go-2-slim-portable-bluetooth-keyboard-for-tablet-with-built-in-cover-pale-gray/J7H7ZYGTSC",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 212,
+      "name": "Macally Bluetooth Keyboard and Mouse",
+      "category": "electronics",
+      "brand": "Macally",
+      "retail_price": 129.99,
+      "sale_price": 129.99,
+      "source_url": "https://www.bestbuy.com/product/macally-bluetooth-keyboard-and-mouse-for-mac-scissors-wireless-bluetooth-keyboard-110-key-aluminum-wireless-macaron/JXR4WP37HF",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 213,
+      "name": "PRIMEPLUS Retro Wireless Keyboard and Mouse",
+      "category": "electronics",
+      "brand": "PRIMEPLUS",
+      "retail_price": 34.99,
+      "sale_price": 34.99,
+      "source_url": "https://www.bestbuy.com/product/primeplus-retro-2-4ghz-wireless-keyboard-mouse-typewriter-style-full-keyboard-with-number-pad-for-pc-mac-laptop-lovely-pink/J2V3W34VZP",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 214,
+      "name": "J Tech Digital Foldable Bluetooth Keyboard and Mouse",
+      "category": "electronics",
+      "brand": "J Tech Digital",
+      "retail_price": 49.99,
+      "sale_price": 49.99,
+      "source_url": "https://www.bestbuy.com/product/j-tech-digital-foldable-bluetooth-keyboard-and-2-in-1-sliding-wireless-mouse-black/J3GW77ZV8Z",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 215,
+      "name": "MOFii Wireless Retro Keyboard and Mouse Combo",
+      "category": "electronics",
+      "brand": "MOFii",
+      "retail_price": 34.0,
+      "sale_price": 34.0,
+      "source_url": "https://www.bestbuy.com/product/mofii-wireless-keyboard-mouse-combo-2-4ghz-retro-full-size-with-number-pad-for-computer-laptop-mac-windows-blue/JXZT93FPYH",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 216,
+      "name": "Fujifilm instax SQUARE Link Smartphone Printer",
+      "category": "electronics",
+      "brand": "Fujifilm",
+      "retail_price": 149.98,
+      "sale_price": 149.98,
+      "source_url": "https://www.bestbuy.com/product/fujifilm-instax-square-link-smartphone-printer-midnight-green/J7929VC8HS",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 217,
+      "name": "HP Smart Tank 7603 Wireless All-in-One Printer",
+      "category": "electronics",
+      "brand": "HP",
+      "retail_price": 199.95,
+      "sale_price": 199.95,
+      "source_url": "https://www.bestbuy.com/product/hp-smart-tank-7603-wireless-all-in-one-ai-enabled-cartridge-free-supertank-inkjet-printer-w-fax-and-3-yrs-of-ink-included1-white/JJGWKY75J7",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 218,
+      "name": "Canon SELPHY CP1500 Wireless Photo Printer",
+      "category": "electronics",
+      "brand": "Canon",
+      "retail_price": 79.99,
+      "sale_price": 79.99,
+      "source_url": "https://www.bestbuy.com/product/canon-selphy-cp1500-wireless-photo-printer-with-card-reader-bundle-black/JJG2F3X979",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 219,
+      "name": "Fujifilm instax WIDE Link Wireless Photo Printer",
+      "category": "electronics",
+      "brand": "Fujifilm",
+      "retail_price": 149.99,
+      "sale_price": 149.99,
+      "source_url": "https://www.bestbuy.com/product/fujifilm-instax-wide-link-wireless-photo-printer-ash-white/J7929VCCQY",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 220,
+      "name": "Canon IVY 2 Mini Photo Printer",
+      "category": "electronics",
+      "brand": "Canon",
+      "retail_price": 79.99,
+      "sale_price": 79.99,
+      "source_url": "https://www.bestbuy.com/product/canon-ivy-2-mini-photo-printer-pure-white/J7C86SR894/sku/6522092",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 221,
+      "name": "Microsoft Xbox Series X/S Controller with Headset",
+      "category": "entertainment",
+      "brand": "Microsoft",
+      "retail_price": 129.99,
+      "sale_price": 129.99,
+      "source_url": "https://www.bestbuy.com/product/microsoft-xbox-series-x-s-controller-with-headset-black/JXG56QRCZ3",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 222,
+      "name": "Turtle Beach Recon Cloud Wired Game Controller",
+      "category": "entertainment",
+      "brand": "Turtle Beach",
+      "retail_price": 99.0,
+      "sale_price": 99.0,
+      "source_url": "https://www.bestbuy.com/product/turtle-beach-recon-cloud-wired-game-controller-with-bluetooth-for-xbox-series-xs-windows-android-with-remappable-buttons-black/JXK5HFZ97H",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 223,
+      "name": "Microsoft Xbox Bluetooth Wireless Gaming Headset",
+      "category": "entertainment",
+      "brand": "Microsoft",
+      "retail_price": 99.99,
+      "sale_price": 99.99,
+      "source_url": "https://www.bestbuy.com/product/microsoft-xbox-bluetooth-wireless-gaming-over-the-ear-headset-for-xbox-series-xbox-series-s-xbox-one-and-windows-1011-black/JJGXP2QTYJ/sku/12491829",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 224,
+      "name": "RIG 800 Pro HX Wireless Gaming Headset and Base Station",
+      "category": "entertainment",
+      "brand": "RIG",
+      "retail_price": 154.98,
+      "sale_price": 154.98,
+      "source_url": "https://www.bestbuy.com/product/rig-800-pro-hx-wireless-gaming-headset-base-station-for-xbox-black/J3R8TQHYFL",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 225,
+      "name": "Tronsmart G10 Multiplatform Wired Gaming Headset",
+      "category": "entertainment",
+      "brand": "Tronsmart",
+      "retail_price": 49.99,
+      "sale_price": 49.99,
+      "source_url": "https://www.bestbuy.com/product/tronsmart-g10-multiplatform-wired-over-the-ear-gaming-headset-for-pc-ps5-ps4-xbox-series-xs-xbox-one-nintendo-switch-mobile-switch-red-black/CZT5C2Q29X",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 226,
+      "name": "RIG R5 SPEAR PRO HS Wired Gaming Headset",
+      "category": "entertainment",
+      "brand": "RIG",
+      "retail_price": 69.99,
+      "sale_price": 69.99,
+      "source_url": "https://www.bestbuy.com/product/rig-r5-spear-pro-hs-wired-over-ear-gaming-headset-with-graphene-drivers-for-playstation-4-playstation-5-black/J3R8WT6825",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 227,
+      "name": "Razer Kishi Ultra Mobile Gaming Controller",
+      "category": "entertainment",
+      "brand": "Razer",
+      "retail_price": 149.99,
+      "sale_price": 149.99,
+      "source_url": "https://www.bestbuy.com/product/razer-kishi-ultra-wireless-gaming-controller-for-android-iphone-and-ipad-mini-black/J39HWFH3HG/sku/12296884/reviews",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 228,
+      "name": "G5 Mini Retro Video Game Console with 500 Games",
+      "category": "entertainment",
+      "brand": "G5",
+      "retail_price": 19.99,
+      "sale_price": 19.99,
+      "source_url": "https://www.target.com/p/built-in-500-retro-games-g5-mini-retro-video-game-console-with-3-0-inch-full-color-screen/-/A-1002976645",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 229,
+      "name": "Lexibook TV Plug-and-Play Game Console with 250 Games",
+      "category": "entertainment",
+      "brand": "Lexibook",
+      "retail_price": 14.49,
+      "sale_price": 14.49,
+      "source_url": "https://www.target.com/p/motion-tv-plug-n-play-game-console-with-250-games-lexibook/-/A-1011322232",
+      "has_source": true,
+      "price_benchmark_method": ""
+    },
+    {
+      "id": 230,
+      "name": "G5 Mini Retro Video Game Console Green",
+      "category": "entertainment",
+      "brand": "G5",
+      "retail_price": 19.99,
+      "sale_price": 19.99,
+      "source_url": "https://www.target.com/p/built-in-500-retro-games-g5-mini-retro-video-game-console-with-3-0-inch-full-color-screen-green/-/A-1002976644",
+      "has_source": true,
+      "price_benchmark_method": ""
+    }
+  ]
+}
