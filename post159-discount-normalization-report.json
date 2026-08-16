@@ -1,0 +1,169 @@
+{
+  "total_records": 1231541,
+  "post159_start": 160,
+  "changed_records": 1378,
+  "touched_chunks": 70,
+  "infeasible_records": 0,
+  "examples": [
+    {
+      "position": 162,
+      "id": 163,
+      "retail": 29.99,
+      "old_sale": 29.99,
+      "new_sale": 24.99,
+      "discount_pct": 16.6722
+    },
+    {
+      "position": 163,
+      "id": 164,
+      "retail": 31.99,
+      "old_sale": 31.99,
+      "new_sale": 26.99,
+      "discount_pct": 15.6299
+    },
+    {
+      "position": 164,
+      "id": 165,
+      "retail": 27.99,
+      "old_sale": 27.99,
+      "new_sale": 22.99,
+      "discount_pct": 17.8635
+    },
+    {
+      "position": 165,
+      "id": 166,
+      "retail": 33.99,
+      "old_sale": 33.99,
+      "new_sale": 27.99,
+      "discount_pct": 17.6523
+    },
+    {
+      "position": 166,
+      "id": 167,
+      "retail": 35.99,
+      "old_sale": 35.99,
+      "new_sale": 29.99,
+      "discount_pct": 16.6713
+    },
+    {
+      "position": 167,
+      "id": 168,
+      "retail": 29.99,
+      "old_sale": 29.99,
+      "new_sale": 24.99,
+      "discount_pct": 16.6722
+    },
+    {
+      "position": 168,
+      "id": 169,
+      "retail": 29.99,
+      "old_sale": 29.99,
+      "new_sale": 24.99,
+      "discount_pct": 16.6722
+    },
+    {
+      "position": 169,
+      "id": 170,
+      "retail": 27.99,
+      "old_sale": 27.99,
+      "new_sale": 22.99,
+      "discount_pct": 17.8635
+    },
+    {
+      "position": 170,
+      "id": 171,
+      "retail": 33.99,
+      "old_sale": 33.99,
+      "new_sale": 27.99,
+      "discount_pct": 17.6523
+    },
+    {
+      "position": 171,
+      "id": 172,
+      "retail": 26.99,
+      "old_sale": 26.99,
+      "new_sale": 21.99,
+      "discount_pct": 18.5254
+    },
+    {
+      "position": 172,
+      "id": 173,
+      "retail": 28.99,
+      "old_sale": 27.55,
+      "new_sale": 23.99,
+      "discount_pct": 17.2473
+    },
+    {
+      "position": 173,
+      "id": 174,
+      "retail": 38.99,
+      "old_sale": 38.99,
+      "new_sale": 32.99,
+      "discount_pct": 15.3886
+    },
+    {
+      "position": 174,
+      "id": 175,
+      "retail": 31.99,
+      "old_sale": 31.99,
+      "new_sale": 26.99,
+      "discount_pct": 15.6299
+    },
+    {
+      "position": 175,
+      "id": 176,
+      "retail": 25.99,
+      "old_sale": 25.99,
+      "new_sale": 21.99,
+      "discount_pct": 15.3905
+    },
+    {
+      "position": 176,
+      "id": 177,
+      "retail": 25.99,
+      "old_sale": 25.99,
+      "new_sale": 21.99,
+      "discount_pct": 15.3905
+    },
+    {
+      "position": 177,
+      "id": 178,
+      "retail": 37.99,
+      "old_sale": 37.99,
+      "new_sale": 31.99,
+      "discount_pct": 15.7936
+    },
+    {
+      "position": 178,
+      "id": 179,
+      "retail": 33.99,
+      "old_sale": 33.99,
+      "new_sale": 27.99,
+      "discount_pct": 17.6523
+    },
+    {
+      "position": 179,
+      "id": 180,
+      "retail": 34.99,
+      "old_sale": 33.25,
+      "new_sale": 28.99,
+      "discount_pct": 17.1478
+    },
+    {
+      "position": 180,
+      "id": 181,
+      "retail": 73.99,
+      "old_sale": 73.99,
+      "new_sale": 61.99,
+      "discount_pct": 16.2184
+    },
+    {
+      "position": 182,
+      "id": 183,
+      "retail": 89.99,
+      "old_sale": 89.99,
+      "new_sale": 75.99,
+      "discount_pct": 15.5573
+    }
+  ]
+}
