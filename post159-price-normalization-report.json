@@ -1,0 +1,153 @@
+{
+  "total_records": 1231541,
+  "start_position": 160,
+  "changed_fields": 2078,
+  "changed_records": 1040,
+  "by_field": {
+    "retail price": 1040,
+    "sale price": 1038
+  },
+  "touched_chunks": 69,
+  "examples": [
+    {
+      "position": 160,
+      "id": 161,
+      "field": "retail price",
+      "old": 62,
+      "new": 61.99
+    },
+    {
+      "position": 160,
+      "id": 161,
+      "field": "sale price",
+      "old": 36,
+      "new": 35.99
+    },
+    {
+      "position": 161,
+      "id": 162,
+      "field": "retail price",
+      "old": 70,
+      "new": 69.99
+    },
+    {
+      "position": 161,
+      "id": 162,
+      "field": "sale price",
+      "old": 38,
+      "new": 37.99
+    },
+    {
+      "position": 162,
+      "id": 163,
+      "field": "retail price",
+      "old": 30,
+      "new": 29.99
+    },
+    {
+      "position": 162,
+      "id": 163,
+      "field": "sale price",
+      "old": 30,
+      "new": 29.99
+    },
+    {
+      "position": 163,
+      "id": 164,
+      "field": "retail price",
+      "old": 32,
+      "new": 31.99
+    },
+    {
+      "position": 163,
+      "id": 164,
+      "field": "sale price",
+      "old": 32,
+      "new": 31.99
+    },
+    {
+      "position": 164,
+      "id": 165,
+      "field": "retail price",
+      "old": 28,
+      "new": 27.99
+    },
+    {
+      "position": 164,
+      "id": 165,
+      "field": "sale price",
+      "old": 28,
+      "new": 27.99
+    },
+    {
+      "position": 165,
+      "id": 166,
+      "field": "retail price",
+      "old": 34,
+      "new": 33.99
+    },
+    {
+      "position": 165,
+      "id": 166,
+      "field": "sale price",
+      "old": 34,
+      "new": 33.99
+    },
+    {
+      "position": 166,
+      "id": 167,
+      "field": "retail price",
+      "old": 36,
+      "new": 35.99
+    },
+    {
+      "position": 166,
+      "id": 167,
+      "field": "sale price",
+      "old": 36,
+      "new": 35.99
+    },
+    {
+      "position": 167,
+      "id": 168,
+      "field": "retail price",
+      "old": 30,
+      "new": 29.99
+    },
+    {
+      "position": 167,
+      "id": 168,
+      "field": "sale price",
+      "old": 30,
+      "new": 29.99
+    },
+    {
+      "position": 168,
+      "id": 169,
+      "field": "retail price",
+      "old": 30,
+      "new": 29.99
+    },
+    {
+      "position": 168,
+      "id": 169,
+      "field": "sale price",
+      "old": 30,
+      "new": 29.99
+    },
+    {
+      "position": 169,
+      "id": 170,
+      "field": "retail price",
+      "old": 28,
+      "new": 27.99
+    },
+    {
+      "position": 169,
+      "id": 170,
+      "field": "sale price",
+      "old": 28,
+      "new": 27.99
+    }
+  ]
+}
