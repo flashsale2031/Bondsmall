@@ -3311,3 +3311,8 @@ input.input-error {
     font-size: 0.78rem;
   }
 }
+
+/* Drawer-footer localization control: opposite the Bonds Mall footer title. */
+.cat-drawer-footer{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.cat-drawer-footer .bondsmall-locale-controls{margin-left:auto}
+.cat-drawer-footer .bondsmall-locale-panel{top:auto;bottom:calc(100% + 8px);right:0}

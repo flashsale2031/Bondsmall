@@ -77,7 +77,7 @@
   }
   function renderControls() {
     if (document.getElementById('bondsmall-locale-controls')) return;
-    const host = document.querySelector('.header-actions') || document.body;
+    const host = document.querySelector('.cat-drawer-footer') || document.querySelector('.header-actions') || document.body;
     const wrap=document.createElement('div'); wrap.id='bondsmall-locale-controls'; wrap.className='bondsmall-locale-controls';
     wrap.innerHTML='<button type="button" class="bondsmall-locale-toggle" id="bondsmall-locale-toggle" aria-expanded="false" aria-controls="bondsmall-locale-panel" aria-label="Language and currency settings">EN</button><div class="bondsmall-locale-panel" id="bondsmall-locale-panel" hidden><label><span data-locale-label="language">Language</span><select id="bondsmall-language"></select></label><label><span data-locale-label="currency">Currency</span><select id="bondsmall-currency"></select></label><span class="bondsmall-locale-auto" id="bondsmall-locale-auto"></span></div>';
     host.appendChild(wrap);
