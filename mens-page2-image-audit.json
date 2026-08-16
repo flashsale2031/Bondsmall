@@ -1,0 +1,267 @@
+{
+  "page": 2,
+  "page_size": 20,
+  "total_men": 238,
+  "records": [
+    {
+      "category_position": 21,
+      "catalog_chunk": "products-page-00005.js",
+      "id": 84,
+      "name": "Men's Nike Snapback",
+      "image": "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf80561c5/1000x1000/478/249/100/478249100a.jpg?sw=800&sh=1028&q=100",
+      "images": [
+        "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf80561c5/1000x1000/478/249/100/478249100a.jpg?sw=800&sh=1028&q=100",
+        "https://i5.walmartimages.com/asr/baf613be-c244-408e-9df6-027f9ded4cf2.53ac102778378b94be81c0394938e337.jpeg?odnHeight=1067&odnWidth=800&odnBg=FFFFFF"
+      ],
+      "source_url": null,
+      "brand": "Nike"
+    },
+    {
+      "category_position": 22,
+      "catalog_chunk": "products-page-00005.js",
+      "id": 87,
+      "name": "Men's Guess Slippers",
+      "image": "https://slimages.macysassets.com/is/image/MCY/products/4/optimized/33221164_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp",
+      "images": [
+        "https://slimages.macysassets.com/is/image/MCY/products/4/optimized/33221164_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp",
+        "https://i5.walmartimages.com/asr/baf613be-c244-408e-9df6-027f9ded4cf2.53ac102778378b94be81c0394938e337.jpeg?odnHeight=1067&odnWidth=800&odnBg=FFFFFF"
+      ],
+      "source_url": null,
+      "brand": "Guess"
+    },
+    {
+      "category_position": 23,
+      "catalog_chunk": "products-page-00005.js",
+      "id": 89,
+      "name": "Men's Lacoste Hooded Sweatshirt",
+      "image": "https://images.vestiairecollective.com/images/resized/w=2920,q=75,f=auto,/produit/navy-cotton-lacoste-jacket-40436010-1_6.jpg",
+      "images": [
+        "https://images.vestiairecollective.com/images/resized/w=2920,q=75,f=auto,/produit/navy-cotton-lacoste-jacket-40436010-1_6.jpg",
+        "https://i5.walmartimages.com/asr/baf613be-c244-408e-9df6-027f9ded4cf2.53ac102778378b94be81c0394938e337.jpeg?odnHeight=1067&odnWidth=800&odnBg=FFFFFF"
+      ],
+      "source_url": null,
+      "brand": "Lacoste"
+    },
+    {
+      "category_position": 24,
+      "catalog_chunk": "products-page-00005.js",
+      "id": 95,
+      "name": "Men's Gucci Polo Shirt",
+      "image": "https://editorialist.com/thumbnail/600/2025/6/037/117/150/37117150~black_1750933752573_0.webp?width=600&quality=60",
+      "images": [
+        "https://editorialist.com/thumbnail/600/2025/6/037/117/150/37117150~black_1750933752573_0.webp?width=600&quality=60",
+        "https://i5.walmartimages.com/asr/baf613be-c244-408e-9df6-027f9ded4cf2.53ac102778378b94be81c0394938e337.jpeg?odnHeight=1067&odnWidth=800&odnBg=FFFFFF"
+      ],
+      "source_url": null,
+      "brand": "Gucci"
+    },
+    {
+      "category_position": 25,
+      "catalog_chunk": "products-page-00005.js",
+      "id": 99,
+      "name": "Men's Versace Loafers",
+      "image": "https://assets.levelshoes.com/cdn-cgi/image/width=720,height=1008,quality=85,format=webp/media/catalog/product/1/0/1012629-1a09123-1b00v_3.jpg?ts=20231124032014",
+      "images": [
+        "https://assets.levelshoes.com/cdn-cgi/image/width=720,height=1008,quality=85,format=webp/media/catalog/product/1/0/1012629-1a09123-1b00v_3.jpg?ts=20231124032014",
+        "https://i5.walmartimages.com/asr/baf613be-c244-408e-9df6-027f9ded4cf2.53ac102778378b94be81c0394938e337.jpeg?odnHeight=1067&odnWidth=800&odnBg=FFFFFF"
+      ],
+      "source_url": null,
+      "brand": "Versace"
+    },
+    {
+      "category_position": 26,
+      "catalog_chunk": "products-page-00006.js",
+      "id": 105,
+      "name": "Men's Givenchy Sweater",
+      "image": "https://www.theoutnet.com/variants/images/46376663163101657/F/w920_q80.jpg",
+      "images": [
+        "https://www.theoutnet.com/variants/images/46376663163101657/F/w920_q80.jpg",
+        "https://i5.walmartimages.com/asr/baf613be-c244-408e-9df6-027f9ded4cf2.53ac102778378b94be81c0394938e337.jpeg?odnHeight=1067&odnWidth=800&odnBg=FFFFFF"
+      ],
+      "source_url": null,
+      "brand": "Givenchy"
+    },
+    {
+      "category_position": 27,
+      "catalog_chunk": "products-page-00006.js",
+      "id": 114,
+      "name": "Men's Abercrombie & Fitch T-shirt",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRozStpy3iE0iZCJdXdF0yQex2Nh45h3Yr_hhpZjvTraGgeRkegFSeK4rIZWu2QDhiGFF4_ous",
+      "images": [
+        "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRozStpy3iE0iZCJdXdF0yQex2Nh45h3Yr_hhpZjvTraGgeRkegFSeK4rIZWu2QDhiGFF4_ous",
+        "https://i5.walmartimages.com/asr/baf613be-c244-408e-9df6-027f9ded4cf2.53ac102778378b94be81c0394938e337.jpeg?odnHeight=1067&odnWidth=800&odnBg=FFFFFF"
+      ],
+      "source_url": null,
+      "brand": "Abercrombie & Fitch"
+    },
+    {
+      "category_position": 28,
+      "catalog_chunk": "products-page-00007.js",
+      "id": 129,
+      "name": "Men's Maison Margiela Sweater",
+      "image": "https://www.theoutnet.com/variants/images/46376663163029858/F/w920_q80.jpg",
+      "images": [
+        "https://www.theoutnet.com/variants/images/46376663163029858/F/w920_q80.jpg",
+        "https://i5.walmartimages.com/asr/baf613be-c244-408e-9df6-027f9ded4cf2.53ac102778378b94be81c0394938e337.jpeg?odnHeight=1067&odnWidth=800&odnBg=FFFFFF"
+      ],
+      "source_url": null,
+      "brand": "Maison Margiela"
+    },
+    {
+      "category_position": 29,
+      "catalog_chunk": "products-page-00007.js",
+      "id": 134,
+      "name": "Men's Armani Cashmere Sweater",
+      "image": "https://editorialist.com/thumbnails/600/2026/5/042/891/963/42891963~brown_1779977546165_0.webp",
+      "images": [
+        "https://editorialist.com/thumbnails/600/2026/5/042/891/963/42891963~brown_1779977546165_0.webp",
+        "https://i5.walmartimages.com/asr/baf613be-c244-408e-9df6-027f9ded4cf2.53ac102778378b94be81c0394938e337.jpeg?odnHeight=1067&odnWidth=800&odnBg=FFFFFF"
+      ],
+      "source_url": null,
+      "brand": "Armani"
+    },
+    {
+      "category_position": 30,
+      "catalog_chunk": "products-page-00008.js",
+      "id": 144,
+      "name": "Men's Nike Track Jacket",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRm4uW0A-OjdSid08-7FIg_YdkKd3MRpt-Wr-cB2kQbU8khoeuZxqG73afcZSk1_BB4h52fR5PA",
+      "images": [
+        "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRm4uW0A-OjdSid08-7FIg_YdkKd3MRpt-Wr-cB2kQbU8khoeuZxqG73afcZSk1_BB4h52fR5PA",
+        "https://i5.walmartimages.com/asr/baf613be-c244-408e-9df6-027f9ded4cf2.53ac102778378b94be81c0394938e337.jpeg?odnHeight=1067&odnWidth=800&odnBg=FFFFFF"
+      ],
+      "source_url": null,
+      "brand": "Nike"
+    },
+    {
+      "category_position": 31,
+      "catalog_chunk": "products-page-00008.js",
+      "id": 145,
+      "name": "Men's Louis Vuitton Leather Puffer Jacket",
+      "image": "https://images.stockx.com/images/Louis-Vuitton-Monogram-Leather-Puffer-Jacket-Monogram-Brown.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1768318408",
+      "images": [
+        "https://images.stockx.com/images/Louis-Vuitton-Monogram-Leather-Puffer-Jacket-Monogram-Brown.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1768318408",
+        "https://i5.walmartimages.com/asr/baf613be-c244-408e-9df6-027f9ded4cf2.53ac102778378b94be81c0394938e337.jpeg?odnHeight=1067&odnWidth=800&odnBg=FFFFFF"
+      ],
+      "source_url": null,
+      "brand": "Louis Vuitton"
+    },
+    {
+      "category_position": 32,
+      "catalog_chunk": "products-page-00008.js",
+      "id": 150,
+      "name": "Men's Dolce & Gabbana Shorts",
+      "image": "https://cdn-images.farfetch-contents.com/20/53/15/86/20531586_50546418_600.jpg",
+      "images": [
+        "https://cdn-images.farfetch-contents.com/20/53/15/86/20531586_50546418_600.jpg",
+        "https://i5.walmartimages.com/asr/baf613be-c244-408e-9df6-027f9ded4cf2.53ac102778378b94be81c0394938e337.jpeg?odnHeight=1067&odnWidth=800&odnBg=FFFFFF"
+      ],
+      "source_url": null,
+      "brand": "Dolce & Gabbana"
+    },
+    {
+      "category_position": 33,
+      "catalog_chunk": "products-page-00079.js",
+      "id": 1563,
+      "name": "C4M Pouch Enhancing Thong Pearl Extra Large",
+      "image": "assets/main-images/hf-22.jpg",
+      "images": [
+        "assets/main-images/hf-22.jpg",
+        "assets/main-images/hf-22.jpg"
+      ],
+      "source_url": "https://huggingface.co/datasets/Shopify/product-catalogue",
+      "brand": "Cut 4 Men"
+    },
+    {
+      "category_position": 34,
+      "catalog_chunk": "products-page-00097.js",
+      "id": 1927,
+      "name": "250% Density Chocolate Brown Lace Front Wig Human Hair 13x4 Body Wave Lace Front Wigs with Baby Hair Colored Human Hair Wigs For Women HD Transparent",
+      "image": "assets/main-images/hf-386.jpg",
+      "images": [
+        "assets/main-images/hf-386.jpg",
+        "assets/main-images/hf-386.jpg"
+      ],
+      "source_url": "https://huggingface.co/datasets/Shopify/product-catalogue",
+      "brand": "FKFO"
+    },
+    {
+      "category_position": 35,
+      "catalog_chunk": "products-page-00112.js",
+      "id": 2225,
+      "name": "Sweet Treats Crotchless Boy Short & Lube Peach P/S",
+      "image": "assets/main-images/hf-684.jpg",
+      "images": [
+        "assets/main-images/hf-684.jpg",
+        "assets/main-images/hf-684.jpg"
+      ],
+      "source_url": "https://huggingface.co/datasets/Shopify/product-catalogue",
+      "brand": "MAGIC SILK"
+    },
+    {
+      "category_position": 36,
+      "catalog_chunk": "products-page-00144.js",
+      "id": 2875,
+      "name": "Combo of Men's NS Lycra Track Pants",
+      "image": "assets/main-images/hf-1334.jpg",
+      "images": [
+        "assets/main-images/hf-1334.jpg",
+        "assets/main-images/hf-1334.jpg"
+      ],
+      "source_url": "https://huggingface.co/datasets/Shopify/product-catalogue",
+      "brand": "v7zyd1-rz"
+    },
+    {
+      "category_position": 37,
+      "catalog_chunk": "products-page-00151.js",
+      "id": 3020,
+      "name": "Crazy Horse Leather Travel Bag for Suits Shoes Garment Genuine Leather Man Folding Suit Bag Business Travel Bags On Luggage",
+      "image": "assets/main-images/hf-1479.jpg",
+      "images": [
+        "assets/main-images/hf-1479.jpg",
+        "assets/main-images/hf-1479.jpg"
+      ],
+      "source_url": "https://huggingface.co/datasets/Shopify/product-catalogue",
+      "brand": "Alejandro Gallardo Store"
+    },
+    {
+      "category_position": 38,
+      "catalog_chunk": "products-page-00159.js",
+      "id": 3180,
+      "name": "6 Pack Boys Cotton Stretch Trunks Boxer Shorts Comfortable Waistband Assorted Styles Breathable Underwear Sizes 5-13 Durable Moisture-Wicking by Sock",
+      "image": "assets/main-images/hf-1639.jpg",
+      "images": [
+        "assets/main-images/hf-1639.jpg",
+        "assets/main-images/hf-1639.jpg"
+      ],
+      "source_url": "https://huggingface.co/datasets/Shopify/product-catalogue",
+      "brand": "Sock Stack"
+    },
+    {
+      "category_position": 39,
+      "catalog_chunk": "products-page-00180.js",
+      "id": 3592,
+      "name": "Dolce & Gabbana Black Cotton Stretch Regular Brief Underwear",
+      "image": "assets/main-images/hf-2051.jpg",
+      "images": [
+        "assets/main-images/hf-2051.jpg",
+        "assets/main-images/hf-2051.jpg"
+      ],
+      "source_url": "https://huggingface.co/datasets/Shopify/product-catalogue",
+      "brand": "Dolce & Gabbana"
+    },
+    {
+      "category_position": 40,
+      "catalog_chunk": "products-page-00206.js",
+      "id": 4105,
+      "name": "FREE SOLDIER Men's Outdoor Softshell Fleece Lined Cargo Pants Snow Ski Hiking Pants with Belt",
+      "image": "assets/main-images/hf-2564.jpg",
+      "images": [
+        "assets/main-images/hf-2564.jpg",
+        "assets/main-images/hf-2564.jpg"
+      ],
+      "source_url": "https://huggingface.co/datasets/Shopify/product-catalogue",
+      "brand": "FREESOLDIER"
+    }
+  ]
+}
