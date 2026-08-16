@@ -26,12 +26,12 @@
       "chunkCount": 4331
     },
     "men": {
-      "count": 272,
-      "chunkCount": 239
+      "count": 195,
+      "chunkCount": 165
     },
     "women": {
-      "count": 22499,
-      "chunkCount": 2295
+      "count": 22576,
+      "chunkCount": 2338
     }
   }
 }
