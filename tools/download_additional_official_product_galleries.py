@@ -3,7 +3,7 @@ from pathlib import Path
 from PIL import Image
 from io import BytesIO
 root=Path(__file__).resolve().parents[1]; outdir=root/'assets/manufacturer-images'; outdir.mkdir(exist_ok=True); S=requests.Session(); S.headers.update({'User-Agent':'Mozilla/5.0'})
-products={242:{'url':'https://www.frigidaire.com/en/p/kitchen-appliances/wall-ovens/single-wall-ovens/GCWS2438AF','brand':'Frigidaire'},2441:{'url':'https://www.cuisinart.com/electric-knife-set-with-cutting-board/CEK-41.html','brand':'Cuisinart'}}
+products={206:{'url':'https://www.logitech.com/en-us/shop/p/brio-4k','brand':'Logitech'},242:{'url':'https://www.frigidaire.com/en/p/kitchen-appliances/wall-ovens/single-wall-ovens/GCWS2438AF','brand':'Frigidaire'},2441:{'url':'https://www.cuisinart.com/electric-knife-set-with-cutting-board/CEK-41.html','brand':'Cuisinart'}}
 res={}
 for pid,p in products.items():
  r=S.get(p['url'],timeout=45); text=r.text; from bs4 import BeautifulSoup; soup=BeautifulSoup(text,'html.parser'); h=soup.find('h1'); title=h.get_text(' ',strip=True) if h else (soup.title.get_text(' ',strip=True) if soup.title else '')

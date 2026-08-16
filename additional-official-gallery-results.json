@@ -1,4 +1,47 @@
 {
+  "206": {
+    "manufacturer": "Logitech",
+    "manufacturer_url": "https://www.logitech.com/en-us/shop/p/brio-4k",
+    "sourced_name": "Brio 4K",
+    "gallery": [
+      {
+        "path": "assets/manufacturer-images/206-0-a1c447ff7b90.png",
+        "source_url": "https://resource.logitech.com/c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/common/og-generic/og-image-electrico.png"
+      },
+      {
+        "path": "assets/manufacturer-images/206-1-f856d9ea048a.png",
+        "source_url": "https://resource.logitech.com/c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/webcams/4k-pro-webcam/gallery/4k-pro-gallery-1.png"
+      },
+      {
+        "path": "assets/manufacturer-images/206-3-9530e35955d1.png",
+        "source_url": "https://resource.logitech.com/c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/webcams/4k-pro-webcam/gallery/4k-pro-gallery-3.png"
+      },
+      {
+        "path": "assets/manufacturer-images/206-5-821b055ec9ae.png",
+        "source_url": "https://resource.logitech.com/c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/webcams/4k-pro-webcam/gallery/4k-pro-gallery-5.png"
+      },
+      {
+        "path": "assets/manufacturer-images/206-6-d1ba72df16b8.png",
+        "source_url": "https://resource.logitech.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/webcams/4k-pro-webcam/gallery/4k-pro-gallery-1.png"
+      },
+      {
+        "path": "assets/manufacturer-images/206-8-de7749016413.png",
+        "source_url": "https://resource.logitech.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/webcams/4k-pro-webcam/gallery/4k-pro-gallery-2.png"
+      },
+      {
+        "path": "assets/manufacturer-images/206-9-7df06ce8edc7.png",
+        "source_url": "https://resource.logitech.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_2.0/d_transparent.gif/content/dam/logitech/en/products/webcams/4k-pro-webcam/gallery/4k-pro-gallery-2.png"
+      },
+      {
+        "path": "assets/manufacturer-images/206-10-e87c0671ed45.png",
+        "source_url": "https://resource.logitech.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/webcams/4k-pro-webcam/gallery/4k-pro-gallery-3.png"
+      },
+      {
+        "path": "assets/manufacturer-images/206-11-5b1b77b96afe.png",
+        "source_url": "https://resource.logitech.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_2.0/d_transparent.gif/content/dam/logitech/en/products/webcams/4k-pro-webcam/gallery/4k-pro-gallery-3.png"
+      }
+    ]
+  },
   "242": {
     "manufacturer": "Frigidaire",
     "manufacturer_url": "https://www.frigidaire.com/en/p/kitchen-appliances/wall-ovens/single-wall-ovens/GCWS2438AF",
