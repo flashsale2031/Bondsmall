@@ -103,6 +103,9 @@
             } else {
                 url.searchParams.set("category", catKey);
             }
+            // A category change always starts at that category's first page;
+            // do not carry a previous category's high page number forward.
+            url.searchParams.delete("page");
             // Clear text query when browsing by category from drawer
             url.searchParams.delete("q");
             window.history.replaceState({}, "", cleanUrl(url.toString()));
