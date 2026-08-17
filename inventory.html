@@ -257,8 +257,6 @@
     }
   }
 </style>
-    <link rel="stylesheet" href="localization.css?v=1.0.0">
-    <script src="localization.js?v=1.0.0" defer></script>
 </head>
 <body>
   <header class="header">
@@ -282,7 +280,7 @@
     <div class="github-config" id="githubConfigPanel">
       <h3>GitHub Synchronization Settings</h3>
       <p style="font-size: 0.85rem; color: var(--muted); margin-bottom: 1rem;">
-        Provide a Personal Access Token (classic) with 'repo' scope to enable automatic saving to GitHub.
+        Configure GitHub once in this browser. The settings are remembered locally and later inventory changes sync automatically while this page is open.
       </p>
       <div class="form-grid">
         <div class="field">
@@ -299,7 +297,7 @@
         </div>
         <div class="field">
           <label for="ghPath">File Path</label>
-          <input type="text" id="ghPath" value="products.js">
+          <input type="text" id="ghPath" value="inventory-sync.json">
         </div>
       </div>
       <div style="margin-top: 1rem; display: flex; gap: 0.5rem;">
@@ -429,250 +427,235 @@
   <script src="products.js?v=1.1.3"></script>
   <script src="catalog-loader.js?v=2.3.7"></script>
   <script>
-    let productList = window.products || [];
-    let editingIndex = null;
-    let inventoryPage = 1;
-    const INVENTORY_PER_PAGE = 20;
-    let ghConfig = JSON.parse(localStorage.getItem('ghConfig') || '{}');
+    (() => {
+      'use strict';
+      let productList = Array.isArray(window.products) ? window.products : [];
+      let editingIndex = null;
+      let inventoryPage = 1;
+      const INVENTORY_PER_PAGE = 20;
+      const OVERRIDES_KEY = 'bondsmall.inventoryOverrides.v1';
+      const CONFIG_KEY = 'bondsmall.githubSync.v2';
+      let ghConfig = readJson(localStorage.getItem(CONFIG_KEY), {});
+      let overrides = readJson(localStorage.getItem(OVERRIDES_KEY), {});
+      let syncTimer = null;
+      let syncInFlight = false;
+      let syncQueued = false;
 
-    const els = {
-      tableBody: document.getElementById('productTableBody'),
-      count: document.getElementById('inventoryCount'),
-      status: document.getElementById('statusMessage'),
-      modal: document.getElementById('productModal'),
-      form: document.getElementById('productForm'),
-      configPanel: document.getElementById('githubConfigPanel'),
-      configBtn: document.getElementById('githubConfigBtn')
-    };
-
-    function handleFile(input, targetId, isGallery = false) {
-      const file = input.files[0];
-      if (file) {
-        const target = document.getElementsByName(targetId)[0] || document.getElementById(targetId);
-        const path = `product_images/${file.name}`;
-        if (isGallery) {
-          target.value = target.value ? `${target.value}, ${path}` : path;
-        } else {
-          target.value = path;
-        }
-      }
-    }
-
-    function setStatus(msg, type = 'neutral') {
-      els.status.textContent = msg;
-      els.status.style.color = type === 'error' ? 'var(--warn)' : type === 'success' ? 'var(--good)' : 'var(--muted)';
-    }
-
-    function render() {
-      const query = document.getElementById('bulkSearch').value.toLowerCase();
-      const filtered = productList.filter(p => (p.name || '').toLowerCase().includes(query));
-      const total = window.BondsmallCatalog ? window.BondsmallCatalog.totalCount : filtered.length;
-      const localStart = window.BondsmallCatalog
-        ? (((inventoryPage - 1) * INVENTORY_PER_PAGE) % window.BondsmallCatalog.chunkSize)
-        : ((inventoryPage - 1) * INVENTORY_PER_PAGE);
-      const pageProducts = filtered.slice(localStart, localStart + INVENTORY_PER_PAGE);
-      els.count.textContent = query ? `Showing ${pageProducts.length} matching products in this loaded chunk` : `Showing ${pageProducts.length} of ${total} products`;
-      els.tableBody.innerHTML = pageProducts.map((p, i) => `
-        <tr>
-          <td><img src="${Array.isArray(p.image) ? p.image[0] : p.image}" class="product-img"></td>
-          <td>${p.name}</td>
-          <td>$${(p['sale price'] || p['retail price']).toFixed(2)}</td>
-          <td>${p.category}</td>
-          <td>${p.age_group || 'Adult'}</td>
-          <td>${p.gender || 'Unisex'}</td>
-          <td>${p.inventory || 0}</td>
-          <td>${p.sku || ''}</td>
-          <td>
-            <button onclick="editProduct(${i})">Edit</button>
-            <button onclick="deleteProduct(${i})" style="color:var(--warn)">Delete</button>
-          </td>
-        </tr>
-      `).join('');
-      renderInventoryPagination(total);
-    }
-
-    function renderInventoryPagination(total) {
-      const host = document.getElementById('inventoryPagination');
-      if (!host || !total) return;
-      const pages = Math.ceil(total / INVENTORY_PER_PAGE);
-      host.innerHTML = `<button type="button" data-inv-page="prev" ${inventoryPage <= 1 ? 'disabled' : ''}>Prev</button><span>Page ${inventoryPage} of ${pages}</span><button type="button" data-inv-page="next" ${inventoryPage >= pages ? 'disabled' : ''}>Next</button>`;
-    }
-
-    async function loadInventoryPage(page) {
-      const total = window.BondsmallCatalog ? window.BondsmallCatalog.totalCount : productList.length;
-      const pages = Math.max(1, Math.ceil(total / INVENTORY_PER_PAGE));
-      inventoryPage = Math.max(1, Math.min(pages, Number(page) || 1));
-      if (window.BondsmallCatalog) {
-        try { await window.BondsmallCatalog.ensurePage(inventoryPage, INVENTORY_PER_PAGE); }
-        catch (error) { setStatus(`Unable to load inventory page: ${error.message}`, 'error'); }
-      }
-      productList = window.products || productList;
-      render();
-    }
-
-    function editProduct(i) {
-      editingIndex = i;
-      const p = productList[i];
-      document.getElementById('modalTitle').textContent = 'Edit Product';
-      const f = els.form;
-      f.productId.value = p.id;
-      f.sku.value = p.sku || '';
-      f.productName.value = p.name;
-      f.category.value = p.category;
-      f.productType.value = p.productType || '';
-      f.ageGroup.value = p.age_group || 'Adult';
-      f.gender.value = p.gender || 'Unisex';
-      f.retailPrice.value = p['retail price'];
-      f.salePrice.value = p['sale price'];
-      f.inventory.value = p.inventory || 1;
-      f.image.value = Array.isArray(p.image) ? p.image[0] : p.image;
-      f.images.value = (p.images || []).join(', ');
-      f.description.value = p.description;
-      els.modal.classList.add('is-open');
-    }
-
-    function deleteProduct(i) {
-      if (confirm('Delete this product?')) {
-        productList.splice(i, 1);
-        saveAndSync();
-      }
-    }
-
-    async function saveAndSync() {
-      render();
-      if (ghConfig.token && ghConfig.repo) {
-        await syncToGitHub();
-      } else {
-        setStatus('Saved locally. Connect GitHub for auto-sync.', 'neutral');
-      }
-    }
-
-    async function syncToGitHub() {
-      setStatus('Syncing to GitHub...', 'neutral');
-      const { token, repo, branch, path } = ghConfig;
-      const url = `https://api.github.com/repos/${repo}/contents/${path}`;
-      const content = `var products = ${JSON.stringify(productList, null, 2)};`;
-      
-      try {
-        // 1. Get current file SHA
-        const getRes = await fetch(`${url}?ref=${branch}`, {
-          headers: { 'Authorization': `token ${token}` }
-        });
-        
-        let sha = null;
-        if (getRes.ok) {
-          const data = await getRes.json();
-          sha = data.sha;
-        }
-
-        // 2. Update file
-        const putRes = await fetch(url, {
-          method: 'PUT',
-          headers: {
-            'Authorization': `token ${token}`,
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({
-            message: `Update inventory: ${new Date().toISOString()}`,
-            content: btoa(unescape(encodeURIComponent(content))),
-            sha: sha,
-            branch: branch
-          })
-        });
-
-        if (putRes.ok) {
-          setStatus('Successfully synced to GitHub!', 'success');
-        } else {
-          const err = await putRes.json();
-          throw new Error(err.message);
-        }
-      } catch (err) {
-        console.error(err);
-        setStatus(`GitHub Sync Error: ${err.message}`, 'error');
-      }
-    }
-
-    els.form.onsubmit = (e) => {
-      e.preventDefault();
-      const f = new FormData(els.form);
-      const data = {
-        id: Number(f.get('productId')),
-        sku: f.get('sku'),
-        name: f.get('productName'),
-        category: f.get('category'),
-        productType: f.get('productType'),
-        age_group: f.get('ageGroup'),
-        gender: f.get('gender'),
-        'retail price': Number(f.get('retailPrice')),
-        'sale price': Number(f.get('salePrice')),
-        inventory: Number(f.get('inventory')),
-        image: f.get('image'),
-        images: f.get('images').split(',').map(s => s.trim()).filter(Boolean),
-        description: f.get('description')
+      const els = {
+        tableBody: document.getElementById('productTableBody'),
+        count: document.getElementById('inventoryCount'),
+        status: document.getElementById('statusMessage'),
+        modal: document.getElementById('productModal'),
+        form: document.getElementById('productForm'),
+        configPanel: document.getElementById('githubConfigPanel'),
+        configBtn: document.getElementById('githubConfigBtn'),
+        search: document.getElementById('bulkSearch'),
+        pagination: document.getElementById('inventoryPagination')
       };
 
-      if (editingIndex !== null) productList[editingIndex] = data;
-      else productList.push(data);
-
-      els.modal.classList.remove('is-open');
-      saveAndSync();
-    };
-
-    els.configBtn.onclick = () => els.configPanel.classList.toggle('is-open');
-    
-    document.getElementById('saveGhConfig').onclick = () => {
-      ghConfig = {
-        token: document.getElementById('ghToken').value,
-        repo: document.getElementById('ghRepo').value,
-        branch: document.getElementById('ghBranch').value,
-        path: document.getElementById('ghPath').value
-      };
-      localStorage.setItem('ghConfig', JSON.stringify(ghConfig));
-      setStatus('GitHub configuration saved.', 'success');
-    };
-
-    document.getElementById('testGhConn').onclick = async () => {
-      const { token, repo } = ghConfig;
-      if (!token || !repo) return setStatus('Token and Repo required.', 'error');
-      setStatus('Testing connection...');
-      try {
-        const res = await fetch(`https://api.github.com/repos/${repo}`, {
-          headers: { 'Authorization': `token ${token}` }
-        });
-        if (res.ok) setStatus('GitHub connection verified!', 'success');
-        else throw new Error('Invalid token or repository.');
-      } catch (err) {
-        setStatus(err.message, 'error');
+      function readJson(value, fallback) {
+        try { return value ? JSON.parse(value) : fallback; }
+        catch (_) { return fallback; }
       }
-    };
 
-    document.getElementById('addProductBtn').onclick = () => {
-      editingIndex = null;
-      els.form.reset();
-      document.getElementById('modalTitle').textContent = 'Add Product';
-      els.modal.classList.add('is-open');
-    };
+      function escapeHtml(value) {
+        return String(value ?? '').replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[char]));
+      }
 
-    document.getElementById('closeModalBtn').onclick = () => els.modal.classList.remove('is-open');
-    document.getElementById('bulkSearch').oninput = () => { inventoryPage = 1; render(); };
-    document.getElementById('inventoryPagination').onclick = (event) => {
-      const action = event.target.closest('[data-inv-page]')?.dataset.invPage;
-      if (action === 'prev') loadInventoryPage(inventoryPage - 1);
-      if (action === 'next') loadInventoryPage(inventoryPage + 1);
-    };
-    document.addEventListener('bondsmall-catalog-chunk-loaded', () => {
-      productList = window.products || productList;
+      function imageFor(product) {
+        const candidate = Array.isArray(product.image) ? product.image[0] : product.image;
+        return candidate || (Array.isArray(product.images) ? product.images[0] : '') || 'bonds-mall-logo.png';
+      }
+
+      function applyOverrides(records) {
+        return records.map((product) => {
+          const patch = overrides[String(product.id)];
+          return patch && typeof patch === 'object' ? { ...product, ...patch } : product;
+        }).filter((product) => overrides[String(product.id)] !== null);
+      }
+
+      function setStatus(message, type = 'neutral') {
+        els.status.textContent = message;
+        els.status.style.color = type === 'error' ? 'var(--warn)' : type === 'success' ? 'var(--good)' : 'var(--muted)';
+      }
+
+      function persistOverrides() {
+        localStorage.setItem(OVERRIDES_KEY, JSON.stringify(overrides));
+      }
+
+      function render() {
+        const query = (els.search.value || '').trim().toLowerCase();
+        const filtered = productList.filter((product) => String(product.name || '').toLowerCase().includes(query));
+        const total = window.BondsmallCatalog ? window.BondsmallCatalog.totalCount : filtered.length;
+        const pageProducts = filtered.slice(0, INVENTORY_PER_PAGE);
+        els.count.textContent = query
+          ? `Showing ${pageProducts.length} matching products in the loaded page`
+          : `Showing ${pageProducts.length} of ${total} products`;
+        els.tableBody.innerHTML = pageProducts.map((product, index) => {
+          const price = Number(product['sale price'] ?? product['retail price'] ?? 0);
+          return `<tr>
+            <td><img src="${escapeHtml(imageFor(product))}" class="product-img" alt="${escapeHtml(product.name)}" loading="lazy" onerror="this.onerror=null;this.src='bonds-mall-logo.png';"></td>
+            <td>${escapeHtml(product.name)}</td>
+            <td>$${price.toFixed(2)}</td>
+            <td>${escapeHtml(product.category)}</td>
+            <td>${escapeHtml(product.age_group || 'Adult')}</td>
+            <td>${escapeHtml(product.gender || 'Unisex')}</td>
+            <td>${Number(product.inventory || 0)}</td>
+            <td>${escapeHtml(product.sku || '')}</td>
+            <td><button type="button" data-edit-index="${index}">Edit</button> <button type="button" data-delete-index="${index}" style="color:var(--warn)">Delete</button></td>
+          </tr>`;
+        }).join('');
+        renderInventoryPagination(total);
+      }
+
+      function renderInventoryPagination(total) {
+        if (!els.pagination || !total) return;
+        const pages = Math.max(1, Math.ceil(total / INVENTORY_PER_PAGE));
+        els.pagination.innerHTML = `<button type="button" data-inv-page="prev" ${inventoryPage <= 1 ? 'disabled' : ''}>Prev</button><span>Page ${inventoryPage} of ${pages}</span><button type="button" data-inv-page="next" ${inventoryPage >= pages ? 'disabled' : ''}>Next</button>`;
+      }
+
+      async function loadInventoryPage(page) {
+        const total = window.BondsmallCatalog ? window.BondsmallCatalog.totalCount : productList.length;
+        const pages = Math.max(1, Math.ceil(total / INVENTORY_PER_PAGE));
+        inventoryPage = Math.max(1, Math.min(pages, Number(page) || 1));
+        if (window.BondsmallCatalog) {
+          try { await window.BondsmallCatalog.ensurePage(inventoryPage, INVENTORY_PER_PAGE); }
+          catch (error) { setStatus(`Unable to load inventory page: ${error.message}`, 'error'); return; }
+        }
+        productList = applyOverrides(Array.isArray(window.products) ? window.products : productList);
+        render();
+      }
+
+      function editProduct(index) {
+        editingIndex = index;
+        const product = productList[index];
+        if (!product) return;
+        const form = els.form;
+        document.getElementById('modalTitle').textContent = 'Edit Product';
+        form.productId.value = product.id;
+        form.sku.value = product.sku || '';
+        form.productName.value = product.name || '';
+        form.category.value = product.category || 'accessories';
+        form.productType.value = product.productType || '';
+        form.ageGroup.value = product.age_group || 'Adult';
+        form.gender.value = product.gender || 'Unisex';
+        form.retailPrice.value = product['retail price'] ?? '';
+        form.salePrice.value = product['sale price'] ?? '';
+        form.inventory.value = product.inventory ?? 1;
+        form.image.value = imageFor(product);
+        form.images.value = Array.isArray(product.images) ? product.images.join(', ') : '';
+        form.description.value = product.description || '';
+        els.modal.classList.add('is-open');
+      }
+
+      function markOverride(product) {
+        overrides[String(product.id)] = product;
+        persistOverrides();
+      }
+
+      function scheduleSync() {
+        if (!ghConfig.token || !ghConfig.repo || !ghConfig.path) {
+          setStatus('Saved locally. Configure GitHub once to enable automatic sync.', 'neutral');
+          return;
+        }
+        clearTimeout(syncTimer);
+        syncTimer = setTimeout(() => syncToGitHub(), 350);
+      }
+
+      async function syncToGitHub() {
+        if (syncInFlight) { syncQueued = true; return; }
+        syncInFlight = true;
+        setStatus('Syncing inventory changes to GitHub...', 'neutral');
+        const { token, repo, branch = 'main', path = 'inventory-sync.json' } = ghConfig;
+        const url = `https://api.github.com/repos/${repo}/contents/${path}`;
+        const payload = { version: 1, updatedAt: new Date().toISOString(), records: Object.values(overrides).filter(Boolean), deletedIds: Object.keys(overrides).filter((id) => overrides[id] === null).map(Number) };
+        try {
+          const headers = { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json' };
+          const getRes = await fetch(`${url}?ref=${encodeURIComponent(branch)}`, { headers });
+          let sha;
+          if (getRes.ok) sha = (await getRes.json()).sha;
+          const body = { message: `Update inventory overrides: ${new Date().toISOString()}`, content: btoa(unescape(encodeURIComponent(JSON.stringify(payload, null, 2)))), branch };
+          if (sha) body.sha = sha;
+          const putRes = await fetch(url, { method: 'PUT', headers: { ...headers, 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+          if (!putRes.ok) {
+            const error = await putRes.json().catch(() => ({}));
+            throw new Error(error.message || `GitHub returned ${putRes.status}`);
+          }
+          setStatus('Saved locally and synced to GitHub. Future changes will sync automatically while this page is open.', 'success');
+        } catch (error) {
+          console.error(error);
+          setStatus(`GitHub sync failed; changes remain saved locally: ${error.message}`, 'error');
+        } finally {
+          syncInFlight = false;
+          if (syncQueued) { syncQueued = false; scheduleSync(); }
+        }
+      }
+
+      function saveAndSync(product) {
+        if (product) markOverride(product);
+        productList = applyOverrides(productList);
+        render();
+        scheduleSync();
+      }
+
+      function downloadExport() {
+        const blob = new Blob([JSON.stringify(productList, null, 2)], { type: 'application/json' });
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = `bondsmall-inventory-page-${inventoryPage}.json`;
+        link.click();
+        URL.revokeObjectURL(link.href);
+      }
+
+      els.form.onsubmit = (event) => {
+        event.preventDefault();
+        const data = Object.fromEntries(new FormData(els.form).entries());
+        const product = {
+          id: Number(data.productId), sku: data.sku, name: data.productName, category: data.category,
+          productType: data.productType, age_group: data.ageGroup, gender: data.gender,
+          'retail price': Number(data.retailPrice), 'sale price': Number(data.salePrice), inventory: Number(data.inventory),
+          image: data.image, images: String(data.images || '').split(',').map((value) => value.trim()).filter(Boolean), description: data.description
+        };
+        editingIndex = null;
+        els.modal.classList.remove('is-open');
+        saveAndSync(product);
+      };
+
+      els.configBtn.onclick = () => els.configPanel.classList.toggle('is-open');
+      document.getElementById('saveGhConfig').onclick = () => {
+        ghConfig = { token: document.getElementById('ghToken').value.trim(), repo: document.getElementById('ghRepo').value.trim(), branch: document.getElementById('ghBranch').value.trim() || 'main', path: document.getElementById('ghPath').value.trim() || 'inventory-sync.json' };
+        localStorage.setItem(CONFIG_KEY, JSON.stringify(ghConfig));
+        setStatus('GitHub settings saved in this browser. Automatic sync is enabled for future inventory changes.', 'success');
+        if (Object.keys(overrides).length) scheduleSync();
+      };
+      document.getElementById('testGhConn').onclick = async () => {
+        if (!ghConfig.token || !ghConfig.repo) return setStatus('Token and repository are required.', 'error');
+        try {
+          const response = await fetch(`https://api.github.com/repos/${ghConfig.repo}`, { headers: { 'Authorization': `Bearer ${ghConfig.token}`, 'Accept': 'application/vnd.github+json' } });
+          if (!response.ok) throw new Error('Invalid token or repository.');
+          setStatus('GitHub connection verified. Automatic sync is ready.', 'success');
+        } catch (error) { setStatus(error.message, 'error'); }
+      };
+      document.getElementById('addProductBtn').onclick = () => { editingIndex = null; els.form.reset(); document.getElementById('modalTitle').textContent = 'Add Product'; els.modal.classList.add('is-open'); };
+      document.getElementById('closeModalBtn').onclick = () => els.modal.classList.remove('is-open');
+      document.getElementById('exportProductsBtn').onclick = downloadExport;
+      els.search.oninput = () => { inventoryPage = 1; loadInventoryPage(1); };
+      els.tableBody.onclick = (event) => {
+        const edit = event.target.closest('[data-edit-index]');
+        const remove = event.target.closest('[data-delete-index]');
+        if (edit) editProduct(Number(edit.dataset.editIndex));
+        if (remove) {
+          const product = productList[Number(remove.dataset.deleteIndex)];
+          if (product && confirm('Delete this product?')) { overrides[String(product.id)] = null; persistOverrides(); productList = productList.filter((item) => item.id !== product.id); render(); scheduleSync(); }
+        }
+      };
+      els.pagination.onclick = (event) => { const action = event.target.closest('[data-inv-page]')?.dataset.invPage; if (action === 'prev') loadInventoryPage(inventoryPage - 1); if (action === 'next') loadInventoryPage(inventoryPage + 1); };
+      document.addEventListener('bondsmall-catalog-chunk-loaded', () => { productList = applyOverrides(Array.isArray(window.products) ? window.products : productList); render(); });
+
+      for (const [id, field] of [['token', 'ghToken'], ['repo', 'ghRepo'], ['branch', 'ghBranch'], ['path', 'ghPath']]) if (ghConfig[id]) document.getElementById(field).value = ghConfig[id];
       render();
-    });
-
-    // Load saved config into inputs
-    if (ghConfig.token) document.getElementById('ghToken').value = ghConfig.token;
-    if (ghConfig.repo) document.getElementById('ghRepo').value = ghConfig.repo;
-    if (ghConfig.branch) document.getElementById('ghBranch').value = ghConfig.branch;
-    if (ghConfig.path) document.getElementById('ghPath').value = ghConfig.path;
-
-    render();
-    if (window.BondsmallCatalog) loadInventoryPage(1);
+      if (window.BondsmallCatalog) loadInventoryPage(1);
+    })();
   </script>
 </body>
 </html>
