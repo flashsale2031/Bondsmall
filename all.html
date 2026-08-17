@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search Results — BONDS MALL</title>
-    <meta name="description" content="Search and browse all products at Bonds Mall. Filter by category, sort by price or rating.">
+    <title>All Categories — BONDS MALL</title>
     <link rel="stylesheet" href="bondsmall.css?v=1.0.3">
     <link rel="stylesheet" href="site-footer.css?v=1.0.2">
     <link rel="stylesheet" href="all.css?v=1.0.0">
@@ -23,12 +22,48 @@
     <script src="reviews-cloud.js?v=1.0.2" defer></script>
     <script src="productpopup.js?v=1.1.1" defer></script>
     <script src="bondsmall-account.js?v=1.0.2" defer></script>
-    <script src="search-results.js?v=2.0.2" defer></script>
+    <script src="bondsmall.js?v=2.0.4" defer></script>
     <script src="category-menu.js?v=1.0.4" defer></script>
+    <script src="all.js?v=1.0.0" defer></script>
     <link rel="stylesheet" href="localization.css?v=1.0.3">
     <script src="localization.js?v=1.0.3" defer></script>
 </head>
-<body class="search-results-page">
+<body class="all-page">
+    <header class="header">
+        <div class="header-left">
+            <button class="menu-btn" id="menu-btn" aria-label="Open category menu" aria-expanded="false" aria-controls="cat-drawer-overlay">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <a href="index.html" aria-label="Bonds Mall home" style="text-decoration:none;color:inherit;display:flex;">
+                <div class="logo">
+                    <span class="logo-text logo-face logo-face--active">BONDS MALL</span>
+                    <img class="logo-img logo-face" src="bonds-mall-logo.png" alt="Bonds Mall logo">
+                </div>
+            </a>
+        </div>
+        <input type="search" id="header-search" placeholder="Search products..." aria-label="Search products">
+        <div class="header-actions">
+            <a class="header-all-link" href="all.html" aria-label="All categories">All</a>
+            <button id="cart-btn" class="icon-btn" aria-label="Open cart">
+                <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path d="M3 5h2l2.2 9.2a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.6L21 8H8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="10" cy="19" r="1.6" fill="currentColor"/>
+                    <circle cx="17" cy="19" r="1.6" fill="currentColor"/>
+                </svg>
+                <span>Cart</span>
+                <span id="cart-count" class="cart-count">0</span>
+            </button>
+            <button id="account-btn" class="icon-btn" aria-label="Account">
+                <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <circle cx="12" cy="8" r="3.4" fill="none" stroke="currentColor" stroke-width="1.8"/>
+                    <path d="M5 20c.9-3.2 3.8-5.1 7-5.1s6.1 1.9 7 5.1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                </svg>
+                <span>Account</span>
+            </button>
+        </div>
+    </header>
 
     <!-- Category Slide Drawer -->
     <div id="cat-drawer-overlay" class="cat-drawer-overlay" role="dialog" aria-modal="true" aria-label="Category Menu" aria-hidden="true">
@@ -55,184 +90,65 @@
         </nav>
     </div>
 
-    <!-- Wrapper to stick header and filter bar together -->
-    <div class="sticky-header-container">
-        <!-- ════════════════ HEADER ════════════════ -->
-        <header class="header" id="sr-header">
-            <div class="header-left">
-                <button class="menu-btn" id="menu-btn" aria-label="Open category menu" aria-expanded="false" aria-controls="cat-drawer-overlay">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </button>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Mall Madness</h1>
+                <p>Find top deals in the latest fashion and tech trends</p>
+                <button id="browse-btn" class="browse-btn">Browse</button>
+            </div>
+        </section>
 
-                <a href="index.html" aria-label="Bonds Mall home" style="text-decoration:none;color:inherit;display:flex;">
-                    <div class="logo">
-                        <span class="logo-text logo-face logo-face--active">BONDS MALL</span>
-                        <img class="logo-img logo-face" src="bonds-mall-logo.png" alt="Bonds Mall logo">
-                    </div>
+        <section id="all-categories" class="all-categories-section" aria-labelledby="all-page-title">
+            <div class="all-page-intro">
+                <p class="all-eyebrow">BONDS MALL COLLECTIONS</p>
+                <h1 id="all-page-title">Explore every category</h1>
+                <p>Select a collection to open its products in Search Results. Each card is a direct category link.</p>
+            </div>
+            <div id="category-showcase" class="category-showcase" aria-label="Shop by category">
+                <a class="category-showcase-card category-showcase-card--label-first" href="search-results.html?category=accessories" data-category="accessories">
+                    <span class="category-name"><span class="category-hover-icon" aria-hidden="true"></span>Accessories</span>
+                    <span class="category-image-box"><img data-category-image="accessories" src="bonds-mall-logo.png" alt="Accessories category" loading="lazy"></span>
+                </a>
+                <a class="category-showcase-card category-showcase-card--image-first" href="search-results.html?category=artandcollectibles" data-category="artandcollectibles">
+                    <span class="category-image-box"><img data-category-image="artandcollectibles" src="bonds-mall-logo.png" alt="Art &amp; Collectibles category" loading="lazy"></span>
+                    <span class="category-name"><span class="category-hover-icon" aria-hidden="true"></span>Art &amp; Collectibles</span>
+                </a>
+                <a class="category-showcase-card category-showcase-card--label-first" href="search-results.html?category=electronics" data-category="electronics">
+                    <span class="category-name"><span class="category-hover-icon" aria-hidden="true"></span>Electronics</span>
+                    <span class="category-image-box"><img data-category-image="electronics" src="bonds-mall-logo.png" alt="Electronics category" loading="lazy"></span>
+                </a>
+                <a class="category-showcase-card category-showcase-card--image-first" href="search-results.html?category=entertainment" data-category="entertainment">
+                    <span class="category-image-box"><img data-category-image="entertainment" src="bonds-mall-logo.png" alt="Entertainment category" loading="lazy"></span>
+                    <span class="category-name"><span class="category-hover-icon" aria-hidden="true"></span>Entertainment</span>
+                </a>
+                <a class="category-showcase-card category-showcase-card--label-first" href="search-results.html?category=homeandappliances" data-category="homeandappliances">
+                    <span class="category-name"><span class="category-hover-icon" aria-hidden="true"></span>Home &amp; Appliances</span>
+                    <span class="category-image-box"><img data-category-image="homeandappliances" src="bonds-mall-logo.png" alt="Home &amp; Appliances category" loading="lazy"></span>
+                </a>
+                <a class="category-showcase-card category-showcase-card--image-first" href="search-results.html?category=jewelry" data-category="jewelry">
+                    <span class="category-image-box"><img data-category-image="jewelry" src="bonds-mall-logo.png" alt="Jewelry category" loading="lazy"></span>
+                    <span class="category-name"><span class="category-hover-icon" aria-hidden="true"></span>Jewelry</span>
+                </a>
+                <a class="category-showcase-card category-showcase-card--label-first" href="search-results.html?category=men" data-category="men">
+                    <span class="category-name"><span class="category-hover-icon" aria-hidden="true"></span>Men's</span>
+                    <span class="category-image-box"><img data-category-image="men" src="bonds-mall-logo.png" alt="Men's category" loading="lazy"></span>
+                </a>
+                <a class="category-showcase-card category-showcase-card--image-first" href="search-results.html?category=women" data-category="women">
+                    <span class="category-image-box"><img data-category-image="women" src="bonds-mall-logo.png" alt="Women's category" loading="lazy"></span>
+                    <span class="category-name"><span class="category-hover-icon" aria-hidden="true"></span>Women's</span>
                 </a>
             </div>
-
-            <input type="search" id="sr-search" placeholder="Search products..." aria-label="Search products">
-
-            <div class="header-actions">
-                    <a class="header-all-link" href="all.html" aria-label="All categories">All</a>
-                <button id="sr-cart-btn" class="icon-btn" aria-label="Open cart">
-                    <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                        <path d="M3 5h2l2.2 9.2a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.6L21 8H8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-                        <circle cx="10" cy="19" r="1.6" fill="currentColor"/>
-                        <circle cx="17" cy="19" r="1.6" fill="currentColor"/>
-                    </svg>
-                    <span>Cart</span>
-                    <span id="sr-cart-count" class="cart-count">0</span>
-                </button>
-                <button id="account-btn" class="icon-btn" aria-label="Account">
-                    <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                        <circle cx="12" cy="8" r="3.4" fill="none" stroke="currentColor" stroke-width="1.8"/>
-                        <path d="M5 20c.9-3.2 3.8-5.1 7-5.1s6.1 1.9 7 5.1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
-                    </svg>
-                    <span>Account</span>
-                </button>
+            <div class="all-products-heading">
+                <div><p class="all-eyebrow">ALL PRODUCTS</p><h2>Browse the full catalog</h2></div>
+                <input type="search" id="category-search" placeholder="Search all products..." aria-label="Search all products">
             </div>
-        </header>
-
-        <!-- ════════════════ FILTER BAR ════════════════ -->
-        <div class="sr-filter-bar" id="sr-filter-bar" role="toolbar" aria-label="Filter and sort results">
-
-            <!-- Active query/category badge -->
-            <div class="sr-query-badge" id="sr-query-badge" style="display:none;" aria-live="polite"></div>
-
-            <div class="sr-filter-spacer"></div>
-
-            <!-- Filter button + dropdown -->
-            <div class="sr-ctrl-wrap">
-                <button class="sr-ctrl-btn" id="sr-filter-btn" aria-haspopup="true" aria-expanded="false" aria-controls="sr-filter-drop">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                        <line x1="4" y1="6" x2="20" y2="6"/>
-                        <line x1="8" y1="12" x2="16" y2="12"/>
-                        <line x1="11" y1="18" x2="13" y2="18"/>
-                    </svg>
-                    Filter
-                </button>
-                <div class="sr-dropdown" id="sr-filter-drop" hidden role="menu" aria-label="Filter options">
-                    <div class="sr-dropdown-inner">
-                        <div class="sr-dropdown-label">Category</div>
-                        <button class="sr-dropdown-item" data-filter-cat="all" role="menuitem">
-                            Shop All <span class="check">&#x2713;</span>
-                        </button>
-                        <button class="sr-dropdown-item" data-filter-cat="accessories" role="menuitem">
-                            Accessories <span class="check">&#x2713;</span>
-                        </button>
-                        <button class="sr-dropdown-item" data-filter-cat="artandcollectibles" role="menuitem">
-                            Art &amp; Collectibles <span class="check">&#x2713;</span>
-                        </button>
-                        <button class="sr-dropdown-item" data-filter-cat="electronics" role="menuitem">
-                            Electronics <span class="check">&#x2713;</span>
-                        </button>
-                        <button class="sr-dropdown-item" data-filter-cat="entertainment" role="menuitem">
-                            Entertainment <span class="check">&#x2713;</span>
-                        </button>
-                        <button class="sr-dropdown-item" data-filter-cat="homeandappliances" role="menuitem">
-                            Home &amp; Appliances <span class="check">&#x2713;</span>
-                        </button>
-                        <button class="sr-dropdown-item" data-filter-cat="jewelry" role="menuitem">
-                            Jewelry <span class="check">&#x2713;</span>
-                        </button>
-                        <button class="sr-dropdown-item" data-filter-cat="men" role="menuitem">
-                            Men&#x27;s <span class="check">&#x2713;</span>
-                        </button>
-                        <button class="sr-dropdown-item" data-filter-cat="women" role="menuitem">
-                            Women&#x27;s <span class="check">&#x2713;</span>
-                        </button>
-
-                        <div class="sr-dropdown-divider"></div>
-                        <div class="sr-dropdown-label">Brand</div>
-                        <div class="sr-select-row">
-                            <select id="sr-brand-select" aria-label="Brand filter">
-                                <option value="">All Brands</option>
-                            </select>
-                        </div>
-
-                        <div class="sr-dropdown-divider"></div>
-                        <div class="sr-dropdown-label">Condition</div>
-                        <div class="sr-select-row">
-                            <select id="sr-condition-select" aria-label="Condition filter">
-                                <option value="">All Conditions</option>
-                            </select>
-                        </div>
-
-                        <div class="sr-dropdown-divider"></div>
-                        <div class="sr-dropdown-label">Deals</div>
-                        <div class="sr-deals-row">
-                            <label class="sr-deal-chk-label"><input type="checkbox" class="sr-deal-checkbox" value="10" /> 10% off</label>
-                            <label class="sr-deal-chk-label"><input type="checkbox" class="sr-deal-checkbox" value="15" /> 15% off</label>
-                            <label class="sr-deal-chk-label"><input type="checkbox" class="sr-deal-checkbox" value="20" /> 20% off</label>
-                            <label class="sr-deal-chk-label"><input type="checkbox" class="sr-deal-checkbox" value="25" /> 25% off</label>
-                        </div>
-
-                        <div class="sr-dropdown-divider"></div>
-                        <div class="sr-dropdown-label">Price Range</div>
-                        <div class="sr-price-row">
-                            <input type="number" class="sr-price-input" id="sr-min-price" placeholder="Min $" min="0" aria-label="Minimum price">
-                            <span class="sr-price-sep">–</span>
-                            <input type="number" class="sr-price-input" id="sr-max-price" placeholder="Max $" min="0" aria-label="Maximum price">
-                        </div>
-                        <button class="sr-apply-price" id="sr-apply-price" type="button">Apply Filters</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Sort button + dropdown -->
-            <div class="sr-ctrl-wrap">
-                <button class="sr-ctrl-btn" id="sr-sort-btn" aria-haspopup="true" aria-expanded="false" aria-controls="sr-sort-drop">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                        <path d="M3 6l9-3 9 3M3 12l9 3 9-3M3 18l9 3 9-3"/>
-                    </svg>
-                    <span class="sr-sort-label">Sort</span>
-                </button>
-                <div class="sr-dropdown" id="sr-sort-drop" hidden role="menu" aria-label="Sort options">
-                    <div class="sr-dropdown-inner">
-                        <div class="sr-dropdown-label">Sort by</div>
-                        <button class="sr-dropdown-item active" data-sort="default" role="menuitem">
-                            Default <span class="check">&#x2713;</span>
-                        </button>
-                        <button class="sr-dropdown-item" data-sort="price-asc" role="menuitem">
-                            Price: Low to High <span class="check">&#x2713;</span>
-                        </button>
-                        <button class="sr-dropdown-item" data-sort="price-desc" role="menuitem">
-                            Price: High to Low <span class="check">&#x2713;</span>
-                        </button>
-                        <div class="sr-dropdown-divider"></div>
-                        <button class="sr-dropdown-item" data-sort="top-sellers" role="menuitem">
-                            Top Sellers <span class="check">&#x2713;</span>
-                        </button>
-                        <button class="sr-dropdown-item" data-sort="highest-rated" role="menuitem">
-                            Highest Rated <span class="check">&#x2713;</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- ════════════════ RESULTS AREA ════════════════ -->
-    <main>
-        <div class="sr-results-area">
-            <!-- Quantity of results wrapper placed beneath header and above results display area -->
-            <div class="sr-results-count-wrap">
-                <span class="sr-results-count" id="sr-results-count" aria-live="polite"></span>
-            </div>
-            <div class="sr-results-header">
-                <h1 class="sr-results-title" id="sr-results-title">All Products</h1>
-            </div>
-            <div id="sr-product-grid" class="product-grid" aria-live="polite" aria-label="Product results"></div>
-            <div id="sr-pagination" class="bm-pagination" aria-label="Product page navigation"></div>
-        </div>
+            <div id="product-grid" class="product-grid" aria-live="polite"></div>
+            <div id="pagination" class="bm-pagination" aria-label="Product page navigation"></div>
+        </section>
     </main>
 
-    <!-- ════════════════ PRODUCT DETAIL MODAL ════════════════ -->
     <div id="product-modal" class="modal modal--product-detail hidden" aria-hidden="true">
         <div class="modal-backdrop" data-close="modal"></div>
         <article class="modal-card modal-card--product-detail" role="dialog" aria-modal="true" aria-labelledby="productName">
@@ -277,16 +193,20 @@
             <div class="product-detail-modal-body">
                 <section id="product-display" class="popup-section popup-section--product" aria-label="Product Display Section">
                     <div class="product-display-grid">
+                        <!-- LEFT: image column (vertical strip + main photo side by side) -->
                         <div class="product-image-col">
+                            <!-- Vertical thumbnail strip on the left -->
                             <div class="photo-strip-carousel" id="photo-strip-carousel" aria-label="Product photos gallery">
                                 <button class="photo-strip-arrow photo-strip-prev" id="photo-strip-prev" aria-label="Previous photo" hidden>&#9650;</button>
                                 <div class="photo-strip-track" id="photo-strip-track" role="listbox" aria-label="Photo thumbnails"></div>
                                 <button class="photo-strip-arrow photo-strip-next" id="photo-strip-next" aria-label="Next photo">&#9660;</button>
                             </div>
+                            <!-- Main photo display -->
                             <div class="main-photo" aria-live="polite" aria-atomic="true">
                                 <img id="main-photo" src="" alt="Main product photo" title="Click to view full size">
                             </div>
                         </div>
+                        <!-- RIGHT: details column -->
                         <div class="product-details-col">
                             <h1 id="productName" class="product-popup-heading"></h1>
                             <p id="product-category-label" class="product-popup-category"></p>
@@ -305,6 +225,7 @@
                 </section>
 
                 <section id="sold-by" class="popup-section" aria-label="Sold By Section"></section>
+
                 <section id="coverage" class="popup-section" aria-label="Coverage Section"></section>
 
                 <section id="delivery" class="popup-section" aria-label="Delivery Section">
@@ -364,7 +285,6 @@
         </article>
     </div>
 
-    <!-- ════════════════ CART DRAWER ════════════════ -->
     <aside id="cart-overlay" class="cart-overlay hidden">
         <div class="cart-backdrop" id="cart-backdrop"></div>
         <section id="cart-drawer" class="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title">
@@ -411,6 +331,7 @@
                             <span class="checkout-sticker">Secure Checkout</span>
                             <span class="checkout-sticker subtle">ACH Processing</span>
                         </div>
+
                         <div class="pay-type-row" role="radiogroup" aria-label="Payment method">
                             <label class="pay-type active">
                                 <input type="radio" name="pay-method" value="credit" checked>
@@ -421,11 +342,13 @@
                                 <span>Debit Card</span>
                             </label>
                         </div>
+
                         <div class="card-brands" aria-label="Supported cards">
                             <span class="brand-badge">VISA</span>
                             <span class="brand-badge">Mastercard</span>
                             <span class="brand-badge">Amex</span>
                         </div>
+
                         <div id="card-fields">
                             <input type="text" id="card-name" placeholder="Name on card" required>
                             <input type="text" id="card-number" placeholder="Card number" inputmode="numeric" maxlength="23" required>
@@ -434,6 +357,7 @@
                                 <input type="text" id="card-cvv" placeholder="CVV" maxlength="4" inputmode="numeric" required>
                             </div>
                         </div>
+
                         <p id="payment-feedback" class="payment-feedback" aria-live="polite"></p>
                         <p class="ach-note">Secure payments powered by Bonds Mall. Your payment details are encrypted and never stored on our servers.</p>
                         <button type="submit" class="primary-btn">Discount</button>
@@ -455,7 +379,6 @@
         </section>
     </aside>
 
-    <!-- ════════════════ ACCOUNT DRAWER ════════════════ -->
     <aside id="account-overlay" class="account-overlay hidden" aria-hidden="true">
         <div class="account-backdrop" id="account-backdrop"></div>
         <section id="account-drawer" class="account-drawer" role="dialog" aria-modal="true" aria-labelledby="account-title">
@@ -466,6 +389,8 @@
                 </div>
                 <button id="close-account" class="close-btn" aria-label="Close account panel">X</button>
             </header>
+
+            <!-- Sign In/Up View -->
             <div id="auth-view" class="account-view">
                 <div class="account-tabs" role="tablist" aria-label="Account forms">
                     <button id="account-tab-signin" class="account-tab active" role="tab" aria-selected="true" data-view="signin">Sign In</button>
@@ -473,8 +398,10 @@
                 </div>
                 <iframe id="account-frame" class="account-frame" title="Account form" src="about:blank"></iframe>
             </div>
-            <p id="account-status" aria-live="polite" style="margin:0 1rem 1rem;color:#1f7a46;font-size:0.9rem;"></p>
-            <pre id="account-debug" style="display:none;margin:0 1rem 1rem;white-space:pre-wrap;word-break:break-word;font-size:0.75rem;line-height:1.35;color:#7b2f2f;background:#fff4f4;border:1px solid #efcece;border-radius:8px;padding:0.6rem;"></pre>
+
+            <p id="account-status" aria-live="polite" style="margin: 0 1rem 1rem; color: #1f7a46; font-size: 0.9rem;"></p>
+            <pre id="account-debug" style="display: none; margin: 0 1rem 1rem; white-space: pre-wrap; word-break: break-word; font-size: 0.75rem; line-height: 1.35; color: #7b2f2f; background: #fff4f4; border: 1px solid #efcece; border-radius: 8px; padding: 0.6rem;"></pre>
+
             <div id="account-loading-view" class="account-view hidden" aria-hidden="true">
                 <div class="account-loading-shell" aria-label="Loading account details">
                     <div class="account-skeleton-avatar"></div>
@@ -488,13 +415,15 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Profile View -->
             <div id="profile-view" class="account-view hidden">
-                <div style="text-align:center;margin-bottom:1.5rem;padding:1.5rem 1.5rem 0;">
-                    <img id="account-profile-pic" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='35' r='20' fill='%236f6356'/%3E%3Cellipse cx='50' cy='75' rx='28' ry='22' fill='%236f6356'/%3E%3C/svg%3E" alt="Profile" style="width:80px;height:80px;border-radius:50%;border:3px solid #e9dece;object-fit:cover;">
+                <div style="text-align: center; margin-bottom: 1.5rem; padding: 1.5rem 1.5rem 0;">
+                    <img id="account-profile-pic" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='35' r='20' fill='%236f6356'/%3E%3Cellipse cx='50' cy='75' rx='28' ry='22' fill='%236f6356'/%3E%3C/svg%3E" alt="Profile" style="width: 80px; height: 80px; border-radius: 50%; border: 3px solid #e9dece; object-fit: cover;">
                 </div>
-                <div style="text-align:center;margin-bottom:1.5rem;padding:0 1.5rem;">
-                    <h3 id="account-user-name" style="margin:0.5rem 0;color:#1f1a14;font-size:1.1rem;">User</h3>
-                    <p id="account-user-email" style="margin:0;color:#5c5348;font-size:0.9rem;">user@example.com</p>
+                <div style="text-align: center; margin-bottom: 1.5rem; padding: 0 1.5rem;">
+                    <h3 id="account-user-name" style="margin: 0.5rem 0; color: #1f1a14; font-size: 1.1rem;">User</h3>
+                    <p id="account-user-email" style="margin: 0; color: #5c5348; font-size: 0.9rem;">user@example.com</p>
                 </div>
                 <!-- Favorites Section -->
                 <div class="account-favorites-section" style="padding: 0 1.5rem 1rem; border-top: 1px solid #e6d8c5; margin-top: 1rem; padding-top: 1rem;">
@@ -508,58 +437,67 @@
                         <p class="favorites-empty" style="font-size: 0.82rem; color: #665f57; margin: 0; font-style: italic;">Your favorite list is empty.</p>
                     </div>
                 </div>
-                <div style="display:grid;gap:0.75rem;padding:0 1.5rem 1.5rem;">
-                    <a href="profile.html" id="edit-profile-btn" style="display:block;width:100%;padding:0.75rem;background:#212121;color:#fff;text-decoration:none;text-align:center;border-radius:10px;font-weight:700;cursor:pointer;font-size:0.9rem;">Edit Profile</a>
-                    <button id="logout-btn" style="width:100%;padding:0.75rem;background:#f4ebdd;color:#2a2218;border:1px solid #d7c5af;border-radius:10px;font-weight:700;cursor:pointer;font-size:0.9rem;">Logout</button>
+                <div style="display: grid; gap: 0.75rem; padding: 0 1.5rem 1.5rem;">
+                    <a href="profile.html" id="edit-profile-btn" style="display: block; width: 100%; padding: 0.75rem; background: #212121; color: #fff; text-decoration: none; text-align: center; border-radius: 10px; font-weight: 700; cursor: pointer; font-size: 0.9rem;">Edit Profile</a>
+                    <button id="logout-btn" style="width: 100%; padding: 0.75rem; background: #f4ebdd; color: #2a2218; border: 1px solid #d7c5af; border-radius: 10px; font-weight: 700; cursor: pointer; font-size: 0.9rem;">Logout</button>
                 </div>
             </div>
         </section>
     </aside>
 
-    <!-- Image Lightbox Overlay -->
-    <div id="img-lightbox" class="img-lightbox" role="dialog" aria-modal="true" aria-label="Full size image" hidden>
-        <div class="img-lightbox-backdrop" id="img-lightbox-backdrop"></div>
-        <button class="img-lightbox-close" id="img-lightbox-close" aria-label="Close full size image">&#x2715;</button>
-        <button class="img-lightbox-nav img-lightbox-prev" id="img-lightbox-prev" aria-label="Previous image">&#10094;</button>
-        <div class="img-lightbox-content-wrap">
-            <img class="img-lightbox-img" id="img-lightbox-img" src="" alt="">
-            <div class="img-lightbox-thumbs-wrap">
-                <div class="img-lightbox-thumbs-track" id="img-lightbox-thumbs-track" role="listbox" aria-label="Lightbox thumbnails"></div>
-            </div>
-            <div class="img-lightbox-counter" id="img-lightbox-counter" aria-live="polite"></div>
-        </div>
-        <button class="img-lightbox-nav img-lightbox-next" id="img-lightbox-next" aria-label="Next image">&#10095;</button>
-    </div>
-
-    <!-- Footer -->
     <footer class="site-footer">
-        <div class="site-footer-top">
-            <div class="site-footer-brand-wrap">
-                <div class="site-footer-brand">BONDS MALL</div>
-                <p class="site-footer-tagline">Premium shopping with secure checkout and live customer support.</p>
-            </div>
-            <div class="site-footer-stickers" aria-label="Trust stickers">
-                <span class="sticker">Secure Payments</span>
-                <span class="sticker">24/7 Support</span>
-                <span class="sticker">Verified Store</span>
-            </div>
+    <div class="site-footer-top">
+        <div class="site-footer-brand-wrap">
+            <div class="site-footer-brand">BONDS MALL</div>
+            <p class="site-footer-tagline">Premium shopping with secure checkout and live customer support.</p>
         </div>
-        <nav class="site-footer-menu" aria-label="Footer menu">
-            <a href="customer-service.html"><span class="footer-icon" aria-hidden="true">CS</span>Customer Service</a>
-            <a href="faq.html"><span class="footer-icon" aria-hidden="true">FQ</span>FAQ</a>
-            <a href="dispute-center.html"><span class="footer-icon" aria-hidden="true">DC</span>Dispute Center</a>
-            <a href="careers.html"><span class="footer-icon" aria-hidden="true">CR</span>Careers</a>
-            <a href="partner.html"><span class="footer-icon" aria-hidden="true">PT</span>Partner</a>
-            <a href="affiliate.html"><span class="footer-icon" aria-hidden="true">AF</span>Affiliate</a>
-            <a href="link-bank-account.html"><span class="footer-icon" aria-hidden="true">BK</span>Link Bank Account</a>
-            <a href="profile.html"><span class="footer-icon" aria-hidden="true">PR</span>Profile</a>
-            <a href="order-history.html"><span class="footer-icon" aria-hidden="true">OH</span>Order History</a>
-            <a href="track-order.html"><span class="footer-icon" aria-hidden="true">TM</span>Track Order</a>
-            <a href="rewards.html"><span class="footer-icon" aria-hidden="true">RW</span>Rewards</a>
-            <a href="recentorders.html"><span class="footer-icon" aria-hidden="true">RO</span>Recent Orders</a>
-        </nav>
-        <div class="site-footer-bottom">2026 © Bonds Mall. All Rights Are Reserved.</div>
-    </footer>
+        <div class="site-footer-stickers" aria-label="Trust stickers">
+            <span class="sticker">Secure Payments</span>
+            <span class="sticker">24/7 Support</span>
+            <span class="sticker">Verified Store</span>
+        </div>
+    </div>
+    <nav class="site-footer-menu" aria-label="Footer menu">
+        <a href="customer-service.html"><span class="footer-icon" aria-hidden="true">CS</span>Customer Service</a>
+        <a href="faq.html"><span class="footer-icon" aria-hidden="true">FQ</span>FAQ</a>
+        <a href="dispute-center.html"><span class="footer-icon" aria-hidden="true">DC</span>Dispute Center</a>
+        <a href="careers.html"><span class="footer-icon" aria-hidden="true">CR</span>Careers</a>
+        <a href="partner.html"><span class="footer-icon" aria-hidden="true">PT</span>Partner</a>
+        <a href="affiliate.html"><span class="footer-icon" aria-hidden="true">AF</span>Affiliate</a>
+        <a href="link-bank-account.html"><span class="footer-icon" aria-hidden="true">BK</span>Link Bank Account</a>
+        <a href="profile.html"><span class="footer-icon" aria-hidden="true">PR</span>Profile</a>
+        <a href="order-history.html"><span class="footer-icon" aria-hidden="true">OH</span>Order History</a>
+        <a href="track-order.html"><span class="footer-icon" aria-hidden="true">TM</span>Track Order</a>
+        <a href="rewards.html"><span class="footer-icon" aria-hidden="true">RW</span>Rewards</a>
+        <a href="recentorders.html"><span class="footer-icon" aria-hidden="true">RO</span>Recent Orders</a>
+    </nav>
+    <div class="site-footer-bottom">2026 © Bonds Mall. All Rights Are Reserved.</div>
+</footer>
+
+<!-- Image Lightbox Overlay -->
+<div id="img-lightbox" class="img-lightbox" role="dialog" aria-modal="true" aria-label="Full size image" hidden>
+    <div class="img-lightbox-backdrop" id="img-lightbox-backdrop"></div>
+    <button class="img-lightbox-close" id="img-lightbox-close" aria-label="Close full size image">&#x2715;</button>
+    <!-- Carousel nav -->
+    <button class="img-lightbox-nav img-lightbox-prev" id="img-lightbox-prev" aria-label="Previous image">&#10094;</button>
+    
+    <div class="img-lightbox-content-wrap">
+        <img class="img-lightbox-img" id="img-lightbox-img" src="" alt="">
+        <!-- Full product slide menu below in fullscreen lightbox -->
+        <div class="img-lightbox-thumbs-wrap">
+            <div class="img-lightbox-thumbs-track" id="img-lightbox-thumbs-track" role="listbox" aria-label="Lightbox thumbnails"></div>
+        </div>
+        <!-- Counter -->
+        <div class="img-lightbox-counter" id="img-lightbox-counter" aria-live="polite"></div>
+    </div>
+    
+    <button class="img-lightbox-nav img-lightbox-next" id="img-lightbox-next" aria-label="Next image">&#10095;</button>
+</div>
 
 </body>
 </html>
+
+
+
+
+

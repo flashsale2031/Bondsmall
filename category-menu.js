@@ -19,6 +19,7 @@
 
     /* ── Detect which page we're on ──────────────── */
     const isSearchPage = document.body.classList.contains("search-results-page");
+    const isAllPage = document.body.classList.contains("all-page");
 
     /* ── DOM references ──────────────────────────── */
     const menuBtn      = document.getElementById("menu-btn");
@@ -90,6 +91,10 @@
     function handleCategoryClick(catKey) {
         closeDrawer();
 
+        if (catKey === "all" && !isAllPage) {
+            window.location.href = "all.html";
+            return;
+        }
         if (isSearchPage) {
             // On search results page: update the URL and re-render
             const url = new URL(window.location.href);

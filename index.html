@@ -6,6 +6,7 @@
     <title>BONDS MALL</title>
     <link rel="stylesheet" href="bondsmall.css?v=1.0.3">
     <link rel="stylesheet" href="site-footer.css?v=1.0.2">
+    <link rel="stylesheet" href="all.css?v=1.0.0">
     <!-- Replace this placeholder with the real Google OAuth Web client ID. -->
     <!-- Add https://bondsmall.com and https://www.bondsmall.com to Authorized JavaScript origins in Google Cloud Console for this client ID. This console setting is required to clear "Error 400: origin_mismatch"; it is not a code change. -->
     <script>window.FC_GOOGLE_CLIENT_ID = "REPLACE_WITH_OAUTH_CLIENT_ID.apps.googleusercontent.com";</script>
@@ -43,6 +44,7 @@
         </div>
         <input type="search" id="header-search" placeholder="Search products..." aria-label="Search products">
         <div class="header-actions">
+            <a class="header-all-link" href="all.html" aria-label="All categories">All</a>
             <button id="cart-btn" class="icon-btn" aria-label="Open cart">
                 <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
                     <path d="M3 5h2l2.2 9.2a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.6L21 8H8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
@@ -71,7 +73,7 @@
                 <button class="cat-drawer-close" id="cat-drawer-close" aria-label="Close category menu">&#x2715;</button>
             </div>
             <ul class="cat-drawer-list" role="list">
-                <li><button class="cat-drawer-item" data-cat="all">Shop All</button></li>
+                <li><button class="cat-drawer-item" data-cat="all">All</button></li>
                 <li><button class="cat-drawer-item" data-cat="accessories">Accessories</button></li>
                 <li><button class="cat-drawer-item" data-cat="artandcollectibles">Art &amp; Collectibles</button></li>
                 <li><button class="cat-drawer-item" data-cat="electronics">Electronics</button></li>
@@ -97,28 +99,12 @@
             </div>
         </section>
 
-        <section id="category" class="category-section">
-            <div class="section-heading">
-                <h2>Shop by Category</h2>
-                <p>Curated pieces from modern trends</p>
-            </div>
-
-            <div id="category-buttons" class="category-buttons">
-                <button class="category-btn active" data-category="all">Shop All</button>
-                <button class="category-btn" data-category="accessories">Accessories</button>
-                <button class="category-btn" data-category="artandcollectibles">Art &amp; Collectibles</button>
-                <button class="category-btn" data-category="electronics">Electronics</button>
-                <button class="category-btn" data-category="entertainment">Entertainment</button>
-                <button class="category-btn" data-category="homeandappliances">Home &amp; Appliances</button>
-                <button class="category-btn" data-category="jewelry">Jewelry</button>
-                <button class="category-btn" data-category="men">Men's</button>
-                <button class="category-btn" data-category="women">Women's</button>
-            </div>
-
-            <input type="search" id="category-search" placeholder="Search in selected category..." aria-label="Search in selected category">
-
-            <div id="product-grid" class="product-grid"></div>
-            <div id="pagination" class="bm-pagination" aria-label="Product page navigation"></div>
+        <section id="category" class="category-section category-section--moved" aria-label="All categories moved to all.html">
+            <div class="moved-category-cta"><p>Browse the full catalog by category.</p><a class="browse-btn" href="all.html">Open All Categories</a></div>
+            <div id="category-buttons" hidden></div>
+            <input type="search" id="category-search" value="" hidden aria-hidden="true">
+            <div id="product-grid" hidden></div>
+            <div id="pagination" hidden></div>
         </section>
     </main>
 
@@ -143,6 +129,7 @@
                     <input type="search" id="popup-header-search" placeholder="Search products..." aria-label="Search products">
                 </div>
                 <div class="header-actions">
+                    <a class="header-all-link" href="all.html" aria-label="All categories">All</a>
                     <button id="popup-cart-btn" class="icon-btn" aria-label="Open cart">
                         <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
                             <path d="M3 5h2l2.2 9.2a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.6L21 8H8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
