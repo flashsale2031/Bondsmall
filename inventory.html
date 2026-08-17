@@ -440,6 +440,7 @@
       let syncTimer = null;
       let syncInFlight = false;
       let syncQueued = false;
+      let ghConnected = false;
 
       const els = {
         tableBody: document.getElementById('productTableBody'),
@@ -477,6 +478,13 @@
       function setStatus(message, type = 'neutral') {
         els.status.textContent = message;
         els.status.style.color = type === 'error' ? 'var(--warn)' : type === 'success' ? 'var(--good)' : 'var(--muted)';
+      }
+
+      function updateConnectionButton() {
+        els.configBtn.textContent = ghConnected ? 'Connected to GitHub' : 'GitHub Sync';
+        els.configBtn.classList.toggle('is-active', ghConnected);
+        els.configBtn.setAttribute('aria-label', ghConnected ? 'Connected to GitHub; open sync settings' : 'Open GitHub sync settings');
+        els.configBtn.title = ghConnected ? 'GitHub connection verified' : 'GitHub connection not verified';
       }
 
       function persistOverrides() {
@@ -581,9 +589,13 @@
             const error = await putRes.json().catch(() => ({}));
             throw new Error(error.message || `GitHub returned ${putRes.status}`);
           }
+          ghConnected = true;
+          updateConnectionButton();
           setStatus('Saved locally and synced to GitHub. Future changes will sync automatically while this page is open.', 'success');
         } catch (error) {
           console.error(error);
+          ghConnected = false;
+          updateConnectionButton();
           setStatus(`GitHub sync failed; changes remain saved locally: ${error.message}`, 'error');
         } finally {
           syncInFlight = false;
@@ -625,7 +637,9 @@
       document.getElementById('saveGhConfig').onclick = () => {
         ghConfig = { token: document.getElementById('ghToken').value.trim(), repo: document.getElementById('ghRepo').value.trim(), branch: document.getElementById('ghBranch').value.trim() || 'main', path: document.getElementById('ghPath').value.trim() || 'inventory-sync.json' };
         localStorage.setItem(CONFIG_KEY, JSON.stringify(ghConfig));
-        setStatus('GitHub settings saved in this browser. Automatic sync is enabled for future inventory changes.', 'success');
+        ghConnected = false;
+        updateConnectionButton();
+        setStatus('GitHub settings saved in this browser. Verify the connection to enable automatic sync.', 'success');
         if (Object.keys(overrides).length) scheduleSync();
       };
       document.getElementById('testGhConn').onclick = async () => {
@@ -633,8 +647,14 @@
         try {
           const response = await fetch(`https://api.github.com/repos/${ghConfig.repo}`, { headers: { 'Authorization': `Bearer ${ghConfig.token}`, 'Accept': 'application/vnd.github+json' } });
           if (!response.ok) throw new Error('Invalid token or repository.');
+          ghConnected = true;
+          updateConnectionButton();
           setStatus('GitHub connection verified. Automatic sync is ready.', 'success');
-        } catch (error) { setStatus(error.message, 'error'); }
+        } catch (error) {
+          ghConnected = false;
+          updateConnectionButton();
+          setStatus(error.message, 'error');
+        }
       };
       document.getElementById('addProductBtn').onclick = () => { editingIndex = null; els.form.reset(); document.getElementById('modalTitle').textContent = 'Add Product'; els.modal.classList.add('is-open'); };
       document.getElementById('closeModalBtn').onclick = () => els.modal.classList.remove('is-open');
@@ -653,6 +673,7 @@
       document.addEventListener('bondsmall-catalog-chunk-loaded', () => { productList = applyOverrides(Array.isArray(window.products) ? window.products : productList); render(); });
 
       for (const [id, field] of [['token', 'ghToken'], ['repo', 'ghRepo'], ['branch', 'ghBranch'], ['path', 'ghPath']]) if (ghConfig[id]) document.getElementById(field).value = ghConfig[id];
+      updateConnectionButton();
       render();
       if (window.BondsmallCatalog) loadInventoryPage(1);
     })();
