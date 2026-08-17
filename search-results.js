@@ -1262,6 +1262,18 @@
         readUrlParams();
         if (currentCategory !== "all" && window.BondsmallCatalog && typeof window.BondsmallCatalog.ensureCategoryPage === "function") {
             requestCategoryPage(1);
+        } else if (currentCategory !== "all") {
+            // The catalog loader may still be initializing when search-results starts.
+            // Do not leave the page filtered against only the bootstrap records; retry
+            // as soon as the full catalog API is ready.
+            renderAll();
+            const retryCategoryPage = () => {
+                if (currentCategory !== "all" && window.BondsmallCatalog && typeof window.BondsmallCatalog.ensureCategoryPage === "function") {
+                    requestCategoryPage(1);
+                }
+            };
+            document.addEventListener("bondsmall-catalog-ready", retryCategoryPage, { once: true });
+            window.setTimeout(retryCategoryPage, 1500);
         } else {
             renderAll();
         }
