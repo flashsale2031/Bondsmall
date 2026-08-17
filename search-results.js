@@ -156,6 +156,7 @@
         const params = new URLSearchParams(window.location.search);
         currentQuery    = params.get("q") || "";
         currentCategory = params.get("category") || "all";
+        currentPage     = Math.max(1, Number(params.get("page")) || 1);
         if (searchInput) searchInput.value = currentQuery;
     }
 
@@ -165,6 +166,8 @@
         else                     url.searchParams.delete("q");
         if (currentCategory !== "all") url.searchParams.set("category", currentCategory);
         else                     url.searchParams.delete("category");
+        if (currentPage > 1) url.searchParams.set("page", String(currentPage));
+        else                 url.searchParams.delete("page");
         window.history.replaceState({}, "", cleanUrl(url.toString()));
     }
 
@@ -466,6 +469,7 @@
             clearBtn.addEventListener("click", () => {
                 currentQuery    = "";
                 currentCategory = "all";
+                currentPage     = 1;
                 currentBrand    = "";
                 currentCondition = "";
                 selectedDeals   = [];
@@ -589,6 +593,7 @@
         const target = Math.max(1, Math.min(totalPages, page));
         if (target === currentPage) return;
         currentPage = target;
+        writeUrlParams();
         const loading = window.BondsmallCatalog
             ? (categoryView && typeof window.BondsmallCatalog.ensureCategoryPage === "function"
                 ? window.BondsmallCatalog.ensureCategoryPage(currentCategory, target, perPage)
@@ -1267,7 +1272,7 @@
         decorateProducts();
         readUrlParams();
         if (currentCategory !== "all" && window.BondsmallCatalog && typeof window.BondsmallCatalog.ensureCategoryPage === "function") {
-            requestCategoryPage(1);
+            requestCategoryPage(currentPage);
         } else if (currentCategory !== "all") {
             // The catalog loader may still be initializing when search-results starts.
             // Do not leave the page filtered against only the bootstrap records; retry
@@ -1275,11 +1280,13 @@
             renderAll();
             const retryCategoryPage = () => {
                 if (currentCategory !== "all" && window.BondsmallCatalog && typeof window.BondsmallCatalog.ensureCategoryPage === "function") {
-                    requestCategoryPage(1);
+                    requestCategoryPage(currentPage);
                 }
             };
             document.addEventListener("bondsmall-catalog-ready", retryCategoryPage, { once: true });
             window.setTimeout(retryCategoryPage, 1500);
+        } else if (currentPage > 1 && window.BondsmallCatalog && typeof window.BondsmallCatalog.ensurePage === "function") {
+            window.BondsmallCatalog.ensurePage(currentPage, getProductsPerPage()).then(renderAll).catch(renderAll);
         } else {
             renderAll();
         }
