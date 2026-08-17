@@ -27,12 +27,81 @@
         return String(value || '').toLowerCase().replace(/[^a-z]/g, '');
     }
 
+    function productImage(product) {
+        return product?.image || product?.mainImage || product?.images?.[0] || product?.photo_paths?.[0] || fallbackImages[normalize(product?.category)] || 'bonds-mall-logo.png';
+    }
+
     function imageForCategory(category) {
         const key = normalize(category);
         const products = Array.isArray(window.products) ? window.products : [];
-        const match = products.find((product) => normalize(product.category) === key && (product.image || (product.images && product.images[0])));
-        if (match) return match.image || match.images[0];
-        return fallbackImages[key] || 'bonds-mall-logo.png';
+        const match = products.find((product) => normalize(product.category) === key && productImage(product));
+        return match ? productImage(match) : fallbackImages[key] || 'bonds-mall-logo.png';
+    }
+
+    function money(value) {
+        const number = Number(value);
+        return Number.isFinite(number) ? `$${number.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}` : '';
+    }
+
+    function productListForCategory(key) {
+        const products = Array.isArray(window.products) ? window.products : [];
+        return products.filter((product) => normalize(product.category) === key).slice(0, 3);
+    }
+
+    function renderPreviewProducts(key, records) {
+        const container = document.querySelector(`[data-category-preview-products="${key}"]`);
+        if (!container) return;
+        const products = (records || productListForCategory(key)).slice(0, 3);
+        if (!products.length) {
+            container.innerHTML = '<p class="category-preview-empty">Products are loading for this collection.</p>';
+            return;
+        }
+        container.innerHTML = products.map((product) => {
+            const name = String(product.name || product.title || 'Product');
+            const image = productImage(product);
+            const price = product['sale price'] ?? product.salePrice ?? product.price;
+            return `<a class="category-preview-card" href="search-results.html?category=${key}" aria-label="Browse ${key} products">
+                <img class="category-preview-image" src="${image}" alt="${name}" loading="lazy">
+                <span class="category-preview-copy"><span class="category-preview-name">${name}</span><span class="category-preview-price">${money(price)}</span></span>
+            </a>`;
+        }).join('');
+        container.querySelectorAll('img').forEach((img) => {
+            img.addEventListener('error', () => {
+                img.onerror = null;
+                img.src = fallbackImages[key] || 'bonds-mall-logo.png';
+            }, { once: true });
+        });
+    }
+
+    async function hydrateCategoryPreviews() {
+        const keys = [...document.querySelectorAll('[data-category-preview-products]')].map((el) => el.dataset.categoryPreviewProducts);
+        if (!keys.length) return;
+        const initialProducts = Array.isArray(window.products) ? window.products.slice() : [];
+        const catalog = window.BondsmallCatalog;
+        if (catalog && typeof catalog.ensureCategoryPage === 'function') {
+            // The catalog loader temporarily swaps window.products while fetching a chunk.
+            // Load previews sequentially so concurrent category requests cannot overwrite one another.
+            for (const key of keys) {
+                try {
+                    const records = await catalog.ensureCategoryPage(key, 1, 3);
+                    renderPreviewProducts(key, records);
+                } catch (_) {
+                    renderPreviewProducts(key);
+                }
+            }
+            // Preview requests can leave the shared catalog array empty while the main
+            // all-products grid is initializing. Re-establish page one explicitly, then
+            // ask bondsmall.js to render against the restored catalog state.
+            if (typeof catalog.ensurePage === 'function') {
+                await catalog.ensurePage(1, 20);
+            } else if (Array.isArray(window.products) && initialProducts.length) {
+                window.products.length = 0;
+                window.products.push(...initialProducts);
+            }
+            document.dispatchEvent(new CustomEvent('bondsmall-catalog-page-ready'));
+        } else {
+            keys.forEach((key) => renderPreviewProducts(key));
+        }
     }
 
     function hydrateCards() {
@@ -52,7 +121,10 @@
 
     function init() {
         hydrateCards();
-        document.addEventListener('bondsmall-catalog-chunk-loaded', hydrateCards);
+        hydrateCategoryPreviews();
+        document.addEventListener('bondsmall-catalog-chunk-loaded', () => {
+            hydrateCards();
+        });
     }
 
     document.addEventListener('DOMContentLoaded', init);

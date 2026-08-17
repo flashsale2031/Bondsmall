@@ -45,7 +45,6 @@
         </div>
         <input type="search" id="header-search" placeholder="Search products..." aria-label="Search products">
         <div class="header-actions">
-            <a class="header-all-link" href="all.html" aria-label="All categories">All</a>
             <button id="cart-btn" class="icon-btn" aria-label="Open cart">
                 <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
                     <path d="M3 5h2l2.2 9.2a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.6L21 8H8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
@@ -91,55 +90,7 @@
     </div>
 
     <main>
-        <section id="home" class="hero">
-            <div class="hero-overlay"></div>
-            <div class="hero-content">
-                <h1>Mall Madness</h1>
-                <p>Find top deals in the latest fashion and tech trends</p>
-                <button id="browse-btn" class="browse-btn">Browse</button>
-            </div>
-        </section>
-
-        <section id="all-categories" class="all-categories-section" aria-labelledby="all-page-title">
-            <div class="all-page-intro">
-                <p class="all-eyebrow">BONDS MALL COLLECTIONS</p>
-                <h1 id="all-page-title">Explore every category</h1>
-                <p>Select a collection to open its products in Search Results. Each card is a direct category link.</p>
-            </div>
-            <div id="category-showcase" class="category-showcase" aria-label="Shop by category">
-                <a class="category-showcase-card category-showcase-card--label-first" href="search-results.html?category=accessories" data-category="accessories">
-                    <span class="category-name"><span class="category-hover-icon" aria-hidden="true"></span>Accessories</span>
-                    <span class="category-image-box"><img data-category-image="accessories" src="bonds-mall-logo.png" alt="Accessories category" loading="lazy"></span>
-                </a>
-                <a class="category-showcase-card category-showcase-card--image-first" href="search-results.html?category=artandcollectibles" data-category="artandcollectibles">
-                    <span class="category-image-box"><img data-category-image="artandcollectibles" src="bonds-mall-logo.png" alt="Art &amp; Collectibles category" loading="lazy"></span>
-                    <span class="category-name"><span class="category-hover-icon" aria-hidden="true"></span>Art &amp; Collectibles</span>
-                </a>
-                <a class="category-showcase-card category-showcase-card--label-first" href="search-results.html?category=electronics" data-category="electronics">
-                    <span class="category-name"><span class="category-hover-icon" aria-hidden="true"></span>Electronics</span>
-                    <span class="category-image-box"><img data-category-image="electronics" src="bonds-mall-logo.png" alt="Electronics category" loading="lazy"></span>
-                </a>
-                <a class="category-showcase-card category-showcase-card--image-first" href="search-results.html?category=entertainment" data-category="entertainment">
-                    <span class="category-image-box"><img data-category-image="entertainment" src="bonds-mall-logo.png" alt="Entertainment category" loading="lazy"></span>
-                    <span class="category-name"><span class="category-hover-icon" aria-hidden="true"></span>Entertainment</span>
-                </a>
-                <a class="category-showcase-card category-showcase-card--label-first" href="search-results.html?category=homeandappliances" data-category="homeandappliances">
-                    <span class="category-name"><span class="category-hover-icon" aria-hidden="true"></span>Home &amp; Appliances</span>
-                    <span class="category-image-box"><img data-category-image="homeandappliances" src="bonds-mall-logo.png" alt="Home &amp; Appliances category" loading="lazy"></span>
-                </a>
-                <a class="category-showcase-card category-showcase-card--image-first" href="search-results.html?category=jewelry" data-category="jewelry">
-                    <span class="category-image-box"><img data-category-image="jewelry" src="bonds-mall-logo.png" alt="Jewelry category" loading="lazy"></span>
-                    <span class="category-name"><span class="category-hover-icon" aria-hidden="true"></span>Jewelry</span>
-                </a>
-                <a class="category-showcase-card category-showcase-card--label-first" href="search-results.html?category=men" data-category="men">
-                    <span class="category-name"><span class="category-hover-icon" aria-hidden="true"></span>Men's</span>
-                    <span class="category-image-box"><img data-category-image="men" src="bonds-mall-logo.png" alt="Men's category" loading="lazy"></span>
-                </a>
-                <a class="category-showcase-card category-showcase-card--image-first" href="search-results.html?category=women" data-category="women">
-                    <span class="category-image-box"><img data-category-image="women" src="bonds-mall-logo.png" alt="Women's category" loading="lazy"></span>
-                    <span class="category-name"><span class="category-hover-icon" aria-hidden="true"></span>Women's</span>
-                </a>
-            </div>
+        <section id="category" class="all-products-section" aria-labelledby="all-page-title">
             <div class="all-products-heading">
                 <div><p class="all-eyebrow">ALL PRODUCTS</p><h2>Browse the full catalog</h2></div>
                 <input type="search" id="category-search" placeholder="Search all products..." aria-label="Search all products">
@@ -170,8 +121,7 @@
                     <input type="search" id="popup-header-search" placeholder="Search products..." aria-label="Search products">
                 </div>
                 <div class="header-actions">
-                    <a class="header-all-link" href="all.html" aria-label="All categories">All</a>
-                    <button id="popup-cart-btn" class="icon-btn" aria-label="Open cart">
+                            <button id="popup-cart-btn" class="icon-btn" aria-label="Open cart">
                         <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
                             <path d="M3 5h2l2.2 9.2a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.6L21 8H8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
                             <circle cx="10" cy="19" r="1.6" fill="currentColor"/>

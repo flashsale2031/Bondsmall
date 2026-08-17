@@ -5,13 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BONDS MALL</title>
     <link rel="stylesheet" href="bondsmall.css">
+    <link rel="stylesheet" href="all.css?v=1.0.0">
     <link rel="stylesheet" href="site-footer.css">
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="catalog-category-index.js?v=1.0.0" defer></script>
+    <script src="catalog-loader.js?v=2.3.7" defer></script>
     <script src="products.js" defer></script>
     <script src="auth.js" defer></script>
     <script src="bondsmall-account.js" defer></script>
     <script src="bondsmall.js" defer></script>
+    <script src="category-menu.js?v=1.0.3" defer></script>
+    <script src="all.js?v=1.0.0" defer></script>
     <link rel="stylesheet" href="localization.css?v=1.0.0">
     <script src="localization.js?v=1.0.0" defer></script>
 </head>
@@ -40,37 +45,110 @@
     </header>
 
     <main>
-        <section id="home" class="hero">
-            <div class="hero-overlay"></div>
-            <div class="hero-content">
-                <h1>Mall Madness</h1>
-                <p>Find top deals in the latest fashion and tech trends</p>
-                <button id="browse-btn" class="browse-btn">Browse</button>
+        <section id="category" class="all-categories-section" aria-labelledby="all-page-title">
+            <div class="all-page-intro">
+                <p class="all-eyebrow">BONDS MALL SELECTIONS</p>
+                <h1 id="all-page-title">Explore every category</h1>
+                <p>Select a category to browse and shop for the top quality products from around the world.</p>
             </div>
-        </section>
-
-        <section id="category" class="category-section">
-            <div class="section-heading">
-                <h2>Shop by Category</h2>
-                <p>Curated pieces from modern trends</p>
+            <div id="category-showcase" class="category-showcase" aria-label="Shop by category">
+                <article class="category-feature" data-category-feature="accessories">
+                    <a class="category-showcase-card category-showcase-card--label-first" href="search-results.html?category=accessories" data-category="accessories">
+                        <span class="category-name"><span class="category-hover-icon" aria-hidden="true"></span>Accessories</span>
+                    <span class="category-image-box"><img data-category-image="accessories" src="bonds-mall-logo.png" alt="Accessories category" loading="lazy"></span>
+                    </a>
+                    <div class="category-preview" data-category-preview="accessories" aria-label="Three featured Accessories products">
+                        <div class="category-preview-products" data-category-preview-products="accessories">
+                            <p class="category-preview-loading">Loading Accessories products…</p>
+                        </div>
+                        <a class="category-view-more" href="search-results.html?category=accessories">View More<span aria-hidden="true">→</span></a>
+                    </div>
+                </article>
+                <article class="category-feature" data-category-feature="artandcollectibles">
+                    <a class="category-showcase-card category-showcase-card--image-first" href="search-results.html?category=artandcollectibles" data-category="artandcollectibles">
+                        <span class="category-image-box"><img data-category-image="artandcollectibles" src="bonds-mall-logo.png" alt="Art &amp; Collectibles category" loading="lazy"></span>
+                    <span class="category-name"><span class="category-hover-icon" aria-hidden="true"></span>Art &amp; Collectibles</span>
+                    </a>
+                    <div class="category-preview" data-category-preview="artandcollectibles" aria-label="Three featured Art &amp; Collectibles products">
+                        <div class="category-preview-products" data-category-preview-products="artandcollectibles">
+                            <p class="category-preview-loading">Loading Art &amp; Collectibles products…</p>
+                        </div>
+                        <a class="category-view-more" href="search-results.html?category=artandcollectibles">View More<span aria-hidden="true">→</span></a>
+                    </div>
+                </article>
+                <article class="category-feature" data-category-feature="electronics">
+                    <a class="category-showcase-card category-showcase-card--label-first" href="search-results.html?category=electronics" data-category="electronics">
+                        <span class="category-name"><span class="category-hover-icon" aria-hidden="true"></span>Electronics</span>
+                    <span class="category-image-box"><img data-category-image="electronics" src="bonds-mall-logo.png" alt="Electronics category" loading="lazy"></span>
+                    </a>
+                    <div class="category-preview" data-category-preview="electronics" aria-label="Three featured Electronics products">
+                        <div class="category-preview-products" data-category-preview-products="electronics">
+                            <p class="category-preview-loading">Loading Electronics products…</p>
+                        </div>
+                        <a class="category-view-more" href="search-results.html?category=electronics">View More<span aria-hidden="true">→</span></a>
+                    </div>
+                </article>
+                <article class="category-feature" data-category-feature="entertainment">
+                    <a class="category-showcase-card category-showcase-card--image-first" href="search-results.html?category=entertainment" data-category="entertainment">
+                        <span class="category-image-box"><img data-category-image="entertainment" src="bonds-mall-logo.png" alt="Entertainment category" loading="lazy"></span>
+                    <span class="category-name"><span class="category-hover-icon" aria-hidden="true"></span>Entertainment</span>
+                    </a>
+                    <div class="category-preview" data-category-preview="entertainment" aria-label="Three featured Entertainment products">
+                        <div class="category-preview-products" data-category-preview-products="entertainment">
+                            <p class="category-preview-loading">Loading Entertainment products…</p>
+                        </div>
+                        <a class="category-view-more" href="search-results.html?category=entertainment">View More<span aria-hidden="true">→</span></a>
+                    </div>
+                </article>
+                <article class="category-feature" data-category-feature="homeandappliances">
+                    <a class="category-showcase-card category-showcase-card--label-first" href="search-results.html?category=homeandappliances" data-category="homeandappliances">
+                        <span class="category-name"><span class="category-hover-icon" aria-hidden="true"></span>Home &amp; Appliances</span>
+                    <span class="category-image-box"><img data-category-image="homeandappliances" src="bonds-mall-logo.png" alt="Home &amp; Appliances category" loading="lazy"></span>
+                    </a>
+                    <div class="category-preview" data-category-preview="homeandappliances" aria-label="Three featured Home &amp; Appliances products">
+                        <div class="category-preview-products" data-category-preview-products="homeandappliances">
+                            <p class="category-preview-loading">Loading Home &amp; Appliances products…</p>
+                        </div>
+                        <a class="category-view-more" href="search-results.html?category=homeandappliances">View More<span aria-hidden="true">→</span></a>
+                    </div>
+                </article>
+                <article class="category-feature" data-category-feature="jewelry">
+                    <a class="category-showcase-card category-showcase-card--image-first" href="search-results.html?category=jewelry" data-category="jewelry">
+                        <span class="category-image-box"><img data-category-image="jewelry" src="bonds-mall-logo.png" alt="Jewelry category" loading="lazy"></span>
+                    <span class="category-name"><span class="category-hover-icon" aria-hidden="true"></span>Jewelry</span>
+                    </a>
+                    <div class="category-preview" data-category-preview="jewelry" aria-label="Three featured Jewelry products">
+                        <div class="category-preview-products" data-category-preview-products="jewelry">
+                            <p class="category-preview-loading">Loading Jewelry products…</p>
+                        </div>
+                        <a class="category-view-more" href="search-results.html?category=jewelry">View More<span aria-hidden="true">→</span></a>
+                    </div>
+                </article>
+                <article class="category-feature" data-category-feature="men">
+                    <a class="category-showcase-card category-showcase-card--label-first" href="search-results.html?category=men" data-category="men">
+                        <span class="category-name"><span class="category-hover-icon" aria-hidden="true"></span>Men's</span>
+                    <span class="category-image-box"><img data-category-image="men" src="bonds-mall-logo.png" alt="Men's category" loading="lazy"></span>
+                    </a>
+                    <div class="category-preview" data-category-preview="men" aria-label="Three featured Men's products">
+                        <div class="category-preview-products" data-category-preview-products="men">
+                            <p class="category-preview-loading">Loading Men's products…</p>
+                        </div>
+                        <a class="category-view-more" href="search-results.html?category=men">View More<span aria-hidden="true">→</span></a>
+                    </div>
+                </article>
+                <article class="category-feature" data-category-feature="women">
+                    <a class="category-showcase-card category-showcase-card--image-first" href="search-results.html?category=women" data-category="women">
+                        <span class="category-image-box"><img data-category-image="women" src="bonds-mall-logo.png" alt="Women's category" loading="lazy"></span>
+                    <span class="category-name"><span class="category-hover-icon" aria-hidden="true"></span>Women's</span>
+                    </a>
+                    <div class="category-preview" data-category-preview="women" aria-label="Three featured Women's products">
+                        <div class="category-preview-products" data-category-preview-products="women">
+                            <p class="category-preview-loading">Loading Women's products…</p>
+                        </div>
+                        <a class="category-view-more" href="search-results.html?category=women">View More<span aria-hidden="true">→</span></a>
+                    </div>
+                </article>
             </div>
-
-            <div id="category-buttons" class="category-buttons">
-                <button class="category-btn active" data-category="all">Shop All</button>
-                <button class="category-btn" data-category="accessories">Accessories</button>
-                <button class="category-btn" data-category="artandcollectibles">Art &amp; Collectibles</button>
-                <button class="category-btn" data-category="electronics">Electronics</button>
-                <button class="category-btn" data-category="entertainment">Entertainment</button>
-                <button class="category-btn" data-category="homeandappliances">Home &amp; Appliances</button>
-                <button class="category-btn" data-category="jewelry">Jewelry</button>
-                <button class="category-btn" data-category="men">Men's</button>
-                <button class="category-btn" data-category="women">Women's</button>
-            </div>
-
-            <input type="search" id="category-search" placeholder="Search in selected category..." aria-label="Search in selected category">
-
-            <div id="product-grid" class="product-grid"></div>
-        </section>
     </main>
 
     <div id="product-modal" class="modal hidden" aria-hidden="true">

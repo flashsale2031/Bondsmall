@@ -101,6 +101,9 @@
         return text.toLowerCase().trim();
     }
 
+    document.addEventListener('bondsmall-catalog-page-ready', () => {
+        if (typeof renderProducts === 'function') renderProducts();
+    });
     document.addEventListener('bondsmall-locale-change', () => {
         if (typeof renderProducts === 'function') renderProducts();
         if (typeof renderCart === 'function') renderCart();
