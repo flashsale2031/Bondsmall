@@ -435,8 +435,14 @@
         const filtered = getFilteredProducts();
         const categoryTotal = currentCategory !== "all" && window.BondsmallCatalog && typeof window.BondsmallCatalog.getCategoryTotal === "function"
             ? window.BondsmallCatalog.getCategoryTotal(currentCategory)
-            : filtered.length;
-        const count    = currentCategory !== "all" && !currentQuery ? categoryTotal : filtered.length;
+            : null;
+        const hasRefinements = Boolean(currentQuery || currentBrand || currentCondition || selectedDeals.length || priceMin !== null || priceMax !== null);
+        const catalogTotal = window.BondsmallCatalog && Number.isFinite(Number(window.BondsmallCatalog.totalCount))
+            ? Number(window.BondsmallCatalog.totalCount)
+            : null;
+        const count = currentCategory !== "all" && !currentQuery
+            ? categoryTotal
+            : (!hasRefinements && currentCategory === "all" && catalogTotal !== null ? catalogTotal : filtered.length);
         if (resultsTitle) {
             resultsTitle.textContent = hasBadge
                 ? (currentQuery ? `Results for "${currentQuery}"` : `${categoryLabels[currentCategory] || currentCategory}`)
