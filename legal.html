@@ -26,6 +26,7 @@
         .legal-card a { overflow-wrap: anywhere; word-break: break-word; }
         .legal-notice { max-width: 100%; border-left: 4px solid #8c2f39; background: #fff3f1; padding: 1rem 1.1rem; border-radius: 10px; color: #4f252a; overflow-wrap: anywhere; }
         .legal-toc { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(210px, 100%), 1fr)); gap: .6rem; list-style: none; padding: 0; }
+        .legal-toc-heading { text-align: center; }
         .legal-toc a { display: block; padding: .7rem .8rem; border-radius: 9px; background: #f4eee5; color: #3d352e; text-decoration: none; font-weight: 700; }
         .legal-toc a:hover, .legal-toc a:focus { background: #e8dccb; text-decoration: underline; }
         .legal-meta { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; color: #766b61; font-size: .9rem; overflow-wrap: anywhere; }
@@ -82,7 +83,7 @@
         </section>
 
         <section class="legal-card" aria-labelledby="contents-heading">
-            <h2 id="contents-heading">Contents</h2>
+            <h2 id="contents-heading" class="legal-toc-heading">Contents</h2>
             <nav aria-label="Legal governance sections">
                 <ul class="legal-toc">
                     <li><a href="#scope">1. Scope and hierarchy</a></li>
