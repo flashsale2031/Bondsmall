@@ -131,12 +131,17 @@
   // Preserve the synchronous first-page experience. On direct later-page URLs,
   // do not hydrate page 1 asynchronously because that would overwrite the
   // requested page after its own chunk has loaded.
-  const initialPage = Math.max(1, Number(new URLSearchParams(window.location.search).get('page')) || 1);
+  const initialParams = new URLSearchParams(window.location.search);
+  const initialPage = Math.max(1, Number(initialParams.get('page')) || 1);
+  const initialCategory = String(initialParams.get('category') || '').trim();
   if (target.length > 0) {
     loaded.set(0, target.slice(0, PAGE_SIZE));
     window.BondsmallCatalogReady = true;
     document.dispatchEvent(new CustomEvent('bondsmall-catalog-ready'));
-    if (initialPage === 1) {
+    // Category requests own the shared target array. Do not asynchronously restore
+    // bootstrap page 1 afterward, or the category grid will collapse back to the
+    // few matching records present in the bootstrap chunk.
+    if (initialPage === 1 && !initialCategory) {
       const hydrate = () => fetchPage(0).catch((error) => console.warn('Catalog page hydration failed:', error));
       if ('requestIdleCallback' in window) requestIdleCallback(hydrate, { timeout: 2000 });
       else setTimeout(hydrate, 1000);
