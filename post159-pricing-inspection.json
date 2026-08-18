@@ -1,0 +1,121 @@
+{
+  "total_records": 1231541,
+  "post159_records": 1231382,
+  "boundary": [
+    {
+      "_position": 155,
+      "id": 156,
+      "name": "2025 United States DC Comic Wonder Woman $50 Gold Coin",
+      "retail price": 5999.99,
+      "sale price": 4999.99,
+      "price_pending": null,
+      "price_is_estimate": null
+    },
+    {
+      "_position": 156,
+      "id": 157,
+      "name": "Mortal Kombat 11",
+      "retail price": 59.99,
+      "sale price": 49.99,
+      "price_pending": null,
+      "price_is_estimate": null
+    },
+    {
+      "_position": 157,
+      "id": 158,
+      "name": "Nintendo Switch OLED",
+      "retail price": 599.99,
+      "sale price": 399.99,
+      "price_pending": null,
+      "price_is_estimate": null
+    },
+    {
+      "_position": 158,
+      "id": 159,
+      "name": "XBOX Series X|S Controller",
+      "retail price": 99.99,
+      "sale price": 49.99,
+      "price_pending": null,
+      "price_is_estimate": null
+    },
+    {
+      "_position": 159,
+      "id": 160,
+      "name": "Men's True Religion Alt Logo Trucker Hat",
+      "retail price": 79.99,
+      "sale price": 29.99,
+      "price_pending": null,
+      "price_is_estimate": null
+    },
+    {
+      "_position": 160,
+      "id": 161,
+      "name": "Petra Multi-Stone Drop Necklace in Gold",
+      "retail price": 61.99,
+      "sale price": 35.99,
+      "price_pending": null,
+      "price_is_estimate": null
+    },
+    {
+      "_position": 161,
+      "id": 162,
+      "name": "Athena Bracelet in Gold",
+      "retail price": 69.99,
+      "sale price": 37.99,
+      "price_pending": null,
+      "price_is_estimate": null
+    },
+    {
+      "_position": 162,
+      "id": 163,
+      "name": "Waterdrop Arm Chain",
+      "retail price": 29.99,
+      "sale price": 24.99,
+      "price_pending": null,
+      "price_is_estimate": null
+    },
+    {
+      "_position": 163,
+      "id": 164,
+      "name": "Petal Lariat Necklace",
+      "retail price": 31.99,
+      "sale price": 26.99,
+      "price_pending": null,
+      "price_is_estimate": null
+    },
+    {
+      "_position": 164,
+      "id": 165,
+      "name": "Naia Shell Cord Necklace",
+      "retail price": 27.99,
+      "sale price": 22.99,
+      "price_pending": null,
+      "price_is_estimate": null
+    }
+  ],
+  "price_fields": {
+    "retail price": {
+      "distinct": 246,
+      "integer_count": 0
+    },
+    "sale price": {
+      "distinct": 172,
+      "integer_count": 0
+    }
+  },
+  "evidence_fields": {
+    "retail price": 1231382,
+    "sale price": 1231382,
+    "price_currency": 1230004,
+    "price_benchmark_method": 1,
+    "price_benchmark_sources": 1,
+    "price_benchmark_note": 1,
+    "price_is_estimate": 1230003,
+    "price_pending": 1230000,
+    "price_estimate_type": 1230001,
+    "price_estimate_segment": 1230000,
+    "price_estimate_sources": 1230000,
+    "price_estimate_note": 1230000,
+    "official_indexed_price": 1
+  }
+}

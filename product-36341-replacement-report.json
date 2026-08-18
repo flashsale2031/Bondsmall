@@ -1,0 +1,13 @@
+{
+  "target_id": 36341,
+  "old_name": "Mens Suzanne Floral Bra Top & Bikini Brief",
+  "new_name": "Men's 3pc suit vested Brown zoot suit",
+  "new_category": "men",
+  "new_gender": "Men",
+  "new_product_type": "men",
+  "source_product_id": 8842,
+  "source_product_name": "Men's 3pc suit vested Brown zoot suit",
+  "source_catalog_file": "catalog-pages/products-page-00443.js",
+  "target_catalog_file": "catalog-pages/products-page-01817.js",
+  "image_count": 2
+}

@@ -1,0 +1,8 @@
+ClassifiedAds dry-run browser findings
+Timestamp: 2026-08-18
+URL: file:///home/ubuntu/Bondsmall/seller.html
+
+The Post section opened successfully, but no products were loaded in the file-based browser session. localStorage contained the default unsaved account record:
+[{"id":"ca_0","label":"Account 1","email":"","password":"","city":"","isSaved":false}]
+
+No clblast_platform_sessions value was present, so no ClassifiedAds session was connected in this browser profile. window.products length was 0. No posting action or external submission was performed.

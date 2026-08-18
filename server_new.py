@@ -1,8 +1,10 @@
 # server.py — CLBlast backend
+import base64
 import json
 import os
 import subprocess
 import sys
+from urllib.parse import urlparse
 import threading
 import time
 from datetime import datetime
@@ -524,6 +526,61 @@ def bulk_post():
     return jsonify({"ok": True})
 
 
+@app.post("/api/craigslist/bulkpost/validate")
+def validate_craigslist_bulkpost():
+    """Validate official Bulkpost OAuth credentials without storing the token.
+
+    The v1 API supports existing-post management and account operations; new
+    posts are created through Craigslist's RSS bulk-posting interface. This
+    endpoint therefore validates the OAuth configuration only and never posts.
+    """
+    body = request.get_json(force=True) or {}
+    email = (body.get("email") or "").strip()
+    account_id = (body.get("account_id") or "").strip()
+    password = body.get("password") or ""
+    oauth_url = (body.get("oauth_url") or "https://bapi.craigslist.org/bulkpost/oauth/access-token").strip()
+    api_base_url = (body.get("api_base_url") or "https://bapi.craigslist.org/bulkpost/v1").strip().rstrip("/")
+    scope = (body.get("scope") or "bulkpost.posting").strip()
+    if not email or not account_id or not password:
+        return jsonify({"ok": False, "error": "email, password, and account_id are required"}), 400
+    allowed_host = "bapi.craigslist.org"
+    for raw_url in (oauth_url, api_base_url):
+        parsed = urlparse(raw_url)
+        if parsed.scheme != "https" or parsed.hostname != allowed_host:
+            return jsonify({"ok": False, "error": "Bulkpost URLs must use https://bapi.craigslist.org"}), 400
+    client_id = f"{email};{account_id}"
+    basic = base64.b64encode(f"{client_id}:{password}".encode("utf-8")).decode("ascii")
+    try:
+        token_res = req_lib.post(
+            oauth_url,
+            headers={"Authorization": f"Basic {basic}", "Accept": "application/json"},
+            data={"grant_type": "client_credentials", "scope": scope},
+            timeout=20,
+        )
+        if not token_res.ok:
+            try:
+                detail = token_res.json().get("error_description") or token_res.json().get("error")
+            except Exception:
+                detail = token_res.text[:200]
+            return jsonify({"ok": False, "error": f"OAuth validation failed ({token_res.status_code}): {detail or 'invalid credentials'}"}), 401
+        token_data = token_res.json()
+        access_token = token_data.get("access_token")
+        if not access_token:
+            return jsonify({"ok": False, "error": "OAuth response did not include access_token"}), 502
+        scopes = token_data.get("scopes") or scope.split()
+        return jsonify({
+            "ok": True,
+            "api_base_url": api_base_url,
+            "token_type": token_data.get("token_type", "Bearer"),
+            "scopes": scopes,
+            "expires_in": token_data.get("expires_in"),
+            "credit_available": any("bulkpost.account.billing" in str(s) for s in scopes),
+            "note": "Credentials validated. New-post creation remains on the existing RSS/browser flow because v1 exposes no create-post endpoint."
+        })
+    except req_lib.RequestException as exc:
+        return jsonify({"ok": False, "error": f"Could not reach Craigslist Bulkpost API: {exc}"}), 502
+
+
 @app.post("/post")
 def launch_post():
     global _proc, _lines, _status, _platform
@@ -587,6 +644,10 @@ def launch_post():
             "password":           body.get("password", ""),
             "gmail_app_password": body.get("gmail_app_password", ""),
             "two_captcha_key":    body.get("two_captcha_key", ""),
+            "bulkpost_account_id": body.get("bulkpost_account_id", ""),
+            "bulkpost_api_base_url": body.get("bulkpost_api_base_url", "https://bapi.craigslist.org/bulkpost/v1"),
+            "bulkpost_oauth_url": body.get("bulkpost_oauth_url", "https://bapi.craigslist.org/bulkpost/oauth/access-token"),
+            "bulkpost_scope": body.get("bulkpost_scope", "bulkpost.posting"),
             "city":               body.get("craigslist_city", "losangeles"),
             "zip_code":           zip_code,
             "city_name":          city_name,
@@ -638,6 +699,10 @@ def launch_post():
                                 "password": body.get("password", ""),
                                 "gmail_app_password": body.get("gmail_app_password", ""),
                                 "two_captcha_key": body.get("two_captcha_key", ""),
+                                "bulkpost_account_id": body.get("bulkpost_account_id", ""),
+                                "bulkpost_api_base_url": body.get("bulkpost_api_base_url", "https://bapi.craigslist.org/bulkpost/v1"),
+                                "bulkpost_oauth_url": body.get("bulkpost_oauth_url", "https://bapi.craigslist.org/bulkpost/oauth/access-token"),
+                                "bulkpost_scope": body.get("bulkpost_scope", "bulkpost.posting"),
                             },
                             mode=(body.get("mode") or "full"),
                             min_drafts=int(body.get("min_drafts", 10)),

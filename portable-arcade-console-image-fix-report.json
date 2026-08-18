@@ -1,0 +1,11 @@
+{
+  "id": 231,
+  "name": "Portable Retro Arcade Game Console for Two Players",
+  "image": "assets/portable-arcade-console/target-red-console-hero.jpg",
+  "images": [
+    "assets/portable-arcade-console/target-red-console-hero.jpg",
+    "assets/portable-arcade-console/target-red-console-front.jpg"
+  ],
+  "source": "https://www.target.com/p/portable-retro-arcade-game-2-players-console-with-3-5-inch-hd-screen-red/-/A-93287878",
+  "match_confidence": "verified-product-gallery"
+}

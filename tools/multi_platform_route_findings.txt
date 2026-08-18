@@ -1,0 +1,9 @@
+Browser verification on seller.html after the eight-platform expansion:
+
+- Accounts section opened successfully.
+- Existing Craigslist, AdLandPro, and ClassifiedAds cards remain present.
+- New cards rendered successfully: Facebook Marketplace, OfferUp, Mercari, Poshmark, and Nextdoor.
+- Each new card rendered Account 1, email field, Save, Connect, Remove, and Add Another Account controls.
+- The Browser control remains in the Accounts section.
+- eBay and Etsy were not rendered.
+- Dashboard loaded in client-only mode with server offline; no external posting was performed.

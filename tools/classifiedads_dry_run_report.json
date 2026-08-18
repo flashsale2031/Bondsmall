@@ -1,0 +1,83 @@
+{
+  "mode": "dry-run",
+  "platform": "classifiedads",
+  "products_selected": 10,
+  "queue_jobs": 1,
+  "listing_payloads": 10,
+  "destination": "https://www.classifiedads.com/",
+  "account_required": true,
+  "account_connected": false,
+  "published": false,
+  "effective_checks": {
+    "exactly_ten_products": true,
+    "all_titles_present": true,
+    "all_descriptions_present": true,
+    "all_images_present": true,
+    "all_prices_present": true,
+    "classifiedads_destination_present": true,
+    "publishing_blocked": true
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Men's Hanes Premium Cotton T-Shirt",
+      "sale_price": 9.99,
+      "image_count": 2
+    },
+    {
+      "id": 2,
+      "name": "Women's Abercrombie & Fitch Sweater",
+      "sale_price": 79.99,
+      "image_count": 2
+    },
+    {
+      "id": 3,
+      "name": "Women's Prada Clutch",
+      "sale_price": 1999.99,
+      "image_count": 2
+    },
+    {
+      "id": 4,
+      "name": "Men's Levi's Jeans",
+      "sale_price": 39.99,
+      "image_count": 2
+    },
+    {
+      "id": 5,
+      "name": "Patio Furniture Set",
+      "sale_price": 79.99,
+      "image_count": 2
+    },
+    {
+      "id": 6,
+      "name": "Women's Necklace & Bracelet Set",
+      "sale_price": 49.99,
+      "image_count": 2
+    },
+    {
+      "id": 7,
+      "name": "Men's Dolce & Gabbana Sweater",
+      "sale_price": 1199.99,
+      "image_count": 2
+    },
+    {
+      "id": 8,
+      "name": "Women's PINK Campus Fleece Full-Zip Hoodie",
+      "sale_price": 39.99,
+      "image_count": 2
+    },
+    {
+      "id": 9,
+      "name": "Dior Sunglasses",
+      "sale_price": 579.99,
+      "image_count": 2
+    },
+    {
+      "id": 10,
+      "name": "Men's Ralph Lauren Casual Polo Shirt",
+      "sale_price": 69.99,
+      "image_count": 2
+    }
+  ],
+  "blocker": "No saved/connected ClassifiedAds account was present in the current browser profile; this dry run intentionally did not open or submit the external posting form."
+}

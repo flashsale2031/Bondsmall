@@ -1366,6 +1366,26 @@
         return Object.keys(discountCodes).find(key => discountCodes[key] === activeDiscountRate) || "Unknown";
     }
 
+    function showOrderVerificationLoader() {
+        const loader = document.getElementById("order-verification-loader");
+        if (!loader) {
+            window.location.href = cleanUrl("order-success");
+            return;
+        }
+
+        if (loader.dataset.redirecting === "true") return;
+        loader.dataset.redirecting = "true";
+        loader.classList.add("is-active");
+        loader.setAttribute("aria-hidden", "false");
+        document.body.classList.add("order-verification-open");
+
+        const reducedMotion = window.matchMedia?.("(prefers-reduced-motion: reduce)")?.matches;
+        const transitionTime = reducedMotion ? 500 : 1700;
+        window.setTimeout(() => {
+            window.location.href = cleanUrl("order-success");
+        }, transitionTime);
+    }
+
     async function submitOrder() {
         if (!shippingData || cart.length === 0) {
             return;
@@ -1437,8 +1457,8 @@
                 }, 3000);
             })
         ]);
-        // Redirect to order success page
-        window.location.href = cleanUrl("order-success");
+        // Show the centered verification loader before redirecting to order success.
+        showOrderVerificationLoader();
     }
 
     function bindEvents() {

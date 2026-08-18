@@ -4,13 +4,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CLBlast — Multi-Platform Ad Automation Dashboard</title>
+  <title>Bonds Mall — Seller Dashboard</title>
   <meta name="description"
     content="CLBlast dashboard for managing classified ad postings across Craigslist, AdLandPro, and ClassifiedAds.com. View live ads, analytics, manage products, and link accounts." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap"
     rel="stylesheet" />
   <style>
     /* ═══════════════════════════════════════════════════════════
@@ -1758,6 +1758,12 @@
       color: var(--accent);
     }
 
+    .badge-fb { background: rgba(24, 119, 242, .15); color: #1877f2; }
+    .badge-ou { background: rgba(8, 127, 91, .15); color: #087f5b; }
+    .badge-me { background: rgba(180, 35, 90, .15); color: #b4235a; }
+    .badge-pm { background: rgba(157, 23, 77, .15); color: #9d174d; }
+    .badge-nd { background: rgba(52, 122, 60, .15); color: #347a3c; }
+
     .account-status-pill {
       display: flex;
       align-items: center;
@@ -2713,6 +2719,451 @@
       }
     }
 
+    /* ═══════════════════════════════════════════════════════════
+       BONDS MALL THEME OVERRIDE
+       Shared visual language with bondsmall.css: warm ivory canvas,
+       paper-white surfaces, ink typography, and restrained burgundy.
+     ═══════════════════════════════════════════════════════════ */
+    :root {
+      --bg: #f8f5ef;
+      --bg2: #fffdf8;
+      --card: #fffdf8;
+      --card-hover: #fffaf2;
+      --glass: rgba(255, 255, 255, .78);
+      --glass2: #f2ebe1;
+      --text: #1c1b1a;
+      --text2: #665f57;
+      --muted: #9e958b;
+      --accent: #111111;
+      --cl: #8c2f39;
+      --cl-glow: rgba(140, 47, 57, .16);
+      --ap: #1f4f8f;
+      --ap-glow: rgba(31, 79, 143, .14);
+      --ca: #9a6a1f;
+      --ca-glow: rgba(154, 106, 31, .14);
+      --border: #e8dfd3;
+      --border2: #d4c8b9;
+      --grad-accent: linear-gradient(135deg, #111111, #3b3631);
+      --grad-header: linear-gradient(135deg, #fffdf8 0%, #f8f5ef 100%);
+      --shadow-sm: 0 2px 8px rgba(57, 43, 29, .08);
+      --shadow-md: 0 8px 24px rgba(57, 43, 29, .10);
+      --shadow-lg: 0 16px 44px rgba(57, 43, 29, .14);
+      --radius-sm: 8px;
+      --radius-md: 10px;
+      --radius-lg: 14px;
+      --radius-pill: 999px;
+    }
+
+    body {
+      background: radial-gradient(circle at 10% 10%, #fef9f1 0%, #f8f5ef 42%, #f2ede3 100%);
+      color: var(--text);
+      font-family: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
+    }
+
+    header, #tab-bar, .topbar, .navbar {
+      background: rgba(255, 253, 248, .96) !important;
+      border-color: var(--border) !important;
+      box-shadow: 0 1px 0 rgba(57, 43, 29, .04);
+    }
+
+    .header-logo {
+      background: linear-gradient(135deg, #111, #8c2f39, #111);
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+
+    .header-status, .live-dot { color: #1f7a46; }
+    .live-dot, .server-indicator.online .si-dot { background: #1f7a46 !important; }
+
+    .tab-btn, .advertise-tab-btn, .platform-select-card, .account-row,
+    .stat-card, .analytics-table-wrap, .product-card, .modal-card,
+    .card, .panel, .form-card, .settings-card {
+      color: var(--text);
+      background: rgba(255, 253, 248, .92) !important;
+      border-color: var(--border) !important;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .tab-btn { color: var(--text2); }
+    .tab-btn:hover, .advertise-tab-btn:hover { color: var(--text); background: var(--glass2) !important; }
+    .tab-btn.active {
+      color: #fff !important;
+      background: var(--accent) !important;
+      border-color: var(--accent) !important;
+      box-shadow: 0 4px 12px rgba(17, 17, 17, .18);
+    }
+
+    input, select, textarea, button {
+      font-family: inherit;
+    }
+    input, select, textarea {
+      color: var(--text) !important;
+      background: #fff !important;
+      border-color: var(--border2) !important;
+    }
+    input::placeholder, textarea::placeholder { color: #9e958b !important; }
+    input:focus, select:focus, textarea:focus {
+      border-color: #8c2f39 !important;
+      box-shadow: 0 0 0 3px rgba(140, 47, 57, .10) !important;
+      outline: none;
+    }
+
+    button, .btn, .primary-btn, .launch-btn, #launch-btn {
+      border-radius: var(--radius-md);
+    }
+    .primary-btn, .launch-btn, #launch-btn, .btn-primary {
+      background: var(--accent) !important;
+      color: #fff !important;
+      border-color: var(--accent) !important;
+    }
+    .primary-btn:hover, .launch-btn:hover, #launch-btn:hover, .btn-primary:hover {
+      background: #3b3631 !important;
+    }
+    .secondary-btn, .btn-secondary, .btn-clear-account {
+      background: #f2ebe1 !important;
+      color: var(--text) !important;
+      border-color: #d7c9b4 !important;
+    }
+
+    .platform-chip.chip-Craigslist, .platform-select-card[data-platform="craigslist"] {
+      border-color: rgba(140, 47, 57, .35) !important;
+    }
+    .section-heading, .page-title, h1, h2, h3 { color: var(--text); }
+    .muted, .text-muted, .header-status, .account-row-status { color: var(--text2); }
+
+    /* Bonds Mall seller header */
+    .bm-seller-header { position:sticky; top:0; z-index:20; display:grid; grid-template-columns:minmax(260px,1fr) minmax(240px,540px) minmax(260px,1fr); align-items:center; gap:1rem; min-height:76px; padding: .85rem clamp(1rem,3vw,2rem); background:rgba(255,253,248,.96) !important; border-bottom:1px solid #d4c8b9 !important; box-shadow:0 4px 18px rgba(57,43,29,.06); backdrop-filter:blur(8px); }
+    .bm-header-left, .bm-header-right { display:flex; align-items:center; min-width:0; gap:.75rem; }
+    .bm-header-right { justify-content:flex-end; }
+    .bm-seller-brand { display:inline-flex; align-items:center; min-width:0; text-decoration:none; color:#1f1a14; }
+    .bm-brand-wordmark { white-space:nowrap; font-family:"DM Sans", Inter, sans-serif; font-size:clamp(1.05rem,2.1vw,1.42rem); font-weight:800; letter-spacing:.14em; }
+    .bm-brand-image { display:none; max-width:118px; max-height:42px; object-fit:contain; }
+    .bm-seller-divider { width:1px; height:28px; background:#d4c8b9; }
+    .bm-seller-label { color:#9e958b; font-size:.78rem; letter-spacing:.08em; text-transform:uppercase; white-space:nowrap; }
+    .bm-menu-btn { display:inline-flex; flex-direction:column; justify-content:center; gap:4px; width:34px; height:34px; padding:7px; border:1px solid #d9ccbe; border-radius:10px; background:#fff; cursor:pointer; }
+    .bm-menu-btn span { display:block; width:100%; height:1.5px; background:#1f1f1f; }
+    .bm-header-center { min-width:0; }
+    .bm-search-wrap { width:100%; position:relative; }
+    .bm-search-wrap input { width:100%; box-sizing:border-box; padding:.7rem 1rem .7rem 2.25rem; border:1px solid #d4c8b9; border-radius:10px; background:#fff; color:#1f1a14; }
+    .bm-search-wrap .header-search-icon { position:absolute; left:.85rem; top:50%; transform:translateY(-50%); color:#9e958b; font-size:1.1rem; z-index:1; }
+    .bm-system-status { display:flex; align-items:center; gap:6px; color:#1f7a46; font-size:.74rem; white-space:nowrap; }
+    .bm-browser-btn { border-color:#d9ccbe; background:#fff; color:#1f1a14; white-space:nowrap; }
+    .accounts-section-heading { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:14px; }
+    .accounts-section-heading .form-section-title { margin-bottom:0; }
+    .accounts-browser-btn { flex:0 0 auto; }
+
+    /* Responsive Bonds Mall refinement: fit the page to the viewport. */
+    html, body {
+      width: 100%;
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+
+    *, *::before, *::after { min-width: 0; }
+
+    body {
+      font-family: "DM Sans", "Segoe UI", Arial, sans-serif;
+      letter-spacing: -0.01em;
+    }
+
+    h1, h2, h3, h4, .header-logo, .page-title, .section-title {
+      font-family: "Playfair Display", Georgia, serif;
+      letter-spacing: -0.025em;
+    }
+
+    #main, main, .main-content, .content, .page-content {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      overflow-x: hidden;
+    }
+
+    header {
+      width: 100%;
+      min-width: 0;
+      padding-left: clamp(14px, 3vw, 32px) !important;
+      padding-right: clamp(14px, 3vw, 32px) !important;
+    }
+
+    .header-search-wrap, #windows-search, #ad-search, #product-search,
+    .search-wrap, .settings-card, .account-row, .platform-select-card,
+    .stat-card, .analytics-table-wrap, .form-card, .panel {
+      max-width: 100%;
+      min-width: 0;
+    }
+
+    #tab-bar, #advertise-tab-menu {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      overflow-x: hidden;
+      flex-wrap: wrap;
+    }
+
+    .tab-btn, .advertise-tab-btn, button, .btn {
+      white-space: normal;
+      overflow-wrap: anywhere;
+      line-height: 1.25;
+    }
+
+    .form-grid, .settings-grid, .account-fields, .platform-grid,
+    .stats-bar, .dashboard-grid {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+    }
+
+    .analytics-table-wrap { overflow-x: auto; }
+    .analytics-table { min-width: 0; width: 100%; table-layout: fixed; }
+    .analytics-table th, .analytics-table td {
+      white-space: normal;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+
+    img, svg, video, iframe, canvas { max-width: 100%; }
+
+    @media (max-width: 768px) {
+      header { height: auto; min-height: 64px; }
+      .bm-seller-header { grid-template-columns:1fr auto; gap:.65rem; }
+      .bm-header-center { grid-column:1 / -1; grid-row:2; }
+      .bm-header-right { gap:.45rem; }
+      .bm-system-status { display:none; }
+      .bm-seller-label { display:none; }
+      .bm-search-wrap { width:100%; }
+      .header-right { min-width: 0; flex: 1 1 auto; }
+      .header-search-wrap { width: min(100%, 260px); }
+      .header-logo { font-size: clamp(1rem, 4vw, 1.35rem); }
+      #main { padding-left: clamp(12px, 3vw, 22px) !important; padding-right: clamp(12px, 3vw, 22px) !important; }
+      .account-fields, .form-grid, .settings-grid, .platform-grid, .dashboard-grid { grid-template-columns: minmax(0, 1fr) !important; }
+      .stats-bar { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+      .account-row-actions { flex-wrap: wrap; }
+    }
+
+    @media (max-width: 480px) {
+      .bm-seller-header { padding:.65rem .75rem; }
+      .bm-brand-wordmark { font-size:1rem; letter-spacing:.1em; }
+      .bm-browser-btn { padding:7px 8px; font-size:.72rem; }
+      .accounts-section-heading { align-items:flex-start; }
+      .bm-seller-divider { display:none; }
+      .header-right { gap: 6px; }
+      .header-search-wrap { display: none; }
+      .stats-bar { grid-template-columns: minmax(0, 1fr) !important; }
+      #tab-bar, #advertise-tab-menu { gap: 6px; }
+      .tab-btn, .advertise-tab-btn { flex: 1 1 auto; padding: 9px 10px; }
+    }
+
+    /* Lightweight browser-style content viewer */
+    #mini-browser-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 10000;
+      background: rgba(28, 27, 26, .38);
+      backdrop-filter: blur(4px);
+    }
+    #mini-browser-overlay.open { display: block; }
+    #mini-browser {
+      position: fixed;
+      z-index: 10001;
+      inset: clamp(18px, 5vh, 56px) clamp(12px, 5vw, 72px);
+      display: none;
+      flex-direction: column;
+      overflow: hidden;
+      border: 1px solid var(--border2);
+      border-radius: 16px;
+      background: #fffdf8;
+      box-shadow: 0 24px 80px rgba(28, 27, 26, .24);
+    }
+    #mini-browser.open { display: flex; }
+    .mini-browser-toolbar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      padding: 10px;
+      border-bottom: 1px solid var(--border);
+      background: #f8f5ef;
+    }
+    .mini-browser-toolbar button {
+      min-width: 34px;
+      height: 34px;
+      padding: 0 9px;
+      border: 1px solid var(--border2);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--text);
+      cursor: pointer;
+    }
+    .mini-browser-address {
+      flex: 1 1 260px;
+      min-width: 120px;
+      height: 36px;
+      padding: 0 12px;
+      border: 1px solid var(--border2);
+      border-radius: 999px;
+      background: #fff;
+      color: var(--text);
+    }
+    .mini-browser-status {
+      flex: 0 0 100%;
+      color: var(--text2);
+      font-size: .78rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    #mini-browser-content {
+      flex: 1;
+      overflow: auto;
+      padding: clamp(16px, 3vw, 34px);
+      color: #1c1b1a;
+      background: #fffdf8;
+      line-height: 1.65;
+    }
+    #mini-browser-content h1, #mini-browser-content h2, #mini-browser-content h3 {
+      margin: 0 0 .7em;
+      color: #1c1b1a;
+    }
+    #mini-browser-content img { max-width: 100%; height: auto; }
+    #mini-browser-content a { color: #8c2f39; }
+    .mini-browser-note {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 22px;
+      border: 1px dashed #d4c8b9;
+      border-radius: 12px;
+      background: #f8f5ef;
+    }
+
+    #platform-session-dock {
+      position: fixed;
+      inset: 0;
+      z-index: 10020;
+      pointer-events: none;
+    }
+    .platform-session-window {
+      position: fixed;
+      width: clamp(280px, 33.333vw, 520px);
+      height: clamp(150px, 20vh, 230px);
+      min-width: 280px;
+      min-height: 150px;
+      display: none;
+      flex-direction: column;
+      pointer-events: auto;
+      overflow: hidden;
+      border: 1px solid var(--border2);
+      border-radius: 12px;
+      background: #fffdf8;
+      box-shadow: 0 16px 44px rgba(57,43,29,.22);
+    }
+    .platform-session-window.open { display: flex; }
+    .platform-session-window[data-platform="craigslist"] { right: 12px; bottom: 12px; }
+    .platform-session-window[data-platform="adlandpro"] { right: calc(33.333vw + 24px); bottom: 12px; }
+    .platform-session-window[data-platform="classifiedads"] { right: calc(66.666vw + 36px); bottom: 12px; }
+    .platform-session-titlebar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 8px;
+      min-height: 30px;
+      color: #fff;
+      background: #111;
+      font-size: .78rem;
+      font-weight: 700;
+    }
+    .platform-session-titlebar .session-title { flex: 1; }
+    .platform-session-titlebar button {
+      width: 24px;
+      height: 22px;
+      border: 0;
+      border-radius: 5px;
+      color: #fff;
+      background: rgba(255,255,255,.14);
+      cursor: pointer;
+    }
+    .platform-session-body {
+      display: grid;
+      grid-template-columns: minmax(110px, 34%) 1fr;
+      gap: 8px;
+      flex: 1;
+      min-height: 0;
+      padding: 8px;
+    }
+    .platform-session-login {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      min-width: 0;
+      padding-right: 8px;
+      border-right: 1px solid var(--border);
+    }
+    .platform-session-login input {
+      width: 100%;
+      min-height: 24px;
+      padding: 4px 6px;
+      font-size: .72rem;
+      border: 1px solid var(--border2);
+      border-radius: 5px;
+    }
+    .platform-session-login button, .session-open-page {
+      min-height: 25px;
+      padding: 4px 6px;
+      border: 0;
+      border-radius: 5px;
+      color: #fff;
+      background: #111;
+      font-size: .7rem;
+      cursor: pointer;
+    }
+    .session-state {
+      color: var(--text2);
+      font-size: .68rem;
+      line-height: 1.2;
+    }
+    .session-state.connected { color: #1f7a46; }
+    .platform-session-view {
+      min-width: 0;
+      overflow: auto;
+      padding: 4px;
+      color: var(--text2);
+      font-size: .72rem;
+      line-height: 1.35;
+    }
+    .platform-session-progress {
+      margin-top: 6px;
+      padding-top: 6px;
+      border-top: 1px solid var(--border);
+      color: var(--text);
+    }
+    .session-listing-workflow { display:flex; flex-direction:column; gap:6px; min-width:0; }
+    .session-workflow-title { color:var(--text); font-weight:700; font-size:.76rem; }
+    .session-workflow-note { color:var(--text2); font-size:.66rem; line-height:1.25; }
+    .session-listing-card { padding:6px; border:1px solid var(--border); border-radius:7px; background:#fff; }
+    .session-listing-card-head { display:flex; align-items:center; gap:5px; justify-content:space-between; color:var(--text); font-size:.68rem; }
+    .session-listing-card-head strong { min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+    .session-listing-meta { margin-top:3px; color:var(--text2); font-size:.64rem; }
+    .session-listing-card textarea { width:100%; min-height:58px; max-height:88px; margin-top:4px; padding:4px; resize:vertical; box-sizing:border-box; border:1px solid var(--border); border-radius:5px; background:#faf8f2; color:var(--text); font: .62rem/1.25 ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .session-copy-btn, .session-posted-btn, .session-skip-btn { border:0; border-radius:5px; padding:4px 6px; cursor:pointer; font-size:.64rem; white-space:nowrap; }
+    .session-copy-btn { background:#eee8df; color:var(--text); }
+    .session-signout-btn { min-height:25px; padding:4px 6px; border:1px solid #d7a8a2; border-radius:5px; color:#8c2f39; background:#fff7f5; font-size:.7rem; cursor:pointer; }
+    .session-posted-btn { background:#1f7a46; color:#fff; }
+    .session-skip-btn { background:#f3e3e1; color:#8c2f39; }
+    .session-workflow-actions { display:flex; gap:5px; flex-wrap:wrap; }
+    .post-account-connection { margin-left:auto; color:#8c2f39; font-size:.68rem; white-space:nowrap; }
+    .post-account-connection:has(+ *) { }
+
+    @media (max-width: 900px) {
+      .platform-session-window { width: min(92vw, 420px); height: 20vh; min-height: 150px; }
+      .platform-session-window[data-platform="craigslist"],
+      .platform-session-window[data-platform="adlandpro"],
+      .platform-session-window[data-platform="classifiedads"] { right: 4vw; bottom: 10px; }
+    }
+    @media (max-width: 600px) {
+      #mini-browser { inset: 8px; border-radius: 12px; }
+      #mini-browser-btn { padding: 8px; font-size: .78rem; }
+    }
+
     ::-webkit-scrollbar {
       width: 6px;
       height: 6px;
@@ -3060,6 +3511,11 @@
       background: var(--glass2);
     }
 
+    .catalog-pager { display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap; margin:12px 0 4px; padding:10px 0; color:var(--text2); font-size:.76rem; }
+    .catalog-pager-summary { flex:1 1 260px; }
+    .catalog-pager-actions { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+    .catalog-pager-actions .btn-secondary { padding:6px 10px; }
+    .catalog-pager-actions button:disabled { opacity:.45; cursor:not-allowed; }
     .editable-field {
       cursor: pointer;
       border-bottom: 1px dashed var(--muted);
@@ -3109,28 +3565,34 @@
     <a onclick="checkServer(true)">retry</a>.
   </div>
 
-  <!-- Header -->
-  <header>
-    <div class="header-left">
-      <span class="header-logo-icon">⚡</span>
-      <h1 class="header-logo">CLBLAST</h1>
-      <div class="header-status">
-        <div class="live-dot"></div>
-        System Online
+  <!-- Bonds Mall seller header -->
+  <header class="bm-seller-header">
+    <div class="header-left bm-header-left">
+      <button id="hamburger-btn" class="bm-menu-btn" aria-label="Open categories menu" title="Categories" onclick="toggleCategoriesPopup()">
+        <span></span><span></span><span></span>
+      </button>
+      <a class="bm-seller-brand" href="index.html" aria-label="Bonds Mall home">
+        <span class="bm-brand-wordmark">BONDS MALL</span>
+        <img src="bonds-mall-logo.png" alt="Bonds Mall logo" class="bm-brand-image" />
+      </a>
+      <span class="bm-seller-divider" aria-hidden="true"></span>
+      <span class="bm-seller-label">Seller Studio</span>
+    </div>
+    <div class="bm-header-center">
+      <div class="header-search-wrap bm-search-wrap">
+        <span class="header-search-icon" aria-hidden="true">⌕</span>
+        <input type="text" placeholder="Search your catalog…" id="windows-search" aria-label="Search your catalog" />
       </div>
     </div>
-    <div class="header-right">
-      <div class="header-search-wrap">
-        <span class="header-search-icon">🔍</span>
-        <input type="text" placeholder="Global search…" id="windows-search" aria-label="Global search" />
+    <div class="header-right bm-header-right">
+      <div class="header-status bm-system-status">
+        <div class="live-dot"></div>
+        <span>System Online</span>
       </div>
       <div id="server-indicator" title="CLBlast backend server status">
         <div class="si-dot"></div>
         <span id="server-indicator-text">Server</span>
       </div>
-      <button id="hamburger-btn" aria-label="Open categories menu" title="Categories" onclick="toggleCategoriesPopup()">
-        <span></span><span></span><span></span>
-      </button>
     </div>
   </header>
 
@@ -3166,6 +3628,24 @@
 
   <!-- Main -->
   <div id="main">
+
+    <div id="mini-browser-overlay" onclick="closeMiniBrowser()"></div>
+    <section id="mini-browser" role="dialog" aria-modal="true" aria-label="Lightweight browser">
+      <div class="mini-browser-toolbar">
+        <button type="button" onclick="miniBrowserBack()" title="Back" aria-label="Back">←</button>
+        <button type="button" onclick="miniBrowserForward()" title="Forward" aria-label="Forward">→</button>
+        <button type="button" onclick="miniBrowserReload()" title="Reload" aria-label="Reload">↻</button>
+        <input id="mini-browser-address" class="mini-browser-address" type="search" placeholder="Search or enter a web address…" aria-label="Search or enter a web address" onkeydown="if(event.key==='Enter') miniBrowserNavigate(this.value)" />
+        <button type="button" onclick="miniBrowserNavigate(document.getElementById('mini-browser-address').value)" title="Go">Go</button>
+        <button type="button" onclick="closeMiniBrowser()" title="Close" aria-label="Close">✕</button>
+        <div id="mini-browser-status" class="mini-browser-status">Ready. Enter a URL to load a readable page snapshot.</div>
+      </div>
+      <article id="mini-browser-content">
+        <div class="mini-browser-note"><strong>Lightweight browser viewer</strong><p>Enter an HTTPS URL. The viewer downloads readable HTML and strips scripts, frames, forms, and event handlers before displaying it. Some sites block cross-origin browser fetches; those pages can be opened externally instead.</p></div>
+      </article>
+    </section>
+
+    <div id="platform-session-dock" aria-live="polite"></div>
 
     <!-- ═══════════════ ADVERTISE WINDOW ═══════════════ -->
     <section id="advertise-window" class="visible" aria-label="Advertise dashboard">
@@ -3251,6 +3731,7 @@
         <button class="btn-primary" id="add-product-btn" aria-label="Add new product">+ Add Product</button>
       </div>
       <div id="product-display-area"></div>
+      <div id="products-catalog-pager" class="catalog-pager" aria-label="Products catalog pagination"></div>
 
       <!-- NEW MODALS -->
       <div id="product-preview-overlay"></div>
@@ -3417,7 +3898,10 @@
 
     <!-- ═══════════════ ACCOUNTS WINDOW (REBUILT) ═══════════════ -->
     <section id="accounts-window" aria-label="Linked accounts">
-      <div class="form-section-title">🔑 Linked Accounts</div>
+      <div class="accounts-section-heading">
+        <div class="form-section-title">🔑 Linked Accounts</div>
+        <button id="mini-browser-btn" class="btn-secondary bm-browser-btn accounts-browser-btn" type="button" title="Open lightweight browser" onclick="openMiniBrowser()">▣ Browser</button>
+      </div>
       <div class="accounts-grid">
 
         <!-- Craigslist Card -->
@@ -3464,6 +3948,21 @@
             <button class="btn-secondary" onclick="addAccount('classifiedads')">+ Add Another Account</button>
           </div>
         </div>
+
+        <!-- Facebook Marketplace Card -->
+        <div class="account-card" id="card-facebook_marketplace"><div class="account-card-header"><div class="account-card-title"><span class="account-platform-badge badge-fb">FB</span>Facebook Marketplace</div><span class="account-status-pill status-saved" id="badge-facebook_marketplace">0 accounts ✓</span></div><div id="rows-facebook_marketplace"></div><div style="margin-top:16px;"><button class="btn-secondary" onclick="addAccount('facebook_marketplace')">+ Add Another Account</button></div></div>
+
+        <!-- OfferUp Card -->
+        <div class="account-card" id="card-offerup"><div class="account-card-header"><div class="account-card-title"><span class="account-platform-badge badge-ou">OU</span>OfferUp</div><span class="account-status-pill status-saved" id="badge-offerup">0 accounts ✓</span></div><div id="rows-offerup"></div><div style="margin-top:16px;"><button class="btn-secondary" onclick="addAccount('offerup')">+ Add Another Account</button></div></div>
+
+        <!-- Mercari Card -->
+        <div class="account-card" id="card-mercari"><div class="account-card-header"><div class="account-card-title"><span class="account-platform-badge badge-me">ME</span>Mercari</div><span class="account-status-pill status-saved" id="badge-mercari">0 accounts ✓</span></div><div id="rows-mercari"></div><div style="margin-top:16px;"><button class="btn-secondary" onclick="addAccount('mercari')">+ Add Another Account</button></div></div>
+
+        <!-- Poshmark Card -->
+        <div class="account-card" id="card-poshmark"><div class="account-card-header"><div class="account-card-title"><span class="account-platform-badge badge-pm">PM</span>Poshmark</div><span class="account-status-pill status-saved" id="badge-poshmark">0 accounts ✓</span></div><div id="rows-poshmark"></div><div style="margin-top:16px;"><button class="btn-secondary" onclick="addAccount('poshmark')">+ Add Another Account</button></div></div>
+
+        <!-- Nextdoor Card -->
+        <div class="account-card" id="card-nextdoor"><div class="account-card-header"><div class="account-card-title"><span class="account-platform-badge badge-nd">ND</span>Nextdoor</div><span class="account-status-pill status-saved" id="badge-nextdoor">0 accounts ✓</span></div><div id="rows-nextdoor"></div><div style="margin-top:16px;"><button class="btn-secondary" onclick="addAccount('nextdoor')">+ Add Another Account</button></div></div>
 
         <!-- 2Captcha (Single-account, stays unchanged) -->
         <div class="account-card" id="card-2captcha">
@@ -3541,6 +4040,7 @@
             <div class="product-selector" id="post-product-list">
               <div style="color:var(--text2);font-size:.82rem;text-align:center;padding:20px 0;">Loading products…</div>
             </div>
+            <div id="post-products-catalog-pager" class="catalog-pager" aria-label="Post catalog pagination"></div>
             <div style="display:flex;gap:8px;margin-top:10px;">
               <button class="btn-secondary" style="flex:1;padding:8px;" onclick="toggleAllProducts(true)">Select
                 All</button>
@@ -3615,6 +4115,7 @@
               <button class="log-kill-btn" id="log-reset-btn" onclick="resetServerLock()"
                 title="Force-clear stuck server lock"
                 style="margin-left:6px;background:rgba(234,179,8,.15);color:#eab308;">↺ Reset Lock</button>
+              <button class="log-kill-btn" id="campaign-view-btn" onclick="viewLiveCampaign()" title="View live campaign progress" style="margin-left:6px;background:rgba(31,79,143,.12);color:#1f4f8f;">▣ View</button>
             </div>
             <div id="log-output">
               <div class="log-placeholder">
@@ -3640,6 +4141,9 @@
        CONSTANTS & STATE
      ═══════════════════════════════════════════════════════════ */
     const SERVER = 'http://localhost:5000';
+    // Client-only mode prepares and hands off listings without a local server.
+    // It cannot automate third-party logged-in pages from plain browser JS.
+    const CLIENT_ONLY_MODE = true;
     let serverOnline = false;
     let _productsSynced = false;
 
@@ -3657,6 +4161,7 @@
     let lastPostStatus = null;   // { platform: "...", time: Date.now() }
     let _sseSentCount = 0;       // lines already received from /post/stream (for dedup on reconnect)
     let isReconnecting = false;  // prevents overlapping SSE reconnect loops
+    let clientCampaignState = JSON.parse(localStorage.getItem('clblast_client_campaign') || 'null');
 
     /* ═══════════════════════════════════════════════════════════
        SERVER HEALTH CHECK
@@ -3814,7 +4319,7 @@
       const banner = document.getElementById('advertise-posting-banner');
 
       if (runningJob) {
-        const platLabel = runningJob.platform === 'craigslist' ? 'Craigslist' : (runningJob.platform === 'adlandpro' ? 'AdLandPro' : 'ClassifiedAds.com');
+        const platLabel = _PLATFORM_LABELS?.[runningJob.platform] || runningJob.platform;
         postingCardHtml = `
       <div class="stat-card" style="border-color: var(--ca); background: rgba(245,158,11,.08);">
         <div class="stat-card-label" style="color: var(--ca);">Posting State</div>
@@ -3826,7 +4331,7 @@
         if (banner) banner.style.display = 'none';
 
         if (lastPostStatus && (Date.now() - lastPostStatus.time < 5000)) {
-          const platLabel = lastPostStatus.platform === 'craigslist' ? 'Craigslist' : (lastPostStatus.platform === 'adlandpro' ? 'AdLandPro' : 'ClassifiedAds.com');
+          const platLabel = _PLATFORM_LABELS?.[lastPostStatus.platform] || lastPostStatus.platform;
           postingCardHtml = `
         <div class="stat-card" style="border-color: var(--green); background: rgba(16,185,129,.08);">
           <div class="stat-card-label" style="color: var(--green);">Posting State</div>
@@ -3998,93 +4503,89 @@
       return MAP[key] || cat || 'miscellaneous';
     }
 
-    async function loadProducts() {
-      let loadedFromServer = false;
+    let catalogManifest = null;
+    let catalogPage = 1;
+    let catalogPageCache = new Map();
+    let catalogUsesPages = false;
 
-      // 1. Try Railway server first (source of truth for both desktop & mobile)
+    async function loadCatalogManifest() {
+      try {
+        const res = await fetch('catalog-pages/manifest.json?t=' + Date.now(), { signal: AbortSignal.timeout(5000) });
+        if (!res.ok) return null;
+        const manifest = await res.json();
+        if (Number(manifest.totalRecords) > 0 && Number(manifest.pageCount) > 0) return manifest;
+      } catch (e) { console.warn('Catalog manifest unavailable:', e.message); }
+      return null;
+    }
+
+    async function loadCatalogPage(page = 1) {
+      if (!catalogManifest) return false;
+      page = Math.max(1, Math.min(Number(page) || 1, Number(catalogManifest.pageCount)));
+      if (catalogPageCache.has(page)) {
+        allProducts = catalogPageCache.get(page);
+        catalogPage = page;
+        return true;
+      }
+      const filename = `products-page-${String(page).padStart(5, '0')}.js`;
+      try {
+        const res = await fetch(`catalog-pages/${filename}?t=${Date.now()}`, { signal: AbortSignal.timeout(15000) });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const source = await res.text();
+        const start = source.indexOf('window.products.push(...[');
+        const end = source.lastIndexOf(']);');
+        if (start < 0 || end <= start) throw new Error('Invalid catalog chunk');
+        const jsonStart = source.indexOf('[', start);
+        const pageProducts = JSON.parse(source.slice(jsonStart, end + 1));
+        catalogPageCache.set(page, pageProducts);
+        allProducts = pageProducts;
+        catalogPage = page;
+        return true;
+      } catch (e) {
+        console.warn(`Failed to load catalog page ${page}:`, e.message);
+        return false;
+      }
+    }
+
+    function renderCatalogPager() {
+      const html = catalogUsesPages && catalogManifest ? `<div class="catalog-pager-summary">Showing page ${catalogPage.toLocaleString()} of ${Number(catalogManifest.pageCount).toLocaleString()} · ${Number(catalogManifest.totalRecords).toLocaleString()} Bonds Mall products</div><div class="catalog-pager-actions"><button class="btn-secondary" onclick="goCatalogPage(${catalogPage - 1})" ${catalogPage <= 1 ? 'disabled' : ''}>‹ Previous</button><span>Page ${catalogPage.toLocaleString()} / ${Number(catalogManifest.pageCount).toLocaleString()}</span><button class="btn-secondary" onclick="goCatalogPage(${catalogPage + 1})" ${catalogPage >= Number(catalogManifest.pageCount) ? 'disabled' : ''}>Next ›</button></div>` : '';
+      ['products-catalog-pager', 'post-products-catalog-pager'].forEach(id => { const el = document.getElementById(id); if (el) el.innerHTML = html; });
+    }
+
+    async function goCatalogPage(page) {
+      if (!catalogUsesPages || !catalogManifest) return;
+      const ok = await loadCatalogPage(page);
+      if (!ok) { showToast('Could not load that catalog page.', 'error'); return; }
+      renderProducts();
+      buildPostProductList();
+      renderCatalogPager();
+    }
+
+    async function loadProducts() {
+      catalogManifest = await loadCatalogManifest();
+      if (catalogManifest) {
+        catalogUsesPages = true;
+        await loadCatalogPage(1);
+        renderCatalogPager();
+        return;
+      }
+
+      let loaded = false;
       if (serverOnline) {
         try {
-          const res = await fetch(SERVER + '/products', {
-            signal: AbortSignal.timeout(6000)
-          });
-          if (res.ok) {
-            const data = await res.json();
-            if (data.length > 0) {
-              allProducts = data;
-              loadedFromServer = true;
-            }
-          }
-        } catch (e) {
-          console.warn('Failed to fetch products from server:', e.message);
-        }
+          const res = await fetch(SERVER + '/products', { signal: AbortSignal.timeout(6000) });
+          if (res.ok) { const data = await res.json(); if (data.length > 0) { allProducts = data; loaded = true; } }
+        } catch (e) { console.warn('Failed to fetch products from server:', e.message); }
       }
-
-      // 2. Fallback: local products.json (desktop only — mobile won't have this)
-      if (!loadedFromServer) {
+      if (!loaded) {
         try {
-          const res = await fetch('products.json?t=' + Date.now(), {
-            signal: AbortSignal.timeout(3000)
-          });
-          if (res.ok) {
-            const data = await res.json();
-            if (data.length > 0) {
-              allProducts = data;
-              loadedFromServer = true;
-            }
-          }
-        } catch (e) {
-          console.warn('Failed to fetch local products.json:', e.message);
-        }
+          const res = await fetch('products.json?t=' + Date.now(), { signal: AbortSignal.timeout(3000) });
+          if (res.ok) { const data = await res.json(); if (data.length > 0) { allProducts = data; loaded = true; } }
+        } catch (e) { console.warn('Failed to fetch products.json:', e.message); }
       }
-
-      // 3. Final fallback: products.js bundled array (always available — same on desktop & mobile)
-      if (allProducts.length === 0 && typeof products !== 'undefined') {
-        allProducts = products.map(p => ({
-          title: p.name || p.title,
-          description: p.description || '',
-          price: p.price || 0,
-          category: normalizePjsCategory(p.category),
-          condition: 'new',
-          zip_code: '90210',
-          delivery_available: true,
-          photo_paths: p.images || (p.image ? [p.image] : [])
-        }));
-        console.log(`Loaded ${allProducts.length} products from products.js bundle`);
+      if (!loaded && typeof products !== 'undefined') {
+        allProducts = products.map(p => ({ title: p.name || p.title, description: p.description || '', price: p.price || 0, category: normalizePjsCategory(p.category), condition: 'new', zip_code: '90210', delivery_available: true, photo_paths: p.images || (p.image ? [p.image] : []) }));
       }
-
-      // 4. Sort alphabetically (case-insensitive) — ensures consistent order everywhere
-      allProducts.sort((a, b) => {
-        const nameA = (a.title || a.name || '').toLowerCase();
-        const nameB = (b.title || b.name || '').toLowerCase();
-        return nameA.localeCompare(nameB);
-      });
-
-      // 5. Auto-seed server if it has no products yet (first run / new Railway instance)
-      //    This makes ALL products from products.js immediately available on mobile too
-      if (allProducts.length > 0 && serverOnline && !_productsSynced) {
-        _productsSynced = true;
-        try {
-          const checkRes = await fetch(SERVER + '/products', { signal: AbortSignal.timeout(4000) });
-          const existing = checkRes.ok ? await checkRes.json() : [];
-          if (existing.length === 0) {
-            showToast(`Seeding ${allProducts.length} products to server…`, 'info');
-            const syncRes = await fetch(SERVER + '/sync-products', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify(allProducts)
-            });
-            if (syncRes.ok) {
-              const freshRes = await fetch(SERVER + '/products');
-              if (freshRes.ok) {
-                allProducts = await freshRes.json();
-                showToast(`${allProducts.length} products ready ✓`, 'success');
-              }
-            }
-          }
-        } catch (e) {
-          console.warn('Auto-seed skipped:', e.message);
-        }
-      }
+      allProducts.sort((a, b) => (a.title || a.name || '').toLowerCase().localeCompare((b.title || b.name || '').toLowerCase()));
     }
 
     function getConditionClass(condition) {
@@ -4145,6 +4646,7 @@
 
       // Show/hide select all buttons based on whether there are products
       const hasProducts = filtered.length > 0;
+      renderCatalogPager();
       const saBtn = document.getElementById('select-all-products');
       const daBtn = document.getElementById('deselect-all-products');
       if (saBtn) saBtn.style.display = hasProducts ? '' : 'none';
@@ -4329,6 +4831,10 @@
             label: 'Account 1',
             email: parsed.email || '',
             password: parsed.password || '',
+            bulkpost_account_id: parsed.bulkpost_account_id || '',
+            bulkpost_api_base_url: parsed.bulkpost_api_base_url || 'https://bapi.craigslist.org/bulkpost/v1',
+            bulkpost_oauth_url: parsed.bulkpost_oauth_url || 'https://bapi.craigslist.org/bulkpost/oauth/access-token',
+            bulkpost_scope: parsed.bulkpost_scope || 'bulkpost.posting',
             city: parsed.city || '',
             locations: platform === 'craigslist' ? (parsed.locations || []) : undefined,
             selectedLocationIdx: platform === 'craigslist' ? (parsed.selectedLocationIdx ?? -1) : undefined,
@@ -4345,12 +4851,16 @@
     }
 
     function getInitialDefaultAccounts(platform) {
-      const prefix = platform === 'craigslist' ? 'cl' : (platform === 'adlandpro' ? 'ap' : 'ca');
+      const prefix = (typeof PLATFORM_ACCOUNT_PREFIXES !== 'undefined' && PLATFORM_ACCOUNT_PREFIXES[platform]) || (platform === 'craigslist' ? 'cl' : (platform === 'adlandpro' ? 'ap' : 'ca'));
       const defaults = [{
         id: `${prefix}_0`,
         label: 'Account 1',
         email: '',
         password: '',
+        bulkpost_account_id: platform === 'craigslist' ? '' : undefined,
+        bulkpost_api_base_url: platform === 'craigslist' ? 'https://bapi.craigslist.org/bulkpost/v1' : undefined,
+        bulkpost_oauth_url: platform === 'craigslist' ? 'https://bapi.craigslist.org/bulkpost/oauth/access-token' : undefined,
+        bulkpost_scope: platform === 'craigslist' ? 'bulkpost.posting' : undefined,
         city: platform === 'craigslist' ? 'losangeles' : '',
         locations: platform === 'craigslist' ? [] : undefined,
         selectedLocationIdx: platform === 'craigslist' ? -1 : undefined,
@@ -4400,7 +4910,7 @@
        ACCOUNTS TAB RENDERING & ACTIONS
      ═══════════════════════════════════════════════════════════ */
     async function loadAccountsUI() {
-      const platforms = ['craigslist', 'adlandpro', 'classifiedads'];
+      const platforms = ['craigslist', 'adlandpro', 'classifiedads', 'facebook_marketplace', 'offerup', 'mercari', 'poshmark', 'nextdoor'];
       if (serverOnline) {
         for (const plat of platforms) {
           await syncAccountsFromServer(plat);
@@ -4411,6 +4921,7 @@
       platforms.forEach(plat => {
         renderPlatformAccounts(plat, `rows-${plat}`);
         updatePlatformBadge(plat);
+        if (typeof syncPlatformConnectButtons === 'function') syncPlatformConnectButtons(plat);
       });
 
       // Single-key card 2Captcha
@@ -4445,13 +4956,31 @@
             <label>Email</label>
             <input type="email" id="email-${acc.id}" value="${escHtml(acc.email)}" placeholder="you@example.com" oninput="onAccountChange('${platform}', '${acc.id}')" autocomplete="username" />
           </div>
-          <div class="form-group">
-            <label>Password</label>
+          <div class="form-group" style="${CLIENT_ONLY_MODE ? 'display:none;' : ''}">
+            <label>Password <span style="font-size:.7rem;color:var(--text2);text-transform:none;letter-spacing:0;font-weight:400;">(login is handled in the platform popup)</span></label>
             <div class="pw-wrap">
-              <input type="password" id="password-${acc.id}" value="${escHtml(acc.password || '')}" placeholder="••••••••" oninput="onAccountChange('${platform}', '${acc.id}')" autocomplete="current-password" />
+              <input type="password" id="password-${acc.id}" value="${escHtml(acc.password || '')}" placeholder="Not stored in client-only mode" oninput="onAccountChange('${platform}', '${acc.id}')" autocomplete="current-password" />
               <button class="pw-eye" onclick="togglePw('password-${acc.id}', this)" type="button" aria-label="Show/hide password">👁</button>
             </div>
           </div>
+          ${platform === 'craigslist' ? `
+          <div class="form-group full-width" style="margin-top:2px;">
+            <label>Bulkpost account ID <span style="font-size:.7rem;color:var(--text2);text-transform:none;letter-spacing:0;font-weight:400;">(from Craigslist)</span></label>
+            <input type="text" id="bulkpost-account-id-${acc.id}" value="${escHtml(acc.bulkpost_account_id || '')}" placeholder="e.g. 123456" oninput="onAccountChange('${platform}', '${acc.id}')" autocomplete="off" />
+          </div>
+          <div class="form-group full-width" style="margin-top:2px;">
+            <label>Bulkpost API base URL</label>
+            <input type="url" id="bulkpost-api-base-${acc.id}" value="${escHtml(acc.bulkpost_api_base_url || 'https://bapi.craigslist.org/bulkpost/v1')}" oninput="onAccountChange('${platform}', '${acc.id}')" autocomplete="off" />
+          </div>
+          <div class="form-group full-width" style="margin-top:2px;">
+            <label>OAuth token URL</label>
+            <input type="url" id="bulkpost-oauth-url-${acc.id}" value="${escHtml(acc.bulkpost_oauth_url || 'https://bapi.craigslist.org/bulkpost/oauth/access-token')}" oninput="onAccountChange('${platform}', '${acc.id}')" autocomplete="off" />
+          </div>
+          <div class="form-group full-width" style="margin-top:2px;">
+            <label>OAuth scope</label>
+            <input type="text" id="bulkpost-scope-${acc.id}" value="${escHtml(acc.bulkpost_scope || 'bulkpost.posting')}" placeholder="bulkpost.posting" oninput="onAccountChange('${platform}', '${acc.id}')" autocomplete="off" />
+          </div>
+          ` : ''}
           ${platform === 'craigslist' ? `
           <div class="form-group full-width" style="margin-top:2px;">
             <label>Gmail App Password <span style="font-size:.7rem;color:var(--text2);text-transform:none;letter-spacing:0;font-weight:400;">(for OTP — <a href="https://myaccount.google.com/apppasswords" target="_blank" style="color:var(--cl);">generate here</a>)</span></label>
@@ -4485,9 +5014,8 @@
         </div>
         <div class="account-row-actions">
           <button class="btn-save-account" onclick="saveAccount('${platform}', '${acc.id}')">💾 Save</button>
-          ${['craigslist','adlandpro','classifiedads'].includes(platform) ? `<button class="btn-cl-login" id="cl-login-btn-${acc.id}" onclick="openPlatformLogin('${platform}', '${acc.id}')" ${acc.email ? '' : 'disabled'}>🔑 Log in to ${{'craigslist':'Craigslist','adlandpro':'AdLandPro','classifiedads':'ClassifiedAds'}[platform]}</button>
-          <button class="btn-cl-login-done" id="cl-login-done-${acc.id}" onclick="confirmPlatformLogin('${platform}', '${acc.id}')" style="display:none;">✅ I've logged in</button>
-          <button class="btn-cl-continue" id="cl-continue-btn-${acc.id}" onclick="continueWithPlatform('${platform}', '${acc.id}')" ${acc.email ? '' : 'disabled'}>➡️ Continue with ${{'craigslist':'Craigslist','adlandpro':'AdLandPro','classifiedads':'ClassifiedAds'}[platform]}</button>
+          ${platform === 'craigslist' ? `<button class="btn-cl-login" onclick="validateCraigslistBulkpost('${acc.id}')">✓ Validate Bulkpost API</button>` : ''}
+          ${PLATFORM_ACCOUNT_IDS.includes(platform) ? `<button class="btn-cl-login" id="cl-connect-btn-${acc.id}" data-platform="${platform}" data-account-id="${acc.id}" onclick="openPlatformLogin('${platform}', '${acc.id}')" ${acc.email ? '' : 'disabled'}>🔗 Connect</button>
           <span class="cl-login-status" id="cl-login-status-${acc.id}"></span>` : ''}
           <button class="btn-clear-account" onclick="removeAccount('${platform}', '${acc.id}')" ${disableRemove ? 'disabled' : ''}>🗑 Remove</button>
         </div>
@@ -4505,10 +5033,8 @@
       updatePlatformBadge(platform);
       // Enable/disable login button based on email presence
       const emailVal = (document.getElementById(`email-${id}`)?.value || '').trim();
-      const loginBtn = document.getElementById(`cl-login-btn-${id}`);
-      if (loginBtn) loginBtn.disabled = !emailVal;
-      const continueBtn = document.getElementById(`cl-continue-btn-${id}`);
-      if (continueBtn) continueBtn.disabled = !emailVal;
+      const connectBtn = document.getElementById(`cl-connect-btn-${id}`);
+      if (connectBtn) { connectBtn.disabled = !emailVal; connectBtn.textContent = '🔗 Connect'; }
     }
 
     function updatePlatformBadge(platform) {
@@ -4516,7 +5042,7 @@
       if (!badge) return;
       const accounts = getAccounts(platform);
       const total = accounts.length;
-      const savedCount = accounts.filter(a => a.isSaved && a.email && a.password).length;
+      const savedCount = accounts.filter(a => a.isSaved && a.email && (CLIENT_ONLY_MODE || a.password)).length;
       const unsavedCount = total - savedCount;
       if (unsavedCount === 0 && savedCount > 0) {
         badge.className = 'account-status-pill status-saved';
@@ -4532,7 +5058,7 @@
 
     function addAccount(platform) {
       const accounts = getAccounts(platform);
-      const prefix = platform === 'craigslist' ? 'cl' : (platform === 'adlandpro' ? 'ap' : 'ca');
+      const prefix = (typeof PLATFORM_ACCOUNT_PREFIXES !== 'undefined' && PLATFORM_ACCOUNT_PREFIXES[platform]) || (platform === 'craigslist' ? 'cl' : (platform === 'adlandpro' ? 'ap' : 'ca'));
 
       let maxIndex = -1;
       accounts.forEach(acc => {
@@ -4594,6 +5120,14 @@
       const gmail_app_password = platform === 'craigslist'
         ? (document.getElementById(`gmail-app-pw-${id}`)?.value || '')
         : '';
+      const bulkpost_account_id = platform === 'craigslist'
+        ? (document.getElementById(`bulkpost-account-id-${id}`)?.value?.trim() || '') : '';
+      const bulkpost_api_base_url = platform === 'craigslist'
+        ? (document.getElementById(`bulkpost-api-base-${id}`)?.value?.trim() || 'https://bapi.craigslist.org/bulkpost/v1') : '';
+      const bulkpost_oauth_url = platform === 'craigslist'
+        ? (document.getElementById(`bulkpost-oauth-url-${id}`)?.value?.trim() || 'https://bapi.craigslist.org/bulkpost/oauth/access-token') : '';
+      const bulkpost_scope = platform === 'craigslist'
+        ? (document.getElementById(`bulkpost-scope-${id}`)?.value?.trim() || 'bulkpost.posting') : '';
       const city = platform === 'craigslist' ? (document.getElementById(`city-${id}`)?.value?.trim() || '') : '';
 
       const accounts = getAccounts(platform);
@@ -4603,6 +5137,12 @@
         acc.email = email;
         acc.password = password;
         acc.gmail_app_password = gmail_app_password;
+        if (platform === 'craigslist') {
+          acc.bulkpost_account_id = bulkpost_account_id;
+          acc.bulkpost_api_base_url = bulkpost_api_base_url;
+          acc.bulkpost_oauth_url = bulkpost_oauth_url;
+          acc.bulkpost_scope = bulkpost_scope;
+        }
         acc.city = city;
         acc.isSaved = true;
         saveAccounts(platform, accounts);
@@ -4655,6 +5195,26 @@
       }
     }
 
+    async function validateCraigslistBulkpost(accId) {
+      const email = document.getElementById(`email-${accId}`)?.value?.trim() || '';
+      const password = document.getElementById(`password-${accId}`)?.value || '';
+      const accountId = document.getElementById(`bulkpost-account-id-${accId}`)?.value?.trim() || '';
+      const apiBaseUrl = document.getElementById(`bulkpost-api-base-${accId}`)?.value?.trim() || '';
+      const oauthUrl = document.getElementById(`bulkpost-oauth-url-${accId}`)?.value?.trim() || '';
+      const scope = document.getElementById(`bulkpost-scope-${accId}`)?.value?.trim() || 'bulkpost.posting';
+      if (!email || !password || !accountId) { showToast('Enter Craigslist email, password, and Bulkpost account ID first.', 'error'); return; }
+      try {
+        showToast('Validating official Craigslist Bulkpost configuration…', 'info');
+        const res = await fetch(`${SERVER}/api/craigslist/bulkpost/validate`, {
+          method: 'POST', headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email, password, account_id: accountId, api_base_url: apiBaseUrl, oauth_url: oauthUrl, scope })
+        });
+        const data = await res.json();
+        if (!res.ok || !data.ok) throw new Error(data.error || 'Bulkpost validation failed');
+        showToast(`Bulkpost API validated ✓ ${data.credit_available ? 'Billing access confirmed.' : 'Posting access confirmed.'}`, 'success');
+      } catch (err) { showToast('Bulkpost validation failed: ' + err.message, 'error'); }
+    }
+
     function togglePw(inputId, btn) {
       const el = document.getElementById(inputId);
       if (!el) return;
@@ -4666,10 +5226,19 @@
        PLATFORM MANUAL LOGIN
      ═══════════════════════════════════════════════════════════ */
 
-    const _PLATFORM_LABELS = { craigslist: 'Craigslist', adlandpro: 'AdLandPro', classifiedads: 'ClassifiedAds' };
+    const _PLATFORM_LABELS = { craigslist: 'Craigslist', adlandpro: 'AdLandPro', classifiedads: 'ClassifiedAds', facebook_marketplace: 'Facebook Marketplace', offerup: 'OfferUp', mercari: 'Mercari', poshmark: 'Poshmark', nextdoor: 'Nextdoor' };
 
     async function openPlatformLogin(platform, accId) {
       const emailEl = document.getElementById(`email-${accId}`);
+      if (CLIENT_ONLY_MODE) {
+        const email = (emailEl?.value || '').trim();
+        if (!email) { showToast('Enter and save an email first.', 'error'); return; }
+        const statusEl = document.getElementById(`cl-login-status-${accId}`);
+        if (statusEl) statusEl.textContent = 'Opening compact login window…';
+        openPlatformSessionPage(platform);
+        if (statusEl) statusEl.textContent = 'Login window open. Complete login, then click Connect in the popup.';
+        return;
+      }
       const email = (emailEl?.value || '').trim();
       const label = _PLATFORM_LABELS[platform] || platform;
       if (!email) { showToast('Enter an email first.', 'error'); return; }
@@ -4758,6 +5327,17 @@
 
     async function confirmPlatformLogin(platform, accId) {
       const emailEl = document.getElementById(`email-${accId}`);
+      if (CLIENT_ONLY_MODE) {
+        const email = (emailEl?.value || '').trim();
+        if (!email) return;
+        platformSessionState[platform] = { ...(platformSessionState[platform] || {}), email, connected: true, connected_at: Date.now(), minimized: false };
+        savePlatformSessionState();
+        syncPlatformConnectButtons(platform, email);
+        const statusEl = document.getElementById(`cl-login-status-${accId}`);
+        if (statusEl) { statusEl.className = 'cl-login-status success'; statusEl.textContent = 'Connected ✓'; }
+        showToast(`${PLATFORM_SESSION_LABELS[platform]} connected ✓`, 'success');
+        return;
+      }
       const email = (emailEl?.value || '').trim();
       const label = _PLATFORM_LABELS[platform] || platform;
       if (!email) return;
@@ -4974,6 +5554,7 @@
       </div>
     </label>`
       ).join('');
+      renderCatalogPager();
     }
 
     function toggleAllProducts(checked) {
@@ -4987,12 +5568,17 @@
       const platforms = [
         { id: 'craigslist', label: 'Craigslist', color: 'cl' },
         { id: 'adlandpro', label: 'AdLandPro', color: 'ap' },
-        { id: 'classifiedads', label: 'ClassifiedAds.com', color: 'ca' }
+        { id: 'classifiedads', label: 'ClassifiedAds.com', color: 'ca' },
+        { id: 'facebook_marketplace', label: 'Facebook Marketplace', color: 'fb' },
+        { id: 'offerup', label: 'OfferUp', color: 'ou' },
+        { id: 'mercari', label: 'Mercari', color: 'me' },
+        { id: 'poshmark', label: 'Poshmark', color: 'pm' },
+        { id: 'nextdoor', label: 'Nextdoor', color: 'nd' }
       ];
 
       container.innerHTML = platforms.map(plat => {
         const accounts = getAccounts(plat.id).filter(a =>
-          a.isSaved && a.email && (plat.id === 'craigslist' || !!a.password)
+          a.isSaved && a.email && (CLIENT_ONLY_MODE || plat.id === 'craigslist' || !!a.password)
         );
         const hasAccounts = accounts.length > 0;
 
@@ -5030,6 +5616,7 @@
                 <input type="checkbox" class="post-account-cb" data-platform="${plat.id}" data-id="${acc.id}" onchange="onPostAccountSelectionChange()" checked />
                 <span class="post-account-label">${escHtml(acc.label)}</span>
                 <span class="post-account-email">(${escHtml(acc.email)})</span>
+                ${CLIENT_ONLY_MODE ? `<span class="post-account-connection" data-platform="${plat.id}" data-account-id="${acc.id}">${platformSessionState?.[plat.id]?.connected ? 'Connected ✓' : 'Not connected'}</span>` : ''}
               </label>
             `;
         }).join('')}
@@ -5084,11 +5671,8 @@
     }
 
     function getSelectedAccounts() {
-      const result = {
-        craigslist: [],
-        adlandpro: [],
-        classifiedads: []
-      };
+      const result = {};
+      PLATFORM_ACCOUNT_IDS.forEach(platform => { result[platform] = []; });
 
       const cbs = document.querySelectorAll('.post-account-cb:checked');
       cbs.forEach(cb => {
@@ -5150,7 +5734,12 @@
       const rates = {
         craigslist: 180,
         adlandpro: 120,
-        classifiedads: 120
+        classifiedads: 120,
+        facebook_marketplace: 180,
+        offerup: 150,
+        mercari: 150,
+        poshmark: 150,
+        nextdoor: 150
       };
       const postingTimeSecs = numProducts * (rates[platform] || 120);
       // Add inter-post wait time: (numProducts - 1) gaps between posts
@@ -5275,8 +5864,8 @@
           }
         }
 
-        const platLabel = job.platform === 'craigslist' ? 'Craigslist' : (job.platform === 'adlandpro' ? 'AdLandPro' : 'ClassifiedAds.com');
-        const chipClass = `chip-${job.platform === 'craigslist' ? 'Craigslist' : (job.platform === 'adlandpro' ? 'AdLandPro' : 'ClassifiedAds')}`;
+        const platLabel = _PLATFORM_LABELS[job.platform] || job.platform;
+        const chipClass = `chip-${String(job.platform).replace(/[^a-z0-9]+/gi, '-')}`;
 
         return `
             <div class="job-row status-${job.status}" id="job-row-${idx}">
@@ -5365,7 +5954,7 @@
        COMPLETE LAUNCHPOST & RUN QUEUE FLOW
      ═══════════════════════════════════════════════════════════ */
     async function launchPost() {
-      if (!serverOnline) {
+      if (!serverOnline && !CLIENT_ONLY_MODE) {
         showToast('Server is offline. Run python server.py first.', 'error');
         return;
       }
@@ -5384,6 +5973,21 @@
         return;
       }
 
+      if (CLIENT_ONLY_MODE) {
+        const disconnected = Object.entries(selectedAccounts).flatMap(([platform, accounts]) =>
+          accounts.filter(acc => !platformSessionState[platform]?.connected).map(acc => `${platform}:${acc.label}`)
+        );
+        if (disconnected.length) {
+          disconnected.forEach(item => {
+            const [platform] = item.split(':');
+            openPlatformSessionPage(platform);
+          });
+          showToast('Connect every selected platform account in its popup, then launch again.', 'error');
+          appendLog(`[Client-only] Waiting for connected sessions: ${disconnected.join(', ')}`, 'warn');
+          return;
+        }
+      }
+
       const output = document.getElementById('log-output');
       if (output) output.innerHTML = '';
 
@@ -5400,6 +6004,19 @@
 
         if (!account) {
           showToast('Select at least one account.', 'error');
+          return;
+        }
+
+        if (CLIENT_ONLY_MODE) {
+          jobQueue = buildJobQueue(selectedAccounts, selectedIndices);
+          currentJobIndex = -1;
+          const progressContainer = document.getElementById('progress-section-container');
+          if (progressContainer) progressContainer.innerHTML = '';
+          renderProgressSection(jobQueue);
+          const launchBtn = document.getElementById('launch-btn');
+          if (launchBtn) { launchBtn.disabled = true; launchBtn.innerHTML = '<span class="spinner"></span> Preparing Handoffs...'; }
+          appendLog('[Client-only] Preparing local listing handoff bundle. No server or credentials required.', 'system');
+          startNextJob();
           return;
         }
 
@@ -5427,6 +6044,10 @@
           subarea: getActiveLocationCity(account),
           product_indices: selectedIndices,
           account_label: account.label,
+          bulkpost_account_id: account.bulkpost_account_id || '',
+          bulkpost_api_base_url: account.bulkpost_api_base_url || 'https://bapi.craigslist.org/bulkpost/v1',
+          bulkpost_oauth_url: account.bulkpost_oauth_url || 'https://bapi.craigslist.org/bulkpost/oauth/access-token',
+          bulkpost_scope: account.bulkpost_scope || 'bulkpost.posting',
           interval: intervalMins
         };
 
@@ -5490,6 +6111,7 @@
       job.startTime = Date.now();
       jobStartTime = job.startTime;
       currentJobIndex = job.index;
+      if (CLIENT_ONLY_MODE) persistClientCampaign();
 
       renderProgressSection(jobQueue);
       setLogStatus('running');
@@ -5500,6 +6122,11 @@
 
       jobTimerInterval = setInterval(updateRunningJobTimer, 1000);
 
+      if (CLIENT_ONLY_MODE) {
+        runClientOnlyHandoff(job);
+        return;
+      }
+
       let captchaKey = '';
       try {
         const captchaStored = JSON.parse(localStorage.getItem('clblast_2captcha') || '{}');
@@ -5509,6 +6136,131 @@
       }
 
       submitJobToServer(job, captchaKey);
+    }
+
+    function clientPlatformUrl(platform) {
+      return PLATFORM_SESSION_URLS?.[platform] || 'https://www.classifiedads.com/';
+    }
+
+    function buildClientHandoffPayload(job) {
+      const items = (job.productIndices || []).map(idx => {
+        const product = allProducts[idx] || {};
+        return {
+          id: product.id,
+          sku: product.sku,
+          name: product.name || '',
+          description: product.description || '',
+          category: product.category || '',
+          retail_price: product.retailPrice ?? product['retail price'] ?? null,
+          sale_price: product.salePrice ?? product['sale price'] ?? null,
+          image: product.image || (Array.isArray(product.images) ? product.images[0] : ''),
+          images: Array.isArray(product.images) ? product.images : [],
+          source_url: product.source_url || product.sourceUrl || ''
+        };
+      });
+      return {
+        generated_at: new Date().toISOString(),
+        platform: job.platform,
+        destination: clientPlatformUrl(job.platform),
+        account_label: job.accountLabel,
+        location: { city: job.city_name || '', state: job.state || '', zip: job.zip_code || '' },
+        products: items,
+        instructions: 'Open the destination, sign in manually, and paste each prepared listing. This bundle does not automate third-party posting.'
+      };
+    }
+
+    function downloadClientHandoff(payload) {
+      const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `bonds-mall-${payload.platform}-listing-handoff-${Date.now()}.json`;
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+    }
+
+    function persistClientCampaign() {
+      clientCampaignState = {
+        updated_at: Date.now(),
+        jobs: jobQueue.map(job => ({
+          index: job.index,
+          platform: job.platform,
+          accountId: job.accountId,
+          accountLabel: job.accountLabel,
+          status: job.status,
+          startTime: job.startTime,
+          endTime: job.endTime,
+          productIndices: job.productIndices,
+          handoff: job.handoff || null
+        }))
+      };
+      localStorage.setItem('clblast_client_campaign', JSON.stringify(clientCampaignState));
+    }
+
+    function renderClientListingPanel(job) {
+      const view = document.getElementById(`session-view-${job.platform}`);
+      if (!view || !job?.handoff) return;
+      const products = job.handoff.products || [];
+      view.innerHTML = `<div class="session-listing-workflow">
+        <div class="session-workflow-title">Listing ${job.index + 1} · ${escHtml(job.accountLabel || job.platform)}</div>
+        <div class="session-workflow-note">The authenticated platform page is open. Use the prepared listing details below, submit the listing there, then confirm it here.</div>
+        ${products.map((product, productIndex) => `<article class="session-listing-card">
+          <div class="session-listing-card-head"><strong>${escHtml(product.name || 'Untitled product')}</strong><button type="button" class="session-copy-btn" onclick="copyClientListing(${job.index}, ${productIndex})">Copy listing</button></div>
+          <div class="session-listing-meta">Sale $${Number(product.sale_price ?? 0).toFixed(2)} · ${escHtml(product.category || '')}</div>
+          <textarea id="session-listing-${job.index}-${productIndex}" readonly>${escHtml(JSON.stringify({ title: product.name || '', description: product.description || '', price: product.sale_price ?? product.retail_price ?? '', images: product.images || [product.image || ''], source_url: product.source_url || '' }, null, 2))}</textarea>
+        </article>`).join('')}
+        <div class="session-workflow-actions"><button type="button" class="session-posted-btn" onclick="markClientJobPosted(${job.index})">✓ Mark listing posted</button><button type="button" class="session-skip-btn" onclick="markClientJobSkipped(${job.index})">Skip / failed</button></div>
+      </div>`;
+    }
+
+    async function copyClientListing(jobIndex, productIndex) {
+      const job = jobQueue.find(item => item.index === jobIndex);
+      const product = job?.handoff?.products?.[productIndex];
+      if (!product) return;
+      const text = JSON.stringify({ title: product.name || '', description: product.description || '', price: product.sale_price ?? product.retail_price ?? '', images: product.images || [product.image || ''], source_url: product.source_url || '' }, null, 2);
+      try { await navigator.clipboard.writeText(text); showToast('Listing copied to clipboard ✓', 'success'); }
+      catch (_) { showToast('Clipboard access was blocked; use the listing box copy menu.', 'error'); }
+    }
+
+    function markClientJobPosted(jobIndex) {
+      const job = jobQueue.find(item => item.index === jobIndex);
+      if (!job || job.status !== 'running') return;
+      if (!requirePlatformDestination(job.platform, 'listing confirmation')) return;
+      job.status = 'done';
+      job.endTime = Date.now();
+      if (jobTimerInterval) { clearInterval(jobTimerInterval); jobTimerInterval = null; }
+      appendLog(`[Client-only] ${job.platform} listing confirmed posted for ${job.accountLabel} ✓`, 'done');
+      persistClientCampaign();
+      renderProgressSection(jobQueue);
+      updateAllPlatformSessionProgress();
+      setTimeout(startNextJob, 300);
+    }
+
+    function markClientJobSkipped(jobIndex) {
+      const job = jobQueue.find(item => item.index === jobIndex);
+      if (!job || job.status !== 'running') return;
+      if (!requirePlatformDestination(job.platform, 'listing status update')) return;
+      job.status = 'error';
+      job.endTime = Date.now();
+      if (jobTimerInterval) { clearInterval(jobTimerInterval); jobTimerInterval = null; }
+      appendLog(`[Client-only] ${job.platform} listing was skipped or failed for ${job.accountLabel}.`, 'error');
+      persistClientCampaign();
+      renderProgressSection(jobQueue);
+      updateAllPlatformSessionProgress();
+      setTimeout(startNextJob, 300);
+    }
+
+    function runClientOnlyHandoff(job) {
+      const payload = buildClientHandoffPayload(job);
+      job.handoff = payload;
+      persistClientCampaign();
+      openPlatformSessionPage(job.platform);
+      if (!requirePlatformDestination(job.platform, 'listing handoff')) return;
+      renderClientListingPanel(job);
+      updateAllPlatformSessionProgress();
+      appendLog(`[Client-only] ${job.platform} listing prepared for ${job.accountLabel}. Complete the listing in the connected popup and confirm it there.`, 'system');
+      const note = document.getElementById(`session-note-${job.platform}`);
+      if (note) note.textContent = 'Listing prepared. Complete the authenticated form, then confirm it below.';
     }
 
     async function submitJobToServer(job, captchaKey) {
@@ -5728,6 +6480,290 @@
         .replace(/&/g, '&amp;').replace(/</g, '&lt;')
         .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
     }
+
+    const PLATFORM_ACCOUNT_IDS = ['craigslist', 'adlandpro', 'classifiedads', 'facebook_marketplace', 'offerup', 'mercari', 'poshmark', 'nextdoor'];
+    const PLATFORM_ACCOUNT_PREFIXES = { craigslist: 'cl', adlandpro: 'ap', classifiedads: 'ca', facebook_marketplace: 'fb', offerup: 'ou', mercari: 'me', poshmark: 'pm', nextdoor: 'nd' };
+    const PLATFORM_SESSION_URLS = {
+      craigslist: 'https://post.craigslist.org/',
+      adlandpro: 'https://www.adlandpro.com/',
+      classifiedads: 'https://www.classifiedads.com/',
+      facebook_marketplace: 'https://www.facebook.com/marketplace/',
+      offerup: 'https://offerup.com/',
+      mercari: 'https://www.mercari.com/us/how-to-sell/',
+      poshmark: 'https://poshmark.com/',
+      nextdoor: 'https://nextdoor.com/'
+    };
+    const PLATFORM_SESSION_LABELS = {
+      craigslist: 'Craigslist', adlandpro: 'AdLandPro', classifiedads: 'ClassifiedAds',
+      facebook_marketplace: 'Facebook Marketplace', offerup: 'OfferUp', mercari: 'Mercari', poshmark: 'Poshmark', nextdoor: 'Nextdoor'
+    };
+    const PLATFORM_DESTINATION_RULES = {
+      craigslist: { hosts: ['post.craigslist.org', 'accounts.craigslist.org'], path: /^\// },
+      adlandpro: { hosts: ['www.adlandpro.com', 'adlandpro.com'], path: /^\// },
+      classifiedads: { hosts: ['www.classifiedads.com', 'classifiedads.com'], path: /^\// },
+      facebook_marketplace: { hosts: ['www.facebook.com', 'facebook.com'], path: /^\/marketplace(?:\/|$)/ },
+      offerup: { hosts: ['offerup.com', 'www.offerup.com'], path: /^\// },
+      mercari: { hosts: ['www.mercari.com', 'mercari.com'], path: /^\/us\// },
+      poshmark: { hosts: ['poshmark.com', 'www.poshmark.com'], path: /^\// },
+      nextdoor: { hosts: ['nextdoor.com', 'www.nextdoor.com'], path: /^\// }
+    };
+    let platformSessionState = JSON.parse(localStorage.getItem('clblast_platform_sessions') || '{}');
+
+    function savePlatformSessionState() { localStorage.setItem('clblast_platform_sessions', JSON.stringify(platformSessionState)); }
+
+    function platformSessionMarkup(platform) {
+      const label = PLATFORM_SESSION_LABELS[platform];
+      const state = platformSessionState[platform] || {};
+      return `<section class="platform-session-window" id="platform-session-${platform}" data-platform="${platform}" role="dialog" aria-label="${label} session">
+        <div class="platform-session-titlebar"><span class="session-title">${label} · compact session</span><span class="session-state ${state.connected ? 'connected' : ''}" id="session-state-${platform}">${state.connected ? 'Connected' : 'Not connected'}</span><button type="button" onclick="minimizePlatformSession('${platform}')" title="Minimize">—</button></div>
+        <div class="platform-session-body">
+          <div class="platform-session-login">
+            <input id="session-email-${platform}" type="email" placeholder="Email" autocomplete="username" value="${escHtml(state.email || '')}" />
+            <input id="session-password-${platform}" type="password" placeholder="Password (not saved)" autocomplete="current-password" ${state.connected ? 'style="display:none;"' : ''} />
+            <button type="button" id="session-connect-${platform}" onclick="connectPlatformSession('${platform}')" ${state.connected ? 'style="display:none;"' : ''}>Connect</button>
+            <button type="button" class="session-open-page" onclick="openPlatformSessionPage('${platform}')">Open page</button>
+            <button type="button" id="session-signout-${platform}" class="session-signout-btn" onclick="signOutPlatformSession('${platform}')" ${state.connected ? '' : 'style="display:none;"'}>Sign out</button>
+            <div class="session-state" id="session-note-${platform}">${state.connected ? 'Connected marker saved until you sign out.' : 'Login state is local; password is never persisted.'}</div>
+          </div>
+          <div class="platform-session-view" id="session-view-${platform}"><strong>Session ready.</strong><div class="platform-session-progress" id="session-progress-${platform}">No active campaign.</div></div>
+        </div>
+      </section>`;
+    }
+
+    function renderPlatformSessions() {
+      const dock = document.getElementById('platform-session-dock');
+      if (!dock) return;
+      dock.innerHTML = Object.keys(PLATFORM_SESSION_LABELS).map(platformSessionMarkup).join('');
+    }
+
+    function openPlatformSession(platform, url = '') {
+      if (!document.getElementById(`platform-session-${platform}`)) renderPlatformSessions();
+      const panel = document.getElementById(`platform-session-${platform}`);
+      if (panel) panel.classList.add('open');
+      const state = platformSessionState[platform] || {};
+      const email = document.getElementById(`session-email-${platform}`);
+      if (email && !email.value) email.value = state.email || '';
+      updatePlatformSessionUI(platform);
+      updatePlatformSessionProgress(platform);
+      const activeJob = jobQueue.find(job => job.platform === platform && job.status === 'running');
+      if (activeJob?.handoff) renderClientListingPanel(activeJob);
+      if (url) {
+        const requested = platformDestinationCheck(platform, url);
+        if (!requested.valid) {
+          const note = document.getElementById(`session-note-${platform}`);
+          if (note) note.textContent = `Blocked for safety. Expected ${PLATFORM_SESSION_URLS[platform]}`;
+          showToast(`Blocked: URL does not belong to ${PLATFORM_SESSION_LABELS[platform]}.`, 'error');
+          return;
+        }
+        openMiniBrowser(requested.url);
+      }
+    }
+
+    function minimizePlatformSession(platform) {
+      document.getElementById(`platform-session-${platform}`)?.classList.remove('open');
+      platformSessionState[platform] = { ...(platformSessionState[platform] || {}), minimized: true, last_minimized_at: Date.now() };
+      savePlatformSessionState();
+      persistClientCampaign();
+    }
+
+    function syncPlatformConnectButtons(platform, email = '') {
+      document.querySelectorAll(`.btn-cl-login[data-platform="${platform}"]`).forEach(btn => {
+        const accId = btn.dataset.accountId;
+        const rowEmail = document.getElementById(`email-${accId}`)?.value.trim() || '';
+        const connected = Boolean(platformSessionState[platform]?.connected && (!email || rowEmail === email));
+        btn.textContent = connected ? '✓ Connected' : '🔗 Connect';
+        btn.classList.toggle('connected', connected);
+        const status = document.getElementById(`cl-login-status-${accId}`);
+        if (connected && status) { status.className = 'cl-login-status success'; status.textContent = 'Connected ✓'; }
+      });
+    }
+
+    function updatePlatformSessionUI(platform) {
+      const connected = Boolean(platformSessionState[platform]?.connected);
+      const state = document.getElementById(`session-state-${platform}`);
+      const password = document.getElementById(`session-password-${platform}`);
+      const connect = document.getElementById(`session-connect-${platform}`);
+      const signout = document.getElementById(`session-signout-${platform}`);
+      const note = document.getElementById(`session-note-${platform}`);
+      if (state) { state.textContent = connected ? 'Connected' : 'Not connected'; state.classList.toggle('connected', connected); }
+      if (password) password.style.display = connected ? 'none' : '';
+      if (connect) connect.style.display = connected ? 'none' : '';
+      if (signout) signout.style.display = connected ? '' : 'none';
+      if (note) note.textContent = connected ? 'Connected marker saved until you sign out.' : 'Login state is local; password is never persisted.';
+    }
+
+    function signOutPlatformSession(platform) {
+      const previous = platformSessionState[platform] || {};
+      platformSessionState[platform] = { connected: false, email: '', minimized: true, signed_out_at: Date.now(), last_connected_at: previous.connected_at || null };
+      savePlatformSessionState();
+      const email = document.getElementById(`session-email-${platform}`);
+      const password = document.getElementById(`session-password-${platform}`);
+      if (email) email.value = '';
+      if (password) password.value = '';
+      updatePlatformSessionUI(platform);
+      syncPlatformConnectButtons(platform);
+      updateAllPlatformSessionProgress();
+      showToast(`${PLATFORM_SESSION_LABELS[platform]} signed out.`, 'info');
+    }
+
+    function connectPlatformSession(platform) {
+      const email = document.getElementById(`session-email-${platform}`)?.value.trim() || '';
+      if (!email) { showToast(`Enter the ${PLATFORM_SESSION_LABELS[platform]} email first.`, 'error'); return; }
+      platformSessionState[platform] = { ...(platformSessionState[platform] || {}), email, connected: true, connected_at: Date.now(), minimized: false };
+      savePlatformSessionState();
+      updatePlatformSessionUI(platform);
+      syncPlatformConnectButtons(platform, email);
+      const note = document.getElementById(`session-note-${platform}`);
+      if (note) note.textContent = 'Connected marker saved until you sign out. Complete or resume login in the platform page.';
+      openPlatformSessionPage(platform);
+    }
+
+    function getMiniBrowserCurrentUrl() {
+      const address = document.getElementById('mini-browser-address')?.value?.trim();
+      return address || miniBrowserHistory[miniBrowserHistoryIndex] || '';
+    }
+
+    function platformDestinationCheck(platform, rawUrl) {
+      const rule = PLATFORM_DESTINATION_RULES[platform];
+      if (!rule || !rawUrl) return { valid: false, url: '', reason: 'No destination URL is available.' };
+      try {
+        const url = new URL(rawUrl);
+        const hostname = url.hostname.toLowerCase();
+        const valid = url.protocol === 'https:' && rule.hosts.includes(hostname) && rule.path.test(url.pathname || '/');
+        return { valid, url: url.href, reason: valid ? '' : `Expected a secure ${PLATFORM_SESSION_LABELS[platform]} page, received ${url.origin}${url.pathname}` };
+      } catch (_) {
+        return { valid: false, url: String(rawUrl), reason: 'The active destination is not a valid HTTPS URL.' };
+      }
+    }
+
+    function requirePlatformDestination(platform, action = 'posting') {
+      const check = platformDestinationCheck(platform, getMiniBrowserCurrentUrl());
+      if (check.valid) return true;
+      const message = `[Safety] Blocked ${action} for ${PLATFORM_SESSION_LABELS[platform]}: ${check.reason}`;
+      appendLog(message, 'error');
+      showToast(`Blocked: open the correct ${PLATFORM_SESSION_LABELS[platform]} page before continuing.`, 'error');
+      const note = document.getElementById(`session-note-${platform}`);
+      if (note) note.textContent = `Blocked for safety. Expected ${PLATFORM_SESSION_URLS[platform]}`;
+      return false;
+    }
+
+    function openPlatformSessionPage(platform) {
+      const destination = PLATFORM_SESSION_URLS[platform];
+      if (!platformDestinationCheck(platform, destination).valid) {
+        showToast(`Blocked: invalid ${PLATFORM_SESSION_LABELS[platform]} destination.`, 'error');
+        return;
+      }
+      platformSessionState[platform] = { ...(platformSessionState[platform] || {}), active_url: destination };
+      savePlatformSessionState();
+      openPlatformSession(platform);
+      openMiniBrowser(destination);
+      const note = document.getElementById(`session-note-${platform}`);
+      if (note) note.textContent = 'Verified platform page opened in the lightweight viewer. Cross-origin pages may require external browser handoff.';
+    }
+
+    function updatePlatformSessionProgress(platform) {
+      const el = document.getElementById(`session-progress-${platform}`);
+      if (!el) return;
+      const jobs = jobQueue.filter(job => job.platform === platform);
+      if (!jobs.length) { el.textContent = 'No active campaign.'; return; }
+      const done = jobs.filter(job => job.status === 'done').length;
+      const failed = jobs.filter(job => job.status === 'error').length;
+      const running = jobs.find(job => job.status === 'running');
+      el.innerHTML = `<strong>Campaign progress</strong><br>${done}/${jobs.length} jobs complete${failed ? ` · ${failed} failed` : ''}${running ? `<br>Current: ${escHtml(running.accountLabel || platform)}` : ''}`;
+    }
+
+    function updateAllPlatformSessionProgress() {
+      Object.keys(PLATFORM_SESSION_LABELS).forEach(platform => {
+        updatePlatformSessionProgress(platform);
+        const activeJob = jobQueue.find(job => job.platform === platform && job.status === 'running');
+        if (activeJob?.handoff) renderClientListingPanel(activeJob);
+      });
+      document.querySelectorAll('.post-account-connection').forEach(el => {
+        el.textContent = platformSessionState[el.dataset.platform]?.connected ? 'Connected ✓' : 'Not connected';
+      });
+    }
+
+    function viewLiveCampaign() {
+      const active = jobQueue.find(job => job.status === 'running') || jobQueue.find(job => job.status === 'pending') || jobQueue[0];
+      if (active) openPlatformSession(active.platform);
+      else {
+        renderPlatformSessions();
+        Object.keys(PLATFORM_SESSION_LABELS).forEach(platform => document.getElementById(`platform-session-${platform}`)?.classList.add('open'));
+      }
+      updateAllPlatformSessionProgress();
+    }
+
+    renderPlatformSessions();
+
+    let miniBrowserHistory = [];
+    let miniBrowserHistoryIndex = -1;
+
+    function openMiniBrowser(url = '') {
+      document.getElementById('mini-browser-overlay')?.classList.add('open');
+      document.getElementById('mini-browser')?.classList.add('open');
+      const address = document.getElementById('mini-browser-address');
+      if (address) { address.value = url; address.focus(); }
+      if (url) miniBrowserNavigate(url);
+    }
+
+    function closeMiniBrowser() {
+      document.getElementById('mini-browser-overlay')?.classList.remove('open');
+      document.getElementById('mini-browser')?.classList.remove('open');
+    }
+
+    function normalizeMiniBrowserUrl(value) {
+      const raw = String(value || '').trim();
+      if (!raw) return '';
+      if (/^https?:\/\//i.test(raw)) return raw;
+      if (/^[\w.-]+\.[a-z]{2,}(\/.*)?$/i.test(raw)) return `https://${raw}`;
+      return `https://duckduckgo.com/html/?q=${encodeURIComponent(raw)}`;
+    }
+
+    function sanitizeMiniBrowserHtml(html, baseUrl) {
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(html, 'text/html');
+      doc.querySelectorAll('script, iframe, object, embed, form, input, button, textarea, select, link[rel="import"]').forEach(el => el.remove());
+      doc.querySelectorAll('*').forEach(el => {
+        [...el.attributes].forEach(attr => {
+          if (/^on/i.test(attr.name) || attr.name === 'srcdoc') el.removeAttribute(attr.name);
+        });
+      });
+      doc.querySelectorAll('a[href]').forEach(a => {
+        try { a.href = new URL(a.getAttribute('href'), baseUrl).href; a.target = '_blank'; a.rel = 'noopener noreferrer'; }
+        catch (_) { a.removeAttribute('href'); }
+      });
+      doc.querySelectorAll('img[src]').forEach(img => {
+        try { img.src = new URL(img.getAttribute('src'), baseUrl).href; img.loading = 'lazy'; }
+        catch (_) { img.remove(); }
+      });
+      return doc.body?.innerHTML || '<p>No readable page content found.</p>';
+    }
+
+    async function miniBrowserNavigate(value, addHistory = true) {
+      const url = normalizeMiniBrowserUrl(value);
+      if (!url) return;
+      const address = document.getElementById('mini-browser-address');
+      const status = document.getElementById('mini-browser-status');
+      const content = document.getElementById('mini-browser-content');
+      if (address) address.value = url;
+      if (status) status.textContent = `Downloading ${url}…`;
+      if (content) content.innerHTML = '<div class="mini-browser-note">Loading readable page content…</div>';
+      if (addHistory) { miniBrowserHistory = miniBrowserHistory.slice(0, miniBrowserHistoryIndex + 1); miniBrowserHistory.push(url); miniBrowserHistoryIndex++; }
+      try {
+        const response = await fetch(url, { headers: { Accept: 'text/html,application/xhtml+xml' } });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const html = await response.text();
+        if (content) content.innerHTML = sanitizeMiniBrowserHtml(html, url);
+        if (status) status.textContent = `${url} · readable snapshot`;
+      } catch (error) {
+        if (content) content.innerHTML = `<div class="mini-browser-note"><strong>Page could not be downloaded in-page.</strong><p>${escHtml(error.message)}. This is usually caused by the destination site’s cross-origin policy. Use the button below to open it in the normal browser.</p><button type="button" class="btn-primary" onclick="window.open(${JSON.stringify(url)}, '_blank', 'noopener,noreferrer')">Open externally</button></div>`;
+        if (status) status.textContent = `Unable to fetch ${url}`;
+      }
+    }
+
+    function miniBrowserBack() { if (miniBrowserHistoryIndex > 0) miniBrowserNavigate(miniBrowserHistory[--miniBrowserHistoryIndex], false); }
+    function miniBrowserForward() { if (miniBrowserHistoryIndex < miniBrowserHistory.length - 1) miniBrowserNavigate(miniBrowserHistory[++miniBrowserHistoryIndex], false); }
+    function miniBrowserReload() { if (miniBrowserHistory[miniBrowserHistoryIndex]) miniBrowserNavigate(miniBrowserHistory[miniBrowserHistoryIndex], false); }
 
     document.getElementById('windows-search').addEventListener('input', function () {
       const val = this.value.toLowerCase().trim();

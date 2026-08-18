@@ -1,0 +1,3 @@
+The checkout page was reloaded in the browser and the order-verification loader was activated without placing an order.
+
+The loader exists, uses a fixed full-viewport position, displays with CSS grid centering, has z-index 10000, and the logo-centered container also uses grid layout. The semi-diagonal flash element reports the `order-loader-flash` animation. The body receives the `order-verification-open` class to lock page scrolling.

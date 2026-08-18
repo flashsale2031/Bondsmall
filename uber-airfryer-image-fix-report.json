@@ -1,0 +1,11 @@
+{
+  "id": 241,
+  "name": "Uber Appliance XL 7QT Air Fryer",
+  "image": "assets/uber-appliance-7qt/uber-7qt-kitchen.jpg",
+  "images": [
+    "assets/uber-appliance-7qt/uber-7qt-kitchen.jpg",
+    "assets/uber-appliance-7qt/uber-7qt-basket-detail.jpg"
+  ],
+  "source": "https://www.bestbuy.com/product/uber-appliance-xl-air-fryer-7qt-capacity-pfoa-ptfe-free-touchscreen-control-black-with-stainless-steel-accents/JXLLPFJTGR",
+  "match_confidence": "verified-exact-product-gallery"
+}
