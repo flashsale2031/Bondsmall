@@ -114,13 +114,16 @@
             if (typeof window.SRPage !== "undefined" && typeof window.SRPage.refresh === "function") {
                 window.SRPage.refresh();
             }
-        } else {
-            // In-page filtering on index.html
+        } else if (isAllPage) {
+            // all.html owns the full catalog grid and can filter in place.
             const categoryBtns = document.querySelectorAll(".category-btn");
             categoryBtns.forEach(btn => btn.classList.toggle("active", btn.dataset.category === catKey));
-            // Dispatch a custom event to sync with bondsmall.js
             const event = new CustomEvent("drawer-category-select", { detail: { category: catKey } });
             document.dispatchEvent(event);
+        } else {
+            // index.html is a category showcase without the inline product grid.
+            // Navigate to the category results page so every drawer option works.
+            window.location.href = `search-results.html?category=${encodeURIComponent(catKey)}`;
         }
     }
 
