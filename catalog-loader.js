@@ -8,7 +8,8 @@
   const pending = new Map();
   const base = 'catalog-pages/';
   const target = window.products = window.products || [];
-  const version = '2.3.8';
+  const authority = window.BondsmallCatalogAuthority || { records: [], has: () => false, get: () => null };
+  const version = '2.3.9';
   const categoryIndex = (window.BondsmallCategoryIndex && window.BondsmallCategoryIndex.categories) || {};
   const categoryStates = new Map();
 
@@ -16,9 +17,18 @@
     return Math.max(0, Math.min(PAGE_COUNT - 1, Number(index) || 0));
   }
 
+  function preferAuthoritative(records) {
+    const incoming = Array.isArray(records) ? records : [];
+    if (!authority.records.length) return incoming.slice();
+    const originalIds = new Set(authority.records.map(product => Number(product.id)));
+    const missingFromAuthority = incoming.filter(product => !originalIds.has(Number(product.id)));
+    return authority.records.concat(missingFromAuthority);
+  }
+
   function setTarget(records) {
+    const preferred = preferAuthoritative(records);
     target.length = 0;
-    target.push(...records);
+    target.push(...preferred);
     window.products = target;
   }
 
@@ -39,7 +49,7 @@
       script.src = `${base}products-page-${String(index + 1).padStart(5, '0')}.js?v=${version}`;
       script.onload = () => {
         window.products = previousProducts;
-        const records = capture.slice();
+        const records = preferAuthoritative(capture.slice());
         if (!records.length) {
           pending.delete(index);
           reject(new Error(`Catalog page ${index + 1} returned no products`));
@@ -126,16 +136,20 @@
       return fetchPage(Math.floor((id - 1) / PAGE_SIZE)).then((records) => records.find((product) => Number(product.id) === id) || null);
     },
     hydrateFirstChunk: () => fetchPage(0),
+    getAuthoritativeRecords: () => authority.records.slice(),
   };
 
   // Preserve the synchronous first-page experience. On direct later-page URLs,
   // do not hydrate page 1 asynchronously because that would overwrite the
   // requested page after its own chunk has loaded.
+  // Snapshot the authoritative records before any lazy chunk can replace them.
+  if (authority.records.length) setTarget(authority.records);
+
   const initialParams = new URLSearchParams(window.location.search);
   const initialPage = Math.max(1, Number(initialParams.get('page')) || 1);
   const initialCategory = String(initialParams.get('category') || '').trim();
   if (target.length > 0) {
-    loaded.set(0, target.slice(0, PAGE_SIZE));
+      loaded.set(0, preferAuthoritative(target.slice(0, PAGE_SIZE)));
     window.BondsmallCatalogReady = true;
     document.dispatchEvent(new CustomEvent('bondsmall-catalog-ready'));
     // Category requests own the shared target array. Do not asynchronously restore
