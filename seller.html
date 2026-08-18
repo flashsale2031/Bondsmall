@@ -3153,6 +3153,36 @@
     #captcha-window-list .captcha-window-clear { border: 0; background: transparent; color: var(--accent); cursor: pointer; font-size: .75rem; white-space: nowrap; }
     #captcha-window-list .captcha-window-clear { color: #ff8a80; }
 
+    /* Platform procedure builder */
+    .platform-config-btn { margin-left:8px; }
+    .procedure-modal { position:fixed; inset:0; z-index:100; display:none; align-items:center; justify-content:center; background:rgba(28,27,26,.35); padding:18px; }
+    .procedure-modal.visible { display:flex; }
+    .procedure-shell { position:relative; width:min(1080px,100%); max-height:min(760px,92vh); overflow:auto; background:var(--card); border:1px solid var(--border); border-radius:16px; box-shadow:var(--shadow-lg); padding:20px; }
+    .procedure-header { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:14px; }
+    .procedure-header h2 { margin:0; }
+    .procedure-grid { display:grid; grid-template-columns:220px minmax(0,1fr); gap:16px; }
+    .procedure-toolkit,.procedure-display { border:1px solid var(--border); border-radius:12px; background:#fffdf8; padding:14px; }
+    .procedure-toolkit h3,.procedure-display h3 { margin:0 0 10px; font-size:.95rem; }
+    .procedure-tool { display:block; width:100%; text-align:left; margin:7px 0; padding:9px 10px; border:1px solid var(--border); border-radius:8px; background:#f8f5ef; color:var(--text); cursor:pointer; }
+    .procedure-tool:hover { background:#eee7dc; }
+    .procedure-step { display:grid; grid-template-columns:36px minmax(0,1fr) auto; align-items:center; gap:8px; padding:9px; border-bottom:1px solid var(--border); }
+    .procedure-step:last-child { border-bottom:0; }
+    .procedure-step-num { color:var(--muted); font-weight:700; }
+    .procedure-step-main { min-width:0; }
+    .procedure-step-title { font-weight:700; }
+    .procedure-step-detail { color:var(--text2); font-size:.78rem; overflow-wrap:anywhere; }
+    .procedure-menu { position:relative; }
+    .procedure-menu > button { border:0; background:transparent; font-size:1.2rem; cursor:pointer; color:var(--text2); }
+    .procedure-menu-list { position:absolute; right:0; top:28px; z-index:5; display:none; min-width:120px; padding:5px; border:1px solid var(--border); border-radius:8px; background:#fffdf8; box-shadow:var(--shadow-md); }
+    .procedure-menu.open .procedure-menu-list { display:block; }
+    .procedure-menu-list button { display:block; width:100%; border:0; background:transparent; text-align:left; padding:7px 8px; cursor:pointer; color:var(--text); }
+    .procedure-menu-list button:hover { background:#eee7dc; }
+    .procedure-floating { position:absolute; right:20px; top:78px; z-index:4; cursor:move; user-select:none; }
+    .procedure-empty { color:var(--text2); font-size:.84rem; padding:14px 0; }
+    .saved-procedure-row { display:flex; align-items:center; justify-content:space-between; gap:8px; padding:6px 0; border-bottom:1px solid var(--border); }
+    .saved-procedure-row:last-child { border-bottom:0; }
+    @media (max-width:700px) { .procedure-grid { grid-template-columns:1fr; } .procedure-floating { position:sticky; top:4px; } }
+
     /* Embedded Bonds Mall Affiliate section */
     #affiliate-window { display: none; }
     #affiliate-window.visible { display: block; }
@@ -3853,6 +3883,18 @@
   </div>
 
   <!-- Toast -->
+  <div id="procedure-modal" class="procedure-modal" role="dialog" aria-modal="true" aria-labelledby="procedure-modal-title">
+    <div class="procedure-shell" id="procedure-shell">
+      <button class="btn-secondary procedure-floating" id="procedure-floating-btn" type="button" onclick="toggleProcedureToolkit()">Procedure</button>
+      <div class="procedure-header"><h2 id="procedure-modal-title">Configure Platform Procedure</h2><button class="btn-secondary" type="button" onclick="closeProcedureBuilder()">Close</button></div>
+      <div class="procedure-grid">
+        <aside class="procedure-toolkit" id="procedure-toolkit"><h3>Toolkit</h3>
+          <button class="procedure-tool" onclick="addProcedureStep('Start')">Start</button><button class="procedure-tool" onclick="addProcedureStep('Select Element')">Select Element</button><button class="procedure-tool" onclick="addProcedureStep('Save Element')">Save Element</button><button class="procedure-tool" onclick="addProcedureStep('Name Element')">Name Element</button><button class="procedure-tool" onclick="addProcedureStep('Name Page')">Name Page</button><button class="procedure-tool" onclick="addProcedureStep('Save Page URL')">Save Page URL</button><button class="procedure-tool" onclick="addProcedureStep('Add Wait')">Add Wait</button><button class="procedure-tool" onclick="addProcedureStep('End')">End</button><button class="procedure-tool" onclick="saveCurrentProcedure()">Save Procedure</button>
+        </aside>
+        <section class="procedure-display"><h3>Procedure Steps <span id="procedure-platform-label"></span></h3><div id="procedure-step-list"></div><div id="procedure-saved-list"></div></section>
+      </div>
+    </div>
+  </div>
   <div id="toast" role="alert"></div>
 
   <!-- Link products database file -->
@@ -4125,6 +4167,35 @@
     }
 
     updateSellerAffiliateSummary();
+
+    /* ═══════════════════════════════════════════════════════════
+       PLATFORM PROCEDURE BUILDER
+     ═══════════════════════════════════════════════════════════ */
+    const procedureStorageKey = 'bondsmall_platform_procedures_v1';
+    let activeProcedurePlatform = '';
+    let activeProcedureId = '';
+    let activeProcedureSteps = [];
+    let procedureWindowRef = null;
+    function getStoredProcedures() { try { const v=JSON.parse(localStorage.getItem(procedureStorageKey)||'{}'); return v && typeof v==='object' ? v : {}; } catch(e){return {};} }
+    function saveStoredProcedures(v) { localStorage.setItem(procedureStorageKey, JSON.stringify(v)); }
+    function proceduresFor(platform) { const v=getStoredProcedures(); return Array.isArray(v[platform]) ? v[platform] : []; }
+    function renderProcedureOptions(platform) { return proceduresFor(platform).map(p=>`<option value="${escHtml(p.id)}">${escHtml(p.name)} (${p.steps.length} steps)</option>`).join(''); }
+    function getSelectedPlatformProcedure(platform) { return document.querySelector(`.procedure-select[data-platform="${platform}"]`)?.value || ''; }
+    function selectPlatformProcedure(platform, id) { if(id) appendLog(`[Procedure] ${PLATFORM_CONFIG[platform]?.label||platform}: selected saved procedure ${id}.`,'info'); }
+    function openPlatformConfigure(platform) { activeProcedurePlatform=platform; activeProcedureId=''; activeProcedureSteps=[]; const cfg=PLATFORM_CONFIG[platform]||{}; document.getElementById('procedure-modal-title').textContent=`Configure ${cfg.label||platform}`; document.getElementById('procedure-platform-label').textContent=`— ${cfg.label||platform}`; renderProcedureSteps(); renderSavedProcedures(); document.getElementById('procedure-modal').classList.add('visible'); if(cfg.loginUrl) procedureWindowRef=window.open(cfg.loginUrl,`bondsmall-procedure-${platform}`,'popup,width=1280,height=900,resizable=yes,scrollbars=yes'); }
+    function closeProcedureBuilder(){ document.getElementById('procedure-modal')?.classList.remove('visible'); activeProcedurePlatform=''; activeProcedureId=''; activeProcedureSteps=[]; }
+    function toggleProcedureToolkit(){ document.getElementById('procedure-toolkit')?.classList.toggle('hidden'); }
+    function addProcedureStep(type){ const defaults={ 'Select Element':'CSS selector: click Select Element, then enter the selector','Save Element':'Saved element reference','Name Element':'Element name','Name Page':'Page name','Save Page URL':'https://','Add Wait':'1000 ms' }; const detail=window.prompt(`Enter details for ${type}:`,defaults[type]||''); if(detail===null)return; activeProcedureSteps.push({id:`step-${Date.now()}-${Math.random().toString(36).slice(2,7)}`,type,detail}); renderProcedureSteps(); }
+    function editProcedureStep(id){ const step=activeProcedureSteps.find(s=>s.id===id); if(!step)return; const next=window.prompt(`Edit ${step.type}:`,step.detail||''); if(next!==null){step.detail=next;renderProcedureSteps();} }
+    function deleteProcedureStep(id){ activeProcedureSteps=activeProcedureSteps.filter(s=>s.id!==id); renderProcedureSteps(); }
+    function duplicateProcedureStep(id){ const step=activeProcedureSteps.find(s=>s.id===id); if(step){activeProcedureSteps.splice(activeProcedureSteps.indexOf(step)+1,0,{...step,id:`step-${Date.now()}-${Math.random().toString(36).slice(2,7)}`});renderProcedureSteps();} }
+    function renderProcedureSteps(){ const el=document.getElementById('procedure-step-list'); if(!el)return; el.innerHTML=activeProcedureSteps.length?activeProcedureSteps.map((s,i)=>`<div class="procedure-step"><span class="procedure-step-num">${i+1}</span><div class="procedure-step-main"><div class="procedure-step-title">${escHtml(s.type)}</div><div class="procedure-step-detail">${escHtml(s.detail||'')}</div></div><div class="procedure-menu"><button type="button" onclick="this.parentElement.classList.toggle('open')">⋮</button><div class="procedure-menu-list"><button type="button" onclick="editProcedureStep('${s.id}')">Edit</button><button type="button" onclick="duplicateProcedureStep('${s.id}')">Replicate</button><button type="button" onclick="deleteProcedureStep('${s.id}')">Delete</button></div></div></div>`).join(''):'<div class="procedure-empty">Add a toolkit step to begin.</div>'; }
+    function renderSavedProcedures(){ const el=document.getElementById('procedure-saved-list'); if(!el)return; const list=proceduresFor(activeProcedurePlatform); el.innerHTML=`<h3 style="margin-top:18px;">Saved Procedures <button class="btn-secondary" style="float:right;padding:5px 8px;" type="button" onclick="startNewProcedure()">New Procedure</button></h3>`+(list.length?list.map(p=>`<div class="saved-procedure-row"><span>${escHtml(p.name)} <small>(${p.steps.length} steps)</small></span><span><button class="btn-secondary" type="button" onclick="loadSavedProcedure('${p.id}')">Configure</button><button class="btn-secondary" type="button" onclick="launchSavedProcedure('${p.id}')">Launch</button></span></div>`).join(''):'<div class="procedure-empty">No saved procedures for this platform.</div>'); }
+    function startNewProcedure(){ activeProcedureId='';activeProcedureSteps=[];renderProcedureSteps(); }
+    function saveCurrentProcedure(){ if(!activeProcedurePlatform)return; if(!activeProcedureSteps.length){window.alert('Add at least one procedure step before saving.');return;} const name=window.prompt('Name this procedure:',activeProcedureId||`${PLATFORM_CONFIG[activeProcedurePlatform]?.label||activeProcedurePlatform} procedure`); if(!name)return; const v=getStoredProcedures(); const id=activeProcedureId||`proc-${Date.now()}`; const item={id,name,platform:activeProcedurePlatform,steps:activeProcedureSteps.map(x=>({...x})),updatedAt:new Date().toISOString()}; v[activeProcedurePlatform]=proceduresFor(activeProcedurePlatform).filter(p=>p.id!==id).concat(item);saveStoredProcedures(v);activeProcedureId=id;renderSavedProcedures();refreshPostTab();appendLog(`[Procedure] Saved ${name} for ${PLATFORM_CONFIG[activeProcedurePlatform]?.label||activeProcedurePlatform}.`,'success'); }
+    function loadSavedProcedure(id){ const p=proceduresFor(activeProcedurePlatform).find(x=>x.id===id); if(!p)return;activeProcedureId=p.id;activeProcedureSteps=p.steps.map(x=>({...x}));renderProcedureSteps(); }
+    function launchSavedProcedure(id){ const p=proceduresFor(activeProcedurePlatform).find(x=>x.id===id); if(!p)return; const cfg=PLATFORM_CONFIG[activeProcedurePlatform]||{}; if(cfg.loginUrl)procedureWindowRef=window.open(cfg.loginUrl,`bondsmall-procedure-run-${activeProcedurePlatform}`,'popup,width=1280,height=900,resizable=yes,scrollbars=yes'); appendLog(`[Procedure] ${p.name} ready for ${cfg.label||activeProcedurePlatform}; complete any login/CAPTCHA steps in the opened window.`,'warn'); }
+    (function makeProcedureButtonDraggable(){ const b=document.getElementById('procedure-floating-btn'); const shell=document.getElementById('procedure-shell'); if(!b||!shell)return; let drag=false,ox=0,oy=0; b.addEventListener('pointerdown',e=>{drag=true;ox=e.clientX-b.offsetLeft;oy=e.clientY-b.offsetTop;b.setPointerCapture(e.pointerId);}); b.addEventListener('pointermove',e=>{if(!drag)return;const r=shell.getBoundingClientRect();b.style.left=Math.max(8,Math.min(r.width-b.offsetWidth-8,e.clientX-r.left-ox))+'px';b.style.top=Math.max(8,Math.min(r.height-b.offsetHeight-8,e.clientY-r.top-oy))+'px';b.style.right='auto';}); b.addEventListener('pointerup',()=>drag=false); })();
 
     /* ═══════════════════════════════════════════════════════════
        ADVERTISE SUB-TABS
@@ -5429,7 +5500,7 @@
               <span class="platform-toggle-dot pt-${plat.color}"></span>
               <span class="platform-select-name" style="margin-left: 8px;">${plat.label}</span>
             </div>
-            <span class="platform-select-no-creds">No accounts saved — go to Accounts tab</span>
+            <span class="platform-select-no-creds">No accounts saved — go to Accounts tab</span><button class="btn-ghost-small platform-config-btn" onclick="openPlatformConfigure('${plat.id}')">Configure</button>
           </div>
         </div>
       `;
@@ -5446,7 +5517,13 @@
           <div class="platform-select-header-right">
             <button class="btn-ghost-small" onclick="bulkSelectPlatformAccounts('${plat.id}', true)">Select All</button>
             <button class="btn-ghost-small" onclick="bulkSelectPlatformAccounts('${plat.id}', false)">Deselect All</button>
+            <button class="btn-ghost-small platform-config-btn" onclick="openPlatformConfigure('${plat.id}')">Configure</button>
           </div>
+        </div>
+        <div class="saved-procedure-picker" style="padding:8px 12px;border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
+          <label style="font-size:.76rem;color:var(--text2);">Saved procedure
+            <select class="procedure-select" data-platform="${plat.id}" onchange="selectPlatformProcedure('${plat.id}', this.value)" style="margin-left:6px;max-width:260px;"><option value="">Manual / none</option>${renderProcedureOptions(plat.id)}</select>
+          </label>
         </div>
         <div class="platform-accounts-list" id="accounts-list-${plat.id}">
           ${accounts.map(acc => {
@@ -5509,11 +5586,7 @@
     }
 
     function getSelectedAccounts() {
-      const result = {
-        craigslist: [],
-        adlandpro: [],
-        classifiedads: []
-      };
+      const result = {};
 
       const cbs = document.querySelectorAll('.post-account-cb:checked');
       cbs.forEach(cb => {
@@ -5560,6 +5633,7 @@
             city_name: platform === 'craigslist' ? getActiveLocationCity(acc) : '',
             subarea: platform === 'craigslist' ? getActiveLocationCity(acc) : '',
             productIndices: selectedProductIndices,
+            procedureId: getSelectedPlatformProcedure(platform),
             status: 'pending',
             startTime: null,
             endTime: null,
