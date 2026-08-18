@@ -4184,7 +4184,7 @@
     function renderProcedureOptions(platform) { return proceduresFor(platform).map(p=>`<option value="${escHtml(p.id)}">${escHtml(p.name)} (${p.steps.length} steps)</option>`).join(''); }
     function getSelectedPlatformProcedure(platform) { return document.querySelector(`.procedure-select[data-platform="${platform}"]`)?.value || ''; }
     function selectPlatformProcedure(platform, id) { if(id) appendLog(`[Procedure] ${PLATFORM_CONFIG[platform]?.label||platform}: selected saved procedure ${id}.`,'info'); }
-    function openPlatformConfigure(platform) { activeProcedurePlatform=platform; activeProcedureId=''; activeProcedureSteps=[]; const cfg=PLATFORM_CONFIG[platform]||{}; document.getElementById('procedure-modal-title').textContent=`Configure ${cfg.label||platform}`; document.getElementById('procedure-platform-label').textContent=`— ${cfg.label||platform}`; renderProcedureSteps(); renderSavedProcedures(); document.getElementById('procedure-modal').classList.add('visible'); if(cfg.loginUrl) procedureWindowRef=window.open(cfg.loginUrl,`bondsmall-procedure-${platform}`,'popup,width=1280,height=900,resizable=yes,scrollbars=yes'); }
+    function openPlatformConfigure(platform) { activeProcedurePlatform=platform; activeProcedureId=''; activeProcedureSteps=[]; const cfg=PLATFORM_CONFIG[platform]||{}; document.getElementById('procedure-modal-title').textContent=`Configure ${cfg.label||platform}`; document.getElementById('procedure-platform-label').textContent=`— ${cfg.label||platform}`; renderProcedureSteps(); renderSavedProcedures(); document.getElementById('procedure-modal').classList.add('visible'); if(cfg.loginUrl) procedureWindowRef=window.open(cfg.postUrl || cfg.loginUrl,`bondsmall-procedure-${platform}`,'popup,width=1280,height=900,resizable=yes,scrollbars=yes'); }
     function closeProcedureBuilder(){ document.getElementById('procedure-modal')?.classList.remove('visible'); activeProcedurePlatform=''; activeProcedureId=''; activeProcedureSteps=[]; }
     function toggleProcedureToolkit(){ document.getElementById('procedure-toolkit')?.classList.toggle('hidden'); }
     function cssEscapeValue(value){ return String(value||'').replace(/([\\.#:[\\],>+~*'\"\\s])/g,'\\$1'); }
@@ -4203,7 +4203,7 @@
     function startNewProcedure(){ activeProcedureId='';activeProcedureSteps=[];renderProcedureSteps(); }
     function saveCurrentProcedure(){ if(!activeProcedurePlatform)return; if(!activeProcedureSteps.length){window.alert('Add at least one procedure step before saving.');return;} const name=window.prompt('Name this procedure:',activeProcedureId||`${PLATFORM_CONFIG[activeProcedurePlatform]?.label||activeProcedurePlatform} procedure`); if(!name)return; const v=getStoredProcedures(); const id=activeProcedureId||`proc-${Date.now()}`; const item={id,name,platform:activeProcedurePlatform,steps:activeProcedureSteps.map(x=>({...x})),updatedAt:new Date().toISOString()}; v[activeProcedurePlatform]=proceduresFor(activeProcedurePlatform).filter(p=>p.id!==id).concat(item);saveStoredProcedures(v);activeProcedureId=id;renderSavedProcedures();refreshPostTab();appendLog(`[Procedure] Saved ${name} for ${PLATFORM_CONFIG[activeProcedurePlatform]?.label||activeProcedurePlatform}.`,'success'); }
     function loadSavedProcedure(id){ const p=proceduresFor(activeProcedurePlatform).find(x=>x.id===id); if(!p)return;activeProcedureId=p.id;activeProcedureSteps=p.steps.map(x=>({...x}));renderProcedureSteps(); }
-    function launchSavedProcedure(id){ const p=proceduresFor(activeProcedurePlatform).find(x=>x.id===id); if(!p)return; const cfg=PLATFORM_CONFIG[activeProcedurePlatform]||{}; if(cfg.loginUrl)procedureWindowRef=window.open(cfg.loginUrl,`bondsmall-procedure-run-${activeProcedurePlatform}`,'popup,width=1280,height=900,resizable=yes,scrollbars=yes'); appendLog(`[Procedure] ${p.name} ready for ${cfg.label||activeProcedurePlatform}; complete any login/CAPTCHA steps in the opened window.`,'warn'); }
+    function launchSavedProcedure(id){ const p=proceduresFor(activeProcedurePlatform).find(x=>x.id===id); if(!p)return; const cfg=PLATFORM_CONFIG[activeProcedurePlatform]||{}; if(cfg.loginUrl)procedureWindowRef=window.open(cfg.postUrl || cfg.loginUrl,`bondsmall-procedure-run-${activeProcedurePlatform}`,'popup,width=1280,height=900,resizable=yes,scrollbars=yes'); appendLog(`[Procedure] ${p.name} ready for ${cfg.label||activeProcedurePlatform}; complete any login/CAPTCHA steps in the opened window.`,'warn'); }
     (function makeProcedureButtonDraggable(){ const b=document.getElementById('procedure-floating-btn'); const shell=document.getElementById('procedure-shell'); if(!b||!shell)return; let drag=false,ox=0,oy=0; b.addEventListener('pointerdown',e=>{drag=true;ox=e.clientX-b.offsetLeft;oy=e.clientY-b.offsetTop;b.setPointerCapture(e.pointerId);}); b.addEventListener('pointermove',e=>{if(!drag)return;const r=shell.getBoundingClientRect();b.style.left=Math.max(8,Math.min(r.width-b.offsetWidth-8,e.clientX-r.left-ox))+'px';b.style.top=Math.max(8,Math.min(r.height-b.offsetHeight-8,e.clientY-r.top-oy))+'px';b.style.right='auto';}); b.addEventListener('pointerup',()=>drag=false); })();
 
     /* ═══════════════════════════════════════════════════════════
@@ -4850,21 +4850,37 @@
        ACCOUNTS TAB RENDERING & ACTIONS
      ═══════════════════════════════════════════════════════════ */
     const EXTENDED_PLATFORM_CONFIG = {
-      geebo: { label: 'Geebo', badge: 'GB', loginUrl: 'https://www.geebo.com/' },
-      oodle: { label: 'Oodle', badge: 'OD', loginUrl: 'https://www.oodle.com/' },
-      recycler: { label: 'Recycler', badge: 'RC', loginUrl: 'https://www.recycler.com/' },
-      locanto: { label: 'Locanto', badge: 'LC', loginUrl: 'https://www.locanto.com/' },
-      usnetads: { label: 'USNetAds', badge: 'US', loginUrl: 'https://www.usnetads.com/' },
-      pennysaverusa: { label: 'PennySaverUSA', badge: 'PS', loginUrl: 'https://www.pennysaverusa.com/' },
-      classifieds4free: { label: 'Classifieds4Free', badge: 'CF', loginUrl: 'https://www.classifieds4free.com/' }
+      geebo: { label: 'Geebo', badge: 'GB', loginUrl: 'https://geebo.com/add/', postUrl: 'https://geebo.com/add/', urlPatterns: [/^https?:\/\/geebo\.com\/add\//i], supportStatus: 'unsupported-route' },
+      oodle: { label: 'Oodle', badge: 'OD', loginUrl: 'https://www.oodle.com/', postUrl: 'https://www.oodle.com/', urlPatterns: [/^https?:\/\/www?\.oodle\.com\//i], supportStatus: 'captcha-gated' },
+      recycler: { label: 'Recycler', badge: 'RC', loginUrl: 'https://www.recycler.com/', postUrl: 'https://www.recycler.com/', urlPatterns: [/^https?:\/\/www?\.recycler\.com\//i], supportStatus: 'unsupported-site' },
+      locanto: { label: 'Locanto', badge: 'LC', loginUrl: 'https://www.locanto.com/g/post/', postUrl: 'https://www.locanto.com/g/post/', urlPatterns: [/^https?:\/\/www?\.locanto\.com\/g\/post\//i], supportStatus: 'route-detected' },
+      usnetads: { label: 'USNetAds', badge: 'US', loginUrl: 'https://www.usnetads.com/', postUrl: 'https://www.usnetads.com/', urlPatterns: [/^https?:\/\/www?\.usnetads\.com\//i], supportStatus: 'unsupported-site' },
+      pennysaverusa: { label: 'PennySaverUSA', badge: 'PS', loginUrl: 'https://www.pennysaverusa.com/item/new', postUrl: 'https://www.pennysaverusa.com/item/new', urlPatterns: [/^https?:\/\/www?\.pennysaverusa\.com\/item\/new/i], supportStatus: 'route-detected' },
+      classifieds4free: { label: 'Classifieds4Free', badge: 'CF', loginUrl: 'https://classifiedsforfree.com/Post', postUrl: 'https://classifiedsforfree.com/Post', urlPatterns: [/^https?:\/\/classifiedsforfree\.com\/.*(?:Post|Login)/i], supportStatus: 'login-gated' }
     };
     const PLATFORM_CONFIG = {
-      craigslist: { label: 'Craigslist', badge: 'CL', color: 'cl' },
-      adlandpro: { label: 'AdLandPro', badge: 'AP', color: 'ap' },
-      classifiedads: { label: 'ClassifiedAds.com', badge: 'CA', color: 'ca' },
+      craigslist: { label: 'Craigslist', badge: 'CL', color: 'cl', postUrl: 'https://post.craigslist.org/', urlPatterns: [/^https?:\/\/post\.craigslist\.org\//i], supportStatus: 'route-detected' },
+      adlandpro: { label: 'AdLandPro', badge: 'AP', color: 'ap', postUrl: 'https://usa.adlandpro.com/start-listing/', urlPatterns: [/^https?:\/\/usa\.adlandpro\.com\/start-listing\//i], supportStatus: 'route-detected' },
+      classifiedads: { label: 'ClassifiedAds.com', badge: 'CA', color: 'ca', postUrl: 'https://www.classifiedads.com/post', urlPatterns: [/^https?:\/\/www?\.classifiedads\.com\/post/i], supportStatus: 'route-detected' },
       ...EXTENDED_PLATFORM_CONFIG
     };
     const ALL_POST_PLATFORMS = Object.keys(PLATFORM_CONFIG);
+    function detectPlatformUrl(platform, url) {
+      const cfg=PLATFORM_CONFIG[platform]; if(!cfg||!url)return {platform,status:'unknown',url};
+      let parsed; try{parsed=new URL(url);}catch(e){return {platform,status:'invalid-url',url};}
+      const matched=Array.isArray(cfg.urlPatterns)&&cfg.urlPatterns.some(pattern=>pattern.test(parsed.href));
+      const status=matched ? cfg.supportStatus : 'wrong-route';
+      return {platform,status,url:parsed.href,expected:cfg.postUrl||cfg.loginUrl||''};
+    }
+    function reportPlatformUrl(platform, url) {
+      const result=detectPlatformUrl(platform,url);
+      appendLog(`[URL] ${PLATFORM_CONFIG[platform]?.label||platform}: ${result.status} — ${result.url}`, result.status==='route-detected'?'success':result.status==='wrong-route'?'error':'warn');
+      return result;
+    }
+    window.addEventListener('message', event => {
+      if (!event.data || event.data.type !== 'bondsmall-platform-url') return;
+      if (event.data.platform && event.data.url) reportPlatformUrl(event.data.platform,event.data.url);
+    });
     function ensureExtendedPlatformCards() {
       const grid = document.querySelector('#accounts-window .accounts-grid');
       if (!grid || grid.dataset.extendedPlatformsReady === '1') return;
@@ -5164,7 +5180,7 @@
       try {
         const cfg = PLATFORM_CONFIG[platform];
         if (cfg?.loginUrl && EXTENDED_PLATFORM_CONFIG[platform]) {
-          window.open(cfg.loginUrl, `clblast-${platform}`, 'popup,width=1280,height=900,resizable=yes,scrollbars=yes');
+          window.open(cfg.postUrl || cfg.loginUrl, `clblast-${platform}`, 'popup,width=1280,height=900,resizable=yes,scrollbars=yes');
           if (statusEl) statusEl.textContent = `Log in to ${label} in the browser window that opened.`;
           if (doneBtn) doneBtn.style.display = '';
           if (btn) btn.textContent = '🔑 Window open';
@@ -6023,7 +6039,7 @@
       try {
         if (EXTENDED_PLATFORM_CONFIG[job.platform]) {
           const cfg = EXTENDED_PLATFORM_CONFIG[job.platform];
-          window.open(cfg.loginUrl, `clblast-post-${job.platform}`, 'popup,width=1280,height=900,resizable=yes,scrollbars=yes');
+          window.open(cfg.postUrl || cfg.loginUrl, `clblast-post-${job.platform}`, 'popup,width=1280,height=900,resizable=yes,scrollbars=yes');
           appendLog(`[CLBlast] ${cfg.label} browser window opened. Complete the listing manually, then return here.`, 'warn');
           job.status = 'done';
           job.endTime = Date.now();
