@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CLBlast — Multi-Platform Ad Automation Dashboard</title>
+  <title>Bonds Mall Seller Dashboard</title>
   <meta name="description"
     content="CLBlast dashboard for managing classified ad postings across Craigslist, AdLandPro, and ClassifiedAds.com. View live ads, analytics, manage products, and link accounts." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -3179,6 +3179,94 @@
     .toast-notification.toast-warn {
       background: #d68910;
     }
+    /* Bonds Mall seller theme restoration: visual-only overrides. */
+    :root {
+      --bg: #f8f5ef;
+      --card: rgba(255, 253, 248, .96);
+      --card-hover: #fffdf8;
+      --glass: rgba(255, 255, 255, .7);
+      --glass2: rgba(255, 255, 255, .92);
+      --text: #1c1b1a;
+      --text2: #665f57;
+      --muted: #9e958b;
+      --accent: #111111;
+      --green: #1f7a46;
+      --red: #8c2f39;
+      --border: #e8dfd3;
+      --grad-header: linear-gradient(135deg, #fffdf8 0%, #f8f5ef 55%, #f2ede3 100%);
+      --grad-accent: linear-gradient(135deg, #24211e, #111111);
+      --shadow-sm: 0 2px 8px rgba(76, 57, 36, .08);
+      --shadow-md: 0 8px 24px rgba(76, 57, 36, .12);
+      --shadow-lg: 0 14px 40px rgba(76, 57, 36, .16);
+    }
+
+    body {
+      font-family: "Trebuchet MS", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      background: radial-gradient(circle at 10% 10%, #fef9f1 0%, #f8f5ef 40%, #f2ede3 100%);
+      color: var(--text);
+    }
+
+    body::before { display: none; }
+
+    header {
+      background: rgba(255, 253, 248, .96);
+      border-bottom: 1px solid var(--border);
+      box-shadow: 0 3px 14px rgba(76, 57, 36, .08);
+      backdrop-filter: blur(8px);
+    }
+
+    .header-logo {
+      display: inline-flex;
+      position: relative;
+      align-items: center;
+      min-height: 54px;
+      color: #1c1b1a;
+      font-size: clamp(1.05rem, 2.4vw, 1.4rem);
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .bonds-mall-seller-brand img {
+      position: absolute;
+      left: -1.1rem;
+      top: 50%;
+      height: 72px;
+      width: auto;
+      opacity: 0;
+      transform: translateY(-50%);
+      object-fit: contain;
+      pointer-events: none;
+    }
+
+    .bonds-mall-seller-brand span { opacity: 1; }
+    .bonds-mall-seller-mark { color: #1c1b1a; font-size: 1.15rem; }
+    .header-status { color: #665f57; }
+    .header-search-wrap { background: #fffdf8; border: 1px solid var(--border); }
+    .header-search-wrap input { color: var(--text); }
+    #server-indicator { color: var(--text2); }
+    #hamburger-btn { color: var(--text); }
+
+    #tab-bar {
+      background: rgba(255, 253, 248, .98);
+      border-bottom: 1px solid var(--border);
+      box-shadow: 0 2px 10px rgba(76, 57, 36, .06);
+    }
+
+    .tab-btn { color: var(--text2); }
+    .tab-btn:hover, .tab-btn.active { color: var(--text); background: #eee7dc; }
+    .section-window, .account-card, .product-card, .stat-card, .analytics-table-wrap, .modal-content, .modal-card { background: var(--card); border-color: var(--border); box-shadow: var(--shadow-sm); }
+    input, select, textarea { background: #fffdf8; color: var(--text); border-color: var(--border); }
+    button.btn-primary, .btn-primary { background: #111; color: #fffdf8; }
+    button.btn-secondary, .btn-secondary { background: #fffdf8; color: var(--text); border-color: var(--border); }
+    .section-title, h2, h3 { color: var(--text); }
+    .muted, .subtle, .header-status { color: var(--text2); }
+
+    @media (max-width: 700px) {
+      .header-logo { font-size: 1rem; letter-spacing: .08em; }
+      .bonds-mall-seller-mark { display: none; }
+    }
   </style>
     <link rel="stylesheet" href="localization.css?v=1.0.4">
     <script src="localization.js?v=1.0.4" defer></script>
@@ -3196,8 +3284,8 @@
   <!-- Header -->
   <header>
     <div class="header-left">
-      <span class="header-logo-icon">⚡</span>
-      <h1 class="header-logo">CLBLAST</h1>
+      <span class="header-logo-icon bonds-mall-seller-mark" aria-hidden="true">◆</span>
+      <a class="header-logo bonds-mall-seller-brand" href="index.html" aria-label="Bonds Mall home"><span>BONDS MALL</span><img src="bonds-mall-logo.png" alt="Bonds Mall logo"></a>
       <div class="header-status">
         <div class="live-dot"></div>
         System Online
