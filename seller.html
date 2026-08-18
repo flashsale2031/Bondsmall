@@ -3069,6 +3069,90 @@
       border-bottom-color: var(--accent);
     }
 
+    .captcha-notification-wrap {
+      position: relative;
+      display: flex;
+      align-items: center;
+      margin-left: 8px;
+    }
+
+    #captcha-notification-btn {
+      position: relative;
+      border: 1px solid var(--border);
+      background: var(--glass2);
+      color: var(--text);
+      border-radius: 10px;
+      min-width: 38px;
+      height: 36px;
+      padding: 0 9px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background .2s, border-color .2s, color .2s, box-shadow .2s;
+    }
+
+    #captcha-notification-btn:hover,
+    #captcha-notification-btn:focus-visible {
+      border-color: var(--accent);
+      outline: none;
+    }
+
+    #captcha-notification-btn.has-captcha {
+      background: #b42318;
+      border-color: #ff6b61;
+      color: #fff;
+      box-shadow: 0 0 0 2px rgba(180, 35, 24, .22), 0 0 18px rgba(255, 73, 61, .5);
+      animation: captcha-pulse 1.4s ease-in-out infinite;
+    }
+
+    @keyframes captcha-pulse {
+      0%, 100% { box-shadow: 0 0 0 2px rgba(180, 35, 24, .22), 0 0 10px rgba(255, 73, 61, .35); }
+      50% { box-shadow: 0 0 0 4px rgba(180, 35, 24, .3), 0 0 22px rgba(255, 73, 61, .7); }
+    }
+
+    #captcha-notification-count {
+      display: none;
+      position: absolute;
+      top: -7px;
+      right: -7px;
+      min-width: 18px;
+      height: 18px;
+      padding: 0 4px;
+      border-radius: 999px;
+      background: #fff;
+      color: #b42318;
+      font-size: .68rem;
+      font-weight: 800;
+      line-height: 18px;
+      text-align: center;
+    }
+
+    #captcha-notification-btn.has-captcha #captcha-notification-count { display: block; }
+
+    #captcha-window-list {
+      position: absolute;
+      top: calc(100% + 10px);
+      right: 0;
+      width: 290px;
+      max-width: min(290px, calc(100vw - 24px));
+      display: none;
+      padding: 10px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      box-shadow: var(--shadow-md);
+      z-index: 10020;
+    }
+
+    #captcha-window-list.open { display: block; }
+    #captcha-window-list .captcha-list-title { font-size: .76rem; font-weight: 800; text-transform: uppercase; letter-spacing: .5px; color: var(--text2); margin-bottom: 8px; }
+    #captcha-window-list .captcha-empty { color: var(--text2); font-size: .82rem; padding: 8px 2px; }
+    #captcha-window-list .captcha-window-item { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 9px 8px; border-radius: 8px; background: rgba(180, 35, 24, .12); margin-top: 6px; }
+    #captcha-window-list .captcha-window-name { color: var(--text); font-size: .83rem; font-weight: 700; }
+    #captcha-window-list .captcha-window-detail { display: block; color: var(--text2); font-size: .7rem; font-weight: 500; margin-top: 2px; }
+    #captcha-window-list .captcha-window-open,
+    #captcha-window-list .captcha-window-clear { border: 0; background: transparent; color: var(--accent); cursor: pointer; font-size: .75rem; white-space: nowrap; }
+    #captcha-window-list .captcha-window-clear { color: #ff8a80; }
+
     #toast-notification {
       position: fixed;
       bottom: 20px;
@@ -3127,6 +3211,12 @@
       <div id="server-indicator" title="CLBlast backend server status">
         <div class="si-dot"></div>
         <span id="server-indicator-text">Server</span>
+      </div>
+      <div class="captcha-notification-wrap">
+        <button id="captcha-notification-btn" type="button" aria-label="CAPTCHA notifications" aria-expanded="false" onclick="toggleCaptchaNotificationList()" title="No CAPTCHA windows pending">
+          🔔<span id="captcha-notification-count">0</span>
+        </button>
+        <div id="captcha-window-list" role="status" aria-live="polite" aria-label="Platforms requiring CAPTCHA"></div>
       </div>
       <button id="hamburger-btn" aria-label="Open categories menu" title="Categories" onclick="toggleCategoriesPopup()">
         <span></span><span></span><span></span>
@@ -3640,6 +3730,82 @@
        CONSTANTS & STATE
      ═══════════════════════════════════════════════════════════ */
     const SERVER = 'http://localhost:5000';
+
+
+    // CAPTCHA notification registry. Platform browser windows can report a
+    // detection with postMessage({type:'clblast-captcha-detected', platform,
+    // windowName, detail}) or through the optional server status endpoint.
+    const captchaWindows = new Map();
+    let captchaListOpen = false;
+
+    function setCaptchaWindow(platform, windowName, detail = '') {
+      const key = `${platform}::${windowName || platform}`;
+      captchaWindows.set(key, { key, platform, windowName: windowName || platform, detail: detail || 'CAPTCHA requires completion', updatedAt: Date.now() });
+      renderCaptchaNotification();
+    }
+
+    function clearCaptchaWindow(key) {
+      captchaWindows.delete(key);
+      renderCaptchaNotification();
+    }
+
+    function clearAllCaptchaWindows() {
+      captchaWindows.clear();
+      renderCaptchaNotification();
+    }
+
+    function openCaptchaWindow(key) {
+      const item = captchaWindows.get(key);
+      if (!item) return;
+      const cfg = PLATFORM_CONFIG[item.platform] || EXTENDED_PLATFORM_CONFIG[item.platform] || {};
+      if (cfg.loginUrl) window.open(cfg.loginUrl, `clblast-captcha-${item.platform}`, 'popup,width=1280,height=900,resizable=yes,scrollbars=yes');
+    }
+
+    function renderCaptchaNotification() {
+      const btn = document.getElementById('captcha-notification-btn');
+      const count = document.getElementById('captcha-notification-count');
+      const list = document.getElementById('captcha-window-list');
+      if (!btn || !count || !list) return;
+      const items = [...captchaWindows.values()];
+      const active = items.length > 0;
+      btn.classList.toggle('has-captcha', active);
+      btn.title = active ? `${items.length} platform window${items.length === 1 ? '' : 's'} need CAPTCHA completion` : 'No CAPTCHA windows pending';
+      count.textContent = String(items.length);
+      list.innerHTML = `<div class="captcha-list-title">CAPTCHA windows</div>${items.length ? items.map(item => { const safeKey = encodeURIComponent(item.key); return `<div class="captcha-window-item"><div class="captcha-window-name">${escHtml(_PLATFORM_LABELS?.[item.platform] || PLATFORM_CONFIG?.[item.platform]?.label || item.platform)}<span class="captcha-window-detail">${escHtml(item.windowName)} · ${escHtml(item.detail)}</span></div><button class="captcha-window-open" type="button" onclick="openCaptchaWindow(decodeURIComponent('${safeKey}'))">Open</button><button class="captcha-window-clear" type="button" onclick="clearCaptchaWindow(decodeURIComponent('${safeKey}'))">Clear</button></div>`; }).join('') : '<div class="captcha-empty">No platform windows currently need CAPTCHA completion.</div>'}<div style="display:flex;justify-content:flex-end;margin-top:8px;"><button class="captcha-window-clear" type="button" onclick="clearAllCaptchaWindows()">Clear all</button></div>`;
+    }
+
+    function toggleCaptchaNotificationList() {
+      const btn = document.getElementById('captcha-notification-btn');
+      const list = document.getElementById('captcha-window-list');
+      if (!btn || !list) return;
+      captchaListOpen = !captchaListOpen;
+      list.classList.toggle('open', captchaListOpen);
+      btn.setAttribute('aria-expanded', String(captchaListOpen));
+    }
+
+    window.addEventListener('message', event => {
+      const data = event?.data || {};
+      if (data.type === 'clblast-captcha-detected' && data.platform) {
+        setCaptchaWindow(data.platform, data.windowName || data.platform, data.detail || 'CAPTCHA detected');
+      } else if (data.type === 'clblast-captcha-cleared' && data.platform) {
+        [...captchaWindows.values()].filter(item => item.platform === data.platform).forEach(item => captchaWindows.delete(item.key));
+        renderCaptchaNotification();
+      }
+    });
+
+    async function pollCaptchaStatus() {
+      try {
+        const res = await fetch(`${SERVER}/captcha/status`, { cache: 'no-store' });
+        if (!res.ok) return;
+        const data = await res.json();
+        if (Array.isArray(data.windows)) {
+          data.windows.forEach(item => item.platform && setCaptchaWindow(item.platform, item.windowName, item.detail));
+        }
+      } catch (e) { /* Optional endpoint; offline mode is expected. */ }
+    }
+
+    setInterval(pollCaptchaStatus, 5000);
+    document.addEventListener('DOMContentLoaded', () => { renderCaptchaNotification(); pollCaptchaStatus(); });
     let serverOnline = false;
     let _productsSynced = false;
 
@@ -4739,6 +4905,7 @@
           throw new Error(data.error || 'Unknown error');
         }
       } catch (err) {
+        if (/captcha|recaptcha|challenge/i.test(err.message || '')) setCaptchaWindow(platform, `Login — ${label}`, err.message);
         if (statusEl) { statusEl.textContent = 'Error: ' + err.message; }
         if (btn) { btn.disabled = false; btn.textContent = `🔑 Log in to ${label}`; }
         showToast('Failed to open login window: ' + err.message, 'error');
@@ -4796,6 +4963,7 @@
           throw new Error(data.error || 'Unknown error');
         }
       } catch (err) {
+        if (/captcha|recaptcha|challenge/i.test(err.message || '')) setCaptchaWindow(platform, `Post — ${label}`, err.message);
         if (statusEl) { statusEl.textContent = 'Error: ' + err.message; }
         if (btn) { btn.disabled = false; btn.textContent = `➡️ Continue with ${label}`; }
         showToast(`Failed to continue with ${label}: ` + err.message, 'error');
