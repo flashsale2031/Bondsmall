@@ -110,7 +110,9 @@
             const key = image.dataset.categoryImage;
             const imageOverride = isIndexPage && key === 'accessories'
                 ? 'assets/category-gucci-savoy-large-duffle.png'
-                : (isIndexPage && key === 'men' ? 'assets/category-ferrari-mens-jacket.jpg' : null);
+                : (isIndexPage && key === 'men'
+                    ? 'assets/category-ferrari-mens-jacket.jpg'
+                    : (isIndexPage && key === 'women' ? 'assets/category-womens-bailey-bow-ii-ugg-boots.png' : null));
             image.src = imageOverride || imageForCategory(key);
             image.onerror = () => {
                 image.onerror = null;
