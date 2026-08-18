@@ -4323,7 +4323,7 @@
 
         // Migrate single account format gracefully
         if (parsed && typeof parsed === 'object' && Object.keys(parsed).length > 0) {
-          const prefix = platform === 'craigslist' ? 'cl' : (platform === 'adlandpro' ? 'ap' : 'ca');
+          const prefix = platform === 'craigslist' ? 'cl' : (platform === 'adlandpro' ? 'ap' : (platform === 'classifiedads' ? 'ca' : platform.slice(0, 2)));
           const migrated = {
             id: `${prefix}_0`,
             label: 'Account 1',
@@ -4345,7 +4345,7 @@
     }
 
     function getInitialDefaultAccounts(platform) {
-      const prefix = platform === 'craigslist' ? 'cl' : (platform === 'adlandpro' ? 'ap' : 'ca');
+      const prefix = platform === 'craigslist' ? 'cl' : (platform === 'adlandpro' ? 'ap' : (platform === 'classifiedads' ? 'ca' : platform.slice(0, 2)));
       const defaults = [{
         id: `${prefix}_0`,
         label: 'Account 1',
@@ -4384,7 +4384,7 @@
     async function saveAccounts(platform, array) {
       try {
         localStorage.setItem(`clblast_${platform}`, JSON.stringify(array));
-        if (serverOnline) {
+        if (serverOnline && !EXTENDED_PLATFORM_CONFIG[platform]) {
           await fetch(`${SERVER}/accounts/${platform}`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -4399,10 +4399,40 @@
     /* ═══════════════════════════════════════════════════════════
        ACCOUNTS TAB RENDERING & ACTIONS
      ═══════════════════════════════════════════════════════════ */
+    const EXTENDED_PLATFORM_CONFIG = {
+      geebo: { label: 'Geebo', badge: 'GB', loginUrl: 'https://www.geebo.com/' },
+      oodle: { label: 'Oodle', badge: 'OD', loginUrl: 'https://www.oodle.com/' },
+      recycler: { label: 'Recycler', badge: 'RC', loginUrl: 'https://www.recycler.com/' },
+      locanto: { label: 'Locanto', badge: 'LC', loginUrl: 'https://www.locanto.com/' },
+      usnetads: { label: 'USNetAds', badge: 'US', loginUrl: 'https://www.usnetads.com/' },
+      pennysaverusa: { label: 'PennySaverUSA', badge: 'PS', loginUrl: 'https://www.pennysaverusa.com/' },
+      classifieds4free: { label: 'Classifieds4Free', badge: 'CF', loginUrl: 'https://www.classifieds4free.com/' }
+    };
+    const PLATFORM_CONFIG = {
+      craigslist: { label: 'Craigslist', badge: 'CL', color: 'cl' },
+      adlandpro: { label: 'AdLandPro', badge: 'AP', color: 'ap' },
+      classifiedads: { label: 'ClassifiedAds.com', badge: 'CA', color: 'ca' },
+      ...EXTENDED_PLATFORM_CONFIG
+    };
+    const ALL_POST_PLATFORMS = Object.keys(PLATFORM_CONFIG);
+    function ensureExtendedPlatformCards() {
+      const grid = document.querySelector('#accounts-window .accounts-grid');
+      if (!grid || grid.dataset.extendedPlatformsReady === '1') return;
+      const anchor = document.getElementById('card-2captcha');
+      Object.entries(EXTENDED_PLATFORM_CONFIG).forEach(([id, cfg]) => {
+        const card = document.createElement('div');
+        card.className = 'account-card';
+        card.id = `card-${id}`;
+        card.innerHTML = `<div class="account-card-header"><div class="account-card-title"><span class="account-platform-badge badge-ap">${cfg.badge}</span>${cfg.label}</div><span class="account-status-pill status-unsaved" id="badge-${id}">0 accounts — not saved</span></div><div id="rows-${id}"></div><div style="margin-top:16px;"><button class="btn-secondary" onclick="addAccount('${id}')">+ Add Another Account</button></div>`;
+        grid.insertBefore(card, anchor);
+      });
+      grid.dataset.extendedPlatformsReady = '1';
+    }
     async function loadAccountsUI() {
-      const platforms = ['craigslist', 'adlandpro', 'classifiedads'];
+      ensureExtendedPlatformCards();
+      const platforms = ALL_POST_PLATFORMS;
       if (serverOnline) {
-        for (const plat of platforms) {
+        for (const plat of platforms.filter(plat => !EXTENDED_PLATFORM_CONFIG[plat])) {
           await syncAccountsFromServer(plat);
         }
         await syncAccountsFromServer('2captcha');
@@ -4485,9 +4515,9 @@
         </div>
         <div class="account-row-actions">
           <button class="btn-save-account" onclick="saveAccount('${platform}', '${acc.id}')">💾 Save</button>
-          ${['craigslist','adlandpro','classifiedads'].includes(platform) ? `<button class="btn-cl-login" id="cl-login-btn-${acc.id}" onclick="openPlatformLogin('${platform}', '${acc.id}')" ${acc.email ? '' : 'disabled'}>🔑 Log in to ${{'craigslist':'Craigslist','adlandpro':'AdLandPro','classifiedads':'ClassifiedAds'}[platform]}</button>
+          ${PLATFORM_CONFIG[platform] ? `<button class="btn-cl-login" id="cl-login-btn-${acc.id}" onclick="openPlatformLogin('${platform}', '${acc.id}')" ${acc.email ? '' : 'disabled'}>🔑 Log in to ${PLATFORM_CONFIG[platform].label}</button>
           <button class="btn-cl-login-done" id="cl-login-done-${acc.id}" onclick="confirmPlatformLogin('${platform}', '${acc.id}')" style="display:none;">✅ I've logged in</button>
-          <button class="btn-cl-continue" id="cl-continue-btn-${acc.id}" onclick="continueWithPlatform('${platform}', '${acc.id}')" ${acc.email ? '' : 'disabled'}>➡️ Continue with ${{'craigslist':'Craigslist','adlandpro':'AdLandPro','classifiedads':'ClassifiedAds'}[platform]}</button>
+          <button class="btn-cl-continue" id="cl-continue-btn-${acc.id}" onclick="continueWithPlatform('${platform}', '${acc.id}')" ${acc.email ? '' : 'disabled'}>➡️ Continue with ${PLATFORM_CONFIG[platform].label}</button>
           <span class="cl-login-status" id="cl-login-status-${acc.id}"></span>` : ''}
           <button class="btn-clear-account" onclick="removeAccount('${platform}', '${acc.id}')" ${disableRemove ? 'disabled' : ''}>🗑 Remove</button>
         </div>
@@ -4666,7 +4696,7 @@
        PLATFORM MANUAL LOGIN
      ═══════════════════════════════════════════════════════════ */
 
-    const _PLATFORM_LABELS = { craigslist: 'Craigslist', adlandpro: 'AdLandPro', classifiedads: 'ClassifiedAds' };
+    const _PLATFORM_LABELS = Object.fromEntries(Object.entries(PLATFORM_CONFIG).map(([id, cfg]) => [id, cfg.label.replace('.com', '')]));
 
     async function openPlatformLogin(platform, accId) {
       const emailEl = document.getElementById(`email-${accId}`);
@@ -4682,6 +4712,14 @@
       if (statusEl) { statusEl.className = 'cl-login-status'; statusEl.textContent = 'Launching Chrome…'; }
 
       try {
+        const cfg = PLATFORM_CONFIG[platform];
+        if (cfg?.loginUrl && EXTENDED_PLATFORM_CONFIG[platform]) {
+          window.open(cfg.loginUrl, `clblast-${platform}`, 'popup,width=1280,height=900,resizable=yes,scrollbars=yes');
+          if (statusEl) statusEl.textContent = `Log in to ${label} in the browser window that opened.`;
+          if (doneBtn) doneBtn.style.display = '';
+          if (btn) btn.textContent = '🔑 Window open';
+          return;
+        }
         const res = await fetch(`${SERVER}/api/login-window`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -4732,6 +4770,14 @@
       if (statusEl) { statusEl.className = 'cl-login-status'; statusEl.textContent = `Opening ${label} window…`; }
 
       try {
+        const cfg = PLATFORM_CONFIG[platform];
+        if (cfg?.loginUrl && EXTENDED_PLATFORM_CONFIG[platform]) {
+          window.open(cfg.loginUrl, `clblast-${platform}`, 'popup,width=1280,height=900,resizable=yes,scrollbars=yes');
+          if (statusEl) statusEl.textContent = `Continue posting manually in the ${label} browser window.`;
+          if (doneBtn) doneBtn.style.display = '';
+          if (btn) btn.textContent = '➡️ Window open';
+          return;
+        }
         const res = await fetch(`${SERVER}/api/login-window-js`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -4770,6 +4816,17 @@
       if (doneBtn) { doneBtn.disabled = true; doneBtn.textContent = '⏳ Saving…'; }
 
       try {
+        if (EXTENDED_PLATFORM_CONFIG[platform]) {
+          const accounts = getAccounts(platform);
+          const acc = accounts.find(a => a.id === accId);
+          if (acc) { acc.isSaved = true; saveAccounts(platform, accounts); }
+          if (statusEl) { statusEl.className = 'cl-login-status success'; statusEl.textContent = 'Browser session acknowledged ✓'; }
+          if (doneBtn) doneBtn.style.display = 'none';
+          if (btn) { btn.disabled = false; btn.textContent = `🔑 Log in to ${label}`; }
+          if (rowStatus) { rowStatus.className = 'account-row-status status-saved'; rowStatus.textContent = 'Logged in ✓'; }
+          showToast(`${label} browser session acknowledged ✓`, 'success');
+          return;
+        }
         const res = await fetch(`${SERVER}/api/login-done`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -4984,11 +5041,7 @@
       const container = document.getElementById('post-platform-accounts-container');
       if (!container) return;
 
-      const platforms = [
-        { id: 'craigslist', label: 'Craigslist', color: 'cl' },
-        { id: 'adlandpro', label: 'AdLandPro', color: 'ap' },
-        { id: 'classifiedads', label: 'ClassifiedAds.com', color: 'ca' }
-      ];
+      const platforms = ALL_POST_PLATFORMS.map(id => ({ id, label: PLATFORM_CONFIG[id].label, color: PLATFORM_CONFIG[id].color || 'ap' }));
 
       container.innerHTML = platforms.map(plat => {
         const accounts = getAccounts(plat.id).filter(a =>
@@ -5513,6 +5566,17 @@
 
     async function submitJobToServer(job, captchaKey) {
       try {
+        if (EXTENDED_PLATFORM_CONFIG[job.platform]) {
+          const cfg = EXTENDED_PLATFORM_CONFIG[job.platform];
+          window.open(cfg.loginUrl, `clblast-post-${job.platform}`, 'popup,width=1280,height=900,resizable=yes,scrollbars=yes');
+          appendLog(`[CLBlast] ${cfg.label} browser window opened. Complete the listing manually, then return here.`, 'warn');
+          job.status = 'done';
+          job.endTime = Date.now();
+          lastPostStatus = { platform: job.platform, time: Date.now() };
+          renderProgressSection(jobQueue);
+          startNextJob();
+          return;
+        }
         const res = await fetch(`${SERVER}/post`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
