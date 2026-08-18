@@ -1,0 +1,18 @@
+Deployment verification for commit ece16ab8ed4e56f128943df1f3b6c69129e2cddb
+
+GitHub Pages workflow: https://github.com/flashsale2031/Bondsmall/actions/runs/32192825452
+
+Live pages checked with cache-busting revision:
+https://bondsmall.com/bondsmall.html?rev=ece16ab8ed
+https://bondsmall.com/index.html?rev=ece16ab8ed
+https://bondsmall.com/catalog-loader.js?rev=ece16ab8ed
+https://bondsmall.com/catalog-authority.js?rev=ece16ab8ed
+
+Observed live markers:
+- catalog-loader.js reports version 2.3.9.
+- catalog-loader.js includes preferAuthoritative, protected authority.records handling, and getAuthoritativeRecords().
+- catalog-authority.js is publicly served.
+- index.html and bondsmall.html render the Bonds Mall storefront.
+- Live catalog pages render the Apple MacBook Pro product but the original record has no sale price field, so the live text shows no dollar amount for that product.
+- GitHub Pages workflow completed successfully; build, report-build-status, and deploy jobs passed.
+- GitHub Pages emitted a warning that the uploaded artifact is 2,214,150,293 bytes, above the 1 GB allowed-size warning threshold, though deployment concluded success.
