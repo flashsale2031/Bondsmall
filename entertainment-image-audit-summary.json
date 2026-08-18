@@ -1,0 +1,14 @@
+{
+  "category_index_count": 21218,
+  "audited_records": 21218,
+  "audited_chunks": 1949,
+  "risk_counts": {
+    "thin-gallery": 21218,
+    "external-image": 20008,
+    "no-local-dimensions": 20008,
+    "banner-or-crop-risk": 81,
+    "low-resolution": 303,
+    "generic-hf-asset": 1188
+  },
+  "records_with_any_risk": 21218
+}
