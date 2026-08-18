@@ -8,7 +8,7 @@
   const pending = new Map();
   const base = 'catalog-pages/';
   const target = window.products = window.products || [];
-  const version = '2.3.7';
+  const version = '2.3.8';
   const categoryIndex = (window.BondsmallCategoryIndex && window.BondsmallCategoryIndex.categories) || {};
   const categoryStates = new Map();
 

@@ -105,9 +105,15 @@
     }
 
     function hydrateCards() {
+        const isIndexPage = window.location.pathname === '/' || window.location.pathname.endsWith('/index.html');
         document.querySelectorAll('[data-category-image]').forEach((image) => {
             const key = image.dataset.categoryImage;
-            image.src = imageForCategory(key);
+            const imageOverride = isIndexPage && key === 'accessories'
+                ? 'assets/category-gucci-savoy-large-duffle.png'
+                : (isIndexPage && key === 'men'
+                    ? 'assets/category-ferrari-mens-jacket.jpg'
+                    : (isIndexPage && key === 'women' ? 'assets/category-womens-bailey-bow-ii-ugg-boots.png' : null));
+            image.src = imageOverride || imageForCategory(key);
             image.onerror = () => {
                 image.onerror = null;
                 image.src = fallbackImages[key] || 'bonds-mall-logo.png';
