@@ -3284,19 +3284,22 @@
       white-space: nowrap;
     }
 
-    .bonds-mall-seller-brand img {
-      position: absolute;
-      left: -1.1rem;
-      top: 50%;
-      height: 72px;
-      width: auto;
-      opacity: 0;
-      transform: translateY(-50%);
-      object-fit: contain;
-      pointer-events: none;
+    .seller-logo {
+      position: relative;
+      display: flex;
+      align-items: center;
+      min-height: 54px;
+      color: #1c1b1a;
+      font-size: clamp(1.05rem, 2.4vw, 1.4rem);
+      letter-spacing: .12em;
+      font-weight: 800;
+      text-decoration: none;
+      white-space: nowrap;
     }
-
-    .bonds-mall-seller-brand span { opacity: 1; }
+    .seller-logo .logo-face { transition: opacity .8s ease-in-out; opacity: 0; pointer-events: none; }
+    .seller-logo .logo-face--active { opacity: 1; pointer-events: auto; }
+    .seller-logo .logo-text { white-space: nowrap; }
+    .seller-logo .logo-img { position: absolute; top: 50%; left: -1.1rem; transform: translateY(-50%); height: 72px; width: auto; object-fit: contain; }
     .bonds-mall-seller-mark { color: #1c1b1a; font-size: 1.15rem; }
     .header-status { color: #665f57; }
     .header-search-wrap { background: #fffdf8; border: 1px solid var(--border); }
@@ -3321,7 +3324,7 @@
 
     @media (max-width: 700px) {
       .header-logo { font-size: 1rem; letter-spacing: .08em; }
-      .bonds-mall-seller-mark { display: none; }
+      .seller-logo { font-size: 1rem; letter-spacing: .08em; }
     }
   </style>
     <link rel="stylesheet" href="localization.css?v=1.0.4">
@@ -3333,8 +3336,7 @@
   <!-- Header -->
   <header>
     <div class="header-left">
-      <span class="header-logo-icon bonds-mall-seller-mark" aria-hidden="true">◆</span>
-      <a class="header-logo bonds-mall-seller-brand" href="index.html" aria-label="Bonds Mall home"><span>BONDS MALL</span><img src="bonds-mall-logo.png" alt="Bonds Mall logo"></a>
+      <a class="logo seller-logo" href="index.html" aria-label="Bonds Mall home"><span class="logo-text logo-face logo-face--active">BONDS MALL</span><img class="logo-img logo-face" src="bonds-mall-logo.png" alt="Bonds Mall logo"></a>
       <div class="header-status">
         <div class="live-dot"></div>
         System Online
@@ -6896,6 +6898,19 @@
       const bulkStopBtn = document.getElementById('bulk-stop-btn');
       if (bulkStopBtn) bulkStopBtn.style.display = 'none';
     }
+  </script>
+  <script>
+    // Match the storefront logo rotation: alternate text and image every 10 seconds.
+    setInterval(() => {
+      document.querySelectorAll('.seller-logo').forEach(logo => {
+        const text = logo.querySelector('.logo-text');
+        const image = logo.querySelector('.logo-img');
+        if (!text || !image) return;
+        const showingText = text.classList.contains('logo-face--active');
+        text.classList.toggle('logo-face--active', !showingText);
+        image.classList.toggle('logo-face--active', showingText);
+      });
+    }, 10000);
   </script>
 </body>
 
