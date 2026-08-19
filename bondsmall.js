@@ -1250,22 +1250,14 @@
         }
     }
 
-    function getProductIdFromUrl() {
+        function getProductIdFromUrl() {
         const params = new URLSearchParams(window.location.search);
         const rawId = params.get("product");
         if (!rawId) {
             return null;
         }
-
         const productId = Number(rawId);
-        if (!Number.isInteger(productId)) {
-            return null;
-        }
-
-        const exists = getRenderableProducts().some((item) => Number(item.id) === productId)
-            || (productId > PRODUCTS_JS_MAX_ID && window.BondsmallCatalog && productId <= window.BondsmallCatalog.totalCount);
-
-        return exists ? productId : null;
+        return Number.isSafeInteger(productId) && productId > 0 ? productId : null;
     }
 
     function getPageFromUrl() {
