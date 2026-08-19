@@ -474,7 +474,7 @@
       'use strict';
       let productList = Array.isArray(window.products) ? window.products : [];
       let editingIndex = null;
-      let inventoryPage = 1;
+      let inventoryPage = Math.max(1, Number(new URLSearchParams(window.location.search).get('page')) || 1);
       const INVENTORY_PER_PAGE = 20;
       const OVERRIDES_KEY = 'bondsmall.inventoryOverrides.v1';
       const CONFIG_KEY = 'bondsmall.githubSync.v2';
@@ -726,7 +726,7 @@
       for (const [id, field] of [['token', 'ghToken'], ['repo', 'ghRepo'], ['branch', 'ghBranch'], ['path', 'ghPath']]) if (ghConfig[id]) document.getElementById(field).value = ghConfig[id];
       updateConnectionButton();
       render();
-      if (window.BondsmallCatalog) loadInventoryPage(1);
+      if (window.BondsmallCatalog) loadInventoryPage(inventoryPage);
     })();
   </script>
 </body>
