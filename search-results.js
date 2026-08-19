@@ -661,6 +661,7 @@
     }
 
     function renderAll() {
+        decorateProducts();
         if (currentCategory === "all") currentPage = 1;
         populateBrandDropdown(getBaseFilteredProducts(true, false));
         populateConditionDropdown(getBaseFilteredProducts(false, true));
