@@ -1523,16 +1523,10 @@
         // Always save order first so the user always sees it
         localStorage.setItem("recentOrder", JSON.stringify(recentOrder));
 
-        // Clear cart and close drawer
-        cart = [];
-        shippingData = null;
-        activeDiscountRate = 0;
-        discountCodeInput.value = "";
-        updateCartCount();
-        renderCart();
-        closeCart();
-
-        // Send email in background (best-effort â€” don't block redirect)
+                // Keep the checkout open while the order submission is processed.
+        const processingDelay = new Promise((resolve) => {
+            window.setTimeout(resolve, 5000);
+        });
         const emailResult = await Promise.race([
             sendOrderEmail(recentOrder),
             new Promise((resolve) => {
@@ -1541,6 +1535,16 @@
                 }, 3000);
             })
         ]);
+        await processingDelay;
+
+        // Only close the checkout after the five-second processing period.
+        cart = [];
+        shippingData = null;
+        activeDiscountRate = 0;
+        discountCodeInput.value = "";
+        updateCartCount();
+        renderCart();
+        closeCart();
         // Show the centered verification loader before redirecting to order success.
         showOrderVerificationLoader();
     }
