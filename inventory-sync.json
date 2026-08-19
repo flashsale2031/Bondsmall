@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-19T04:58:34.495Z",
+  "records": [
+    {
+      "id": 26,
+      "sku": "",
+      "name": "2021 American Liberty Bronco 1 OZ Gold $100 Coin",
+      "category": "accessories",
+      "productType": "",
+      "age_group": "Adult",
+      "gender": "Unisex",
+      "retail price": 19999.99,
+      "sale price": 5999.99,
+      "inventory": 100,
+      "image": "https://cdn11.bigcommerce.com/s-ojbexn9zb6/images/stencil/1500x1500/products/189262/237437/2021-american-liberty-high-relief-gold-coin-obverse__48730.1767536143.jpg?c=1",
+      "images": [
+        "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477808267.coreimg.jpeg/1746477874968/2021-american-liberty-high-relief-gold-coin-reverse.jpeg"
+      ],
+      "description": "The 2021 American Liberty High Relief Gold Coin is the fifth coin in the American Liberty series. Since its debut in 2015, the American Liberty Gold Coin and Silver Medal Program features coins and medals with modern depictions of allegorical Liberty on the obverse. The reverse features complementary eagle designs. The designs represent what liberty means to each of us individually as Americans, or collectively as a nation."
+    }
+  ],
+  "deletedIds": []
+}
