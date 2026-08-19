@@ -608,7 +608,7 @@
             reason: error?.text || error?.message || "Unknown EmailJS error"
         };
     }
-    }
+}
 
 
     function getFavorites() {
