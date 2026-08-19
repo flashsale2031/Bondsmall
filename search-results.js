@@ -818,7 +818,16 @@
 
     function conditionPrice(product, condition) {
         if (Number(product && product.id) === 28 && (condition === "Used" || condition === "Pre-Owned")) return 3749.99;
-        return Number(product.price ?? product["sale price"] ?? product.salePrice ?? 0);
+        const value = product?.price
+            ?? product?.["sale price"]
+            ?? product?.salePrice
+            ?? product?.["pre-owned price"]
+            ?? product?.preOwnedPrice
+            ?? product?.["retail price"]
+            ?? product?.retailPrice
+            ?? 0;
+        const numeric = Number(value);
+        return Number.isFinite(numeric) ? numeric : 0;
     }
 
     function addToCart(productId, qty = 1, condition = "") {
