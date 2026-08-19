@@ -175,7 +175,8 @@
     /* ── Product Decoration for Brand, Condition, Deals ── */
     function decorateProducts() {
         if (typeof window.products === "undefined") return;
-        if (displayProducts.length) return;
+        // Rebuild the display-only copy whenever the loader swaps the shared
+        // catalog array for a new chunk; never mutate the source records.
         const knownBrands = [
             "Hanes", "Abercrombie & Fitch", "Abercrombie", "Dolce & Gabbana", "Levi", 
             "Ralph Lauren", "Louis Vuitton", "Columbia", "Apple", "Ferrari", 
