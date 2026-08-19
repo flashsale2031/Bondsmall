@@ -1,0 +1,11 @@
+{
+  "id": 23,
+  "name": "Apple Macbook Pro 15 Inch Screen With Retina Display (2018) 512 GB",
+  "old_retail": 1999.99,
+  "old_sale": null,
+  "new_retail": 399.99,
+  "new_sale": 249.99,
+  "comparables": 4,
+  "confidence": "medium",
+  "source_file": "products-page-00002.json.gz"
+}
