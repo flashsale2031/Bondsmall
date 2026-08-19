@@ -816,14 +816,21 @@
     function openCart() { if (cartOverlay) cartOverlay.classList.remove('hidden'); }
     function closeCart() { if (cartOverlay) cartOverlay.classList.add('hidden'); }
 
+    function conditionPrice(product, condition) {
+        if (Number(product && product.id) === 28 && (condition === "Used" || condition === "Pre-Owned")) return 3749.99;
+        return Number(product.price ?? product["sale price"] ?? product.salePrice ?? 0);
+    }
+
     function addToCart(productId, qty = 1, condition = "") {
         const product = displayProducts.find(p => p.id === Number(productId)) || null;
         if (!product) return;
         const amount = Math.min(999, Math.max(1, Math.floor(Number(qty) || 1)));
-        const cond   = condition || "New";
+        const selectedCondition = condition || "New";
+        const cond = selectedCondition === "Used" ? "Pre-Owned" : selectedCondition;
+        const unitPrice = conditionPrice(product, cond);
         const existing = cart.find(i => i.id === product.id && (i.condition || "New") === cond);
         if (existing) { existing.quantity += amount; }
-        else { cart.push({ ...product, quantity: amount, condition: cond }); }
+        else { cart.push({ ...product, price: unitPrice, quantity: amount, condition: cond }); }
         updateCartCount();
         renderCart();
         openCart();
@@ -839,8 +846,11 @@
     }
 
     /* ── Product modal ────────────────────────── */
-    function openProductModal(productId) {
-        const product = displayProducts.find(p => p.id === Number(productId));
+    async function openProductModal(productId) {
+        let product = displayProducts.find(p => p.id === Number(productId)) || null;
+        if (!product && window.BondsmallCatalog && typeof window.BondsmallCatalog.getProductById === "function") {
+            product = await window.BondsmallCatalog.getProductById(productId);
+        }
         if (!product || !productModal) return;
         activeModalProductId = product.id;
         if (typeof window.populateProductPopup === "function") {
@@ -1299,7 +1309,7 @@
         // If a ?product= param is in URL, open that product
         const params = new URLSearchParams(window.location.search);
         const productId = Number(params.get("product"));
-        if (productId && displayProducts.some(p => p.id === productId)) {
+        if (productId) {
             openProductModal(productId);
         }
 

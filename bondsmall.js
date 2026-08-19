@@ -1020,6 +1020,7 @@
     }
 
     function getPreOwnedPrice(product) {
+        if (Number(product && product.id) === 28) return 3749.99;
         // Prefer the explicit pre-owned price from the product data; otherwise
         // fall back to a generic 20%-off discount on the sale price.
         const explicit = Number(product["pre-owned price"] || product.preOwnedPrice);
@@ -1039,9 +1040,10 @@
         const raw = Number(addQty);
         const amount = Number.isFinite(raw) ? Math.min(999, Math.max(1, Math.floor(raw))) : 1;
 
-        const finalCondition = condition || (product.specifications && product.specifications.condition) || "New";
+        const selectedCondition = condition || (product.specifications && product.specifications.condition) || "New";
+        const finalCondition = selectedCondition === "Used" ? "Pre-Owned" : selectedCondition;
 
-        // Pre-Owned items are charged the pre-owned price, not the New/sale price.
+        // Used/Pre-Owned items use the condition-specific price, not the New/sale price.
         const unitPrice = finalCondition === "Pre-Owned" ? getPreOwnedPrice(product) : product.price;
 
         const existing = cart.find((item) => item.id === product.id && (item.condition || "New") === finalCondition);

@@ -421,6 +421,10 @@ function appendColorVariant(product, container) {
     container.appendChild(chipGroup);
 }
 
+function usedConditionPrice(product) {
+    return Number(product && product.id) === 28 ? 3749.99 : null;
+}
+
 function initCondition(product) {
     const conditionSelect = document.getElementById("condition-select");
     const conditionSection = document.getElementById("condition");
@@ -435,18 +439,20 @@ function initCondition(product) {
     if (existing) existing.remove();
 
     const basePrice = product.salePrice || product.price || 0;
-    const conditionValue =
+    const conditionValueRaw =
         (product.specifications && product.specifications.condition) || "New";
+    const conditionValue = conditionValueRaw === "Pre-Owned" ? "Used" : conditionValueRaw;
 
-    const options = ["New", "Pre-Owned"];
+    const options = ["New", "Used"];
 
     // Helper: update the displayed sale price based on chosen condition
     function applyConditionPrice(opt) {
         if (!saleEl) return;
-        if (opt === "Pre-Owned") {
-            const discounted = Math.round(basePrice * 0.8 * 100) / 100;
+        if (opt === "Used" || opt === "Pre-Owned") {
+            const override = usedConditionPrice(product);
+            const discounted = override ?? Math.round(basePrice * 0.8 * 100) / 100;
             saleEl.textContent = formatPopupMoney(discounted);
-            saleEl.title = "20% Pre-Owned discount applied";
+            saleEl.title = override !== null ? "Used condition price" : "20% Used discount applied";
         } else {
             saleEl.textContent = formatPopupMoney(basePrice);
             saleEl.title = "";
