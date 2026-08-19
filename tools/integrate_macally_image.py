@@ -3,7 +3,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 TARGET_ID = 212
-asset = "assets/manufacturer-images/212-corrected.jpg"
+asset = "assets/manufacturer-images/212-corrected.webp"
 updated = False
 for path in sorted((ROOT / "catalog-pages").glob("products-page-*.js")):
     text = path.read_text(encoding="utf-8")

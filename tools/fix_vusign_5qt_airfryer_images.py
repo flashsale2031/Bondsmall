@@ -17,7 +17,7 @@ for product in records:
         continue
     gallery = [
         "assets/vusign-5qt-glass-airfryer/vusign-5qt-black.webp",
-        "assets/vusign-5qt-glass-airfryer/vusign-5qt-capacity.jpg",
+        "assets/vusign-5qt-glass-airfryer/vusign-5qt-capacity.webp",
     ]
     product["image"] = gallery[0]
     product["images"] = gallery

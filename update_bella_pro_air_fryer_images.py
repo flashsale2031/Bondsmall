@@ -13,10 +13,10 @@ for product in products:
     if product.get('id') != 246:
         continue
     gallery = [
-        'assets/manufacturer-images/246-bella-pro-air-fryer-1.jpg',
-        'assets/manufacturer-images/246-bella-pro-air-fryer-2.jpg',
-        'assets/manufacturer-images/246-bella-pro-air-fryer-3.jpg',
-        'assets/manufacturer-images/246-bella-pro-air-fryer-4.jpg',
+        'assets/manufacturer-images/246-bella-pro-air-fryer-1.webp',
+        'assets/manufacturer-images/246-bella-pro-air-fryer-2.webp',
+        'assets/manufacturer-images/246-bella-pro-air-fryer-3.webp',
+        'assets/manufacturer-images/246-bella-pro-air-fryer-4.webp',
     ]
     official = 'https://bellakitchenware.com/shop/products/bella-pro-smartcrisp-8qt-air-fryer/'
     retailer = 'https://www.bestbuy.com/product/bella-pro-8-qt-touchscreen-air-fryer-with-divided-basket-matte-black/J3P5RSSW46'

@@ -5,14 +5,14 @@
     "category": "men",
     "retail price": 109.99,
     "sale price": 99.99,
-    "image": "assets/products/bm-1231542/01.png",
+    "image": "assets/products/bm-1231542/01.webp",
     "description": "Allbirds Men's Tree Runner in Mist Grey, a breathable everyday sneaker with a tree-fiber upper and SweetFoam cushioning.",
     "images": [
-      "assets/products/bm-1231542/01.png",
-      "assets/products/bm-1231542/02.png",
-      "assets/products/bm-1231542/03.png",
-      "assets/products/bm-1231542/04.png",
-      "assets/products/bm-1231542/05.png"
+      "assets/products/bm-1231542/01.webp",
+      "assets/products/bm-1231542/02.webp",
+      "assets/products/bm-1231542/03.webp",
+      "assets/products/bm-1231542/04.webp",
+      "assets/products/bm-1231542/05.webp"
     ],
     "specifications": {
       "brand": "Allbirds",

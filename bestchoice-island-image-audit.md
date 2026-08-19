@@ -1,6 +1,6 @@
 # Best Choice Products Rolling Kitchen Island Cart Image Audit
 
-Product ID: 250. The current main asset `assets/pages-10-17-product-mains/250-9dc276ae575c.jpg` is an unrelated birthday greeting card. The current secondary asset `assets/secondary-images/crop-5c31912d8ae9a218a365.jpg` is a MacBook-style laptop image and is also unrelated.
+Product ID: 250. The current main asset `assets/pages-10-17-product-mains/250-9dc276ae575c.webp` is an unrelated birthday greeting card. The current secondary asset `assets/secondary-images/crop-5c31912d8ae9a218a365.webp` is a MacBook-style laptop image and is also unrelated.
 
 The canonical catalog source is the Target listing for the Best Choice Products 36-inch large rolling kitchen island cart with a two-door cabinet, outlet, hooks, and wheels. Replacement assets must show the matching kitchen island cart, cabinet storage, countertop, hooks, and outlet/power cord.
 

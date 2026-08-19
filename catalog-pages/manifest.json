@@ -1,8 +1,8 @@
 {
-  "totalRecords": 1231541,
+  "format": "gzip-json-v1",
   "pageSize": 20,
-  "pageCount": 61577,
-  "sourceParts": 1232,
-  "firstPage": "products-page-00001.js",
-  "lastPage": "products-page-61577.js"
+  "pages": 61577,
+  "records": 1231541,
+  "sourceBytes": 2803436207,
+  "packedBytes": 569096085
 }

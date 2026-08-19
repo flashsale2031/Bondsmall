@@ -6,9 +6,9 @@ ROOT = Path(__file__).resolve().parents[1]
 TARGET_ID = 294
 CATALOG_FILE = ROOT / "catalog-pages" / "products-page-00015.js"
 LOCAL_IMAGES = [
-    "assets/madewell-beaded-charm-necklace/necklace-1.jpg",
-    "assets/madewell-beaded-charm-necklace/necklace-2.jpg",
-    "assets/madewell-beaded-charm-necklace/necklace-3.jpg",
+    "assets/madewell-beaded-charm-necklace/necklace-1.webp",
+    "assets/madewell-beaded-charm-necklace/necklace-2.webp",
+    "assets/madewell-beaded-charm-necklace/necklace-3.webp",
 ]
 SOURCE_URL = "https://www.madewell.com/womens/accessories/jewelry/"
 PATTERN = re.compile(r"window\.products\.push\(\.\.\.\[(.*)\]\);\s*$", re.S)

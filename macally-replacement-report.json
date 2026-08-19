@@ -2,10 +2,10 @@
   "replaced_id": 212,
   "old_product": "Macally Bluetooth Keyboard and Mouse",
   "new_product": "JBL Flip 6 Portable Waterproof Bluetooth Speaker - Black",
-  "image": "assets/jbl-flip6/jbl-flip6-black-front.jpg",
+  "image": "assets/jbl-flip6/jbl-flip6-black-front.webp",
   "images": [
-    "assets/jbl-flip6/jbl-flip6-black-front.jpg",
-    "assets/jbl-flip6/jbl-flip6-black-angle.jpg"
+    "assets/jbl-flip6/jbl-flip6-black-front.webp",
+    "assets/jbl-flip6/jbl-flip6-black-angle.webp"
   ],
   "retail_price": 129.99,
   "sale_price": 89.99,

@@ -13,10 +13,10 @@ for product in products:
     if product.get('id') != 252:
         continue
     gallery = [
-        'assets/manufacturer-images/252-gdfstudio-paolo-1.jpg',
-        'assets/manufacturer-images/252-gdfstudio-paolo-2.jpg',
-        'assets/manufacturer-images/252-gdfstudio-paolo-3.jpg',
-        'assets/manufacturer-images/252-gdfstudio-paolo-4.jpg',
+        'assets/manufacturer-images/252-gdfstudio-paolo-1.webp',
+        'assets/manufacturer-images/252-gdfstudio-paolo-2.webp',
+        'assets/manufacturer-images/252-gdfstudio-paolo-3.webp',
+        'assets/manufacturer-images/252-gdfstudio-paolo-4.webp',
     ]
     source = 'https://www.target.com/p/gdfstudio-paolo-modern-rolling-kitchen-island-with-movable-table-cabinet-led-light-and-power-outlet/-/A-1008509369'
     product['image'] = gallery[0]

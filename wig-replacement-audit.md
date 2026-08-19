@@ -1,6 +1,6 @@
 # Product 1927 Replacement Audit
 
-Product ID: 1927 currently contains a long women’s lace-front wig title and description, but is incorrectly assigned to the `men` category. It has a duplicated single image (`assets/main-images/hf-386.jpg`), is price-pending, and is not merchant-ready.
+Product ID: 1927 currently contains a long women’s lace-front wig title and description, but is incorrectly assigned to the `men` category. It has a duplicated single image (`assets/main-images/hf-386.webp`), is price-pending, and is not merchant-ready.
 
 ## Selected men’s replacement
 

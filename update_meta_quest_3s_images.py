@@ -13,10 +13,10 @@ for product in products:
     if product.get('id') != 238:
         continue
     gallery = [
-        'assets/manufacturer-images/238-meta-quest-3s-1.jpeg',
-        'assets/manufacturer-images/238-meta-quest-3s-2.jpg',
-        'assets/manufacturer-images/238-meta-quest-3s-3.jpg',
-        'assets/manufacturer-images/238-meta-quest-3s-4.png',
+        'assets/manufacturer-images/238-meta-quest-3s-1.webp',
+        'assets/manufacturer-images/238-meta-quest-3s-2.webp',
+        'assets/manufacturer-images/238-meta-quest-3s-3.webp',
+        'assets/manufacturer-images/238-meta-quest-3s-4.webp',
     ]
     official = 'https://www.meta.com/quest/quest-3s/'
     retailer = 'https://www.bestbuy.com/site/searchpage.jsp?id=pcat17071&st=meta%20quest%203s'

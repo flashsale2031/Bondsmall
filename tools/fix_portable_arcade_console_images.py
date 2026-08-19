@@ -16,8 +16,8 @@ for product in records:
     if product.get("id") != 231:
         continue
     gallery = [
-        "assets/portable-arcade-console/target-red-console-hero.jpg",
-        "assets/portable-arcade-console/target-red-console-front.jpg",
+        "assets/portable-arcade-console/target-red-console-hero.webp",
+        "assets/portable-arcade-console/target-red-console-front.webp",
     ]
     product["image"] = gallery[0]
     product["images"] = gallery

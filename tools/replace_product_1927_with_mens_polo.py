@@ -16,8 +16,8 @@ for product in records:
     if product.get("id") != 1927:
         continue
     gallery = [
-        "assets/all-in-motion-green-jacquard-polo/all-in-motion-polo-front-1.jpg",
-        "assets/all-in-motion-green-jacquard-polo/all-in-motion-polo-front-2.jpg",
+        "assets/all-in-motion-green-jacquard-polo/all-in-motion-polo-front-1.webp",
+        "assets/all-in-motion-green-jacquard-polo/all-in-motion-polo-front-2.webp",
     ]
     product.update({
         "name": "Men's Jacquard Polo Shirt - All in Motion Green L",

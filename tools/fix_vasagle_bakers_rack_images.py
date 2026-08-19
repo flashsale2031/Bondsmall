@@ -16,8 +16,8 @@ for product in records:
     if product.get("id") != 251:
         continue
     gallery = [
-        "assets/vasagle-bakers-rack/vasagle-rack-hero.jpg",
-        "assets/vasagle-bakers-rack/vasagle-rack-kitchen.jpg",
+        "assets/vasagle-bakers-rack/vasagle-rack-hero.webp",
+        "assets/vasagle-bakers-rack/vasagle-rack-kitchen.webp",
     ]
     product["image"] = gallery[0]
     product["images"] = gallery

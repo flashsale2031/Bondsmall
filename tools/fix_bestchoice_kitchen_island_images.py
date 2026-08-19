@@ -16,8 +16,8 @@ for product in records:
     if product.get("id") != 250:
         continue
     gallery = [
-        "assets/bestchoice-kitchen-island/bestchoice-island-hero.jpg",
-        "assets/bestchoice-kitchen-island/bestchoice-island-kitchen.jpg",
+        "assets/bestchoice-kitchen-island/bestchoice-island-hero.webp",
+        "assets/bestchoice-kitchen-island/bestchoice-island-kitchen.webp",
     ]
     product["image"] = gallery[0]
     product["images"] = gallery

@@ -2,8 +2,8 @@ from pathlib import Path
 import json,re
 ROOT=Path(__file__).resolve().parents[1]
 PID=2225
-MAIN='assets/mens/page2-main-corrections/2225.jpg'
-ORIGINAL='assets/main-images/hf-684.jpg'
+MAIN='assets/mens/page2-main-corrections/2225.webp'
+ORIGINAL='assets/main-images/hf-684.webp'
 SOURCE='https://www.walmart.com/ip/Sweet-Treats-Crotchless-Boy-Short-w-Wicked-Sensual-Care-Peach-Lube-White-QN/9770768167'
 pat=re.compile(r'window\.products\.push\(\.\.\.\[(.*)\]\);\s*$',re.S)
 found=False

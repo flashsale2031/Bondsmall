@@ -13,10 +13,10 @@ for product in products:
     if product.get('id') != 254:
         continue
     gallery = [
-        'assets/manufacturer-images/254-mainstays-8qt-air-fryer-1.jpeg',
-        'assets/manufacturer-images/254-mainstays-8qt-air-fryer-3.jpeg',
-        'assets/manufacturer-images/254-mainstays-8qt-air-fryer-5.jpeg',
-        'assets/manufacturer-images/254-mainstays-8qt-air-fryer-6.jpeg',
+        'assets/manufacturer-images/254-mainstays-8qt-air-fryer-1.webp',
+        'assets/manufacturer-images/254-mainstays-8qt-air-fryer-3.webp',
+        'assets/manufacturer-images/254-mainstays-8qt-air-fryer-5.webp',
+        'assets/manufacturer-images/254-mainstays-8qt-air-fryer-6.webp',
     ]
     source = 'https://www.walmart.com/ip/Mainstays-8-qt-Air-Fryer-Black-Automatic-Shutoff/5162100422'
     product['image'] = gallery[0]

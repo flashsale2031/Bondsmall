@@ -16,8 +16,8 @@ for product in records:
     if product.get("id") != 237:
         continue
     gallery = [
-        "assets/sceneit-friends/walmart-friends-scene-it-box.jpeg",
-        "assets/sceneit-friends/walmart-friends-scene-it-components.jpeg",
+        "assets/sceneit-friends/walmart-friends-scene-it-box.webp",
+        "assets/sceneit-friends/walmart-friends-scene-it-components.webp",
     ]
     product["image"] = gallery[0]
     product["images"] = gallery

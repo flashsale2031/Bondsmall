@@ -7,10 +7,10 @@ TARGET_ID = 9452
 CATALOG_FILE = ROOT / "catalog-pages" / "products-page-00473.js"
 PATTERN = re.compile(r"window\.products\.push\(\.\.\.\[(.*)\]\);\s*$", re.S)
 GALLERY = [
-    "assets/boost-erotic-lingerie/boost-1.jpg",
-    "assets/boost-erotic-lingerie/boost-2.jpg",
-    "assets/boost-erotic-lingerie/boost-3.jpg",
-    "assets/boost-erotic-lingerie/boost-4.jpg",
+    "assets/boost-erotic-lingerie/boost-1.webp",
+    "assets/boost-erotic-lingerie/boost-2.webp",
+    "assets/boost-erotic-lingerie/boost-3.webp",
+    "assets/boost-erotic-lingerie/boost-4.webp",
 ]
 
 text = CATALOG_FILE.read_text(encoding="utf-8")

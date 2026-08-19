@@ -15,10 +15,10 @@ for product in products:
     if product.get('retail price') != 59.99:
         raise SystemExit(f'unexpected_retail_price={product.get("retail price")}')
     expected_gallery = [
-        'assets/manufacturer-images/246-bella-pro-air-fryer-1.jpg',
-        'assets/manufacturer-images/246-bella-pro-air-fryer-2.jpg',
-        'assets/manufacturer-images/246-bella-pro-air-fryer-3.jpg',
-        'assets/manufacturer-images/246-bella-pro-air-fryer-4.jpg',
+        'assets/manufacturer-images/246-bella-pro-air-fryer-1.webp',
+        'assets/manufacturer-images/246-bella-pro-air-fryer-2.webp',
+        'assets/manufacturer-images/246-bella-pro-air-fryer-3.webp',
+        'assets/manufacturer-images/246-bella-pro-air-fryer-4.webp',
     ]
     if product.get('images') != expected_gallery:
         raise SystemExit('bella_pro_gallery_does_not_match_verified_gallery')

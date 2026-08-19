@@ -16,8 +16,8 @@ for product in records:
     if product.get("id") != 249:
         continue
     gallery = [
-        "assets/ninja-foodi-dz201/ninja-dz201-baskets-open.jpg",
-        "assets/ninja-foodi-dz201/ninja-dz201-control-panel.jpg",
+        "assets/ninja-foodi-dz201/ninja-dz201-baskets-open.webp",
+        "assets/ninja-foodi-dz201/ninja-dz201-control-panel.webp",
     ]
     product["image"] = gallery[0]
     product["images"] = gallery

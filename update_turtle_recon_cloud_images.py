@@ -13,10 +13,10 @@ for product in products:
     if product.get('id') != 222:
         continue
     gallery = [
-        'assets/manufacturer-images/222-turtle-recon-cloud-1.jpg',
-        'assets/manufacturer-images/222-turtle-recon-cloud-2.jpg',
-        'assets/manufacturer-images/222-turtle-recon-cloud-3.jpg',
-        'assets/manufacturer-images/222-turtle-recon-cloud-4.jpg',
+        'assets/manufacturer-images/222-turtle-recon-cloud-1.webp',
+        'assets/manufacturer-images/222-turtle-recon-cloud-2.webp',
+        'assets/manufacturer-images/222-turtle-recon-cloud-3.webp',
+        'assets/manufacturer-images/222-turtle-recon-cloud-4.webp',
     ]
     source = 'https://www.bestbuy.com/product/turtle-beach-recon-cloud-wired-game-controller-with-bluetooth-for-xbox-series-xs-windows-android-with-remappable-buttons-black/JXK5HFZ97H'
     product['image'] = gallery[0]

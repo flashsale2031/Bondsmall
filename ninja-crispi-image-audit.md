@@ -1,6 +1,6 @@
 # Ninja Crispi 5-in-1 Portable Glass Air Fryer Image Audit
 
-Product ID: 243. The current main asset `assets/pages-10-17-product-mains/243-daa6eac9d5b6.jpg` is a BabyTV animation still and is unrelated to the air fryer. The current secondary asset `assets/secondary-images/crop-75552e64045cf604643e.jpg` is an HP printer and is also unrelated.
+Product ID: 243. The current main asset `assets/pages-10-17-product-mains/243-daa6eac9d5b6.webp` is a BabyTV animation still and is unrelated to the air fryer. The current secondary asset `assets/secondary-images/crop-75552e64045cf604643e.webp` is an HP printer and is also unrelated.
 
 The canonical catalog source is the Best Buy listing for the gray Ninja Crispi 5-in-1 Portable Glass Air Fryer Cooking System. Replacement assets must show the Ninja Crispi portable glass cooking system and its glass containers, not generic cookware or unrelated products.
 

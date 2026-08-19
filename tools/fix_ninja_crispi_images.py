@@ -17,7 +17,7 @@ for product in records:
         continue
     gallery = [
         "assets/ninja-crispi/ninja-crispi-gray.webp",
-        "assets/ninja-crispi/ninja-crispi-complete-system.jpg",
+        "assets/ninja-crispi/ninja-crispi-complete-system.webp",
     ]
     product["image"] = gallery[0]
     product["images"] = gallery

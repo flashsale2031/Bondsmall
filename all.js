@@ -109,10 +109,10 @@
         document.querySelectorAll('[data-category-image]').forEach((image) => {
             const key = image.dataset.categoryImage;
             const imageOverride = isIndexPage && key === 'accessories'
-                ? 'assets/category-gucci-savoy-large-duffle.png'
+                ? 'assets/category-gucci-savoy-large-duffle.webp'
                 : (isIndexPage && key === 'men'
-                    ? 'assets/category-ferrari-mens-jacket.jpg'
-                    : (isIndexPage && key === 'women' ? 'assets/category-womens-bailey-bow-ii-ugg-boots.png' : null));
+                    ? 'assets/category-ferrari-mens-jacket.webp'
+                    : (isIndexPage && key === 'women' ? 'assets/category-womens-bailey-bow-ii-ugg-boots.webp' : null));
             image.src = imageOverride || imageForCategory(key);
             image.onerror = () => {
                 image.onerror = null;

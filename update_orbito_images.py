@@ -13,10 +13,10 @@ for product in products:
     if product.get('id') != 235:
         continue
     gallery = [
-        'assets/manufacturer-images/235-orbito-1.jpg',
-        'assets/manufacturer-images/235-orbito-2.jpeg',
-        'assets/manufacturer-images/235-orbito-3.jpg',
-        'assets/manufacturer-images/235-orbito-4.jpg',
+        'assets/manufacturer-images/235-orbito-1.webp',
+        'assets/manufacturer-images/235-orbito-2.webp',
+        'assets/manufacturer-images/235-orbito-3.webp',
+        'assets/manufacturer-images/235-orbito-4.webp',
     ]
     official = 'https://flexiqgames.com/en/product/orbito/'
     retailer = 'https://www.walmart.com/ip/Orbito-Board-Game-Strategy-Game-for-Kids-and-Adults-Fun-Family-Game-Night-Entertainment/5321227131'

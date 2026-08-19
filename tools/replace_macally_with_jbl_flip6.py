@@ -16,8 +16,8 @@ for product in records:
     if product.get("id") != 212:
         continue
     gallery = [
-        "assets/jbl-flip6/jbl-flip6-black-front.jpg",
-        "assets/jbl-flip6/jbl-flip6-black-angle.jpg",
+        "assets/jbl-flip6/jbl-flip6-black-front.webp",
+        "assets/jbl-flip6/jbl-flip6-black-angle.webp",
     ]
     product.update({
         "name": "JBL Flip 6 Portable Waterproof Bluetooth Speaker - Black",

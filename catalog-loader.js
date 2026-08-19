@@ -9,7 +9,7 @@
   const base = 'catalog-pages/';
   const target = window.products = window.products || [];
   const authority = window.BondsmallCatalogAuthority || { records: [], has: () => false, get: () => null };
-  const version = '2.3.9';
+  const version = '2.4.0-gzip';
   const categoryIndex = (window.BondsmallCategoryIndex && window.BondsmallCategoryIndex.categories) || {};
   const categoryStates = new Map();
 
@@ -32,6 +32,17 @@
     window.products = target;
   }
 
+  async function decodeCatalogChunk(response) {
+    if (!response.ok) throw new Error(`Catalog request failed with HTTP ${response.status}`);
+    if (typeof DecompressionStream === 'undefined') {
+      throw new Error('This browser does not support gzip catalog decompression');
+    }
+    const stream = response.body.pipeThrough(new DecompressionStream('gzip'));
+    const text = await new Response(stream).text();
+    const records = JSON.parse(text);
+    return Array.isArray(records) ? records : [];
+  }
+
   function fetchPage(index, force = false) {
     index = clampPage(index);
     if (!force && loaded.has(index)) {
@@ -40,34 +51,21 @@
       return Promise.resolve(records);
     }
     if (pending.has(index)) return pending.get(index);
-    const promise = new Promise((resolve, reject) => {
-      const capture = [];
-      const previousProducts = window.products;
-      window.products = capture;
-      const script = document.createElement('script');
-      script.async = true;
-      script.src = `${base}products-page-${String(index + 1).padStart(5, '0')}.js?v=${version}`;
-      script.onload = () => {
-        window.products = previousProducts;
-        const records = preferAuthoritative(capture.slice());
-        if (!records.length) {
-          pending.delete(index);
-          reject(new Error(`Catalog page ${index + 1} returned no products`));
-          return;
-        }
+    const promise = fetch(`${base}products-page-${String(index + 1).padStart(5, '0')}.json.gz?v=${version}`, { cache: 'force-cache' })
+      .then(decodeCatalogChunk)
+      .then((incoming) => {
+        const records = preferAuthoritative(incoming);
+        if (!records.length) throw new Error(`Catalog page ${index + 1} returned no products`);
         loaded.set(index, records);
         setTarget(records);
         pending.delete(index);
         document.dispatchEvent(new CustomEvent('bondsmall-catalog-chunk-loaded', { detail: { index, records } }));
-        resolve(records);
-      };
-      script.onerror = () => {
-        window.products = previousProducts;
+        return records;
+      })
+      .catch((error) => {
         pending.delete(index);
-        reject(new Error(`Unable to load catalog page ${index + 1}`));
-      };
-      document.head.appendChild(script);
-    });
+        throw error;
+      });
     pending.set(index, promise);
     return promise;
   }

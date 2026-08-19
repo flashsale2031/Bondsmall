@@ -1,11 +1,11 @@
 {
   "id": 242,
   "name": "Frigidaire Gallery 24-inch Electric Wall Oven with Air Fry",
-  "image": "assets/frigidaire-gcws2438ab/gcws2438ab-front.jpg",
+  "image": "assets/frigidaire-gcws2438ab/gcws2438ab-front.webp",
   "images": [
-    "assets/frigidaire-gcws2438ab/gcws2438ab-front.jpg",
-    "assets/frigidaire-gcws2438ab/gcws2438ab-air-fry-control.png",
-    "assets/frigidaire-gcws2438ab/gcws2438ab-interior.jpg"
+    "assets/frigidaire-gcws2438ab/gcws2438ab-front.webp",
+    "assets/frigidaire-gcws2438ab/gcws2438ab-air-fry-control.webp",
+    "assets/frigidaire-gcws2438ab/gcws2438ab-interior.webp"
   ],
   "source": "https://www.bestbuy.com/product/frigidaire-gallery-24-built-in-single-electric-wall-oven-with-air-fry-black/J7CJ3R8XZC",
   "match_confidence": "verified-exact-model-gallery"

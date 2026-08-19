@@ -13,10 +13,10 @@ for product in products:
     if product.get('id') != 257:
         continue
     gallery = [
-        'assets/manufacturer-images/257-teendow-mattress-vacuum-1.jpg',
-        'assets/manufacturer-images/257-teendow-mattress-vacuum-2.jpg',
-        'assets/manufacturer-images/257-teendow-mattress-vacuum-3.jpg',
-        'assets/manufacturer-images/257-teendow-mattress-vacuum-4.jpg',
+        'assets/manufacturer-images/257-teendow-mattress-vacuum-1.webp',
+        'assets/manufacturer-images/257-teendow-mattress-vacuum-2.webp',
+        'assets/manufacturer-images/257-teendow-mattress-vacuum-3.webp',
+        'assets/manufacturer-images/257-teendow-mattress-vacuum-4.webp',
     ]
     source = 'https://www.target.com/p/teendow-500w-16kpa-vacuum-cleaner-with-uv-c-light-handheld-vacuums-with-heating-ultrasonic-anion-for-bed-dust-pet-hair-double-cup-purple/-/A-1000514564'
     product['image'] = gallery[0]

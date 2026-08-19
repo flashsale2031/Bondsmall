@@ -13,10 +13,10 @@ for product in products:
     if product.get('id') != 223:
         continue
     gallery = [
-        'assets/manufacturer-images/223-xbox-wireless-headset-1.jpg',
-        'assets/manufacturer-images/223-xbox-wireless-headset-2.jpg',
-        'assets/manufacturer-images/223-xbox-wireless-headset-3.jpg',
-        'assets/manufacturer-images/223-xbox-wireless-headset-4.jpg',
+        'assets/manufacturer-images/223-xbox-wireless-headset-1.webp',
+        'assets/manufacturer-images/223-xbox-wireless-headset-2.webp',
+        'assets/manufacturer-images/223-xbox-wireless-headset-3.webp',
+        'assets/manufacturer-images/223-xbox-wireless-headset-4.webp',
     ]
     product['image'] = gallery[0]
     product['images'] = gallery

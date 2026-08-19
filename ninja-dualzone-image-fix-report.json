@@ -1,10 +1,10 @@
 {
   "id": 249,
   "name": "Ninja Foodi 6-in-1 8-Qt DualZone Air Fryer",
-  "image": "assets/ninja-foodi-dz201/ninja-dz201-baskets-open.jpg",
+  "image": "assets/ninja-foodi-dz201/ninja-dz201-baskets-open.webp",
   "images": [
-    "assets/ninja-foodi-dz201/ninja-dz201-baskets-open.jpg",
-    "assets/ninja-foodi-dz201/ninja-dz201-control-panel.jpg"
+    "assets/ninja-foodi-dz201/ninja-dz201-baskets-open.webp",
+    "assets/ninja-foodi-dz201/ninja-dz201-control-panel.webp"
   ],
   "source": "https://www.bestbuy.com/product/ninja-foodi-6-in-1-8-qt-2-basket-air-fryer-with-dualzone-technology-air-fry-roast-broil-bake-reheat-dehydrate-dark-gray/JXJVXGZ273",
   "match_confidence": "verified-exact-model-gallery"

@@ -1,6 +1,6 @@
 # Product 2215 Replacement Audit
 
-Product ID: 2215 currently contains the non-descriptive name `Osh25Wbcd19118Tm1`, description `Town Team - Over Shirts`, and a duplicated single image (`assets/main-images/hf-674.jpg`). It has no usable multi-image gallery and is not merchant-ready.
+Product ID: 2215 currently contains the non-descriptive name `Osh25Wbcd19118Tm1`, description `Town Team - Over Shirts`, and a duplicated single image (`assets/main-images/hf-674.webp`). It has no usable multi-image gallery and is not merchant-ready.
 
 ## Selected replacement
 

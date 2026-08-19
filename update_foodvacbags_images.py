@@ -13,10 +13,10 @@ for product in products:
     if product.get('id') != 260:
         continue
     gallery = [
-        'assets/manufacturer-images/260-foodvacbags-rolls-1.png',
-        'assets/manufacturer-images/260-foodvacbags-rolls-2.png',
-        'assets/manufacturer-images/260-foodvacbags-rolls-3.png',
-        'assets/manufacturer-images/260-foodvacbags-rolls-4.JPG',
+        'assets/manufacturer-images/260-foodvacbags-rolls-1.webp',
+        'assets/manufacturer-images/260-foodvacbags-rolls-2.webp',
+        'assets/manufacturer-images/260-foodvacbags-rolls-3.webp',
+        'assets/manufacturer-images/260-foodvacbags-rolls-4.webp',
     ]
     source = 'https://foodvacbags.com/products/8-x-50-black-back-clear-front-vacuum-sealer-roll'
     product['image'] = gallery[0]

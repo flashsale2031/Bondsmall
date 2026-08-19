@@ -16,8 +16,8 @@ for product in records:
     if product.get("id") != 2215:
         continue
     gallery = [
-        "assets/universal-thread-oatmeal-cardigan/universal-thread-cardigan-front-1.jpg",
-        "assets/universal-thread-oatmeal-cardigan/universal-thread-cardigan-front-2.jpg",
+        "assets/universal-thread-oatmeal-cardigan/universal-thread-cardigan-front-1.webp",
+        "assets/universal-thread-oatmeal-cardigan/universal-thread-cardigan-front-2.webp",
     ]
     product.update({
         "name": "Women's Iconic Cotton Cardigan - Universal Thread Oatmeal M",

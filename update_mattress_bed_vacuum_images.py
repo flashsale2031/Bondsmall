@@ -13,10 +13,10 @@ for product in products:
     if product.get('id') != 255:
         continue
     gallery = [
-        'assets/manufacturer-images/255-mattress-bed-vacuum-1.jpg',
-        'assets/manufacturer-images/255-mattress-bed-vacuum-2.jpg',
-        'assets/manufacturer-images/255-mattress-bed-vacuum-3.jpg',
-        'assets/manufacturer-images/255-mattress-bed-vacuum-4.jpg',
+        'assets/manufacturer-images/255-mattress-bed-vacuum-1.webp',
+        'assets/manufacturer-images/255-mattress-bed-vacuum-2.webp',
+        'assets/manufacturer-images/255-mattress-bed-vacuum-3.webp',
+        'assets/manufacturer-images/255-mattress-bed-vacuum-4.webp',
     ]
     source = 'https://www.target.com/p/550w-mattress-vacuum-cleaner-with-hepa-filter-hot-air-dual-dust-bin-for-bed-sofa-cleaning/-/A-1008278667'
     product['image'] = gallery[0]

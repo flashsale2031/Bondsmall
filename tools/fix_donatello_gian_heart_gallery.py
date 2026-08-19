@@ -6,9 +6,9 @@ ROOT = Path(__file__).resolve().parents[1]
 TARGET_ID = 289
 CATALOG_FILE = ROOT / "catalog-pages" / "products-page-00015.js"
 LOCAL_IMAGES = [
-    "assets/donatello-gian-heart-set/heart-set-1.jpeg",
-    "assets/donatello-gian-heart-set/heart-set-2.jpeg",
-    "assets/donatello-gian-heart-set/heart-set-3.jpeg",
+    "assets/donatello-gian-heart-set/heart-set-1.webp",
+    "assets/donatello-gian-heart-set/heart-set-2.webp",
+    "assets/donatello-gian-heart-set/heart-set-3.webp",
 ]
 SOURCE_URL = "https://www.nordstrom.com/s/earrings-necklace-and-bracelet-heart-jewelry-set/8849863"
 PATTERN = re.compile(r"window\.products\.push\(\.\.\.\[(.*)\]\);\s*$", re.S)

@@ -1,10 +1,10 @@
 {
   "id": 237,
   "name": "Scene It? Friends Edition DVD Game",
-  "image": "assets/sceneit-friends/walmart-friends-scene-it-box.jpeg",
+  "image": "assets/sceneit-friends/walmart-friends-scene-it-box.webp",
   "images": [
-    "assets/sceneit-friends/walmart-friends-scene-it-box.jpeg",
-    "assets/sceneit-friends/walmart-friends-scene-it-components.jpeg"
+    "assets/sceneit-friends/walmart-friends-scene-it-box.webp",
+    "assets/sceneit-friends/walmart-friends-scene-it-components.webp"
   ],
   "source": "https://www.walmart.com/ip/Screenlife-Scene-It-Friends-Edition-DVD-Game-2-to-4-Players-Adult-Board-Game/4599107",
   "match_confidence": "verified-product-gallery"

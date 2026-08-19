@@ -3,17 +3,17 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 expected = {
-    24: "assets/manufacturer-images/24-corrected.png",
-    159: "assets/manufacturer-images/159-corrected.jpg",
-    221: "assets/manufacturer-images/221-corrected.jpeg",
-    223: "assets/manufacturer-images/223-corrected.jpg",
-    224: "assets/manufacturer-images/224-corrected.jpeg",
-    226: "assets/manufacturer-images/226-corrected.jpg",
-    228: "assets/manufacturer-images/228-corrected.jpg",
-    229: "assets/manufacturer-images/229-corrected.jpg",
-    230: "assets/manufacturer-images/230-corrected.jpg",
-    233: "assets/manufacturer-images/233-corrected.jpg",
-    240: "assets/manufacturer-images/240-corrected.png",
+    24: "assets/manufacturer-images/24-corrected.webp",
+    159: "assets/manufacturer-images/159-corrected.webp",
+    221: "assets/manufacturer-images/221-corrected.webp",
+    223: "assets/manufacturer-images/223-corrected.webp",
+    224: "assets/manufacturer-images/224-corrected.webp",
+    226: "assets/manufacturer-images/226-corrected.webp",
+    228: "assets/manufacturer-images/228-corrected.webp",
+    229: "assets/manufacturer-images/229-corrected.webp",
+    230: "assets/manufacturer-images/230-corrected.webp",
+    233: "assets/manufacturer-images/233-corrected.webp",
+    240: "assets/manufacturer-images/240-corrected.webp",
 }
 found = {}
 for path in sorted((ROOT / "catalog-pages").glob("products-page-*.js")):

@@ -13,10 +13,10 @@ for product in products:
     if product.get('id') != 256:
         continue
     gallery = [
-        'assets/manufacturer-images/256-vevor-mattress-vacuum-1.jpg',
-        'assets/manufacturer-images/256-vevor-mattress-vacuum-2.jpg',
-        'assets/manufacturer-images/256-vevor-mattress-vacuum-3.jpg',
-        'assets/manufacturer-images/256-vevor-mattress-vacuum-4.jpg',
+        'assets/manufacturer-images/256-vevor-mattress-vacuum-1.webp',
+        'assets/manufacturer-images/256-vevor-mattress-vacuum-2.webp',
+        'assets/manufacturer-images/256-vevor-mattress-vacuum-3.webp',
+        'assets/manufacturer-images/256-vevor-mattress-vacuum-4.webp',
     ]
     source = 'https://www.target.com/p/vevor-mattress-vacuum-cleaner-550w-bed-vacuum-cleaner-with-18kpa-powerful-suction-and-dual-dust-bin-hepa-filter-heating-white/-/A-1008814049'
     official = 'https://www.vevor.com/vacuum-cleaner-c_11407/mattress-vacuum-cleaner-with-18kpa-powerful-suction-hepa-filter-550w-white-p_010281431375'

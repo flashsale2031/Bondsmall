@@ -16,9 +16,9 @@ for product in records:
     if product.get("id") != 225:
         continue
     gallery = [
-        "assets/tronsmart-g10/whatgeek-g10-hero.jpg",
-        "assets/tronsmart-g10/whatgeek-g10-1.jpg",
-        "assets/tronsmart-g10/whatgeek-g10-2.jpg",
+        "assets/tronsmart-g10/whatgeek-g10-hero.webp",
+        "assets/tronsmart-g10/whatgeek-g10-1.webp",
+        "assets/tronsmart-g10/whatgeek-g10-2.webp",
     ]
     product["image"] = gallery[0]
     product["images"] = gallery

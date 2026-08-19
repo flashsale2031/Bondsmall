@@ -16,8 +16,8 @@ for product in records:
     if product.get("id") != 241:
         continue
     gallery = [
-        "assets/uber-appliance-7qt/uber-7qt-kitchen.jpg",
-        "assets/uber-appliance-7qt/uber-7qt-basket-detail.jpg",
+        "assets/uber-appliance-7qt/uber-7qt-kitchen.webp",
+        "assets/uber-appliance-7qt/uber-7qt-basket-detail.webp",
     ]
     product["image"] = gallery[0]
     product["images"] = gallery

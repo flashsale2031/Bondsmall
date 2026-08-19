@@ -16,8 +16,8 @@ for product in records:
     if product.get("id") != 248:
         continue
     gallery = [
-        "assets/whall-6qt/whall-6qt-stainless-hero.jpg",
-        "assets/whall-6qt/whall-6qt-capacity-detail.jpg",
+        "assets/whall-6qt/whall-6qt-stainless-hero.webp",
+        "assets/whall-6qt/whall-6qt-capacity-detail.webp",
     ]
     product["image"] = gallery[0]
     product["images"] = gallery

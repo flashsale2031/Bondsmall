@@ -13,10 +13,10 @@ for product in products:
     if product.get('id') != 234:
         continue
     gallery = [
-        'assets/manufacturer-images/234-blockbuster-game-1.jpeg',
-        'assets/manufacturer-images/234-blockbuster-game-2.jpeg',
-        'assets/manufacturer-images/234-blockbuster-game-3.jpeg',
-        'assets/manufacturer-images/234-blockbuster-game-4.jpeg',
+        'assets/manufacturer-images/234-blockbuster-game-1.webp',
+        'assets/manufacturer-images/234-blockbuster-game-2.webp',
+        'assets/manufacturer-images/234-blockbuster-game-3.webp',
+        'assets/manufacturer-images/234-blockbuster-game-4.webp',
     ]
     official = 'https://www.spinmaster.com/en-us/brands/spin-master-party-games/the-blockbuster-game-a-movie-party-game-for-the-whole-family-now-featuring-video-games-and-tv-shows/'
     retailer = 'https://www.walmart.com/ip/Spin-Master-Games-The-Blockbuster-Game-A-Movie-Party-Game-for-The-Whole-Family/2709746918'

@@ -13,10 +13,10 @@ for product in products:
     if product.get('id') != 290:
         continue
     gallery = [
-        'assets/manufacturer-images/290-donatello-gian-set-1.png',
-        'assets/manufacturer-images/290-donatello-gian-set-2.jpg',
-        'assets/manufacturer-images/290-donatello-gian-set-3.jpeg',
-        'assets/manufacturer-images/290-donatello-gian-set-4.jpeg',
+        'assets/manufacturer-images/290-donatello-gian-set-1.webp',
+        'assets/manufacturer-images/290-donatello-gian-set-2.webp',
+        'assets/manufacturer-images/290-donatello-gian-set-3.webp',
+        'assets/manufacturer-images/290-donatello-gian-set-4.webp',
     ]
     source = 'https://www.nordstrom.com/s/jewelry-set-with-necklace-bracelet-hoops/8991225'
     product['image'] = gallery[0]

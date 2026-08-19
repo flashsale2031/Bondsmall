@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-expected = "assets/manufacturer-images/212-corrected.jpg"
+expected = "assets/manufacturer-images/212-corrected.webp"
 found = None
 for path in sorted((ROOT / "catalog-pages").glob("products-page-*.js")):
     text = path.read_text(encoding="utf-8")

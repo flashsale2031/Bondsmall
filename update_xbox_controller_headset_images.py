@@ -15,8 +15,8 @@ for product in products:
     gallery = [
         'assets/manufacturer-images/221-xbox-controller-headset-1.webp',
         'assets/manufacturer-images/221-xbox-controller-headset-2.webp',
-        'assets/manufacturer-images/221-xbox-controller-headset-3.jpeg',
-        'assets/manufacturer-images/221-xbox-controller-headset-4.jpeg',
+        'assets/manufacturer-images/221-xbox-controller-headset-3.webp',
+        'assets/manufacturer-images/221-xbox-controller-headset-4.webp',
     ]
     source = 'https://www.bestbuy.com/product/microsoft-xbox-series-x-s-controller-with-headset-black/JXG56QRCZ3'
     product['image'] = gallery[0]

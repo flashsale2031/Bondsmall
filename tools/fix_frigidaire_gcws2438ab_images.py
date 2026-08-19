@@ -16,9 +16,9 @@ for product in records:
     if product.get("id") != 242:
         continue
     gallery = [
-        "assets/frigidaire-gcws2438ab/gcws2438ab-front.jpg",
-        "assets/frigidaire-gcws2438ab/gcws2438ab-air-fry-control.png",
-        "assets/frigidaire-gcws2438ab/gcws2438ab-interior.jpg",
+        "assets/frigidaire-gcws2438ab/gcws2438ab-front.webp",
+        "assets/frigidaire-gcws2438ab/gcws2438ab-air-fry-control.webp",
+        "assets/frigidaire-gcws2438ab/gcws2438ab-interior.webp",
     ]
     product["image"] = gallery[0]
     product["images"] = gallery
