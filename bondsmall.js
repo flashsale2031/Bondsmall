@@ -654,12 +654,43 @@
             .catch(() => { if (token === categoryRenderToken) renderProducts(); });
     }
 
-    function getFilteredProducts() {
+        // Products 1–155 are authoritative records loaded by products.js. The lazy
+    // loader may replace the shared window.products array for each page, so build
+    // the render source explicitly: authoritative IDs first, then only records
+    // above the boundary from the active lazy chunk.
+    const PRODUCTS_JS_MAX_ID = 155;
 
+    function getProductsJsRecords() {
+        const authorityRecords = window.BondsmallCatalogAuthority && Array.isArray(window.BondsmallCatalogAuthority.records)
+            ? window.BondsmallCatalogAuthority.records
+            : (Array.isArray(window.products) ? window.products : []);
+        return authorityRecords
+            .filter((product) => Number(product && product.id) >= 1 && Number(product.id) <= PRODUCTS_JS_MAX_ID)
+            .sort((a, b) => Number(a.id) - Number(b.id));
+    }
+
+    function getChunkRecords() {
+        return (Array.isArray(window.products) ? window.products : [])
+            .filter((product) => Number(product && product.id) > PRODUCTS_JS_MAX_ID);
+    }
+
+    function getRenderableProducts() {
+        const byId = new Map();
+        getProductsJsRecords().forEach((product) => byId.set(Number(product.id), product));
+        getChunkRecords().forEach((product) => {
+            const id = Number(product && product.id);
+            if (Number.isFinite(id)) byId.set(id, product);
+        });
+        return Array.from(byId.values()).sort((a, b) => Number(a.id) - Number(b.id));
+    }
+
+    function getFilteredProducts() {
         const globalTerm = normalize(headerSearch.value);
         const categoryTerm = normalize(categorySearch.value);
+        const renderSource = getRenderableProducts();
 
-        return products.filter((product) => {
+        return renderSource.filter((product) => {
+
             const inCategory = activeCategory === "all" || 
                 (product.category || "").toLowerCase().replace(/[^a-z]/g, "") === activeCategory.toLowerCase().replace(/[^a-z]/g, "");
             const haystack = `${product.name} ${product.description} ${categoryLabels[product.category] || product.category}`.toLowerCase();
@@ -819,7 +850,10 @@
         if (currentPage < 1) currentPage = 1;
         const startIdx = (currentPage - 1) * perPage;
         const localStart = categoryView ? 0 : (window.BondsmallCatalog ? (startIdx % window.BondsmallCatalog.chunkSize) : startIdx);
-        const pageProducts = filtered.slice(localStart, localStart + perPage);
+        const isUnfilteredAllView = activeCategory === "all" && !normalize(headerSearch.value) && !normalize(categorySearch.value);
+        const pageProducts = isUnfilteredAllView && startIdx >= PRODUCTS_JS_MAX_ID
+            ? getChunkRecords().slice(0, perPage)
+            : filtered.slice(localStart, localStart + perPage);
 
         pageProducts.slice(0, 12).forEach((product) => {
             warmupImageHost(optimizeGridImageUrl(product.image));
@@ -1069,7 +1103,10 @@
     }
 
     async function openProductModal(productId, { push = true } = {}) {
-        let product = products.find((item) => item.id === Number(productId));
+        let product = getProductsJsRecords().find((item) => Number(item.id) === Number(productId));
+        if (!product) {
+            product = getChunkRecords().find((item) => Number(item.id) === Number(productId));
+        }
         if (!product && window.BondsmallCatalog && typeof window.BondsmallCatalog.getProductById === "function") {
             product = await window.BondsmallCatalog.getProductById(productId);
         }
@@ -1174,7 +1211,9 @@
             return null;
         }
 
-        const exists = products.some((item) => item.id === productId);
+        const exists = getRenderableProducts().some((item) => Number(item.id) === productId)
+            || (productId > PRODUCTS_JS_MAX_ID && window.BondsmallCatalog && productId <= window.BondsmallCatalog.totalCount);
+
         return exists ? productId : null;
     }
 

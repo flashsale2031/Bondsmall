@@ -28,7 +28,9 @@ var products = [
       "gender": "Men",
       "style": "Casual",
       "season": "All Season"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 2,
@@ -56,7 +58,9 @@ var products = [
       "gender": "Women",
       "style": "Casual / Streetwear",
       "season": "Winter / Fall"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 3,
@@ -83,7 +87,9 @@ var products = [
       "color_options": "Nero (Black)",
       "gender": "Women",
       "brand_origin": "Italy"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 4,
@@ -106,7 +112,9 @@ var products = [
       "gender": "Men",
       "style": "Casual",
       "season": "All Season"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 5,
@@ -130,7 +138,9 @@ var products = [
       "assembly_required": "Yes",
       "warranty": "1 Year Limited Warranty",
       "power": "N/A"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 6,
@@ -153,7 +163,9 @@ var products = [
       "chain_length": "16-inch necklace + 2-inch extender, 7-inch bracelet",
       "gender": "Women",
       "warranty": "6 Month Limited Warranty"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 7,
@@ -179,7 +191,9 @@ var products = [
       "gender": "Men",
       "style": "Luxury / Casual",
       "season": "Winter / Fall"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 8,
@@ -192,7 +206,6 @@ var products = [
     "images": [
       "https://www.victoriassecret.com.au/dw/image/v2/BLPL_PRD/on/demandware.static/-/Sites-pink-master-catalog/default/dw48288871/large/112629647KFJ_OF_F.jpg?sw=3000&sh=3000&sm=fit",
       "https://www.victoriassecret.com/p/874x1165/png/zz/25/12/23/02/112629647KFJ_OM_S.jpg",
-      "https://images.unsplash.com/photo-1519340241574-2cec6aef0c01?w=800",
       "https://m.media-amazon.com/images/I/71Gx7PTQBXL._AC_SL1500_.jpg",
       "https://www.victoriassecret.com.au/dw/image/v2/BLPL_PRD/on/demandware.static/-/Sites-pink-master-catalog/default/dw5dcae484/large/112629647KFJ_OM_B.jpg?sw=3000&sh=3000&sm=fit"
     ],
@@ -208,7 +221,9 @@ var products = [
       "season": "All Season"
     },
     "productType": "Athleisure / Streetwear",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 9,
@@ -231,7 +246,9 @@ var products = [
       "color_options": "Black / Gold",
       "gender": "Unisex",
       "brand_origin": "Italy"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 10,
@@ -239,10 +256,10 @@ var products = [
     "category": "men",
     "retail price": 79.99,
     "sale price": 69.99,
-    "image": "https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-AI790977725004_alternate10?$rl_4x5_pdp$",
+    "image": "https://athenabodywear-usa.com/cdn/shop/files/PoloRalphLaurenBigPonyPoloShirt20thAnniversary_3.png?v=1783374543&width=1946",
     "description": "A timeless polo shirt with breathable fabric.",
     "images": [
-      "https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-AI790977725004_alternate10?$rl_4x5_pdp$"
+      "https://athenabodywear-usa.com/cdn/shop/files/PoloRalphLaurenBigPonyPoloShirt20thAnniversary_3.png?v=1783374543&width=1946"
     ],
     "specifications": {
       "brand": "Ralph Lauren",
@@ -254,7 +271,11 @@ var products = [
       "gender": "Men",
       "style": "Casual / Preppy",
       "season": "Summer / Spring"
-    }
+    },
+    "productType": "Casual / Preppy",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 11,
@@ -280,7 +301,9 @@ var products = [
       "season": "Fall / Winter"
     },
     "productType": "Luxury / Elegant",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 12,
@@ -304,7 +327,9 @@ var products = [
       "assembly_required": "Yes",
       "warranty": "3 Year Limited Warranty",
       "power": "N/A"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 13,
@@ -327,7 +352,9 @@ var products = [
       "color_options": "Black, Charcoal, Navy",
       "gender": "Unisex",
       "brand_origin": "USA"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 14,
@@ -356,7 +383,9 @@ var products = [
       "ports": "4x USB 3 Ports, 2x Thunderbolt 3 (USB-C) Ports, Gigabit Ethernet",
       "weight": "19.7 lbs",
       "color": "Silver"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 15,
@@ -379,7 +408,9 @@ var products = [
       "gender": "Men",
       "style": "Racing / Streetwear",
       "season": "Fall / Spring"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 16,
@@ -402,7 +433,9 @@ var products = [
       "gender": "Women",
       "style": "High Luxury / Formal",
       "season": "All Season"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 17,
@@ -426,7 +459,9 @@ var products = [
       "color_options": "Beige/Brown, Anthracite/Black",
       "gender": "Unisex",
       "brand_origin": "Italy"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 18,
@@ -449,7 +484,9 @@ var products = [
       "gender": "Men / Unisex",
       "style": "Streetwear",
       "season": "Fall / Winter"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 19,
@@ -475,7 +512,9 @@ var products = [
       "gender": "Women",
       "brand_origin": "France"
     },
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 20,
@@ -498,7 +537,9 @@ var products = [
       "color_options": "Black, Dark Brown, Tan",
       "gender": "Men",
       "brand_origin": "USA"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 21,
@@ -524,7 +565,9 @@ var products = [
       "chain_length": "N/A",
       "gender": "Men",
       "warranty": "2 Year Manufacturer Warranty"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 22,
@@ -548,7 +591,9 @@ var products = [
       "assembly_required": "No",
       "warranty": "1 Year Full, 5 Year Sealed System Warranty",
       "power": "120V / 60Hz, 15A"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 23,
@@ -573,7 +618,9 @@ var products = [
       "ports": "4x Thunderbolt 3 (USB-C) ports, 3.5mm headphone jack",
       "weight": "4.0 lbs",
       "color": "Space Gray / Silver"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 24,
@@ -597,7 +644,9 @@ var products = [
       "backward_compatible": "Yes, plays thousands of Xbox One, Xbox 360, and Original Xbox games",
       "dimensions": "11.8in x 5.9in x 5.9in",
       "weight": "9.8 lbs"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 25,
@@ -621,7 +670,9 @@ var products = [
       "country_of_mint": "N/A",
       "purity": "N/A",
       "framed": "No"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 26,
@@ -645,17 +696,21 @@ var products = [
       "country_of_mint": "United States Mint (West Point)",
       "purity": ".9999 Fine Gold",
       "framed": "No"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 27,
-    "name": "2026 American Buffalo 1 OZ Gold $50 Coin",
+    "name": "Random Year American Buffalo 1 OZ Gold $50 Coin",
     "category": "artandcollectibles",
-    "retail price": 5499.99,
-    "sale price": 3999.99,
+    "retail price": 7999.99,
+    "sale price": 4999.99,
+    "pre-owned price": 3999.99,
     "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwf875f1a3/images/hi-res/coin-programs/American-Buffalo/26el_c.jpg?sw=1200&sh=1200&sm=fit",
-    "description": "The rugged designs featured on the iconic Buffalo Nickel have never fallen out of favor with collectors who have proven time and time again their love for the romance of the Wild West that the coin epitomizes. The series ended in 1938 but was not forgotten. The design appears each year on the United States Mintâ€™s spectacular $50 Gold Buffalo coin, and now the 2026 Gold Buffalos are getting ready to rumble out of The Mint and stampede their way into your collection!",
+    "description": "The rugged designs featured on the iconic Buffalo Nickel have never fallen out of favor with collectors who have proven time and time again their love for the romance of the Wild West that the coin epitomizes. The series ended in 1938 but was not forgotten. The design appears each year on the United States Mint's spectacular $50 Gold Buffalo coin, and now the 2026 Gold Buffalos are getting ready to rumble out of The Mint and stampede their way into your collection!",
     "images": [
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwf875f1a3/images/hi-res/coin-programs/American-Buffalo/26el_c.jpg?sw=1200&sh=1200&sm=fit",
       "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-obverse.jpg",
       "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-reverse.jpg",
       "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof.jpg",
@@ -673,17 +728,23 @@ var products = [
       "country_of_mint": "United States Mint (West Point)",
       "purity": ".9999 Fine Gold",
       "framed": "No"
-    }
+    },
+    "productType": "Coin",
+    "inventory": 78,
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 28,
     "name": "2026 American Eagle 1 OZ Gold $50 Coin",
     "category": "artandcollectibles",
-    "retail price": 5249.99,
-    "sale price": 3749.99,
+    "retail price": 7499.99,
+    "sale price": 5799.99,
+    "pre-owned price": 3749.99,
     "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw39628b9a/images/hi-res/coin-programs/American-Eagle/26eb_c.jpg?sw=1200&sh=1200&sm=fit",
-    "description": "The 2026 American Eagle One Ounce Gold Proof Coin celebrates the 250th anniversary of our Nationâ€™s founding with this limited-edition release! Includes anti-counterfeit variable reeding. Struck at the United States Mint facility at West Point. Quantities are limitedâ€”donâ€™t miss this â€œgoldenâ€ opportunity for this special one-year only edition!",
+    "description": "The 2026 American Eagle One Ounce Gold Proof Coin celebrates the 250th anniversary of our Nation's founding with this limited-edition release! Includes anti-counterfeit variable reeding. Struck at the United States Mint facility at West Point. Quantities are limited, don't miss this golden opportunity for this special one-year only edition!",
     "images": [
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw39628b9a/images/hi-res/coin-programs/American-Eagle/26eb_c.jpg?sw=1200&sh=1200&sm=fit",
       "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw9db3e08e/images/hi-res/coin-programs/American-Eagle/26eb_b.jpg?sw=1200&sh=1200&sm=fit",
       "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw061f3645/images/hi-res/coin-programs/American-Eagle/26eb_a.jpg?sw=1200&sh=1200&sm=fit",
       "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw581d899d/images/hi-res/coin-programs/American-Eagle/26eb_f.jpg?sw=1200&sh=1200&sm=fit",
@@ -700,7 +761,10 @@ var products = [
       "country_of_mint": "United States Mint (West Point)",
       "purity": ".9167 Gold (.9999 Fine Gold Content balance)",
       "framed": "No"
-    }
+    },
+    "inventory": 91,
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 29,
@@ -724,7 +788,9 @@ var products = [
       "country_of_mint": "N/A",
       "purity": "N/A",
       "framed": "Yes (Stretched on Pine Wood Frames)"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 30,
@@ -748,7 +814,9 @@ var products = [
       "chain_length": "8.5 inches (both bracelets included in set)",
       "gender": "Men",
       "warranty": "Lifetime Color-Guarantee Warranty"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 31,
@@ -772,7 +840,9 @@ var products = [
       "gender": "Men",
       "style": "Athletic / Training",
       "season": "Summer / Spring"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 32,
@@ -795,7 +865,9 @@ var products = [
       "gender": "Women",
       "style": "Athleisure / Sporty",
       "season": "All Season"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 33,
@@ -820,7 +892,9 @@ var products = [
       "color_options": "Beige / Ebony GG Canvas with Dark Brown Leather",
       "gender": "Men / Unisex",
       "brand_origin": "Italy"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 34,
@@ -843,7 +917,9 @@ var products = [
       "gender": "Men",
       "style": "Sporty Winter Outerwear",
       "season": "Winter"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 35,
@@ -867,7 +943,9 @@ var products = [
       "assembly_required": "Yes",
       "warranty": "1 Year Limited Manufacturer Warranty",
       "power": "N/A"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 36,
@@ -891,7 +969,9 @@ var products = [
       "country_of_mint": "N/A",
       "purity": "N/A",
       "framed": "Yes (Built-in Aluminum Frame)"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 37,
@@ -916,7 +996,9 @@ var products = [
       "ports": "1x USB-C charging, 1x MicroSD slot on drone and remote control",
       "weight": "0.55 lbs (249g - no FAA registration required)",
       "color": "Stealth Gray"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 38,
@@ -940,7 +1022,9 @@ var products = [
       "country_of_mint": "N/A",
       "purity": "N/A",
       "framed": "No"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 39,
@@ -963,7 +1047,9 @@ var products = [
       "gender": "Men",
       "style": "Outdoor Casual / Gorpcore",
       "season": "Fall / Winter / Spring"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 40,
@@ -986,7 +1072,9 @@ var products = [
       "gender": "Women",
       "style": "Athleisure / Sportswear",
       "season": "All Season"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 41,
@@ -1013,7 +1101,9 @@ var products = [
       "color_options": "Black / Gold Reversible strap",
       "gender": "Men",
       "brand_origin": "France"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 42,
@@ -1025,7 +1115,9 @@ var products = [
     "description": "A premium knit with luxury finish and feel.",
     "images": [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwHj0TR7IPCqvJIHJLbLj938kBKS02a0BncQ&s",
-      "https://images.stockx.com/images/Nike-Sportswear-Kids-Club-Fleece-Pullover-Hoodie-University-Red-2.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1674511397"
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQABVho5eU5jwGaGnBhDQdelNF5W6fVSQ9nB8R_LrnOiX5zKjtqMpKkbAYAX50eOZYT3-LdS5hUiC5baXM9_OAqoIQQ0b1tPV912PSzy99oOnbMj8ZwnkOU",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS6ory00ZtOrNWAQ28gWKZHrQe1biMsatOdpl0Ck8v8s11oB2EJOFbaOfLpHyt5jWcLu4DgJcVOwlJlHaFlHZ03EUURXCzJSKnGnYu27cLk-WhSdjmLCo5O",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS59GRZ2R_dv4M-nM0bBL8bFAKLO3Z7QzBs5-zrQin-1AtIiXgBOJ0RMrRWmUqFeRXJj-9gSLlh-feZh3OVp1tdNrJa5PMoE_AqQ7KO-bIP"
     ],
     "specifications": {
       "brand": "Gucci",
@@ -1040,7 +1132,9 @@ var products = [
     },
     "productType": "High Luxury / Smart Casual",
     "inventory": 20,
-    "pre-owned price": 599.99
+    "pre-owned price": 599.99,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 43,
@@ -1070,7 +1164,9 @@ var products = [
       "color_options": "Nero (Black), Bianco (White)",
       "gender": "Women",
       "brand_origin": "Italy"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 44,
@@ -1095,7 +1191,9 @@ var products = [
       "color_options": "Monogram Eclipse Charcoal/Black",
       "gender": "Men / Unisex",
       "brand_origin": "France"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 45,
@@ -1122,7 +1220,9 @@ var products = [
       "chain_length": "N/A",
       "gender": "Men",
       "warranty": "2 Year Manufacturer Warranty"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 46,
@@ -1146,7 +1246,9 @@ var products = [
       "assembly_required": "No",
       "warranty": "1 Year Parts & Labor, 5 Year Sealed Compressor System",
       "power": "120V / 60Hz, 15A"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 47,
@@ -1172,7 +1274,9 @@ var products = [
       "ports": "2x Thunderbolt / USB 4 ports, 3.5mm headphone jack",
       "weight": "2.8 lbs (1.29 kg)",
       "color": "Space Gray / Silver / Gold"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 48,
@@ -1197,7 +1301,9 @@ var products = [
       "backward_compatible": "Yes, plays over 99% of PS4 disc and digital games",
       "dimensions": "15.4in x 10.2in x 4.1in",
       "weight": "9.9 lbs"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 49,
@@ -1221,7 +1327,9 @@ var products = [
       "country_of_mint": "N/A",
       "purity": "N/A",
       "framed": "No"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 50,
@@ -1251,7 +1359,9 @@ var products = [
       "backward_compatible": "Yes, supports original Nintendo Switch digital and physical library",
       "dimensions": "10.2in x 4.3in x 0.6in (Handheld)",
       "weight": "0.95 lbs"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 51,
@@ -1277,7 +1387,9 @@ var products = [
       "gender": "Women",
       "style": "Athletic / Running Jacket",
       "season": "Spring / Fall"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 52,
@@ -1301,7 +1413,9 @@ var products = [
       "color_options": "Noir (Black), Gold (Brown), Etain (Gray)",
       "gender": "Men",
       "brand_origin": "France"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 53,
@@ -1324,7 +1438,9 @@ var products = [
       "gender": "Men",
       "style": "High Luxury / Streetwear",
       "season": "Fall / Winter"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 54,
@@ -1350,7 +1466,9 @@ var products = [
       "gender": "Women",
       "style": "Luxury / High Fashion",
       "season": "Fall / Winter"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 55,
@@ -1375,7 +1493,9 @@ var products = [
       "color_options": "Gold / Havana Brown",
       "gender": "Unisex",
       "brand_origin": "Italy"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 56,
@@ -1400,7 +1520,9 @@ var products = [
       "chain_length": "N/A",
       "gender": "Women",
       "warranty": "2 Year Manufacturer Warranty"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 57,
@@ -1424,7 +1546,9 @@ var products = [
       "assembly_required": "No",
       "warranty": "1 Year Limited Warranty",
       "power": "120V / 60Hz, 950W"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 58,
@@ -1449,14 +1573,16 @@ var products = [
       "ports": "1x USB-C, 2x USB 3.2, 1x HDMI, 1x MicroSD Multi-media Card Reader",
       "weight": "3.5 lbs",
       "color": "Mystic Silver"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 59,
     "name": "2017 American Liberty 1 OZ Gold $100 Coin",
     "category": "artandcollectibles",
-    "retail price": 5499.99,
-    "sale price": 2999.99,
+    "retail price": 6499.99,
+    "sale price": 4999.99,
     "image": "https://www.pcgs.com/UserImages/category-545532-slot-2-obverse.jpg",
     "description": "The 2017 $100 American Liberty 225th Anniversary Gold Coin (1oz) was made to celerbate the 225th anniversary of the US Mint. The obverse depicts Lady Liberty with a crown of stars. The reverse features a fierce looking eagle mid flight. This coin is 1oz .9999 pure gold and was struck at West Point. Only 100,000 of these were ever minted.",
     "images": [
@@ -1475,7 +1601,10 @@ var products = [
       "finish": "Glistening Proof finish",
       "country_of_mint": "United States Mint (West Point)",
       "purity": ".9999 Fine Gold"
-    }
+    },
+    "pre-owned price": 3999.99,
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 60,
@@ -1501,7 +1630,9 @@ var products = [
       "dimensions": "15.4in x 10.2in x 4.1in",
       "weight": "9.9 lbs"
     },
-    "pre-owned price": 299.99
+    "pre-owned price": 299.99,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 61,
@@ -1528,7 +1659,9 @@ var products = [
     },
     "sku": "BM-0061",
     "productType": "Shirt",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 62,
@@ -1557,7 +1690,9 @@ var products = [
     "sku": "BM-0062",
     "productType": "Coat",
     "inventory": 1,
-    "pre-owned price": 999.99
+    "pre-owned price": 999.99,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 63,
@@ -1587,7 +1722,9 @@ var products = [
     "sku": "BM-0063",
     "productType": "Travel Bag",
     "inventory": 100,
-    "pre-owned price": 499.99
+    "pre-owned price": 499.99,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 64,
@@ -1615,7 +1752,9 @@ var products = [
     "sku": "BM-0064",
     "productType": "Wallet",
     "inventory": 100,
-    "pre-owned price": 19.99
+    "pre-owned price": 19.99,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 65,
@@ -1644,12 +1783,14 @@ var products = [
     "sku": "BM-0065",
     "productType": "Belt",
     "inventory": 100,
-    "pre-owned price": 199.99
+    "pre-owned price": 199.99,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 66,
     "name": "Men's Gucci Watch",
-    "category": "accessories",
+    "category": "jewelry",
     "retail price": 1999.99,
     "sale price": 1249.99,
     "image": "https://www.bezali.com/cdn/shop/products/YA126407_2048x.jpg?v=1604959027",
@@ -1672,7 +1813,9 @@ var products = [
     "sku": "BM-0066",
     "productType": "Watch",
     "inventory": 100,
-    "pre-owned price": 799.99
+    "pre-owned price": 799.99,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 67,
@@ -1696,7 +1839,9 @@ var products = [
     },
     "sku": "BM-0067",
     "productType": "Socks",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 68,
@@ -1720,7 +1865,9 @@ var products = [
     },
     "sku": "BM-0068",
     "productType": "Underwear",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 69,
@@ -1749,7 +1896,9 @@ var products = [
     "sku": "BM-0069",
     "productType": "Sweater",
     "inventory": 100,
-    "pre-owned price": 799.99
+    "pre-owned price": 799.99,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 70,
@@ -1775,7 +1924,9 @@ var products = [
     },
     "sku": "BM-0070",
     "productType": "Shorts",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 71,
@@ -1801,7 +1952,9 @@ var products = [
     },
     "sku": "BM-0071",
     "productType": "Pants",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 72,
@@ -1830,7 +1983,9 @@ var products = [
     },
     "sku": "BM-0072",
     "productType": "Sweater",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 73,
@@ -1859,7 +2014,9 @@ var products = [
     },
     "sku": "BM-0073",
     "productType": "Jacket",
-    "inventory": 1
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 74,
@@ -1885,7 +2042,9 @@ var products = [
     },
     "sku": "BM-0074",
     "productType": "Shirt",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 75,
@@ -1914,7 +2073,9 @@ var products = [
     },
     "sku": "BM-0075",
     "productType": "Shirt",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 76,
@@ -1933,7 +2094,9 @@ var products = [
     },
     "sku": "BM-0076",
     "productType": "Camera",
-    "inventory": 10
+    "inventory": 10,
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 77,
@@ -1952,7 +2115,9 @@ var products = [
     },
     "sku": "BM-0077",
     "productType": "Slippers",
-    "inventory": 400
+    "inventory": 400,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 78,
@@ -1968,12 +2133,14 @@ var products = [
       "https://images.footballfanatics.com/adidas-originals/mens-white-adidas-originals-emblem-20-snapback-hat_ss5_p-203433842+pv-2+u-i1gaoysxxtnyakdrsmtr+v-77rcjzhbs7v2pvy1dhlu.jpg?_hv=2&w=1018"
     ],
     "specifications": {
-      "brand": "Bonds",
+      "brand": "Adidas",
       "material": "Premium construction material"
     },
     "sku": "BM-0078",
     "productType": "Snapback",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 79,
@@ -1985,31 +2152,27 @@ var products = [
     "description": "A refined leather handbag from Burberry with a structured silhouette and spacious compartments.",
     "images": [
       "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5499473_100296_m",
-      "https://media.neimanmarcus.com/f_auto",
-      "q_auto:low",
-      "ar_4:5",
-      "c_fill",
-      "dpr_2.0",
-      "w_420/01/nm_5499473_100296_z",
-      "w_420/01/nm_5499473_100296_a",
-      "w_420/01/nm_5499473_100296_h",
-      "w_420/01/nm_5499473_100296_b",
-      "w_420/01/nm_5499473_100296_c"
+      "https://cdn-images.farfetch-contents.com/32/55/06/24/32550624_62919687_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/32/55/06/24/32550624_62919719_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/32/55/06/24/32550624_62919658_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/32/55/06/24/32550624_62919664_1000.jpg"
     ],
     "specifications": {
       "brand": "Burberry",
-      "material": "100% Calfskin Saffiano Leather",
+      "material": "100% Leather",
       "dimensions": "11.0in x 7.5in x 4.0in",
-      "weight": "1.2 lbs",
-      "closure_type": "Magnetic flap closure",
+      "weight": "1.1 lbs",
+      "closure_type": "Chain latch closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Men",
+      "gender": "Women",
       "brand_origin": "Italy"
     },
     "sku": "BM-0079",
     "productType": "Handbag",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 80,
@@ -2034,12 +2197,14 @@ var products = [
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Men",
+      "gender": "Women",
       "brand_origin": "Italy"
     },
     "sku": "BM-0080",
     "productType": "Handbag",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 81,
@@ -2060,7 +2225,9 @@ var products = [
     },
     "sku": "BM-0081",
     "productType": "Headphones",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 82,
@@ -2082,7 +2249,9 @@ var products = [
     },
     "sku": "BM-0082",
     "productType": "Clipboard",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 83,
@@ -2110,7 +2279,9 @@ var products = [
     },
     "sku": "BM-0083",
     "productType": "Printer",
-    "inventory": 10
+    "inventory": 10,
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 84,
@@ -2131,7 +2302,9 @@ var products = [
     },
     "sku": "BM-0084",
     "productType": "Snapback",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 85,
@@ -2139,15 +2312,11 @@ var products = [
     "category": "accessories",
     "retail price": 79.99,
     "sale price": 19.99,
-    "image": "https://media.truereligion.com/image/upload/t_kiosk_large,e_sharpen:70/f_auto,q_auto/tr4398_1001_dtl4",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcReGDk-fOu0tz8U8vQNjD_oTW_eHTM2xnZ6qj9zr4Xf9e1W8UvnyYORtesYe0B892p_HO0PzfKCNnkoFIGrIKzsh_XvNPmFy3mm27YVAsEBczcyyTjpUpsE",
     "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
     "images": [
-      "https://media.truereligion.com/image/upload/t_kiosk_large,e_sharpen:70/f_auto,q_auto/tr4398_1001_dtl4",
-      "https://media.truereligion.com/image/upload/t_kiosk_large",
-      "e_sharpen:70/f_auto",
-      "q_auto/tr4398_1001_frt1",
-      "q_auto/tr4398_1001_dtl6",
-      "q_auto/tr4398_1001_dtl5"
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcReGDk-fOu0tz8U8vQNjD_oTW_eHTM2xnZ6qj9zr4Xf9e1W8UvnyYORtesYe0B892p_HO0PzfKCNnkoFIGrIKzsh_XvNPmFy3mm27YVAsEBczcyyTjpUpsE",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRhhxJU-rNTvUYlDty1UmfXx09Wsqh5PuIgxikhGYpmvtiO6iZUnyQizmKRYdZgChokLJ_6s1SC6FOxmhshqHL_flfbD0xeN2P1FJUFA2cs3KIWaMVW1Kx9Lg"
     ],
     "specifications": {
       "brand": "True Religion",
@@ -2155,7 +2324,9 @@ var products = [
     },
     "sku": "BM-0085",
     "productType": "Snapback",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 86,
@@ -2183,7 +2354,9 @@ var products = [
     },
     "sku": "BM-0086",
     "productType": "Jacket",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 87,
@@ -2210,7 +2383,9 @@ var products = [
     },
     "sku": "BM-0087",
     "productType": "Slippers",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 88,
@@ -2236,7 +2411,9 @@ var products = [
     },
     "sku": "BM-0088",
     "productType": "Cologne",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 89,
@@ -2262,18 +2439,23 @@ var products = [
     },
     "sku": "BM-0089",
     "productType": "Hoodie",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 90,
     "name": "Men's Patek Philippe Watch",
     "category": "jewelry",
-    "retail price": 49999.99,
-    "sale price": 29999.99,
-    "image": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=800",
+    "retail price": 13649999.99,
+    "sale price": 13599999.99,
+    "image": "https://watchxnyc.com/cdn/shop/files/watchxnyc-watch-default-title-patek-philippe-grand-complications-grandmaster-chime-black-time-calendar-diamond-dial-white-gold-reversible-case-leather-strap-49-4mm-6300-400g-001-31315235700917.jpg?v=1753988293&width=768",
     "description": "An exquisite luxury timepiece from Patek Philippe, featuring Swiss precision movement and high-grade stainless steel casing.",
     "images": [
-      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=800"
+      "https://watchxnyc.com/cdn/shop/files/watchxnyc-watch-default-title-patek-philippe-grand-complications-grandmaster-chime-black-time-calendar-diamond-dial-white-gold-reversible-case-leather-strap-49-4mm-6300-400g-001-31315235700917.jpg?v=1753988293&width=768",
+      "https://www.hourstriker.com/core/images/dbitems/medium/patek-philippe-grand-complications-grandmaster-chime-haute-joaillerie-6300400g-3-22-2024.webp",
+      "https://cdn.thewatchpages.com/app/uploads/2023/10/03170001/patek-philippe-grand-complications-grandmaster-chime-haute-joaillerie-6300400g-001-3.jpeg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Wg_fkW7imr7zYQZg4iacXphaRsZPE0h55Al_JTxHRVK95kHwgtjEOa4&s=10"
     ],
     "specifications": {
       "brand": "Patek Philippe",
@@ -2286,7 +2468,9 @@ var products = [
       "gender": "Men",
       "warranty": "5 Year Manufacturer Warranty"
     },
-    "pre-owned price": 9999.99
+    "pre-owned price": 12999999.99,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 91,
@@ -2307,7 +2491,9 @@ var products = [
       "color_options": "Charcoal, Beige, Slate",
       "assembly_required": "Yes",
       "warranty": "3 Year Limited Warranty"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 92,
@@ -2328,7 +2514,9 @@ var products = [
       "brand": "Sony",
       "material": "Premium construction material"
     },
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 93,
@@ -2362,7 +2550,9 @@ var products = [
       "season": "Winter / Fall"
     },
     "productType": "Luxury Outerwear",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 94,
@@ -2393,11 +2583,13 @@ var products = [
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Men",
+      "gender": "Women",
       "brand_origin": "Italy"
     },
     "inventory": 100,
-    "pre-owned price": 499.99
+    "pre-owned price": 499.99,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 95,
@@ -2421,7 +2613,9 @@ var products = [
       "style": "Casual / Designer",
       "season": "All Season"
     },
-    "productType": "Casual / Designer"
+    "productType": "Casual / Designer",
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 96,
@@ -2444,7 +2638,9 @@ var products = [
       "warranty": "1 Year Limited Warranty"
     },
     "productType": "Bracelet",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 97,
@@ -2470,7 +2666,9 @@ var products = [
       "dimensions": "18.1in W x 7.9in H x 19.9in D",
       "warranty": "3 Year Limited Warranty"
     },
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 98,
@@ -2493,10 +2691,12 @@ var products = [
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Men",
+      "gender": "Women",
       "brand_origin": "Italy"
     },
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 99,
@@ -2525,7 +2725,9 @@ var products = [
       "country_of_origin": "Italy",
       "gender": "Men"
     },
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 100,
@@ -2553,7 +2755,9 @@ var products = [
       "gender": "Men",
       "brand_origin": "Italy"
     },
-    "productType": "Travel Bag"
+    "productType": "Travel Bag",
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 101,
@@ -2580,7 +2784,9 @@ var products = [
       "gender": "Women",
       "brand_origin": "Paris"
     },
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 103,
@@ -2614,10 +2820,12 @@ var products = [
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Men",
+      "gender": "Women",
       "brand_origin": "Italy"
     },
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 104,
@@ -2646,7 +2854,9 @@ var products = [
       "season": "Winter / Fall"
     },
     "productType": "Designer Knitwear",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 105,
@@ -2672,7 +2882,9 @@ var products = [
       "style": "Designer Knitwear",
       "season": "Winter / Fall"
     },
-    "productType": "Designer Knitwear"
+    "productType": "Designer Knitwear",
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 106,
@@ -2693,7 +2905,9 @@ var products = [
       "material": "Premium construction material"
     },
     "productType": "Hat",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 107,
@@ -2717,7 +2931,9 @@ var products = [
       "weight": "28 lbs",
       "dimensions": "48.3in W x 28.0in H x 1.8in D",
       "warranty": "2 Year Manufacturer Warranty"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 108,
@@ -2744,7 +2960,9 @@ var products = [
       "weight": "0.48 lbs",
       "color": "Desert Titanium, Natural Titanium"
     },
-    "productType": "Phone"
+    "productType": "Phone",
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 109,
@@ -2770,7 +2988,9 @@ var products = [
       "country_of_origin": "Italy",
       "gender": "Women"
     },
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 110,
@@ -2798,14 +3018,16 @@ var products = [
       "gender": "Men",
       "brand_origin": "USA"
     },
-    "pre-owned price": 499.99
+    "pre-owned price": 499.99,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 111,
     "name": "2025 DC Comic Batman Gold $50 Coin",
     "category": "artandcollectibles",
     "retail price": 5999.99,
-    "sale price": 3999.99,
+    "sale price": 4999.99,
     "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw8fda21fc/images/hi-res/coin-programs/comic-art/25DBG_c.jpg?sw=1200&sh=1200&sm=fit",
     "description": "From the shadows, the Dark Knight emerges as the second release in our Comic Art Coin Program. Batman is newly etched in a 99.9% 24-Karat gold proof coin.",
     "images": [
@@ -2822,7 +3044,12 @@ var products = [
       "country_of_mint": "United States Mint (West Point)",
       "edition": "Limited Edition Collection",
       "authenticity": "Certificate of Authenticity & Presentation Case included"
-    }
+    },
+    "productType": "Coin",
+    "inventory": 86,
+    "pre-owned price": 3999.99,
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 112,
@@ -2843,7 +3070,9 @@ var products = [
       "light_source": "Integrated Addressable RGB LED",
       "power_source": "5V DC USB Power Cord",
       "warranty": "1 Year Warranty"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 113,
@@ -2866,7 +3095,9 @@ var products = [
       "country_of_origin": "Italy",
       "gender": "Women"
     },
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 114,
@@ -2890,7 +3121,9 @@ var products = [
       "style": "Casual / Designer",
       "season": "All Season"
     },
-    "productType": "Shirt"
+    "productType": "Shirt",
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 115,
@@ -2920,7 +3153,9 @@ var products = [
       "gender": "Women",
       "brand_origin": "Italy"
     },
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 116,
@@ -2953,7 +3188,9 @@ var products = [
       "brand_origin": "Italy"
     },
     "inventory": 100,
-    "pre-owned price": 999.99
+    "pre-owned price": 999.99,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 117,
@@ -2961,10 +3198,18 @@ var products = [
     "category": "electronics",
     "retail price": 299.99,
     "sale price": 199.99,
-    "image": "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=800",
+    "image": "https://de2wfhoo6xqi5.cloudfront.net/size/400/ccc/53f/e70c3c2033c168ad579245b551613c2674.jpg",
     "description": "A high-performance all-in-one printer from HP, supporting printing, copying, scanning, and fast wireless setup.",
     "images": [
-      "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=800"
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/ccc/53f/e70c3c2033c168ad579245b551613c2674.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/403/375/06591467116fe8391462be84353058e718.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/0df/0f4/c2317c681c64b248343f85c5f150ebf48b.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/034/650/748f94a2291111befe45d0254f5102ec94.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/234/4a3/72760fc3b26f753358050b6fbf63b38d62.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/234/f11/480c1714da95ca98750fbef96c23180954.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/270/06f/80c35ab8b35b62b67222b66a55b8bcd256.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/494/071/93a569ddd42bd4b7708b657e6466a96c14.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/564/c3f/d35370fdfe8dea17427d96d098c801c100.jpg"
     ],
     "specifications": {
       "brand": "HP",
@@ -2974,7 +3219,11 @@ var products = [
       "max_resolution": "4800 x 1200 dpi",
       "paper_capacity": "250 sheets",
       "warranty": "1 Year Limited Hardware Warranty"
-    }
+    },
+    "productType": "Printer",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 118,
@@ -2991,7 +3240,9 @@ var products = [
     "specifications": {
       "brand": "Bonds",
       "material": "Premium construction material"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 119,
@@ -3010,7 +3261,7 @@ var products = [
       "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/B15816s3.jpg?im=Resize"
     ],
     "specifications": {
-      "brand": "Bonds",
+      "brand": "Tommy Hilfiger",
       "material": "Polyester & Nylon Shell",
       "fit": "Regular Fit",
       "sizes_available": "S, M, L, XL",
@@ -3021,7 +3272,9 @@ var products = [
       "season": "Winter / Fall"
     },
     "productType": "Luxury Outerwear",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 120,
@@ -3029,10 +3282,18 @@ var products = [
     "category": "accessories",
     "retail price": 599.99,
     "sale price": 119.99,
-    "image": "https://images.unsplash.com/photo-1591561954555-607968c989ab?w=1000",
+    "image": "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a0?$mobileProductV6$",
     "description": "A refined leather handbag from Coach with a structured silhouette and spacious compartments.",
     "images": [
-      "https://images.unsplash.com/photo-1591561954555-607968c989ab?w=1000"
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a0?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a21?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a88?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a3?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a5?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a10?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a99?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a6?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a8?$mobileProductV6$"
     ],
     "specifications": {
       "brand": "Coach",
@@ -3042,9 +3303,12 @@ var products = [
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Men",
+      "gender": "Women",
       "brand_origin": "USA"
-    }
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 121,
@@ -3065,7 +3329,9 @@ var products = [
       "dimensions": "21.8in W x 11.5in H x 15.5in D",
       "weight": "34 lbs",
       "warranty": "1 Year Limited Warranty"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 122,
@@ -3085,7 +3351,9 @@ var products = [
       "weight": "4.5 lbs",
       "finish": "Antique Matte / Patina",
       "authenticity": "Certificate of Authenticity Included"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 123,
@@ -3112,7 +3380,9 @@ var products = [
       "noise_rating": "57 dB",
       "warranty": "5 Year Tool Warranty"
     },
-    "inventory": 200
+    "inventory": 200,
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 124,
@@ -3137,7 +3407,9 @@ var products = [
       "style": "Designer Knitwear",
       "season": "Winter / Fall"
     },
-    "productType": "Designer Knitwear"
+    "productType": "Designer Knitwear",
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 125,
@@ -3154,10 +3426,12 @@ var products = [
       "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQYIlWdv6p-F0Bwc397mlCvidUeRCZ7NNNfMC6HLvAIxpxBCa8pVx7Q1HTIa6858HTfImXNq5oXtnQw9-3Ebeh3of_-zsVV6hJsmuRpzDJSUMuc-MDZsqSIL8A"
     ],
     "specifications": {
-      "brand": "Bonds",
+      "brand": "Nintendo",
       "material": "Premium construction material"
     },
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 126,
@@ -3184,7 +3458,9 @@ var products = [
       "season": "All Season"
     },
     "productType": "Casual / Designer",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 127,
@@ -3214,7 +3490,9 @@ var products = [
       "season": "All Season"
     },
     "productType": "Casual / Designer",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 128,
@@ -3236,7 +3514,9 @@ var products = [
       "edition": "Standard Edition",
       "esrb_rating": "Mature 17+",
       "release_year": "2025"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 129,
@@ -3253,7 +3533,7 @@ var products = [
       "https://www.theoutnet.com/variants/images/46376663163029858/D/w920_q80.jpg"
     ],
     "specifications": {
-      "brand": "Bonds",
+      "brand": "Maison Margiela",
       "material": "80% Wool, 20% Cashmere",
       "fit": "Relaxed Fit",
       "sizes_available": "S, M, L, XL",
@@ -3264,7 +3544,9 @@ var products = [
       "season": "Winter / Fall"
     },
     "productType": "Designer Knitwear",
-    "inventory": 20
+    "inventory": 20,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 130,
@@ -3292,9 +3574,12 @@ var products = [
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Men",
+      "gender": "Women",
       "brand_origin": "Italy"
-    }
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 131,
@@ -3320,7 +3605,9 @@ var products = [
       "gender": "Men",
       "brand_origin": "Milano"
     },
-    "productType": "Hat"
+    "productType": "Hat",
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 132,
@@ -3338,7 +3625,7 @@ var products = [
       "https://www.frostnyc.com/cdn/shop/products/Stainless_Steel_Black_900x.jpg?v=1742234858"
     ],
     "specifications": {
-      "brand": "Bonds",
+      "brand": "Rolex",
       "material": "18K Gold Plated Stainless Steel",
       "dial_size": "40mm Case",
       "band_material": "Stainless Steel Link Bracelet",
@@ -3348,7 +3635,9 @@ var products = [
       "gender": "Men",
       "warranty": "5 Year Manufacturer Warranty"
     },
-    "pre-owned price": 1999.99
+    "pre-owned price": 1999.99,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 133,
@@ -3366,12 +3655,14 @@ var products = [
       "material": "Premium construction material"
     },
     "productType": "Desktop",
-    "pre-owned price": 99.99
+    "pre-owned price": 99.99,
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 134,
     "name": "Men's Armani Cashmere Sweater",
-    "category": "accessories",
+    "category": "men",
     "retail price": 2499.99,
     "sale price": 1299.99,
     "image": "https://editorialist.com/thumbnails/600/2026/5/042/891/963/42891963~brown_1779977546165_0.webp",
@@ -3394,7 +3685,9 @@ var products = [
       "style": "Designer Knitwear",
       "season": "Winter / Fall"
     },
-    "productType": "Designer Knitwear"
+    "productType": "Designer Knitwear",
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 135,
@@ -3422,7 +3715,9 @@ var products = [
       "gender": "Men",
       "brand_origin": "Italy"
     },
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 136,
@@ -3452,40 +3747,37 @@ var products = [
       "warranty": "5 Year Manufacturer Warranty"
     },
     "productType": "Watch",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 137,
     "name": "Women's Chloe Handbag",
     "category": "accessories",
-    "retail price": 2499.99,
+    "retail price": 2999.99,
     "sale price": 1129.99,
     "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_4103480_100168_m",
-    "description": "A refined leather handbag from Chloe with a structured silhouette and spacious compartments.",
+    "description": "A redefined leather handbag from Chloe with a structured silhouette and spacious compartments.",
     "images": [
-      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_4103480_100168_m",
-      "https://media.neimanmarcus.com/f_auto",
-      "q_auto:low",
-      "ar_4:5",
-      "c_fill",
-      "dpr_2.0",
-      "w_420/01/nm_4103480_100168_c",
-      "w_420/01/nm_4103480_100168_a",
-      "w_420/01/nm_4103480_100168_z",
-      "w_420/01/nm_4103480_100000_e"
+      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_4103480_100168_m"
     ],
     "specifications": {
       "brand": "Chloe",
-      "material": "100% Calfskin Saffiano Leather",
+      "material": "100% Cream Leather",
       "dimensions": "11.0in x 7.5in x 4.0in",
-      "weight": "1.2 lbs",
-      "closure_type": "Magnetic flap closure",
+      "weight": "1.6 lbs",
+      "closure_type": "B clip closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Men",
+      "gender": "Women",
       "brand_origin": "Italy"
     },
-    "inventory": 100
+    "productType": "Handbag",
+    "inventory": 100,
+    "pre-owned price": 899.99,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 138,
@@ -3513,12 +3805,14 @@ var products = [
       "gender": "Men",
       "warranty": "5 Year Manufacturer Warranty"
     },
-    "productType": "Watch"
+    "productType": "Watch",
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 139,
     "name": "Men's Gucci Watch",
-    "category": "men",
+    "category": "jewelry",
     "retail price": 799.99,
     "sale price": 99.99,
     "image": "https://www.watch-connection.com/cdn/shop/files/91gjM560cFL._AC_UY1000_1024x1024_72f387c3-81c8-4b21-ba5b-62c30e0a8fb7_1024x1024.jpg?v=1776520493",
@@ -3540,7 +3834,9 @@ var products = [
       "chain_length": "N/A",
       "gender": "Men",
       "warranty": "5 Year Manufacturer Warranty"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 140,
@@ -3556,7 +3852,9 @@ var products = [
     "specifications": {
       "brand": "Bonds",
       "material": "Premium construction material"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 141,
@@ -3578,14 +3876,16 @@ var products = [
       "brand": "Sony",
       "material": "Premium construction material"
     },
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 142,
     "name": "2025 DC Comic Superman Gold $50 Coin",
     "category": "artandcollectibles",
-    "retail price": 4999.99,
-    "sale price": 3499.99,
+    "retail price": 5999.99,
+    "sale price": 4999.99,
     "image": "https://i5.walmartimages.com/seo/2025-W-50-1-2-oz-Proof-Superman-DC-Comics-Gold-Coin-w-Box-OGP_3223f0d2-51cf-4818-840f-1748ae1466db.373291d167476d253e4cc4281404ba4c.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
     "description": "An exceptional proof gold coin celebrating the Man of Steel. Professionally graded and encapsulated by U.S. Mint's approved comic art series.",
     "images": [
@@ -3602,7 +3902,11 @@ var products = [
       "country_of_mint": "United States Mint (West Point)",
       "edition": "Limited Edition Collection",
       "authenticity": "Certificate of Authenticity & Presentation Case included"
-    }
+    },
+    "inventory": 93,
+    "pre-owned price": 3999.99,
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 143,
@@ -3629,7 +3933,9 @@ var products = [
       "season": "All Season"
     },
     "productType": "Sweater",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 144,
@@ -3655,7 +3961,9 @@ var products = [
       "style": "Luxury Outerwear",
       "season": "Winter / Fall"
     },
-    "productType": "Luxury Outerwear"
+    "productType": "Luxury Outerwear",
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 145,
@@ -3671,7 +3979,7 @@ var products = [
       "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-monogram-leather-puffer-jacket--HUL92WPW285M_PM1_Cropped%20worn%20view.jpg"
     ],
     "specifications": {
-      "brand": "Bonds",
+      "brand": "Louis Vuitton",
       "material": "Polyester & Nylon Shell",
       "fit": "Regular Fit",
       "sizes_available": "S, M, L, XL",
@@ -3681,7 +3989,9 @@ var products = [
       "style": "Luxury Outerwear",
       "season": "Winter / Fall"
     },
-    "productType": "Luxury Outerwear"
+    "productType": "Luxury Outerwear",
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 146,
@@ -3689,24 +3999,28 @@ var products = [
     "category": "accessories",
     "retail price": 1999.99,
     "sale price": 999.99,
-    "image": "https://images.unsplash.com/photo-1589731119540-c4586781dae1?w=800",
-    "description": "A refined leather handbag from Bonds with a structured silhouette and spacious compartments.",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT4pMDqyUA-Zi5WOs1nBSzFFwh66npvURC-e2CTxxYLqKN0iXARt-MAw18WvrzrCdqdDJEyA6Rn1WE",
+    "description": "A refined leather handbag from Christian Dior with a structured silhouette and spacious compartments.",
     "images": [
-      "https://images.unsplash.com/photo-1589731119540-c4586781dae1?w=800",
-      "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800",
-      "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=800"
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT4pMDqyUA-Zi5WOs1nBSzFFwh66npvURC-e2CTxxYLqKN0iXARt-MAw18WvrzrCdqdDJEyA6Rn1WE",
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSzmnk6TcPNw-tnMGCdbUAGad4AqNU4gX6Hd5J8F2nDnq2z2RGhvaUvQAkamP3ibFzNIOPA_DIQ_Q",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ3qYFlEpsLr4eijM51SqYxYGr7QhCd5eCoxJNFzUYmJJiP4RkNe3uw1bS42NjlrkQuF-Tpqtuy",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQPAwv92vb9vmIkXfakZlPTH9Z6XHVK1uXu9G1XkwFwEyQg0XjHLA_C1D7ns3SMf0ybsGiLr-A"
     ],
     "specifications": {
-      "brand": "Bonds",
+      "brand": "Dior",
       "material": "100% Calfskin Saffiano Leather",
       "dimensions": "11.0in x 7.5in x 4.0in",
       "weight": "1.2 lbs",
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Men",
+      "gender": "Women",
       "brand_origin": "Italy"
-    }
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 147,
@@ -3725,7 +4039,7 @@ var products = [
       "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-boulogne-pm--M12930_PM1_Worn%20view.png?wid=730&hei=730"
     ],
     "specifications": {
-      "brand": "Bonds",
+      "brand": "Louis Vuitton",
       "material": "100% Calfskin Saffiano Leather",
       "dimensions": "11.0in x 7.5in x 4.0in",
       "weight": "1.2 lbs",
@@ -3736,7 +4050,9 @@ var products = [
       "brand_origin": "Italy"
     },
     "productType": "Handbag",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 148,
@@ -3767,7 +4083,9 @@ var products = [
       "warranty": "2 Year Manufacturer Warranty"
     },
     "productType": "TV",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 149,
@@ -3797,7 +4115,9 @@ var products = [
       "season": "Winter / Fall"
     },
     "productType": "Luxury Outerwear",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 150,
@@ -3823,7 +4143,9 @@ var products = [
       "style": "Casual / Summer",
       "season": "Summer"
     },
-    "productType": "Casual / Summer"
+    "productType": "Casual / Summer",
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 151,
@@ -3844,7 +4166,9 @@ var products = [
       "color_options": "Charcoal, Beige, Slate",
       "assembly_required": "Yes",
       "warranty": "3 Year Limited Warranty"
-    }
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 152,
@@ -3869,7 +4193,9 @@ var products = [
       "connectivity": "USB-C",
       "warranty": "1 Year Limited Warranty"
     },
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
   },
   {
     "id": 153,
@@ -3896,7 +4222,9 @@ var products = [
       "season": "Summer"
     },
     "productType": "Casual / Summer",
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
   },
   {
     "id": 154,
@@ -3922,7 +4250,9 @@ var products = [
       "weight": "1.8 lbs",
       "warranty": "1 Year Limited Warranty"
     },
-    "inventory": 100
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 155,
@@ -3930,10 +4260,18 @@ var products = [
     "category": "electronics",
     "retail price": 299.99,
     "sale price": 99.99,
-    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800",
+    "image": "https://de2wfhoo6xqi5.cloudfront.net/size/400/f29/082/98327e489585792a2cfadfe24b01605cbd.jpg",
     "description": "A sleek, lightweight tablet featuring a brilliant AMOLED screen, high-performance processor, and long battery life.",
     "images": [
-      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800"
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/f29/082/98327e489585792a2cfadfe24b01605cbd.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/108/b23/62a38dce07c76e3d939fc056f93f7bcaaa.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/022/2ec/a04668ae05cba2650db99f09b465f062cf.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/201/3df/6022095e0acbb4b9885b4cae3dc2df7c9a.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/27b/762/713e6103a229a7c76e3187b9733ffbcb0c.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/408/e81/f9081d76293aba53e796a442c122290026.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/42d/7a7/6b5fd332a4ae354aa8968305a882dee9e6.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/45d/a0b/665e9fb344a5358319bb9dbc8d8fa43fe2.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/50e/677/433b5679396a28caee702fc7dd8e7e4b46.jpg"
     ],
     "specifications": {
       "brand": "Samsung",
@@ -3945,6 +4283,9 @@ var products = [
       "ports": "USB-C",
       "weight": "1.1 lbs",
       "warranty": "1 Year Limited Warranty"
-    }
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Unisex"
   }
 ];
