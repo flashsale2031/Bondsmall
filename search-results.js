@@ -34,6 +34,7 @@
     let currentCondition     = "";
     let selectedDeals         = [];
     let currentPage          = 1;
+    let displayProducts      = [];
 
     /* ── DOM References ───────────────────────── */
     const searchInput   = document.getElementById("sr-search");
@@ -174,7 +175,7 @@
     /* ── Product Decoration for Brand, Condition, Deals ── */
     function decorateProducts() {
         if (typeof window.products === "undefined") return;
-        if (window.products._decorated) return;
+        if (displayProducts.length) return;
         const knownBrands = [
             "Hanes", "Abercrombie & Fitch", "Abercrombie", "Dolce & Gabbana", "Levi", 
             "Ralph Lauren", "Louis Vuitton", "Columbia", "Apple", "Ferrari", 
@@ -183,56 +184,28 @@
             "Hermes", "Fendi", "Hamilton Beach", "Samsung"
         ];
 
-        products.forEach(p => {
+        displayProducts = products.map((source) => {
+            const p = { ...source };
             p.salePrice = p["sale price"] || p.price || 0;
-            p.price     = p.salePrice; // ensure p.price always has a usable number
+            p.price = p.salePrice;
 
-            // 1. Inferred Brand
-            if (!p.brand) {
-                const specBrand = p.specifications && p.specifications.brand && p.specifications.brand.trim();
-                if (specBrand) {
-                    p.brand = specBrand;
-                } else {
-                    const foundBrand = knownBrands.find(b => p.name.toLowerCase().includes(b.toLowerCase()));
-                    if (foundBrand) {
-                        p.brand = foundBrand;
-                    } else {
-                        const firstWord = p.name.split(" ")[0].replace(/[^a-zA-Z]/g, "");
-                        p.brand = firstWord || "Bonds Mall";
-                    }
-                }
-            }
+            const specBrand = p.specifications && p.specifications.brand && p.specifications.brand.trim();
+            p.brand = p.brand || specBrand || knownBrands.find(b => p.name.toLowerCase().includes(b.toLowerCase())) || p.name.split(" ")[0].replace(/[^a-zA-Z]/g, "") || "Bonds Mall";
 
-            // 2. Inferred Condition
             if (!p.condition) {
-                if (p.description && (p.description.toLowerCase().includes("excellent") || p.description.toLowerCase().includes("refurbished"))) {
-                    p.condition = "Refurbished";
-                } else if (p.id % 2 === 0) {
-                    p.condition = "New";
-                } else {
-                    p.condition = "Pre-Owned";
-                }
+                p.condition = p.description && (p.description.toLowerCase().includes("excellent") || p.description.toLowerCase().includes("refurbished"))
+                    ? "Refurbished"
+                    : (p.id % 2 === 0 ? "New" : "Pre-Owned");
             }
 
-            // 3. Inferred Deals
             if (typeof p.discount !== "number") {
-                if (p.id % 7 === 0) {
-                    p.discount = 25;
-                } else if (p.id % 6 === 0) {
-                    p.discount = 20;
-                } else if (p.id % 5 === 0) {
-                    p.discount = 15;
-                } else if (p.id % 4 === 0) {
-                    p.discount = 10;
-                } else {
-                    p.discount = 0;
-                }
+                p.discount = p.id % 7 === 0 ? 25 : p.id % 6 === 0 ? 20 : p.id % 5 === 0 ? 15 : p.id % 4 === 0 ? 10 : 0;
             }
+            return p;
         });
-        window.products._decorated = true;
     }
 
-    function populateBrandDropdown(filteredList = products) {
+    function populateBrandDropdown(filteredList = displayProducts) {
         const brandSelect = document.getElementById("sr-brand-select");
         if (!brandSelect) return;
         
@@ -258,7 +231,7 @@
         });
     }
 
-    function populateConditionDropdown(filteredList = products) {
+    function populateConditionDropdown(filteredList = displayProducts) {
         const conditionSelect = document.getElementById("sr-condition-select");
         if (!conditionSelect) return;
         
@@ -325,7 +298,7 @@
             if (favs.length === 0) {
                 favListEl.innerHTML = '<p class="favorites-empty" style="font-size: 0.82rem; color: #665f57; margin: 0; font-style: italic;">Your favorite list is empty.</p>';
             } else {
-                const favProducts = products.filter(p => favs.includes(p.id));
+                const favProducts = displayProducts.filter(p => favs.includes(p.id));
                 if (favProducts.length === 0) {
                     favListEl.innerHTML = '<p class="favorites-empty" style="font-size: 0.82rem; color: #665f57; margin: 0; font-style: italic;">Your favorite list is empty.</p>';
                 } else {
@@ -348,7 +321,7 @@
 
     function getBaseFilteredProducts(excludeBrand = false, excludeCondition = false) {
         if (typeof window.products === "undefined") return [];
-        return products.filter(p => {
+        return displayProducts.filter(p => {
             const inCat = currentCategory === "all" || p.category === currentCategory;
             const hay   = `${p.name} ${p.description || ""} ${categoryLabels[p.category] || p.category} ${p.brand || ""} ${p.condition || ""}`.toLowerCase();
             const passQ = !currentQuery || hay.includes(normalize(currentQuery));
@@ -371,7 +344,7 @@
 
     function getFilteredProducts() {
         if (typeof window.products === "undefined") return [];
-        let list = products.filter(p => {
+        let list = displayProducts.filter(p => {
             const inCat = currentCategory === "all" || p.category === currentCategory;
             const hay   = `${p.name} ${p.description || ""} ${categoryLabels[p.category] || p.category} ${p.brand || ""} ${p.condition || ""}`.toLowerCase();
             const passQ = !currentQuery || hay.includes(normalize(currentQuery));
@@ -818,7 +791,7 @@
     function closeCart() { if (cartOverlay) cartOverlay.classList.add('hidden'); }
 
     function addToCart(productId, qty = 1, condition = "") {
-        const product = (typeof products !== "undefined") ? products.find(p => p.id === Number(productId)) : null;
+        const product = displayProducts.find(p => p.id === Number(productId)) || null;
         if (!product) return;
         const amount = Math.min(999, Math.max(1, Math.floor(Number(qty) || 1)));
         const cond   = condition || "New";
@@ -841,7 +814,7 @@
 
     /* ── Product modal ────────────────────────── */
     function openProductModal(productId) {
-        const product = (window.products || []).find(p => p.id === Number(productId));
+        const product = displayProducts.find(p => p.id === Number(productId));
         if (!product || !productModal) return;
         activeModalProductId = product.id;
         if (typeof window.populateProductPopup === "function") {
@@ -877,7 +850,7 @@
         if (!popupSearchResults || !popupHeaderSearch) return;
         const term = normalize(popupHeaderSearch.value);
         if (!term) { clearPopupSearch(); return; }
-        const matched = (typeof products !== "undefined" ? products : []).filter(p => {
+        const matched = displayProducts.filter(p => {
             const hay = `${p.name} ${p.description || ""} ${categoryLabels[p.category] || p.category}`.toLowerCase();
             return hay.includes(term);
         }).slice(0, 20);
@@ -1300,7 +1273,7 @@
         // If a ?product= param is in URL, open that product
         const params = new URLSearchParams(window.location.search);
         const productId = Number(params.get("product"));
-        if (productId && window.products && window.products.some(p => p.id === productId)) {
+        if (productId && displayProducts.some(p => p.id === productId)) {
             openProductModal(productId);
         }
 

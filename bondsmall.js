@@ -1686,17 +1686,11 @@
         });
     }
 
+    // Compatibility hook retained for callers that previously normalized products.
+    // Authoritative products.js records are immutable from the storefront layer;
+    // display and checkout code reads the filed retail/sale fields directly.
     function normalizeProducts() {
-        if (typeof products === "undefined") return;
-        products.forEach(p => {
-            if (typeof p.price !== "number" || p.price === 0) {
-                const sp = p["sale price"];
-                const rp = p["retail price"];
-                p.price = typeof sp === "number" && sp > 0 ? sp
-                        : typeof rp === "number" && rp > 0 ? rp
-                        : 0;
-            }
-        });
+        return Array.isArray(window.products) ? window.products.length : 0;
     }
 
     function init() {
