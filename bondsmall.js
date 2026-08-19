@@ -1756,14 +1756,41 @@
         `;
         document.head.appendChild(badgeStyle);
 
-        initializeAccountManager();
-        normalizeProducts();
         currentPage = requestedPage;
         const initialCatalogLoad = window.BondsmallCatalog
             ? (activeCategory !== "all" && typeof window.BondsmallCatalog.ensureCategoryPage === "function"
                 ? window.BondsmallCatalog.ensureCategoryPage(activeCategory, currentPage, getProductsPerPage())
                 : window.BondsmallCatalog.ensurePage(currentPage, getProductsPerPage()))
             : Promise.resolve();
+
+        // Register this as soon as catalog loading begins. The rest of init()
+        // may set up optional UI, but a direct product URL must not depend on it.
+        const requestedProductId = getProductIdFromUrl();
+        const openRequestedProduct = async (attempt = 0) => {
+            if (!requestedProductId) return;
+
+            if (attempt === 0) {
+                // Create the listing history entry behind a direct product URL.
+                const gridUrl = new URL(window.location.href);
+                gridUrl.searchParams.delete("product");
+                try {
+                    window.history.replaceState({}, "", cleanUrl(gridUrl.toString()));
+                } catch (e) {
+                    console.warn("replaceState failed:", e);
+                }
+            }
+
+            await openProductModal(requestedProductId, { push: true });
+            if (activeModalProductId !== requestedProductId && attempt < 2) {
+                window.setTimeout(() => openRequestedProduct(attempt + 1), 250);
+            }
+        };
+        if (requestedProductId) {
+            Promise.resolve(initialCatalogLoad).then(openRequestedProduct, openRequestedProduct);
+        }
+
+        initializeAccountManager();
+        normalizeProducts();
         if (currentPage === 1) renderProducts();
         Promise.resolve(initialCatalogLoad).then(() => {
             renderProducts();
@@ -1838,27 +1865,6 @@
             }
         });
 
-        const openProductFromUrl = () => {
-            const productIdFromUrl = getProductIdFromUrl();
-            if (!productIdFromUrl) return;
-
-            // Synthesize a "grid" history entry behind the product so the Back
-            // arrow returns to the listing even when the product link was opened
-            // directly (new tab, shared URL, etc.).
-            const gridUrl = new URL(window.location.href);
-            gridUrl.searchParams.delete("product");
-            try {
-                window.history.replaceState({}, "", cleanUrl(gridUrl.toString()));
-            } catch (e) {
-                console.warn("replaceState failed:", e);
-            }
-            openProductModal(productIdFromUrl, { push: true });
-        };
-
-        // Catalog records are loaded asynchronously. Opening the modal only after
-        // that initial load prevents shared `?product=<id>` links from racing the
-        // catalog and falling back to the landing page.
-        Promise.resolve(initialCatalogLoad).then(openProductFromUrl, openProductFromUrl);
 
         let textActivationCount = 0;
         let gleamTimeoutId = null;
