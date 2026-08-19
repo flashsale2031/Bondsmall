@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-19T05:26:20.137Z",
+  "updatedAt": "2026-08-19T05:27:22.480Z",
   "records": [
     {
       "id": 26,
@@ -18,6 +18,25 @@
         "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477808267.coreimg.jpeg/1746477874968/2021-american-liberty-high-relief-gold-coin-reverse.jpeg"
       ],
       "description": "The 2021 American Liberty High Relief Gold Coin is the fifth coin in the American Liberty series. Since its debut in 2015, the American Liberty Gold Coin and Silver Medal Program features coins and medals with modern depictions of allegorical Liberty on the obverse. The reverse features complementary eagle designs. The designs represent what liberty means to each of us individually as Americans, or collectively as a nation."
+    },
+    {
+      "id": 129,
+      "sku": "",
+      "name": "Men's Maison Margiela Sweater",
+      "category": "men",
+      "productType": "Designer Knitwear",
+      "age_group": "Adult",
+      "gender": "Men",
+      "retail price": 3999.99,
+      "sale price": 1199.99,
+      "inventory": 20,
+      "image": "https://www.theoutnet.com/variants/images/46376663163029858/F/w920_q80.jpg",
+      "images": [
+        "https://www.theoutnet.com/variants/images/46376663163029858/R/w920_q80.jpg",
+        "https://www.theoutnet.com/variants/images/46376663163029858/E/w920_q80.jpg",
+        "https://www.theoutnet.com/variants/images/46376663163029858/D/w920_q80.jpg"
+      ],
+      "description": "A premium designer knitwear piece from Bonds crafted with warm wool and cashmere fibers."
     },
     {
       "id": 156,
