@@ -1,0 +1,172 @@
+{
+  "scope": {
+    "start_position": 160,
+    "end_position": 179,
+    "count": 20
+  },
+  "prices_changed": 0,
+  "records_marked_pending": 20,
+  "records": [
+    {
+      "position": 160,
+      "id": 161,
+      "name": "Petra Multi-Stone Drop Necklace in Gold",
+      "retail price": 61.99,
+      "sale price": 35.99,
+      "price_pending": true
+    },
+    {
+      "position": 161,
+      "id": 162,
+      "name": "Athena Bracelet in Gold",
+      "retail price": 69.99,
+      "sale price": 37.99,
+      "price_pending": true
+    },
+    {
+      "position": 162,
+      "id": 163,
+      "name": "Waterdrop Arm Chain",
+      "retail price": 29.99,
+      "sale price": 24.99,
+      "price_pending": true
+    },
+    {
+      "position": 163,
+      "id": 164,
+      "name": "Petal Lariat Necklace",
+      "retail price": 31.99,
+      "sale price": 26.99,
+      "price_pending": true
+    },
+    {
+      "position": 164,
+      "id": 165,
+      "name": "Naia Shell Cord Necklace",
+      "retail price": 27.99,
+      "sale price": 22.99,
+      "price_pending": true
+    },
+    {
+      "position": 165,
+      "id": 166,
+      "name": "Liquid Shell Cord Necklace in Silver",
+      "retail price": 33.99,
+      "sale price": 27.99,
+      "price_pending": true
+    },
+    {
+      "position": 166,
+      "id": 167,
+      "name": "Neri Tahitian Mother of Pearl Bangle",
+      "retail price": 35.99,
+      "sale price": 29.99,
+      "price_pending": true
+    },
+    {
+      "position": 167,
+      "id": 168,
+      "name": "Midnight Oval Shell Ring in Silver",
+      "retail price": 29.99,
+      "sale price": 24.99,
+      "price_pending": true
+    },
+    {
+      "position": 168,
+      "id": 169,
+      "name": "Midnight Oval Shell Ring",
+      "retail price": 29.99,
+      "sale price": 24.99,
+      "price_pending": true
+    },
+    {
+      "position": 169,
+      "id": 170,
+      "name": "Naia Shell Cord Necklace - Ivory",
+      "retail price": 27.99,
+      "sale price": 22.99,
+      "price_pending": true
+    },
+    {
+      "position": 170,
+      "id": 171,
+      "name": "Liquid Shell Cord Necklace in Gold",
+      "retail price": 33.99,
+      "sale price": 27.99,
+      "price_pending": true
+    },
+    {
+      "position": 171,
+      "id": 172,
+      "name": "Waterdrop Necklace in Marine Blue",
+      "retail price": 26.99,
+      "sale price": 21.99,
+      "price_pending": true
+    },
+    {
+      "position": 172,
+      "id": 173,
+      "name": "Whimsical Romance Stone Necklace in Silver",
+      "retail price": 28.99,
+      "sale price": 23.99,
+      "price_pending": true
+    },
+    {
+      "position": 173,
+      "id": 174,
+      "name": "Venus Collar Necklace in Gold",
+      "retail price": 38.99,
+      "sale price": 32.99,
+      "price_pending": true
+    },
+    {
+      "position": 174,
+      "id": 175,
+      "name": "Tiger's Gaze Earrings",
+      "retail price": 31.99,
+      "sale price": 26.99,
+      "price_pending": true
+    },
+    {
+      "position": 175,
+      "id": 176,
+      "name": "Tiger's Eye Savannah Ring",
+      "retail price": 25.99,
+      "sale price": 21.99,
+      "price_pending": true
+    },
+    {
+      "position": 176,
+      "id": 177,
+      "name": "Tiger's Eye Band Ring",
+      "retail price": 25.99,
+      "sale price": 21.99,
+      "price_pending": true
+    },
+    {
+      "position": 177,
+      "id": 178,
+      "name": "Tess's Treasure Carnelian Bracelet",
+      "retail price": 37.99,
+      "sale price": 31.99,
+      "price_pending": true
+    },
+    {
+      "position": 178,
+      "id": 179,
+      "name": "Carnelian Veil Lariat Necklace in Gold",
+      "retail price": 33.99,
+      "sale price": 27.99,
+      "price_pending": true
+    },
+    {
+      "position": 179,
+      "id": 180,
+      "name": "Celestial Lariat Necklace",
+      "retail price": 34.99,
+      "sale price": 28.99,
+      "price_pending": true
+    }
+  ],
+  "reason": "Insufficient verified seven-retailer coverage; no price values were changed."
+}
