@@ -121,6 +121,48 @@
     font-size: 0.95rem;
   }
 
+  .inventory-pagination {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45rem;
+    margin: 1rem 0 2rem;
+  }
+
+  .inventory-pagination button {
+    min-width: 2.35rem;
+    min-height: 2.35rem;
+    padding: 0 0.65rem;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: #fff;
+    color: var(--ink);
+    font: inherit;
+    font-size: 0.82rem;
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+  .inventory-pagination button:hover:not(:disabled),
+  .inventory-pagination button.is-active {
+    border-color: var(--ink);
+    background: var(--ink);
+    color: #fff;
+  }
+
+  .inventory-pagination button:disabled {
+    cursor: not-allowed;
+    opacity: 0.45;
+  }
+
+  .inventory-pagination .pagination-summary {
+    margin: 0 0.35rem;
+    color: var(--muted);
+    font-size: 0.82rem;
+    font-weight: 700;
+  }
+
   .table-wrap {
     overflow: auto;
     border: 1px solid var(--line);
@@ -520,7 +562,9 @@
       function renderInventoryPagination(total) {
         if (!els.pagination || !total) return;
         const pages = Math.max(1, Math.ceil(total / INVENTORY_PER_PAGE));
-        els.pagination.innerHTML = `<button type="button" data-inv-page="prev" ${inventoryPage <= 1 ? 'disabled' : ''}>Prev</button><span>Page ${inventoryPage} of ${pages}</span><button type="button" data-inv-page="next" ${inventoryPage >= pages ? 'disabled' : ''}>Next</button>`;
+        const numberedPages = Array.from({ length: 10 }, (_, index) => index + 1);
+        const pageButtons = numberedPages.map((page) => `<button type="button" data-inv-page="${page}" class="${inventoryPage === page ? 'is-active' : ''}" ${page > pages ? 'disabled' : ''} aria-label="Go to inventory page ${page}" aria-current="${inventoryPage === page ? 'page' : 'false'}">${page}</button>`).join('');
+        els.pagination.innerHTML = `<button type="button" data-inv-page="prev" ${inventoryPage <= 1 ? 'disabled' : ''}>Prev</button>${pageButtons}<span class="pagination-summary">Page ${inventoryPage} of ${pages}</span><button type="button" data-inv-page="next" ${inventoryPage >= pages ? 'disabled' : ''}>Next</button>`;
       }
 
       async function loadInventoryPage(page) {
@@ -670,7 +714,13 @@
           if (product && confirm('Delete this product?')) { overrides[String(product.id)] = null; persistOverrides(); productList = productList.filter((item) => item.id !== product.id); render(); scheduleSync(); }
         }
       };
-      els.pagination.onclick = (event) => { const action = event.target.closest('[data-inv-page]')?.dataset.invPage; if (action === 'prev') loadInventoryPage(inventoryPage - 1); if (action === 'next') loadInventoryPage(inventoryPage + 1); };
+      els.pagination.onclick = (event) => {
+        const action = event.target.closest('[data-inv-page]')?.dataset.invPage;
+        if (!action) return;
+        if (action === 'prev') return loadInventoryPage(inventoryPage - 1);
+        if (action === 'next') return loadInventoryPage(inventoryPage + 1);
+        return loadInventoryPage(Number(action));
+      };
       document.addEventListener('bondsmall-catalog-chunk-loaded', () => { productList = applyOverrides(Array.isArray(window.products) ? window.products : productList); render(); });
 
       for (const [id, field] of [['token', 'ghToken'], ['repo', 'ghRepo'], ['branch', 'ghBranch'], ['path', 'ghPath']]) if (ghConfig[id]) document.getElementById(field).value = ghConfig[id];

@@ -22,15 +22,17 @@ function inferBrandFromName(name) {
 
 /** Catalog row → popup shape (salePrice, retailPrice, specs, brand, …) */
 function enrichForPopup(product) {
-    const imgs = [...new Set([product.image, ...(product.images || [])].filter(Boolean))];
+    const authoritative = Boolean(window.BondsmallCatalogAuthority && typeof window.BondsmallCatalogAuthority.has === "function" && window.BondsmallCatalogAuthority.has(product && product.id));
+    const sourceImages = Array.isArray(product.images) ? product.images : (Array.isArray(product.image) ? product.image : (product.image ? [product.image] : []));
+    const imgs = authoritative ? sourceImages.slice() : [...new Set([...(product.image ? (Array.isArray(product.image) ? product.image : [product.image]) : []), ...(product.images || [])].filter(Boolean))];
 
-    let retailPrice = product["retail price"] || product.retailPrice || 0;
-    if (!retailPrice) {
+    let retailPrice = product["retail price"] ?? product.retailPrice ?? null;
+    if (!authoritative && (retailPrice === null || retailPrice === undefined || retailPrice === "")) {
         retailPrice = (typeof product.price === "number" ? product.price : 0) * 1.1;
     }
 
-    let salePrice = product["sale price"] || product.salePrice || retailPrice;
-    if (!salePrice) {
+    let salePrice = product["sale price"] ?? product.salePrice ?? product["pre-owned price"] ?? null;
+    if (!authoritative && (salePrice === null || salePrice === undefined || salePrice === "")) {
         salePrice = typeof product.price === "number" ? product.price : retailPrice;
     }
 

@@ -101,6 +101,24 @@
         return text.toLowerCase().trim();
     }
 
+    function isAuthoritativeProduct(product) {
+        return Boolean(window.BondsmallCatalogAuthority && typeof window.BondsmallCatalogAuthority.has === 'function' && window.BondsmallCatalogAuthority.has(product && product.id));
+    }
+
+    function filedRetailPrice(product) {
+        if (isAuthoritativeProduct(product)) return product['retail price'] ?? product.retailPrice ?? null;
+        return product['retail price'] ?? product.retailPrice ?? (product.price * 1.1);
+    }
+
+    function filedSalePrice(product) {
+        if (isAuthoritativeProduct(product)) return product['sale price'] ?? product['pre-owned price'] ?? product.salePrice ?? product.price ?? null;
+        return product['sale price'] ?? product['pre-owned price'] ?? product.salePrice ?? product.price ?? product['retail price'] ?? null;
+    }
+
+    function renderFiledPrice(value) {
+        return value === null || value === undefined || value === '' ? '' : formatMoney(value);
+    }
+
     document.addEventListener('bondsmall-catalog-page-ready', () => {
         if (typeof renderProducts === 'function') renderProducts();
     });
@@ -888,8 +906,8 @@
                     </div>
                     <h3 class="product-name" style="cursor: pointer;" data-action="open-modal" data-id="${product.id}">${product.name}</h3>
                     <div class="product-price-row" style="display: flex; gap: 0.5rem; align-items: baseline; margin-bottom: 0.3rem; flex-wrap: wrap;">
-                        <span class="retail-price" style="text-decoration: line-through; color: var(--muted); font-size: 0.85rem;">${formatMoney(product["retail price"] || product.retailPrice || product.price * 1.1)}</span>
-                        <span class="sale-price" style="color: var(--good, #1f7a46); font-weight: 800; font-size: 1rem;">${formatMoney(product["sale price"] ?? product["pre-owned price"] ?? product.salePrice ?? product.price ?? product["retail price"] ?? 0)}</span>
+                        <span class="retail-price" style="text-decoration: line-through; color: var(--muted); font-size: 0.85rem;">${renderFiledPrice(filedRetailPrice(product))}</span>
+                        <span class="sale-price" style="color: var(--good, #1f7a46); font-weight: 800; font-size: 1rem;">${renderFiledPrice(filedSalePrice(product))}</span>
 
                     </div>
                     <button class="add-btn" data-action="add-cart" data-id="${product.id}">Add to Cart</button>
