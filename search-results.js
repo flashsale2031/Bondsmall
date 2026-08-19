@@ -1206,13 +1206,16 @@
         }
 
         if (payNowBtn) {
-            payNowBtn.addEventListener("click", () => {
+            payNowBtn.addEventListener("click", (event) => {
+                event.preventDefault();
                 cart = [];
                 activeDiscountRate = 0;
                 updateCartCount();
                 renderCart();
                 closeCart();
-                window.location.href = cleanUrl("order-success");
+                window.setTimeout(() => {
+                    window.location.href = cleanUrl("order-success");
+                }, 5000);
             });
         }
 
