@@ -53,3 +53,9 @@ All records were previously marked `price_pending` from earlier evidence-gated p
 
 ## Evidence gate
 Search snippets and public product pages did not provide seven verified, materially comparable, same-variant retailer offers for every product. Prices should therefore remain unchanged and records should be marked `price_pending` unless a later audit verifies sufficient coverage. Exact-title results for industrial, medical, automotive, and specialty goods often had only one to four price-bearing retailers or mixed variants/pack sizes.
+
+## Revised tiered policy
+
+The pricing rule was revised to prioritize four comparable competitors, then fall back to three, two, and one when broader evidence is unavailable. Each result receives a confidence label. Exact-variant and same-currency comparables remain required; mixed currencies are not silently converted without an explicit FX date. Retail benchmarks use the highest usable comparable and sale benchmarks use the lowest usable comparable, both expressed with the rounded-price.99 convention.
+
+Under this revised policy, 16 products received prices and four remain pending: product 1822 (Siemens contactor), 1825 (vacuum stretcher), 1826 (Captain Cook 500ml), and 1830 (Xiaomi scooter). The applied values and confidence tiers are recorded in `accessories-page10-tiered-pricing-report.json`.
