@@ -1523,10 +1523,16 @@
         // Always save order first so the user always sees it
         localStorage.setItem("recentOrder", JSON.stringify(recentOrder));
 
-                // Keep the checkout open while the order submission is processed.
-        const processingDelay = new Promise((resolve) => {
-            window.setTimeout(resolve, 5000);
-        });
+        // Clear cart and close drawer
+        cart = [];
+        shippingData = null;
+        activeDiscountRate = 0;
+        discountCodeInput.value = "";
+        updateCartCount();
+        renderCart();
+        closeCart();
+
+        // Send email in background (best-effort — don't block redirect)
         const emailResult = await Promise.race([
             sendOrderEmail(recentOrder),
             new Promise((resolve) => {
@@ -1535,6 +1541,15 @@
                 }, 3000);
             })
         ]);
+
+        if (!emailResult || !emailResult.success) {
+            console.warn("Order email was not confirmed before redirect", emailResult);
+        }
+
+        // Redirect to order success page
+        window.location.href = "order-success.html";
+    }
+
         await processingDelay;
 
         // Only close the checkout after the five-second processing period.
