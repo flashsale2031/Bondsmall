@@ -9,7 +9,7 @@
   const base = 'catalog-pages/';
   const target = window.products = window.products || [];
   const authority = window.BondsmallCatalogAuthority || { records: [], has: () => false, get: () => null };
-  const version = '2.4.0-gzip';
+  const version = '2.4.1-gzip';
   const categoryIndex = (window.BondsmallCategoryIndex && window.BondsmallCategoryIndex.categories) || {};
   const categoryStates = new Map();
 
@@ -20,9 +20,11 @@
   function preferAuthoritative(records) {
     const incoming = Array.isArray(records) ? records : [];
     if (!authority.records.length) return incoming.slice();
-    const originalIds = new Set(authority.records.map(product => Number(product.id)));
-    const missingFromAuthority = incoming.filter(product => !originalIds.has(Number(product.id)));
-    return authority.records.concat(missingFromAuthority);
+    const byId = new Map(authority.records.map(product => [Number(product.id), product]));
+    // Keep the chunk's shape and order. Replace only matching IDs with the
+    // immutable products.js snapshot; never prepend the full authority list to
+    // every lazy chunk, which would make every page render page one again.
+    return incoming.map(product => byId.get(Number(product && product.id)) || product);
   }
 
   function setTarget(records) {
