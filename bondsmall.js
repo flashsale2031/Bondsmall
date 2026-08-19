@@ -1838,8 +1838,10 @@
             }
         });
 
-        const productIdFromUrl = getProductIdFromUrl();
-        if (productIdFromUrl) {
+        const openProductFromUrl = () => {
+            const productIdFromUrl = getProductIdFromUrl();
+            if (!productIdFromUrl) return;
+
             // Synthesize a "grid" history entry behind the product so the Back
             // arrow returns to the listing even when the product link was opened
             // directly (new tab, shared URL, etc.).
@@ -1851,7 +1853,12 @@
                 console.warn("replaceState failed:", e);
             }
             openProductModal(productIdFromUrl, { push: true });
-        }
+        };
+
+        // Catalog records are loaded asynchronously. Opening the modal only after
+        // that initial load prevents shared `?product=<id>` links from racing the
+        // catalog and falling back to the landing page.
+        Promise.resolve(initialCatalogLoad).then(openProductFromUrl, openProductFromUrl);
 
         let textActivationCount = 0;
         let gleamTimeoutId = null;
