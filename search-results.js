@@ -186,7 +186,7 @@
 
         displayProducts = products.map((source) => {
             const p = { ...source };
-            p.salePrice = p["sale price"] || p.price || 0;
+            p.salePrice = p["sale price"] ?? p["pre-owned price"] ?? p.price ?? p["retail price"] ?? 0;
             p.price = p.salePrice;
 
             const specBrand = p.specifications && p.specifications.brand && p.specifications.brand.trim();

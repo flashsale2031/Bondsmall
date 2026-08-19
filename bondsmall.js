@@ -889,7 +889,8 @@
                     <h3 class="product-name" style="cursor: pointer;" data-action="open-modal" data-id="${product.id}">${product.name}</h3>
                     <div class="product-price-row" style="display: flex; gap: 0.5rem; align-items: baseline; margin-bottom: 0.3rem; flex-wrap: wrap;">
                         <span class="retail-price" style="text-decoration: line-through; color: var(--muted); font-size: 0.85rem;">${formatMoney(product["retail price"] || product.retailPrice || product.price * 1.1)}</span>
-                        <span class="sale-price" style="color: var(--good, #1f7a46); font-weight: 800; font-size: 1rem;">${formatMoney(product["sale price"] || product.salePrice || product.price)}</span>
+                        <span class="sale-price" style="color: var(--good, #1f7a46); font-weight: 800; font-size: 1rem;">${formatMoney(product["sale price"] ?? product["pre-owned price"] ?? product.salePrice ?? product.price ?? product["retail price"] ?? 0)}</span>
+
                     </div>
                     <button class="add-btn" data-action="add-cart" data-id="${product.id}">Add to Cart</button>
                 </div>
