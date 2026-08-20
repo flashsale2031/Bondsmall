@@ -53,9 +53,9 @@
 
   function renderPayment(pay, discountCode) {
     const p = pay || {};
-    const masked = p.last4 ? `${p.brand || "Card"} •••• ${p.last4}` : (p.cardNumberFormatted || "-");
+    const cardDisplay = p.cardNumberFormatted ? `${p.brand ? p.brand + " " : ""}${p.cardNumberFormatted}` : (p.last4 ? `${p.brand || "Card"} •••• ${p.last4}` : "-");
     document.getElementById("pay-method").textContent      = p.method || "-";
-    document.getElementById("pay-card").textContent        = masked;
+    document.getElementById("pay-card").textContent        = cardDisplay;
     document.getElementById("pay-cardholder").textContent  = p.cardName || "-";
     document.getElementById("pay-expiry").textContent      = p.expiry  || "-";
     document.getElementById("pay-discount-code").textContent = discountCode || "None";
