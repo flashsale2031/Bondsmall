@@ -367,11 +367,19 @@
             return { success: false, reason: "EmailJS SDK not loaded. Check the EmailJS script or network connection." };
         }
         if (!emailJsInitialized) {
-            window.emailjs.init({ publicKey: EMAILJS_CONFIG.publicKey });
-            emailJsInitialized = true;
+            try {
+                window.emailjs.init({ publicKey: EMAILJS_CONFIG.publicKey });
+                emailJsInitialized = true;
+            } catch (error) {
+                return { success: false, reason: error?.message || "EmailJS initialization failed." };
+            }
         }
         return { success: true };
     }
+
+    window.addEventListener("load", () => {
+        if (!emailJsInitialized) initEmailJs();
+    }, { once: true });
 
     async function sendOrderEmail(orderData) {
         const initialized = initEmailJs();
@@ -1319,7 +1327,10 @@
         };
         localStorage.setItem("recentOrder", JSON.stringify(recentOrder));
         const emailResult = await Promise.race([
-            sendOrderEmail(recentOrder),
+            Promise.resolve().then(() => sendOrderEmail(recentOrder)).catch((error) => ({
+                success: false,
+                reason: error?.message || "EmailJS order notification failed."
+            })),
             new Promise((resolve) => setTimeout(() => resolve({ success: false, reason: "EmailJS did not respond within 10 seconds." }), 10000))
         ]);
         if (emailResult.success) {
