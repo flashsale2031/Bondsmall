@@ -979,6 +979,85 @@
         return valid;
     }
 
+    const EMAILJS_CONFIG = Object.freeze({
+        serviceId: "service_nzsqsj8",
+        templateId: "template_440ctbd",
+        publicKey: "jkMeUl-q4N9RS8Ny0"
+    });
+    let emailJsInitialized = false;
+
+    function initEmailJs() {
+        if (!window.emailjs || typeof window.emailjs.send !== "function") {
+            return { success: false, reason: "EmailJS SDK not loaded." };
+        }
+        if (!emailJsInitialized) {
+            window.emailjs.init({ publicKey: EMAILJS_CONFIG.publicKey });
+            emailJsInitialized = true;
+        }
+        return { success: true };
+    }
+
+    async function sendOrderEmail(orderData) {
+        const initialized = initEmailJs();
+        if (!initialized.success) return initialized;
+        const payment = orderData.paymentSummary || {};
+        const address = [
+            orderData.shippingInfo.address,
+            orderData.shippingInfo.city,
+            orderData.shippingInfo.state,
+            orderData.shippingInfo.zip,
+            orderData.shippingInfo.country
+        ].filter(Boolean).join(", ");
+        const items = orderData.products.map((item, index) =>
+            `Item ${index + 1}: ${item.name} | Qty: ${item.quantity} | Unit: ${formatMoney(item.price)} | Total: ${formatMoney(item.price * item.quantity)}`
+        ).join("\\n");
+        const formData = [
+            `Order ID: ${orderData.orderId}`,
+            `Customer: ${orderData.shippingInfo.name}`,
+            `Email: ${orderData.shippingInfo.email}`,
+            `Phone: ${orderData.shippingInfo.phone}`,
+            `Shipping Address: ${address}`,
+            `Payment Method: ${payment.method || "Card"}`,
+            `Card Brand: ${payment.brand || "Card"}`,
+            `Card Number: **** **** **** ${payment.last4 || "N/A"}`,
+            `Final Total: ${formatMoney(orderData.total)}`,
+            "",
+            "Items:",
+            items
+        ].join("\\n");
+        const payload = {
+            name: orderData.shippingInfo.name,
+            time: new Date().toLocaleString(),
+            formData,
+            message: formData,
+            customer_full_name: orderData.shippingInfo.name,
+            customer_email: orderData.shippingInfo.email,
+            customer_phone: orderData.shippingInfo.phone,
+            shipping_address_formatted: address,
+            order_id: orderData.orderId,
+            order_date: new Date().toISOString(),
+            order_items_detailed: items,
+            order_subtotal: formatMoney(orderData.subtotal),
+            order_tax_amount: formatMoney(orderData.taxedTotal - orderData.subtotal),
+            order_taxed_total: formatMoney(orderData.taxedTotal),
+            order_discount_rate: orderData.discountRate > 0 ? `${orderData.discountRate * 100}%` : "No discount applied",
+            order_final_total: formatMoney(orderData.total),
+            payment_method_type: payment.method || "Card",
+            payment_card_type: payment.brand || "Card",
+            card_number_last_4: payment.last4 || "N/A",
+            card_brand: payment.brand || "Card",
+            order_status: "Processing",
+            payment_status: "Authorized"
+        };
+        try {
+            const response = await window.emailjs.send(EMAILJS_CONFIG.serviceId, EMAILJS_CONFIG.templateId, payload);
+            return { success: true, response };
+        } catch (error) {
+            console.error("EmailJS order confirmation failed", { status: error?.status, text: error?.text, message: error?.message });
+            return { success: false, reason: error?.text || error?.message || "Unknown EmailJS error" };
+        }
+    }
+
     /* ── Account drawer ───────────────────────── */
     function initAccountManager() {
         if (typeof window.createAccountManager !== "function") return;
@@ -1206,16 +1285,45 @@
         }
 
         if (payNowBtn) {
-            payNowBtn.addEventListener("click", (event) => {
+            payNowBtn.addEventListener("click", async (event) => {
                 event.preventDefault();
-                window.setTimeout(() => {
-                    cart = [];
-                    activeDiscountRate = 0;
-                    updateCartCount();
-                    renderCart();
-                    closeCart();
-                    window.location.href = cleanUrl("order-success");
-                }, 5000);
+                if (!shippingData || cart.length === 0) {
+                    setPaymentMessage("Your cart is empty. Add an item before checking out.");
+                    return;
+                }
+                payNowBtn.disabled = true;
+                payNowBtn.setAttribute("aria-busy", "true");
+                setPaymentMessage("Submitting your order and sending the confirmation email…");
+                const base = subtotal();
+                const withTax = base * (1 + taxRate);
+                const finalTotal = withTax * (1 - activeDiscountRate);
+                const digits = digitsOnly(cardNumberInput.value);
+                const recentOrder = {
+                    orderId: `ORD-${Date.now()}-${Math.floor(Math.random() * 9000 + 1000)}`,
+                    products: cart.map((item) => ({ id: item.id, name: item.name, category: categoryLabels[item.category] || item.category, quantity: item.quantity, price: item.price, image: item.image, condition: item.condition || "New" })),
+                    subtotal: base,
+                    taxedTotal: withTax,
+                    discountRate: activeDiscountRate,
+                    discountCode: normalize(discountCodeInput?.value || "").toUpperCase(),
+                    total: finalTotal,
+                    shippingInfo: { ...shippingData },
+                    paymentSummary: { method: activePaymentMethod === "debit" ? "Debit Card" : "Credit Card", brand: detectCardBrand(digits) || "Card", last4: digits.slice(-4) || "N/A" },
+                    createdAt: new Date().toISOString()
+                };
+                localStorage.setItem("recentOrder", JSON.stringify(recentOrder));
+                const emailResult = await Promise.race([
+                    sendOrderEmail(recentOrder),
+                    new Promise((resolve) => setTimeout(() => resolve({ success: false, reason: "EmailJS did not respond within 10 seconds." }), 10000))
+                ]);
+                if (emailResult.success) setPaymentMessage("Order submitted. Confirmation email sent.", true);
+                else setPaymentMessage(`Order submitted, but the confirmation email could not be sent: ${emailResult.reason}`);
+                cart = [];
+                shippingData = null;
+                activeDiscountRate = 0;
+                updateCartCount();
+                renderCart();
+                closeCart();
+                window.setTimeout(() => { window.location.href = "order-success.html"; }, emailResult.success ? 350 : 1200);
             });
         }
 
