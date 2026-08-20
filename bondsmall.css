@@ -1417,7 +1417,9 @@ body.lightbox-open {
   height: 100%;
   width: min(460px, 100%);
   background: linear-gradient(180deg, #ffffff 0%, #f8f2e7 58%, #f6efe3 100%);
-  z-index: 2;
+  z-index: 3;
+  pointer-events: auto;
+
   overflow-y: auto;
   padding: 1.1rem;
   border-left: 1px solid #e8ded0;
@@ -1727,6 +1729,9 @@ body.lightbox-open {
 }
 
 .checkout-panel {
+  position: relative;
+  z-index: 1;
+  pointer-events: auto;
   background: #fff;
   border: 1px solid #e6dac8;
   border-radius: 16px;
@@ -1770,7 +1775,12 @@ body.lightbox-open {
 #shipping-form input,
 #payment-form input,
 #discount-section input {
+  position: relative;
+  z-index: 2;
+  pointer-events: auto;
+  user-select: text;
   border: 1px solid #dbcab4;
+
   background: #fff;
   border-radius: 11px;
   padding: 0.85rem 0.9rem;
