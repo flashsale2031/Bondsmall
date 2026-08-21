@@ -1289,6 +1289,20 @@
     #schedule-form { display:grid; gap:12px; }
     #schedule-form label { display:grid; gap:5px; color:var(--text2); font-size:.72rem; font-weight:600; }
     #schedule-form input, #schedule-form select { width:100%; padding:9px 10px; border:1px solid var(--border2); border-radius:8px; background:var(--card2); color:var(--text); }
+    .schedule-product-picker { display:grid; gap:8px; }
+    .schedule-product-picker-header { display:flex; justify-content:space-between; gap:10px; color:var(--text); font-size:.78rem; font-weight:700; }
+    #schedule-selected-count { color:var(--accent); font-weight:700; }
+    .schedule-product-picker-actions { display:flex; gap:12px; flex-wrap:wrap; padding:8px 10px; border:1px solid var(--border); border-radius:8px; background:var(--card2); }
+    .schedule-product-picker-actions label { display:flex !important; grid-template-columns:none !important; align-items:center; gap:6px; color:var(--text2); font-size:.72rem; font-weight:600; cursor:pointer; }
+    .schedule-product-picker-actions input { width:auto !important; margin:0; accent-color:var(--accent); }
+    .schedule-product-list { display:grid; gap:6px; max-height:250px; overflow:auto; padding:6px; border:1px solid var(--border2); border-radius:8px; background:var(--card2); }
+    .schedule-product-option { display:flex; align-items:flex-start; gap:8px; padding:8px; border-radius:6px; cursor:pointer; }
+    .schedule-product-option:hover, .schedule-product-option.is-selected { background:var(--glass2); }
+    .schedule-product-option input { width:auto !important; margin-top:2px; accent-color:var(--accent); }
+    .schedule-product-option-copy { min-width:0; display:grid; gap:2px; }
+    .schedule-product-option-title { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:var(--text); font-size:.74rem; font-weight:700; }
+    .schedule-product-option-meta { color:var(--text2); font-size:.66rem; }
+    .schedule-product-empty { padding:16px 8px; color:var(--text2); font-size:.75rem; text-align:center; }
     .schedule-dialog-actions { display:flex; justify-content:flex-end; gap:8px; margin-top:4px; }
 
     /* Stats Bar */
@@ -3031,6 +3045,50 @@
       z-index: 10020;
       pointer-events: none;
     }
+    #ad-window-tray {
+      position: fixed;
+      left: 14px;
+      right: 14px;
+      bottom: 14px;
+      z-index: 10000;
+      display: none;
+      align-items: flex-end;
+      gap: 8px;
+      pointer-events: none;
+    }
+    #ad-window-tray.visible { display: flex; }
+    #ad-window-tray.collapsed { display: none; }
+    #ad-window-tray-reopen { position:fixed; right:14px; bottom:14px; z-index:10000; display:none; border:1px solid var(--border2); border-radius:999px; padding:8px 12px; background:rgba(255,253,248,.96); color:var(--text); box-shadow:0 12px 28px rgba(57,43,29,.22); cursor:pointer; font-size:.7rem; font-weight:800; }
+    #ad-window-tray-reopen.visible { display:block; }
+    .ad-window-tray-panel {
+      display: grid;
+      gap: 8px;
+      width: min(100%, 980px);
+      padding: 10px;
+      border: 1px solid var(--border2);
+      border-radius: 12px;
+      background: rgba(255,253,248,.96);
+      box-shadow: 0 16px 44px rgba(57,43,29,.24);
+      pointer-events: auto;
+      backdrop-filter: blur(12px);
+    }
+    .ad-window-tray-header { display:flex; align-items:center; justify-content:space-between; gap:10px; }
+    .ad-window-tray-title { color:var(--text); font-size:.78rem; font-weight:800; }
+    .ad-window-tray-meta { color:var(--text2); font-size:.68rem; }
+    .ad-window-tray-actions { display:flex; gap:6px; flex-wrap:wrap; }
+    .ad-window-tray-actions button, .ad-window-tray-toggle { border:1px solid var(--border2); border-radius:7px; padding:5px 8px; background:var(--card2); color:var(--text); cursor:pointer; font-size:.68rem; }
+    .ad-window-tray-actions button:hover, .ad-window-tray-toggle:hover { border-color:var(--accent); }
+    .ad-window-tray-grid { display:grid; grid-template-columns:repeat(4, minmax(0, 1fr)); gap:8px; }
+    .ad-window-tray-grid.is-expanded { grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); max-height:190px; overflow:auto; }
+    .ad-window-tray-card { display:grid; gap:5px; min-width:0; padding:8px; border:1px solid var(--border); border-radius:8px; background:var(--card2); cursor:pointer; }
+    .ad-window-tray-card:hover, .ad-window-tray-card:focus-visible { border-color:var(--accent); outline:none; }
+    .ad-window-tray-card-title { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:var(--text); font-size:.72rem; font-weight:800; }
+    .ad-window-tray-card-meta { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:var(--text2); font-size:.64rem; }
+    .ad-window-tray-card-state { color:var(--accent); font-size:.62rem; font-weight:700; }
+    @media (max-width: 720px) {
+      #ad-window-tray { left:8px; right:8px; bottom:8px; }
+      .ad-window-tray-grid { grid-template-columns:repeat(2, minmax(0, 1fr)); }
+    }
     .platform-session-window {
       position: fixed;
       width: clamp(280px, 33.333vw, 520px);
@@ -3612,10 +3670,8 @@
       overflow-y: auto;
     }
     .captcha-notification-item {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
+      display: grid;
+      gap: 9px;
       width: 100%;
       padding: 11px 12px;
       border: 1px solid rgba(239,68,68,.24);
@@ -3623,17 +3679,26 @@
       background: rgba(239,68,68,.07);
       color: var(--text);
       text-align: left;
-      cursor: pointer;
     }
     .captcha-notification-item:hover,
-    .captcha-notification-item:focus-visible {
+    .captcha-notification-item:focus-within {
       border-color: #ef4444;
       background: rgba(239,68,68,.14);
       outline: none;
     }
-    .captcha-notification-item-copy { min-width: 0; }
+    .captcha-notification-item-copy { min-width: 0; cursor: pointer; }
     .captcha-notification-item-title { display: block; font-weight: 700; font-size: .82rem; }
     .captcha-notification-item-meta { display: block; margin-top: 3px; color: var(--muted); font-size: .72rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .captcha-notification-product { display:block; margin-top:4px; color:var(--text); font-size:.72rem; line-height:1.35; }
+    .captcha-notification-location { display:block; margin-top:3px; color:#fecaca; font-size:.68rem; }
+    .captcha-notification-body { display:grid; grid-template-columns:86px minmax(0,1fr); gap:10px; align-items:start; }
+    .captcha-notification-screenshot { display:flex; align-items:center; justify-content:center; width:86px; height:58px; overflow:hidden; border:1px solid rgba(239,68,68,.35); border-radius:6px; background:#fff; color:var(--muted); font-size:.58rem; text-align:center; }
+    .captcha-notification-screenshot img { display:block; width:100%; height:100%; object-fit:contain; }
+    .captcha-notification-form { display:flex; gap:6px; align-items:center; }
+    .captcha-notification-form input { flex:1 1 auto; min-width:0; height:30px; padding:0 8px; border:1px solid var(--border2); border-radius:6px; background:var(--card2); color:var(--text); font-size:.72rem; }
+    .captcha-notification-form button { flex:0 0 auto; height:30px; padding:0 9px; border:1px solid #ef4444; border-radius:6px; background:#ef4444; color:#fff; cursor:pointer; font-size:.68rem; font-weight:700; }
+    .captcha-notification-form button:hover { background:#dc2626; }
+    .captcha-notification-note { color:var(--muted); font-size:.64rem; line-height:1.35; }
     .captcha-notification-empty { padding: 16px; color: var(--muted); font-size: .8rem; text-align: center; }
     .platform-session-window.captcha-required { border-color: rgba(239,68,68,.75); box-shadow: 0 0 0 2px rgba(239,68,68,.14), 0 16px 40px rgba(0,0,0,.35); }
 
@@ -3771,6 +3836,16 @@
     </section>
 
     <div id="platform-session-dock" aria-live="polite"></div>
+    <aside id="ad-window-tray" aria-label="Active ad browser windows" aria-live="polite">
+      <div class="ad-window-tray-panel">
+        <div class="ad-window-tray-header">
+          <div><div class="ad-window-tray-title">Active ad windows</div><div id="ad-window-tray-meta" class="ad-window-tray-meta">No concurrent ad windows</div></div>
+          <div class="ad-window-tray-actions"><button type="button" onclick="minimizeAllAdWindows()">Minimize all</button><button type="button" onclick="closeAllAdWindows()">Close all</button><button type="button" id="ad-window-tray-toggle" class="ad-window-tray-toggle" onclick="toggleAdWindowTrayExpanded()" hidden>Show more</button></div>
+        </div>
+        <div id="ad-window-tray-grid" class="ad-window-tray-grid"></div>
+      </div>
+    </aside>
+    <button id="ad-window-tray-reopen" type="button" onclick="reopenAdWindowTray()" aria-label="Reopen active ad windows">▣ Active ad windows</button>
 
     <!-- ═══════════════ ADVERTISE WINDOW ═══════════════ -->
     <section id="advertise-window" class="visible" aria-label="Advertise dashboard">
@@ -3844,7 +3919,14 @@
           <div class="schedule-dialog-header"><h3 id="schedule-dialog-title">Schedule an ad</h3><button type="button" class="btn-secondary" id="schedule-dialog-close" aria-label="Close schedule dialog">✕</button></div>
           <p id="schedule-dialog-date" class="schedule-dialog-date"></p>
           <form id="schedule-form">
-            <label>Ad<select id="schedule-ad-select" required><option value="">Select an ad</option></select></label>
+            <div class="schedule-product-picker">
+              <div class="schedule-product-picker-header"><span>Products to schedule</span><span id="schedule-selected-count">0 selected</span></div>
+              <div class="schedule-product-picker-actions" role="group" aria-label="Product selection controls">
+                <label><input type="checkbox" id="schedule-select-all"> Select all</label>
+                <label><input type="checkbox" id="schedule-deselect-all"> Deselect all</label>
+              </div>
+              <div id="schedule-product-list" class="schedule-product-list" role="group" aria-label="Products available for scheduling"></div>
+            </div>
             <label>Platform<select id="schedule-platform-select"><option value="all">All selected platforms</option><option value="craigslist">Craigslist</option><option value="adlandpro">AdLandPro</option><option value="classifiedads">ClassifiedAds</option><option value="facebook_marketplace">Facebook Marketplace</option><option value="offerup">OfferUp</option><option value="mercari">Mercari</option><option value="poshmark">Poshmark</option><option value="nextdoor">Nextdoor</option></select></label>
             <label>Launch date<input id="schedule-date-input" type="date" required></label>
             <label>Launch time<input id="schedule-time-input" type="time" required></label>
@@ -4316,9 +4398,35 @@
     let isReconnecting = false;  // prevents overlapping SSE reconnect loops
     let clientCampaignState = JSON.parse(localStorage.getItem('clblast_client_campaign') || 'null');
     let captchaRequiredJobs = new Set();
+    const captchaInputHandlers = new Map();
+
+    function registerCaptchaInputHandler(jobIndex, handler) {
+      if (typeof handler !== 'function') return false;
+      captchaInputHandlers.set(Number(jobIndex), handler);
+      return true;
+    }
+
+    function unregisterCaptchaInputHandler(jobIndex) {
+      captchaInputHandlers.delete(Number(jobIndex));
+    }
 
     function getCaptchaRequiredJobs() {
       return jobQueue.filter(job => captchaRequiredJobs.has(job.index) && job.status === 'running');
+    }
+
+    function getCaptchaJobProducts(job) {
+      const products = (job.productIndices || []).map(index => allProducts?.[index]).filter(Boolean);
+      return products.length ? products.map(product => product.title || product.name || 'Untitled product') : ['Product not specified'];
+    }
+
+    function getCaptchaJobLocation(job) {
+      return job.locationLabel || job.city_name || job.city || job.subarea || job.state || 'Location not specified';
+    }
+
+    function getCaptchaScreenshotMarkup(job) {
+      const source = String(job.captchaScreenshot || job.captchaScreenshotUrl || '').trim();
+      if (!source || !/^(data:image\/(?:png|jpeg|jpg|webp);base64,|blob:|https:\/\/)/i.test(source)) return '<span>Screenshot unavailable<br>Open window if needed</span>';
+      return `<img src="${escHtml(source)}" alt="User-provided CAPTCHA screenshot for ${escHtml(job.accountLabel || job.platform || 'posting window')}">`;
     }
 
     function renderCaptchaNotifications() {
@@ -4339,10 +4447,36 @@
       list.innerHTML = requiredJobs.map(job => {
         const label = _PLATFORM_LABELS?.[job.platform] || job.platform || 'Platform';
         const account = job.accountLabel || job.accountId || 'Unassigned account';
-        return `<button type="button" class="captcha-notification-item" onclick="focusCaptchaPostingWindow(${Number(job.index)})">
-          <span class="captcha-notification-item-copy"><span class="captcha-notification-item-title">${escHtml(label)}</span><span class="captcha-notification-item-meta">${escHtml(account)} · CAPTCHA input required</span></span><span aria-hidden="true">›</span>
-        </button>`;
+        const products = getCaptchaJobProducts(job).join(', ');
+        const location = getCaptchaJobLocation(job);
+        return `<article class="captcha-notification-item" data-job-index="${Number(job.index)}">
+          <div class="captcha-notification-item-copy" onclick="focusCaptchaPostingWindow(${Number(job.index)})"><span class="captcha-notification-item-title">${escHtml(label)} · ${escHtml(account)}</span><span class="captcha-notification-item-meta">Browser window: ${escHtml(label)} · ${escHtml(account)}</span><span class="captcha-notification-product">Product: ${escHtml(products)}</span><span class="captcha-notification-location">Advertising to: ${escHtml(location)}</span></div>
+          <div class="captcha-notification-body"><div class="captcha-notification-screenshot">${getCaptchaScreenshotMarkup(job)}</div><div><div class="captcha-notification-note">Enter the CAPTCHA you personally read. The value is sent only to this posting window and is not saved.</div><div class="captcha-notification-form"><input id="captcha-input-${Number(job.index)}" type="text" autocomplete="off" spellcheck="false" placeholder="CAPTCHA" aria-label="CAPTCHA for ${escHtml(label)}" onkeydown="if(event.key==='Enter'){event.preventDefault();submitCaptchaFromNotification(${Number(job.index)})}"><button type="button" onclick="submitCaptchaFromNotification(${Number(job.index)})">Enter</button></div></div></div>
+        </article>`;
       }).join('');
+    }
+
+    function setCaptchaScreenshot(jobIndex, imageSource) {
+      const job = jobQueue.find(item => item.index === jobIndex);
+      if (!job) return false;
+      job.captchaScreenshot = String(imageSource || '');
+      renderCaptchaNotifications();
+      return true;
+    }
+
+    function submitCaptchaFromNotification(jobIndex) {
+      const job = jobQueue.find(item => item.index === jobIndex);
+      const input = document.getElementById(`captcha-input-${Number(jobIndex)}`);
+      const value = input?.value?.trim() || '';
+      if (!job || !value) { showToast('Enter the CAPTCHA text first.', 'error'); input?.focus(); return false; }
+      const detail = { jobIndex: job.index, platform: job.platform, accountId: job.accountId, value };
+      const handler = captchaInputHandlers.get(Number(job.index));
+      if (handler) handler(detail);
+      document.dispatchEvent(new CustomEvent('seller:captcha-input', { detail }));
+      input.value = '';
+      input.placeholder = 'Sent · enter again if needed';
+      showToast(`CAPTCHA sent to ${job.accountLabel || job.platform}.`, 'success');
+      return true;
     }
 
     function setCaptchaRequired(jobIndex, required = true, reason = 'CAPTCHA input required') {
@@ -4392,7 +4526,7 @@
       requestAnimationFrame(() => document.getElementById(`platform-session-${job.platform}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' }));
     }
 
-    window.SellerCaptchaNotifications = Object.freeze({ setRequired: setCaptchaRequired, clear: clearCaptchaRequired, setPlatformRequired: setPlatformCaptchaRequired, refresh: renderCaptchaNotifications });
+    window.SellerCaptchaNotifications = Object.freeze({ setRequired: setCaptchaRequired, clear: clearCaptchaRequired, setPlatformRequired: setPlatformCaptchaRequired, setScreenshot: setCaptchaScreenshot, registerInputHandler: registerCaptchaInputHandler, unregisterInputHandler: unregisterCaptchaInputHandler, submit: submitCaptchaFromNotification, refresh: renderCaptchaNotifications });
     document.addEventListener('click', event => {
       const popup = document.getElementById('captcha-notification-popup');
       const button = document.getElementById('captcha-notification-button');
@@ -4624,23 +4758,52 @@
     }
 
     function scheduleAdOptions() {
-      const entries = Object.entries(allListings || {});
-      const source = entries.length ? entries.map(([key, listing]) => ({ key, title: String(key).replace(/^(CL_|AP_|CA_)/, ''), platform: listing?.platform || 'all' })) : allProducts.map((product, index) => ({ key: `product-${product.id ?? index}`, title: product.name || product.title || `Product ${index + 1}`, platform: 'all' }));
-      return source;
+      return (allProducts || []).map((product, index) => ({
+        key: `product-${product.id ?? index}`,
+        title: String(product.title || product.name || `Product ${index + 1}`),
+        price: Number(product.price || 0),
+        category: String(product.category || '')
+      }));
     }
 
-    function renderScheduleAdOptions(selected = '') {
-      const select = document.getElementById('schedule-ad-select');
-      if (!select) return;
+    function scheduleSelectedProductKeys() {
+      return [...document.querySelectorAll('#schedule-product-list input[name="schedule-product"]:checked')].map(input => input.value);
+    }
+
+    function updateScheduleSelectionUI() {
+      const options = [...document.querySelectorAll('#schedule-product-list input[name="schedule-product"]')];
+      const selected = options.filter(input => input.checked);
+      const count = document.getElementById('schedule-selected-count');
+      const selectAll = document.getElementById('schedule-select-all');
+      const deselectAll = document.getElementById('schedule-deselect-all');
+      if (count) count.textContent = `${selected.length} selected`;
+      if (selectAll) {
+        selectAll.checked = options.length > 0 && selected.length === options.length;
+        selectAll.indeterminate = selected.length > 0 && selected.length < options.length;
+      }
+      if (deselectAll) deselectAll.checked = options.length > 0 && selected.length === 0;
+      options.forEach(input => input.closest('.schedule-product-option')?.classList.toggle('is-selected', input.checked));
+    }
+
+    function setScheduleProductsSelected(checked) {
+      document.querySelectorAll('#schedule-product-list input[name="schedule-product"]').forEach(input => { input.checked = checked; });
+      updateScheduleSelectionUI();
+    }
+
+    function renderScheduleAdOptions(selectedKeys = []) {
+      const list = document.getElementById('schedule-product-list');
+      if (!list) return;
+      const selected = new Set(selectedKeys);
       const options = scheduleAdOptions();
-      select.innerHTML = `<option value="">Select an ad</option>${options.map(item => `<option value="${escHtml(item.key)}" ${item.key === selected ? 'selected' : ''}>${escHtml(item.title)}</option>`).join('')}`;
+      list.innerHTML = options.length ? options.map(item => `<label class="schedule-product-option ${selected.has(item.key) ? 'is-selected' : ''}"><input type="checkbox" name="schedule-product" value="${escHtml(item.key)}" ${selected.has(item.key) ? 'checked' : ''}><span class="schedule-product-option-copy"><span class="schedule-product-option-title">${escHtml(item.title)}</span><span class="schedule-product-option-meta">$${item.price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}${item.category ? ` · ${escHtml(item.category)}` : ''}</span></span></label>`).join('') : '<div class="schedule-product-empty">No products found. Add products in the Products section first.</div>';
+      updateScheduleSelectionUI();
     }
 
     function renderScheduleItems() {
       const list = document.getElementById('schedule-items');
       if (!list) return;
       const ordered = [...scheduleEntries].sort((a, b) => `${a.date}T${a.time}`.localeCompare(`${b.date}T${b.time}`));
-      list.innerHTML = ordered.length ? ordered.map(item => `<article class="schedule-item"><div><div class="schedule-item-title">${escHtml(item.adTitle || item.adKey)}</div><div class="schedule-item-meta">${escHtml(item.date)} at ${escHtml(item.time)} · ${escHtml(item.platform === 'all' ? 'All selected platforms' : item.platform)}</div></div><button type="button" class="schedule-item-delete" onclick="deleteScheduleEntry('${escHtml(item.id)}')">Delete</button></article>`).join('') : '<div class="schedule-empty">No scheduled ads yet. Click any day to create one.</div>';
+      list.innerHTML = ordered.length ? ordered.map(item => `<article class="schedule-item"><div><div class="schedule-item-title">${escHtml((item.adTitles || [item.adTitle || item.adKey]).join(', '))}</div><div class="schedule-item-meta">${escHtml(item.date)} at ${escHtml(item.time)} · ${escHtml(item.platform === 'all' ? 'All selected platforms' : item.platform)}</div></div><button type="button" class="schedule-item-delete" onclick="deleteScheduleEntry('${escHtml(item.id)}')">Delete</button></article>`).join('') : '<div class="schedule-empty">No scheduled ads yet. Click any day to create one.</div>';
     }
 
     function openScheduleDialog(dateKey) {
@@ -4653,12 +4816,13 @@
       if (dateLabel) dateLabel.textContent = new Date(`${dateKey}T12:00:00`).toLocaleDateString(undefined, { weekday:'long', year:'numeric', month:'long', day:'numeric' });
       renderScheduleAdOptions();
       dialog.classList.remove('hidden');
-      document.getElementById('schedule-ad-select')?.focus();
+      document.querySelector('#schedule-product-list input[name="schedule-product"]')?.focus();
     }
 
     function closeScheduleDialog() {
       document.getElementById('schedule-dialog')?.classList.add('hidden');
       document.getElementById('schedule-form')?.reset();
+      setScheduleProductsSelected(false);
       scheduleSelectedDate = '';
     }
 
@@ -4703,19 +4867,23 @@
       document.getElementById('schedule-today')?.addEventListener('click', () => { scheduleCursor = new Date(); renderScheduleCalendar(); });
       document.getElementById('schedule-month-select')?.addEventListener('change', event => { scheduleCursor = new Date(scheduleCursor.getFullYear(), Number(event.target.value), 1); renderScheduleCalendar(); });
       document.getElementById('schedule-year-select')?.addEventListener('change', event => { scheduleCursor = new Date(Number(event.target.value), scheduleCursor.getMonth(), 1); renderScheduleCalendar(); });
+      document.getElementById('schedule-select-all')?.addEventListener('change', event => { if (event.target.checked) setScheduleProductsSelected(true); });
+      document.getElementById('schedule-deselect-all')?.addEventListener('change', event => { if (event.target.checked) setScheduleProductsSelected(false); });
+      document.getElementById('schedule-product-list')?.addEventListener('change', event => { if (event.target.matches('input[name="schedule-product"]')) updateScheduleSelectionUI(); });
       document.getElementById('schedule-calendar-grid')?.addEventListener('click', event => { const day = event.target.closest('[data-schedule-date]'); if (day) openScheduleDialog(day.dataset.scheduleDate); });
       document.getElementById('schedule-dialog-close')?.addEventListener('click', closeScheduleDialog);
       document.getElementById('schedule-cancel')?.addEventListener('click', closeScheduleDialog);
       document.getElementById('schedule-dialog')?.addEventListener('click', event => { if (event.target.id === 'schedule-dialog') closeScheduleDialog(); });
       document.getElementById('schedule-form')?.addEventListener('submit', event => {
         event.preventDefault();
-        const adKey = document.getElementById('schedule-ad-select')?.value || '';
+        const selectedKeys = scheduleSelectedProductKeys();
         const date = document.getElementById('schedule-date-input')?.value || scheduleSelectedDate;
         const time = document.getElementById('schedule-time-input')?.value || '';
         const platform = document.getElementById('schedule-platform-select')?.value || 'all';
-        if (!adKey || !date || !time) { showToast('Choose an ad, date, and launch time.', 'error'); return; }
-        const ad = scheduleAdOptions().find(item => item.key === adKey);
-        scheduleEntries.push({ id: `schedule-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`, adKey, adTitle: ad?.title || adKey, platform, date, time, createdAt: new Date().toISOString() });
+        if (!selectedKeys.length || !date || !time) { showToast('Choose at least one product, date, and launch time.', 'error'); return; }
+        const selectedAds = scheduleAdOptions().filter(item => selectedKeys.includes(item.key));
+        const batchId = `schedule-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+        scheduleEntries.push({ id: batchId, adKey: selectedAds[0]?.key || '', adTitle: selectedAds[0]?.title || '', adKeys: selectedAds.map(item => item.key), adTitles: selectedAds.map(item => item.title), platform, date, time, createdAt: new Date().toISOString() });
         saveScheduleEntries();
         closeScheduleDialog();
         scheduleCursor = new Date(`${date}T12:00:00`);
@@ -6091,6 +6259,7 @@
             state: platform === 'craigslist' ? getActiveLocationState(acc) : '',
             city_name: platform === 'craigslist' ? getActiveLocationCity(acc) : '',
             subarea: platform === 'craigslist' ? getActiveLocationCity(acc) : '',
+            locationLabel: acc.locationLabel || acc.location || acc.city || (platform === 'craigslist' ? getActiveLocationCity(acc) : '') || 'Location not specified',
             productIndices: selectedProductIndices,
             status: 'pending',
             startTime: null,
@@ -6459,6 +6628,12 @@
       const job = jobQueue.find(j => j.status === 'pending');
 
       if (!job) {
+        const activeClientJobs = CLIENT_ONLY_MODE ? jobQueue.filter(item => item.status === 'running') : [];
+        if (CLIENT_ONLY_MODE && activeClientJobs.length) {
+          renderAdWindowTray();
+          renderProgressSection(jobQueue);
+          return;
+        }
         currentJobIndex = -1;
         jobStartTime = null;
 
@@ -6493,10 +6668,12 @@
       const stopBtn = document.getElementById('log-kill-btn');
       if (stopBtn) stopBtn.classList.add('visible');
 
-      jobTimerInterval = setInterval(updateRunningJobTimer, 1000);
+      if (!jobTimerInterval) jobTimerInterval = setInterval(updateRunningJobTimer, 1000);
 
       if (CLIENT_ONLY_MODE) {
         runClientOnlyHandoff(job);
+        renderAdWindowTray();
+        if (jobQueue.some(item => item.status === 'pending')) setTimeout(startNextJob, 0);
         return;
       }
 
@@ -6623,8 +6800,10 @@
       if (!requirePlatformDestination(job.platform, 'listing confirmation')) return;
       clearCaptchaRequired(jobIndex);
       job.status = 'done';
+      job.windowOpen = false;
       job.endTime = Date.now();
-      if (jobTimerInterval) { clearInterval(jobTimerInterval); jobTimerInterval = null; }
+      if (jobTimerInterval && !jobQueue.some(item => item.status === 'running')) { clearInterval(jobTimerInterval); jobTimerInterval = null; }
+      renderAdWindowTray();
       appendLog(`[Client-only] ${job.platform} listing confirmed posted for ${job.accountLabel} ✓`, 'done');
       persistClientCampaign();
       renderProgressSection(jobQueue);
@@ -6638,8 +6817,10 @@
       if (!requirePlatformDestination(job.platform, 'listing status update')) return;
       clearCaptchaRequired(jobIndex);
       job.status = 'error';
+      job.windowOpen = false;
       job.endTime = Date.now();
-      if (jobTimerInterval) { clearInterval(jobTimerInterval); jobTimerInterval = null; }
+      if (jobTimerInterval && !jobQueue.some(item => item.status === 'running')) { clearInterval(jobTimerInterval); jobTimerInterval = null; }
+      renderAdWindowTray();
       appendLog(`[Client-only] ${job.platform} listing was skipped or failed for ${job.accountLabel}.`, 'error');
       persistClientCampaign();
       renderProgressSection(jobQueue);
@@ -6872,6 +7053,7 @@
     function runClientOnlyHandoff(job) {
       const payload = buildClientHandoffPayload(job);
       job.handoff = payload;
+      job.windowOpen = true;
       clearCaptchaRequired(job.index);
       if (job.platform === 'craigslist') job.craigslistFlow = createCraigslistDraftFlow(job, payload);
       persistClientCampaign();
@@ -6880,6 +7062,7 @@
       renderClientListingPanel(job);
       if (job.platform === 'craigslist') renderCraigslistDraftFlowPanel(job);
       updateAllPlatformSessionProgress();
+      renderAdWindowTray();
       appendLog(`[Client-only] ${job.platform} listing prepared for ${job.accountLabel}. Complete the listing in the connected popup and confirm it there.`, 'system');
       const note = document.getElementById(`session-note-${job.platform}`);
       if (note) note.textContent = 'Listing prepared. Complete the authenticated form, then confirm it below.';
@@ -7317,6 +7500,99 @@
 
         renderPlatformSessions();
     renderCaptchaNotifications();
+    let adWindowTrayExpanded = false;
+    let adWindowTrayLastSignature = '';
+    let adWindowTrayLastActivity = 0;
+    let adWindowTrayCollapsed = false;
+    let adWindowTrayTimer = null;
+
+    function activeAdWindowJobs() {
+      return jobQueue.filter(job => job.status === 'running' && job.handoff);
+    }
+
+    function touchAdWindowTray() {
+      adWindowTrayLastActivity = Date.now();
+      adWindowTrayCollapsed = false;
+      document.getElementById('ad-window-tray-reopen')?.classList.remove('visible');
+      renderAdWindowTray();
+    }
+
+    function renderAdWindowTray() {
+      const tray = document.getElementById('ad-window-tray');
+      const grid = document.getElementById('ad-window-tray-grid');
+      const meta = document.getElementById('ad-window-tray-meta');
+      const toggle = document.getElementById('ad-window-tray-toggle');
+      const reopen = document.getElementById('ad-window-tray-reopen');
+      if (!tray || !grid || !meta) return;
+      const jobs = activeAdWindowJobs();
+      const signature = jobs.map(job => `${job.index}:${job.status}`).join('|');
+      if (signature !== adWindowTrayLastSignature && jobs.length > 1) {
+        adWindowTrayLastActivity = Date.now();
+        adWindowTrayCollapsed = false;
+      }
+      adWindowTrayLastSignature = signature;
+      if (jobs.length < 2) {
+        tray.classList.remove('visible', 'collapsed');
+        reopen?.classList.remove('visible');
+        grid.innerHTML = '';
+        if (adWindowTrayTimer) { clearTimeout(adWindowTrayTimer); adWindowTrayTimer = null; }
+        return;
+      }
+      if (!adWindowTrayLastActivity) adWindowTrayLastActivity = Date.now();
+      const inactive = Date.now() - adWindowTrayLastActivity >= 30000;
+      if (inactive) adWindowTrayCollapsed = true;
+      if (adWindowTrayCollapsed) {
+        tray.classList.remove('visible');
+        reopen?.classList.add('visible');
+      } else {
+        tray.classList.add('visible');
+        tray.classList.remove('collapsed');
+        reopen?.classList.remove('visible');
+      }
+      meta.textContent = `${jobs.length} concurrent ad windows · ${adWindowTrayCollapsed ? 'collapsed after inactivity' : 'active'}`;
+      const visibleJobs = adWindowTrayExpanded ? jobs : jobs.slice(0, 4);
+      grid.classList.toggle('is-expanded', adWindowTrayExpanded);
+      grid.innerHTML = visibleJobs.map(job => `<button type="button" class="ad-window-tray-card" onclick="focusAdWindow(${job.index})"><span class="ad-window-tray-card-title">${escHtml(job.accountLabel || job.platform)}</span><span class="ad-window-tray-card-meta">${escHtml(job.platform)} · Job ${job.index + 1}</span><span class="ad-window-tray-card-state">${job.captchaRequired ? 'CAPTCHA required' : 'Running'}</span></button>`).join('');
+      if (toggle) {
+        toggle.hidden = jobs.length <= 4;
+        toggle.textContent = adWindowTrayExpanded ? 'Show less' : `Show all (${jobs.length})`;
+      }
+      if (adWindowTrayTimer) clearTimeout(adWindowTrayTimer);
+      if (!adWindowTrayCollapsed) adWindowTrayTimer = setTimeout(renderAdWindowTray, 1000);
+    }
+
+    function focusAdWindow(jobIndex) {
+      touchAdWindowTray();
+      const job = jobQueue.find(item => item.index === jobIndex);
+      if (!job) return;
+      openPlatformSession(job.platform);
+      document.getElementById(`platform-session-${job.platform}`)?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    function toggleAdWindowTrayExpanded() {
+      adWindowTrayExpanded = !adWindowTrayExpanded;
+      touchAdWindowTray();
+    }
+
+    function reopenAdWindowTray() {
+      touchAdWindowTray();
+    }
+
+    function minimizeAllAdWindows() {
+      activeAdWindowJobs().forEach(job => minimizePlatformSession(job.platform));
+      touchAdWindowTray();
+      showToast('All active ad windows minimized.', 'success');
+    }
+
+    function closeAllAdWindows() {
+      activeAdWindowJobs().forEach(job => {
+        document.getElementById(`platform-session-${job.platform}`)?.classList.remove('open');
+        job.windowClosed = true;
+      });
+      touchAdWindowTray();
+      showToast('All active ad windows closed. Jobs remain available in the queue.', 'success');
+    }
+
     let miniBrowserHistory = [];
     let miniBrowserHistoryIndex = -1;
 

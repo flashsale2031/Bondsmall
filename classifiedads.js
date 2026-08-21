@@ -247,7 +247,15 @@
     const match = firstMatch(root, SELECTORS.terms);
     if (!match.element) throw new Error('ClassifiedAds terms checkbox not found.');
     if (!match.element.checked) match.element.click();
-    return { selector: match.selector, checked: Boolean(match.element.checked) };
+    if (!match.element.checked) {
+      try { match.element.checked = true; } catch (_) { /* read-only controls remain invalid */ }
+    }
+    ['input', 'change'].forEach(type => {
+      try { match.element.dispatchEvent(new Event(type, { bubbles: true })); } catch (_) { /* older embedded documents */ }
+    });
+    const checked = Boolean(match.element.checked);
+    if (!checked) throw new Error('ClassifiedAds terms checkbox could not be checked.');
+    return { selector: match.selector, checked, submittedWithFlow: true };
   }
 
   function getPublicListingUrl(url = global.location.href) {
@@ -255,12 +263,13 @@
     return /classifiedads\.com$/i.test(parsed.hostname) && /^\/(?!post)/.test(parsed.pathname) ? parsed.href : '';
   }
 
-  function submitGuestPost(root, { confirmPublish = false } = {}) {
+  function submitGuestPost(root, { confirmPublish = false, termsAccepted = null } = {}) {
     if (!confirmPublish) throw new Error('Explicit confirmation is required before submitting ClassifiedAds.');
+    const terms = termsAccepted?.checked ? termsAccepted : acceptTerms(root);
     const match = firstMatch(root, SELECTORS.publish);
     if (!match.element) throw new Error('ClassifiedAds publish control not found.');
     match.element.click();
-    return { selector: match.selector, submitted: true };
+    return { selector: match.selector, termsSelector: terms.selector, termsChecked: terms.checked, submitted: true };
   }
 
   async function runGuestPostFlow({ root = document, product, category = 'Items for Sale', subcategory = 'Collectibles', location = 'Charleston, SC', contact = {}, captcha, prepareImages = true, confirmPublish = false } = {}) {
@@ -274,8 +283,9 @@
     log.push({ step: 'contact', result: fillUserFields(root, { ...contact, captcha: undefined }) });
     setField(root, 'captcha', captcha);
     log.push({ step: 'captcha', result: { selector: firstMatch(root, SELECTORS.captcha).selector, entered: true } });
-    log.push({ step: 'terms', result: acceptTerms(root) });
-    if (confirmPublish) log.push({ step: 'submit', result: submitGuestPost(root, { confirmPublish }) });
+    const termsResult = acceptTerms(root);
+    log.push({ step: 'terms', result: termsResult });
+    if (confirmPublish) log.push({ step: 'submit', result: submitGuestPost(root, { confirmPublish, termsAccepted: termsResult }) });
     return { log, submitted: confirmPublish, publicListingUrl: confirmPublish ? getPublicListingUrl() : '' };
   }
 
@@ -288,7 +298,7 @@
     { step: 6, action: 'fillRuntimeContact', selectors: ['email', 'emailConfirm', 'phone', 'city', 'zip'] },
     { step: 7, action: 'fillRuntimeCaptcha', selector: 'captcha', userProvided: true },
     { step: 8, action: 'acceptTerms', selector: 'terms' },
-    { step: 9, action: 'userReviewAndSubmit', selector: 'publish', requiresExplicitConfirmation: true },
+    { step: 9, action: 'acceptTermsAndSubmit', selectors: ['terms', 'publish'], termsRequired: true, requiresExplicitConfirmation: true },
     { step: 10, action: 'verifyPublicListing', result: 'publicListingUrl' }
   ]);
 
