@@ -10,6 +10,13 @@
   const BASE_URL = 'https://www.classifiedads.com';
   const POST_AD_URL = `${BASE_URL}/post.php`;
   const LOGIN_URL = `${BASE_URL}/login.php`;
+  // Verified in-browser on 2026-08-21: category, subcategory, location,
+  // draft, contact, CAPTCHA, terms, and publish controls all remain on post.php.
+  const GUEST_FLOW_URLS = Object.freeze({
+    start: POST_AD_URL,
+    form: POST_AD_URL,
+    publicListingPath: /^(?!\/post(?:\.php)?(?:\/|$))\//i
+  });
 
   const CATEGORY_MAPPING = {
     antiques: 'Antiques & Collectibles', appliances: 'Appliances', art: 'Arts & Crafts', paintings: 'Arts & Crafts',
@@ -274,6 +281,21 @@
     return { selector: match.selector, checked, submittedWithFlow: true };
   }
 
+  function validateGuestFlowUrl(url = global.location.href, stage = 'form') {
+    try {
+      const parsed = new URL(url, BASE_URL);
+      const hostValid = /^(?:www\.)?classifiedads\.com$/i.test(parsed.hostname);
+      if (!hostValid || parsed.protocol !== 'https:') return { valid: false, url: parsed.href, stage, reason: 'Expected an HTTPS ClassifiedAds URL.' };
+      if (stage === 'publicListing') {
+        const valid = GUEST_FLOW_URLS.publicListingPath.test(parsed.pathname || '/');
+        return { valid, url: parsed.href, stage, reason: valid ? '' : 'Expected a public listing route rather than the post form.' };
+      }
+      const valid = parsed.pathname === '/post.php';
+      return { valid, url: parsed.href, stage, reason: valid ? '' : 'Expected the ClassifiedAds guest form at /post.php.' };
+    } catch (error) {
+      return { valid: false, url: String(url), stage, reason: error.message };
+    }
+  }
   function getPublicListingUrl(url = global.location.href) {
     const parsed = new URL(url, BASE_URL);
     return /classifiedads\.com$/i.test(parsed.hostname) && /^\/(?!post)/.test(parsed.pathname) ? parsed.href : '';
@@ -315,24 +337,39 @@
     return results;
   }
 
+  async function runGuestPostLocationSessions({ product, sessions = [], ...options } = {}) {
+    if (!product) throw new Error('A public product listing is required.');
+    if (!Array.isArray(sessions) || !sessions.length) throw new Error('At least one independent ClassifiedAds session is required.');
+    const results = await Promise.all(sessions.map(async (session, index) => {
+      if (!session?.root) return { index, location: normalizeLocation(session?.location), submitted: false, status: 'handoff-required', reason: 'A separate popup document is required for this location.' };
+      try {
+        const result = await runGuestPostFlow({ product, location: session.location, root: session.root, ...options });
+        return { index, location: normalizeLocation(session.location), status: result.submitted ? 'submitted' : 'prepared', ...result };
+      } catch (error) {
+        return { index, location: normalizeLocation(session.location), status: 'error', submitted: false, reason: error.message };
+      }
+    }));
+    return results;
+  }
+
   const GUEST_POST_FLOW = Object.freeze([
-    { step: 1, action: 'navigate', url: `${BASE_URL}/post.php` },
-    { step: 2, action: 'selectCategory', selectors: ['category', 'subcategory'] },
-    { step: 3, action: 'selectLocation', selectors: ['location', 'locationSuggestion'], accepts: 'city/state/ZIP location object' },
-    { step: 4, action: 'fillDraft', selectors: ['title', 'price', 'description', 'zip'] },
-    { step: 5, action: 'prepareImageUpload', selector: 'photos' },
-    { step: 6, action: 'fillRuntimeContact', selectors: ['email', 'emailConfirm', 'phone', 'city', 'zip'] },
-    { step: 7, action: 'fillRuntimeCaptcha', selector: 'captcha', userProvided: true },
-    { step: 8, action: 'acceptTerms', selector: 'terms' },
-    { step: 9, action: 'acceptTermsAndSubmit', selectors: ['terms', 'publish'], termsRequired: true, requiresExplicitConfirmation: true },
-    { step: 10, action: 'verifyPublicListing', result: 'publicListingUrl' }
+    { step: 1, action: 'navigate', url: GUEST_FLOW_URLS.start, validate: 'form' },
+    { step: 2, action: 'selectCategory', url: GUEST_FLOW_URLS.form, validate: 'form', selectors: ['category', 'subcategory'] },
+    { step: 3, action: 'selectLocation', url: GUEST_FLOW_URLS.form, validate: 'form', selectors: ['location', 'locationSuggestion'], accepts: 'city/state/ZIP location object' },
+    { step: 4, action: 'fillDraft', url: GUEST_FLOW_URLS.form, validate: 'form', selectors: ['title', 'price', 'description', 'zip'] },
+    { step: 5, action: 'prepareImageUpload', url: GUEST_FLOW_URLS.form, validate: 'form', selector: 'photos' },
+    { step: 6, action: 'fillRuntimeContact', url: GUEST_FLOW_URLS.form, validate: 'form', selectors: ['email', 'emailConfirm', 'phone', 'city', 'zip'] },
+    { step: 7, action: 'fillRuntimeCaptcha', url: GUEST_FLOW_URLS.form, validate: 'form', selector: 'captcha', userProvided: true },
+    { step: 8, action: 'acceptTerms', url: GUEST_FLOW_URLS.form, validate: 'form', selector: 'terms' },
+    { step: 9, action: 'acceptTermsAndSubmit', url: GUEST_FLOW_URLS.form, validate: 'form', selectors: ['terms', 'publish'], termsRequired: true, requiresExplicitConfirmation: true },
+    { step: 10, action: 'verifyPublicListing', validate: 'publicListing', result: 'publicListingUrl' }
   ]);
 
   global.ClassifiedAdsAdapter = Object.freeze({
-    BASE_URL, POST_AD_URL, LOGIN_URL, CATEGORY_MAPPING, SELECTORS, GUEST_POST_FLOW,
+    BASE_URL, POST_AD_URL, LOGIN_URL, GUEST_FLOW_URLS, CATEGORY_MAPPING, SELECTORS, GUEST_POST_FLOW,
     getCategory, normalizeListing, discoverControls, buildDraft, fillDraft, prepareImageUpload,
-    selectCategoryAndSubcategory, normalizeLocation, selectLocation, setRichDescription, fillUserFields, acceptTerms,
-    submitGuestPost, runGuestPostFlow, runGuestPostLocations,
+    selectCategoryAndSubcategory, normalizeLocation, selectLocation, setRichDescription, fillUserFields, acceptTerms, validateGuestFlowUrl,
+    submitGuestPost, runGuestPostFlow, runGuestPostLocations, runGuestPostLocationSessions,
     canPublish: () => true,
     publishNotice: 'The adapter can submit only when the caller provides runtime CAPTCHA/contact values and confirmPublish: true; it never solves CAPTCHA or stores private values.'
   });

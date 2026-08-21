@@ -6974,6 +6974,51 @@
       renderCaptchaNotifications();
     }
 
+    async function beginClassifiedAdsJobFlow(jobIndex) {
+      const job = jobQueue.find(item => item.index === jobIndex);
+      if (!job || job.platform !== 'classifiedads') return { status: 'invalid-job' };
+      ensureJobSessionWindow(job);
+      openJobSessionWindow(job.index);
+      const postUrl = window.ClassifiedAdsAdapter?.GUEST_FLOW_URLS?.start || 'https://www.classifiedads.com/post.php';
+      job.classifiedAdsFlow = { ...(job.classifiedAdsFlow || {}), status: 'form-ready', url: postUrl, location: job.locations?.[0] || null, startedAt: Date.now() };
+      openMiniBrowser(postUrl);
+      persistClientCampaign();
+      renderClientListingPanel(job);
+      appendLog(`[Client-only] ClassifiedAds form opened for ${job.accountLabel}. Complete category, location, contact, CAPTCHA, and terms in this location window.`, 'system');
+      return { status: 'form-ready', url: postUrl, location: job.locations?.[0] || null };
+    }
+
+    async function submitClassifiedAdsJob(jobIndex) {
+      const job = jobQueue.find(item => item.index === jobIndex);
+      if (!job || job.platform !== 'classifiedads') return { status: 'invalid-job' };
+      if (!window.ClassifiedAdsAdapter) return { status: 'error', reason: 'ClassifiedAds adapter unavailable.' };
+      if (!job.formRoot) {
+        showToast('Use the ClassifiedAds popup for this location, complete CAPTCHA and terms, then confirm the form root before submitting.', 'error');
+        return { status: 'handoff-required', reason: 'The cross-origin popup document is user-controlled.' };
+      }
+      if (!window.confirm(`Submit the ClassifiedAds listing for ${job.accountLabel}?`)) return { status: 'cancelled' };
+      try {
+        const result = await window.ClassifiedAdsAdapter.runGuestPostFlow({
+          root: job.formRoot,
+          product: allProducts[job.productIndices?.[0]],
+          location: job.locations?.[0] || {},
+          contact: job.runtimeContact || {},
+          captcha: job.runtimeCaptcha || '',
+          confirmPublish: true
+        });
+        job.classifiedAdsFlow = { ...(job.classifiedAdsFlow || {}), status: result.submitted ? 'submitted' : 'prepared', result, submittedAt: result.submitted ? Date.now() : null };
+        persistClientCampaign();
+        renderClientListingPanel(job);
+        return result;
+      } catch (error) {
+        job.classifiedAdsFlow = { ...(job.classifiedAdsFlow || {}), status: 'error', reason: error.message };
+        persistClientCampaign();
+        renderClientListingPanel(job);
+        showToast(error.message, 'error');
+        return { status: 'error', reason: error.message };
+      }
+    }
+
     function renderClientListingPanel(job) {
       const view = document.getElementById(`session-view-job-${job.index}`) || document.getElementById(`session-view-${job.platform}`);
       if (!view || !job?.handoff) return;
@@ -6986,7 +7031,7 @@
           <div class="session-listing-meta">Sale $${Number(product.sale_price ?? 0).toFixed(2)} · ${escHtml(product.category || '')}</div>
           <textarea id="session-listing-${job.index}-${productIndex}" readonly>${escHtml(JSON.stringify({ title: product.name || '', description: product.description || '', price: product.sale_price ?? product.retail_price ?? '', images: product.images || [product.image || ''], source_url: product.source_url || '' }, null, 2))}</textarea>
         </article>`).join('')}
-        <div class="session-workflow-actions"><button type="button" class="session-captcha-btn" onclick="setCaptchaRequired(${job.index}, true)">⚠ CAPTCHA needed</button><button type="button" class="session-posted-btn" onclick="markClientJobPosted(${job.index})">✓ Mark listing posted</button><button type="button" class="session-skip-btn" onclick="markClientJobSkipped(${job.index})">Skip / failed</button></div>
+        <div class="session-workflow-actions">${job.platform === 'classifiedads' ? `<button type="button" class="session-open-page" onclick="beginClassifiedAdsJobFlow(${job.index})">Open ClassifiedAds form</button><button type="button" class="session-posted-btn" onclick="submitClassifiedAdsJob(${job.index})">Submit this location</button>` : ''}<button type="button" class="session-captcha-btn" onclick="setCaptchaRequired(${job.index}, true)">⚠ CAPTCHA needed</button><button type="button" class="session-posted-btn" onclick="markClientJobPosted(${job.index})">✓ Mark listing posted</button><button type="button" class="session-skip-btn" onclick="markClientJobSkipped(${job.index})">Skip / failed</button></div>
       </div>`;
     }
 
