@@ -1244,7 +1244,7 @@
       color: #60a5fa;
     }
 
-    /* Schedule placeholder */
+    /* Monthly scheduling calendar */
     #schedule-view {
       display: none;
     }
@@ -1254,53 +1254,38 @@
       animation: fadeInUp .35s ease-out;
     }
 
-    .schedule-placeholder {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 60px 30px;
-      background: var(--card);
-      border: 1px dashed var(--border2);
-      border-radius: var(--radius-lg);
-      width: 100%;
-      max-width: 500px;
-      margin: 0 auto;
-    }
-
-    .schedule-placeholder-icon {
-      font-size: 3.5rem;
-      margin-bottom: 16px;
-      opacity: .5;
-    }
-
-    .schedule-placeholder h3 {
-      font-size: 1.1rem;
-      font-weight: 600;
-      color: var(--text);
-      margin-bottom: 8px;
-    }
-
-    .schedule-placeholder p {
-      font-size: .85rem;
-      color: var(--text2);
-      line-height: 1.6;
-      max-width: 360px;
-    }
-
-    .coming-soon-badge {
-      margin-top: 18px;
-      padding: 6px 16px;
-      border-radius: var(--radius-pill);
-      background: rgba(245, 158, 11, .12);
-      color: var(--ca);
-      border: 1px solid rgba(245, 158, 11, .2);
-      font-size: .72rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-    }
+    .schedule-calendar-shell { width:100%; background:var(--card); border:1px solid var(--border); border-radius:var(--radius-lg); padding:18px; }
+    .schedule-calendar-header { display:flex; align-items:flex-start; justify-content:space-between; gap:16px; flex-wrap:wrap; margin-bottom:16px; }
+    .schedule-calendar-header h3 { margin:0 0 4px; color:var(--text); font-size:1.1rem; }
+    .schedule-calendar-header p { margin:0; color:var(--text2); font-size:.8rem; }
+    .schedule-calendar-controls { display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
+    .schedule-calendar-controls select { min-width:100px; padding:8px 9px; border:1px solid var(--border2); border-radius:8px; background:var(--card2); color:var(--text); }
+    .schedule-weekdays, .schedule-calendar-grid { display:grid; grid-template-columns:repeat(7, minmax(0, 1fr)); gap:6px; }
+    .schedule-weekdays { margin-bottom:6px; color:var(--text2); font-size:.68rem; font-weight:700; text-align:center; }
+    .schedule-calendar-grid { min-height:420px; }
+    .schedule-day { min-height:76px; padding:7px; border:1px solid var(--border); border-radius:8px; background:var(--card2); color:var(--text); cursor:pointer; text-align:left; transition:border-color .15s ease, background .15s ease, transform .15s ease; }
+    .schedule-day:hover { border-color:var(--accent); background:var(--glass2); transform:translateY(-1px); }
+    .schedule-day.is-outside { opacity:.42; }
+    .schedule-day.is-today { border-color:var(--accent); box-shadow:inset 0 0 0 1px var(--accent); }
+    .schedule-day-number { display:block; font-weight:700; font-size:.76rem; }
+    .schedule-day-events { display:flex; flex-direction:column; gap:3px; margin-top:7px; }
+    .schedule-day-event { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; padding:2px 4px; border-radius:4px; background:rgba(31,122,70,.12); color:var(--good); font-size:.58rem; }
+    .schedule-items { display:flex; flex-direction:column; gap:6px; margin-top:16px; }
+    .schedule-item { display:flex; align-items:center; justify-content:space-between; gap:10px; padding:9px 10px; border:1px solid var(--border); border-radius:8px; background:var(--card2); }
+    .schedule-item-title { color:var(--text); font-size:.75rem; font-weight:700; }
+    .schedule-item-meta { margin-top:2px; color:var(--text2); font-size:.68rem; }
+    .schedule-item-delete { border:0; border-radius:6px; padding:5px 7px; background:rgba(140,47,57,.1); color:var(--red); cursor:pointer; font-size:.66rem; }
+    .schedule-empty { padding:14px; border:1px dashed var(--border2); border-radius:8px; color:var(--text2); text-align:center; font-size:.75rem; }
+    .schedule-dialog { position:fixed; inset:0; z-index:10020; display:grid; place-items:center; padding:18px; background:rgba(12,15,20,.6); }
+    .schedule-dialog.hidden { display:none; }
+    .schedule-dialog-card { width:min(480px, 100%); max-height:90vh; overflow:auto; padding:18px; border:1px solid var(--border2); border-radius:14px; background:var(--card); box-shadow:0 20px 60px rgba(0,0,0,.25); }
+    .schedule-dialog-header { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+    .schedule-dialog-header h3 { margin:0; color:var(--text); font-size:1rem; }
+    .schedule-dialog-date { margin:8px 0 14px; color:var(--text2); font-size:.78rem; }
+    #schedule-form { display:grid; gap:12px; }
+    #schedule-form label { display:grid; gap:5px; color:var(--text2); font-size:.72rem; font-weight:600; }
+    #schedule-form input, #schedule-form select { width:100%; padding:9px 10px; border:1px solid var(--border2); border-radius:8px; background:var(--card2); color:var(--text); }
+    .schedule-dialog-actions { display:flex; justify-content:flex-end; gap:8px; margin-top:4px; }
 
     /* Stats Bar */
     .stats-bar {
@@ -3700,12 +3685,39 @@
         </div>
       </div>
       <div id="schedule-view">
-        <div class="schedule-placeholder">
-          <div class="schedule-placeholder-icon">🗓</div>
-          <h3>Scheduled Posting</h3>
-          <p>Set up automated posting schedules for your products. Configure posting times, frequency, and platform
-            targeting.</p>
-          <span class="coming-soon-badge">Coming Soon</span>
+        <div class="schedule-calendar-shell">
+          <div class="schedule-calendar-header">
+            <div>
+              <h3>Scheduled Posting</h3>
+              <p>Choose a day, then set an ad and launch time.</p>
+            </div>
+            <div class="schedule-calendar-controls" aria-label="Calendar navigation">
+              <button type="button" class="btn-secondary" id="schedule-prev-month" aria-label="Previous month">‹</button>
+              <select id="schedule-month-select" aria-label="Select month"></select>
+              <select id="schedule-year-select" aria-label="Select year"></select>
+              <button type="button" class="btn-secondary" id="schedule-next-month" aria-label="Next month">›</button>
+              <button type="button" class="btn-secondary" id="schedule-today">Today</button>
+            </div>
+          </div>
+          <div class="schedule-weekdays" aria-hidden="true">
+            <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+          </div>
+          <div id="schedule-calendar-grid" class="schedule-calendar-grid" role="grid" aria-label="Monthly schedule"></div>
+          <div id="schedule-items" class="schedule-items" aria-live="polite"></div>
+        </div>
+      </div>
+
+      <div id="schedule-dialog" class="schedule-dialog hidden" role="dialog" aria-modal="true" aria-labelledby="schedule-dialog-title">
+        <div class="schedule-dialog-card">
+          <div class="schedule-dialog-header"><h3 id="schedule-dialog-title">Schedule an ad</h3><button type="button" class="btn-secondary" id="schedule-dialog-close" aria-label="Close schedule dialog">✕</button></div>
+          <p id="schedule-dialog-date" class="schedule-dialog-date"></p>
+          <form id="schedule-form">
+            <label>Ad<select id="schedule-ad-select" required><option value="">Select an ad</option></select></label>
+            <label>Platform<select id="schedule-platform-select"><option value="all">All selected platforms</option><option value="craigslist">Craigslist</option><option value="adlandpro">AdLandPro</option><option value="classifiedads">ClassifiedAds</option><option value="facebook_marketplace">Facebook Marketplace</option><option value="offerup">OfferUp</option><option value="mercari">Mercari</option><option value="poshmark">Poshmark</option><option value="nextdoor">Nextdoor</option></select></label>
+            <label>Launch date<input id="schedule-date-input" type="date" required></label>
+            <label>Launch time<input id="schedule-time-input" type="time" required></label>
+            <div class="schedule-dialog-actions"><button type="button" class="btn-secondary" id="schedule-cancel">Cancel</button><button type="submit" class="btn-primary">Save Schedule</button></div>
+          </form>
         </div>
       </div>
     </section>
@@ -4367,6 +4379,126 @@
     /* ═══════════════════════════════════════════════════════════
        RENDER LISTINGS
      ═══════════════════════════════════════════════════════════ */
+    let scheduleEntries = (() => {
+      try { return JSON.parse(localStorage.getItem('clblast_schedules') || '[]'); } catch (_) { return []; }
+    })();
+    let scheduleCursor = new Date();
+    let scheduleSelectedDate = '';
+    let scheduleInitialized = false;
+    const scheduleMonthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+
+    function scheduleDateKey(date) {
+      const y = date.getFullYear();
+      const m = String(date.getMonth() + 1).padStart(2, '0');
+      const d = String(date.getDate()).padStart(2, '0');
+      return `${y}-${m}-${d}`;
+    }
+
+    function saveScheduleEntries() {
+      localStorage.setItem('clblast_schedules', JSON.stringify(scheduleEntries));
+    }
+
+    function scheduleAdOptions() {
+      const entries = Object.entries(allListings || {});
+      const source = entries.length ? entries.map(([key, listing]) => ({ key, title: String(key).replace(/^(CL_|AP_|CA_)/, ''), platform: listing?.platform || 'all' })) : allProducts.map((product, index) => ({ key: `product-${product.id ?? index}`, title: product.name || product.title || `Product ${index + 1}`, platform: 'all' }));
+      return source;
+    }
+
+    function renderScheduleAdOptions(selected = '') {
+      const select = document.getElementById('schedule-ad-select');
+      if (!select) return;
+      const options = scheduleAdOptions();
+      select.innerHTML = `<option value="">Select an ad</option>${options.map(item => `<option value="${escHtml(item.key)}" ${item.key === selected ? 'selected' : ''}>${escHtml(item.title)}</option>`).join('')}`;
+    }
+
+    function renderScheduleItems() {
+      const list = document.getElementById('schedule-items');
+      if (!list) return;
+      const ordered = [...scheduleEntries].sort((a, b) => `${a.date}T${a.time}`.localeCompare(`${b.date}T${b.time}`));
+      list.innerHTML = ordered.length ? ordered.map(item => `<article class="schedule-item"><div><div class="schedule-item-title">${escHtml(item.adTitle || item.adKey)}</div><div class="schedule-item-meta">${escHtml(item.date)} at ${escHtml(item.time)} · ${escHtml(item.platform === 'all' ? 'All selected platforms' : item.platform)}</div></div><button type="button" class="schedule-item-delete" onclick="deleteScheduleEntry('${escHtml(item.id)}')">Delete</button></article>`).join('') : '<div class="schedule-empty">No scheduled ads yet. Click any day to create one.</div>';
+    }
+
+    function openScheduleDialog(dateKey) {
+      scheduleSelectedDate = dateKey;
+      const dialog = document.getElementById('schedule-dialog');
+      const dateInput = document.getElementById('schedule-date-input');
+      const dateLabel = document.getElementById('schedule-dialog-date');
+      if (!dialog || !dateInput) return;
+      dateInput.value = dateKey;
+      if (dateLabel) dateLabel.textContent = new Date(`${dateKey}T12:00:00`).toLocaleDateString(undefined, { weekday:'long', year:'numeric', month:'long', day:'numeric' });
+      renderScheduleAdOptions();
+      dialog.classList.remove('hidden');
+      document.getElementById('schedule-ad-select')?.focus();
+    }
+
+    function closeScheduleDialog() {
+      document.getElementById('schedule-dialog')?.classList.add('hidden');
+      document.getElementById('schedule-form')?.reset();
+      scheduleSelectedDate = '';
+    }
+
+    function deleteScheduleEntry(id) {
+      scheduleEntries = scheduleEntries.filter(item => item.id !== id);
+      saveScheduleEntries();
+      renderScheduleCalendar();
+    }
+
+    function renderScheduleCalendar() {
+      const grid = document.getElementById('schedule-calendar-grid');
+      const monthSelect = document.getElementById('schedule-month-select');
+      const yearSelect = document.getElementById('schedule-year-select');
+      if (!grid || !monthSelect || !yearSelect) return;
+      const currentYear = new Date().getFullYear();
+      if (!monthSelect.options.length) monthSelect.innerHTML = scheduleMonthNames.map((name, index) => `<option value="${index}">${name}</option>`).join('');
+      if (!yearSelect.options.length) yearSelect.innerHTML = Array.from({ length: 11 }, (_, index) => currentYear - 5 + index).map(year => `<option value="${year}">${year}</option>`).join('');
+      monthSelect.value = String(scheduleCursor.getMonth());
+      yearSelect.value = String(scheduleCursor.getFullYear());
+      const first = new Date(scheduleCursor.getFullYear(), scheduleCursor.getMonth(), 1);
+      const start = new Date(first);
+      start.setDate(1 - first.getDay());
+      const todayKey = scheduleDateKey(new Date());
+      const cells = [];
+      for (let index = 0; index < 42; index += 1) {
+        const date = new Date(start);
+        date.setDate(start.getDate() + index);
+        const key = scheduleDateKey(date);
+        const events = scheduleEntries.filter(item => item.date === key);
+        const outside = date.getMonth() !== scheduleCursor.getMonth();
+        cells.push(`<button type="button" class="schedule-day ${outside ? 'is-outside' : ''} ${key === todayKey ? 'is-today' : ''}" data-schedule-date="${key}" role="gridcell" aria-label="${key}"><span class="schedule-day-number">${date.getDate()}</span><span class="schedule-day-events">${events.slice(0, 3).map(item => `<span class="schedule-day-event">${escHtml(item.adTitle || item.adKey)}</span>`).join('')}</span></button>`);
+      }
+      grid.innerHTML = cells.join('');
+      renderScheduleItems();
+    }
+
+    function initScheduleCalendar() {
+      if (scheduleInitialized) return;
+      scheduleInitialized = true;
+      document.getElementById('schedule-prev-month')?.addEventListener('click', () => { scheduleCursor = new Date(scheduleCursor.getFullYear(), scheduleCursor.getMonth() - 1, 1); renderScheduleCalendar(); });
+      document.getElementById('schedule-next-month')?.addEventListener('click', () => { scheduleCursor = new Date(scheduleCursor.getFullYear(), scheduleCursor.getMonth() + 1, 1); renderScheduleCalendar(); });
+      document.getElementById('schedule-today')?.addEventListener('click', () => { scheduleCursor = new Date(); renderScheduleCalendar(); });
+      document.getElementById('schedule-month-select')?.addEventListener('change', event => { scheduleCursor = new Date(scheduleCursor.getFullYear(), Number(event.target.value), 1); renderScheduleCalendar(); });
+      document.getElementById('schedule-year-select')?.addEventListener('change', event => { scheduleCursor = new Date(Number(event.target.value), scheduleCursor.getMonth(), 1); renderScheduleCalendar(); });
+      document.getElementById('schedule-calendar-grid')?.addEventListener('click', event => { const day = event.target.closest('[data-schedule-date]'); if (day) openScheduleDialog(day.dataset.scheduleDate); });
+      document.getElementById('schedule-dialog-close')?.addEventListener('click', closeScheduleDialog);
+      document.getElementById('schedule-cancel')?.addEventListener('click', closeScheduleDialog);
+      document.getElementById('schedule-dialog')?.addEventListener('click', event => { if (event.target.id === 'schedule-dialog') closeScheduleDialog(); });
+      document.getElementById('schedule-form')?.addEventListener('submit', event => {
+        event.preventDefault();
+        const adKey = document.getElementById('schedule-ad-select')?.value || '';
+        const date = document.getElementById('schedule-date-input')?.value || scheduleSelectedDate;
+        const time = document.getElementById('schedule-time-input')?.value || '';
+        const platform = document.getElementById('schedule-platform-select')?.value || 'all';
+        if (!adKey || !date || !time) { showToast('Choose an ad, date, and launch time.', 'error'); return; }
+        const ad = scheduleAdOptions().find(item => item.key === adKey);
+        scheduleEntries.push({ id: `schedule-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`, adKey, adTitle: ad?.title || adKey, platform, date, time, createdAt: new Date().toISOString() });
+        saveScheduleEntries();
+        closeScheduleDialog();
+        scheduleCursor = new Date(`${date}T12:00:00`);
+        renderScheduleCalendar();
+        showToast('Ad schedule saved.', 'success');
+      });
+    }
+
     function renderListings() {
       renderStatsBar();
       const searchVal = (document.getElementById('ad-search').value || '').toLowerCase();
@@ -4383,6 +4515,12 @@
       analyticsView.style.display = showAnalytics ? 'block' : 'none';
       scheduleView.style.display = showSchedule ? 'flex' : 'none';
       adControls.style.display = showSchedule ? 'none' : '';
+
+      if (showSchedule) {
+        initScheduleCalendar();
+        renderScheduleCalendar();
+        return;
+      }
 
       const entries = Object.entries(allListings).filter(([name, listing]) => {
         const active = isActive(listing);
