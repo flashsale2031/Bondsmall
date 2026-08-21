@@ -6291,16 +6291,20 @@
     function buildClientHandoffPayload(job) {
       const items = (job.productIndices || []).map(idx => {
         const product = allProducts[idx] || {};
+        const images = Array.isArray(product.images) && product.images.length
+          ? product.images
+          : (Array.isArray(product.photo_paths) ? product.photo_paths : (product.image ? [product.image] : []));
+        const fallbackPrice = product.price ?? null;
         return {
           id: product.id,
           sku: product.sku,
-          name: product.name || '',
+          name: product.name || product.title || '',
           description: product.description || '',
           category: product.category || '',
-          retail_price: product.retailPrice ?? product['retail price'] ?? null,
-          sale_price: product.salePrice ?? product['sale price'] ?? null,
-          image: product.image || (Array.isArray(product.images) ? product.images[0] : ''),
-          images: Array.isArray(product.images) ? product.images : [],
+          retail_price: product.retailPrice ?? product['retail price'] ?? fallbackPrice,
+          sale_price: product.salePrice ?? product['sale price'] ?? fallbackPrice,
+          image: product.image || images[0] || '',
+          images,
           source_url: product.source_url || product.sourceUrl || ''
         };
       });
