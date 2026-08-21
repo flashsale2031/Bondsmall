@@ -1303,6 +1303,23 @@
     .schedule-product-option-title { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:var(--text); font-size:.74rem; font-weight:700; }
     .schedule-product-option-meta { color:var(--text2); font-size:.66rem; }
     .schedule-product-empty { padding:16px 8px; color:var(--text2); font-size:.75rem; text-align:center; }
+    .schedule-location-picker { display:grid; gap:8px; }
+    .schedule-location-picker-header { display:flex; justify-content:space-between; gap:10px; color:var(--text); font-size:.78rem; font-weight:700; }
+    #schedule-location-count { color:var(--accent); font-weight:700; }
+    .schedule-location-actions { display:flex; gap:12px; flex-wrap:wrap; padding:8px 10px; border:1px solid var(--border); border-radius:8px; background:var(--card2); }
+    .schedule-location-actions label { display:flex !important; grid-template-columns:none !important; align-items:center; gap:6px; color:var(--text2); font-size:.72rem; font-weight:600; cursor:pointer; }
+    .schedule-location-actions input { width:auto !important; margin:0; accent-color:var(--accent); }
+    #schedule-location-state-list { display:grid; gap:6px; max-height:250px; overflow-y:auto; padding:6px; border:1px solid var(--border2); border-radius:8px; background:var(--card2); }
+    .schedule-location-state { border:1px solid var(--border); border-radius:7px; overflow:hidden; background:rgba(255,255,255,.28); }
+    .schedule-location-state summary { padding:8px 10px; color:var(--text); font-size:.72rem; font-weight:800; cursor:pointer; list-style-position:inside; }
+    .schedule-location-state[open] summary { border-bottom:1px solid var(--border); color:var(--accent); }
+    .schedule-location-city-list { display:grid; gap:4px; padding:6px; }
+    .schedule-location-option { display:flex; align-items:center; gap:8px; padding:7px 8px; border-radius:6px; color:var(--text2); font-size:.7rem; cursor:pointer; }
+    .schedule-location-option:hover, .schedule-location-option.is-selected { background:var(--glass2); color:var(--text); }
+    .schedule-location-option input { width:auto !important; margin:0; accent-color:var(--accent); }
+    .schedule-location-city { font-weight:700; }
+    .schedule-location-zip { color:var(--muted); }
+    .schedule-location-empty { padding:12px 8px; color:var(--text2); font-size:.72rem; text-align:center; }
     .schedule-dialog-actions { display:flex; justify-content:flex-end; gap:8px; margin-top:4px; }
 
     /* Stats Bar */
@@ -3927,6 +3944,14 @@
               </div>
               <div id="schedule-product-list" class="schedule-product-list" role="group" aria-label="Products available for scheduling"></div>
             </div>
+            <div class="schedule-location-picker">
+              <div class="schedule-location-picker-header"><span>Advertising locations</span><span id="schedule-location-count">0 selected</span></div>
+              <div class="schedule-location-actions" role="group" aria-label="Location selection controls">
+                <label><input type="checkbox" id="schedule-location-select-all"> Select all</label>
+                <label><input type="checkbox" id="schedule-location-deselect-all"> Deselect all</label>
+              </div>
+              <div id="schedule-location-state-list" role="group" aria-label="Locations grouped by state"></div>
+            </div>
             <label>Platform<select id="schedule-platform-select"><option value="all">All selected platforms</option><option value="craigslist">Craigslist</option><option value="adlandpro">AdLandPro</option><option value="classifiedads">ClassifiedAds</option><option value="facebook_marketplace">Facebook Marketplace</option><option value="offerup">OfferUp</option><option value="mercari">Mercari</option><option value="poshmark">Poshmark</option><option value="nextdoor">Nextdoor</option></select></label>
             <label>Launch date<input id="schedule-date-input" type="date" required></label>
             <label>Launch time<input id="schedule-time-input" type="time" required></label>
@@ -4745,6 +4770,7 @@
     let scheduleSelectedDate = '';
     let scheduleInitialized = false;
     const scheduleMonthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+    const SCHEDULE_LOCATIONS = `Alaska::Anchorage::99502|Arizona::Phoenix::85011|Arkansas::Brookland::72417|California::San Francisco::94102|Colorado::Colorado Springs::80990|Connecticut::Bloomfield::06002|Delaware::Newark::19702|Florida::Orlando::32827|Georgia::Atlanta::30306|Hawaii::Honolulu::96820|Idaho::Pocatello::83204|Illinois::Bloomington::61701|Illinois::Chicago::60650|Indiana::Indianapolis::46220|Iowa::Cedar Rapids::52404|Kansas::Wichita::67212|Kentucky::Louisville::40210|Louisiana::New Orleans::70117|Maine::Westbrook::04092|Maryland::Baltimore::21222|Massachusetts::Boston::02119|Michigan::Detroit::48210|Minnesota::Minneapolis::55440|Mississippi::Jackson::39201|Missouri::St. Louis::63138|Montana::Ashland::59004|Nebraska::Omaha::68110|Nevada::Las Vegas::89030|New Hampshire::Manchester::03063|New Jersey::Lakewood::08701|New Mexico::Albuquerque::87108|New York::Brooklyn::11206|North Carolina::Raleigh::27604|North Dakota::Fargo::58102|Ohio::Columbus::43211|Oklahoma::Mustang::73064|Oregon::Canby::97013|Pennsylvania::Philadelphia::19019|Rhode Island::Oakland::02858|South Carolina::Columbia::29223|South Dakota::Sioux Falls::57101|Tennessee::Nashville::37205|Texas::Houston::77024|Utah::Salt Lake City::84118|Vermont::Burlington::05401|Virginia::Bristol::24202|Washington::Seattle::98103|West Virginia::Charleston::25302|Wisconsin::Milwaukee::53221|Wyoming::Sheridan::82801`.split('|').map((entry, index) => { const [state, city, zip] = entry.split('::'); return { id: `schedule-location-${index + 1}`, state, city, zip }; });
 
     function scheduleDateKey(date) {
       const y = date.getFullYear();
@@ -4755,6 +4781,42 @@
 
     function saveScheduleEntries() {
       localStorage.setItem('clblast_schedules', JSON.stringify(scheduleEntries));
+    }
+
+    function scheduleSelectedLocationIds() {
+      return [...document.querySelectorAll('#schedule-location-state-list input[name="schedule-location"]:checked')].map(input => input.value);
+    }
+
+    function updateScheduleLocationUI() {
+      const options = [...document.querySelectorAll('#schedule-location-state-list input[name="schedule-location"]')];
+      const selected = options.filter(input => input.checked);
+      const count = document.getElementById('schedule-location-count');
+      const selectAll = document.getElementById('schedule-location-select-all');
+      const deselectAll = document.getElementById('schedule-location-deselect-all');
+      if (count) count.textContent = `${selected.length} selected`;
+      if (selectAll) {
+        selectAll.checked = options.length > 0 && selected.length === options.length;
+        selectAll.indeterminate = selected.length > 0 && selected.length < options.length;
+      }
+      if (deselectAll) deselectAll.checked = options.length > 0 && selected.length === 0;
+      options.forEach(input => input.closest('.schedule-location-option')?.classList.toggle('is-selected', input.checked));
+    }
+
+    function setScheduleLocationsSelected(checked) {
+      document.querySelectorAll('#schedule-location-state-list input[name="schedule-location"]').forEach(input => { input.checked = checked; });
+      updateScheduleLocationUI();
+    }
+
+    function renderScheduleLocationOptions(selectedIds = []) {
+      const list = document.getElementById('schedule-location-state-list');
+      if (!list) return;
+      const selected = new Set(selectedIds);
+      const states = [...new Set(SCHEDULE_LOCATIONS.map(location => location.state))];
+      list.innerHTML = states.map(state => {
+        const locations = SCHEDULE_LOCATIONS.filter(location => location.state === state);
+        return `<details class="schedule-location-state"><summary>${escHtml(state)}</summary><div class="schedule-location-city-list">${locations.map(location => `<label class="schedule-location-option ${selected.has(location.id) ? 'is-selected' : ''}"><input type="checkbox" name="schedule-location" value="${escHtml(location.id)}" ${selected.has(location.id) ? 'checked' : ''}><span class="schedule-location-city">${escHtml(location.city)}</span><span class="schedule-location-zip">${escHtml(location.zip)}</span></label>`).join('')}</div></details>`;
+      }).join('') || '<div class="schedule-location-empty">No locations configured.</div>';
+      updateScheduleLocationUI();
     }
 
     function scheduleAdOptions() {
@@ -4815,6 +4877,7 @@
       dateInput.value = dateKey;
       if (dateLabel) dateLabel.textContent = new Date(`${dateKey}T12:00:00`).toLocaleDateString(undefined, { weekday:'long', year:'numeric', month:'long', day:'numeric' });
       renderScheduleAdOptions();
+      renderScheduleLocationOptions();
       dialog.classList.remove('hidden');
       document.querySelector('#schedule-product-list input[name="schedule-product"]')?.focus();
     }
@@ -4823,6 +4886,7 @@
       document.getElementById('schedule-dialog')?.classList.add('hidden');
       document.getElementById('schedule-form')?.reset();
       setScheduleProductsSelected(false);
+      setScheduleLocationsSelected(false);
       scheduleSelectedDate = '';
     }
 
@@ -4870,6 +4934,9 @@
       document.getElementById('schedule-select-all')?.addEventListener('change', event => { if (event.target.checked) setScheduleProductsSelected(true); });
       document.getElementById('schedule-deselect-all')?.addEventListener('change', event => { if (event.target.checked) setScheduleProductsSelected(false); });
       document.getElementById('schedule-product-list')?.addEventListener('change', event => { if (event.target.matches('input[name="schedule-product"]')) updateScheduleSelectionUI(); });
+      document.getElementById('schedule-location-select-all')?.addEventListener('change', event => { if (event.target.checked) setScheduleLocationsSelected(true); });
+      document.getElementById('schedule-location-deselect-all')?.addEventListener('change', event => { if (event.target.checked) setScheduleLocationsSelected(false); });
+      document.getElementById('schedule-location-state-list')?.addEventListener('change', event => { if (event.target.matches('input[name="schedule-location"]')) updateScheduleLocationUI(); });
       document.getElementById('schedule-calendar-grid')?.addEventListener('click', event => { const day = event.target.closest('[data-schedule-date]'); if (day) openScheduleDialog(day.dataset.scheduleDate); });
       document.getElementById('schedule-dialog-close')?.addEventListener('click', closeScheduleDialog);
       document.getElementById('schedule-cancel')?.addEventListener('click', closeScheduleDialog);
@@ -4877,13 +4944,15 @@
       document.getElementById('schedule-form')?.addEventListener('submit', event => {
         event.preventDefault();
         const selectedKeys = scheduleSelectedProductKeys();
+        const selectedLocationIds = scheduleSelectedLocationIds();
         const date = document.getElementById('schedule-date-input')?.value || scheduleSelectedDate;
         const time = document.getElementById('schedule-time-input')?.value || '';
         const platform = document.getElementById('schedule-platform-select')?.value || 'all';
-        if (!selectedKeys.length || !date || !time) { showToast('Choose at least one product, date, and launch time.', 'error'); return; }
+        if (!selectedKeys.length || !selectedLocationIds.length || !date || !time) { showToast('Choose at least one product, location, date, and launch time.', 'error'); return; }
         const selectedAds = scheduleAdOptions().filter(item => selectedKeys.includes(item.key));
+        const selectedLocations = SCHEDULE_LOCATIONS.filter(location => selectedLocationIds.includes(location.id));
         const batchId = `schedule-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
-        scheduleEntries.push({ id: batchId, adKey: selectedAds[0]?.key || '', adTitle: selectedAds[0]?.title || '', adKeys: selectedAds.map(item => item.key), adTitles: selectedAds.map(item => item.title), platform, date, time, createdAt: new Date().toISOString() });
+        scheduleEntries.push({ id: batchId, adKey: selectedAds[0]?.key || '', adTitle: selectedAds[0]?.title || '', adKeys: selectedAds.map(item => item.key), adTitles: selectedAds.map(item => item.title), locations: selectedLocations, locationIds: selectedLocations.map(item => item.id), locationLabel: selectedLocations.map(item => `${item.city}, ${item.state} ${item.zip}`).join(' · '), platform, date, time, createdAt: new Date().toISOString() });
         saveScheduleEntries();
         closeScheduleDialog();
         scheduleCursor = new Date(`${date}T12:00:00`);
