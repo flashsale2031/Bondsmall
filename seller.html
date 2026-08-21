@@ -4156,6 +4156,7 @@
 
   <!-- Link products database file -->
   <script src="products.js"></script>
+  <script src="classifiedads.js"></script>
   <script>
     /* ═══════════════════════════════════════════════════════════
        CONSTANTS & STATE
@@ -6291,6 +6292,21 @@
     function buildClientHandoffPayload(job) {
       const items = (job.productIndices || []).map(idx => {
         const product = allProducts[idx] || {};
+        if (job.platform === 'classifiedads' && window.ClassifiedAdsAdapter) {
+          const listing = window.ClassifiedAdsAdapter.normalizeListing(product);
+          return {
+            id: listing.id,
+            sku: listing.sku,
+            name: listing.title,
+            description: listing.description,
+            category: listing.category,
+            retail_price: listing.price,
+            sale_price: listing.price,
+            image: listing.images[0] || '',
+            images: listing.images,
+            source_url: listing.source_url
+          };
+        }
         const images = Array.isArray(product.images) && product.images.length
           ? product.images
           : (Array.isArray(product.photo_paths) ? product.photo_paths : (product.image ? [product.image] : []));
