@@ -1278,7 +1278,10 @@
     .schedule-item { display:flex; align-items:center; justify-content:space-between; gap:10px; padding:9px 10px; border:1px solid var(--border); border-radius:8px; background:var(--card2); }
     .schedule-item-title { color:var(--text); font-size:.75rem; font-weight:700; }
     .schedule-item-meta { margin-top:2px; color:var(--text2); font-size:.68rem; }
-    .schedule-item-delete { border:0; border-radius:6px; padding:5px 7px; background:rgba(140,47,57,.1); color:var(--red); cursor:pointer; font-size:.66rem; }
+    .schedule-item-actions { display:flex; align-items:center; gap:6px; flex-shrink:0; }
+    .schedule-item-edit, .schedule-item-delete { border:0; border-radius:6px; padding:5px 7px; cursor:pointer; font-size:.66rem; }
+    .schedule-item-edit { background:rgba(31,122,70,.1); color:var(--good); }
+    .schedule-item-delete { background:rgba(140,47,57,.1); color:var(--red); }
     .schedule-empty { padding:14px; border:1px dashed var(--border2); border-radius:8px; color:var(--text2); text-align:center; font-size:.75rem; }
     .schedule-dialog { position:fixed; inset:0; z-index:10020; display:grid; place-items:center; padding:18px; background:rgba(12,15,20,.6); }
     .schedule-dialog.hidden { display:none; }
@@ -3975,7 +3978,8 @@
             </div>
             <label>Launch date<input id="schedule-date-input" type="date" required></label>
             <label>Launch time<input id="schedule-time-input" type="time" required></label>
-            <div class="schedule-dialog-actions"><button type="button" class="btn-secondary" id="schedule-cancel">Cancel</button><button type="submit" class="btn-primary">Save Schedule</button></div>
+                          <div class="schedule-dialog-actions"><button type="button" class="btn-secondary" id="schedule-cancel">Cancel</button><button type="submit" class="btn-primary" id="schedule-submit">Save Schedule</button></div>
+
           </form>
         </div>
       </div>
@@ -4788,6 +4792,7 @@
     })();
     let scheduleCursor = new Date();
     let scheduleSelectedDate = '';
+    let scheduleEditingId = '';
     let scheduleInitialized = false;
     const scheduleMonthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
     const SCHEDULE_PLATFORMS = [
@@ -4926,34 +4931,57 @@
       list.innerHTML = ordered.length ? ordered.map(item => {
         const selectedPlatforms = Array.isArray(item.platforms) ? item.platforms : (item.platform && item.platform !== 'all' && item.platform !== 'multiple' ? [item.platform] : []);
         const platformLabel = selectedPlatforms.length ? schedulePlatformLabels(selectedPlatforms).join(', ') : (item.platform === 'multiple' ? 'Multiple platforms' : 'All selected platforms');
-        return `<article class="schedule-item"><div><div class="schedule-item-title">${escHtml((item.adTitles || [item.adTitle || item.adKey]).join(', '))}</div><div class="schedule-item-meta">${escHtml(item.date)} at ${escHtml(item.time)} · ${escHtml(platformLabel)}</div></div><button type="button" class="schedule-item-delete" onclick="deleteScheduleEntry('${escHtml(item.id)}')">Delete</button></article>`;
+        return `<article class="schedule-item"><div><div class="schedule-item-title">${escHtml((item.adTitles || [item.adTitle || item.adKey]).join(', '))}</div><div class="schedule-item-meta">${escHtml(item.date)} at ${escHtml(item.time)} · ${escHtml(platformLabel)}</div></div><div class="schedule-item-actions"><button type="button" class="schedule-item-edit" onclick="editScheduleEntry('${escHtml(item.id)}')">Edit</button><button type="button" class="schedule-item-delete" onclick="deleteScheduleEntry('${escHtml(item.id)}')">Delete</button></div></article>`;
       }).join('') : '<div class="schedule-empty">No scheduled ads yet. Click any day to create one.</div>';
     }
 
-    function openScheduleDialog(dateKey) {
-      scheduleSelectedDate = dateKey;
+    function openScheduleDialog(dateKey, entryId = '') {
+      const existing = entryId ? scheduleEntries.find(item => item.id === entryId) : null;
+      scheduleEditingId = existing?.id || '';
+      scheduleSelectedDate = existing?.date || dateKey;
       const dialog = document.getElementById('schedule-dialog');
+      const form = document.getElementById('schedule-form');
       const dateInput = document.getElementById('schedule-date-input');
       const dateLabel = document.getElementById('schedule-dialog-date');
-      if (!dialog || !dateInput) return;
-      dateInput.value = dateKey;
-      if (dateLabel) dateLabel.textContent = new Date(`${dateKey}T12:00:00`).toLocaleDateString(undefined, { weekday:'long', year:'numeric', month:'long', day:'numeric' });
-      renderScheduleAdOptions();
-      renderSchedulePlatformOptions();
-      renderScheduleLocationOptions();
+      const title = document.getElementById('schedule-dialog-title');
+      const submit = document.getElementById('schedule-submit');
+      if (!dialog || !dateInput || !form) return;
+      form.reset();
+      dateInput.value = scheduleSelectedDate;
+      if (title) title.textContent = existing ? 'Edit scheduled ad' : 'Schedule an ad';
+      if (submit) submit.textContent = existing ? 'Update Schedule' : 'Save Schedule';
+      if (dateLabel) dateLabel.textContent = new Date(`${scheduleSelectedDate}T12:00:00`).toLocaleDateString(undefined, { weekday:'long', year:'numeric', month:'long', day:'numeric' });
+      renderScheduleAdOptions(existing?.adKeys || (existing?.adKey ? [existing.adKey] : []));
+      renderSchedulePlatformOptions(existing?.platforms || (existing?.platform && existing.platform !== 'multiple' && existing.platform !== 'all' ? [existing.platform] : []));
+      renderScheduleLocationOptions(existing?.locationIds || []);
+      const timeInput = document.getElementById('schedule-time-input');
+      if (timeInput) timeInput.value = existing?.time || '';
       dialog.classList.remove('hidden');
       document.querySelector('#schedule-product-list input[name="schedule-product"]')?.focus();
+    }
+
+    function editScheduleEntry(id) {
+      const entry = scheduleEntries.find(item => item.id === id);
+      if (!entry) return;
+      openScheduleDialog(entry.date, id);
     }
 
     function closeScheduleDialog() {
       document.getElementById('schedule-dialog')?.classList.add('hidden');
       document.getElementById('schedule-form')?.reset();
       setScheduleProductsSelected(false);
+      setSchedulePlatformsSelected(false);
       setScheduleLocationsSelected(false);
       scheduleSelectedDate = '';
+      scheduleEditingId = '';
+      const title = document.getElementById('schedule-dialog-title');
+      const submit = document.getElementById('schedule-submit');
+      if (title) title.textContent = 'Schedule an ad';
+      if (submit) submit.textContent = 'Save Schedule';
     }
 
     function deleteScheduleEntry(id) {
+      if (scheduleEditingId === id) closeScheduleDialog();
       scheduleEntries = scheduleEntries.filter(item => item.id !== id);
       saveScheduleEntries();
       renderScheduleCalendar();
@@ -5018,12 +5046,15 @@
         const selectedAds = scheduleAdOptions().filter(item => selectedKeys.includes(item.key));
         const selectedLocations = SCHEDULE_LOCATIONS.filter(location => selectedLocationIds.includes(location.id));
         const batchId = `schedule-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
-        scheduleEntries.push({ id: batchId, adKey: selectedAds[0]?.key || '', adTitle: selectedAds[0]?.title || '', adKeys: selectedAds.map(item => item.key), adTitles: selectedAds.map(item => item.title), locations: selectedLocations, locationIds: selectedLocations.map(item => item.id), locationLabel: selectedLocations.map(item => `${item.city}, ${item.state} ${item.zip}`).join(' · '), platforms, platform: platforms.length === 1 ? platforms[0] : 'multiple', date, time, createdAt: new Date().toISOString() });
+        const nextEntry = { id: scheduleEditingId || batchId, adKey: selectedAds[0]?.key || '', adTitle: selectedAds[0]?.title || '', adKeys: selectedAds.map(item => item.key), adTitles: selectedAds.map(item => item.title), locations: selectedLocations, locationIds: selectedLocations.map(item => item.id), locationLabel: selectedLocations.map(item => `${item.city}, ${item.state} ${item.zip}`).join(' · '), platforms, platform: platforms.length === 1 ? platforms[0] : 'multiple', date, time, createdAt: scheduleEntries.find(item => item.id === scheduleEditingId)?.createdAt || new Date().toISOString() };
+        const existingIndex = scheduleEntries.findIndex(item => item.id === scheduleEditingId);
+        if (existingIndex >= 0) scheduleEntries[existingIndex] = nextEntry;
+        else scheduleEntries.push(nextEntry);
         saveScheduleEntries();
         closeScheduleDialog();
         scheduleCursor = new Date(`${date}T12:00:00`);
         renderScheduleCalendar();
-        showToast('Ad schedule saved.', 'success');
+        showToast(existingIndex >= 0 ? 'Ad schedule updated.' : 'Ad schedule saved.', 'success');
       });
     }
 
