@@ -3150,6 +3150,14 @@
     .session-posted-btn { background:#1f7a46; color:#fff; }
     .session-skip-btn { background:#f3e3e1; color:#8c2f39; }
     .session-workflow-actions { display:flex; gap:5px; flex-wrap:wrap; }
+    .session-selector-results { margin-top:6px; padding:6px; border:1px solid #c9d5df; border-radius:7px; background:#f7fbff; }
+    .selector-result-group { margin-top:6px; }
+    .selector-result-group > strong { display:block; color:var(--text); font-size:.66rem; margin-bottom:3px; }
+    .selector-result-grid { display:grid; grid-template-columns:minmax(0, 1.25fr) minmax(0, 1fr); gap:3px 6px; align-items:start; }
+    .selector-result-grid code { overflow-wrap:anywhere; color:#255b7a; font-size:.58rem; }
+    .selector-result-grid span, .selector-result-grid em { color:var(--text2); font-size:.6rem; }
+    .craigslist-flow-steps { margin:0; padding-left:18px; color:var(--text2); font-size:.64rem; line-height:1.4; }
+    .craigslist-flow-steps code { color:#255b7a; font-size:.58rem; overflow-wrap:anywhere; }
     .post-account-connection { margin-left:auto; color:#8c2f39; font-size:.68rem; white-space:nowrap; }
     .post-account-connection:has(+ *) { }
 
@@ -6250,6 +6258,114 @@
       setTimeout(startNextJob, 300);
     }
 
+    const CRAIGSLIST_DRAFT_FLOW = Object.freeze({
+      postingsUrl: 'https://www.craigslist.org/account/postings',
+      draftsUrl: 'https://www.craigslist.org/account/drafts',
+      returnUrl: 'https://www.craigslist.org/account/postings',
+      draftLinkCandidates: [
+        'a[href*="/account/drafts/"]',
+        'a[href*="/account/drafts"]',
+        '[data-testid="draft"] a[href]',
+        '.draft a[href]'
+      ],
+      publishButtonCandidates: [
+        'button[type="submit"]',
+        'input[type="submit"]',
+        'button[name="publish"]',
+        '[data-testid="publish"]'
+      ]
+    });
+
+    function cssSelectorForElement(element) {
+      if (!element || element.nodeType !== 1) return '';
+      if (element.id) return `#${CSS.escape(element.id)}`;
+      const parts = [];
+      let node = element;
+      while (node && node.nodeType === 1 && parts.length < 6) {
+        let part = node.localName;
+        if (node.classList?.length) part += [...node.classList].slice(0, 2).map(c => `.${CSS.escape(c)}`).join('');
+        const siblings = node.parentElement ? [...node.parentElement.children].filter(child => child.localName === node.localName) : [];
+        if (siblings.length > 1) part += `:nth-of-type(${siblings.indexOf(node) + 1})`;
+        parts.unshift(part);
+        node = node.parentElement;
+      }
+      return parts.join(' > ');
+    }
+
+    function discoverCraigslistSelectors(root = document) {
+      const textOf = element => (element?.textContent || element?.value || '').trim().replace(/\\s+/g, ' ');
+      const draftLinks = [...root.querySelectorAll('a[href]')]
+        .filter(a => /draft|incomplete/i.test(`${a.href} ${textOf(a)}`))
+        .map(a => ({ text: textOf(a), href: a.href, selector: cssSelectorForElement(a) }));
+      const publishButtons = [...root.querySelectorAll('button, input[type="submit"], input[type="button"]')]
+        .filter(button => /publish|post/i.test(textOf(button) || button.getAttribute('aria-label') || button.name || ''))
+        .map(button => ({ text: textOf(button), type: button.type || 'button', selector: cssSelectorForElement(button) }));
+      const result = {
+        capturedAt: new Date().toISOString(),
+        draftLinks,
+        publishButtons,
+        candidates: {
+          draftLinks: CRAIGSLIST_DRAFT_FLOW.draftLinkCandidates,
+          publishButtons: CRAIGSLIST_DRAFT_FLOW.publishButtonCandidates
+        }
+      };
+      renderCraigslistSelectorResults(result);
+      return result;
+    }
+
+    function renderCraigslistSelectorResults(result = {}) {
+      const view = document.getElementById('session-view-craigslist');
+      if (!view) return;
+      let panel = document.getElementById('craigslist-selector-results');
+      if (!panel) {
+        panel = document.createElement('section');
+        panel.id = 'craigslist-selector-results';
+        panel.className = 'session-selector-results';
+        view.appendChild(panel);
+      }
+      const renderRows = (rows, empty) => rows?.length
+        ? rows.map(row => `<code>${escHtml(row.selector || '')}</code><span>${escHtml(row.text || row.href || '')}</span>`).join('')
+        : `<em>${escHtml(empty)}</em>`;
+      panel.innerHTML = `<div class="session-workflow-title">Craigslist CSS discovery results</div>
+        <p class="session-workflow-note">Discovery is rendered separately from the posting flow. Run it in an authenticated Craigslist page context; this panel does not publish an ad.</p>
+        <div class="selector-result-group"><strong>Draft listing hyperlink</strong><div class="selector-result-grid">${renderRows(result.draftLinks, 'No draft link was found in the supplied page context.')}</div></div>
+        <div class="selector-result-group"><strong>Publish button</strong><div class="selector-result-grid">${renderRows(result.publishButtons, 'No Publish button was found in the supplied page context.')}</div></div>
+        <div class="selector-result-group"><strong>Fallback candidates</strong><div class="selector-result-grid">${CRAIGSLIST_DRAFT_FLOW.draftLinkCandidates.map(selector => `<code>${escHtml(selector)}</code><span>Draft candidate</span>`).join('')}${CRAIGSLIST_DRAFT_FLOW.publishButtonCandidates.map(selector => `<code>${escHtml(selector)}</code><span>Publish candidate</span>`).join('')}</div></div>`;
+    }
+
+    function renderCraigslistDraftFlowPanel(job) {
+      const view = document.getElementById('session-view-craigslist');
+      if (!view) return;
+      const flow = job.craigslistFlow || {};
+      const panel = document.createElement('section');
+      panel.className = 'session-listing-workflow craigslist-draft-flow';
+      panel.innerHTML = `<div class="session-workflow-title">Craigslist draft workflow</div>
+        <p class="session-workflow-note">The flow returns to the account postings page, opens Drafts, selects the drafted listing by its hyperlink, waits for the draft page, and pauses before Publish for user confirmation.</p>
+        <ol class="craigslist-flow-steps">
+          <li data-step="postings">Open <code>${CRAIGSLIST_DRAFT_FLOW.postingsUrl}</code></li>
+          <li data-step="drafts">Continue to <code>${CRAIGSLIST_DRAFT_FLOW.draftsUrl}</code></li>
+          <li data-step="draft-link">Select the drafted listing by the discovered CSS selector</li>
+          <li data-step="publish">Wait for load, then submit Publish only after confirmation</li>
+          <li data-step="return">Return to <code>${CRAIGSLIST_DRAFT_FLOW.returnUrl}</code></li>
+        </ol>
+        <div class="session-workflow-actions"><button type="button" class="session-copy-btn" onclick="renderCraigslistSelectorResults(discoverCraigslistSelectors(document))">Render CSS results separately</button><button type="button" class="session-posted-btn" onclick="requestCraigslistPublishConfirmation(${job.index})">Continue Craigslist flow</button></div>`;
+      view.prepend(panel);
+      renderCraigslistSelectorResults(flow.selectorResults || {});
+    }
+
+    function requestCraigslistPublishConfirmation(jobIndex) {
+      const job = jobQueue.find(item => item.index === jobIndex);
+      if (!job || job.platform !== 'craigslist') return;
+      if (!requirePlatformDestination('craigslist', CRAIGSLIST_DRAFT_FLOW.postingsUrl)) return;
+      const approved = window.confirm('Craigslist is ready to continue to the drafted listing. Continue to the Publish step?');
+      if (!approved) {
+        appendLog('[Craigslist] Publish flow paused; no ad was submitted.', 'warn');
+        return;
+      }
+      appendLog('[Craigslist] User approved continuation. Complete the live browser handoff and submit Publish there.', 'system');
+      openPlatformSessionPage('craigslist');
+    }
+
     function runClientOnlyHandoff(job) {
       const payload = buildClientHandoffPayload(job);
       job.handoff = payload;
@@ -6257,6 +6373,7 @@
       openPlatformSessionPage(job.platform);
       if (!requirePlatformDestination(job.platform, 'listing handoff')) return;
       renderClientListingPanel(job);
+      if (job.platform === 'craigslist') renderCraigslistDraftFlowPanel(job);
       updateAllPlatformSessionProgress();
       appendLog(`[Client-only] ${job.platform} listing prepared for ${job.accountLabel}. Complete the listing in the connected popup and confirm it there.`, 'system');
       const note = document.getElementById(`session-note-${job.platform}`);
