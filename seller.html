@@ -4402,6 +4402,15 @@
       const banner = document.getElementById('server-banner');
       const pill = document.getElementById('server-indicator');
       const pillTxt = document.getElementById('server-indicator-text');
+      if (CLIENT_ONLY_MODE) {
+        serverOnline = false;
+        banner?.classList.remove('visible');
+        banner?.setAttribute('aria-hidden', 'true');
+        banner?.style.setProperty('display', 'none', 'important');
+        if (pill) pill.className = 'online';
+        if (pillTxt) pillTxt.textContent = 'Client Only';
+        return;
+      }
 
       // Provide loading feedback for manual retries
       const retryLink = banner ? banner.querySelector('a') : null;
@@ -4725,7 +4734,9 @@
 
       displayArea.style.display = (showAnalytics || showSchedule) ? 'none' : '';
       analyticsView.style.display = showAnalytics ? 'block' : 'none';
+      scheduleView.classList.toggle('visible', showSchedule);
       scheduleView.style.display = showSchedule ? 'flex' : 'none';
+      scheduleView.setAttribute('aria-hidden', String(!showSchedule));
       adControls.style.display = showSchedule ? 'none' : '';
 
       if (showSchedule) {
