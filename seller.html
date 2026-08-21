@@ -4422,6 +4422,7 @@
   <script src="classifiedads.js"></script>
   <script src="marketplace.js"></script>
   <script src="alabama-locations.js"></script>
+  <script src="alaska-locations.js"></script>
   <script>
     /* ═══════════════════════════════════════════════════════════
        CONSTANTS & STATE
@@ -4808,7 +4809,15 @@
       { id: 'nextdoor', label: 'Nextdoor' }
     ];
     const BASE_SCHEDULE_LOCATIONS = `Alaska::Anchorage::99502|Arizona::Phoenix::85011|Arkansas::Brookland::72417|California::San Francisco::94102|Colorado::Colorado Springs::80990|Connecticut::Bloomfield::06002|Delaware::Newark::19702|Florida::Orlando::32827|Georgia::Atlanta::30306|Hawaii::Honolulu::96820|Idaho::Pocatello::83204|Illinois::Bloomington::61701|Illinois::Chicago::60650|Indiana::Indianapolis::46220|Iowa::Cedar Rapids::52404|Kansas::Wichita::67212|Kentucky::Louisville::40210|Louisiana::New Orleans::70117|Maine::Westbrook::04092|Maryland::Baltimore::21222|Massachusetts::Boston::02119|Michigan::Detroit::48210|Minnesota::Minneapolis::55440|Mississippi::Jackson::39201|Missouri::St. Louis::63138|Montana::Ashland::59004|Nebraska::Omaha::68110|Nevada::Las Vegas::89030|New Hampshire::Manchester::03063|New Jersey::Lakewood::08701|New Mexico::Albuquerque::87108|New York::Brooklyn::11206|North Carolina::Raleigh::27604|North Dakota::Fargo::58102|Ohio::Columbus::43211|Oklahoma::Mustang::73064|Oregon::Canby::97013|Pennsylvania::Philadelphia::19019|Rhode Island::Oakland::02858|South Carolina::Columbia::29223|South Dakota::Sioux Falls::57101|Tennessee::Nashville::37205|Texas::Houston::77024|Utah::Salt Lake City::84118|Vermont::Burlington::05401|Virginia::Bristol::24202|Washington::Seattle::98103|West Virginia::Charleston::25302|Wisconsin::Milwaukee::53221|Wyoming::Sheridan::82801`.split('|').map((entry, index) => { const [state, city, zip] = entry.split('::'); return { id: `schedule-location-${index + 1}`, state, city, zip }; });
-    const SCHEDULE_LOCATIONS = [...BASE_SCHEDULE_LOCATIONS, ...(Array.isArray(window.BONDS_MALL_ALABAMA_LOCATIONS) ? window.BONDS_MALL_ALABAMA_LOCATIONS : [])];
+    const supplementalScheduleLocations = [
+      ...(Array.isArray(window.BONDS_MALL_ALABAMA_LOCATIONS) ? window.BONDS_MALL_ALABAMA_LOCATIONS : []),
+      ...(Array.isArray(window.BONDS_MALL_ALASKA_LOCATIONS) ? window.BONDS_MALL_ALASKA_LOCATIONS : [])
+    ];
+    const supplementalLocationKeys = new Set(supplementalScheduleLocations.map(location => `${location.state}|${location.city}`));
+    const SCHEDULE_LOCATIONS = [
+      ...BASE_SCHEDULE_LOCATIONS.filter(location => !supplementalLocationKeys.has(`${location.state}|${location.city}`)),
+      ...supplementalScheduleLocations
+    ];
 
     function scheduleDateKey(date) {
       const y = date.getFullYear();
