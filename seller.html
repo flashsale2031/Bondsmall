@@ -6451,6 +6451,106 @@
       return result;
     }
 
+    function createCraigslistDraftFlow(job, payload) {
+      const product = payload?.products?.[0] || {};
+      return {
+        phase: 'ready',
+        jobIndex: job.index,
+        postingsUrl: CRAIGSLIST_DRAFT_FLOW.postingsUrl,
+        draftsUrl: CRAIGSLIST_DRAFT_FLOW.draftsUrl,
+        returnUrl: CRAIGSLIST_DRAFT_FLOW.returnUrl,
+        draft: { title: product.name || 'Untitled product', description: product.description || '', price: product.sale_price ?? product.retail_price ?? '', images: product.images || [product.image || ''], source_url: product.source_url || '' },
+        draftHref: '',
+        draftSelector: '',
+        publishSelector: '',
+        selectorResults: null,
+        updatedAt: new Date().toISOString()
+      };
+    }
+
+    function findCraigslistDraftLink(root = document) {
+      return [...root.querySelectorAll('a[href]')].find(a => /draft|incomplete/i.test(`${a.href} ${(a.textContent || '').trim()}`)) || null;
+    }
+
+    function findCraigslistPublishButton(root = document) {
+      return [...root.querySelectorAll('button, input[type="submit"], input[type="button"]')].find(button => /publish|post/i.test(`${button.textContent || ''} ${button.value || ''} ${button.getAttribute('aria-label') || ''} ${button.name || ''}`)) || null;
+    }
+
+    function updateCraigslistFlowStep(job, phase, message) {
+      if (!job?.craigslistFlow) return;
+      job.craigslistFlow.phase = phase;
+      job.craigslistFlow.updatedAt = new Date().toISOString();
+      persistClientCampaign();
+      updateAllPlatformSessionProgress();
+      if (message) appendLog(`[Craigslist] ${message}`, phase === 'error' ? 'error' : 'system');
+    }
+
+    async function waitForCraigslistLoad(adapter, minimumMs = 350) {
+      if (typeof adapter?.waitForLoad === 'function') return adapter.waitForLoad();
+      await new Promise(resolve => setTimeout(resolve, minimumMs));
+    }
+
+    async function runCraigslistDraftFlow(job, adapter = window.CraigslistPageAdapter) {
+      if (!job || job.platform !== 'craigslist') return { status: 'invalid-job' };
+      job.craigslistFlow = job.craigslistFlow || createCraigslistDraftFlow(job, job.handoff || {});
+      const flow = job.craigslistFlow;
+      if (!adapter || typeof adapter.navigate !== 'function') {
+        openPlatformSessionPage('craigslist');
+        updateCraigslistFlowStep(job, 'handoff-required', 'Open the authenticated Craigslist browser page to continue the draft flow.');
+        return { status: 'handoff-required', flow };
+      }
+      try {
+        updateCraigslistFlowStep(job, 'postings', 'Opening the account postings page.');
+        await adapter.navigate(flow.postingsUrl);
+        await waitForCraigslistLoad(adapter);
+        updateCraigslistFlowStep(job, 'drafts', 'Opening the account drafts page.');
+        await adapter.navigate(flow.draftsUrl);
+        await waitForCraigslistLoad(adapter);
+        const root = typeof adapter.getDocument === 'function' ? adapter.getDocument() : document;
+        const draftLink = findCraigslistDraftLink(root);
+        if (!draftLink) throw new Error('No Craigslist draft listing hyperlink was found.');
+        flow.draftHref = draftLink.href || draftLink.getAttribute('href') || '';
+        flow.draftSelector = cssSelectorForElement(draftLink);
+        flow.selectorResults = discoverCraigslistSelectors(root);
+        updateCraigslistFlowStep(job, 'draft-selected', 'Draft listing found; opening the drafted ad.');
+        if (typeof adapter.click === 'function') await adapter.click(draftLink);
+        else if (typeof adapter.navigate === 'function') await adapter.navigate(flow.draftHref);
+        await waitForCraigslistLoad(adapter);
+        const draftRoot = typeof adapter.getDocument === 'function' ? adapter.getDocument() : document;
+        const publishButton = findCraigslistPublishButton(draftRoot);
+        if (!publishButton) throw new Error('No Craigslist Publish button was found on the draft page.');
+        flow.publishSelector = cssSelectorForElement(publishButton);
+        flow.selectorResults = discoverCraigslistSelectors(draftRoot);
+        updateCraigslistFlowStep(job, 'awaiting-publish-confirmation', 'Publish control found; waiting for confirmation before submission.');
+        return { status: 'ready-to-publish', flow };
+      } catch (error) {
+        updateCraigslistFlowStep(job, 'error', error.message);
+        return { status: 'error', error: error.message, flow };
+      }
+    }
+
+    async function publishCraigslistDraft(job, adapter = window.CraigslistPageAdapter) {
+      if (!job?.craigslistFlow || job.craigslistFlow.phase !== 'awaiting-publish-confirmation') return { status: 'not-ready' };
+      const approved = typeof adapter?.confirmPublish === 'function' ? await adapter.confirmPublish(job.craigslistFlow) : window.confirm('Submit the Craigslist Publish button now?');
+      if (!approved) { updateCraigslistFlowStep(job, 'awaiting-publish-confirmation', 'Publish paused; no Craigslist submission was made.'); return { status: 'cancelled' }; }
+      try {
+        const root = typeof adapter?.getDocument === 'function' ? adapter.getDocument() : document;
+        const publishButton = root.querySelector(job.craigslistFlow.publishSelector) || findCraigslistPublishButton(root);
+        if (!publishButton) throw new Error('The previously discovered Publish button is no longer available.');
+        updateCraigslistFlowStep(job, 'publishing', 'Submitting the confirmed Publish action.');
+        if (typeof adapter?.click !== 'function') throw new Error('An authenticated browser adapter is required for Publish.');
+        await adapter.click(publishButton);
+        await waitForCraigslistLoad(adapter);
+        await adapter.navigate(job.craigslistFlow.returnUrl);
+        await waitForCraigslistLoad(adapter);
+        updateCraigslistFlowStep(job, 'posted-returned', 'Publish completed and the account postings page was reopened.');
+        return { status: 'posted-returned', flow: job.craigslistFlow };
+      } catch (error) {
+        updateCraigslistFlowStep(job, 'error', error.message);
+        return { status: 'error', error: error.message, flow: job.craigslistFlow };
+      }
+    }
+
     function renderCraigslistSelectorResults(result = {}) {
       const view = document.getElementById('session-view-craigslist');
       if (!view) return;
@@ -6486,27 +6586,24 @@
           <li data-step="publish">Wait for load, then submit Publish only after confirmation</li>
           <li data-step="return">Return to <code>${CRAIGSLIST_DRAFT_FLOW.returnUrl}</code></li>
         </ol>
-        <div class="session-workflow-actions"><button type="button" class="session-copy-btn" onclick="renderCraigslistSelectorResults(discoverCraigslistSelectors(document))">Render CSS results separately</button><button type="button" class="session-posted-btn" onclick="requestCraigslistPublishConfirmation(${job.index})">Continue Craigslist flow</button></div>`;
+        <div class="session-workflow-note">Current phase: <strong>${escHtml(flow.phase || 'ready')}</strong>${flow.draftHref ? ` · Draft: ${escHtml(flow.draftHref)}` : ''}${flow.draftSelector ? ` · Draft selector: ${escHtml(flow.draftSelector)}` : ''}${flow.publishSelector ? ` · Publish selector: ${escHtml(flow.publishSelector)}` : ''}</div>
+        <div class="session-workflow-actions"><button type="button" class="session-copy-btn" onclick="renderCraigslistSelectorResults(discoverCraigslistSelectors(document))">Render CSS results separately</button><button type="button" class="session-posted-btn" onclick="requestCraigslistPublishConfirmation(${job.index})">Run draft flow</button><button type="button" class="session-posted-btn" onclick="publishCraigslistDraft(jobQueue.find(item => item.index === ${job.index}), window.CraigslistPageAdapter)">Publish after confirmation</button></div>`;
       view.prepend(panel);
       renderCraigslistSelectorResults(flow.selectorResults || {});
     }
 
-    function requestCraigslistPublishConfirmation(jobIndex) {
+    async function requestCraigslistPublishConfirmation(jobIndex) {
       const job = jobQueue.find(item => item.index === jobIndex);
       if (!job || job.platform !== 'craigslist') return;
       if (!requirePlatformDestination('craigslist', CRAIGSLIST_DRAFT_FLOW.postingsUrl)) return;
-      const approved = window.confirm('Craigslist is ready to continue to the drafted listing. Continue to the Publish step?');
-      if (!approved) {
-        appendLog('[Craigslist] Publish flow paused; no ad was submitted.', 'warn');
-        return;
-      }
-      appendLog('[Craigslist] User approved continuation. Complete the live browser handoff and submit Publish there.', 'system');
-      openPlatformSessionPage('craigslist');
+      await runCraigslistDraftFlow(job, window.CraigslistPageAdapter);
+      renderCraigslistDraftFlowPanel(job);
     }
 
     function runClientOnlyHandoff(job) {
       const payload = buildClientHandoffPayload(job);
       job.handoff = payload;
+      if (job.platform === 'craigslist') job.craigslistFlow = createCraigslistDraftFlow(job, payload);
       persistClientCampaign();
       openPlatformSessionPage(job.platform);
       if (!requirePlatformDestination(job.platform, 'listing handoff')) return;
