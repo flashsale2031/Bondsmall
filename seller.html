@@ -4424,6 +4424,7 @@
   <script src="alabama-locations.js"></script>
   <script src="alaska-locations.js"></script>
   <script src="arizona-locations.js"></script>
+  <script src="arkansas-locations.js"></script>
   <script>
     /* ═══════════════════════════════════════════════════════════
        CONSTANTS & STATE
@@ -4813,7 +4814,8 @@
     const supplementalScheduleLocations = [
       ...(Array.isArray(window.BONDS_MALL_ALABAMA_LOCATIONS) ? window.BONDS_MALL_ALABAMA_LOCATIONS : []),
       ...(Array.isArray(window.BONDS_MALL_ALASKA_LOCATIONS) ? window.BONDS_MALL_ALASKA_LOCATIONS : []),
-      ...(Array.isArray(window.BONDS_MALL_ARIZONA_LOCATIONS) ? window.BONDS_MALL_ARIZONA_LOCATIONS : [])
+      ...(Array.isArray(window.BONDS_MALL_ARIZONA_LOCATIONS) ? window.BONDS_MALL_ARIZONA_LOCATIONS : []),
+      ...(Array.isArray(window.BONDS_MALL_ARKANSAS_LOCATIONS) ? window.BONDS_MALL_ARKANSAS_LOCATIONS : [])
     ];
     const supplementalLocationKeys = new Set(supplementalScheduleLocations.map(location => `${location.state}|${location.city}`));
     const SCHEDULE_LOCATIONS = [
