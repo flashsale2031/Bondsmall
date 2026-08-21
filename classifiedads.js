@@ -185,25 +185,41 @@
     return { category: categoryMatch.selector, subcategory: subcategoryMatch.selector };
   }
 
+  function normalizeLocation(location) {
+    if (location && typeof location === 'object') {
+      const city = String(location.city || location.city_name || '').trim();
+      const state = String(location.state || '').trim();
+      const zip = String(location.zip || location.zip_code || '').trim();
+      return { city, state, zip, label: String(location.label || [city, state, zip].filter(Boolean).join(', ')).trim() };
+    }
+    const label = String(location || '').trim();
+    return { city: label, state: '', zip: '', label };
+  }
+
   async function selectLocation(root, location, { timeoutMs = 8000 } = {}) {
+    const target = normalizeLocation(location);
     const locationMatch = firstMatch(root, SELECTORS.location);
     if (!locationMatch.element) throw new Error('ClassifiedAds location field not found.');
     locationMatch.element.style.display = '';
-    locationMatch.element.value = String(location || '');
+    locationMatch.element.value = target.city || target.label;
     dispatchFieldEvents(locationMatch.element);
-    const wanted = String(location || '').trim().toLowerCase();
+    const wantedCity = target.city.toLowerCase();
+    const wantedLabel = target.label.toLowerCase();
     const started = Date.now();
     while (Date.now() - started < timeoutMs) {
       const candidates = [...root.querySelectorAll(SELECTORS.locationSuggestion.join(','))];
-      const suggestion = candidates.find(item => item.textContent.trim().toLowerCase() === wanted);
+      const suggestion = candidates.find(item => {
+        const text = item.textContent.trim().toLowerCase();
+        return text === wantedLabel || text === wantedCity || (wantedCity && text.includes(wantedCity) && (!target.state || text.includes(target.state.toLowerCase())));
+      });
       if (suggestion) {
         suggestion.click();
         await new Promise(resolve => setTimeout(resolve, 250));
-        return { inputSelector: locationMatch.selector, suggestionSelector: 'li[lid]', selected: suggestion.textContent.trim() };
+        return { inputSelector: locationMatch.selector, suggestionSelector: 'li[lid]', selected: suggestion.textContent.trim(), city: target.city, state: target.state, zip: target.zip };
       }
       await new Promise(resolve => setTimeout(resolve, 100));
     }
-    throw new Error(`ClassifiedAds location suggestion not found: ${location}`);
+    throw new Error(`ClassifiedAds location suggestion not found: ${target.label}`);
   }
 
   function setRichDescription(root, description) {
@@ -275,12 +291,13 @@
   async function runGuestPostFlow({ root = document, product, category = 'Items for Sale', subcategory = 'Collectibles', location = 'Charleston, SC', contact = {}, captcha, prepareImages = true, confirmPublish = false } = {}) {
     if (!product) throw new Error('A public product listing is required.');
     if (!contact.email || !contact.phone || !captcha) throw new Error('Runtime email, phone, and CAPTCHA are required; none are stored by this adapter.');
+    const normalizedLocation = normalizeLocation(location);
     const log = [];
     log.push({ step: 'category', result: selectCategoryAndSubcategory(root, category, subcategory) });
-    log.push({ step: 'location', result: await selectLocation(root, location) });
+    log.push({ step: 'location', result: await selectLocation(root, normalizedLocation) });
     log.push({ step: 'draft', result: fillDraft(root, product) });
     if (prepareImages) log.push({ step: 'images', result: await prepareImageUpload(root, product) });
-    log.push({ step: 'contact', result: fillUserFields(root, { ...contact, captcha: undefined }) });
+    log.push({ step: 'contact', result: fillUserFields(root, { ...contact, city: contact.city ?? normalizedLocation.city, zip: contact.zip ?? normalizedLocation.zip, captcha: undefined }) });
     setField(root, 'captcha', captcha);
     log.push({ step: 'captcha', result: { selector: firstMatch(root, SELECTORS.captcha).selector, entered: true } });
     const termsResult = acceptTerms(root);
@@ -289,10 +306,19 @@
     return { log, submitted: confirmPublish, publicListingUrl: confirmPublish ? getPublicListingUrl() : '' };
   }
 
+  async function runGuestPostLocations({ root = document, product, locations = [], ...options } = {}) {
+    if (!Array.isArray(locations) || !locations.length) throw new Error('At least one selected ClassifiedAds location is required.');
+    const results = [];
+    for (const location of locations) {
+      results.push(await runGuestPostFlow({ root, product, location, ...options }));
+    }
+    return results;
+  }
+
   const GUEST_POST_FLOW = Object.freeze([
     { step: 1, action: 'navigate', url: `${BASE_URL}/post.php` },
     { step: 2, action: 'selectCategory', selectors: ['category', 'subcategory'] },
-    { step: 3, action: 'selectLocation', selectors: ['location', 'locationSuggestion'] },
+    { step: 3, action: 'selectLocation', selectors: ['location', 'locationSuggestion'], accepts: 'city/state/ZIP location object' },
     { step: 4, action: 'fillDraft', selectors: ['title', 'price', 'description', 'zip'] },
     { step: 5, action: 'prepareImageUpload', selector: 'photos' },
     { step: 6, action: 'fillRuntimeContact', selectors: ['email', 'emailConfirm', 'phone', 'city', 'zip'] },
@@ -305,8 +331,8 @@
   global.ClassifiedAdsAdapter = Object.freeze({
     BASE_URL, POST_AD_URL, LOGIN_URL, CATEGORY_MAPPING, SELECTORS, GUEST_POST_FLOW,
     getCategory, normalizeListing, discoverControls, buildDraft, fillDraft, prepareImageUpload,
-    selectCategoryAndSubcategory, selectLocation, setRichDescription, fillUserFields, acceptTerms,
-    submitGuestPost, runGuestPostFlow,
+    selectCategoryAndSubcategory, normalizeLocation, selectLocation, setRichDescription, fillUserFields, acceptTerms,
+    submitGuestPost, runGuestPostFlow, runGuestPostLocations,
     canPublish: () => true,
     publishNotice: 'The adapter can submit only when the caller provides runtime CAPTCHA/contact values and confirmPublish: true; it never solves CAPTCHA or stores private values.'
   });

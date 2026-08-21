@@ -6307,37 +6307,58 @@
     /* ═══════════════════════════════════════════════════════════
        POSTING QUEUE & RUNNING STATUS
      ═══════════════════════════════════════════════════════════ */
-    function buildJobQueue(selectedAccounts, selectedProductIndices) {
-      const queue = [];
-      let jobIdx = 0;
+    function normalizeScheduledLocations(locations) {
+      return (Array.isArray(locations) ? locations : []).map(location => ({
+        id: location.id || '',
+        city: location.city || location.city_name || '',
+        state: location.state || '',
+        zip: location.zip || location.zip_code || '',
+        label: location.label || [location.city || location.city_name, location.state, location.zip || location.zip_code].filter(Boolean).join(', ')
+      })).filter(location => location.city || location.label);
+    }
 
+        function buildJobQueue(selectedAccounts, selectedProductIndices, scheduledLocations = []) {
+      const queue = [];
+      const normalizedLocations = normalizeScheduledLocations(scheduledLocations);
+      let jobIdx = 0;
       Object.entries(selectedAccounts).forEach(([platform, accounts]) => {
         accounts.forEach(acc => {
           const intervalMins = parseInt(document.getElementById('bulk-interval')?.value || '10', 10);
           const estSec = estimateJobTime(platform, selectedProductIndices.length, intervalMins);
-          queue.push({
-            index: jobIdx++,
-            platform: platform,
-            accountId: acc.id,
-            accountLabel: acc.label,
-            email: acc.email,
-            password: acc.password,
-            gmail_app_password: acc.gmail_app_password || '',
-            city: platform === 'craigslist' ? clRegionSlug(acc) : '',
-            zip_code: platform === 'craigslist' ? getActiveLocationZip(acc) : '',
-            state: platform === 'craigslist' ? getActiveLocationState(acc) : '',
-            city_name: platform === 'craigslist' ? getActiveLocationCity(acc) : '',
-            subarea: platform === 'craigslist' ? getActiveLocationCity(acc) : '',
-            locationLabel: acc.locationLabel || acc.location || acc.city || (platform === 'craigslist' ? getActiveLocationCity(acc) : '') || 'Location not specified',
-            productIndices: selectedProductIndices,
-            status: 'pending',
-            startTime: null,
-            endTime: null,
-            estimatedSecs: estSec
+          const jobLocations = platform === 'classifiedads' && normalizedLocations.length ? normalizedLocations : [null];
+          jobLocations.forEach(location => {
+            const locationLabel = location?.label || acc.locationLabel || acc.location || acc.city || (platform === 'craigslist' ? getActiveLocationCity(acc) : '') || 'Location not specified';
+            queue.push({
+              index: jobIdx++,
+              platform: platform,
+              accountId: acc.id,
+              accountLabel: location ? `${acc.label} · ${locationLabel}` : acc.label,
+              email: acc.email,
+              password: acc.password,
+              gmail_app_password: acc.gmail_app_password || '',
+              city: platform === 'craigslist' ? clRegionSlug(acc) : '',
+              zip_code: location?.zip || (platform === 'craigslist' ? getActiveLocationZip(acc) : ''),
+              state: location?.state || (platform === 'craigslist' ? getActiveLocationState(acc) : ''),
+              city_name: location?.city || (platform === 'craigslist' ? getActiveLocationCity(acc) : ''),
+              subarea: location?.city || (platform === 'craigslist' ? getActiveLocationCity(acc) : ''),
+              locationLabel,
+              locations: location ? [location] : [],
+              productIndices: selectedProductIndices,
+              status: 'pending',
+              startTime: null,
+              endTime: null,
+              estimatedSecs: estSec
+            });
           });
         });
       });
       return queue;
+    }
+
+    function buildScheduledJobQueue(scheduleEntry, selectedAccounts) {
+      const keyToIndex = new Map((allProducts || []).map((product, index) => [`product-${product.id ?? index}`, index]));
+      const productIndices = (scheduleEntry?.adKeys || []).map(key => keyToIndex.get(key)).filter(index => Number.isInteger(index));
+      return buildJobQueue(selectedAccounts, productIndices, scheduleEntry?.locations || []);
     }
 
     function estimateJobTime(platform, numProducts, intervalMins) {
@@ -6796,12 +6817,14 @@
           source_url: product.source_url || product.sourceUrl || ''
         };
       });
+      const locations = normalizeScheduledLocations(job.locations);
       return {
         generated_at: new Date().toISOString(),
         platform: job.platform,
         destination: clientPlatformUrl(job.platform),
         account_label: job.accountLabel,
-        location: { city: job.city_name || '', state: job.state || '', zip: job.zip_code || '' },
+        location: locations[0] || { city: job.city_name || '', state: job.state || '', zip: job.zip_code || '' },
+        locations,
         products: items,
         instructions: 'Open the destination, sign in manually, and paste each prepared listing. This bundle does not automate third-party posting.'
       };
@@ -6839,7 +6862,7 @@
     }
 
     function renderClientListingPanel(job) {
-      const view = document.getElementById(`session-view-${job.platform}`);
+      const view = document.getElementById(`session-view-job-${job.index}`) || document.getElementById(`session-view-${job.platform}`);
       if (!view || !job?.handoff) return;
       const products = job.handoff.products || [];
       view.innerHTML = `<div class="session-listing-workflow">
@@ -7126,8 +7149,13 @@
       clearCaptchaRequired(job.index);
       if (job.platform === 'craigslist') job.craigslistFlow = createCraigslistDraftFlow(job, payload);
       persistClientCampaign();
-      openPlatformSessionPage(job.platform);
       if (!requirePlatformDestination(job.platform, 'listing handoff')) return;
+      if (job.platform === 'classifiedads' && job.locations?.length) {
+        ensureJobSessionWindow(job);
+        openJobSessionWindow(job.index);
+      } else {
+        openPlatformSessionPage(job.platform);
+      }
       renderClientListingPanel(job);
       if (job.platform === 'craigslist') renderCraigslistDraftFlowPanel(job);
       updateAllPlatformSessionProgress();
@@ -7385,6 +7413,53 @@
 
     function savePlatformSessionState() { localStorage.setItem('clblast_platform_sessions', JSON.stringify(platformSessionState)); }
 
+    function jobSessionMarkup(job) {
+      const platform = job.platform;
+      const state = platformSessionState[platform] || {};
+      const location = job.locations?.[0] || {};
+      const label = `${PLATFORM_SESSION_LABELS[platform] || platform} · ${job.locationLabel || [location.city, location.state, location.zip].filter(Boolean).join(', ') || 'Selected location'}`;
+      return `<section class="platform-session-window job-session-window" id="platform-session-job-${job.index}" data-platform="${escHtml(platform)}" data-job-index="${job.index}" role="dialog" aria-label="${escHtml(label)} browser session">
+        <div class="platform-session-titlebar"><span class="session-title">${escHtml(label)}</span><span class="session-state ${state.connected ? 'connected' : ''}">${state.connected ? 'Connected' : 'Session ready'}</span><button type="button" onclick="minimizeJobSessionWindow(${job.index})" title="Minimize">—</button><button type="button" onclick="closeJobSessionWindow(${job.index})" title="Close">×</button></div>
+        <div class="platform-session-body"><div class="platform-session-login"><div class="session-state">Shared ${escHtml(PLATFORM_SESSION_LABELS[platform] || platform)} connection</div><button type="button" class="session-open-page" onclick="openJobSessionPage(${job.index})">Open page</button><div class="session-state">Location: ${escHtml(location.city || '')}, ${escHtml(location.state || '')} ${escHtml(location.zip || '')}</div></div><div class="platform-session-view" id="session-view-job-${job.index}"><strong>Session ready.</strong></div></div>
+      </section>`;
+    }
+
+    function ensureJobSessionWindow(job) {
+      const dock = document.getElementById('platform-session-dock');
+      if (!dock || !job || !job.locations?.length) return;
+      if (!document.getElementById(`platform-session-job-${job.index}`)) dock.insertAdjacentHTML('beforeend', jobSessionMarkup(job));
+    }
+
+    function openJobSessionWindow(jobIndex) {
+      const job = jobQueue.find(item => item.index === jobIndex);
+      if (!job) return;
+      ensureJobSessionWindow(job);
+      const panel = document.getElementById(`platform-session-job-${job.index}`);
+      panel?.classList.add('open');
+      renderClientListingPanel(job);
+      panel?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    function minimizeJobSessionWindow(jobIndex) {
+      document.getElementById(`platform-session-job-${jobIndex}`)?.classList.remove('open');
+      persistClientCampaign();
+    }
+
+    function closeJobSessionWindow(jobIndex) {
+      document.getElementById(`platform-session-job-${jobIndex}`)?.classList.remove('open');
+      const job = jobQueue.find(item => item.index === jobIndex);
+      if (job) job.windowOpen = false;
+      persistClientCampaign();
+    }
+
+    function openJobSessionPage(jobIndex) {
+      const job = jobQueue.find(item => item.index === jobIndex);
+      if (!job) return;
+      if (!requirePlatformDestination(job.platform, 'location-specific browser session')) return;
+      openJobSessionWindow(jobIndex);
+      openMiniBrowser(clientPlatformUrl(job.platform));
+    }
+
     function platformSessionMarkup(platform) {
       const label = PLATFORM_SESSION_LABELS[platform];
       const state = platformSessionState[platform] || {};
@@ -7594,6 +7669,7 @@
       const reopen = document.getElementById('ad-window-tray-reopen');
       if (!tray || !grid || !meta) return;
       const jobs = activeAdWindowJobs();
+      jobs.filter(job => job.platform === 'classifiedads' && job.locations?.length).forEach(ensureJobSessionWindow);
       const signature = jobs.map(job => `${job.index}:${job.status}`).join('|');
       if (signature !== adWindowTrayLastSignature && jobs.length > 1) {
         adWindowTrayLastActivity = Date.now();
@@ -7621,7 +7697,7 @@
       meta.textContent = `${jobs.length} concurrent ad windows · ${adWindowTrayCollapsed ? 'collapsed after inactivity' : 'active'}`;
       const visibleJobs = adWindowTrayExpanded ? jobs : jobs.slice(0, 4);
       grid.classList.toggle('is-expanded', adWindowTrayExpanded);
-      grid.innerHTML = visibleJobs.map(job => `<button type="button" class="ad-window-tray-card" onclick="focusAdWindow(${job.index})"><span class="ad-window-tray-card-title">${escHtml(job.accountLabel || job.platform)}</span><span class="ad-window-tray-card-meta">${escHtml(job.platform)} · Job ${job.index + 1}</span><span class="ad-window-tray-card-state">${job.captchaRequired ? 'CAPTCHA required' : 'Running'}</span></button>`).join('');
+      grid.innerHTML = visibleJobs.map(job => `<button type="button" class="ad-window-tray-card" onclick="focusAdWindow(${job.index})"><span class="ad-window-tray-card-title">${escHtml(job.accountLabel || job.platform)}</span><span class="ad-window-tray-card-meta">${escHtml(job.platform)} · Job ${job.index + 1}${job.locationLabel ? ` · ${escHtml(job.locationLabel)}` : ''}</span><span class="ad-window-tray-card-state">${job.captchaRequired ? 'CAPTCHA required' : 'Running'}</span></button>`).join('');
       if (toggle) {
         toggle.hidden = jobs.length <= 4;
         toggle.textContent = adWindowTrayExpanded ? 'Show less' : `Show all (${jobs.length})`;
@@ -7634,8 +7710,14 @@
       touchAdWindowTray();
       const job = jobQueue.find(item => item.index === jobIndex);
       if (!job) return;
-      openPlatformSession(job.platform);
-      document.getElementById(`platform-session-${job.platform}`)?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      if (job.platform === 'classifiedads' && job.locations?.length) {
+        ensureJobSessionWindow(job);
+        openJobSessionWindow(job.index);
+        document.getElementById(`platform-session-job-${job.index}`)?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      } else {
+        openPlatformSession(job.platform);
+        document.getElementById(`platform-session-${job.platform}`)?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
     }
 
     function toggleAdWindowTrayExpanded() {
@@ -7648,7 +7730,7 @@
     }
 
     function minimizeAllAdWindows() {
-      activeAdWindowJobs().forEach(job => minimizePlatformSession(job.platform));
+      activeAdWindowJobs().forEach(job => job.platform === 'classifiedads' && job.locations?.length ? minimizeJobSessionWindow(job.index) : minimizePlatformSession(job.platform));
       touchAdWindowTray();
       showToast('All active ad windows minimized.', 'success');
     }
