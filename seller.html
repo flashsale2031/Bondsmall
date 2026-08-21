@@ -4420,6 +4420,7 @@
   <!-- Link products database file -->
   <script src="products.js"></script>
   <script src="classifiedads.js"></script>
+  <script src="marketplace.js"></script>
   <script>
     /* ═══════════════════════════════════════════════════════════
        CONSTANTS & STATE
@@ -6897,6 +6898,21 @@
             source_url: listing.source_url
           };
         }
+        if (job.platform === 'facebook_marketplace' && window.MarketplaceAdapter) {
+          const listing = window.MarketplaceAdapter.normalizeListing(product);
+          return {
+            id: listing.id,
+            sku: listing.sku,
+            name: listing.title,
+            description: listing.description,
+            category: listing.category,
+            retail_price: listing.price,
+            sale_price: listing.price,
+            image: listing.images[0] || '',
+            images: listing.images,
+            source_url: listing.source_url
+          };
+        }
         const images = Array.isArray(product.images) && product.images.length
           ? product.images
           : (Array.isArray(product.photo_paths) ? product.photo_paths : (product.image ? [product.image] : []));
@@ -7245,9 +7261,13 @@
       job.windowOpen = true;
       clearCaptchaRequired(job.index);
       if (job.platform === 'craigslist') job.craigslistFlow = createCraigslistDraftFlow(job, payload);
+      if (job.platform === 'facebook_marketplace' && window.MarketplaceAdapter && payload.products?.[0]) {
+        job.marketplaceFlow = window.MarketplaceAdapter.buildDraft(payload.products[0], payload.location || {});
+        window.MarketplaceAdapter.registerJob(job);
+      }
       persistClientCampaign();
       if (!requirePlatformDestination(job.platform, 'listing handoff')) return;
-      if (job.platform === 'classifiedads' && job.locations?.length) {
+      if (['classifiedads', 'facebook_marketplace'].includes(job.platform) && job.locations?.length) {
         ensureJobSessionWindow(job);
         openJobSessionWindow(job.index);
       } else {
@@ -7255,6 +7275,7 @@
       }
       renderClientListingPanel(job);
       if (job.platform === 'craigslist') renderCraigslistDraftFlowPanel(job);
+      if (job.platform === 'facebook_marketplace') window.MarketplaceAdapter?.renderMarketplaceFlowPanel(job);
       updateAllPlatformSessionProgress();
       renderAdWindowTray();
       appendLog(`[Client-only] ${job.platform} listing prepared for ${job.accountLabel}. Complete the listing in the connected popup and confirm it there.`, 'system');
