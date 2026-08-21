@@ -96,6 +96,48 @@
     };
   }
 
+  async function prepareImageUpload(root, productOrImages) {
+    const sources = Array.isArray(productOrImages)
+      ? productOrImages
+      : normalizeListing(productOrImages).images;
+    const match = firstMatch(root, SELECTORS.photos);
+    if (!match.element) return { prepared: false, selector: '', files: [], reason: 'No file input found.' };
+    if (!sources.length) return { prepared: false, selector: match.selector, files: [], reason: 'No image sources provided.' };
+    if (typeof File === 'undefined' || typeof DataTransfer === 'undefined') {
+      return { prepared: false, selector: match.selector, files: [], reason: 'Browser File/DataTransfer APIs unavailable.' };
+    }
+
+    const transfer = new DataTransfer();
+    const files = [];
+    for (let index = 0; index < sources.length; index += 1) {
+      const source = sources[index];
+      if (source instanceof File) {
+        transfer.items.add(source);
+        files.push({ name: source.name, size: source.size, type: source.type });
+        continue;
+      }
+      if (source instanceof Blob) {
+        const file = new File([source], `product-image-${index + 1}`, { type: source.type || 'image/jpeg' });
+        transfer.items.add(file);
+        files.push({ name: file.name, size: file.size, type: file.type });
+        continue;
+      }
+      if (typeof source !== 'string') continue;
+      const response = await fetch(source, { mode: 'cors', credentials: 'omit' });
+      if (!response.ok) throw new Error(`Image fetch failed (${response.status}) for source ${index + 1}.`);
+      const blob = await response.blob();
+      const extension = (blob.type.split('/')[1] || 'jpg').replace(/[^a-z0-9]/gi, '');
+      const file = new File([blob], `product-image-${index + 1}.${extension}`, { type: blob.type || 'image/jpeg' });
+      transfer.items.add(file);
+      files.push({ name: file.name, size: file.size, type: file.type });
+    }
+
+    match.element.files = transfer.files;
+    match.element.dispatchEvent(new Event('input', { bubbles: true }));
+    match.element.dispatchEvent(new Event('change', { bubbles: true }));
+    return { prepared: files.length > 0, selector: match.selector, files };
+  }
+
   function fillDraft(root, product) {
     const draft = normalizeListing(product);
     const fields = {
@@ -124,7 +166,7 @@
 
   global.ClassifiedAdsAdapter = Object.freeze({
     BASE_URL, POST_AD_URL, LOGIN_URL, CATEGORY_MAPPING, SELECTORS,
-    getCategory, normalizeListing, discoverControls, buildDraft, fillDraft,
+    getCategory, normalizeListing, discoverControls, buildDraft, fillDraft, prepareImageUpload,
     canPublish: () => false,
     publishNotice: 'Live Publish requires the user to review the form and explicitly submit it in the authenticated browser.'
   });
