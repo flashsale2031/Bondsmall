@@ -3132,6 +3132,7 @@
     .session-copy-btn, .session-posted-btn, .session-skip-btn { border:0; border-radius:5px; padding:4px 6px; cursor:pointer; font-size:.64rem; white-space:nowrap; }
     .session-copy-btn { background:#eee8df; color:var(--text); }
     .session-signout-btn { min-height:25px; padding:4px 6px; border:1px solid #d7a8a2; border-radius:5px; color:#8c2f39; background:#fff7f5; font-size:.7rem; cursor:pointer; }
+    .session-captcha-btn { background:#7f1d1d; color:#fff; border:1px solid #ef4444; border-radius:5px; padding:4px 6px; cursor:pointer; font-size:.64rem; white-space:nowrap; }
     .session-posted-btn { background:#1f7a46; color:#fff; }
     .session-skip-btn { background:#f3e3e1; color:#8c2f39; }
     .session-workflow-actions { display:flex; gap:5px; flex-wrap:wrap; }
@@ -3518,6 +3519,120 @@
       border-bottom-color: var(--accent);
     }
 
+    .captcha-notification-wrap {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+    }
+    #captcha-notification-button {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 42px;
+      height: 38px;
+      padding: 0 11px;
+      border: 1px solid var(--border2);
+      border-radius: var(--radius-md);
+      background: rgba(255,255,255,.04);
+      color: var(--text);
+      cursor: pointer;
+      font-size: 1.05rem;
+      transition: var(--transition-fast);
+    }
+    #captcha-notification-button:hover,
+    #captcha-notification-button:focus-visible,
+    #captcha-notification-button.has-alert {
+      border-color: #ef4444;
+      color: #fecaca;
+      background: rgba(239,68,68,.12);
+      outline: none;
+    }
+    #captcha-notification-badge {
+      position: absolute;
+      top: -8px;
+      right: -8px;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      width: 22px;
+      height: 22px;
+      border: 2px solid var(--bg1);
+      border-radius: 50%;
+      background: #ef4444;
+      color: #fff;
+      font-size: .68rem;
+      font-weight: 800;
+      line-height: 1;
+      box-shadow: 0 3px 12px rgba(239,68,68,.45);
+    }
+    #captcha-notification-badge.visible { display: inline-flex; }
+    #captcha-notification-popup {
+      position: fixed;
+      top: 76px;
+      right: 22px;
+      z-index: 9500;
+      display: none;
+      width: min(380px, calc(100vw - 32px));
+      max-height: min(70vh, 520px);
+      overflow: hidden;
+      flex-direction: column;
+      background: var(--bg2);
+      border: 1px solid rgba(239,68,68,.45);
+      border-radius: var(--radius-lg);
+      box-shadow: 0 18px 55px rgba(0,0,0,.45);
+    }
+    #captcha-notification-popup.open { display: flex; }
+    .captcha-notification-popup-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .captcha-notification-popup-header strong { color: #fecaca; }
+    .captcha-notification-close {
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      font-size: 1.05rem;
+      line-height: 1;
+    }
+    #captcha-notification-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      padding: 12px;
+      overflow-y: auto;
+    }
+    .captcha-notification-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      width: 100%;
+      padding: 11px 12px;
+      border: 1px solid rgba(239,68,68,.24);
+      border-radius: var(--radius-md);
+      background: rgba(239,68,68,.07);
+      color: var(--text);
+      text-align: left;
+      cursor: pointer;
+    }
+    .captcha-notification-item:hover,
+    .captcha-notification-item:focus-visible {
+      border-color: #ef4444;
+      background: rgba(239,68,68,.14);
+      outline: none;
+    }
+    .captcha-notification-item-copy { min-width: 0; }
+    .captcha-notification-item-title { display: block; font-weight: 700; font-size: .82rem; }
+    .captcha-notification-item-meta { display: block; margin-top: 3px; color: var(--muted); font-size: .72rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .captcha-notification-empty { padding: 16px; color: var(--muted); font-size: .8rem; text-align: center; }
+    .platform-session-window.captcha-required { border-color: rgba(239,68,68,.75); box-shadow: 0 0 0 2px rgba(239,68,68,.14), 0 16px 40px rgba(0,0,0,.35); }
+
     #toast-notification {
       position: fixed;
       bottom: 20px;
@@ -3586,9 +3701,22 @@
         <div class="si-dot"></div>
         <span id="server-indicator-text">Server</span>
       </div>
+      <div class="captcha-notification-wrap">
+        <button type="button" id="captcha-notification-button" aria-label="CAPTCHA notifications" aria-expanded="false" onclick="toggleCaptchaNotificationPopup()">
+          <span aria-hidden="true">⚠</span>
+          <span id="captcha-notification-badge" aria-live="polite">0</span>
+        </button>
+      </div>
     </div>
   </header>
 
+  <div id="captcha-notification-popup" role="dialog" aria-modal="false" aria-labelledby="captcha-notification-title">
+    <div class="captcha-notification-popup-header">
+      <strong id="captcha-notification-title">CAPTCHA required</strong>
+      <button type="button" class="captcha-notification-close" aria-label="Close CAPTCHA notifications" onclick="closeCaptchaNotificationPopup()">✕</button>
+    </div>
+    <div id="captcha-notification-list" aria-live="polite"></div>
+  </div>
   <!-- Categories Overlay -->
   <div id="categories-overlay" onclick="closeCategoriesPopup()"></div>
 
@@ -4183,6 +4311,89 @@
     let _sseSentCount = 0;       // lines already received from /post/stream (for dedup on reconnect)
     let isReconnecting = false;  // prevents overlapping SSE reconnect loops
     let clientCampaignState = JSON.parse(localStorage.getItem('clblast_client_campaign') || 'null');
+    let captchaRequiredJobs = new Set();
+
+    function getCaptchaRequiredJobs() {
+      return jobQueue.filter(job => captchaRequiredJobs.has(job.index) && job.status === 'running');
+    }
+
+    function renderCaptchaNotifications() {
+      const requiredJobs = getCaptchaRequiredJobs();
+      const button = document.getElementById('captcha-notification-button');
+      const badge = document.getElementById('captcha-notification-badge');
+      const list = document.getElementById('captcha-notification-list');
+      if (!button || !badge || !list) return;
+      const count = requiredJobs.length;
+      badge.textContent = String(count);
+      badge.classList.toggle('visible', count > 0);
+      button.classList.toggle('has-alert', count > 0);
+      button.setAttribute('aria-label', count > 0 ? `${count} posting window${count === 1 ? '' : 's'} need CAPTCHA input` : 'CAPTCHA notifications');
+      if (!count) {
+        list.innerHTML = '<div class="captcha-notification-empty">No posting windows currently need CAPTCHA input.</div>';
+        return;
+      }
+      list.innerHTML = requiredJobs.map(job => {
+        const label = _PLATFORM_LABELS?.[job.platform] || job.platform || 'Platform';
+        const account = job.accountLabel || job.accountId || 'Unassigned account';
+        return `<button type="button" class="captcha-notification-item" onclick="focusCaptchaPostingWindow(${Number(job.index)})">
+          <span class="captcha-notification-item-copy"><span class="captcha-notification-item-title">${escHtml(label)}</span><span class="captcha-notification-item-meta">${escHtml(account)} · CAPTCHA input required</span></span><span aria-hidden="true">›</span>
+        </button>`;
+      }).join('');
+    }
+
+    function setCaptchaRequired(jobIndex, required = true, reason = 'CAPTCHA input required') {
+      const job = jobQueue.find(item => item.index === jobIndex);
+      if (!job) return false;
+      job.captchaRequired = Boolean(required);
+      job.captchaRequiredReason = required ? reason : '';
+      if (required) captchaRequiredJobs.add(jobIndex); else captchaRequiredJobs.delete(jobIndex);
+      document.getElementById(`platform-session-${job.platform}`)?.classList.toggle('captcha-required', Boolean(required));
+      renderCaptchaNotifications();
+      persistClientCampaign();
+      return true;
+    }
+
+    function clearCaptchaRequired(jobIndex) {
+      return setCaptchaRequired(jobIndex, false);
+    }
+
+    function setPlatformCaptchaRequired(platform, required = true, reason = 'CAPTCHA input required') {
+      const jobs = jobQueue.filter(job => job.platform === platform && job.status === 'running');
+      jobs.forEach(job => setCaptchaRequired(job.index, required, reason));
+      return jobs.length;
+    }
+
+    function toggleCaptchaNotificationPopup() {
+      const popup = document.getElementById('captcha-notification-popup');
+      const button = document.getElementById('captcha-notification-button');
+      if (!popup || !button) return;
+      const open = !popup.classList.contains('open');
+      popup.classList.toggle('open', open);
+      button.setAttribute('aria-expanded', String(open));
+      if (open) renderCaptchaNotifications();
+    }
+
+    function closeCaptchaNotificationPopup() {
+      const popup = document.getElementById('captcha-notification-popup');
+      const button = document.getElementById('captcha-notification-button');
+      popup?.classList.remove('open');
+      button?.setAttribute('aria-expanded', 'false');
+    }
+
+    function focusCaptchaPostingWindow(jobIndex) {
+      const job = jobQueue.find(item => item.index === jobIndex);
+      if (!job) return;
+      closeCaptchaNotificationPopup();
+      openPlatformSession(job.platform);
+      requestAnimationFrame(() => document.getElementById(`platform-session-${job.platform}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' }));
+    }
+
+    window.SellerCaptchaNotifications = Object.freeze({ setRequired: setCaptchaRequired, clear: clearCaptchaRequired, setPlatformRequired: setPlatformCaptchaRequired, refresh: renderCaptchaNotifications });
+    document.addEventListener('click', event => {
+      const popup = document.getElementById('captcha-notification-popup');
+      const button = document.getElementById('captcha-notification-button');
+      if (popup?.classList.contains('open') && !popup.contains(event.target) && !button?.contains(event.target)) closeCaptchaNotificationPopup();
+    });
 
     /* ═══════════════════════════════════════════════════════════
        SERVER HEALTH CHECK
@@ -6357,10 +6568,13 @@
           startTime: job.startTime,
           endTime: job.endTime,
           productIndices: job.productIndices,
-          handoff: job.handoff || null
+          handoff: job.handoff || null,
+          captchaRequired: Boolean(job.captchaRequired),
+          captchaRequiredReason: job.captchaRequiredReason || ''
         }))
       };
       localStorage.setItem('clblast_client_campaign', JSON.stringify(clientCampaignState));
+      renderCaptchaNotifications();
     }
 
     function renderClientListingPanel(job) {
@@ -6369,13 +6583,13 @@
       const products = job.handoff.products || [];
       view.innerHTML = `<div class="session-listing-workflow">
         <div class="session-workflow-title">Listing ${job.index + 1} · ${escHtml(job.accountLabel || job.platform)}</div>
-        <div class="session-workflow-note">The authenticated platform page is open. Use the prepared listing details below, submit the listing there, then confirm it here.</div>
+        <div class="session-workflow-note">The authenticated platform page is open. Use the prepared listing details below, submit the listing there, then confirm it here. If the platform displays a CAPTCHA, report it to the header notification control.</div>
         ${products.map((product, productIndex) => `<article class="session-listing-card">
           <div class="session-listing-card-head"><strong>${escHtml(product.name || 'Untitled product')}</strong><button type="button" class="session-copy-btn" onclick="copyClientListing(${job.index}, ${productIndex})">Copy listing</button></div>
           <div class="session-listing-meta">Sale $${Number(product.sale_price ?? 0).toFixed(2)} · ${escHtml(product.category || '')}</div>
           <textarea id="session-listing-${job.index}-${productIndex}" readonly>${escHtml(JSON.stringify({ title: product.name || '', description: product.description || '', price: product.sale_price ?? product.retail_price ?? '', images: product.images || [product.image || ''], source_url: product.source_url || '' }, null, 2))}</textarea>
         </article>`).join('')}
-        <div class="session-workflow-actions"><button type="button" class="session-posted-btn" onclick="markClientJobPosted(${job.index})">✓ Mark listing posted</button><button type="button" class="session-skip-btn" onclick="markClientJobSkipped(${job.index})">Skip / failed</button></div>
+        <div class="session-workflow-actions"><button type="button" class="session-captcha-btn" onclick="setCaptchaRequired(${job.index}, true)">⚠ CAPTCHA needed</button><button type="button" class="session-posted-btn" onclick="markClientJobPosted(${job.index})">✓ Mark listing posted</button><button type="button" class="session-skip-btn" onclick="markClientJobSkipped(${job.index})">Skip / failed</button></div>
       </div>`;
     }
 
@@ -6392,6 +6606,7 @@
       const job = jobQueue.find(item => item.index === jobIndex);
       if (!job || job.status !== 'running') return;
       if (!requirePlatformDestination(job.platform, 'listing confirmation')) return;
+      clearCaptchaRequired(jobIndex);
       job.status = 'done';
       job.endTime = Date.now();
       if (jobTimerInterval) { clearInterval(jobTimerInterval); jobTimerInterval = null; }
@@ -6406,6 +6621,7 @@
       const job = jobQueue.find(item => item.index === jobIndex);
       if (!job || job.status !== 'running') return;
       if (!requirePlatformDestination(job.platform, 'listing status update')) return;
+      clearCaptchaRequired(jobIndex);
       job.status = 'error';
       job.endTime = Date.now();
       if (jobTimerInterval) { clearInterval(jobTimerInterval); jobTimerInterval = null; }
@@ -6641,6 +6857,7 @@
     function runClientOnlyHandoff(job) {
       const payload = buildClientHandoffPayload(job);
       job.handoff = payload;
+      clearCaptchaRequired(job.index);
       if (job.platform === 'craigslist') job.craigslistFlow = createCraigslistDraftFlow(job, payload);
       persistClientCampaign();
       openPlatformSessionPage(job.platform);
@@ -7083,8 +7300,8 @@
       updateAllPlatformSessionProgress();
     }
 
-    renderPlatformSessions();
-
+        renderPlatformSessions();
+    renderCaptchaNotifications();
     let miniBrowserHistory = [];
     let miniBrowserHistoryIndex = -1;
 
