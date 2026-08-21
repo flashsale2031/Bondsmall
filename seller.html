@@ -6407,10 +6407,11 @@
         '.draft a[href]'
       ],
       publishButtonCandidates: [
-        'button[type="submit"]',
-        'input[type="submit"]',
+        'input[value*="Publish" i]',
         'button[name="publish"]',
-        '[data-testid="publish"]'
+        '[data-testid="publish"]',
+        'button[type="submit"]',
+        'input[type="submit"]'
       ]
     });
 
@@ -6468,12 +6469,26 @@
       };
     }
 
-    function findCraigslistDraftLink(root = document) {
-      return [...root.querySelectorAll('a[href]')].find(a => /draft|incomplete/i.test(`${a.href} ${(a.textContent || '').trim()}`)) || null;
+    function queryCraigslistSelector(root, selectors) {
+      for (const selector of selectors || []) {
+        try {
+          const element = root.querySelector(selector);
+          if (element) return { element, selector };
+        } catch (error) {
+          appendLog(`[Craigslist] Invalid configured selector ignored: ${selector}`, 'warn');
+        }
+      }
+      return { element: null, selector: '' };
     }
 
-    function findCraigslistPublishButton(root = document) {
-      return [...root.querySelectorAll('button, input[type="submit"], input[type="button"]')].find(button => /publish|post/i.test(`${button.textContent || ''} ${button.value || ''} ${button.getAttribute('aria-label') || ''} ${button.name || ''}`)) || null;
+    function findCraigslistDraftLink(root = document, configuredSelector = '') {
+      const selectors = configuredSelector ? [configuredSelector] : CRAIGSLIST_DRAFT_FLOW.draftLinkCandidates;
+      return queryCraigslistSelector(root, selectors);
+    }
+
+    function findCraigslistPublishButton(root = document, configuredSelector = '') {
+      const selectors = configuredSelector ? [configuredSelector] : CRAIGSLIST_DRAFT_FLOW.publishButtonCandidates;
+      return queryCraigslistSelector(root, selectors);
     }
 
     function updateCraigslistFlowStep(job, phase, message) {
@@ -6507,19 +6522,21 @@
         await adapter.navigate(flow.draftsUrl);
         await waitForCraigslistLoad(adapter);
         const root = typeof adapter.getDocument === 'function' ? adapter.getDocument() : document;
-        const draftLink = findCraigslistDraftLink(root);
-        if (!draftLink) throw new Error('No Craigslist draft listing hyperlink was found.');
+        const draftMatch = findCraigslistDraftLink(root, flow.draftSelector);
+        const draftLink = draftMatch.element;
+        if (!draftLink) throw new Error(`No Craigslist draft listing matched the configured CSS selectors: ${CRAIGSLIST_DRAFT_FLOW.draftLinkCandidates.join(', ')}`);
         flow.draftHref = draftLink.href || draftLink.getAttribute('href') || '';
-        flow.draftSelector = cssSelectorForElement(draftLink);
+        flow.draftSelector = draftMatch.selector;
         flow.selectorResults = discoverCraigslistSelectors(root);
         updateCraigslistFlowStep(job, 'draft-selected', 'Draft listing found; opening the drafted ad.');
         if (typeof adapter.click === 'function') await adapter.click(draftLink);
         else if (typeof adapter.navigate === 'function') await adapter.navigate(flow.draftHref);
         await waitForCraigslistLoad(adapter);
         const draftRoot = typeof adapter.getDocument === 'function' ? adapter.getDocument() : document;
-        const publishButton = findCraigslistPublishButton(draftRoot);
-        if (!publishButton) throw new Error('No Craigslist Publish button was found on the draft page.');
-        flow.publishSelector = cssSelectorForElement(publishButton);
+        const publishMatch = findCraigslistPublishButton(draftRoot, flow.publishSelector);
+        const publishButton = publishMatch.element;
+        if (!publishButton) throw new Error(`No Craigslist Publish control matched the configured CSS selectors: ${CRAIGSLIST_DRAFT_FLOW.publishButtonCandidates.join(', ')}`);
+        flow.publishSelector = publishMatch.selector;
         flow.selectorResults = discoverCraigslistSelectors(draftRoot);
         updateCraigslistFlowStep(job, 'awaiting-publish-confirmation', 'Publish control found; waiting for confirmation before submission.');
         return { status: 'ready-to-publish', flow };
@@ -6535,8 +6552,9 @@
       if (!approved) { updateCraigslistFlowStep(job, 'awaiting-publish-confirmation', 'Publish paused; no Craigslist submission was made.'); return { status: 'cancelled' }; }
       try {
         const root = typeof adapter?.getDocument === 'function' ? adapter.getDocument() : document;
-        const publishButton = root.querySelector(job.craigslistFlow.publishSelector) || findCraigslistPublishButton(root);
-        if (!publishButton) throw new Error('The previously discovered Publish button is no longer available.');
+        const publishMatch = findCraigslistPublishButton(root, job.craigslistFlow.publishSelector);
+        const publishButton = publishMatch.element;
+        if (!publishButton) throw new Error('The previously discovered Publish selector no longer matches a control.');
         updateCraigslistFlowStep(job, 'publishing', 'Submitting the confirmed Publish action.');
         if (typeof adapter?.click !== 'function') throw new Error('An authenticated browser adapter is required for Publish.');
         await adapter.click(publishButton);
