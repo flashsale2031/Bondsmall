@@ -4877,7 +4877,7 @@
       const list = document.getElementById('schedule-location-state-list');
       if (!list) return;
       const selected = new Set(selectedIds);
-      const states = [...new Set(SCHEDULE_LOCATIONS.map(location => location.state))];
+      const states = [...new Set(SCHEDULE_LOCATIONS.map(location => location.state))].sort((a, b) => a.localeCompare(b));
       list.innerHTML = states.map(state => {
         const locations = SCHEDULE_LOCATIONS.filter(location => location.state === state);
         return `<section class="schedule-location-state"><div class="schedule-location-state-heading">${escHtml(state)}</div><div class="schedule-location-city-list">${locations.map(location => `<label class="schedule-location-option ${selected.has(location.id) ? 'is-selected' : ''}"><input type="checkbox" name="schedule-location" value="${escHtml(location.id)}" ${selected.has(location.id) ? 'checked' : ''}><span class="schedule-location-copy"><span class="schedule-location-city">${escHtml(location.city)}</span><span class="schedule-location-zip">${escHtml(Array.isArray(location.zipCodes) ? location.zipCodes.join(', ') : location.zip)}</span><span class="schedule-location-state-name">${escHtml(location.state)}</span></span></label>`).join('')}</div></section>`;
