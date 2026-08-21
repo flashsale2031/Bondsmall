@@ -1315,10 +1315,13 @@
     .schedule-location-state[open] summary { border-bottom:1px solid var(--border); color:var(--accent); }
     .schedule-location-city-list { display:grid; gap:4px; padding:6px; }
     .schedule-location-option { display:flex; align-items:center; gap:8px; padding:7px 8px; border-radius:6px; color:var(--text2); font-size:.7rem; cursor:pointer; }
+    #schedule-form .schedule-location-option { display:grid !important; grid-template-columns:auto minmax(0, 1fr) !important; align-items:center; gap:8px; min-width:0; }
     .schedule-location-option:hover, .schedule-location-option.is-selected { background:var(--glass2); color:var(--text); }
     .schedule-location-option input { width:auto !important; margin:0; accent-color:var(--accent); }
-    .schedule-location-city { font-weight:700; }
-    .schedule-location-zip { color:var(--muted); }
+    .schedule-location-copy { display:grid; grid-template-columns:minmax(0, 1fr) auto; align-items:baseline; gap:2px 8px; min-width:0; color:var(--text); }
+    .schedule-location-city { min-width:0; overflow-wrap:anywhere; font-weight:700; }
+    .schedule-location-state-name { min-width:0; overflow-wrap:anywhere; color:var(--text2); font-size:.66rem; font-weight:600; }
+    .schedule-location-zip { white-space:nowrap; color:var(--muted); font-variant-numeric:tabular-nums; }
     .schedule-location-empty { padding:12px 8px; color:var(--text2); font-size:.72rem; text-align:center; }
     .schedule-dialog-actions { display:flex; justify-content:flex-end; gap:8px; margin-top:4px; }
 
@@ -4812,9 +4815,9 @@
       if (!list) return;
       const selected = new Set(selectedIds);
       const states = [...new Set(SCHEDULE_LOCATIONS.map(location => location.state))];
-      list.innerHTML = states.map(state => {
+      list.innerHTML = states.map((state, stateIndex) => {
         const locations = SCHEDULE_LOCATIONS.filter(location => location.state === state);
-        return `<details class="schedule-location-state"><summary>${escHtml(state)}</summary><div class="schedule-location-city-list">${locations.map(location => `<label class="schedule-location-option ${selected.has(location.id) ? 'is-selected' : ''}"><input type="checkbox" name="schedule-location" value="${escHtml(location.id)}" ${selected.has(location.id) ? 'checked' : ''}><span class="schedule-location-city">${escHtml(location.city)}</span><span class="schedule-location-zip">${escHtml(location.zip)}</span></label>`).join('')}</div></details>`;
+        return `<details class="schedule-location-state" ${stateIndex === 0 ? 'open' : ''}><summary>${escHtml(state)}</summary><div class="schedule-location-city-list">${locations.map(location => `<label class="schedule-location-option ${selected.has(location.id) ? 'is-selected' : ''}"><input type="checkbox" name="schedule-location" value="${escHtml(location.id)}" ${selected.has(location.id) ? 'checked' : ''}><span class="schedule-location-copy"><span class="schedule-location-city">${escHtml(location.city)}</span><span class="schedule-location-zip">${escHtml(location.zip)}</span><span class="schedule-location-state-name">${escHtml(location.state)}</span></span></label>`).join('')}</div></details>`;
       }).join('') || '<div class="schedule-location-empty">No locations configured.</div>';
       updateScheduleLocationUI();
     }
