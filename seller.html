@@ -4568,19 +4568,25 @@
       return true;
     }
 
-    function submitCaptchaFromNotification(jobIndex) {
+    async function submitCaptchaFromNotification(jobIndex) {
       const job = jobQueue.find(item => item.index === jobIndex);
       const input = document.getElementById(`captcha-input-${Number(jobIndex)}`);
       const value = input?.value?.trim() || '';
       if (!job || !value) { showToast('Enter the CAPTCHA text first.', 'error'); input?.focus(); return false; }
       const detail = { jobIndex: job.index, platform: job.platform, accountId: job.accountId, value };
       const handler = captchaInputHandlers.get(Number(job.index));
-      if (handler) handler(detail);
-      document.dispatchEvent(new CustomEvent('seller:captcha-input', { detail }));
-      input.value = '';
-      input.placeholder = 'Sent · enter again if needed';
-      showToast(`CAPTCHA sent to ${job.accountLabel || job.platform}.`, 'success');
-      return true;
+      try {
+        if (handler) await handler(detail);
+        document.dispatchEvent(new CustomEvent('seller:captcha-input', { detail }));
+        input.value = '';
+        input.placeholder = 'Sent · flow continuing';
+        showToast(`CAPTCHA sent to ${job.accountLabel || job.platform}; continuing the post flow.`, 'success');
+        return true;
+      } catch (error) {
+        input.placeholder = 'Retry CAPTCHA';
+        showToast(`CAPTCHA was not accepted: ${error?.message || 'posting flow could not continue'}`, 'error');
+        return false;
+      }
     }
 
     function setCaptchaRequired(jobIndex, required = true, reason = 'CAPTCHA input required') {
@@ -4597,6 +4603,36 @@
 
     function clearCaptchaRequired(jobIndex) {
       return setCaptchaRequired(jobIndex, false);
+    }
+
+    async function resumeClientPostFlowAfterCaptcha(jobIndex, detail) {
+      const job = jobQueue.find(item => item.index === Number(jobIndex));
+      if (!job || job.status !== 'running') throw new Error('Posting window is no longer active.');
+      if (typeof job.captchaInputTarget === 'function') {
+        await job.captchaInputTarget(detail.value);
+      } else if (job.formRoot && job.platform === 'classifiedads' && window.ClassifiedAdsAdapter) {
+        const product = allProducts[job.productIndices?.[0]];
+        if (!product) throw new Error('Product data is unavailable for this posting window.');
+        const contact = job.runtimeContact || {};
+        if (!contact.email || !contact.phone) throw new Error('Complete the runtime contact fields in the posting window first.');
+        await window.ClassifiedAdsAdapter.runGuestPostFlow({
+          root: job.formRoot,
+          product,
+          location: job.locations?.[0] || {},
+          contact,
+          captcha: detail.value,
+          prepareImages: false,
+          confirmPublish: false
+        });
+      }
+      clearCaptchaRequired(job.index);
+      job.captchaSubmittedAt = Date.now();
+      job.captchaFlowStatus = 'ready-for-explicit-confirmation';
+      persistClientCampaign();
+      renderClientListingPanel(job);
+      renderAdWindowTray();
+      appendLog(`[Client-only] CAPTCHA accepted for ${job.platform} / ${job.accountLabel}; posting flow continued to the explicit-confirmation step.`, 'system');
+      return { status: 'ready-for-explicit-confirmation', jobIndex: job.index };
     }
 
     function setPlatformCaptchaRequired(platform, required = true, reason = 'CAPTCHA input required') {
@@ -7438,6 +7474,7 @@
       const payload = buildClientHandoffPayload(job);
       job.handoff = payload;
       job.windowOpen = true;
+      registerCaptchaInputHandler(job.index, detail => resumeClientPostFlowAfterCaptcha(job.index, detail));
       clearCaptchaRequired(job.index);
       if (job.platform === 'craigslist') job.craigslistFlow = createCraigslistDraftFlow(job, payload);
       if (job.platform === 'facebook_marketplace' && window.MarketplaceAdapter && payload.products?.[0]) {
