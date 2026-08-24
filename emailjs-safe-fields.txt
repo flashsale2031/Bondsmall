@@ -1,0 +1,27 @@
+EmailJS safe fields:
+order_id
+customer_full_name
+customer_email
+customer_phone
+shipping_address_formatted
+order_items_detailed
+order_subtotal
+order_tax_amount
+order_final_total
+payment_method_type
+payment_card_type
+card_last4
+payment_reference
+payment_status
+order_status
+
+Forbidden in EmailJS:
+card_number / PAN
+card_cvv / CVV
+card_expiry
+Visa username/password
+Visa certificate/private key
+MLE key ID/shared secret
+session/access tokens
+bank account credentials
+SSN or identity documents
