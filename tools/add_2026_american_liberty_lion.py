@@ -25,8 +25,9 @@ product = {
     'id': 102,
     'name': 'United States 2026 American Liberty Lion 1 OZ Gold $1,000 Coin',
     'category': 'artandcollectibles',
-    'retail price': 1000.00,
-    'sale price': 1000.00,
+    'retail price': 6999.99,
+    'sale price': 5499.99,
+    'pre-owned price': 3999.99,
     'image': relative_images[0],
     'description': (
         'A new addition to the United States Mint American Liberty gold coin collection, '
