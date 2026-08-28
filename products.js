@@ -4289,7 +4289,7 @@ var products = [
     "gender": "Unisex"
   },
 {
-  "id": 156,
+  "id": 102,
   "name": "United States 2026 American Liberty Lion 1 OZ Gold $1,000 Coin",
   "category": "artandcollectibles",
   "retail price": 1000.0,

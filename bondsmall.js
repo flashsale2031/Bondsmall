@@ -602,11 +602,11 @@
             .catch(() => { if (token === categoryRenderToken) renderProducts(); });
     }
 
-        // Products 1–156 are authoritative records loaded by products.js. The lazy
+        // Products 1–155 are authoritative records loaded by products.js. The lazy
     // loader may replace the shared window.products array for each page, so build
     // the render source explicitly: authoritative IDs first, then only records
     // above the boundary from the active lazy chunk.
-    const PRODUCTS_JS_MAX_ID = 156;
+    const PRODUCTS_JS_MAX_ID = 155;
 
     function getProductsJsRecords() {
         const authorityRecords = window.BondsmallCatalogAuthority && Array.isArray(window.BondsmallCatalogAuthority.records)

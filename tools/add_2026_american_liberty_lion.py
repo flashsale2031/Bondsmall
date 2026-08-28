@@ -22,7 +22,7 @@ for name in source_names:
 
 relative_images = [f'assets/american-liberty-lion-gold-2026/{name}' for name in source_names]
 product = {
-    'id': 156,
+    'id': 102,
     'name': 'United States 2026 American Liberty Lion 1 OZ Gold $1,000 Coin',
     'category': 'artandcollectibles',
     'retail price': 1000.00,
@@ -56,7 +56,7 @@ product = {
 
 products_path = ROOT / 'products.js'
 text = products_path.read_text()
-if '"id": 156' not in text:
+if '"id": 102' not in text:
     insertion = json.dumps(product, indent=2, ensure_ascii=False)
     marker = '\n];\n'
     if marker not in text:
@@ -84,7 +84,7 @@ if old not in loader_text:
     raise RuntimeError('catalog-loader category block not found')
 loader_path.write_text(loader_text.replace(old, new, 1))
 
-print('Added product 156 and copied images in order:', relative_images)
+print('Added product 102 and copied images in order:', relative_images)
 print('Updated Art & Collectibles count to 4872 and category loader fallback.')
 print('Product JSON:', json.dumps(product, indent=2, ensure_ascii=False))
 print('Changed files: products.js, catalog-category-index.js, catalog-loader.js, assets/american-liberty-lion-gold-2026/*')
