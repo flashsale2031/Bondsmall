@@ -111,6 +111,17 @@
       const chunkRecords = await fetchPage(chunkIndex);
       state.records.push(...chunkRecords.filter(product => normalizeCategory(product.category) === key));
     }
+    // Include newly added authoritative records that are not yet present in the
+    // generated lazy chunks, while avoiding duplicate IDs already in the chunk data.
+    if (state.scanned >= chunkList.length && authority.records.length) {
+      const knownIds = new Set(state.records.map(product => Number(product && product.id)));
+      for (const product of authority.records) {
+        if (normalizeCategory(product.category) === key && !knownIds.has(Number(product.id))) {
+          state.records.push(product);
+          knownIds.add(Number(product.id));
+        }
+      }
+    }
     const start = (pageNumber - 1) * perPage;
     const records = state.records.slice(start, start + perPage);
     setTarget(records);

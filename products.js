@@ -4287,5 +4287,36 @@ var products = [
     "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex"
-  }
+  },
+{
+  "id": 156,
+  "name": "United States 2026 American Liberty Lion 1 OZ Gold $1,000 Coin",
+  "category": "artandcollectibles",
+  "retail price": 1000.0,
+  "sale price": 1000.0,
+  "image": "assets/american-liberty-lion-gold-2026/obverse_full_field_lion_high_relief.png",
+  "description": "A new addition to the United States Mint American Liberty gold coin collection, the 2026 American Liberty Lion Gold $1,000 Coin presents a dramatic high-relief lion design with a finely detailed reverse inspired by American founding ideals. Struck in a high-grade concentration of .9999 fine gold, the coin contains one troy ounce of fine gold and is presented as a distinguished collectible for serious numismatists and precious-metal collectors.",
+  "images": [
+    "assets/american-liberty-lion-gold-2026/obverse_full_field_lion_high_relief.png",
+    "assets/american-liberty-lion-gold-2026/coin_60_degrees_right.png",
+    "assets/american-liberty-lion-gold-2026/coin_60_degrees_left.png",
+    "assets/american-liberty-lion-gold-2026/reverse_high_relief_small_mintmarks.png"
+  ],
+  "specifications": {
+    "brand": "American Liberty",
+    "material": "24K Gold",
+    "weight": "1.000 troy oz fine gold",
+    "purity": ".9999 Fine Gold",
+    "face_value": "$1,000",
+    "year": "2026",
+    "mint_mark": "W",
+    "finish": "High-relief collector design",
+    "country_of_mint": "United States",
+    "product_type": "Gold Coin"
+  },
+  "productType": "Coin",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Unisex"
+}
 ];
