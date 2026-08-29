@@ -4301,7 +4301,16 @@ var products = [
     "assets/american-liberty-lion-gold-2026/obverse_full_field_lion_high_relief.png",
     "assets/american-liberty-lion-gold-2026/coin_60_degrees_right.png",
     "assets/american-liberty-lion-gold-2026/coin_60_degrees_left.png",
-    "assets/american-liberty-lion-gold-2026/reverse_high_relief_small_mintmarks.png"
+    "assets/american-liberty-lion-gold-2026/reverse_high_relief_small_mintmarks.png",
+    "assets/american-liberty-lion-gold-2026/coin_in_american_lion_case_complete_rim.webp"
+  ],
+  "preOwnedImage": "assets/american-liberty-lion-gold-2026/preowned_coin_in_pcgs_holder.webp",
+  "preOwnedImages": [
+    "assets/american-liberty-lion-gold-2026/preowned_coin_in_pcgs_holder.webp",
+    "assets/american-liberty-lion-gold-2026/coin_60_degrees_right.png",
+    "assets/american-liberty-lion-gold-2026/coin_60_degrees_left.png",
+    "assets/american-liberty-lion-gold-2026/reverse_high_relief_small_mintmarks.png",
+    "assets/american-liberty-lion-gold-2026/preowned_coin_reverse_pcgs_holder.webp"
   ],
   "specifications": {
     "brand": "American Liberty",

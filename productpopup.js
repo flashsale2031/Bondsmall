@@ -73,6 +73,36 @@ function enrichForPopup(product) {
     };
 }
 
+function normalizedCondition(value) {
+    return String(value || "New").trim().toLowerCase() === "used" ||
+        String(value || "New").trim().toLowerCase() === "pre-owned"
+        ? "Pre-Owned"
+        : "New";
+}
+
+function productForCondition(product, condition) {
+    const selectedCondition = normalizedCondition(condition);
+    const preOwned = selectedCondition === "Pre-Owned";
+    const configuredImages = preOwned && Array.isArray(product.preOwnedImages)
+        ? product.preOwnedImages
+        : (Array.isArray(product.images) ? product.images : (product.image ? [product.image] : []));
+    const sourceImages = configuredImages.filter(Boolean);
+    const mainImage = preOwned
+        ? (product.preOwnedImage || sourceImages[0] || product.image || "")
+        : (product.image || sourceImages[0] || "");
+    const images = [mainImage, ...sourceImages.filter((image) => image !== mainImage)].filter(Boolean);
+
+    return {
+        ...product,
+        image: mainImage,
+        images,
+        specifications: {
+            ...(product.specifications || {}),
+            condition: selectedCondition
+        }
+    };
+}
+
 function getReviewStorageKey(productId) {
     return productId ? `bm_reviews_${productId}` : "";
 }
@@ -438,25 +468,35 @@ function initCondition(product) {
     const existing = conditionSection.querySelector(".condition-chips");
     if (existing) existing.remove();
 
-    const basePrice = product.salePrice || product.price || 0;
-    const conditionValueRaw =
-        (product.specifications && product.specifications.condition) || "New";
-    const conditionValue = conditionValueRaw === "Pre-Owned" ? "Used" : conditionValueRaw;
+    const basePrice = product.salePrice || product.price || product["sale price"] || 0;
+    const conditionValue = normalizedCondition(
+        product.specifications && product.specifications.condition
+    );
+    if (conditionSelect) conditionSelect.value = conditionValue;
 
-    const options = ["New", "Used"];
+    const options = ["New", "Pre-Owned"];
 
     // Helper: update the displayed sale price based on chosen condition
     function applyConditionPrice(opt) {
         if (!saleEl) return;
-        if (opt === "Used" || opt === "Pre-Owned") {
-            const override = usedConditionPrice(product);
-            const discounted = override ?? Math.round(basePrice * 0.8 * 100) / 100;
+        if (normalizedCondition(opt) === "Pre-Owned") {
+            const override = usedConditionPrice(product) ?? Number(product["pre-owned price"] || product.preOwnedPrice);
+            const discounted = Number.isFinite(override) && override > 0
+                ? override
+                : Math.round(basePrice * 0.8 * 100) / 100;
             saleEl.textContent = formatPopupMoney(discounted);
-            saleEl.title = override !== null ? "Used condition price" : "20% Used discount applied";
+            saleEl.title = Number.isFinite(override) && override > 0
+                ? "Pre-Owned condition price"
+                : "20% Pre-Owned discount applied";
         } else {
             saleEl.textContent = formatPopupMoney(basePrice);
             saleEl.title = "";
         }
+    }
+
+    function applyConditionGallery(opt) {
+        const conditionProduct = productForCondition(product, opt);
+        populatePhotos(enrichForPopup(conditionProduct));
     }
 
     const chipGroup = document.createElement("div");
@@ -479,8 +519,10 @@ function initCondition(product) {
             });
             chip.classList.add("active");
             chip.setAttribute("aria-checked", "true");
-            if (conditionSelect) conditionSelect.value = opt;
-            applyConditionPrice(opt);
+            const selectedCondition = normalizedCondition(opt);
+            if (conditionSelect) conditionSelect.value = selectedCondition;
+            applyConditionPrice(selectedCondition);
+            applyConditionGallery(selectedCondition);
         });
 
         chipGroup.appendChild(chip);
@@ -895,7 +937,10 @@ window.populateProductPopup = function populateProductPopup(product, opts) {
     const categoryLabels = (opts && opts.categoryLabels) || {};
     ensureDelegatedListeners();
 
-    const enriched = enrichForPopup(product);
+    const initialCondition = normalizedCondition(
+        product.specifications && product.specifications.condition
+    );
+    const enriched = enrichForPopup(productForCondition(product, initialCondition));
     activeReviewProductId = enriched.id || product.id || "";
 
     const qty = document.getElementById("quantity");

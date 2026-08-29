@@ -962,7 +962,12 @@
     }
 
     function addToCart(productId, addQty = 1, condition = "") {
-        const product = products.find((item) => item.id === Number(productId));
+        const numericProductId = Number(productId);
+        const product = getProductsJsRecords().find((item) => Number(item.id) === numericProductId)
+            || getChunkRecords().find((item) => Number(item.id) === numericProductId)
+            || (Array.isArray(window.products)
+                ? window.products.find((item) => Number(item.id) === numericProductId)
+                : null);
         if (!product) {
             return;
         }
@@ -974,7 +979,9 @@
         const finalCondition = selectedCondition === "Used" ? "Pre-Owned" : selectedCondition;
 
         // Used/Pre-Owned items use the condition-specific price, not the New/sale price.
-        const unitPrice = finalCondition === "Pre-Owned" ? getPreOwnedPrice(product) : product.price;
+        const unitPrice = finalCondition === "Pre-Owned"
+            ? getPreOwnedPrice(product)
+            : Number(product.price ?? product["sale price"] ?? product.salePrice ?? 0);
 
         const existing = cart.find((item) => item.id === product.id && (item.condition || "New") === finalCondition);
         if (existing) {
@@ -1566,20 +1573,6 @@
             });
         }
 
-        if (modalAddBtn) {
-            modalAddBtn.addEventListener("click", () => {
-                if (activeModalProductId) {
-                    const qtyEl = document.getElementById("quantity");
-                    const rawQty = qtyEl ? Number(qtyEl.value) : 1;
-                    const qty = Number.isFinite(rawQty) ? rawQty : 1;
-                    const conditionEl = document.getElementById("condition-select");
-                    const condition = conditionEl ? conditionEl.value : "New";
-                    addToCart(activeModalProductId, qty, condition);
-                }
-                closeProductModal();
-            });
-        }
-
         if (modalClose) modalClose.addEventListener("click", closeProductModal);
         if (popupBackBtn) popupBackBtn.addEventListener("click", closeProductModal);
 
@@ -1659,6 +1652,23 @@
             if (catSection) catSection.scrollIntoView({ behavior: "smooth", block: "start" });
         });
     }
+
+    // The modal body is populated asynchronously, so bind Add to Cart at the document
+    // level instead of capturing the button before the popup has finished rendering.
+    document.addEventListener("click", (event) => {
+        const addButton = event.target.closest("#modal-add-btn");
+        if (!addButton) return;
+
+        if (activeModalProductId) {
+            const qtyEl = document.getElementById("quantity");
+            const rawQty = qtyEl ? Number(qtyEl.value) : 1;
+            const qty = Number.isFinite(rawQty) ? rawQty : 1;
+            const conditionEl = document.getElementById("condition-select");
+            const condition = conditionEl ? conditionEl.value : "New";
+            addToCart(activeModalProductId, qty, condition);
+        }
+        closeProductModal();
+    });
 
     // Compatibility hook retained for callers that previously normalized products.
     // Authoritative products.js records are immutable from the storefront layer;
