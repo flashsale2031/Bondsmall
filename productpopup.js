@@ -677,14 +677,20 @@ function renderSimilarCarouselSlice() {
 }
 
 function initSimilarProducts(enrichedProduct) {
-    if (typeof products === "undefined") return;
+    const authorityRecords = window.BondsmallCatalogAuthority && Array.isArray(window.BondsmallCatalogAuthority.records)
+        ? window.BondsmallCatalogAuthority.records
+        : (Array.isArray(window.products) ? window.products : []);
+    if (!authorityRecords.length) return;
 
-    similarState.catalog = products;
-    const anchor = enrichedProduct.salePrice || enrichedProduct.price || 0;
+    similarState.catalog = authorityRecords;
+    const anchor = Number(enrichedProduct.salePrice || enrichedProduct.price || 0);
+    const comparablePrice = (product) => Number(
+        product["sale price"] ?? product.salePrice ?? product.price ?? 0
+    );
 
-    similarState.list = products
-        .filter((p) => p.id !== enrichedProduct.id && p.category === enrichedProduct.category)
-        .sort((a, b) => Math.abs(a.price - anchor) - Math.abs(b.price - anchor))
+    similarState.list = authorityRecords
+        .filter((p) => Number(p.id) !== Number(enrichedProduct.id) && p.category === enrichedProduct.category)
+        .sort((a, b) => Math.abs(comparablePrice(a) - anchor) - Math.abs(comparablePrice(b) - anchor))
         .slice(0, 10)
         .map((p) => enrichForPopup(p));
 
