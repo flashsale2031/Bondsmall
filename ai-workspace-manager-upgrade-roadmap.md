@@ -79,6 +79,10 @@ Version 11 is complete when the Workspace Manager provides a local research work
 
 Version 12 is complete when the Workspace Manager provides a local, transparent model-routing policy preview that records task type, latency preference, budget preference, required capabilities, selected model, cost-rate metadata, and up to two capability-compatible fallbacks. The policy must use a reviewed model catalog, explain why the selection was made, preserve provider diversity where available, persist decisions locally, and create auditable routing events. In this version, routing is advisory only: no provider request, credential use, external execution, or automatic model invocation may occur from the client-only seller page.
 
+## Version 13 acceptance criteria
+
+Version 13 is complete when the Workspace Manager can create a local, scoped approval gate for login or account access, CAPTCHA or identity checks, external publication, financial actions, legal or regulatory actions, and destructive or irreversible actions. Each gate must show the proposed action, risk category, evidence/details, requester, expiry, and current status; pending gates must block the proposed action, require an explicit human decision, and expire automatically. Approving or rejecting a gate may change only the local checkpoint state and must never capture credentials, solve CAPTCHA, submit externally, move money, provide legal consent, or delete data. Gate creation, expiry, approval, rejection, and no-action outcomes must be auditable and persistent in local storage.
+
 ## ZIP references used for Version 1
 
 The archive suggests several useful patterns: AutoGPT and Ouroboros for bounded iterative loops; CrewAI and MultiMind for separated roles and model routing; OpenClaw, CentaurLoop, and StreamCore for runtime and event-oriented structure; and the hard-logic kernel project for deterministic constraints and an append-only audit concept. These references inform the design only. No archive executable is trusted or run as part of Version 1.
