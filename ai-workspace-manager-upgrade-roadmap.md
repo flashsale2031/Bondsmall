@@ -43,6 +43,10 @@ Version 2 is complete when the Workspace Manager displays a mission-to-task goal
 
 Version 3 is complete when the Workspace Manager can persist typed **facts**, **decisions**, and **assumptions** with explicit provenance, confidence, timestamps, search, and user-controlled deletion. Memory records remain local to the browser in this version, are not treated as verified evidence automatically, and every memory mutation is recorded in the audit history.
 
+## Version 4 acceptance criteria
+
+Version 4 is complete when the Workspace Manager can generate a review-only plan from current evidence, display explicit preconditions, expected outcomes, evidence requirements, and rollback notes for each step, compare a draft with the last saved plan, and save a plan without executing it. Plan generation and saving must be auditable, and no plan step may submit an external action automatically.
+
 ## ZIP references used for Version 1
 
 The archive suggests several useful patterns: AutoGPT and Ouroboros for bounded iterative loops; CrewAI and MultiMind for separated roles and model routing; OpenClaw, CentaurLoop, and StreamCore for runtime and event-oriented structure; and the hard-logic kernel project for deterministic constraints and an append-only audit concept. These references inform the design only. No archive executable is trusted or run as part of Version 1.

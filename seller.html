@@ -3856,6 +3856,19 @@
     .workspace-memory-meta { color:#9a8b7e; font-size:.6rem; }
     .workspace-memory-delete { border:0; background:transparent; color:#a04453; cursor:pointer; font-size:.8rem; }
     @media (max-width: 820px) { .workspace-memory-form { grid-template-columns:1fr 1fr; } .workspace-memory-form input:nth-child(2) { grid-column:span 2; } .workspace-memory-record { grid-template-columns:74px minmax(0,1fr) 24px; } .workspace-memory-meta { grid-column:span 2; } }
+    .workspace-planner-panel { margin-top:12px; padding:11px; border:1px solid #e3d8cc; border-radius:13px; background:rgba(255,255,255,.65); }
+    .workspace-planner-toolbar { display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap; }
+    .workspace-planner-toolbar button, .workspace-plan-card button { border:1px solid #d8cbbd; border-radius:8px; padding:7px 10px; background:#fff; color:#8c2f39; cursor:pointer; font-size:.7rem; font-weight:800; }
+    #workspace-plan-meta { color:#75695f; font-size:.68rem; margin-top:5px; }
+    #workspace-plan-diff { margin-top:8px; padding:8px; border-radius:8px; background:#f7f1ea; color:#655950; font-size:.66rem; }
+    #workspace-plan-list { display:grid; gap:7px; margin-top:8px; }
+    .workspace-plan-card { display:grid; gap:5px; padding:9px; border:1px solid #e3d8cc; border-radius:9px; background:#fff; color:#51463e; font-size:.66rem; }
+    .workspace-plan-card h4 { margin:0; color:#8c2f39; font-size:.72rem; }
+    .workspace-plan-card strong { color:#2b2621; }
+    .workspace-plan-card .workspace-plan-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:5px; }
+    .workspace-plan-field { padding:6px; border-radius:6px; background:#f8f3ed; }
+    .workspace-plan-field strong { display:block; color:#8c2f39; font-size:.6rem; text-transform:uppercase; letter-spacing:.06em; }
+    @media (max-width: 820px) { .workspace-plan-card .workspace-plan-grid { grid-template-columns:1fr; } }
     @media (max-width: 820px) { .workspace-v1 { grid-template-columns:1fr; } #workspace-roadmap { grid-template-columns:repeat(2,minmax(0,1fr)); } }
     @media (max-width: 820px) { .workspace-grid { grid-template-columns:1fr; } .workspace-calendar { grid-template-columns:repeat(12,minmax(82px,1fr)); } #workspace-manager { width:min(100% - 20px,1440px); margin-top:10px; padding:12px; } }
   </style>
@@ -3966,6 +3979,12 @@
       </form>
       <input id="workspace-memory-search" type="search" placeholder="Search memory by type, content, or source…" aria-label="Search workspace memory" />
       <div id="workspace-memory-list" aria-live="polite"></div>
+    </section>
+    <section class="workspace-planner-panel" aria-labelledby="workspace-planner-title">
+      <div class="workspace-planner-toolbar"><div><div class="workspace-panel-label" id="workspace-planner-title">Version 4 · transparent planner</div><div style="color:#75695f;font-size:.7rem;margin-top:3px">Plans are drafts only. Review preconditions, expected outcomes, evidence, and rollback notes before saving a plan.</div></div><div><button type="button" onclick="generateWorkspacePlan()">Generate plan</button> <button type="button" onclick="saveWorkspacePlan()">Save draft</button></div></div>
+      <div id="workspace-plan-meta">No plan draft generated yet.</div>
+      <div id="workspace-plan-diff">Generate a plan to compare it with the last saved plan.</div>
+      <div id="workspace-plan-list"></div>
     </section>
     <div class="workspace-calendar-wrap">
       <div class="workspace-panel-label">Daily objective calendar</div>
@@ -9071,6 +9090,31 @@
     }
     function deleteWorkspaceMemory(id) { workspaceMemory = workspaceMemory.filter(item => item.id !== id); saveWorkspaceMemory(); renderWorkspaceMemory(); workspaceAudit('memory-delete', 'Deleted a workspace memory record.', { id }); }
     function clearWorkspaceMemory() { if (!workspaceMemory.length || !window.confirm('Clear all local workspace memory?')) return; workspaceMemory = []; saveWorkspaceMemory(); renderWorkspaceMemory(); workspaceAudit('memory-clear', 'Cleared all local workspace memory.'); }
+    let workspacePlanCurrent = (() => { try { return JSON.parse(localStorage.getItem('clblast_workspace_plan_current') || 'null'); } catch (_) { return null; } })();
+    let workspacePlanDraft = null;
+    function workspacePlanComparable(plan) { return plan ? JSON.stringify({ basis: plan.basis, steps: plan.steps }) : ''; }
+    function renderWorkspacePlan() {
+      const meta = document.getElementById('workspace-plan-meta');
+      const diff = document.getElementById('workspace-plan-diff');
+      const list = document.getElementById('workspace-plan-list');
+      if (!meta || !diff || !list) return;
+      if (!workspacePlanDraft) { meta.textContent = workspacePlanCurrent ? `Saved plan from ${new Date(workspacePlanCurrent.savedAt || workspacePlanCurrent.generatedAt).toLocaleString()}.` : 'No plan draft generated yet.'; diff.textContent = workspacePlanCurrent ? 'Generate a new draft to compare against the saved plan.' : 'Generate a plan to compare it with the last saved plan.'; list.innerHTML = ''; return; }
+      meta.textContent = `Draft generated ${new Date(workspacePlanDraft.generatedAt).toLocaleString()} · review-only · ${workspacePlanDraft.steps.length} steps`;
+      const changed = workspacePlanComparable(workspacePlanDraft) !== workspacePlanComparable(workspacePlanCurrent);
+      diff.innerHTML = workspacePlanCurrent ? `<strong>${changed ? 'Plan changed:' : 'No material plan changes:'}</strong> ${changed ? 'Review the highlighted draft before saving.' : 'The current evidence produces the same plan as the saved version.'}` : '<strong>New plan:</strong> there is no saved baseline. Saving this draft will create one; it will not execute any step.';
+      list.innerHTML = workspacePlanDraft.steps.map((step, index) => `<article class="workspace-plan-card"><h4>Step ${index + 1}: ${workspaceEscape(step.title)}</h4><div class="workspace-plan-grid"><div class="workspace-plan-field"><strong>Preconditions</strong>${workspaceEscape(step.preconditions)}</div><div class="workspace-plan-field"><strong>Expected outcome</strong>${workspaceEscape(step.expected)}</div><div class="workspace-plan-field"><strong>Evidence required</strong>${workspaceEscape(step.evidence)}</div><div class="workspace-plan-field"><strong>Rollback</strong>${workspaceEscape(step.rollback)}</div></div></article>`).join('');
+    }
+    function generateWorkspacePlan() {
+      const stats = workspaceMissionSummary();
+      const incomplete = workspaceObjectives.filter(item => item.status !== 'completed');
+      workspacePlanDraft = { id: `plan-${Date.now()}`, generatedAt: new Date().toISOString(), basis: { objectiveCount: stats.objectiveCount, incompleteObjectives: incomplete.length, adAgendaCount: stats.adAgendaCount, liveCount: stats.liveCount, clientOnly: Boolean(CLIENT_ONLY_MODE) }, steps: [
+        { title: 'Validate workspace state', preconditions: 'Client-only mode is active and the workspace is readable.', expected: 'A fresh diagnosis and goal-graph snapshot are available.', evidence: 'Diagnosis audit event plus current graph statuses.', rollback: 'No mutation; discard the draft.' },
+        { title: incomplete.length ? 'Review incomplete daily objectives' : 'Define one daily objective', preconditions: incomplete.length ? `At least one objective is ${incomplete[0]?.status || 'planned'}.` : 'A user chooses the date, category, and objective text.', expected: incomplete.length ? 'The user identifies the next safe objective step.' : 'One local objective is added to the agenda.', evidence: 'Agenda record with date, category, title, and user-entered status.', rollback: 'Delete or leave the local objective uncompleted; no external action.', },
+        { title: stats.adAgendaCount ? 'Review publication evidence' : 'Prepare a publication handoff draft', preconditions: stats.adAgendaCount ? 'At least one advertisement agenda exists.' : 'A completed objective and a user-selected listing are available.', expected: stats.adAgendaCount ? 'Existing publication work is reviewed without resubmission.' : 'A client-only handoff is prepared for user review.', evidence: 'Agenda or handoff record, destination, and user confirmation state.', rollback: 'Remove the local draft or cancel the handoff before any external submission.' }
+      ] };
+      renderWorkspacePlan(); workspaceAudit('plan-generate', 'Generated a review-only plan draft.', { basis: workspacePlanDraft.basis, stepCount: workspacePlanDraft.steps.length });
+    }
+    function saveWorkspacePlan() { if (!workspacePlanDraft) { generateWorkspacePlan(); } workspacePlanCurrent = { ...workspacePlanDraft, savedAt: new Date().toISOString() }; localStorage.setItem('clblast_workspace_plan_current', JSON.stringify(workspacePlanCurrent)); renderWorkspacePlan(); workspaceAudit('plan-save', 'Saved a plan draft without executing it.', { planId: workspacePlanCurrent.id }); }
     function renderWorkspaceRoadmap() {
       const target = document.getElementById('workspace-roadmap');
       if (!target) return;
@@ -9159,7 +9203,7 @@
       if (!item) return;
       item.status = 'completed'; item.completedAt = new Date().toISOString(); saveWorkspaceObjectives(); renderWorkspaceManager(); workspaceRunResolutionEngine(); showToast('Objective completed; resolution status re-evaluated.', 'success');
     }
-    function renderWorkspaceManager() { renderWorkspaceCalendar(); renderWorkspaceAgenda(); renderWorkspaceMission(); renderWorkspaceRoadmap(); renderWorkspaceGoalGraph(); renderWorkspaceMemory(); }
+    function renderWorkspaceManager() { renderWorkspaceCalendar(); renderWorkspaceAgenda(); renderWorkspaceMission(); renderWorkspaceRoadmap(); renderWorkspaceGoalGraph(); renderWorkspaceMemory(); renderWorkspacePlan(); }
     function workspaceChatReply(message) {
       const lower = message.toLowerCase();
       if (lower.includes('mission') || lower.includes('progress') || lower.includes('live')) { const s = workspaceMissionSummary(); return `Mission pulse: ${s.liveCount} live ads, ${s.adAgendaCount} ad agendas, ${s.objectiveCount} objectives, and ${s.campaignJobs} campaign jobs are currently contributing to the annual plan.`; }
