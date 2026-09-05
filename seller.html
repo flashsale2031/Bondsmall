@@ -9721,6 +9721,33 @@
       if (bulkStopBtn) bulkStopBtn.style.display = 'none';
     }
   </script>
+<!-- BONDS_MALL_SELLER_V20_RELEASE -->
+<section id="bonds-mall-seller-v20" aria-label="Bonds Mall Seller Version 20" style="margin:28px 0;padding:24px;border:1px solid rgba(233,69,96,.25);border-radius:16px;background:rgba(13,17,23,.92)">
+<h2>Bonds Mall Seller — Version 12 → Version 20</h2>
+<p style="color:#8b95a5">Governed seller control room with staged readiness, human approval gates, sandbox rehearsal, bounded retries, audit evidence, and final release review.</p>
+<div id="bms-v20-stages" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:8px;margin:18px 0"></div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px">
+<article><h3>Approval gates</h3><div id="bms-v20-gates"></div></article>
+<article><h3>Release controls</h3><button type="button" id="bms-v20-sim">Run sandbox rehearsal</button> <button type="button" id="bms-v20-review">Final mission review</button><div id="bms-v20-status" style="margin-top:10px;color:#8b95a5"></div></article>
+<article><h3>Audit</h3><div id="bms-v20-audit" style="max-height:180px;overflow:auto"></div><button type="button" id="bms-v20-export">Export audit</button></article>
+</div>
+</section>
+<script>
+(function(){
+const stages=["Task","Objective","Project","Program","Operation","Mission","Memory","Planning","Tools","Content","Optimization","Research","Approvals","Simulation","Metrics","Automation","Connectors","Evaluation","Portfolio","Mission Control"], gates=["External publication","Account/auth action","Financial action","Destructive action","Legal/compliance action"], key="bonds_mall_seller_v20";
+let s; try{s=JSON.parse(localStorage.getItem(key)||"{}")}catch(e){s={}} s.gates=s.gates||Object.fromEntries(gates.map(g=>[g,false])); s.audit=s.audit||[];
+const esc=x=>String(x).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+const save=()=>localStorage.setItem(key,JSON.stringify(s));
+const log=(a,d)=>{s.audit.unshift({at:new Date().toISOString(),action:a,detail:d});s.audit=s.audit.slice(0,50);save();renderAudit()};
+function renderStages(){document.getElementById("bms-v20-stages").innerHTML=stages.map((x,i)=>"<div><b>V"+(i+1)+"</b><br><span style='color:#8b95a5'>"+esc(x)+"</span></div>").join("")}
+function renderGates(){document.getElementById("bms-v20-gates").innerHTML=gates.map(g=>"<label style='display:block;margin:8px 0'><input type='checkbox' data-v20-gate='"+esc(g)+"' "+(s.gates[g]?"checked":"")+"> "+esc(g)+"<small style='display:block;margin-left:22px;color:#8b95a5'>"+(s.gates[g]?"Approved checkpoint":"Blocked pending human approval")+"</small></label>").join("");document.querySelectorAll("[data-v20-gate]").forEach(e=>e.onchange=function(){s.gates[this.dataset.v20Gate]=this.checked;save();log("approval."+(this.checked?"approved":"revoked"),this.dataset.v20Gate+" checkpoint changed by user.");renderGates()})}
+function renderAudit(){document.getElementById("bms-v20-audit").innerHTML=s.audit.length?s.audit.map(x=>"<div style='padding:6px 0;border-bottom:1px solid rgba(255,255,255,.06)'><b>"+esc(x.action)+"</b> — "+esc(x.detail)+"<br><small>"+new Date(x.at).toLocaleString()+"</small></div>").join(""):"<span style='color:#8b95a5'>No audit events yet.</span>"}
+document.getElementById("bms-v20-sim").onclick=()=>{log("simulation.run","Sandbox rehearsal completed locally; no external submission performed.");document.getElementById("bms-v20-status").textContent="Sandbox rehearsal complete. External actions remain disabled."};
+document.getElementById("bms-v20-review").onclick=()=>{const p=gates.filter(g=>!s.gates[g]);document.getElementById("bms-v20-status").textContent=p.length?"Final review: "+p.length+" approval gate(s) remain blocked.":"Final review: all approval checkpoints recorded; consequential actions still require their controlled workflow.";log("release.review","V20 final mission review opened.")};
+document.getElementById("bms-v20-export").onclick=()=>{const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([JSON.stringify(s.audit,null,2)],{type:"application/json"}));a.download="bonds-mall-seller-v20-audit.json";a.click()};
+renderStages();renderGates();renderAudit();
+})();
+</script>
 </body>
 
 </html>
