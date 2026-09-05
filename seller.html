@@ -9759,11 +9759,17 @@
         const target = locations * perLocation;
         return `<tr><td>${workspaceEscape(state)}</td><td>${locations.toLocaleString()}</td><td>$${target.toLocaleString(undefined,{maximumFractionDigits:0})}</td><td>$${perLocation.toLocaleString(undefined,{maximumFractionDigits:0})}</td></tr>`;
       }).join('');
+      const adsPerSale = 200;
       const productRows = WORKSPACE_PRODUCT_STRATEGY.map(product => {
         const gp = product.price * WORKSPACE_MISSION.margin;
         const units = Math.ceil(perLocation / gp);
-        return `<tr><td>${workspaceEscape(product.name)}</td><td>$${product.price.toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2})}</td><td>${units.toLocaleString()}</td><td>$${gp.toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2})}</td></tr>`;
+        const adsPerLocation = units * adsPerSale;
+        const totalAds = WORKSPACE_MISSION.locations * adsPerLocation;
+        return `<tr><td>${workspaceEscape(product.name)}</td><td>${product.price.toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2})}</td><td>${units.toLocaleString()}</td><td>${adsPerLocation.toLocaleString()}</td><td>${totalAds.toLocaleString()}</td><td>${gp.toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2})}</td></tr>`;
       }).join('');
+      const aggregateUnitMix = WORKSPACE_PRODUCT_STRATEGY.length;
+      const aggregateAdsPerLocation = Math.ceil(WORKSPACE_PRODUCT_STRATEGY.reduce((sum, product) => sum + Math.ceil(perLocation / (product.price * WORKSPACE_MISSION.margin)) * adsPerSale, 0));
+      const aggregateTotalAds = WORKSPACE_MISSION.locations * aggregateAdsPerLocation;
       copy.innerHTML = `The financial mission targets <strong>$${WORKSPACE_MISSION.yield.toLocaleString()}</strong> of profit across <strong>${WORKSPACE_MISSION.locations.toLocaleString()} Census Vintage 2025 city/place locations in the 50 states</strong> by <strong>${WORKSPACE_MISSION.deadline}</strong>. Equal allocation requires an average <strong>$${perLocation.toLocaleString(undefined,{maximumFractionDigits:0})} profit contribution per location</strong>. State targets are proportional to each state's location count; the product portfolio is a means of generating sales, not a guarantee of profit.`;
       if (fill) fill.style.width = `${stats.progress}%`;
       if (economics) economics.innerHTML = `
@@ -9775,7 +9781,8 @@
         </div>
         <div class="workspace-econ-note">Math: total target ÷ locations = average location target. State target = state locations × average location target. Product units below are illustrative gross-profit equivalents at ${Math.round(WORKSPACE_MISSION.margin*100)}% contribution margin; actual net profit must subtract fulfillment, platform fees, taxes, returns, customer acquisition, and operating costs.</div>
         <div class="workspace-econ-table-wrap"><table class="workspace-econ-table"><thead><tr><th>State</th><th>Locations</th><th>State profit target</th><th>Per-location target</th></tr></thead><tbody>${stateRows}</tbody></table></div>
-        <div class="workspace-econ-table-wrap"><table class="workspace-econ-table"><thead><tr><th>Product in Bonds Mall catalog</th><th>Price</th><th>Units/location if product alone supplied target</th><th>50% gross-profit contribution/unit</th></tr></thead><tbody>${productRows}</tbody></table></div>
+        <div class="workspace-econ-table-wrap"><table class="workspace-econ-table"><thead><tr><th>Product in Bonds Mall catalog</th><th>Price</th><th>Sales/location</th><th>Ads/location @ 200:1</th><th>Ads across all locations</th><th>50% contribution/sale</th></tr></thead><tbody>${productRows}</tbody></table></div>
+        <div class="workspace-econ-note"><strong>200:1 conversion model:</strong> Every 200 ad impressions is modeled as producing 1 completed sale. Therefore <strong>required ads = required sales × 200</strong>. If one product carries the entire location target, the table shows the estimated ads required for that product. For the combined portfolio, using every listed product as a separate full-target scenario produces approximately <strong>${aggregateAdsPerLocation.toLocaleString()} ads/location</strong> and <strong>${aggregateTotalAds.toLocaleString()} ads across the ${WORKSPACE_MISSION.locations.toLocaleString()} locations</strong>; this is a scenario aggregate, not a claim that all products must each independently hit the full target. A mixed-product plan should instead allocate the profit target among products and calculate ads for each allocated share.
         <div class="workspace-econ-note"><strong>Portfolio strategy:</strong> combine high-value products (gold coins, designer handbags, luxury apparel/accessories) with electronics, entertainment, home goods, and repeat lower-ticket purchases. A combined mix is more practical than assuming one SKU can satisfy an entire location's target. The system should select mixes based on verified price, actual margin, demand, inventory, fees, and completed sales.</div>`;
     }
     let workspaceResolutionTimer = null;
