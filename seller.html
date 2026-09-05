@@ -3894,6 +3894,16 @@
     .workspace-tool-scope { font-weight:800; text-transform:capitalize; }
     .workspace-tool-card button { border:1px solid #d8cbbd; border-radius:7px; padding:5px 7px; background:#fff; color:#8c2f39; cursor:pointer; font-size:.62rem; font-weight:800; }
     @media (max-width: 820px) { #workspace-tool-list { grid-template-columns:1fr; } }
+    .workspace-recovery-panel { margin-top:12px; padding:11px; border:1px solid #e3d8cc; border-radius:13px; background:rgba(255,255,255,.65); }
+    .workspace-recovery-toolbar { display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap; }
+    .workspace-recovery-toolbar button { border:1px solid #d8cbbd; border-radius:8px; padding:7px 10px; background:#fff; color:#8c2f39; cursor:pointer; font-size:.7rem; font-weight:800; }
+    #workspace-recovery-summary { color:#75695f; font-size:.68rem; margin-top:5px; }
+    #workspace-recovery-policies { display:grid; grid-template-columns:repeat(3,minmax(170px,1fr)); gap:7px; margin-top:9px; }
+    .workspace-recovery-card { display:grid; gap:4px; padding:8px; border:1px solid #e3d8cc; border-radius:9px; background:#fff; color:#51463e; font-size:.63rem; }
+    .workspace-recovery-card strong { color:#8c2f39; font-size:.69rem; text-transform:capitalize; }
+    .workspace-recovery-card small { color:#9a8b7e; }
+    .workspace-recovery-card.escalated { border-color:#c27682; background:#fff1f0; }
+    @media (max-width: 820px) { #workspace-recovery-policies { grid-template-columns:1fr; } }
     @media (max-width: 820px) { .workspace-v1 { grid-template-columns:1fr; } #workspace-roadmap { grid-template-columns:repeat(2,minmax(0,1fr)); } }
     @media (max-width: 820px) { .workspace-grid { grid-template-columns:1fr; } .workspace-calendar { grid-template-columns:repeat(12,minmax(82px,1fr)); } #workspace-manager { width:min(100% - 20px,1440px); margin-top:10px; padding:12px; } }
   </style>
@@ -4020,6 +4030,11 @@
       <div class="workspace-tools-toolbar"><div><div class="workspace-panel-label" id="workspace-tools-title">Version 6 · governed tool registry</div><div style="color:#75695f;font-size:.7rem;margin-top:3px">Capabilities are discoverable with explicit scopes. Dry-run is the default; blocked tools cannot be enabled from this panel.</div></div><button type="button" onclick="renderWorkspaceTools(); workspaceAudit('tool-registry','Tool registry refreshed.')">Refresh registry</button></div>
       <div id="workspace-tools-summary">Loading capability registry…</div>
       <div id="workspace-tool-list" aria-live="polite"></div>
+    </section>
+    <section class="workspace-recovery-panel" aria-labelledby="workspace-recovery-title">
+      <div class="workspace-recovery-toolbar"><div><div class="workspace-panel-label" id="workspace-recovery-title">Version 7 · retry and recovery policy</div><div style="color:#75695f;font-size:.7rem;margin-top:3px">Retries use bounded alternatives and backoff. After the attempt limit, the issue escalates to the mailbox and stops retrying.</div></div><button type="button" onclick="renderWorkspaceRecovery(); workspaceAudit('recovery-policy','Recovery policy refreshed.')">Refresh policy</button></div>
+      <div id="workspace-recovery-summary">Loading recovery policy…</div>
+      <div id="workspace-recovery-policies"></div>
     </section>
     <div class="workspace-calendar-wrap">
       <div class="workspace-panel-label">Daily objective calendar</div>
@@ -9202,6 +9217,14 @@
       const summary = document.getElementById('workspace-tools-summary');
       if (summary) summary.innerHTML = `<strong>Dry-run recorded:</strong> ${workspaceEscape(tool.name)} completed locally. No external request was made.`;
     }
+    function renderWorkspaceRecovery() {
+      const summary = document.getElementById('workspace-recovery-summary');
+      const list = document.getElementById('workspace-recovery-policies');
+      if (!summary || !list) return;
+      const escalated = workspaceResolutionMailbox.filter(item => item.escalated).length;
+      summary.innerHTML = `<strong>${WORKSPACE_PROBLEM_RESOLUTION_SHEET.length} staged policies:</strong> max 3 attempts per issue, backoff of 2 → 5 → 15 minutes, and ${escalated} currently escalated mailbox item${escalated === 1 ? '' : 's'}. External execution remains disabled.`;
+      list.innerHTML = WORKSPACE_PROBLEM_RESOLUTION_SHEET.map(rule => `<article class="workspace-recovery-card ${workspaceResolutionMailbox.some(item => item.stage === rule.stage && item.escalated) ? 'escalated' : ''}"><strong>${workspaceEscape(rule.stage)} stage</strong><small>Max attempts: ${rule.maxAttempts} · backoff: ${rule.delays.map(seconds => `${Math.round(seconds / 60)}m`).join(' → ')}</small><small>Alternatives: ${rule.alternatives.map(item => workspaceEscape(item)).join(' · ')}</small><small>Safe action: ${workspaceEscape(rule.action)}</small></article>`).join('');
+    }
     function renderWorkspaceRoadmap() {
       const target = document.getElementById('workspace-roadmap');
       if (!target) return;
@@ -9217,7 +9240,7 @@
         { label: 'Safe client-only guard', pass: Boolean(CLIENT_ONLY_MODE) },
         { label: 'Human publish gate', pass: true },
         { label: 'Evidence before success', pass: true },
-        { label: 'Resolution retry armed', pass: Boolean(workspaceResolutionTimer) }
+        { label: 'Resolution retry or escalation state', pass: Boolean(workspaceResolutionTimer) || workspaceResolutionMailbox.some(item => item.escalated) }
       ];
       const attention = checks.filter(check => !check.pass);
       const status = document.getElementById('workspace-diagnosis-status');
@@ -9239,12 +9262,12 @@
     let workspaceResolutionTimer = null;
     let workspaceResolutionMailbox = (() => { try { return JSON.parse(localStorage.getItem('clblast_workspace_resolution_mailbox') || '[]'); } catch (_) { return []; } })();
     const WORKSPACE_PROBLEM_RESOLUTION_SHEET = [
-      { stage: 'task', action: 'Validate the daily agenda, keep the scope to one safe objective, and prepare the next user-controlled step.' },
-      { stage: 'objective', action: 'Re-plan the objective using its existing category and the next available agenda date.' },
-      { stage: 'project', action: 'Review the linked advertisement, publication, and content work before attempting a broader change.' },
-      { stage: 'program', action: 'Retry the program through the safest available client-only workflow without submitting externally.' },
-      { stage: 'operation', action: 'Reconcile active listings, schedules, and campaign state, then retry only the missing operation.' },
-      { stage: 'mission', action: 'Keep the mission paused at this stage and request user review rather than taking an unsafe irreversible action.' }
+      { stage: 'task', maxAttempts: 3, delays: [120, 300, 900], action: 'Validate the daily agenda, keep the scope to one safe objective, and prepare the next user-controlled step.', alternatives: ['Narrow to one objective', 'Move to the next available date', 'Escalate for user review'] },
+      { stage: 'objective', maxAttempts: 3, delays: [120, 300, 900], action: 'Re-plan the objective using its existing category and the next available agenda date.', alternatives: ['Keep the category', 'Choose a later date', 'Escalate for user review'] },
+      { stage: 'project', maxAttempts: 3, delays: [120, 300, 900], action: 'Review the linked advertisement, publication, and content work before attempting a broader change.', alternatives: ['Review local evidence', 'Prepare a smaller draft', 'Escalate for user review'] },
+      { stage: 'program', maxAttempts: 3, delays: [120, 300, 900], action: 'Retry the program through the safest available client-only workflow without submitting externally.', alternatives: ['Retry client-only', 'Prepare a handoff draft', 'Escalate for user review'] },
+      { stage: 'operation', maxAttempts: 3, delays: [120, 300, 900], action: 'Reconcile active listings, schedules, and campaign state, then retry only the missing operation.', alternatives: ['Reconcile local state', 'Retry only the missing step', 'Escalate for user review'] },
+      { stage: 'mission', maxAttempts: 3, delays: [120, 300, 900], action: 'Keep the mission paused at this stage and request user review rather than taking an unsafe irreversible action.', alternatives: ['Pause safely', 'Prepare evidence summary', 'Escalate for user review'] }
     ];
     function saveWorkspaceMailbox() { localStorage.setItem('clblast_workspace_resolution_mailbox', JSON.stringify(workspaceResolutionMailbox.slice(-20))); }
     function toggleWorkspaceMailbox() { const popup = document.getElementById('workspace-mailbox-popup'); const button = document.getElementById('workspace-mailbox-button'); const open = !popup.classList.contains('open'); popup.classList.toggle('open', open); button.setAttribute('aria-expanded', String(open)); }
@@ -9254,7 +9277,7 @@
       const badge = document.getElementById('workspace-mailbox-badge');
       if (!list) return;
       badge.textContent = String(workspaceResolutionMailbox.length);
-      list.innerHTML = workspaceResolutionMailbox.length ? workspaceResolutionMailbox.slice().reverse().map(item => `<div class="workspace-resolution-item"><strong>${workspaceEscape(item.stage)} remaining</strong><span>${workspaceEscape(item.summary)}</span><span class="workspace-resolution-meta">Attempt ${item.attempt} · next retry ${workspaceEscape(item.nextRetry)}</span></div>`).join('') : '<div class="workspace-resolution-item">No unresolved mission work. Successful work is cleared automatically.</div>';
+      list.innerHTML = workspaceResolutionMailbox.length ? workspaceResolutionMailbox.slice().reverse().map(item => `<div class="workspace-resolution-item"><strong>${workspaceEscape(item.stage)} ${item.escalated ? 'escalated' : 'remaining'}</strong><span>${workspaceEscape(item.summary)}</span><span class="workspace-resolution-meta">Attempt ${item.attempt} · ${workspaceEscape(item.strategy || 'safe retry')} · ${workspaceEscape(item.nextRetry)}</span></div>`).join('') : '<div class="workspace-resolution-item">No unresolved mission work. Successful work is cleared automatically.</div>';
     }
     function workspaceResolutionAnalysis() {
       const objectives = workspaceObjectives.filter(item => item.status !== 'completed');
@@ -9270,27 +9293,32 @@
       return null;
     }
     function workspaceResolutionRetry(analysis) {
-      const rule = WORKSPACE_PROBLEM_RESOLUTION_SHEET.find(item => item.stage === analysis.stage);
+      const rule = WORKSPACE_PROBLEM_RESOLUTION_SHEET.find(item => item.stage === analysis.stage) || WORKSPACE_PROBLEM_RESOLUTION_SHEET[0];
       const existing = workspaceResolutionMailbox.find(item => item.key === analysis.key);
-      const nextRetry = new Date(Date.now() + 120000).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
-      const entry = { key: analysis.key, stage: analysis.stage, summary: `${analysis.summary} Safe action: ${rule.action}`, attempt: (existing?.attempt || 0) + 1, nextRetry, updatedAt: new Date().toISOString() };
+      const attempt = (existing?.attempt || 0) + 1;
+      const escalated = attempt >= rule.maxAttempts;
+      const delaySeconds = rule.delays[Math.min(attempt - 1, rule.delays.length - 1)];
+      const nextRetry = escalated ? 'Escalated to user review' : new Date(Date.now() + delaySeconds * 1000).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+      const strategy = rule.alternatives[Math.min(attempt - 1, rule.alternatives.length - 1)];
+      const entry = { key: analysis.key, stage: analysis.stage, summary: `${analysis.summary} Safe action: ${rule.action}`, attempt, maxAttempts: rule.maxAttempts, strategy, delaySeconds, escalated, nextRetry, updatedAt: new Date().toISOString() };
       workspaceResolutionMailbox = workspaceResolutionMailbox.filter(item => item.key !== analysis.key).concat(entry).slice(-20);
       saveWorkspaceMailbox();
       renderWorkspaceMailbox();
+      return { ...entry, canRetry: !escalated };
     }
     function workspaceRunResolutionEngine() {
       const analysis = workspaceResolutionAnalysis();
       if (!analysis) { clearWorkspaceMailbox(); return; }
-      workspaceResolutionRetry(analysis);
+      const retry = workspaceResolutionRetry(analysis);
       if (workspaceResolutionTimer) clearTimeout(workspaceResolutionTimer);
-      workspaceResolutionTimer = setTimeout(workspaceRunResolutionEngine, 120000);
+      workspaceResolutionTimer = retry.canRetry ? setTimeout(workspaceRunResolutionEngine, retry.delaySeconds * 1000) : null;
     }
     function workspaceCompleteObjective(id) {
       const item = workspaceObjectives.find(objective => objective.id === id);
       if (!item) return;
       item.status = 'completed'; item.completedAt = new Date().toISOString(); saveWorkspaceObjectives(); renderWorkspaceManager(); workspaceRunResolutionEngine(); showToast('Objective completed; resolution status re-evaluated.', 'success');
     }
-    function renderWorkspaceManager() { renderWorkspaceCalendar(); renderWorkspaceAgenda(); renderWorkspaceMission(); renderWorkspaceRoadmap(); renderWorkspaceGoalGraph(); renderWorkspaceMemory(); renderWorkspacePlan(); renderWorkspaceRoleTrace(); renderWorkspaceTools(); }
+    function renderWorkspaceManager() { renderWorkspaceCalendar(); renderWorkspaceAgenda(); renderWorkspaceMission(); renderWorkspaceRoadmap(); renderWorkspaceGoalGraph(); renderWorkspaceMemory(); renderWorkspacePlan(); renderWorkspaceRoleTrace(); renderWorkspaceTools(); renderWorkspaceRecovery(); }
     function workspaceChatReply(message) {
       const lower = message.toLowerCase();
       if (lower.includes('mission') || lower.includes('progress') || lower.includes('live')) { const s = workspaceMissionSummary(); return `Mission pulse: ${s.liveCount} live ads, ${s.adAgendaCount} ad agendas, ${s.objectiveCount} objectives, and ${s.campaignJobs} campaign jobs are currently contributing to the annual plan.`; }
