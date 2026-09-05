@@ -3933,6 +3933,15 @@
     .workspace-content-record strong { color:#8c2f39; font-size:.7rem; }
     .workspace-content-meta { color:#9a8b7e; font-size:.59rem; }
     @media (max-width: 820px) { .workspace-content-form { grid-template-columns:1fr; } .workspace-content-form textarea { grid-column:auto; } }
+    .workspace-routing-panel { margin-top:12px; padding:11px; border:1px solid #e3d8cc; border-radius:13px; background:rgba(255,255,255,.65); }
+    .workspace-routing-form { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:8px; margin-top:9px; }
+    .workspace-routing-form input, .workspace-routing-form select { min-width:0; }
+    .workspace-routing-policy { display:flex; flex-wrap:wrap; gap:6px; margin-top:8px; }
+    .workspace-routing-chip { padding:4px 7px; border-radius:999px; background:#f3eee8; color:#665b51; font-size:.68rem; }
+    .workspace-routing-record { display:grid; gap:4px; margin-top:8px; padding:9px; border-left:3px solid #9a7b59; background:rgba(250,247,242,.9); font-size:.76rem; }
+    .workspace-routing-record strong { color:#493d33; }
+    .workspace-routing-meta { color:#75695f; font-size:.68rem; }
+    @media (max-width:760px) { .workspace-routing-form { grid-template-columns:repeat(2,minmax(0,1fr)); } }
     .workspace-research-panel { margin-top:12px; padding:11px; border:1px solid #e3d8cc; border-radius:13px; background:rgba(255,255,255,.65); }
     .workspace-research-toolbar { display:flex; align-items:flex-start; justify-content:space-between; gap:8px; flex-wrap:wrap; }
     .workspace-research-toolbar button, .workspace-research-form button, .workspace-research-record button { border:1px solid #d8cbbd; border-radius:8px; padding:7px 10px; background:#fff; color:#8c2f39; cursor:pointer; font-size:.7rem; font-weight:800; }
@@ -4144,6 +4153,21 @@
         <button type="submit">Capture evidence</button>
       </form>
       <div id="workspace-research-history" aria-live="polite"></div>
+    </section>
+    <section class="workspace-routing-panel" aria-labelledby="workspace-routing-title">
+      <div class="workspace-routing-toolbar"><div><div class="workspace-panel-label" id="workspace-routing-title">Version 12 · model routing</div><div style="color:#75695f;font-size:.7rem;margin-top:3px">Choose a transparent, cost-aware model policy for a future AI task. Routing is advisory in client-only mode; no provider is called and no credentials are stored here.</div><div id="workspace-routing-summary">No routing decisions yet.</div></div><button type="button" onclick="renderWorkspaceRouting()">Refresh routing</button></div>
+      <form id="workspace-routing-form" class="workspace-routing-form">
+        <input id="workspace-routing-task" required placeholder="Task name" aria-label="Routing task name">
+        <select id="workspace-routing-workload" aria-label="Workload type"><option value="light">Light extraction or classification</option><option value="standard" selected>Standard analysis or drafting</option><option value="deep">Deep reasoning or evaluation</option><option value="long-context">Long-context or multimodal review</option></select>
+        <select id="workspace-routing-latency" aria-label="Latency preference"><option value="fast">Prefer fast</option><option value="balanced" selected>Balanced</option><option value="quality">Prefer quality</option></select>
+        <select id="workspace-routing-budget" aria-label="Budget preference"><option value="strict">Strict budget</option><option value="moderate" selected>Moderate budget</option><option value="flexible">Flexible budget</option></select>
+        <label class="workspace-routing-chip"><input id="workspace-routing-json" type="checkbox" checked> Structured JSON</label>
+        <label class="workspace-routing-chip"><input id="workspace-routing-vision" type="checkbox"> Vision required</label>
+        <label class="workspace-routing-chip"><input id="workspace-routing-thinking" type="checkbox"> Reasoning required</label>
+        <button type="submit">Route task</button>
+      </form>
+      <div class="workspace-routing-policy"><span class="workspace-routing-chip">Local policy only</span><span class="workspace-routing-chip">Cost + latency visible</span><span class="workspace-routing-chip">Capability checks required</span><span class="workspace-routing-chip">Fallbacks bounded to 2</span><span class="workspace-routing-chip">External execution blocked</span></div>
+      <div id="workspace-routing-history" aria-live="polite"></div>
     </section>
     <div class="workspace-calendar-wrap">
       <div class="workspace-panel-label">Daily objective calendar</div>
@@ -9453,6 +9477,55 @@
       const assessment = { id: `optimizer-${Date.now()}`, draftId: draft.id, title: draft.title, score, checks, recommendations, createdAt: new Date().toISOString(), externalPublication: false };
       workspaceOptimizerAssessments.push(assessment); saveWorkspaceOptimizerAssessments(); renderWorkspaceOptimizer(); workspaceAudit('content-optimization', `Scored “${draft.title}” at ${score}/100.`, { assessmentId: assessment.id, score, externalPublication: false });
     }
+    const WORKSPACE_MODEL_CATALOG = [
+      { id: 'gpt-5-nano', label: 'GPT-5 Nano', family: 'OpenAI', input: 0.05, output: 0.40, latency: 1, context: 400000, vision: true, json: true, thinking: true, best: 'fast, lightweight tasks' },
+      { id: 'gpt-5-mini', label: 'GPT-5 Mini', family: 'OpenAI', input: 0.25, output: 2.00, latency: 2, context: 400000, vision: true, json: true, thinking: true, best: 'balanced everyday work' },
+      { id: 'gpt-5', label: 'GPT-5', family: 'OpenAI', input: 1.25, output: 10.00, latency: 3, context: 400000, vision: true, json: true, thinking: true, best: 'complex reasoning and coding' },
+      { id: 'gpt-5.5', label: 'GPT-5.5', family: 'OpenAI', input: 5.00, output: 30.00, latency: 4, context: 400000, vision: true, json: true, thinking: true, best: 'hardest reasoning workloads' },
+      { id: 'gemini-3-flash-preview', label: 'Gemini 3 Flash', family: 'Google', input: 0.50, output: 3.00, latency: 2, context: 1000000, vision: true, json: true, thinking: true, best: 'long-context and multimodal review' },
+      { id: 'gemini-3.1-pro-preview', label: 'Gemini 3.1 Pro', family: 'Google', input: 2.00, output: 12.00, latency: 4, context: 1000000, vision: true, json: true, thinking: true, best: 'premium long-context reasoning' }
+    ];
+    let workspaceRoutingDecisions = (() => { try { return JSON.parse(localStorage.getItem('clblast_workspace_routing_decisions') || '[]'); } catch (_) { return []; } })();
+    function saveWorkspaceRoutingDecisions() { localStorage.setItem('clblast_workspace_routing_decisions', JSON.stringify(workspaceRoutingDecisions.slice(-100))); }
+    function workspaceRoutingScore(model, request) {
+      let score = 0;
+      if (request.vision && model.vision) score += 25;
+      if (request.json && model.json) score += 10;
+      if (request.thinking && model.thinking) score += 18;
+      if (request.workload === 'light') score += model.id === 'gpt-5-nano' ? 35 : (model.id === 'gpt-5-mini' ? 20 : 0);
+      if (request.workload === 'standard') score += model.id === 'gpt-5-mini' ? 28 : (model.id === 'gpt-5' ? 18 : 0);
+      if (request.workload === 'deep') score += ['gpt-5.5', 'gpt-5'].includes(model.id) ? 35 : 8;
+      if (request.workload === 'long-context') score += model.context >= 1000000 ? 35 : 8;
+      if (request.latency === 'fast') score += 20 - model.latency * 4;
+      if (request.latency === 'quality') score += model.latency * 5;
+      if (request.budget === 'strict') score += Math.max(0, 24 - model.input * 8 - model.output * 1.5);
+      if (request.budget === 'flexible') score += model.input + model.output;
+      if (request.budget === 'moderate') score += Math.max(0, 12 - model.input * 2);
+      return Math.round(score);
+    }
+    function workspaceRoutingCandidates(request) {
+      return WORKSPACE_MODEL_CATALOG.filter(model => (!request.vision || model.vision) && (!request.json || model.json) && (!request.thinking || model.thinking)).map(model => ({ model, score: workspaceRoutingScore(model, request) })).sort((a, b) => b.score - a.score);
+    }
+    function renderWorkspaceRouting() {
+      const summary = document.getElementById('workspace-routing-summary');
+      const history = document.getElementById('workspace-routing-history');
+      if (!summary || !history) return;
+      summary.innerHTML = `<strong>${workspaceRoutingDecisions.length} routing decision${workspaceRoutingDecisions.length === 1 ? '' : 's'}:</strong> advisory policy records stored locally. No model request was sent.`;
+      history.innerHTML = workspaceRoutingDecisions.length ? workspaceRoutingDecisions.slice().reverse().map(item => `<article class="workspace-routing-record"><strong>${workspaceEscape(item.task)} → ${workspaceEscape(item.selected.label)} <span class="workspace-routing-chip">score ${item.selected.score}</span></strong><span>Fallbacks: ${item.fallbacks.map(f => `${workspaceEscape(f.label)} (${f.reason})`).join(' · ') || 'None available'}</span><span>Policy: ${workspaceEscape(item.policy)} · estimated rate: $${item.selected.input.toFixed(2)} input / $${item.selected.output.toFixed(2)} output per 1M tokens</span><span class="workspace-routing-meta">${new Date(item.createdAt).toLocaleString()} · local advisory only · provider call: blocked</span></article>`).join('') : '<div class="workspace-routing-record">No routing decisions yet. Route a task to preview the governed selection and fallback chain.</div>';
+    }
+    function routeWorkspaceTask(event) {
+      event.preventDefault();
+      const task = document.getElementById('workspace-routing-task').value.trim();
+      const request = { workload: document.getElementById('workspace-routing-workload').value, latency: document.getElementById('workspace-routing-latency').value, budget: document.getElementById('workspace-routing-budget').value, json: document.getElementById('workspace-routing-json').checked, vision: document.getElementById('workspace-routing-vision').checked, thinking: document.getElementById('workspace-routing-thinking').checked };
+      const candidates = workspaceRoutingCandidates(request);
+      if (!candidates.length) { showToast('No catalog model satisfies the selected capabilities.', 'error'); return; }
+      const selected = candidates[0];
+      const fallbacks = candidates.slice(1, 3).map(candidate => ({ ...candidate.model, score: candidate.score, reason: candidate.model.family === selected.model.family ? 'same-family fallback' : 'provider-diverse fallback' }));
+      const policy = `${request.workload} workload · ${request.latency} latency · ${request.budget} budget${request.vision ? ' · vision' : ''}${request.thinking ? ' · reasoning' : ''}${request.json ? ' · JSON schema' : ''}`;
+      const decision = { id: `routing-${Date.now()}`, task, request, selected: { ...selected.model, score: selected.score }, fallbacks, policy, createdAt: new Date().toISOString(), externalProviderCall: false };
+      workspaceRoutingDecisions.push(decision); saveWorkspaceRoutingDecisions(); renderWorkspaceRouting(); workspaceAudit('model-routing', `Selected ${selected.model.label} for “${task}” using a local policy preview.`, { decisionId: decision.id, model: selected.model.id, fallbacks: fallbacks.map(item => item.id), externalProviderCall: false });
+      document.getElementById('workspace-routing-task').value = '';
+    }
     function renderWorkspaceRoadmap() {
       const target = document.getElementById('workspace-roadmap');
       if (!target) return;
@@ -9546,7 +9619,7 @@
       if (!item) return;
       item.status = 'completed'; item.completedAt = new Date().toISOString(); saveWorkspaceObjectives(); renderWorkspaceManager(); workspaceRunResolutionEngine(); showToast('Objective completed; resolution status re-evaluated.', 'success');
     }
-    function renderWorkspaceManager() { renderWorkspaceCalendar(); renderWorkspaceAgenda(); renderWorkspaceMission(); renderWorkspaceRoadmap(); renderWorkspaceGoalGraph(); renderWorkspaceMemory(); renderWorkspacePlan(); renderWorkspaceRoleTrace(); renderWorkspaceTools(); renderWorkspaceRecovery(); renderWorkspaceExecutionLedger(); renderWorkspaceContentWorkbench(); renderWorkspaceOptimizer(); renderWorkspaceResearch(); }
+    function renderWorkspaceManager() { renderWorkspaceCalendar(); renderWorkspaceAgenda(); renderWorkspaceMission(); renderWorkspaceRoadmap(); renderWorkspaceGoalGraph(); renderWorkspaceMemory(); renderWorkspacePlan(); renderWorkspaceRoleTrace(); renderWorkspaceTools(); renderWorkspaceRecovery(); renderWorkspaceExecutionLedger(); renderWorkspaceContentWorkbench(); renderWorkspaceOptimizer(); renderWorkspaceResearch(); renderWorkspaceRouting(); }
     function workspaceChatReply(message) {
       const lower = message.toLowerCase();
       if (lower.includes('mission') || lower.includes('progress') || lower.includes('live')) { const s = workspaceMissionSummary(); return `Mission pulse: ${s.liveCount} live ads, ${s.adAgendaCount} ad agendas, ${s.objectiveCount} objectives, and ${s.campaignJobs} campaign jobs are currently contributing to the annual plan.`; }
@@ -9564,6 +9637,7 @@
       document.getElementById('workspace-content-form')?.addEventListener('submit', saveWorkspaceContentDraft);
       document.getElementById('workspace-optimizer-form')?.addEventListener('submit', optimizeWorkspaceDraft);
       document.getElementById('workspace-research-form')?.addEventListener('submit', addWorkspaceResearchEvidence);
+      document.getElementById('workspace-routing-form')?.addEventListener('submit', routeWorkspaceTask);
       renderWorkspaceManager();
       renderWorkspaceMailbox();
       workspaceRunResolutionEngine();

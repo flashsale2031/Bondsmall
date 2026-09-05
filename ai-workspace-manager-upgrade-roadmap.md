@@ -75,6 +75,10 @@ Version 10 is complete when the Workspace Manager scores local advertisement dra
 
 Version 11 is complete when the Workspace Manager provides a local research workspace that captures claims with source titles, optional URLs, excerpts or observation notes, citation identifiers, confidence levels, freshness labels, and user-set contradiction flags. Evidence must render as citation-ready records, preserve a review status, support marking contradiction reviews complete, persist in local storage, and create auditable capture/review events. The workspace must not fetch sources, infer verification, call external research services, or publish claims automatically; all evidence remains subject to human review.
 
+## Version 12 acceptance criteria
+
+Version 12 is complete when the Workspace Manager provides a local, transparent model-routing policy preview that records task type, latency preference, budget preference, required capabilities, selected model, cost-rate metadata, and up to two capability-compatible fallbacks. The policy must use a reviewed model catalog, explain why the selection was made, preserve provider diversity where available, persist decisions locally, and create auditable routing events. In this version, routing is advisory only: no provider request, credential use, external execution, or automatic model invocation may occur from the client-only seller page.
+
 ## ZIP references used for Version 1
 
 The archive suggests several useful patterns: AutoGPT and Ouroboros for bounded iterative loops; CrewAI and MultiMind for separated roles and model routing; OpenClaw, CentaurLoop, and StreamCore for runtime and event-oriented structure; and the hard-logic kernel project for deterministic constraints and an append-only audit concept. These references inform the design only. No archive executable is trusted or run as part of Version 1.
