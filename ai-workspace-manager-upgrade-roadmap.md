@@ -59,6 +59,10 @@ Version 6 is complete when the Workspace Manager exposes a capability registry w
 
 Version 7 is complete when unresolved work uses bounded retry policies with explicit alternatives, exponential-style backoff, a maximum attempt count, and mailbox escalation. Successful work clears its retry state; escalated work stops retrying and remains user-visible. Retry behavior must remain client-only and auditable.
 
+## Version 8 acceptance criteria
+
+Version 8 is complete when the Workspace Manager records structured execution evidence with task inputs, observed outputs, evidence references, completion proofs, status, timestamps, and an explicit no-external-action boundary. A record cannot claim completion without output, evidence, and proof; records persist locally and every mutation is auditable.
+
 ## ZIP references used for Version 1
 
 The archive suggests several useful patterns: AutoGPT and Ouroboros for bounded iterative loops; CrewAI and MultiMind for separated roles and model routing; OpenClaw, CentaurLoop, and StreamCore for runtime and event-oriented structure; and the hard-logic kernel project for deterministic constraints and an append-only audit concept. These references inform the design only. No archive executable is trusted or run as part of Version 1.
