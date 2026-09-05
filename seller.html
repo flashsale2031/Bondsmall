@@ -3765,6 +3765,57 @@
     .toast-notification.toast-warn {
       background: #d68910;
     }
+    /* ═══════════════════════════════════════════════════════════
+       AI WORKSPACE MANAGER
+     ═══════════════════════════════════════════════════════════ */
+    #workspace-manager { margin: 18px auto 16px; width: min(100% - 32px, 1440px); padding: 16px; border: 1px solid rgba(233,69,96,.18); border-radius: 18px; background: linear-gradient(135deg, rgba(255,253,248,.96), rgba(248,245,239,.92)); box-shadow: 0 14px 36px rgba(57,43,29,.12); color: #2b2621; }
+    .workspace-head { display:flex; align-items:flex-start; justify-content:space-between; gap:16px; flex-wrap:wrap; }
+    .workspace-kicker { color:#a04453; font-size:.68rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase; }
+    .workspace-title { margin:3px 0 4px; font-family:'Playfair Display', Georgia, serif; font-size:clamp(1.2rem,2vw,1.65rem); color:#241f1b; }
+    .workspace-subtitle { color:#75695f; font-size:.78rem; max-width:760px; }
+    .workspace-actions { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+    .workspace-actions select, .workspace-actions button, .workspace-chat input { border:1px solid #d8cbbd; border-radius:9px; background:#fff; color:#2b2621; padding:8px 10px; font:inherit; font-size:.78rem; }
+    .workspace-actions button { cursor:pointer; font-weight:700; }
+    .workspace-actions button:hover { border-color:#a04453; color:#8c2f39; }
+    .workspace-grid { display:grid; grid-template-columns:minmax(240px,.8fr) minmax(0,2.2fr); gap:14px; margin-top:14px; }
+    .workspace-chat, .workspace-mission { display:grid; gap:9px; padding:12px; border:1px solid #e3d8cc; border-radius:13px; background:rgba(255,255,255,.65); }
+    .workspace-panel-label { color:#6d5d52; font-size:.68rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }
+    #workspace-chat-log { min-height:88px; max-height:132px; overflow:auto; display:grid; gap:6px; align-content:start; font-size:.76rem; }
+    .workspace-message { padding:7px 9px; border-radius:9px; background:#f4eee7; color:#5d5149; }
+    .workspace-message.user { background:#fbe7ea; color:#7d2d3a; text-align:right; }
+    .workspace-chat-form { display:flex; gap:6px; }
+    .workspace-chat-form input { min-width:0; flex:1; }
+    .workspace-chat-form button { border:0; border-radius:9px; padding:0 12px; background:#8c2f39; color:#fff; font-weight:800; cursor:pointer; }
+    .workspace-mission-copy { color:#51463e; font-size:.77rem; line-height:1.5; }
+    .workspace-progress { height:7px; overflow:hidden; border-radius:99px; background:#eadfd4; }
+    #workspace-progress-fill { display:block; height:100%; width:0%; border-radius:inherit; background:linear-gradient(90deg,#a04453,#d08a4b); transition:width .25s ease; }
+    .workspace-calendar-wrap { margin-top:14px; }
+    .workspace-calendar { display:grid; grid-template-columns:repeat(12,minmax(88px,1fr)); gap:7px; overflow-x:auto; padding-bottom:5px; }
+    .workspace-month { min-width:88px; padding:8px; border:1px solid #e3d8cc; border-radius:11px; background:#fff; }
+    .workspace-month h3 { margin:0 0 7px; color:#8c2f39; font-size:.72rem; text-align:center; }
+    .workspace-weekdays, .workspace-days { display:grid; grid-template-columns:repeat(7,1fr); gap:2px; }
+    .workspace-weekdays span { color:#a89b90; font-size:.5rem; text-align:center; }
+    .workspace-day { min-height:24px; padding:2px 1px; border:1px solid transparent; border-radius:5px; background:#faf7f3; color:#50463f; cursor:pointer; font-size:.57rem; text-align:center; }
+    .workspace-day:hover, .workspace-day:focus-visible { border-color:#c27682; outline:none; }
+    .workspace-day.outside { visibility:hidden; }
+    .workspace-day.today { background:#fbe7ea; color:#8c2f39; font-weight:800; }
+    .workspace-day.has-objective { box-shadow:inset 0 -3px 0 #d08a4b; }
+    .workspace-day.has-ad { box-shadow:inset 0 -3px 0 #8c2f39; }
+    #workspace-agenda { margin-top:10px; display:grid; gap:5px; }
+    .workspace-agenda-item { display:flex; align-items:center; gap:8px; padding:7px 9px; border-radius:8px; background:#fff; border:1px solid #eadfd4; font-size:.72rem; }
+    .workspace-agenda-item strong { color:#8c2f39; }
+    .workspace-mailbox { position:absolute; right:14px; bottom:12px; z-index:3; }
+    #workspace-manager { position:relative; padding-bottom:52px; }
+    #workspace-mailbox-button { border:1px solid #d8cbbd; border-radius:999px; padding:8px 12px; background:#fff; color:#6d2d38; cursor:pointer; font-size:.75rem; font-weight:800; box-shadow:0 7px 18px rgba(57,43,29,.12); }
+    #workspace-mailbox-badge { display:inline-grid; min-width:18px; height:18px; place-items:center; margin-left:4px; border-radius:99px; background:#8c2f39; color:#fff; font-size:.65rem; }
+    #workspace-mailbox-popup { display:none; position:absolute; right:0; bottom:42px; width:min(360px, calc(100vw - 34px)); max-height:300px; overflow:auto; padding:12px; border:1px solid #d8cbbd; border-radius:13px; background:#fffdf8; box-shadow:0 16px 40px rgba(57,43,29,.2); }
+    #workspace-mailbox-popup.open { display:block; }
+    .workspace-mailbox-head { display:flex; justify-content:space-between; gap:8px; align-items:center; margin-bottom:8px; color:#6d2d38; font-size:.75rem; font-weight:800; }
+    .workspace-mailbox-clear { border:0; background:none; color:#8c2f39; cursor:pointer; font-size:.68rem; }
+    .workspace-resolution-item { display:grid; gap:3px; padding:8px 0; border-top:1px solid #eee5dc; color:#5d5149; font-size:.7rem; }
+    .workspace-resolution-item strong { color:#8c2f39; text-transform:capitalize; }
+    .workspace-resolution-meta { color:#a08f82; font-size:.64rem; }
+    @media (max-width: 820px) { .workspace-grid { grid-template-columns:1fr; } .workspace-calendar { grid-template-columns:repeat(12,minmax(82px,1fr)); } #workspace-manager { width:min(100% - 20px,1440px); margin-top:10px; padding:12px; } }
   </style>
     <link rel="stylesheet" href="localization.css?v=1.0.4">
     <script src="localization.js?v=1.0.4" defer></script>
@@ -3815,6 +3866,50 @@
       </div>
     </div>
   </header>
+
+  <section id="workspace-manager" aria-labelledby="workspace-title">
+    <div class="workspace-head">
+      <div>
+        <div class="workspace-kicker">AI Workspace Manager</div>
+        <h1 class="workspace-title" id="workspace-title">Mission control for daily execution</h1>
+        <p class="workspace-subtitle">Plan advertisement, publication, and content-creation work in one agenda. Choose a period, then select any day to add an autonomous objective.</p>
+      </div>
+      <div class="workspace-actions">
+        <label for="workspace-period" class="workspace-panel-label">Period</label>
+        <select id="workspace-period" aria-label="Workspace calendar period">
+          <option value="annual">Annual</option><option value="monthly">Monthly</option><option value="weekly">Weekly</option>
+        </select>
+        <button type="button" onclick="window.open('companymission.html','_blank','noopener,noreferrer')">Open mission</button>
+      </div>
+    </div>
+    <div class="workspace-grid">
+      <section class="workspace-chat" aria-labelledby="workspace-chat-title">
+        <div class="workspace-panel-label" id="workspace-chat-title">AI workspace chat</div>
+        <div id="workspace-chat-log" aria-live="polite"><div class="workspace-message">Tell me an objective to schedule, or ask for a live mission update.</div></div>
+        <form class="workspace-chat-form" id="workspace-chat-form">
+          <input id="workspace-chat-input" type="text" placeholder="e.g. Schedule a content objective for today" aria-label="Workspace chat message" />
+          <button type="submit">Send</button>
+        </form>
+      </section>
+      <section class="workspace-mission" aria-labelledby="workspace-mission-title">
+        <div class="workspace-panel-label" id="workspace-mission-title">Live mission pulse</div>
+        <div id="workspace-mission-copy" class="workspace-mission-copy"></div>
+        <div class="workspace-progress" aria-label="Mission progress"><span id="workspace-progress-fill"></span></div>
+        <div id="workspace-agenda" aria-live="polite"></div>
+      </section>
+    </div>
+    <div class="workspace-calendar-wrap">
+      <div class="workspace-panel-label">Daily objective calendar</div>
+      <div id="workspace-calendar" class="workspace-calendar" role="grid" aria-label="Workspace calendar"></div>
+    </div>
+    <div class="workspace-mailbox">
+      <div id="workspace-mailbox-popup" role="dialog" aria-label="Workspace resolution mailbox">
+        <div class="workspace-mailbox-head"><span>Resolution mailbox</span><button type="button" class="workspace-mailbox-clear" onclick="clearWorkspaceMailbox()">Clear all</button></div>
+        <div id="workspace-mailbox-list"></div>
+      </div>
+      <button type="button" id="workspace-mailbox-button" onclick="toggleWorkspaceMailbox()" aria-expanded="false" aria-controls="workspace-mailbox-popup">✉ Resolution mailbox <span id="workspace-mailbox-badge">0</span></button>
+    </div>
+  </section>
 
   <div id="captcha-notification-popup" role="dialog" aria-modal="false" aria-labelledby="captcha-notification-title">
     <div class="captcha-notification-popup-header">
@@ -6995,7 +7090,10 @@
       if (CLIENT_ONLY_MODE) {
         runClientOnlyHandoff(job);
         renderAdWindowTray();
-        if (jobQueue.some(item => item.status === 'pending')) setTimeout(startNextJob, 0);
+        // Keep client-only handoffs sequential. The lightweight browser has one
+        // shared destination address; launching every platform concurrently would
+        // leave it pointing at the last platform and block confirmations for the
+        // earlier jobs via the destination safety guard.
         return;
       }
 
@@ -7073,7 +7171,7 @@
         location: locations[0] || { city: job.city_name || '', state: job.state || '', zip: job.zip_code || '' },
         locations,
         products: items,
-        instructions: 'Open the destination, sign in manually, and paste each prepared listing. This bundle does not automate third-party posting.'
+        instructions: 'Open the verified destination, sign in manually, and complete each prepared listing. External login, CAPTCHA, and final publish remain user-controlled.'
       };
     }
 
@@ -7445,6 +7543,10 @@
         window.MarketplaceAdapter.registerJob(job);
       }
       persistClientCampaign();
+      // Establish the verified platform destination before the safety guard runs.
+      // On a fresh launch the lightweight browser address was empty, which caused
+      // every ClassifiedAds handoff to be blocked even when the account was connected.
+      openMiniBrowser(clientPlatformUrl(job.platform));
       if (!requirePlatformDestination(job.platform, 'listing handoff')) return;
       if (['classifiedads', 'facebook_marketplace'].includes(job.platform) && job.locations?.length) {
         ensureJobSessionWindow(job);
@@ -8751,6 +8853,170 @@
       }
     }
 
+    /* ═══════════════════════════════════════════════════════════
+       AI WORKSPACE MANAGER
+     ═══════════════════════════════════════════════════════════ */
+    const WORKSPACE_MISSION = Object.freeze({ locations: 19500, yield: 500000000000, deadline: 'September 1, 2027' });
+    let workspacePeriod = 'annual';
+    let workspaceSelectedDate = scheduleDateKey(new Date());
+    let workspaceObjectives = (() => { try { return JSON.parse(localStorage.getItem('clblast_workspace_agendas') || '[]'); } catch (_) { return []; } })();
+    const WORKSPACE_CATEGORY_LABELS = { advertisement: 'Advertisement', publication: 'Publication', content: 'Content creation' };
+    function saveWorkspaceObjectives() { localStorage.setItem('clblast_workspace_agendas', JSON.stringify(workspaceObjectives)); }
+    function workspaceDate(date) { return scheduleDateKey(date); }
+    function workspaceMonthName(month) { return scheduleMonthNames[month] || ''; }
+    function workspaceObjectiveItems(dateKey) { return workspaceObjectives.filter(item => item.date === dateKey); }
+    function workspaceAdItems(dateKey) { return scheduleEntries.filter(item => item.date === dateKey); }
+    function workspaceEscape(value) { return escHtml(String(value || '')); }
+    function workspacePromptForObjective(dateKey) {
+      const title = window.prompt(`Objective for ${dateKey}`);
+      if (!title?.trim()) return;
+      const categoryInput = window.prompt('Category: advertisement, publication, or content', 'content');
+      const raw = (categoryInput || 'content').toLowerCase();
+      const category = raw.includes('advert') ? 'advertisement' : raw.includes('publish') ? 'publication' : 'content';
+      workspaceObjectives.push({ id: `workspace-${Date.now()}`, date: dateKey, title: title.trim(), category, createdAt: new Date().toISOString(), status: 'planned' });
+      saveWorkspaceObjectives();
+      workspaceSelectedDate = dateKey;
+      renderWorkspaceManager();
+      showToast('Workspace objective added.', 'success');
+    }
+    function workspaceMonthCard(year, month, selectedDays = null) {
+      const first = new Date(year, month, 1);
+      const lastDay = new Date(year, month + 1, 0).getDate();
+      const cells = [];
+      for (let i = 0; i < first.getDay(); i++) cells.push('<button class="workspace-day outside" tabindex="-1" aria-hidden="true"></button>');
+      for (let day = 1; day <= lastDay; day++) {
+        const date = new Date(year, month, day);
+        const key = workspaceDate(date);
+        if (selectedDays && !selectedDays.has(key)) continue;
+        const objectiveCount = workspaceObjectiveItems(key).length;
+        const adCount = workspaceAdItems(key).length;
+        const classes = ['workspace-day'];
+        if (key === workspaceDate(new Date())) classes.push('today');
+        if (objectiveCount) classes.push('has-objective');
+        if (adCount) classes.push('has-ad');
+        cells.push(`<button type="button" class="${classes.join(' ')}" data-workspace-date="${key}" aria-label="${key}, ${objectiveCount} objectives, ${adCount} advertisement agendas">${day}${objectiveCount + adCount ? `<sup>${objectiveCount + adCount}</sup>` : ''}</button>`);
+      }
+      return `<section class="workspace-month" aria-label="${workspaceMonthName(month)} ${year}"><h3>${workspaceMonthName(month).slice(0, 3)} ${year}</h3><div class="workspace-weekdays">${['S','M','T','W','T','F','S'].map(day => `<span>${day}</span>`).join('')}</div><div class="workspace-days">${cells.join('')}</div></section>`;
+    }
+    function renderWorkspaceCalendar() {
+      const calendar = document.getElementById('workspace-calendar');
+      if (!calendar) return;
+      const now = new Date();
+      if (workspacePeriod === 'annual') {
+        calendar.innerHTML = Array.from({ length: 12 }, (_, month) => workspaceMonthCard(now.getFullYear(), month)).join('');
+      } else if (workspacePeriod === 'monthly') {
+        calendar.innerHTML = workspaceMonthCard(now.getFullYear(), now.getMonth());
+      } else {
+        const start = new Date(now); start.setDate(now.getDate() - now.getDay());
+        const cells = Array.from({ length: 7 }, (_, i) => {
+          const date = new Date(start.getFullYear(), start.getMonth(), start.getDate() + i);
+          const key = workspaceDate(date);
+          const objectiveCount = workspaceObjectiveItems(key).length;
+          const adCount = workspaceAdItems(key).length;
+          const classes = ['workspace-day'];
+          if (key === workspaceDate(new Date())) classes.push('today');
+          if (objectiveCount) classes.push('has-objective');
+          if (adCount) classes.push('has-ad');
+          return `<button type="button" class="${classes.join(' ')}" data-workspace-date="${key}" aria-label="${key}, ${objectiveCount} objectives, ${adCount} advertisement agendas">${date.getDate()}${objectiveCount + adCount ? `<sup>${objectiveCount + adCount}</sup>` : ''}</button>`;
+        }).join('');
+        calendar.innerHTML = `<section class="workspace-month workspace-week-card" aria-label="Week of ${workspaceDate(start)}"><h3>Week of ${workspaceMonthName(start.getMonth()).slice(0, 3)} ${start.getDate()}</h3><div class="workspace-weekdays">${Array.from({ length: 7 }, (_, i) => `<span>${['S','M','T','W','T','F','S'][i]}</span>`).join('')}</div><div class="workspace-days">${cells}</div></section>`;
+      }
+    }
+    function renderWorkspaceAgenda() {
+      const agenda = document.getElementById('workspace-agenda');
+      if (!agenda) return;
+      const objectives = workspaceObjectiveItems(workspaceSelectedDate).map(item => `<div class="workspace-agenda-item"><strong>${workspaceEscape(WORKSPACE_CATEGORY_LABELS[item.category] || 'Objective')}</strong><span>${workspaceEscape(item.title)}${item.status === 'completed' ? ' · completed' : ''}</span>${item.status !== 'completed' ? `<button type="button" onclick="workspaceCompleteObjective('${workspaceEscape(item.id)}')" style="margin-left:auto;border:1px solid #d8cbbd;border-radius:7px;background:#fff;padding:4px 7px;color:#8c2f39;font-size:.65rem;cursor:pointer">Complete</button>` : ''}</div>`);
+      const ads = workspaceAdItems(workspaceSelectedDate).map(item => `<div class="workspace-agenda-item"><strong>Advertisement</strong><span>${workspaceEscape(item.adTitle || item.adTitles?.[0] || 'Scheduled ad')} · ${workspaceEscape(item.platform || 'multiple')}</span></div>`);
+      agenda.innerHTML = `<div class="workspace-panel-label">Agenda for ${workspaceEscape(workspaceSelectedDate)}</div>${objectives.concat(ads).join('') || '<div class="workspace-agenda-item">Select a day to view or add objectives.</div>'}`;
+    }
+    function workspaceMissionSummary() {
+      const objectiveCount = workspaceObjectives.length;
+      const adAgendaCount = scheduleEntries.length;
+      const liveCount = Object.values(allListings || {}).filter(item => isActive(item)).length;
+      const campaigns = JSON.parse(localStorage.getItem('clblast_client_campaign') || 'null');
+      const campaignJobs = campaigns?.jobs?.length || 0;
+      const progress = Math.min(100, Math.round(((liveCount + adAgendaCount + objectiveCount + campaignJobs) / Math.max(1, WORKSPACE_MISSION.locations)) * 100));
+      return { objectiveCount, adAgendaCount, liveCount, campaignJobs, progress };
+    }
+    function renderWorkspaceMission() {
+      const copy = document.getElementById('workspace-mission-copy');
+      const fill = document.getElementById('workspace-progress-fill');
+      if (!copy) return;
+      const stats = workspaceMissionSummary();
+      copy.innerHTML = `The live operation is advancing toward <strong>${WORKSPACE_MISSION.locations.toLocaleString()} new locations</strong> and a <strong>$${WORKSPACE_MISSION.yield.toLocaleString()}</strong> net yield by <strong>${WORKSPACE_MISSION.deadline}</strong>. Current execution includes ${stats.liveCount} live advertisements, ${stats.adAgendaCount} advertisement agendas, ${stats.objectiveCount} workspace objectives, and ${stats.campaignJobs} campaign jobs. The plan is converting daily execution into measurable mission progress.`;
+      if (fill) fill.style.width = `${stats.progress}%`;
+    }
+    let workspaceResolutionTimer = null;
+    let workspaceResolutionMailbox = (() => { try { return JSON.parse(localStorage.getItem('clblast_workspace_resolution_mailbox') || '[]'); } catch (_) { return []; } })();
+    const WORKSPACE_PROBLEM_RESOLUTION_SHEET = [
+      { stage: 'task', action: 'Validate the daily agenda, keep the scope to one safe objective, and prepare the next user-controlled step.' },
+      { stage: 'objective', action: 'Re-plan the objective using its existing category and the next available agenda date.' },
+      { stage: 'project', action: 'Review the linked advertisement, publication, and content work before attempting a broader change.' },
+      { stage: 'program', action: 'Retry the program through the safest available client-only workflow without submitting externally.' },
+      { stage: 'operation', action: 'Reconcile active listings, schedules, and campaign state, then retry only the missing operation.' },
+      { stage: 'mission', action: 'Keep the mission paused at this stage and request user review rather than taking an unsafe irreversible action.' }
+    ];
+    function saveWorkspaceMailbox() { localStorage.setItem('clblast_workspace_resolution_mailbox', JSON.stringify(workspaceResolutionMailbox.slice(-20))); }
+    function toggleWorkspaceMailbox() { const popup = document.getElementById('workspace-mailbox-popup'); const button = document.getElementById('workspace-mailbox-button'); const open = !popup.classList.contains('open'); popup.classList.toggle('open', open); button.setAttribute('aria-expanded', String(open)); }
+    function clearWorkspaceMailbox() { workspaceResolutionMailbox = []; saveWorkspaceMailbox(); renderWorkspaceMailbox(); }
+    function renderWorkspaceMailbox() {
+      const list = document.getElementById('workspace-mailbox-list');
+      const badge = document.getElementById('workspace-mailbox-badge');
+      if (!list) return;
+      badge.textContent = String(workspaceResolutionMailbox.length);
+      list.innerHTML = workspaceResolutionMailbox.length ? workspaceResolutionMailbox.slice().reverse().map(item => `<div class="workspace-resolution-item"><strong>${workspaceEscape(item.stage)} remaining</strong><span>${workspaceEscape(item.summary)}</span><span class="workspace-resolution-meta">Attempt ${item.attempt} · next retry ${workspaceEscape(item.nextRetry)}</span></div>`).join('') : '<div class="workspace-resolution-item">No unresolved mission work. Successful work is cleared automatically.</div>';
+    }
+    function workspaceResolutionAnalysis() {
+      const objectives = workspaceObjectives.filter(item => item.status !== 'completed');
+      const live = Object.values(allListings || {}).filter(item => isActive(item)).length;
+      const campaign = JSON.parse(localStorage.getItem('clblast_client_campaign') || 'null');
+      const campaignPending = (campaign?.jobs || []).some(job => !['done', 'posted', 'completed'].includes(job.status));
+      if (!workspaceObjectives.length) return { stage: 'task', summary: 'No daily objective is available to execute safely.', key: 'task:daily-objective' };
+      if (objectives.length) return { stage: 'task', summary: `The objective “${objectives[0].title}” is still ${objectives[0].status || 'planned'} and has not been marked complete.`, key: `task:${objectives[0].id}` };
+      if (!scheduleEntries.length && !live) return { stage: 'objective', summary: 'Completed tasks have not produced an advertisement, publication, or content result yet.', key: 'objective:output' };
+      if (!scheduleEntries.length) return { stage: 'project', summary: 'No publication project is linked to the completed objective.', key: 'project:publication' };
+      if (campaignPending) return { stage: 'program', summary: 'A campaign still has pending jobs that require a safe client-only retry.', key: 'program:campaign' };
+      if (!live) return { stage: 'operation', summary: 'The operation has no active listings to demonstrate live progress.', key: 'operation:live-listings' };
+      return null;
+    }
+    function workspaceResolutionRetry(analysis) {
+      const rule = WORKSPACE_PROBLEM_RESOLUTION_SHEET.find(item => item.stage === analysis.stage);
+      const existing = workspaceResolutionMailbox.find(item => item.key === analysis.key);
+      const nextRetry = new Date(Date.now() + 120000).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+      const entry = { key: analysis.key, stage: analysis.stage, summary: `${analysis.summary} Safe action: ${rule.action}`, attempt: (existing?.attempt || 0) + 1, nextRetry, updatedAt: new Date().toISOString() };
+      workspaceResolutionMailbox = workspaceResolutionMailbox.filter(item => item.key !== analysis.key).concat(entry).slice(-20);
+      saveWorkspaceMailbox();
+      renderWorkspaceMailbox();
+    }
+    function workspaceRunResolutionEngine() {
+      const analysis = workspaceResolutionAnalysis();
+      if (!analysis) { clearWorkspaceMailbox(); return; }
+      workspaceResolutionRetry(analysis);
+      if (workspaceResolutionTimer) clearTimeout(workspaceResolutionTimer);
+      workspaceResolutionTimer = setTimeout(workspaceRunResolutionEngine, 120000);
+    }
+    function workspaceCompleteObjective(id) {
+      const item = workspaceObjectives.find(objective => objective.id === id);
+      if (!item) return;
+      item.status = 'completed'; item.completedAt = new Date().toISOString(); saveWorkspaceObjectives(); renderWorkspaceManager(); workspaceRunResolutionEngine(); showToast('Objective completed; resolution status re-evaluated.', 'success');
+    }
+    function renderWorkspaceManager() { renderWorkspaceCalendar(); renderWorkspaceAgenda(); renderWorkspaceMission(); }
+    function workspaceChatReply(message) {
+      const lower = message.toLowerCase();
+      if (lower.includes('mission') || lower.includes('progress') || lower.includes('live')) { const s = workspaceMissionSummary(); return `Mission pulse: ${s.liveCount} live ads, ${s.adAgendaCount} ad agendas, ${s.objectiveCount} objectives, and ${s.campaignJobs} campaign jobs are currently contributing to the annual plan.`; }
+      if (lower.includes('schedule') || lower.includes('objective') || lower.includes('agenda')) { workspacePromptForObjective(workspaceDate(new Date())); return 'I opened the daily objective flow for today. The new item will appear on the calendar and in the agenda.'; }
+      return 'I can schedule an objective, summarize live mission progress, or show advertisement and publication agendas. Try “schedule a content objective” or “show mission progress”.';
+    }
+    function initWorkspaceManager() {
+      document.getElementById('workspace-period')?.addEventListener('change', event => { workspacePeriod = event.target.value; renderWorkspaceCalendar(); });
+      document.getElementById('workspace-calendar')?.addEventListener('click', event => { const day = event.target.closest('[data-workspace-date]'); if (day) { workspaceSelectedDate = day.dataset.workspaceDate; renderWorkspaceAgenda(); } });
+      document.getElementById('workspace-calendar')?.addEventListener('dblclick', event => { const day = event.target.closest('[data-workspace-date]'); if (day) workspacePromptForObjective(day.dataset.workspaceDate); });
+      document.getElementById('workspace-chat-form')?.addEventListener('submit', event => { event.preventDefault(); const input = document.getElementById('workspace-chat-input'); const message = input?.value.trim(); if (!message) return; const log = document.getElementById('workspace-chat-log'); log.insertAdjacentHTML('beforeend', `<div class="workspace-message user">${workspaceEscape(message)}</div><div class="workspace-message">${workspaceEscape(workspaceChatReply(message))}</div>`); input.value = ''; log.scrollTop = log.scrollHeight; });
+      renderWorkspaceManager();
+      renderWorkspaceMailbox();
+      workspaceRunResolutionEngine();
+    }
+    initWorkspaceManager();
     function resetLaunchButton() {
       const launchBtn = document.getElementById('launch-btn');
       if (launchBtn) {

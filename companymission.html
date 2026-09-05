@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Company Mission — Bonds Mall</title>
+  <style>
+    :root{--ink:#241f1b;--muted:#75695f;--paper:#fffdf8;--cream:#f4eee7;--rose:#8c2f39;--gold:#d08a4b;--line:#e3d8cc}*{box-sizing:border-box}body{margin:0;color:var(--ink);background:radial-gradient(circle at 15% 10%,#fbe7ea,transparent 35%),var(--cream);font-family:Inter,system-ui,sans-serif;line-height:1.6}.shell{width:min(100% - 32px,1100px);margin:40px auto}.eyebrow{color:var(--rose);font-size:.72rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase}.hero,.card{background:rgba(255,253,248,.9);border:1px solid var(--line);border-radius:20px;box-shadow:0 18px 45px rgba(57,43,29,.1)}.hero{padding:clamp(24px,5vw,58px)}h1{max-width:860px;margin:8px 0 18px;font:700 clamp(2rem,5vw,4.4rem)/1.03 Georgia,serif;letter-spacing:-.04em}h2{margin:0 0 10px;font:700 1.35rem Georgia,serif}.lead{max-width:780px;color:#51463e;font-size:clamp(1rem,2vw,1.25rem)}.metrics{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:28px}.metric{padding:16px;border-radius:14px;background:#fff;border:1px solid var(--line)}.metric strong{display:block;color:var(--rose);font-size:clamp(1.25rem,3vw,2rem)}.layout{display:grid;grid-template-columns:1.2fr .8fr;gap:16px;margin-top:16px}.card{padding:22px}.progress{height:10px;border-radius:99px;background:#eadfd4;overflow:hidden}.progress span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--rose),var(--gold));transition:width .3s}.list{display:grid;gap:8px;margin-top:12px}.item{padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:#fff;font-size:.86rem}.item b{color:var(--rose)}footer{margin-top:18px;color:var(--muted);font-size:.78rem}@media(max-width:720px){.metrics,.layout{grid-template-columns:1fr}.shell{width:min(100% - 20px,1100px);margin:20px auto}}
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div class="eyebrow">Bonds Mall · Company Mission</div>
+      <h1>Acquire 19,500 new locations by September 1, 2027 — and net yield $500,000,000,000.00.</h1>
+      <p class="lead">Every advertisement agenda, publication workflow, content program, and autonomous workspace objective is organized to compound toward this annual mission.</p>
+      <div class="metrics"><div class="metric"><span>Location objective</span><strong>19,500</strong><small>new locations by September 1, 2027</small></div><div class="metric"><span>Net-yield objective</span><strong>$500B</strong><small>$500,000,000,000.00 annual target</small></div></div>
+    </section>
+    <section class="layout">
+      <article class="card"><h2>Current operations statement</h2><p id="live-statement">Loading live operations…</p><div class="progress"><span id="mission-progress"></span></div><div id="progress-label" style="margin-top:8px;color:var(--muted);font-size:.8rem"></div></article>
+      <article class="card"><h2>Live agendas</h2><div id="agenda-list" class="list"></div></article>
+    </section>
+    <footer>Generated from the seller workspace’s local agenda, advertisement schedule, active listings, and client campaign state. Refresh to regenerate the statement.</footer>
+  </main>
+  <script>
+    (()=>{
+      const read=(key,fallback)=>{try{return JSON.parse(localStorage.getItem(key)||JSON.stringify(fallback))}catch(_){return fallback}};
+      const schedules=read('clblast_schedules',[]), objectives=read('clblast_workspace_agendas',[]), campaign=read('clblast_client_campaign',null), listings=read('clblast_listings',{});
+      const live=Object.values(listings||{}).filter(item=>item&&item.status&& !['expired','inactive','deleted'].includes(String(item.status).toLowerCase())).length;
+      const jobs=campaign?.jobs?.length||0, total=schedules.length+objectives.length+live+jobs, progress=Math.min(100,Math.round(total/19500*100));
+      document.getElementById('live-statement').textContent=`Current operations include ${live} live advertisements, ${schedules.length} advertisement publication agendas, ${objectives.length} workspace objectives, and ${jobs} campaign jobs. Together these live programs are building a repeatable acquisition and content engine aimed at the September 1, 2027 location objective and the $500,000,000,000.00 net-yield objective.`;
+      document.getElementById('mission-progress').style.width=progress+'%';
+      document.getElementById('progress-label').textContent=`${total.toLocaleString()} tracked execution items · ${progress}% of the location-objective progress indicator`;
+      const items=[...objectives.map(x=>({date:x.date,label:x.category||'Objective',text:x.title})),...schedules.map(x=>({date:x.date,label:'Advertisement',text:x.adTitle||x.adTitles?.[0]||'Scheduled publication'}))].sort((a,b)=>String(a.date).localeCompare(String(b.date))).slice(0,12);
+      document.getElementById('agenda-list').innerHTML=items.length?items.map(x=>`<div class="item"><b>${x.date||'Unscheduled'}</b> · ${x.label}<br>${x.text||''}</div>`).join(''):'<div class="item">No agendas are recorded yet. Add objectives in the Workspace Manager.</div>';
+    })();
+  </script>
+</body>
+</html>
