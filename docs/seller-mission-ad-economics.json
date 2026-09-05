@@ -1,0 +1,26 @@
+{
+  "mission": {
+    "financialGoalUsd": 500000000000,
+    "locationObjective": 19500,
+    "locationObjectiveDate": "2027-09-01",
+    "adsPerSale": 200,
+    "defaultTargetLocations": 19500
+  },
+  "formula": {
+    "salesNeeded": "financialTargetUsd / netYieldPerSaleUsd",
+    "adsNeeded": "salesNeeded * adsPerSale",
+    "adsPerCityOrTown": "adsNeeded / targetCityOrTownCount"
+  },
+  "aggregation": {
+    "target": "sum(product.financialTargetUsd)",
+    "sales": "sum(product.salesNeeded)",
+    "ads": "sum(product.adsNeeded)",
+    "adsPerCityOrTown": "aggregateAds / targetCityOrTownCount"
+  },
+  "assumptions": [
+    "The 200 ads per sale ratio is a planning assumption.",
+    "Product price is treated as net yield per sale for planning calculations.",
+    "Displayed ad and sale counts are rounded upward for operational planning.",
+    "Actual conversion depends on market, inventory, platform rules, geography, pricing, and operating costs."
+  ]
+}
