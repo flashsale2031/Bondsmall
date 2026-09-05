@@ -3789,6 +3789,17 @@
     .workspace-mission-copy { color:#51463e; font-size:.77rem; line-height:1.5; }
     .workspace-progress { height:7px; overflow:hidden; border-radius:99px; background:#eadfd4; }
     #workspace-progress-fill { display:block; height:100%; width:0%; border-radius:inherit; background:linear-gradient(90deg,#a04453,#d08a4b); transition:width .25s ease; }
+    .workspace-mission-economics { margin-top:9px; display:grid; gap:8px; }
+    .workspace-econ-summary { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:6px; }
+    .workspace-econ-summary div { display:grid; gap:2px; padding:8px; border:1px solid #e3d8cc; border-radius:9px; background:#fff; }
+    .workspace-econ-summary strong { color:#8c2f39; font-size:.8rem; }
+    .workspace-econ-summary span { color:#75695f; font-size:.6rem; }
+    .workspace-econ-note { color:#75695f; font-size:.64rem; line-height:1.45; }
+    .workspace-econ-table-wrap { max-height:270px; overflow:auto; border:1px solid #e3d8cc; border-radius:9px; background:#fff; }
+    .workspace-econ-table { width:100%; border-collapse:collapse; font-size:.62rem; }
+    .workspace-econ-table th { position:sticky; top:0; z-index:1; padding:6px; background:#f4eee7; color:#6d5d52; text-align:left; }
+    .workspace-econ-table td { padding:6px; border-top:1px solid #eee5dc; color:#51463e; }
+    .workspace-econ-table td:nth-child(n+2) { white-space:nowrap; text-align:right; }
     .workspace-calendar-wrap { margin-top:14px; }
     .workspace-calendar { display:grid; grid-template-columns:repeat(12,minmax(88px,1fr)); gap:7px; overflow-x:auto; padding-bottom:5px; }
     .workspace-month { min-width:88px; padding:8px; border:1px solid #e3d8cc; border-radius:11px; background:#fff; }
@@ -4096,6 +4107,7 @@
       <section class="workspace-mission" aria-labelledby="workspace-mission-title">
         <div class="workspace-panel-label" id="workspace-mission-title">Live mission pulse</div>
         <div id="workspace-mission-copy" class="workspace-mission-copy"></div>
+        <div id="workspace-mission-economics" class="workspace-mission-economics" aria-label="50-state economic mission math"></div>
         <div class="workspace-progress" aria-label="Mission progress"><span id="workspace-progress-fill"></span></div>
         <div id="workspace-agenda" aria-live="polite"></div>
       </section>
@@ -9257,7 +9269,25 @@
     /* ═══════════════════════════════════════════════════════════
        AI WORKSPACE MANAGER
      ═══════════════════════════════════════════════════════════ */
-    const WORKSPACE_MISSION = Object.freeze({ locations: 19500, yield: 500000000000, deadline: 'September 1, 2027' });
+    const WORKSPACE_MISSION = Object.freeze({ locations: 19482, yield: 500000000000, deadline: 'September 1, 2027', margin: 0.50 });
+    const WORKSPACE_STATE_LOCATION_PLAN = Object.freeze([["Alabama",463],["Alaska",149],["Arizona",91],["Arkansas",501],["California",483],["Colorado",272],["Connecticut",30],["Delaware",57],["Florida",411],["Georgia",538],["Hawaii",1],["Idaho",198],["Illinois",1294],["Indiana",566],["Iowa",939],["Kansas",625],["Kentucky",418],["Louisiana",305],["Maine",23],["Maryland",157],["Massachusetts",58],["Michigan",533],["Minnesota",856],["Mississippi",299],["Missouri",936],["Montana",127],["Nebraska",528],["Nevada",19],["New Hampshire",13],["New Jersey",323],["New Mexico",105],["New York",594],["North Carolina",549],["North Dakota",355],["Ohio",924],["Oklahoma",591],["Oregon",240],["Pennsylvania",1014],["Rhode Island",8],["South Carolina",271],["South Dakota",310],["Tennessee",345],["Texas",1224],["Utah",255],["Vermont",39],["Virginia",227],["Washington",281],["West Virginia",230],["Wisconsin",608],["Wyoming",99]]);
+    const WORKSPACE_PRODUCT_STRATEGY = Object.freeze([
+      { name: "2021 American Liberty Bronco 1 OZ Gold $100 Coin", price: 5999.99 },
+      { name: "2026 American Buffalo 1 OZ Gold $50 Coin", price: 3999.99 },
+      { name: "2026 American Eagle 1 OZ Gold $50 Coin", price: 3749.99 },
+      { name: "Women's Yves Saint Laurent Lavalliere Blouse In Silk Georgette And Lace", price: 3479.99 },
+      { name: "Women's Chanel Handbag", price: 2499.99 },
+      { name: "Women's Fendi Sweater", price: 1999.99 },
+      { name: "Women's Prada Handbag", price: 1999.99 },
+      { name: "Men's Louis Vuitton Travel Bag", price: 1499.99 },
+      { name: "Gucci Glasses", price: 1499.99 },
+      { name: "Men's Gucci Travel Bag", price: 1089.99 },
+      { name: "Men's Gucci Sweater", price: 1099.99 },
+      { name: "Men's Fendi Sweater", price: 1099.99 },
+      { name: "Apple iMac Pro 27 in Retina 5K (2020) 512 GB", price: 299.99 },
+      { name: "Sony Playstation 5 (Disc Version)", price: 299.99 },
+      { name: "Nintendo Switch 2", price: 249.99 }
+    ]);
     let workspacePeriod = 'annual';
     let workspaceSelectedDate = scheduleDateKey(new Date());
     let workspaceObjectives = (() => { try { return JSON.parse(localStorage.getItem('clblast_workspace_agendas') || '[]'); } catch (_) { return []; } })();
@@ -9721,10 +9751,32 @@
     function renderWorkspaceMission() {
       const copy = document.getElementById('workspace-mission-copy');
       const fill = document.getElementById('workspace-progress-fill');
+      const economics = document.getElementById('workspace-mission-economics');
       if (!copy) return;
       const stats = workspaceMissionSummary();
-      copy.innerHTML = `The live operation is advancing toward <strong>${WORKSPACE_MISSION.locations.toLocaleString()} new locations</strong> and a <strong>$${WORKSPACE_MISSION.yield.toLocaleString()}</strong> net yield by <strong>${WORKSPACE_MISSION.deadline}</strong>. Current execution includes ${stats.liveCount} live advertisements, ${stats.adAgendaCount} advertisement agendas, ${stats.objectiveCount} workspace objectives, and ${stats.campaignJobs} campaign jobs. The plan is converting daily execution into measurable mission progress.`;
+      const perLocation = WORKSPACE_MISSION.yield / WORKSPACE_MISSION.locations;
+      const stateRows = WORKSPACE_STATE_LOCATION_PLAN.map(([state, locations]) => {
+        const target = locations * perLocation;
+        return `<tr><td>${workspaceEscape(state)}</td><td>${locations.toLocaleString()}</td><td>$${target.toLocaleString(undefined,{maximumFractionDigits:0})}</td><td>$${perLocation.toLocaleString(undefined,{maximumFractionDigits:0})}</td></tr>`;
+      }).join('');
+      const productRows = WORKSPACE_PRODUCT_STRATEGY.map(product => {
+        const gp = product.price * WORKSPACE_MISSION.margin;
+        const units = Math.ceil(perLocation / gp);
+        return `<tr><td>${workspaceEscape(product.name)}</td><td>$${product.price.toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2})}</td><td>${units.toLocaleString()}</td><td>$${gp.toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2})}</td></tr>`;
+      }).join('');
+      copy.innerHTML = `The financial mission targets <strong>$${WORKSPACE_MISSION.yield.toLocaleString()}</strong> of profit across <strong>${WORKSPACE_MISSION.locations.toLocaleString()} Census Vintage 2025 city/place locations in the 50 states</strong> by <strong>${WORKSPACE_MISSION.deadline}</strong>. Equal allocation requires an average <strong>$${perLocation.toLocaleString(undefined,{maximumFractionDigits:0})} profit contribution per location</strong>. State targets are proportional to each state's location count; the product portfolio is a means of generating sales, not a guarantee of profit.`;
       if (fill) fill.style.width = `${stats.progress}%`;
+      if (economics) economics.innerHTML = `
+        <div class="workspace-econ-summary">
+          <div><strong>$${WORKSPACE_MISSION.yield.toLocaleString()}</strong><span>Total profit target</span></div>
+          <div><strong>${WORKSPACE_MISSION.locations.toLocaleString()}</strong><span>50-state locations</span></div>
+          <div><strong>$${perLocation.toLocaleString(undefined,{maximumFractionDigits:0})}</strong><span>Average/location</span></div>
+          <div><strong>${(WORKSPACE_MISSION.yield/12).toLocaleString(undefined,{maximumFractionDigits:0})}</strong><span>Annualized/month target</span></div>
+        </div>
+        <div class="workspace-econ-note">Math: total target ÷ locations = average location target. State target = state locations × average location target. Product units below are illustrative gross-profit equivalents at ${Math.round(WORKSPACE_MISSION.margin*100)}% contribution margin; actual net profit must subtract fulfillment, platform fees, taxes, returns, customer acquisition, and operating costs.</div>
+        <div class="workspace-econ-table-wrap"><table class="workspace-econ-table"><thead><tr><th>State</th><th>Locations</th><th>State profit target</th><th>Per-location target</th></tr></thead><tbody>${stateRows}</tbody></table></div>
+        <div class="workspace-econ-table-wrap"><table class="workspace-econ-table"><thead><tr><th>Product in Bonds Mall catalog</th><th>Price</th><th>Units/location if product alone supplied target</th><th>50% gross-profit contribution/unit</th></tr></thead><tbody>${productRows}</tbody></table></div>
+        <div class="workspace-econ-note"><strong>Portfolio strategy:</strong> combine high-value products (gold coins, designer handbags, luxury apparel/accessories) with electronics, entertainment, home goods, and repeat lower-ticket purchases. A combined mix is more practical than assuming one SKU can satisfy an entire location's target. The system should select mixes based on verified price, actual margin, demand, inventory, fees, and completed sales.</div>`;
     }
     let workspaceResolutionTimer = null;
     let workspaceResolutionMailbox = (() => { try { return JSON.parse(localStorage.getItem('clblast_workspace_resolution_mailbox') || '[]'); } catch (_) { return []; } })();
