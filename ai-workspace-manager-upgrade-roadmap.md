@@ -35,6 +35,10 @@ The supplied archive is being used as an architectural reference rather than cop
 
 Version 1 is complete when the Workspace Manager can run a deterministic self-diagnosis, identify the first unresolved stage, display safe next actions, record an auditable event, show the 20-stage roadmap, and keep execution in a dry-run or user-controlled state. It must not claim that an objective succeeded without evidence.
 
+## Version 2 acceptance criteria
+
+Version 2 is complete when the Workspace Manager displays a mission-to-task goal graph with explicit dependency links, derives node status from current workspace evidence, propagates blocked and active states upward without inventing completion, and records graph refreshes in the audit history. The graph remains read-only in this version; it does not execute external actions or mutate mission goals automatically.
+
 ## ZIP references used for Version 1
 
 The archive suggests several useful patterns: AutoGPT and Ouroboros for bounded iterative loops; CrewAI and MultiMind for separated roles and model routing; OpenClaw, CentaurLoop, and StreamCore for runtime and event-oriented structure; and the hard-logic kernel project for deterministic constraints and an append-only audit concept. These references inform the design only. No archive executable is trusted or run as part of Version 1.

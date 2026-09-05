@@ -3828,6 +3828,21 @@
     .workspace-stage { min-height:45px; padding:6px; border:1px solid #e3d8cc; border-radius:7px; background:#fff; color:#655950; font-size:.62rem; }
     .workspace-stage strong { display:block; color:#8c2f39; font-size:.66rem; }
     .workspace-stage.current { border-color:#c27682; box-shadow:inset 0 -3px 0 #d08a4b; }
+    .workspace-graph-panel { margin-top:12px; padding:11px; border:1px solid #e3d8cc; border-radius:13px; background:rgba(255,255,255,.65); }
+    .workspace-graph-toolbar { display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap; }
+    .workspace-graph-toolbar button { border:1px solid #d8cbbd; border-radius:8px; padding:7px 10px; background:#fff; color:#8c2f39; cursor:pointer; font-size:.7rem; font-weight:800; }
+    #workspace-goal-graph { display:grid; grid-template-columns:repeat(6,minmax(132px,1fr)); gap:7px; overflow-x:auto; margin-top:9px; padding-bottom:4px; }
+    .workspace-graph-column { display:grid; align-content:start; gap:6px; min-width:132px; }
+    .workspace-graph-column-title { color:#a04453; font-size:.62rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }
+    .workspace-graph-node { display:grid; gap:3px; min-height:58px; padding:7px; border:1px solid #e3d8cc; border-radius:9px; background:#fff; font-size:.64rem; color:#5d5149; }
+    .workspace-graph-node strong { color:#2b2621; font-size:.68rem; }
+    .workspace-graph-node small { color:#9a8b7e; font-size:.59rem; }
+    .workspace-graph-node.ready { border-color:#d08a4b; box-shadow:inset 0 -3px 0 #d08a4b; }
+    .workspace-graph-node.active { border-color:#c27682; box-shadow:inset 0 -3px 0 #c27682; }
+    .workspace-graph-node.complete { border-color:#75a68a; background:#f0f7f2; }
+    .workspace-graph-node.blocked { background:#fff5e8; }
+    .workspace-graph-status { font-weight:800; text-transform:capitalize; }
+    .workspace-graph-dependencies { color:#a08f82; font-size:.57rem; }
     @media (max-width: 820px) { .workspace-v1 { grid-template-columns:1fr; } #workspace-roadmap { grid-template-columns:repeat(2,minmax(0,1fr)); } }
     @media (max-width: 820px) { .workspace-grid { grid-template-columns:1fr; } .workspace-calendar { grid-template-columns:repeat(12,minmax(82px,1fr)); } #workspace-manager { width:min(100% - 20px,1440px); margin-top:10px; padding:12px; } }
   </style>
@@ -3923,6 +3938,10 @@
         <div id="workspace-roadmap"></div>
       </section>
     </div>
+    <section class="workspace-graph-panel" aria-labelledby="workspace-graph-title">
+      <div class="workspace-graph-toolbar"><div><div class="workspace-panel-label" id="workspace-graph-title">Version 2 · mission goal graph</div><div style="color:#75695f;font-size:.7rem;margin-top:3px">Status propagates upward from tasks to objectives, projects, programs, operations, and the mission. A dependency never counts as complete without evidence.</div></div><button type="button" onclick="renderWorkspaceGoalGraph(); workspaceAudit('goal-graph','Goal graph refreshed manually.')">Refresh graph</button></div>
+      <div id="workspace-goal-graph" role="tree" aria-label="Mission goal graph"></div>
+    </section>
     <div class="workspace-calendar-wrap">
       <div class="workspace-panel-label">Daily objective calendar</div>
       <div id="workspace-calendar" class="workspace-calendar" role="grid" aria-label="Workspace calendar"></div>
@@ -8972,6 +8991,39 @@
     let workspaceAuditEvents = (() => { try { return JSON.parse(localStorage.getItem('clblast_workspace_audit') || '[]'); } catch (_) { return []; } })();
     function saveWorkspaceAudit() { localStorage.setItem('clblast_workspace_audit', JSON.stringify(workspaceAuditEvents.slice(-100))); }
     function workspaceAudit(type, message, details = {}) { workspaceAuditEvents.push({ id: `audit-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`, type, message, details, timestamp: new Date().toISOString() }); saveWorkspaceAudit(); }
+    const WORKSPACE_GOAL_GRAPH = [
+      { id: 'mission', type: 'mission', label: 'Annual mission', description: '19,500 locations + $500B net yield', deps: ['operation-growth', 'operation-yield'] },
+      { id: 'operation-growth', type: 'operation', label: 'Location expansion', description: 'Build the location acquisition engine', deps: ['program-acquisition'] },
+      { id: 'operation-yield', type: 'operation', label: 'Net-yield growth', description: 'Convert live programs into yield', deps: ['program-revenue'] },
+      { id: 'program-acquisition', type: 'program', label: 'Acquisition program', description: 'Coordinate advertisement and publication work', deps: ['project-publication'] },
+      { id: 'program-revenue', type: 'program', label: 'Revenue program', description: 'Measure live listings and campaign output', deps: ['project-content'] },
+      { id: 'project-publication', type: 'project', label: 'Publication project', description: 'Turn scheduled ads into reviewed publications', deps: ['objective-daily'] },
+      { id: 'project-content', type: 'project', label: 'Content project', description: 'Create content that supports acquisition', deps: ['objective-daily'] },
+      { id: 'objective-daily', type: 'objective', label: 'Daily execution objective', description: 'Complete planned workspace objectives', deps: ['task-objective'] },
+      { id: 'task-objective', type: 'task', label: 'Create and verify objective', description: 'One safe, user-defined objective with evidence', deps: [] }
+    ];
+    const WORKSPACE_GRAPH_TYPES = ['task', 'objective', 'project', 'program', 'operation', 'mission'];
+    function workspaceGoalStatus(node, statuses, stats) {
+      const deps = node.deps.map(id => statuses[id]);
+      if (deps.some(status => status === 'blocked')) return 'blocked';
+      if (node.id === 'task-objective') return stats.objectiveCount ? (stats.objectiveCount === workspaceObjectives.filter(item => item.status === 'completed').length ? 'complete' : 'active') : 'ready';
+      if (node.id === 'objective-daily') return !stats.objectiveCount ? 'blocked' : (stats.objectiveCount === workspaceObjectives.filter(item => item.status === 'completed').length ? 'complete' : 'active');
+      if (node.id === 'project-publication') return stats.adAgendaCount ? 'complete' : 'blocked';
+      if (node.id === 'project-content') return stats.objectiveCount ? 'active' : 'blocked';
+      if (node.id === 'program-acquisition') return stats.adAgendaCount && stats.liveCount ? 'complete' : (deps.every(status => ['complete', 'active'].includes(status)) ? 'active' : 'blocked');
+      if (node.id === 'program-revenue') return stats.liveCount ? 'complete' : (deps.every(status => ['complete', 'active'].includes(status)) ? 'active' : 'blocked');
+      if (node.type === 'operation') return deps.every(status => status === 'complete') ? 'active' : 'blocked';
+      return deps.every(status => status === 'complete') ? 'active' : 'blocked';
+    }
+    function renderWorkspaceGoalGraph() {
+      const target = document.getElementById('workspace-goal-graph');
+      if (!target) return;
+      const stats = workspaceMissionSummary();
+      const statuses = {};
+      [...WORKSPACE_GOAL_GRAPH].reverse().forEach(node => { statuses[node.id] = workspaceGoalStatus(node, statuses, stats); });
+      target.innerHTML = WORKSPACE_GRAPH_TYPES.map(type => `<div class="workspace-graph-column"><div class="workspace-graph-column-title">${type}</div>${WORKSPACE_GOAL_GRAPH.filter(node => node.type === type).map(node => `<div class="workspace-graph-node ${statuses[node.id]}" role="treeitem" aria-label="${workspaceEscape(node.label)}: ${statuses[node.id]}"><strong>${workspaceEscape(node.label)}</strong><small>${workspaceEscape(node.description)}</small><span class="workspace-graph-status">${statuses[node.id]}</span><span class="workspace-graph-dependencies">${node.deps.length ? `Depends on: ${node.deps.map(id => workspaceEscape(WORKSPACE_GOAL_GRAPH.find(item => item.id === id)?.label || id)).join(', ')}` : 'No dependencies'}</span></div>`).join('') || '<div style="color:#a08f82;font-size:.62rem">No nodes</div>'}</div>`).join('');
+      window.workspaceGoalStatuses = statuses;
+    }
     function renderWorkspaceRoadmap() {
       const target = document.getElementById('workspace-roadmap');
       if (!target) return;
@@ -9060,7 +9112,7 @@
       if (!item) return;
       item.status = 'completed'; item.completedAt = new Date().toISOString(); saveWorkspaceObjectives(); renderWorkspaceManager(); workspaceRunResolutionEngine(); showToast('Objective completed; resolution status re-evaluated.', 'success');
     }
-    function renderWorkspaceManager() { renderWorkspaceCalendar(); renderWorkspaceAgenda(); renderWorkspaceMission(); renderWorkspaceRoadmap(); }
+    function renderWorkspaceManager() { renderWorkspaceCalendar(); renderWorkspaceAgenda(); renderWorkspaceMission(); renderWorkspaceRoadmap(); renderWorkspaceGoalGraph(); }
     function workspaceChatReply(message) {
       const lower = message.toLowerCase();
       if (lower.includes('mission') || lower.includes('progress') || lower.includes('live')) { const s = workspaceMissionSummary(); return `Mission pulse: ${s.liveCount} live ads, ${s.adAgendaCount} ad agendas, ${s.objectiveCount} objectives, and ${s.campaignJobs} campaign jobs are currently contributing to the annual plan.`; }
