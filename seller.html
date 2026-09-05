@@ -3843,6 +3843,19 @@
     .workspace-graph-node.blocked { background:#fff5e8; }
     .workspace-graph-status { font-weight:800; text-transform:capitalize; }
     .workspace-graph-dependencies { color:#a08f82; font-size:.57rem; }
+    .workspace-memory-panel { margin-top:12px; padding:11px; border:1px solid #e3d8cc; border-radius:13px; background:rgba(255,255,255,.65); }
+    .workspace-memory-toolbar { display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap; }
+    .workspace-memory-toolbar button, .workspace-memory-form button { border:1px solid #d8cbbd; border-radius:8px; padding:7px 10px; background:#fff; color:#8c2f39; cursor:pointer; font-size:.7rem; font-weight:800; }
+    .workspace-memory-form { display:grid; grid-template-columns:120px minmax(0,1.5fr) minmax(130px,.8fr) 110px auto; gap:6px; margin-top:9px; }
+    .workspace-memory-form input, .workspace-memory-form select, #workspace-memory-search { min-width:0; border:1px solid #d8cbbd; border-radius:8px; padding:7px 8px; background:#fff; color:#2b2621; font:inherit; font-size:.7rem; }
+    #workspace-memory-search { width:100%; margin-top:7px; }
+    #workspace-memory-list { display:grid; gap:6px; margin-top:8px; max-height:220px; overflow:auto; }
+    .workspace-memory-record { display:grid; grid-template-columns:82px minmax(0,1fr) 104px 22px; gap:7px; align-items:start; padding:8px; border:1px solid #e3d8cc; border-radius:8px; background:#fff; font-size:.68rem; }
+    .workspace-memory-type { color:#8c2f39; font-weight:800; text-transform:capitalize; }
+    .workspace-memory-content { color:#51463e; overflow-wrap:anywhere; }
+    .workspace-memory-meta { color:#9a8b7e; font-size:.6rem; }
+    .workspace-memory-delete { border:0; background:transparent; color:#a04453; cursor:pointer; font-size:.8rem; }
+    @media (max-width: 820px) { .workspace-memory-form { grid-template-columns:1fr 1fr; } .workspace-memory-form input:nth-child(2) { grid-column:span 2; } .workspace-memory-record { grid-template-columns:74px minmax(0,1fr) 24px; } .workspace-memory-meta { grid-column:span 2; } }
     @media (max-width: 820px) { .workspace-v1 { grid-template-columns:1fr; } #workspace-roadmap { grid-template-columns:repeat(2,minmax(0,1fr)); } }
     @media (max-width: 820px) { .workspace-grid { grid-template-columns:1fr; } .workspace-calendar { grid-template-columns:repeat(12,minmax(82px,1fr)); } #workspace-manager { width:min(100% - 20px,1440px); margin-top:10px; padding:12px; } }
   </style>
@@ -3941,6 +3954,18 @@
     <section class="workspace-graph-panel" aria-labelledby="workspace-graph-title">
       <div class="workspace-graph-toolbar"><div><div class="workspace-panel-label" id="workspace-graph-title">Version 2 · mission goal graph</div><div style="color:#75695f;font-size:.7rem;margin-top:3px">Status propagates upward from tasks to objectives, projects, programs, operations, and the mission. A dependency never counts as complete without evidence.</div></div><button type="button" onclick="renderWorkspaceGoalGraph(); workspaceAudit('goal-graph','Goal graph refreshed manually.')">Refresh graph</button></div>
       <div id="workspace-goal-graph" role="tree" aria-label="Mission goal graph"></div>
+    </section>
+    <section class="workspace-memory-panel" aria-labelledby="workspace-memory-title">
+      <div class="workspace-memory-toolbar"><div><div class="workspace-panel-label" id="workspace-memory-title">Version 3 · persistent workspace memory</div><div style="color:#75695f;font-size:.7rem;margin-top:3px">Store only typed facts, decisions, or assumptions with a source and confidence. Memory remains local to this browser and can be removed at any time.</div></div><button type="button" onclick="clearWorkspaceMemory()">Clear memory</button></div>
+      <form id="workspace-memory-form" class="workspace-memory-form">
+        <select id="workspace-memory-type" aria-label="Memory type"><option value="fact">Fact</option><option value="decision">Decision</option><option value="assumption">Assumption</option></select>
+        <input id="workspace-memory-content" required placeholder="What should the workspace remember?" aria-label="Memory content" />
+        <input id="workspace-memory-source" required placeholder="Source or provenance" aria-label="Memory source" />
+        <select id="workspace-memory-confidence" aria-label="Memory confidence"><option value="high">High confidence</option><option value="medium" selected>Medium confidence</option><option value="low">Low confidence</option></select>
+        <button type="submit">Save memory</button>
+      </form>
+      <input id="workspace-memory-search" type="search" placeholder="Search memory by type, content, or source…" aria-label="Search workspace memory" />
+      <div id="workspace-memory-list" aria-live="polite"></div>
     </section>
     <div class="workspace-calendar-wrap">
       <div class="workspace-panel-label">Daily objective calendar</div>
@@ -9024,6 +9049,28 @@
       target.innerHTML = WORKSPACE_GRAPH_TYPES.map(type => `<div class="workspace-graph-column"><div class="workspace-graph-column-title">${type}</div>${WORKSPACE_GOAL_GRAPH.filter(node => node.type === type).map(node => `<div class="workspace-graph-node ${statuses[node.id]}" role="treeitem" aria-label="${workspaceEscape(node.label)}: ${statuses[node.id]}"><strong>${workspaceEscape(node.label)}</strong><small>${workspaceEscape(node.description)}</small><span class="workspace-graph-status">${statuses[node.id]}</span><span class="workspace-graph-dependencies">${node.deps.length ? `Depends on: ${node.deps.map(id => workspaceEscape(WORKSPACE_GOAL_GRAPH.find(item => item.id === id)?.label || id)).join(', ')}` : 'No dependencies'}</span></div>`).join('') || '<div style="color:#a08f82;font-size:.62rem">No nodes</div>'}</div>`).join('');
       window.workspaceGoalStatuses = statuses;
     }
+    let workspaceMemory = (() => { try { return JSON.parse(localStorage.getItem('clblast_workspace_memory') || '[]'); } catch (_) { return []; } })();
+    function saveWorkspaceMemory() { localStorage.setItem('clblast_workspace_memory', JSON.stringify(workspaceMemory.slice(-200))); }
+    function renderWorkspaceMemory() {
+      const list = document.getElementById('workspace-memory-list');
+      if (!list) return;
+      const query = (document.getElementById('workspace-memory-search')?.value || '').trim().toLowerCase();
+      const records = workspaceMemory.filter(item => !query || [item.type, item.content, item.source, item.confidence].join(' ').toLowerCase().includes(query));
+      list.innerHTML = records.length ? records.slice().reverse().map(item => `<div class="workspace-memory-record"><span class="workspace-memory-type">${workspaceEscape(item.type)}</span><span class="workspace-memory-content">${workspaceEscape(item.content)}</span><span class="workspace-memory-meta">${workspaceEscape(item.confidence)} confidence<br>${workspaceEscape(item.source)}<br>${new Date(item.createdAt).toLocaleString()}</span><button type="button" class="workspace-memory-delete" onclick="deleteWorkspaceMemory('${workspaceEscape(item.id)}')" aria-label="Delete memory">×</button></div>`).join('') : '<div class="workspace-memory-record"><span class="workspace-memory-content">No matching memory records. Save a fact, decision, or assumption with provenance to begin.</span></div>';
+    }
+    function addWorkspaceMemory(event) {
+      event.preventDefault();
+      const type = document.getElementById('workspace-memory-type').value;
+      const content = document.getElementById('workspace-memory-content').value.trim();
+      const source = document.getElementById('workspace-memory-source').value.trim();
+      const confidence = document.getElementById('workspace-memory-confidence').value;
+      if (!content || !source) return;
+      workspaceMemory.push({ id: `memory-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`, type, content, source, confidence, createdAt: new Date().toISOString(), updatedAt: new Date().toISOString() });
+      saveWorkspaceMemory(); renderWorkspaceMemory(); workspaceAudit('memory-add', `Saved a ${type} memory with provenance.`, { type, source, confidence });
+      event.target.reset();
+    }
+    function deleteWorkspaceMemory(id) { workspaceMemory = workspaceMemory.filter(item => item.id !== id); saveWorkspaceMemory(); renderWorkspaceMemory(); workspaceAudit('memory-delete', 'Deleted a workspace memory record.', { id }); }
+    function clearWorkspaceMemory() { if (!workspaceMemory.length || !window.confirm('Clear all local workspace memory?')) return; workspaceMemory = []; saveWorkspaceMemory(); renderWorkspaceMemory(); workspaceAudit('memory-clear', 'Cleared all local workspace memory.'); }
     function renderWorkspaceRoadmap() {
       const target = document.getElementById('workspace-roadmap');
       if (!target) return;
@@ -9112,7 +9159,7 @@
       if (!item) return;
       item.status = 'completed'; item.completedAt = new Date().toISOString(); saveWorkspaceObjectives(); renderWorkspaceManager(); workspaceRunResolutionEngine(); showToast('Objective completed; resolution status re-evaluated.', 'success');
     }
-    function renderWorkspaceManager() { renderWorkspaceCalendar(); renderWorkspaceAgenda(); renderWorkspaceMission(); renderWorkspaceRoadmap(); renderWorkspaceGoalGraph(); }
+    function renderWorkspaceManager() { renderWorkspaceCalendar(); renderWorkspaceAgenda(); renderWorkspaceMission(); renderWorkspaceRoadmap(); renderWorkspaceGoalGraph(); renderWorkspaceMemory(); }
     function workspaceChatReply(message) {
       const lower = message.toLowerCase();
       if (lower.includes('mission') || lower.includes('progress') || lower.includes('live')) { const s = workspaceMissionSummary(); return `Mission pulse: ${s.liveCount} live ads, ${s.adAgendaCount} ad agendas, ${s.objectiveCount} objectives, and ${s.campaignJobs} campaign jobs are currently contributing to the annual plan.`; }
@@ -9124,6 +9171,8 @@
       document.getElementById('workspace-calendar')?.addEventListener('click', event => { const day = event.target.closest('[data-workspace-date]'); if (day) { workspaceSelectedDate = day.dataset.workspaceDate; renderWorkspaceAgenda(); } });
       document.getElementById('workspace-calendar')?.addEventListener('dblclick', event => { const day = event.target.closest('[data-workspace-date]'); if (day) workspacePromptForObjective(day.dataset.workspaceDate); });
       document.getElementById('workspace-chat-form')?.addEventListener('submit', event => { event.preventDefault(); const input = document.getElementById('workspace-chat-input'); const message = input?.value.trim(); if (!message) return; const log = document.getElementById('workspace-chat-log'); log.insertAdjacentHTML('beforeend', `<div class="workspace-message user">${workspaceEscape(message)}</div><div class="workspace-message">${workspaceEscape(workspaceChatReply(message))}</div>`); input.value = ''; log.scrollTop = log.scrollHeight; });
+      document.getElementById('workspace-memory-form')?.addEventListener('submit', addWorkspaceMemory);
+      document.getElementById('workspace-memory-search')?.addEventListener('input', renderWorkspaceMemory);
       renderWorkspaceManager();
       renderWorkspaceMailbox();
       workspaceRunResolutionEngine();
