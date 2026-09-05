@@ -3881,6 +3881,19 @@
     .workspace-role-card small { display:block; color:#9a8b7e; margin:3px 0; }
     .workspace-role-handoff { margin-top:6px; padding-top:5px; border-top:1px solid #eee4da; color:#8c2f39; font-size:.58rem; }
     @media (max-width: 820px) { #workspace-role-trace { grid-template-columns:repeat(5, minmax(160px,1fr)); } }
+    .workspace-tools-panel { margin-top:12px; padding:11px; border:1px solid #e3d8cc; border-radius:13px; background:rgba(255,255,255,.65); }
+    .workspace-tools-toolbar { display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap; }
+    .workspace-tools-toolbar button { border:1px solid #d8cbbd; border-radius:8px; padding:7px 10px; background:#fff; color:#8c2f39; cursor:pointer; font-size:.7rem; font-weight:800; }
+    #workspace-tools-summary { color:#75695f; font-size:.68rem; margin-top:5px; }
+    #workspace-tool-list { display:grid; grid-template-columns:repeat(3,minmax(170px,1fr)); gap:7px; margin-top:9px; }
+    .workspace-tool-card { display:grid; gap:4px; padding:8px; border:1px solid #e3d8cc; border-radius:9px; background:#fff; color:#51463e; font-size:.63rem; }
+    .workspace-tool-card.approved { border-color:#75a68a; background:#f0f7f2; }
+    .workspace-tool-card.blocked { border-color:#c27682; background:#fff1f0; }
+    .workspace-tool-card strong { color:#8c2f39; font-size:.69rem; }
+    .workspace-tool-card small { color:#9a8b7e; }
+    .workspace-tool-scope { font-weight:800; text-transform:capitalize; }
+    .workspace-tool-card button { border:1px solid #d8cbbd; border-radius:7px; padding:5px 7px; background:#fff; color:#8c2f39; cursor:pointer; font-size:.62rem; font-weight:800; }
+    @media (max-width: 820px) { #workspace-tool-list { grid-template-columns:1fr; } }
     @media (max-width: 820px) { .workspace-v1 { grid-template-columns:1fr; } #workspace-roadmap { grid-template-columns:repeat(2,minmax(0,1fr)); } }
     @media (max-width: 820px) { .workspace-grid { grid-template-columns:1fr; } .workspace-calendar { grid-template-columns:repeat(12,minmax(82px,1fr)); } #workspace-manager { width:min(100% - 20px,1440px); margin-top:10px; padding:12px; } }
   </style>
@@ -4002,6 +4015,11 @@
       <div class="workspace-orchestration-toolbar"><div><div class="workspace-panel-label" id="workspace-orchestration-title">Version 5 · bounded role orchestration</div><div style="color:#75695f;font-size:.7rem;margin-top:3px">Planner, researcher, executor, verifier, and safety reviewer operate in sequence. The executor is always gated in this version.</div></div><button type="button" onclick="runWorkspaceRoleOrchestration()">Run role review</button></div>
       <div id="workspace-orchestration-summary">No role review run yet. Run a dry-run review to inspect role boundaries and handoffs.</div>
       <div id="workspace-role-trace" aria-live="polite"></div>
+    </section>
+    <section class="workspace-tools-panel" aria-labelledby="workspace-tools-title">
+      <div class="workspace-tools-toolbar"><div><div class="workspace-panel-label" id="workspace-tools-title">Version 6 · governed tool registry</div><div style="color:#75695f;font-size:.7rem;margin-top:3px">Capabilities are discoverable with explicit scopes. Dry-run is the default; blocked tools cannot be enabled from this panel.</div></div><button type="button" onclick="renderWorkspaceTools(); workspaceAudit('tool-registry','Tool registry refreshed.')">Refresh registry</button></div>
+      <div id="workspace-tools-summary">Loading capability registry…</div>
+      <div id="workspace-tool-list" aria-live="polite"></div>
     </section>
     <div class="workspace-calendar-wrap">
       <div class="workspace-panel-label">Daily objective calendar</div>
@@ -9160,6 +9178,30 @@
       workspaceRoleRuns.push({ id: `role-run-${Date.now()}`, startedAt: new Date().toISOString(), mode: 'dry-run', overall, roles });
       saveWorkspaceRoleRuns(); renderWorkspaceRoleTrace(); workspaceAudit('role-review', overall, { roles: roles.map(role => ({ name: role.name, status: role.status })), externalExecution: 'gated' });
     }
+    const WORKSPACE_TOOL_REGISTRY = [
+      { id: 'read-state', name: 'Read workspace state', scope: 'read-local', approval: 'approved', description: 'Inspect agendas, graph status, plans, memory metadata, and local listings.', boundary: 'No writes and no external requests.' },
+      { id: 'generate-plan', name: 'Generate plan draft', scope: 'plan-local', approval: 'approved', description: 'Create a review-only plan with evidence and rollback notes.', boundary: 'Does not execute a plan.' },
+      { id: 'save-memory', name: 'Save typed memory', scope: 'write-local', approval: 'approved', description: 'Persist a fact, decision, or assumption with provenance.', boundary: 'Local browser storage only; user can delete it.' },
+      { id: 'prepare-handoff', name: 'Prepare client-only handoff', scope: 'handoff-draft', approval: 'approved', description: 'Prepare a listing handoff draft for user review.', boundary: 'No external submission or account action.' },
+      { id: 'external-submit', name: 'Submit external publication', scope: 'external-submit', approval: 'blocked', description: 'Submit an advertisement or publication to a third-party platform.', boundary: 'Blocked in Version 6; requires a later human-approval gate.' },
+      { id: 'account-access', name: 'Access external account', scope: 'external-account', approval: 'blocked', description: 'Log in, change credentials, or modify an external account.', boundary: 'Blocked in Version 6; never enabled by the registry.' }
+    ];
+    function renderWorkspaceTools() {
+      const list = document.getElementById('workspace-tool-list');
+      const summary = document.getElementById('workspace-tools-summary');
+      if (!list || !summary) return;
+      const approved = WORKSPACE_TOOL_REGISTRY.filter(tool => tool.approval === 'approved').length;
+      const blocked = WORKSPACE_TOOL_REGISTRY.length - approved;
+      summary.innerHTML = `<strong>${WORKSPACE_TOOL_REGISTRY.length} capabilities discovered:</strong> ${approved} local dry-run tools available, ${blocked} consequential tools blocked. Permission scopes are explicit and external execution is disabled.`;
+      list.innerHTML = WORKSPACE_TOOL_REGISTRY.map(tool => `<article class="workspace-tool-card ${tool.approval}"><strong>${workspaceEscape(tool.name)}</strong><span class="workspace-tool-scope">${workspaceEscape(tool.scope)} · ${tool.approval === 'approved' ? 'dry-run available' : 'blocked'}</span><small>${workspaceEscape(tool.description)}</small><small>${workspaceEscape(tool.boundary)}</small>${tool.approval === 'approved' ? `<button type="button" onclick="runWorkspaceToolDryRun('${workspaceEscape(tool.id)}')">Run dry-run</button>` : '<button type="button" disabled title="Blocked by Version 6 policy">Blocked by policy</button>'}</article>`).join('');
+    }
+    function runWorkspaceToolDryRun(toolId) {
+      const tool = WORKSPACE_TOOL_REGISTRY.find(item => item.id === toolId);
+      if (!tool || tool.approval !== 'approved') { workspaceAudit('tool-blocked', 'Blocked a tool outside the approved dry-run scope.', { toolId }); return; }
+      workspaceAudit('tool-dry-run', `Ran ${tool.name} in dry-run mode.`, { toolId, scope: tool.scope, externalExecution: false });
+      const summary = document.getElementById('workspace-tools-summary');
+      if (summary) summary.innerHTML = `<strong>Dry-run recorded:</strong> ${workspaceEscape(tool.name)} completed locally. No external request was made.`;
+    }
     function renderWorkspaceRoadmap() {
       const target = document.getElementById('workspace-roadmap');
       if (!target) return;
@@ -9248,7 +9290,7 @@
       if (!item) return;
       item.status = 'completed'; item.completedAt = new Date().toISOString(); saveWorkspaceObjectives(); renderWorkspaceManager(); workspaceRunResolutionEngine(); showToast('Objective completed; resolution status re-evaluated.', 'success');
     }
-    function renderWorkspaceManager() { renderWorkspaceCalendar(); renderWorkspaceAgenda(); renderWorkspaceMission(); renderWorkspaceRoadmap(); renderWorkspaceGoalGraph(); renderWorkspaceMemory(); renderWorkspacePlan(); renderWorkspaceRoleTrace(); }
+    function renderWorkspaceManager() { renderWorkspaceCalendar(); renderWorkspaceAgenda(); renderWorkspaceMission(); renderWorkspaceRoadmap(); renderWorkspaceGoalGraph(); renderWorkspaceMemory(); renderWorkspacePlan(); renderWorkspaceRoleTrace(); renderWorkspaceTools(); }
     function workspaceChatReply(message) {
       const lower = message.toLowerCase();
       if (lower.includes('mission') || lower.includes('progress') || lower.includes('live')) { const s = workspaceMissionSummary(); return `Mission pulse: ${s.liveCount} live ads, ${s.adAgendaCount} ad agendas, ${s.objectiveCount} objectives, and ${s.campaignJobs} campaign jobs are currently contributing to the annual plan.`; }

@@ -51,6 +51,10 @@ Version 4 is complete when the Workspace Manager can generate a review-only plan
 
 Version 5 is complete when the Workspace Manager runs bounded, sequential role reviews for planner, researcher, executor, verifier, and safety reviewer; displays each handoff and result; persists a trace; and keeps the executor explicitly gated. Role output must be based on local workspace evidence, and the run must end at user-controlled review without external submission.
 
+## Version 6 acceptance criteria
+
+Version 6 is complete when the Workspace Manager exposes a capability registry with discoverable tools, explicit permission scopes, approval states, and dry-run behavior. Local read, planning, memory, and handoff-draft tools may be dry-run tested; external publication and account-access tools must remain blocked and cannot be enabled from the registry. Tool runs and blocked attempts are auditable.
+
 ## ZIP references used for Version 1
 
 The archive suggests several useful patterns: AutoGPT and Ouroboros for bounded iterative loops; CrewAI and MultiMind for separated roles and model routing; OpenClaw, CentaurLoop, and StreamCore for runtime and event-oriented structure; and the hard-logic kernel project for deterministic constraints and an append-only audit concept. These references inform the design only. No archive executable is trusted or run as part of Version 1.
