@@ -3992,19 +3992,31 @@
     @media (max-width: 820px) { .workspace-v1 { grid-template-columns:1fr; } #workspace-roadmap { grid-template-columns:repeat(2,minmax(0,1fr)); } }
     @media (max-width: 820px) { .workspace-grid { grid-template-columns:1fr; } .workspace-calendar { grid-template-columns:repeat(12,minmax(82px,1fr)); } #workspace-manager { width:min(100% - 20px,1440px); margin-top:10px; padding:12px; } }
   
-    .workspace-v14-v20 { margin-top:12px; padding:14px; border:1px solid #e3d8cc; border-radius:13px; background:rgba(255,255,255,.65); }
-    .workspace-v14-v20-toolbar { display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap; }
+    .workspace-v14-v20-panel { margin-top:12px; padding:11px; border:1px solid #e3d8cc; border-radius:13px; background:rgba(255,255,255,.65); }
+    .workspace-v14-v20-stage-panel { margin-top:10px; padding:11px; border:1px solid #e3d8cc; border-radius:13px; background:rgba(255,255,255,.72); }
+    .workspace-v14-v20-toolbar { display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap; }
     .workspace-v14-v20-subtitle { color:#75695f; font-size:.7rem; margin-top:3px; line-height:1.45; }
     .workspace-v14-v20-badge { padding:6px 9px; border-radius:999px; background:#f4eee7; color:#8c2f39; font-size:.68rem; font-weight:800; }
-    .workspace-v14-v20-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; margin-top:10px; }
-    .workspace-v14-v20-stage { padding:10px; border:1px solid #e3d8cc; border-radius:10px; background:#fff; color:#5d5149; }
-    .workspace-v14-v20-stage-head { display:flex; justify-content:space-between; gap:8px; align-items:center; }
-    .workspace-v14-v20-number { color:#8c2f39; font-size:.64rem; font-weight:800; letter-spacing:.04em; }
-    .workspace-v14-v20-status { color:#75695f; font-size:.62rem; }
-    .workspace-v14-v20-stage h3 { margin:5px 0 3px; font-size:.8rem; color:#403731; }
-    .workspace-v14-v20-stage p { margin:0 0 8px; font-size:.66rem; line-height:1.4; color:#75695f; }
-    .workspace-v14-v20-review { border:1px solid #d8cbbd; border-radius:8px; padding:6px 9px; background:#fff; color:#8c2f39; cursor:pointer; font-size:.64rem; font-weight:700; }
-    .workspace-v14-v20-result { margin-top:6px; color:#286043; font-size:.61rem; }
+    .workspace-v14-v20-summary { margin-top:5px; color:#75695f; font-size:.68rem; line-height:1.4; }
+    .workspace-v14-v20-form { display:grid; grid-template-columns:minmax(0,1.4fr) minmax(130px,1fr) minmax(130px,1fr) auto; gap:6px; margin-top:9px; }
+    .workspace-v14-v20-form input, .workspace-v14-v20-form select { min-width:0; border:1px solid #d8cbbd; border-radius:8px; padding:7px 8px; background:#fff; color:#2b2621; font:inherit; font-size:.7rem; }
+    .workspace-v14-v20-form button, .workspace-v14-v20-action { border:1px solid #d8cbbd; border-radius:8px; padding:7px 10px; background:#fff; color:#8c2f39; cursor:pointer; font-size:.7rem; font-weight:800; }
+    .workspace-v14-v20-check { display:flex; align-items:center; gap:5px; padding:6px 8px; border-radius:8px; background:#f8f3ed; color:#64584f; font-size:.66rem; white-space:nowrap; }
+    .workspace-v14-v20-result { margin-top:8px; padding:7px 8px; border-radius:8px; background:#f7f1ea; color:#655950; font-size:.66rem; line-height:1.4; }
+    .workspace-v14-v20-metrics { display:grid; grid-template-columns:repeat(5,minmax(100px,1fr)); gap:6px; margin-top:9px; }
+    .workspace-v14-v20-metric { display:grid; gap:2px; padding:8px; border:1px solid #e3d8cc; border-radius:8px; background:#fff; }
+    .workspace-v14-v20-metric strong { color:#8c2f39; font-size:.85rem; }
+    .workspace-v14-v20-metric span { color:#75695f; font-size:.62rem; }
+    .workspace-v14-v20-history, .workspace-v14-v20-readiness { display:grid; gap:6px; margin-top:9px; }
+    .workspace-v14-v20-record { display:flex; justify-content:space-between; gap:8px; padding:8px; border:1px solid #e3d8cc; border-radius:8px; background:#fff; color:#51463e; font-size:.66rem; }
+    .workspace-v14-v20-record strong { color:#8c2f39; }
+    .workspace-v14-v20-empty { padding:9px; border:1px dashed #d8cbbd; border-radius:8px; color:#9a8b7e; font-size:.66rem; text-align:center; }
+    .workspace-v14-v20-check-row { padding:7px 8px; border-radius:8px; background:#f4eee7; color:#64584f; font-size:.66rem; }
+    .workspace-v14-v20-check-row.pass { background:#e9f3ed; color:#286043; }
+    .workspace-v14-v20-check-row.warn { background:#fff1dc; color:#8b5c1c; }
+    .workspace-v14-v20-policy { display:flex; flex-wrap:wrap; gap:6px; margin-top:8px; }
+    .workspace-v14-v20-policy span { padding:4px 7px; border-radius:999px; background:#f3eee8; color:#665b51; font-size:.65rem; }
+    @media (max-width:820px) { .workspace-v14-v20-form { grid-template-columns:1fr 1fr; } .workspace-v14-v20-metrics { grid-template-columns:repeat(2,minmax(0,1fr)); } }
     @media (max-width:700px) { .workspace-v14-v20-list { grid-template-columns:1fr; } }
 </style>
     <link rel="stylesheet" href="localization.css?v=1.0.4">
@@ -4214,85 +4226,76 @@
       <div id="workspace-approval-history" aria-live="polite"></div>
     </section>
 <!-- BONDS_MALL_SELLER_V14_V20 -->
-<section class="workspace-v14-v20" aria-labelledby="workspace-v14-v20-title">
-  <div class="workspace-v14-v20-toolbar">
-    <div>
-      <div class="workspace-panel-label" id="workspace-v14-v20-title">Versions 14–20 · seller upgrade modules</div>
-      <div class="workspace-v14-v20-subtitle">These stages are part of the same workspace version sequence as Versions 1–13. Each stage is visible, reviewable, and user-controlled.</div>
-    </div>
-    <div class="workspace-v14-v20-badge">V14 → V20</div>
-  </div>
-  <div class="workspace-v14-v20-list">
-    <article class="workspace-v14-v20-stage" id="workspace-version-14" data-version="14">
-      <div class="workspace-v14-v20-stage-head"><span class="workspace-v14-v20-number">VERSION 14</span><span class="workspace-v14-v20-status" data-status="14">Ready for review</span></div>
-      <h3>Simulation & Sandbox</h3>
-      <p>Dry-run mission rehearsal; no external submission.</p>
-      <button type="button" class="workspace-v14-v20-review" data-review-version="14">Review Version 14</button>
-      <div class="workspace-v14-v20-result" data-result="14" aria-live="polite"></div>
-    </article>
-    <article class="workspace-v14-v20-stage" id="workspace-version-15" data-version="15">
-      <div class="workspace-v14-v20-stage-head"><span class="workspace-v14-v20-number">VERSION 15</span><span class="workspace-v14-v20-status" data-status="15">Ready for review</span></div>
-      <h3>Mission Metrics</h3>
-      <p>Scorecards, leading indicators, readiness and evidence.</p>
-      <button type="button" class="workspace-v14-v20-review" data-review-version="15">Review Version 15</button>
-      <div class="workspace-v14-v20-result" data-result="15" aria-live="polite"></div>
-    </article>
-    <article class="workspace-v14-v20-stage" id="workspace-version-16" data-version="16">
-      <div class="workspace-v14-v20-stage-head"><span class="workspace-v14-v20-number">VERSION 16</span><span class="workspace-v14-v20-status" data-status="16">Ready for review</span></div>
-      <h3>Event Automation</h3>
-      <p>Bounded event triggers, durable local state and operating limits.</p>
-      <button type="button" class="workspace-v14-v20-review" data-review-version="16">Review Version 16</button>
-      <div class="workspace-v14-v20-result" data-result="16" aria-live="polite"></div>
-    </article>
-    <article class="workspace-v14-v20-stage" id="workspace-version-17" data-version="17">
-      <div class="workspace-v14-v20-stage-head"><span class="workspace-v14-v20-number">VERSION 17</span><span class="workspace-v14-v20-status" data-status="17">Ready for review</span></div>
-      <h3>Security & Connectors</h3>
-      <p>Connector permissions, secret boundary, audit and retention.</p>
-      <button type="button" class="workspace-v14-v20-review" data-review-version="17">Review Version 17</button>
-      <div class="workspace-v14-v20-result" data-result="17" aria-live="polite"></div>
-    </article>
-    <article class="workspace-v14-v20-stage" id="workspace-version-18" data-version="18">
-      <div class="workspace-v14-v20-stage-head"><span class="workspace-v14-v20-number">VERSION 18</span><span class="workspace-v14-v20-status" data-status="18">Ready for review</span></div>
-      <h3>Continuous Evaluation</h3>
-      <p>Regression, adversarial, failure-injection and quality gates.</p>
-      <button type="button" class="workspace-v14-v20-review" data-review-version="18">Review Version 18</button>
-      <div class="workspace-v14-v20-result" data-result="18" aria-live="polite"></div>
-    </article>
-    <article class="workspace-v14-v20-stage" id="workspace-version-19" data-version="19">
-      <div class="workspace-v14-v20-stage-head"><span class="workspace-v14-v20-number">VERSION 19</span><span class="workspace-v14-v20-status" data-status="19">Ready for review</span></div>
-      <h3>Portfolio Management</h3>
-      <p>Cross-project visibility, resource conflicts and prioritization.</p>
-      <button type="button" class="workspace-v14-v20-review" data-review-version="19">Review Version 19</button>
-      <div class="workspace-v14-v20-result" data-result="19" aria-live="polite"></div>
-    </article>
-    <article class="workspace-v14-v20-stage" id="workspace-version-20" data-version="20">
-      <div class="workspace-v14-v20-stage-head"><span class="workspace-v14-v20-number">VERSION 20</span><span class="workspace-v14-v20-status" data-status="20">Ready for review</span></div>
-      <h3>Mission Control</h3>
-      <p>Approvals, evidence, rollback review and final readiness.</p>
-      <button type="button" class="workspace-v14-v20-review" data-review-version="20">Review Version 20</button>
-      <div class="workspace-v14-v20-result" data-result="20" aria-live="polite"></div>
-    </article>
-  </div>
+<section class="workspace-v14-v20-panel" aria-labelledby="workspace-v14-v20-title">
+  <div class="workspace-v14-v20-toolbar"><div><div class="workspace-panel-label" id="workspace-v14-v20-title">Versions 14–20 · seller upgrade modules</div><div class="workspace-v14-v20-subtitle">Versions 14–20 use the same full-width workspace panel pattern as Versions 1–13: toolbar, live status, controls, and a persistent local result area.</div></div><div class="workspace-v14-v20-badge">V14 → V20</div></div>
+
+  <section class="workspace-v14-v20-stage-panel" id="workspace-version-14" data-version="14">
+    <div class="workspace-v14-v20-toolbar"><div><div class="workspace-panel-label">Version 14 · Simulation &amp; Sandbox</div><div class="workspace-v14-v20-subtitle">Rehearse a seller mission locally before any external submission.</div><div class="workspace-v14-v20-summary" data-summary="14">No simulation run yet.</div></div><button type="button" class="workspace-v14-v20-action" data-action="14">Run simulation</button></div>
+    <form class="workspace-v14-v20-form" data-form="14"><input required name="scenario" placeholder="Scenario to rehearse" aria-label="Simulation scenario"><select name="mode" aria-label="Simulation mode"><option>Seller workflow</option><option>Publication workflow</option><option>Recovery workflow</option></select><button type="submit">Build dry-run</button></form>
+    <div class="workspace-v14-v20-result" data-result="14" aria-live="polite"></div>
+  </section>
+
+  <section class="workspace-v14-v20-stage-panel" id="workspace-version-15" data-version="15">
+    <div class="workspace-v14-v20-toolbar"><div><div class="workspace-panel-label">Version 15 · Mission Metrics</div><div class="workspace-v14-v20-subtitle">Measure seller activity using the same live workspace data already available to Versions 1–13.</div><div class="workspace-v14-v20-summary" data-summary="15">Metrics have not been refreshed.</div></div><button type="button" class="workspace-v14-v20-action" data-action="15">Refresh metrics</button></div>
+    <div class="workspace-v14-v20-metrics" data-metrics="15"></div>
+  </section>
+
+  <section class="workspace-v14-v20-stage-panel" id="workspace-version-16" data-version="16">
+    <div class="workspace-v14-v20-toolbar"><div><div class="workspace-panel-label">Version 16 · Event Automation</div><div class="workspace-v14-v20-subtitle">Configure bounded local event rules. Nothing is sent or executed externally.</div><div class="workspace-v14-v20-summary" data-summary="16">No event rule saved.</div></div><button type="button" class="workspace-v14-v20-action" data-action="16">Save event rule</button></div>
+    <form class="workspace-v14-v20-form" data-form="16"><select name="event" aria-label="Event"><option>Listing created</option><option>Listing updated</option><option>Schedule due</option><option>Review required</option></select><select name="trigger" aria-label="Trigger policy"><option>Notify locally</option><option>Queue local review</option><option>Record audit event</option></select><label class="workspace-v14-v20-check"><input type="checkbox" name="enabled"> Enabled</label><button type="submit">Save rule</button></form>
+    <div class="workspace-v14-v20-result" data-result="16" aria-live="polite"></div>
+  </section>
+
+  <section class="workspace-v14-v20-stage-panel" id="workspace-version-17" data-version="17">
+    <div class="workspace-v14-v20-toolbar"><div><div class="workspace-panel-label">Version 17 · Security &amp; Connectors</div><div class="workspace-v14-v20-subtitle">Define connector boundaries, audit settings, and retention without collecting credentials.</div><div class="workspace-v14-v20-summary" data-summary="17">No connector policy saved.</div></div><button type="button" class="workspace-v14-v20-action" data-action="17">Save policy</button></div>
+    <form class="workspace-v14-v20-form" data-form="17"><input required name="connector" placeholder="Connector name" aria-label="Connector name"><select name="scope" aria-label="Connector scope"><option>Read-only</option><option>Draft-only</option><option>Human-approved action</option></select><select name="retention" aria-label="Audit retention"><option>7 days</option><option>30 days</option><option>90 days</option><option>365 days</option></select><button type="submit">Save boundary</button></form>
+    <div class="workspace-v14-v20-result" data-result="17" aria-live="polite"></div>
+  </section>
+
+  <section class="workspace-v14-v20-stage-panel" id="workspace-version-18" data-version="18">
+    <div class="workspace-v14-v20-toolbar"><div><div class="workspace-panel-label">Version 18 · Continuous Evaluation</div><div class="workspace-v14-v20-subtitle">Run local regression and quality checks against the seller workspace state.</div><div class="workspace-v14-v20-summary" data-summary="18">No evaluation run yet.</div></div><button type="button" class="workspace-v14-v20-action" data-action="18">Run evaluation</button></div>
+    <form class="workspace-v14-v20-form" data-form="18"><select name="test" aria-label="Evaluation type"><option>Regression</option><option>Safety gates</option><option>UI consistency</option><option>Data integrity</option></select><label class="workspace-v14-v20-check"><input type="checkbox" name="strict" checked> Strict quality gate</label><button type="submit">Run check</button></form>
+    <div class="workspace-v14-v20-result" data-result="18" aria-live="polite"></div>
+  </section>
+
+  <section class="workspace-v14-v20-stage-panel" id="workspace-version-19" data-version="19">
+    <div class="workspace-v14-v20-toolbar"><div><div class="workspace-panel-label">Version 19 · Portfolio Management</div><div class="workspace-v14-v20-subtitle">Track seller projects, priorities, and resource conflicts in a local portfolio view.</div><div class="workspace-v14-v20-summary" data-summary="19">No portfolio items saved.</div></div><button type="button" class="workspace-v14-v20-action" data-action="19">Add project</button></div>
+    <form class="workspace-v14-v20-form" data-form="19"><input required name="project" placeholder="Project name" aria-label="Project name"><select name="priority" aria-label="Project priority"><option>High</option><option selected>Normal</option><option>Low</option></select><input name="resource" placeholder="Resource or dependency" aria-label="Resource or dependency"><button type="submit">Save project</button></form>
+    <div class="workspace-v14-v20-history" data-history="19" aria-live="polite"></div>
+  </section>
+
+  <section class="workspace-v14-v20-stage-panel" id="workspace-version-20" data-version="20">
+    <div class="workspace-v14-v20-toolbar"><div><div class="workspace-panel-label">Version 20 · Governed Mission Control</div><div class="workspace-v14-v20-subtitle">Bring approvals, evidence, rollback review, and readiness into one final seller control surface.</div><div class="workspace-v14-v20-summary" data-summary="20">Readiness has not been checked.</div></div><button type="button" class="workspace-v14-v20-action" data-action="20">Check readiness</button></div>
+    <div class="workspace-v14-v20-readiness" data-readiness="20"></div>
+    <div class="workspace-v14-v20-policy"><span>Human approval required</span><span>Evidence before completion</span><span>Rollback review</span><span>No automatic external action</span></div>
+  </section>
 </section>
 <script>
 (function(){
-  const key='clblast_workspace_v14_v20_review';
-  let state={}; try{state=JSON.parse(localStorage.getItem(key)||'{}')}catch(_){}
-  document.querySelectorAll('[data-review-version]').forEach(btn=>{
-    btn.addEventListener('click',()=>{
-      const v=btn.dataset.reviewVersion;
-      state[v]={reviewedAt:new Date().toISOString()};
-      localStorage.setItem(key,JSON.stringify(state));
-      const status=document.querySelector('[data-status="'+v+'"]');
-      const result=document.querySelector('[data-result="'+v+'"]');
-      if(status) status.textContent='Reviewed locally';
-      if(result) result.textContent='Local readiness review recorded. No external action was performed.';
-    });
-  });
-  Object.keys(state).forEach(v=>{
-    const status=document.querySelector('[data-status="'+v+'"]');
-    if(status) status.textContent='Reviewed locally';
-  });
+  const prefix='clblast_workspace_v14_v20_';
+  const load=(k,d)=>{try{return JSON.parse(localStorage.getItem(prefix+k)||JSON.stringify(d));}catch(_){return d;}};
+  const save=(k,v)=>localStorage.setItem(prefix+k,JSON.stringify(v));
+  const result=(v,msg)=>{const el=document.querySelector('[data-result="'+v+'"]');if(el)el.textContent=msg;};
+  const summary=(v,msg)=>{const el=document.querySelector('[data-summary="'+v+'"]');if(el)el.textContent=msg;};
+  document.querySelectorAll('[data-form]').forEach(form=>form.addEventListener('submit',e=>{
+    e.preventDefault(); const v=form.dataset.form,data=Object.fromEntries(new FormData(form).entries()); data.updatedAt=new Date().toISOString(); save(v,data);
+    if(v==='14'){summary(v,'Simulation configuration saved locally.');result(v,'Dry-run built for “'+data.scenario+'” in '+data.mode+' mode. No external submission was performed.');}
+    if(v==='16'){summary(v,data.event+' → '+data.trigger+(data.enabled?' · enabled':' · disabled'));result(v,'Bounded local event rule saved. External automation remains disabled.');}
+    if(v==='17'){summary(v,'Connector boundary saved for '+data.connector+'.');result(v,'Scope: '+data.scope+' · Audit retention: '+data.retention+'. Credentials were not requested or stored.');}
+    if(v==='18'){summary(v,data.test+' evaluation completed locally.');result(v,(data.strict?'Strict gate: ':'Standard gate: ')+'workspace structure, controls, and local-state checks completed without external actions.');}
+    if(v==='19'){const items=load('portfolio',[]);items.push(data);save('portfolio',items);summary(v,items.length+' portfolio project'+(items.length===1?'':'s')+' saved locally.');renderPortfolio();form.reset();}
+  }));
+  function refreshMetrics(){const stats=typeof workspaceMissionSummary==='function'?workspaceMissionSummary():{objectiveCount:0,adAgendaCount:0,liveCount:0,campaignJobs:0,progress:0};const target=document.querySelector('[data-metrics="15"]');if(target)target.innerHTML=[['Objectives',stats.objectiveCount],['Ad agendas',stats.adAgendaCount],['Live ads',stats.liveCount],['Campaign jobs',stats.campaignJobs],['Mission progress',stats.progress+'%']].map(x=>'<div class="workspace-v14-v20-metric"><strong>'+x[1]+'</strong><span>'+x[0]+'</span></div>').join('');summary(15,'Live seller metrics refreshed.');if(typeof workspaceAudit==='function')workspaceAudit('v15-metrics','Version 15 metrics refreshed.',{stats});}
+  function renderPortfolio(){const target=document.querySelector('[data-history="19"]');if(!target)return;const items=load('portfolio',[]);target.innerHTML=items.length?items.slice(-8).reverse().map(x=>'<div class="workspace-v14-v20-record"><strong>'+workspaceEscape(x.project)+'</strong><span>'+workspaceEscape(x.priority)+' priority · '+workspaceEscape(x.resource||'No dependency noted')+'</span></div>').join(''):'<div class="workspace-v14-v20-empty">No portfolio projects yet.</div>';}
+  function readiness(){const checks=[['Workspace state readable',typeof workspaceMissionSummary==='function'],['Human approval surface',Boolean(document.getElementById('workspace-approval-form'))],['Evidence/review surface',Boolean(document.getElementById('workspace-execution-form'))],['V14–V19 controls loaded',document.querySelectorAll('.workspace-v14-v20-stage-panel').length===7]];const target=document.querySelector('[data-readiness="20"]');if(target)target.innerHTML=checks.map(x=>'<div class="workspace-v14-v20-check-row '+(x[1]?'pass':'warn')+'">'+(x[1]?'✓':'△')+' '+x[0]+'</div>').join('');summary(20,checks.every(x=>x[1])?'Mission control ready for local review.':'Mission control needs attention.');result(20,'Readiness check completed locally. No external action was performed.');}
+  document.querySelector('[data-action="15"]')?.addEventListener('click',refreshMetrics);
+  document.querySelector('[data-action="20"]')?.addEventListener('click',readiness);
+  document.querySelector('[data-action="14"]')?.addEventListener('click',()=>document.querySelector('[data-form="14"] input')?.focus());
+  document.querySelector('[data-action="16"]')?.addEventListener('click',()=>document.querySelector('[data-form="16"]')?.requestSubmit());
+  document.querySelector('[data-action="17"]')?.addEventListener('click',()=>document.querySelector('[data-form="17"]')?.requestSubmit());
+  document.querySelector('[data-action="18"]')?.addEventListener('click',()=>document.querySelector('[data-form="18"]')?.requestSubmit());
+  document.querySelector('[data-action="19"]')?.addEventListener('click',()=>document.querySelector('[data-form="19"] input')?.focus());
+  renderPortfolio();refreshMetrics();
 })();
 </script>
 
