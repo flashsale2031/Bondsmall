@@ -3933,6 +3933,26 @@
     .workspace-content-record strong { color:#8c2f39; font-size:.7rem; }
     .workspace-content-meta { color:#9a8b7e; font-size:.59rem; }
     @media (max-width: 820px) { .workspace-content-form { grid-template-columns:1fr; } .workspace-content-form textarea { grid-column:auto; } }
+    .workspace-research-panel { margin-top:12px; padding:11px; border:1px solid #e3d8cc; border-radius:13px; background:rgba(255,255,255,.65); }
+    .workspace-research-toolbar { display:flex; align-items:flex-start; justify-content:space-between; gap:8px; flex-wrap:wrap; }
+    .workspace-research-toolbar button, .workspace-research-form button, .workspace-research-record button { border:1px solid #d8cbbd; border-radius:8px; padding:7px 10px; background:#fff; color:#8c2f39; cursor:pointer; font-size:.7rem; font-weight:800; }
+    #workspace-research-summary { color:#75695f; font-size:.68rem; margin-top:5px; }
+    .workspace-research-form { display:grid; grid-template-columns:minmax(0,1.35fr) minmax(0,1fr) 125px 110px 105px; gap:6px; margin-top:9px; }
+    .workspace-research-form input, .workspace-research-form textarea, .workspace-research-form select { min-width:0; border:1px solid #d8cbbd; border-radius:8px; padding:7px 8px; background:#fff; color:#2b2621; font:inherit; font-size:.7rem; }
+    .workspace-research-form textarea { grid-column:1 / -1; min-height:58px; resize:vertical; }
+    .workspace-research-form label { display:flex; align-items:center; gap:5px; padding:5px 7px; border-radius:8px; background:#f8f3ed; color:#64584f; font-size:.65rem; }
+    .workspace-research-form button { justify-self:start; }
+    #workspace-research-history { display:grid; gap:6px; margin-top:9px; max-height:340px; overflow:auto; }
+    .workspace-research-record { display:grid; gap:4px; padding:9px; border:1px solid #e3d8cc; border-radius:9px; background:#fff; color:#51463e; font-size:.64rem; }
+    .workspace-research-record.high { border-left:4px solid #75a68a; }
+    .workspace-research-record.medium { border-left:4px solid #d08a4b; }
+    .workspace-research-record.low, .workspace-research-record.contradiction { border-left:4px solid #c27682; background:#fff8f5; }
+    .workspace-research-record strong { color:#8c2f39; font-size:.71rem; }
+    .workspace-research-record a { color:#8c2f39; overflow-wrap:anywhere; }
+    .workspace-research-citation { padding:5px 7px; border-radius:7px; background:#f8f3ed; color:#665a50; font-style:italic; }
+    .workspace-research-badge { display:inline-block; margin-left:4px; padding:2px 6px; border-radius:999px; background:#f0e5da; color:#8c2f39; font-size:.58rem; font-weight:800; text-transform:uppercase; letter-spacing:.04em; }
+    .workspace-research-meta { color:#9a8b7e; font-size:.59rem; }
+    @media (max-width: 820px) { .workspace-research-form { grid-template-columns:1fr 1fr; } .workspace-research-form textarea { grid-column:1 / -1; } .workspace-research-form button { grid-column:1 / -1; } }
     .workspace-optimizer-panel { margin-top:12px; padding:11px; border:1px solid #e3d8cc; border-radius:13px; background:rgba(255,255,255,.65); }
     .workspace-optimizer-toolbar { display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap; }
     .workspace-optimizer-toolbar button, .workspace-optimizer-form button { border:1px solid #d8cbbd; border-radius:8px; padding:7px 10px; background:#fff; color:#8c2f39; cursor:pointer; font-size:.7rem; font-weight:800; }
@@ -4102,6 +4122,20 @@
         <button type="submit">Save new draft revision</button>
       </form>
       <div id="workspace-content-history" aria-live="polite"></div>
+    </section>
+    <section class="workspace-research-panel" aria-labelledby="workspace-research-title">
+      <div class="workspace-research-toolbar"><div><div class="workspace-panel-label" id="workspace-research-title">Version 11 · research workspace</div><div style="color:#75695f;font-size:.7rem;margin-top:3px">Capture source-backed claims locally with citations, confidence, freshness, and visible contradiction flags. No source is fetched or treated as verified automatically.</div><div id="workspace-research-summary">No research evidence captured yet.</div></div><button type="button" onclick="renderWorkspaceResearch(); workspaceAudit('research-refresh','Research evidence refreshed.')">Refresh research</button></div>
+      <form id="workspace-research-form" class="workspace-research-form">
+        <input id="workspace-research-claim" required placeholder="Claim or finding" aria-label="Research claim">
+        <input id="workspace-research-source" required placeholder="Source title or publisher" aria-label="Source title or publisher">
+        <input id="workspace-research-url" type="url" placeholder="https://… (optional)" aria-label="Source URL">
+        <select id="workspace-research-confidence" aria-label="Research confidence"><option value="high">High confidence</option><option value="medium" selected>Medium confidence</option><option value="low">Low confidence</option></select>
+        <select id="workspace-research-freshness" aria-label="Source freshness"><option value="current">Current</option><option value="recent" selected>Recent</option><option value="dated">Dated</option><option value="unknown">Unknown</option></select>
+        <textarea id="workspace-research-excerpt" required placeholder="Quoted excerpt, observation, or capture note" aria-label="Source excerpt or capture note"></textarea>
+        <label><input id="workspace-research-contradiction" type="checkbox"> Contradicts another claim</label>
+        <button type="submit">Capture evidence</button>
+      </form>
+      <div id="workspace-research-history" aria-live="polite"></div>
     </section>
     <section class="workspace-optimizer-panel" aria-labelledby="workspace-optimizer-title">
       <div class="workspace-optimizer-toolbar"><div><div class="workspace-panel-label" id="workspace-optimizer-title">Version 10 · advertisement optimizer</div><div style="color:#75695f;font-size:.7rem;margin-top:3px">Score local drafts for completeness and review readiness. Recommendations are advisory and never change or publish a listing.</div><div id="workspace-optimizer-summary">No optimizer assessments yet.</div></div><button type="button" onclick="renderWorkspaceOptimizer()">Refresh optimizer</button></div>
@@ -9353,6 +9387,39 @@
       if (!draft) return;
       draft.status = 'reviewed'; draft.reviewedAt = new Date().toISOString(); saveWorkspaceContentDrafts(); renderWorkspaceContentWorkbench(); workspaceAudit('content-review', `Marked content draft revision ${draft.revision} reviewed.`, { draftId: draft.id, externalPublication: false });
     }
+    let workspaceResearchEvidence = (() => { try { return JSON.parse(localStorage.getItem('clblast_workspace_research_evidence') || '[]'); } catch (_) { return []; } })();
+    function saveWorkspaceResearchEvidence() { localStorage.setItem('clblast_workspace_research_evidence', JSON.stringify(workspaceResearchEvidence.slice(-200))); }
+    function workspaceResearchCitation(item) {
+      let safeUrl = ''; try { const parsed = new URL(item.url || ''); if (['http:', 'https:'].includes(parsed.protocol)) safeUrl = parsed.href; } catch (_) {}
+      const source = safeUrl ? `<a href="${workspaceEscape(safeUrl)}" target="_blank" rel="noopener noreferrer">${workspaceEscape(item.source)}</a>` : workspaceEscape(item.source);
+      return `[${item.citationId}] ${source} · captured ${new Date(item.capturedAt).toLocaleDateString()}`;
+    }
+    function renderWorkspaceResearch() {
+      const summary = document.getElementById('workspace-research-summary');
+      const history = document.getElementById('workspace-research-history');
+      if (!summary || !history) return;
+      const contradictions = workspaceResearchEvidence.filter(item => item.contradiction && item.status !== 'resolved').length;
+      const high = workspaceResearchEvidence.filter(item => item.confidence === 'high').length;
+      summary.innerHTML = `<strong>${workspaceResearchEvidence.length} evidence item${workspaceResearchEvidence.length === 1 ? '' : 's'}:</strong> ${high} high confidence · ${contradictions} unresolved contradiction${contradictions === 1 ? '' : 's'}. Captures are local and require human review.`;
+      history.innerHTML = workspaceResearchEvidence.length ? workspaceResearchEvidence.slice().reverse().map(item => `<article class="workspace-research-record ${workspaceEscape(item.confidence)} ${item.contradiction && item.status !== 'resolved' ? 'contradiction' : ''}"><strong>${workspaceEscape(item.claim)} <span class="workspace-research-badge">${workspaceEscape(item.confidence)} confidence</span>${item.contradiction ? `<span class="workspace-research-badge">${item.status === 'resolved' ? 'resolved' : 'contradiction flagged'}</span>` : ''}</strong><span class="workspace-research-citation">${workspaceResearchCitation(item)}</span><span><b>Freshness:</b> ${workspaceEscape(item.freshness)} · <b>Review:</b> ${workspaceEscape(item.status)}</span><span>${workspaceEscape(item.excerpt)}</span><span class="workspace-research-meta">Captured ${new Date(item.capturedAt).toLocaleString()} · source capture only · external research action: none</span>${item.contradiction && item.status !== 'resolved' ? `<button type="button" onclick="resolveWorkspaceResearch('${workspaceEscape(item.id)}')">Mark contradiction reviewed</button>` : ''}</article>`).join('') : '<div class="workspace-research-record">No evidence captured yet. Add a claim, source, excerpt, confidence, and freshness to create a citation-ready research record.</div>';
+    }
+    function addWorkspaceResearchEvidence(event) {
+      event.preventDefault();
+      const value = id => document.getElementById(id)?.value.trim() || '';
+      const claim = value('workspace-research-claim');
+      const source = value('workspace-research-source');
+      const url = value('workspace-research-url');
+      const excerpt = value('workspace-research-excerpt');
+      if (!claim || !source || !excerpt) return;
+      const item = { id: `research-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`, citationId: `S${workspaceResearchEvidence.length + 1}`, claim, source, url, excerpt, confidence: document.getElementById('workspace-research-confidence').value, freshness: document.getElementById('workspace-research-freshness').value, contradiction: Boolean(document.getElementById('workspace-research-contradiction').checked), status: document.getElementById('workspace-research-contradiction').checked ? 'needs-review' : 'captured', capturedAt: new Date().toISOString(), externalAction: false };
+      workspaceResearchEvidence.push(item); saveWorkspaceResearchEvidence(); renderWorkspaceResearch(); workspaceAudit('research-capture', `Captured source evidence for “${claim}”.`, { evidenceId: item.id, citationId: item.citationId, confidence: item.confidence, contradiction: item.contradiction, externalAction: false });
+      event.target.reset();
+    }
+    function resolveWorkspaceResearch(id) {
+      const item = workspaceResearchEvidence.find(record => record.id === id);
+      if (!item) return;
+      item.status = 'resolved'; item.reviewedAt = new Date().toISOString(); saveWorkspaceResearchEvidence(); renderWorkspaceResearch(); workspaceAudit('research-contradiction-review', `Marked contradiction review complete for ${item.citationId}.`, { evidenceId: id, externalAction: false });
+    }
     let workspaceOptimizerAssessments = (() => { try { return JSON.parse(localStorage.getItem('clblast_workspace_optimizer_assessments') || '[]'); } catch (_) { return []; } })();
     function saveWorkspaceOptimizerAssessments() { localStorage.setItem('clblast_workspace_optimizer_assessments', JSON.stringify(workspaceOptimizerAssessments.slice(-100))); }
     function renderWorkspaceOptimizer() {
@@ -9479,7 +9546,7 @@
       if (!item) return;
       item.status = 'completed'; item.completedAt = new Date().toISOString(); saveWorkspaceObjectives(); renderWorkspaceManager(); workspaceRunResolutionEngine(); showToast('Objective completed; resolution status re-evaluated.', 'success');
     }
-    function renderWorkspaceManager() { renderWorkspaceCalendar(); renderWorkspaceAgenda(); renderWorkspaceMission(); renderWorkspaceRoadmap(); renderWorkspaceGoalGraph(); renderWorkspaceMemory(); renderWorkspacePlan(); renderWorkspaceRoleTrace(); renderWorkspaceTools(); renderWorkspaceRecovery(); renderWorkspaceExecutionLedger(); renderWorkspaceContentWorkbench(); renderWorkspaceOptimizer(); }
+    function renderWorkspaceManager() { renderWorkspaceCalendar(); renderWorkspaceAgenda(); renderWorkspaceMission(); renderWorkspaceRoadmap(); renderWorkspaceGoalGraph(); renderWorkspaceMemory(); renderWorkspacePlan(); renderWorkspaceRoleTrace(); renderWorkspaceTools(); renderWorkspaceRecovery(); renderWorkspaceExecutionLedger(); renderWorkspaceContentWorkbench(); renderWorkspaceOptimizer(); renderWorkspaceResearch(); }
     function workspaceChatReply(message) {
       const lower = message.toLowerCase();
       if (lower.includes('mission') || lower.includes('progress') || lower.includes('live')) { const s = workspaceMissionSummary(); return `Mission pulse: ${s.liveCount} live ads, ${s.adAgendaCount} ad agendas, ${s.objectiveCount} objectives, and ${s.campaignJobs} campaign jobs are currently contributing to the annual plan.`; }
@@ -9496,6 +9563,7 @@
       document.getElementById('workspace-execution-form')?.addEventListener('submit', addWorkspaceExecutionRecord);
       document.getElementById('workspace-content-form')?.addEventListener('submit', saveWorkspaceContentDraft);
       document.getElementById('workspace-optimizer-form')?.addEventListener('submit', optimizeWorkspaceDraft);
+      document.getElementById('workspace-research-form')?.addEventListener('submit', addWorkspaceResearchEvidence);
       renderWorkspaceManager();
       renderWorkspaceMailbox();
       workspaceRunResolutionEngine();

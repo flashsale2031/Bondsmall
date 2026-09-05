@@ -71,6 +71,10 @@ Version 9 is complete when the Workspace Manager provides a local content workbe
 
 Version 10 is complete when the Workspace Manager scores local advertisement drafts against a transparent completeness checklist, identifies missing title, destination, body, tone, CTA, keyword, or review evidence, stores assessments, and presents review-only recommendations. Optimization must not mutate drafts or publish externally.
 
+## Version 11 acceptance criteria
+
+Version 11 is complete when the Workspace Manager provides a local research workspace that captures claims with source titles, optional URLs, excerpts or observation notes, citation identifiers, confidence levels, freshness labels, and user-set contradiction flags. Evidence must render as citation-ready records, preserve a review status, support marking contradiction reviews complete, persist in local storage, and create auditable capture/review events. The workspace must not fetch sources, infer verification, call external research services, or publish claims automatically; all evidence remains subject to human review.
+
 ## ZIP references used for Version 1
 
 The archive suggests several useful patterns: AutoGPT and Ouroboros for bounded iterative loops; CrewAI and MultiMind for separated roles and model routing; OpenClaw, CentaurLoop, and StreamCore for runtime and event-oriented structure; and the hard-logic kernel project for deterministic constraints and an append-only audit concept. These references inform the design only. No archive executable is trusted or run as part of Version 1.
