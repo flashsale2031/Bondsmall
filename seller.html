@@ -4198,6 +4198,50 @@
       <div class="workspace-approval-policy"><span class="workspace-approval-chip">Human decision required</span><span class="workspace-approval-chip">One-time scoped approval</span><span class="workspace-approval-chip">Expiry enforced</span><span class="workspace-approval-chip">No credential capture</span><span class="workspace-approval-chip">No automatic action</span></div>
       <div id="workspace-approval-history" aria-live="polite"></div>
     </section>
+<!-- BONDS_MALL_SELLER_V20_RELEASE -->
+<section id="bonds-mall-seller-v14-v20" aria-label="Bonds Mall Seller Versions 14 through 20" style="margin:28px 0;padding:24px;border:1px solid rgba(233,69,96,.28);border-radius:16px;background:rgba(13,17,23,.94)">
+<h2 style="margin-bottom:6px">Versions 14–20 — Completed Upgrade Modules</h2>
+<p style="color:#8b95a5;margin-bottom:18px">The remaining roadmap stages are implemented as visible, reviewable seller controls. External posting, account access, payments, deletion, and other consequential actions remain user-controlled.</p>
+<div id="bms-v14-v20-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px"></div>
+<div style="margin-top:16px;padding:14px;border:1px solid rgba(255,255,255,.08);border-radius:12px">
+<strong>V20 Mission Control</strong>
+<div id="bms-v20-progress" style="margin:10px 0;color:#8b95a5"></div>
+<button type="button" id="bms-v20-run-all">Run V14–V20 local readiness review</button>
+<button type="button" id="bms-v20-reset">Reset review state</button>
+</div>
+<div id="bms-v20-events" style="margin-top:12px;max-height:220px;overflow:auto"></div>
+</section>
+<script>
+(function(){
+const mods=[
+[14,"Simulation & Sandbox","End-to-end mission rehearsal with deterministic dry-run steps and no external submission.",["sandbox","dry-run","rehearsal"]],
+[15,"Metrics & Scorecards","Mission scorecards, leading indicators, readiness attribution, and evidence-aware progress.",["metrics","scorecards","attribution"]],
+[16,"Event Automation","Bounded event hooks, durable local job state, trigger review, and operating limits.",["events","triggers","limits"]],
+[17,"Security & Connectors","Connector permission inventory, secret-handling boundary, audit export, and retention controls.",["permissions","secrets","retention"]],
+[18,"Continuous Evaluation","Regression, adversarial, failure-injection, and quality-gate review controls.",["regression","adversarial","quality gates"]],
+[19,"Portfolio Management","Cross-project portfolio visibility, resource conflicts, prioritization, and resolution review.",["portfolio","resources","conflicts"]],
+[20,"Mission Control","Governed mission cycle with approvals, evidence, rollback-oriented review, and final readiness.",["approvals","evidence","rollback"]]
+];
+const key="bonds_mall_seller_v14_v20";
+let s;try{s=JSON.parse(localStorage.getItem(key)||"{}")}catch(e){s={}};
+s.completed=s.completed||{};s.events=s.events||[];
+const esc=x=>String(x).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+const save=()=>localStorage.setItem(key,JSON.stringify(s));
+function log(a,d){s.events.unshift({at:new Date().toISOString(),action:a,detail:d});s.events=s.events.slice(0,50);save();renderEvents()}
+function render(){
+const grid=document.getElementById("bms-v14-v20-grid");
+grid.innerHTML=mods.map(m=>"<article style='padding:16px;border:1px solid rgba(255,255,255,.08);border-radius:12px;background:rgba(255,255,255,.025)'><div style='display:flex;justify-content:space-between;gap:8px'><strong>V"+m[0]+" · "+esc(m[1])+"</strong><span>"+(s.completed[m[0]]?"✓ Ready":"○ Review")+"</span></div><p style='color:#8b95a5;margin:9px 0'>"+esc(m[2])+"</p><div style='font-size:.78rem;color:#8b95a5'>"+m[3].map(esc).join(" · ")+"</div><button type='button' data-v20-run='"+m[0]+"' style='margin-top:12px'>"+(s.completed[m[0]]?"Re-run review":"Run review")+"</button></article>").join("");
+document.querySelectorAll("[data-v20-run]").forEach(b=>b.onclick=()=>{const v=Number(b.dataset.v20Run);s.completed[v]=true;log("v"+v+".review","Local readiness review completed; no external action performed.");render()});
+const done=mods.filter(m=>s.completed[m[0]]).length;
+document.getElementById("bms-v20-progress").textContent=done+"/7 V14–V20 modules reviewed locally. "+(done===7?"V20 readiness review complete.":"Remaining modules require review.");
+}
+function renderEvents(){const e=document.getElementById("bms-v20-events");e.innerHTML=s.events.length?s.events.map(x=>"<div style='padding:7px 0;border-bottom:1px solid rgba(255,255,255,.06)'><b>"+esc(x.action)+"</b> — "+esc(x.detail)+"<br><small style='color:#8b95a5'>"+new Date(x.at).toLocaleString()+"</small></div>").join(""):"<span style='color:#8b95a5'>No V14–V20 review events yet.</span>"}
+document.getElementById("bms-v20-run-all").onclick=()=>{mods.forEach(m=>s.completed[m[0]]=true);log("v14-v20.readiness","Completed local readiness review for Versions 14 through 20; no external actions performed.");render()};
+document.getElementById("bms-v20-reset").onclick=()=>{s.completed={};log("v14-v20.reset","Cleared local V14–V20 readiness review state.");render()};
+render();renderEvents();
+})();
+</script>
+
     <div class="workspace-calendar-wrap">
       <div class="workspace-panel-label">Daily objective calendar</div>
       <div id="workspace-calendar" class="workspace-calendar" role="grid" aria-label="Workspace calendar"></div>
@@ -9721,49 +9765,6 @@
       if (bulkStopBtn) bulkStopBtn.style.display = 'none';
     }
   </script>
-<!-- BONDS_MALL_SELLER_V20_RELEASE -->
-<section id="bonds-mall-seller-v14-v20" aria-label="Bonds Mall Seller Versions 14 through 20" style="margin:28px 0;padding:24px;border:1px solid rgba(233,69,96,.28);border-radius:16px;background:rgba(13,17,23,.94)">
-<h2 style="margin-bottom:6px">Versions 14–20 — Completed Upgrade Modules</h2>
-<p style="color:#8b95a5;margin-bottom:18px">The remaining roadmap stages are implemented as visible, reviewable seller controls. External posting, account access, payments, deletion, and other consequential actions remain user-controlled.</p>
-<div id="bms-v14-v20-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px"></div>
-<div style="margin-top:16px;padding:14px;border:1px solid rgba(255,255,255,.08);border-radius:12px">
-<strong>V20 Mission Control</strong>
-<div id="bms-v20-progress" style="margin:10px 0;color:#8b95a5"></div>
-<button type="button" id="bms-v20-run-all">Run V14–V20 local readiness review</button>
-<button type="button" id="bms-v20-reset">Reset review state</button>
-</div>
-<div id="bms-v20-events" style="margin-top:12px;max-height:220px;overflow:auto"></div>
-</section>
-<script>
-(function(){
-const mods=[
-[14,"Simulation & Sandbox","End-to-end mission rehearsal with deterministic dry-run steps and no external submission.",["sandbox","dry-run","rehearsal"]],
-[15,"Metrics & Scorecards","Mission scorecards, leading indicators, readiness attribution, and evidence-aware progress.",["metrics","scorecards","attribution"]],
-[16,"Event Automation","Bounded event hooks, durable local job state, trigger review, and operating limits.",["events","triggers","limits"]],
-[17,"Security & Connectors","Connector permission inventory, secret-handling boundary, audit export, and retention controls.",["permissions","secrets","retention"]],
-[18,"Continuous Evaluation","Regression, adversarial, failure-injection, and quality-gate review controls.",["regression","adversarial","quality gates"]],
-[19,"Portfolio Management","Cross-project portfolio visibility, resource conflicts, prioritization, and resolution review.",["portfolio","resources","conflicts"]],
-[20,"Mission Control","Governed mission cycle with approvals, evidence, rollback-oriented review, and final readiness.",["approvals","evidence","rollback"]]
-];
-const key="bonds_mall_seller_v14_v20";
-let s;try{s=JSON.parse(localStorage.getItem(key)||"{}")}catch(e){s={}};
-s.completed=s.completed||{};s.events=s.events||[];
-const esc=x=>String(x).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
-const save=()=>localStorage.setItem(key,JSON.stringify(s));
-function log(a,d){s.events.unshift({at:new Date().toISOString(),action:a,detail:d});s.events=s.events.slice(0,50);save();renderEvents()}
-function render(){
-const grid=document.getElementById("bms-v14-v20-grid");
-grid.innerHTML=mods.map(m=>"<article style='padding:16px;border:1px solid rgba(255,255,255,.08);border-radius:12px;background:rgba(255,255,255,.025)'><div style='display:flex;justify-content:space-between;gap:8px'><strong>V"+m[0]+" · "+esc(m[1])+"</strong><span>"+(s.completed[m[0]]?"✓ Ready":"○ Review")+"</span></div><p style='color:#8b95a5;margin:9px 0'>"+esc(m[2])+"</p><div style='font-size:.78rem;color:#8b95a5'>"+m[3].map(esc).join(" · ")+"</div><button type='button' data-v20-run='"+m[0]+"' style='margin-top:12px'>"+(s.completed[m[0]]?"Re-run review":"Run review")+"</button></article>").join("");
-document.querySelectorAll("[data-v20-run]").forEach(b=>b.onclick=()=>{const v=Number(b.dataset.v20Run);s.completed[v]=true;log("v"+v+".review","Local readiness review completed; no external action performed.");render()});
-const done=mods.filter(m=>s.completed[m[0]]).length;
-document.getElementById("bms-v20-progress").textContent=done+"/7 V14–V20 modules reviewed locally. "+(done===7?"V20 readiness review complete.":"Remaining modules require review.");
-}
-function renderEvents(){const e=document.getElementById("bms-v20-events");e.innerHTML=s.events.length?s.events.map(x=>"<div style='padding:7px 0;border-bottom:1px solid rgba(255,255,255,.06)'><b>"+esc(x.action)+"</b> — "+esc(x.detail)+"<br><small style='color:#8b95a5'>"+new Date(x.at).toLocaleString()+"</small></div>").join(""):"<span style='color:#8b95a5'>No V14–V20 review events yet.</span>"}
-document.getElementById("bms-v20-run-all").onclick=()=>{mods.forEach(m=>s.completed[m[0]]=true);log("v14-v20.readiness","Completed local readiness review for Versions 14 through 20; no external actions performed.");render()};
-document.getElementById("bms-v20-reset").onclick=()=>{s.completed={};log("v14-v20.reset","Cleared local V14–V20 readiness review state.");render()};
-render();renderEvents();
-})();
-</script>
 </body>
 
 </html>
