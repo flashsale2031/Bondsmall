@@ -4123,6 +4123,14 @@
       </form>
       <div id="workspace-content-history" aria-live="polite"></div>
     </section>
+    <section class="workspace-optimizer-panel" aria-labelledby="workspace-optimizer-title">
+      <div class="workspace-optimizer-toolbar"><div><div class="workspace-panel-label" id="workspace-optimizer-title">Version 10 · advertisement optimizer</div><div style="color:#75695f;font-size:.7rem;margin-top:3px">Score local drafts for completeness and review readiness. Recommendations are advisory and never change or publish a listing.</div><div id="workspace-optimizer-summary">No optimizer assessments yet.</div></div><button type="button" onclick="renderWorkspaceOptimizer()">Refresh optimizer</button></div>
+      <form id="workspace-optimizer-form" class="workspace-optimizer-form">
+        <select id="workspace-optimizer-draft" required aria-label="Draft to optimize"><option value="">Select a local content draft</option></select>
+        <button type="submit">Score draft</button>
+      </form>
+      <div id="workspace-optimizer-history" aria-live="polite"></div>
+    </section>
     <section class="workspace-research-panel" aria-labelledby="workspace-research-title">
       <div class="workspace-research-toolbar"><div><div class="workspace-panel-label" id="workspace-research-title">Version 11 · research workspace</div><div style="color:#75695f;font-size:.7rem;margin-top:3px">Capture source-backed claims locally with citations, confidence, freshness, and visible contradiction flags. No source is fetched or treated as verified automatically.</div><div id="workspace-research-summary">No research evidence captured yet.</div></div><button type="button" onclick="renderWorkspaceResearch(); workspaceAudit('research-refresh','Research evidence refreshed.')">Refresh research</button></div>
       <form id="workspace-research-form" class="workspace-research-form">
@@ -4136,14 +4144,6 @@
         <button type="submit">Capture evidence</button>
       </form>
       <div id="workspace-research-history" aria-live="polite"></div>
-    </section>
-    <section class="workspace-optimizer-panel" aria-labelledby="workspace-optimizer-title">
-      <div class="workspace-optimizer-toolbar"><div><div class="workspace-panel-label" id="workspace-optimizer-title">Version 10 · advertisement optimizer</div><div style="color:#75695f;font-size:.7rem;margin-top:3px">Score local drafts for completeness and review readiness. Recommendations are advisory and never change or publish a listing.</div><div id="workspace-optimizer-summary">No optimizer assessments yet.</div></div><button type="button" onclick="renderWorkspaceOptimizer()">Refresh optimizer</button></div>
-      <form id="workspace-optimizer-form" class="workspace-optimizer-form">
-        <select id="workspace-optimizer-draft" required aria-label="Draft to optimize"><option value="">Select a local content draft</option></select>
-        <button type="submit">Score draft</button>
-      </form>
-      <div id="workspace-optimizer-history" aria-live="polite"></div>
     </section>
     <div class="workspace-calendar-wrap">
       <div class="workspace-panel-label">Daily objective calendar</div>
