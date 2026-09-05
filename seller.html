@@ -3933,6 +3933,18 @@
     .workspace-content-record strong { color:#8c2f39; font-size:.7rem; }
     .workspace-content-meta { color:#9a8b7e; font-size:.59rem; }
     @media (max-width: 820px) { .workspace-content-form { grid-template-columns:1fr; } .workspace-content-form textarea { grid-column:auto; } }
+    .workspace-optimizer-panel { margin-top:12px; padding:11px; border:1px solid #e3d8cc; border-radius:13px; background:rgba(255,255,255,.65); }
+    .workspace-optimizer-toolbar { display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap; }
+    .workspace-optimizer-toolbar button, .workspace-optimizer-form button { border:1px solid #d8cbbd; border-radius:8px; padding:7px 10px; background:#fff; color:#8c2f39; cursor:pointer; font-size:.7rem; font-weight:800; }
+    #workspace-optimizer-summary { color:#75695f; font-size:.68rem; margin-top:5px; }
+    .workspace-optimizer-form { display:flex; gap:6px; flex-wrap:wrap; margin-top:9px; }
+    .workspace-optimizer-form select { min-width:240px; border:1px solid #d8cbbd; border-radius:8px; padding:7px 8px; background:#fff; color:#2b2621; font:inherit; font-size:.7rem; }
+    #workspace-optimizer-history { display:grid; gap:6px; margin-top:9px; max-height:250px; overflow:auto; }
+    .workspace-optimizer-record { display:grid; gap:4px; padding:8px; border:1px solid #e3d8cc; border-radius:8px; background:#fff; color:#51463e; font-size:.64rem; }
+    .workspace-optimizer-record strong { color:#8c2f39; font-size:.76rem; }
+    .workspace-optimizer-record.good { border-color:#75a68a; background:#f0f7f2; }
+    .workspace-optimizer-record.needs-review { border-color:#d08a4b; background:#fff5e8; }
+    .workspace-optimizer-meta { color:#9a8b7e; font-size:.59rem; }
     @media (max-width: 820px) { .workspace-v1 { grid-template-columns:1fr; } #workspace-roadmap { grid-template-columns:repeat(2,minmax(0,1fr)); } }
     @media (max-width: 820px) { .workspace-grid { grid-template-columns:1fr; } .workspace-calendar { grid-template-columns:repeat(12,minmax(82px,1fr)); } #workspace-manager { width:min(100% - 20px,1440px); margin-top:10px; padding:12px; } }
   </style>
@@ -4090,6 +4102,14 @@
         <button type="submit">Save new draft revision</button>
       </form>
       <div id="workspace-content-history" aria-live="polite"></div>
+    </section>
+    <section class="workspace-optimizer-panel" aria-labelledby="workspace-optimizer-title">
+      <div class="workspace-optimizer-toolbar"><div><div class="workspace-panel-label" id="workspace-optimizer-title">Version 10 · advertisement optimizer</div><div style="color:#75695f;font-size:.7rem;margin-top:3px">Score local drafts for completeness and review readiness. Recommendations are advisory and never change or publish a listing.</div><div id="workspace-optimizer-summary">No optimizer assessments yet.</div></div><button type="button" onclick="renderWorkspaceOptimizer()">Refresh optimizer</button></div>
+      <form id="workspace-optimizer-form" class="workspace-optimizer-form">
+        <select id="workspace-optimizer-draft" required aria-label="Draft to optimize"><option value="">Select a local content draft</option></select>
+        <button type="submit">Score draft</button>
+      </form>
+      <div id="workspace-optimizer-history" aria-live="polite"></div>
     </section>
     <div class="workspace-calendar-wrap">
       <div class="workspace-panel-label">Daily objective calendar</div>
@@ -9333,6 +9353,39 @@
       if (!draft) return;
       draft.status = 'reviewed'; draft.reviewedAt = new Date().toISOString(); saveWorkspaceContentDrafts(); renderWorkspaceContentWorkbench(); workspaceAudit('content-review', `Marked content draft revision ${draft.revision} reviewed.`, { draftId: draft.id, externalPublication: false });
     }
+    let workspaceOptimizerAssessments = (() => { try { return JSON.parse(localStorage.getItem('clblast_workspace_optimizer_assessments') || '[]'); } catch (_) { return []; } })();
+    function saveWorkspaceOptimizerAssessments() { localStorage.setItem('clblast_workspace_optimizer_assessments', JSON.stringify(workspaceOptimizerAssessments.slice(-100))); }
+    function renderWorkspaceOptimizer() {
+      const select = document.getElementById('workspace-optimizer-draft');
+      const summary = document.getElementById('workspace-optimizer-summary');
+      const history = document.getElementById('workspace-optimizer-history');
+      if (!select || !summary || !history) return;
+      const current = select.value;
+      select.innerHTML = '<option value="">Select a local content draft</option>' + workspaceContentDrafts.slice().reverse().map(draft => `<option value="${workspaceEscape(draft.id)}">${workspaceEscape(draft.title)} · rev ${draft.revision} · ${workspaceEscape(draft.status)}</option>`).join('');
+      if (current && workspaceContentDrafts.some(draft => draft.id === current)) select.value = current;
+      const good = workspaceOptimizerAssessments.filter(item => item.score >= 80).length;
+      summary.innerHTML = `<strong>${workspaceOptimizerAssessments.length} assessment${workspaceOptimizerAssessments.length === 1 ? '' : 's'}:</strong> ${good} review-ready, ${workspaceOptimizerAssessments.length - good} needing attention. Scores are advisory and local.`;
+      history.innerHTML = workspaceOptimizerAssessments.length ? workspaceOptimizerAssessments.slice().reverse().map(item => `<article class="workspace-optimizer-record ${item.score >= 80 ? 'good' : 'needs-review'}"><strong>${workspaceEscape(item.title)} · score ${item.score}/100</strong><span>${item.checks.map(check => `${check.pass ? '✓' : '△'} ${workspaceEscape(check.label)}`).join(' · ')}</span><span><b>Recommendations:</b> ${item.recommendations.length ? item.recommendations.map(rec => workspaceEscape(rec)).join(' · ') : 'None; draft meets the local checklist.'}</span><span class="workspace-optimizer-meta">${new Date(item.createdAt).toLocaleString()} · review-only · external publication: none</span></article>`).join('') : '<div class="workspace-optimizer-record">No optimizer assessments yet. Save a content draft, then score it here.</div>';
+    }
+    function optimizeWorkspaceDraft(event) {
+      event.preventDefault();
+      const id = document.getElementById('workspace-optimizer-draft')?.value;
+      const draft = workspaceContentDrafts.find(item => item.id === id);
+      if (!draft) return;
+      const checks = [
+        { label: 'Specific title (20+ characters)', pass: draft.title.length >= 20, weight: 15 },
+        { label: 'Destination specified', pass: Boolean(draft.platform), weight: 15 },
+        { label: 'Detailed body (120+ characters)', pass: draft.body.length >= 120, weight: 25 },
+        { label: 'Tone selected', pass: Boolean(draft.tone), weight: 10 },
+        { label: 'Call to action included', pass: Boolean(draft.cta), weight: 10 },
+        { label: 'Keywords included', pass: Boolean(draft.keywords), weight: 10 },
+        { label: 'Draft reviewed locally', pass: draft.status === 'reviewed', weight: 15 }
+      ];
+      const score = checks.reduce((total, check) => total + (check.pass ? check.weight : 0), 0);
+      const recommendations = checks.filter(check => !check.pass).map(check => `Improve: ${check.label.toLowerCase()}.`);
+      const assessment = { id: `optimizer-${Date.now()}`, draftId: draft.id, title: draft.title, score, checks, recommendations, createdAt: new Date().toISOString(), externalPublication: false };
+      workspaceOptimizerAssessments.push(assessment); saveWorkspaceOptimizerAssessments(); renderWorkspaceOptimizer(); workspaceAudit('content-optimization', `Scored “${draft.title}” at ${score}/100.`, { assessmentId: assessment.id, score, externalPublication: false });
+    }
     function renderWorkspaceRoadmap() {
       const target = document.getElementById('workspace-roadmap');
       if (!target) return;
@@ -9426,7 +9479,7 @@
       if (!item) return;
       item.status = 'completed'; item.completedAt = new Date().toISOString(); saveWorkspaceObjectives(); renderWorkspaceManager(); workspaceRunResolutionEngine(); showToast('Objective completed; resolution status re-evaluated.', 'success');
     }
-    function renderWorkspaceManager() { renderWorkspaceCalendar(); renderWorkspaceAgenda(); renderWorkspaceMission(); renderWorkspaceRoadmap(); renderWorkspaceGoalGraph(); renderWorkspaceMemory(); renderWorkspacePlan(); renderWorkspaceRoleTrace(); renderWorkspaceTools(); renderWorkspaceRecovery(); renderWorkspaceExecutionLedger(); renderWorkspaceContentWorkbench(); }
+    function renderWorkspaceManager() { renderWorkspaceCalendar(); renderWorkspaceAgenda(); renderWorkspaceMission(); renderWorkspaceRoadmap(); renderWorkspaceGoalGraph(); renderWorkspaceMemory(); renderWorkspacePlan(); renderWorkspaceRoleTrace(); renderWorkspaceTools(); renderWorkspaceRecovery(); renderWorkspaceExecutionLedger(); renderWorkspaceContentWorkbench(); renderWorkspaceOptimizer(); }
     function workspaceChatReply(message) {
       const lower = message.toLowerCase();
       if (lower.includes('mission') || lower.includes('progress') || lower.includes('live')) { const s = workspaceMissionSummary(); return `Mission pulse: ${s.liveCount} live ads, ${s.adAgendaCount} ad agendas, ${s.objectiveCount} objectives, and ${s.campaignJobs} campaign jobs are currently contributing to the annual plan.`; }
@@ -9442,6 +9495,7 @@
       document.getElementById('workspace-memory-search')?.addEventListener('input', renderWorkspaceMemory);
       document.getElementById('workspace-execution-form')?.addEventListener('submit', addWorkspaceExecutionRecord);
       document.getElementById('workspace-content-form')?.addEventListener('submit', saveWorkspaceContentDraft);
+      document.getElementById('workspace-optimizer-form')?.addEventListener('submit', optimizeWorkspaceDraft);
       renderWorkspaceManager();
       renderWorkspaceMailbox();
       workspaceRunResolutionEngine();

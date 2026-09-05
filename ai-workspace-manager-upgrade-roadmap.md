@@ -67,6 +67,10 @@ Version 8 is complete when the Workspace Manager records structured execution ev
 
 Version 9 is complete when the Workspace Manager provides a local content workbench for advertisement and publication drafts with required title, destination, and body fields; tone, CTA, and keyword metadata; revision numbering; review status; persistent history; and audit events. Drafting and review must never publish externally.
 
+## Version 10 acceptance criteria
+
+Version 10 is complete when the Workspace Manager scores local advertisement drafts against a transparent completeness checklist, identifies missing title, destination, body, tone, CTA, keyword, or review evidence, stores assessments, and presents review-only recommendations. Optimization must not mutate drafts or publish externally.
+
 ## ZIP references used for Version 1
 
 The archive suggests several useful patterns: AutoGPT and Ouroboros for bounded iterative loops; CrewAI and MultiMind for separated roles and model routing; OpenClaw, CentaurLoop, and StreamCore for runtime and event-oriented structure; and the hard-logic kernel project for deterministic constraints and an append-only audit concept. These references inform the design only. No archive executable is trusted or run as part of Version 1.
