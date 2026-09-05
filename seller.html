@@ -3919,6 +3919,20 @@
     .workspace-execution-record strong { color:#8c2f39; font-size:.7rem; }
     .workspace-execution-meta { color:#9a8b7e; font-size:.59rem; }
     @media (max-width: 820px) { .workspace-execution-form { grid-template-columns:1fr; } .workspace-execution-form button { grid-column:auto; } }
+    .workspace-content-panel { margin-top:12px; padding:11px; border:1px solid #e3d8cc; border-radius:13px; background:rgba(255,255,255,.65); }
+    .workspace-content-toolbar { display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap; }
+    .workspace-content-toolbar button, .workspace-content-form button, .workspace-content-record button { border:1px solid #d8cbbd; border-radius:8px; padding:7px 10px; background:#fff; color:#8c2f39; cursor:pointer; font-size:.7rem; font-weight:800; }
+    #workspace-content-summary { color:#75695f; font-size:.68rem; margin-top:5px; }
+    .workspace-content-form { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:6px; margin-top:9px; }
+    .workspace-content-form input, .workspace-content-form textarea, .workspace-content-form select { min-width:0; border:1px solid #d8cbbd; border-radius:8px; padding:7px 8px; background:#fff; color:#2b2621; font:inherit; font-size:.7rem; }
+    .workspace-content-form textarea { grid-column:1 / -1; min-height:80px; resize:vertical; }
+    .workspace-content-form button { justify-self:start; }
+    #workspace-content-history { display:grid; gap:6px; margin-top:9px; max-height:300px; overflow:auto; }
+    .workspace-content-record { display:grid; gap:4px; padding:8px; border:1px solid #e3d8cc; border-radius:8px; background:#fff; color:#51463e; font-size:.64rem; }
+    .workspace-content-record.reviewed { border-color:#75a68a; background:#f0f7f2; }
+    .workspace-content-record strong { color:#8c2f39; font-size:.7rem; }
+    .workspace-content-meta { color:#9a8b7e; font-size:.59rem; }
+    @media (max-width: 820px) { .workspace-content-form { grid-template-columns:1fr; } .workspace-content-form textarea { grid-column:auto; } }
     @media (max-width: 820px) { .workspace-v1 { grid-template-columns:1fr; } #workspace-roadmap { grid-template-columns:repeat(2,minmax(0,1fr)); } }
     @media (max-width: 820px) { .workspace-grid { grid-template-columns:1fr; } .workspace-calendar { grid-template-columns:repeat(12,minmax(82px,1fr)); } #workspace-manager { width:min(100% - 20px,1440px); margin-top:10px; padding:12px; } }
   </style>
@@ -4063,6 +4077,19 @@
         <button type="submit">Save execution record</button>
       </form>
       <div id="workspace-execution-history" aria-live="polite"></div>
+    </section>
+    <section class="workspace-content-panel" aria-labelledby="workspace-content-title">
+      <div class="workspace-content-toolbar"><div><div class="workspace-panel-label" id="workspace-content-title">Version 9 · content workbench</div><div style="color:#75695f;font-size:.7rem;margin-top:3px">Draft advertisement and publication content locally, keep revisions, and mark a draft reviewed before any later approval workflow.</div><div id="workspace-content-summary">No content drafts yet.</div></div><button type="button" onclick="renderWorkspaceContentWorkbench()">Refresh workbench</button></div>
+      <form id="workspace-content-form" class="workspace-content-form">
+        <input id="workspace-content-title-input" required placeholder="Content title" aria-label="Content title">
+        <input id="workspace-content-platform" required placeholder="Destination or channel" aria-label="Destination or channel">
+        <select id="workspace-content-tone" aria-label="Content tone"><option>Clear and helpful</option><option>Professional</option><option>Warm and local</option><option>Promotional</option></select>
+        <input id="workspace-content-cta" placeholder="Call to action" aria-label="Call to action">
+        <input id="workspace-content-keywords" placeholder="Keywords, comma separated" aria-label="Keywords">
+        <textarea id="workspace-content-body" required placeholder="Draft content body" aria-label="Draft content body"></textarea>
+        <button type="submit">Save new draft revision</button>
+      </form>
+      <div id="workspace-content-history" aria-live="polite"></div>
     </section>
     <div class="workspace-calendar-wrap">
       <div class="workspace-panel-label">Daily objective calendar</div>
@@ -9279,6 +9306,33 @@
       workspaceExecutionRecords.push(record); saveWorkspaceExecutionRecords(); renderWorkspaceExecutionLedger(); workspaceAudit('execution-record', `Recorded ${status} execution evidence for “${task}”.`, { recordId: record.id, proofValid, externalAction: false });
       event.target.reset();
     }
+    let workspaceContentDrafts = (() => { try { return JSON.parse(localStorage.getItem('clblast_workspace_content_drafts') || '[]'); } catch (_) { return []; } })();
+    function saveWorkspaceContentDrafts() { localStorage.setItem('clblast_workspace_content_drafts', JSON.stringify(workspaceContentDrafts.slice(-100))); }
+    function renderWorkspaceContentWorkbench() {
+      const summary = document.getElementById('workspace-content-summary');
+      const history = document.getElementById('workspace-content-history');
+      if (!summary || !history) return;
+      const reviewed = workspaceContentDrafts.filter(draft => draft.status === 'reviewed').length;
+      summary.innerHTML = `<strong>${workspaceContentDrafts.length} content draft${workspaceContentDrafts.length === 1 ? '' : 's'}:</strong> ${reviewed} reviewed, ${workspaceContentDrafts.length - reviewed} awaiting review. All revisions are local; external publication is disabled.`;
+      history.innerHTML = workspaceContentDrafts.length ? workspaceContentDrafts.slice().reverse().map(draft => `<article class="workspace-content-record ${workspaceEscape(draft.status)}"><strong>${workspaceEscape(draft.title)} · revision ${draft.revision} · ${workspaceEscape(draft.status)}</strong><span><b>Destination:</b> ${workspaceEscape(draft.platform)} · <b>Tone:</b> ${workspaceEscape(draft.tone)}</span><span>${workspaceEscape(draft.body)}</span><span><b>CTA:</b> ${workspaceEscape(draft.cta || 'none')} · <b>Keywords:</b> ${workspaceEscape(draft.keywords || 'none')}</span><span class="workspace-content-meta">${new Date(draft.createdAt).toLocaleString()} · external publication: none</span>${draft.status === 'draft' ? `<button type="button" onclick="reviewWorkspaceContentDraft('${workspaceEscape(draft.id)}')">Mark reviewed</button>` : '<span class="workspace-content-meta">Reviewed locally; awaiting any future approval gate.</span>'}</article>`).join('') : '<div class="workspace-content-record">No content drafts yet. Create a local revision to begin the review trail.</div>';
+    }
+    function saveWorkspaceContentDraft(event) {
+      event.preventDefault();
+      const value = id => document.getElementById(id)?.value.trim() || '';
+      const title = value('workspace-content-title-input');
+      const platform = value('workspace-content-platform');
+      const body = value('workspace-content-body');
+      if (!title || !platform || !body) return;
+      const prior = workspaceContentDrafts.filter(draft => draft.title.toLowerCase() === title.toLowerCase() && draft.platform.toLowerCase() === platform.toLowerCase());
+      const draft = { id: `content-${Date.now()}`, title, platform, tone: value('workspace-content-tone'), cta: value('workspace-content-cta'), keywords: value('workspace-content-keywords'), body, revision: prior.length ? Math.max(...prior.map(item => item.revision || 1)) + 1 : 1, status: 'draft', createdAt: new Date().toISOString(), externalPublication: false };
+      workspaceContentDrafts.push(draft); saveWorkspaceContentDrafts(); renderWorkspaceContentWorkbench(); workspaceAudit('content-draft', `Saved content draft revision ${draft.revision} for “${title}”.`, { draftId: draft.id, externalPublication: false });
+      event.target.reset();
+    }
+    function reviewWorkspaceContentDraft(id) {
+      const draft = workspaceContentDrafts.find(item => item.id === id);
+      if (!draft) return;
+      draft.status = 'reviewed'; draft.reviewedAt = new Date().toISOString(); saveWorkspaceContentDrafts(); renderWorkspaceContentWorkbench(); workspaceAudit('content-review', `Marked content draft revision ${draft.revision} reviewed.`, { draftId: draft.id, externalPublication: false });
+    }
     function renderWorkspaceRoadmap() {
       const target = document.getElementById('workspace-roadmap');
       if (!target) return;
@@ -9372,7 +9426,7 @@
       if (!item) return;
       item.status = 'completed'; item.completedAt = new Date().toISOString(); saveWorkspaceObjectives(); renderWorkspaceManager(); workspaceRunResolutionEngine(); showToast('Objective completed; resolution status re-evaluated.', 'success');
     }
-    function renderWorkspaceManager() { renderWorkspaceCalendar(); renderWorkspaceAgenda(); renderWorkspaceMission(); renderWorkspaceRoadmap(); renderWorkspaceGoalGraph(); renderWorkspaceMemory(); renderWorkspacePlan(); renderWorkspaceRoleTrace(); renderWorkspaceTools(); renderWorkspaceRecovery(); renderWorkspaceExecutionLedger(); }
+    function renderWorkspaceManager() { renderWorkspaceCalendar(); renderWorkspaceAgenda(); renderWorkspaceMission(); renderWorkspaceRoadmap(); renderWorkspaceGoalGraph(); renderWorkspaceMemory(); renderWorkspacePlan(); renderWorkspaceRoleTrace(); renderWorkspaceTools(); renderWorkspaceRecovery(); renderWorkspaceExecutionLedger(); renderWorkspaceContentWorkbench(); }
     function workspaceChatReply(message) {
       const lower = message.toLowerCase();
       if (lower.includes('mission') || lower.includes('progress') || lower.includes('live')) { const s = workspaceMissionSummary(); return `Mission pulse: ${s.liveCount} live ads, ${s.adAgendaCount} ad agendas, ${s.objectiveCount} objectives, and ${s.campaignJobs} campaign jobs are currently contributing to the annual plan.`; }
@@ -9387,6 +9441,7 @@
       document.getElementById('workspace-memory-form')?.addEventListener('submit', addWorkspaceMemory);
       document.getElementById('workspace-memory-search')?.addEventListener('input', renderWorkspaceMemory);
       document.getElementById('workspace-execution-form')?.addEventListener('submit', addWorkspaceExecutionRecord);
+      document.getElementById('workspace-content-form')?.addEventListener('submit', saveWorkspaceContentDraft);
       renderWorkspaceManager();
       renderWorkspaceMailbox();
       workspaceRunResolutionEngine();

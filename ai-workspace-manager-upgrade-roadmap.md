@@ -63,6 +63,10 @@ Version 7 is complete when unresolved work uses bounded retry policies with expl
 
 Version 8 is complete when the Workspace Manager records structured execution evidence with task inputs, observed outputs, evidence references, completion proofs, status, timestamps, and an explicit no-external-action boundary. A record cannot claim completion without output, evidence, and proof; records persist locally and every mutation is auditable.
 
+## Version 9 acceptance criteria
+
+Version 9 is complete when the Workspace Manager provides a local content workbench for advertisement and publication drafts with required title, destination, and body fields; tone, CTA, and keyword metadata; revision numbering; review status; persistent history; and audit events. Drafting and review must never publish externally.
+
 ## ZIP references used for Version 1
 
 The archive suggests several useful patterns: AutoGPT and Ouroboros for bounded iterative loops; CrewAI and MultiMind for separated roles and model routing; OpenClaw, CentaurLoop, and StreamCore for runtime and event-oriented structure; and the hard-logic kernel project for deterministic constraints and an append-only audit concept. These references inform the design only. No archive executable is trusted or run as part of Version 1.
