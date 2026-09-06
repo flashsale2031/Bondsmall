@@ -2594,11 +2594,25 @@ input.input-error {
 }
 
 .cat-drawer-title {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  min-width: 0;
   font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.cat-drawer-menu-wing {
+  display: block;
+  flex: 0 0 76px;
+  width: 76px;
+  height: 58px;
+  object-fit: contain;
+  object-position: center;
+  filter: none;
 }
 
 .cat-drawer-close {
