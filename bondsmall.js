@@ -1818,17 +1818,23 @@
             });
         }
 
+        const logoTransitionSequence = ['text', 'black', 'text', 'gold'];
+        let logoTransitionIndex = 0;
+
         setInterval(() => {
+            logoTransitionIndex = (logoTransitionIndex + 1) % logoTransitionSequence.length;
+            const nextFace = logoTransitionSequence[logoTransitionIndex];
             document.querySelectorAll('.logo').forEach((logoContainer) => {
-                const text = logoContainer.querySelector('.logo-text');
-                const img = logoContainer.querySelector('.logo-img');
-                if (!text || !img) return;
-                const showingText = text.classList.contains('logo-face--active');
-                text.classList.toggle('logo-face--active', !showingText);
-                img.classList.toggle('logo-face--active', showingText);
+                const faces = {
+                    text: logoContainer.querySelector('.logo-text'),
+                    black: logoContainer.querySelector('.logo-img--black'),
+                    gold: logoContainer.querySelector('.logo-img--gold')
+                };
+                Object.entries(faces).forEach(([name, face]) => {
+                    if (face) face.classList.toggle('logo-face--active', name === nextFace);
+                });
             });
-            const textFace = document.querySelector('.logo .logo-text');
-            if (textFace && textFace.classList.contains('logo-face--active')) {
+            if (nextFace === 'text') {
                 textActivationCount += 1;
                 if (textActivationCount % 2 === 1) {
                     clearTimeout(gleamTimeoutId);

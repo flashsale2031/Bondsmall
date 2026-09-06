@@ -114,6 +114,11 @@ body.lightbox-open {
   object-fit: contain;
 }
 
+.logo-img--black,
+.logo-img--gold {
+  display: block;
+}
+
 /* unused helper — kept for safety */
 .logo-img--only {
   display: none;
