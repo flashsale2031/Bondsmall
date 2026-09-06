@@ -86,6 +86,33 @@
     </td>`;
   }
 
+  function makeScrollControls(scrollWrap) {
+    const controls = document.createElement('div');
+    controls.className = 'workspace-platform-scroll-controls';
+    controls.innerHTML = `
+      <span class="workspace-platform-scroll-label">Platform statistics → swipe left/right</span>
+      <button type="button" class="workspace-platform-scroll-btn" data-scroll-dir="left" aria-label="Scroll platform statistics left">←</button>
+      <button type="button" class="workspace-platform-scroll-btn" data-scroll-dir="right" aria-label="Scroll platform statistics right">→</button>`;
+    controls.querySelectorAll('[data-scroll-dir]').forEach(button => {
+      button.addEventListener('click', () => {
+        const direction = button.dataset.scrollDir === 'right' ? 1 : -1;
+        scrollWrap.scrollBy({ left: direction * Math.max(280, scrollWrap.clientWidth * 0.8), behavior: 'smooth' });
+      });
+    });
+    return controls;
+  }
+
+  function createScrollWrapper(table) {
+    if (table.parentElement?.classList.contains('workspace-platform-scroll')) return table.parentElement;
+    const wrapper = document.createElement('div');
+    wrapper.className = 'workspace-platform-scroll';
+    wrapper.setAttribute('role', 'region');
+    wrapper.setAttribute('aria-label', 'Bonds Mall state platform traffic statistics');
+    table.parentNode.insertBefore(wrapper, table);
+    wrapper.appendChild(table);
+    return wrapper;
+  }
+
   function enhance() {
     const table = findMissionTable();
     if (!table || table.dataset.platformTrafficEnhanced === '1') return false;
@@ -113,7 +140,11 @@
     table.dataset.platformTrafficEnhanced = '1';
     table.classList.add('workspace-platform-traffic-table');
 
-    const wrap = table.closest('.workspace-econ-table-wrap') || table.parentElement;
+    const scrollWrap = createScrollWrapper(table);
+    const controls = makeScrollControls(scrollWrap);
+    scrollWrap.parentNode.insertBefore(controls, scrollWrap);
+
+    const wrap = scrollWrap.closest('.workspace-econ-table-wrap') || scrollWrap.parentElement;
     if (wrap && !wrap.previousElementSibling?.classList.contains('workspace-platform-traffic-note')) {
       const note = document.createElement('div');
       note.className = 'workspace-platform-traffic-note';
@@ -129,18 +160,30 @@
     style.id = 'workspace-platform-traffic-style';
     style.textContent = `
       .workspace-platform-traffic-note{margin:8px 0;padding:9px 10px;border:1px solid #e3d8cc;border-radius:9px;background:#f7f1ea;color:#665950;font-size:.66rem;line-height:1.45}
-      .workspace-platform-traffic-table{min-width:1480px}
-      .workspace-platform-traffic-table{border-collapse:collapse}
-      .workspace-platform-traffic-head{min-width:175px;vertical-align:top}
+      .workspace-platform-scroll-controls{display:flex;align-items:center;gap:7px;margin:8px 0 5px;min-height:34px}
+      .workspace-platform-scroll-label{flex:1;color:#75695f;font-size:.68rem;font-weight:700}
+      .workspace-platform-scroll-btn{appearance:none;border:1px solid #d8cbbd;border-radius:8px;background:#fff8f0;color:#8c2f39;width:38px;height:34px;font-size:1.05rem;font-weight:800;cursor:pointer;touch-action:manipulation}
+      .workspace-platform-scroll-btn:active{transform:scale(.96)}
+      .workspace-platform-scroll{width:100%;max-width:100%;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;touch-action:pan-x;scrollbar-width:auto;scrollbar-color:#8c2f39 #eee5dc;border:1px solid #e3d8cc;border-radius:10px;}
+      .workspace-platform-scroll::-webkit-scrollbar{height:12px}
+      .workspace-platform-scroll::-webkit-scrollbar-track{background:#eee5dc;border-radius:10px}
+      .workspace-platform-scroll::-webkit-scrollbar-thumb{background:#8c2f39;border-radius:10px;border:2px solid #eee5dc}
+      .workspace-platform-traffic-table{width:max-content;min-width:1480px;display:table;border-collapse:collapse;table-layout:auto}
+      .workspace-platform-traffic-table th,.workspace-platform-traffic-table td{box-sizing:border-box}
+      .workspace-platform-traffic-head{min-width:175px;vertical-align:top;white-space:normal}
       .workspace-platform-traffic-head strong{display:block;color:#8c2f39}
       .workspace-platform-traffic-head small{display:block;color:#75695f;font-weight:500;margin-top:2px}
-      .workspace-platform-traffic-cell{min-width:175px;vertical-align:top}
+      .workspace-platform-traffic-cell{min-width:175px;vertical-align:top;white-space:normal}
       .workspace-platform-traffic-cell strong{display:block;color:#8c2f39}
       .workspace-platform-traffic-cell a{display:block;color:#8c2f39;font-size:.66rem;text-decoration:underline;margin:2px 0}
       .workspace-platform-traffic-cell .workspace-platform-daily{display:block;font-weight:800;color:#241f1b;margin:2px 0}
       .workspace-platform-traffic-cell small{display:block;color:#75695f;font-size:.57rem;line-height:1.35}
-      .workspace-platform-traffic-table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
-      @media(max-width:700px){.workspace-platform-traffic-table{min-width:1380px}.workspace-platform-traffic-head,.workspace-platform-traffic-cell{min-width:160px}}
+      @media(max-width:700px){
+        .workspace-platform-scroll{width:100%;max-width:100%;}
+        .workspace-platform-traffic-table{min-width:1480px}
+        .workspace-platform-traffic-head,.workspace-platform-traffic-cell{min-width:160px}
+        .workspace-platform-scroll-label{font-size:.63rem}
+      }
     `;
     document.head.appendChild(style);
   }
