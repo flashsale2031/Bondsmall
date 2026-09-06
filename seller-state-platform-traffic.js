@@ -1,5 +1,8 @@
 /* Bonds Mall Seller — state platform traffic columns
- * Enhances the existing 50-state mission economics table in seller.html.
+ * Targets the actual Seller.html live mission economics table.
+ * The table is rendered dynamically by Seller.html, so this enhancer uses
+ * an exact #workspace-mission-economics scope plus MutationObserver rather
+ * than relying only on a load-time polling window.
  * State traffic is a planning estimate: current platform U.S./site-wide monthly
  * traffic is converted to a daily average and allocated by 2025 Census state
  * population share. It is not measured state-level analytics.
@@ -52,18 +55,25 @@
     return String(text || '').replace(/\s+/g, ' ').trim().toLowerCase();
   }
 
+  function isMissionEconomicsTable(table) {
+    if (!table || !table.matches || !table.matches('table.workspace-econ-table, table')) return false;
+    const headers = [...table.querySelectorAll('thead th')].map(th => normalize(th.textContent));
+    if (headers.length < 4) return false;
+    return headers.some(h => h === 'state') &&
+      headers.some(h => h === 'locations') &&
+      headers.some(h => h.includes('state profit target')) &&
+      headers.some(h => h.includes('per-location target'));
+  }
+
   function findMissionTable() {
-    const candidates = [...document.querySelectorAll('table')];
-    return candidates.find(table => {
-      const headerCells = [...table.querySelectorAll('thead th')];
-      const headers = headerCells.length
-        ? headerCells.map(th => normalize(th.textContent))
-        : [...(table.rows[0]?.cells || [])].map(cell => normalize(cell.textContent));
-      return headers.some(h => h === 'state') &&
-        headers.some(h => h === 'locations') &&
-        headers.some(h => h.includes('state profit target')) &&
-        headers.some(h => h.includes('per-location target'));
-    }) || null;
+    /* Seller.html creates this exact host and dynamically replaces its HTML. */
+    const exact = document.querySelector('#workspace-mission-economics table.workspace-econ-table');
+    if (isMissionEconomicsTable(exact)) return exact;
+
+    const scoped = document.querySelectorAll('#workspace-mission-economics table');
+    for (const table of scoped) if (isMissionEconomicsTable(table)) return table;
+
+    return null;
   }
 
   function getHeaderRow(table) {
@@ -108,15 +118,13 @@
     wrapper.className = 'workspace-platform-scroll';
     wrapper.setAttribute('role', 'region');
     wrapper.setAttribute('aria-label', 'Bonds Mall state platform traffic statistics');
+    wrapper.setAttribute('tabindex', '0');
     table.parentNode.insertBefore(wrapper, table);
     wrapper.appendChild(table);
     return wrapper;
   }
 
-  function enhance() {
-    const table = findMissionTable();
-    if (!table || table.dataset.platformTrafficEnhanced === '1') return false;
-
+  function addPlatformColumns(table) {
     const head = getHeaderRow(table);
     const rows = getBodyRows(table);
     if (!head || rows.length === 0) return false;
@@ -136,20 +144,29 @@
       if (!state || !POP[state]) return;
       platforms.forEach(p => row.insertAdjacentHTML('beforeend', cell(p, state)));
     });
+    return true;
+  }
+
+  function enhance() {
+    const table = findMissionTable();
+    if (!table || table.dataset.platformTrafficEnhanced === '1') return false;
+    if (!addPlatformColumns(table)) return false;
 
     table.dataset.platformTrafficEnhanced = '1';
     table.classList.add('workspace-platform-traffic-table');
 
     const scrollWrap = createScrollWrapper(table);
-    const controls = makeScrollControls(scrollWrap);
-    scrollWrap.parentNode.insertBefore(controls, scrollWrap);
+    if (!scrollWrap.previousElementSibling?.classList.contains('workspace-platform-scroll-controls')) {
+      const controls = makeScrollControls(scrollWrap);
+      scrollWrap.parentNode.insertBefore(controls, scrollWrap);
+    }
 
     const wrap = scrollWrap.closest('.workspace-econ-table-wrap') || scrollWrap.parentElement;
-    if (wrap && !wrap.previousElementSibling?.classList.contains('workspace-platform-traffic-note')) {
+    if (wrap && !wrap.querySelector(':scope > .workspace-platform-traffic-note')) {
       const note = document.createElement('div');
       note.className = 'workspace-platform-traffic-note';
       note.innerHTML = '<strong>Platform traffic by state:</strong> Each platform is shown side by side. Daily state figures are modeled estimates derived from the latest surfaced platform traffic benchmark and the state\'s 2025 Census population share. They are not platform-reported state analytics. Bonds Mall remains live-analytics only until first-party analytics are connected.';
-      wrap.parentElement.insertBefore(note, wrap);
+      wrap.insertBefore(note, wrap.firstChild);
     }
     return true;
   }
@@ -159,42 +176,67 @@
     const style = document.createElement('style');
     style.id = 'workspace-platform-traffic-style';
     style.textContent = `
-      .workspace-platform-traffic-note{margin:8px 0;padding:9px 10px;border:1px solid #e3d8cc;border-radius:9px;background:#f7f1ea;color:#665950;font-size:.66rem;line-height:1.45}
-      .workspace-platform-scroll-controls{display:flex;align-items:center;gap:7px;margin:8px 0 5px;min-height:34px}
-      .workspace-platform-scroll-label{flex:1;color:#75695f;font-size:.68rem;font-weight:700}
-      .workspace-platform-scroll-btn{appearance:none;border:1px solid #d8cbbd;border-radius:8px;background:#fff8f0;color:#8c2f39;width:38px;height:34px;font-size:1.05rem;font-weight:800;cursor:pointer;touch-action:manipulation}
-      .workspace-platform-scroll-btn:active{transform:scale(.96)}
-      .workspace-platform-scroll{width:100%;max-width:100%;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;touch-action:pan-x;scrollbar-width:auto;scrollbar-color:#8c2f39 #eee5dc;border:1px solid #e3d8cc;border-radius:10px;}
-      .workspace-platform-scroll::-webkit-scrollbar{height:12px}
-      .workspace-platform-scroll::-webkit-scrollbar-track{background:#eee5dc;border-radius:10px}
-      .workspace-platform-scroll::-webkit-scrollbar-thumb{background:#8c2f39;border-radius:10px;border:2px solid #eee5dc}
-      .workspace-platform-traffic-table{width:max-content;min-width:1480px;display:table;border-collapse:collapse;table-layout:auto}
-      .workspace-platform-traffic-table th,.workspace-platform-traffic-table td{box-sizing:border-box}
-      .workspace-platform-traffic-head{min-width:175px;vertical-align:top;white-space:normal}
-      .workspace-platform-traffic-head strong{display:block;color:#8c2f39}
-      .workspace-platform-traffic-head small{display:block;color:#75695f;font-weight:500;margin-top:2px}
-      .workspace-platform-traffic-cell{min-width:175px;vertical-align:top;white-space:normal}
-      .workspace-platform-traffic-cell strong{display:block;color:#8c2f39}
-      .workspace-platform-traffic-cell a{display:block;color:#8c2f39;font-size:.66rem;text-decoration:underline;margin:2px 0}
-      .workspace-platform-traffic-cell .workspace-platform-daily{display:block;font-weight:800;color:#241f1b;margin:2px 0}
-      .workspace-platform-traffic-cell small{display:block;color:#75695f;font-size:.57rem;line-height:1.35}
+      #workspace-mission-economics .workspace-platform-scroll-controls{display:flex;align-items:center;gap:7px;margin:8px 0 5px;min-height:34px}
+      #workspace-mission-economics .workspace-platform-scroll-label{flex:1;color:#75695f;font-size:.68rem;font-weight:700}
+      #workspace-mission-economics .workspace-platform-scroll-btn{appearance:none;border:1px solid #d8cbbd;border-radius:8px;background:#fff8f0;color:#8c2f39;width:38px;height:34px;font-size:1.05rem;font-weight:800;cursor:pointer;touch-action:manipulation}
+      #workspace-mission-economics .workspace-platform-scroll-btn:active{transform:scale(.96)}
+      #workspace-mission-economics .workspace-platform-scroll{width:100%;max-width:100%;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;touch-action:pan-x;scrollbar-width:auto;scrollbar-color:#8c2f39 #eee5dc;border:1px solid #e3d8cc;border-radius:10px;outline:none}
+      #workspace-mission-economics .workspace-platform-scroll:focus-visible{box-shadow:0 0 0 3px rgba(140,47,57,.18)}
+      #workspace-mission-economics .workspace-platform-scroll::-webkit-scrollbar{height:12px}
+      #workspace-mission-economics .workspace-platform-scroll::-webkit-scrollbar-track{background:#eee5dc;border-radius:10px}
+      #workspace-mission-economics .workspace-platform-scroll::-webkit-scrollbar-thumb{background:#8c2f39;border-radius:10px;border:2px solid #eee5dc}
+      #workspace-mission-economics table.workspace-platform-traffic-table{width:max-content;min-width:1480px;display:table;border-collapse:collapse;table-layout:auto}
+      #workspace-mission-economics .workspace-platform-traffic-table th,#workspace-mission-economics .workspace-platform-traffic-table td{box-sizing:border-box}
+      #workspace-mission-economics .workspace-platform-traffic-head{min-width:175px;vertical-align:top;white-space:normal}
+      #workspace-mission-economics .workspace-platform-traffic-head strong{display:block;color:#8c2f39}
+      #workspace-mission-economics .workspace-platform-traffic-head small{display:block;color:#75695f;font-weight:500;margin-top:2px}
+      #workspace-mission-economics .workspace-platform-traffic-cell{min-width:175px;vertical-align:top;white-space:normal}
+      #workspace-mission-economics .workspace-platform-traffic-cell strong{display:block;color:#8c2f39}
+      #workspace-mission-economics .workspace-platform-traffic-cell a{display:block;color:#8c2f39;font-size:.66rem;text-decoration:underline;margin:2px 0}
+      #workspace-mission-economics .workspace-platform-traffic-cell .workspace-platform-daily{display:block;font-weight:800;color:#241f1b;margin:2px 0}
+      #workspace-mission-economics .workspace-platform-traffic-cell small{display:block;color:#75695f;font-size:.57rem;line-height:1.35}
+      #workspace-mission-economics .workspace-platform-traffic-note{margin:8px 0;padding:9px 10px;border:1px solid #e3d8cc;border-radius:9px;background:#f7f1ea;color:#665950;font-size:.66rem;line-height:1.45}
       @media(max-width:700px){
-        .workspace-platform-scroll{width:100%;max-width:100%;}
-        .workspace-platform-traffic-table{min-width:1480px}
-        .workspace-platform-traffic-head,.workspace-platform-traffic-cell{min-width:160px}
-        .workspace-platform-scroll-label{font-size:.63rem}
+        #workspace-mission-economics .workspace-platform-scroll{width:100%;max-width:100%}
+        #workspace-mission-economics table.workspace-platform-traffic-table{min-width:1480px}
+        #workspace-mission-economics .workspace-platform-traffic-head,#workspace-mission-economics .workspace-platform-traffic-cell{min-width:160px}
+        #workspace-mission-economics .workspace-platform-scroll-label{font-size:.63rem}
       }
     `;
     document.head.appendChild(style);
   }
 
+  function observeSellerMissionTable() {
+    const host = document.getElementById('workspace-mission-economics');
+    if (!host || host.dataset.platformTrafficObserver === '1') return false;
+
+    let scheduled = false;
+    const observer = new MutationObserver(() => {
+      if (scheduled) return;
+      scheduled = true;
+      queueMicrotask(() => {
+        scheduled = false;
+        enhance();
+      });
+    });
+    observer.observe(host, { childList:true, subtree:true });
+    host.dataset.platformTrafficObserver = '1';
+    return true;
+  }
+
   function start() {
     installStyle();
     enhance();
+    observeSellerMissionTable();
+
     let attempts = 0;
     const timer = setInterval(() => {
       attempts++;
-      if (enhance() || attempts >= 120) clearInterval(timer);
+      enhance();
+      observeSellerMissionTable();
+      if (document.querySelector('#workspace-mission-economics')?.dataset.platformTrafficObserver === '1' || attempts >= 120) {
+        clearInterval(timer);
+      }
     }, 250);
   }
 
@@ -203,6 +245,7 @@
   } else {
     start();
   }
+
   document.addEventListener('bondsmall-locale-change', enhance);
   window.BondsMallStatePlatformTraffic = { enhance, platforms, population: POP };
 })();
