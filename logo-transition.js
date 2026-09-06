@@ -3,7 +3,7 @@
     window.__bondsMallLogoCycleStarted = true;
 
     const sequence = ['text', 'black', 'text', 'gold'];
-    const duration = 5000;
+    const duration = 10000;
     let index = 0;
 
     function triggerTextGleam() {
