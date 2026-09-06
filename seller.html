@@ -3806,6 +3806,16 @@
     .workspace-resolution-sheet-table td { padding:7px 6px; border-top:1px solid #e5e3ef; color:#51556b; vertical-align:top; line-height:1.35; }
     .workspace-resolution-sheet-table td:first-child { color:#3f4f86; font-weight:800; white-space:nowrap; }
     .workspace-resolution-sheet-table td:nth-child(2) { white-space:nowrap; color:#4e6e55; font-weight:700; }
+    .workspace-revision-sheet { margin-top:9px; padding:10px; border:1px solid #d8e1d8; border-radius:10px; background:#f9fcf8; }
+    .workspace-revision-sheet-title { display:flex; justify-content:space-between; gap:8px; align-items:baseline; color:#3f6b4a; font-weight:800; font-size:.78rem; }
+    .workspace-revision-sheet-title small { color:#6a7e6d; font-size:.61rem; font-weight:500; }
+    .workspace-revision-sheet-summary { margin-top:5px; color:#526457; font-size:.66rem; line-height:1.4; }
+    .workspace-revision-sheet-wrap { margin-top:8px; overflow:auto; max-height:300px; border:1px solid #d8e1d8; border-radius:8px; }
+    .workspace-revision-sheet-table { width:100%; min-width:760px; border-collapse:collapse; font-size:.62rem; }
+    .workspace-revision-sheet-table th { position:sticky; top:0; z-index:1; padding:6px; background:#eaf3ea; color:#4e7056; text-align:left; }
+    .workspace-revision-sheet-table td { padding:7px 6px; border-top:1px solid #e0e9e0; color:#506155; vertical-align:top; line-height:1.35; }
+    .workspace-revision-sheet-table td:first-child { color:#3f6b4a; font-weight:800; white-space:nowrap; }
+    .workspace-revision-sheet-audit { margin-top:8px; color:#617263; font-size:.61rem; line-height:1.4; }
     .workspace-progress { height:7px; overflow:hidden; border-radius:99px; background:#eadfd4; }
     #workspace-progress-fill { display:block; height:100%; width:0%; border-radius:inherit; background:linear-gradient(90deg,#a04453,#d08a4b); transition:width .25s ease; }
     .workspace-progress-report { margin-top:8px; padding:9px 10px; border:1px solid #e3d8cc; border-radius:9px; background:#fffaf5; color:#665950; font-size:.68rem; line-height:1.45; }
@@ -4147,6 +4157,7 @@
         <div id="workspace-mission-copy" class="workspace-mission-copy"></div>
         <div id="workspace-problem-sheet" class="workspace-problem-sheet" aria-label="Mission Problem Sheet"></div>
         <div id="workspace-resolution-sheet" class="workspace-resolution-sheet" aria-label="Mission Resolution Sheet"></div>
+        <div id="workspace-revision-sheet" class="workspace-revision-sheet" aria-label="Mission Revision Sheet"></div>
         <div id="workspace-mission-economics" class="workspace-mission-economics" aria-label="50-state economic mission math"></div>
         <div class="workspace-progress" aria-label="Mission progress"><span id="workspace-progress-fill"></span></div>
         <div id="workspace-progress-report" class="workspace-progress-report" aria-live="polite"></div>
@@ -9794,6 +9805,7 @@
       const copy = document.getElementById('workspace-mission-copy');
       const problemSheet = document.getElementById('workspace-problem-sheet');
       const resolutionSheet = document.getElementById('workspace-resolution-sheet');
+      const revisionSheet = document.getElementById('workspace-revision-sheet');
       const fill = document.getElementById('workspace-progress-fill');
       const report = document.getElementById('workspace-progress-report');
       const economics = document.getElementById('workspace-mission-economics');
@@ -9853,6 +9865,17 @@
         }).join('');
         const escalatedCount = escalatedStages.size;
         resolutionSheet.innerHTML = `<div class="workspace-resolution-sheet-title"><span>Mission Resolution Sheet</span><small>${escalatedCount} escalated · ${WORKSPACE_PROBLEM_RESOLUTION_SHEET.length - escalatedCount} ready</small></div><div class="workspace-resolution-sheet-summary"><strong>Resolution rule:</strong> Resolve the current stage with the safest available action, preserve evidence, and escalate unresolved issues instead of claiming completion or taking uncontrolled external action.</div><div class="workspace-resolution-sheet-wrap"><table class="workspace-resolution-sheet-table"><thead><tr><th>Stage</th><th>Status</th><th>Resolution action</th><th>Next safe step</th><th>Retry control</th></tr></thead><tbody>${resolutionRows}</tbody></table></div>`;
+      }
+      if (revisionSheet) {
+        const escalatedCount = new Set(workspaceResolutionMailbox.filter(item => item.escalated).map(item => item.stage)).size;
+        const revisionRows = [
+          ['Financial mission', `$${WORKSPACE_MISSION.yield.toLocaleString()} contribution target across ${WORKSPACE_MISSION.locations.toLocaleString()} locations by ${WORKSPACE_MISSION.deadline}`, 'State targets and per-location contribution math are rendered in the Live Mission Pulse.', 'Recheck target, margin, and cost assumptions before changing the mission.'],
+          ['Traffic and platform matrix', '50 states × 10 platform columns with modeled daily traffic per state', 'State Platform Daily Traffic table; Bonds Mall requires first-party analytics.', 'Replace modeled traffic with verified platform and conversion data.'],
+          ['Advertising and product methods', '200:1 planning model with individual and combined product pathways', 'Product economics, traffic allocation, and methods-of-operation tables.', 'Revise allocations from actual margin, inventory, fees, and completed sales.'],
+          ['Resolution and safety controls', `${escalatedCount} escalated stage${escalatedCount === 1 ? '' : 's'} · ${WORKSPACE_PROBLEM_RESOLUTION_SHEET.length - escalatedCount} ready`, 'Problem and Resolution Sheets plus local audit events; external execution remains gated.', 'Keep unresolved changes in review until evidence and approval requirements are met.']
+        ].map(([area, revision, evidence, next]) => `<tr><td>${workspaceEscape(area)}</td><td>${workspaceEscape(revision)}</td><td>${workspaceEscape(evidence)}</td><td>${workspaceEscape(next)}</td></tr>`).join('');
+        const recentAudits = workspaceAuditEvents.slice(-5).reverse().map(event => `${new Date(event.timestamp).toLocaleString()} · ${event.type}: ${event.message}`).join(' | ');
+        revisionSheet.innerHTML = `<div class="workspace-revision-sheet-title"><span>Mission Revision Sheet</span><small>${workspaceAuditEvents.length} local audit event${workspaceAuditEvents.length === 1 ? '' : 's'}</small></div><div class="workspace-revision-sheet-summary"><strong>Revision purpose:</strong> Keep the financial target, traffic matrix, product/ad methods, and safety controls synchronized. Revise only when the new assumption or evidence is recorded and the downstream sheets remain consistent.</div><div class="workspace-revision-sheet-wrap"><table class="workspace-revision-sheet-table"><thead><tr><th>Revision area</th><th>Current revision</th><th>Evidence / source</th><th>Next review</th></tr></thead><tbody>${revisionRows}</tbody></table></div><div class="workspace-revision-sheet-audit"><strong>Recent audit trail:</strong> ${workspaceEscape(recentAudits || 'No local audit events recorded in this browser session.')}</div>`;
       }
       if (fill) fill.style.width = `${stats.progress}%`;
       if (report) report.innerHTML = `<strong>Progress report:</strong> ${stats.progress}% planning coverage is currently represented in the mission pulse. This scale counts tracked objectives, ad agendas, active listings, and campaign jobs against the ${WORKSPACE_MISSION.locations.toLocaleString()}-location mission plan; it is an execution-coverage indicator, not a claim of completed profit or verified conversions.<div class="workspace-progress-report-grid"><div><span>${stats.objectiveCount.toLocaleString()}</span><small>Objectives</small></div><div><span>${stats.adAgendaCount.toLocaleString()}</span><small>Ad agendas</small></div><div><span>${stats.liveCount.toLocaleString()}</span><small>Active listings</small></div><div><span>${stats.campaignJobs.toLocaleString()}</span><small>Campaign jobs</small></div></div>`;
