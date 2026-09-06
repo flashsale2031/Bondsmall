@@ -65,7 +65,7 @@
 
   function routeForListing(listingId = '') {
     const id = String(listingId || '').trim();
-    return id ? `${SELLING_ITEM_URL}?listing_id=${encodeURIComponent(id)}` : SELLING_ITEM_URL;
+    return id ? `${SELLING_ITEM_URL}?listing_id=${encodeURIComponent(id)}` : SELLING_URL;
   }
 
   function validateUrl(rawUrl = global.location?.href || MARKETPLACE_URL, stage = 'marketplace') {
@@ -249,12 +249,24 @@
   script.async = false;
   script.onload = function () {
     window.dispatchEvent(new CustomEvent('bondsmall-seller-traffic-loaded'));
+    const progress = document.createElement('script');
+    progress.id = 'seller-mission-progress-dollar-loader';
+    progress.src = '/seller-mission-progress.js?v=20260906-1';
+    progress.async = false;
+    document.head.appendChild(progress);
   };
   script.onerror = function () {
     const retry = document.createElement('script');
     retry.id = 'seller-state-platform-traffic-loader-retry';
     retry.src = '/seller-state-platform-traffic.js?v=20260906-4';
     retry.async = false;
+    retry.onload = function () {
+      const progress = document.createElement('script');
+      progress.id = 'seller-mission-progress-dollar-loader-retry';
+      progress.src = '/seller-mission-progress.js?v=20260906-2';
+      progress.async = false;
+      document.head.appendChild(progress);
+    };
     document.head.appendChild(retry);
   };
   (document.head || document.documentElement).appendChild(script);
