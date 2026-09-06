@@ -3796,6 +3796,16 @@
     .workspace-problem-sheet-table th { position:sticky; top:0; z-index:1; padding:6px; background:#f2ebe3; color:#6d5d52; text-align:left; }
     .workspace-problem-sheet-table td { padding:7px 6px; border-top:1px solid #eee5dc; color:#51463e; vertical-align:top; line-height:1.35; }
     .workspace-problem-sheet-table td:first-child { color:#8c2f39; font-weight:800; white-space:nowrap; }
+    .workspace-resolution-sheet { margin-top:9px; padding:10px; border:1px solid #d9d5e8; border-radius:10px; background:#faf9ff; }
+    .workspace-resolution-sheet-title { display:flex; justify-content:space-between; gap:8px; align-items:baseline; color:#3f4f86; font-weight:800; font-size:.78rem; }
+    .workspace-resolution-sheet-title small { color:#6f7491; font-size:.61rem; font-weight:500; }
+    .workspace-resolution-sheet-summary { margin-top:5px; color:#5c6075; font-size:.66rem; line-height:1.4; }
+    .workspace-resolution-sheet-wrap { margin-top:8px; overflow:auto; max-height:260px; border:1px solid #d9d5e8; border-radius:8px; }
+    .workspace-resolution-sheet-table { width:100%; min-width:720px; border-collapse:collapse; font-size:.62rem; }
+    .workspace-resolution-sheet-table th { position:sticky; top:0; z-index:1; padding:6px; background:#eeecf8; color:#4a5687; text-align:left; }
+    .workspace-resolution-sheet-table td { padding:7px 6px; border-top:1px solid #e5e3ef; color:#51556b; vertical-align:top; line-height:1.35; }
+    .workspace-resolution-sheet-table td:first-child { color:#3f4f86; font-weight:800; white-space:nowrap; }
+    .workspace-resolution-sheet-table td:nth-child(2) { white-space:nowrap; color:#4e6e55; font-weight:700; }
     .workspace-progress { height:7px; overflow:hidden; border-radius:99px; background:#eadfd4; }
     #workspace-progress-fill { display:block; height:100%; width:0%; border-radius:inherit; background:linear-gradient(90deg,#a04453,#d08a4b); transition:width .25s ease; }
     .workspace-progress-report { margin-top:8px; padding:9px 10px; border:1px solid #e3d8cc; border-radius:9px; background:#fffaf5; color:#665950; font-size:.68rem; line-height:1.45; }
@@ -4136,6 +4146,7 @@
         <div class="workspace-panel-label" id="workspace-mission-title">Live mission pulse</div>
         <div id="workspace-mission-copy" class="workspace-mission-copy"></div>
         <div id="workspace-problem-sheet" class="workspace-problem-sheet" aria-label="Mission Problem Sheet"></div>
+        <div id="workspace-resolution-sheet" class="workspace-resolution-sheet" aria-label="Mission Resolution Sheet"></div>
         <div id="workspace-mission-economics" class="workspace-mission-economics" aria-label="50-state economic mission math"></div>
         <div class="workspace-progress" aria-label="Mission progress"><span id="workspace-progress-fill"></span></div>
         <div id="workspace-progress-report" class="workspace-progress-report" aria-live="polite"></div>
@@ -9782,6 +9793,7 @@
     function renderWorkspaceMission() {
       const copy = document.getElementById('workspace-mission-copy');
       const problemSheet = document.getElementById('workspace-problem-sheet');
+      const resolutionSheet = document.getElementById('workspace-resolution-sheet');
       const fill = document.getElementById('workspace-progress-fill');
       const report = document.getElementById('workspace-progress-report');
       const economics = document.getElementById('workspace-mission-economics');
@@ -9831,6 +9843,16 @@
       if (problemSheet) {
         const problemRows = WORKSPACE_PROBLEM_RESOLUTION_SHEET.map(rule => `<tr><td>${workspaceEscape(rule.stage)}</td><td>${workspaceEscape(rule.action)}</td><td>${rule.alternatives.map(item => workspaceEscape(item)).join(' · ')}</td><td>${workspaceEscape(`Evidence gate: ${rule.maxAttempts} attempts; backoff ${rule.delays.map(seconds => `${Math.round(seconds / 60)}m`).join(' → ')}; escalate when unresolved.`)}</td></tr>`).join('');
         problemSheet.innerHTML = `<div class="workspace-problem-sheet-title"><span>Mission Problem Sheet</span><small>${WORKSPACE_PROBLEM_RESOLUTION_SHEET.length} staged resolution policies</small></div><div class="workspace-problem-sheet-summary"><strong>Current signal:</strong> ${stats.progress}% planning coverage with ${stats.objectiveCount} objectives, ${stats.adAgendaCount} ad agendas, ${stats.liveCount} active listings, and ${stats.campaignJobs} campaign jobs. Use the sheet to identify the operating stage, select a safe response, and preserve evidence before claiming mission progress.</div><div class="workspace-problem-sheet-wrap"><table class="workspace-problem-sheet-table"><thead><tr><th>Problem stage</th><th>Safe response</th><th>Available alternatives</th><th>Evidence and escalation gate</th></tr></thead><tbody>${problemRows}</tbody></table></div>`;
+      }
+      if (resolutionSheet) {
+        const escalatedStages = new Set(workspaceResolutionMailbox.filter(item => item.escalated).map(item => item.stage));
+        const resolutionRows = WORKSPACE_PROBLEM_RESOLUTION_SHEET.map(rule => {
+          const status = escalatedStages.has(rule.stage) ? 'Escalated' : 'Ready';
+          const nextStep = escalatedStages.has(rule.stage) ? 'Review mailbox and user decision before retrying.' : rule.alternatives[0];
+          return `<tr><td>${workspaceEscape(rule.stage)}</td><td>${status}</td><td>${workspaceEscape(rule.action)}</td><td>${workspaceEscape(nextStep)}</td><td>${workspaceEscape(`Max ${rule.maxAttempts} attempts · backoff ${rule.delays.map(seconds => `${Math.round(seconds / 60)}m`).join(' → ')}`)}</td></tr>`;
+        }).join('');
+        const escalatedCount = escalatedStages.size;
+        resolutionSheet.innerHTML = `<div class="workspace-resolution-sheet-title"><span>Mission Resolution Sheet</span><small>${escalatedCount} escalated · ${WORKSPACE_PROBLEM_RESOLUTION_SHEET.length - escalatedCount} ready</small></div><div class="workspace-resolution-sheet-summary"><strong>Resolution rule:</strong> Resolve the current stage with the safest available action, preserve evidence, and escalate unresolved issues instead of claiming completion or taking uncontrolled external action.</div><div class="workspace-resolution-sheet-wrap"><table class="workspace-resolution-sheet-table"><thead><tr><th>Stage</th><th>Status</th><th>Resolution action</th><th>Next safe step</th><th>Retry control</th></tr></thead><tbody>${resolutionRows}</tbody></table></div>`;
       }
       if (fill) fill.style.width = `${stats.progress}%`;
       if (report) report.innerHTML = `<strong>Progress report:</strong> ${stats.progress}% planning coverage is currently represented in the mission pulse. This scale counts tracked objectives, ad agendas, active listings, and campaign jobs against the ${WORKSPACE_MISSION.locations.toLocaleString()}-location mission plan; it is an execution-coverage indicator, not a claim of completed profit or verified conversions.<div class="workspace-progress-report-grid"><div><span>${stats.objectiveCount.toLocaleString()}</span><small>Objectives</small></div><div><span>${stats.adAgendaCount.toLocaleString()}</span><small>Ad agendas</small></div><div><span>${stats.liveCount.toLocaleString()}</span><small>Active listings</small></div><div><span>${stats.campaignJobs.toLocaleString()}</span><small>Campaign jobs</small></div></div>`;
