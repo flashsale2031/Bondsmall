@@ -35,7 +35,11 @@
     { name:'Facebook', url:'https://www.facebook.com/', monthly:2380000000, basis:'2.38B U.S. visits, July 2026; parent Facebook site, not Marketplace-only' },
     { name:'Nextdoor', url:'https://nextdoor.com/', monthly:159180000, basis:'159.18M site visits, July 2026; state value is a population-share planning model' },
     { name:'OfferUp', url:'https://offerup.com/', monthly:8500000, basis:'8.50M site visits, June 2026; latest surfaced Semrush benchmark' },
-    { name:'Mercari', url:'https://www.mercari.com/us/', monthly:23010000, basis:'23.01M U.S. visits, July 2026' }
+    { name:'Mercari', url:'https://www.mercari.com/us/', monthly:23010000, basis:'23.01M U.S. visits, July 2026' },
+    { name:'Classified Ads', url:'https://www.classifiedads.com/', monthly:144000, basis:'144K U.S. visits, July 2026; latest surfaced Semrush benchmark' },
+    { name:'AdlandPro', url:'https://www.adlandpro.com/', monthly:3031428, basis:'3.03M monthly visits, current third-party estimate; global traffic' },
+    { name:'Gumtree', url:'https://www.gumtree.com/', monthly:9760000, basis:'9.76M visits, June 2026; latest surfaced Semrush benchmark, global' },
+    { name:'Locanto', url:'https://www.locanto.us/', monthly:324210, basis:'324.21K U.S. visits, July 2026; locanto.us benchmark' }
   ];
 
   const traffic = n => {
