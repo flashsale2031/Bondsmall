@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bonds Mall — U.S. State Platform Daily Traffic</title>
+<meta name="description" content="Bonds Mall standalone U.S. state platform daily traffic planning table.">
+<style>
+:root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#241f1b;background:#f7f2ec}
+*{box-sizing:border-box}
+body{margin:0;padding:18px}
+main{max-width:100%;margin:0 auto}
+.card{background:#fffdf9;border:1px solid #e3d8cc;border-radius:14px;overflow:hidden;box-shadow:0 4px 18px rgba(36,31,27,.06)}
+header{padding:18px 18px 12px}
+h1{font-size:1.15rem;margin:0;color:#8c2f39}
+.subtitle{margin:5px 0 0;color:#75695f;font-size:.82rem}
+.note{padding:0 18px 14px;color:#665950;font-size:.73rem;line-height:1.5}
+.table-wrap{width:100%;overflow:auto;-webkit-overflow-scrolling:touch;touch-action:pan-x;overscroll-behavior-x:contain;border-top:1px solid #e8ddd2}
+table{width:max-content;min-width:1480px;border-collapse:collapse}
+th,td{min-width:145px;padding:9px 10px;border-bottom:1px solid #e8ddd2;text-align:left;vertical-align:top;background:#fffdf9}
+thead th{position:sticky;top:0;background:#f2ebe3;color:#665950;font-size:.72rem;z-index:2}
+thead th:first-child{left:0;z-index:3}
+thead th strong{display:block;color:#8c2f39;font-size:.72rem}
+thead th small{display:block;margin-top:2px;font-size:.62rem;font-weight:500}
+tbody th{position:sticky;left:0;z-index:1;min-width:120px;color:#241f1b;font-size:.72rem;background:#faf6f0}
+td a{display:block;color:#8c2f39;font-size:.63rem;text-decoration:underline;margin-bottom:2px}
+td strong{display:block;color:#241f1b;font-size:.74rem;white-space:nowrap}
+footer{padding:12px 18px;color:#75695f;font-size:.65rem;line-height:1.45}
+@media(max-width:700px){body{padding:8px}header{padding:14px 12px 10px}.note{padding:0 12px 12px}.table-wrap{max-height:78vh}th,td{min-width:138px;padding:8px}footer{padding:10px 12px}}
+</style>
+</head>
+<body>
+<main>
+<section class="card">
+<header>
+<h1>U.S. State Platform Daily Traffic</h1>
+<p class="subtitle">Standalone traffic table — estimated daily averages</p>
+</header>
+<div class="note">State figures are modeled daily averages based on each platform traffic benchmark and 2025 Census population share. They are planning estimates, not platform-reported state analytics. Bonds Mall requires first-party live analytics.</div>
+<div class="table-wrap" role="region" aria-label="U.S. state platform daily traffic table" tabindex="0">
+<table>
+<thead><tr><th>State</th><th><strong>Bonds Mall</strong><small>Daily traffic</small></th><th><strong>Craigslist</strong><small>Daily traffic</small></th><th><strong>Facebook</strong><small>Daily traffic</small></th><th><strong>Nextdoor</strong><small>Daily traffic</small></th><th><strong>OfferUp</strong><small>Daily traffic</small></th><th><strong>Mercari</strong><small>Daily traffic</small></th><th><strong>Classified Ads</strong><small>Daily traffic</small></th><th><strong>AdlandPro</strong><small>Daily traffic</small></th><th><strong>Gumtree</strong><small>Daily traffic</small></th><th><strong>Locanto</strong><small>Daily traffic</small></th></tr></thead>
+<tbody id="traffic-body"></tbody>
+</table>
+</div>
+<footer>Benchmarks: Craigslist 119.54M U.S. visits July 2026; Facebook 2.38B U.S. visits July 2026 (site-wide, not Marketplace-only); Nextdoor 159.18M July 2026; OfferUp 8.50M June 2026; Mercari 23.01M U.S. July 2026; Classified Ads 144K U.S. July 2026; AdlandPro 3,031,428 monthly third-party estimate; Gumtree 9.76M June 2026; Locanto 324.21K U.S. July 2026. Monthly benchmarks are converted to daily averages. State allocation uses 2025 Census population share.</footer>
+</section>
+</main>
+<script>
+'use strict';
+const POP={
+Alabama:5193088,Alaska:737270,Arizona:7623818,Arkansas:3114791,California:39355309,Colorado:6012561,Connecticut:3688496,Delaware:1059952,
+Florida:23462518,Georgia:11302748,Hawaii:1432820,Idaho:2029733,Illinois:12719141,Indiana:6973333,Iowa:3238387,Kansas:2977220,
+Kentucky:4606864,Louisiana:4618189,Maine:1414874,Maryland:6265347,Massachusetts:7154084,Michigan:10127884,Minnesota:5830405,Mississippi:2954160,
+Missouri:6270541,Montana:1144694,Nebraska:2018006,Nevada:3282188,'New Hampshire':1415342,'New Jersey':9548215,'New Mexico':2125498,
+'New York':20002427,'North Carolina':11197968,'North Dakota':799358,Ohio:11900510,Oklahoma:4123288,Oregon:4273586,Pennsylvania:13059432,
+'Rhode Island':1114521,'South Carolina':5570274,'South Dakota':935094,Tennessee:7315076,Texas:31709821,Utah:3538904,Vermont:644663,
+Virginia:8880107,Washington:8001020,'West Virginia':1766147,Wisconsin:5972787,Wyoming:588753
+};
+const totalPopulation=Object.values(POP).reduce((a,b)=>a+b,0);
+const platforms=[
+{name:'Bonds Mall',url:'https://bondsmall.com/',daily:null},
+{name:'Craigslist',url:'https://www.craigslist.org/',daily:3927392.1971252565},
+{name:'Facebook',url:'https://www.facebook.com/',daily:78193018.48049282},
+{name:'Nextdoor',url:'https://nextdoor.com/',daily:5229733.059548255},
+{name:'OfferUp',url:'https://offerup.com/',daily:279260.78028747434},
+{name:'Mercari',url:'https://www.mercari.com/us/',daily:755975.3593429158},
+{name:'Classified Ads',url:'https://www.classifiedads.com/',daily:4731.006160164271},
+{name:'AdlandPro',url:'https://www.adlandpro.com/',daily:99595.1704312115},
+{name:'Gumtree',url:'https://www.gumtree.com/',daily:320657.0841889117},
+{name:'Locanto',url:'https://www.locanto.us/',daily:10651.663244353183}
+];
+function fmt(n){if(n==null)return'Live analytics required';if(n>=1000000)return(n/1000000).toFixed(2)+'M/day';if(n>=1000)return(n/1000).toFixed(1)+'K/day';return Math.round(n).toLocaleString('en-US')+'/day'}
+const body=document.getElementById('traffic-body');
+Object.keys(POP).forEach(state=>{
+ const tr=document.createElement('tr');
+ const th=document.createElement('th');th.scope='row';th.textContent=state;tr.appendChild(th);
+ platforms.forEach(p=>{const td=document.createElement('td');const value=p.daily==null?null:p.daily*(POP[state]/totalPopulation);td.innerHTML='<a href="'+p.url+'" target="_blank" rel="noopener noreferrer">'+p.name+'</a><strong>'+fmt(value)+'</strong>';tr.appendChild(td)});
+ body.appendChild(tr);
+});
+</script>
+</body>
+</html>
