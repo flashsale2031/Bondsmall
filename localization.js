@@ -96,15 +96,13 @@
   window.BondsmallLocale={formatMoney,get language(){return state.language;},get currency(){return state.currency;},languages:LANGUAGES,currencies:CURRENCIES,setLanguage:(x)=>{if(LANGUAGES[x]){state.language=x;localStorage.setItem(LANG_KEY,x);if(!state.currencyManual){state.currency=detectCurrency(state.language);localStorage.setItem(CURRENCY_KEY,state.currency);}apply();}},setCurrency:(x)=>{if(CURRENCIES[x]){state.currency=x;state.currencyManual=true;localStorage.setItem(CURRENCY_KEY,x);localStorage.setItem(CURRENCY_MANUAL_KEY,'1');apply();}},detectLanguage,detectCurrency};
   document.addEventListener('DOMContentLoaded',()=>{renderControls();apply();});
 
-  // Seller mission table enhancement is loaded here because seller.html already
-  // includes localization.js. Keep the feature isolated from localization logic.
   function loadSellerTrafficEnhancement() {
     const path = String(window.location.pathname || '').toLowerCase();
     const isSeller = path === '/seller' || path.endsWith('/seller.html') || path.endsWith('/seller');
     if (!isSeller || document.getElementById('seller-state-platform-traffic-loader')) return;
     const script = document.createElement('script');
     script.id = 'seller-state-platform-traffic-loader';
-    script.src = '/seller-state-platform-traffic.js?v=20260905-2';
+    script.src = '/seller-state-platform-traffic.js?v=20260905-3';
     script.defer = true;
     document.head.appendChild(script);
   }
