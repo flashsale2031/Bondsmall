@@ -3789,6 +3789,12 @@
     .workspace-mission-copy { color:#51463e; font-size:.77rem; line-height:1.5; }
     .workspace-progress { height:7px; overflow:hidden; border-radius:99px; background:#eadfd4; }
     #workspace-progress-fill { display:block; height:100%; width:0%; border-radius:inherit; background:linear-gradient(90deg,#a04453,#d08a4b); transition:width .25s ease; }
+    .workspace-progress-report { margin-top:8px; padding:9px 10px; border:1px solid #e3d8cc; border-radius:9px; background:#fffaf5; color:#665950; font-size:.68rem; line-height:1.45; }
+    .workspace-progress-report strong { color:#8c2f39; }
+    .workspace-progress-report-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:6px; margin-top:6px; }
+    .workspace-progress-report-grid span { display:block; color:#8c2f39; font-weight:800; }
+    .workspace-progress-report-grid small { display:block; color:#75695f; font-size:.61rem; }
+    @media(max-width:700px){ .workspace-progress-report-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
     .workspace-mission-economics { margin-top:9px; display:grid; gap:8px; }
     .workspace-econ-summary { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:6px; }
     .workspace-econ-summary div { display:grid; gap:2px; padding:8px; border:1px solid #e3d8cc; border-radius:9px; background:#fff; }
@@ -4122,6 +4128,7 @@
         <div id="workspace-mission-copy" class="workspace-mission-copy"></div>
         <div id="workspace-mission-economics" class="workspace-mission-economics" aria-label="50-state economic mission math"></div>
         <div class="workspace-progress" aria-label="Mission progress"><span id="workspace-progress-fill"></span></div>
+        <div id="workspace-progress-report" class="workspace-progress-report" aria-live="polite"></div>
         <div id="workspace-agenda" aria-live="polite"></div>
       </section>
     </div>
@@ -9765,6 +9772,7 @@
     function renderWorkspaceMission() {
       const copy = document.getElementById('workspace-mission-copy');
       const fill = document.getElementById('workspace-progress-fill');
+      const report = document.getElementById('workspace-progress-report');
       const economics = document.getElementById('workspace-mission-economics');
       if (!copy) return;
       const stats = workspaceMissionSummary();
@@ -9810,6 +9818,7 @@
       ].map(([method, operation, control]) => `<tr><td>${workspaceEscape(method)}</td><td>${workspaceEscape(operation)}</td><td>${workspaceEscape(control)}</td></tr>`).join('');
       copy.innerHTML = `The financial mission targets <strong>$${WORKSPACE_MISSION.yield.toLocaleString()}</strong> of contribution profit across <strong>${WORKSPACE_MISSION.locations.toLocaleString()} Census Vintage 2025 city/place locations in the 50 states</strong> by <strong>${WORKSPACE_MISSION.deadline}</strong>. Equal allocation requires an average <strong>$${perLocation.toLocaleString(undefined,{maximumFractionDigits:0})} contribution per location</strong>. The State Platform Daily Traffic table supplies the reach-planning layer: the current modeled external-platform benchmark is approximately <strong>${formatTraffic(trafficDaily)}</strong>, while Bonds Mall traffic must be measured through first-party analytics. The financial target is therefore pursued through measured traffic, verified conversion, contribution margin, and the methods of operation below—not through traffic volume alone or a guarantee of sales.`;
       if (fill) fill.style.width = `${stats.progress}%`;
+      if (report) report.innerHTML = `<strong>Progress report:</strong> ${stats.progress}% planning coverage is currently represented in the mission pulse. This scale counts tracked objectives, ad agendas, active listings, and campaign jobs against the ${WORKSPACE_MISSION.locations.toLocaleString()}-location mission plan; it is an execution-coverage indicator, not a claim of completed profit or verified conversions.<div class="workspace-progress-report-grid"><div><span>${stats.objectiveCount.toLocaleString()}</span><small>Objectives</small></div><div><span>${stats.adAgendaCount.toLocaleString()}</span><small>Ad agendas</small></div><div><span>${stats.liveCount.toLocaleString()}</span><small>Active listings</small></div><div><span>${stats.campaignJobs.toLocaleString()}</span><small>Campaign jobs</small></div></div>`;
       if (economics) economics.innerHTML = `
         <div class="workspace-econ-summary">
           <div><strong>$${WORKSPACE_MISSION.yield.toLocaleString()}</strong><span>Total profit target</span></div>
