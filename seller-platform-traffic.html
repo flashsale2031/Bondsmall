@@ -8,14 +8,15 @@
 <style>
 :root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#241f1b;background:#f7f2ec}
 *{box-sizing:border-box}
-body{margin:0;padding:18px}
+html,body{margin:0;min-height:100%;overflow-x:hidden}
+body{padding:18px}
 main{max-width:100%;margin:0 auto}
 .card{background:#fffdf9;border:1px solid #e3d8cc;border-radius:14px;overflow:hidden;box-shadow:0 4px 18px rgba(36,31,27,.06)}
 header{padding:18px 18px 12px}
 h1{font-size:1.15rem;margin:0;color:#8c2f39}
 .subtitle{margin:5px 0 0;color:#75695f;font-size:.82rem}
 .note{padding:0 18px 14px;color:#665950;font-size:.73rem;line-height:1.5}
-.table-wrap{width:100%;overflow:auto;-webkit-overflow-scrolling:touch;touch-action:pan-x;overscroll-behavior-x:contain;border-top:1px solid #e8ddd2}
+.table-wrap{width:100%;overflow-x:auto;overflow-y:visible;-webkit-overflow-scrolling:touch;touch-action:pan-x pan-y;overscroll-behavior-x:contain;border-top:1px solid #e8ddd2}
 table{width:max-content;min-width:1480px;border-collapse:collapse}
 th,td{min-width:145px;padding:9px 10px;border-bottom:1px solid #e8ddd2;text-align:left;vertical-align:top;background:#fffdf9}
 thead th{position:sticky;top:0;background:#f2ebe3;color:#665950;font-size:.72rem;z-index:2}
@@ -26,7 +27,14 @@ tbody th{position:sticky;left:0;z-index:1;min-width:120px;color:#241f1b;font-siz
 td a{display:block;color:#8c2f39;font-size:.63rem;text-decoration:underline;margin-bottom:2px}
 td strong{display:block;color:#241f1b;font-size:.74rem;white-space:nowrap}
 footer{padding:12px 18px;color:#75695f;font-size:.65rem;line-height:1.45}
-@media(max-width:700px){body{padding:8px}header{padding:14px 12px 10px}.note{padding:0 12px 12px}.table-wrap{max-height:78vh}th,td{min-width:138px;padding:8px}footer{padding:10px 12px}}
+@media(max-width:700px){
+ body{padding:8px}
+ header{padding:14px 12px 10px}
+ .note{padding:0 12px 12px}
+ .table-wrap{max-height:none;height:auto;overflow-x:auto;overflow-y:visible}
+ th,td{min-width:138px;padding:8px}
+ footer{padding:10px 12px}
+}
 </style>
 </head>
 <body>
@@ -34,9 +42,9 @@ footer{padding:12px 18px;color:#75695f;font-size:.65rem;line-height:1.45}
 <section class="card">
 <header>
 <h1>U.S. State Platform Daily Traffic</h1>
-<p class="subtitle">Standalone traffic table — estimated daily averages</p>
+<p class="subtitle">Standalone traffic table — estimated daily averages • 50 states</p>
 </header>
-<div class="note">State figures are modeled daily averages based on each platform traffic benchmark and 2025 Census population share. They are planning estimates, not platform-reported state analytics. Bonds Mall requires first-party live analytics.</div>
+<div class="note">State figures are modeled daily averages based on each platform traffic benchmark and 2025 Census population share. They are planning estimates, not platform-reported state analytics. Bonds Mall requires first-party live analytics. The table is intentionally full-height so all 50 states are part of the normal page scroll.</div>
 <div class="table-wrap" role="region" aria-label="U.S. state platform daily traffic table" tabindex="0">
 <table>
 <thead><tr><th>State</th><th><strong>Bonds Mall</strong><small>Daily traffic</small></th><th><strong>Craigslist</strong><small>Daily traffic</small></th><th><strong>Facebook</strong><small>Daily traffic</small></th><th><strong>Nextdoor</strong><small>Daily traffic</small></th><th><strong>OfferUp</strong><small>Daily traffic</small></th><th><strong>Mercari</strong><small>Daily traffic</small></th><th><strong>Classified Ads</strong><small>Daily traffic</small></th><th><strong>AdlandPro</strong><small>Daily traffic</small></th><th><strong>Gumtree</strong><small>Daily traffic</small></th><th><strong>Locanto</strong><small>Daily traffic</small></th></tr></thead>
