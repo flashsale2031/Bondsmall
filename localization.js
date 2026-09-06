@@ -102,7 +102,7 @@
     if (!isSeller || document.getElementById('seller-state-platform-traffic-loader')) return;
     const script = document.createElement('script');
     script.id = 'seller-state-platform-traffic-loader';
-    script.src = '/seller-state-platform-traffic.js?v=20260905-3';
+    script.src = '/seller-state-platform-traffic.js?v=20260905-4';
     script.defer = true;
     document.head.appendChild(script);
   }
