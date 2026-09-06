@@ -35,7 +35,6 @@
     { name:'Mercari', url:'https://www.mercari.com/us/', monthly:23010000, basis:'23.01M U.S. visits, July 2026' }
   ];
 
-  const money = n => '$' + Math.round(n).toLocaleString('en-US');
   const traffic = n => {
     if (n == null) return 'Live analytics required';
     if (n >= 1000000) return (n / 1000000).toFixed(2) + 'M/day';
@@ -68,8 +67,7 @@
     const body = table.querySelector('tbody');
     if (!head || !body) return false;
 
-    const originalHeaders = [...head.children].map(th => th.textContent.trim());
-    if (originalHeaders.length < 4) return false;
+    if (head.children.length < 4) return false;
 
     platforms.forEach(p => {
       const th = document.createElement('th');
@@ -117,19 +115,21 @@
     document.head.appendChild(style);
   }
 
-  function run() {
+  function start() {
     installStyle();
     enhance();
-  }
-
-  document.addEventListener('DOMContentLoaded', () => {
-    run();
     let attempts = 0;
     const timer = setInterval(() => {
       attempts++;
       if (enhance() || attempts >= 30) clearInterval(timer);
     }, 250);
-  });
-  document.addEventListener('bondsmall-locale-change', run);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', start, { once:true });
+  } else {
+    start();
+  }
+  document.addEventListener('bondsmall-locale-change', enhance);
   window.BondsMallStatePlatformTraffic = { enhance, platforms, population: POP };
 })();
