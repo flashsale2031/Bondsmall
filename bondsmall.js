@@ -1802,28 +1802,34 @@
         });
 
 
-        let textActivationCount = 0;
-        let gleamTimeoutId = null;
+        if (window.__bondsMallLogoCycleStarted) return;
+        window.__bondsMallLogoCycleStarted = true;
 
         function triggerLogoGleam() {
             document.querySelectorAll('.logo').forEach((logoContainer) => {
-                if (logoContainer.querySelector('.logo-gleam-overlay')) return;
+                const text = logoContainer.querySelector('.logo-text');
+                if (!text) return;
+                logoContainer.classList.remove('logo--gleam');
+                void logoContainer.offsetWidth;
+                logoContainer.classList.add('logo--gleam');
                 const overlay = document.createElement('div');
                 overlay.className = 'logo-gleam-overlay';
                 const sweep = document.createElement('span');
                 sweep.className = 'logo-gleam-sweep';
                 overlay.appendChild(sweep);
                 logoContainer.appendChild(overlay);
-                setTimeout(() => { overlay.remove(); }, 3100);
+                window.setTimeout(() => {
+                    overlay.remove();
+                    logoContainer.classList.remove('logo--gleam');
+                }, 2800);
             });
         }
 
         const logoTransitionSequence = ['text', 'black', 'text', 'gold'];
+        const logoTransitionDuration = 5000;
         let logoTransitionIndex = 0;
 
-        setInterval(() => {
-            logoTransitionIndex = (logoTransitionIndex + 1) % logoTransitionSequence.length;
-            const nextFace = logoTransitionSequence[logoTransitionIndex];
+        function applyLogoFace(nextFace) {
             document.querySelectorAll('.logo').forEach((logoContainer) => {
                 const faces = {
                     text: logoContainer.querySelector('.logo-text'),
@@ -1834,17 +1840,66 @@
                     if (face) face.classList.toggle('logo-face--active', name === nextFace);
                 });
             });
-            if (nextFace === 'text') {
-                textActivationCount += 1;
-                if (textActivationCount % 2 === 1) {
-                    clearTimeout(gleamTimeoutId);
-                    gleamTimeoutId = setTimeout(triggerLogoGleam, 7000);
-                }
-            }
-        }, 10000);
+            if (nextFace === 'text') triggerLogoGleam();
+        }
+
+        function advanceLogoFace() {
+            logoTransitionIndex = (logoTransitionIndex + 1) % logoTransitionSequence.length;
+            applyLogoFace(logoTransitionSequence[logoTransitionIndex]);
+            window.setTimeout(advanceLogoFace, logoTransitionDuration);
+        }
+
+        applyLogoFace('text');
+        window.setTimeout(advanceLogoFace, logoTransitionDuration);
+    }
+
+    function startHeaderLogoCycle() {
+        if (window.__bondsMallLogoCycleStarted) return;
+        window.__bondsMallLogoCycleStarted = true;
+
+        const sequence = ['text', 'black', 'text', 'gold'];
+        const duration = 5000;
+        let index = 0;
+
+        const gleam = () => {
+            document.querySelectorAll('.logo').forEach((logoContainer) => {
+                if (!logoContainer.querySelector('.logo-text')) return;
+                const overlay = document.createElement('div');
+                overlay.className = 'logo-gleam-overlay';
+                const sweep = document.createElement('span');
+                sweep.className = 'logo-gleam-sweep';
+                overlay.appendChild(sweep);
+                logoContainer.appendChild(overlay);
+                window.setTimeout(() => overlay.remove(), 2800);
+            });
+        };
+
+        const apply = (faceName) => {
+            document.querySelectorAll('.logo').forEach((logoContainer) => {
+                const faces = {
+                    text: logoContainer.querySelector('.logo-text'),
+                    black: logoContainer.querySelector('.logo-img--black'),
+                    gold: logoContainer.querySelector('.logo-img--gold')
+                };
+                Object.entries(faces).forEach(([name, face]) => {
+                    if (face) face.classList.toggle('logo-face--active', name === faceName);
+                });
+            });
+            if (faceName === 'text') gleam();
+        };
+
+        const advance = () => {
+            index = (index + 1) % sequence.length;
+            apply(sequence[index]);
+            window.setTimeout(advance, duration);
+        };
+
+        apply('text');
+        window.setTimeout(advance, duration);
     }
 
     function startWhenCatalogReady() {
+        startHeaderLogoCycle();
         if (window.BondsmallCatalogReady || !window.BondsmallCatalog) init();
         else document.addEventListener('bondsmall-catalog-ready', init, { once: true });
         document.addEventListener('bondsmall-catalog-error', () => {
