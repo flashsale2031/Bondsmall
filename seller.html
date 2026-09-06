@@ -3787,6 +3787,15 @@
     .workspace-chat-form input { min-width:0; flex:1; }
     .workspace-chat-form button { border:0; border-radius:9px; padding:0 12px; background:#8c2f39; color:#fff; font-weight:800; cursor:pointer; }
     .workspace-mission-copy { color:#51463e; font-size:.77rem; line-height:1.5; }
+    .workspace-problem-sheet { margin-top:9px; padding:10px; border:1px solid #e3d8cc; border-radius:10px; background:#fffaf5; }
+    .workspace-problem-sheet-title { display:flex; justify-content:space-between; gap:8px; align-items:baseline; color:#8c2f39; font-weight:800; font-size:.78rem; }
+    .workspace-problem-sheet-title small { color:#75695f; font-size:.61rem; font-weight:500; }
+    .workspace-problem-sheet-summary { margin-top:5px; color:#665950; font-size:.66rem; line-height:1.4; }
+    .workspace-problem-sheet-wrap { margin-top:8px; overflow:auto; max-height:260px; border:1px solid #e3d8cc; border-radius:8px; }
+    .workspace-problem-sheet-table { width:100%; min-width:650px; border-collapse:collapse; font-size:.62rem; }
+    .workspace-problem-sheet-table th { position:sticky; top:0; z-index:1; padding:6px; background:#f2ebe3; color:#6d5d52; text-align:left; }
+    .workspace-problem-sheet-table td { padding:7px 6px; border-top:1px solid #eee5dc; color:#51463e; vertical-align:top; line-height:1.35; }
+    .workspace-problem-sheet-table td:first-child { color:#8c2f39; font-weight:800; white-space:nowrap; }
     .workspace-progress { height:7px; overflow:hidden; border-radius:99px; background:#eadfd4; }
     #workspace-progress-fill { display:block; height:100%; width:0%; border-radius:inherit; background:linear-gradient(90deg,#a04453,#d08a4b); transition:width .25s ease; }
     .workspace-progress-report { margin-top:8px; padding:9px 10px; border:1px solid #e3d8cc; border-radius:9px; background:#fffaf5; color:#665950; font-size:.68rem; line-height:1.45; }
@@ -4126,6 +4135,7 @@
       <section class="workspace-mission" aria-labelledby="workspace-mission-title">
         <div class="workspace-panel-label" id="workspace-mission-title">Live mission pulse</div>
         <div id="workspace-mission-copy" class="workspace-mission-copy"></div>
+        <div id="workspace-problem-sheet" class="workspace-problem-sheet" aria-label="Mission Problem Sheet"></div>
         <div id="workspace-mission-economics" class="workspace-mission-economics" aria-label="50-state economic mission math"></div>
         <div class="workspace-progress" aria-label="Mission progress"><span id="workspace-progress-fill"></span></div>
         <div id="workspace-progress-report" class="workspace-progress-report" aria-live="polite"></div>
@@ -9771,6 +9781,7 @@
     }
     function renderWorkspaceMission() {
       const copy = document.getElementById('workspace-mission-copy');
+      const problemSheet = document.getElementById('workspace-problem-sheet');
       const fill = document.getElementById('workspace-progress-fill');
       const report = document.getElementById('workspace-progress-report');
       const economics = document.getElementById('workspace-mission-economics');
@@ -9817,6 +9828,10 @@
         ['Balanced portfolio combination', 'Use high-value anchors, luxury accessories, and electronics/entertainment together across multiple platforms and states, with creative variants and controlled budget allocation.', 'This is the preferred operating model when no single SKU, platform, or state can reliably satisfy the full mission target.']
       ].map(([method, operation, control]) => `<tr><td>${workspaceEscape(method)}</td><td>${workspaceEscape(operation)}</td><td>${workspaceEscape(control)}</td></tr>`).join('');
       copy.innerHTML = `The financial mission targets <strong>$${WORKSPACE_MISSION.yield.toLocaleString()}</strong> of contribution profit across <strong>${WORKSPACE_MISSION.locations.toLocaleString()} Census Vintage 2025 city/place locations in the 50 states</strong> by <strong>${WORKSPACE_MISSION.deadline}</strong>. Equal allocation requires an average <strong>$${perLocation.toLocaleString(undefined,{maximumFractionDigits:0})} contribution per location</strong>. The State Platform Daily Traffic table supplies the reach-planning layer: the current modeled external-platform benchmark is approximately <strong>${formatTraffic(trafficDaily)}</strong>, while Bonds Mall traffic must be measured through first-party analytics. The financial target is therefore pursued through measured traffic, verified conversion, contribution margin, and the methods of operation below—not through traffic volume alone or a guarantee of sales.`;
+      if (problemSheet) {
+        const problemRows = WORKSPACE_PROBLEM_RESOLUTION_SHEET.map(rule => `<tr><td>${workspaceEscape(rule.stage)}</td><td>${workspaceEscape(rule.action)}</td><td>${rule.alternatives.map(item => workspaceEscape(item)).join(' · ')}</td><td>${workspaceEscape(`Evidence gate: ${rule.maxAttempts} attempts; backoff ${rule.delays.map(seconds => `${Math.round(seconds / 60)}m`).join(' → ')}; escalate when unresolved.`)}</td></tr>`).join('');
+        problemSheet.innerHTML = `<div class="workspace-problem-sheet-title"><span>Mission Problem Sheet</span><small>${WORKSPACE_PROBLEM_RESOLUTION_SHEET.length} staged resolution policies</small></div><div class="workspace-problem-sheet-summary"><strong>Current signal:</strong> ${stats.progress}% planning coverage with ${stats.objectiveCount} objectives, ${stats.adAgendaCount} ad agendas, ${stats.liveCount} active listings, and ${stats.campaignJobs} campaign jobs. Use the sheet to identify the operating stage, select a safe response, and preserve evidence before claiming mission progress.</div><div class="workspace-problem-sheet-wrap"><table class="workspace-problem-sheet-table"><thead><tr><th>Problem stage</th><th>Safe response</th><th>Available alternatives</th><th>Evidence and escalation gate</th></tr></thead><tbody>${problemRows}</tbody></table></div>`;
+      }
       if (fill) fill.style.width = `${stats.progress}%`;
       if (report) report.innerHTML = `<strong>Progress report:</strong> ${stats.progress}% planning coverage is currently represented in the mission pulse. This scale counts tracked objectives, ad agendas, active listings, and campaign jobs against the ${WORKSPACE_MISSION.locations.toLocaleString()}-location mission plan; it is an execution-coverage indicator, not a claim of completed profit or verified conversions.<div class="workspace-progress-report-grid"><div><span>${stats.objectiveCount.toLocaleString()}</span><small>Objectives</small></div><div><span>${stats.adAgendaCount.toLocaleString()}</span><small>Ad agendas</small></div><div><span>${stats.liveCount.toLocaleString()}</span><small>Active listings</small></div><div><span>${stats.campaignJobs.toLocaleString()}</span><small>Campaign jobs</small></div></div>`;
       if (economics) economics.innerHTML = `
