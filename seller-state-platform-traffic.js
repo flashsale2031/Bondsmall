@@ -48,6 +48,34 @@
     return (platform.monthly / DAYS) * share;
   }
 
+  function normalize(text) {
+    return String(text || '').replace(/\s+/g, ' ').trim().toLowerCase();
+  }
+
+  function findMissionTable() {
+    const candidates = [...document.querySelectorAll('table')];
+    return candidates.find(table => {
+      const headerCells = [...table.querySelectorAll('thead th')];
+      const headers = headerCells.length
+        ? headerCells.map(th => normalize(th.textContent))
+        : [...(table.rows[0]?.cells || [])].map(cell => normalize(cell.textContent));
+      return headers.some(h => h === 'state') &&
+        headers.some(h => h === 'locations') &&
+        headers.some(h => h.includes('state profit target')) &&
+        headers.some(h => h.includes('per-location target'));
+    }) || null;
+  }
+
+  function getHeaderRow(table) {
+    return table.querySelector('thead tr') || table.rows[0] || null;
+  }
+
+  function getBodyRows(table) {
+    const tbody = table.querySelector('tbody');
+    if (tbody) return [...tbody.querySelectorAll('tr')];
+    return [...table.rows].slice(1);
+  }
+
   function cell(platform, state) {
     const value = stateTraffic(platform, state);
     return `<td class="workspace-platform-traffic-cell">
@@ -59,15 +87,15 @@
   }
 
   function enhance() {
-    const tables = [...document.querySelectorAll('.workspace-econ-table')];
-    const table = tables.find(t => t.querySelector('thead th')?.textContent.trim() === 'State');
+    const table = findMissionTable();
     if (!table || table.dataset.platformTrafficEnhanced === '1') return false;
 
-    const head = table.querySelector('thead tr');
-    const body = table.querySelector('tbody');
-    if (!head || !body) return false;
+    const head = getHeaderRow(table);
+    const rows = getBodyRows(table);
+    if (!head || rows.length === 0) return false;
 
-    if (head.children.length < 4) return false;
+    const firstStateRow = rows.find(row => POP[String(row.cells[0]?.textContent || '').trim()]);
+    if (!firstStateRow) return false;
 
     platforms.forEach(p => {
       const th = document.createElement('th');
@@ -76,15 +104,16 @@
       head.appendChild(th);
     });
 
-    [...body.querySelectorAll('tr')].forEach(row => {
-      const state = row.children[0]?.textContent.trim();
+    rows.forEach(row => {
+      const state = String(row.cells[0]?.textContent || '').trim();
       if (!state || !POP[state]) return;
       platforms.forEach(p => row.insertAdjacentHTML('beforeend', cell(p, state)));
     });
 
     table.dataset.platformTrafficEnhanced = '1';
+    table.classList.add('workspace-platform-traffic-table');
 
-    const wrap = table.parentElement;
+    const wrap = table.closest('.workspace-econ-table-wrap') || table.parentElement;
     if (wrap && !wrap.previousElementSibling?.classList.contains('workspace-platform-traffic-note')) {
       const note = document.createElement('div');
       note.className = 'workspace-platform-traffic-note';
@@ -100,8 +129,8 @@
     style.id = 'workspace-platform-traffic-style';
     style.textContent = `
       .workspace-platform-traffic-note{margin:8px 0;padding:9px 10px;border:1px solid #e3d8cc;border-radius:9px;background:#f7f1ea;color:#665950;font-size:.66rem;line-height:1.45}
-      .workspace-econ-table-wrap:has(.workspace-platform-traffic-cell){overflow-x:auto;-webkit-overflow-scrolling:touch}
-      .workspace-econ-table:has(.workspace-platform-traffic-cell){min-width:1480px}
+      .workspace-platform-traffic-table{min-width:1480px}
+      .workspace-platform-traffic-table{border-collapse:collapse}
       .workspace-platform-traffic-head{min-width:175px;vertical-align:top}
       .workspace-platform-traffic-head strong{display:block;color:#8c2f39}
       .workspace-platform-traffic-head small{display:block;color:#75695f;font-weight:500;margin-top:2px}
@@ -110,7 +139,8 @@
       .workspace-platform-traffic-cell a{display:block;color:#8c2f39;font-size:.66rem;text-decoration:underline;margin:2px 0}
       .workspace-platform-traffic-cell .workspace-platform-daily{display:block;font-weight:800;color:#241f1b;margin:2px 0}
       .workspace-platform-traffic-cell small{display:block;color:#75695f;font-size:.57rem;line-height:1.35}
-      @media(max-width:700px){.workspace-econ-table:has(.workspace-platform-traffic-cell){min-width:1380px}.workspace-platform-traffic-head,.workspace-platform-traffic-cell{min-width:160px}}
+      .workspace-platform-traffic-table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
+      @media(max-width:700px){.workspace-platform-traffic-table{min-width:1380px}.workspace-platform-traffic-head,.workspace-platform-traffic-cell{min-width:160px}}
     `;
     document.head.appendChild(style);
   }
@@ -121,7 +151,7 @@
     let attempts = 0;
     const timer = setInterval(() => {
       attempts++;
-      if (enhance() || attempts >= 30) clearInterval(timer);
+      if (enhance() || attempts >= 120) clearInterval(timer);
     }, 250);
   }
 
