@@ -99,13 +99,28 @@
   function loadSellerTrafficEnhancement() {
     const path = String(window.location.pathname || '').toLowerCase();
     const isSeller = path === '/seller' || path.endsWith('/seller.html') || path.endsWith('/seller');
-    if (!isSeller || document.getElementById('seller-state-platform-traffic-loader')) return;
+    if (!isSeller) return;
+    const existing = document.getElementById('seller-state-platform-traffic-loader');
+    if (existing) return;
     const script = document.createElement('script');
     script.id = 'seller-state-platform-traffic-loader';
-    script.src = '/seller-state-platform-traffic.js?v=20260905-5';
-    script.defer = true;
+    script.src = '/seller-state-platform-traffic.js?v=20260906-1';
+    script.async = false;
+    script.onload = function () { window.dispatchEvent(new CustomEvent('bondsmall-seller-traffic-loaded')); };
+    script.onerror = function () {
+      const retry = document.createElement('script');
+      retry.id = 'seller-state-platform-traffic-loader-retry';
+      retry.src = '/seller-state-platform-traffic.js?v=20260906-2';
+      retry.async = false;
+      document.head.appendChild(retry);
+    };
     document.head.appendChild(script);
   }
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', loadSellerTrafficEnhancement, { once:true });
-  else loadSellerTrafficEnhancement();
+  function startSellerTrafficLoader() {
+    loadSellerTrafficEnhancement();
+    setTimeout(loadSellerTrafficEnhancement, 1000);
+    setTimeout(loadSellerTrafficEnhancement, 3000);
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', startSellerTrafficLoader, { once:true });
+  else startSellerTrafficLoader();
 })();
