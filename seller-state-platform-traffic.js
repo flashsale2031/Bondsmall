@@ -2,9 +2,14 @@
  * Renders BELOW the existing U.S. locations / mission economics table.
  * It is intentionally a separate table so Seller.html's existing table
  * can continue rendering independently.
+ *
+ * The same standalone table source is also surfaced inside the
+ * "Live Mission Pulse" area when that area is present on Seller.html.
  */
 (function () {
   'use strict';
+
+  const TRAFFIC_SOURCE = '/seller-platform-traffic.html';
 
   const POP = {
     Alabama:5193088, Alaska:737270, Arizona:7623818, Arkansas:3114791,
@@ -158,33 +163,96 @@
       #workspace-mission-economics .seller-platform-daily-traffic-table tbody th{min-width:120px;color:#241f1b;font-size:.72rem;background:#faf6f0}
       #workspace-mission-economics .seller-platform-daily-traffic-table td a{display:block;color:#8c2f39;font-size:.63rem;text-decoration:underline;margin-bottom:2px}
       #workspace-mission-economics .seller-platform-daily-traffic-table td strong{display:block;color:#241f1b;font-size:.74rem;white-space:nowrap}
+
+      .seller-live-mission-pulse-traffic{margin-top:16px;border:1px solid rgba(255,255,255,.1);border-radius:12px;background:rgba(17,24,39,.55);overflow:hidden}
+      .seller-live-mission-pulse-traffic-header{display:flex;align-items:baseline;justify-content:space-between;gap:10px;padding:12px 14px 7px}
+      .seller-live-mission-pulse-traffic-header strong{color:var(--text,#f0f2f5);font-size:.9rem}
+      .seller-live-mission-pulse-traffic-header span{color:var(--text2,#8b95a5);font-size:.66rem}
+      .seller-live-mission-pulse-traffic-note{padding:0 14px 10px;color:var(--text2,#8b95a5);font-size:.64rem;line-height:1.4}
+      .seller-live-mission-pulse-traffic-frame{display:block;width:100%;height:640px;border:0;border-top:1px solid rgba(255,255,255,.08);background:#f7f2ec}
       @media(max-width:700px){
         #workspace-mission-economics .seller-platform-daily-traffic-title{display:block}
         #workspace-mission-economics .seller-platform-daily-traffic-title span{display:block;margin-top:3px}
         #workspace-mission-economics table.seller-platform-daily-traffic-table{min-width:1480px}
+        .seller-live-mission-pulse-traffic-frame{height:72vh;min-height:520px}
       }
     `;
     document.head.appendChild(style);
   }
 
+  function findLiveMissionPulse() {
+    const candidates = [...document.querySelectorAll('h1,h2,h3,h4,h5,h6,[role="heading"],.section-title,.card-title,.panel-title')];
+    const heading = candidates.find(el => normalize(el.textContent).includes('live mission pulse'));
+    if (!heading) return null;
+
+    let container = heading.parentElement;
+    while (container && container !== document.body) {
+      const text = normalize(container.textContent);
+      if (text.includes('live mission pulse') && (container.matches('section,article,.card,.panel,.workspace-card,.window') || container.children.length >= 2)) {
+        return container;
+      }
+      container = container.parentElement;
+    }
+    return heading.parentElement || heading;
+  }
+
+  function renderPulseTable() {
+    if (document.getElementById('seller-live-mission-pulse-traffic')) return true;
+    const pulse = findLiveMissionPulse();
+    if (!pulse) return false;
+
+    const section = document.createElement('section');
+    section.id = 'seller-live-mission-pulse-traffic';
+    section.className = 'seller-live-mission-pulse-traffic';
+
+    const header = document.createElement('div');
+    header.className = 'seller-live-mission-pulse-traffic-header';
+    header.innerHTML = '<strong>U.S. State Platform Daily Traffic</strong><span>Mission traffic table · 50 states</span>';
+    section.appendChild(header);
+
+    const note = document.createElement('div');
+    note.className = 'seller-live-mission-pulse-traffic-note';
+    note.textContent = 'The Live Mission Pulse uses the same standalone platform traffic table source used by the mission statement. State traffic remains a modeled population-share estimate, not platform-reported state analytics.';
+    section.appendChild(note);
+
+    const frame = document.createElement('iframe');
+    frame.className = 'seller-live-mission-pulse-traffic-frame';
+    frame.src = TRAFFIC_SOURCE + '?embed=live-mission-pulse';
+    frame.title = 'U.S. State Platform Daily Traffic — Live Mission Pulse';
+    frame.loading = 'lazy';
+    frame.referrerPolicy = 'strict-origin-when-cross-origin';
+    frame.setAttribute('scrolling', 'yes');
+    section.appendChild(frame);
+
+    pulse.appendChild(section);
+    return true;
+  }
+
   function start() {
     installStyle();
-    if (buildTable()) return;
+    buildTable();
+    renderPulseTable();
+
     const host = document.getElementById('workspace-mission-economics');
-    if (!host) return;
+    const observerTarget = host || document.body;
     const observer = new MutationObserver(() => {
-      if (buildTable()) observer.disconnect();
+      const tableReady = Boolean(buildTable());
+      const pulseReady = renderPulseTable();
+      if (tableReady && pulseReady) observer.disconnect();
     });
-    observer.observe(host, {childList:true, subtree:true});
+    observer.observe(observerTarget, {childList:true, subtree:true});
+
     let attempts = 0;
     const timer = setInterval(() => {
       attempts++;
-      if (buildTable() || attempts >= 120) clearInterval(timer);
+      const tableReady = Boolean(buildTable());
+      const pulseReady = renderPulseTable();
+      if ((tableReady && pulseReady) || attempts >= 120) clearInterval(timer);
     }, 250);
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, {once:true});
   else start();
 
-  window.BondsMallStatePlatformTraffic = {buildTable, platforms, population:POP};
+  window.BondsMallStatePlatformTraffic = {buildTable, renderPulseTable, platforms, population:POP};
 })();
