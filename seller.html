@@ -3802,6 +3802,17 @@
     .workspace-econ-table td:nth-child(n+2) { white-space:nowrap; text-align:right; }
     .workspace-methods-table td:first-child { color:#8c2f39; font-weight:800; }
     .workspace-methods-table td:last-child { white-space:normal; text-align:left; }
+    .workspace-platform-state-wrap { width:100%; max-width:100%; max-height:300px; overflow-x:auto; overflow-y:auto; -webkit-overflow-scrolling:touch; touch-action:pan-x pan-y; overscroll-behavior-x:contain; scrollbar-width:auto; scrollbar-color:#8c2f39 #eee5dc; }
+    .workspace-platform-state-wrap:focus-within { outline:3px solid rgba(140,47,57,.18); outline-offset:-3px; }
+    .workspace-platform-state-table { width:max-content; min-width:1480px; margin:0; table-layout:auto; }
+    .workspace-platform-state-table th, .workspace-platform-state-table td { min-width:145px; vertical-align:top; }
+    .workspace-platform-state-table thead th { white-space:normal; }
+    .workspace-platform-state-table thead th:first-child, .workspace-platform-state-table tbody th { position:sticky; left:0; z-index:2; min-width:120px; }
+    .workspace-platform-state-table thead th:first-child { z-index:4; }
+    .workspace-platform-state-table thead th strong, .workspace-platform-state-table thead th small { display:block; }
+    .workspace-platform-state-table tbody th { color:#8c2f39; text-align:left; white-space:nowrap; }
+    .workspace-platform-state-table tbody td a { display:block; color:#8c2f39; font-size:.58rem; text-decoration:underline; margin-bottom:2px; }
+    .workspace-platform-state-table tbody td strong { display:block; white-space:nowrap; }
     .workspace-calendar-wrap { margin-top:14px; }
     .workspace-calendar { display:grid; grid-template-columns:repeat(12,minmax(88px,1fr)); gap:7px; overflow-x:auto; padding-bottom:5px; }
     .workspace-month { min-width:88px; padding:8px; border:1px solid #e3d8cc; border-radius:11px; background:#fff; }
@@ -9776,12 +9787,18 @@
       const trafficCatalog = window.BondsMallStatePlatformTraffic?.platforms || [];
       const trafficDaily = trafficCatalog.reduce((sum, platform) => sum + (platform.daily || 0), 0);
       const formatTraffic = value => value >= 1000000 ? `${(value / 1000000).toFixed(2)}M/day` : value >= 1000 ? `${(value / 1000).toFixed(1)}K/day` : `${Math.round(value).toLocaleString()}/day`;
-      const trafficRows = trafficCatalog.map(platform => {
-        const daily = platform.daily || 0;
-        const share = trafficDaily && daily ? `${((daily / trafficDaily) * 100).toFixed(1)}%` : 'Live analytics';
-        const benchmark = daily ? formatTraffic(daily) : 'Live analytics required';
-        const role = platform.name === 'Bonds Mall' ? 'First-party destination; replace estimate with verified analytics.' : 'External discovery and distribution pathway.';
-        return `<tr><td>${workspaceEscape(platform.name)}</td><td>${benchmark}</td><td>${share}</td><td>${workspaceEscape(role)}</td></tr>`;
+      const trafficPopulation = window.BondsMallStatePlatformTraffic?.population || {};
+      const trafficStates = Object.keys(trafficPopulation);
+      const trafficPopulationTotal = trafficStates.reduce((sum, state) => sum + trafficPopulation[state], 0);
+      const trafficHeaderCells = trafficCatalog.map(platform => `<th><strong>${workspaceEscape(platform.name)}</strong><small>Daily traffic</small></th>`).join('');
+      const trafficStateRows = trafficStates.map(state => {
+        const stateShare = trafficPopulationTotal ? trafficPopulation[state] / trafficPopulationTotal : 0;
+        const platformCells = trafficCatalog.map(platform => {
+          const value = platform.daily == null ? null : platform.daily * stateShare;
+          const label = value == null ? 'Live analytics required' : formatTraffic(value);
+          return `<td><a href="${platform.url}" target="_blank" rel="noopener noreferrer">${workspaceEscape(platform.name)}</a><strong>${label}</strong></td>`;
+        }).join('');
+        return `<tr><th scope="row">${workspaceEscape(state)}</th>${platformCells}</tr>`;
       }).join('');
       const methodRows = [
         ['Traffic-scaled multi-platform distribution', 'Use the modeled external traffic pool of approximately ' + formatTraffic(trafficDaily) + ' across nine benchmarked platforms; distribute the required ad volume by measured opportunity, then replace estimates with first-party results.', 'One required sale still uses the 200:1 planning model; platform traffic is an opportunity pool, not a guaranteed conversion.'],
@@ -9803,8 +9820,8 @@
         <div class="workspace-econ-note">Math: total target ÷ locations = average location target. State target = state locations × average location target. Product units below are illustrative gross-profit equivalents at ${Math.round(WORKSPACE_MISSION.margin*100)}% contribution margin; actual net profit must subtract fulfillment, platform fees, taxes, returns, customer acquisition, and operating costs.</div>
         <div class="workspace-econ-table-wrap"><table class="workspace-econ-table"><thead><tr><th>State</th><th>Locations</th><th>State profit target</th><th>Per-location target</th></tr></thead><tbody>${stateRows}</tbody></table></div>
         <div class="workspace-econ-table-wrap"><table class="workspace-econ-table"><thead><tr><th>Product in Bonds Mall catalog</th><th>Price</th><th>Sales/location</th><th>Ads/location @ 200:1</th><th>Ads across all locations</th><th>50% contribution/sale</th></tr></thead><tbody>${productRows}</tbody></table></div>
-        <div class="workspace-econ-note"><strong>Platform traffic alignment:</strong> The figures below are modeled daily traffic benchmarks used to plan reach. They are not guaranteed impressions, visitors, buyers, or revenue; Bonds Mall must replace its placeholder with first-party analytics as soon as those measurements are available.</div>
-        <div class="workspace-econ-table-wrap"><table class="workspace-econ-table workspace-methods-table"><thead><tr><th>Platform</th><th>Modeled daily traffic</th><th>Share of external benchmark</th><th>Operating role</th></tr></thead><tbody>${trafficRows}</tbody></table></div>
+        <div class="workspace-econ-note"><strong>Platform traffic alignment:</strong> Each row below is a state. Each platform is a separate column, and the value beneath the platform name is that state’s modeled daily traffic estimate. The figures are reach-planning benchmarks, not guaranteed impressions, visitors, buyers, or revenue; Bonds Mall must replace its placeholder with first-party analytics as soon as those measurements are available.</div>
+        <div class="workspace-econ-table-wrap workspace-platform-state-wrap" role="region" aria-label="State platform daily traffic table; swipe right for more platforms" tabindex="0"><table class="workspace-econ-table workspace-platform-state-table"><thead><tr><th>State</th>${trafficHeaderCells}</tr></thead><tbody>${trafficStateRows}</tbody></table></div>
         <div class="workspace-econ-note"><strong>Methods of operation:</strong> The following pathways connect the financial target, advertising requirements, platform traffic, and product strategy. They are planning methods, not claims that any pathway will produce a specific result.</div>
         <div class="workspace-econ-table-wrap"><table class="workspace-econ-table workspace-methods-table"><thead><tr><th>Method</th><th>Operating pathway</th><th>Ad and measurement control</th></tr></thead><tbody>${methodRows}</tbody></table></div>
         <div class="workspace-econ-note"><strong>200:1 conversion model:</strong> Every 200 ad impressions is modeled as producing 1 completed sale. Therefore <strong>required ads = required sales × 200</strong>. If one product carries the entire location target, the table shows the estimated ads required for that product. The combined-product calculation of approximately <strong>${aggregateAdsPerLocation.toLocaleString()} ads/location</strong> and <strong>${aggregateTotalAds.toLocaleString()} ads across the ${WORKSPACE_MISSION.locations.toLocaleString()} locations</strong> is a full-target scenario aggregate—not a claim that every product must independently hit the target. A mixed-product plan should allocate the target among products, then recalculate ads from verified margin and completed sales.</div>`;
