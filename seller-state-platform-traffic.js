@@ -1,11 +1,9 @@
 /* Bonds Mall Seller — state platform traffic columns
  * Targets the actual Seller.html live mission economics table.
  * The table is rendered dynamically by Seller.html, so this enhancer uses
- * an exact #workspace-mission-economics scope plus MutationObserver rather
- * than relying only on a load-time polling window.
- * State traffic is a planning estimate: current platform U.S./site-wide monthly
- * traffic is converted to a daily average and allocated by 2025 Census state
- * population share. It is not measured state-level analytics.
+ * an exact #workspace-mission-economics scope plus MutationObserver.
+ * Traffic is displayed as a daily average. State values are modeled by
+ * allocating each platform's daily benchmark by 2025 Census population share.
  */
 (function () {
   'use strict';
@@ -28,18 +26,17 @@
   };
 
   const totalPopulation = Object.values(POP).reduce((a,b) => a + b, 0);
-  const DAYS = 30.4375;
   const platforms = [
-    { name:'Bonds Mall', url:'https://bondsmall.com/', monthly:null, basis:'First-party; live analytics required' },
-    { name:'Craigslist', url:'https://www.craigslist.org/', monthly:119540000, basis:'119.54M U.S. visits, July 2026' },
-    { name:'Facebook', url:'https://www.facebook.com/', monthly:2380000000, basis:'2.38B U.S. visits, July 2026; parent Facebook site, not Marketplace-only' },
-    { name:'Nextdoor', url:'https://nextdoor.com/', monthly:159180000, basis:'159.18M site visits, July 2026; state value is a population-share planning model' },
-    { name:'OfferUp', url:'https://offerup.com/', monthly:8500000, basis:'8.50M site visits, June 2026; latest surfaced Semrush benchmark' },
-    { name:'Mercari', url:'https://www.mercari.com/us/', monthly:23010000, basis:'23.01M U.S. visits, July 2026' },
-    { name:'Classified Ads', url:'https://www.classifiedads.com/', monthly:144000, basis:'144K U.S. visits, July 2026; latest surfaced Semrush benchmark' },
-    { name:'AdlandPro', url:'https://www.adlandpro.com/', monthly:3031428, basis:'3.03M monthly visits, current third-party estimate; global traffic' },
-    { name:'Gumtree', url:'https://www.gumtree.com/', monthly:9760000, basis:'9.76M visits, June 2026; latest surfaced Semrush benchmark, global' },
-    { name:'Locanto', url:'https://www.locanto.us/', monthly:324210, basis:'324.21K U.S. visits, July 2026; locanto.us benchmark' }
+    { name:'Bonds Mall', url:'https://bondsmall.com/', daily:null, basis:'First-party; live analytics required' },
+    { name:'Craigslist', url:'https://www.craigslist.org/', daily:3927392.1971252565, basis:'3.93M/day average; derived from 119.54M U.S. visits, July 2026' },
+    { name:'Facebook', url:'https://www.facebook.com/', daily:78193018.48049282, basis:'78.19M/day average; derived from 2.38B U.S. visits, July 2026; parent Facebook site, not Marketplace-only' },
+    { name:'Nextdoor', url:'https://nextdoor.com/', daily:5229733.059548255, basis:'5.23M/day average; derived from 159.18M site visits, July 2026' },
+    { name:'OfferUp', url:'https://offerup.com/', daily:279260.78028747434, basis:'279.3K/day average; derived from 8.50M site visits, June 2026' },
+    { name:'Mercari', url:'https://www.mercari.com/us/', daily:755975.3593429158, basis:'756.0K/day average; derived from 23.01M U.S. visits, July 2026' },
+    { name:'Classified Ads', url:'https://www.classifiedads.com/', daily:4731.006160164271, basis:'4.73K/day average; derived from 144K U.S. visits, July 2026' },
+    { name:'AdlandPro', url:'https://www.adlandpro.com/', daily:99595.1704312115, basis:'99.6K/day average; current third-party estimate' },
+    { name:'Gumtree', url:'https://www.gumtree.com/', daily:320657.0841889117, basis:'320.7K/day average; derived from 9.76M visits, June 2026' },
+    { name:'Locanto', url:'https://www.locanto.us/', daily:10651.663244353183, basis:'10.7K/day average; derived from 324.21K U.S. visits, July 2026' }
   ];
 
   const traffic = n => {
@@ -50,9 +47,9 @@
   };
 
   function stateTraffic(platform, state) {
-    if (platform.monthly == null) return null;
+    if (platform.daily == null) return null;
     const share = (POP[state] || 0) / totalPopulation;
-    return (platform.monthly / DAYS) * share;
+    return platform.daily * share;
   }
 
   function normalize(text) {
@@ -70,13 +67,11 @@
   }
 
   function findMissionTable() {
-    /* Seller.html creates this exact host and dynamically replaces its HTML. */
     const exact = document.querySelector('#workspace-mission-economics table.workspace-econ-table');
     if (isMissionEconomicsTable(exact)) return exact;
 
     const scoped = document.querySelectorAll('#workspace-mission-economics table');
     for (const table of scoped) if (isMissionEconomicsTable(table)) return table;
-
     return null;
   }
 
@@ -96,7 +91,6 @@
       <strong>${platform.name}</strong>
       <a href="${platform.url}" target="_blank" rel="noopener noreferrer">Website</a>
       <span class="workspace-platform-daily">${traffic(value)}</span>
-      <small>${platform.basis}</small>
     </td>`;
   }
 
@@ -104,7 +98,7 @@
     const controls = document.createElement('div');
     controls.className = 'workspace-platform-scroll-controls';
     controls.innerHTML = `
-      <span class="workspace-platform-scroll-label">Platform statistics → swipe left/right</span>
+      <span class="workspace-platform-scroll-label">Platform daily traffic → swipe left/right</span>
       <button type="button" class="workspace-platform-scroll-btn" data-scroll-dir="left" aria-label="Scroll platform statistics left">←</button>
       <button type="button" class="workspace-platform-scroll-btn" data-scroll-dir="right" aria-label="Scroll platform statistics right">→</button>`;
     controls.querySelectorAll('[data-scroll-dir]').forEach(button => {
@@ -121,7 +115,7 @@
     const wrapper = document.createElement('div');
     wrapper.className = 'workspace-platform-scroll';
     wrapper.setAttribute('role', 'region');
-    wrapper.setAttribute('aria-label', 'Bonds Mall state platform traffic statistics');
+    wrapper.setAttribute('aria-label', 'Bonds Mall state platform daily traffic statistics');
     wrapper.setAttribute('tabindex', '0');
     table.parentNode.insertBefore(wrapper, table);
     wrapper.appendChild(table);
@@ -139,7 +133,7 @@
     platforms.forEach(p => {
       const th = document.createElement('th');
       th.className = 'workspace-platform-traffic-head';
-      th.innerHTML = `<strong>${p.name}</strong><small>Estimated daily state web traffic</small>`;
+      th.innerHTML = `<strong>${p.name}</strong><small>Estimated daily state traffic</small>`;
       head.appendChild(th);
     });
 
@@ -169,7 +163,7 @@
     if (wrap && !wrap.querySelector(':scope > .workspace-platform-traffic-note')) {
       const note = document.createElement('div');
       note.className = 'workspace-platform-traffic-note';
-      note.innerHTML = '<strong>Platform traffic by state:</strong> Each platform is shown side by side. Daily state figures are modeled estimates derived from the latest surfaced platform traffic benchmark and the state\'s 2025 Census population share. They are not platform-reported state analytics. Bonds Mall remains live-analytics only until first-party analytics are connected.';
+      note.innerHTML = '<strong>Daily platform traffic:</strong> State figures are modeled daily averages derived from the latest surfaced platform traffic benchmark and the state\'s 2025 Census population share. They are not platform-reported state analytics. Bonds Mall remains live-analytics only until first-party analytics are connected.';
       wrap.insertBefore(note, wrap.firstChild);
     }
     return true;
@@ -198,7 +192,6 @@
       #workspace-mission-economics .workspace-platform-traffic-cell strong{display:block;color:#8c2f39}
       #workspace-mission-economics .workspace-platform-traffic-cell a{display:block;color:#8c2f39;font-size:.66rem;text-decoration:underline;margin:2px 0}
       #workspace-mission-economics .workspace-platform-traffic-cell .workspace-platform-daily{display:block;font-weight:800;color:#241f1b;margin:2px 0}
-      #workspace-mission-economics .workspace-platform-traffic-cell small{display:block;color:#75695f;font-size:.57rem;line-height:1.35}
       #workspace-mission-economics .workspace-platform-traffic-note{margin:8px 0;padding:9px 10px;border:1px solid #e3d8cc;border-radius:9px;background:#f7f1ea;color:#665950;font-size:.66rem;line-height:1.45}
       @media(max-width:700px){
         #workspace-mission-economics .workspace-platform-scroll{width:100%;max-width:100%}
