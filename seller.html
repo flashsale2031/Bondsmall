@@ -3800,6 +3800,8 @@
     .workspace-econ-table th { position:sticky; top:0; z-index:1; padding:6px; background:#f4eee7; color:#6d5d52; text-align:left; }
     .workspace-econ-table td { padding:6px; border-top:1px solid #eee5dc; color:#51463e; }
     .workspace-econ-table td:nth-child(n+2) { white-space:nowrap; text-align:right; }
+    .workspace-methods-table td:first-child { color:#8c2f39; font-weight:800; }
+    .workspace-methods-table td:last-child { white-space:normal; text-align:left; }
     .workspace-calendar-wrap { margin-top:14px; }
     .workspace-calendar { display:grid; grid-template-columns:repeat(12,minmax(88px,1fr)); gap:7px; overflow-x:auto; padding-bottom:5px; }
     .workspace-month { min-width:88px; padding:8px; border:1px solid #e3d8cc; border-radius:11px; background:#fff; }
@@ -8834,6 +8836,7 @@
 
   <script src="ai_engine.js"></script>
   <script src="productdisplayzoom.js"></script>
+  <script src="seller-state-platform-traffic.js"></script>
   <script>
     function toggleTableView() {
       const table = document.getElementById('products-table');
@@ -9770,7 +9773,25 @@
       const aggregateUnitMix = WORKSPACE_PRODUCT_STRATEGY.length;
       const aggregateAdsPerLocation = Math.ceil(WORKSPACE_PRODUCT_STRATEGY.reduce((sum, product) => sum + Math.ceil(perLocation / (product.price * WORKSPACE_MISSION.margin)) * adsPerSale, 0));
       const aggregateTotalAds = WORKSPACE_MISSION.locations * aggregateAdsPerLocation;
-      copy.innerHTML = `The financial mission targets <strong>$${WORKSPACE_MISSION.yield.toLocaleString()}</strong> of profit across <strong>${WORKSPACE_MISSION.locations.toLocaleString()} Census Vintage 2025 city/place locations in the 50 states</strong> by <strong>${WORKSPACE_MISSION.deadline}</strong>. Equal allocation requires an average <strong>$${perLocation.toLocaleString(undefined,{maximumFractionDigits:0})} profit contribution per location</strong>. State targets are proportional to each state's location count; the product portfolio is a means of generating sales, not a guarantee of profit.`;
+      const trafficCatalog = window.BondsMallStatePlatformTraffic?.platforms || [];
+      const trafficDaily = trafficCatalog.reduce((sum, platform) => sum + (platform.daily || 0), 0);
+      const formatTraffic = value => value >= 1000000 ? `${(value / 1000000).toFixed(2)}M/day` : value >= 1000 ? `${(value / 1000).toFixed(1)}K/day` : `${Math.round(value).toLocaleString()}/day`;
+      const trafficRows = trafficCatalog.map(platform => {
+        const daily = platform.daily || 0;
+        const share = trafficDaily && daily ? `${((daily / trafficDaily) * 100).toFixed(1)}%` : 'Live analytics';
+        const benchmark = daily ? formatTraffic(daily) : 'Live analytics required';
+        const role = platform.name === 'Bonds Mall' ? 'First-party destination; replace estimate with verified analytics.' : 'External discovery and distribution pathway.';
+        return `<tr><td>${workspaceEscape(platform.name)}</td><td>${benchmark}</td><td>${share}</td><td>${workspaceEscape(role)}</td></tr>`;
+      }).join('');
+      const methodRows = [
+        ['Traffic-scaled multi-platform distribution', 'Use the modeled external traffic pool of approximately ' + formatTraffic(trafficDaily) + ' across nine benchmarked platforms; distribute the required ad volume by measured opportunity, then replace estimates with first-party results.', 'One required sale still uses the 200:1 planning model; platform traffic is an opportunity pool, not a guaranteed conversion.'],
+        ['State-localized ad cells', 'Run state-specific creative and budgets against the 50-state location plan, using each state target and the State Platform Daily Traffic table to prioritize reach.', 'Required ads remain sales × 200, allocated by state target, platform share, and verified conversion.'],
+        ['Individual product method', 'Prioritize the three gold coins, the Yves Saint Laurent blouse, Chanel and Prada handbags, Fendi/Gucci apparel, Louis Vuitton and Gucci travel bags, and Gucci glasses as separate high-value product scenarios.', 'The product table calculates each SKU’s price, contribution, sales per location, and ads required when that SKU carries the target alone.'],
+        ['High-value anchor plus luxury accessory', 'Combine a gold coin with a Chanel or Prada handbag, luxury apparel, or a Louis Vuitton/Gucci travel bag to balance high contribution per sale with category breadth.', 'Allocate the location target between products; do not count each product as if it independently carries the full target.'],
+        ['High-value anchor plus electronics', 'Combine a gold coin or luxury item with the Apple iMac Pro, Sony PlayStation 5, or Nintendo Switch 2 to add lower-ticket demand and more attainable conversion paths.', 'Use actual margin, inventory, fees, and completed sales to recalculate the mixed-product ad requirement.'],
+        ['Balanced portfolio combination', 'Use high-value anchors, luxury accessories, and electronics/entertainment together across multiple platforms and states, with creative variants and controlled budget allocation.', 'This is the preferred operating model when no single SKU, platform, or state can reliably satisfy the full mission target.']
+      ].map(([method, operation, control]) => `<tr><td>${workspaceEscape(method)}</td><td>${workspaceEscape(operation)}</td><td>${workspaceEscape(control)}</td></tr>`).join('');
+      copy.innerHTML = `The financial mission targets <strong>$${WORKSPACE_MISSION.yield.toLocaleString()}</strong> of contribution profit across <strong>${WORKSPACE_MISSION.locations.toLocaleString()} Census Vintage 2025 city/place locations in the 50 states</strong> by <strong>${WORKSPACE_MISSION.deadline}</strong>. Equal allocation requires an average <strong>$${perLocation.toLocaleString(undefined,{maximumFractionDigits:0})} contribution per location</strong>. The State Platform Daily Traffic table supplies the reach-planning layer: the current modeled external-platform benchmark is approximately <strong>${formatTraffic(trafficDaily)}</strong>, while Bonds Mall traffic must be measured through first-party analytics. The financial target is therefore pursued through measured traffic, verified conversion, contribution margin, and the methods of operation below—not through traffic volume alone or a guarantee of sales.`;
       if (fill) fill.style.width = `${stats.progress}%`;
       if (economics) economics.innerHTML = `
         <div class="workspace-econ-summary">
@@ -9782,8 +9803,11 @@
         <div class="workspace-econ-note">Math: total target ÷ locations = average location target. State target = state locations × average location target. Product units below are illustrative gross-profit equivalents at ${Math.round(WORKSPACE_MISSION.margin*100)}% contribution margin; actual net profit must subtract fulfillment, platform fees, taxes, returns, customer acquisition, and operating costs.</div>
         <div class="workspace-econ-table-wrap"><table class="workspace-econ-table"><thead><tr><th>State</th><th>Locations</th><th>State profit target</th><th>Per-location target</th></tr></thead><tbody>${stateRows}</tbody></table></div>
         <div class="workspace-econ-table-wrap"><table class="workspace-econ-table"><thead><tr><th>Product in Bonds Mall catalog</th><th>Price</th><th>Sales/location</th><th>Ads/location @ 200:1</th><th>Ads across all locations</th><th>50% contribution/sale</th></tr></thead><tbody>${productRows}</tbody></table></div>
-        <div class="workspace-econ-note"><strong>200:1 conversion model:</strong> Every 200 ad impressions is modeled as producing 1 completed sale. Therefore <strong>required ads = required sales × 200</strong>. If one product carries the entire location target, the table shows the estimated ads required for that product. For the combined portfolio, using every listed product as a separate full-target scenario produces approximately <strong>${aggregateAdsPerLocation.toLocaleString()} ads/location</strong> and <strong>${aggregateTotalAds.toLocaleString()} ads across the ${WORKSPACE_MISSION.locations.toLocaleString()} locations</strong>; this is a scenario aggregate, not a claim that all products must each independently hit the full target. A mixed-product plan should instead allocate the profit target among products and calculate ads for each allocated share.
-        <div class="workspace-econ-note"><strong>Portfolio strategy:</strong> combine high-value products (gold coins, designer handbags, luxury apparel/accessories) with electronics, entertainment, home goods, and repeat lower-ticket purchases. A combined mix is more practical than assuming one SKU can satisfy an entire location's target. The system should select mixes based on verified price, actual margin, demand, inventory, fees, and completed sales.</div>`;
+        <div class="workspace-econ-note"><strong>Platform traffic alignment:</strong> The figures below are modeled daily traffic benchmarks used to plan reach. They are not guaranteed impressions, visitors, buyers, or revenue; Bonds Mall must replace its placeholder with first-party analytics as soon as those measurements are available.</div>
+        <div class="workspace-econ-table-wrap"><table class="workspace-econ-table workspace-methods-table"><thead><tr><th>Platform</th><th>Modeled daily traffic</th><th>Share of external benchmark</th><th>Operating role</th></tr></thead><tbody>${trafficRows}</tbody></table></div>
+        <div class="workspace-econ-note"><strong>Methods of operation:</strong> The following pathways connect the financial target, advertising requirements, platform traffic, and product strategy. They are planning methods, not claims that any pathway will produce a specific result.</div>
+        <div class="workspace-econ-table-wrap"><table class="workspace-econ-table workspace-methods-table"><thead><tr><th>Method</th><th>Operating pathway</th><th>Ad and measurement control</th></tr></thead><tbody>${methodRows}</tbody></table></div>
+        <div class="workspace-econ-note"><strong>200:1 conversion model:</strong> Every 200 ad impressions is modeled as producing 1 completed sale. Therefore <strong>required ads = required sales × 200</strong>. If one product carries the entire location target, the table shows the estimated ads required for that product. The combined-product calculation of approximately <strong>${aggregateAdsPerLocation.toLocaleString()} ads/location</strong> and <strong>${aggregateTotalAds.toLocaleString()} ads across the ${WORKSPACE_MISSION.locations.toLocaleString()} locations</strong> is a full-target scenario aggregate—not a claim that every product must independently hit the target. A mixed-product plan should allocate the target among products, then recalculate ads from verified margin and completed sales.</div>`;
     }
     let workspaceResolutionTimer = null;
     let workspaceResolutionMailbox = (() => { try { return JSON.parse(localStorage.getItem('clblast_workspace_resolution_mailbox') || '[]'); } catch (_) { return []; } })();

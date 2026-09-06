@@ -9,7 +9,7 @@
 (function () {
   'use strict';
 
-  const TRAFFIC_SOURCE = '/seller-platform-traffic.html';
+  const TRAFFIC_SOURCE = 'seller-platform-traffic.html';
 
   const POP = {
     Alabama:5193088, Alaska:737270, Arizona:7623818, Arkansas:3114791,
@@ -181,7 +181,7 @@
   }
 
   function findLiveMissionPulse() {
-    const candidates = [...document.querySelectorAll('h1,h2,h3,h4,h5,h6,[role="heading"],.section-title,.card-title,.panel-title')];
+    const candidates = [...document.querySelectorAll('h1,h2,h3,h4,h5,h6,[role="heading"],.section-title,.card-title,.panel-title,.workspace-panel-label')];
     const heading = candidates.find(el => normalize(el.textContent).includes('live mission pulse'));
     if (!heading) return null;
 
@@ -255,4 +255,5 @@
   else start();
 
   window.BondsMallStatePlatformTraffic = {buildTable, renderPulseTable, platforms, population:POP};
+  if (typeof window.renderWorkspaceMission === 'function') window.renderWorkspaceMission();
 })();
