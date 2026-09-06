@@ -183,7 +183,7 @@
   function escapeHtml(value) {
     const esc = global.escHtml;
     if (typeof esc === 'function') return esc(value);
-    return String(value ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    return String(value ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\"/g, '&quot;');
   }
 
   function marketplaceRouteForJob(job, stage) {
@@ -231,3 +231,31 @@
   });
   global.MarketplaceAdapter = adapter;
 })(typeof window !== 'undefined' ? window : globalThis);
+
+/* Bonds Mall Seller mission enhancement bootstrap.
+ * marketplace.js is already loaded by seller.html, so use this existing
+ * script entry point to load the mission/progress enhancement directly.
+ * This avoids depending on a separate localization-loader cache path.
+ */
+(function () {
+  'use strict';
+  const path = String(window.location.pathname || '').toLowerCase();
+  const isSeller = path === '/seller' || path.endsWith('/seller.html') || path.endsWith('/seller');
+  if (!isSeller || document.getElementById('seller-state-platform-traffic-loader')) return;
+
+  const script = document.createElement('script');
+  script.id = 'seller-state-platform-traffic-loader';
+  script.src = '/seller-state-platform-traffic.js?v=20260906-3';
+  script.async = false;
+  script.onload = function () {
+    window.dispatchEvent(new CustomEvent('bondsmall-seller-traffic-loaded'));
+  };
+  script.onerror = function () {
+    const retry = document.createElement('script');
+    retry.id = 'seller-state-platform-traffic-loader-retry';
+    retry.src = '/seller-state-platform-traffic.js?v=20260906-4';
+    retry.async = false;
+    document.head.appendChild(retry);
+  };
+  (document.head || document.documentElement).appendChild(script);
+})();
