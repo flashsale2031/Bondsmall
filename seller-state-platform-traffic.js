@@ -10,6 +10,7 @@
   'use strict';
 
   const TRAFFIC_SOURCE = 'seller-platform-traffic.html';
+  const MISSION_TARGET = 500000000000;
 
   const POP = {
     Alabama:5193088, Alaska:737270, Arizona:7623818, Arkansas:3114791,
@@ -164,6 +165,16 @@
       #workspace-mission-economics .seller-platform-daily-traffic-table td a{display:block;color:#8c2f39;font-size:.63rem;text-decoration:underline;margin-bottom:2px}
       #workspace-mission-economics .seller-platform-daily-traffic-table td strong{display:block;color:#241f1b;font-size:.74rem;white-space:nowrap}
 
+      .seller-mission-progress{margin:0 0 16px;border:1px solid rgba(255,255,255,.12);border-radius:12px;background:rgba(17,24,39,.72);overflow:hidden}
+      .seller-mission-progress-header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding:13px 14px 7px}
+      .seller-mission-progress-header strong{color:var(--text,#f0f2f5);font-size:.92rem}
+      .seller-mission-progress-header span{color:var(--text2,#9aa4b2);font-size:.68rem;text-align:right}
+      .seller-mission-progress-target{padding:0 14px 8px;color:var(--text2,#9aa4b2);font-size:.68rem}
+      .seller-mission-progress-track{height:16px;margin:0 14px 8px;border-radius:999px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.12);overflow:hidden}
+      .seller-mission-progress-fill{height:100%;width:0%;border-radius:999px;background:linear-gradient(90deg,#8c2f39,#d49a62);transition:width .45s ease}
+      .seller-mission-progress-meta{display:flex;justify-content:space-between;gap:10px;padding:0 14px 12px;color:var(--text2,#9aa4b2);font-size:.65rem}
+      .seller-mission-progress-meta strong{color:var(--text,#f0f2f5)}
+
       .seller-live-mission-pulse-traffic{margin-top:16px;border:1px solid rgba(255,255,255,.1);border-radius:12px;background:rgba(17,24,39,.55);overflow:hidden}
       .seller-live-mission-pulse-traffic-header{display:flex;align-items:baseline;justify-content:space-between;gap:10px;padding:12px 14px 7px}
       .seller-live-mission-pulse-traffic-header strong{color:var(--text,#f0f2f5);font-size:.9rem}
@@ -174,6 +185,8 @@
         #workspace-mission-economics .seller-platform-daily-traffic-title{display:block}
         #workspace-mission-economics .seller-platform-daily-traffic-title span{display:block;margin-top:3px}
         #workspace-mission-economics table.seller-platform-daily-traffic-table{min-width:1480px}
+        .seller-mission-progress-header{display:block}
+        .seller-mission-progress-header span{display:block;margin-top:4px;text-align:left}
         .seller-live-mission-pulse-traffic-frame{height:72vh;min-height:520px}
       }
     `;
@@ -196,10 +209,87 @@
     return heading.parentElement || heading;
   }
 
+  function readMissionProgress() {
+    const candidates = [
+      window.BondsMallMissionProgress,
+      window.missionProgress,
+      window.WORKSPACE_MISSION_PROGRESS,
+      window.workspaceMissionProgress
+    ];
+    for (const candidate of candidates) {
+      if (candidate == null) continue;
+      const value = typeof candidate === 'object' ? (candidate.percent ?? candidate.progress ?? candidate.value) : candidate;
+      const numeric = Number(value);
+      if (Number.isFinite(numeric)) return Math.max(0, Math.min(100, numeric));
+    }
+
+    const selectors = [
+      '[data-mission-progress]', '[data-progress]', '.mission-progress-fill', '.workspace-progress-fill',
+      '#mission-progress-fill', '#workspace-progress-fill'
+    ];
+    for (const selector of selectors) {
+      const el = document.querySelector(selector);
+      if (!el) continue;
+      const raw = el.dataset.missionProgress || el.dataset.progress || el.style.width || el.getAttribute('aria-valuenow');
+      const numeric = parseFloat(String(raw || '').replace('%',''));
+      if (Number.isFinite(numeric)) return Math.max(0, Math.min(100, numeric));
+    }
+
+    try {
+      const stored = localStorage.getItem('bondsmall-mission-progress');
+      const numeric = parseFloat(stored);
+      if (Number.isFinite(numeric)) return Math.max(0, Math.min(100, numeric));
+    } catch (_) {}
+
+    return 0;
+  }
+
+  function formatMissionValue(value) {
+    if (!Number.isFinite(value) || value <= 0) return '$0';
+    if (value >= 1000000000) return '$' + (value / 1000000000).toFixed(2) + 'B';
+    if (value >= 1000000) return '$' + (value / 1000000).toFixed(2) + 'M';
+    return '$' + Math.round(value).toLocaleString('en-US');
+  }
+
+  function renderMissionProgress(pulse) {
+    let bar = document.getElementById('seller-mission-progress');
+    if (!bar) {
+      bar = document.createElement('section');
+      bar.id = 'seller-mission-progress';
+      bar.className = 'seller-mission-progress';
+      bar.setAttribute('aria-label', 'Mission Progress');
+      bar.innerHTML = `
+        <div class="seller-mission-progress-header"><strong>Mission Progress</strong><span>Live Mission Pulse follows this progress bar</span></div>
+        <div class="seller-mission-progress-target">Annual contribution-profit mission target: <strong>$500,000,000,000</strong></div>
+        <div class="seller-mission-progress-track" role="progressbar" aria-label="Bonds Mall mission progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <div class="seller-mission-progress-fill"></div>
+        </div>
+        <div class="seller-mission-progress-meta"><span>Completed: <strong class="seller-mission-progress-completed">$0</strong></span><span class="seller-mission-progress-percent">0.00%</span></div>`;
+    }
+
+    if (pulse && bar.parentNode !== pulse) {
+      pulse.parentNode.insertBefore(bar, pulse);
+    }
+
+    const percent = readMissionProgress();
+    const completed = MISSION_TARGET * (percent / 100);
+    const fill = bar.querySelector('.seller-mission-progress-fill');
+    const track = bar.querySelector('.seller-mission-progress-track');
+    const completedNode = bar.querySelector('.seller-mission-progress-completed');
+    const percentNode = bar.querySelector('.seller-mission-progress-percent');
+    if (fill) fill.style.width = percent + '%';
+    if (track) track.setAttribute('aria-valuenow', String(percent));
+    if (completedNode) completedNode.textContent = formatMissionValue(completed);
+    if (percentNode) percentNode.textContent = percent.toFixed(2) + '%';
+    return bar;
+  }
+
   function renderPulseTable() {
-    if (document.getElementById('seller-live-mission-pulse-traffic')) return true;
     const pulse = findLiveMissionPulse();
     if (!pulse) return false;
+
+    renderMissionProgress(pulse);
+    if (document.getElementById('seller-live-mission-pulse-traffic')) return true;
 
     const section = document.createElement('section');
     section.id = 'seller-live-mission-pulse-traffic';
@@ -249,11 +339,26 @@
       const pulseReady = renderPulseTable();
       if ((tableReady && pulseReady) || attempts >= 120) clearInterval(timer);
     }, 250);
+
+    window.addEventListener('bondsmall-mission-progress', renderMissionProgressFromEvent);
+    window.addEventListener('storage', event => {
+      if (event.key === 'bondsmall-mission-progress') renderMissionProgress(findLiveMissionPulse());
+    });
+  }
+
+  function renderMissionProgressFromEvent(event) {
+    const pulse = findLiveMissionPulse();
+    if (!pulse) return;
+    const value = Number(event?.detail?.percent ?? event?.detail?.progress ?? event?.detail);
+    if (Number.isFinite(value)) {
+      try { localStorage.setItem('bondsmall-mission-progress', String(Math.max(0, Math.min(100, value)))); } catch (_) {}
+    }
+    renderMissionProgress(pulse);
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, {once:true});
   else start();
 
-  window.BondsMallStatePlatformTraffic = {buildTable, renderPulseTable, platforms, population:POP};
+  window.BondsMallStatePlatformTraffic = {buildTable, renderPulseTable, renderMissionProgress, platforms, population:POP};
   if (typeof window.renderWorkspaceMission === 'function') window.renderWorkspaceMission();
 })();
