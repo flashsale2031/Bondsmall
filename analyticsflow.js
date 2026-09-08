@@ -1,0 +1,42 @@
+/* Bonds Mall AnalyticsFlow
+ * Scans Mastermind.html and seller.html at runtime, reads Mastermind's
+ * persisted Active Ads state, inspects page DOM/localStorage for recent ad
+ * records, and optionally reads GitHub commit history for the two source files.
+ * It never invents a submission timestamp or live URL.
+ */
+(function(){'use strict';
+const PLATFORMS=['Craigslist','AdLandPro','ClassifiedAds','Facebook Marketplace','OfferUp','Mercari','Poshmark','Nextdoor'];
+const VERSIONS=[
+'Analyze mission statement','Define success criteria','Research market and audience','Build campaign strategy','Create location plan','Create offer architecture','Create ad content','Create media plan','Create platform plans','Validate policy and page readiness','Validate launch queue','Open launch sessions','Human checkpoint handling','Submit advertisements','Verify publication','Normalize live URLs','Record campaign state','Publish to Market Active Ads','Monitor launch results','Complete mission handoff'];
+const REPO='flashsale2031/Bondsmall';
+const API='https://api.github.com/repos/'+REPO+'/commits';
+const state={updates:[],ads:[],submissions:{},scannedAt:null};
+const $=id=>document.getElementById(id);
+const esc=v=>String(v==null?'':v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function time(v){const d=new Date(v);return Number.isNaN(d.getTime())?'—':d.toLocaleString();}
+function relative(v){const d=new Date(v),n=Date.now(),m=Math.max(0,Math.floor((n-d.getTime())/60000));if(m<1)return'just now';if(m<60)return m+'m ago';const h=Math.floor(m/60);if(h<24)return h+'h ago';return Math.floor(h/24)+'d ago';}
+function parseJson(raw){try{return JSON.parse(raw)}catch(_){return null}}
+function platformOf(v){const s=String(v||'').toLowerCase();return PLATFORMS.find(p=>s.includes(p.toLowerCase()))||v||'Unknown';}
+function addSubmission(platform,stamp,ad){if(!stamp)return;const p=platformOf(platform);if(!PLATFORMS.includes(p))return;if(!state.submissions[p])state.submissions[p]=[];const t=new Date(stamp);if(Number.isNaN(t.getTime()))return;const key=t.toISOString();if(!state.submissions[p].some(x=>x.time===key)){state.submissions[p].push({time:key,url:ad&&ad.url||'',status:ad&&ad.status||''});}}
+function normalizeAd(a,source){if(!a)return null;const url=a.url||a.liveUrl||a.href||a.listingUrl||a.publicUrl;if(!url||!/^https?:\/\//i.test(String(url)))return null;const platform=platformOf(a.platform||a.site||a.channel||a.marketplace||a.source);const stamp=a.publishedAt||a.submittedAt||a.timestamp||a.createdAt||a.updatedAt||a.postedAt||a.time;if(!stamp)return null;return{platform,url:String(url),timestamp:new Date(stamp).toISOString(),status:a.status||'published',jobId:a.jobId||a.id||'',source};}
+function collectLocalStorage(){const ads=[];for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i),raw=localStorage.getItem(k),data=parseJson(raw);if(!data)continue;const arr=Array.isArray(data)?data:[data];for(const item of arr){const ad=normalizeAd(item,k);if(ad)ads.push(ad);}}
+return ads;}
+function collectDom(){const found=[];document.querySelectorAll('a[href]').forEach(a=>{const href=a.href;if(!/^https?:\/\//i.test(href))return;const text=(a.textContent||'').trim();const row=a.closest('[data-platform],[data-ad],[data-job],tr,article,.ad,.listing,.card');const all=(row?row.textContent:'')+' '+text;const platform=platformOf(all);if(platform==='Unknown')return;const stamp=row&&(row.getAttribute('data-timestamp')||row.getAttribute('data-submitted-at')||row.getAttribute('data-published-at')||row.getAttribute('datetime'));if(stamp)found.push({platform,url:href,timestamp:new Date(stamp).toISOString(),status:'published',source:'DOM'});});return found;}
+async function fetchPage(path){try{const r=await fetch(path,{cache:'no-store'});if(!r.ok)throw new Error(r.status);return await r.text()}catch(_){return''}}
+async function githubUpdates(path){try{const r=await fetch(API+'?path='+encodeURIComponent(path)+'&per_page=10',{headers:{Accept:'application/vnd.github+json'},cache:'no-store'});if(!r.ok)throw new Error(r.status);const rows=await r.json();return rows.map(c=>({file:path,sha:c.sha,message:c.commit&&c.commit.message||'Update',timestamp:c.commit&&c.commit.committer&&c.commit.committer.date||c.commit.author.date,url:c.html_url}));}catch(_){return[]}}
+function extractMastermindAds(html){const ads=[];const doc=new DOMParser().parseFromString(html,'text/html');doc.querySelectorAll('#activeAds a[href],[data-active-ads] a[href],.active-ads a[href]').forEach(a=>{const row=a.closest('.ad,[data-ad],article,div')||a;const platform=platformOf(row.textContent);if(platform==='Unknown')return;const stamp=row.getAttribute('data-timestamp')||row.getAttribute('data-published-at')||row.getAttribute('datetime');if(stamp)ads.push({platform,url:a.href,timestamp:new Date(stamp).toISOString(),status:'published',source:'Mastermind.html'});});return ads;}
+function renderVersions(){ $('versionCount').textContent=20; $('versions').innerHTML=VERSIONS.map((v,i)=>`<div class="version"><div class="num">${i+1}</div><div><strong>Version ${i+1}</strong><div class="sub">${esc(v)}</div></div><div class="badge">V${i+1}</div></div>`).join('');}
+function renderUpdates(){const rows=state.updates.slice().sort((a,b)=>new Date(b.timestamp)-new Date(a.timestamp)).slice(0,30);$('updates').innerHTML=rows.length?rows.map(u=>`<div class="update"><strong>${esc(u.file)} — ${esc(u.message)}</strong><small>${esc(time(u.timestamp))} · ${esc(relative(u.timestamp))}</small></div>`).join(''):'<div class="empty">No update history could be read.</div>';}
+function renderTable(){let max=0;PLATFORMS.forEach(p=>max=Math.max(max,(state.submissions[p]||[]).length));max=Math.max(max,1);$('platformCount').textContent=PLATFORMS.length;$('submissionCount').textContent=PLATFORMS.reduce((n,p)=>n+(state.submissions[p]||[]).length,0);$('platformTable').querySelector('thead').innerHTML='<tr><th>Platform</th>'+Array.from({length:max},(_,i)=>`<th>Submission ${i+1} Timestamp</th>`).join('')+'</tr>';$('platformTable').querySelector('tbody').innerHTML=PLATFORMS.map(p=>{const vals=(state.submissions[p]||[]).slice().sort((a,b)=>new Date(a.time)-new Date(b.time));return`<tr><td>${esc(p)}</td>`+Array.from({length:max},(_,i)=>{const x=vals[i];return`<td>${x?`<span class="time">${esc(time(x.time))}</span>${x.url?`<a class="url" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.url)}</a>`:''}`:'—'}</td>`}).join('')+'</tr>';}).join('');}
+function renderAds(){const rows=state.ads.slice().sort((a,b)=>new Date(b.timestamp)-new Date(a.timestamp)).slice(0,100);$('liveCount').textContent=rows.length;$('ads').innerHTML=rows.length?rows.map(a=>`<div class="ad"><strong>${esc(a.platform)}</strong><div class="status">${esc(a.status)} · ${esc(time(a.timestamp))} · ${esc(a.source)}</div><a class="url" href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.url)}</a></div>`).join(''):'<div class="empty">No recent advertisements found.</div>';}
+async function scan(){const now=new Date();state.scannedAt=now.toISOString();state.updates=[];state.ads=[];state.submissions={};renderVersions();
+const [masterHtml,sellerHtml,masterUpdates,sellerUpdates]=await Promise.all([fetchPage('Mastermind.html'),fetchPage('seller.html'),githubUpdates('Mastermind.html'),githubUpdates('seller.html')]);
+state.updates=[...masterUpdates,...sellerUpdates];
+const masterAds=extractMastermindAds(masterHtml);const localAds=collectLocalStorage();const domAds=collectDom();const combined=[...masterAds,...localAds,...domAds];
+const seen=new Set();state.ads=combined.filter(a=>{const k=a.platform+'|'+a.url+'|'+a.timestamp;if(seen.has(k))return false;seen.add(k);return true;});
+for(const a of state.ads)addSubmission(a.platform,a.timestamp,a);for(const u of state.updates){if(/submit|post|publish|ad|listing/i.test(u.message)){const platform=platformOf(u.message);if(platform!=='Unknown')addSubmission(platform,u.timestamp);}}
+$('scanTime').textContent=now.toLocaleTimeString();renderUpdates();renderTable();renderAds();
+window.dispatchEvent(new CustomEvent('bonds:analyticsflow-scan',{detail:{updates:state.updates.slice(),ads:state.ads.slice(),submissions:JSON.parse(JSON.stringify(state.submissions))}}));}
+$('scanBtn').addEventListener('click',scan);renderVersions();scan();setInterval(scan,60000);
+window.AnalyticsFlow={scan,getState:()=>JSON.parse(JSON.stringify(state))};
+})();
