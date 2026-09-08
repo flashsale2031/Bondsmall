@@ -1,0 +1,55 @@
+name: Wire ClassifiedAds emulator browser
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  patch-classifiedads-post-flow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Replace ClassifiedAds mini browser with emulator popup
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+
+          path = Path('seller-workspace.html')
+          text = path.read_text(encoding='utf-8')
+
+          script_tag = '<script src="android-emulator-browser.js?v=1.0.0"></script>'
+          if script_tag not in text:
+              marker = '</head>'
+              if marker not in text:
+                  raise SystemExit('seller-workspace.html is missing </head>')
+              text = text.replace(marker, f'  {script_tag}\n{marker}', 1)
+
+          old = """      openMiniBrowser(postUrl);\n      persistClientCampaign();"""
+          new = """      if (window.BondsMallAndroidEmulator && typeof window.BondsMallAndroidEmulator.open === 'function') {\n        job.classifiedAdsFlow.browser = 'android-emulator';\n        window.BondsMallAndroidEmulator.open(postUrl);\n      } else {\n        showToast('Android emulator browser is not loaded. Refresh the Seller workspace and try again.', 'error');\n        job.classifiedAdsFlow.browser = 'unavailable';\n      }\n      persistClientCampaign();"""
+          if old not in text:
+              raise SystemExit('Expected ClassifiedAds mini-browser call was not found.')
+          text = text.replace(old, new, 1)
+
+          text = text.replace('Open ClassifiedAds form</button>', 'Open ClassifiedAds emulator</button>', 1)
+          text = text.replace('Use the ClassifiedAds popup for this location, complete CAPTCHA and terms, then confirm the form root before submitting.', 'Use the Android emulator browser popup for this location, complete the ClassifiedAds form, CAPTCHA, and terms there, then continue with the controlled submission step.', 1)
+
+          path.write_text(text, encoding='utf-8')
+
+      - name: Commit generated change
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add seller-workspace.html
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Replace ClassifiedAds post browser with Android emulator"
+          git push
