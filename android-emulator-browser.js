@@ -9,6 +9,9 @@
  *   window.BONDS_MALL_EMULATOR_SOCKET_URL = 'http://host:41000';
  * or localStorage.setItem('bonds_mall_emulator_socket_url', 'http://host:41000')
  * before opening the emulator.
+ *
+ * ClassifiedAds integration: the Seller post flow opens this component instead
+ * of the old readable mini-browser window.
  */
 (function (global) {
   'use strict';
