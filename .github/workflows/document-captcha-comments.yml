@@ -1,0 +1,118 @@
+name: Document CAPTCHA sections in all post flows
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  annotate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add explicit CAPTCHA comments
+        shell: python
+        run: |
+          from pathlib import Path
+
+          def patch(path, pairs):
+              p = Path(path); text = p.read_text(encoding='utf-8')
+              for marker, comment in pairs:
+                  if comment in text: continue
+                  if marker not in text: raise SystemExit(f'Marker missing: {path}: {marker[:100]}')
+                  text = text.replace(marker, comment + '\n' + marker, 1)
+              p.write_text(text, encoding='utf-8')
+
+          patch('seller-workspace.html', [
+            ('    let captchaRequiredJobs = new Set();', '''    /* CAPTCHA STATE — ALL POST PLATFORMS
+       Supported posting flows include Craigslist, AdLandPro, ClassifiedAds,
+       Facebook Marketplace, OfferUp, Mercari, Poshmark, and Nextdoor.
+       This state records a human-checkpoint requirement only. It must never
+       solve, bypass, predict, replay, or defeat a platform CAPTCHA. Runtime
+       CAPTCHA answers are transient and must not be persisted with campaigns. */'''),
+            ('    function registerCaptchaInputHandler(jobIndex, handler) {', '''    /* CAPTCHA INPUT BOUNDARY — ALL PLATFORMS
+       Each platform/account/location may register its own handler. The handler
+       receives only the CAPTCHA value the user personally entered. Keep this
+       boundary separate from any optional CAPTCHA-service credential. */'''),
+            ('    function getCaptchaScreenshotMarkup(job) {', '''    /* CAPTCHA SCREENSHOT CONTEXT
+       A screenshot can show the human where a challenge is waiting. It is
+       display context only; never add image interpretation or challenge-
+       solving logic here. The user completes the challenge in the platform
+       session that generated it. */'''),
+            ('    function renderCaptchaNotifications() {', '''    /* CAPTCHA NOTIFICATION CENTER — SHARED POST-FLOW UI
+       Surfaces every waiting platform/account/location. A notification is
+       not proof of CAPTCHA completion and must never advance a job by itself. */'''),
+            ('    function submitCaptchaFromNotification(jobIndex) {', '''    /* USER-PROVIDED CAPTCHA HANDOFF
+       Forward only the current user-entered value to the matching job handler,
+       then clear the notification field. Never log, persist, share, or solve
+       the CAPTCHA response. */'''),
+            ("    function setCaptchaRequired(jobIndex, required = true, reason = 'CAPTCHA input required') {", '''    /* CAPTCHA GATE
+       Platform adapters call this when a human checkpoint appears/disappears.
+       This function changes workflow state only; it does not click or solve
+       the third-party challenge. The gate remains until the platform flow
+       explicitly reports that its human checkpoint is no longer blocking. */'''),
+            ('    async function launchPost() {', '''    /* POST LAUNCH CAPTCHA POLICY — ALL PLATFORMS
+       Queue launch never implies CAPTCHA automation. Client-only flows stop
+       for the platform human check. Any separately configured service
+       credential is distinct from the user's CAPTCHA answer. */'''),
+            ('    function startNextJob() {', '''    /* QUEUE/CAPTCHA SAFETY
+       Do not mark a job complete merely because its browser opened or its
+       CAPTCHA notification appeared. A CAPTCHA-gated job remains pending until
+       the platform/user flow provides its explicit next state. */'''),
+            ('    async function beginClassifiedAdsJobFlow(jobIndex) {', '''    /* CLASSIFIEDADS CAPTCHA SECTION
+       ClassifiedAds keeps CAPTCHA between form preparation and final terms /
+       publish confirmation. The Android emulator supplies the user-controlled
+       browser context. The Seller workspace records the gate but never solves
+       or bypasses the ClassifiedAds challenge. */'''),
+            ('    function renderClientListingPanel(job) {', '''    /* CLIENT-ONLY CAPTCHA DISPLAY — ALL PLATFORMS
+       The common listing panel is a handoff surface, not a CAPTCHA solver.
+       Platform-specific CAPTCHA interaction stays in the correct browser
+       origin, account, and posting session. */'''),
+            ('    function markClientJobPosted(jobIndex) {', '''    /* CAPTCHA COMPLETION CHECKPOINT
+       Never infer success from elapsed time, screenshots, page appearance, or
+       automated clicks. A job becomes posted only after the platform/user flow
+       confirms that its CAPTCHA gate is no longer blocking publication. */'''),
+            ('    async function submitJobToServer(job, captchaKey) {', '''    /* SERVER CAPTCHA CREDENTIAL BOUNDARY
+       `captchaKey` is a configured service credential, not a user's CAPTCHA
+       answer. Keep credentials separate from transient challenge responses;
+       this client code must not expose, store, or transform challenge answers. */'''),
+            ('    function platformSessionMarkup(platform) {', '''    /* PLATFORM-SESSION CAPTCHA ISOLATION
+       CAPTCHA state belongs to the exact platform/account/location session.
+       Never route a Craigslist challenge into AdLandPro, ClassifiedAds,
+       Facebook Marketplace, OfferUp, Mercari, Poshmark, or Nextdoor. */''')
+          ])
+
+          patch('classifiedads.js', [
+            ('    captcha: [\'input[name="captchacode"]\',', '''    /* CLASSIFIEDADS CAPTCHA SELECTORS
+       Discovery only: these selectors identify the site's human-check field.
+       They must never be used to solve, bypass, replay, or defeat CAPTCHA. */
+    captcha: ['input[name="captchacode"]','''),
+            ('  function submitGuestPost(root, { confirmPublish = false, termsAccepted = null } = {}) {', '''  /* CAPTCHA-TO-PUBLISH BOUNDARY
+     ClassifiedAds requires a runtime user-provided CAPTCHA value plus explicit
+     publish confirmation. This adapter contains no CAPTCHA solver and does not
+     store the challenge response. */'''),
+            ('  async function runGuestPostFlow({ root = document, product, category = \'Items for Sale\', subcategory = \'Collectibles\', location = \'Charleston, SC\', contact = {}, captcha, prepareImages = true, confirmPublish = false } = {}) {', '''  /* CLASSIFIEDADS GUEST FLOW — CAPTCHA STAGE
+     CAPTCHA is a human checkpoint after form/contact preparation and before
+     terms/publish. The `captcha` argument comes from the user's active
+     platform session and is not persisted or automatically generated. */'''),
+            ("    log.push({ step: 'captcha', result: { selector: firstMatch(root, SELECTORS.captcha).selector, entered: true } });", '''    // CAPTCHA COMMENT: record only that the user supplied a runtime value;
+    // never log or persist the CAPTCHA text itself.'''),
+            ("    { step: 7, action: 'fillRuntimeCaptcha', url: GUEST_FLOW_URLS.form, validate: 'form', selector: 'captcha', userProvided: true },", '''    // CAPTCHA COMMENT: explicitly user-provided human checkpoint; this is
+    // documentation of the gate, not a CAPTCHA-solving operation.'''),
+            ('  async function runGuestPostLocationSessions({ product, sessions = [], ...options } = {}) {', '''  /* CLASSIFIEDADS MULTI-LOCATION CAPTCHA
+     Each independent location session may receive its own challenge. Never
+     share a CAPTCHA response between locations or assume one session's
+     challenge authorizes another session. */''')
+          ])
+
+      - name: Remove this one-time workflow and commit
+        shell: bash
+        run: |
+          rm -f .github/workflows/document-captcha-comments.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add seller-workspace.html classifiedads.js .github/workflows/document-captcha-comments.yml
+          git commit -m "Add detailed CAPTCHA comments to all post flows"
+          git push
