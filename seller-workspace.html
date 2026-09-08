@@ -4076,6 +4076,7 @@
   body::before{display:none}
   #workspace-manager{width:min(100% - 20px,1440px);margin:10px auto 20px;}
 </style>
+  <script src="android-emulator-browser.js?v=1.0.0"></script>
 </head>
 <body>
   <section id="workspace-manager" aria-labelledby="workspace-title">
@@ -8250,7 +8251,13 @@ window.BondsMallStatePlatformTraffic = window.BondsMallStatePlatformTraffic || {
       openJobSessionWindow(job.index);
       const postUrl = window.ClassifiedAdsAdapter?.GUEST_FLOW_URLS?.start || 'https://www.classifiedads.com/post.php';
       job.classifiedAdsFlow = { ...(job.classifiedAdsFlow || {}), status: 'form-ready', url: postUrl, location: job.locations?.[0] || null, startedAt: Date.now() };
-      openMiniBrowser(postUrl);
+      if (window.BondsMallAndroidEmulator && typeof window.BondsMallAndroidEmulator.open === 'function') {
+        job.classifiedAdsFlow.browser = 'android-emulator';
+        window.BondsMallAndroidEmulator.open(postUrl);
+      } else {
+        showToast('Android emulator browser is not loaded. Refresh the Seller workspace and try again.', 'error');
+        job.classifiedAdsFlow.browser = 'unavailable';
+      }
       persistClientCampaign();
       renderClientListingPanel(job);
       appendLog(`[Client-only] ClassifiedAds form opened for ${job.accountLabel}. Complete category, location, contact, CAPTCHA, and terms in this location window.`, 'system');
@@ -8262,7 +8269,7 @@ window.BondsMallStatePlatformTraffic = window.BondsMallStatePlatformTraffic || {
       if (!job || job.platform !== 'classifiedads') return { status: 'invalid-job' };
       if (!window.ClassifiedAdsAdapter) return { status: 'error', reason: 'ClassifiedAds adapter unavailable.' };
       if (!job.formRoot) {
-        showToast('Use the ClassifiedAds popup for this location, complete CAPTCHA and terms, then confirm the form root before submitting.', 'error');
+        showToast('Use the Android emulator browser popup for this location, complete the ClassifiedAds form, CAPTCHA, and terms there, then continue with the controlled submission step.', 'error');
         return { status: 'handoff-required', reason: 'The cross-origin popup document is user-controlled.' };
       }
       if (!window.confirm(`Submit the ClassifiedAds listing for ${job.accountLabel}?`)) return { status: 'cancelled' };
@@ -8300,7 +8307,7 @@ window.BondsMallStatePlatformTraffic = window.BondsMallStatePlatformTraffic || {
           <div class="session-listing-meta">Sale $${Number(product.sale_price ?? 0).toFixed(2)} · ${escHtml(product.category || '')}</div>
           <textarea id="session-listing-${job.index}-${productIndex}" readonly>${escHtml(JSON.stringify({ title: product.name || '', description: product.description || '', price: product.sale_price ?? product.retail_price ?? '', images: product.images || [product.image || ''], source_url: product.source_url || '' }, null, 2))}</textarea>
         </article>`).join('')}
-        <div class="session-workflow-actions">${job.platform === 'classifiedads' ? `<button type="button" class="session-open-page" onclick="beginClassifiedAdsJobFlow(${job.index})">Open ClassifiedAds form</button><button type="button" class="session-posted-btn" onclick="submitClassifiedAdsJob(${job.index})">Submit this location</button>` : ''}<button type="button" class="session-captcha-btn" onclick="setCaptchaRequired(${job.index}, true)">⚠ CAPTCHA needed</button><button type="button" class="session-posted-btn" onclick="markClientJobPosted(${job.index})">✓ Mark listing posted</button><button type="button" class="session-skip-btn" onclick="markClientJobSkipped(${job.index})">Skip / failed</button></div>
+        <div class="session-workflow-actions">${job.platform === 'classifiedads' ? `<button type="button" class="session-open-page" onclick="beginClassifiedAdsJobFlow(${job.index})">Open ClassifiedAds emulator</button><button type="button" class="session-posted-btn" onclick="submitClassifiedAdsJob(${job.index})">Submit this location</button>` : ''}<button type="button" class="session-captcha-btn" onclick="setCaptchaRequired(${job.index}, true)">⚠ CAPTCHA needed</button><button type="button" class="session-posted-btn" onclick="markClientJobPosted(${job.index})">✓ Mark listing posted</button><button type="button" class="session-skip-btn" onclick="markClientJobSkipped(${job.index})">Skip / failed</button></div>
       </div>`;
     }
 
