@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bonds Mall — Mastermind</title>
+  <style>
+    :root{--bg:#06080f;--panel:#0d1117;--panel2:#111827;--text:#f0f2f5;--muted:#8b95a5;--line:rgba(255,255,255,.09);--accent:#f59e0b;--green:#10b981;--red:#ef4444;--blue:#3b82f6}
+    *{box-sizing:border-box} body{margin:0;background:radial-gradient(circle at top,#172033 0,#06080f 55%);color:var(--text);font:14px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+    .wrap{max-width:1300px;margin:auto;padding:22px}.header{display:flex;gap:16px;align-items:center;justify-content:space-between;margin-bottom:18px}.brand{font-size:25px;font-weight:800}.brand span{color:var(--accent)}
+    .actions{display:flex;gap:8px;flex-wrap:wrap}button{border:1px solid var(--line);background:#151c28;color:var(--text);border-radius:9px;padding:10px 14px;cursor:pointer;font-weight:650}button:hover{border-color:#526074}button.primary{background:var(--accent);color:#17100a;border-color:transparent}button.danger{background:#35141a;color:#fecaca}
+    .grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(300px,.8fr);gap:16px}.card{background:rgba(13,17,23,.9);border:1px solid var(--line);border-radius:15px;padding:16px;box-shadow:0 10px 35px rgba(0,0,0,.22)}
+    label{display:block;color:var(--muted);font-size:12px;margin:0 0 6px}textarea,input,select{width:100%;border:1px solid var(--line);background:#080c13;color:var(--text);border-radius:9px;padding:11px;font:inherit}textarea{min-height:130px;resize:vertical}
+    .mission{margin-bottom:16px}.progress{height:9px;background:#202735;border-radius:99px;overflow:hidden;margin:10px 0}.bar{height:100%;width:0;background:linear-gradient(90deg,var(--blue),var(--green),var(--accent));transition:width .3s}.meta{display:flex;justify-content:space-between;color:var(--muted);font-size:12px}
+    .steps{display:grid;gap:7px;max-height:650px;overflow:auto}.step{display:grid;grid-template-columns:34px 1fr auto;gap:10px;align-items:center;padding:10px;border:1px solid var(--line);border-radius:10px;background:#0a0f17}.num{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:#202938;color:#aeb8c7;font-weight:800}.step.active{border-color:rgba(59,130,246,.6)}.step.done{border-color:rgba(16,185,129,.35)}.step.blocked{border-color:rgba(245,158,11,.45)}.status{font-size:11px;color:var(--muted)}
+    .output{white-space:pre-wrap;min-height:130px;background:#080c13;border:1px solid var(--line);border-radius:9px;padding:12px;color:#cbd5e1}.ads{display:grid;gap:8px}.ad{border:1px solid rgba(16,185,129,.3);border-radius:10px;padding:11px;background:rgba(16,185,129,.05)}.ad a{color:#7dd3fc;word-break:break-all}.empty{color:var(--muted);padding:20px 0;text-align:center}.notice{padding:10px;border-radius:9px;background:#171e2a;color:#cbd5e1;margin-top:10px}.warn{border:1px solid rgba(245,158,11,.35);background:rgba(245,158,11,.06)}
+    @media(max-width:900px){.grid{grid-template-columns:1fr}.header{align-items:flex-start;flex-direction:column}}
+  </style>
+</head>
+<body>
+<div class="wrap" id="mastermind">
+  <header class="header"><div><div class="brand">Bonds Mall <span>Mastermind</span></div><div class="status">Mission-to-ad execution controller • Versions 1–20</div></div><div class="actions"><button id="runBtn" class="primary">Run Mastermind</button><button id="pauseBtn">Pause</button><button id="resetBtn" class="danger">Reset</button></div></header>
+  <section class="card mission"><label for="missionInput">Mission statement</label><textarea id="missionInput" placeholder="Paste the mission statement to analyze and execute..."></textarea><div class="progress"><div id="progressBar" class="bar"></div></div><div class="meta"><span id="stageLabel">Ready</span><span id="progressLabel">0 / 20</span></div><div id="notice" class="notice">Mastermind will analyze the mission first, then prepare, validate, request human checkpoints where required, launch through the site's existing posting integration, and publish the resulting live URLs to Active Ads.</div></section>
+  <div class="grid">
+    <main class="card"><h2>Version 1 → Version 20</h2><div id="steps" class="steps"></div></main>
+    <aside>
+      <section class="card" style="margin-bottom:16px"><h2>Mastermind output</h2><div id="output" class="output">Waiting for a mission.</div></section>
+      <section class="card"><h2>Market · Active Ads</h2><div id="activeAds" class="ads"><div class="empty">No launched ads recorded yet.</div></div></section>
+    </aside>
+  </div>
+</div>
+<script src="mastermind.js?v=1.0.0"></script>
+</body>
+</html>
