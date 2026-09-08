@@ -1,0 +1,25 @@
+name: Document CAPTCHA sections in all post flows
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  annotate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Annotate CAPTCHA sections
+        run: python .github/scripts/document_captcha_comments.py
+      - name: Remove one-time documentation tooling and commit
+        run: |
+          rm -f .github/workflows/document-captcha-comments.yml .github/scripts/document_captcha_comments.py .github/scripts/captcha-comment-plan.md
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add seller-workspace.html classifiedads.js .github/workflows/document-captcha-comments.yml .github/scripts/document_captcha_comments.py .github/scripts/captcha-comment-plan.md
+          git commit -m "Add detailed CAPTCHA comments to all post flows"
+          git push
