@@ -2,6 +2,9 @@
  * Human-assisted sign-in and posting path for every supported platform.
  * The Android emulator is the browser surface: credentials, CAPTCHA, MFA,
  * consent, and final submission remain human-controlled.
+ * Seller account numbers select the emulator browser profile:
+ * 1 Firefox, 2 Samsung Internet, 3 Chrome, 4 Opera, 5 Safari,
+ * 6 Brave, 7 Internet Explorer, 8 Edge, 9 Tor, 10 Dolphin.
  */
 (function(root){'use strict';
  const E=()=>root.BondsMallAndroidEmulator;
@@ -17,12 +20,14 @@
   eBay:{home:'https://www.ebay.com/',signIn:'https://signin.ebay.com/',post:'https://www.ebay.com/sl/sell'},
   Etsy:{home:'https://www.etsy.com/',signIn:'https://www.etsy.com/signin',post:'https://www.etsy.com/your/shops/me/listing-editor'}
  };
+ function accountProfile(accountNumber){const api=root.BondsMallSellerBrowserAccounts;if(api&&typeof api.profile==='function'){return api.profile(accountNumber)||api.get&&api.get();}const n=Number(accountNumber)||1;const browsers=['Firefox','Samsung Internet','Chrome','Opera','Safari','Brave Browser','Internet Explorer','Edge','Tor','Dolphin'];return{accountNumber:n,browserType:browsers[n-1]||browsers[0]};}
+ function resolveAccount(job,options){const explicit=options&&options.accountNumber!=null?options.accountNumber:job&&job.accountNumber;const api=root.BondsMallSellerBrowserAccounts;if(explicit!=null)return accountProfile(explicit);if(api&&typeof api.get==='function')return api.get();return accountProfile(1);}
  function path(platform){return PATHS[platform]||null;}
- function open(platform,kind,job){const p=path(platform);if(!p)throw Error('No emulator path registered for '+platform);const url=p[kind]||p.home;if(!E()||typeof E().open!=='function')return Promise.resolve({humanActionRequired:true,platform,kind,url,code:'EMULATOR_UNAVAILABLE'});E().open(url);window.dispatchEvent(new CustomEvent('bonds:platform-emulator-opened',{detail:{platform,kind,url,job:job||null,at:new Date().toISOString()}}));return Promise.resolve({humanActionRequired:true,platform,kind,url,message:`${platform} ${kind} opened in the Android emulator. Complete sign-in, CAPTCHA/MFA, and submission manually.`});}
- function signIn(platform,job){return open(platform,'signIn',job);}
- function post(platform,job){return open(platform,'post',job);}
- function home(platform,job){return open(platform,'home',job);}
+ function open(platform,kind,job,options){const p=path(platform);if(!p)throw Error('No emulator path registered for '+platform);const url=p[kind]||p.home;const account=resolveAccount(job,options);if(!E()||typeof E().open!=='function')return Promise.resolve({humanActionRequired:true,platform,kind,url,accountNumber:account.accountNumber,browserType:account.browserType,code:'EMULATOR_UNAVAILABLE'});E().open(url,{accountNumber:account.accountNumber,browserType:account.browserType,engine:account.engine,nativeCandidates:account.nativeCandidates});window.dispatchEvent(new CustomEvent('bonds:platform-emulator-opened',{detail:{platform,kind,url,accountNumber:account.accountNumber,browserType:account.browserType,engine:account.engine,job:job||null,at:new Date().toISOString()}}));return Promise.resolve({humanActionRequired:true,platform,kind,url,accountNumber:account.accountNumber,browserType:account.browserType,engine:account.engine,message:`${platform} ${kind} opened in Seller account ${account.accountNumber} using the ${account.browserType} emulator profile. Complete sign-in, CAPTCHA/MFA, and submission manually.`});}
+ function signIn(platform,job,options){return open(platform,'signIn',job,options);}
+ function post(platform,job,options){return open(platform,'post',job,options);}
+ function home(platform,job,options){return open(platform,'home',job,options);}
  function all(){return JSON.parse(JSON.stringify(PATHS));}
- root.BondsMallPlatformEmulatorFlow={paths:all,open,signIn,post,home};
+ root.BondsMallPlatformEmulatorFlow={paths:all,open,signIn,post,home,accountProfile,resolveAccount};
  Object.keys(PATHS).forEach(platform=>{const camel=platform.replace(/[^A-Za-z0-9]/g,'');root.BondsMall=root.BondsMall||{};root.BondsMall['postMissionJob'+camel]=function(job,options){return post(platform,job,options);};});
 })(window);
