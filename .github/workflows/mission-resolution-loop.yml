@@ -1,0 +1,60 @@
+name: Mission Resolution Loop
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 * * * *'
+    - cron: '20 2 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bonds-mall-mission-resolution-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  resolution-loop:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout mission
+        uses: actions/checkout@v4
+
+      - name: Run ResearchFlow
+        run: node researchflow.js --scan > researchflow-report.json
+
+      - name: Run problem to resolution to revision pipeline
+        env:
+          BONDS_MALL_RESEARCH_SEARCH_URL: ${{ secrets.BONDS_MALL_RESEARCH_SEARCH_URL }}
+          BONDS_MALL_GITHUB_TOKEN: ${{ secrets.BONDS_MALL_GITHUB_TOKEN }}
+          BONDS_MALL_GITHUB_OWNER: flashsale2031
+          BONDS_MALL_GITHUB_REPO: Bondsmall
+          BONDS_MALL_GITHUB_BRANCH: main
+        run: python3 mission-resolution-loop.py researchflow-report.json > mission-resolution-run.json
+
+      - name: Validate generated JSON artifacts
+        run: python3 - <<'PY'
+import json
+for p in ['researchflow-report.json','mission-resolution-run.json']:
+    with open(p,encoding='utf8') as f: json.load(f)
+print('Mission resolution artifacts are valid JSON.')
+PY
+
+      - name: Upload resolution and revision artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: mission-resolution-${{ github.run_number }}
+          path: |
+            mission-resolution-run.json
+            mission-resolution-artifacts/**
+          retention-days: 30
+
+      - name: Commit generated audit artifacts when present
+        run: |
+          if [ -d mission-resolution-artifacts ]; then
+            git config user.name 'Bonds Mall Mission Resolution Bot'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add mission-resolution-artifacts mission-resolution-run.json
+            git diff --cached --quiet || git commit -m 'mission: record resolution loop artifacts'
+            git push
+          fi
