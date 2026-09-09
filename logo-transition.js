@@ -5,6 +5,33 @@
     const sequence = ['text', 'black', 'text', 'gold'];
     const duration = 10000;
 
+    // Brand layout rules: photographic faces stay small and centered over the Bonds Mall wordmark.
+    function installLogoLayout() {
+        if (document.getElementById('bonds-mall-logo-layout-fix')) return;
+        const style = document.createElement('style');
+        style.id = 'bonds-mall-logo-layout-fix';
+        style.textContent = `
+            .logo { position: relative !important; display: grid !important; place-items: center !important; min-width: max-content !important; }
+            .logo-text { position: relative !important; z-index: 1 !important; white-space: nowrap !important; color: #111 !important; }
+            .logo-img { position: absolute !important; top: 50% !important; left: 50% !important; right: auto !important; transform: translate(-50%, -50%) !important; width: 42px !important; height: 42px !important; max-width: 42px !important; object-fit: contain !important; object-position: center !important; z-index: 2 !important; margin: 0 !important; }
+            .logo-img--black { filter: brightness(0) saturate(100%) !important; }
+            .logo-img--gold { filter: none !important; }
+            .cat-drawer-menu-b { display: inline-flex !important; align-items: center !important; justify-content: center !important; width: 24px !important; height: 24px !important; margin-right: 8px !important; color: #fff !important; font-family: Georgia, 'Times New Roman', serif !important; font-size: 1.35rem !important; font-weight: 800 !important; line-height: 1 !important; }
+        `;
+        document.head.appendChild(style);
+    }
+
+    // The header menu uses the white B mark instead of the former wing photograph.
+    function replaceMenuWingWithWhiteB() {
+        document.querySelectorAll('.cat-drawer-menu-wing').forEach((wing) => {
+            const mark = document.createElement('span');
+            mark.className = 'cat-drawer-menu-b';
+            mark.setAttribute('aria-label', 'Bonds Mall');
+            mark.textContent = 'B';
+            wing.replaceWith(mark);
+        });
+    }
+
     function stripFlatPhotoBackground(img) {
         if (!img || img.dataset.bgStripped === '1') return;
         const process = () => {
@@ -96,7 +123,6 @@
                 img.src = canvas.toDataURL('image/png');
                 img.dataset.bgStripped = '1';
             } catch (error) {
-                // If a browser blocks canvas pixel access, leave the original logo intact.
                 console.warn('Bonds Mall logo background removal skipped:', error);
             }
         };
@@ -123,6 +149,8 @@
     }
 
     function applyFace(faceName) {
+        installLogoLayout();
+        replaceMenuWingWithWhiteB();
         stripLogoPhotoBackgrounds();
         document.querySelectorAll('.logo').forEach((logoContainer) => {
             const faces = {
@@ -145,6 +173,8 @@
     }
 
     function start() {
+        installLogoLayout();
+        replaceMenuWingWithWhiteB();
         stripLogoPhotoBackgrounds();
         applyFace('text');
         window.setTimeout(advance, duration);
