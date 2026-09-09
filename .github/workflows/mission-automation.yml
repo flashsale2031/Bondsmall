@@ -29,6 +29,7 @@ jobs:
           node --check active-ads-registry.js
           node --check ad-health-monitor.js
           node --check mission-scheduler.js
+          node --check mission-scheduler-secure.js
           node --check mission-execution-log.js
           node --check mission-event-ledger.js
           node --check resubmission.js
@@ -36,7 +37,7 @@ jobs:
         run: |
           node - <<'NODE'
           const fs=require('fs');
-          const files=['mission-orchestrator.js','platform-capability-registry.js','posting-safety-governor.js','mission-job-queue.js','platform-adapters.js','mission-quality-gate.js','active-ads-registry.js','ad-health-monitor.js','mission-scheduler.js','mission-execution-log.js','mission-event-ledger.js','resubmission.js'];
+          const files=['mission-orchestrator.js','platform-capability-registry.js','posting-safety-governor.js','mission-job-queue.js','platform-adapters.js','mission-quality-gate.js','active-ads-registry.js','ad-health-monitor.js','mission-scheduler.js','mission-scheduler-secure.js','mission-execution-log.js','mission-event-ledger.js','resubmission.js'];
           const manifest={generatedAt:new Date().toISOString(),commit:process.env.GITHUB_SHA,files:files.map(f=>({file:f,present:fs.existsSync(f)}))};
           fs.writeFileSync('mission-automation-manifest.json',JSON.stringify(manifest,null,2));
           NODE
