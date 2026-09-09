@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bonds Mall — Mission Execution Log</title>
+<style>
+body{margin:0;background:#06080f;color:#f0f2f5;font:14px/1.5 system-ui,sans-serif}.wrap{max-width:1400px;margin:auto;padding:20px}.card{background:#0d1117;border:1px solid #273142;border-radius:14px;padding:16px;margin-bottom:16px}h1,h2{margin-top:0}.summary{color:#9ca8ba;margin-bottom:12px}.process{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:8px}.step{border:1px solid #273142;border-radius:10px;padding:10px}.step b{display:block;margin-bottom:4px}.muted{color:#8995a7}.tablewrap{overflow:auto}table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:9px;border-bottom:1px solid #273142;vertical-align:top}th{color:#aeb8c7}a{color:#7dd3fc;word-break:break-all}button{background:#f59e0b;color:#17100a;border:0;border-radius:8px;padding:10px 14px;font-weight:700;cursor:pointer}textarea{width:100%;min-height:100px;box-sizing:border-box;background:#080c13;color:#f0f2f5;border:1px solid #273142;border-radius:8px;padding:10px}
+</style>
+</head>
+<body>
+<div class="wrap" data-mission-execution-log>
+  <h1>Bonds Mall Mission Execution Log</h1>
+  <div class="card">
+    <p>This page documents the operational path from reading the mission statement through product/location job creation, platform execution, human checkpoints, publication verification, and Market / Active Ads synchronization.</p>
+    <textarea id="mission" placeholder="Paste the mission statement here..."></textarea>
+    <p><button id="start">Read Mission & Build Posting Plan</button> <button id="execute">Execute Authorized Posting Jobs</button></p>
+    <div class="summary" data-execution-summary>Status: idle</div>
+  </div>
+
+  <section class="card"><h2>Mission execution process</h2><div class="process" id="process"></div></section>
+  <section class="card"><h2>Product × Location × Platform Jobs</h2><div class="tablewrap"><table><thead><tr><th>Product</th><th>Location</th><th>Platform</th><th>Status</th><th>Live URL</th></tr></thead><tbody data-execution-table></tbody></table></div></section>
+  <section class="card"><h2>Operating rules</h2><ul><li>Only mission-supported products and required locations are used.</li><li>Every job is isolated by product, location, platform and job ID.</li><li>CAPTCHA, login, verification and consent checkpoints require human action.</li><li>No CAPTCHA solving, bypassing, replaying, prediction, or anti-bot defeat is performed.</li><li>An ad is not considered live until the posting integration returns a usable public URL.</li><li>Only verified URLs are synchronized to Market / Active Ads.</li><li>Failures and non-live results remain documented for resubmission instead of being represented as successful ads.</li></ul></section>
+</div>
+<script src="mission-execution-log.js?v=1.0.0"></script>
+<script>
+(function(){
+  var process=document.getElementById('process');
+  process.innerHTML=(window.BondsMallMissionExecution.process||[]).map(function(item,i){return '<div class="step"><b>Step '+(i+1)+': '+item[0]+'</b><span class="muted">'+item[1]+'</span></div>';}).join('');
+  document.getElementById('start').addEventListener('click',function(){window.BondsMallMissionExecution.start(document.getElementById('mission').value);});
+  document.getElementById('execute').addEventListener('click',function(){window.BondsMallMissionExecution.execute();});
+})();
+</script>
+</body>
+</html>
