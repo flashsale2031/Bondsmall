@@ -1,0 +1,44 @@
+name: Bonds Mall Mission Automation
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7,37 * * * *'
+    - cron: '17 2 * * *'
+
+concurrency:
+  group: bonds-mall-mission-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  mission-automation:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Check mission automation files
+        run: |
+          node --check mission-orchestrator.js
+          node --check mission-job-queue.js
+          node --check platform-adapters.js
+          node --check mission-quality-gate.js
+          node --check active-ads-registry.js
+          node --check ad-health-monitor.js
+          node --check mission-scheduler.js
+          node --check mission-execution-log.js
+          node --check resubmission.js
+      - name: Generate automation manifest
+        run: |
+          node - <<'NODE'
+          const fs=require('fs');
+          const files=['mission-orchestrator.js','mission-job-queue.js','platform-adapters.js','mission-quality-gate.js','active-ads-registry.js','ad-health-monitor.js','mission-scheduler.js','mission-event-ledger.js'];
+          const manifest={generatedAt:new Date().toISOString(),commit:process.env.GITHUB_SHA,files:files.map(f=>({file:f,present:fs.existsSync(f)}))};
+          fs.writeFileSync('mission-automation-manifest.json',JSON.stringify(manifest,null,2));
+          NODE
+      - name: Upload automation manifest
+        uses: actions/upload-artifact@v4
+        with:
+          name: mission-automation-manifest
+          path: mission-automation-manifest.json
