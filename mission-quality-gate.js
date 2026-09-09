@@ -1,9 +1,7 @@
-/* Bonds Mall Mission Quality Gate
- * Improvement 4: block incomplete or unsafe jobs before they consume posting attempts.
- */
+/* Bonds Mall Mission Quality Gate — pre-publication firewall. */
 (function(){'use strict';
- const RULES=['product','location','platform','title','description'];
- function check(job,platformRules){const failures=[];RULES.forEach(k=>{if(job[k]==null&&!(job.product&&k==='product')&&!(job.location&&k==='location')&&!(job.platform&&k==='platform'))failures.push(k);});if(job.destinationUrl&&!/^https?:\/\//i.test(job.destinationUrl))failures.push('destinationUrl');if(job.media&&(!Array.isArray(job.media)||!job.media.length))failures.push('media');if(platformRules&&typeof platformRules==='function'){const extra=platformRules(job)||[];extra.forEach(x=>failures.push(String(x)));}return {passed:failures.length===0,failures,checkedAt:new Date().toISOString()};}
- function gate(job,platformRules){const result=check(job,platformRules);window.dispatchEvent(new CustomEvent('bonds:quality-gate',{detail:{jobId:job&&job.id,result}}));return result;}
+ const BASIC=['product','location','platform','title','description'];
+ function check(job,platformRules,options){const failures=[],warnings=[];job=job||{};BASIC.forEach(k=>{if(job[k]==null||job[k]==='')failures.push(k);});if(job.destinationUrl&&!/^https?:\/\//i.test(String(job.destinationUrl)))failures.push('destinationUrl');if(job.media!=null&&(!Array.isArray(job.media)||!job.media.length))failures.push('media');if(job.title&&String(job.title).length>250)failures.push('title-too-long');if(job.description&&String(job.description).length>20000)failures.push('description-too-long');if(job.liveUrl)failures.push('liveUrl-must-not-be-preauthorized');if(job.content&&/<script|javascript:|onerror\s*=|onload\s*=/i.test(String(job.content)))failures.push('unsafe-content');if(job.destinationUrl&&/[\s<>"']/.test(String(job.destinationUrl)))failures.push('unsafe-destination');if(platformRules&&typeof platformRules==='function'){(platformRules(job)||[]).forEach(x=>failures.push(String(x)));}const auth=window.BondsMallPlatformCapabilities&&window.BondsMallPlatformCapabilities.authorize?window.BondsMallPlatformCapabilities.authorize(job.platform,options&&options.mode):{ok:false,code:'CAPABILITY_REGISTRY_MISSING'};if(!auth.ok)failures.push('platform-authorization:'+auth.code);return{passed:failures.length===0,failures,warnings,authorization:auth,checkedAt:new Date().toISOString()};}
+ function gate(job,platformRules,options){const result=check(job,platformRules,options);window.dispatchEvent(new CustomEvent('bonds:quality-gate',{detail:{jobId:job&&job.id,result}}));return result;}
  window.BondsMallMissionQualityGate={check,gate};
 })();
