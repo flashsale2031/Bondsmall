@@ -5,7 +5,6 @@
     const sequence = ['text', 'black', 'text', 'gold'];
     const duration = 10000;
 
-    // Brand layout rules: photographic faces stay small and centered over the Bonds Mall wordmark.
     function installLogoLayout() {
         if (document.getElementById('bonds-mall-logo-layout-fix')) return;
         const style = document.createElement('style');
@@ -14,14 +13,14 @@
             .logo { position: relative !important; display: grid !important; place-items: center !important; min-width: max-content !important; }
             .logo-text { position: relative !important; z-index: 1 !important; white-space: nowrap !important; color: #111 !important; }
             .logo-img { position: absolute !important; top: 50% !important; left: 50% !important; right: auto !important; transform: translate(-50%, -50%) !important; width: 42px !important; height: 42px !important; max-width: 42px !important; object-fit: contain !important; object-position: center !important; z-index: 2 !important; margin: 0 !important; }
-            .logo-img--black { filter: brightness(0) saturate(100%) !important; }
+            /* Force every non-transparent pixel of the black header mark to render solid black. */
+            .logo-img--black { filter: contrast(0) brightness(0) !important; }
             .logo-img--gold { filter: none !important; }
             .cat-drawer-menu-b { display: inline-flex !important; align-items: center !important; justify-content: center !important; width: 24px !important; height: 24px !important; margin-right: 8px !important; color: #fff !important; font-family: Georgia, 'Times New Roman', serif !important; font-size: 1.35rem !important; font-weight: 800 !important; line-height: 1 !important; }
         `;
         document.head.appendChild(style);
     }
 
-    // The header menu uses the white B mark instead of the former wing photograph.
     function replaceMenuWingWithWhiteB() {
         document.querySelectorAll('.cat-drawer-menu-wing').forEach((wing) => {
             const mark = document.createElement('span');
@@ -43,40 +42,29 @@
                 const ctx = canvas.getContext('2d', { willReadFrequently: true });
                 if (!ctx) return;
                 ctx.drawImage(img, 0, 0);
-
                 const image = ctx.getImageData(0, 0, canvas.width, canvas.height);
                 const data = image.data;
                 const w = canvas.width;
                 const h = canvas.height;
                 const samples = [];
-                const samplePoints = [
-                    [0, 0], [w - 1, 0], [0, h - 1], [w - 1, h - 1],
-                    [Math.floor(w / 2), 0], [Math.floor(w / 2), h - 1],
-                    [0, Math.floor(h / 2)], [w - 1, Math.floor(h / 2)]
-                ];
+                const samplePoints = [[0, 0], [w - 1, 0], [0, h - 1], [w - 1, h - 1], [Math.floor(w / 2), 0], [Math.floor(w / 2), h - 1], [0, Math.floor(h / 2)], [w - 1, Math.floor(h / 2)]];
                 samplePoints.forEach(([x, y]) => {
                     const i = (y * w + x) * 4;
                     samples.push([data[i], data[i + 1], data[i + 2]]);
                 });
-
-                const bg = samples.reduce((sum, rgb) => [
-                    sum[0] + rgb[0], sum[1] + rgb[1], sum[2] + rgb[2]
-                ], [0, 0, 0]).map(v => v / samples.length);
-
+                const bg = samples.reduce((sum, rgb) => [sum[0] + rgb[0], sum[1] + rgb[1], sum[2] + rgb[2]], [0, 0, 0]).map(v => v / samples.length);
                 const distance = (i) => {
                     const dr = data[i] - bg[0];
                     const dg = data[i + 1] - bg[1];
                     const db = data[i + 2] - bg[2];
                     return Math.sqrt(dr * dr + dg * dg + db * db);
                 };
-
                 const visited = new Uint8Array(w * h);
                 const queue = new Int32Array(w * h);
                 let head = 0;
                 let tail = 0;
                 const tolerance = 72;
                 const softTolerance = 100;
-
                 const enqueue = (x, y) => {
                     if (x < 0 || x >= w || y < 0 || y >= h) return;
                     const p = y * w + x;
@@ -87,38 +75,22 @@
                         queue[tail++] = p;
                     }
                 };
-
-                for (let x = 0; x < w; x++) {
-                    enqueue(x, 0);
-                    enqueue(x, h - 1);
-                }
-                for (let y = 0; y < h; y++) {
-                    enqueue(0, y);
-                    enqueue(w - 1, y);
-                }
-
+                for (let x = 0; x < w; x++) { enqueue(x, 0); enqueue(x, h - 1); }
+                for (let y = 0; y < h; y++) { enqueue(0, y); enqueue(w - 1, y); }
                 while (head < tail) {
                     const p = queue[head++];
                     const x = p % w;
                     const y = Math.floor(p / w);
                     const i = p * 4;
                     data[i + 3] = 0;
-                    enqueue(x - 1, y);
-                    enqueue(x + 1, y);
-                    enqueue(x, y - 1);
-                    enqueue(x, y + 1);
+                    enqueue(x - 1, y); enqueue(x + 1, y); enqueue(x, y - 1); enqueue(x, y + 1);
                 }
-
-                // Soften only the remaining edge pixels that are close to the sampled background.
                 for (let p = 0; p < w * h; p++) {
                     if (visited[p]) continue;
                     const i = p * 4;
                     const d = distance(i);
-                    if (d < softTolerance) {
-                        data[i + 3] = Math.min(data[i + 3], Math.round(((d - tolerance) / (softTolerance - tolerance)) * 255));
-                    }
+                    if (d < softTolerance) data[i + 3] = Math.min(data[i + 3], Math.round(((d - tolerance) / (softTolerance - tolerance)) * 255));
                 }
-
                 ctx.putImageData(image, 0, 0);
                 img.src = canvas.toDataURL('image/png');
                 img.dataset.bgStripped = '1';
@@ -126,9 +98,7 @@
                 console.warn('Bonds Mall logo background removal skipped:', error);
             }
         };
-
-        if (img.complete) process();
-        else img.addEventListener('load', process, { once: true });
+        if (img.complete) process(); else img.addEventListener('load', process, { once: true });
     }
 
     function stripLogoPhotoBackgrounds() {
@@ -180,9 +150,6 @@
         window.setTimeout(advance, duration);
     }
 
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', start, { once: true });
-    } else {
-        start();
-    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, { once: true });
+    else start();
 })();
