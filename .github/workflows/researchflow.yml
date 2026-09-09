@@ -3,7 +3,10 @@ name: ResearchFlow Mission Integrity
 on:
   workflow_dispatch:
   schedule:
-    # GitHub Actions schedules use UTC. Times are intentionally off the hour.
+    # GitHub Actions schedules use UTC. The mission recovery heartbeat is
+    # deliberately evaluated at both :00 and :30 of every hour.
+    - cron: '0,30 * * * *'
+    # Existing research/analysis agenda.
     - cron: '15 1 * * *'
     - cron: '15 2 * * *'
     - cron: '0 3,9,15,21 * * *'
@@ -25,6 +28,13 @@ jobs:
 
       - name: Run ResearchFlow
         run: node researchflow.js --scan > researchflow-report.json
+
+      - name: Check mission recovery state at :00/:30
+        if: ${{ github.event_name == 'schedule' && (github.event.schedule == '0,30 * * * *') }}
+        env:
+          BONDS_MALL_MISSION_STATUS_URL: ${{ secrets.BONDS_MALL_MISSION_STATUS_URL }}
+          BONDS_MALL_MISSION_REBOOT_WEBHOOK: ${{ secrets.BONDS_MALL_MISSION_REBOOT_WEBHOOK }}
+        run: node mission-reboot.js
 
       - name: Upload ResearchFlow report
         uses: actions/upload-artifact@v4
