@@ -13,9 +13,9 @@
             .logo { position: relative !important; display: grid !important; place-items: center !important; min-width: max-content !important; }
             .logo-text { position: relative !important; z-index: 1 !important; white-space: nowrap !important; color: #111 !important; }
             .logo-img { position: absolute !important; top: 50% !important; left: 50% !important; right: auto !important; transform: translate(-50%, -50%) !important; width: 42px !important; height: 42px !important; max-width: 42px !important; object-fit: contain !important; object-position: center !important; z-index: 2 !important; margin: 0 !important; }
-            /* Force every non-transparent pixel of the black header mark to render solid black. */
-            .logo-img--black { filter: contrast(0) brightness(0) !important; }
-            .logo-img--gold { filter: none !important; }
+            /* The black header face must be a solid, opaque black mark with no white/tinted pixels. */
+            .logo-img--black { filter: brightness(0) !important; opacity: 1 !important; mix-blend-mode: normal !important; }
+            .logo-img--gold { filter: none !important; opacity: 1 !important; }
             .cat-drawer-menu-b { display: inline-flex !important; align-items: center !important; justify-content: center !important; width: 24px !important; height: 24px !important; margin-right: 8px !important; color: #fff !important; font-family: Georgia, 'Times New Roman', serif !important; font-size: 1.35rem !important; font-weight: 800 !important; line-height: 1 !important; }
         `;
         document.head.appendChild(style);
@@ -91,6 +91,23 @@
                     const d = distance(i);
                     if (d < softTolerance) data[i + 3] = Math.min(data[i + 3], Math.round(((d - tolerance) / (softTolerance - tolerance)) * 255));
                 }
+
+                /* For the black header face, eliminate the remaining translucent/tinted pixels.
+                   Every surviving logo pixel becomes fully opaque #000000. */
+                if (img.classList.contains('logo-img--black')) {
+                    for (let p = 0; p < w * h; p++) {
+                        const i = p * 4;
+                        if (data[i + 3] > 8) {
+                            data[i] = 0;
+                            data[i + 1] = 0;
+                            data[i + 2] = 0;
+                            data[i + 3] = 255;
+                        } else {
+                            data[i + 3] = 0;
+                        }
+                    }
+                }
+
                 ctx.putImageData(image, 0, 0);
                 img.src = canvas.toDataURL('image/png');
                 img.dataset.bgStripped = '1';
