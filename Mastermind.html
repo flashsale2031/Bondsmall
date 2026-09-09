@@ -30,5 +30,16 @@
   </div>
 </div>
 <script src="mastermind.js?v=1.0.0"></script>
+<script src="mission-reboot.js?v=1.0.0"></script>
+<script>
+(function(){
+  if (!window.BondsMallMissionReboot) return;
+  window.BondsMallMissionReboot.start();
+  window.addEventListener('bonds:mission-reboot-started', function(e){
+    var notice=document.getElementById('notice');
+    if(notice) notice.textContent='Mission reboot scheduled recovery started at a :00/:30 boundary because the mission was inactive or failed.';
+  });
+})();
+</script>
 </body>
 </html>
