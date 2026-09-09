@@ -1,211 +1,50 @@
-/*
- * Bonds Mall Mission Execution Log
- * ---------------------------------
- * Documents the complete operational path from mission statement -> product/location
- * planning -> platform preparation -> human checkpoints -> posting -> live URL verification
- * -> Market / Active Ads.
- *
- * This file is an observer and execution coordinator. It never fabricates a listing URL,
- * bypasses CAPTCHA/anti-bot controls, or marks an ad live without a verified URL/result.
- */
+/* Bonds Mall Mission Execution Log + 10 named platform postMissionJob adapters. */
 (function () {
   'use strict';
-
-  const PLATFORM_NAMES = [
-    'Craigslist', 'AdLandPro', 'ClassifiedAds', 'Facebook Marketplace',
-    'OfferUp', 'Mercari', 'Poshmark', 'Nextdoor'
-  ];
-
+  const PLATFORM_NAMES = ['Craigslist','AdLandPro','ClassifiedAds','Facebook Marketplace','OfferUp','Mercari','Poshmark','Nextdoor','eBay','Etsy'];
   const PROCESS = [
-    ['Read mission', 'Read the mission statement and preserve the exact objective, financial target, geography, product requirements, advertising requirements, and completion condition.'],
-    ['Extract requirements', 'Convert the mission into structured requirements: products, locations, platforms, quantity, content, media, destination URLs, timing, and verification rules.'],
-    ['Build product/location matrix', 'Create one posting job for each required product/location/platform combination. Do not invent missing products or locations; unresolved requirements remain blocked.'],
-    ['Prepare offer', 'Load product facts, price/offer, description, CTA, destination URL, images/video, and any required platform fields.'],
-    ['Prepare platform jobs', 'Apply each platform\'s posting requirements and account/location context while preserving job-level isolation.'],
-    ['Validate before posting', 'Confirm required product, location, content, media, destination, account/session and platform fields are available.'],
-    ['Open posting session', 'Hand the job to the existing Seller Workspace/platform integration.'],
-    ['Human checkpoint', 'Pause for login, CAPTCHA, consent, identity/verification prompts, or other human-required actions. No CAPTCHA solving or bypassing is performed.'],
-    ['Submit ad', 'Invoke the authorized posting integration to submit the advertisement.'],
-    ['Verify publication', 'Accept publication only when the platform/integration returns a successful result and a usable public URL.'],
-    ['Normalize and record URL', 'Normalize the returned URL and record platform, product, location, job ID, status and timestamp.'],
-    ['Publish to Active Ads', 'Synchronize only verified live advertisements into Market / Active Ads.'],
-    ['Queue failures', 'Send failed, blocked, expired, closed, or non-live jobs to the appropriate retry/resubmission queue with the failure reason.'],
-    ['Report mission state', 'Document completed, pending-human, failed, queued, and verified jobs so the mission can be resumed without losing state.']
+    ['Read mission','Read and preserve the mission objective, geography, products, locations, advertising requirements and completion condition.'],
+    ['Extract requirements','Convert the mission into product, location, platform, quantity, content, media, destination and verification requirements.'],
+    ['Build product/location matrix','Create one isolated job for every required product/location/platform combination. Missing inputs remain blocked.'],
+    ['Prepare offer','Load product facts, price/offer, description, CTA, destination URL and approved media.'],
+    ['Prepare platform jobs','Apply platform-specific fields and account/location context.'],
+    ['Validate before posting','Confirm required product, location, content, media, destination and authorized session/API.'],
+    ['Open posting session','Hand the job to the selected named platform adapter.'],
+    ['Human checkpoint','Pause for login, CAPTCHA, consent, identity or verification prompts requiring human action.'],
+    ['Submit ad','Call the named platform postMissionJob implementation.'],
+    ['Verify publication','Accept publication only when an authorized integration returns a usable public URL.'],
+    ['Normalize and record URL','Record platform, product, location, job ID, URL, status and timestamp.'],
+    ['Publish to Active Ads','Synchronize verified live advertisements with Market / Active Ads.'],
+    ['Queue failures','Send failed, blocked or non-live jobs to resubmission with the reason preserved.'],
+    ['Report mission state','Document completed, pending-human, failed, queued and verified jobs for safe resumption.']
   ];
-
-  const state = {
-    startedAt: null,
-    mission: '',
-    requirements: {},
-    jobs: [],
-    events: [],
-    activeAds: [],
-    status: 'idle'
-  };
-
-  function now() { return new Date().toISOString(); }
-
-  function record(step, action, detail, job) {
-    const event = { at: now(), step, action, detail: detail || null, job: job || null };
-    state.events.push(event);
-    try { localStorage.setItem('bondsMallMissionExecutionLog', JSON.stringify(state)); } catch (_) {}
-    window.dispatchEvent(new CustomEvent('bonds:mission-execution-event', { detail: event }));
-    render();
-  }
-
-  function parseMission(text) {
-    const raw = String(text || '').replace(/\s+/g, ' ').trim();
-    const platforms = PLATFORM_NAMES.filter(p => raw.toLowerCase().includes(p.toLowerCase()));
-    const money = raw.match(/\$[\d,.]+(?:\s*(?:billion|million|thousand|[BMK]))?/gi) || [];
-    const urls = raw.match(/https?:\/\/[^\s]+/gi) || [];
-    return { raw, platforms: platforms.length ? platforms : PLATFORM_NAMES.slice(), monetaryTargets: money, urls };
-  }
-
-  function readLocations() {
-    const candidates = [
-      window.BondsMall && window.BondsMall.locations,
-      window.BondsMallLocations,
-      window.BondsMall && window.BondsMall.missionLocations
-    ];
-    for (const value of candidates) if (Array.isArray(value)) return value.slice();
-    try {
-      const stored = JSON.parse(localStorage.getItem('bondsMallLocations') || '[]');
-      return Array.isArray(stored) ? stored : [];
-    } catch (_) { return []; }
-  }
-
-  function readProducts() {
-    const candidates = [
-      window.BondsMall && window.BondsMall.products,
-      window.BondsMallProducts,
-      window.BondsMall && window.BondsMall.missionProducts
-    ];
-    for (const value of candidates) if (Array.isArray(value)) return value.slice();
-    try {
-      const stored = JSON.parse(localStorage.getItem('bondsMallProducts') || '[]');
-      return Array.isArray(stored) ? stored : [];
-    } catch (_) { return []; }
-  }
-
-  function buildJobs(requirements) {
-    const products = requirements.products;
-    const locations = requirements.locations;
-    const platforms = requirements.platforms;
-    const jobs = [];
-    products.forEach((product, pi) => locations.forEach((location, li) => platforms.forEach((platform, fi) => {
-      jobs.push({
-        id: 'MX-' + Date.now().toString(36).toUpperCase() + '-' + String(pi + 1).padStart(3, '0') + '-' + String(li + 1).padStart(3, '0') + '-' + String(fi + 1).padStart(2, '0'),
-        product: product,
-        location: location,
-        platform: platform,
-        status: 'queued',
-        liveUrl: '',
-        lastError: ''
-      });
-    })));
-    return jobs;
-  }
-
-  function start(missionText) {
-    state.startedAt = now();
-    state.mission = String(missionText || '').trim();
-    state.requirements = parseMission(state.mission);
-    state.requirements.products = readProducts();
-    state.requirements.locations = readLocations();
-    state.requirements.missingProducts = state.requirements.products.length === 0;
-    state.requirements.missingLocations = state.requirements.locations.length === 0;
-    state.jobs = state.requirements.missingProducts || state.requirements.missingLocations
-      ? []
-      : buildJobs(state.requirements);
-    state.events = [];
-    state.activeAds = [];
-    state.status = 'running';
-
-    record('Read mission', 'mission-read', 'Mission statement loaded into the execution journal.');
-    record('Extract requirements', 'requirements-extracted', state.requirements);
-    record('Build product/location matrix', 'matrix-built', {
-      jobCount: state.jobs.length,
-      missingProducts: state.requirements.missingProducts,
-      missingLocations: state.requirements.missingLocations
-    });
-
-    if (state.requirements.missingProducts || state.requirements.missingLocations) {
-      state.status = 'blocked-missing-input';
-      record('Build product/location matrix', 'blocked', 'Products and/or required locations are not available from the connected Bonds Mall data sources. No ad is fabricated or submitted.');
-    }
-    return getState();
-  }
-
-  async function execute() {
-    if (state.status !== 'running') return getState();
-    const bridge = window.BondsMall && window.BondsMall.postMissionJob;
-    if (typeof bridge !== 'function') {
-      state.status = 'waiting-for-posting-integration';
-      record('Open posting session', 'integration-missing', 'No window.BondsMall.postMissionJob integration is installed. Jobs remain documented and queued for Seller Workspace execution.');
-      return getState();
-    }
-
-    for (const job of state.jobs) {
-      job.status = 'preparing';
-      record('Prepare platform jobs', 'job-prepared', 'Preparing product/location/platform job.', job);
-      try {
-        record('Open posting session', 'session-open', 'Handing job to the authorized posting integration.', job);
-        const result = await bridge(job, state.requirements);
-        if (result && result.humanActionRequired) {
-          job.status = 'human-action-required';
-          record('Human checkpoint', 'human-action-required', result.message || 'Human action is required before this platform can continue.', job);
-          continue;
-        }
-        if (result && result.url) {
-          job.status = 'published';
-          job.liveUrl = String(result.url);
-          job.publishedAt = now();
-          record('Submit ad', 'submitted', 'Posting integration returned a listing URL.', job);
-          record('Verify publication', 'verified', 'Listing URL returned by posting integration and accepted for verification.', job);
-        } else {
-          job.status = 'submitted-without-url';
-          record('Verify publication', 'not-verified', 'Posting result did not include a live URL. Job is not added to Active Ads.', job);
-        }
-      } catch (error) {
-        job.status = 'failed';
-        job.lastError = error && error.message ? error.message : String(error);
-        record('Submit ad', 'failed', job.lastError, job);
-      }
-    }
-
-    state.activeAds = state.jobs.filter(j => /^https?:\/\//i.test(j.liveUrl));
-    state.status = 'complete';
-    record('Publish to Active Ads', 'active-ads-sync', { verifiedAds: state.activeAds.length });
-    try { localStorage.setItem('bondsMallMissionExecutionLog', JSON.stringify(state)); } catch (_) {}
-    return getState();
-  }
-
-  function getState() {
-    return JSON.parse(JSON.stringify(state));
-  }
-
-  function render() {
-    const root = document.querySelector('[data-mission-execution-log]');
-    if (!root) return;
-    const summary = root.querySelector('[data-execution-summary]');
-    const table = root.querySelector('[data-execution-table]');
-    if (summary) {
-      const completed = state.jobs.filter(j => j.status === 'published').length;
-      const blocked = state.jobs.filter(j => j.status === 'human-action-required' || j.status === 'failed').length;
-      summary.textContent = `Status: ${state.status} • Jobs: ${state.jobs.length} • Published: ${completed} • Blocked/failed: ${blocked} • Events: ${state.events.length}`;
-    }
-    if (table) {
-      table.innerHTML = state.jobs.map(j => `<tr><td>${escapeHtml(j.product && (j.product.name || j.product.title || j.product) || '')}</td><td>${escapeHtml(j.location && (j.location.name || j.location.city || j.location) || '')}</td><td>${escapeHtml(j.platform)}</td><td>${escapeHtml(j.status)}</td><td>${j.liveUrl ? `<a href="${escapeHtml(j.liveUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(j.liveUrl)}</a>` : '—'}</td></tr>`).join('');
-    }
-  }
-
-  function escapeHtml(value) {
-    return String(value == null ? '' : value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  }
-
-  window.BondsMallMissionExecution = { start, execute, getState, process: PROCESS.slice() };
-  window.addEventListener('bonds:active-ads-updated', function (event) {
-    state.activeAds = Array.isArray(event.detail) ? event.detail.slice() : [];
-    record('Publish to Active Ads', 'active-ads-updated', { count: state.activeAds.length });
-  });
+  const state={startedAt:null,mission:'',requirements:{},jobs:[],events:[],activeAds:[],status:'idle'};
+  function now(){return new Date().toISOString();}
+  function escapeHtml(v){return String(v==null?'':v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+  function record(step,action,detail,job){const event={at:now(),step,action,detail:detail||null,job:job||null};state.events.push(event);try{localStorage.setItem('bondsMallMissionExecutionLog',JSON.stringify(state));}catch(_){} window.dispatchEvent(new CustomEvent('bonds:mission-execution-event',{detail:event}));render();}
+  function parseMission(text){const raw=String(text||'').replace(/\s+/g,' ').trim(),lower=raw.toLowerCase();const platforms=PLATFORM_NAMES.filter(p=>lower.includes(p.toLowerCase()));return{raw,platforms:platforms.length?platforms:PLATFORM_NAMES.slice(),monetaryTargets:raw.match(/\$[\d,.]+(?:\s*(?:billion|million|thousand|[BMK]))?/gi)||[],urls:raw.match(/https?:\/\/[^\s]+/gi)||[]};}
+  function readArray(keys,storageKey){for(const key of keys){const value=key.split('.').reduce((o,k)=>o&&o[k],window);if(Array.isArray(value))return value.slice();}try{const value=JSON.parse(localStorage.getItem(storageKey)||'[]');return Array.isArray(value)?value:[];}catch(_){return[];}}
+  function readLocations(){return readArray(['BondsMall.locations','BondsMallLocations','BondsMall.missionLocations'],'bondsMallLocations');}
+  function readProducts(){return readArray(['BondsMall.products','BondsMallProducts','BondsMall.missionProducts'],'bondsMallProducts');}
+  function buildJobs(req){const jobs=[];req.products.forEach((product,pi)=>req.locations.forEach((location,li)=>req.platforms.forEach((platform,fi)=>jobs.push({id:'MX-'+Date.now().toString(36).toUpperCase()+'-'+String(pi+1).padStart(3,'0')+'-'+String(li+1).padStart(3,'0')+'-'+String(fi+1).padStart(2,'0'),product,location,platform,status:'queued',liveUrl:'',lastError:''}))));return jobs;}
+  function start(missionText){state.startedAt=now();state.mission=String(missionText||'').trim();state.requirements=parseMission(state.mission);state.requirements.products=readProducts();state.requirements.locations=readLocations();state.requirements.missingProducts=!state.requirements.products.length;state.requirements.missingLocations=!state.requirements.locations.length;state.jobs=(state.requirements.missingProducts||state.requirements.missingLocations)?[]:buildJobs(state.requirements);state.events=[];state.activeAds=[];state.status='running';record('Read mission','mission-read','Mission statement loaded into the execution journal.');record('Extract requirements','requirements-extracted',state.requirements);record('Build product/location matrix','matrix-built',{jobCount:state.jobs.length,missingProducts:state.requirements.missingProducts,missingLocations:state.requirements.missingLocations});if(state.requirements.missingProducts||state.requirements.missingLocations){state.status='blocked-missing-input';record('Build product/location matrix','blocked','Products and/or required locations are unavailable. No ad is fabricated or submitted.');}return getState();}
+  /* Named adapters call only an explicitly installed authorized platform integration. They never solve/bypass CAPTCHA or anti-bot controls. */
+  async function callPlatform(name,job,requirements){const hooks=window.BondsMall||{};const camel=name.replace(/[^A-Za-z0-9]/g,'');const named=hooks['postMissionJob'+camel]||window['postMissionJob'+camel];if(typeof named==='function')return named(job,requirements);if(typeof hooks.postMissionJob==='function')return hooks.postMissionJob(job,requirements);return{integrationMissing:true,platform:name,message:'No authorized '+name+' posting integration is installed.'};}
+  async function postMissionJobCraigslist(job,requirements){return callPlatform('Craigslist',job,requirements);}
+  async function postMissionJobAdLandPro(job,requirements){return callPlatform('AdLandPro',job,requirements);}
+  async function postMissionJobClassifiedAds(job,requirements){return callPlatform('ClassifiedAds',job,requirements);}
+  async function postMissionJobFacebookMarketplace(job,requirements){return callPlatform('FacebookMarketplace',job,requirements);}
+  async function postMissionJobOfferUp(job,requirements){return callPlatform('OfferUp',job,requirements);}
+  async function postMissionJobMercari(job,requirements){return callPlatform('Mercari',job,requirements);}
+  async function postMissionJobPoshmark(job,requirements){return callPlatform('Poshmark',job,requirements);}
+  async function postMissionJobNextdoor(job,requirements){return callPlatform('Nextdoor',job,requirements);}
+  async function postMissionJobEbay(job,requirements){return callPlatform('Ebay',job,requirements);}
+  async function postMissionJobEtsy(job,requirements){return callPlatform('Etsy',job,requirements);}
+  const PLATFORM_POSTERS={Craigslist:postMissionJobCraigslist,AdLandPro:postMissionJobAdLandPro,ClassifiedAds:postMissionJobClassifiedAds,'Facebook Marketplace':postMissionJobFacebookMarketplace,OfferUp:postMissionJobOfferUp,Mercari:postMissionJobMercari,Poshmark:postMissionJobPoshmark,Nextdoor:postMissionJobNextdoor,eBay:postMissionJobEbay,Etsy:postMissionJobEtsy};
+  async function execute(){if(state.status!=='running')return getState();for(const job of state.jobs){const poster=PLATFORM_POSTERS[job.platform];job.status='preparing';record('Prepare platform jobs','job-prepared','Preparing product/location/platform job.',job);if(typeof poster!=='function'){job.status='failed';job.lastError='No named poster implementation for '+job.platform;record('Submit ad','failed',job.lastError,job);continue;}try{record('Open posting session','session-open','Handing job to '+job.platform+' authorized integration.',job);const result=await poster(job,state.requirements);if(result&&result.humanActionRequired){job.status='human-action-required';record('Human checkpoint','human-action-required',result.message||'Human action is required before publication.',job);continue;}if(result&&result.url&&/^https?:\/\//i.test(String(result.url))){job.status='published';job.liveUrl=String(result.url).trim();job.publishedAt=now();record('Submit ad','submitted','Authorized integration returned a listing URL.',job);record('Verify publication','verified','Listing URL accepted for Active Ads synchronization.',job);}else if(result&&result.integrationMissing){job.status='waiting-for-integration';job.lastError=result.message;record('Submit ad','integration-missing',result.message,job);}else{job.status='submitted-without-url';record('Verify publication','not-verified','No usable public URL was returned; job is not marked live.',job);}}catch(error){job.status='failed';job.lastError=error&&error.message?error.message:String(error);record('Submit ad','failed',job.lastError,job);}}state.activeAds=state.jobs.filter(j=>/^https?:\/\//i.test(j.liveUrl));state.status='complete';record('Publish to Active Ads','active-ads-sync',{verifiedAds:state.activeAds.length});try{localStorage.setItem('bondsMallMissionExecutionLog',JSON.stringify(state));}catch(_){}return getState();}
+  function getState(){return JSON.parse(JSON.stringify(state));}
+  function render(){const root=document.querySelector('[data-mission-execution-log]');if(!root)return;const summary=root.querySelector('[data-execution-summary]'),table=root.querySelector('[data-execution-table]');if(summary){const published=state.jobs.filter(j=>j.status==='published').length,blocked=state.jobs.filter(j=>/human-action|failed|waiting/.test(j.status));summary.textContent='Status: '+state.status+' • Jobs: '+state.jobs.length+' • Published: '+published+' • Blocked/waiting/failed: '+blocked.length+' • Events: '+state.events.length;}if(table)table.innerHTML=state.jobs.map(j=>'<tr><td>'+escapeHtml(j.product&&(j.product.name||j.product.title||j.product)||'')+'</td><td>'+escapeHtml(j.location&&(j.location.name||j.location.city||j.location)||'')+'</td><td>'+escapeHtml(j.platform)+'</td><td>'+escapeHtml(j.status)+'</td><td>'+(j.liveUrl?'<a href="'+escapeHtml(j.liveUrl)+'" target="_blank" rel="noopener noreferrer">'+escapeHtml(j.liveUrl)+'</a>':'—')+'</td></tr>').join('');}
+  window.BondsMallMissionExecution={start,execute,getState,process:PROCESS.slice(),platforms:PLATFORM_NAMES.slice(),postMissionJobCraigslist,postMissionJobAdLandPro,postMissionJobClassifiedAds,postMissionJobFacebookMarketplace,postMissionJobOfferUp,postMissionJobMercari,postMissionJobPoshmark,postMissionJobNextdoor,postMissionJobEbay,postMissionJobEtsy,platformPosters:PLATFORM_POSTERS};
+  window.BondsMallPostMissionJobs=PLATFORM_POSTERS;
+  window.addEventListener('bonds:active-ads-updated',event=>{state.activeAds=Array.isArray(event.detail)?event.detail.slice():[];record('Publish to Active Ads','active-ads-updated',{count:state.activeAds.length});});
 })();
