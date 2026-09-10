@@ -703,13 +703,13 @@ function ensureDelegatedListeners() {
     window.__productPopupDelegatesAttached = true;
 
     document.getElementById("similar-prev")?.addEventListener("click", () => {
-        similarState.start = Math.max(0, similarState.start - 1);
+        similarState.start = Math.max(0, similarState.start - 3);
         renderSimilarCarouselSlice();
     });
 
     document.getElementById("similar-next")?.addEventListener("click", () => {
-        const maxStart = Math.max(similarState.list.length - 3, 0);
-        similarState.start = Math.min(maxStart, similarState.start + 1);
+        const lastPageStart = Math.max(Math.floor((similarState.list.length - 1) / 3) * 3, 0);
+        similarState.start = Math.min(lastPageStart, similarState.start + 3);
         renderSimilarCarouselSlice();
     });
 
