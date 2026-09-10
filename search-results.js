@@ -854,8 +854,22 @@
         renderCart();
     }
 
-    /* ── Product modal ────────────────────────── */
-    async function openProductModal(productId) {
+    /* ── Product page navigation ───────────────── */
+    function openProductPage(productId) {
+        const id = Number(productId);
+        if (!Number.isFinite(id) || id < 1) return;
+        const productUrl = new URL("./", window.location.href);
+        productUrl.search = "";
+        productUrl.searchParams.set("product", String(id));
+        window.location.assign(productUrl.toString());
+    }
+
+    /* Keep this name for existing card and popup-search event wiring. */
+    function openProductModal(productId) {
+        openProductPage(productId);
+    }
+
+    async function openLegacyProductModal(productId) {
         let product = displayProducts.find(p => p.id === Number(productId)) || null;
         if (!product && window.BondsmallCatalog && typeof window.BondsmallCatalog.getProductById === "function") {
             product = await window.BondsmallCatalog.getProductById(productId);
@@ -874,7 +888,7 @@
         url.searchParams.set("product", String(product.id));
         window.history.replaceState({}, "", cleanUrl(url.toString()));
     }
-    window.BondsMallOpenProductById = openProductModal;
+    window.BondsMallOpenProductById = openProductPage;
 
     function closeProductModal() {
         if (!productModal) return;
