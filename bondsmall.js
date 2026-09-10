@@ -1705,6 +1705,8 @@
         const openRequestedProduct = async (attempt = 0) => {
             if (!requestedProductId) return;
 
+            document.body.classList.add("product-page-mode");
+
             if (attempt === 0) {
                 // Create the listing history entry behind a direct product URL.
                 const gridUrl = new URL(window.location.href);

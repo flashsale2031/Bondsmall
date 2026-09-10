@@ -788,15 +788,40 @@ function ensurePopupLayoutStyles() {
             #product-modal .main-photo { max-height: min(62vh, 560px); }
         }
         body.product-page-mode { background: var(--bg, #f8f5ef); }
+        body.product-page-mode > .header,
         body.product-page-mode > main,
         body.product-page-mode > .sticky-header-container { display: none; }
         body.product-page-mode #product-modal { position: static; inset: auto; display: block; min-height: 0; padding: 0; }
         body.product-page-mode #product-modal > .modal-backdrop { display: none; }
         body.product-page-mode #product-modal .modal-card { position: relative; width: 100%; max-width: none; max-height: none; overflow: visible; border-radius: 0; box-shadow: none; }
         body.product-page-mode #product-modal .popup-header { position: sticky; top: 0; z-index: 20; }
+        body.product-page-mode #product-modal .popup-header .logo-text { display: block !important; opacity: 1 !important; }
+        body.product-page-mode #product-modal .popup-header .logo-img { display: none !important; }
         body.product-page-mode #product-modal .product-detail-modal-body { padding: clamp(.9rem, 3vw, 1.5rem); }
         body.product-page-mode #product-modal .main-photo { max-height: min(70vw, 760px); }
+        body.product-page-mode #product-modal .product-popup-heading { margin: 1.25rem 0 .5rem; font-size: clamp(1.6rem, 4vw, 2.6rem); line-height: 1.15; font-weight: 800; }
+        body.product-page-mode #product-modal .popup-price-row { margin: 2rem 0 1.25rem; font-size: 1.25rem; }
+        body.product-page-mode #product-modal .popup-retail { color: #6b625a; text-decoration: line-through; }
+        body.product-page-mode #product-modal .popup-sale { color: #1c1b1a; font-size: 1.5rem; }
+        body.product-page-mode #product-modal .quantity-selector { display: flex; align-items: center; gap: .6rem; margin: 1rem 0; font-size: 1.1rem; }
+        body.product-page-mode #product-modal .quantity-selector input { width: 138px; min-height: 50px; padding: .6rem; border: 1px solid #d8cec4; border-radius: 10px; font-size: 1rem; }
+        body.product-page-mode #product-modal .popup-add-btn { width: 100%; min-height: 52px; border: 0; border-radius: 999px; background: #1c1b1a; color: #fff; font-size: 1rem; font-weight: 800; }
         body.product-page-mode #product-modal + .site-footer { margin-top: 0; }
+        @media (max-width: 720px) {
+            body.product-page-mode #product-modal .product-image-col { display: grid; grid-template-columns: 116px minmax(0, 1fr); gap: .75rem; align-items: start; }
+            body.product-page-mode #product-modal .popup-header { grid-template-columns: auto minmax(0, 1fr) auto; grid-template-rows: auto auto; padding: .7rem 1rem 1rem; }
+            body.product-page-mode #product-modal .popup-header .header-left { grid-column: 1 / 3; grid-row: 1; }
+            body.product-page-mode #product-modal .popup-header .header-actions { grid-column: 3; grid-row: 1; }
+            body.product-page-mode #product-modal .popup-search-wrap { display: block; grid-column: 1 / -1; grid-row: 2; width: 100%; }
+            body.product-page-mode #product-modal #popup-header-search { width: 100%; min-height: 52px; padding: .7rem 1rem; border: 1px solid #d8cec4; border-radius: 999px; background: #fff; font-size: 1rem; }
+            body.product-page-mode #product-modal .photo-strip-carousel { display: flex; flex-direction: column; gap: .55rem; margin: 0; }
+            body.product-page-mode #product-modal .photo-strip-track { flex-direction: column; width: 100%; max-height: 430px; overflow: hidden; }
+            body.product-page-mode #product-modal .photo-thumb { flex: 0 0 108px; width: 108px; height: 108px; }
+            body.product-page-mode #product-modal .photo-strip-arrow { flex: 0 0 48px; width: 116px; height: 48px; border-radius: 10px; }
+            body.product-page-mode #product-modal .main-photo { min-width: 0; height: auto; max-height: none; aspect-ratio: 1 / 1; }
+            body.product-page-mode #product-modal .main-photo #main-photo { width: 100%; height: 100%; object-fit: contain; }
+            body.product-page-mode #product-modal .product-details-col { grid-column: 1 / -1; }
+        }
     `;
     document.head.appendChild(style);
 }
