@@ -806,6 +806,17 @@ function ensurePopupLayoutStyles() {
         body.product-page-mode #product-modal .quantity-selector { display: flex; align-items: center; gap: .6rem; margin: 1rem 0; font-size: 1.1rem; }
         body.product-page-mode #product-modal .quantity-selector input { width: 138px; min-height: 50px; padding: .6rem; border: 1px solid #d8cec4; border-radius: 10px; font-size: 1rem; }
         body.product-page-mode #product-modal .popup-add-btn { width: 100%; min-height: 52px; border: 0; border-radius: 999px; background: #1c1b1a; color: #fff; font-size: 1rem; font-weight: 800; }
+        body.product-page-mode #product-modal .product-detail-modal-body { padding-bottom: 3rem; }
+        body.product-page-mode #product-modal .popup-section { width: 100%; min-width: 0; margin: 0; padding: 1.45rem 0; border-top: 1px solid #e5ddd4; box-sizing: border-box; }
+        body.product-page-mode #product-modal .product-display-grid + .popup-section { margin-top: 1.25rem; }
+        body.product-page-mode #product-modal .popup-section .popup-h2,
+        body.product-page-mode #product-modal .coverage-heading { margin: 0 0 .7rem; font-size: 1.15rem; line-height: 1.25; }
+        body.product-page-mode #product-modal .coverage-text,
+        body.product-page-mode #product-modal #description p { margin: 0; line-height: 1.6; }
+        body.product-page-mode #product-modal #delivery-options { margin-top: .8rem; }
+        body.product-page-mode #product-modal #specifications-form { margin-top: .8rem; }
+        body.product-page-mode #product-modal #similar-products-slide { margin-top: .85rem; }
+        body.product-page-mode #product-modal #reviews form { margin-top: .85rem; }
         body.product-page-mode #product-modal .coverage-link { display: inline; white-space: normal; }
         body.product-page-mode #product-modal .coverage-link-icon { display: inline; width: 1em; height: 1em; max-width: 1em; max-height: 1em; vertical-align: -.14em; margin-left: .2em; }
         body.product-page-mode #product-modal #similar-products { min-width: 0; max-width: 100%; overflow: hidden; }
