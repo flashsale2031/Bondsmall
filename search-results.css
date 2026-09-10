@@ -116,6 +116,13 @@
 .popup-section { padding: 1rem 0; border-top: 1px solid #eadfce; }
 .popup-h2 { margin: 0 0 .65rem; font-size: 1.15rem; }
 .popup-section p { color: #5c5348; line-height: 1.55; }
+body.product-page-mode > main, body.product-page-mode > .sticky-header-container { display: none; }
+body.product-page-mode #product-modal { position: static; display: block; min-height: 0; padding: 0; }
+body.product-page-mode #product-modal > .modal-backdrop { display: none; }
+body.product-page-mode #product-modal .modal-card { width: 100%; max-width: none; max-height: none; overflow: visible; border-radius: 0; box-shadow: none; }
+body.product-page-mode #product-modal .popup-header { position: sticky; top: 0; z-index: 20; }
+body.product-page-mode #product-modal .product-detail-modal-body { padding: clamp(.9rem, 3vw, 1.5rem); }
+body.product-page-mode #product-modal .main-photo { max-height: min(70vw, 760px); }
 .primary-btn { padding: .75rem 1rem; border: 0; border-radius: 8px; background: #1c1b1a; color: #fff; font-weight: 800; }
 
 .cat-drawer-overlay { position: fixed; inset: 0; z-index: 1200; display: none; }

@@ -787,6 +787,16 @@ function ensurePopupLayoutStyles() {
             #product-modal .product-display-grid { grid-template-columns: 1fr; }
             #product-modal .main-photo { max-height: min(62vh, 560px); }
         }
+        body.product-page-mode { background: var(--bg, #f8f5ef); }
+        body.product-page-mode > main,
+        body.product-page-mode > .sticky-header-container { display: none; }
+        body.product-page-mode #product-modal { position: static; inset: auto; display: block; min-height: 0; padding: 0; }
+        body.product-page-mode #product-modal > .modal-backdrop { display: none; }
+        body.product-page-mode #product-modal .modal-card { position: relative; width: 100%; max-width: none; max-height: none; overflow: visible; border-radius: 0; box-shadow: none; }
+        body.product-page-mode #product-modal .popup-header { position: sticky; top: 0; z-index: 20; }
+        body.product-page-mode #product-modal .product-detail-modal-body { padding: clamp(.9rem, 3vw, 1.5rem); }
+        body.product-page-mode #product-modal .main-photo { max-height: min(70vw, 760px); }
+        body.product-page-mode #product-modal + .site-footer { margin-top: 0; }
     `;
     document.head.appendChild(style);
 }

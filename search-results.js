@@ -862,6 +862,8 @@
         }
         if (!product || !productModal) return;
         activeModalProductId = product.id;
+        const isProductPage = new URLSearchParams(window.location.search).has("product");
+        document.body.classList.toggle("product-page-mode", isProductPage);
         if (typeof window.populateProductPopup === "function") {
             window.populateProductPopup(product, { categoryLabels });
         }
@@ -878,6 +880,7 @@
         if (!productModal) return;
         productModal.classList.add("hidden");
         productModal.setAttribute("aria-hidden", "true");
+        document.body.classList.remove("product-page-mode");
         activeModalProductId = null;
         clearPopupSearch();
         const url = new URL(window.location.href);
