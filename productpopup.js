@@ -764,7 +764,35 @@ function ensureDelegatedListeners() {
 }
 
 /* ── Photo strip carousel (max 8 photos, one-at-a-time navigation) ── */
+function ensurePopupLayoutStyles() {
+    const styleId = "product-popup-layout-safety-style";
+    if (document.getElementById(styleId)) return;
+    const style = document.createElement("style");
+    style.id = styleId;
+    style.textContent = `
+        #product-modal .modal-card { width: min(1100px, 100%); max-height: min(92vh, 900px); overflow: auto; }
+        #product-modal .product-detail-modal-body { padding: 1.25rem; }
+        #product-modal .product-display-grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(280px, .85fr); gap: 1.5rem; }
+        #product-modal .product-image-col { min-width: 0; }
+        #product-modal .main-photo { width: 100%; height: auto; aspect-ratio: 1 / 1; max-height: min(58vh, 680px); overflow: hidden; }
+        #product-modal .main-photo #main-photo { width: 100%; height: 100%; max-width: 100%; max-height: 100%; object-fit: contain; display: block; }
+        #product-modal .photo-strip-track { display: flex; gap: .45rem; overflow-x: auto; }
+        #product-modal .photo-thumb { flex: 0 0 58px; width: 58px; height: 58px; overflow: hidden; }
+        #product-modal .photo-thumb img { width: 100%; height: 100%; object-fit: cover; }
+        @media (max-width: 720px) {
+            #product-modal { align-items: flex-start; padding: .75rem; }
+            #product-modal .modal-card { width: 100%; max-height: calc(100vh - 1.5rem); border-radius: 16px; }
+            #product-modal .popup-search-wrap { display: none; }
+            #product-modal .product-detail-modal-body { padding: .8rem; }
+            #product-modal .product-display-grid { grid-template-columns: 1fr; }
+            #product-modal .main-photo { max-height: min(62vh, 560px); }
+        }
+    `;
+    document.head.appendChild(style);
+}
+
 function populatePhotos(enrichedProduct) {
+    ensurePopupLayoutStyles();
     const mainImg = document.getElementById("main-photo");
     if (!mainImg) {
         console.warn("Element #main-photo not found in DOM.");
@@ -1363,4 +1391,3 @@ window.populateProductPopupById = async function populateProductPopupById(produc
     window.populateProductPopup(product, opts);
     return true;
 };
-
