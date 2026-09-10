@@ -858,8 +858,7 @@
     function openProductPage(productId) {
         const id = Number(productId);
         if (!Number.isFinite(id) || id < 1) return;
-        const productUrl = new URL("./", window.location.href);
-        productUrl.search = "";
+        const productUrl = new URL("/", window.location.origin);
         productUrl.searchParams.set("product", String(id));
         window.location.assign(productUrl.toString());
     }

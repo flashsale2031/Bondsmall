@@ -791,9 +791,9 @@ function ensurePopupLayoutStyles() {
         body.product-page-mode > .header,
         body.product-page-mode > main,
         body.product-page-mode > .sticky-header-container { display: none; }
-        body.product-page-mode #product-modal { position: static; inset: auto; display: block; min-height: 0; padding: 0; }
+        body.product-page-mode #product-modal { position: static; inset: auto; display: block; width: 100%; min-height: 100vh; padding: 0; }
         body.product-page-mode #product-modal > .modal-backdrop { display: none; }
-        body.product-page-mode #product-modal .modal-card { position: relative; width: 100%; max-width: none; max-height: none; overflow: visible; border-radius: 0; box-shadow: none; }
+        body.product-page-mode #product-modal .modal-card { position: relative; width: 100%; max-width: none; min-height: 100vh; max-height: none; overflow: visible; border-radius: 0; box-shadow: none; }
         body.product-page-mode #product-modal .popup-header { position: sticky; top: 0; z-index: 20; }
         body.product-page-mode #product-modal .popup-header .logo-text { display: block !important; opacity: 1 !important; }
         body.product-page-mode #product-modal .popup-header .logo-img { display: none !important; }
