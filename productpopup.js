@@ -806,6 +806,8 @@ function ensurePopupLayoutStyles() {
         body.product-page-mode #product-modal .quantity-selector { display: flex; align-items: center; gap: .6rem; margin: 1rem 0; font-size: 1.1rem; }
         body.product-page-mode #product-modal .quantity-selector input { width: 138px; min-height: 50px; padding: .6rem; border: 1px solid #d8cec4; border-radius: 10px; font-size: 1rem; }
         body.product-page-mode #product-modal .popup-add-btn { width: 100%; min-height: 52px; border: 0; border-radius: 999px; background: #1c1b1a; color: #fff; font-size: 1rem; font-weight: 800; }
+        body.product-page-mode #product-modal .coverage-link { display: inline-flex; align-items: center; gap: .25rem; }
+        body.product-page-mode #product-modal .coverage-link-icon { display: inline-block; width: 1em; height: 1em; max-width: 1em; max-height: 1em; flex: 0 0 1em; vertical-align: -.12em; }
         body.product-page-mode #product-modal #similar-products { min-width: 0; max-width: 100%; overflow: hidden; }
         body.product-page-mode #product-modal .similar-products-slide { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; width: 100%; max-width: 100%; min-width: 0; overflow: hidden; }
         body.product-page-mode #product-modal .similar-product-card { display: flex; flex-direction: column; min-width: 0; width: 100%; max-width: 100%; overflow: hidden; border: 1px solid #e1d8ce; border-radius: 12px; background: #fff; cursor: pointer; }
