@@ -24,7 +24,7 @@
     <script src="supabase-config.js?v=1.0.2" defer></script>
     <script src="reviews-cloud.js?v=1.0.2" defer></script>
     <script src="reviews.js?v=1.0.0" defer></script>
-    <script src="productpopup.js?v=1.6.0" defer></script>
+    <script src="productpopup.js?v=1.7.0" defer></script>
     <script src="bondsmall-account.js?v=1.0.2" defer></script>
     <script src="logo-transition.js?v=1.0.0" defer></script>
     <script src="search-results.js?v=2.1.4" defer></script>
@@ -315,7 +315,10 @@
                                     <option value="Used">Used</option>
                                 </select>
                             </section>
-                            <div class="variants" id="variants" aria-hidden="false"></div>
+                            <section id="option" class="popup-section product-option-section" aria-label="Option Section">
+                                <h2 class="popup-h2">Option</h2>
+                                <div class="variants" id="variants" aria-hidden="false"></div>
+                            </section>
                             <div class="quantity-selector">
                                 <label for="quantity">Quantity:</label>
                                 <input id="quantity" type="number" min="1" value="1">
