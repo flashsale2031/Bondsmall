@@ -1671,7 +1671,9 @@
             const delivery = deliveryEl ? deliveryEl.dataset.id : "std";
             addToCart(activeModalProductId, qty, condition, delivery);
         }
-        closeProductModal();
+        // Keep the current page in place so the cart drawer opened by addToCart()
+        // remains visible instead of navigating back and closing the drawer.
+        hideProductModal();
     });
 
     // Compatibility hook retained for callers that previously normalized products.
