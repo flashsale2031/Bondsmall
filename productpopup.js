@@ -972,6 +972,24 @@ function populatePhotos(enrichedProduct) {
 
     /* ── State ── */
     let currentIdx = 0;
+    const mainPhotoArea = mainImg.closest(".main-photo");
+    if (mainPhotoArea) {
+        mainPhotoArea.style.cursor = "zoom-in";
+        mainPhotoArea.onclick = (event) => {
+            if (event.target.closest("button")) return;
+            if (typeof window.BondsMallOpenProductLightbox === "function") {
+                window.BondsMallOpenProductLightbox(urls, currentIdx);
+            }
+        };
+        mainPhotoArea.onkeydown = (event) => {
+            if (event.key !== "Enter" && event.key !== " ") return;
+            event.preventDefault();
+            mainPhotoArea.click();
+        };
+        mainPhotoArea.setAttribute("role", "button");
+        mainPhotoArea.setAttribute("tabindex", "0");
+        mainPhotoArea.setAttribute("aria-label", "Open product photo gallery");
+    }
 
     /* ── Build one thumb button per photo ── */
     const thumbEls = urls.map((src, idx) => {
@@ -1480,26 +1498,6 @@ document.addEventListener("DOMContentLoaded", ensureDelegatedListeners);
 
     window.BondsMallOpenProductLightbox = openLightbox;
 
-    /* ── Click on main photo → open at that photo's index ── */
-    document.addEventListener("click", (e) => {
-        const img = e.target.closest("#main-photo");
-        if (!img || !img.src) return;
-
-        // Collect current product photos from the strip track
-        const thumbs = getThumbEls();
-        const urls   = thumbs.map(btn => btn.querySelector("img")?.src).filter(Boolean);
-
-        // Find which index matches the currently displayed main photo
-        let startIdx = urls.indexOf(img.src);
-        if (startIdx === -1) startIdx = 0;
-
-        openLightbox(urls.length ? urls : [img.src], startIdx);
-    });
-    document.addEventListener("keydown", (e) => {
-        if ((e.key !== "Enter" && e.key !== " ") || !e.target.closest("#main-photo")) return;
-        e.preventDefault();
-        e.target.click();
-    });
 
     /* ── Arrow navigation ── */
     if (lbNext) {
