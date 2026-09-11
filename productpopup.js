@@ -824,6 +824,12 @@ function ensurePopupLayoutStyles() {
         body.product-page-mode #product-modal .popup-price-row { margin: 2rem 0 1.25rem; font-size: 1.25rem; }
         body.product-page-mode #product-modal .popup-retail { color: #6b625a; text-decoration: line-through; }
         body.product-page-mode #product-modal .popup-sale { color: #1c1b1a; font-size: 1.5rem; }
+        body.product-page-mode #product-modal .preowned-price { display: block; margin: -.45rem 0 1.25rem; color: #8c2f39; font-size: 1.05rem; font-weight: 800; }
+        body.product-page-mode #product-modal #condition { margin: 0 0 1.25rem; padding: 0; border: 0; }
+        body.product-page-mode #product-modal #condition .condition-chips { display: flex; flex-wrap: wrap; gap: .65rem; margin-top: .6rem; }
+        body.product-page-mode #product-modal #condition .condition-chip { min-width: 116px; min-height: 48px; padding: .65rem 1rem; border: 1px solid #8e867d; border-radius: 8px; background: #fff; color: #1c1b1a; font: inherit; font-weight: 700; cursor: pointer; }
+        body.product-page-mode #product-modal #condition .condition-chip.active { border: 2px solid #111; background: #f3f1ee; box-shadow: inset 0 0 0 1px #fff; }
+        body.product-page-mode #product-modal #condition .condition-chip:focus-visible { outline: 3px solid #3b82f6; outline-offset: 2px; }
         body.product-page-mode #product-modal .quantity-selector { display: flex; align-items: center; gap: .6rem; margin: 1rem 0; font-size: 1.1rem; }
         body.product-page-mode #product-modal .quantity-selector input { width: 138px; min-height: 50px; padding: .6rem; border: 1px solid #d8cec4; border-radius: 10px; font-size: 1rem; }
         body.product-page-mode #product-modal .popup-add-btn { width: 100%; min-height: 52px; border: 0; border-radius: 999px; background: #1c1b1a; color: #fff; font-size: 1rem; font-weight: 800; }
@@ -1088,12 +1094,13 @@ window.populateProductPopup = function populateProductPopup(product, opts) {
         if (!preownedEl) {
             preownedEl = document.createElement("span");
             preownedEl.id = "preowned-price";
+            preownedEl.className = "preowned-price";
             preownedEl.style.color = "#8c2f39";
             preownedEl.style.fontWeight = "800";
             preownedEl.style.fontSize = "1rem";
-            preownedEl.style.marginLeft = "0.5rem";
             if (saleEl) {
-                saleEl.parentNode.insertBefore(preownedEl, saleEl.nextSibling);
+                const priceRow = saleEl.closest(".popup-price-row") || saleEl.parentNode;
+                priceRow.insertAdjacentElement("afterend", preownedEl);
             }
         }
         preownedEl.textContent = `Pre-Owned: ${formatPopupMoney(enriched.preOwnedPrice)}`;
