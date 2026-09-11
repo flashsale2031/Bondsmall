@@ -172,6 +172,20 @@ function renderProductReviews(productId) {
     const average = count
         ? reviews.reduce((sum, review) => sum + Number(review.rating || 0), 0) / count
         : 0;
+    const activeProduct = window.__activePopupProduct || {};
+    const catalogAverage = Number(activeProduct.averageRating ?? activeProduct.rating ?? activeProduct["average rating"] ?? 0);
+    const catalogCount = Number(activeProduct.ratingCount ?? activeProduct["rating count"] ?? activeProduct.ratings ?? 0);
+    const displayAverage = count ? average : (Number.isFinite(catalogAverage) ? catalogAverage : 0);
+    const displayCount = count || (Number.isFinite(catalogCount) ? catalogCount : 0);
+    const ratingStars = document.getElementById("product-rating-stars");
+    const ratingAverage = document.getElementById("product-rating-average");
+    const ratingCount = document.getElementById("product-rating-count");
+    if (ratingStars) {
+        const filled = Math.max(0, Math.min(5, Math.round(displayAverage)));
+        ratingStars.textContent = "★".repeat(filled) + "☆".repeat(5 - filled);
+    }
+    if (ratingAverage) ratingAverage.textContent = displayAverage.toFixed(1);
+    if (ratingCount) ratingCount.textContent = `${displayCount.toLocaleString()} ${displayCount === 1 ? "rating" : "ratings"}`;
 
     if (summaryEl) {
         summaryEl.textContent = count
@@ -825,6 +839,10 @@ function ensurePopupLayoutStyles() {
         body.product-page-mode #product-modal .popup-price-row { margin: 2rem 0 1.25rem; font-size: 1.25rem; }
         body.product-page-mode #product-modal .popup-retail { color: #6b625a; text-decoration: line-through; }
         body.product-page-mode #product-modal .popup-sale { color: #1c1b1a; font-size: 1.5rem; }
+        body.product-page-mode #product-modal .product-rating-summary { display: flex; align-items: center; flex-wrap: wrap; gap: .45rem; margin: .55rem 0 1.25rem; color: #5c5348; font-size: .95rem; }
+        body.product-page-mode #product-modal .product-rating-stars { color: #f5b301; font-size: 1.15rem; letter-spacing: .04em; line-height: 1; }
+        body.product-page-mode #product-modal #product-rating-average { color: #1c1b1a; font-size: 1rem; }
+        body.product-page-mode #product-modal #product-rating-count { color: #5c5348; }
         body.product-page-mode #product-modal .preowned-price { display: block; margin: -.45rem 0 1.25rem; color: #8c2f39; font-size: 1.05rem; font-weight: 800; }
         body.product-page-mode #product-modal #condition { margin: 0 0 1.25rem; padding: 0; border: 0; }
         body.product-page-mode #product-modal #condition .condition-chips { display: flex; flex-wrap: wrap; gap: .65rem; margin-top: .6rem; }
@@ -1074,6 +1092,7 @@ window.populateProductPopup = function populateProductPopup(product, opts) {
     );
     const enriched = enrichForPopup(productForCondition(product, initialCondition));
     activeReviewProductId = enriched.id || product.id || "";
+    window.__activePopupProduct = enriched;
 
     const qty = document.getElementById("quantity");
     if (qty) qty.value = 1;
