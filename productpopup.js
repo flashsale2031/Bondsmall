@@ -1333,6 +1333,40 @@ document.addEventListener("DOMContentLoaded", ensureDelegatedListeners);
 
     if (!lightbox || !lbImg) return;
 
+    if (!document.getElementById("product-lightbox-layout-style")) {
+        const style = document.createElement("style");
+        style.id = "product-lightbox-layout-style";
+        style.textContent = `
+            .img-lightbox[hidden] { display: none !important; }
+            .img-lightbox { position: fixed; inset: 0; z-index: 3000; display: flex; align-items: center; justify-content: center; padding: clamp(1rem, 4vw, 3rem); background: rgba(18, 16, 14, .88); }
+            .img-lightbox-backdrop { position: absolute; inset: 0; background: transparent; }
+            .img-lightbox-content-wrap { position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; width: min(92vw, 1100px); max-height: 92vh; gap: .8rem; overflow: hidden; }
+            .img-lightbox-img { display: block; position: relative; z-index: 2; max-width: 100%; max-height: min(76vh, 760px); width: auto; height: auto; object-fit: contain; border-radius: 8px; box-shadow: 0 16px 50px rgba(0,0,0,.35); transform-origin: 50% 50%; }
+            .img-lightbox-close, .img-lightbox-nav { position: fixed; z-index: 4; display: inline-flex; align-items: center; justify-content: center; border: 1px solid rgba(255,255,255,.35); background: rgba(0,0,0,.55); color: #fff; cursor: pointer; }
+            .img-lightbox-close { top: 1rem; right: 1rem; width: 44px; height: 44px; border-radius: 50%; font-size: 1.25rem; }
+            .img-lightbox-nav { top: 50%; width: 46px; height: 62px; border-radius: 10px; transform: translateY(-50%); font-size: 1.8rem; }
+            .img-lightbox-prev { left: 1rem; }
+            .img-lightbox-next { right: 1rem; }
+            .img-lightbox-close:hover, .img-lightbox-nav:hover, .img-lightbox-close:focus-visible, .img-lightbox-nav:focus-visible { background: rgba(255,255,255,.2); }
+            .img-lightbox-thumbs-wrap { position: relative; z-index: 3; width: min(92vw, 900px); overflow: hidden; }
+            .img-lightbox-thumbs-track { display: flex; justify-content: center; gap: .5rem; max-width: 100%; overflow-x: auto; padding: .15rem .25rem .4rem; }
+            .img-lightbox-thumb { flex: 0 0 64px; width: 64px; height: 64px; padding: 0; overflow: hidden; border: 2px solid transparent; border-radius: 7px; background: #fff; cursor: pointer; }
+            .img-lightbox-thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
+            .img-lightbox-thumb.is-active { border-color: #fff; box-shadow: 0 0 0 2px rgba(255,255,255,.35); }
+            .img-lightbox-counter { position: relative; z-index: 3; color: #fff; font-size: .9rem; font-weight: 700; }
+            @media (max-width: 600px) {
+                .img-lightbox { padding: .75rem; }
+                .img-lightbox-content-wrap { width: 100%; max-height: 90vh; }
+                .img-lightbox-img { max-height: 68vh; }
+                .img-lightbox-nav { width: 36px; height: 52px; }
+                .img-lightbox-prev { left: .4rem; }
+                .img-lightbox-next { right: .4rem; }
+                .img-lightbox-close { top: .5rem; right: .5rem; }
+            }
+        `;
+        document.head.appendChild(style);
+    }
+
     /* ── State ── */
     let lbUrls   = [];   // current product's photo array (up to 8)
     let lbIndex  = 0;    // currently displayed photo index
