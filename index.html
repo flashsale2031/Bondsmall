@@ -22,7 +22,7 @@
     <script src="supabase-config.js?v=1.0.2" defer></script>
     <script src="reviews-cloud.js?v=1.0.2" defer></script>
     <script src="reviews.js?v=1.0.0" defer></script>
-    <script src="productpopup.js?v=1.5.0" defer></script>
+    <script src="productpopup.js?v=1.5.1" defer></script>
     <script src="bondsmall-account.js?v=1.0.2" defer></script>
     <script src="logo-transition.js?v=1.0.0" defer></script>
     <script src="bondsmall.js?v=2.1.6" defer></script>
@@ -241,6 +241,11 @@
             <div id="popup-search-results" class="popup-search-results" aria-live="polite" hidden></div>
             <div class="product-detail-modal-body">
                 <section id="product-display" class="popup-section popup-section--product" aria-label="Product Display Section">
+                    <div id="product-rating-summary" class="product-rating-summary" aria-label="Product rating">
+                        <span id="product-rating-stars" class="product-rating-stars" aria-hidden="true">☆☆☆☆☆</span>
+                        <strong id="product-rating-average">0.0</strong>
+                        <span id="product-rating-count">0 ratings</span>
+                    </div>
                     <div class="product-display-grid">
                         <!-- LEFT: image column (vertical strip + main photo side by side) -->
                         <div class="product-image-col">
@@ -259,11 +264,6 @@
                         <div class="product-details-col">
                             <h1 id="productName" class="product-popup-heading"></h1>
                             <p id="product-category-label" class="product-popup-category"></p>
-                            <div id="product-rating-summary" class="product-rating-summary" aria-label="Product rating">
-                                <span id="product-rating-stars" class="product-rating-stars" aria-hidden="true">☆☆☆☆☆</span>
-                                <strong id="product-rating-average">0.0</strong>
-                                <span id="product-rating-count">0 ratings</span>
-                            </div>
                             <div class="popup-price-row">
                                 <span class="retail-price popup-retail" id="retail-price"></span>
                                 <span class="sale-price popup-sale" id="sale-price"></span>

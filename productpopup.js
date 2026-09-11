@@ -839,7 +839,7 @@ function ensurePopupLayoutStyles() {
         body.product-page-mode #product-modal .popup-price-row { margin: 2rem 0 1.25rem; font-size: 1.25rem; }
         body.product-page-mode #product-modal .popup-retail { color: #6b625a; text-decoration: line-through; }
         body.product-page-mode #product-modal .popup-sale { color: #1c1b1a; font-size: 1.5rem; }
-        body.product-page-mode #product-modal .product-rating-summary { display: flex; align-items: center; flex-wrap: wrap; gap: .45rem; margin: .55rem 0 1.25rem; color: #5c5348; font-size: .95rem; }
+        body.product-page-mode #product-modal #product-display > .product-rating-summary { display: flex; justify-content: flex-end; align-items: center; flex-wrap: wrap; gap: .45rem; margin: 0 0 1rem; color: #5c5348; font-size: .95rem; }
         body.product-page-mode #product-modal .product-rating-stars { color: #f5b301; font-size: 1.15rem; letter-spacing: .04em; line-height: 1; }
         body.product-page-mode #product-modal #product-rating-average { color: #1c1b1a; font-size: 1rem; }
         body.product-page-mode #product-modal #product-rating-count { color: #5c5348; }
