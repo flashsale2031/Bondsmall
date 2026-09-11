@@ -2,171 +2,108 @@
     if (window.__bondsMallLogoCycleStarted) return;
     window.__bondsMallLogoCycleStarted = true;
 
-    const sequence = ['text', 'black', 'text', 'gold'];
-    const duration = 10000;
+    const PHASE_DURATION = 10000;
+    const BEAM_DELAY = 8000;
 
-    function installLogoLayout() {
-        if (document.getElementById('bonds-mall-logo-layout-fix')) return;
+    function installTextLogoStyles() {
+        if (document.getElementById('bonds-mall-text-logo-style')) return;
         const style = document.createElement('style');
-        style.id = 'bonds-mall-logo-layout-fix';
+        style.id = 'bonds-mall-text-logo-style';
         style.textContent = `
-            .logo { position: relative !important; display: grid !important; place-items: center !important; min-width: max-content !important; }
-            .logo-text { position: relative !important; z-index: 1 !important; white-space: nowrap !important; color: #111 !important; }
-            .logo-img { position: absolute !important; top: 50% !important; left: 50% !important; right: auto !important; transform: translate(-50%, -50%) !important; width: 42px !important; height: 42px !important; max-width: 42px !important; object-fit: contain !important; object-position: center !important; z-index: 2 !important; margin: 0 !important; }
-            /* The black header face must be a solid, opaque black mark with no white/tinted pixels. */
-            .logo-img--black { filter: brightness(0) !important; opacity: 1 !important; mix-blend-mode: normal !important; }
-            .logo-img--gold { filter: none !important; opacity: 1 !important; }
-            .cat-drawer-menu-b { display: inline-flex !important; align-items: center !important; justify-content: center !important; width: 24px !important; height: 24px !important; margin-right: 8px !important; color: #fff !important; font-family: Georgia, 'Times New Roman', serif !important; font-size: 1.35rem !important; font-weight: 800 !important; line-height: 1 !important; }
+            .logo { position: relative !important; display: inline-flex !important; align-items: center !important; justify-content: center !important; min-width: 9.5rem !important; min-height: 42px !important; overflow: visible !important; }
+            .logo-img { display: none !important; }
+            .logo-text, .logo-text-smile { color: #111 !important; font-family: inherit !important; font-weight: 800 !important; letter-spacing: .12em !important; line-height: 1 !important; }
+            .logo-text { position: relative !important; display: inline-block !important; white-space: nowrap !important; }
+            .logo-text::after { content: ''; position: absolute; inset: -35% -12%; pointer-events: none; opacity: 0; background: linear-gradient(105deg, transparent 35%, rgba(255,255,255,0) 44%, rgba(255,255,255,.95) 50%, rgba(255,255,255,0) 56%, transparent 65%); transform: translateX(-120%); }
+            .logo.logo-beam .logo-text::after { opacity: 1; animation: bonds-logo-beam 1.8s ease-out both; }
+            .logo-text-smile { display: inline-flex !important; align-items: center !important; justify-content: center !important; white-space: nowrap !important; letter-spacing: 0 !important; font-size: .95em !important; }
+            .logo-text-smile .logo-smile-char { display: inline-block; margin: 0 -.01em; transition: transform .8s ease, opacity .8s ease; }
+            .logo-text-smile .logo-smile-char:nth-child(1) { transform: translateY(-.22em) rotate(-20deg); }
+            .logo-text-smile .logo-smile-char:nth-child(2) { transform: translateY(-.08em) rotate(-12deg); }
+            .logo-text-smile .logo-smile-char:nth-child(3) { transform: translateY(.08em) rotate(-6deg); }
+            .logo-text-smile .logo-smile-char:nth-child(4) { transform: translateY(.18em) rotate(-2deg); }
+            .logo-text-smile .logo-smile-char:nth-child(5) { transform: translateY(.22em) rotate(0deg); }
+            .logo-text-smile .logo-smile-char:nth-child(6) { transform: translateY(.18em) rotate(2deg); }
+            .logo-text-smile .logo-smile-char:nth-child(7) { transform: translateY(.08em) rotate(6deg); }
+            .logo-text-smile .logo-smile-char:nth-child(8) { transform: translateY(-.08em) rotate(12deg); }
+            .logo-text-smile .logo-smile-char:nth-child(9) { transform: translateY(-.22em) rotate(20deg); }
+            @keyframes bonds-logo-beam { from { transform: translateX(-120%); } to { transform: translateX(120%); } }
+            @media (max-width: 520px) {
+                .logo { min-width: 8rem !important; min-height: 36px !important; }
+                .logo-text, .logo-text-smile { font-size: .9rem !important; }
+            }
         `;
         document.head.appendChild(style);
     }
 
-    function replaceMenuWingWithWhiteB() {
-        document.querySelectorAll('.cat-drawer-menu-wing').forEach((wing) => {
-            const mark = document.createElement('span');
-            mark.className = 'cat-drawer-menu-b';
-            mark.setAttribute('aria-label', 'Bonds Mall');
-            mark.textContent = 'B';
-            wing.replaceWith(mark);
-        });
-    }
-
-    function stripFlatPhotoBackground(img) {
-        if (!img || img.dataset.bgStripped === '1') return;
-        const process = () => {
-            if (img.dataset.bgStripped === '1' || !img.naturalWidth || !img.naturalHeight) return;
-            try {
-                const canvas = document.createElement('canvas');
-                canvas.width = img.naturalWidth;
-                canvas.height = img.naturalHeight;
-                const ctx = canvas.getContext('2d', { willReadFrequently: true });
-                if (!ctx) return;
-                ctx.drawImage(img, 0, 0);
-                const image = ctx.getImageData(0, 0, canvas.width, canvas.height);
-                const data = image.data;
-                const w = canvas.width;
-                const h = canvas.height;
-                const samples = [];
-                const samplePoints = [[0, 0], [w - 1, 0], [0, h - 1], [w - 1, h - 1], [Math.floor(w / 2), 0], [Math.floor(w / 2), h - 1], [0, Math.floor(h / 2)], [w - 1, Math.floor(h / 2)]];
-                samplePoints.forEach(([x, y]) => {
-                    const i = (y * w + x) * 4;
-                    samples.push([data[i], data[i + 1], data[i + 2]]);
-                });
-                const bg = samples.reduce((sum, rgb) => [sum[0] + rgb[0], sum[1] + rgb[1], sum[2] + rgb[2]], [0, 0, 0]).map(v => v / samples.length);
-                const distance = (i) => {
-                    const dr = data[i] - bg[0];
-                    const dg = data[i + 1] - bg[1];
-                    const db = data[i + 2] - bg[2];
-                    return Math.sqrt(dr * dr + dg * dg + db * db);
-                };
-                const visited = new Uint8Array(w * h);
-                const queue = new Int32Array(w * h);
-                let head = 0;
-                let tail = 0;
-                const tolerance = 72;
-                const softTolerance = 100;
-                const enqueue = (x, y) => {
-                    if (x < 0 || x >= w || y < 0 || y >= h) return;
-                    const p = y * w + x;
-                    if (visited[p]) return;
-                    const i = p * 4;
-                    if (data[i + 3] === 0 || distance(i) <= tolerance) {
-                        visited[p] = 1;
-                        queue[tail++] = p;
-                    }
-                };
-                for (let x = 0; x < w; x++) { enqueue(x, 0); enqueue(x, h - 1); }
-                for (let y = 0; y < h; y++) { enqueue(0, y); enqueue(w - 1, y); }
-                while (head < tail) {
-                    const p = queue[head++];
-                    const x = p % w;
-                    const y = Math.floor(p / w);
-                    const i = p * 4;
-                    data[i + 3] = 0;
-                    enqueue(x - 1, y); enqueue(x + 1, y); enqueue(x, y - 1); enqueue(x, y + 1);
-                }
-                for (let p = 0; p < w * h; p++) {
-                    if (visited[p]) continue;
-                    const i = p * 4;
-                    const d = distance(i);
-                    if (d < softTolerance) data[i + 3] = Math.min(data[i + 3], Math.round(((d - tolerance) / (softTolerance - tolerance)) * 255));
-                }
-
-                /* For the black header face, eliminate the remaining translucent/tinted pixels.
-                   Every surviving logo pixel becomes fully opaque #000000. */
-                if (img.classList.contains('logo-img--black')) {
-                    for (let p = 0; p < w * h; p++) {
-                        const i = p * 4;
-                        if (data[i + 3] > 8) {
-                            data[i] = 0;
-                            data[i + 1] = 0;
-                            data[i + 2] = 0;
-                            data[i + 3] = 255;
-                        } else {
-                            data[i + 3] = 0;
-                        }
-                    }
-                }
-
-                ctx.putImageData(image, 0, 0);
-                img.src = canvas.toDataURL('image/png');
-                img.dataset.bgStripped = '1';
-            } catch (error) {
-                console.warn('Bonds Mall logo background removal skipped:', error);
-            }
-        };
-        if (img.complete) process(); else img.addEventListener('load', process, { once: true });
-    }
-
-    function stripLogoPhotoBackgrounds() {
-        document.querySelectorAll('.logo .logo-img').forEach(stripFlatPhotoBackground);
-    }
-
-    function triggerTextGleam() {
-        document.querySelectorAll('.logo').forEach((logoContainer) => {
-            if (!logoContainer.querySelector('.logo-text')) return;
-            const overlay = document.createElement('div');
-            overlay.className = 'logo-gleam-overlay';
-            const sweep = document.createElement('span');
-            sweep.className = 'logo-gleam-sweep';
-            overlay.appendChild(sweep);
-            logoContainer.appendChild(overlay);
-            window.setTimeout(() => overlay.remove(), 2800);
-        });
-    }
-
-    function applyFace(faceName) {
-        installLogoLayout();
-        replaceMenuWingWithWhiteB();
-        stripLogoPhotoBackgrounds();
-        document.querySelectorAll('.logo').forEach((logoContainer) => {
-            const faces = {
-                text: logoContainer.querySelector('.logo-text'),
-                black: logoContainer.querySelector('.logo-img--black'),
-                gold: logoContainer.querySelector('.logo-img--gold')
-            };
-            Object.entries(faces).forEach(([name, face]) => {
-                if (face) face.classList.toggle('logo-face--active', name === faceName);
+    function ensureTextFaces(logo) {
+        const regular = logo.querySelector('.logo-text');
+        if (!regular) return null;
+        logo.querySelectorAll('.logo-img').forEach((img) => img.remove());
+        let smile = logo.querySelector('.logo-text-smile');
+        if (!smile) {
+            smile = document.createElement('span');
+            smile.className = 'logo-text-smile logo-face';
+            smile.setAttribute('aria-label', 'Bonds Mall');
+            'BONDSMALL'.split('').forEach((letter) => {
+                const char = document.createElement('span');
+                char.className = 'logo-smile-char';
+                char.textContent = letter;
+                char.setAttribute('aria-hidden', 'true');
+                smile.appendChild(char);
             });
-        });
-        if (faceName === 'text') triggerTextGleam();
+            logo.appendChild(smile);
+        }
+        regular.classList.add('logo-face');
+        regular.classList.add('logo-face--active');
+        return { regular, smile };
     }
 
-    let index = 0;
-    function advance() {
-        index = (index + 1) % sequence.length;
-        applyFace(sequence[index]);
-        window.setTimeout(advance, duration);
+    function showRegular(logo, withBeam = false) {
+        const faces = ensureTextFaces(logo);
+        if (!faces) return;
+        faces.regular.classList.add('logo-face--active');
+        faces.smile.classList.remove('logo-face--active');
+        logo.classList.toggle('logo-beam', withBeam);
+    }
+
+    function showSmile(logo) {
+        const faces = ensureTextFaces(logo);
+        if (!faces) return;
+        faces.regular.classList.remove('logo-face--active');
+        faces.smile.classList.add('logo-face--active');
+        logo.classList.remove('logo-beam');
+    }
+
+    function startLogoCycle(logo) {
+        let phase = 1;
+        let beamTimer = null;
+        const advance = () => {
+            window.clearTimeout(beamTimer);
+            if (phase === 1) {
+                showSmile(logo);
+            } else {
+                showRegular(logo, false);
+                beamTimer = window.setTimeout(() => showRegular(logo, true), BEAM_DELAY);
+            }
+            phase = phase === 1 ? 2 : 1;
+            window.setTimeout(advance, PHASE_DURATION);
+        };
+        showRegular(logo, false);
+        window.setTimeout(advance, PHASE_DURATION);
     }
 
     function start() {
-        installLogoLayout();
-        replaceMenuWingWithWhiteB();
-        stripLogoPhotoBackgrounds();
-        applyFace('text');
-        window.setTimeout(advance, duration);
+        installTextLogoStyles();
+        document.querySelectorAll('.logo').forEach((logo) => {
+            ensureTextFaces(logo);
+            startLogoCycle(logo);
+        });
     }
 
-    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, { once: true });
-    else start();
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', start, { once: true });
+    } else {
+        start();
+    }
 })();
