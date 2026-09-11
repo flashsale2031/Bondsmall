@@ -835,6 +835,8 @@ function ensurePopupLayoutStyles() {
         body.product-page-mode #product-modal .popup-header .logo-img { display: none !important; }
         body.product-page-mode #product-modal .product-detail-modal-body { padding: clamp(.9rem, 3vw, 1.5rem); }
         body.product-page-mode #product-modal .main-photo { max-height: min(70vw, 760px); }
+        body.product-page-mode #product-modal .main-photo #main-photo { cursor: zoom-in; }
+        body.product-page-mode #product-modal .photo-thumb { cursor: zoom-in; }
         body.product-page-mode #product-modal .product-popup-heading { margin: 1.25rem 0 .5rem; font-size: clamp(1.6rem, 4vw, 2.6rem); line-height: 1.15; font-weight: 800; }
         body.product-page-mode #product-modal .popup-price-row { margin: 2rem 0 1.25rem; font-size: 1.25rem; }
         body.product-page-mode #product-modal .popup-retail { color: #6b625a; text-decoration: line-through; }
@@ -958,7 +960,12 @@ function populatePhotos(enrichedProduct) {
         im.loading = "lazy";
         btn.appendChild(im);
 
-        btn.addEventListener("click", () => activateThumb(idx));
+        btn.addEventListener("click", () => {
+            activateThumb(idx);
+            if (typeof window.BondsMallOpenProductLightbox === "function") {
+                window.BondsMallOpenProductLightbox(urls, idx);
+            }
+        });
         track.appendChild(btn);
         return btn;
     });
@@ -1438,6 +1445,8 @@ document.addEventListener("DOMContentLoaded", ensureDelegatedListeners);
         document.body.style.top = "";
         window.scrollTo(0, savedScrollY);
     }
+
+    window.BondsMallOpenProductLightbox = openLightbox;
 
     /* ── Click on main photo → open at that photo's index ── */
     document.addEventListener("click", (e) => {
