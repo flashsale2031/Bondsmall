@@ -4,7 +4,7 @@
 
     // Exact 30-second cycle:
     // 0-10s  regular wordmark
-    // 10-20s crammed/arched "smile" wordmark
+    // 10-20s crammed/arched "smile" wordmark with eyes
     // 20-29s regular wordmark
     // 29-30s 1-second light beam
     // then repeat
@@ -27,10 +27,12 @@
                 min-width: 9.5rem !important;
                 min-height: 42px !important;
                 overflow: visible !important;
+                flex: 0 0 auto !important;
+                margin: 0 !important;
             }
             .logo-img { display: none !important; }
 
-            /* Exactly one logo face is visible at a time. */
+            /* Keep the two logo faces in exactly the same place so only one is visible. */
             .logo .logo-face {
                 opacity: 0 !important;
                 visibility: hidden !important;
@@ -71,7 +73,7 @@
                 animation: bonds-logo-beam 1s linear both;
             }
 
-            /* The smile face deliberately tightens the letters into a crammed wordmark. */
+            /* The smile face tightens the letters into a crammed, upward-wrapped smile. */
             .logo-text-smile {
                 display: inline-flex !important;
                 align-items: center !important;
@@ -80,6 +82,23 @@
                 letter-spacing: -.16em !important;
                 font-size: .98em !important;
                 transform: translate(-50%, -50%) !important;
+                position: absolute !important;
+            }
+            /* Two friendly dots sit above the smiling wordmark as eyes. */
+            .logo-text-smile::before {
+                content: '•  •';
+                position: absolute !important;
+                left: 50% !important;
+                top: -1.02em !important;
+                transform: translateX(-50%) !important;
+                color: #111 !important;
+                font-family: Arial, sans-serif !important;
+                font-size: .62em !important;
+                font-weight: 900 !important;
+                letter-spacing: .16em !important;
+                line-height: 1 !important;
+                white-space: nowrap !important;
+                pointer-events: none !important;
             }
             .logo-text-smile .logo-smile-char {
                 display: inline-block !important;
@@ -103,8 +122,21 @@
                 to { transform: translateX(120%); }
             }
 
-            /* On phones the header becomes a clean two-row storefront header so the search
-               field never collapses into a tiny sliver beside the logo/actions. */
+            /* The header-left group always starts at the left: menu, then logo. */
+            .header .header-left {
+                display: flex !important;
+                align-items: center !important;
+                justify-content: flex-start !important;
+                gap: .55rem !important;
+                min-width: 0 !important;
+                width: auto !important;
+                flex: 0 0 auto !important;
+            }
+            .header .header-left .menu-btn {
+                flex: 0 0 auto !important;
+            }
+
+            /* On phones use a clean two-row storefront header. */
             @media (max-width: 800px) {
                 .header {
                     grid-template-columns: minmax(0, 1fr) !important;
@@ -113,14 +145,18 @@
                     padding: .7rem .75rem .8rem !important;
                     min-height: 0 !important;
                 }
-                .header-left {
+                .header .header-left {
                     grid-column: 1 !important;
                     grid-row: 1 !important;
+                    width: auto !important;
                     min-width: 0 !important;
-                    width: 100% !important;
-                    justify-content: space-between !important;
+                    justify-content: flex-start !important;
+                    gap: .5rem !important;
                 }
-                .header-actions {
+                .header .header-actions {
+                    grid-column: 1 !important;
+                    grid-row: 1 !important;
+                    justify-self: end !important;
                     margin-left: auto !important;
                     flex: 0 0 auto !important;
                 }
@@ -207,7 +243,6 @@
             window.setTimeout(render, 100);
         };
 
-        // Start exactly at the beginning of the regular-text phase.
         void REGULAR_START_MS;
         showRegular(logo, false);
         render();
