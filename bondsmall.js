@@ -558,6 +558,8 @@
             btn.classList.toggle("is-active", isFav);
             btn.setAttribute("aria-pressed", isFav ? "true" : "false");
             btn.setAttribute("aria-label", isFav ? "Remove product from favorites" : "Add product to favorites");
+            const label = btn.querySelector("span");
+            if (label) label.textContent = isFav ? "Added To Favs" : "Add To Favs";
             const svg = btn.querySelector("svg");
             if (svg) {
                 svg.setAttribute("fill", isFav ? "#c62828" : "none");

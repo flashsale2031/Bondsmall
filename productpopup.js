@@ -1137,6 +1137,8 @@ window.populateProductPopup = function populateProductPopup(product, opts) {
         favoriteButton.classList.toggle("is-active", isFavorite);
         favoriteButton.setAttribute("aria-pressed", isFavorite ? "true" : "false");
         favoriteButton.setAttribute("aria-label", isFavorite ? "Remove product from favorites" : "Add product to favorites");
+        const favoriteLabel = favoriteButton.querySelector("span");
+        if (favoriteLabel) favoriteLabel.textContent = isFavorite ? "Added To Favs" : "Add To Favs";
         const favoriteIcon = favoriteButton.querySelector("svg");
         if (favoriteIcon) {
             favoriteIcon.setAttribute("fill", isFavorite ? "#c62828" : "none");
