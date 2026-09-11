@@ -190,7 +190,7 @@ function renderProductReviews(productId) {
     if (summaryEl) {
         summaryEl.textContent = count
             ? `${average.toFixed(1)} average rating · ${count} review${count === 1 ? "" : "s"}`
-            : "No reviews yet.";
+            : "";
     }
 
     document.querySelectorAll(".average-rating").forEach((el) => {
@@ -878,6 +878,11 @@ function ensurePopupLayoutStyles() {
         body.product-page-mode #product-modal #review-form > label { display: block; margin: .85rem 0 .45rem; font-weight: 700; }
         body.product-page-mode #product-modal #review-comment { display: block; width: 100%; max-width: 100%; min-height: 120px; box-sizing: border-box; padding: .75rem; border: 1px solid #d8cec4; border-radius: 10px; resize: vertical; font: inherit; line-height: 1.5; }
         body.product-page-mode #product-modal #review-form > br { display: none; }
+        body.product-page-mode #product-modal #review-form button[type="submit"] { display: block; margin-top: 1rem; min-height: 46px; padding: .7rem 1.25rem; border: 0; border-radius: 8px; background: #1c1b1a; color: #fff; font: inherit; font-weight: 700; cursor: pointer; }
+        body.product-page-mode #product-modal #review-messages { min-height: 1.4em; margin: .85rem 0 0; color: #3d6f48; line-height: 1.45; }
+        body.product-page-mode #product-modal #reviews-summary { margin: .85rem 0; color: #5c5348; }
+        body.product-page-mode #product-modal #reviews-list { margin-top: 1rem; }
+        body.product-page-mode #product-modal .reviews-empty-state { margin: 0; padding: 1rem; border: 1px solid #e5ddd4; border-radius: 8px; color: #5c5348; }
         body.product-page-mode #product-modal .coverage-link { display: inline; white-space: normal; }
         body.product-page-mode #product-modal .coverage-link-icon { display: inline; width: 1em; height: 1em; max-width: 1em; max-height: 1em; vertical-align: -.14em; margin-left: .2em; }
         body.product-page-mode #product-modal #similar-products { min-width: 0; max-width: 100%; overflow: hidden; }
