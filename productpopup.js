@@ -1509,6 +1509,9 @@ document.addEventListener("DOMContentLoaded", ensureDelegatedListeners);
         /* Save scroll position before locking */
         savedScrollY = window.scrollY;
         lightbox.hidden = false;
+        lightbox.removeAttribute("hidden");
+        lightbox.style.display = "flex";
+        lightbox.setAttribute("aria-hidden", "false");
         document.body.classList.add("lightbox-open");
         document.body.style.top = `-${savedScrollY}px`;
         lbClose && lbClose.focus();
@@ -1516,6 +1519,8 @@ document.addEventListener("DOMContentLoaded", ensureDelegatedListeners);
 
     function closeLightbox() {
         lightbox.hidden = true;
+        lightbox.style.display = "none";
+        lightbox.setAttribute("aria-hidden", "true");
         lbImg.src = "";
         lbImg.classList.remove("lb-slide-right", "lb-slide-left");
         /* Reset zoom state */
