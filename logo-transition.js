@@ -36,6 +36,46 @@
         document.head.appendChild(style);
     }
 
+    function installProfessionalSearchStyles() {
+        if (document.getElementById('bonds-mall-professional-search-style')) return;
+        const search = document.getElementById('header-search');
+        if (!search) return;
+
+        const style = document.createElement('style');
+        style.id = 'bonds-mall-professional-search-style';
+        style.textContent = `
+            /* Professional storefront search sizing — index.html */
+            .header #header-search {
+                width: 100% !important;
+                min-width: 0 !important;
+                height: 48px !important;
+                padding: 0 1.15rem !important;
+                border: 1px solid #c9bfb4 !important;
+                border-radius: 999px !important;
+                background: #fff !important;
+                color: #1c1b1a !important;
+                font-size: 1rem !important;
+                line-height: 1.2 !important;
+                box-shadow: 0 3px 12px rgba(36, 29, 23, .08) !important;
+                transition: border-color .18s ease, box-shadow .18s ease, transform .18s ease !important;
+            }
+            .header #header-search::placeholder { color: #777069 !important; opacity: 1 !important; }
+            .header #header-search:focus {
+                border-color: #8f4338 !important;
+                box-shadow: 0 0 0 4px rgba(143, 67, 56, .10), 0 5px 16px rgba(36, 29, 23, .10) !important;
+                transform: translateY(-1px);
+            }
+            @media (min-width: 801px) {
+                .header { grid-template-columns: minmax(220px, 1fr) minmax(360px, 620px) minmax(220px, 1fr) !important; }
+                .header #header-search { height: 50px !important; font-size: 1.02rem !important; }
+            }
+            @media (max-width: 800px) {
+                .header #header-search { height: 44px !important; font-size: .95rem !important; padding-inline: .95rem !important; }
+            }
+        `;
+        document.head.appendChild(style);
+    }
+
     function ensureTextFaces(logo) {
         const regular = logo.querySelector('.logo-text');
         if (!regular) return null;
@@ -95,6 +135,7 @@
 
     function start() {
         installTextLogoStyles();
+        installProfessionalSearchStyles();
         document.querySelectorAll('.logo').forEach((logo) => {
             ensureTextFaces(logo);
             startLogoCycle(logo);
