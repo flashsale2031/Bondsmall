@@ -1432,29 +1432,27 @@ document.addEventListener("DOMContentLoaded", ensureDelegatedListeners);
         updateCounter();
         updateNavVisibility();
 
-        /* ── Attach 2× hover zoom to lightbox image (desktop pointer only) ── */
-        if (window.matchMedia("(pointer: fine)").matches) {
-            lbImg.style.cursor = "crosshair";
-            lbImg.style.transformOrigin = "50% 50%";
-            lbImg.style.transform = "scale(1)";
-            lbImg._lbZoomMove = (e) => {
-                const rect = lbImg.getBoundingClientRect();
-                const x = ((e.clientX - rect.left) / rect.width) * 100;
-                const y = ((e.clientY - rect.top) / rect.height) * 100;
-                lbImg.style.transition = "none";
-                lbImg.style.transformOrigin = `${x}% ${y}%`;
-                lbImg.style.transform = "scale(2)";
-            };
-            lbImg._lbZoomLeave = () => {
-                lbImg.style.transition = "transform 0.15s ease";
+        /* ── Click a point in the image to zoom there; click again to reset ── */
+        lbImg.style.cursor = "zoom-in";
+        lbImg.style.transition = "transform .2s ease";
+        lbImg.style.transformOrigin = "50% 50%";
+        lbImg.style.transform = "scale(1)";
+        lbImg.removeEventListener("click", lbImg._lbZoomClick);
+        lbImg._lbZoomClick = (e) => {
+            if (lbImg.style.transform === "scale(2)") {
                 lbImg.style.transform = "scale(1)";
                 lbImg.style.transformOrigin = "50% 50%";
-            };
-            lbImg.removeEventListener("mousemove", lbImg._lbZoomMove);
-            lbImg.removeEventListener("mouseleave", lbImg._lbZoomLeave);
-            lbImg.addEventListener("mousemove", lbImg._lbZoomMove);
-            lbImg.addEventListener("mouseleave", lbImg._lbZoomLeave);
-        }
+                lbImg.style.cursor = "zoom-in";
+                return;
+            }
+            const rect = lbImg.getBoundingClientRect();
+            const x = ((e.clientX - rect.left) / rect.width) * 100;
+            const y = ((e.clientY - rect.top) / rect.height) * 100;
+            lbImg.style.transformOrigin = `${x}% ${y}%`;
+            lbImg.style.transform = "scale(2)";
+            lbImg.style.cursor = "zoom-out";
+        };
+        lbImg.addEventListener("click", lbImg._lbZoomClick);
 
         /* Save scroll position before locking */
         savedScrollY = window.scrollY;
@@ -1472,8 +1470,8 @@ document.addEventListener("DOMContentLoaded", ensureDelegatedListeners);
         lbImg.style.transform = "scale(1)";
         lbImg.style.transformOrigin = "50% 50%";
         lbImg.style.cursor = "";
-        if (lbImg._lbZoomMove)  lbImg.removeEventListener("mousemove",  lbImg._lbZoomMove);
-        if (lbImg._lbZoomLeave) lbImg.removeEventListener("mouseleave", lbImg._lbZoomLeave);
+        lbImg.style.transition = "";
+        if (lbImg._lbZoomClick) lbImg.removeEventListener("click", lbImg._lbZoomClick);
         /* Restore scroll position after unlocking */
         document.body.classList.remove("lightbox-open");
         document.body.style.top = "";
@@ -1496,6 +1494,11 @@ document.addEventListener("DOMContentLoaded", ensureDelegatedListeners);
         if (startIdx === -1) startIdx = 0;
 
         openLightbox(urls.length ? urls : [img.src], startIdx);
+    });
+    document.addEventListener("keydown", (e) => {
+        if ((e.key !== "Enter" && e.key !== " ") || !e.target.closest("#main-photo")) return;
+        e.preventDefault();
+        e.target.click();
     });
 
     /* ── Arrow navigation ── */
