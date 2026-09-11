@@ -933,6 +933,7 @@
                 <div>
                     <strong class="cart-item-title">${item.name}</strong>
                     ${item.condition ? `<span class="cart-item-condition-badge" style="display:inline-block; font-size:0.75rem; background:#1f1f1f; color:#fff; padding:0.15rem 0.4rem; border-radius:4px; font-weight:600; margin-top:0.2rem;">${item.condition}</span>` : ""}
+                    ${item.deliveryOption ? `<span class="cart-item-delivery-badge" style="display:block; font-size:0.75rem; color:#5c5348; margin-top:0.2rem;">${item.deliveryOption === "exp" ? "Express shipping" : "Standard shipping"}</span>` : ""}
                     <p class="cart-item-price">Unit: ${formatMoney(item.price)}</p>
                     <p class="cart-item-line-total">${formatMoney(item.price * item.quantity)}</p>
                     <div class="qty-row">
@@ -961,7 +962,7 @@
         return Math.round(base * 0.8 * 100) / 100;
     }
 
-    function addToCart(productId, addQty = 1, condition = "") {
+    function addToCart(productId, addQty = 1, condition = "", deliveryOption = "std") {
         const numericProductId = Number(productId);
         const product = getProductsJsRecords().find((item) => Number(item.id) === numericProductId)
             || getChunkRecords().find((item) => Number(item.id) === numericProductId)
@@ -983,11 +984,12 @@
             ? getPreOwnedPrice(product)
             : Number(product.price ?? product["sale price"] ?? product.salePrice ?? 0);
 
-        const existing = cart.find((item) => item.id === product.id && (item.condition || "New") === finalCondition);
+        const selectedDelivery = deliveryOption === "exp" ? "exp" : "std";
+        const existing = cart.find((item) => item.id === product.id && (item.condition || "New") === finalCondition && (item.deliveryOption || "std") === selectedDelivery);
         if (existing) {
             existing.quantity += amount;
         } else {
-            cart.push({ ...product, price: unitPrice, quantity: amount, condition: finalCondition });
+            cart.push({ ...product, price: unitPrice, quantity: amount, condition: finalCondition, deliveryOption: selectedDelivery });
         }
 
         updateCartCount();
@@ -1665,7 +1667,9 @@
             const qty = Number.isFinite(rawQty) ? rawQty : 1;
             const conditionEl = document.getElementById("condition-select");
             const condition = conditionEl ? conditionEl.value : "New";
-            addToCart(activeModalProductId, qty, condition);
+            const deliveryEl = document.querySelector("#delivery-options .delivery-option.selected");
+            const delivery = deliveryEl ? deliveryEl.dataset.id : "std";
+            addToCart(activeModalProductId, qty, condition, delivery);
         }
         closeProductModal();
     });
