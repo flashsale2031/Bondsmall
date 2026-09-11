@@ -853,6 +853,7 @@ function ensurePopupLayoutStyles() {
         body.product-page-mode #product-modal #product-display > .product-rating-summary { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: .75rem; margin: 0 0 1rem; color: #5c5348; font-size: .95rem; }
         body.product-page-mode #product-modal .product-rating-values { display: inline-flex; align-items: center; gap: .45rem; }
         body.product-page-mode #product-modal .product-page-fav-btn { display: inline-flex; align-items: center; gap: .45rem; padding: .35rem .55rem; border: 0; background: transparent; color: #1c1b1a; font: inherit; font-weight: 700; cursor: pointer; }
+        body.product-page-mode #product-modal .product-page-fav-btn > span { text-decoration: underline; text-underline-offset: .15em; }
         body.product-page-mode #product-modal .product-page-fav-icon { width: 1.25rem; height: 1.25rem; fill: none; stroke: #1c1b1a; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
         body.product-page-mode #product-modal .product-page-fav-btn.is-active { color: #c62828; }
         body.product-page-mode #product-modal .product-page-fav-btn.is-active .product-page-fav-icon { fill: #c62828; stroke: #c62828; }
