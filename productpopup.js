@@ -1257,17 +1257,6 @@ window.populateProductPopup = function populateProductPopup(product, opts) {
     script.text = JSON.stringify(schema);
     document.head.appendChild(script);
 
-    // Dynamic footer menu injection inside product popup
-    const modalBody = document.querySelector(".product-detail-modal-body");
-    if (modalBody) {
-        let existingFooter = modalBody.querySelector(".site-footer");
-        if (!existingFooter) {
-            const footerContainer = document.createElement("div");
-            footerContainer.innerHTML = getFooterHTML();
-            modalBody.appendChild(footerContainer.firstElementChild);
-        }
-    }
-
     resetReviewUi();
 };
 
