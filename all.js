@@ -60,7 +60,7 @@
             const name = String(product.name || product.title || 'Product');
             const image = productImage(product);
             const price = product['sale price'] ?? product.salePrice ?? product.price;
-            return `<a class="category-preview-card" href="search-results.html?category=${key}" aria-label="Browse ${key} products">
+            return `<a class="category-preview-card" href="./?product=${encodeURIComponent(product.id)}" aria-label="View ${name}">
                 <img class="category-preview-image" src="${image}" alt="${name}" loading="lazy">
                 <span class="category-preview-copy"><span class="category-preview-name">${name}</span><span class="category-preview-price">${money(price)}</span></span>
             </a>`;
