@@ -24,7 +24,7 @@
     <script src="reviews.js?v=1.0.0" defer></script>
     <script src="productpopup.js?v=1.8.3" defer></script>
     <script src="bondsmall-account.js?v=1.0.2" defer></script>
-    <script src="logo-transition.js?v=1.1.0" defer></script>
+    <script src="logo-transition.js?v=1.1.1" defer></script>
     <script src="bondsmall.js?v=2.1.9" defer></script>
     <script src="category-menu.js?v=1.0.3" defer></script>
     <script src="all.js?v=1.0.1" defer></script>
@@ -253,20 +253,16 @@
                         </span>
                     </div>
                     <div class="product-display-grid">
-                        <!-- LEFT: image column (vertical strip + main photo side by side) -->
                         <div class="product-image-col">
-                            <!-- Vertical thumbnail strip on the left -->
                             <div class="photo-strip-carousel" id="photo-strip-carousel" aria-label="Product photos gallery">
                                 <button class="photo-strip-arrow photo-strip-prev" id="photo-strip-prev" aria-label="Previous photo" hidden>&#9650;</button>
                                 <div class="photo-strip-track" id="photo-strip-track" role="listbox" aria-label="Photo thumbnails"></div>
                                 <button class="photo-strip-arrow photo-strip-next" id="photo-strip-next" aria-label="Next photo">&#9660;</button>
                             </div>
-                            <!-- Main photo display -->
                             <div class="main-photo" aria-live="polite" aria-atomic="true">
                                 <img id="main-photo" src="" alt="Main product photo" title="Click to view full size" role="button" tabindex="0" aria-label="Open product photo gallery">
                             </div>
                         </div>
-                        <!-- RIGHT: details column -->
                         <div class="product-details-col">
                             <h1 id="productName" class="product-popup-heading"></h1>
                             <p id="product-category-label" class="product-popup-category"></p>
@@ -293,29 +289,22 @@
                         </div>
                     </div>
                 </section>
-
                 <section id="sold-by" class="popup-section" aria-label="Sold By Section"></section>
-
                 <section id="coverage" class="popup-section" aria-label="Coverage Section"></section>
-
                 <section id="delivery" class="popup-section" aria-label="Delivery Section">
                     <h2 class="popup-h2">Delivery</h2>
                     <div class="delivery-slide" id="delivery-options" role="radiogroup" aria-label="Shipping options"></div>
                 </section>
-
-
                 <section id="description" class="popup-section" aria-label="Description Section">
                     <h2 class="popup-h2">Description</h2>
                     <p id="short-description"></p>
                     <button type="button" class="dropdown-btn" id="toggle-description-btn" aria-expanded="false" aria-controls="full-description">See More</button>
                     <p id="full-description" hidden></p>
                 </section>
-
                 <section id="specifications" class="popup-section" aria-label="Specifications Section">
                     <h2 class="popup-h2">Specifications</h2>
                     <div id="specifications-form" class="popup-spec-grid" aria-label="Product Specifications"></div>
                 </section>
-
                 <section id="similar-products" class="popup-section" aria-label="Similar Products Section">
                     <h2 class="popup-h2">Similar Products</h2>
                     <div class="similar-products-slide" id="similar-products-slide"></div>
@@ -324,7 +313,6 @@
                         <button type="button" id="similar-next" class="similar-nav-btn" aria-label="Next similar products">▶</button>
                     </div>
                 </section>
-
                 <section id="reviews" class="popup-section" aria-label="Reviews Section">
                     <h2 class="popup-h2">Reviews</h2>
                     <form id="review-form">
@@ -358,11 +346,9 @@
                 </div>
                 <button id="close-cart" class="close-btn" aria-label="Close cart">X</button>
             </header>
-
             <div id="cart-items" class="cart-items">
                 <p class="empty-state">Your cart is empty</p>
             </div>
-
             <div id="cart-summary" class="cart-summary hidden">
                 <div class="totals-row">
                     <span>Order Total</span>
@@ -370,7 +356,6 @@
                 </div>
                 <button id="to-shipping" class="primary-btn">Proceed To Checkout</button>
             </div>
-
             <div id="checkout-steps" class="checkout-steps hidden">
                 <section id="shipping-section" class="checkout-panel">
                     <h4>Shipping Address</h4>
@@ -386,7 +371,6 @@
                         <button type="submit" class="primary-btn">Payment Information</button>
                     </form>
                 </section>
-
                 <section id="payment-section" class="checkout-panel hidden">
                     <h4>Payment Information</h4>
                     <form id="payment-form">
@@ -394,7 +378,6 @@
                             <span class="checkout-sticker">Secure Checkout</span>
                             <span class="checkout-sticker subtle">ACH Processing</span>
                         </div>
-
                         <div class="pay-type-row" role="radiogroup" aria-label="Payment method">
                             <label class="pay-type active">
                                 <input type="radio" name="pay-method" value="credit" checked>
@@ -405,13 +388,11 @@
                                 <span>Debit Card</span>
                             </label>
                         </div>
-
                         <div class="card-brands" aria-label="Supported cards">
                             <span class="brand-badge">VISA</span>
                             <span class="brand-badge">Mastercard</span>
                             <span class="brand-badge">Amex</span>
                         </div>
-
                         <div id="card-fields">
                             <input type="text" id="card-name" placeholder="Name on card" required>
                             <input type="text" id="card-number" placeholder="Card number" inputmode="numeric" maxlength="23" required>
@@ -420,13 +401,11 @@
                                 <input type="text" id="card-cvv" placeholder="CVV" maxlength="4" inputmode="numeric" required>
                             </div>
                         </div>
-
                         <p id="payment-feedback" class="payment-feedback" aria-live="polite"></p>
                         <p class="ach-note">Secure payments powered by Bonds Mall. Your payment details are encrypted and never stored on our servers.</p>
                         <button type="submit" class="primary-btn">Continue to Review &amp; Pay</button>
                     </form>
                 </section>
-
                 <section id="discount-section" class="checkout-panel hidden">
                     <h4>Discount</h4>
                     <p id="tax-total" class="tax-total">Total with 8.7% tax: $0.00</p>
@@ -452,8 +431,6 @@
                 </div>
                 <button id="close-account" class="close-btn" aria-label="Close account panel">X</button>
             </header>
-
-            <!-- Sign In/Up View -->
             <div id="auth-view" class="account-view">
                 <div class="account-tabs" role="tablist" aria-label="Account forms">
                     <button id="account-tab-signin" class="account-tab active" role="tab" aria-selected="true" data-view="signin">Sign In</button>
@@ -461,10 +438,8 @@
                 </div>
                 <iframe id="account-frame" class="account-frame" title="Account form" src="about:blank"></iframe>
             </div>
-
             <p id="account-status" aria-live="polite" style="margin: 0 1rem 1rem; color: #1f7a46; font-size: 0.9rem;"></p>
             <pre id="account-debug" style="display: none; margin: 0 1rem 1rem; white-space: pre-wrap; word-break: break-word; font-size: 0.75rem; line-height: 1.35; color: #7b2f2f; background: #fff4f4; border: 1px solid #efcece; border-radius: 8px; padding: 0.6rem;"></pre>
-
             <div id="account-loading-view" class="account-view hidden" aria-hidden="true">
                 <div class="account-loading-shell" aria-label="Loading account details">
                     <div class="account-skeleton-avatar"></div>
@@ -478,8 +453,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Profile View -->
             <div id="profile-view" class="account-view hidden">
                 <div style="text-align: center; margin-bottom: 1.5rem; padding: 1.5rem 1.5rem 0;">
                     <img id="account-profile-pic" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='35' r='20' fill='%236f6356'/%3E%3Cellipse cx='50' cy='75' rx='28' ry='22' fill='%236f6356'/%3E%3C/svg%3E" alt="Profile" style="width: 80px; height: 80px; border-radius: 50%; border: 3px solid #e9dece; object-fit: cover;">
@@ -488,7 +461,6 @@
                     <h3 id="account-user-name" style="margin: 0.5rem 0; color: #1f1a14; font-size: 1.1rem;">User</h3>
                     <p id="account-user-email" style="margin: 0; color: #5c5348; font-size: 0.9rem;">user@example.com</p>
                 </div>
-                <!-- Favorites Section -->
                 <div class="account-favorites-section" style="padding: 0 1.5rem 1rem; border-top: 1px solid #e6d8c5; margin-top: 1rem; padding-top: 1rem;">
                     <h4 style="margin: 0 0 0.8rem; color: #1f1a14; font-size: 0.95rem; font-weight: 800; display: flex; align-items: center; gap: 0.4rem;">
                         <svg style="width: 16px; height: 16px; color: #8c2f39;" fill="currentColor" viewBox="0 0 24 24">
