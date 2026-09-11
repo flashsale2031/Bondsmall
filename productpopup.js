@@ -108,6 +108,9 @@ function getReviewStorageKey(productId) {
 }
 
 function loadProductReviews(productId) {
+    if (window.BondsMallReviews && typeof window.BondsMallReviews.getForProduct === "function") {
+        return window.BondsMallReviews.getForProduct(productId);
+    }
     const key = getReviewStorageKey(productId);
     if (!key) return [];
 
@@ -121,6 +124,10 @@ function loadProductReviews(productId) {
 }
 
 function saveProductReviews(productId, reviews) {
+    if (window.BondsMallReviews && typeof window.BondsMallReviews.replaceForProduct === "function") {
+        window.BondsMallReviews.replaceForProduct(productId, reviews);
+        return;
+    }
     const key = getReviewStorageKey(productId);
     if (!key) return;
     localStorage.setItem(key, JSON.stringify(reviews));
@@ -721,13 +728,26 @@ function ensureDelegatedListeners() {
         }
     });
 
+    document.querySelectorAll("#review-form .star-button").forEach((button) => {
+        button.addEventListener("click", () => {
+            const rating = Number(button.dataset.rating);
+            const alreadySelected = button.getAttribute("aria-pressed") === "true";
+            document.querySelectorAll("#review-form .star-button").forEach((star) => {
+                const selected = !alreadySelected && Number(star.dataset.rating) <= rating;
+                star.setAttribute("aria-pressed", selected ? "true" : "false");
+                star.classList.toggle("selected", selected);
+            });
+        });
+    });
+
     document.getElementById("review-form")?.addEventListener("submit", (event) => {
         event.preventDefault();
         const msg = document.getElementById("review-messages");
-        const ratingChecked = document.querySelector('#review-form input[name="rating"]:checked');
+        const ratingButton = [...document.querySelectorAll('#review-form .star-button[aria-pressed="true"]')]
+            .sort((a, b) => Number(b.dataset.rating) - Number(a.dataset.rating))[0];
         const commentEl = document.getElementById("review-comment");
 
-        const starCount = ratingChecked ? Number(ratingChecked.value) : null;
+        const starCount = ratingButton ? Number(ratingButton.dataset.rating) : null;
         const comment = commentEl ? commentEl.value.trim() : "";
 
         if (!activeReviewProductId || !starCount) {
@@ -757,8 +777,9 @@ function ensureDelegatedListeners() {
         if (commentEl) commentEl.value = "";
 
         // Reset star selection
-        document.querySelectorAll('#review-form input[name="rating"]').forEach((r) => {
-            r.checked = false;
+        document.querySelectorAll('#review-form .star-button').forEach((star) => {
+            star.setAttribute("aria-pressed", "false");
+            star.classList.remove("selected");
         });
     });
 }
@@ -817,6 +838,15 @@ function ensurePopupLayoutStyles() {
         body.product-page-mode #product-modal #specifications-form { margin-top: .8rem; }
         body.product-page-mode #product-modal #similar-products-slide { margin-top: .85rem; }
         body.product-page-mode #product-modal #reviews form { margin-top: .85rem; }
+        body.product-page-mode #product-modal #review-form { display: block; max-width: 680px; }
+        body.product-page-mode #product-modal .popup-stars { display: flex; align-items: center; gap: .15rem; margin: 0 0 1rem; }
+        body.product-page-mode #product-modal .star-button { appearance: none; border: 0; padding: .1rem .2rem; background: transparent; color: #c8c0b7; cursor: pointer; font: inherit; font-size: 1.8rem; line-height: 1; }
+        body.product-page-mode #product-modal .star-button:hover,
+        body.product-page-mode #product-modal .star-button:focus-visible,
+        body.product-page-mode #product-modal .star-button.selected { color: #f5b301; }
+        body.product-page-mode #product-modal #review-form > label { display: block; margin: .85rem 0 .45rem; font-weight: 700; }
+        body.product-page-mode #product-modal #review-comment { display: block; width: 100%; max-width: 100%; min-height: 120px; box-sizing: border-box; padding: .75rem; border: 1px solid #d8cec4; border-radius: 10px; resize: vertical; font: inherit; line-height: 1.5; }
+        body.product-page-mode #product-modal #review-form > br { display: none; }
         body.product-page-mode #product-modal .coverage-link { display: inline; white-space: normal; }
         body.product-page-mode #product-modal .coverage-link-icon { display: inline; width: 1em; height: 1em; max-width: 1em; max-height: 1em; vertical-align: -.14em; margin-left: .2em; }
         body.product-page-mode #product-modal #similar-products { min-width: 0; max-width: 100%; overflow: hidden; }
@@ -985,8 +1015,9 @@ function resetReviewUi() {
     }
     const comment = document.getElementById("review-comment");
     if (comment) comment.value = "";
-    document.querySelectorAll('#review-form input[name="rating"]').forEach((r) => {
-        r.checked = false;
+    document.querySelectorAll('#review-form .star-button').forEach((star) => {
+        star.setAttribute("aria-pressed", "false");
+        star.classList.remove("selected");
     });
     renderProductReviews(activeReviewProductId);
 }
