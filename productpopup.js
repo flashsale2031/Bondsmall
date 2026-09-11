@@ -266,22 +266,23 @@ function initDeliveryOptions() {
 
     container.innerHTML = "";
     deliveryOptions.forEach((opt, i) => {
-        const div = document.createElement("div");
-        div.className = "delivery-option" + (i === 0 ? " selected" : "");
-        div.tabIndex = 0;
-        div.setAttribute("role", "radio");
-        div.setAttribute("aria-checked", i === 0 ? "true" : "false");
-        div.textContent = `${opt.label} — ${opt.price === 0 ? "Free" : `$${opt.price.toFixed(2)}`} · ${opt.days}`;
-        div.dataset.id = opt.id;
-        div.addEventListener("click", () => {
+        const option = document.createElement("button");
+        option.type = "button";
+        option.className = "delivery-option" + (i === 0 ? " selected" : "");
+        option.setAttribute("role", "radio");
+        option.setAttribute("aria-checked", i === 0 ? "true" : "false");
+        option.setAttribute("aria-label", `${opt.label}, ${opt.price === 0 ? "Free" : formatPopupMoney(opt.price)}, ${opt.days}`);
+        option.textContent = `${opt.label} — ${opt.price === 0 ? "Free" : formatPopupMoney(opt.price)} · ${opt.days}`;
+        option.dataset.id = opt.id;
+        option.addEventListener("click", () => {
             [...container.children].forEach((child) => {
                 child.classList.remove("selected");
                 child.setAttribute("aria-checked", "false");
             });
-            div.classList.add("selected");
-            div.setAttribute("aria-checked", "true");
+            option.classList.add("selected");
+            option.setAttribute("aria-checked", "true");
         });
-        container.appendChild(div);
+        container.appendChild(option);
     });
 }
 
@@ -841,6 +842,10 @@ function ensurePopupLayoutStyles() {
         body.product-page-mode #product-modal .coverage-text,
         body.product-page-mode #product-modal #description p { margin: 0; line-height: 1.6; }
         body.product-page-mode #product-modal #delivery-options { margin-top: .8rem; }
+        body.product-page-mode #product-modal .delivery-slide { display: grid; gap: .65rem; max-width: 680px; }
+        body.product-page-mode #product-modal .delivery-option { width: 100%; padding: .85rem 1rem; border: 1px solid #cfc6bc; border-radius: 8px; background: #fff; color: #1c1b1a; text-align: left; font: inherit; line-height: 1.4; cursor: pointer; }
+        body.product-page-mode #product-modal .delivery-option.selected { border: 2px solid #111; background: #f3f1ee; font-weight: 700; }
+        body.product-page-mode #product-modal .delivery-option:focus-visible { outline: 3px solid #3b82f6; outline-offset: 2px; }
         body.product-page-mode #product-modal #specifications-form { margin-top: .8rem; }
         body.product-page-mode #product-modal #similar-products-slide { margin-top: .85rem; }
         body.product-page-mode #product-modal #reviews form { margin-top: .85rem; }
