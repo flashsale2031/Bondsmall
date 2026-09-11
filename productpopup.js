@@ -755,6 +755,15 @@ function ensureDelegatedListeners() {
         });
     });
 
+    document.querySelectorAll(".product-page-fav-btn").forEach((button) => {
+        button.addEventListener("click", () => {
+            const productId = button.dataset.id;
+            if (productId && typeof window.BondsMallToggleFavorite === "function") {
+                window.BondsMallToggleFavorite(productId);
+            }
+        });
+    });
+
     document.getElementById("review-form")?.addEventListener("submit", (event) => {
         event.preventDefault();
         const msg = document.getElementById("review-messages");
@@ -841,7 +850,15 @@ function ensurePopupLayoutStyles() {
         body.product-page-mode #product-modal .popup-price-row { margin: 2rem 0 1.25rem; font-size: 1.25rem; }
         body.product-page-mode #product-modal .popup-retail { color: #6b625a; text-decoration: line-through; }
         body.product-page-mode #product-modal .popup-sale { color: #1c1b1a; font-size: 1.5rem; }
-        body.product-page-mode #product-modal #product-display > .product-rating-summary { display: flex; justify-content: flex-end; align-items: center; flex-wrap: wrap; gap: .45rem; margin: 0 0 1rem; color: #5c5348; font-size: .95rem; }
+        body.product-page-mode #product-modal #product-display > .product-rating-summary { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: .75rem; margin: 0 0 1rem; color: #5c5348; font-size: .95rem; }
+        body.product-page-mode #product-modal .product-rating-values { display: inline-flex; align-items: center; gap: .45rem; }
+        body.product-page-mode #product-modal .product-page-fav-btn { display: inline-flex; align-items: center; gap: .45rem; padding: .35rem .55rem; border: 0; background: transparent; color: #1c1b1a; font: inherit; font-weight: 700; cursor: pointer; }
+        body.product-page-mode #product-modal .product-page-fav-icon { width: 1.25rem; height: 1.25rem; fill: none; stroke: #1c1b1a; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+        body.product-page-mode #product-modal .product-page-fav-btn.is-active { color: #c62828; }
+        body.product-page-mode #product-modal .product-page-fav-btn.is-active .product-page-fav-icon { fill: #c62828; stroke: #c62828; }
+        body.product-page-mode #product-modal .product-page-fav-btn:hover .product-page-fav-icon,
+        body.product-page-mode #product-modal .product-page-fav-btn:focus-visible .product-page-fav-icon { stroke: #c62828; }
+        body.product-page-mode #product-modal .product-page-fav-btn:focus-visible { outline: 3px solid #3b82f6; outline-offset: 2px; border-radius: 6px; }
         body.product-page-mode #product-modal .product-rating-stars { color: #f5b301; font-size: 1.15rem; letter-spacing: .04em; line-height: 1; }
         body.product-page-mode #product-modal #product-rating-average { color: #1c1b1a; font-size: 1rem; }
         body.product-page-mode #product-modal #product-rating-count { color: #5c5348; }
@@ -1105,6 +1122,21 @@ window.populateProductPopup = function populateProductPopup(product, opts) {
     const enriched = enrichForPopup(productForCondition(product, initialCondition));
     activeReviewProductId = enriched.id || product.id || "";
     window.__activePopupProduct = enriched;
+    const favoriteButton = document.querySelector(".product-page-fav-btn");
+    if (favoriteButton) {
+        favoriteButton.dataset.id = String(activeReviewProductId);
+        const isFavorite = typeof window.BondsMallIsFavorite === "function"
+            ? window.BondsMallIsFavorite(activeReviewProductId)
+            : false;
+        favoriteButton.classList.toggle("is-active", isFavorite);
+        favoriteButton.setAttribute("aria-pressed", isFavorite ? "true" : "false");
+        favoriteButton.setAttribute("aria-label", isFavorite ? "Remove product from favorites" : "Add product to favorites");
+        const favoriteIcon = favoriteButton.querySelector("svg");
+        if (favoriteIcon) {
+            favoriteIcon.setAttribute("fill", isFavorite ? "#c62828" : "none");
+            favoriteIcon.setAttribute("stroke", isFavorite ? "#c62828" : "#1c1b1a");
+        }
+    }
 
     const qty = document.getElementById("quantity");
     if (qty) qty.value = 1;

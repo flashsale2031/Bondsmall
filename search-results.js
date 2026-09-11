@@ -303,6 +303,18 @@
             }
         });
 
+        document.querySelectorAll(".product-page-fav-btn").forEach(btn => {
+            const isFav = favs.includes(Number(btn.dataset.id));
+            btn.classList.toggle("is-active", isFav);
+            btn.setAttribute("aria-pressed", isFav ? "true" : "false");
+            btn.setAttribute("aria-label", isFav ? "Remove product from favorites" : "Add product to favorites");
+            const svg = btn.querySelector("svg");
+            if (svg) {
+                svg.setAttribute("fill", isFav ? "#c62828" : "none");
+                svg.setAttribute("stroke", isFav ? "#c62828" : "#1c1b1a");
+            }
+        });
+
         // 2. Render the Favorites list in the account drawer
         const favListEl = document.getElementById("account-favorites-list");
         if (favListEl) {
@@ -329,6 +341,9 @@
             }
         }
     }
+
+    window.BondsMallToggleFavorite = toggleFavorite;
+    window.BondsMallIsFavorite = (productId) => getFavorites().includes(Number(productId));
 
     function getBaseFilteredProducts(excludeBrand = false, excludeCondition = false) {
         if (typeof window.products === "undefined") return [];
