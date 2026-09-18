@@ -722,3 +722,40 @@ input.input-error {
   font-size: 1.4rem;
   font-weight: 800;
 }
+
+/* Cart interaction fix: keep the drawer above its dimming backdrop. */
+.cart-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.cart-overlay .cart-backdrop {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: rgba(0, 0, 0, 0.45);
+  pointer-events: auto;
+}
+
+.cart-overlay .cart-drawer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  pointer-events: auto;
+}
+
+.cart-overlay .cart-summary,
+.cart-overlay .checkout-steps,
+.cart-overlay .primary-btn,
+.cart-overlay .secondary-btn,
+.cart-overlay button,
+.cart-overlay input,
+.cart-overlay select {
+  position: relative;
+  z-index: 2;
+  pointer-events: auto;
+}
