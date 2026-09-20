@@ -18,6 +18,7 @@
     };
 
     const taxRate = 0.087;
+    const cartStorageKey = "bonds_mall_cart";
 
     let activeCategory = "all";
     let cart = [];
@@ -62,6 +63,22 @@
     const cardCvvInput = document.getElementById("card-cvv");
     const cardFields = document.getElementById("card-fields");
     const paymentFeedback = document.getElementById("payment-feedback");
+
+    function getPersistedCart() {
+        try {
+            const value = JSON.parse(localStorage.getItem(cartStorageKey) || "[]");
+            return Array.isArray(value) ? value : [];
+        } catch (_) {
+            return [];
+        }
+    }
+
+    function getLiveCart() {
+        const sharedItems = window.BondsCart && typeof window.BondsCart.getItems === "function"
+            ? window.BondsCart.getItems()
+            : [];
+        return sharedItems.length ? sharedItems : (cart.length ? cart : getPersistedCart());
+    }
 
     const productModal = document.getElementById("product-modal");
     const modalClose = document.getElementById("modal-close"); // may be null (X button removed)
@@ -1035,6 +1052,15 @@
         renderCart();
     }
 
+    function syncCartFromSharedState() {
+        const liveItems = getLiveCart();
+        if (liveItems.length || cart.length === 0) {
+            cart = liveItems.map((item) => ({ ...item }));
+            updateCartCount();
+            renderCart();
+        }
+    }
+
     function openCart() {
         cartOverlay.classList.remove("hidden");
     }
@@ -1497,6 +1523,7 @@
                 setPaymentMessage("Payment approved. Confirmation email could not be sent.", true);
             }
 
+            if (window.BondsCart && typeof window.BondsCart.clear === "function") window.BondsCart.clear();
             cart = [];
             shippingData = null;
             activeDiscountRate = 0;
@@ -1614,16 +1641,18 @@
         if (closeCartBtn) closeCartBtn.addEventListener("click", closeCart);
         if (cartBackdrop) cartBackdrop.addEventListener("click", closeCart);
 
-        if (toShippingBtn) {
-            toShippingBtn.addEventListener("click", (event) => {
-                if (cart.length > 0) {
-                    event.preventDefault();
-                    window.location.assign("checkout.html");
-                } else {
-                    event.preventDefault();
-                }
-            });
-        }
+        document.addEventListener("click", (event) => {
+            const checkoutLink = event.target.closest("#to-shipping");
+            if (!checkoutLink) return;
+            if (!getLiveCart().length) {
+                event.preventDefault();
+                checkoutLink.setAttribute("aria-disabled", "true");
+                return;
+            }
+            checkoutLink.removeAttribute("aria-disabled");
+        }, true);
+        document.addEventListener("bonds-cart-updated", syncCartFromSharedState);
+        document.addEventListener("bonds-cart-ready", syncCartFromSharedState, { once: true });
 
         if (shippingForm) {
             shippingForm.addEventListener("submit", (event) => {
@@ -1770,6 +1799,7 @@
         }).catch(() => {
             renderProducts();
         });
+        cart = getLiveCart().map((item) => ({ ...item }));
         updateCartCount();
         renderCart();
         bindEvents();

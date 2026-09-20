@@ -4,7 +4,8 @@
   const codes = { SAVE10: .10, MALL15: .15, BONDS20: .20 };
   const money = value => `$${Number(value || 0).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
   const getItems = () => {
-    if (window.BondsCart?.getItems) return window.BondsCart.getItems();
+    const sharedItems = window.BondsCart?.getItems ? window.BondsCart.getItems() : [];
+    if (sharedItems.length) return sharedItems;
     try { const value = JSON.parse(localStorage.getItem(CART_KEY) || "[]"); return Array.isArray(value) ? value : []; } catch (_) { return []; }
   };
   const subtotal = () => getItems().reduce((total, item) => total + Number(item.price || 0) * Number(item.quantity || 0), 0);
@@ -19,7 +20,21 @@
   document.addEventListener("bonds-cart-ready", mount);
   document.addEventListener("bonds-checkout-start", start);
   document.addEventListener("bonds-checkout-back", () => { hide("checkout-steps"); show("cart-summary"); });
-  document.addEventListener("click", event => { const target = event.target.closest("#apply-discount,#pay-now"); if (!target) return; if (target.id === "apply-discount") { discountRate = codes[(get("discount-code")?.value || "").trim().toUpperCase()] || 0; updateTotals(); } if (target.id === "pay-now") message("Ready to submit securely. Payment submission is handled by the payment service.", true); });
+  document.addEventListener("click", event => {
+    const target = event.target.closest("#to-shipping,#apply-discount,#pay-now");
+    if (!target) return;
+    if (target.id === "to-shipping") {
+      if (!getItems().length) {
+        event.preventDefault();
+        target.setAttribute("aria-disabled", "true");
+      } else {
+        target.removeAttribute("aria-disabled");
+      }
+      return;
+    }
+    if (target.id === "apply-discount") { discountRate = codes[(get("discount-code")?.value || "").trim().toUpperCase()] || 0; updateTotals(); }
+    if (target.id === "pay-now") message("Ready to submit securely. Payment submission is handled by the payment service.", true);
+  });
   document.addEventListener("submit", event => { if (!checkoutRoot || !checkoutRoot.contains(event.target)) return; event.preventDefault(); if (event.target.id === "shipping-form") { shippingData = Object.fromEntries(new FormData(event.target).entries()); hide("shipping-section"); show("payment-section"); return; } if (event.target.id === "payment-form" && validCard()) { hide("payment-section"); show("discount-section"); updateTotals(); } });
   document.addEventListener("change", event => { if (event.target.name === "pay-method") paymentMethod = event.target.value; });
   document.addEventListener("input", event => { if (event.target.id === "card-number") event.target.value = event.target.value.replace(/\D/g, "").replace(/(.{4})/g, "$1 ").trim(); if (event.target.id === "card-expiry") { const d = event.target.value.replace(/\D/g, "").slice(0, 4); event.target.value = d.length > 2 ? `${d.slice(0, 2)}/${d.slice(2)}` : d; } if (event.target.id === "card-cvv") event.target.value = event.target.value.replace(/\D/g, "").slice(0, 4); });
