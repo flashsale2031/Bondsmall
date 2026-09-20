@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Results — BONDS MALL</title>
     <meta name="description" content="Search and browse all products at Bonds Mall. Filter by category, sort by price or rating.">
-    <link rel="stylesheet" href="bondsmall.css?v=1.0.5">
+    <link rel="stylesheet" href="bondsmall.css?v=1.0.6">
     <link rel="stylesheet" href="search-results.css?v=2.1.1">
     <link rel="stylesheet" href="site-footer.css?v=1.0.2">
     <link rel="stylesheet" href="all.css?v=1.0.0">
@@ -27,7 +27,7 @@
     <script src="productpopup.js?v=1.8.3" defer></script>
     <script src="bondsmall-account.js?v=1.0.2" defer></script>
     <script src="logo-transition.js?v=1.1.0" defer></script>
-    <script src="search-results.js?v=2.1.5" defer></script>
+    <script src="search-results.js?v=2.1.6" defer></script>
     <script src="category-menu.js?v=1.0.4" defer></script>
     <link rel="stylesheet" href="localization.css?v=1.0.4">
     <script src="localization.js?v=1.0.4" defer></script>
@@ -390,7 +390,7 @@
                     <h3 id="cart-title">Your Cart</h3>
                     <p class="cart-subtitle">Curated picks ready to checkout</p>
                 </div>
-                <button id="close-cart" class="close-btn" aria-label="Close cart">X</button>
+                <button id="close-cart" class="close-btn" type="button" aria-label="Close cart">X</button>
             </header>
 
             <div id="cart-items" class="cart-items">
@@ -402,7 +402,7 @@
                     <span>Order Total</span>
                     <strong id="cart-total">$0.00</strong>
                 </div>
-                <button id="to-shipping" class="primary-btn">Proceed To Checkout</button>
+                <button id="to-shipping" class="primary-btn" type="button">Proceed To Checkout</button>
             </div>
 
             <div id="checkout-steps" class="checkout-steps hidden">

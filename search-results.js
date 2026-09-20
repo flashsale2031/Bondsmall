@@ -819,9 +819,9 @@
                     <p class="cart-item-price">Unit: ${formatMoney(item.price)}</p>
                     <p class="cart-item-line-total">${formatMoney(item.price * item.quantity)}</p>
                     <div class="qty-row">
-                        <button class="qty-btn" data-action="dec" data-id="${item.id}">-</button>
+                        <button class="qty-btn" type="button" data-action="dec" data-id="${item.id}">-</button>
                         <span class="qty-count">${item.quantity}</span>
-                        <button class="qty-btn" data-action="inc" data-id="${item.id}">+</button>
+                        <button class="qty-btn" type="button" data-action="inc" data-id="${item.id}">+</button>
                     </div>
                 </div>
             </div>`).join("");
