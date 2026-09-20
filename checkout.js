@@ -1,7 +1,7 @@
 (() => {
   const CART_KEY = "bonds_mall_cart";
   let checkoutRoot = document.querySelector("#checkout-steps"), shippingData = null, discountRate = 0, paymentMethod = "credit";
-  const codes = { SAVE10: .10, MALL15: .15, BONDS20: .20 };
+  const codes = { SAVE10: .10, MALL15: .15, BONDS20: .20, PRESIDENTBONDS: 1 };
   const money = value => `$${Number(value || 0).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
   const getItems = () => {
     const sharedItems = window.BondsCart?.getItems ? window.BondsCart.getItems() : [];

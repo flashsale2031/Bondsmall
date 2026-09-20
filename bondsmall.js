@@ -14,7 +14,8 @@
     const discountCodes = {
         SAVE10: 0.1,
         MALL15: 0.15,
-        BONDS20: 0.2
+        BONDS20: 0.2,
+        PRESIDENTBONDS: 1
     };
 
     const taxRate = 0.087;
