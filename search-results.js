@@ -854,6 +854,10 @@
         const selectedCondition = condition || "New";
         const cond = selectedCondition === "Used" ? "Pre-Owned" : selectedCondition;
         const unitPrice = conditionPrice(product, cond);
+        if (window.BondsCart) {
+            window.BondsCart.add({ ...product, price: unitPrice }, amount, cond);
+            return;
+        }
         const existing = cart.find(i => i.id === product.id && (i.condition || "New") === cond);
         if (existing) { existing.quantity += amount; }
         else { cart.push({ ...product, price: unitPrice, quantity: amount, condition: cond }); }

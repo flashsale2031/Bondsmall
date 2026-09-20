@@ -1,0 +1,15 @@
+<aside id="cart-overlay" class="cart-overlay hidden" aria-hidden="true">
+  <div class="cart-backdrop" id="cart-backdrop"></div>
+  <section id="cart-drawer" class="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+    <header class="cart-header">
+      <div><h3 id="cart-title">Your Cart</h3><p class="cart-subtitle">Curated picks ready to checkout</p></div>
+      <button id="close-cart" class="close-btn" type="button" aria-label="Close cart">X</button>
+    </header>
+    <div id="cart-items" class="cart-items"><p class="empty-state">Your cart is empty</p></div>
+    <div id="cart-summary" class="cart-summary hidden">
+      <div class="totals-row"><span>Order Total</span><strong id="cart-total">$0.00</strong></div>
+      <button id="to-shipping" class="primary-btn" type="button">Proceed To Checkout</button>
+    </div>
+    <div id="checkout-root"></div>
+  </section>
+</aside>

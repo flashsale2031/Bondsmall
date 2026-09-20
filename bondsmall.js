@@ -1001,6 +1001,11 @@
             ? getPreOwnedPrice(product)
             : Number(product.price ?? product["sale price"] ?? product.salePrice ?? 0);
 
+        if (window.BondsCart) {
+            window.BondsCart.add({ ...product, price: unitPrice }, amount, finalCondition);
+            return;
+        }
+
         const selectedDelivery = deliveryOption === "exp" ? "exp" : "std";
         const existing = cart.find((item) => item.id === product.id && (item.condition || "New") === finalCondition && (item.deliveryOption || "std") === selectedDelivery);
         if (existing) {

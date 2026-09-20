@@ -16,6 +16,8 @@
     <script src="auth.js" defer></script>
     <script src="bondsmall-account.js" defer></script>
     <script src="bondsmall.js" defer></script>
+    <script src="cart.js?v=1.0.1" defer></script>
+    <script src="checkout.js?v=1.0.1" defer></script>
     <script src="category-menu.js?v=1.0.3" defer></script>
     <script src="all.js?v=1.0.1" defer></script>
     <link rel="stylesheet" href="localization.css?v=1.0.4">
@@ -167,100 +169,7 @@
             </div>
         </article>
     </div>
-
-    <aside id="cart-overlay" class="cart-overlay hidden">
-        <div class="cart-backdrop" id="cart-backdrop"></div>
-        <section id="cart-drawer" class="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title">
-            <header class="cart-header">
-                <div>
-                    <h3 id="cart-title">Your Cart</h3>
-                    <p class="cart-subtitle">Curated picks ready to checkout</p>
-                </div>
-                <button id="close-cart" class="close-btn" aria-label="Close cart">X</button>
-            </header>
-
-            <div id="cart-items" class="cart-items">
-                <p class="empty-state">Your cart is empty</p>
-            </div>
-
-            <div id="cart-summary" class="cart-summary hidden">
-                <div class="totals-row">
-                    <span>Order Total</span>
-                    <strong id="cart-total">$0.00</strong>
-                </div>
-                <button id="to-shipping" class="primary-btn">Proceed To Checkout</button>
-            </div>
-
-            <div id="checkout-steps" class="checkout-steps hidden">
-                <section id="shipping-section" class="checkout-panel">
-                    <h4>Shipping Address</h4>
-                    <form id="shipping-form">
-                        <input type="text" id="ship-name" placeholder="Full name" required>
-                        <input type="email" id="ship-email" placeholder="Email" required>
-                        <input type="tel" id="ship-phone" placeholder="Phone" required>
-                        <input type="text" id="ship-address" placeholder="Street address" required>
-                        <input type="text" id="ship-city" placeholder="City" required>
-                        <input type="text" id="ship-state" placeholder="State" required>
-                        <input type="text" id="ship-zip" placeholder="ZIP code" required>
-                        <input type="text" id="ship-country" placeholder="Country" required>
-                        <button type="submit" class="primary-btn">Payment Information</button>
-                    </form>
-                </section>
-
-                <section id="payment-section" class="checkout-panel hidden">
-                    <h4>Payment Information</h4>
-                    <form id="payment-form">
-                        <div class="checkout-sticker-row">
-                            <span class="checkout-sticker">Secure Checkout</span>
-                            <span class="checkout-sticker subtle">ACH Processing</span>
-                        </div>
-
-                        <div class="pay-type-row" role="radiogroup" aria-label="Payment method">
-                            <label class="pay-type active">
-                                <input type="radio" name="pay-method" value="credit" checked>
-                                <span>Credit Card</span>
-                            </label>
-                            <label class="pay-type">
-                                <input type="radio" name="pay-method" value="debit">
-                                <span>Debit Card</span>
-                            </label>
-                        </div>
-
-                        <div class="card-brands" aria-label="Supported cards">
-                            <span class="brand-badge">VISA</span>
-                            <span class="brand-badge">Mastercard</span>
-                            <span class="brand-badge">Amex</span>
-                        </div>
-
-                        <div id="card-fields">
-                            <input type="text" id="card-name" placeholder="Name on card" required>
-                            <input type="text" id="card-number" placeholder="Card number" inputmode="numeric" maxlength="23" required>
-                            <div class="form-row">
-                                <input type="text" id="card-expiry" placeholder="MM/YY" maxlength="5" required>
-                                <input type="text" id="card-cvv" placeholder="CVV" maxlength="4" inputmode="numeric" required>
-                            </div>
-                        </div>
-
-                        <p id="payment-feedback" class="payment-feedback" aria-live="polite"></p>
-                        <p class="ach-note">Secure payments powered by Bonds Mall. Your payment details are encrypted and never stored on our servers.</p>
-                        <button type="submit" class="primary-btn">Continue to Review &amp; Pay</button>
-                    </form>
-                </section>
-
-                <section id="discount-section" class="checkout-panel hidden">
-                    <h4>Discount</h4>
-                    <p id="tax-total" class="tax-total">Total with 8.7% tax: $0.00</p>
-                    <div class="discount-row">
-                        <input type="text" id="discount-code" placeholder="Enter discount code">
-                        <button id="apply-discount" class="secondary-btn" type="button">Apply</button>
-                    </div>
-                    <p id="final-total" class="final-total">Final total: $0.00</p>
-                    <button id="pay-now" class="primary-btn" type="button">Pay Now</button>
-                    <button id="back-to-cart" class="secondary-btn" type="button">Back to Cart</button>
-                </section>
-            </div>
-        </section>
-    </aside>
+    <div id="cart-root"></div>
 
     <aside id="account-overlay" class="account-overlay hidden" aria-hidden="true">
         <div class="account-backdrop" id="account-backdrop"></div>
@@ -360,6 +269,5 @@
 
 </body>
 </html>
-
 
 
