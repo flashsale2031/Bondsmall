@@ -1615,7 +1615,14 @@
         if (cartBackdrop) cartBackdrop.addEventListener("click", closeCart);
 
         if (toShippingBtn) {
-            toShippingBtn.addEventListener("click", () => { if (cart.length > 0) showShipping(); });
+            toShippingBtn.addEventListener("click", (event) => {
+                if (cart.length > 0) {
+                    event.preventDefault();
+                    window.location.assign("checkout.html");
+                } else {
+                    event.preventDefault();
+                }
+            });
         }
 
         if (shippingForm) {
