@@ -650,8 +650,8 @@
     }
 
     function getFilteredProducts() {
-        const globalTerm = normalize(headerSearch.value);
-        const categoryTerm = normalize(categorySearch.value);
+        const globalTerm = normalize(headerSearch ? headerSearch.value : "");
+        const categoryTerm = normalize(categorySearch ? categorySearch.value : "");
         const renderSource = getRenderableProducts();
 
         return renderSource.filter((product) => {
