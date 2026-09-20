@@ -74,6 +74,14 @@
         }
     }
 
+    function saveCart() {
+        try {
+            localStorage.setItem(cartStorageKey, JSON.stringify(cart));
+        } catch (_) {
+            // Keep the in-memory cart usable if storage is unavailable.
+        }
+    }
+
     function getLiveCart() {
         const sharedItems = window.BondsCart && typeof window.BondsCart.getItems === "function"
             ? window.BondsCart.getItems()
@@ -1032,6 +1040,7 @@
             cart.push({ ...product, price: unitPrice, quantity: amount, condition: finalCondition, deliveryOption: selectedDelivery });
         }
 
+        saveCart();
         updateCartCount();
         renderCart();
         openCart();
@@ -1049,6 +1058,7 @@
             cart = cart.filter((entry) => !(entry.id === item.id && (entry.condition || "New") === targetCondition));
         }
 
+        saveCart();
         updateCartCount();
         renderCart();
     }
@@ -1525,6 +1535,7 @@
             }
 
             if (window.BondsCart && typeof window.BondsCart.clear === "function") window.BondsCart.clear();
+            else localStorage.removeItem(cartStorageKey);
             cart = [];
             shippingData = null;
             activeDiscountRate = 0;
