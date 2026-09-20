@@ -381,3 +381,13 @@ button {
   .cart-item img { width: 64px; height: 64px; }
   .checkout-panel { padding: 0.9rem 0.8rem; }
 }
+
+.checkout-page-main { max-width: 760px; margin: 0 auto; padding: 3rem 1rem 5rem; }
+.checkout-page-header { justify-content: space-between; }
+.checkout-page-intro { margin-bottom: 1.5rem; }
+.checkout-page-intro h1 { margin: 0.35rem 0 0.5rem; }
+.checkout-page-intro p:last-child { color: #665f57; }
+.checkout-page .checkout-steps { display: grid; gap: 1rem; }
+.checkout-page .checkout-panel { background: #fffaf3; border: 1px solid #e6d8c5; border-radius: 16px; padding: 1.25rem; box-shadow: 0 12px 30px rgba(55, 38, 20, .08); }
+.checkout-page .checkout-back-link { display: inline-block; margin-top: .75rem; text-decoration: none; }
+@media (max-width: 640px) { .checkout-page-header { padding-inline: 1rem; } .checkout-page-main { padding-top: 2rem; } }

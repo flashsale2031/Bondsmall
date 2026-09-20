@@ -1,32 +1,27 @@
-<div id="checkout-steps" class="checkout-steps hidden">
-  <section id="shipping-section" class="checkout-panel">
-    <h4>Shipping Address</h4>
-    <form id="shipping-form">
-      <input type="text" id="ship-name" placeholder="Full name" required>
-      <input type="email" id="ship-email" placeholder="Email" required>
-      <input type="tel" id="ship-phone" placeholder="Phone" required>
-      <input type="text" id="ship-address" placeholder="Street address" required>
-      <div class="form-row"><input type="text" id="ship-city" placeholder="City" required><input type="text" id="ship-state" placeholder="State" required></div>
-      <div class="form-row"><input type="text" id="ship-zip" placeholder="ZIP code" required><input type="text" id="ship-country" placeholder="Country" value="US" required></div>
-      <button class="primary-btn" type="submit">Continue to Payment</button>
-    </form>
-  </section>
-  <section id="payment-section" class="checkout-panel hidden">
-    <h4>Payment Information</h4>
-    <form id="payment-form">
-      <div class="checkout-sticker-row"><span class="checkout-sticker">Secure Checkout</span><span class="checkout-sticker subtle">Payment Details</span></div>
-      <div class="pay-type-row" role="radiogroup" aria-label="Payment method"><label class="pay-type active"><input type="radio" name="pay-method" value="credit" checked><span>Credit Card</span></label><label class="pay-type"><input type="radio" name="pay-method" value="debit"><span>Debit Card</span></label></div>
-      <div class="card-brands" aria-label="Supported cards"><span class="brand-badge">VISA</span><span class="brand-badge">Mastercard</span><span class="brand-badge">Amex</span></div>
-      <div id="card-fields"><input type="text" id="card-name" placeholder="Name on card" required><input type="text" id="card-number" placeholder="Card number" inputmode="numeric" maxlength="23" required><div class="form-row"><input type="text" id="card-expiry" placeholder="MM/YY" maxlength="5" required><input type="text" id="card-cvv" placeholder="CVV" maxlength="4" inputmode="numeric" required></div></div>
-      <p id="payment-feedback" class="payment-feedback" aria-live="polite"></p>
-      <button type="submit" class="primary-btn">Continue to Review &amp; Pay</button>
-    </form>
-  </section>
-  <section id="discount-section" class="checkout-panel hidden">
-    <h4>Review &amp; Pay</h4><p id="tax-total" class="tax-total">Total with 8.7% tax: $0.00</p>
-    <div class="discount-row"><input type="text" id="discount-code" placeholder="Enter discount code"><button id="apply-discount" class="secondary-btn" type="button">Apply</button></div>
-    <p id="final-total" class="final-total">Final total: $0.00</p>
-    <button id="pay-now" class="primary-btn" type="button">Pay Now</button>
-    <button id="back-to-cart" class="secondary-btn" type="button">Back to Cart</button>
-  </section>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout | BONDS MALL</title>
+  <link rel="stylesheet" href="bondsmall.css?v=1.0.5">
+  <link rel="stylesheet" href="site-footer.css?v=1.0.2">
+</head>
+<body class="checkout-page">
+  <header class="header checkout-page-header">
+    <div class="header-left"><a href="bondsmall.html" aria-label="Back to Bonds Mall home" style="text-decoration:none;color:inherit;display:flex;"><div class="logo"><span class="logo-text logo-face logo-face--active">BONDS MALL</span></div></a></div>
+    <a class="secondary-btn" href="bondsmall.html">Back to Cart</a>
+  </header>
+  <main class="checkout-page-main">
+    <div class="checkout-page-intro"><p class="all-eyebrow">BONDS MALL</p><h1>Secure Checkout</h1><p>Complete your order details below. Your cart is saved while you checkout.</p></div>
+    <div id="checkout-root">
+      <div id="checkout-steps" class="checkout-steps">
+        <section id="shipping-section" class="checkout-panel"><h4>Shipping Address</h4><form id="shipping-form"><input type="text" id="ship-name" placeholder="Full name" required><input type="email" id="ship-email" placeholder="Email" required><input type="tel" id="ship-phone" placeholder="Phone" required><input type="text" id="ship-address" placeholder="Street address" required><div class="form-row"><input type="text" id="ship-city" placeholder="City" required><input type="text" id="ship-state" placeholder="State" required></div><div class="form-row"><input type="text" id="ship-zip" placeholder="ZIP code" required><input type="text" id="ship-country" placeholder="Country" value="US" required></div><button class="primary-btn" type="submit">Continue to Payment</button></form></section>
+        <section id="payment-section" class="checkout-panel hidden"><h4>Payment Information</h4><form id="payment-form"><div class="checkout-sticker-row"><span class="checkout-sticker">Secure Checkout</span><span class="checkout-sticker subtle">Payment Details</span></div><div class="pay-type-row" role="radiogroup" aria-label="Payment method"><label class="pay-type active"><input type="radio" name="pay-method" value="credit" checked><span>Credit Card</span></label><label class="pay-type"><input type="radio" name="pay-method" value="debit"><span>Debit Card</span></label></div><div class="card-brands" aria-label="Supported cards"><span class="brand-badge">VISA</span><span class="brand-badge">Mastercard</span><span class="brand-badge">Amex</span></div><div id="card-fields"><input type="text" id="card-name" placeholder="Name on card" required><input type="text" id="card-number" placeholder="Card number" inputmode="numeric" maxlength="23" required><div class="form-row"><input type="text" id="card-expiry" placeholder="MM/YY" maxlength="5" required><input type="text" id="card-cvv" placeholder="CVV" maxlength="4" inputmode="numeric" required></div></div><p id="payment-feedback" class="payment-feedback" aria-live="polite"></p><button type="submit" class="primary-btn">Continue to Review &amp; Pay</button></form></section>
+        <section id="discount-section" class="checkout-panel hidden"><h4>Review &amp; Pay</h4><p id="tax-total" class="tax-total">Total with 8.7% tax: $0.00</p><div class="discount-row"><input type="text" id="discount-code" placeholder="Enter discount code"><button id="apply-discount" class="secondary-btn" type="button">Apply</button></div><p id="final-total" class="final-total">Final total: $0.00</p><button id="pay-now" class="primary-btn" type="button">Pay Now</button><p id="checkout-feedback" class="payment-feedback" aria-live="polite"></p><a class="secondary-btn checkout-back-link" href="bondsmall.html">Back to Cart</a></section>
+      </div>
+    </div>
+  </main>
+  <script src="checkout.js?v=1.0.2" defer></script>
+</body>
+</html>
