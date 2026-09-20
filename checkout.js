@@ -69,9 +69,8 @@
       return;
     }
     if (target.id === "apply-discount") applyDiscount();
-    if (target.id === "pay-now") submitOrder();
   });
-  document.addEventListener("submit", event => { if (!checkoutRoot || !checkoutRoot.contains(event.target)) return; event.preventDefault(); if (event.target.id === "shipping-form") { shippingData = Object.fromEntries(new FormData(event.target).entries()); hide("shipping-section"); show("payment-section"); return; } if (event.target.id === "payment-form" && validCard()) { hide("payment-section"); show("discount-section"); updateTotals(); } });
+  document.addEventListener("submit", event => { if (!checkoutRoot || !checkoutRoot.contains(event.target)) return; event.preventDefault(); if (event.target.id === "shipping-form") { shippingData = Object.fromEntries(new FormData(event.target).entries()); hide("shipping-section"); show("payment-section"); return; } if (event.target.id === "payment-form" && validCard()) { hide("payment-section"); show("discount-section"); updateTotals(); return; } if (event.target.id === "checkout-review-form") submitOrder(); });
   document.addEventListener("change", event => { if (event.target.name === "pay-method") paymentMethod = event.target.value; });
   document.addEventListener("input", event => { if (event.target.id === "card-number") event.target.value = event.target.value.replace(/\D/g, "").replace(/(.{4})/g, "$1 ").trim(); if (event.target.id === "card-expiry") { const d = event.target.value.replace(/\D/g, "").slice(0, 4); event.target.value = d.length > 2 ? `${d.slice(0, 2)}/${d.slice(2)}` : d; } if (event.target.id === "card-cvv") event.target.value = event.target.value.replace(/\D/g, "").slice(0, 4); });
   window.addEventListener("DOMContentLoaded", () => { if (checkoutRoot) start(); });
