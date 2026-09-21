@@ -328,17 +328,6 @@
         return `${data.address}, ${data.city}, ${data.state} ${data.zip}, ${data.country}`;
     }
 
-    function formatFullAddress(data) {
-        return {
-            street: data.address,
-            city: data.city,
-            state: data.state,
-            zipCode: data.zip,
-            country: data.country,
-            formatted: `${data.address}, ${data.city}, ${data.state} ${data.zip}, ${data.country}`
-        };
-    }
-
     function updatePaymentMethodUI() {
         const options = paymentForm.querySelectorAll(".pay-type");
         options.forEach((option) => {
@@ -400,108 +389,7 @@
         return true;
     }
 
-    const EMAILJS_CONFIG = Object.freeze({
-        serviceId: "service_nzsqsj8",
-        templateId: "template_440ctbd",
-        publicKey: "jkMeUl-q4N9RS8Ny0"
-    });
-    let emailJsInitialized = false;
-
-    function initEmailJs() {
-        if (!window.emailjs || typeof window.emailjs.send !== "function") {
-            return { success: false, reason: "EmailJS SDK not loaded. Check the EmailJS script or network connection." };
-        }
-        if (!emailJsInitialized) {
-            try {
-                window.emailjs.init({ publicKey: EMAILJS_CONFIG.publicKey });
-                emailJsInitialized = true;
-            } catch (error) {
-                return { success: false, reason: error?.message || "EmailJS initialization failed." };
-            }
-        }
-        return { success: true };
-    }
-
-    window.addEventListener("load", () => {
-        if (!emailJsInitialized) initEmailJs();
-    }, { once: true });
     window.addEventListener("load", mountHostedCardEntry, { once: true });
-
-    /**
-     * EmailJS is intentionally retained for order notifications.
-     * NEVER send PAN, CVV, expiry, bank credentials, SSN, auth tokens, or
-     * Visa Direct credentials through EmailJS.
-     */
-    async function sendOrderEmail(orderData) {
-        const initialized = initEmailJs();
-        if (!initialized.success) return initialized;
-        try {
-            const payment = orderData.paymentSummary || {};
-            const address = formatFullAddress(orderData.shippingInfo);
-            const items = orderData.products.map((item, index) =>
-                `Item ${index + 1}: ${item.name} (x${item.quantity}) - ${formatMoney(item.price * item.quantity)}`
-            ).join("\n");
-
-            const paymentStatus = payment.status || "Processing";
-            const safeSummary = [
-                `Order ID: ${orderData.orderId}`,
-                `Customer: ${orderData.shippingInfo.name}`,
-                `Email: ${orderData.shippingInfo.email}`,
-                `Phone: ${orderData.shippingInfo.phone}`,
-                `Shipping Address: ${address.formatted}`,
-                `Payment Method: ${payment.method || "Card"}`,
-                `Card Brand: ${payment.brand || "Card"}`,
-                `Card Last 4: ${payment.last4 || "N/A"}`,
-                `Payment Status: ${paymentStatus}`,
-                `Payment Reference: ${payment.reference || "N/A"}`,
-                `Subtotal: ${formatMoney(orderData.subtotal)}`,
-                `Tax: ${formatMoney(orderData.taxedTotal - orderData.subtotal)}`,
-                `Final Total: ${formatMoney(orderData.total)}`,
-                "", "Items:", items
-            ].join("\n");
-
-            const payload = {
-                name: orderData.shippingInfo.name,
-                time: new Date().toLocaleString(),
-                formData: safeSummary,
-                message: safeSummary,
-                reply_to: orderData.shippingInfo.email,
-                customer_full_name: orderData.shippingInfo.name,
-                customer_email: orderData.shippingInfo.email,
-                email: orderData.shippingInfo.email,
-                to_email: "bondsquality@gmail.com",
-                recipient_email: "bondsquality@gmail.com",
-                customer_phone: orderData.shippingInfo.phone,
-                shipping_address_formatted: address.formatted,
-                order_id: orderData.orderId,
-                order_items_detailed: items,
-                order_subtotal: formatMoney(orderData.subtotal),
-                order_tax_amount: formatMoney(orderData.taxedTotal - orderData.subtotal),
-                order_final_total: formatMoney(orderData.total),
-                order_products_summary: items,
-                payment_method_type: payment.method || "Card",
-                payment_card_type: payment.brand || "Card",
-                card_last4: payment.last4 || "N/A",
-                payment_reference: payment.reference || "N/A",
-                payment_status: paymentStatus,
-                order_status: "Processing"
-            };
-
-            const response = await window.emailjs.send(
-                EMAILJS_CONFIG.serviceId,
-                EMAILJS_CONFIG.templateId,
-                payload
-            );
-            return { success: true, response };
-        } catch (error) {
-            console.error("EmailJS order confirmation failed", {
-                status: error?.status,
-                text: error?.text,
-                message: error?.message
-            });
-            return { success: false, reason: error?.text || error?.message || "Unknown EmailJS error" };
-        }
-    }
 
     /**
      * Visa Direct payment adapter.
@@ -1519,7 +1407,7 @@
         localStorage.setItem("recentOrder", JSON.stringify(safeOrder));
 
             const emailResult = await Promise.race([
-                Promise.resolve().then(() => sendOrderEmail(recentOrder)).catch((error) => ({
+                Promise.resolve().then(() => window.BondsEmailJS.sendOrderEmail(recentOrder)).catch((error) => ({
                     success: false,
                     reason: error?.message || "EmailJS order notification failed."
                 })),

