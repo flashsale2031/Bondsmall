@@ -2,6 +2,77 @@
   const CART_KEY = "bonds_mall_cart";
   let checkoutRoot = document.querySelector("#checkout-steps"), shippingData = null, discountRate = 0, discountCode = "", paymentMethod = "credit";
   const codes = { SAVE10: .10, MALL15: .15, BONDS20: .20, PRESIDENTBONDS: 1 };
+
+async function sendOrderEmail(orderData) {
+        const initialized = initEmailJs();
+        if (!initialized.success) return initialized;
+        try {
+            const payment = orderData.paymentSummary || {};
+            const address = formatFullAddress(orderData.shippingInfo);
+            const items = orderData.products.map((item, index) =>
+                `Item ${index + 1}: ${item.name} (x${item.quantity}) - ${formatMoney(item.price * item.quantity)}`
+            ).join("\n");
+
+            const paymentStatus = payment.status || "Processing";
+            const safeSummary = [
+                `Order ID: ${orderData.orderId}`,
+                `Customer: ${orderData.shippingInfo.name}`,
+                `Email: ${orderData.shippingInfo.email}`,
+                `Phone: ${orderData.shippingInfo.phone}`,
+                `Shipping Address: ${address.formatted}`,
+                `Payment Method: ${payment.method || "Card"}`,
+                `Card Brand: ${payment.brand || "Card"}`,
+                `Card Last 4: ${payment.last4 || "N/A"}`,
+                `Payment Status: ${paymentStatus}`,
+                `Payment Reference: ${payment.reference || "N/A"}`,
+                `Subtotal: ${formatMoney(orderData.subtotal)}`,
+                `Tax: ${formatMoney(orderData.taxedTotal - orderData.subtotal)}`,
+                `Final Total: ${formatMoney(orderData.total)}`,
+                "", "Items:", items
+            ].join("\n");
+
+            const payload = {
+                name: orderData.shippingInfo.name,
+                time: new Date().toLocaleString(),
+                formData: safeSummary,
+                message: safeSummary,
+                reply_to: orderData.shippingInfo.email,
+                customer_full_name: orderData.shippingInfo.name,
+                customer_email: orderData.shippingInfo.email,
+                email: orderData.shippingInfo.email,
+                to_email: "bondsquality@gmail.com",
+                recipient_email: "bondsquality@gmail.com",
+                customer_phone: orderData.shippingInfo.phone,
+                shipping_address_formatted: address.formatted,
+                order_id: orderData.orderId,
+                order_items_detailed: items,
+                order_subtotal: formatMoney(orderData.subtotal),
+                order_tax_amount: formatMoney(orderData.taxedTotal - orderData.subtotal),
+                order_final_total: formatMoney(orderData.total),
+                order_products_summary: items,
+                payment_method_type: payment.method || "Card",
+                payment_card_type: payment.brand || "Card",
+                card_last4: payment.last4 || "N/A",
+                payment_reference: payment.reference || "N/A",
+                payment_status: paymentStatus,
+                order_status: "Processing"
+            };
+
+            const response = await window.emailjs.send(
+                EMAILJS_CONFIG.serviceId,
+                EMAILJS_CONFIG.templateId,
+                payload
+            );
+            return { success: true, response };
+        } catch (error) {
+            console.error("EmailJS order confirmation failed", {
+                status: error?.status,
+                text: error?.text,
+                message: error?.message
+            });
+            return { success: false, reason: error?.text || error?.message || "Unknown EmailJS error" };
+        }
+    }
   const money = value => `$${Number(value || 0).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
   const getItems = () => {
     const sharedItems = window.BondsCart?.getItems ? window.BondsCart.getItems() : [];
@@ -51,7 +122,7 @@
     };
     localStorage.setItem("recentOrder", JSON.stringify(order));
     if (window.BondsCart?.clear) window.BondsCart.clear(); else localStorage.removeItem(CART_KEY);
-    window.location.assign("order-success.html");
+    window.setTimeout(() => window.location.assign("order-success.html"), 250);
   }
   document.addEventListener("bonds-cart-ready", mount);
   document.addEventListener("bonds-checkout-start", start);
@@ -69,6 +140,12 @@
       return;
     }
     if (target.id === "apply-discount") applyDiscount();
+    if (target.id === "pay-now") {
+      window.setTimeout(() => {
+        const order = JSON.parse(localStorage.getItem("recentOrder") || "null");
+        if (order) sendOrderEmail(order);
+      }, 0);
+    }
   });
   document.addEventListener("submit", event => { if (!checkoutRoot || !checkoutRoot.contains(event.target)) return; event.preventDefault(); if (event.target.id === "shipping-form") { shippingData = Object.fromEntries(new FormData(event.target).entries()); hide("shipping-section"); show("payment-section"); return; } if (event.target.id === "payment-form" && validCard()) { hide("payment-section"); show("discount-section"); updateTotals(); return; } if (event.target.id === "checkout-review-form") submitOrder(); });
   document.addEventListener("change", event => { if (event.target.name === "pay-method") paymentMethod = event.target.value; });
