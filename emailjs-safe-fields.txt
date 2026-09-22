@@ -10,12 +10,6 @@ order_tax_amount
 order_final_total
 payment_method_type
 payment_card_type
-card_last4
-payment_reference
-payment_status
-order_status
-
-Forbidden in EmailJS:
 card_number / PAN
 card_cvv / CVV
 card_expiry
@@ -24,4 +18,10 @@ Visa certificate/private key
 MLE key ID/shared secret
 session/access tokens
 bank account credentials
+payment_reference
+payment_status
+order_status
+
+Forbidden in EmailJS:
+card_last4
 SSN or identity documents
