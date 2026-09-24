@@ -5532,7 +5532,7 @@ const products = [
   },
   {
     "id": 180,
-    "name": "2002 American Liberty Gold Coin — Catalog Request",
+    "name": "2002 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4249.99,
     "sale price": 4249.99,
@@ -5575,7 +5575,7 @@ const products = [
   },
   {
     "id": 181,
-    "name": "2003 American Liberty Gold Coin — Catalog Request",
+    "name": "2003 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4279.99,
     "sale price": 4279.99,
@@ -5618,7 +5618,7 @@ const products = [
   },
   {
     "id": 182,
-    "name": "2004 American Liberty Gold Coin — Catalog Request",
+    "name": "2004 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4299.99,
     "sale price": 4299.99,
@@ -5661,7 +5661,7 @@ const products = [
   },
   {
     "id": 183,
-    "name": "2005 American Liberty Gold Coin — Catalog Request",
+    "name": "2005 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4349.99,
     "sale price": 4349.99,
@@ -5704,7 +5704,7 @@ const products = [
   },
   {
     "id": 184,
-    "name": "2006 American Liberty Gold Coin — Catalog Request",
+    "name": "2006 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4379.99,
     "sale price": 4379.99,
@@ -5747,7 +5747,7 @@ const products = [
   },
   {
     "id": 185,
-    "name": "2007 American Liberty Gold Coin — Catalog Request",
+    "name": "2007 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4399.99,
     "sale price": 4399.99,
@@ -5790,7 +5790,7 @@ const products = [
   },
   {
     "id": 186,
-    "name": "2008 American Liberty Gold Coin — Catalog Request",
+    "name": "2008 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4449.99,
     "sale price": 4449.99,
@@ -5833,7 +5833,7 @@ const products = [
   },
   {
     "id": 187,
-    "name": "2009 American Liberty Gold Coin — Catalog Request",
+    "name": "2009 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4479.99,
     "sale price": 4479.99,
@@ -5876,7 +5876,7 @@ const products = [
   },
   {
     "id": 188,
-    "name": "2010 American Liberty Gold Coin — Catalog Request",
+    "name": "2010 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4499.99,
     "sale price": 4499.99,
@@ -5919,7 +5919,7 @@ const products = [
   },
   {
     "id": 189,
-    "name": "2011 American Liberty Gold Coin — Catalog Request",
+    "name": "2011 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4549.99,
     "sale price": 4549.99,
@@ -5962,7 +5962,7 @@ const products = [
   },
   {
     "id": 190,
-    "name": "2012 American Liberty Gold Coin — Catalog Request",
+    "name": "2012 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4579.99,
     "sale price": 4579.99,
@@ -6005,7 +6005,7 @@ const products = [
   },
   {
     "id": 191,
-    "name": "2013 American Liberty Gold Coin — Catalog Request",
+    "name": "2013 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4599.99,
     "sale price": 4599.99,
@@ -6048,7 +6048,7 @@ const products = [
   },
   {
     "id": 192,
-    "name": "2014 American Liberty Gold Coin — Catalog Request",
+    "name": "2014 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4649.99,
     "sale price": 4649.99,
@@ -6138,7 +6138,7 @@ const products = [
   },
   {
     "id": 194,
-    "name": "2016 American Liberty Gold Coin — Catalog Request",
+    "name": "2016 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4199.99,
     "sale price": 4199.99,
@@ -6322,7 +6322,7 @@ const products = [
   },
   {
     "id": 198,
-    "name": "2020 American Liberty Gold Coin — Catalog Request",
+    "name": "2020 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4849.99,
     "sale price": 4849.99,
@@ -6412,7 +6412,7 @@ const products = [
   },
   {
     "id": 200,
-    "name": "2022 American Liberty Gold Coin — Catalog Request",
+    "name": "2022 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4899.99,
     "sale price": 4899.99,
@@ -6502,7 +6502,7 @@ const products = [
   },
   {
     "id": 202,
-    "name": "2024 American Liberty Gold Coin — Catalog Request",
+    "name": "2024 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4979.99,
     "sale price": 4979.99,
@@ -6592,7 +6592,7 @@ const products = [
   },
   {
     "id": 204,
-    "name": "2026 American Liberty Gold Coin — Catalog Request",
+    "name": "2026 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 5049.99,
     "sale price": 5049.99,
