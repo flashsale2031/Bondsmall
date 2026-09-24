@@ -703,7 +703,8 @@
 
     function renderAll() {
         decorateProducts();
-        if (currentCategory === "all") currentPage = 1;
+        // Preserve the selected page during pagination re-renders. Page resets
+        // are handled explicitly by search/filter/sort changes instead.
         populateBrandDropdown(getBaseFilteredProducts(true, false));
         populateConditionDropdown(getBaseFilteredProducts(false, true));
         renderResultsHeader();
@@ -1058,6 +1059,7 @@
                 if (e.key === "Enter") {
                     currentQuery = searchInput.value.trim();
                     currentCategory = "all";
+                    currentPage = 1;
                     renderAll();
                     writeUrlParams();
                     if (window.CategoryMenu) window.CategoryMenu.markActive("all");
@@ -1066,6 +1068,7 @@
             searchInput.addEventListener("input", () => {
                 // live filtering
                 currentQuery = searchInput.value.trim();
+                currentPage = 1;
                 renderAll();
                 writeUrlParams();
             });
@@ -1093,6 +1096,7 @@
                 const item = e.target.closest(".sr-dropdown-item[data-sort]");
                 if (!item) return;
                 currentSort = item.dataset.sort;
+                currentPage = 1;
                 closeSortDrop();
                 renderAll();
             });
@@ -1104,6 +1108,7 @@
                 const item = e.target.closest(".sr-dropdown-item[data-filter-cat]");
                 if (!item) return;
                 currentCategory = item.dataset.filterCat;
+                currentPage = 1;
                 writeUrlParams();
                 closeFilterDrop();
                 renderAll();
@@ -1116,6 +1121,7 @@
         if (brandSelect) {
             brandSelect.addEventListener("change", () => {
                 currentBrand = brandSelect.value;
+                currentPage = 1;
                 renderAll();
             });
         }
@@ -1125,6 +1131,7 @@
         if (conditionSelect) {
             conditionSelect.addEventListener("change", () => {
                 currentCondition = conditionSelect.value;
+                currentPage = 1;
                 renderAll();
             });
         }
@@ -1135,6 +1142,7 @@
             dealsContainer.addEventListener("change", () => {
                 const checked = [...dealsContainer.querySelectorAll(".sr-deal-checkbox:checked")];
                 selectedDeals = checked.map(chk => chk.value);
+                currentPage = 1;
                 renderAll();
             });
         }
@@ -1146,6 +1154,7 @@
                 const mx = parseFloat(maxPriceInput.value);
                 priceMin = isNaN(mn) ? null : mn;
                 priceMax = isNaN(mx) ? null : mx;
+                currentPage = 1;
                 closeFilterDrop();
                 renderAll();
             });
