@@ -533,11 +533,16 @@
             .catch(() => { if (token === categoryRenderToken) renderProducts(); });
     }
 
-        // Products 1–155 are authoritative records loaded by products.js. The lazy
+    // Products in products.js are authoritative records. The lazy
     // loader may replace the shared window.products array for each page, so build
     // the render source explicitly: authoritative IDs first, then only records
     // above the boundary from the active lazy chunk.
-    const PRODUCTS_JS_MAX_ID = 155;
+    const PRODUCTS_JS_MAX_ID = (() => {
+        const authorityRecords = window.BondsmallCatalogAuthority && Array.isArray(window.BondsmallCatalogAuthority.records)
+            ? window.BondsmallCatalogAuthority.records
+            : [];
+        return authorityRecords.reduce((maxId, product) => Math.max(maxId, Number(product && product.id) || 0), 0);
+    })();
 
     function getProductsJsRecords() {
         const authorityRecords = window.BondsmallCatalogAuthority && Array.isArray(window.BondsmallCatalogAuthority.records)
@@ -568,7 +573,10 @@
         getProductsJsRecords().forEach((product) => byId.set(Number(product.id), product));
         getChunkRecords().forEach((product) => {
             const id = Number(product && product.id);
-            if (Number.isFinite(id)) byId.set(id, product);
+            // Lazy catalog data can lag behind the curated products.js record.
+            // Keep the authoritative record (including its verified images) when
+            // both sources contain the same product ID.
+            if (Number.isFinite(id) && !byId.has(id)) byId.set(id, product);
         });
         return Array.from(byId.values()).sort((a, b) => Number(a.id) - Number(b.id));
     }
@@ -576,7 +584,12 @@
     function getFilteredProducts() {
         const globalTerm = normalize(headerSearch ? headerSearch.value : "");
         const categoryTerm = normalize(categorySearch ? categorySearch.value : "");
-        const renderSource = getRenderableProducts();
+        // Category pagination loads exactly the requested category page into
+        // window.products. Do not re-add the full authoritative catalog here,
+        // otherwise every category page is sliced from page one.
+        const renderSource = activeCategory !== "all" && window.BondsmallCatalog
+            ? (Array.isArray(window.products) ? window.products : [])
+            : getRenderableProducts();
 
         return renderSource.filter((product) => {
 
