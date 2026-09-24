@@ -4632,11 +4632,15 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2007%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2007%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
-    "photo_source": "Year-specific verification placeholder",
+    "image": "https://i.ebayimg.com/images/g/-mgAAOSwjMFn8DSP/s-l1200.jpg",
+    "images": [
+      "https://i.ebayimg.com/images/g/-mgAAOSwjMFn8DSP/s-l1200.jpg",
+      "https://i.usacoinbook.com/us-coins/2007-one-ounce-american-gold-eagle.webp",
+      "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-ms-69-pcgs_29049_Slab.jpg?height=900&v=20140819024244&width=900"
+    ],
+    "photo_source": "Year-specific 2007 coin photos: eBay 2007-W PCGS MS70 obverse and USA Coin Book 2007-W one-ounce Type 1 reverse; APMEX 2007 one-ounce MS69 reference image",
     "photo_year": 2007,
-    "photo_is_representative": false,
+    "photo_is_representative": true,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
     "official_issue": true,
     "description": "The 2007 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; through 2020, the reverse used the Miley Busiek family-of-eagles design.",
