@@ -1172,7 +1172,8 @@ window.populateProductPopup = function populateProductPopup(product, opts) {
 
     const catEl = document.getElementById("product-category-label");
     const luxuryBrands = ["dolce & gabbana", "louis vuitton", "yves saint laurent", "gucci", "prada", "hermes", "fendi", "chanel", "dior", "abercrombie & fitch", "bathing ape", "bathing apes", "michael kors", "rolex", "patek philippe", "marc jacobs", "us mint"];
-    const isLuxury = luxuryBrands.some(brand => (product.name || "").toLowerCase().includes(brand));
+    const productBrand = (product.brand || (product.specifications && product.specifications.brand) || "").toLowerCase().trim();
+    const isLuxury = Boolean(product.luxury_brand || product.brand_tier === "luxury" || luxuryBrands.some(brand => productBrand === brand || (product.name || "").toLowerCase().includes(brand)));
 
     if (catEl) {
         catEl.textContent = categoryLabels[product.category] || product.category || "";
