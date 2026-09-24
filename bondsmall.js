@@ -548,6 +548,16 @@
             .sort((a, b) => Number(a.id) - Number(b.id));
     }
 
+    // Keep the hand-curated products.js records addressable by exact ID even
+    // after the lazy catalog replaces window.products with another page.
+    function getProductsJsProductById(productId) {
+        const id = Number(productId);
+        const records = window.BondsmallCatalogAuthority && Array.isArray(window.BondsmallCatalogAuthority.records)
+            ? window.BondsmallCatalogAuthority.records
+            : [];
+        return records.find((product) => Number(product && product.id) === id) || null;
+    }
+
     function getChunkRecords() {
         return (Array.isArray(window.products) ? window.products : [])
             .filter((product) => Number(product && product.id) > PRODUCTS_JS_MAX_ID);
@@ -895,7 +905,8 @@
 
     function addToCart(productId, addQty = 1, condition = "", deliveryOption = "std") {
         const numericProductId = Number(productId);
-        const product = getProductsJsRecords().find((item) => Number(item.id) === numericProductId)
+        const product = getProductsJsProductById(numericProductId)
+            || getProductsJsRecords().find((item) => Number(item.id) === numericProductId)
             || getChunkRecords().find((item) => Number(item.id) === numericProductId)
             || (Array.isArray(window.products)
                 ? window.products.find((item) => Number(item.id) === numericProductId)
@@ -1010,7 +1021,10 @@
     }
 
     async function openProductModal(productId, { push = true } = {}) {
-        let product = getProductsJsRecords().find((item) => Number(item.id) === Number(productId));
+        let product = getProductsJsProductById(productId);
+        if (!product) {
+            product = getProductsJsRecords().find((item) => Number(item.id) === Number(productId));
+        }
         if (!product) {
             product = getChunkRecords().find((item) => Number(item.id) === Number(productId));
         }
