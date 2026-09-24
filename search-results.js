@@ -189,7 +189,12 @@
             "Hermes", "Fendi", "Hamilton Beach", "Samsung"
         ];
 
-        displayProducts = products.map((source) => {
+        const activeRecords = Array.isArray(window.products) ? window.products : [];
+        displayProducts = activeRecords.map((source) => {
+            const authoritativeSource = window.BondsmallCatalogAuthority && typeof window.BondsmallCatalogAuthority.get === "function"
+                ? window.BondsmallCatalogAuthority.get(source && source.id)
+                : null;
+            source = authoritativeSource || source;
             const authoritative = isAuthoritativeProduct(source);
             const p = { ...source };
 
@@ -348,7 +353,7 @@
     window.BondsMallIsFavorite = (productId) => getFavorites().includes(Number(productId));
 
     function getBaseFilteredProducts(excludeBrand = false, excludeCondition = false) {
-        if (typeof window.products === "undefined") return [];
+        if (!Array.isArray(window.products)) return [];
         return displayProducts.filter(p => {
             const inCat = currentCategory === "all" || p.category === currentCategory;
             const hay   = `${p.name} ${p.description || ""} ${categoryLabels[p.category] || p.category} ${p.brand || ""} ${p.condition || ""}`.toLowerCase();
@@ -371,7 +376,7 @@
     }
 
     function getFilteredProducts() {
-        if (typeof window.products === "undefined") return [];
+        if (!Array.isArray(window.products)) return [];
         let list = displayProducts.filter(p => {
             const inCat = currentCategory === "all" || p.category === currentCategory;
             const hay   = `${p.name} ${p.description || ""} ${categoryLabels[p.category] || p.category} ${p.brand || ""} ${p.condition || ""}`.toLowerCase();
