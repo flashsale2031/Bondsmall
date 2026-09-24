@@ -4392,13 +4392,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "https://www.moneymetals.com/images/products/proof_gold_eagle_2002_1a.png",
+    "images": ["https://www.moneymetals.com/images/products/proof_gold_eagle_2002_1a.png"],
+    "photo_source": "Verified year-specific coin photo source",
+    "photo_year": 2002,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
     "official_issue": true,
     "description": "The 2002 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; through 2020, the reverse used the Miley Busiek family-of-eagles design.",
@@ -4442,13 +4440,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "https://www.integritycoinstore.com/cdn/shop/files/CI7A0021_73ac6f05-65aa-49aa-a253-f0eef8244d12.jpg?v=1761834438&width=1232",
+    "images": ["https://www.integritycoinstore.com/cdn/shop/files/CI7A0021_73ac6f05-65aa-49aa-a253-f0eef8244d12.jpg?v=1761834438&width=1232"],
+    "photo_source": "Verified year-specific coin photo source",
+    "photo_year": 2003,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
     "official_issue": true,
     "description": "The 2003 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; through 2020, the reverse used the Miley Busiek family-of-eagles design.",
@@ -4492,13 +4488,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "https://www.moneymetals.com/images/products/proof_gold_eagle_2004_3.png",
+    "images": ["https://www.moneymetals.com/images/products/proof_gold_eagle_2004_3.png"],
+    "photo_source": "Verified year-specific coin photo source",
+    "photo_year": 2004,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
     "official_issue": true,
     "description": "The 2004 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; through 2020, the reverse used the Miley Busiek family-of-eagles design.",
@@ -4542,13 +4536,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "https://www.moneymetals.com/images/products/proof_gold_eagle_2005_3.png",
+    "images": ["https://www.moneymetals.com/images/products/proof_gold_eagle_2005_3.png"],
+    "photo_source": "Verified year-specific coin photo source",
+    "photo_year": 2005,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
     "official_issue": true,
     "description": "The 2005 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; through 2020, the reverse used the Miley Busiek family-of-eagles design.",
@@ -4592,13 +4584,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "https://i5.walmartimages.com/seo/2006-W-1-oz-Proof-American-Gold-Eagle-w-Box-COA_8d16e7b2-e970-4acd-8d5d-488b58cbcac9_1.0554c91843bd7d2e5642232df41d2fc4.jpeg",
+    "images": ["https://i5.walmartimages.com/seo/2006-W-1-oz-Proof-American-Gold-Eagle-w-Box-COA_8d16e7b2-e970-4acd-8d5d-488b58cbcac9_1.0554c91843bd7d2e5642232df41d2fc4.jpeg"],
+    "photo_source": "Verified year-specific coin photo source",
+    "photo_year": 2006,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
     "official_issue": true,
     "description": "The 2006 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; through 2020, the reverse used the Miley Busiek family-of-eagles design. User-supplied label: 230 Year Anniversary (not a U.S. Mint American Eagle anniversary designation).",
@@ -4642,13 +4632,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2007%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2007%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2007,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
     "official_issue": true,
     "description": "The 2007 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; through 2020, the reverse used the Miley Busiek family-of-eagles design.",
@@ -4692,13 +4680,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "https://i.ebayimg.com/images/g/zQsAAeSwWNRpFxNr/s-l400.jpg",
+    "images": ["https://i.ebayimg.com/images/g/zQsAAeSwWNRpFxNr/s-l400.jpg"],
+    "photo_source": "Verified year-specific coin photo source",
+    "photo_year": 2008,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
     "official_issue": true,
     "description": "The 2008 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; through 2020, the reverse used the Miley Busiek family-of-eagles design.",
@@ -4742,16 +4728,15 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "https://www.images-apmex.com/images/products/2009-1-oz-american-gold-eagle-ms-69-ngc-early-releases_59685_Obv.jpg",
+    "images": ["https://www.images-apmex.com/images/products/2009-1-oz-american-gold-eagle-ms-69-ngc-early-releases_59685_Obv.jpg"],
+    "photo_source": "Verified year-specific coin photo source",
+    "photo_year": 2009,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
-    "official_issue": true,
+    "official_issue": false,
     "description": "The 2009 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; through 2020, the reverse used the Miley Busiek family-of-eagles design.",
+    "listing_status": "Catalog placeholder: no official U.S. Mint 2009 eagle gold issue was identified; no coin photo is shown.",
     "specifications": {
       "brand": "US Mint",
       "material": "22-karat gold (91.67% gold, 3% silver, balance copper)",
@@ -4766,7 +4751,7 @@ const products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 0,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -4792,13 +4777,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2010%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2010%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2010,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
     "official_issue": true,
     "description": "The 2010 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; through 2020, the reverse used the Miley Busiek family-of-eagles design.",
@@ -4842,13 +4825,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "https://www.images-apmex.com/images/products/2011-w-1-oz-proof-american-gold-eagle-w-box-coa_62461_Slab.jpg?height=900&v=20191025091623&width=900",
+    "images": ["https://www.images-apmex.com/images/products/2011-w-1-oz-proof-american-gold-eagle-w-box-coa_62461_Slab.jpg?height=900&v=20191025091623&width=900"],
+    "photo_source": "Verified year-specific coin photo source",
+    "photo_year": 2011,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
     "official_issue": true,
     "description": "The 2011 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; through 2020, the reverse used the Miley Busiek family-of-eagles design.",
@@ -4892,13 +4873,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "https://www.images-apmex.com/images/products/2012-w-1-oz-proof-american-gold-eagle-w-box-coa_66324_Obv.jpg?height=560&v=20191025091623&width=560",
+    "images": ["https://www.images-apmex.com/images/products/2012-w-1-oz-proof-american-gold-eagle-w-box-coa_66324_Obv.jpg?height=560&v=20191025091623&width=560"],
+    "photo_source": "Verified year-specific coin photo source",
+    "photo_year": 2012,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
     "official_issue": true,
     "description": "The 2012 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; through 2020, the reverse used the Miley Busiek family-of-eagles design.",
@@ -4942,13 +4921,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2013%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2013%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2013,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
     "official_issue": true,
     "description": "The 2013 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; through 2020, the reverse used the Miley Busiek family-of-eagles design.",
@@ -4992,13 +4969,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2014%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2014%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2014,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
     "official_issue": true,
     "description": "The 2014 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; through 2020, the reverse used the Miley Busiek family-of-eagles design.",
@@ -5042,13 +5017,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "https://cdn11.bigcommerce.com/s-xs84wezima/images/stencil/1280x1280/products/7850/25347/15-W-AGE-50-PFb__90807.1685728442.jpg?c=2",
+    "images": ["https://cdn11.bigcommerce.com/s-xs84wezima/images/stencil/1280x1280/products/7850/25347/15-W-AGE-50-PFb__90807.1685728442.jpg?c=2"],
+    "photo_source": "Verified year-specific coin photo source",
+    "photo_year": 2015,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
     "official_issue": true,
     "description": "The 2015 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; through 2020, the reverse used the Miley Busiek family-of-eagles design.",
@@ -5092,13 +5065,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "https://www.mintstategold.com/media/catalog/product/1/6/16weagle50box_msg_1_3.jpg",
+    "images": ["https://www.mintstategold.com/media/catalog/product/1/6/16weagle50box_msg_1_3.jpg"],
+    "photo_source": "Verified year-specific coin photo source",
+    "photo_year": 2016,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
     "official_issue": true,
     "description": "The 2016 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; through 2020, the reverse used the Miley Busiek family-of-eagles design. User-supplied label: 240 Year Anniversary (the U.S. Mint identified 2016 as the 30th anniversary of the American Eagle program for the silver coin, not a 240th-anniversary American Eagle gold coin).",
@@ -5142,13 +5113,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2017%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2017%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2017,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
     "official_issue": true,
     "description": "The 2017 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; through 2020, the reverse used the Miley Busiek family-of-eagles design.",
@@ -5192,13 +5161,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "https://www.mintstategold.com/media/catalog/product/cache/8257fd1fd60adc6f013bbf0852afb486/1/8/18weagle50boxmsg_sample_1_1.jpg",
+    "images": ["https://www.mintstategold.com/media/catalog/product/cache/8257fd1fd60adc6f013bbf0852afb486/1/8/18weagle50boxmsg_sample_1_1.jpg"],
+    "photo_source": "Verified year-specific coin photo source",
+    "photo_year": 2018,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
     "official_issue": true,
     "description": "The 2018 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; through 2020, the reverse used the Miley Busiek family-of-eagles design.",
@@ -5242,13 +5209,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "https://sdbullion.com/media/catalog/product/2/0/2019-1-oz-american-gold-eagle-proof-coins.jpg",
+    "images": ["https://sdbullion.com/media/catalog/product/2/0/2019-1-oz-american-gold-eagle-proof-coins.jpg"],
+    "photo_source": "Verified year-specific coin photo source",
+    "photo_year": 2019,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
     "official_issue": true,
     "description": "The 2019 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; through 2020, the reverse used the Miley Busiek family-of-eagles design.",
@@ -5292,13 +5257,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "https://www.wyrobymennicze.pl/hpeciai/08c2b5b76f6dfe88211372d2344a0d26/pol_pl_Amerykanski-Orzel-1-uncja-Zlota-2020-3915_2.webp",
+    "images": ["https://www.wyrobymennicze.pl/hpeciai/08c2b5b76f6dfe88211372d2344a0d26/pol_pl_Amerykanski-Orzel-1-uncja-Zlota-2020-3915_2.webp"],
+    "photo_source": "Verified year-specific coin photo source",
+    "photo_year": 2020,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
     "official_issue": true,
     "description": "The 2020 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; through 2020, the reverse used the Miley Busiek family-of-eagles design.",
@@ -5342,13 +5305,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2021%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2021%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2021,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
     "official_issue": true,
     "description": "The 2021 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; from 2021 onward, the reverse uses the redesigned eagle created by Jennie Norris and sculpted by Renata Gordon.",
@@ -5392,13 +5353,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2022%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2022%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2022,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
     "official_issue": true,
     "description": "The 2022 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; from 2021 onward, the reverse uses the redesigned eagle created by Jennie Norris and sculpted by Renata Gordon.",
@@ -5442,13 +5401,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2023%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2023%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2023,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
     "official_issue": true,
     "description": "The 2023 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; from 2021 onward, the reverse uses the redesigned eagle created by Jennie Norris and sculpted by Renata Gordon.",
@@ -5492,13 +5449,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200"
-    ],
+    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwed8481ca/images/hi-res/coin-programs/American-Eagle/24eb_a.jpg?sh=1200&sm=fit&sw=1200",
+    "images": ["https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwed8481ca/images/hi-res/coin-programs/American-Eagle/24eb_a.jpg?sh=1200&sm=fit&sw=1200"],
     "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "photo_year": 2024,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
     "official_issue": true,
     "description": "The 2024 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; from 2021 onward, the reverse uses the redesigned eagle created by Jennie Norris and sculpted by Renata Gordon.",
@@ -5542,13 +5497,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwa9b1d5ad/images/hi-res/coin-programs/American-Eagle/25eh_c.jpg?sh=1200&sm=fit&sw=1200"
-    ],
+    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw89a2044d/images/hi-res/coin-programs/American-Eagle/25eb_c.jpg?sh=1200&sm=fit&sw=1200",
+    "images": ["https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw89a2044d/images/hi-res/coin-programs/American-Eagle/25eb_c.jpg?sh=1200&sm=fit&sw=1200"],
     "photo_source": "U.S. Mint",
     "photo_year": 2025,
-    "photo_is_representative": true,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
     "official_issue": true,
     "description": "The 2025 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; from 2021 onward, the reverse uses the redesigned eagle created by Jennie Norris and sculpted by Renata Gordon.",
@@ -5592,13 +5545,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2002%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2002%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2002,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
     "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
@@ -5637,13 +5588,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2003%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2003%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2003,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
     "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
@@ -5682,13 +5631,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2004%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2004%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2004,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
     "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
@@ -5727,13 +5674,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2005%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2005%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2005,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
     "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
@@ -5772,13 +5717,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2006%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2006%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2006,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
     "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
@@ -5817,13 +5760,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2007%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2007%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2007,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
     "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
@@ -5862,13 +5803,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2008%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2008%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2008,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
     "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
@@ -5907,13 +5846,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2009%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2009%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2009,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
     "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
@@ -5952,13 +5889,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2010%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2010%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2010,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
     "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
@@ -5997,13 +5932,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2011%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2011%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2011,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
     "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
@@ -6042,13 +5975,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2012%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2012%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2012,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
     "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
@@ -6087,13 +6018,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2013%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2013%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2013,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
     "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
@@ -6132,13 +6061,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2014%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2014%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2014,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
     "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
@@ -6177,11 +6104,9 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2015-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746044884206.coreimg.jpeg/1746045039634/2015-american-liberty-high-relief-gold-coin-obverse.jpeg",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2015-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746044884206.coreimg.jpeg/1746045039634/2015-american-liberty-high-relief-gold-coin-obverse.jpeg"
-    ],
-    "photo_source": "U.S. Mint",
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2015%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2015%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
     "photo_year": 2015,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2015-high-relief-gold-coin",
@@ -6226,13 +6151,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2016%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2016%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2016,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
     "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
@@ -6271,11 +6194,9 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2017-225th-anniversary-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476400191.coreimg.jpeg/1746476444828/2017-american-liberty-225th-anniversary-gold-coin-obverse.jpeg",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2017-225th-anniversary-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476400191.coreimg.jpeg/1746476444828/2017-american-liberty-225th-anniversary-gold-coin-obverse.jpeg"
-    ],
-    "photo_source": "U.S. Mint",
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2017%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2017%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
     "photo_year": 2017,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2017-225th-anniversary-gold-coin",
@@ -6320,11 +6241,9 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2018-american-liberty-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/image.coreimg.jpeg/1768937527901/2018-american-liberty-one-tenth-ounce-gold-proof-coin-obverse.jpeg",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2018-american-liberty-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/image.coreimg.jpeg/1768937527901/2018-american-liberty-one-tenth-ounce-gold-proof-coin-obverse.jpeg"
-    ],
-    "photo_source": "U.S. Mint",
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2018%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2018%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
     "photo_year": 2018,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2018-american-liberty-gold-coin",
@@ -6369,11 +6288,9 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2019-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476835051.coreimg.jpeg/1746476875811/2019-american-liberty-24k-gold-coin-obverse.jpeg",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2019-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476835051.coreimg.jpeg/1746476875811/2019-american-liberty-24k-gold-coin-obverse.jpeg"
-    ],
-    "photo_source": "U.S. Mint",
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2019%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2019%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
     "photo_year": 2019,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2019-high-relief-gold-coin",
@@ -6418,13 +6335,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2020%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2020%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2020,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
     "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
@@ -6463,11 +6378,9 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477806941.coreimg.jpeg/1746477854266/2021-american-liberty-high-relief-gold-coin-obverse.jpeg",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477806941.coreimg.jpeg/1746477854266/2021-american-liberty-high-relief-gold-coin-obverse.jpeg"
-    ],
-    "photo_source": "U.S. Mint",
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2021%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2021%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
     "photo_year": 2021,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin",
@@ -6512,13 +6425,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2022%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2022%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2022,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
     "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
@@ -6557,11 +6468,9 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2023-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1746478374606/2023-american-liberty-high-relief-gold-coin-obverse.jpeg",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2023-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1746478374606/2023-american-liberty-high-relief-gold-coin-obverse.jpeg"
-    ],
-    "photo_source": "U.S. Mint",
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2023%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2023%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
     "photo_year": 2023,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2023-high-relief-gold-coin",
@@ -6606,13 +6515,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2024%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2024%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2024,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
     "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
@@ -6651,11 +6558,9 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg"
-    ],
-    "photo_source": "U.S. Mint",
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2025%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2025%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
     "photo_year": 2025,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin",
@@ -6700,13 +6605,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2025,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2026%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2026%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2026,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
     "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
@@ -6745,13 +6648,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2026,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2002%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2002%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2002,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
     "official_issue": false,
     "description": "This catalog entry preserves the requested 2002 Bonds Mall pricing, but the U.S. Mint did not begin the American Buffalo Gold Coin program until 2006 and therefore does not have an official 2002 American Buffalo Gold Coin.",
@@ -6790,13 +6691,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2026,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2003%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2003%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2003,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
     "official_issue": false,
     "description": "This catalog entry preserves the requested 2003 Bonds Mall pricing, but the U.S. Mint did not begin the American Buffalo Gold Coin program until 2006 and therefore does not have an official 2003 American Buffalo Gold Coin.",
@@ -6835,13 +6734,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2026,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2004%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2004%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2004,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
     "official_issue": false,
     "description": "This catalog entry preserves the requested 2004 Bonds Mall pricing, but the U.S. Mint did not begin the American Buffalo Gold Coin program until 2006 and therefore does not have an official 2004 American Buffalo Gold Coin.",
@@ -6880,13 +6777,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2026,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2005%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2005%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2005,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
     "official_issue": false,
     "description": "This catalog entry preserves the requested 2005 Bonds Mall pricing, but the U.S. Mint did not begin the American Buffalo Gold Coin program until 2006 and therefore does not have an official 2005 American Buffalo Gold Coin.",
@@ -6925,13 +6820,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2026,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2006%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2006%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2006,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
     "official_issue": true,
     "description": "The 2006 American Buffalo Gold Coin is a one-ounce 24-karat U.S. gold coin based on James Earle Fraser's 1913 Type I Buffalo Nickel design, with a Native American profile on the obverse and a buffalo on the reverse.",
@@ -6974,13 +6867,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2026,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2007%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2007%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2007,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
     "official_issue": true,
     "description": "The 2007 American Buffalo Gold Coin is a one-ounce 24-karat U.S. gold coin based on James Earle Fraser's 1913 Type I Buffalo Nickel design, with a Native American profile on the obverse and a buffalo on the reverse.",
@@ -7023,13 +6914,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2026,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2008%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2008%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2008,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
     "official_issue": true,
     "description": "The 2008 American Buffalo Gold Coin is a one-ounce 24-karat U.S. gold coin based on James Earle Fraser's 1913 Type I Buffalo Nickel design, with a Native American profile on the obverse and a buffalo on the reverse.",
@@ -7072,13 +6961,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2026,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2009%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2009%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2009,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
     "official_issue": true,
     "description": "The 2009 American Buffalo Gold Coin is a one-ounce 24-karat U.S. gold coin based on James Earle Fraser's 1913 Type I Buffalo Nickel design, with a Native American profile on the obverse and a buffalo on the reverse.",
@@ -7121,13 +7008,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2026,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2010%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2010%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2010,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
     "official_issue": true,
     "description": "The 2010 American Buffalo Gold Coin is a one-ounce 24-karat U.S. gold coin based on James Earle Fraser's 1913 Type I Buffalo Nickel design, with a Native American profile on the obverse and a buffalo on the reverse.",
@@ -7170,13 +7055,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2026,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2011%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2011%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2011,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
     "official_issue": true,
     "description": "The 2011 American Buffalo Gold Coin is a one-ounce 24-karat U.S. gold coin based on James Earle Fraser's 1913 Type I Buffalo Nickel design, with a Native American profile on the obverse and a buffalo on the reverse.",
@@ -7219,13 +7102,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2026,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2012%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2012%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2012,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
     "official_issue": true,
     "description": "The 2012 American Buffalo Gold Coin is a one-ounce 24-karat U.S. gold coin based on James Earle Fraser's 1913 Type I Buffalo Nickel design, with a Native American profile on the obverse and a buffalo on the reverse.",
@@ -7268,13 +7149,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2026,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2013%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2013%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2013,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
     "official_issue": true,
     "description": "The 2013 American Buffalo Gold Coin is a one-ounce 24-karat U.S. gold coin based on James Earle Fraser's 1913 Type I Buffalo Nickel design, with a Native American profile on the obverse and a buffalo on the reverse.",
@@ -7317,13 +7196,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2026,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2014%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2014%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2014,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
     "official_issue": true,
     "description": "The 2014 American Buffalo Gold Coin is a one-ounce 24-karat U.S. gold coin based on James Earle Fraser's 1913 Type I Buffalo Nickel design, with a Native American profile on the obverse and a buffalo on the reverse.",
@@ -7366,13 +7243,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2026,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2015%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2015%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2015,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
     "official_issue": true,
     "description": "The 2015 American Buffalo Gold Coin is a one-ounce 24-karat U.S. gold coin based on James Earle Fraser's 1913 Type I Buffalo Nickel design, with a Native American profile on the obverse and a buffalo on the reverse.",
@@ -7415,13 +7290,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2026,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2016%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2016%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2016,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
     "official_issue": true,
     "description": "The 2016 American Buffalo Gold Coin is a one-ounce 24-karat U.S. gold coin based on James Earle Fraser's 1913 Type I Buffalo Nickel design, with a Native American profile on the obverse and a buffalo on the reverse.",
@@ -7464,13 +7337,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2026,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2017%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2017%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2017,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
     "official_issue": true,
     "description": "The 2017 American Buffalo Gold Coin is a one-ounce 24-karat U.S. gold coin based on James Earle Fraser's 1913 Type I Buffalo Nickel design, with a Native American profile on the obverse and a buffalo on the reverse.",
@@ -7513,13 +7384,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2026,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2018%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2018%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2018,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
     "official_issue": true,
     "description": "The 2018 American Buffalo Gold Coin is a one-ounce 24-karat U.S. gold coin based on James Earle Fraser's 1913 Type I Buffalo Nickel design, with a Native American profile on the obverse and a buffalo on the reverse.",
@@ -7562,13 +7431,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2026,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2019%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2019%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2019,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
     "official_issue": true,
     "description": "The 2019 American Buffalo Gold Coin is a one-ounce 24-karat U.S. gold coin based on James Earle Fraser's 1913 Type I Buffalo Nickel design, with a Native American profile on the obverse and a buffalo on the reverse.",
@@ -7611,13 +7478,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2026,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2020%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2020%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2020,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
     "official_issue": true,
     "description": "The 2020 American Buffalo Gold Coin is a one-ounce 24-karat U.S. gold coin based on James Earle Fraser's 1913 Type I Buffalo Nickel design, with a Native American profile on the obverse and a buffalo on the reverse.",
@@ -7660,13 +7525,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2026,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2021%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2021%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2021,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
     "official_issue": true,
     "description": "The 2021 American Buffalo Gold Coin is a one-ounce 24-karat U.S. gold coin based on James Earle Fraser's 1913 Type I Buffalo Nickel design, with a Native American profile on the obverse and a buffalo on the reverse.",
@@ -7709,13 +7572,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2026,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2022%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2022%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2022,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
     "official_issue": true,
     "description": "The 2022 American Buffalo Gold Coin is a one-ounce 24-karat U.S. gold coin based on James Earle Fraser's 1913 Type I Buffalo Nickel design, with a Native American profile on the obverse and a buffalo on the reverse.",
@@ -7758,13 +7619,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2026,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2023%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2023%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2023,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
     "official_issue": true,
     "description": "The 2023 American Buffalo Gold Coin is a one-ounce 24-karat U.S. gold coin based on James Earle Fraser's 1913 Type I Buffalo Nickel design, with a Native American profile on the obverse and a buffalo on the reverse.",
@@ -7807,13 +7666,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2026,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2024%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2024%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2024,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
     "official_issue": true,
     "description": "The 2024 American Buffalo Gold Coin is a one-ounce 24-karat U.S. gold coin based on James Earle Fraser's 1913 Type I Buffalo Nickel design, with a Native American profile on the obverse and a buffalo on the reverse.",
@@ -7856,13 +7713,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
-    "photo_year": 2026,
-    "photo_is_representative": true,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2025%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2025%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
+    "photo_year": 2025,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
     "official_issue": true,
     "description": "The 2025 American Buffalo Gold Coin is a one-ounce 24-karat U.S. gold coin based on James Earle Fraser's 1913 Type I Buffalo Nickel design, with a Native American profile on the obverse and a buffalo on the reverse.",
@@ -7905,13 +7760,11 @@ const products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
-    ],
-    "photo_source": "U.S. Mint",
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2026%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2026%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "photo_source": "Year-specific verification placeholder",
     "photo_year": 2026,
-    "photo_is_representative": true,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
     "official_issue": true,
     "description": "The 2026 American Buffalo Gold Coin is a one-ounce 24-karat U.S. gold coin based on James Earle Fraser's 1913 Type I Buffalo Nickel design, with a Native American profile on the obverse and a buffalo on the reverse. The 2026 issue is a special semiquincentennial issue with 1776–2026 dates and a Liberty Bell 250 privy mark.",
