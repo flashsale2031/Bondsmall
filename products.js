@@ -686,7 +686,7 @@ const products = [
       "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477808267.coreimg.jpeg/1746477874968/2021-american-liberty-high-relief-gold-coin-reverse.jpeg"
     ],
     "specifications": {
-      "brand": "American Liberty",
+      "brand": "US Mint",
       "material": "24K Gold",
       "dimensions": "30.61mm Diameter x 2.45mm Thickness",
       "weight": "1.000 troy oz (31.108 grams)",
@@ -698,7 +698,14 @@ const products = [
       "framed": "No"
     },
     "age_group": "Adult",
-    "gender": "Unisex"
+    "gender": "Unisex",
+    "brand": "US Mint",
+    "brand_display_name": "US Mint",
+    "brand_tier": "luxury",
+    "luxury_brand": true,
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "brand_source": "U.S. Mint"
   },
   {
     "id": 27,
@@ -718,7 +725,7 @@ const products = [
       "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-case.jpg"
     ],
     "specifications": {
-      "brand": "American Buffalo",
+      "brand": "US Mint",
       "material": "24K Gold",
       "dimensions": "32.7mm Diameter x 2.95mm Thickness",
       "weight": "1.000 troy oz (31.108 grams)",
@@ -732,7 +739,14 @@ const products = [
     "productType": "Coin",
     "inventory": 78,
     "age_group": "Adult",
-    "gender": "Unisex"
+    "gender": "Unisex",
+    "brand": "US Mint",
+    "brand_display_name": "US Mint",
+    "brand_tier": "luxury",
+    "luxury_brand": true,
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "brand_source": "U.S. Mint"
   },
   {
     "id": 28,
@@ -751,7 +765,7 @@ const products = [
       "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwcb096fb0/images/hi-res/coin-programs/American-Eagle/26eb_g.jpg?sw=1200&sh=1200&sm=fit"
     ],
     "specifications": {
-      "brand": "American Eagle",
+      "brand": "US Mint",
       "material": "22K Gold (Standard American Gold Eagle alloy)",
       "dimensions": "32.7mm Diameter x 2.87mm Thickness",
       "weight": "1.000 troy oz (33.931 grams total weight)",
@@ -764,7 +778,14 @@ const products = [
     },
     "inventory": 91,
     "age_group": "Adult",
-    "gender": "Unisex"
+    "gender": "Unisex",
+    "brand": "US Mint",
+    "brand_display_name": "US Mint",
+    "brand_tier": "luxury",
+    "luxury_brand": true,
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "brand_source": "U.S. Mint"
   },
   {
     "id": 29,
@@ -1592,7 +1613,7 @@ const products = [
       "https://cdn.abcotvs.com/dip/images/1700740_Liberty-Coin.jpg"
     ],
     "specifications": {
-      "brand": "American Liberty",
+      "brand": "US Mint",
       "material": "24K Gold",
       "dimensions": "32.7mm Diameter x 2.95mm Thickness",
       "weight": "1.000 troy oz (31.108 grams)",
@@ -1604,7 +1625,14 @@ const products = [
     },
     "pre-owned price": 3999.99,
     "age_group": "Adult",
-    "gender": "Unisex"
+    "gender": "Unisex",
+    "brand": "US Mint",
+    "brand_display_name": "US Mint",
+    "brand_tier": "luxury",
+    "luxury_brand": true,
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "brand_source": "U.S. Mint"
   },
   {
     "id": 60,
@@ -3035,7 +3063,7 @@ const products = [
       "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw00a46c11/images/hi-res/coin-programs/comic-art/25DBG_b.jpg?sw=1200&sh=1200&sm=fit"
     ],
     "specifications": {
-      "brand": "U.S. Mint",
+      "brand": "US Mint",
       "material": "24K Gold",
       "purity": ".9999 Fine Gold",
       "dimensions": "32.7mm Diameter x 2.95mm Thickness",
@@ -3049,7 +3077,14 @@ const products = [
     "inventory": 86,
     "pre-owned price": 3999.99,
     "age_group": "Adult",
-    "gender": "Unisex"
+    "gender": "Unisex",
+    "brand": "US Mint",
+    "brand_display_name": "US Mint",
+    "brand_tier": "luxury",
+    "luxury_brand": true,
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "brand_source": "U.S. Mint"
   },
   {
     "id": 112,
@@ -3893,7 +3928,7 @@ const products = [
       "https://i5.walmartimages.com/asr/2408ab5c-04fd-470e-851b-564222f2d187.63f1f0961f63d20c5351c47b49904c39.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF"
     ],
     "specifications": {
-      "brand": "U.S. Mint",
+      "brand": "US Mint",
       "material": "24K Gold",
       "purity": ".9999 Fine Gold",
       "dimensions": "32.7mm Diameter x 2.95mm Thickness",
@@ -3906,7 +3941,14 @@ const products = [
     "inventory": 93,
     "pre-owned price": 3999.99,
     "age_group": "Adult",
-    "gender": "Unisex"
+    "gender": "Unisex",
+    "brand": "US Mint",
+    "brand_display_name": "US Mint",
+    "brand_tier": "luxury",
+    "luxury_brand": true,
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "brand_source": "U.S. Mint"
   },
   {
     "id": 143,
@@ -4313,7 +4355,7 @@ const products = [
       "assets/american-liberty-lion-gold-2026/preowned_coin_reverse_pcgs_holder.webp"
     ],
     "specifications": {
-      "brand": "American Liberty",
+      "brand": "US Mint",
       "material": "24K Gold",
       "weight": "1.000 troy oz fine gold",
       "purity": ".9999 Fine Gold",
@@ -4327,7 +4369,14 @@ const products = [
     "productType": "Coin",
     "inventory": 1,
     "age_group": "Adult",
-    "gender": "Unisex"
+    "gender": "Unisex",
+    "brand": "US Mint",
+    "brand_display_name": "US Mint",
+    "brand_tier": "luxury",
+    "luxury_brand": true,
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "brand_source": "U.S. Mint"
   },
   {
     "id": 156,
