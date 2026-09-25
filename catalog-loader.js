@@ -9,7 +9,7 @@
   const base = 'catalog-pages/';
   const target = window.products = window.products || [];
   const authority = window.BondsmallCatalogAuthority || { records: [], has: () => false, get: () => null };
-  const version = '2.4.1-gzip';
+  const version = '2.4.2-gzip';
   const categoryIndex = (window.BondsmallCategoryIndex && window.BondsmallCategoryIndex.categories) || {};
   const categoryStates = new Map();
 

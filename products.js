@@ -675,7 +675,7 @@ const products = [
     "gender": "Unisex"
   },
   {
-    "id": 26,
+    "id": 230,
     "name": "2021 American Liberty Bronco 1 OZ Gold $100 Coin",
     "category": "artandcollectibles",
     "retail price": 19999.99,
@@ -708,7 +708,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 27,
+    "id": 231,
     "name": "Random Year American Buffalo 1 OZ Gold $50 Coin",
     "category": "artandcollectibles",
     "retail price": 7999.99,
@@ -749,7 +749,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 28,
+    "id": 232,
     "name": "2026 American Eagle 1 OZ Gold $50 Coin",
     "category": "artandcollectibles",
     "retail price": 7499.99,
@@ -1599,7 +1599,7 @@ const products = [
     "gender": "Unisex"
   },
   {
-    "id": 59,
+    "id": 233,
     "name": "2017 American Liberty 1 OZ Gold $100 Coin",
     "category": "artandcollectibles",
     "retail price": 6499.99,
@@ -4331,7 +4331,7 @@ const products = [
     "gender": "Unisex"
   },
   {
-    "id": 102,
+    "id": 234,
     "name": "United States 2026 American Liberty Lion 1 OZ Gold $1,000 Coin",
     "category": "artandcollectibles",
     "retail price": 6999.99,
@@ -4379,7 +4379,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 156,
+    "id": 235,
     "name": "2002 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4249.99,
@@ -4427,7 +4427,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 157,
+    "id": 236,
     "name": "2003 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4279.99,
@@ -4475,7 +4475,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 158,
+    "id": 237,
     "name": "2004 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4299.99,
