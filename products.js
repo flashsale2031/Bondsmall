@@ -9209,4 +9209,172 @@ const products = [
       ]
     }
   }
+,
+[
+  {
+    "id": 267,
+    "name": "CHANEL 25 Large Handbag — Black Grained Calfskin",
+    "category": "accessories",
+    "retail price": 8100,
+    "sale price": 1499.99,
+    "pre-owned price": 1199.99,
+    "new price": 1499.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-76268786.jpg%203200w",
+    "images": [
+      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-76268786.jpg%203200w",
+      "https://www.chanel.com/images/as///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-76268815.jpg%203200w",
+      "https://www.chanel.com/images/as///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-76268838.jpg%203200w",
+      "https://www.chanel.com/images/as///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-76268841.jpg%203200w",
+      "https://www.chanel.com/images/as///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-76268844.jpg%203200w"
+    ],
+    "description": "The CHANEL 25 Large Handbag is a spacious interpretation of the House's contemporary CHANEL 25 silhouette. Crafted in black grained calfskin with gold-tone metal, it combines a softly structured body with signature side pockets, a chain-and-leather handle system and a practical large format designed for everyday essentials. The quilted construction and polished hardware give the bag a refined finish while retaining the relaxed character of the CHANEL 25 line.",
+    "specifications": {
+      "brand": "CHANEL",
+      "model": "25 Large Handbag",
+      "reference": "AS5553-B20304-94305",
+      "material": "Grained calfskin & gold-tone metal",
+      "color": "Black",
+      "dimensions": "16.5 x 14.2 x 5.9 in",
+      "hardware": "Gold-tone metal",
+      "silhouette": "Large hobo/shoulder bag",
+      "features": "Signature side pockets and quilted body",
+      "carry": "Shoulder carry",
+      "retail_price_source": "CHANEL U.S. official product page",
+      "source": "https://www.chanel.com/us/fashion/p/AS5553B2030494305/chanel-25-large-handbag-grained-calfskin-gold-tone-metal/"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "CHANEL",
+    "brand_display_name": "CHANEL",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[2]",
+      "right_side": "images[1]",
+      "back": "images[3]",
+      "overhead": "images[4]"
+    }
+  },
+  {
+    "id": 268,
+    "name": "CHANEL 22 Mini Handbag — Black Shiny Calfskin",
+    "category": "accessories",
+    "retail price": 5500,
+    "sale price": 1499.99,
+    "pre-owned price": 1199.99,
+    "new price": 1499.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://media.karousell.com/media/photos/products/2023/11/4/chanel_mini_22_black_1699070591_90dfb70f.jpg",
+    "images": [
+      "https://media.karousell.com/media/photos/products/2023/11/4/chanel_mini_22_black_1699070591_90dfb70f.jpg",
+      "https://images.popchill.com/products/23080662367614/16913135688068_9526.jpg",
+      "https://tshop.r10s.jp/briller-gmt/cabinet/new_057/2717017615643_1.jpg?fitin=720%3A720",
+      "https://sothebys-md.brightspotcdn.com/dims4/default/ac75750/2147483647/strip/true/crop/2000x2000%2B0%2B0/resize/800x800%21/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fmedia-desk%2F81%2F40%2Fae847c4341c8a96a2a49ffddebd7%2Fhkmrkt-d3hl8-t3-06.jpg",
+      "https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9555549782046.jpg%203200w"
+    ],
+    "description": "The CHANEL 22 Mini Handbag brings the relaxed CHANEL 22 silhouette into a compact everyday format. This black version is crafted in shiny calfskin and finished with gold-tone metal, a ruched drawstring opening, signature CHANEL lettering and a chain-and-leather strap that supports hand, shoulder or crossbody styling. Its compact proportions are suited to carrying small daily essentials while preserving the line's distinctive soft structure.",
+    "specifications": {
+      "brand": "CHANEL",
+      "model": "22 Mini Handbag",
+      "reference": "AS3980-B19059-94305",
+      "material": "Shiny calfskin & gold-tone metal",
+      "color": "Black",
+      "dimensions": "7.9 x 7.5 x 2.4 in",
+      "hardware": "Gold-tone metal",
+      "closure": "Drawstring opening",
+      "interior": "Textile-lined interior with card pocket",
+      "strap": "Chain-and-leather shoulder strap",
+      "carry": "Hand, shoulder or crossbody",
+      "retail_price_source": "CHANEL U.S. official product page",
+      "secondary_spec_source": "Jack Road and other exact-reference listings",
+      "source": "https://www.chanel.com/us/fashion/p/AS3980B1905994305/chanel-22-mini-handbag-shiny-calfskin-gold-tone-metal/"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "CHANEL",
+    "brand_display_name": "CHANEL",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
+      "overhead": "images[4]"
+    }
+  },
+  {
+    "id": 269,
+    "name": "Mini 2.55 Handbag — Black Aged Calfskin",
+    "category": "accessories",
+    "retail price": 5600,
+    "sale price": 1499.99,
+    "pre-owned price": 1199.99,
+    "new price": 1499.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543171866654.jpg%203200w",
+    "images": [
+      "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543171866654.jpg%203200w",
+      "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543171899422.jpg%203200w",
+      "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543171801118.jpg%203200w",
+      "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543171833886.jpg%203200w",
+      "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543171899422.jpg%203200w"
+    ],
+    "description": "The Mini 2.55 Handbag reinterprets the historic CHANEL 2.55 in a compact silhouette. Crafted in black aged calfskin with gold-tone metal, it features the rectangular quilted body, the distinctive Mademoiselle turn-lock and a chain strap that can be worn doubled or long. Its compact format is designed for essential items while retaining the structured character and heritage details of the 2.55 family.",
+    "specifications": {
+      "brand": "CHANEL",
+      "model": "Mini 2.55 Handbag",
+      "reference": "AS0874-Y04634-94305",
+      "material": "Aged calfskin & gold-tone metal",
+      "color": "Black",
+      "dimensions": "6.1 x 7.9 x 2.4 in",
+      "hardware": "Gold-tone metal",
+      "closure": "Mademoiselle turn-lock",
+      "strap": "Chain strap",
+      "carry": "Shoulder or crossbody",
+      "retail_price_source": "CHANEL U.S. official product page",
+      "secondary_spec_source": "Exact-reference resale listings",
+      "source": "https://www.chanel.com/us/fashion/p/AS0874Y0463494305/mini-2-55-handbag-aged-calfskin-gold-tone-metal/"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "CHANEL",
+    "brand_display_name": "CHANEL",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
+      "overhead": "images[4]"
+    }
+  }
+]
 ];
