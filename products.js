@@ -675,7 +675,7 @@ const products = [
     "gender": "Unisex"
   },
   {
-    "id": 230,
+    "id": 60,
     "name": "2021 American Liberty Bronco 1 OZ Gold $100 Coin",
     "category": "artandcollectibles",
     "retail price": 19999.99,
@@ -708,7 +708,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 231,
+    "id": 61,
     "name": "Random Year American Buffalo 1 OZ Gold $50 Coin",
     "category": "artandcollectibles",
     "retail price": 7999.99,
@@ -749,7 +749,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 232,
+    "id": 62,
     "name": "2026 American Eagle 1 OZ Gold $50 Coin",
     "category": "artandcollectibles",
     "retail price": 7499.99,
@@ -1599,7 +1599,7 @@ const products = [
     "gender": "Unisex"
   },
   {
-    "id": 233,
+    "id": 63,
     "name": "2017 American Liberty 1 OZ Gold $100 Coin",
     "category": "artandcollectibles",
     "retail price": 6499.99,
@@ -1635,7 +1635,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 60,
+    "id": 297,
     "name": "Sony Playstation 5 (Digital Version)",
     "category": "entertainment",
     "retail price": 599.99,
@@ -1663,7 +1663,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 61,
+    "id": 298,
     "name": "Men's Gucci Shirt",
     "category": "men",
     "retail price": 1499.99,
@@ -1692,7 +1692,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 62,
+    "id": 299,
     "name": "Men's Gucci Coat",
     "category": "men",
     "retail price": 2499.99,
@@ -1723,7 +1723,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 63,
+    "id": 300,
     "name": "Men's Gucci Travel Bag",
     "category": "accessories",
     "retail price": 2999.99,
@@ -1755,7 +1755,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 64,
+    "id": 301,
     "name": "Men's Gucci Wallet",
     "category": "accessories",
     "retail price": 199.99,
@@ -1785,7 +1785,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 65,
+    "id": 302,
     "name": "Men's Gucci Leather Belt",
     "category": "accessories",
     "retail price": 599.99,
@@ -1816,7 +1816,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 66,
+    "id": 303,
     "name": "Men's Gucci Watch",
     "category": "jewelry",
     "retail price": 1999.99,
@@ -1846,7 +1846,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 67,
+    "id": 304,
     "name": "Men's Gucci Socks",
     "category": "men",
     "retail price": 149.99,
@@ -1872,7 +1872,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 68,
+    "id": 305,
     "name": "Men's Gucci Underwear",
     "category": "men",
     "retail price": 99.99,
@@ -1898,7 +1898,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 69,
+    "id": 306,
     "name": "Men's Gucci Sweater",
     "category": "men",
     "retail price": 1999.99,
@@ -1929,7 +1929,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 70,
+    "id": 307,
     "name": "Men's Gucci Shorts",
     "category": "men",
     "retail price": 199.99,
@@ -1957,7 +1957,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 71,
+    "id": 308,
     "name": "Men's Gucci Casual Pants",
     "category": "men",
     "retail price": 499.99,
@@ -1985,7 +1985,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 72,
+    "id": 309,
     "name": "Men's Gucci Hooded Sweatshirt",
     "category": "men",
     "retail price": 599.99,
@@ -2016,7 +2016,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 73,
+    "id": 310,
     "name": "Men's Gucci Jacket",
     "category": "men",
     "retail price": 2999.99,
@@ -2047,7 +2047,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 74,
+    "id": 311,
     "name": "Women's Gucci Shirt",
     "category": "women",
     "retail price": 799.99,
@@ -2075,7 +2075,7 @@ const products = [
     "gender": "Women"
   },
   {
-    "id": 75,
+    "id": 312,
     "name": "Women's Burberry Shirt",
     "category": "women",
     "retail price": 499.99,
@@ -2106,7 +2106,7 @@ const products = [
     "gender": "Women"
   },
   {
-    "id": 76,
+    "id": 313,
     "name": "Canon T7 Rebel EOS",
     "category": "electronics",
     "retail price": 499.99,
@@ -2127,7 +2127,7 @@ const products = [
     "gender": "Unisex"
   },
   {
-    "id": 77,
+    "id": 314,
     "name": "Women's Dolce & Gabbana Slippers",
     "category": "women",
     "retail price": 999.99,
@@ -2148,7 +2148,7 @@ const products = [
     "gender": "Women"
   },
   {
-    "id": 78,
+    "id": 315,
     "name": "Men's Adidas Snapback",
     "category": "accessories",
     "retail price": 19.99,
@@ -2171,7 +2171,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 79,
+    "id": 316,
     "name": "Women's Burberry Handbag",
     "category": "accessories",
     "retail price": 2499.99,
@@ -2203,7 +2203,7 @@ const products = [
     "gender": "Women"
   },
   {
-    "id": 80,
+    "id": 317,
     "name": "Women's Celine Handbag",
     "category": "accessories",
     "retail price": 2499.99,
@@ -2235,7 +2235,7 @@ const products = [
     "gender": "Women"
   },
   {
-    "id": 81,
+    "id": 318,
     "name": "Samsung Wireless Headphones",
     "category": "electronics",
     "retail price": 79.99,
@@ -2258,7 +2258,7 @@ const products = [
     "gender": "Unisex"
   },
   {
-    "id": 82,
+    "id": 319,
     "name": "Clipboard",
     "category": "accessories",
     "retail price": 1.99,
@@ -2282,7 +2282,7 @@ const products = [
     "gender": "Unisex"
   },
   {
-    "id": 83,
+    "id": 320,
     "name": "HP Printer",
     "category": "electronics",
     "retail price": 29.99,
@@ -2312,7 +2312,7 @@ const products = [
     "gender": "Unisex"
   },
   {
-    "id": 84,
+    "id": 321,
     "name": "Men's Nike Snapback",
     "category": "men",
     "retail price": 29.99,
@@ -2335,7 +2335,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 85,
+    "id": 322,
     "name": "Men's True Religion Snapback",
     "category": "accessories",
     "retail price": 79.99,
@@ -2357,7 +2357,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 86,
+    "id": 323,
     "name": "Women's Coach Jacket",
     "category": "women",
     "retail price": 399.99,
@@ -2387,7 +2387,7 @@ const products = [
     "gender": "Women"
   },
   {
-    "id": 87,
+    "id": 324,
     "name": "Men's Guess Slippers",
     "category": "men",
     "retail price": 99.99,
@@ -2416,7 +2416,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 88,
+    "id": 325,
     "name": "Men's Hermés Cologne",
     "category": "accessories",
     "retail price": 599.99,
@@ -2444,7 +2444,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 89,
+    "id": 326,
     "name": "Men's Lacoste Hooded Sweatshirt",
     "category": "men",
     "retail price": 799.99,
@@ -2472,7 +2472,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 90,
+    "id": 327,
     "name": "Men's Patek Philippe Watch",
     "category": "jewelry",
     "retail price": 13649999.99,
@@ -2501,7 +2501,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 91,
+    "id": 328,
     "name": "Queen Size Bed Set With Memory Foam Mattress",
     "category": "homeandappliances",
     "retail price": 799.99,
@@ -2524,7 +2524,7 @@ const products = [
     "gender": "Unisex"
   },
   {
-    "id": 92,
+    "id": 329,
     "name": "Sony Wireless Bluetooth Headphones",
     "category": "electronics",
     "retail price": 99.99,
@@ -2547,7 +2547,7 @@ const products = [
     "gender": "Unisex"
   },
   {
-    "id": 93,
+    "id": 330,
     "name": "Women's Burberry Winter Coat",
     "category": "women",
     "retail price": 2499.99,
@@ -2583,7 +2583,7 @@ const products = [
     "gender": "Women"
   },
   {
-    "id": 94,
+    "id": 331,
     "name": "Women's Yves Saint Laurent Handbag",
     "category": "accessories",
     "retail price": 2999.99,
@@ -2620,7 +2620,7 @@ const products = [
     "gender": "Women"
   },
   {
-    "id": 95,
+    "id": 332,
     "name": "Men's Gucci Polo Shirt",
     "category": "men",
     "retail price": 2499.99,
@@ -2646,7 +2646,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 96,
+    "id": 333,
     "name": "Women's Hermés Bracelet",
     "category": "jewelry",
     "retail price": 999.99,
@@ -2671,7 +2671,7 @@ const products = [
     "gender": "Women"
   },
   {
-    "id": 97,
+    "id": 334,
     "name": "Sony Home Theater Projector",
     "category": "homeandappliances",
     "retail price": 599.99,
@@ -2699,7 +2699,7 @@ const products = [
     "gender": "Unisex"
   },
   {
-    "id": 98,
+    "id": 335,
     "name": "Women's Versace Crossbody Bag",
     "category": "accessories",
     "retail price": 1799.99,
@@ -2727,7 +2727,7 @@ const products = [
     "gender": "Women"
   },
   {
-    "id": 99,
+    "id": 336,
     "name": "Men's Versace Loafers",
     "category": "men",
     "retail price": 2999.99,
@@ -2758,7 +2758,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 100,
+    "id": 337,
     "name": "Men's Nike Travel Bag",
     "category": "accessories",
     "retail price": 99.99,
@@ -2788,7 +2788,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 101,
+    "id": 338,
     "name": "Women's Hermés Epsom Birkin 30 Handbag",
     "category": "accessories",
     "retail price": 29999.99,
@@ -2817,7 +2817,7 @@ const products = [
     "gender": "Women"
   },
   {
-    "id": 103,
+    "id": 339,
     "name": "Women's Yves Saint Laurent Handbag",
     "category": "accessories",
     "retail price": 3499.99,
@@ -2856,7 +2856,7 @@ const products = [
     "gender": "Women"
   },
   {
-    "id": 104,
+    "id": 340,
     "name": "Women's Chanel Sweater",
     "category": "women",
     "retail price": 2299.99,
@@ -2887,7 +2887,7 @@ const products = [
     "gender": "Women"
   },
   {
-    "id": 105,
+    "id": 341,
     "name": "Men's Givenchy Sweater",
     "category": "men",
     "retail price": 2499.99,
@@ -2915,7 +2915,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 106,
+    "id": 342,
     "name": "Men's Burberry Bucket Hat",
     "category": "accessories",
     "retail price": 399.99,
@@ -2938,7 +2938,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 107,
+    "id": 343,
     "name": "LG 48\" Smart TV",
     "category": "homeandappliances",
     "retail price": 499.99,
@@ -2964,7 +2964,7 @@ const products = [
     "gender": "Unisex"
   },
   {
-    "id": 108,
+    "id": 344,
     "name": "Apple iPhone 17 Pro Max",
     "category": "electronics",
     "retail price": 2499.99,
@@ -2993,7 +2993,7 @@ const products = [
     "gender": "Unisex"
   },
   {
-    "id": 109,
+    "id": 345,
     "name": "Women's Bailey Bow II UGG Boots",
     "category": "women",
     "retail price": 214.99,
@@ -3021,7 +3021,7 @@ const products = [
     "gender": "Women"
   },
   {
-    "id": 110,
+    "id": 346,
     "name": "Men's MCM Bag",
     "category": "accessories",
     "retail price": 2499.99,
@@ -3051,7 +3051,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 111,
+    "id": 64,
     "name": "2025 DC Comic Batman Gold $50 Coin",
     "category": "artandcollectibles",
     "retail price": 5999.99,
@@ -3087,7 +3087,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 112,
+    "id": 347,
     "name": "LED Light Art",
     "category": "homeandappliances",
     "retail price": 99.99,
@@ -3110,7 +3110,7 @@ const products = [
     "gender": "Unisex"
   },
   {
-    "id": 113,
+    "id": 348,
     "name": "Women's Chanel Slippers",
     "category": "women",
     "retail price": 2499.99,
@@ -3135,7 +3135,7 @@ const products = [
     "gender": "Women"
   },
   {
-    "id": 114,
+    "id": 349,
     "name": "Men's Abercrombie & Fitch T-shirt",
     "category": "men",
     "retail price": 99.99,
@@ -3161,7 +3161,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 115,
+    "id": 350,
     "name": "Women's Ferragamo Sweatshirt",
     "category": "women",
     "retail price": 2499.99,
@@ -3193,7 +3193,7 @@ const products = [
     "gender": "Women"
   },
   {
-    "id": 116,
+    "id": 351,
     "name": "Women's Christian Louboutin Handbag",
     "category": "accessories",
     "retail price": 4999.99,
@@ -3228,7 +3228,7 @@ const products = [
     "gender": "Women"
   },
   {
-    "id": 117,
+    "id": 352,
     "name": "HP Copy & FAX Printer",
     "category": "electronics",
     "retail price": 299.99,
@@ -3261,7 +3261,7 @@ const products = [
     "gender": "Unisex"
   },
   {
-    "id": 118,
+    "id": 353,
     "name": "8 Surveillance Camera Home Security System With DVR",
     "category": "electronics",
     "retail price": 499.99,
@@ -3280,7 +3280,7 @@ const products = [
     "gender": "Unisex"
   },
   {
-    "id": 119,
+    "id": 354,
     "name": "Women's Tommy Hilfiger Winter Coat",
     "category": "women",
     "retail price": 199.99,
@@ -3312,7 +3312,7 @@ const products = [
     "gender": "Women"
   },
   {
-    "id": 120,
+    "id": 355,
     "name": "Women's Coach Handbag",
     "category": "accessories",
     "retail price": 599.99,
@@ -3346,7 +3346,7 @@ const products = [
     "gender": "Women"
   },
   {
-    "id": 121,
+    "id": 356,
     "name": "GE Microwave Oven",
     "category": "homeandappliances",
     "retail price": 99.99,
@@ -3369,7 +3369,7 @@ const products = [
     "gender": "Unisex"
   },
   {
-    "id": 122,
+    "id": 357,
     "name": "Aristotle Sculpture",
     "category": "artandcollectibles",
     "retail price": 199.99,
@@ -3391,7 +3391,7 @@ const products = [
     "gender": "Unisex"
   },
   {
-    "id": 123,
+    "id": 358,
     "name": "Ryobi Leaf Blower",
     "category": "homeandappliances",
     "retail price": 199.99,
@@ -3420,7 +3420,7 @@ const products = [
     "gender": "Unisex"
   },
   {
-    "id": 124,
+    "id": 359,
     "name": "Women's Abercrombie & Fitch Sweater",
     "category": "women",
     "retail price": 399.99,
@@ -3447,7 +3447,7 @@ const products = [
     "gender": "Women"
   },
   {
-    "id": 125,
+    "id": 360,
     "name": "Nintendo Switch 2 Deluxe",
     "category": "entertainment",
     "retail price": 499.99,
@@ -3469,7 +3469,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 126,
+    "id": 361,
     "name": "Women's Dolce & Gabbana Shirt",
     "category": "women",
     "retail price": 599.99,
@@ -3498,7 +3498,7 @@ const products = [
     "gender": "Women"
   },
   {
-    "id": 127,
+    "id": 362,
     "name": "Women's Abercrombie & Fitch Shirt",
     "category": "women",
     "retail price": 99.99,
@@ -3530,7 +3530,7 @@ const products = [
     "gender": "Women"
   },
   {
-    "id": 128,
+    "id": 363,
     "name": "Mortal Kombat 11",
     "category": "entertainment",
     "retail price": 59.99,
@@ -3554,7 +3554,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 129,
+    "id": 364,
     "name": "Men's Maison Margiela Sweater",
     "category": "men",
     "retail price": 3999.99,
@@ -3584,7 +3584,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 130,
+    "id": 365,
     "name": "Women's Dolce & Gabbana Crossbody Bag",
     "category": "accessories",
     "retail price": 2499.99,
@@ -3617,7 +3617,7 @@ const products = [
     "gender": "Women"
   },
   {
-    "id": 131,
+    "id": 366,
     "name": "Dolce & Gabbana Twill Baseball Cap",
     "category": "accessories",
     "retail price": 299.99,
@@ -3645,7 +3645,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 132,
+    "id": 367,
     "name": "Men's Rolex Watch",
     "category": "jewelry",
     "retail price": 9999.99,
@@ -3675,7 +3675,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 133,
+    "id": 368,
     "name": "Dell Desktop",
     "category": "electronics",
     "retail price": 999.99,
@@ -3695,7 +3695,7 @@ const products = [
     "gender": "Unisex"
   },
   {
-    "id": 134,
+    "id": 369,
     "name": "Men's Armani Cashmere Sweater",
     "category": "men",
     "retail price": 2499.99,
@@ -3725,7 +3725,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 135,
+    "id": 370,
     "name": "Women's Chanel Handbag",
     "category": "accessories",
     "retail price": 2499.99,
@@ -3755,7 +3755,7 @@ const products = [
     "gender": "Women"
   },
   {
-    "id": 136,
+    "id": 371,
     "name": "Men's Cartier Watch",
     "category": "jewelry",
     "retail price": 59999.99,
@@ -3787,7 +3787,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 137,
+    "id": 372,
     "name": "Women's Chloe Handbag",
     "category": "accessories",
     "retail price": 2999.99,
@@ -3815,7 +3815,7 @@ const products = [
     "gender": "Women"
   },
   {
-    "id": 138,
+    "id": 373,
     "name": "Men's Versace Versus Watch",
     "category": "jewelry",
     "retail price": 2499.99,
@@ -3845,7 +3845,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 139,
+    "id": 374,
     "name": "Men's Gucci Watch",
     "category": "jewelry",
     "retail price": 799.99,
@@ -3874,7 +3874,7 @@ const products = [
     "gender": "Men"
   },
   {
-    "id": 140,
+    "id": 375,
     "name": "Water Fountain",
     "category": "homeandappliances",
     "retail price": 9999.99,
@@ -3916,7 +3916,7 @@ const products = [
     "gender": "Unisex"
   },
   {
-    "id": 142,
+    "id": 65,
     "name": "2025 DC Comic Superman Gold $50 Coin",
     "category": "artandcollectibles",
     "retail price": 5999.99,
@@ -4331,7 +4331,7 @@ const products = [
     "gender": "Unisex"
   },
   {
-    "id": 234,
+    "id": 66,
     "name": "United States 2026 American Liberty Lion 1 OZ Gold $1,000 Coin",
     "category": "artandcollectibles",
     "retail price": 6999.99,
@@ -4379,7 +4379,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 235,
+    "id": 67,
     "name": "2002 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4249.99,
@@ -4427,7 +4427,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 236,
+    "id": 68,
     "name": "2003 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4279.99,
@@ -4475,7 +4475,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 237,
+    "id": 69,
     "name": "2004 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4299.99,
@@ -4523,7 +4523,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 159,
+    "id": 70,
     "name": "2005 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4349.99,
@@ -4571,7 +4571,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 160,
+    "id": 71,
     "name": "2006 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4379.99,
@@ -4619,7 +4619,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 161,
+    "id": 72,
     "name": "2007 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4399.99,
@@ -4671,7 +4671,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 162,
+    "id": 73,
     "name": "2008 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4449.99,
@@ -4719,7 +4719,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 163,
+    "id": 74,
     "name": "2009 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4479.99,
@@ -4767,7 +4767,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 164,
+    "id": 75,
     "name": "2010 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4499.99,
@@ -4815,7 +4815,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 165,
+    "id": 76,
     "name": "2011 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4549.99,
@@ -4863,7 +4863,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 166,
+    "id": 77,
     "name": "2012 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4579.99,
@@ -4911,7 +4911,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 167,
+    "id": 78,
     "name": "2013 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4599.99,
@@ -4959,7 +4959,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 168,
+    "id": 79,
     "name": "2014 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4649.99,
@@ -5007,7 +5007,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 169,
+    "id": 80,
     "name": "2015 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4679.99,
@@ -5055,7 +5055,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 170,
+    "id": 81,
     "name": "2016 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4199.99,
@@ -5103,7 +5103,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 171,
+    "id": 82,
     "name": "2017 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4749.99,
@@ -5151,7 +5151,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 172,
+    "id": 83,
     "name": "2018 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4779.99,
@@ -5199,7 +5199,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 173,
+    "id": 84,
     "name": "2019 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4799.99,
@@ -5247,7 +5247,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 174,
+    "id": 85,
     "name": "2020 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4849.99,
@@ -5295,7 +5295,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 175,
+    "id": 86,
     "name": "2021 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4879.99,
@@ -5343,7 +5343,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 176,
+    "id": 87,
     "name": "2022 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4899.99,
@@ -5391,7 +5391,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 177,
+    "id": 88,
     "name": "2023 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4949.99,
@@ -5439,7 +5439,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 178,
+    "id": 89,
     "name": "2024 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4979.99,
@@ -5487,7 +5487,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 179,
+    "id": 90,
     "name": "2025 American Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4999.99,
@@ -5535,7 +5535,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 180,
+    "id": 91,
     "name": "2002 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4249.99,
@@ -5578,7 +5578,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 181,
+    "id": 92,
     "name": "2003 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4279.99,
@@ -5621,7 +5621,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 182,
+    "id": 93,
     "name": "2004 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4299.99,
@@ -5664,7 +5664,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 183,
+    "id": 94,
     "name": "2005 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4349.99,
@@ -5707,7 +5707,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 184,
+    "id": 95,
     "name": "2006 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4379.99,
@@ -5750,7 +5750,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 185,
+    "id": 96,
     "name": "2007 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4399.99,
@@ -5793,7 +5793,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 186,
+    "id": 97,
     "name": "2008 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4449.99,
@@ -5836,7 +5836,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 187,
+    "id": 98,
     "name": "2009 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4479.99,
@@ -5879,7 +5879,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 188,
+    "id": 99,
     "name": "2010 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4499.99,
@@ -5922,7 +5922,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 189,
+    "id": 100,
     "name": "2011 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4549.99,
@@ -5965,7 +5965,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 190,
+    "id": 101,
     "name": "2012 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4579.99,
@@ -6008,7 +6008,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 191,
+    "id": 102,
     "name": "2013 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4599.99,
@@ -6051,7 +6051,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 192,
+    "id": 103,
     "name": "2014 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4649.99,
@@ -6094,7 +6094,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 193,
+    "id": 104,
     "name": "2015 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4679.99,
@@ -6141,7 +6141,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 194,
+    "id": 105,
     "name": "2016 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4199.99,
@@ -6184,7 +6184,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 195,
+    "id": 106,
     "name": "2017 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4749.99,
@@ -6231,7 +6231,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 196,
+    "id": 107,
     "name": "2018 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4779.99,
@@ -6278,7 +6278,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 197,
+    "id": 108,
     "name": "2019 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4799.99,
@@ -6325,7 +6325,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 198,
+    "id": 109,
     "name": "2020 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4849.99,
@@ -6368,7 +6368,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 199,
+    "id": 110,
     "name": "2021 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4879.99,
@@ -6415,7 +6415,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 200,
+    "id": 111,
     "name": "2022 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4899.99,
@@ -6458,7 +6458,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 201,
+    "id": 112,
     "name": "2023 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4949.99,
@@ -6505,7 +6505,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 202,
+    "id": 113,
     "name": "2024 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4979.99,
@@ -6548,7 +6548,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 203,
+    "id": 114,
     "name": "2025 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4999.99,
@@ -6595,7 +6595,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 204,
+    "id": 115,
     "name": "2026 American Liberty Gold Coin",
     "category": "artandcollectibles",
     "retail price": 5049.99,
@@ -6638,7 +6638,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 205,
+    "id": 116,
     "name": "2002 American Buffalo One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4249.99,
@@ -6681,7 +6681,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 206,
+    "id": 117,
     "name": "2003 American Buffalo One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4279.99,
@@ -6724,7 +6724,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 207,
+    "id": 118,
     "name": "2004 American Buffalo One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4299.99,
@@ -6767,7 +6767,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 208,
+    "id": 119,
     "name": "2005 American Buffalo One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4349.99,
@@ -6810,7 +6810,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 209,
+    "id": 120,
     "name": "2006 American Buffalo One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4379.99,
@@ -6857,7 +6857,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 210,
+    "id": 121,
     "name": "2007 American Buffalo One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4399.99,
@@ -6904,7 +6904,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 211,
+    "id": 122,
     "name": "2008 American Buffalo One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4449.99,
@@ -6951,7 +6951,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 212,
+    "id": 123,
     "name": "2009 American Buffalo One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4479.99,
@@ -6998,7 +6998,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 213,
+    "id": 124,
     "name": "2010 American Buffalo One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4499.99,
@@ -7045,7 +7045,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 214,
+    "id": 125,
     "name": "2011 American Buffalo One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4549.99,
@@ -7092,7 +7092,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 215,
+    "id": 126,
     "name": "2012 American Buffalo One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4579.99,
@@ -7139,7 +7139,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 216,
+    "id": 127,
     "name": "2013 American Buffalo One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4599.99,
@@ -7186,7 +7186,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 217,
+    "id": 128,
     "name": "2014 American Buffalo One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4649.99,
@@ -7233,7 +7233,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 218,
+    "id": 129,
     "name": "2015 American Buffalo One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4679.99,
@@ -7280,7 +7280,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 219,
+    "id": 130,
     "name": "2016 American Buffalo One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4199.99,
@@ -7327,7 +7327,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 220,
+    "id": 131,
     "name": "2017 American Buffalo One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4749.99,
@@ -7374,7 +7374,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 221,
+    "id": 132,
     "name": "2018 American Buffalo One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4779.99,
@@ -7421,7 +7421,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 222,
+    "id": 133,
     "name": "2019 American Buffalo One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4799.99,
@@ -7468,7 +7468,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 223,
+    "id": 134,
     "name": "2020 American Buffalo One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4849.99,
@@ -7515,7 +7515,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 224,
+    "id": 135,
     "name": "2021 American Buffalo One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4879.99,
@@ -7562,7 +7562,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 225,
+    "id": 136,
     "name": "2022 American Buffalo One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4899.99,
@@ -7609,7 +7609,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 226,
+    "id": 137,
     "name": "2023 American Buffalo One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4949.99,
@@ -7656,7 +7656,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 227,
+    "id": 138,
     "name": "2024 American Buffalo One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4979.99,
@@ -7703,7 +7703,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 228,
+    "id": 139,
     "name": "2025 American Buffalo One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4999.99,
@@ -7750,7 +7750,7 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 229,
+    "id": 140,
     "name": "2026 American Buffalo One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 5049.99,
