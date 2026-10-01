@@ -9012,7 +9012,7 @@ const products = [
   }
 ]
 ,
-[
+
   {
     "id": 264,
     "name": "Louis Vuitton Loop Hobo — Monogram Canvas",
@@ -9209,5 +9209,4 @@ const products = [
       ]
     }
   }
-]
 ];
