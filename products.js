@@ -9285,7 +9285,7 @@ const products = [
       "https://images.popchill.com/products/23080662367614/16913135688068_9526.jpg",
       "https://tshop.r10s.jp/briller-gmt/cabinet/new_057/2717017615643_1.jpg?fitin=720%3A720",
       "https://sothebys-md.brightspotcdn.com/dims4/default/ac75750/2147483647/strip/true/crop/2000x2000%2B0%2B0/resize/800x800%21/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fmedia-desk%2F81%2F40%2Fae847c4341c8a96a2a49ffddebd7%2Fhkmrkt-d3hl8-t3-06.jpg",
-      "https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9555549782046.jpg%203200w"
+      "https://img.myshopline.com/image/store/1717636720270/-202409031815021.png?h=2400&q=80&w=1800"
     ],
     "description": "The CHANEL 22 Mini Handbag brings the relaxed CHANEL 22 silhouette into a compact everyday format. This black version is crafted in shiny calfskin and finished with gold-tone metal, a ruched drawstring opening, signature CHANEL lettering and a chain-and-leather strap that supports hand, shoulder or crossbody styling. Its compact proportions are suited to carrying small daily essentials while preserving the line's distinctive soft structure.",
     "specifications": {
@@ -9341,7 +9341,8 @@ const products = [
       "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543171899422.jpg%203200w",
       "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543171801118.jpg%203200w",
       "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543171833886.jpg%203200w",
-      "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543171899422.jpg%203200w"
+      "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543171899422.jpg%203200w",
+      "https://ginzo.jp/cdn/shop/products/800000112206000-3_800x.jpg?v=1697522323"
     ],
     "description": "The Mini 2.55 Handbag reinterprets the historic CHANEL 2.55 in a compact silhouette. Crafted in black aged calfskin with gold-tone metal, it features the rectangular quilted body, the distinctive Mademoiselle turn-lock and a chain strap that can be worn doubled or long. Its compact format is designed for essential items while retaining the structured character and heritage details of the 2.55 family.",
     "specifications": {
