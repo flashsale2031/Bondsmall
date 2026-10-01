@@ -1485,7 +1485,27 @@
             });
         }
 
-        if (headerSearch) headerSearch.addEventListener("input", () => { currentPage = 1; renderProducts(); });
+        if (headerSearch) {
+            headerSearch.addEventListener("input", () => {
+                currentPage = 1;
+                if (productGrid) renderProducts();
+            });
+            headerSearch.addEventListener("search", () => {
+                const term = normalize(headerSearch.value);
+                if (term) {
+                    window.location.href = `search-results.html?q=${encodeURIComponent(headerSearch.value.trim())}`;
+                }
+            });
+            headerSearch.addEventListener("keydown", (event) => {
+                if (event.key === "Enter") {
+                    const term = normalize(headerSearch.value);
+                    if (term) {
+                        event.preventDefault();
+                        window.location.href = `search-results.html?q=${encodeURIComponent(headerSearch.value.trim())}`;
+                    }
+                }
+            });
+        }
         if (categorySearch) categorySearch.addEventListener("input", () => { currentPage = 1; renderProducts(); });
 
         if (popupHeaderSearch) {
