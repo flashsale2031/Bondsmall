@@ -8824,4 +8824,191 @@ const products = [
   {"id":258,"name":"CHANEL 19 Handbag","category":"accessories","retail price":7200,"sale price":1199.99,"pre-owned price":999.99,"new price":1199.99,"condition":"New","condition_options":["New","Pre-owned"],"default_condition":"New","image":"https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543228981278.jpg%203200w","images":["https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543228981278.jpg%203200w","https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9555553255454.jpg%203200w","https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543208566814.jpg%203200w","https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543208927262.jpg%203200w","https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9555553255454.jpg%203200w"],"description":"The CHANEL 19 Handbag presents a softly structured interpretation of the House's signature quilted codes. Crafted in black shiny lambskin, it combines a dimensional quilted body with a mixed-finish chain incorporating gold-tone, silver-tone and ruthenium-finish metal. The compact rectangular silhouette is finished with the interlocking CC closure and a versatile chain strap for shoulder or crossbody styling.","specifications":{"brand":"CHANEL","model":"19 Handbag","reference":"AS1160-B04852-94305","material":"Shiny lambskin with gold-tone, silver-tone & ruthenium-finish metal","color":"Black","dimensions":"6.3 x 10.2 x 3.5 in","retail_price_source":"CHANEL U.S. official product page","interior":"Flap-style interior with organized compartments","hardware_finish":"Gold-tone, silver-tone and ruthenium-finish metal","closure":"Interlocking CC closure","strap":"Chain strap","craftsmanship":"CHANEL handbag construction","wear":"Shoulder or crossbody"},"productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"CHANEL","brand_display_name":"CHANEL","authenticityGuaranteed":true,"authenticity_badge":"Authenticity Guaranteed","authenticity":"Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.","image_views":{"front_main":"images[0]","left_side":"images[1]","right_side":"images[2]","back":"images[3]","overhead":"images[4]"}},
   {"id":259,"name":"CHANEL 19 Large Handbag","category":"accessories","retail price":7900,"sale price":1199.99,"pre-owned price":999.99,"new price":1199.99,"condition":"New","condition_options":["New","Pre-owned"],"default_condition":"New","image":"https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543209254942.jpg%203200w","images":["https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543209254942.jpg%203200w","https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543209156638.jpg%203200w","https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543209058334.jpg%203200w","https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543208927262.jpg%203200w","https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543208108062.jpg%203200w"],"description":"The CHANEL 19 Large Handbag expands the relaxed CHANEL 19 silhouette into a generously proportioned everyday shoulder bag. Its black shiny lambskin body is defined by soft quilting and a distinctive mixed-metal chain, while the interlocking CC closure provides a recognizable House signature. The larger format is suited to carrying more daily essentials without losing the collection's softly structured character.","specifications":{"brand":"CHANEL","model":"19 Large Handbag","reference":"AS1161-B04852-94305","material":"Shiny lambskin with gold-tone, silver-tone & ruthenium-finish metal","color":"Black","dimensions":"7.9 x 11.8 x 3.9 in","retail_price_source":"CHANEL U.S. official product page","interior":"Spacious flap-bag interior","hardware_finish":"Gold-tone, silver-tone and ruthenium-finish metal","closure":"Interlocking CC closure","strap":"Chain strap","craftsmanship":"CHANEL handbag construction","wear":"Shoulder or crossbody"},"productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"CHANEL","brand_display_name":"CHANEL","authenticityGuaranteed":true,"authenticity_badge":"Authenticity Guaranteed","authenticity":"Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.","image_views":{"front_main":"images[0]","left_side":"images[1]","right_side":"images[2]","back":"images[3]","overhead":"images[4]"}},
   {"id":260,"name":"CHANEL 19 Maxi Handbag","category":"accessories","retail price":8500,"sale price":1199.99,"pre-owned price":999.99,"new price":1199.99,"condition":"New","condition_options":["New","Pre-owned"],"default_condition":"New","image":"https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543209254942.jpg%203200w","images":["https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543209254942.jpg%203200w","https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543209156638.jpg%203200w","https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543209189406.jpg%203200w","https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543208042526.jpg%203200w","https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9555560038430.jpg%203200w"],"description":"The CHANEL 19 Maxi Handbag is the largest CHANEL 19 proportion, designed for a more generous daily carry. Black shiny lambskin, soft quilting and the collection's signature mixed-finish chain create a relaxed luxury aesthetic, while the interlocking CC closure anchors the front. Its elongated proportions provide additional room for everyday belongings.","specifications":{"brand":"CHANEL","model":"19 Maxi Handbag","reference":"AS1162-B04852-94305","material":"Shiny lambskin with gold-tone, silver-tone & ruthenium-finish metal","color":"Black","dimensions":"9.8 x 14.2 x 4.3 in","retail_price_source":"CHANEL U.S. official product page","interior":"Generous flap-bag interior","hardware_finish":"Gold-tone, silver-tone and ruthenium-finish metal","closure":"Interlocking CC closure","strap":"Chain strap","craftsmanship":"CHANEL handbag construction","wear":"Shoulder or crossbody"},"productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"CHANEL","brand_display_name":"CHANEL","authenticityGuaranteed":true,"authenticity_badge":"Authenticity Guaranteed","authenticity":"Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.","image_views":{"front_main":"images[0]","left_side":"images[1]","right_side":"images[2]","back":"images[3]","overhead":"images[4]"}}
+,
+[
+  {
+    "id": 261,
+    "name": "Saint Laurent SOLFERINO Small Top Handle in Box Saint Laurent",
+    "category": "accessories",
+    "retail price": 3700,
+    "sale price": 1199.99,
+    "pre-owned price": 999.99,
+    "new price": 1199.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://saint-laurent.dam.kering.com/asset/78d4b3da-d26c-487a-b4c5-474bc58273e4/eCom/A002L50SX0W1000_A.jpg?v=1",
+    "images": [
+      "https://saint-laurent.dam.kering.com/asset/78d4b3da-d26c-487a-b4c5-474bc58273e4/eCom/A002L50SX0W1000_A.jpg?v=1",
+      "https://saint-laurent.dam.kering.com/asset/8402242a-fe8c-45e3-9226-d4017dd1e5d2/eCom/A002L50SX0W1000_B.jpg?v=1",
+      "https://saint-laurent.dam.kering.com/asset/56c70712-3059-46f5-af88-9bd60ff53c5e/eCom/A002L50SX0W1000_C.jpg?v=1",
+      "https://saint-laurent.dam.kering.com/asset/447055e9-7b35-4644-8272-5291511858d6/eCom/A002L50SX0W1000_D.jpg?v=1",
+      "https://saint-laurent.dam.kering.com/asset/7ffb5ecb-1917-4f1a-b167-7a67374a432e/eCom/A002L50SX0W1000_F.jpg?v=1",
+      "https://saint-laurent.dam.kering.com/asset/87a29aac-1f24-4763-8690-62cef8835080/eCom/A002L50SX0W1000_H.jpg?v=1",
+      "https://saint-laurent.dam.kering.com/asset/9c2350d2-6a7f-4f30-8d9c-134eddf47519/eCom/A002L50SX0W1000_I.jpg?v=1"
+    ],
+    "description": "The Saint Laurent SOLFERINO Small Top Handle is a refined compact handbag in smooth Box Saint Laurent leather, defined by a structured rounded silhouette and the House's signature Cassandre closure. A leather top handle provides elegant hand carry, while the adjustable and detachable strap allows shoulder wear. The suede-lined interior and discreet rear flat pocket keep essentials organized while preserving the bag's polished, architectural profile.",
+    "specifications": {
+      "brand": "Saint Laurent",
+      "model": "SOLFERINO Small Top Handle",
+      "reference": "A002L50SX0W1000",
+      "material": "Box Saint Laurent calfskin leather with suede lining",
+      "color": "Black",
+      "dimensions": "24 x 15 x 6.7 cm / 9.4 x 5.9 x 2.6 in",
+      "handle_drop": "4.5 cm / 1.8 in",
+      "strap_drop": "49 cm / 19.3 in",
+      "hardware": "Bronze-tone brass hardware",
+      "closure": "Cassandre sliding closure",
+      "interior": "Suede lining with one card slot",
+      "exterior_pocket": "Flat rear pocket",
+      "strap": "Adjustable and detachable leather shoulder strap",
+      "handle": "Leather top handle",
+      "country_of_origin": "Made in Italy",
+      "retail_price_source": "Saint Laurent U.S. official product page",
+      "source": "https://www.ysl.com/en-us/pr/solferino-small-top-handle-in-box-saint-laurent-A002L50SX0W1000.html"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "Saint Laurent",
+    "brand_display_name": "Saint Laurent",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[2]",
+      "right_side": "images[4]",
+      "back": "images[1]",
+      "overhead": "images[3]",
+      "additional": [
+        "images[5]",
+        "images[6]"
+      ]
+    }
+  },
+  {
+    "id": 262,
+    "name": "Saint Laurent SIMONE Large in Soft Leather",
+    "category": "accessories",
+    "retail price": 4600,
+    "sale price": 1199.99,
+    "pre-owned price": 999.99,
+    "new price": 1199.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://saint-laurent.dam.kering.com/asset/bc42d3ca-6b5a-48eb-b0b3-d81174a9fa85/eCom/A00FMTAAHXH1000_A.jpg?v=1",
+    "images": [
+      "https://saint-laurent.dam.kering.com/asset/bc42d3ca-6b5a-48eb-b0b3-d81174a9fa85/eCom/A00FMTAAHXH1000_A.jpg?v=1",
+      "https://saint-laurent.dam.kering.com/asset/aadfccd2-60bf-4ac3-b12b-7a595379f2d7/eCom/A00FMTAAHXH1000_B.jpg?v=1",
+      "https://saint-laurent.dam.kering.com/asset/25646d88-35fe-4b0a-8558-c651b646a737/eCom/A00FMTAAHXH1000_C.jpg?v=1",
+      "https://saint-laurent.dam.kering.com/asset/331a375f-a194-47bd-87f5-caeeb8e7c84e/eCom/A00FMTAAHXH1000_D.jpg?v=2",
+      "https://saint-laurent.dam.kering.com/asset/6d2b10a8-dc02-4f2b-9e03-637b92e4d0d5/eCom/A00FMTAAHXH1000_Y.jpg?v=2",
+      "https://saint-laurent.dam.kering.com/asset/331a375f-a194-47bd-87f5-caeeb8e7c84e/eCom/A00FMTAAHXH1000_D.jpg?v=2"
+    ],
+    "description": "The Saint Laurent SIMONE Large is a spacious shoulder bag with a sleek envelope silhouette crafted in supple black calfskin. The design is finished with the double Cassandre signature, a soft suede lining and delicate double straps. Its organized interior opens into two compartments with a front document compartment and a zip pocket, creating a polished solution for everyday work, travel and city carry.",
+    "specifications": {
+      "brand": "Saint Laurent",
+      "model": "SIMONE Large",
+      "reference": "A00FMTAAHXH1000",
+      "material": "Supple calfskin leather with suede lining",
+      "color": "Black",
+      "dimensions": "43 x 24.5 x 5–13 cm / 16.9 x 9.6 x 2–5.1 in",
+      "strap_drop": "30 cm / 11.8 in",
+      "hardware": "Bronze-tone brass hardware",
+      "closure": "Magnetic closure",
+      "interior": "Two compartments with one front document compartment and one zip pocket",
+      "carry": "Shoulder carry",
+      "country_of_origin": "Made in Italy",
+      "retail_price_source": "Saint Laurent U.S. official product page",
+      "source": "https://www.ysl.com/en-us/pr/simone-large-in-soft-leather-A00FMTAAHXH1000.html"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "Saint Laurent",
+    "brand_display_name": "Saint Laurent",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[2]",
+      "right_side": "images[4]",
+      "back": "images[1]",
+      "overhead": "images[3]",
+      "additional": [
+        "images[5]"
+      ]
+    }
+  },
+  {
+    "id": 263,
+    "name": "Saint Laurent SAC DE JOUR Thin Large in Grained Leather",
+    "category": "accessories",
+    "retail price": 3900,
+    "sale price": 1199.99,
+    "pre-owned price": 999.99,
+    "new price": 1199.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://saint-laurent.dam.kering.com/asset/65d46d6b-9261-4106-8915-7f438cc3e842/eCom/631526DTI0W1000_A.jpg?v=5",
+    "images": [
+      "https://saint-laurent.dam.kering.com/asset/65d46d6b-9261-4106-8915-7f438cc3e842/eCom/631526DTI0W1000_A.jpg?v=5",
+      "https://saint-laurent.dam.kering.com/asset/0fc4dd33-57a1-47e8-98a1-2b565a94ae07/eCom/631526DTI0W1000_B.jpg?v=1",
+      "https://saint-laurent.dam.kering.com/asset/64f39d7f-db87-4300-870e-745e60b22206/eCom/631526DTI0W1000_C.jpg?v=6",
+      "https://saint-laurent.dam.kering.com/asset/96d59650-12bc-4ddd-84e8-cbbae3a642e0/eCom/631526DTI0W1000_D.jpg?v=5",
+      "https://saint-laurent.dam.kering.com/asset/a38a046a-549c-48f3-82a2-bdf65ea05aa3/eCom/631526DTI0W1000_E.jpg?v=4"
+    ],
+    "description": "The Saint Laurent SAC DE JOUR Thin Large is a refined, soft-structured interpretation of the House's signature large bag. Crafted in black grained calfskin, it combines tubular handles, slim side gussets and compression straps with tabs, plus a removable leather-encased padlock charm. A detachable adjustable shoulder strap expands carrying options, while the suede-lined interior is divided into two main compartments by a removable zip pouch.",
+    "specifications": {
+      "brand": "Saint Laurent",
+      "model": "SAC DE JOUR Thin Large",
+      "reference": "631526DTI0W1000",
+      "material": "Grained calfskin leather with suede lining",
+      "color": "Black",
+      "dimensions": "40 x 30 x 13.5 cm / 15.7 x 11.8 x 5.3 in",
+      "strap_drop": "48 cm / 18.9 in",
+      "hardware": "Bronze-tone metal hardware",
+      "closure": "Open top",
+      "interior": "Two main compartments separated by a detachable zip pouch",
+      "handles": "Tubular top handles",
+      "side_details": "Thin side gussets and compression straps with tabs",
+      "charm": "Removable leather-encased padlock charm",
+      "strap": "Adjustable and detachable shoulder strap",
+      "country_of_origin": "Made in Italy",
+      "retail_price_source": "Saint Laurent U.S. official product page",
+      "source": "https://www.ysl.com/en-us/pr/sac-de-jour-thin-large-in-grained-leather-810299308.html"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "Saint Laurent",
+    "brand_display_name": "Saint Laurent",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[2]",
+      "right_side": "images[3]",
+      "back": "images[1]",
+      "overhead": "images[4]"
+    }
+  }
+]
 ];
