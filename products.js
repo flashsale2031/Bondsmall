@@ -10463,4 +10463,64 @@ const products = [
     "overhead": "images[4]"
   }
 }
+,
+{
+  "id": 290,
+  "name": "Gucci Diana Small Tote Bag — Green Ostrich Leather",
+  "category": "accessories",
+  "retail price": 10000,
+  "sale price": 1499.99,
+  "pre-owned price": 1199.99,
+  "new price": 1499.99,
+  "condition": "New",
+  "condition_options": [
+    "New",
+    "Pre-owned"
+  ],
+  "default_condition": "New",
+  "image": "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1764784826/832936_EY00G_3002_013_061_0000_Light-.jpg",
+  "images": [
+    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1764784826/832936_EY00G_3002_013_061_0000_Light-.jpg",
+    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1767031215/832936_EY00G_3002_004_100_0000_Light-.jpg",
+    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1764784826/832936_EY00G_3002_007_090_0000_Light-.jpg",
+    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1764784826/832936_EY00G_3002_010_069_0000_Light-.jpg",
+    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1764784826/832936_EY00G_3002_001_100_0000_Light-.jpg"
+  ],
+  "description": "The Gucci Diana small tote is an elevated top-handle silhouette distinguished by iconic bamboo handles and precious green ostrich leather. It can be carried by hand, over the shoulder or crossbody using its detachable adjustable leather strap, with light gold-toned hardware, Double G detailing, magnetic closure and a leather-lined interior.",
+  "specifications": {
+    "brand": "Gucci",
+    "model": "Diana Small Tote",
+    "style": "832936 EY00G 3002",
+    "material": "Green ostrich leather",
+    "lining": "Green leather",
+    "hardware": "Light gold-toned",
+    "logo": "Double G",
+    "closure": "Magnetic closure",
+    "dimensions": "7.8 W x 6.3 H x 3.1 D in",
+    "weight": "1.5 lb approximately",
+    "handles": "Bamboo handles, 3.1 in drop",
+    "shoulder_strap": "Detachable adjustable leather strap, 18.9–21.7 in drop",
+    "pocket": "One interior open pocket",
+    "origin": "Made in Italy",
+    "capacity": "Fits iPhone Pro Max/Plus, AirPods, small wallet and lipstick",
+    "retail_price_source": "Gucci U.S. official product page",
+    "source": "https://www.gucci.com/us/en/pr/women/handbags/top-handle-bags-for-women/gucci-diana-ostrich-small-tote-bag-p-832936EY00G3002"
+  },
+  "productType": "Handbag",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Women",
+  "brand": "Gucci",
+  "brand_display_name": "Gucci",
+  "authenticityGuaranteed": true,
+  "authenticity_badge": "Authenticity Guaranteed",
+  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+  "image_views": {
+    "front_main": "images[0]",
+    "left_side": "images[1]",
+    "right_side": "images[2]",
+    "back": "images[3]",
+    "overhead": "images[4]"
+  }
+}
 ];
