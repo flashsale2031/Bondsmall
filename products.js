@@ -9210,7 +9210,6 @@ const products = [
     }
   }
 ,
-[
   {
     "id": 267,
     "name": "CHANEL 25 Large Handbag — Black Grained Calfskin",
@@ -9377,5 +9376,4 @@ const products = [
       "overhead": "images[4]"
     }
   }
-]
 ];
