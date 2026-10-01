@@ -8514,13 +8514,13 @@ const products = [
     "condition": "New",
     "condition_options": ["New", "Pre-owned"],
     "default_condition": "New",
-    "image": "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-diane---M2A335_PM1_Side%20view.jpg",
+    "image": "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-diane---M2A335_PM2_Front%20view.jpg",
     "images": [
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-diane---M2A335_PM2_Front%20view.jpg",
       "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-diane---M2A335_PM1_Side%20view.jpg",
       "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-diane---M2A335_PM1_Back%20view.jpg",
       "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-diane---M2A335_PM1_Interior%20view.jpg",
-      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-diane---M2A335_PM1_Closeup%20view.jpg",
-      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-diane---M2A335_PM1_Side%20view.jpg"
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-diane---M2A335_PM1_Closeup%20view.jpg"
     ],
     "description": "The Louis Vuitton Diane is a compact, structured handbag designed around the Maison's Monogram Empreinte leather. This Hazelnut edition features embossed cowhide leather, matching leather trim, microfiber lining and gold-toned hardware. A flap with magnetic closure secures the essentials, while the removable handle and adjustable strap allow the bag to be carried by hand or worn over the shoulder.",
     "specifications": {
