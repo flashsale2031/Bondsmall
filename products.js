@@ -10404,4 +10404,63 @@ const products = [
     "overhead": "images[4]"
   }
 }
+,
+{
+  "id": 289,
+  "name": "Gucci Jackie 1961 Medium Shoulder Bag — Black Hand-Treated Leather",
+  "category": "accessories",
+  "retail price": 3450,
+  "sale price": 1499.99,
+  "pre-owned price": 1199.99,
+  "new price": 1499.99,
+  "condition": "New",
+  "condition_options": [
+    "New",
+    "Pre-owned"
+  ],
+  "default_condition": "New",
+  "image": "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1765293304/863136_AAGFZ_1000_007_090_0000_Light-1961.jpg",
+  "images": [
+    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1765293304/863136_AAGFZ_1000_007_090_0000_Light-1961.jpg",
+    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1765293304/863136_AAGFZ_1000_010_069_0000_Light-1961.jpg",
+    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1765293304/863136_AAGFZ_1000_004_100_0000_Light-1961.jpg",
+    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1765293304/863136_AAGFZ_1000_013_061_0000_Light-1961.jpg",
+    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1765293304/863136_AAGFZ_1000_001_100_0000_Light-1961.jpg"
+  ],
+  "description": "The Gucci Jackie 1961 medium shoulder bag is a contemporary interpretation of Gucci's signature crescent silhouette. This Spring Summer 2026 version is crafted from soft, naturally glossy black leather that has been hand-treated for a lived-in, vintage-inspired character, with gold-toned hardware, piston closure and a black nappa-lined interior.",
+  "specifications": {
+    "brand": "Gucci",
+    "model": "Jackie 1961 Medium Shoulder Bag",
+    "style": "863136 AAGFZ 1000",
+    "material": "Black soft naturally glossy leather, hand-treated",
+    "lining": "Black nappa leather",
+    "hardware": "Gold-toned",
+    "closure": "Piston closure",
+    "interior": "One zip pocket",
+    "dimensions": "12.4 W x 8.7 H x 1.8 D in",
+    "weight": "0.8 lb approximately",
+    "handle_drop": "9.8–11.4 in",
+    "extender_strap_drop": "18.9–24 in",
+    "origin": "Made in Italy",
+    "capacity": "Fits iPhone Pro Max/Plus, AirPods, long wallet and lipstick",
+    "retail_price_source": "Gucci U.S. official product page",
+    "source": "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/half-moon-bags-for-women/gucci-jackie-1961-medium-shoulder-bag-p-863136AAGFZ1000"
+  },
+  "productType": "Handbag",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Women",
+  "brand": "Gucci",
+  "brand_display_name": "Gucci",
+  "authenticityGuaranteed": true,
+  "authenticity_badge": "Authenticity Guaranteed",
+  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+  "image_views": {
+    "front_main": "images[0]",
+    "left_side": "images[1]",
+    "right_side": "images[2]",
+    "back": "images[3]",
+    "overhead": "images[4]"
+  }
+}
 ];
