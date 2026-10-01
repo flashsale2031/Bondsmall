@@ -10343,4 +10343,65 @@ const products = [
     "overhead": "images[4]"
   }
 }
+,
+{
+  "id": 288,
+  "name": "Gucci Giglio Small Tote Bag — Sand and Brown GG Fabric",
+  "category": "accessories",
+  "retail price": 1850,
+  "sale price": 1499.99,
+  "pre-owned price": 1199.99,
+  "new price": 1499.99,
+  "condition": "New",
+  "condition_options": [
+    "New",
+    "Pre-owned"
+  ],
+  "default_condition": "New",
+  "image": "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1760000000/860845_FAF1L_9653_001_100_0000_Light-.jpg",
+  "images": [
+    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1760000000/860845_FAF1L_9653_001_100_0000_Light-.jpg",
+    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1760000000/860845_FAF1L_9653_007_090_0000_Light-.jpg",
+    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1760000000/860845_FAF1L_9653_010_069_0000_Light-.jpg",
+    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1760000000/860845_FAF1L_9653_004_100_0000_Light-.jpg",
+    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1760000000/860845_FAF1L_9653_013_061_0000_Light-.jpg"
+  ],
+  "description": "The Gucci Giglio small tote is a modern tote silhouette crafted from varnished GG fabric with soft leather trim, green-and-red Web detailing and Double G hardware. It offers top-handle and adjustable shoulder carrying, a detachable pouch and a hidden magnetic closure for organized everyday use.",
+  "specifications": {
+    "brand": "Gucci",
+    "model": "Giglio Small Tote",
+    "style": "860845 FAF1L 9653",
+    "material": "Sand and dark brown varnished GG fabric",
+    "trim": "Dark brown soft leather with green and red Web canvas trim",
+    "lining": "Sand canvas with Diamante motif",
+    "hardware": "Gold-toned",
+    "logo": "Double G",
+    "closure": "Hidden magnetic closure",
+    "dimensions": "9.8 W x 7.9 H x 5.9 D in",
+    "weight": "1.1 lb approximately",
+    "handle_drop": "5.9 in",
+    "shoulder_strap": "Detachable adjustable leather strap, 21.3–24.8 in drop",
+    "pouch": "Detachable pouch",
+    "origin": "Made in Italy",
+    "capacity": "Fits an iPad, iPhone, AirPods and small items",
+    "retail_price_source": "Gucci U.S. official product page",
+    "source": "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/gucci-giglio-small-tote-bag-p-860845FAF1L9653"
+  },
+  "productType": "Handbag",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Women",
+  "brand": "Gucci",
+  "brand_display_name": "Gucci",
+  "authenticityGuaranteed": true,
+  "authenticity_badge": "Authenticity Guaranteed",
+  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+  "image_views": {
+    "front_main": "images[0]",
+    "left_side": "images[1]",
+    "right_side": "images[2]",
+    "back": "images[3]",
+    "overhead": "images[4]"
+  }
+}
 ];
