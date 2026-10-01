@@ -7796,4 +7796,158 @@ const products = [
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint"
   }
+  {
+    "id": 238,
+    "name": "CHANEL 2.55 Handbag — Black Lambskin",
+    "category": "accessories",
+    "retail price": 13800,
+    "sale price": 999.99,
+    "pre-owned price": 799.99,
+    "new price": 999.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://www.chanel.com/images/as/q_auto%3Agood%2Cf_auto%2Cfl_lossy%2Cdpr_1.1/w_512/-83808029.jpg",
+    "images": [
+      "https://www.chanel.com/images/as/q_auto%3Agood%2Cf_auto%2Cfl_lossy%2Cdpr_1.1/w_512/-83808029.jpg"
+    ],
+    "description": "A refined CHANEL 2.55 flap handbag presented in black lambskin with gold-tone metal. This current CHANEL design pairs a softly quilted silhouette with signature chain detailing and compact proportions for polished daytime or evening styling.",
+    "specifications": {
+      "brand": "CHANEL",
+      "model": "2.55 Handbag",
+      "reference": "AS6522-B26737-94305",
+      "material": "Lambskin & gold-tone metal",
+      "color": "Black",
+      "dimensions": "6.9 x 9.6 x 2.4 in",
+      "collection": "Fall-Winter 2026",
+      "bag_type": "Flap / shoulder bag",
+      "hardware": "Gold-tone metal",
+      "source": "https://www.chanel.com/us/fashion/p/AS6522B2673794305/2-55-handbag-lambskin-gold-tone-metal/"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "CHANEL",
+    "brand_display_name": "CHANEL"
+  },
+  {
+    "id": 239,
+    "name": "CHANEL 19 Handbag — Black Shiny Lambskin",
+    "category": "accessories",
+    "retail price": 7200,
+    "sale price": 999.99,
+    "pre-owned price": 799.99,
+    "new price": 999.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://www.chanel.com/images/q_auto%3Agood%2Cf_auto%2Cfl_lossy%2Cdpr_1.1/w_512/-9543208763422.jpg",
+    "images": [
+      "https://www.chanel.com/images/q_auto%3Agood%2Cf_auto%2Cfl_lossy%2Cdpr_1.1/w_512/-9543208763422.jpg"
+    ],
+    "description": "The CHANEL 19 handbag combines a soft quilted silhouette with a distinctive mixed-metal chain and Double C turnlock. Finished in black shiny lambskin, it is designed for versatile shoulder wear from elevated everyday dressing through evening occasions.",
+    "specifications": {
+      "brand": "CHANEL",
+      "model": "CHANEL 19 Handbag",
+      "reference": "AS1160-B04852-94305",
+      "material": "Shiny lambskin, gold-tone, silver-tone & ruthenium-finish metal",
+      "color": "Black",
+      "dimensions": "6.3 x 10.2 x 3.5 in",
+      "bag_type": "Flap / shoulder bag",
+      "hardware": "Gold-tone, silver-tone & ruthenium-finish metal",
+      "chain_detail": "Mixed-metal gourmette chain with leather interlacing",
+      "closure": "Double C turnlock",
+      "source": "https://www.chanel.com/us/fashion/p/AS1160B0485294305/chanel-19-handbag-shiny-lambskin-gold-tone-silver-tone-ruthenium-finish-metal/"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "CHANEL",
+    "brand_display_name": "CHANEL"
+  },
+  {
+    "id": 240,
+    "name": "BOY CHANEL Handbag — Black Calfskin",
+    "category": "accessories",
+    "retail price": 7400,
+    "sale price": 999.99,
+    "pre-owned price": 799.99,
+    "new price": 999.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9555539558430.jpg",
+    "images": [
+      "https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9555539558430.jpg"
+    ],
+    "description": "The BOY CHANEL handbag gives the house's quilted flap-bag codes a structured, contemporary profile. Crafted in black calfskin with ruthenium-finish metal, its architectural silhouette and chain strap create a polished luxury presentation.",
+    "specifications": {
+      "brand": "CHANEL",
+      "model": "BOY CHANEL Handbag",
+      "reference": "A67086-Y09953-94305",
+      "material": "Calfskin & ruthenium-finish metal",
+      "color": "Black",
+      "dimensions": "5.9 x 9.8 x 3.5 in",
+      "bag_type": "Flap / shoulder bag",
+      "hardware": "Ruthenium-finish metal",
+      "silhouette": "Structured quilted flap",
+      "source": "https://www.chanel.com/us/fashion/p/A67086Y0995394305/boy-chanel-handbag-calfskin-ruthenium-finish-metal/"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "CHANEL",
+    "brand_display_name": "CHANEL"
+  },
+  {
+    "id": 241,
+    "name": "CHANEL Classic 11.12 Handbag — Black Lambskin",
+    "category": "accessories",
+    "retail price": 11700,
+    "sale price": 999.99,
+    "pre-owned price": 799.99,
+    "new price": 999.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83439605.jpg",
+    "images": [
+      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83439605.jpg"
+    ],
+    "description": "The CHANEL Classic 11.12 handbag is an enduring flap-bag silhouette in black lambskin and gold-tone metal. Its rectangular profile, quilted finish and iconic CHANEL hardware provide a refined presentation suitable for hand or shoulder carry.",
+    "specifications": {
+      "brand": "CHANEL",
+      "model": "Classic 11.12 Handbag",
+      "reference": "A01112-B25747-94305",
+      "material": "Lambskin & gold-tone metal",
+      "color": "Black",
+      "dimensions": "6.1 x 10 x 2.6 in",
+      "collection": "Fall Winter 2026 Pre-Collection",
+      "bag_type": "Flap / shoulder bag",
+      "hardware": "Gold-tone metal",
+      "carry_options": "Hand or shoulder carry",
+      "source": "https://www.chanel.com/us/fashion/p/A01112B2574794305/classic-11-12-handbag-lambskin-gold-tone-metal/"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "CHANEL",
+    "brand_display_name": "CHANEL"
+  },
 ];
