@@ -7949,5 +7949,5 @@ const products = [
     "gender": "Women",
     "brand": "CHANEL",
     "brand_display_name": "CHANEL"
-  },
+  }
 ];
