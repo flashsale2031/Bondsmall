@@ -1494,7 +1494,11 @@ window.products = [
     "image": "https://cdn11.bigcommerce.com/s-ojbexn9zb6/images/stencil/1500x1500/products/189262/237437/2021-american-liberty-high-relief-gold-coin-obverse__48730.1767536143.jpg?c=1",
     "description": "The 2021 American Liberty High Relief Gold Coin is the fifth coin in the American Liberty series. Since its debut in 2015, the American Liberty Gold Coin and Silver Medal Program features coins and medals with modern depictions of allegorical Liberty on the obverse. The reverse features complementary eagle designs. The designs represent what liberty means to each of us individually as Americans, or collectively as a nation.",
     "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477808267.coreimg.jpeg/1746477874968/2021-american-liberty-high-relief-gold-coin-reverse.jpeg"
+      "https://cdn11.bigcommerce.com/s-ojbexn9zb6/images/stencil/1500x1500/products/189262/237437/2021-american-liberty-high-relief-gold-coin-obverse__48730.1767536143.jpg?c=1",
+      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477808267.coreimg.jpeg/1746477874968/2021-american-liberty-high-relief-gold-coin-reverse.jpeg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-ojbexn9zb6%2Fimages%2Fstencil%2F1500x1500%2Fproducts%2F189262%2F237437%2F2021-american-liberty-high-relief-gold-coin-obverse__48730.1767536143.jpg%3Fc%3D1%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2021%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2021-high-relief-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746477808267.coreimg.jpeg%2F1746477874968%2F2021-american-liberty-high-relief-gold-coin-reverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2021%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://cdn11.bigcommerce.com/s-ojbexn9zb6/images/stencil/1500x1500/products/189262/237437/2021-american-liberty-high-relief-gold-coin-obverse__48730.1767536143.jpg?c=1"
     ],
     "specifications": {
       "brand": "US Mint",
@@ -1516,7 +1520,15 @@ window.products = [
     "luxury_brand": true,
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://cdn11.bigcommerce.com/s-ojbexn9zb6/images/stencil/1500x1500/products/189262/237437/2021-american-liberty-high-relief-gold-coin-obverse__48730.1767536143.jpg?c=1",
+      "back": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477808267.coreimg.jpeg/1746477874968/2021-american-liberty-high-relief-gold-coin-reverse.jpeg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-ojbexn9zb6%2Fimages%2Fstencil%2F1500x1500%2Fproducts%2F189262%2F237437%2F2021-american-liberty-high-relief-gold-coin-obverse__48730.1767536143.jpg%3Fc%3D1%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2021%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2021-high-relief-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746477808267.coreimg.jpeg%2F1746477874968%2F2021-american-liberty-high-relief-gold-coin-reverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2021%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://cdn11.bigcommerce.com/s-ojbexn9zb6/images/stencil/1500x1500/products/189262/237437/2021-american-liberty-high-relief-gold-coin-obverse__48730.1767536143.jpg?c=1"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 61,
@@ -1530,10 +1542,9 @@ window.products = [
     "images": [
       "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwf875f1a3/images/hi-res/coin-programs/American-Buffalo/26el_c.jpg?sw=1200&sh=1200&sm=fit",
       "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-obverse.jpg",
-      "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-reverse.jpg",
-      "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof.jpg",
-      "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-both-cases.jpg",
-      "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-case.jpg"
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Fdw%2Fimage%2Fv2%2FAARB_PRD%2Fon%2Fdemandware.static%2F-%2FSites-usm-master-catalog-us%2Fdefault%2Fdwf875f1a3%2Fimages%2Fhi-res%2Fcoin-programs%2FAmerican-Buffalo%2F26el_c.jpg%3Fsw%3D1200%26amp%3Bsh%3D1200%26amp%3Bsm%3Dfit%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.moneymetals.com%2Fimages%2Fproducts%2F2006-1oz-gold-coins-american-buffalo-proof-obverse.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-reverse.jpg"
     ],
     "specifications": {
       "brand": "US Mint",
@@ -1557,7 +1568,15 @@ window.products = [
     "luxury_brand": true,
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwf875f1a3/images/hi-res/coin-programs/American-Buffalo/26el_c.jpg?sw=1200&sh=1200&sm=fit",
+      "back": "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-obverse.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Fdw%2Fimage%2Fv2%2FAARB_PRD%2Fon%2Fdemandware.static%2F-%2FSites-usm-master-catalog-us%2Fdefault%2Fdwf875f1a3%2Fimages%2Fhi-res%2Fcoin-programs%2FAmerican-Buffalo%2F26el_c.jpg%3Fsw%3D1200%26amp%3Bsh%3D1200%26amp%3Bsm%3Dfit%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.moneymetals.com%2Fimages%2Fproducts%2F2006-1oz-gold-coins-american-buffalo-proof-obverse.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-reverse.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 62,
@@ -1571,9 +1590,9 @@ window.products = [
     "images": [
       "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw39628b9a/images/hi-res/coin-programs/American-Eagle/26eb_c.jpg?sw=1200&sh=1200&sm=fit",
       "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw9db3e08e/images/hi-res/coin-programs/American-Eagle/26eb_b.jpg?sw=1200&sh=1200&sm=fit",
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw061f3645/images/hi-res/coin-programs/American-Eagle/26eb_a.jpg?sw=1200&sh=1200&sm=fit",
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw581d899d/images/hi-res/coin-programs/American-Eagle/26eb_f.jpg?sw=1200&sh=1200&sm=fit",
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwcb096fb0/images/hi-res/coin-programs/American-Eagle/26eb_g.jpg?sw=1200&sh=1200&sm=fit"
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Fdw%2Fimage%2Fv2%2FAARB_PRD%2Fon%2Fdemandware.static%2F-%2FSites-usm-master-catalog-us%2Fdefault%2Fdw39628b9a%2Fimages%2Fhi-res%2Fcoin-programs%2FAmerican-Eagle%2F26eb_c.jpg%3Fsw%3D1200%26amp%3Bsh%3D1200%26amp%3Bsm%3Dfit%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2026%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Fdw%2Fimage%2Fv2%2FAARB_PRD%2Fon%2Fdemandware.static%2F-%2FSites-usm-master-catalog-us%2Fdefault%2Fdw9db3e08e%2Fimages%2Fhi-res%2Fcoin-programs%2FAmerican-Eagle%2F26eb_b.jpg%3Fsw%3D1200%26amp%3Bsh%3D1200%26amp%3Bsm%3Dfit%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2026%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw061f3645/images/hi-res/coin-programs/American-Eagle/26eb_a.jpg?sw=1200&sh=1200&sm=fit"
     ],
     "specifications": {
       "brand": "US Mint",
@@ -1596,7 +1615,15 @@ window.products = [
     "luxury_brand": true,
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw39628b9a/images/hi-res/coin-programs/American-Eagle/26eb_c.jpg?sw=1200&sh=1200&sm=fit",
+      "back": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw9db3e08e/images/hi-res/coin-programs/American-Eagle/26eb_b.jpg?sw=1200&sh=1200&sm=fit",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Fdw%2Fimage%2Fv2%2FAARB_PRD%2Fon%2Fdemandware.static%2F-%2FSites-usm-master-catalog-us%2Fdefault%2Fdw39628b9a%2Fimages%2Fhi-res%2Fcoin-programs%2FAmerican-Eagle%2F26eb_c.jpg%3Fsw%3D1200%26amp%3Bsh%3D1200%26amp%3Bsm%3Dfit%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2026%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Fdw%2Fimage%2Fv2%2FAARB_PRD%2Fon%2Fdemandware.static%2F-%2FSites-usm-master-catalog-us%2Fdefault%2Fdw9db3e08e%2Fimages%2Fhi-res%2Fcoin-programs%2FAmerican-Eagle%2F26eb_b.jpg%3Fsw%3D1200%26amp%3Bsh%3D1200%26amp%3Bsm%3Dfit%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2026%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw061f3645/images/hi-res/coin-programs/American-Eagle/26eb_a.jpg?sw=1200&sh=1200&sm=fit"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 63,
@@ -1609,8 +1636,9 @@ window.products = [
     "images": [
       "https://www.pcgs.com/UserImages/category-545532-slot-2-obverse.jpg",
       "https://static01.nyt.com/images/2017/01/14/us/14coinX_xp/14coinX_xp-videoSixteenByNineJumbo1600.jpg?year=2017&h=675&w=1200&s=2c980a206730dbd58b9bcb31d329e4e735305c1ef0b2d8996179e18347fe9357&k=ZQJBKqZ0VN&tw=1",
-      "https://fortune.com/img-assets/wp-content/uploads/2017/01/100-dollar-gold-coin.jpg?format=webp&w=1440&q=100",
-      "https://cdn.abcotvs.com/dip/images/1700740_Liberty-Coin.jpg"
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.pcgs.com%2FUserImages%2Fcategory-545532-slot-2-obverse.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2017%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fstatic01.nyt.com%2Fimages%2F2017%2F01%2F14%2Fus%2F14coinX_xp%2F14coinX_xp-videoSixteenByNineJumbo1600.jpg%3Fyear%3D2017%26amp%3Bh%3D675%26amp%3Bw%3D1200%26amp%3Bs%3D2c980a206730dbd58b9bcb31d329e4e735305c1ef0b2d8996179e18347fe9357%26amp%3Bk%3DZQJBKqZ0VN%26amp%3Btw%3D1%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2017%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://fortune.com/img-assets/wp-content/uploads/2017/01/100-dollar-gold-coin.jpg?format=webp&w=1440&q=100"
     ],
     "specifications": {
       "brand": "US Mint",
@@ -1632,7 +1660,15 @@ window.products = [
     "luxury_brand": true,
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.pcgs.com/UserImages/category-545532-slot-2-obverse.jpg",
+      "back": "https://static01.nyt.com/images/2017/01/14/us/14coinX_xp/14coinX_xp-videoSixteenByNineJumbo1600.jpg?year=2017&h=675&w=1200&s=2c980a206730dbd58b9bcb31d329e4e735305c1ef0b2d8996179e18347fe9357&k=ZQJBKqZ0VN&tw=1",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.pcgs.com%2FUserImages%2Fcategory-545532-slot-2-obverse.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2017%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fstatic01.nyt.com%2Fimages%2F2017%2F01%2F14%2Fus%2F14coinX_xp%2F14coinX_xp-videoSixteenByNineJumbo1600.jpg%3Fyear%3D2017%26amp%3Bh%3D675%26amp%3Bw%3D1200%26amp%3Bs%3D2c980a206730dbd58b9bcb31d329e4e735305c1ef0b2d8996179e18347fe9357%26amp%3Bk%3DZQJBKqZ0VN%26amp%3Btw%3D1%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2017%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://fortune.com/img-assets/wp-content/uploads/2017/01/100-dollar-gold-coin.jpg?format=webp&w=1440&q=100"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 64,
@@ -1644,7 +1680,10 @@ window.products = [
     "description": "From the shadows, the Dark Knight emerges as the second release in our Comic Art Coin Program. Batman is newly etched in a 99.9% 24-Karat gold proof coin.",
     "images": [
       "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw8fda21fc/images/hi-res/coin-programs/comic-art/25DBG_c.jpg?sw=1200&sh=1200&sm=fit",
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw00a46c11/images/hi-res/coin-programs/comic-art/25DBG_b.jpg?sw=1200&sh=1200&sm=fit"
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw00a46c11/images/hi-res/coin-programs/comic-art/25DBG_b.jpg?sw=1200&sh=1200&sm=fit",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Fdw%2Fimage%2Fv2%2FAARB_PRD%2Fon%2Fdemandware.static%2F-%2FSites-usm-master-catalog-us%2Fdefault%2Fdw8fda21fc%2Fimages%2Fhi-res%2Fcoin-programs%2Fcomic-art%2F25DBG_c.jpg%3Fsw%3D1200%26amp%3Bsh%3D1200%26amp%3Bsm%3Dfit%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2025%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Fdw%2Fimage%2Fv2%2FAARB_PRD%2Fon%2Fdemandware.static%2F-%2FSites-usm-master-catalog-us%2Fdefault%2Fdw00a46c11%2Fimages%2Fhi-res%2Fcoin-programs%2Fcomic-art%2F25DBG_b.jpg%3Fsw%3D1200%26amp%3Bsh%3D1200%26amp%3Bsm%3Dfit%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2025%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw8fda21fc/images/hi-res/coin-programs/comic-art/25DBG_c.jpg?sw=1200&sh=1200&sm=fit"
     ],
     "specifications": {
       "brand": "US Mint",
@@ -1668,7 +1707,15 @@ window.products = [
     "luxury_brand": true,
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw8fda21fc/images/hi-res/coin-programs/comic-art/25DBG_c.jpg?sw=1200&sh=1200&sm=fit",
+      "back": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw00a46c11/images/hi-res/coin-programs/comic-art/25DBG_b.jpg?sw=1200&sh=1200&sm=fit",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Fdw%2Fimage%2Fv2%2FAARB_PRD%2Fon%2Fdemandware.static%2F-%2FSites-usm-master-catalog-us%2Fdefault%2Fdw8fda21fc%2Fimages%2Fhi-res%2Fcoin-programs%2Fcomic-art%2F25DBG_c.jpg%3Fsw%3D1200%26amp%3Bsh%3D1200%26amp%3Bsm%3Dfit%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2025%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Fdw%2Fimage%2Fv2%2FAARB_PRD%2Fon%2Fdemandware.static%2F-%2FSites-usm-master-catalog-us%2Fdefault%2Fdw00a46c11%2Fimages%2Fhi-res%2Fcoin-programs%2Fcomic-art%2F25DBG_b.jpg%3Fsw%3D1200%26amp%3Bsh%3D1200%26amp%3Bsm%3Dfit%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2025%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw8fda21fc/images/hi-res/coin-programs/comic-art/25DBG_c.jpg?sw=1200&sh=1200&sm=fit"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 65,
@@ -1680,7 +1727,10 @@ window.products = [
     "description": "An exceptional proof gold coin celebrating the Man of Steel. Professionally graded and encapsulated by U.S. Mint's approved comic art series.",
     "images": [
       "https://i5.walmartimages.com/seo/2025-W-50-1-2-oz-Proof-Superman-DC-Comics-Gold-Coin-w-Box-OGP_3223f0d2-51cf-4818-840f-1748ae1466db.373291d167476d253e4cc4281404ba4c.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/2408ab5c-04fd-470e-851b-564222f2d187.63f1f0961f63d20c5351c47b49904c39.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF"
+      "https://i5.walmartimages.com/asr/2408ab5c-04fd-470e-851b-564222f2d187.63f1f0961f63d20c5351c47b49904c39.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fi5.walmartimages.com%2Fseo%2F2025-W-50-1-2-oz-Proof-Superman-DC-Comics-Gold-Coin-w-Box-OGP_3223f0d2-51cf-4818-840f-1748ae1466db.373291d167476d253e4cc4281404ba4c.jpeg%3FodnHeight%3D573%26amp%3BodnWidth%3D573%26amp%3BodnBg%3DFFFFFF%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2025%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fi5.walmartimages.com%2Fasr%2F2408ab5c-04fd-470e-851b-564222f2d187.63f1f0961f63d20c5351c47b49904c39.jpeg%3FodnHeight%3D573%26amp%3BodnWidth%3D573%26amp%3BodnBg%3DFFFFFF%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2025%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://i5.walmartimages.com/seo/2025-W-50-1-2-oz-Proof-Superman-DC-Comics-Gold-Coin-w-Box-OGP_3223f0d2-51cf-4818-840f-1748ae1466db.373291d167476d253e4cc4281404ba4c.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF"
     ],
     "specifications": {
       "brand": "US Mint",
@@ -1703,7 +1753,15 @@ window.products = [
     "luxury_brand": true,
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://i5.walmartimages.com/seo/2025-W-50-1-2-oz-Proof-Superman-DC-Comics-Gold-Coin-w-Box-OGP_3223f0d2-51cf-4818-840f-1748ae1466db.373291d167476d253e4cc4281404ba4c.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "back": "https://i5.walmartimages.com/asr/2408ab5c-04fd-470e-851b-564222f2d187.63f1f0961f63d20c5351c47b49904c39.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fi5.walmartimages.com%2Fseo%2F2025-W-50-1-2-oz-Proof-Superman-DC-Comics-Gold-Coin-w-Box-OGP_3223f0d2-51cf-4818-840f-1748ae1466db.373291d167476d253e4cc4281404ba4c.jpeg%3FodnHeight%3D573%26amp%3BodnWidth%3D573%26amp%3BodnBg%3DFFFFFF%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2025%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fi5.walmartimages.com%2Fasr%2F2408ab5c-04fd-470e-851b-564222f2d187.63f1f0961f63d20c5351c47b49904c39.jpeg%3FodnHeight%3D573%26amp%3BodnWidth%3D573%26amp%3BodnBg%3DFFFFFF%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2025%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://i5.walmartimages.com/seo/2025-W-50-1-2-oz-Proof-Superman-DC-Comics-Gold-Coin-w-Box-OGP_3223f0d2-51cf-4818-840f-1748ae1466db.373291d167476d253e4cc4281404ba4c.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 66,
@@ -1717,9 +1775,9 @@ window.products = [
     "images": [
       "assets/american-liberty-lion-gold-2026/obverse_full_field_lion_high_relief.png",
       "assets/american-liberty-lion-gold-2026/coin_60_degrees_right.png",
-      "assets/american-liberty-lion-gold-2026/coin_60_degrees_left.png",
-      "assets/american-liberty-lion-gold-2026/reverse_high_relief_small_mintmarks.png",
-      "assets/american-liberty-lion-gold-2026/coin_in_american_lion_case_complete_rim.webp"
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22assets%2Famerican-liberty-lion-gold-2026%2Fobverse_full_field_lion_high_relief.png%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2026%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22assets%2Famerican-liberty-lion-gold-2026%2Fcoin_60_degrees_right.png%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2026%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "assets/american-liberty-lion-gold-2026/coin_60_degrees_left.png"
     ],
     "preOwnedImage": "assets/american-liberty-lion-gold-2026/preowned_coin_in_pcgs_holder.webp",
     "preOwnedImages": [
@@ -1751,7 +1809,15 @@ window.products = [
     "luxury_brand": true,
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "assets/american-liberty-lion-gold-2026/obverse_full_field_lion_high_relief.png",
+      "back": "assets/american-liberty-lion-gold-2026/coin_60_degrees_right.png",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22assets%2Famerican-liberty-lion-gold-2026%2Fobverse_full_field_lion_high_relief.png%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2026%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22assets%2Famerican-liberty-lion-gold-2026%2Fcoin_60_degrees_right.png%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2026%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "assets/american-liberty-lion-gold-2026/coin_60_degrees_left.png"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 67,
@@ -1768,7 +1834,13 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "https://www.moneymetals.com/images/products/proof_gold_eagle_2002_1a.png",
-    "images": ["https://www.moneymetals.com/images/products/proof_gold_eagle_2002_1a.png"],
+    "images": [
+      "https://www.moneymetals.com/images/products/proof_gold_eagle_2002_1a.png",
+      "https://www.moneymetals.com/images/products/proof_gold_eagle_2002_1a.png",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.moneymetals.com%2Fimages%2Fproducts%2Fproof_gold_eagle_2002_1a.png%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2002%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.moneymetals.com%2Fimages%2Fproducts%2Fproof_gold_eagle_2002_1a.png%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2002%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.moneymetals.com/images/products/proof_gold_eagle_2002_1a.png"
+    ],
     "photo_source": "Verified year-specific coin photo source",
     "photo_year": 2002,
     "photo_is_representative": false,
@@ -1799,7 +1871,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.moneymetals.com/images/products/proof_gold_eagle_2002_1a.png",
+      "back": "https://www.moneymetals.com/images/products/proof_gold_eagle_2002_1a.png",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.moneymetals.com%2Fimages%2Fproducts%2Fproof_gold_eagle_2002_1a.png%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2002%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.moneymetals.com%2Fimages%2Fproducts%2Fproof_gold_eagle_2002_1a.png%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2002%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.moneymetals.com/images/products/proof_gold_eagle_2002_1a.png"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 68,
@@ -1815,8 +1895,14 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.integritycoinstore.com/cdn/shop/files/CI7A0021_73ac6f05-65aa-49aa-a253-f0eef8244d12.jpg?v=1761834438&width=1232",
-    "images": ["https://www.integritycoinstore.com/cdn/shop/files/CI7A0021_73ac6f05-65aa-49aa-a253-f0eef8244d12.jpg?v=1761834438&width=1232"],
+    "image": "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Obv.jpg",
+    "images": [
+      "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Obv.jpg",
+      "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Rev.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2003%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2003%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Slab.jpg"
+    ],
     "photo_source": "Verified year-specific coin photo source",
     "photo_year": 2003,
     "photo_is_representative": false,
@@ -1847,7 +1933,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Obv.jpg",
+      "back": "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Rev.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2003%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2003%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Slab.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 69,
@@ -1864,7 +1958,13 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "https://www.moneymetals.com/images/products/proof_gold_eagle_2004_3.png",
-    "images": ["https://www.moneymetals.com/images/products/proof_gold_eagle_2004_3.png"],
+    "images": [
+      "https://www.moneymetals.com/images/products/proof_gold_eagle_2004_3.png",
+      "https://www.moneymetals.com/images/products/proof_gold_eagle_2004_3.png",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.moneymetals.com%2Fimages%2Fproducts%2Fproof_gold_eagle_2004_3.png%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2004%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.moneymetals.com%2Fimages%2Fproducts%2Fproof_gold_eagle_2004_3.png%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2004%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.moneymetals.com/images/products/proof_gold_eagle_2004_3.png"
+    ],
     "photo_source": "Verified year-specific coin photo source",
     "photo_year": 2004,
     "photo_is_representative": false,
@@ -1895,7 +1995,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.moneymetals.com/images/products/proof_gold_eagle_2004_3.png",
+      "back": "https://www.moneymetals.com/images/products/proof_gold_eagle_2004_3.png",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.moneymetals.com%2Fimages%2Fproducts%2Fproof_gold_eagle_2004_3.png%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2004%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.moneymetals.com%2Fimages%2Fproducts%2Fproof_gold_eagle_2004_3.png%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2004%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.moneymetals.com/images/products/proof_gold_eagle_2004_3.png"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 70,
@@ -1911,8 +2019,14 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.moneymetals.com/images/products/proof_gold_eagle_2005_3.png",
-    "images": ["https://www.moneymetals.com/images/products/proof_gold_eagle_2005_3.png"],
+    "image": "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg",
+    "images": [
+      "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg",
+      "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Rev.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2005%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2005%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Slab.jpg"
+    ],
     "photo_source": "Verified year-specific coin photo source",
     "photo_year": 2005,
     "photo_is_representative": false,
@@ -1943,7 +2057,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg",
+      "back": "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Rev.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2005%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2005%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Slab.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 71,
@@ -1959,8 +2081,14 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://i5.walmartimages.com/seo/2006-W-1-oz-Proof-American-Gold-Eagle-w-Box-COA_8d16e7b2-e970-4acd-8d5d-488b58cbcac9_1.0554c91843bd7d2e5642232df41d2fc4.jpeg",
-    "images": ["https://i5.walmartimages.com/seo/2006-W-1-oz-Proof-American-Gold-Eagle-w-Box-COA_8d16e7b2-e970-4acd-8d5d-488b58cbcac9_1.0554c91843bd7d2e5642232df41d2fc4.jpeg"],
+    "image": "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Obv.jpg",
+    "images": [
+      "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Obv.jpg",
+      "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Rev.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2006%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2006%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Slab.jpg"
+    ],
     "photo_source": "Verified year-specific coin photo source",
     "photo_year": 2006,
     "photo_is_representative": false,
@@ -1991,7 +2119,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Obv.jpg",
+      "back": "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Rev.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2006%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2006%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Slab.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 72,
@@ -2007,11 +2143,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://i.ebayimg.com/images/g/-mgAAOSwjMFn8DSP/s-l1200.jpg",
+    "image": "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_obv.jpg",
     "images": [
-      "https://i.ebayimg.com/images/g/-mgAAOSwjMFn8DSP/s-l1200.jpg",
-      "https://i.usacoinbook.com/us-coins/2007-one-ounce-american-gold-eagle.webp",
-      "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-ms-69-pcgs_29049_Slab.jpg?height=900&v=20140819024244&width=900"
+      "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_obv.jpg",
+      "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_rev.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2007-1-oz-american-gold-eagle-bu_21529_obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2007%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2007-1-oz-american-gold-eagle-bu_21529_rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2007%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_slab.jpg"
     ],
     "photo_source": "Year-specific 2007 coin photos: eBay 2007-W PCGS MS70 obverse and USA Coin Book 2007-W one-ounce Type 1 reverse; APMEX 2007 one-ounce MS69 reference image",
     "photo_year": 2007,
@@ -2043,7 +2181,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_obv.jpg",
+      "back": "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_rev.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2007-1-oz-american-gold-eagle-bu_21529_obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2007%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2007-1-oz-american-gold-eagle-bu_21529_rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2007%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_slab.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 73,
@@ -2060,7 +2206,13 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "https://i.ebayimg.com/images/g/zQsAAeSwWNRpFxNr/s-l400.jpg",
-    "images": ["https://i.ebayimg.com/images/g/zQsAAeSwWNRpFxNr/s-l400.jpg"],
+    "images": [
+      "https://i.ebayimg.com/images/g/zQsAAeSwWNRpFxNr/s-l400.jpg",
+      "https://i.ebayimg.com/images/g/zQsAAeSwWNRpFxNr/s-l400.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fi.ebayimg.com%2Fimages%2Fg%2FzQsAAeSwWNRpFxNr%2Fs-l400.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2008%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fi.ebayimg.com%2Fimages%2Fg%2FzQsAAeSwWNRpFxNr%2Fs-l400.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2008%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://i.ebayimg.com/images/g/zQsAAeSwWNRpFxNr/s-l400.jpg"
+    ],
     "photo_source": "Verified year-specific coin photo source",
     "photo_year": 2008,
     "photo_is_representative": false,
@@ -2091,7 +2243,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://i.ebayimg.com/images/g/zQsAAeSwWNRpFxNr/s-l400.jpg",
+      "back": "https://i.ebayimg.com/images/g/zQsAAeSwWNRpFxNr/s-l400.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fi.ebayimg.com%2Fimages%2Fg%2FzQsAAeSwWNRpFxNr%2Fs-l400.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2008%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fi.ebayimg.com%2Fimages%2Fg%2FzQsAAeSwWNRpFxNr%2Fs-l400.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2008%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://i.ebayimg.com/images/g/zQsAAeSwWNRpFxNr/s-l400.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 74,
@@ -2108,14 +2268,20 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "https://www.images-apmex.com/images/products/2009-1-oz-american-gold-eagle-ms-69-ngc-early-releases_59685_Obv.jpg",
-    "images": ["https://www.images-apmex.com/images/products/2009-1-oz-american-gold-eagle-ms-69-ngc-early-releases_59685_Obv.jpg"],
+    "images": [
+      "https://www.images-apmex.com/images/products/2009-1-oz-american-gold-eagle-ms-69-ngc-early-releases_59685_Obv.jpg",
+      "https://www.images-apmex.com/images/products/2009-1-oz-american-gold-eagle-ms-69-ngc-early-releases_59685_Obv.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2009-1-oz-american-gold-eagle-ms-69-ngc-early-releases_59685_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2009%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2009-1-oz-american-gold-eagle-ms-69-ngc-early-releases_59685_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2009%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.images-apmex.com/images/products/2009-1-oz-american-gold-eagle-ms-69-ngc-early-releases_59685_Obv.jpg"
+    ],
     "photo_source": "Verified year-specific coin photo source",
     "photo_year": 2009,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
     "official_issue": true,
     "description": "The 2009 American Eagle One Ounce Gold Coin is part of the U.S. Mint American Eagle Gold program. The one-ounce gold issue uses the Saint-Gaudens Liberty obverse; through 2020, the reverse used the Miley Busiek family-of-eagles design.",
-        "specifications": {
+    "specifications": {
       "brand": "US Mint",
       "material": "22-karat gold (91.67% gold, 3% silver, balance copper)",
       "weight": "1.0909 troy oz total; 1.000 troy oz fine gold",
@@ -2139,7 +2305,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2009-1-oz-american-gold-eagle-ms-69-ngc-early-releases_59685_Obv.jpg",
+      "back": "https://www.images-apmex.com/images/products/2009-1-oz-american-gold-eagle-ms-69-ngc-early-releases_59685_Obv.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2009-1-oz-american-gold-eagle-ms-69-ngc-early-releases_59685_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2009%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2009-1-oz-american-gold-eagle-ms-69-ngc-early-releases_59685_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2009%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.images-apmex.com/images/products/2009-1-oz-american-gold-eagle-ms-69-ngc-early-releases_59685_Obv.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 75,
@@ -2155,8 +2329,14 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2010%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2010%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "image": "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Obv.jpg",
+    "images": [
+      "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Obv.jpg",
+      "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Rev.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2010%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2010%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Slab.jpg"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2010,
     "photo_is_representative": false,
@@ -2187,7 +2367,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Obv.jpg",
+      "back": "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Rev.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2010%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2010%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Slab.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 76,
@@ -2203,8 +2391,14 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2011-w-1-oz-proof-american-gold-eagle-w-box-coa_62461_Slab.jpg?height=900&v=20191025091623&width=900",
-    "images": ["https://www.images-apmex.com/images/products/2011-w-1-oz-proof-american-gold-eagle-w-box-coa_62461_Slab.jpg?height=900&v=20191025091623&width=900"],
+    "image": "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Obv.jpg",
+    "images": [
+      "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Obv.jpg",
+      "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Rev.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2011-1-oz-american-gold-eagle-bu_59146_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2011%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2011-1-oz-american-gold-eagle-bu_59146_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2011%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.images-apmex.com/images/products/2011-w-1-oz-proof-american-gold-eagle-w-box-coa_62461_Slab.jpg?height=900&v=20191025091623&width=900"
+    ],
     "photo_source": "Verified year-specific coin photo source",
     "photo_year": 2011,
     "photo_is_representative": false,
@@ -2235,7 +2429,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Obv.jpg",
+      "back": "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Rev.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2011-1-oz-american-gold-eagle-bu_59146_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2011%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2011-1-oz-american-gold-eagle-bu_59146_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2011%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.images-apmex.com/images/products/2011-w-1-oz-proof-american-gold-eagle-w-box-coa_62461_Slab.jpg?height=900&v=20191025091623&width=900"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 77,
@@ -2251,8 +2453,14 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2012-w-1-oz-proof-american-gold-eagle-w-box-coa_66324_Obv.jpg?height=560&v=20191025091623&width=560",
-    "images": ["https://www.images-apmex.com/images/products/2012-w-1-oz-proof-american-gold-eagle-w-box-coa_66324_Obv.jpg?height=560&v=20191025091623&width=560"],
+    "image": "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Obv.jpg",
+    "images": [
+      "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Obv.jpg",
+      "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Rev.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2012%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2012%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Slab.jpg"
+    ],
     "photo_source": "Verified year-specific coin photo source",
     "photo_year": 2012,
     "photo_is_representative": false,
@@ -2283,7 +2491,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Obv.jpg",
+      "back": "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Rev.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2012%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2012%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Slab.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 78,
@@ -2300,7 +2516,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2013%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2013%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2013%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2013,
     "photo_is_representative": false,
@@ -2348,7 +2566,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2014%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2014%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2014%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2014,
     "photo_is_representative": false,
@@ -2396,7 +2616,13 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "https://cdn11.bigcommerce.com/s-xs84wezima/images/stencil/1280x1280/products/7850/25347/15-W-AGE-50-PFb__90807.1685728442.jpg?c=2",
-    "images": ["https://cdn11.bigcommerce.com/s-xs84wezima/images/stencil/1280x1280/products/7850/25347/15-W-AGE-50-PFb__90807.1685728442.jpg?c=2"],
+    "images": [
+      "https://cdn11.bigcommerce.com/s-xs84wezima/images/stencil/1280x1280/products/7850/25347/15-W-AGE-50-PFb__90807.1685728442.jpg?c=2",
+      "https://cdn11.bigcommerce.com/s-xs84wezima/images/stencil/1280x1280/products/7850/25347/15-W-AGE-50-PFb__90807.1685728442.jpg?c=2",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-xs84wezima%2Fimages%2Fstencil%2F1280x1280%2Fproducts%2F7850%2F25347%2F15-W-AGE-50-PFb__90807.1685728442.jpg%3Fc%3D2%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2015%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-xs84wezima%2Fimages%2Fstencil%2F1280x1280%2Fproducts%2F7850%2F25347%2F15-W-AGE-50-PFb__90807.1685728442.jpg%3Fc%3D2%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2015%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://cdn11.bigcommerce.com/s-xs84wezima/images/stencil/1280x1280/products/7850/25347/15-W-AGE-50-PFb__90807.1685728442.jpg?c=2"
+    ],
     "photo_source": "Verified year-specific coin photo source",
     "photo_year": 2015,
     "photo_is_representative": false,
@@ -2427,7 +2653,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://cdn11.bigcommerce.com/s-xs84wezima/images/stencil/1280x1280/products/7850/25347/15-W-AGE-50-PFb__90807.1685728442.jpg?c=2",
+      "back": "https://cdn11.bigcommerce.com/s-xs84wezima/images/stencil/1280x1280/products/7850/25347/15-W-AGE-50-PFb__90807.1685728442.jpg?c=2",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-xs84wezima%2Fimages%2Fstencil%2F1280x1280%2Fproducts%2F7850%2F25347%2F15-W-AGE-50-PFb__90807.1685728442.jpg%3Fc%3D2%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2015%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-xs84wezima%2Fimages%2Fstencil%2F1280x1280%2Fproducts%2F7850%2F25347%2F15-W-AGE-50-PFb__90807.1685728442.jpg%3Fc%3D2%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2015%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://cdn11.bigcommerce.com/s-xs84wezima/images/stencil/1280x1280/products/7850/25347/15-W-AGE-50-PFb__90807.1685728442.jpg?c=2"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 81,
@@ -2444,7 +2678,13 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "https://www.mintstategold.com/media/catalog/product/1/6/16weagle50box_msg_1_3.jpg",
-    "images": ["https://www.mintstategold.com/media/catalog/product/1/6/16weagle50box_msg_1_3.jpg"],
+    "images": [
+      "https://www.mintstategold.com/media/catalog/product/1/6/16weagle50box_msg_1_3.jpg",
+      "https://www.mintstategold.com/media/catalog/product/1/6/16weagle50box_msg_1_3.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.mintstategold.com%2Fmedia%2Fcatalog%2Fproduct%2F1%2F6%2F16weagle50box_msg_1_3.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2016%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.mintstategold.com%2Fmedia%2Fcatalog%2Fproduct%2F1%2F6%2F16weagle50box_msg_1_3.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2016%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.mintstategold.com/media/catalog/product/1/6/16weagle50box_msg_1_3.jpg"
+    ],
     "photo_source": "Verified year-specific coin photo source",
     "photo_year": 2016,
     "photo_is_representative": false,
@@ -2475,7 +2715,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.mintstategold.com/media/catalog/product/1/6/16weagle50box_msg_1_3.jpg",
+      "back": "https://www.mintstategold.com/media/catalog/product/1/6/16weagle50box_msg_1_3.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.mintstategold.com%2Fmedia%2Fcatalog%2Fproduct%2F1%2F6%2F16weagle50box_msg_1_3.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2016%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.mintstategold.com%2Fmedia%2Fcatalog%2Fproduct%2F1%2F6%2F16weagle50box_msg_1_3.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2016%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.mintstategold.com/media/catalog/product/1/6/16weagle50box_msg_1_3.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 82,
@@ -2492,7 +2740,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2017%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2017%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2017%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2017,
     "photo_is_representative": false,
@@ -2540,7 +2790,13 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "https://www.mintstategold.com/media/catalog/product/cache/8257fd1fd60adc6f013bbf0852afb486/1/8/18weagle50boxmsg_sample_1_1.jpg",
-    "images": ["https://www.mintstategold.com/media/catalog/product/cache/8257fd1fd60adc6f013bbf0852afb486/1/8/18weagle50boxmsg_sample_1_1.jpg"],
+    "images": [
+      "https://www.mintstategold.com/media/catalog/product/cache/8257fd1fd60adc6f013bbf0852afb486/1/8/18weagle50boxmsg_sample_1_1.jpg",
+      "https://www.mintstategold.com/media/catalog/product/cache/8257fd1fd60adc6f013bbf0852afb486/1/8/18weagle50boxmsg_sample_1_1.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.mintstategold.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2F8257fd1fd60adc6f013bbf0852afb486%2F1%2F8%2F18weagle50boxmsg_sample_1_1.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2018%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.mintstategold.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2F8257fd1fd60adc6f013bbf0852afb486%2F1%2F8%2F18weagle50boxmsg_sample_1_1.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2018%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.mintstategold.com/media/catalog/product/cache/8257fd1fd60adc6f013bbf0852afb486/1/8/18weagle50boxmsg_sample_1_1.jpg"
+    ],
     "photo_source": "Verified year-specific coin photo source",
     "photo_year": 2018,
     "photo_is_representative": false,
@@ -2571,7 +2827,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.mintstategold.com/media/catalog/product/cache/8257fd1fd60adc6f013bbf0852afb486/1/8/18weagle50boxmsg_sample_1_1.jpg",
+      "back": "https://www.mintstategold.com/media/catalog/product/cache/8257fd1fd60adc6f013bbf0852afb486/1/8/18weagle50boxmsg_sample_1_1.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.mintstategold.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2F8257fd1fd60adc6f013bbf0852afb486%2F1%2F8%2F18weagle50boxmsg_sample_1_1.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2018%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.mintstategold.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2F8257fd1fd60adc6f013bbf0852afb486%2F1%2F8%2F18weagle50boxmsg_sample_1_1.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2018%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.mintstategold.com/media/catalog/product/cache/8257fd1fd60adc6f013bbf0852afb486/1/8/18weagle50boxmsg_sample_1_1.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 84,
@@ -2588,7 +2852,13 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "https://sdbullion.com/media/catalog/product/2/0/2019-1-oz-american-gold-eagle-proof-coins.jpg",
-    "images": ["https://sdbullion.com/media/catalog/product/2/0/2019-1-oz-american-gold-eagle-proof-coins.jpg"],
+    "images": [
+      "https://sdbullion.com/media/catalog/product/2/0/2019-1-oz-american-gold-eagle-proof-coins.jpg",
+      "https://sdbullion.com/media/catalog/product/2/0/2019-1-oz-american-gold-eagle-proof-coins.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fsdbullion.com%2Fmedia%2Fcatalog%2Fproduct%2F2%2F0%2F2019-1-oz-american-gold-eagle-proof-coins.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2019%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fsdbullion.com%2Fmedia%2Fcatalog%2Fproduct%2F2%2F0%2F2019-1-oz-american-gold-eagle-proof-coins.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2019%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://sdbullion.com/media/catalog/product/2/0/2019-1-oz-american-gold-eagle-proof-coins.jpg"
+    ],
     "photo_source": "Verified year-specific coin photo source",
     "photo_year": 2019,
     "photo_is_representative": false,
@@ -2619,7 +2889,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://sdbullion.com/media/catalog/product/2/0/2019-1-oz-american-gold-eagle-proof-coins.jpg",
+      "back": "https://sdbullion.com/media/catalog/product/2/0/2019-1-oz-american-gold-eagle-proof-coins.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fsdbullion.com%2Fmedia%2Fcatalog%2Fproduct%2F2%2F0%2F2019-1-oz-american-gold-eagle-proof-coins.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2019%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fsdbullion.com%2Fmedia%2Fcatalog%2Fproduct%2F2%2F0%2F2019-1-oz-american-gold-eagle-proof-coins.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2019%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://sdbullion.com/media/catalog/product/2/0/2019-1-oz-american-gold-eagle-proof-coins.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 85,
@@ -2635,8 +2913,14 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.wyrobymennicze.pl/hpeciai/08c2b5b76f6dfe88211372d2344a0d26/pol_pl_Amerykanski-Orzel-1-uncja-Zlota-2020-3915_2.webp",
-    "images": ["https://www.wyrobymennicze.pl/hpeciai/08c2b5b76f6dfe88211372d2344a0d26/pol_pl_Amerykanski-Orzel-1-uncja-Zlota-2020-3915_2.webp"],
+    "image": "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_obv.jpg",
+    "images": [
+      "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_obv.jpg",
+      "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_rev.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2020-1-oz-american-gold-eagle-mintdirect-single_196140_obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2020%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2020-1-oz-american-gold-eagle-mintdirect-single_196140_rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2020%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_slab.jpg"
+    ],
     "photo_source": "Verified year-specific coin photo source",
     "photo_year": 2020,
     "photo_is_representative": false,
@@ -2667,7 +2951,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_obv.jpg",
+      "back": "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_rev.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2020-1-oz-american-gold-eagle-mintdirect-single_196140_obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2020%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2020-1-oz-american-gold-eagle-mintdirect-single_196140_rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2020%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_slab.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 86,
@@ -2684,7 +2976,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2021%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2021%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2021%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2021,
     "photo_is_representative": false,
@@ -2732,7 +3026,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2022%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2022%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2022%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2022,
     "photo_is_representative": false,
@@ -2780,7 +3076,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2023%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2023%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2023%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2023,
     "photo_is_representative": false,
@@ -2828,7 +3126,13 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwed8481ca/images/hi-res/coin-programs/American-Eagle/24eb_a.jpg?sh=1200&sm=fit&sw=1200",
-    "images": ["https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwed8481ca/images/hi-res/coin-programs/American-Eagle/24eb_a.jpg?sh=1200&sm=fit&sw=1200"],
+    "images": [
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwed8481ca/images/hi-res/coin-programs/American-Eagle/24eb_a.jpg?sh=1200&sm=fit&sw=1200",
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwed8481ca/images/hi-res/coin-programs/American-Eagle/24eb_a.jpg?sh=1200&sm=fit&sw=1200",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Fdw%2Fimage%2Fv2%2FAARB_PRD%2Fon%2Fdemandware.static%2F-%2FSites-usm-master-catalog-us%2Fdefault%2Fdwed8481ca%2Fimages%2Fhi-res%2Fcoin-programs%2FAmerican-Eagle%2F24eb_a.jpg%3Fsh%3D1200%26amp%3Bsm%3Dfit%26amp%3Bsw%3D1200%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2024%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Fdw%2Fimage%2Fv2%2FAARB_PRD%2Fon%2Fdemandware.static%2F-%2FSites-usm-master-catalog-us%2Fdefault%2Fdwed8481ca%2Fimages%2Fhi-res%2Fcoin-programs%2FAmerican-Eagle%2F24eb_a.jpg%3Fsh%3D1200%26amp%3Bsm%3Dfit%26amp%3Bsw%3D1200%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2024%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwed8481ca/images/hi-res/coin-programs/American-Eagle/24eb_a.jpg?sh=1200&sm=fit&sw=1200"
+    ],
     "photo_source": "U.S. Mint",
     "photo_year": 2024,
     "photo_is_representative": false,
@@ -2859,7 +3163,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwed8481ca/images/hi-res/coin-programs/American-Eagle/24eb_a.jpg?sh=1200&sm=fit&sw=1200",
+      "back": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwed8481ca/images/hi-res/coin-programs/American-Eagle/24eb_a.jpg?sh=1200&sm=fit&sw=1200",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Fdw%2Fimage%2Fv2%2FAARB_PRD%2Fon%2Fdemandware.static%2F-%2FSites-usm-master-catalog-us%2Fdefault%2Fdwed8481ca%2Fimages%2Fhi-res%2Fcoin-programs%2FAmerican-Eagle%2F24eb_a.jpg%3Fsh%3D1200%26amp%3Bsm%3Dfit%26amp%3Bsw%3D1200%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2024%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Fdw%2Fimage%2Fv2%2FAARB_PRD%2Fon%2Fdemandware.static%2F-%2FSites-usm-master-catalog-us%2Fdefault%2Fdwed8481ca%2Fimages%2Fhi-res%2Fcoin-programs%2FAmerican-Eagle%2F24eb_a.jpg%3Fsh%3D1200%26amp%3Bsm%3Dfit%26amp%3Bsw%3D1200%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2024%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwed8481ca/images/hi-res/coin-programs/American-Eagle/24eb_a.jpg?sh=1200&sm=fit&sw=1200"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 90,
@@ -2876,7 +3188,13 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw89a2044d/images/hi-res/coin-programs/American-Eagle/25eb_c.jpg?sh=1200&sm=fit&sw=1200",
-    "images": ["https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw89a2044d/images/hi-res/coin-programs/American-Eagle/25eb_c.jpg?sh=1200&sm=fit&sw=1200"],
+    "images": [
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw89a2044d/images/hi-res/coin-programs/American-Eagle/25eb_c.jpg?sh=1200&sm=fit&sw=1200",
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw89a2044d/images/hi-res/coin-programs/American-Eagle/25eb_c.jpg?sh=1200&sm=fit&sw=1200",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Fdw%2Fimage%2Fv2%2FAARB_PRD%2Fon%2Fdemandware.static%2F-%2FSites-usm-master-catalog-us%2Fdefault%2Fdw89a2044d%2Fimages%2Fhi-res%2Fcoin-programs%2FAmerican-Eagle%2F25eb_c.jpg%3Fsh%3D1200%26amp%3Bsm%3Dfit%26amp%3Bsw%3D1200%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2025%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Fdw%2Fimage%2Fv2%2FAARB_PRD%2Fon%2Fdemandware.static%2F-%2FSites-usm-master-catalog-us%2Fdefault%2Fdw89a2044d%2Fimages%2Fhi-res%2Fcoin-programs%2FAmerican-Eagle%2F25eb_c.jpg%3Fsh%3D1200%26amp%3Bsm%3Dfit%26amp%3Bsw%3D1200%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2025%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw89a2044d/images/hi-res/coin-programs/American-Eagle/25eb_c.jpg?sh=1200&sm=fit&sw=1200"
+    ],
     "photo_source": "U.S. Mint",
     "photo_year": 2025,
     "photo_is_representative": false,
@@ -2907,7 +3225,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw89a2044d/images/hi-res/coin-programs/American-Eagle/25eb_c.jpg?sh=1200&sm=fit&sw=1200",
+      "back": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw89a2044d/images/hi-res/coin-programs/American-Eagle/25eb_c.jpg?sh=1200&sm=fit&sw=1200",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Fdw%2Fimage%2Fv2%2FAARB_PRD%2Fon%2Fdemandware.static%2F-%2FSites-usm-master-catalog-us%2Fdefault%2Fdw89a2044d%2Fimages%2Fhi-res%2Fcoin-programs%2FAmerican-Eagle%2F25eb_c.jpg%3Fsh%3D1200%26amp%3Bsm%3Dfit%26amp%3Bsw%3D1200%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2025%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Fdw%2Fimage%2Fv2%2FAARB_PRD%2Fon%2Fdemandware.static%2F-%2FSites-usm-master-catalog-us%2Fdefault%2Fdw89a2044d%2Fimages%2Fhi-res%2Fcoin-programs%2FAmerican-Eagle%2F25eb_c.jpg%3Fsh%3D1200%26amp%3Bsm%3Dfit%26amp%3Bsw%3D1200%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2025%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw89a2044d/images/hi-res/coin-programs/American-Eagle/25eb_c.jpg?sh=1200&sm=fit&sw=1200"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 91,
@@ -2924,7 +3250,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2002%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2002%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2002%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2002,
     "photo_is_representative": false,
@@ -2966,8 +3294,14 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2003%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2003%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "image": "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Obv.jpg",
+    "images": [
+      "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Obv.jpg",
+      "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Rev.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2003%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2003%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Slab.jpg"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2003,
     "photo_is_representative": false,
@@ -2993,7 +3327,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Obv.jpg",
+      "back": "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Rev.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2003%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2003%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Slab.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 93,
@@ -3010,7 +3352,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2004%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2004%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2004%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2004,
     "photo_is_representative": false,
@@ -3052,8 +3396,14 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2005%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2005%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "image": "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg",
+    "images": [
+      "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg",
+      "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Rev.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2005%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2005%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Slab.jpg"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2005,
     "photo_is_representative": false,
@@ -3079,7 +3429,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg",
+      "back": "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Rev.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2005%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2005%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Slab.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 95,
@@ -3095,8 +3453,14 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2006%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2006%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "image": "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Obv.jpg",
+    "images": [
+      "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Obv.jpg",
+      "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Rev.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2006%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2006%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Slab.jpg"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2006,
     "photo_is_representative": false,
@@ -3122,7 +3486,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Obv.jpg",
+      "back": "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Rev.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2006%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2006%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Slab.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 96,
@@ -3138,8 +3510,14 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2007%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2007%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "image": "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_obv.jpg",
+    "images": [
+      "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_obv.jpg",
+      "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_rev.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2007-1-oz-american-gold-eagle-bu_21529_obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2007%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2007-1-oz-american-gold-eagle-bu_21529_rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2007%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_slab.jpg"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2007,
     "photo_is_representative": false,
@@ -3165,7 +3543,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_obv.jpg",
+      "back": "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_rev.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2007-1-oz-american-gold-eagle-bu_21529_obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2007%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2007-1-oz-american-gold-eagle-bu_21529_rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2007%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_slab.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 97,
@@ -3182,7 +3568,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2008%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2008%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2008%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2008,
     "photo_is_representative": false,
@@ -3225,7 +3613,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2009%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2009%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2009%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2009,
     "photo_is_representative": false,
@@ -3267,8 +3657,14 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2010%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2010%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "image": "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Obv.jpg",
+    "images": [
+      "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Obv.jpg",
+      "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Rev.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2010%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2010%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Slab.jpg"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2010,
     "photo_is_representative": false,
@@ -3294,7 +3690,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Obv.jpg",
+      "back": "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Rev.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2010%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2010%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Slab.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 100,
@@ -3310,8 +3714,14 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2011%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2011%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "image": "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Obv.jpg",
+    "images": [
+      "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Obv.jpg",
+      "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Rev.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2011-1-oz-american-gold-eagle-bu_59146_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2011%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2011-1-oz-american-gold-eagle-bu_59146_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2011%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Obv.jpg"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2011,
     "photo_is_representative": false,
@@ -3337,7 +3747,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Obv.jpg",
+      "back": "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Rev.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2011-1-oz-american-gold-eagle-bu_59146_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2011%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2011-1-oz-american-gold-eagle-bu_59146_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2011%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Obv.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 101,
@@ -3353,8 +3771,14 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2012%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2012%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "image": "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Obv.jpg",
+    "images": [
+      "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Obv.jpg",
+      "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Rev.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2012%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2012%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Slab.jpg"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2012,
     "photo_is_representative": false,
@@ -3380,7 +3804,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Obv.jpg",
+      "back": "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Rev.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2012%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2012%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Slab.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 102,
@@ -3397,7 +3829,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2013%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2013%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2013%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2013,
     "photo_is_representative": false,
@@ -3440,7 +3874,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2014%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2014%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2014%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2014,
     "photo_is_representative": false,
@@ -3483,7 +3919,13 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2015-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746044884206.coreimg.jpeg/1746045039634/2015-american-liberty-high-relief-gold-coin-obverse.jpeg",
-    "images": ["https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2015-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746044884206.coreimg.jpeg/1746045039634/2015-american-liberty-high-relief-gold-coin-obverse.jpeg"],
+    "images": [
+      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2015-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746044884206.coreimg.jpeg/1746045039634/2015-american-liberty-high-relief-gold-coin-obverse.jpeg",
+      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2015-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746044884206.coreimg.jpeg/1746045039634/2015-american-liberty-high-relief-gold-coin-obverse.jpeg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2015-high-relief-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746044884206.coreimg.jpeg%2F1746045039634%2F2015-american-liberty-high-relief-gold-coin-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2015%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2015-high-relief-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746044884206.coreimg.jpeg%2F1746045039634%2F2015-american-liberty-high-relief-gold-coin-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2015%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2015-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746044884206.coreimg.jpeg/1746045039634/2015-american-liberty-high-relief-gold-coin-obverse.jpeg"
+    ],
     "photo_source": "U.S. Mint",
     "photo_year": 2015,
     "photo_is_representative": false,
@@ -3513,7 +3955,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2015-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746044884206.coreimg.jpeg/1746045039634/2015-american-liberty-high-relief-gold-coin-obverse.jpeg",
+      "back": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2015-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746044884206.coreimg.jpeg/1746045039634/2015-american-liberty-high-relief-gold-coin-obverse.jpeg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2015-high-relief-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746044884206.coreimg.jpeg%2F1746045039634%2F2015-american-liberty-high-relief-gold-coin-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2015%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2015-high-relief-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746044884206.coreimg.jpeg%2F1746045039634%2F2015-american-liberty-high-relief-gold-coin-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2015%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2015-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746044884206.coreimg.jpeg/1746045039634/2015-american-liberty-high-relief-gold-coin-obverse.jpeg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 105,
@@ -3530,7 +3980,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2016%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2016%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2016%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2016,
     "photo_is_representative": false,
@@ -3573,7 +4025,13 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2017-225th-anniversary-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476400191.coreimg.jpeg/1746476444828/2017-american-liberty-225th-anniversary-gold-coin-obverse.jpeg",
-    "images": ["https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2017-225th-anniversary-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476400191.coreimg.jpeg/1746476444828/2017-american-liberty-225th-anniversary-gold-coin-obverse.jpeg"],
+    "images": [
+      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2017-225th-anniversary-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476400191.coreimg.jpeg/1746476444828/2017-american-liberty-225th-anniversary-gold-coin-obverse.jpeg",
+      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2017-225th-anniversary-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476400191.coreimg.jpeg/1746476444828/2017-american-liberty-225th-anniversary-gold-coin-obverse.jpeg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2017-225th-anniversary-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746476400191.coreimg.jpeg%2F1746476444828%2F2017-american-liberty-225th-anniversary-gold-coin-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2017%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2017-225th-anniversary-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746476400191.coreimg.jpeg%2F1746476444828%2F2017-american-liberty-225th-anniversary-gold-coin-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2017%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2017-225th-anniversary-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476400191.coreimg.jpeg/1746476444828/2017-american-liberty-225th-anniversary-gold-coin-obverse.jpeg"
+    ],
     "photo_source": "U.S. Mint",
     "photo_year": 2017,
     "photo_is_representative": false,
@@ -3603,7 +4061,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2017-225th-anniversary-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476400191.coreimg.jpeg/1746476444828/2017-american-liberty-225th-anniversary-gold-coin-obverse.jpeg",
+      "back": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2017-225th-anniversary-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476400191.coreimg.jpeg/1746476444828/2017-american-liberty-225th-anniversary-gold-coin-obverse.jpeg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2017-225th-anniversary-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746476400191.coreimg.jpeg%2F1746476444828%2F2017-american-liberty-225th-anniversary-gold-coin-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2017%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2017-225th-anniversary-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746476400191.coreimg.jpeg%2F1746476444828%2F2017-american-liberty-225th-anniversary-gold-coin-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2017%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2017-225th-anniversary-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476400191.coreimg.jpeg/1746476444828/2017-american-liberty-225th-anniversary-gold-coin-obverse.jpeg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 107,
@@ -3620,7 +4086,13 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2018-american-liberty-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/image.coreimg.jpeg/1768937527901/2018-american-liberty-one-tenth-ounce-gold-proof-coin-obverse.jpeg",
-    "images": ["https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2018-american-liberty-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/image.coreimg.jpeg/1768937527901/2018-american-liberty-one-tenth-ounce-gold-proof-coin-obverse.jpeg"],
+    "images": [
+      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2018-american-liberty-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/image.coreimg.jpeg/1768937527901/2018-american-liberty-one-tenth-ounce-gold-proof-coin-obverse.jpeg",
+      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2018-american-liberty-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/image.coreimg.jpeg/1768937527901/2018-american-liberty-one-tenth-ounce-gold-proof-coin-obverse.jpeg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2018-american-liberty-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fimage.coreimg.jpeg%2F1768937527901%2F2018-american-liberty-one-tenth-ounce-gold-proof-coin-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2018%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2018-american-liberty-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fimage.coreimg.jpeg%2F1768937527901%2F2018-american-liberty-one-tenth-ounce-gold-proof-coin-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2018%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2018-american-liberty-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/image.coreimg.jpeg/1768937527901/2018-american-liberty-one-tenth-ounce-gold-proof-coin-obverse.jpeg"
+    ],
     "photo_source": "U.S. Mint",
     "photo_year": 2018,
     "photo_is_representative": false,
@@ -3650,7 +4122,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2018-american-liberty-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/image.coreimg.jpeg/1768937527901/2018-american-liberty-one-tenth-ounce-gold-proof-coin-obverse.jpeg",
+      "back": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2018-american-liberty-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/image.coreimg.jpeg/1768937527901/2018-american-liberty-one-tenth-ounce-gold-proof-coin-obverse.jpeg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2018-american-liberty-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fimage.coreimg.jpeg%2F1768937527901%2F2018-american-liberty-one-tenth-ounce-gold-proof-coin-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2018%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2018-american-liberty-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fimage.coreimg.jpeg%2F1768937527901%2F2018-american-liberty-one-tenth-ounce-gold-proof-coin-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2018%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2018-american-liberty-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/image.coreimg.jpeg/1768937527901/2018-american-liberty-one-tenth-ounce-gold-proof-coin-obverse.jpeg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 108,
@@ -3667,7 +4147,13 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2019-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476835051.coreimg.jpeg/1746476875811/2019-american-liberty-24k-gold-coin-obverse.jpeg",
-    "images": ["https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2019-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476835051.coreimg.jpeg/1746476875811/2019-american-liberty-24k-gold-coin-obverse.jpeg"],
+    "images": [
+      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2019-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476835051.coreimg.jpeg/1746476875811/2019-american-liberty-24k-gold-coin-obverse.jpeg",
+      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2019-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476835051.coreimg.jpeg/1746476875811/2019-american-liberty-24k-gold-coin-obverse.jpeg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2019-high-relief-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746476835051.coreimg.jpeg%2F1746476875811%2F2019-american-liberty-24k-gold-coin-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2019%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2019-high-relief-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746476835051.coreimg.jpeg%2F1746476875811%2F2019-american-liberty-24k-gold-coin-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2019%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2019-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476835051.coreimg.jpeg/1746476875811/2019-american-liberty-24k-gold-coin-obverse.jpeg"
+    ],
     "photo_source": "U.S. Mint",
     "photo_year": 2019,
     "photo_is_representative": false,
@@ -3697,7 +4183,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2019-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476835051.coreimg.jpeg/1746476875811/2019-american-liberty-24k-gold-coin-obverse.jpeg",
+      "back": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2019-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476835051.coreimg.jpeg/1746476875811/2019-american-liberty-24k-gold-coin-obverse.jpeg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2019-high-relief-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746476835051.coreimg.jpeg%2F1746476875811%2F2019-american-liberty-24k-gold-coin-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2019%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2019-high-relief-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746476835051.coreimg.jpeg%2F1746476875811%2F2019-american-liberty-24k-gold-coin-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2019%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2019-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476835051.coreimg.jpeg/1746476875811/2019-american-liberty-24k-gold-coin-obverse.jpeg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 109,
@@ -3713,8 +4207,14 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2020%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2020%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "image": "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_obv.jpg",
+    "images": [
+      "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_obv.jpg",
+      "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_rev.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2020-1-oz-american-gold-eagle-mintdirect-single_196140_obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2020%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2020-1-oz-american-gold-eagle-mintdirect-single_196140_rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2020%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_slab.jpg"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2020,
     "photo_is_representative": false,
@@ -3740,7 +4240,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_obv.jpg",
+      "back": "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_rev.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2020-1-oz-american-gold-eagle-mintdirect-single_196140_obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2020%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2020-1-oz-american-gold-eagle-mintdirect-single_196140_rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2020%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_slab.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 110,
@@ -3757,7 +4265,13 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477806941.coreimg.jpeg/1746477854266/2021-american-liberty-high-relief-gold-coin-obverse.jpeg",
-    "images": ["https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477806941.coreimg.jpeg/1746477854266/2021-american-liberty-high-relief-gold-coin-obverse.jpeg"],
+    "images": [
+      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477806941.coreimg.jpeg/1746477854266/2021-american-liberty-high-relief-gold-coin-obverse.jpeg",
+      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477806941.coreimg.jpeg/1746477854266/2021-american-liberty-high-relief-gold-coin-obverse.jpeg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2021-high-relief-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746477806941.coreimg.jpeg%2F1746477854266%2F2021-american-liberty-high-relief-gold-coin-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2021%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2021-high-relief-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746477806941.coreimg.jpeg%2F1746477854266%2F2021-american-liberty-high-relief-gold-coin-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2021%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477806941.coreimg.jpeg/1746477854266/2021-american-liberty-high-relief-gold-coin-obverse.jpeg"
+    ],
     "photo_source": "U.S. Mint",
     "photo_year": 2021,
     "photo_is_representative": false,
@@ -3787,7 +4301,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477806941.coreimg.jpeg/1746477854266/2021-american-liberty-high-relief-gold-coin-obverse.jpeg",
+      "back": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477806941.coreimg.jpeg/1746477854266/2021-american-liberty-high-relief-gold-coin-obverse.jpeg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2021-high-relief-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746477806941.coreimg.jpeg%2F1746477854266%2F2021-american-liberty-high-relief-gold-coin-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2021%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2021-high-relief-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746477806941.coreimg.jpeg%2F1746477854266%2F2021-american-liberty-high-relief-gold-coin-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2021%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477806941.coreimg.jpeg/1746477854266/2021-american-liberty-high-relief-gold-coin-obverse.jpeg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 111,
@@ -3804,7 +4326,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2022%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2022%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2022%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2022,
     "photo_is_representative": false,
@@ -3847,7 +4371,13 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2023-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1746478374606/2023-american-liberty-high-relief-gold-coin-obverse.jpeg",
-    "images": ["https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2023-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1746478374606/2023-american-liberty-high-relief-gold-coin-obverse.jpeg"],
+    "images": [
+      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2023-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1746478374606/2023-american-liberty-high-relief-gold-coin-obverse.jpeg",
+      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2023-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1746478374606/2023-american-liberty-high-relief-gold-coin-obverse.jpeg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2023-high-relief-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746478319507.coreimg.jpeg%2F1746478374606%2F2023-american-liberty-high-relief-gold-coin-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2023%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2023-high-relief-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746478319507.coreimg.jpeg%2F1746478374606%2F2023-american-liberty-high-relief-gold-coin-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2023%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2023-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1746478374606/2023-american-liberty-high-relief-gold-coin-obverse.jpeg"
+    ],
     "photo_source": "U.S. Mint",
     "photo_year": 2023,
     "photo_is_representative": false,
@@ -3877,7 +4407,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2023-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1746478374606/2023-american-liberty-high-relief-gold-coin-obverse.jpeg",
+      "back": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2023-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1746478374606/2023-american-liberty-high-relief-gold-coin-obverse.jpeg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2023-high-relief-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746478319507.coreimg.jpeg%2F1746478374606%2F2023-american-liberty-high-relief-gold-coin-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2023%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2023-high-relief-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746478319507.coreimg.jpeg%2F1746478374606%2F2023-american-liberty-high-relief-gold-coin-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2023%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2023-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1746478374606/2023-american-liberty-high-relief-gold-coin-obverse.jpeg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 113,
@@ -3894,7 +4432,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2024%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2024%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2024%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2024,
     "photo_is_representative": false,
@@ -3937,7 +4477,13 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
-    "images": ["https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg"],
+    "images": [
+      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
+      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2025-high-relief-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746478319507.coreimg.jpeg%2F1768933792492%2Famerican-liberty-gold-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2025%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2025-high-relief-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746478319507.coreimg.jpeg%2F1768933792492%2Famerican-liberty-gold-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2025%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg"
+    ],
     "photo_source": "U.S. Mint",
     "photo_year": 2025,
     "photo_is_representative": false,
@@ -3967,7 +4513,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
+      "back": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2025-high-relief-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746478319507.coreimg.jpeg%2F1768933792492%2Famerican-liberty-gold-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2025%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Flearn%2Fcoins-and-medals%2Fcollectible-coins%2Famerican-liberty%2F2025-high-relief-gold-coin%2F_jcr_content%2Froot%2Fcontainer_1426747781%2Fimagegallerypdp%2Fitem_1746478319507.coreimg.jpeg%2F1768933792492%2Famerican-liberty-gold-obverse.jpeg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2025%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 115,
@@ -3984,7 +4538,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2026%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2026%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2026%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2026,
     "photo_is_representative": false,
@@ -4027,7 +4583,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2002%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2002%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2002%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2002,
     "photo_is_representative": false,
@@ -4069,8 +4627,14 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2003%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2003%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "image": "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Obv.jpg",
+    "images": [
+      "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Obv.jpg",
+      "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Rev.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2003%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2003%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Slab.jpg"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2003,
     "photo_is_representative": false,
@@ -4096,7 +4660,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Obv.jpg",
+      "back": "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Rev.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2003%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2003%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Slab.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 118,
@@ -4113,7 +4685,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2004%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2004%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2004%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2004,
     "photo_is_representative": false,
@@ -4155,8 +4729,14 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2005%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2005%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3ENo%20official%20U.S.%20Mint%20issue%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "image": "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg",
+    "images": [
+      "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg",
+      "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Rev.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2005%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2005%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Slab.jpg"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2005,
     "photo_is_representative": false,
@@ -4182,7 +4762,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg",
+      "back": "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Rev.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2005%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2005%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Slab.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 120,
@@ -4198,8 +4786,14 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2006%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2006%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "image": "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Obv.jpg",
+    "images": [
+      "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Obv.jpg",
+      "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Rev.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2006%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2006%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Slab.jpg"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2006,
     "photo_is_representative": false,
@@ -4229,7 +4823,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Obv.jpg",
+      "back": "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Rev.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2006%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2006%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Slab.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 121,
@@ -4245,8 +4847,14 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2007%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2007%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "image": "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_obv.jpg",
+    "images": [
+      "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_obv.jpg",
+      "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_rev.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2007-1-oz-american-gold-eagle-bu_21529_obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2007%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2007-1-oz-american-gold-eagle-bu_21529_rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2007%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_slab.jpg"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2007,
     "photo_is_representative": false,
@@ -4276,7 +4884,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_obv.jpg",
+      "back": "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_rev.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2007-1-oz-american-gold-eagle-bu_21529_obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2007%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2007-1-oz-american-gold-eagle-bu_21529_rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2007%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_slab.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 122,
@@ -4293,7 +4909,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2008%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2008%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2008%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2008,
     "photo_is_representative": false,
@@ -4340,7 +4958,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2009%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2009%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2009%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2009,
     "photo_is_representative": false,
@@ -4386,8 +5006,14 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2010%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2010%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "image": "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Obv.jpg",
+    "images": [
+      "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Obv.jpg",
+      "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Rev.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2010%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2010%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Slab.jpg"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2010,
     "photo_is_representative": false,
@@ -4417,7 +5043,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Obv.jpg",
+      "back": "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Rev.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2010%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2010%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Slab.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 125,
@@ -4433,8 +5067,14 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2011%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2011%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "image": "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Obv.jpg",
+    "images": [
+      "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Obv.jpg",
+      "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Rev.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2011-1-oz-american-gold-eagle-bu_59146_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2011%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2011-1-oz-american-gold-eagle-bu_59146_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2011%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Obv.jpg"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2011,
     "photo_is_representative": false,
@@ -4464,7 +5104,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Obv.jpg",
+      "back": "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Rev.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2011-1-oz-american-gold-eagle-bu_59146_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2011%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2011-1-oz-american-gold-eagle-bu_59146_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2011%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Obv.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 126,
@@ -4480,8 +5128,14 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2012%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2012%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "image": "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Obv.jpg",
+    "images": [
+      "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Obv.jpg",
+      "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Rev.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2012%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2012%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Slab.jpg"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2012,
     "photo_is_representative": false,
@@ -4511,7 +5165,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Obv.jpg",
+      "back": "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Rev.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2012%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2012%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Slab.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 127,
@@ -4528,7 +5190,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2013%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2013%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2013%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2013,
     "photo_is_representative": false,
@@ -4575,7 +5239,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2014%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2014%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2014%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2014,
     "photo_is_representative": false,
@@ -4622,7 +5288,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2015%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2015%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2015%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2015,
     "photo_is_representative": false,
@@ -4669,7 +5337,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2016%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2016%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2016%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2016,
     "photo_is_representative": false,
@@ -4716,7 +5386,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2017%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2017%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2017%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2017,
     "photo_is_representative": false,
@@ -4763,7 +5435,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2018%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2018%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2018%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2018,
     "photo_is_representative": false,
@@ -4810,7 +5484,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2019%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2019%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2019%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2019,
     "photo_is_representative": false,
@@ -4856,8 +5532,14 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2020%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2020%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "image": "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_obv.jpg",
+    "images": [
+      "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_obv.jpg",
+      "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_rev.jpg",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2020-1-oz-american-gold-eagle-mintdirect-single_196140_obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2020%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2020-1-oz-american-gold-eagle-mintdirect-single_196140_rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2020%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_slab.jpg"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2020,
     "photo_is_representative": false,
@@ -4887,7 +5569,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_obv.jpg",
+      "back": "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_rev.jpg",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2020-1-oz-american-gold-eagle-mintdirect-single_196140_obv.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2020%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.images-apmex.com%2Fimages%2Fproducts%2F2020-1-oz-american-gold-eagle-mintdirect-single_196140_rev.jpg%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2020%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_slab.jpg"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 135,
@@ -4904,7 +5594,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2021%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2021%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2021%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2021,
     "photo_is_representative": false,
@@ -4951,7 +5643,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2022%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2022%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2022%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2022,
     "photo_is_representative": false,
@@ -4998,7 +5692,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2023%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2023%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2023%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2023,
     "photo_is_representative": false,
@@ -5045,7 +5741,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2024%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2024%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2024%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2024,
     "photo_is_representative": false,
@@ -5092,7 +5790,9 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2025%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": ["data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2025%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"],
+    "images": [
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22900%22%20height%3D%22900%22%20viewBox%3D%220%200%20900%20900%22%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22285%22%20fill%3D%22%23d9b36c%22%20stroke%3D%22%238b6b32%22%20stroke-width%3D%2212%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22430%22%20r%3D%22255%22%20fill%3D%22none%22%20stroke%3D%22%23f4dfab%22%20stroke-width%3D%226%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22390%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2272%22%20font-weight%3D%22700%22%20fill%3D%22%236b5128%22%3EUS%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22500%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%22108%22%20font-weight%3D%22700%22%20fill%3D%22%235b4524%22%3E2025%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22575%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20fill%3D%22%235b4524%22%3EYear-specific%20photo%20pending%20verification%3C%2Ftext%3E%3C%2Fsvg%3E"
+    ],
     "photo_source": "Year-specific verification placeholder",
     "photo_year": 2025,
     "photo_is_representative": false,
@@ -5139,7 +5839,13 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
-    "images": ["https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"],
+    "images": [
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Fdw%2Fimage%2Fv2%2FAARB_PRD%2Fon%2Fdemandware.static%2F-%2FSites-usm-master-catalog-us%2Fdefault%2Fdwb396a470%2Fimages%2Fhi-res%2Fcoin-programs%2FAmerican-Buffalo%2F26el_e.jpg%3Fsh%3D1200%26amp%3Bsm%3Dfit%26amp%3Bsw%3D1200%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2026%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Fdw%2Fimage%2Fv2%2FAARB_PRD%2Fon%2Fdemandware.static%2F-%2FSites-usm-master-catalog-us%2Fdefault%2Fdwb396a470%2Fimages%2Fhi-res%2Fcoin-programs%2FAmerican-Buffalo%2F26el_e.jpg%3Fsh%3D1200%26amp%3Bsm%3Dfit%26amp%3Bsw%3D1200%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2026%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
+    ],
     "photo_source": "U.S. Mint",
     "photo_year": 2026,
     "photo_is_representative": false,
@@ -5169,7 +5875,15 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_views": {
+      "front_main": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
+      "back": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200",
+      "left_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(90%200)%20skewY(-5)%20rotate(-3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Fdw%2Fimage%2Fv2%2FAARB_PRD%2Fon%2Fdemandware.static%2F-%2FSites-usm-master-catalog-us%2Fdefault%2Fdwb396a470%2Fimages%2Fhi-res%2Fcoin-programs%2FAmerican-Buffalo%2F26el_e.jpg%3Fsh%3D1200%26amp%3Bsm%3Dfit%26amp%3Bsw%3D1200%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2026%20LEFT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "right_side": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%221200%22%3E%3Crect%20width%3D%221200%22%20height%3D%221200%22%20fill%3D%22white%22%2F%3E%3Cg%20transform%3D%22translate(-90%200)%20skewY(5)%20rotate(3%20600%20600)%22%3E%3Cimage%20href%3D%22https%3A%2F%2Fwww.usmint.gov%2Fdw%2Fimage%2Fv2%2FAARB_PRD%2Fon%2Fdemandware.static%2F-%2FSites-usm-master-catalog-us%2Fdefault%2Fdwb396a470%2Fimages%2Fhi-res%2Fcoin-programs%2FAmerican-Buffalo%2F26el_e.jpg%3Fsh%3D1200%26amp%3Bsm%3Dfit%26amp%3Bsw%3D1200%22%20x%3D%22150%22%20y%3D%22150%22%20width%3D%22900%22%20height%3D%22900%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22600%22%20y%3D%221120%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2234%22%3E2026%20RIGHT%20SIDE%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "case_photo": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwb396a470/images/hi-res/coin-programs/American-Buffalo/26el_e.jpg?sh=1200&sm=fit&sw=1200"
+    },
+    "photo_display": "Full five-view display"
   },
   {
     "id": 297,
@@ -7835,7 +8549,7 @@ window.products = [
     "brand_display_name": "CHANEL",
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace\u2019s required authentication checks."
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
   },
   {
     "id": 239,
@@ -7877,7 +8591,7 @@ window.products = [
     "brand_display_name": "CHANEL",
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace\u2019s required authentication checks."
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
   },
   {
     "id": 240,
@@ -7918,7 +8632,7 @@ window.products = [
     "brand_display_name": "CHANEL",
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace\u2019s required authentication checks."
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
   },
   {
     "id": 241,
@@ -7960,10 +8674,9 @@ window.products = [
     "brand_display_name": "CHANEL",
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace\u2019s required authentication checks."
-  }
-,
-{
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
+  },
+  {
     "id": 242,
     "name": "CHANEL 22 Handbag — Black Shiny Calfskin",
     "category": "accessories",
@@ -7972,7 +8685,10 @@ window.products = [
     "pre-owned price": 799.99,
     "new price": 999.99,
     "condition": "New",
-    "condition_options": ["New", "Pre-owned"],
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
     "default_condition": "New",
     "image": "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83732656.jpg",
     "images": [
@@ -8002,7 +8718,7 @@ window.products = [
     "brand_display_name": "CHANEL",
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace\u2019s required authentication checks."
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
   },
   {
     "id": 243,
@@ -8013,7 +8729,10 @@ window.products = [
     "pre-owned price": 799.99,
     "new price": 999.99,
     "condition": "New",
-    "condition_options": ["New", "Pre-owned"],
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
     "default_condition": "New",
     "image": "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83732649.jpg",
     "images": [
@@ -8043,7 +8762,7 @@ window.products = [
     "brand_display_name": "CHANEL",
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace\u2019s required authentication checks."
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
   },
   {
     "id": 244,
@@ -8054,7 +8773,10 @@ window.products = [
     "pre-owned price": 799.99,
     "new price": 999.99,
     "condition": "New",
-    "condition_options": ["New", "Pre-owned"],
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
     "default_condition": "New",
     "image": "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83612724.jpg",
     "images": [
@@ -8086,7 +8808,7 @@ window.products = [
     "brand_display_name": "CHANEL",
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace\u2019s required authentication checks."
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
   },
   {
     "id": 245,
@@ -8097,7 +8819,10 @@ window.products = [
     "pre-owned price": 799.99,
     "new price": 999.99,
     "condition": "New",
-    "condition_options": ["New", "Pre-owned"],
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
     "default_condition": "New",
     "image": "https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9566886756382.jpg",
     "images": [
@@ -8126,233 +8851,232 @@ window.products = [
     "brand_display_name": "CHANEL",
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace\u2019s required authentication checks."
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
   },
-{
-  "id": 246,
-  "name": "Saint Laurent LOULOU MINI in Lambskin — Black",
-  "category": "accessories",
-  "retail price": 2250,
-  "sale price": 999.99,
-  "pre-owned price": 799.99,
-  "new price": 999.99,
-  "condition": "New",
-  "condition_options": [
-    "New",
-    "Pre-owned"
-  ],
-  "default_condition": "New",
-  "image": "https://saint-laurent.dam.kering.com/asset/fa360bdf-c42d-4148-9f1d-f7736e8ffa31/eCom/821749AAE4Y1000_A.jpg?v=1",
-  "images": [
-    "https://saint-laurent.dam.kering.com/asset/fa360bdf-c42d-4148-9f1d-f7736e8ffa31/eCom/821749AAE4Y1000_A.jpg?v=1",
-    "https://saint-laurent.dam.kering.com/asset/a03214ae-b18c-4d6b-b659-12b5b9b896b6/eCom/821749AAE4Y1000_B.jpg?v=1",
-    "https://saint-laurent.dam.kering.com/asset/8fa17254-985c-4107-820f-279053c6e9a0/eCom/821749AAE4Y1000_C.jpg?v=1",
-    "https://saint-laurent.dam.kering.com/asset/c7a267e2-bd89-47f3-9376-8d7a5286101d/eCom/821749AAE4Y1000_D.jpg?v=1",
-    "https://saint-laurent.dam.kering.com/asset/61e79831-6384-458a-aa80-cd62315eba46/Original-Ecom/821749AAE4Y1000_Y.jpg?v=1"
-  ],
-  "description": "A compact Saint Laurent LOULOU chain bag crafted in supple black lambskin with the line’s signature chevron quilting and Cassandre YSL hardware. The mini silhouette is designed for crossbody or shoulder wear and includes a removable leather pouch for additional organization.",
-  "specifications": {
+  {
+    "id": 246,
+    "name": "Saint Laurent LOULOU MINI in Lambskin — Black",
+    "category": "accessories",
+    "retail price": 2250,
+    "sale price": 999.99,
+    "pre-owned price": 799.99,
+    "new price": 999.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://saint-laurent.dam.kering.com/asset/fa360bdf-c42d-4148-9f1d-f7736e8ffa31/eCom/821749AAE4Y1000_A.jpg?v=1",
+    "images": [
+      "https://saint-laurent.dam.kering.com/asset/fa360bdf-c42d-4148-9f1d-f7736e8ffa31/eCom/821749AAE4Y1000_A.jpg?v=1",
+      "https://saint-laurent.dam.kering.com/asset/a03214ae-b18c-4d6b-b659-12b5b9b896b6/eCom/821749AAE4Y1000_B.jpg?v=1",
+      "https://saint-laurent.dam.kering.com/asset/8fa17254-985c-4107-820f-279053c6e9a0/eCom/821749AAE4Y1000_C.jpg?v=1",
+      "https://saint-laurent.dam.kering.com/asset/c7a267e2-bd89-47f3-9376-8d7a5286101d/eCom/821749AAE4Y1000_D.jpg?v=1",
+      "https://saint-laurent.dam.kering.com/asset/61e79831-6384-458a-aa80-cd62315eba46/Original-Ecom/821749AAE4Y1000_Y.jpg?v=1"
+    ],
+    "description": "A compact Saint Laurent LOULOU chain bag crafted in supple black lambskin with the line’s signature chevron quilting and Cassandre YSL hardware. The mini silhouette is designed for crossbody or shoulder wear and includes a removable leather pouch for additional organization.",
+    "specifications": {
+      "brand": "Saint Laurent",
+      "model": "LOULOU MINI",
+      "reference": "821749-AAE4Y-1000",
+      "material": "Lambskin and brass",
+      "color": "Black",
+      "dimensions": "20 x 12 x 5 cm / 7.9 x 4.7 x 2 in",
+      "strap_drop": "55 cm / 21.6 in",
+      "closure": "Magnetic snap",
+      "interior": "Leather lining; one flap pocket; removable leather pouch",
+      "hardware": "Bronze/silver-toned hardware varies by current configuration",
+      "country_of_origin": "Italy",
+      "retail_price_source": "Saint Laurent U.S. official product page",
+      "image_source": "Saint Laurent / Kering DAM; supplemental Fashionphile directional reference",
+      "source": "https://www.ysl.com/en-us/pr/loulou-mini-in-lambskin-821749AAE4Y1000.html"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
     "brand": "Saint Laurent",
-    "model": "LOULOU MINI",
-    "reference": "821749-AAE4Y-1000",
-    "material": "Lambskin and brass",
-    "color": "Black",
-    "dimensions": "20 x 12 x 5 cm / 7.9 x 4.7 x 2 in",
-    "strap_drop": "55 cm / 21.6 in",
-    "closure": "Magnetic snap",
-    "interior": "Leather lining; one flap pocket; removable leather pouch",
-    "hardware": "Bronze/silver-toned hardware varies by current configuration",
-    "country_of_origin": "Italy",
-    "retail_price_source": "Saint Laurent U.S. official product page",
-    "image_source": "Saint Laurent / Kering DAM; supplemental Fashionphile directional reference",
-    "source": "https://www.ysl.com/en-us/pr/loulou-mini-in-lambskin-821749AAE4Y1000.html"
+    "brand_display_name": "YSL",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front": "images[0]",
+      "back": "images[1]",
+      "left_side": "images[2]",
+      "right_side": "images[3]",
+      "overhead": "images[4]"
+    }
   },
-  "productType": "Handbag",
-  "inventory": 1,
-  "age_group": "Adult",
-  "gender": "Women",
-  "brand": "Saint Laurent",
-  "brand_display_name": "YSL",
-  "authenticityGuaranteed": true,
-  "authenticity_badge": "Authenticity Guaranteed",
-  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
-  "image_views": {
-    "front": "images[0]",
-    "back": "images[1]",
-    "left_side": "images[2]",
-    "right_side": "images[3]",
-    "overhead": "images[4]"
-  }
-},
-{
-  "id": 247,
-  "name": "Saint Laurent COLLEGE MEDIUM in Quilted Leather — Black",
-  "category": "accessories",
-  "retail price": 2800,
-  "sale price": 999.99,
-  "pre-owned price": 799.99,
-  "new price": 999.99,
-  "condition": "New",
-  "condition_options": [
-    "New",
-    "Pre-owned"
-  ],
-  "default_condition": "New",
-  "image": "https://saint-laurent.dam.kering.com/m/7adab45359c7a777/eCom-600279BRM071000_A.jpg?v=2",
-  "images": [
-    "https://saint-laurent.dam.kering.com/m/7adab45359c7a777/eCom-600279BRM071000_A.jpg?v=2",
-    "https://saint-laurent.dam.kering.com/m/c35cc2a7aa205b1/eCom-600279BRM071000_B.jpg?v=2",
-    "https://saint-laurent.dam.kering.com/m/1d880eba99f08417/eCom-600279BRM071000_C.jpg?v=2",
-    "https://saint-laurent.dam.kering.com/m/543ff930c84a6c6b/eCom-600279BRM071000_D.jpg?v=2",
-    "https://coveti.com/wp-content/uploads/2026/05/Saint-Laurent-COLLEGE-MEDIUM-IN-QUILTED-LEATHER-coveti-4-3-600x600.webp"
-  ],
-  "description": "A structured Saint Laurent College Medium satchel in black lambskin, defined by chevron quilting and the signature Cassandre monogram. The compact interior uses two compartments separated by a zipped divider, while the detachable swivel-hook chain strap allows shoulder or crossbody styling.",
-  "specifications": {
+  {
+    "id": 247,
+    "name": "Saint Laurent COLLEGE MEDIUM in Quilted Leather — Black",
+    "category": "accessories",
+    "retail price": 2800,
+    "sale price": 999.99,
+    "pre-owned price": 799.99,
+    "new price": 999.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://saint-laurent.dam.kering.com/m/7adab45359c7a777/eCom-600279BRM071000_A.jpg?v=2",
+    "images": [
+      "https://saint-laurent.dam.kering.com/m/7adab45359c7a777/eCom-600279BRM071000_A.jpg?v=2",
+      "https://saint-laurent.dam.kering.com/m/c35cc2a7aa205b1/eCom-600279BRM071000_B.jpg?v=2",
+      "https://saint-laurent.dam.kering.com/m/1d880eba99f08417/eCom-600279BRM071000_C.jpg?v=2",
+      "https://saint-laurent.dam.kering.com/m/543ff930c84a6c6b/eCom-600279BRM071000_D.jpg?v=2",
+      "https://coveti.com/wp-content/uploads/2026/05/Saint-Laurent-COLLEGE-MEDIUM-IN-QUILTED-LEATHER-coveti-4-3-600x600.webp"
+    ],
+    "description": "A structured Saint Laurent College Medium satchel in black lambskin, defined by chevron quilting and the signature Cassandre monogram. The compact interior uses two compartments separated by a zipped divider, while the detachable swivel-hook chain strap allows shoulder or crossbody styling.",
+    "specifications": {
+      "brand": "Saint Laurent",
+      "model": "COLLEGE MEDIUM IN QUILTED LEATHER",
+      "reference": "600279-BRM07-1000",
+      "material": "100% lambskin",
+      "color": "Black",
+      "bag_type": "Satchel / shoulder / crossbody",
+      "interior": "Two compartments separated by an interior zipped pocket; card organization",
+      "exterior": "Large rear slot pocket",
+      "strap": "Detachable swivel-hook chain strap",
+      "closure": "Flap / magnetic closure",
+      "country_of_origin": "Italy",
+      "retail_price_source": "Saint Laurent U.S. official product page",
+      "image_source": "Saint Laurent / Kering DAM; Coveti supplemental gallery",
+      "source": "https://www.ysl.com/en-us/pr/college-medium-in-quilted-leather-600279BRM071000.html"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
     "brand": "Saint Laurent",
-    "model": "COLLEGE MEDIUM IN QUILTED LEATHER",
-    "reference": "600279-BRM07-1000",
-    "material": "100% lambskin",
-    "color": "Black",
-    "bag_type": "Satchel / shoulder / crossbody",
-    "interior": "Two compartments separated by an interior zipped pocket; card organization",
-    "exterior": "Large rear slot pocket",
-    "strap": "Detachable swivel-hook chain strap",
-    "closure": "Flap / magnetic closure",
-    "country_of_origin": "Italy",
-    "retail_price_source": "Saint Laurent U.S. official product page",
-    "image_source": "Saint Laurent / Kering DAM; Coveti supplemental gallery",
-    "source": "https://www.ysl.com/en-us/pr/college-medium-in-quilted-leather-600279BRM071000.html"
+    "brand_display_name": "YSL",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front": "images[0]",
+      "back": "images[1]",
+      "left_side": "images[2]",
+      "right_side": "images[3]",
+      "overhead": "images[4]"
+    }
   },
-  "productType": "Handbag",
-  "inventory": 1,
-  "age_group": "Adult",
-  "gender": "Women",
-  "brand": "Saint Laurent",
-  "brand_display_name": "YSL",
-  "authenticityGuaranteed": true,
-  "authenticity_badge": "Authenticity Guaranteed",
-  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
-  "image_views": {
-    "front": "images[0]",
-    "back": "images[1]",
-    "left_side": "images[2]",
-    "right_side": "images[3]",
-    "overhead": "images[4]"
-  }
-},
-{
-  "id": 248,
-  "name": "Saint Laurent LE 5 À 7 Supple Small in Grained Leather — Black",
-  "category": "accessories",
-  "retail price": 2800,
-  "sale price": 999.99,
-  "pre-owned price": 799.99,
-  "new price": 999.99,
-  "condition": "New",
-  "condition_options": [
-    "New",
-    "Pre-owned"
-  ],
-  "default_condition": "New",
-  "image": "https://saint-laurent.dam.kering.com/asset/97af256a-97c3-4df3-9659-fe594f6f104b/eCom/850533AAAUQ1000_A.jpg?v=1",
-  "images": [
-    "https://saint-laurent.dam.kering.com/asset/97af256a-97c3-4df3-9659-fe594f6f104b/eCom/850533AAAUQ1000_A.jpg?v=1",
-    "https://saint-laurent.dam.kering.com/asset/043ea143-8c9b-429e-824b-03745b085aa5/eCom/850533AAAUQ1000_B.jpg?v=1",
-    "https://saint-laurent.dam.kering.com/asset/c38972e3-d21e-43fe-af02-45c627a0325e/eCom/850533AAAUQ1000_C.jpg?v=1",
-    "https://saint-laurent.dam.kering.com/asset/c8ceb190-c594-40e2-bd08-4ddc0dbe4203/eCom/850533AAAUQ1000_D.jpg?v=1",
-    "https://www.lussocitta.com/cdn/shop/files/ysl-singapore-821749AAEAX1000-3_800x.jpg?v=1765512944"
-  ],
-  "description": "The LE 5 À 7 Supple Small is a refined Saint Laurent shoulder bag that softens the house’s iconic silhouette with finely grained leather and tonal suede lining. Its spacious construction features a leather tab finished with the Cassandre, an interior zipped pocket and an adjustable shoulder strap for practical everyday carry.",
-  "specifications": {
+  {
+    "id": 248,
+    "name": "Saint Laurent LE 5 À 7 Supple Small in Grained Leather — Black",
+    "category": "accessories",
+    "retail price": 2800,
+    "sale price": 999.99,
+    "pre-owned price": 799.99,
+    "new price": 999.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://saint-laurent.dam.kering.com/asset/97af256a-97c3-4df3-9659-fe594f6f104b/eCom/850533AAAUQ1000_A.jpg?v=1",
+    "images": [
+      "https://saint-laurent.dam.kering.com/asset/97af256a-97c3-4df3-9659-fe594f6f104b/eCom/850533AAAUQ1000_A.jpg?v=1",
+      "https://saint-laurent.dam.kering.com/asset/043ea143-8c9b-429e-824b-03745b085aa5/eCom/850533AAAUQ1000_B.jpg?v=1",
+      "https://saint-laurent.dam.kering.com/asset/c38972e3-d21e-43fe-af02-45c627a0325e/eCom/850533AAAUQ1000_C.jpg?v=1",
+      "https://saint-laurent.dam.kering.com/asset/c8ceb190-c594-40e2-bd08-4ddc0dbe4203/eCom/850533AAAUQ1000_D.jpg?v=1",
+      "https://www.lussocitta.com/cdn/shop/files/ysl-singapore-821749AAEAX1000-3_800x.jpg?v=1765512944"
+    ],
+    "description": "The LE 5 À 7 Supple Small is a refined Saint Laurent shoulder bag that softens the house’s iconic silhouette with finely grained leather and tonal suede lining. Its spacious construction features a leather tab finished with the Cassandre, an interior zipped pocket and an adjustable shoulder strap for practical everyday carry.",
+    "specifications": {
+      "brand": "Saint Laurent",
+      "model": "LE 5 À 7 Supple Small",
+      "reference": "850533-AAAUQ-1000",
+      "material": "Grained leather",
+      "color": "Black",
+      "lining": "Tonal suede",
+      "closure": "Leather tab with metal Cassandre",
+      "interior": "Interior zipped pocket; spacious main compartment",
+      "strap": "Adjustable shoulder strap",
+      "bag_type": "Shoulder / hobo bag",
+      "retail_price_source": "Saint Laurent U.S. official product page",
+      "image_source": "Saint Laurent / Kering DAM; supplemental directional gallery reference",
+      "source": "https://www.ysl.com/en-us/pr/le-5-a-7-supple-small-in-grained-leather-850533AAAUQ1000.html"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
     "brand": "Saint Laurent",
-    "model": "LE 5 À 7 Supple Small",
-    "reference": "850533-AAAUQ-1000",
-    "material": "Grained leather",
-    "color": "Black",
-    "lining": "Tonal suede",
-    "closure": "Leather tab with metal Cassandre",
-    "interior": "Interior zipped pocket; spacious main compartment",
-    "strap": "Adjustable shoulder strap",
-    "bag_type": "Shoulder / hobo bag",
-    "retail_price_source": "Saint Laurent U.S. official product page",
-    "image_source": "Saint Laurent / Kering DAM; supplemental directional gallery reference",
-    "source": "https://www.ysl.com/en-us/pr/le-5-a-7-supple-small-in-grained-leather-850533AAAUQ1000.html"
+    "brand_display_name": "YSL",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front": "images[0]",
+      "back": "images[1]",
+      "left_side": "images[2]",
+      "right_side": "images[3]",
+      "overhead": "images[4]"
+    }
   },
-  "productType": "Handbag",
-  "inventory": 1,
-  "age_group": "Adult",
-  "gender": "Women",
-  "brand": "Saint Laurent",
-  "brand_display_name": "YSL",
-  "authenticityGuaranteed": true,
-  "authenticity_badge": "Authenticity Guaranteed",
-  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
-  "image_views": {
-    "front": "images[0]",
-    "back": "images[1]",
-    "left_side": "images[2]",
-    "right_side": "images[3]",
-    "overhead": "images[4]"
-  }
-},
-{
-  "id": 249,
-  "name": "Saint Laurent MOMBASA Small in Leather — Black",
-  "category": "accessories",
-  "retail price": 3450,
-  "sale price": 999.99,
-  "pre-owned price": 799.99,
-  "new price": 999.99,
-  "condition": "New",
-  "condition_options": [
-    "New",
-    "Pre-owned"
-  ],
-  "default_condition": "New",
-  "image": "https://saint-laurent.dam.kering.com/asset/11e7d554-29ea-4d8d-9259-60649f94ba2a/eCom/851432AAGWJ1000_A.jpg?v=2",
-  "images": [
-    "https://saint-laurent.dam.kering.com/asset/11e7d554-29ea-4d8d-9259-60649f94ba2a/eCom/851432AAGWJ1000_A.jpg?v=2",
-    "https://saint-laurent.dam.kering.com/asset/db3ae499-fd9b-4856-9e44-60f698a0c47d/eCom/851432AAGWJ1000_B.jpg?v=2",
-    "https://saint-laurent.dam.kering.com/asset/0d32c774-1c55-46d6-9868-7580cb15b5f6/eCom/851432AAGWJ1000_C.jpg?v=1",
-    "https://saint-laurent.dam.kering.com/asset/45aedce9-1a97-42c3-8dcb-d86f5d6e5b42/eCom/851432AAGWJ1000_D.jpg?v=1",
-    "https://www.lyst.co.uk/bags/saint-laurent-mombasa-small-leather-hobo-top-handle/"
-  ],
-  "description": "A modern revival of the Saint Laurent MOMBASA hobo, this small version is crafted in padded calfskin with tonal suede lining and a leather-covered handle. Its sculptural curved profile and compact proportions make it suited to elevated evening and occasion styling.",
-  "specifications": {
+  {
+    "id": 249,
+    "name": "Saint Laurent MOMBASA Small in Leather — Black",
+    "category": "accessories",
+    "retail price": 3450,
+    "sale price": 999.99,
+    "pre-owned price": 799.99,
+    "new price": 999.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://saint-laurent.dam.kering.com/asset/11e7d554-29ea-4d8d-9259-60649f94ba2a/eCom/851432AAGWJ1000_A.jpg?v=2",
+    "images": [
+      "https://saint-laurent.dam.kering.com/asset/11e7d554-29ea-4d8d-9259-60649f94ba2a/eCom/851432AAGWJ1000_A.jpg?v=2",
+      "https://saint-laurent.dam.kering.com/asset/db3ae499-fd9b-4856-9e44-60f698a0c47d/eCom/851432AAGWJ1000_B.jpg?v=2",
+      "https://saint-laurent.dam.kering.com/asset/0d32c774-1c55-46d6-9868-7580cb15b5f6/eCom/851432AAGWJ1000_C.jpg?v=1",
+      "https://saint-laurent.dam.kering.com/asset/45aedce9-1a97-42c3-8dcb-d86f5d6e5b42/eCom/851432AAGWJ1000_D.jpg?v=1",
+      "https://www.lyst.co.uk/bags/saint-laurent-mombasa-small-leather-hobo-top-handle/"
+    ],
+    "description": "A modern revival of the Saint Laurent MOMBASA hobo, this small version is crafted in padded calfskin with tonal suede lining and a leather-covered handle. Its sculptural curved profile and compact proportions make it suited to elevated evening and occasion styling.",
+    "specifications": {
+      "brand": "Saint Laurent",
+      "model": "MOMBASA Small",
+      "reference": "851432-AAGWJ-1000",
+      "material": "Calfskin",
+      "color": "Black",
+      "lining": "Suede",
+      "hardware": "Bronze-tone hardware",
+      "closure": "Magnetic snap closure",
+      "dimensions": "20–27 x 15.5–22.5 x 2.5 cm / 7.9–10.6 x 6.1–8.9 x 1 in",
+      "handle_drop": "12.5 cm / 4.9 in",
+      "bag_type": "Hobo / top-handle bag",
+      "country_of_origin": "Italy",
+      "retail_price_source": "Saint Laurent U.S. official product page",
+      "image_source": "Saint Laurent / Kering DAM; supplemental retailer reference",
+      "source": "https://www.ysl.com/en-us/pr/mombasa-small-in-leather-851432AAGWJ1000.html"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
     "brand": "Saint Laurent",
-    "model": "MOMBASA Small",
-    "reference": "851432-AAGWJ-1000",
-    "material": "Calfskin",
-    "color": "Black",
-    "lining": "Suede",
-    "hardware": "Bronze-tone hardware",
-    "closure": "Magnetic snap closure",
-    "dimensions": "20–27 x 15.5–22.5 x 2.5 cm / 7.9–10.6 x 6.1–8.9 x 1 in",
-    "handle_drop": "12.5 cm / 4.9 in",
-    "bag_type": "Hobo / top-handle bag",
-    "country_of_origin": "Italy",
-    "retail_price_source": "Saint Laurent U.S. official product page",
-    "image_source": "Saint Laurent / Kering DAM; supplemental retailer reference",
-    "source": "https://www.ysl.com/en-us/pr/mombasa-small-in-leather-851432AAGWJ1000.html"
+    "brand_display_name": "YSL",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front": "images[0]",
+      "back": "images[1]",
+      "left_side": "images[2]",
+      "right_side": "images[3]",
+      "overhead": "images[4]"
+    }
   },
-  "productType": "Handbag",
-  "inventory": 1,
-  "age_group": "Adult",
-  "gender": "Women",
-  "brand": "Saint Laurent",
-  "brand_display_name": "YSL",
-  "authenticityGuaranteed": true,
-  "authenticity_badge": "Authenticity Guaranteed",
-  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
-  "image_views": {
-    "front": "images[0]",
-    "back": "images[1]",
-    "left_side": "images[2]",
-    "right_side": "images[3]",
-    "overhead": "images[4]"
-  }
-},
-
   {
     "id": 250,
     "name": "Louis Vuitton Low Key Hobo MM — Monogram Rouge Calf Leather",
@@ -8362,7 +9086,10 @@ window.products = [
     "pre-owned price": 799.99,
     "new price": 999.99,
     "condition": "New",
-    "condition_options": ["New", "Pre-owned"],
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
     "default_condition": "New",
     "image": "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-low-key-hobo-mm--M3A865_PM2_Front%20view.jpg",
     "images": [
@@ -8410,7 +9137,10 @@ window.products = [
     "pre-owned price": 799.99,
     "new price": 999.99,
     "condition": "New",
-    "condition_options": ["New", "Pre-owned"],
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
     "default_condition": "New",
     "image": "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-side-trunk-mm--M29904_PM2_Front%20view.jpg",
     "images": [
@@ -8459,7 +9189,10 @@ window.products = [
     "pre-owned price": 799.99,
     "new price": 999.99,
     "condition": "New",
-    "condition_options": ["New", "Pre-owned"],
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
     "default_condition": "New",
     "image": "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-carryall--pm--M2A184_PM2_Front%20view.jpg",
     "images": [
@@ -8512,7 +9245,10 @@ window.products = [
     "pre-owned price": 799.99,
     "new price": 999.99,
     "condition": "New",
-    "condition_options": ["New", "Pre-owned"],
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
     "default_condition": "New",
     "image": "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-diane---M2A335_PM2_Front%20view.jpg",
     "images": [
@@ -8554,408 +9290,278 @@ window.products = [
     "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks."
   },
   {
-  "id": 254,
-  "name": "Louis Vuitton Alma BB — Monogram Canvas",
-  "category": "accessories",
-  "retail price": 2000,
-  "sale price": 999.99,
-  "pre-owned price": 799.99,
-  "new price": 999.99,
-  "condition": "New",
-  "condition_options": [
-    "New",
-    "Pre-owned"
-  ],
-  "default_condition": "New",
-  "image": "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-alma-bb--M46990_PM2_Front%20view.jpg",
-  "images": [
-    "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-alma-bb--M46990_PM2_Front%20view.jpg",
-    "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-alma-bb--M46990_PM1_Side%20view.jpg",
-    "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-alma-bb--M46990_PM1_Back%20view.jpg",
-    "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-alma-bb--M46990_PM1_Interior%20view.jpg",
-    "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-alma-bb--M46990_PM1_Interior2%20view.jpg",
-    "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-alma-bb--M46990_PM1_Detail%20view.jpg",
-    "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-alma-bb--M46990_PM1_Cropped%20worn%20view.jpg"
-  ],
-  "description": "The Louis Vuitton Alma BB is a compact, structured handbag rooted in the House's Art Deco heritage. This Monogram canvas edition pairs the signature LV pattern with natural cowhide leather trim, polished gold-color hardware, dual Toron handles, a golden padlock and a detachable adjustable strap for cross-body wear. Its refined proportions make it suitable for everyday essentials while retaining the architectural character of the Alma line.",
-  "specifications": {
-    "brand": "Louis Vuitton",
-    "model": "Alma BB",
-    "reference": "M46990",
-    "material": "Monogram coated canvas with natural cowhide-leather trim",
-    "color": "Monogram Brown",
-    "dimensions": "9.3 x 6.9 x 4.5 in",
-    "weight": "0.5 kg",
-    "lining": "Textile",
-    "hardware": "Gold-color hardware",
-    "closure": "Double zip closure with padlock",
-    "pockets": "Inside flat pocket",
-    "base": "4 protective metal bottom studs",
-    "strap": "Removable, adjustable",
-    "strap_drop": "19.7 in",
-    "strap_drop_max": "24.4 in",
-    "handle": "Double Toron handles",
-    "capacity": "Fits 6.7-inch smartphone, earphones, lipstick, tissues, keys and sunglasses",
-    "country_of_origin": "Made in France, Spain or Italy, or made in the U.S. of imported materials",
-    "retail_price_source": "Louis Vuitton U.S. official product page",
-    "source": "https://us.louisvuitton.com/eng-us/products/alma-bb-monogram-nvprod5190086v/M46990"
-  },
-  "productType": "Handbag",
-  "inventory": 1,
-  "age_group": "Adult",
-  "gender": "Women",
-  "brand": "Louis Vuitton",
-  "brand_display_name": "Louis Vuitton",
-  "authenticityGuaranteed": true,
-  "authenticity_badge": "Authenticity Guaranteed",
-  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
-  "image_views": {
-    "front_main": "images[0]",
-    "left_side": "images[1]",
-    "right_side": "images[1]",
-    "back": "images[2]",
-    "overhead": "images[3]",
-    "additional": [
-      "images[4]",
-      "images[5]",
-      "images[6]"
-    ]
-  }
-},
-  {
-  "id": 255,
-  "name": "Louis Vuitton Speedy Bandoulière 25 — Damier Ebene",
-  "category": "accessories",
-  "retail price": 1980,
-  "sale price": 999.99,
-  "pre-owned price": 799.99,
-  "new price": 999.99,
-  "condition": "New",
-  "condition_options": [
-    "New",
-    "Pre-owned"
-  ],
-  "default_condition": "New",
-  "image": "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-25--N40575_PM2_Front%20view.jpg",
-  "images": [
-    "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-25--N40575_PM2_Front%20view.jpg",
-    "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-25--N40575_PM1_Side%20view.jpg",
-    "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-25--N40575_PM1_Back%20view.jpg",
-    "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-25--N40575_PM1_Interior%20view.jpg",
-    "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-25--N40575_PM1_Cropped%20worn%20view.jpg",
-    "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-25--N40575_PM1_Detail%20view.jpg"
-  ],
-  "description": "The Louis Vuitton Speedy Bandoulière 25 is an everyday city handbag built around one of the Maison's most recognizable travel-inspired silhouettes. Crafted in graphic Damier Ebene coated canvas, it features smooth cowhide-leather trim, rolled double handles, gold-color hardware, an engraved padlock and a detachable adjustable shoulder strap. The compact format balances structured style with practical capacity for daily essentials.",
-  "specifications": {
-    "brand": "Louis Vuitton",
-    "model": "Speedy Bandoulière 25",
-    "reference": "N40575",
-    "material": "Damier Ebene coated canvas with smooth cowhide-leather trim",
-    "color": "Damier Ebene Brown",
-    "dimensions": "9.8 x 7.5 x 5.9 in",
-    "lining": "Textile",
-    "hardware": "Gold-color hardware",
-    "closure": "Double zip closure with padlock",
-    "pocket": "Inside flat pocket",
-    "strap": "Removable, adjustable",
-    "strap_drop": "18.3 in",
-    "strap_drop_max": "21.7 in",
-    "handle": "Double rolled handles",
-    "capacity": "Fits 6.7-inch smartphone, Sarah Long Wallet, keys, lipstick, tissues and sunglasses",
-    "country_of_origin": "Made in France, Spain or Italy, or made in the U.S. of imported materials",
-    "retail_price_source": "Louis Vuitton U.S. official product page",
-    "source": "https://us.louisvuitton.com/eng-us/products/speedy-bandouliere-25-damier-ebene-nvprod5320018v/N40575"
-  },
-  "productType": "Handbag",
-  "inventory": 1,
-  "age_group": "Adult",
-  "gender": "Women",
-  "brand": "Louis Vuitton",
-  "brand_display_name": "Louis Vuitton",
-  "authenticityGuaranteed": true,
-  "authenticity_badge": "Authenticity Guaranteed",
-  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
-  "image_views": {
-    "front_main": "images[0]",
-    "left_side": "images[1]",
-    "right_side": "images[1]",
-    "back": "images[2]",
-    "overhead": "images[3]",
-    "additional": [
-      "images[4]",
-      "images[5]"
-    ]
-  }
-},
-  {
-  "id": 256,
-  "name": "Louis Vuitton Pochette Métis — Monogram Reverse Canvas",
-  "category": "accessories",
-  "retail price": 2840,
-  "sale price": 999.99,
-  "pre-owned price": 799.99,
-  "new price": 999.99,
-  "condition": "New",
-  "condition_options": [
-    "New",
-    "Pre-owned"
-  ],
-  "default_condition": "New",
-  "image": "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-metis--M44876_PM2_Front%20view.jpg",
-  "images": [
-    "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-metis--M44876_PM2_Front%20view.jpg",
-    "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-metis--M44876_PM1_Side%20view.jpg",
-    "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-metis--M44876_PM1_Back%20view.jpg",
-    "https://en.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-metis--M44876_PM1_Interior%20view.jpg",
-    "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-metis--M44876_PM1_Closeup%20view.jpg",
-    "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-metis--M44876_PM1_Detail%20view.jpg",
-    "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-metis--M44876_PM1_Worn%20view.jpg"
-  ],
-  "description": "The Louis Vuitton Pochette Métis is a compact satchel that combines the House's trunk-inspired S-lock with a practical, organized interior. This Monogram Reverse edition uses two-tone coated canvas with colored cowhide-leather trim, gold-color hardware and a structured top handle. A removable adjustable strap supports shoulder or cross-body wear, while the outside zipped pocket and three interior compartments keep everyday essentials organized.",
-  "specifications": {
-    "brand": "Louis Vuitton",
-    "model": "Pochette Métis",
-    "reference": "M44876",
-    "material": "Monogram Reverse coated canvas with colored cowhide-leather trim",
-    "color": "Monogram Reverse Brown",
-    "dimensions": "9.8 x 7.5 x 2.8 in",
-    "lining": "Textile",
-    "hardware": "Gold-color hardware",
-    "closure": "S-lock closure",
-    "pocket": "Outside zipped pocket",
-    "interior": "3 inside compartments",
-    "strap": "Removable, adjustable",
-    "strap_drop": "18.9 in",
-    "strap_drop_max": "21.7 in",
-    "handle": "Single top handle",
-    "capacity": "Fits smartphone, Sarah Long Wallet, earphones, keys, lipstick, tissues and sunglasses",
-    "country_of_origin": "Made in France, Spain or Italy, or made in the U.S. of imported materials",
-    "retail_price_source": "Louis Vuitton U.S. official product page",
-    "source": "https://us.louisvuitton.com/eng-us/products/pochette-metis-monogram-reverse-canvas-nvprod1770373v/M44876"
-  },
-  "productType": "Handbag",
-  "inventory": 1,
-  "age_group": "Adult",
-  "gender": "Women",
-  "brand": "Louis Vuitton",
-  "brand_display_name": "Louis Vuitton",
-  "authenticityGuaranteed": true,
-  "authenticity_badge": "Authenticity Guaranteed",
-  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
-  "image_views": {
-    "front_main": "images[0]",
-    "left_side": "images[1]",
-    "right_side": "images[1]",
-    "back": "images[2]",
-    "overhead": "images[3]",
-    "additional": [
-      "images[4]",
-      "images[5]",
-      "images[6]"
-    ]
-  }
-},
-  {
-  "id": 257,
-  "name": "Louis Vuitton Neverfull MM — Monogram Emblème Bleu",
-  "category": "accessories",
-  "retail price": 3350,
-  "sale price": 999.99,
-  "pre-owned price": 799.99,
-  "new price": 999.99,
-  "condition": "New",
-  "condition_options": [
-    "New",
-    "Pre-owned"
-  ],
-  "default_condition": "New",
-  "image": "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M2A096_PM2_Front%20view.jpg",
-  "images": [
-    "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M2A096_PM2_Front%20view.jpg",
-    "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M2A096_PM1_Side%20view.jpg",
-    "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M2A096_PM1_Back%20view.jpg",
-    "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M2A096_PM1_Interior%20view.jpg",
-    "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M2A096_PM1_Detail%20view.jpg",
-    "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M2A096_PM1_Cropped%20worn%20view.jpg"
-  ],
-  "description": "The Louis Vuitton Neverfull MM is reimagined in the House's Monogram Emblème signature, using a tactile jacquard textile inspired by Louis Vuitton's historic 1896 canvas. The Monogram Bleu edition combines contrasting cowhide-leather trim with gold-toned hardware and a removable zipped pouch. Its spacious profile is designed to accommodate a 13-inch laptop while side laces allow the silhouette to be adjusted.",
-  "specifications": {
-    "brand": "Louis Vuitton",
-    "model": "Neverfull MM",
-    "reference": "M2A096",
-    "material": "Monogram Emblème jacquard textile with cowhide-leather trim",
-    "color": "Monogram Emblème Bleu",
-    "dimensions": "18.5 x 11 x 5.5 in",
-    "lining": "Cotton",
-    "hardware": "Gold-toned hardware",
-    "closure": "Hook closure",
-    "side_details": "4 side laces",
-    "d_ring": "D-ring",
-    "pocket": "Inside flat zipped pocket",
-    "pouch": "Removable zipped pouch",
-    "name_tag": "Removable name tag",
-    "handle": "Double handles",
-    "capacity": "Fits 13-inch laptop, 6.7-inch smartphone, earphones, Zippy long wallet, book, sunglasses and keys",
-    "country_of_origin": "Made in France, Spain or Italy, or made in the U.S. of imported materials",
-    "retail_price_source": "Louis Vuitton U.S. official product page",
-    "source": "https://us.louisvuitton.com/eng-us/products/neverfull-mm-monogram-embleme-nvprod7830227v/M2A096"
-  },
-  "productType": "Handbag",
-  "inventory": 1,
-  "age_group": "Adult",
-  "gender": "Women",
-  "brand": "Louis Vuitton",
-  "brand_display_name": "Louis Vuitton",
-  "authenticityGuaranteed": true,
-  "authenticity_badge": "Authenticity Guaranteed",
-  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
-  "image_views": {
-    "front_main": "images[0]",
-    "left_side": "images[1]",
-    "right_side": "images[1]",
-    "back": "images[2]",
-    "overhead": "images[3]",
-    "additional": [
-      "images[4]",
-      "images[5]"
-    ]
-  }
-},
-  {"id":258,"name":"CHANEL 19 Handbag","category":"accessories","retail price":7200,"sale price":1199.99,"pre-owned price":999.99,"new price":1199.99,"condition":"New","condition_options":["New","Pre-owned"],"default_condition":"New","image":"https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543228981278.jpg%203200w","images":["https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543228981278.jpg%203200w","https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9555553255454.jpg%203200w","https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543208566814.jpg%203200w","https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543208927262.jpg%203200w","https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9555553255454.jpg%203200w"],"description":"The CHANEL 19 Handbag presents a softly structured interpretation of the House's signature quilted codes. Crafted in black shiny lambskin, it combines a dimensional quilted body with a mixed-finish chain incorporating gold-tone, silver-tone and ruthenium-finish metal. The compact rectangular silhouette is finished with the interlocking CC closure and a versatile chain strap for shoulder or crossbody styling.","specifications":{"brand":"CHANEL","model":"19 Handbag","reference":"AS1160-B04852-94305","material":"Shiny lambskin with gold-tone, silver-tone & ruthenium-finish metal","color":"Black","dimensions":"6.3 x 10.2 x 3.5 in","retail_price_source":"CHANEL U.S. official product page","interior":"Flap-style interior with organized compartments","hardware_finish":"Gold-tone, silver-tone and ruthenium-finish metal","closure":"Interlocking CC closure","strap":"Chain strap","craftsmanship":"CHANEL handbag construction","wear":"Shoulder or crossbody"},"productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"CHANEL","brand_display_name":"CHANEL","authenticityGuaranteed":true,"authenticity_badge":"Authenticity Guaranteed","authenticity":"Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.","image_views":{"front_main":"images[0]","left_side":"images[1]","right_side":"images[2]","back":"images[3]","overhead":"images[4]"}},
-  {"id":259,"name":"CHANEL 19 Large Handbag","category":"accessories","retail price":7900,"sale price":1199.99,"pre-owned price":999.99,"new price":1199.99,"condition":"New","condition_options":["New","Pre-owned"],"default_condition":"New","image":"https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543209254942.jpg%203200w","images":["https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543209254942.jpg%203200w","https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543209156638.jpg%203200w","https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543209058334.jpg%203200w","https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543208927262.jpg%203200w","https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543208108062.jpg%203200w"],"description":"The CHANEL 19 Large Handbag expands the relaxed CHANEL 19 silhouette into a generously proportioned everyday shoulder bag. Its black shiny lambskin body is defined by soft quilting and a distinctive mixed-metal chain, while the interlocking CC closure provides a recognizable House signature. The larger format is suited to carrying more daily essentials without losing the collection's softly structured character.","specifications":{"brand":"CHANEL","model":"19 Large Handbag","reference":"AS1161-B04852-94305","material":"Shiny lambskin with gold-tone, silver-tone & ruthenium-finish metal","color":"Black","dimensions":"7.9 x 11.8 x 3.9 in","retail_price_source":"CHANEL U.S. official product page","interior":"Spacious flap-bag interior","hardware_finish":"Gold-tone, silver-tone and ruthenium-finish metal","closure":"Interlocking CC closure","strap":"Chain strap","craftsmanship":"CHANEL handbag construction","wear":"Shoulder or crossbody"},"productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"CHANEL","brand_display_name":"CHANEL","authenticityGuaranteed":true,"authenticity_badge":"Authenticity Guaranteed","authenticity":"Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.","image_views":{"front_main":"images[0]","left_side":"images[1]","right_side":"images[2]","back":"images[3]","overhead":"images[4]"}},
-  {"id":260,"name":"CHANEL 19 Maxi Handbag","category":"accessories","retail price":8500,"sale price":1199.99,"pre-owned price":999.99,"new price":1199.99,"condition":"New","condition_options":["New","Pre-owned"],"default_condition":"New","image":"https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543209254942.jpg%203200w","images":["https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543209254942.jpg%203200w","https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543209156638.jpg%203200w","https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543209189406.jpg%203200w","https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543208042526.jpg%203200w","https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9555560038430.jpg%203200w"],"description":"The CHANEL 19 Maxi Handbag is the largest CHANEL 19 proportion, designed for a more generous daily carry. Black shiny lambskin, soft quilting and the collection's signature mixed-finish chain create a relaxed luxury aesthetic, while the interlocking CC closure anchors the front. Its elongated proportions provide additional room for everyday belongings.","specifications":{"brand":"CHANEL","model":"19 Maxi Handbag","reference":"AS1162-B04852-94305","material":"Shiny lambskin with gold-tone, silver-tone & ruthenium-finish metal","color":"Black","dimensions":"9.8 x 14.2 x 4.3 in","retail_price_source":"CHANEL U.S. official product page","interior":"Generous flap-bag interior","hardware_finish":"Gold-tone, silver-tone and ruthenium-finish metal","closure":"Interlocking CC closure","strap":"Chain strap","craftsmanship":"CHANEL handbag construction","wear":"Shoulder or crossbody"},"productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"CHANEL","brand_display_name":"CHANEL","authenticityGuaranteed":true,"authenticity_badge":"Authenticity Guaranteed","authenticity":"Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.","image_views":{"front_main":"images[0]","left_side":"images[1]","right_side":"images[2]","back":"images[3]","overhead":"images[4]"}}
-,
-[
-  {
-    "id": 261,
-    "name": "Saint Laurent SOLFERINO Small Top Handle in Box Saint Laurent",
+    "id": 254,
+    "name": "Louis Vuitton Alma BB — Monogram Canvas",
     "category": "accessories",
-    "retail price": 3700,
-    "sale price": 1199.99,
-    "pre-owned price": 999.99,
-    "new price": 1199.99,
+    "retail price": 2000,
+    "sale price": 999.99,
+    "pre-owned price": 799.99,
+    "new price": 999.99,
     "condition": "New",
     "condition_options": [
       "New",
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://saint-laurent.dam.kering.com/asset/78d4b3da-d26c-487a-b4c5-474bc58273e4/eCom/A002L50SX0W1000_A.jpg?v=1",
+    "image": "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-alma-bb--M46990_PM2_Front%20view.jpg",
     "images": [
-      "https://saint-laurent.dam.kering.com/asset/78d4b3da-d26c-487a-b4c5-474bc58273e4/eCom/A002L50SX0W1000_A.jpg?v=1",
-      "https://saint-laurent.dam.kering.com/asset/8402242a-fe8c-45e3-9226-d4017dd1e5d2/eCom/A002L50SX0W1000_B.jpg?v=1",
-      "https://saint-laurent.dam.kering.com/asset/56c70712-3059-46f5-af88-9bd60ff53c5e/eCom/A002L50SX0W1000_C.jpg?v=1",
-      "https://saint-laurent.dam.kering.com/asset/447055e9-7b35-4644-8272-5291511858d6/eCom/A002L50SX0W1000_D.jpg?v=1",
-      "https://saint-laurent.dam.kering.com/asset/7ffb5ecb-1917-4f1a-b167-7a67374a432e/eCom/A002L50SX0W1000_F.jpg?v=1",
-      "https://saint-laurent.dam.kering.com/asset/87a29aac-1f24-4763-8690-62cef8835080/eCom/A002L50SX0W1000_H.jpg?v=1",
-      "https://saint-laurent.dam.kering.com/asset/9c2350d2-6a7f-4f30-8d9c-134eddf47519/eCom/A002L50SX0W1000_I.jpg?v=1"
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-alma-bb--M46990_PM2_Front%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-alma-bb--M46990_PM1_Side%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-alma-bb--M46990_PM1_Back%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-alma-bb--M46990_PM1_Interior%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-alma-bb--M46990_PM1_Interior2%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-alma-bb--M46990_PM1_Detail%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-alma-bb--M46990_PM1_Cropped%20worn%20view.jpg"
     ],
-    "description": "The Saint Laurent SOLFERINO Small Top Handle is a refined compact handbag in smooth Box Saint Laurent leather, defined by a structured rounded silhouette and the House's signature Cassandre closure. A leather top handle provides elegant hand carry, while the adjustable and detachable strap allows shoulder wear. The suede-lined interior and discreet rear flat pocket keep essentials organized while preserving the bag's polished, architectural profile.",
+    "description": "The Louis Vuitton Alma BB is a compact, structured handbag rooted in the House's Art Deco heritage. This Monogram canvas edition pairs the signature LV pattern with natural cowhide leather trim, polished gold-color hardware, dual Toron handles, a golden padlock and a detachable adjustable strap for cross-body wear. Its refined proportions make it suitable for everyday essentials while retaining the architectural character of the Alma line.",
     "specifications": {
-      "brand": "Saint Laurent",
-      "model": "SOLFERINO Small Top Handle",
-      "reference": "A002L50SX0W1000",
-      "material": "Box Saint Laurent calfskin leather with suede lining",
-      "color": "Black",
-      "dimensions": "24 x 15 x 6.7 cm / 9.4 x 5.9 x 2.6 in",
-      "handle_drop": "4.5 cm / 1.8 in",
-      "strap_drop": "49 cm / 19.3 in",
-      "hardware": "Bronze-tone brass hardware",
-      "closure": "Cassandre sliding closure",
-      "interior": "Suede lining with one card slot",
-      "exterior_pocket": "Flat rear pocket",
-      "strap": "Adjustable and detachable leather shoulder strap",
-      "handle": "Leather top handle",
-      "country_of_origin": "Made in Italy",
-      "retail_price_source": "Saint Laurent U.S. official product page",
-      "source": "https://www.ysl.com/en-us/pr/solferino-small-top-handle-in-box-saint-laurent-A002L50SX0W1000.html"
+      "brand": "Louis Vuitton",
+      "model": "Alma BB",
+      "reference": "M46990",
+      "material": "Monogram coated canvas with natural cowhide-leather trim",
+      "color": "Monogram Brown",
+      "dimensions": "9.3 x 6.9 x 4.5 in",
+      "weight": "0.5 kg",
+      "lining": "Textile",
+      "hardware": "Gold-color hardware",
+      "closure": "Double zip closure with padlock",
+      "pockets": "Inside flat pocket",
+      "base": "4 protective metal bottom studs",
+      "strap": "Removable, adjustable",
+      "strap_drop": "19.7 in",
+      "strap_drop_max": "24.4 in",
+      "handle": "Double Toron handles",
+      "capacity": "Fits 6.7-inch smartphone, earphones, lipstick, tissues, keys and sunglasses",
+      "country_of_origin": "Made in France, Spain or Italy, or made in the U.S. of imported materials",
+      "retail_price_source": "Louis Vuitton U.S. official product page",
+      "source": "https://us.louisvuitton.com/eng-us/products/alma-bb-monogram-nvprod5190086v/M46990"
     },
     "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
-    "brand": "Saint Laurent",
-    "brand_display_name": "Saint Laurent",
+    "brand": "Louis Vuitton",
+    "brand_display_name": "Louis Vuitton",
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
     "image_views": {
       "front_main": "images[0]",
-      "left_side": "images[2]",
-      "right_side": "images[4]",
-      "back": "images[1]",
+      "left_side": "images[1]",
+      "right_side": "images[1]",
+      "back": "images[2]",
       "overhead": "images[3]",
       "additional": [
+        "images[4]",
         "images[5]",
         "images[6]"
       ]
     }
   },
   {
-    "id": 262,
-    "name": "Saint Laurent SIMONE Large in Soft Leather",
+    "id": 255,
+    "name": "Louis Vuitton Speedy Bandoulière 25 — Damier Ebene",
     "category": "accessories",
-    "retail price": 4600,
-    "sale price": 1199.99,
-    "pre-owned price": 999.99,
-    "new price": 1199.99,
+    "retail price": 1980,
+    "sale price": 999.99,
+    "pre-owned price": 799.99,
+    "new price": 999.99,
     "condition": "New",
     "condition_options": [
       "New",
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://saint-laurent.dam.kering.com/asset/bc42d3ca-6b5a-48eb-b0b3-d81174a9fa85/eCom/A00FMTAAHXH1000_A.jpg?v=1",
+    "image": "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-25--N40575_PM2_Front%20view.jpg",
     "images": [
-      "https://saint-laurent.dam.kering.com/asset/bc42d3ca-6b5a-48eb-b0b3-d81174a9fa85/eCom/A00FMTAAHXH1000_A.jpg?v=1",
-      "https://saint-laurent.dam.kering.com/asset/aadfccd2-60bf-4ac3-b12b-7a595379f2d7/eCom/A00FMTAAHXH1000_B.jpg?v=1",
-      "https://saint-laurent.dam.kering.com/asset/25646d88-35fe-4b0a-8558-c651b646a737/eCom/A00FMTAAHXH1000_C.jpg?v=1",
-      "https://saint-laurent.dam.kering.com/asset/331a375f-a194-47bd-87f5-caeeb8e7c84e/eCom/A00FMTAAHXH1000_D.jpg?v=2",
-      "https://saint-laurent.dam.kering.com/asset/6d2b10a8-dc02-4f2b-9e03-637b92e4d0d5/eCom/A00FMTAAHXH1000_Y.jpg?v=2",
-      "https://saint-laurent.dam.kering.com/asset/331a375f-a194-47bd-87f5-caeeb8e7c84e/eCom/A00FMTAAHXH1000_D.jpg?v=2"
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-25--N40575_PM2_Front%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-25--N40575_PM1_Side%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-25--N40575_PM1_Back%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-25--N40575_PM1_Interior%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-25--N40575_PM1_Cropped%20worn%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-25--N40575_PM1_Detail%20view.jpg"
     ],
-    "description": "The Saint Laurent SIMONE Large is a spacious shoulder bag with a sleek envelope silhouette crafted in supple black calfskin. The design is finished with the double Cassandre signature, a soft suede lining and delicate double straps. Its organized interior opens into two compartments with a front document compartment and a zip pocket, creating a polished solution for everyday work, travel and city carry.",
+    "description": "The Louis Vuitton Speedy Bandoulière 25 is an everyday city handbag built around one of the Maison's most recognizable travel-inspired silhouettes. Crafted in graphic Damier Ebene coated canvas, it features smooth cowhide-leather trim, rolled double handles, gold-color hardware, an engraved padlock and a detachable adjustable shoulder strap. The compact format balances structured style with practical capacity for daily essentials.",
     "specifications": {
-      "brand": "Saint Laurent",
-      "model": "SIMONE Large",
-      "reference": "A00FMTAAHXH1000",
-      "material": "Supple calfskin leather with suede lining",
-      "color": "Black",
-      "dimensions": "43 x 24.5 x 5–13 cm / 16.9 x 9.6 x 2–5.1 in",
-      "strap_drop": "30 cm / 11.8 in",
-      "hardware": "Bronze-tone brass hardware",
-      "closure": "Magnetic closure",
-      "interior": "Two compartments with one front document compartment and one zip pocket",
-      "carry": "Shoulder carry",
-      "country_of_origin": "Made in Italy",
-      "retail_price_source": "Saint Laurent U.S. official product page",
-      "source": "https://www.ysl.com/en-us/pr/simone-large-in-soft-leather-A00FMTAAHXH1000.html"
+      "brand": "Louis Vuitton",
+      "model": "Speedy Bandoulière 25",
+      "reference": "N40575",
+      "material": "Damier Ebene coated canvas with smooth cowhide-leather trim",
+      "color": "Damier Ebene Brown",
+      "dimensions": "9.8 x 7.5 x 5.9 in",
+      "lining": "Textile",
+      "hardware": "Gold-color hardware",
+      "closure": "Double zip closure with padlock",
+      "pocket": "Inside flat pocket",
+      "strap": "Removable, adjustable",
+      "strap_drop": "18.3 in",
+      "strap_drop_max": "21.7 in",
+      "handle": "Double rolled handles",
+      "capacity": "Fits 6.7-inch smartphone, Sarah Long Wallet, keys, lipstick, tissues and sunglasses",
+      "country_of_origin": "Made in France, Spain or Italy, or made in the U.S. of imported materials",
+      "retail_price_source": "Louis Vuitton U.S. official product page",
+      "source": "https://us.louisvuitton.com/eng-us/products/speedy-bandouliere-25-damier-ebene-nvprod5320018v/N40575"
     },
     "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
-    "brand": "Saint Laurent",
-    "brand_display_name": "Saint Laurent",
+    "brand": "Louis Vuitton",
+    "brand_display_name": "Louis Vuitton",
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
     "image_views": {
       "front_main": "images[0]",
-      "left_side": "images[2]",
-      "right_side": "images[4]",
-      "back": "images[1]",
+      "left_side": "images[1]",
+      "right_side": "images[1]",
+      "back": "images[2]",
       "overhead": "images[3]",
       "additional": [
+        "images[4]",
         "images[5]"
       ]
     }
   },
   {
-    "id": 263,
-    "name": "Saint Laurent SAC DE JOUR Thin Large in Grained Leather",
+    "id": 256,
+    "name": "Louis Vuitton Pochette Métis — Monogram Reverse Canvas",
     "category": "accessories",
-    "retail price": 3900,
+    "retail price": 2840,
+    "sale price": 999.99,
+    "pre-owned price": 799.99,
+    "new price": 999.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-metis--M44876_PM2_Front%20view.jpg",
+    "images": [
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-metis--M44876_PM2_Front%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-metis--M44876_PM1_Side%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-metis--M44876_PM1_Back%20view.jpg",
+      "https://en.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-metis--M44876_PM1_Interior%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-metis--M44876_PM1_Closeup%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-metis--M44876_PM1_Detail%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-metis--M44876_PM1_Worn%20view.jpg"
+    ],
+    "description": "The Louis Vuitton Pochette Métis is a compact satchel that combines the House's trunk-inspired S-lock with a practical, organized interior. This Monogram Reverse edition uses two-tone coated canvas with colored cowhide-leather trim, gold-color hardware and a structured top handle. A removable adjustable strap supports shoulder or cross-body wear, while the outside zipped pocket and three interior compartments keep everyday essentials organized.",
+    "specifications": {
+      "brand": "Louis Vuitton",
+      "model": "Pochette Métis",
+      "reference": "M44876",
+      "material": "Monogram Reverse coated canvas with colored cowhide-leather trim",
+      "color": "Monogram Reverse Brown",
+      "dimensions": "9.8 x 7.5 x 2.8 in",
+      "lining": "Textile",
+      "hardware": "Gold-color hardware",
+      "closure": "S-lock closure",
+      "pocket": "Outside zipped pocket",
+      "interior": "3 inside compartments",
+      "strap": "Removable, adjustable",
+      "strap_drop": "18.9 in",
+      "strap_drop_max": "21.7 in",
+      "handle": "Single top handle",
+      "capacity": "Fits smartphone, Sarah Long Wallet, earphones, keys, lipstick, tissues and sunglasses",
+      "country_of_origin": "Made in France, Spain or Italy, or made in the U.S. of imported materials",
+      "retail_price_source": "Louis Vuitton U.S. official product page",
+      "source": "https://us.louisvuitton.com/eng-us/products/pochette-metis-monogram-reverse-canvas-nvprod1770373v/M44876"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "Louis Vuitton",
+    "brand_display_name": "Louis Vuitton",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[1]",
+      "right_side": "images[1]",
+      "back": "images[2]",
+      "overhead": "images[3]",
+      "additional": [
+        "images[4]",
+        "images[5]",
+        "images[6]"
+      ]
+    }
+  },
+  {
+    "id": 257,
+    "name": "Louis Vuitton Neverfull MM — Monogram Emblème Bleu",
+    "category": "accessories",
+    "retail price": 3350,
+    "sale price": 999.99,
+    "pre-owned price": 799.99,
+    "new price": 999.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M2A096_PM2_Front%20view.jpg",
+    "images": [
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M2A096_PM2_Front%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M2A096_PM1_Side%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M2A096_PM1_Back%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M2A096_PM1_Interior%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M2A096_PM1_Detail%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M2A096_PM1_Cropped%20worn%20view.jpg"
+    ],
+    "description": "The Louis Vuitton Neverfull MM is reimagined in the House's Monogram Emblème signature, using a tactile jacquard textile inspired by Louis Vuitton's historic 1896 canvas. The Monogram Bleu edition combines contrasting cowhide-leather trim with gold-toned hardware and a removable zipped pouch. Its spacious profile is designed to accommodate a 13-inch laptop while side laces allow the silhouette to be adjusted.",
+    "specifications": {
+      "brand": "Louis Vuitton",
+      "model": "Neverfull MM",
+      "reference": "M2A096",
+      "material": "Monogram Emblème jacquard textile with cowhide-leather trim",
+      "color": "Monogram Emblème Bleu",
+      "dimensions": "18.5 x 11 x 5.5 in",
+      "lining": "Cotton",
+      "hardware": "Gold-toned hardware",
+      "closure": "Hook closure",
+      "side_details": "4 side laces",
+      "d_ring": "D-ring",
+      "pocket": "Inside flat zipped pocket",
+      "pouch": "Removable zipped pouch",
+      "name_tag": "Removable name tag",
+      "handle": "Double handles",
+      "capacity": "Fits 13-inch laptop, 6.7-inch smartphone, earphones, Zippy long wallet, book, sunglasses and keys",
+      "country_of_origin": "Made in France, Spain or Italy, or made in the U.S. of imported materials",
+      "retail_price_source": "Louis Vuitton U.S. official product page",
+      "source": "https://us.louisvuitton.com/eng-us/products/neverfull-mm-monogram-embleme-nvprod7830227v/M2A096"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "Louis Vuitton",
+    "brand_display_name": "Louis Vuitton",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[1]",
+      "right_side": "images[1]",
+      "back": "images[2]",
+      "overhead": "images[3]",
+      "additional": [
+        "images[4]",
+        "images[5]"
+      ]
+    }
+  },
+  {
+    "id": 258,
+    "name": "CHANEL 19 Handbag",
+    "category": "accessories",
+    "retail price": 7200,
     "sale price": 1199.99,
     "pre-owned price": 999.99,
     "new price": 1199.99,
@@ -8965,54 +9571,343 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://saint-laurent.dam.kering.com/asset/65d46d6b-9261-4106-8915-7f438cc3e842/eCom/631526DTI0W1000_A.jpg?v=5",
+    "image": "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543228981278.jpg%203200w",
     "images": [
-      "https://saint-laurent.dam.kering.com/asset/65d46d6b-9261-4106-8915-7f438cc3e842/eCom/631526DTI0W1000_A.jpg?v=5",
-      "https://saint-laurent.dam.kering.com/asset/0fc4dd33-57a1-47e8-98a1-2b565a94ae07/eCom/631526DTI0W1000_B.jpg?v=1",
-      "https://saint-laurent.dam.kering.com/asset/64f39d7f-db87-4300-870e-745e60b22206/eCom/631526DTI0W1000_C.jpg?v=6",
-      "https://saint-laurent.dam.kering.com/asset/96d59650-12bc-4ddd-84e8-cbbae3a642e0/eCom/631526DTI0W1000_D.jpg?v=5",
-      "https://saint-laurent.dam.kering.com/asset/a38a046a-549c-48f3-82a2-bdf65ea05aa3/eCom/631526DTI0W1000_E.jpg?v=4"
+      "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543228981278.jpg%203200w",
+      "https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9555553255454.jpg%203200w",
+      "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543208566814.jpg%203200w",
+      "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543208927262.jpg%203200w",
+      "https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9555553255454.jpg%203200w"
     ],
-    "description": "The Saint Laurent SAC DE JOUR Thin Large is a refined, soft-structured interpretation of the House's signature large bag. Crafted in black grained calfskin, it combines tubular handles, slim side gussets and compression straps with tabs, plus a removable leather-encased padlock charm. A detachable adjustable shoulder strap expands carrying options, while the suede-lined interior is divided into two main compartments by a removable zip pouch.",
+    "description": "The CHANEL 19 Handbag presents a softly structured interpretation of the House's signature quilted codes. Crafted in black shiny lambskin, it combines a dimensional quilted body with a mixed-finish chain incorporating gold-tone, silver-tone and ruthenium-finish metal. The compact rectangular silhouette is finished with the interlocking CC closure and a versatile chain strap for shoulder or crossbody styling.",
     "specifications": {
-      "brand": "Saint Laurent",
-      "model": "SAC DE JOUR Thin Large",
-      "reference": "631526DTI0W1000",
-      "material": "Grained calfskin leather with suede lining",
+      "brand": "CHANEL",
+      "model": "19 Handbag",
+      "reference": "AS1160-B04852-94305",
+      "material": "Shiny lambskin with gold-tone, silver-tone & ruthenium-finish metal",
       "color": "Black",
-      "dimensions": "40 x 30 x 13.5 cm / 15.7 x 11.8 x 5.3 in",
-      "strap_drop": "48 cm / 18.9 in",
-      "hardware": "Bronze-tone metal hardware",
-      "closure": "Open top",
-      "interior": "Two main compartments separated by a detachable zip pouch",
-      "handles": "Tubular top handles",
-      "side_details": "Thin side gussets and compression straps with tabs",
-      "charm": "Removable leather-encased padlock charm",
-      "strap": "Adjustable and detachable shoulder strap",
-      "country_of_origin": "Made in Italy",
-      "retail_price_source": "Saint Laurent U.S. official product page",
-      "source": "https://www.ysl.com/en-us/pr/sac-de-jour-thin-large-in-grained-leather-810299308.html"
+      "dimensions": "6.3 x 10.2 x 3.5 in",
+      "retail_price_source": "CHANEL U.S. official product page",
+      "interior": "Flap-style interior with organized compartments",
+      "hardware_finish": "Gold-tone, silver-tone and ruthenium-finish metal",
+      "closure": "Interlocking CC closure",
+      "strap": "Chain strap",
+      "craftsmanship": "CHANEL handbag construction",
+      "wear": "Shoulder or crossbody"
     },
     "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
-    "brand": "Saint Laurent",
-    "brand_display_name": "Saint Laurent",
+    "brand": "CHANEL",
+    "brand_display_name": "CHANEL",
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
     "image_views": {
       "front_main": "images[0]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
-      "back": "images[1]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
       "overhead": "images[4]"
     }
-  }
-]
-,
-
+  },
+  {
+    "id": 259,
+    "name": "CHANEL 19 Large Handbag",
+    "category": "accessories",
+    "retail price": 7900,
+    "sale price": 1199.99,
+    "pre-owned price": 999.99,
+    "new price": 1199.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543209254942.jpg%203200w",
+    "images": [
+      "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543209254942.jpg%203200w",
+      "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543209156638.jpg%203200w",
+      "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543209058334.jpg%203200w",
+      "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543208927262.jpg%203200w",
+      "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543208108062.jpg%203200w"
+    ],
+    "description": "The CHANEL 19 Large Handbag expands the relaxed CHANEL 19 silhouette into a generously proportioned everyday shoulder bag. Its black shiny lambskin body is defined by soft quilting and a distinctive mixed-metal chain, while the interlocking CC closure provides a recognizable House signature. The larger format is suited to carrying more daily essentials without losing the collection's softly structured character.",
+    "specifications": {
+      "brand": "CHANEL",
+      "model": "19 Large Handbag",
+      "reference": "AS1161-B04852-94305",
+      "material": "Shiny lambskin with gold-tone, silver-tone & ruthenium-finish metal",
+      "color": "Black",
+      "dimensions": "7.9 x 11.8 x 3.9 in",
+      "retail_price_source": "CHANEL U.S. official product page",
+      "interior": "Spacious flap-bag interior",
+      "hardware_finish": "Gold-tone, silver-tone and ruthenium-finish metal",
+      "closure": "Interlocking CC closure",
+      "strap": "Chain strap",
+      "craftsmanship": "CHANEL handbag construction",
+      "wear": "Shoulder or crossbody"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "CHANEL",
+    "brand_display_name": "CHANEL",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
+      "overhead": "images[4]"
+    }
+  },
+  {
+    "id": 260,
+    "name": "CHANEL 19 Maxi Handbag",
+    "category": "accessories",
+    "retail price": 8500,
+    "sale price": 1199.99,
+    "pre-owned price": 999.99,
+    "new price": 1199.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543209254942.jpg%203200w",
+    "images": [
+      "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543209254942.jpg%203200w",
+      "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543209156638.jpg%203200w",
+      "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543209189406.jpg%203200w",
+      "https://www.chanel.com/images///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9543208042526.jpg%203200w",
+      "https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9555560038430.jpg%203200w"
+    ],
+    "description": "The CHANEL 19 Maxi Handbag is the largest CHANEL 19 proportion, designed for a more generous daily carry. Black shiny lambskin, soft quilting and the collection's signature mixed-finish chain create a relaxed luxury aesthetic, while the interlocking CC closure anchors the front. Its elongated proportions provide additional room for everyday belongings.",
+    "specifications": {
+      "brand": "CHANEL",
+      "model": "19 Maxi Handbag",
+      "reference": "AS1162-B04852-94305",
+      "material": "Shiny lambskin with gold-tone, silver-tone & ruthenium-finish metal",
+      "color": "Black",
+      "dimensions": "9.8 x 14.2 x 4.3 in",
+      "retail_price_source": "CHANEL U.S. official product page",
+      "interior": "Generous flap-bag interior",
+      "hardware_finish": "Gold-tone, silver-tone and ruthenium-finish metal",
+      "closure": "Interlocking CC closure",
+      "strap": "Chain strap",
+      "craftsmanship": "CHANEL handbag construction",
+      "wear": "Shoulder or crossbody"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "CHANEL",
+    "brand_display_name": "CHANEL",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
+      "overhead": "images[4]"
+    }
+  },
+  [
+    {
+      "id": 261,
+      "name": "Saint Laurent SOLFERINO Small Top Handle in Box Saint Laurent",
+      "category": "accessories",
+      "retail price": 3700,
+      "sale price": 1199.99,
+      "pre-owned price": 999.99,
+      "new price": 1199.99,
+      "condition": "New",
+      "condition_options": [
+        "New",
+        "Pre-owned"
+      ],
+      "default_condition": "New",
+      "image": "https://saint-laurent.dam.kering.com/asset/78d4b3da-d26c-487a-b4c5-474bc58273e4/eCom/A002L50SX0W1000_A.jpg?v=1",
+      "images": [
+        "https://saint-laurent.dam.kering.com/asset/78d4b3da-d26c-487a-b4c5-474bc58273e4/eCom/A002L50SX0W1000_A.jpg?v=1",
+        "https://saint-laurent.dam.kering.com/asset/8402242a-fe8c-45e3-9226-d4017dd1e5d2/eCom/A002L50SX0W1000_B.jpg?v=1",
+        "https://saint-laurent.dam.kering.com/asset/56c70712-3059-46f5-af88-9bd60ff53c5e/eCom/A002L50SX0W1000_C.jpg?v=1",
+        "https://saint-laurent.dam.kering.com/asset/447055e9-7b35-4644-8272-5291511858d6/eCom/A002L50SX0W1000_D.jpg?v=1",
+        "https://saint-laurent.dam.kering.com/asset/7ffb5ecb-1917-4f1a-b167-7a67374a432e/eCom/A002L50SX0W1000_F.jpg?v=1",
+        "https://saint-laurent.dam.kering.com/asset/87a29aac-1f24-4763-8690-62cef8835080/eCom/A002L50SX0W1000_H.jpg?v=1",
+        "https://saint-laurent.dam.kering.com/asset/9c2350d2-6a7f-4f30-8d9c-134eddf47519/eCom/A002L50SX0W1000_I.jpg?v=1"
+      ],
+      "description": "The Saint Laurent SOLFERINO Small Top Handle is a refined compact handbag in smooth Box Saint Laurent leather, defined by a structured rounded silhouette and the House's signature Cassandre closure. A leather top handle provides elegant hand carry, while the adjustable and detachable strap allows shoulder wear. The suede-lined interior and discreet rear flat pocket keep essentials organized while preserving the bag's polished, architectural profile.",
+      "specifications": {
+        "brand": "Saint Laurent",
+        "model": "SOLFERINO Small Top Handle",
+        "reference": "A002L50SX0W1000",
+        "material": "Box Saint Laurent calfskin leather with suede lining",
+        "color": "Black",
+        "dimensions": "24 x 15 x 6.7 cm / 9.4 x 5.9 x 2.6 in",
+        "handle_drop": "4.5 cm / 1.8 in",
+        "strap_drop": "49 cm / 19.3 in",
+        "hardware": "Bronze-tone brass hardware",
+        "closure": "Cassandre sliding closure",
+        "interior": "Suede lining with one card slot",
+        "exterior_pocket": "Flat rear pocket",
+        "strap": "Adjustable and detachable leather shoulder strap",
+        "handle": "Leather top handle",
+        "country_of_origin": "Made in Italy",
+        "retail_price_source": "Saint Laurent U.S. official product page",
+        "source": "https://www.ysl.com/en-us/pr/solferino-small-top-handle-in-box-saint-laurent-A002L50SX0W1000.html"
+      },
+      "productType": "Handbag",
+      "inventory": 1,
+      "age_group": "Adult",
+      "gender": "Women",
+      "brand": "Saint Laurent",
+      "brand_display_name": "Saint Laurent",
+      "authenticityGuaranteed": true,
+      "authenticity_badge": "Authenticity Guaranteed",
+      "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+      "image_views": {
+        "front_main": "images[0]",
+        "left_side": "images[2]",
+        "right_side": "images[4]",
+        "back": "images[1]",
+        "overhead": "images[3]",
+        "additional": [
+          "images[5]",
+          "images[6]"
+        ]
+      }
+    },
+    {
+      "id": 262,
+      "name": "Saint Laurent SIMONE Large in Soft Leather",
+      "category": "accessories",
+      "retail price": 4600,
+      "sale price": 1199.99,
+      "pre-owned price": 999.99,
+      "new price": 1199.99,
+      "condition": "New",
+      "condition_options": [
+        "New",
+        "Pre-owned"
+      ],
+      "default_condition": "New",
+      "image": "https://saint-laurent.dam.kering.com/asset/bc42d3ca-6b5a-48eb-b0b3-d81174a9fa85/eCom/A00FMTAAHXH1000_A.jpg?v=1",
+      "images": [
+        "https://saint-laurent.dam.kering.com/asset/bc42d3ca-6b5a-48eb-b0b3-d81174a9fa85/eCom/A00FMTAAHXH1000_A.jpg?v=1",
+        "https://saint-laurent.dam.kering.com/asset/aadfccd2-60bf-4ac3-b12b-7a595379f2d7/eCom/A00FMTAAHXH1000_B.jpg?v=1",
+        "https://saint-laurent.dam.kering.com/asset/25646d88-35fe-4b0a-8558-c651b646a737/eCom/A00FMTAAHXH1000_C.jpg?v=1",
+        "https://saint-laurent.dam.kering.com/asset/331a375f-a194-47bd-87f5-caeeb8e7c84e/eCom/A00FMTAAHXH1000_D.jpg?v=2",
+        "https://saint-laurent.dam.kering.com/asset/6d2b10a8-dc02-4f2b-9e03-637b92e4d0d5/eCom/A00FMTAAHXH1000_Y.jpg?v=2",
+        "https://saint-laurent.dam.kering.com/asset/331a375f-a194-47bd-87f5-caeeb8e7c84e/eCom/A00FMTAAHXH1000_D.jpg?v=2"
+      ],
+      "description": "The Saint Laurent SIMONE Large is a spacious shoulder bag with a sleek envelope silhouette crafted in supple black calfskin. The design is finished with the double Cassandre signature, a soft suede lining and delicate double straps. Its organized interior opens into two compartments with a front document compartment and a zip pocket, creating a polished solution for everyday work, travel and city carry.",
+      "specifications": {
+        "brand": "Saint Laurent",
+        "model": "SIMONE Large",
+        "reference": "A00FMTAAHXH1000",
+        "material": "Supple calfskin leather with suede lining",
+        "color": "Black",
+        "dimensions": "43 x 24.5 x 5–13 cm / 16.9 x 9.6 x 2–5.1 in",
+        "strap_drop": "30 cm / 11.8 in",
+        "hardware": "Bronze-tone brass hardware",
+        "closure": "Magnetic closure",
+        "interior": "Two compartments with one front document compartment and one zip pocket",
+        "carry": "Shoulder carry",
+        "country_of_origin": "Made in Italy",
+        "retail_price_source": "Saint Laurent U.S. official product page",
+        "source": "https://www.ysl.com/en-us/pr/simone-large-in-soft-leather-A00FMTAAHXH1000.html"
+      },
+      "productType": "Handbag",
+      "inventory": 1,
+      "age_group": "Adult",
+      "gender": "Women",
+      "brand": "Saint Laurent",
+      "brand_display_name": "Saint Laurent",
+      "authenticityGuaranteed": true,
+      "authenticity_badge": "Authenticity Guaranteed",
+      "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+      "image_views": {
+        "front_main": "images[0]",
+        "left_side": "images[2]",
+        "right_side": "images[4]",
+        "back": "images[1]",
+        "overhead": "images[3]",
+        "additional": [
+          "images[5]"
+        ]
+      }
+    },
+    {
+      "id": 263,
+      "name": "Saint Laurent SAC DE JOUR Thin Large in Grained Leather",
+      "category": "accessories",
+      "retail price": 3900,
+      "sale price": 1199.99,
+      "pre-owned price": 999.99,
+      "new price": 1199.99,
+      "condition": "New",
+      "condition_options": [
+        "New",
+        "Pre-owned"
+      ],
+      "default_condition": "New",
+      "image": "https://saint-laurent.dam.kering.com/asset/65d46d6b-9261-4106-8915-7f438cc3e842/eCom/631526DTI0W1000_A.jpg?v=5",
+      "images": [
+        "https://saint-laurent.dam.kering.com/asset/65d46d6b-9261-4106-8915-7f438cc3e842/eCom/631526DTI0W1000_A.jpg?v=5",
+        "https://saint-laurent.dam.kering.com/asset/0fc4dd33-57a1-47e8-98a1-2b565a94ae07/eCom/631526DTI0W1000_B.jpg?v=1",
+        "https://saint-laurent.dam.kering.com/asset/64f39d7f-db87-4300-870e-745e60b22206/eCom/631526DTI0W1000_C.jpg?v=6",
+        "https://saint-laurent.dam.kering.com/asset/96d59650-12bc-4ddd-84e8-cbbae3a642e0/eCom/631526DTI0W1000_D.jpg?v=5",
+        "https://saint-laurent.dam.kering.com/asset/a38a046a-549c-48f3-82a2-bdf65ea05aa3/eCom/631526DTI0W1000_E.jpg?v=4"
+      ],
+      "description": "The Saint Laurent SAC DE JOUR Thin Large is a refined, soft-structured interpretation of the House's signature large bag. Crafted in black grained calfskin, it combines tubular handles, slim side gussets and compression straps with tabs, plus a removable leather-encased padlock charm. A detachable adjustable shoulder strap expands carrying options, while the suede-lined interior is divided into two main compartments by a removable zip pouch.",
+      "specifications": {
+        "brand": "Saint Laurent",
+        "model": "SAC DE JOUR Thin Large",
+        "reference": "631526DTI0W1000",
+        "material": "Grained calfskin leather with suede lining",
+        "color": "Black",
+        "dimensions": "40 x 30 x 13.5 cm / 15.7 x 11.8 x 5.3 in",
+        "strap_drop": "48 cm / 18.9 in",
+        "hardware": "Bronze-tone metal hardware",
+        "closure": "Open top",
+        "interior": "Two main compartments separated by a detachable zip pouch",
+        "handles": "Tubular top handles",
+        "side_details": "Thin side gussets and compression straps with tabs",
+        "charm": "Removable leather-encased padlock charm",
+        "strap": "Adjustable and detachable shoulder strap",
+        "country_of_origin": "Made in Italy",
+        "retail_price_source": "Saint Laurent U.S. official product page",
+        "source": "https://www.ysl.com/en-us/pr/sac-de-jour-thin-large-in-grained-leather-810299308.html"
+      },
+      "productType": "Handbag",
+      "inventory": 1,
+      "age_group": "Adult",
+      "gender": "Women",
+      "brand": "Saint Laurent",
+      "brand_display_name": "Saint Laurent",
+      "authenticityGuaranteed": true,
+      "authenticity_badge": "Authenticity Guaranteed",
+      "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+      "image_views": {
+        "front_main": "images[0]",
+        "left_side": "images[2]",
+        "right_side": "images[3]",
+        "back": "images[1]",
+        "overhead": "images[4]"
+      }
+    }
+  ],
   {
     "id": 264,
     "name": "Louis Vuitton Loop Hobo — Monogram Canvas",
@@ -9208,8 +10103,7 @@ window.products = [
         "images[4]"
       ]
     }
-  }
-,
+  },
   {
     "id": 267,
     "name": "CHANEL 25 Large Handbag — Black Grained Calfskin",
@@ -9376,186 +10270,185 @@ window.products = [
       "overhead": "images[4]"
     }
   },
-{
-  "id": 270,
-  "name": "Saint Laurent Y Tote in Leather — Black",
-  "category": "accessories",
-  "retail price": 4400,
-  "sale price": 1499.99,
-  "pre-owned price": 1199.99,
-  "new price": 1499.99,
-  "condition": "New",
-  "condition_options": [
-    "New",
-    "Pre-owned"
-  ],
-  "default_condition": "New",
-  "image": "https://saint-laurent.dam.kering.com/asset/e21cc517-2875-4249-b1dd-32c96655e87c/eCom/817602AAEB31000_A.jpg?v=4",
-  "images": [
-    "https://saint-laurent.dam.kering.com/asset/e21cc517-2875-4249-b1dd-32c96655e87c/eCom/817602AAEB31000_A.jpg?v=4",
-    "https://saint-laurent.dam.kering.com/asset/adebac6e-d3f5-412a-baeb-07f50b0cc585/eCom/817602AAEB31000_B.jpg?v=5",
-    "https://saint-laurent.dam.kering.com/asset/3d86db71-e9a4-41ae-875f-b789d711d68e/eCom/817602AAEB31000_C.jpg?v=5",
-    "https://saint-laurent.dam.kering.com/asset/aa5ae3e7-ede9-4574-a3b0-27b3ff903986/eCom/817602AAEB31000_D.jpg?v=4",
-    "https://saint-laurent.dam.kering.com/asset/ff55234b-15db-4895-8d89-2a8730e352fd/Original-Ecom/817602AAEB31000_Y.jpg?v=1"
-  ],
-  "description": "The Saint Laurent Y Tote is a spacious, lightweight everyday shopping bag crafted from finely grained calfskin leather and fully lined in tonal suede. Its understated Y-stitched signature draws from the House archives, while bronze-toned hardware, a hook closure and an interior zip pocket provide refined function. The generous silhouette is designed to carry daily essentials while maintaining a clean, structured profile.",
-  "specifications": {
+  {
+    "id": 270,
+    "name": "Saint Laurent Y Tote in Leather — Black",
+    "category": "accessories",
+    "retail price": 4400,
+    "sale price": 1499.99,
+    "pre-owned price": 1199.99,
+    "new price": 1499.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://saint-laurent.dam.kering.com/asset/e21cc517-2875-4249-b1dd-32c96655e87c/eCom/817602AAEB31000_A.jpg?v=4",
+    "images": [
+      "https://saint-laurent.dam.kering.com/asset/e21cc517-2875-4249-b1dd-32c96655e87c/eCom/817602AAEB31000_A.jpg?v=4",
+      "https://saint-laurent.dam.kering.com/asset/adebac6e-d3f5-412a-baeb-07f50b0cc585/eCom/817602AAEB31000_B.jpg?v=5",
+      "https://saint-laurent.dam.kering.com/asset/3d86db71-e9a4-41ae-875f-b789d711d68e/eCom/817602AAEB31000_C.jpg?v=5",
+      "https://saint-laurent.dam.kering.com/asset/aa5ae3e7-ede9-4574-a3b0-27b3ff903986/eCom/817602AAEB31000_D.jpg?v=4",
+      "https://saint-laurent.dam.kering.com/asset/ff55234b-15db-4895-8d89-2a8730e352fd/Original-Ecom/817602AAEB31000_Y.jpg?v=1"
+    ],
+    "description": "The Saint Laurent Y Tote is a spacious, lightweight everyday shopping bag crafted from finely grained calfskin leather and fully lined in tonal suede. Its understated Y-stitched signature draws from the House archives, while bronze-toned hardware, a hook closure and an interior zip pocket provide refined function. The generous silhouette is designed to carry daily essentials while maintaining a clean, structured profile.",
+    "specifications": {
+      "brand": "Saint Laurent",
+      "model": "Y Tote in Leather",
+      "reference": "817602AAEB31000",
+      "material": "Calfskin leather",
+      "lining": "Tonal suede",
+      "hardware": "Bronze-toned metal",
+      "color": "Black",
+      "dimensions": "14.6 x 12.6 x 2.8–8.7 in (37 x 32 x 7–22 cm)",
+      "strap_drop": "10.2 in / 26 cm",
+      "closure": "Hook closure",
+      "interior": "One interior zip pocket",
+      "silhouette": "Spacious lightweight tote / shopping bag",
+      "country_of_origin": "Italy",
+      "retail_price_source": "Saint Laurent U.S. official product page",
+      "secondary_spec_source": "Saint Laurent official international product details",
+      "source": "https://www.ysl.com/en-us/pr/y-tote-in-leather-813744359.html"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
     "brand": "Saint Laurent",
-    "model": "Y Tote in Leather",
-    "reference": "817602AAEB31000",
-    "material": "Calfskin leather",
-    "lining": "Tonal suede",
-    "hardware": "Bronze-toned metal",
-    "color": "Black",
-    "dimensions": "14.6 x 12.6 x 2.8–8.7 in (37 x 32 x 7–22 cm)",
-    "strap_drop": "10.2 in / 26 cm",
-    "closure": "Hook closure",
-    "interior": "One interior zip pocket",
-    "silhouette": "Spacious lightweight tote / shopping bag",
-    "country_of_origin": "Italy",
-    "retail_price_source": "Saint Laurent U.S. official product page",
-    "secondary_spec_source": "Saint Laurent official international product details",
-    "source": "https://www.ysl.com/en-us/pr/y-tote-in-leather-813744359.html"
+    "brand_display_name": "Saint Laurent",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[3]",
+      "right_side": "images[4]",
+      "back": "images[2]",
+      "overhead": "images[1]"
+    }
   },
-  "productType": "Handbag",
-  "inventory": 1,
-  "age_group": "Adult",
-  "gender": "Women",
-  "brand": "Saint Laurent",
-  "brand_display_name": "Saint Laurent",
-  "authenticityGuaranteed": true,
-  "authenticity_badge": "Authenticity Guaranteed",
-  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
-  "image_views": {
-    "front_main": "images[0]",
-    "left_side": "images[3]",
-    "right_side": "images[4]",
-    "back": "images[2]",
-    "overhead": "images[1]"
-  }
-},
-{
-  "id": 271,
-  "name": "Saint Laurent Shopping Saint Laurent in Leather — Black",
-  "category": "accessories",
-  "retail price": 1750,
-  "sale price": 1499.99,
-  "pre-owned price": 1199.99,
-  "new price": 1499.99,
-  "condition": "New",
-  "condition_options": [
-    "New",
-    "Pre-owned"
-  ],
-  "default_condition": "New",
-  "image": "https://saint-laurent.dam.kering.com/m/10380f3b146fb833/eCom-600306CSV0J1000_A.jpg?v=2",
-  "images": [
-    "https://saint-laurent.dam.kering.com/m/10380f3b146fb833/eCom-600306CSV0J1000_A.jpg?v=2",
-    "https://saint-laurent.dam.kering.com/m/5ba7d66211a698cb/eCom-600306CSV0J1000_B.jpg?v=2",
-    "https://saint-laurent.dam.kering.com/asset/850879ff-cf21-4c49-853a-ee351cac16f9/eCom/600306CSV0J1000_C.jpg?v=2",
-    "https://saint-laurent.dam.kering.com/m/42d2c9317e9d64fd/eCom-600306CSV0J1000_D.jpg?v=2",
-    "https://saint-laurent.dam.kering.com/asset/6533c744-a08f-4c09-9168-5d7ae0275802/eCom/600306CSV0J1000_E.jpg?v=2",
-    "https://saint-laurent.dam.kering.com/asset/1db3f778-70cf-48d4-a7ac-6d3af375dbd4/eCom/600306CSV0J1000_H.jpg?v=3"
-  ],
-  "description": "The Saint Laurent Shopping Saint Laurent is a supple North/South tote in black calfskin leather, finished with a leather lining and polished gold-toned hardware. A magnetic snap tab secures the opening, while the detachable zipped pocket keeps smaller essentials organized. The signature Cassandre charm adds a discreet House detail to a practical silhouette designed for everyday carry.",
-  "specifications": {
+  {
+    "id": 271,
+    "name": "Saint Laurent Shopping Saint Laurent in Leather — Black",
+    "category": "accessories",
+    "retail price": 1750,
+    "sale price": 1499.99,
+    "pre-owned price": 1199.99,
+    "new price": 1499.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://saint-laurent.dam.kering.com/m/10380f3b146fb833/eCom-600306CSV0J1000_A.jpg?v=2",
+    "images": [
+      "https://saint-laurent.dam.kering.com/m/10380f3b146fb833/eCom-600306CSV0J1000_A.jpg?v=2",
+      "https://saint-laurent.dam.kering.com/m/5ba7d66211a698cb/eCom-600306CSV0J1000_B.jpg?v=2",
+      "https://saint-laurent.dam.kering.com/asset/850879ff-cf21-4c49-853a-ee351cac16f9/eCom/600306CSV0J1000_C.jpg?v=2",
+      "https://saint-laurent.dam.kering.com/m/42d2c9317e9d64fd/eCom-600306CSV0J1000_D.jpg?v=2",
+      "https://saint-laurent.dam.kering.com/asset/6533c744-a08f-4c09-9168-5d7ae0275802/eCom/600306CSV0J1000_E.jpg?v=2",
+      "https://saint-laurent.dam.kering.com/asset/1db3f778-70cf-48d4-a7ac-6d3af375dbd4/eCom/600306CSV0J1000_H.jpg?v=3"
+    ],
+    "description": "The Saint Laurent Shopping Saint Laurent is a supple North/South tote in black calfskin leather, finished with a leather lining and polished gold-toned hardware. A magnetic snap tab secures the opening, while the detachable zipped pocket keeps smaller essentials organized. The signature Cassandre charm adds a discreet House detail to a practical silhouette designed for everyday carry.",
+    "specifications": {
+      "brand": "Saint Laurent",
+      "model": "Shopping Saint Laurent in Leather",
+      "reference": "600306CSV0J1000",
+      "material": "Calfskin leather and polyurethane",
+      "lining": "Leather",
+      "hardware": "Gold-toned metal",
+      "color": "Black",
+      "dimensions": "12.7 x 13.7 x 4.1 in",
+      "strap_drop": "9.2 in",
+      "closure": "Magnetic snap tab",
+      "interior": "Detachable zipped pocket",
+      "silhouette": "Supple North/South tote",
+      "country_of_origin": "Italy",
+      "retail_price_source": "Saint Laurent U.S. official product page",
+      "secondary_spec_source": "Saint Laurent official international product details",
+      "source": "https://www.ysl.com/en-us/pr/shopping-saint-laurent-in-leather-600306CSV0J1000.html"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
     "brand": "Saint Laurent",
-    "model": "Shopping Saint Laurent in Leather",
-    "reference": "600306CSV0J1000",
-    "material": "Calfskin leather and polyurethane",
-    "lining": "Leather",
-    "hardware": "Gold-toned metal",
-    "color": "Black",
-    "dimensions": "12.7 x 13.7 x 4.1 in",
-    "strap_drop": "9.2 in",
-    "closure": "Magnetic snap tab",
-    "interior": "Detachable zipped pocket",
-    "silhouette": "Supple North/South tote",
-    "country_of_origin": "Italy",
-    "retail_price_source": "Saint Laurent U.S. official product page",
-    "secondary_spec_source": "Saint Laurent official international product details",
-    "source": "https://www.ysl.com/en-us/pr/shopping-saint-laurent-in-leather-600306CSV0J1000.html"
+    "brand_display_name": "Saint Laurent",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[3]",
+      "right_side": "images[5]",
+      "back": "images[2]",
+      "overhead": "images[1]",
+      "additional": [
+        "images[4]"
+      ]
+    }
   },
-  "productType": "Handbag",
-  "inventory": 1,
-  "age_group": "Adult",
-  "gender": "Women",
-  "brand": "Saint Laurent",
-  "brand_display_name": "Saint Laurent",
-  "authenticityGuaranteed": true,
-  "authenticity_badge": "Authenticity Guaranteed",
-  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
-  "image_views": {
-    "front_main": "images[0]",
-    "left_side": "images[3]",
-    "right_side": "images[5]",
-    "back": "images[2]",
-    "overhead": "images[1]",
-    "additional": [
-      "images[4]"
-    ]
-  }
-},
-{
-  "id": 272,
-  "name": "Saint Laurent LE 5 À 7 Supple Large in Grained Leather — Black",
-  "category": "accessories",
-  "retail price": 3200,
-  "sale price": 1499.99,
-  "pre-owned price": 1199.99,
-  "new price": 1499.99,
-  "condition": "New",
-  "condition_options": [
-    "New",
-    "Pre-owned"
-  ],
-  "default_condition": "New",
-  "image": "https://saint-laurent.dam.kering.com/asset/7410b35f-d6b7-4d20-9f96-d58d3ebc9250/eCom/850545AAAUQ1000_A.jpg?v=1",
-  "images": [
-    "https://saint-laurent.dam.kering.com/asset/7410b35f-d6b7-4d20-9f96-d58d3ebc9250/eCom/850545AAAUQ1000_A.jpg?v=1",
-    "https://saint-laurent.dam.kering.com/asset/dccb412d-33d8-41ed-9125-e0b68d2d0bc5/eCom/850545AAAUQ1000_B.jpg?v=1",
-    "https://saint-laurent.dam.kering.com/asset/232866fb-4bd8-479c-9b08-aa0a55d305c6/eCom/850545AAAUQ1000_C.jpg?v=1",
-    "https://saint-laurent.dam.kering.com/asset/bfdf2e1b-5999-44a9-8e11-e233305bb879/eCom/850545AAAUQ1000_D.jpg?v=1",
-    "https://saint-laurent.dam.kering.com/asset/723adfbc-3f3a-4b35-90c4-af05d09f51ea/Original-Ecom/850545AAAUQ1000_Y.jpg?v=1"
-  ],
-  "description": "The large Saint Laurent LE 5 À 7 Supple is a roomy interpretation of the House's signature hobo silhouette. Crafted from finely grained calfskin and lined in suede, it is organized into two main compartments with an interior zip pocket. A leather tab closure decorated with the Cassandre secures the open-top design, while the adjustable strap provides flexible shoulder carry.",
-  "specifications": {
+  {
+    "id": 272,
+    "name": "Saint Laurent LE 5 À 7 Supple Large in Grained Leather — Black",
+    "category": "accessories",
+    "retail price": 3200,
+    "sale price": 1499.99,
+    "pre-owned price": 1199.99,
+    "new price": 1499.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://saint-laurent.dam.kering.com/asset/7410b35f-d6b7-4d20-9f96-d58d3ebc9250/eCom/850545AAAUQ1000_A.jpg?v=1",
+    "images": [
+      "https://saint-laurent.dam.kering.com/asset/7410b35f-d6b7-4d20-9f96-d58d3ebc9250/eCom/850545AAAUQ1000_A.jpg?v=1",
+      "https://saint-laurent.dam.kering.com/asset/dccb412d-33d8-41ed-9125-e0b68d2d0bc5/eCom/850545AAAUQ1000_B.jpg?v=1",
+      "https://saint-laurent.dam.kering.com/asset/232866fb-4bd8-479c-9b08-aa0a55d305c6/eCom/850545AAAUQ1000_C.jpg?v=1",
+      "https://saint-laurent.dam.kering.com/asset/bfdf2e1b-5999-44a9-8e11-e233305bb879/eCom/850545AAAUQ1000_D.jpg?v=1",
+      "https://saint-laurent.dam.kering.com/asset/723adfbc-3f3a-4b35-90c4-af05d09f51ea/Original-Ecom/850545AAAUQ1000_Y.jpg?v=1"
+    ],
+    "description": "The large Saint Laurent LE 5 À 7 Supple is a roomy interpretation of the House's signature hobo silhouette. Crafted from finely grained calfskin and lined in suede, it is organized into two main compartments with an interior zip pocket. A leather tab closure decorated with the Cassandre secures the open-top design, while the adjustable strap provides flexible shoulder carry.",
+    "specifications": {
+      "brand": "Saint Laurent",
+      "model": "LE 5 À 7 Supple Large",
+      "reference": "850545AAAUQ1000",
+      "material": "Calfskin leather",
+      "lining": "Suede",
+      "hardware": "Bronze-toned metal",
+      "color": "Black",
+      "dimensions": "11.8 x 12.2 x 5.1 in (30 x 31 x 13 cm)",
+      "strap_drop": "11.8 in / 30 cm",
+      "closure": "Open top with Cassandre hook closure",
+      "interior": "Two main compartments and one zip pocket",
+      "strap": "Adjustable shoulder strap",
+      "country_of_origin": "Italy",
+      "alternate_style_id": "753837AAAUQ1000",
+      "retail_price_source": "Saint Laurent U.S. official product page",
+      "secondary_spec_source": "Saint Laurent official international product details",
+      "source": "https://www.ysl.com/en-us/pr/le-5-a-7-supple-large-in-grained-leather-814052918.html"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
     "brand": "Saint Laurent",
-    "model": "LE 5 À 7 Supple Large",
-    "reference": "850545AAAUQ1000",
-    "material": "Calfskin leather",
-    "lining": "Suede",
-    "hardware": "Bronze-toned metal",
-    "color": "Black",
-    "dimensions": "11.8 x 12.2 x 5.1 in (30 x 31 x 13 cm)",
-    "strap_drop": "11.8 in / 30 cm",
-    "closure": "Open top with Cassandre hook closure",
-    "interior": "Two main compartments and one zip pocket",
-    "strap": "Adjustable shoulder strap",
-    "country_of_origin": "Italy",
-    "alternate_style_id": "753837AAAUQ1000",
-    "retail_price_source": "Saint Laurent U.S. official product page",
-    "secondary_spec_source": "Saint Laurent official international product details",
-    "source": "https://www.ysl.com/en-us/pr/le-5-a-7-supple-large-in-grained-leather-814052918.html"
+    "brand_display_name": "Saint Laurent",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[3]",
+      "right_side": "images[4]",
+      "back": "images[1]",
+      "overhead": "images[2]"
+    }
   },
-  "productType": "Handbag",
-  "inventory": 1,
-  "age_group": "Adult",
-  "gender": "Women",
-  "brand": "Saint Laurent",
-  "brand_display_name": "Saint Laurent",
-  "authenticityGuaranteed": true,
-  "authenticity_badge": "Authenticity Guaranteed",
-  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
-  "image_views": {
-    "front_main": "images[0]",
-    "left_side": "images[3]",
-    "right_side": "images[4]",
-    "back": "images[1]",
-    "overhead": "images[2]"
-  }
-}
-,
   {
     "id": 273,
     "name": "Louis Vuitton Speedy Bandoulière 30 — Monogram Canvas",
@@ -9565,7 +10458,10 @@ window.products = [
     "pre-owned price": 1199.99,
     "new price": 1499.99,
     "condition": "New",
-    "condition_options": ["New", "Pre-owned"],
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
     "default_condition": "New",
     "image": "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-30--M46980_PM2_Front%20view.jpg",
     "images": [
@@ -9612,7 +10508,9 @@ window.products = [
       "right_side": "images[5]",
       "back": "images[2]",
       "overhead": "images[3]",
-      "additional": ["images[4]"]
+      "additional": [
+        "images[4]"
+      ]
     }
   },
   {
@@ -9624,7 +10522,10 @@ window.products = [
     "pre-owned price": 1199.99,
     "new price": 1499.99,
     "condition": "New",
-    "condition_options": ["New", "Pre-owned"],
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
     "default_condition": "New",
     "image": "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M46987_PM2_Front%20view.jpg",
     "images": [
@@ -9672,7 +10573,9 @@ window.products = [
       "right_side": "images[5]",
       "back": "images[2]",
       "overhead": "images[3]",
-      "additional": ["images[4]"]
+      "additional": [
+        "images[4]"
+      ]
     }
   },
   {
@@ -9684,7 +10587,10 @@ window.products = [
     "pre-owned price": 1199.99,
     "new price": 1499.99,
     "condition": "New",
-    "condition_options": ["New", "Pre-owned"],
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
     "default_condition": "New",
     "image": "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-onthego-mm--M45321_PM2_Front%20view.jpg",
     "images": [
@@ -9730,7 +10636,9 @@ window.products = [
       "right_side": "images[5]",
       "back": "images[2]",
       "overhead": "images[3]",
-      "additional": ["images[4]"]
+      "additional": [
+        "images[4]"
+      ]
     }
   },
   {
@@ -10285,244 +11193,241 @@ window.products = [
       "overhead": "images[4]"
     }
   },
-,
-{
-  "id": 287,
-  "name": "Gucci Horsebit 1955 Small Shoulder Bag — Black Leather",
-  "category": "accessories",
-  "retail price": 3550,
-  "sale price": 1499.99,
-  "pre-owned price": 1199.99,
-  "new price": 1499.99,
-  "condition": "New",
-  "condition_options": [
-    "New",
-    "Pre-owned"
-  ],
-  "default_condition": "New",
-  "image": "https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1721928678/658574_18YSG_1060_013_100_0000_Light-kleine-gucci-horsebit1955-schultertasche.jpg",
-  "images": [
-    "https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1721928678/658574_18YSG_1060_013_100_0000_Light-kleine-gucci-horsebit1955-schultertasche.jpg",
-    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1721928678/658574_18YSG_1060_007_100_0000_Light-.jpg",
-    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1721928678/658574_18YSG_1060_010_069_0000_Light-.jpg",
-    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1721928678/658574_18YSG_1060_004_100_0000_Light-.jpg",
-    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1721928678/658574_18YSG_1060_013_100_0000_Light-.jpg"
-  ],
-  "description": "The Gucci Horsebit 1955 small shoulder bag combines a compact structured silhouette with the House's equestrian-inspired Horsebit hardware. Crafted in black leather, it is finished with gold-toned hardware and two interchangeable shoulder straps: a tonal leather strap and a green-and-red Web strap. A flap closure and cotton-linen lining complete the refined everyday design.",
-  "specifications": {
+  null,
+  {
+    "id": 287,
+    "name": "Gucci Horsebit 1955 Small Shoulder Bag — Black Leather",
+    "category": "accessories",
+    "retail price": 3550,
+    "sale price": 1499.99,
+    "pre-owned price": 1199.99,
+    "new price": 1499.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1721928678/658574_18YSG_1060_013_100_0000_Light-kleine-gucci-horsebit1955-schultertasche.jpg",
+    "images": [
+      "https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1721928678/658574_18YSG_1060_013_100_0000_Light-kleine-gucci-horsebit1955-schultertasche.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1721928678/658574_18YSG_1060_007_100_0000_Light-.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1721928678/658574_18YSG_1060_010_069_0000_Light-.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1721928678/658574_18YSG_1060_004_100_0000_Light-.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1721928678/658574_18YSG_1060_013_100_0000_Light-.jpg"
+    ],
+    "description": "The Gucci Horsebit 1955 small shoulder bag combines a compact structured silhouette with the House's equestrian-inspired Horsebit hardware. Crafted in black leather, it is finished with gold-toned hardware and two interchangeable shoulder straps: a tonal leather strap and a green-and-red Web strap. A flap closure and cotton-linen lining complete the refined everyday design.",
+    "specifications": {
+      "brand": "Gucci",
+      "model": "Horsebit 1955 Small Shoulder Bag",
+      "style": "658574 18YSG 1060",
+      "material": "Black leather",
+      "hardware": "Gold-toned",
+      "detail": "Horsebit detail; green and red Web strap",
+      "lining": "Cotton linen",
+      "closure": "Flap closure",
+      "dimensions": "8.1 W x 5.7 H x 2 D in",
+      "weight": "1.3 lb approximately",
+      "straps": "Detachable Web shoulder strap drop 13–20.8 in; leather strap drop 20.4–23.6 in",
+      "origin": "Made in Italy",
+      "capacity": "Fits iPhone Pro Max/Plus, AirPods, small wallet and lipstick",
+      "retail_price_source": "Gucci U.S. official product page",
+      "source": "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/gucci-horsebit-1955-small-shoulder-bag-p-65857418YSG1060"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
     "brand": "Gucci",
-    "model": "Horsebit 1955 Small Shoulder Bag",
-    "style": "658574 18YSG 1060",
-    "material": "Black leather",
-    "hardware": "Gold-toned",
-    "detail": "Horsebit detail; green and red Web strap",
-    "lining": "Cotton linen",
-    "closure": "Flap closure",
-    "dimensions": "8.1 W x 5.7 H x 2 D in",
-    "weight": "1.3 lb approximately",
-    "straps": "Detachable Web shoulder strap drop 13–20.8 in; leather strap drop 20.4–23.6 in",
-    "origin": "Made in Italy",
-    "capacity": "Fits iPhone Pro Max/Plus, AirPods, small wallet and lipstick",
-    "retail_price_source": "Gucci U.S. official product page",
-    "source": "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/gucci-horsebit-1955-small-shoulder-bag-p-65857418YSG1060"
+    "brand_display_name": "Gucci",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
+      "overhead": "images[4]"
+    }
   },
-  "productType": "Handbag",
-  "inventory": 1,
-  "age_group": "Adult",
-  "gender": "Women",
-  "brand": "Gucci",
-  "brand_display_name": "Gucci",
-  "authenticityGuaranteed": true,
-  "authenticity_badge": "Authenticity Guaranteed",
-  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
-  "image_views": {
-    "front_main": "images[0]",
-    "left_side": "images[1]",
-    "right_side": "images[2]",
-    "back": "images[3]",
-    "overhead": "images[4]"
-  }
-}
-,
-{
-  "id": 288,
-  "name": "Gucci Giglio Small Tote Bag — Sand and Brown GG Fabric",
-  "category": "accessories",
-  "retail price": 1850,
-  "sale price": 1499.99,
-  "pre-owned price": 1199.99,
-  "new price": 1499.99,
-  "condition": "New",
-  "condition_options": [
-    "New",
-    "Pre-owned"
-  ],
-  "default_condition": "New",
-  "image": "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1760000000/860845_FAF1L_9653_001_100_0000_Light-.jpg",
-  "images": [
-    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1760000000/860845_FAF1L_9653_001_100_0000_Light-.jpg",
-    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1760000000/860845_FAF1L_9653_007_090_0000_Light-.jpg",
-    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1760000000/860845_FAF1L_9653_010_069_0000_Light-.jpg",
-    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1760000000/860845_FAF1L_9653_004_100_0000_Light-.jpg",
-    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1760000000/860845_FAF1L_9653_013_061_0000_Light-.jpg"
-  ],
-  "description": "The Gucci Giglio small tote is a modern tote silhouette crafted from varnished GG fabric with soft leather trim, green-and-red Web detailing and Double G hardware. It offers top-handle and adjustable shoulder carrying, a detachable pouch and a hidden magnetic closure for organized everyday use.",
-  "specifications": {
+  {
+    "id": 288,
+    "name": "Gucci Giglio Small Tote Bag — Sand and Brown GG Fabric",
+    "category": "accessories",
+    "retail price": 1850,
+    "sale price": 1499.99,
+    "pre-owned price": 1199.99,
+    "new price": 1499.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1760000000/860845_FAF1L_9653_001_100_0000_Light-.jpg",
+    "images": [
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1760000000/860845_FAF1L_9653_001_100_0000_Light-.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1760000000/860845_FAF1L_9653_007_090_0000_Light-.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1760000000/860845_FAF1L_9653_010_069_0000_Light-.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1760000000/860845_FAF1L_9653_004_100_0000_Light-.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1760000000/860845_FAF1L_9653_013_061_0000_Light-.jpg"
+    ],
+    "description": "The Gucci Giglio small tote is a modern tote silhouette crafted from varnished GG fabric with soft leather trim, green-and-red Web detailing and Double G hardware. It offers top-handle and adjustable shoulder carrying, a detachable pouch and a hidden magnetic closure for organized everyday use.",
+    "specifications": {
+      "brand": "Gucci",
+      "model": "Giglio Small Tote",
+      "style": "860845 FAF1L 9653",
+      "material": "Sand and dark brown varnished GG fabric",
+      "trim": "Dark brown soft leather with green and red Web canvas trim",
+      "lining": "Sand canvas with Diamante motif",
+      "hardware": "Gold-toned",
+      "logo": "Double G",
+      "closure": "Hidden magnetic closure",
+      "dimensions": "9.8 W x 7.9 H x 5.9 D in",
+      "weight": "1.1 lb approximately",
+      "handle_drop": "5.9 in",
+      "shoulder_strap": "Detachable adjustable leather strap, 21.3–24.8 in drop",
+      "pouch": "Detachable pouch",
+      "origin": "Made in Italy",
+      "capacity": "Fits an iPad, iPhone, AirPods and small items",
+      "retail_price_source": "Gucci U.S. official product page",
+      "source": "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/gucci-giglio-small-tote-bag-p-860845FAF1L9653"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
     "brand": "Gucci",
-    "model": "Giglio Small Tote",
-    "style": "860845 FAF1L 9653",
-    "material": "Sand and dark brown varnished GG fabric",
-    "trim": "Dark brown soft leather with green and red Web canvas trim",
-    "lining": "Sand canvas with Diamante motif",
-    "hardware": "Gold-toned",
-    "logo": "Double G",
-    "closure": "Hidden magnetic closure",
-    "dimensions": "9.8 W x 7.9 H x 5.9 D in",
-    "weight": "1.1 lb approximately",
-    "handle_drop": "5.9 in",
-    "shoulder_strap": "Detachable adjustable leather strap, 21.3–24.8 in drop",
-    "pouch": "Detachable pouch",
-    "origin": "Made in Italy",
-    "capacity": "Fits an iPad, iPhone, AirPods and small items",
-    "retail_price_source": "Gucci U.S. official product page",
-    "source": "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/gucci-giglio-small-tote-bag-p-860845FAF1L9653"
+    "brand_display_name": "Gucci",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
+      "overhead": "images[4]"
+    }
   },
-  "productType": "Handbag",
-  "inventory": 1,
-  "age_group": "Adult",
-  "gender": "Women",
-  "brand": "Gucci",
-  "brand_display_name": "Gucci",
-  "authenticityGuaranteed": true,
-  "authenticity_badge": "Authenticity Guaranteed",
-  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
-  "image_views": {
-    "front_main": "images[0]",
-    "left_side": "images[1]",
-    "right_side": "images[2]",
-    "back": "images[3]",
-    "overhead": "images[4]"
-  }
-}
-,
-{
-  "id": 289,
-  "name": "Gucci Jackie 1961 Medium Shoulder Bag — Black Hand-Treated Leather",
-  "category": "accessories",
-  "retail price": 3450,
-  "sale price": 1499.99,
-  "pre-owned price": 1199.99,
-  "new price": 1499.99,
-  "condition": "New",
-  "condition_options": [
-    "New",
-    "Pre-owned"
-  ],
-  "default_condition": "New",
-  "image": "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1765293304/863136_AAGFZ_1000_007_090_0000_Light-1961.jpg",
-  "images": [
-    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1765293304/863136_AAGFZ_1000_007_090_0000_Light-1961.jpg",
-    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1765293304/863136_AAGFZ_1000_010_069_0000_Light-1961.jpg",
-    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1765293304/863136_AAGFZ_1000_004_100_0000_Light-1961.jpg",
-    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1765293304/863136_AAGFZ_1000_013_061_0000_Light-1961.jpg",
-    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1765293304/863136_AAGFZ_1000_001_100_0000_Light-1961.jpg"
-  ],
-  "description": "The Gucci Jackie 1961 medium shoulder bag is a contemporary interpretation of Gucci's signature crescent silhouette. This Spring Summer 2026 version is crafted from soft, naturally glossy black leather that has been hand-treated for a lived-in, vintage-inspired character, with gold-toned hardware, piston closure and a black nappa-lined interior.",
-  "specifications": {
+  {
+    "id": 289,
+    "name": "Gucci Jackie 1961 Medium Shoulder Bag — Black Hand-Treated Leather",
+    "category": "accessories",
+    "retail price": 3450,
+    "sale price": 1499.99,
+    "pre-owned price": 1199.99,
+    "new price": 1499.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1765293304/863136_AAGFZ_1000_007_090_0000_Light-1961.jpg",
+    "images": [
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1765293304/863136_AAGFZ_1000_007_090_0000_Light-1961.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1765293304/863136_AAGFZ_1000_010_069_0000_Light-1961.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1765293304/863136_AAGFZ_1000_004_100_0000_Light-1961.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1765293304/863136_AAGFZ_1000_013_061_0000_Light-1961.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1765293304/863136_AAGFZ_1000_001_100_0000_Light-1961.jpg"
+    ],
+    "description": "The Gucci Jackie 1961 medium shoulder bag is a contemporary interpretation of Gucci's signature crescent silhouette. This Spring Summer 2026 version is crafted from soft, naturally glossy black leather that has been hand-treated for a lived-in, vintage-inspired character, with gold-toned hardware, piston closure and a black nappa-lined interior.",
+    "specifications": {
+      "brand": "Gucci",
+      "model": "Jackie 1961 Medium Shoulder Bag",
+      "style": "863136 AAGFZ 1000",
+      "material": "Black soft naturally glossy leather, hand-treated",
+      "lining": "Black nappa leather",
+      "hardware": "Gold-toned",
+      "closure": "Piston closure",
+      "interior": "One zip pocket",
+      "dimensions": "12.4 W x 8.7 H x 1.8 D in",
+      "weight": "0.8 lb approximately",
+      "handle_drop": "9.8–11.4 in",
+      "extender_strap_drop": "18.9–24 in",
+      "origin": "Made in Italy",
+      "capacity": "Fits iPhone Pro Max/Plus, AirPods, long wallet and lipstick",
+      "retail_price_source": "Gucci U.S. official product page",
+      "source": "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/half-moon-bags-for-women/gucci-jackie-1961-medium-shoulder-bag-p-863136AAGFZ1000"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
     "brand": "Gucci",
-    "model": "Jackie 1961 Medium Shoulder Bag",
-    "style": "863136 AAGFZ 1000",
-    "material": "Black soft naturally glossy leather, hand-treated",
-    "lining": "Black nappa leather",
-    "hardware": "Gold-toned",
-    "closure": "Piston closure",
-    "interior": "One zip pocket",
-    "dimensions": "12.4 W x 8.7 H x 1.8 D in",
-    "weight": "0.8 lb approximately",
-    "handle_drop": "9.8–11.4 in",
-    "extender_strap_drop": "18.9–24 in",
-    "origin": "Made in Italy",
-    "capacity": "Fits iPhone Pro Max/Plus, AirPods, long wallet and lipstick",
-    "retail_price_source": "Gucci U.S. official product page",
-    "source": "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/half-moon-bags-for-women/gucci-jackie-1961-medium-shoulder-bag-p-863136AAGFZ1000"
+    "brand_display_name": "Gucci",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
+      "overhead": "images[4]"
+    }
   },
-  "productType": "Handbag",
-  "inventory": 1,
-  "age_group": "Adult",
-  "gender": "Women",
-  "brand": "Gucci",
-  "brand_display_name": "Gucci",
-  "authenticityGuaranteed": true,
-  "authenticity_badge": "Authenticity Guaranteed",
-  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
-  "image_views": {
-    "front_main": "images[0]",
-    "left_side": "images[1]",
-    "right_side": "images[2]",
-    "back": "images[3]",
-    "overhead": "images[4]"
-  }
-}
-,
-{
-  "id": 290,
-  "name": "Gucci Diana Small Tote Bag — Green Ostrich Leather",
-  "category": "accessories",
-  "retail price": 10000,
-  "sale price": 1499.99,
-  "pre-owned price": 1199.99,
-  "new price": 1499.99,
-  "condition": "New",
-  "condition_options": [
-    "New",
-    "Pre-owned"
-  ],
-  "default_condition": "New",
-  "image": "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1764784826/832936_EY00G_3002_013_061_0000_Light-.jpg",
-  "images": [
-    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1764784826/832936_EY00G_3002_013_061_0000_Light-.jpg",
-    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1767031215/832936_EY00G_3002_004_100_0000_Light-.jpg",
-    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1764784826/832936_EY00G_3002_007_090_0000_Light-.jpg",
-    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1764784826/832936_EY00G_3002_010_069_0000_Light-.jpg",
-    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1764784826/832936_EY00G_3002_001_100_0000_Light-.jpg"
-  ],
-  "description": "The Gucci Diana small tote is an elevated top-handle silhouette distinguished by iconic bamboo handles and precious green ostrich leather. It can be carried by hand, over the shoulder or crossbody using its detachable adjustable leather strap, with light gold-toned hardware, Double G detailing, magnetic closure and a leather-lined interior.",
-  "specifications": {
+  {
+    "id": 290,
+    "name": "Gucci Diana Small Tote Bag — Green Ostrich Leather",
+    "category": "accessories",
+    "retail price": 10000,
+    "sale price": 1499.99,
+    "pre-owned price": 1199.99,
+    "new price": 1499.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1764784826/832936_EY00G_3002_013_061_0000_Light-.jpg",
+    "images": [
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1764784826/832936_EY00G_3002_013_061_0000_Light-.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1767031215/832936_EY00G_3002_004_100_0000_Light-.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1764784826/832936_EY00G_3002_007_090_0000_Light-.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1764784826/832936_EY00G_3002_010_069_0000_Light-.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1764784826/832936_EY00G_3002_001_100_0000_Light-.jpg"
+    ],
+    "description": "The Gucci Diana small tote is an elevated top-handle silhouette distinguished by iconic bamboo handles and precious green ostrich leather. It can be carried by hand, over the shoulder or crossbody using its detachable adjustable leather strap, with light gold-toned hardware, Double G detailing, magnetic closure and a leather-lined interior.",
+    "specifications": {
+      "brand": "Gucci",
+      "model": "Diana Small Tote",
+      "style": "832936 EY00G 3002",
+      "material": "Green ostrich leather",
+      "lining": "Green leather",
+      "hardware": "Light gold-toned",
+      "logo": "Double G",
+      "closure": "Magnetic closure",
+      "dimensions": "7.8 W x 6.3 H x 3.1 D in",
+      "weight": "1.5 lb approximately",
+      "handles": "Bamboo handles, 3.1 in drop",
+      "shoulder_strap": "Detachable adjustable leather strap, 18.9–21.7 in drop",
+      "pocket": "One interior open pocket",
+      "origin": "Made in Italy",
+      "capacity": "Fits iPhone Pro Max/Plus, AirPods, small wallet and lipstick",
+      "retail_price_source": "Gucci U.S. official product page",
+      "source": "https://www.gucci.com/us/en/pr/women/handbags/top-handle-bags-for-women/gucci-diana-ostrich-small-tote-bag-p-832936EY00G3002"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
     "brand": "Gucci",
-    "model": "Diana Small Tote",
-    "style": "832936 EY00G 3002",
-    "material": "Green ostrich leather",
-    "lining": "Green leather",
-    "hardware": "Light gold-toned",
-    "logo": "Double G",
-    "closure": "Magnetic closure",
-    "dimensions": "7.8 W x 6.3 H x 3.1 D in",
-    "weight": "1.5 lb approximately",
-    "handles": "Bamboo handles, 3.1 in drop",
-    "shoulder_strap": "Detachable adjustable leather strap, 18.9–21.7 in drop",
-    "pocket": "One interior open pocket",
-    "origin": "Made in Italy",
-    "capacity": "Fits iPhone Pro Max/Plus, AirPods, small wallet and lipstick",
-    "retail_price_source": "Gucci U.S. official product page",
-    "source": "https://www.gucci.com/us/en/pr/women/handbags/top-handle-bags-for-women/gucci-diana-ostrich-small-tote-bag-p-832936EY00G3002"
+    "brand_display_name": "Gucci",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
+      "overhead": "images[4]"
+    }
   },
-  "productType": "Handbag",
-  "inventory": 1,
-  "age_group": "Adult",
-  "gender": "Women",
-  "brand": "Gucci",
-  "brand_display_name": "Gucci",
-  "authenticityGuaranteed": true,
-  "authenticity_badge": "Authenticity Guaranteed",
-  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
-  "image_views": {
-    "front_main": "images[0]",
-    "left_side": "images[1]",
-    "right_side": "images[2]",
-    "back": "images[3]",
-    "overhead": "images[4]"
-  }
-},
   {
     "id": 291,
     "name": "Burberry Small Primrose Bag — Archive Beige Check",
