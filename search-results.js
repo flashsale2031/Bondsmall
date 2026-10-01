@@ -189,7 +189,13 @@
             "Hermes", "Fendi", "Hamilton Beach", "Samsung"
         ];
 
-        const activeRecords = Array.isArray(window.products) ? window.products : [];
+        const chunkRecords = Array.isArray(window.products) ? window.products : [];
+        const authorityRecords = window.BondsmallCatalogAuthority && Array.isArray(window.BondsmallCatalogAuthority.records)
+            ? window.BondsmallCatalogAuthority.records
+            : [];
+        const activeRecords = currentQuery
+            ? Array.from(new Map([...chunkRecords, ...authorityRecords].map(product => [Number(product && product.id), product])).values())
+            : chunkRecords;
         displayProducts = activeRecords.map((source) => {
             const authoritativeSource = window.BondsmallCatalogAuthority && typeof window.BondsmallCatalogAuthority.get === "function"
                 ? window.BondsmallCatalogAuthority.get(source && source.id)
