@@ -7795,7 +7795,7 @@ const products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint"
-  }
+  },
   {
     "id": 238,
     "name": "CHANEL 2.55 Handbag — Black Lambskin",
