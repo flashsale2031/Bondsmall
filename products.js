@@ -1,4 +1,4 @@
-const products = [
+window.products = [
   {
     "id": 1,
     "name": "Men's Hanes Premium Cotton T-Shirt",
