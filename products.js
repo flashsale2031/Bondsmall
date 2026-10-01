@@ -9011,4 +9011,203 @@ const products = [
     }
   }
 ]
+,
+[
+  {
+    "id": 264,
+    "name": "Louis Vuitton Loop Hobo — Monogram Canvas",
+    "category": "accessories",
+    "retail price": 3150,
+    "sale price": 1199.99,
+    "pre-owned price": 999.99,
+    "new price": 1199.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop-hobo--M46311_PM2_Front%20view.jpg",
+    "images": [
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop-hobo--M46311_PM2_Front%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop-hobo--M46311_PM1_Side%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop-hobo--M46311_PM1_Back%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop-hobo--M46311_PM1_Interior%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop-hobo--M46311_PM1_Interior2%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop-hobo--M46311_PM1_Worn%20view.jpg"
+    ],
+    "description": "The Louis Vuitton Loop Hobo is a supple, roomy shoulder bag distinguished by a contemporary half-moon silhouette and the House's Monogram and Monogram Reverse coated-canvas construction. Leather corners frame the curved body, while a removable chain and adjustable leather strap provide flexible shoulder and crossbody styling. A removable zipped pouch adds practical organization for smaller essentials.",
+    "specifications": {
+      "brand": "Louis Vuitton",
+      "model": "Loop Hobo",
+      "reference": "M46311",
+      "material": "Monogram and Monogram Reverse coated canvas",
+      "trim": "Cowhide-leather trim",
+      "lining": "Microfiber lining",
+      "hardware": "Gold-color hardware",
+      "dimensions": "15 x 10.2 x 3.9 in (Length x Height x Width)",
+      "weight": "0.8 kg",
+      "closure": "Double zip closure",
+      "interior": "Removable zipped pouch",
+      "capacity": "Fits a 9-inch tablet, 6.7-inch smartphone, Sarah Long Wallet, small notebook and everyday essentials",
+      "strap": "Removable, adjustable leather strap",
+      "strap_drop": "12.2 in",
+      "strap_drop_max": "19.7 in",
+      "chain": "Removable",
+      "chain_drop": "8.7 in",
+      "origin": "Made in France, Spain or Italy, or Made in the U.S. of imported materials",
+      "retail_price_source": "Louis Vuitton U.S. official product page",
+      "source": "https://us.louisvuitton.com/eng-us/products/loop-hobo-monogram-canvas-nvprod3860089v/M46311"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "Louis Vuitton",
+    "brand_display_name": "Louis Vuitton",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[1]",
+      "right_side": "images[5]",
+      "back": "images[2]",
+      "overhead": "images[3]",
+      "additional": [
+        "images[4]"
+      ]
+    }
+  },
+  {
+    "id": 265,
+    "name": "Louis Vuitton Speedy Bandoulière 20 — Monogram Empreinte Leather",
+    "category": "accessories",
+    "retail price": 2850,
+    "sale price": 1199.99,
+    "pre-owned price": 999.99,
+    "new price": 1199.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-20--M58953_PM2_Front%20view.jpg",
+    "images": [
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-20--M58953_PM2_Front%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-20--M58953_PM1_Side%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-20--M58953_PM1_Back%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-20--M58953_PM1_Interior%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-20--M58953_PM1_Interior2%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-20--M58953_PM1_Cropped%20worn%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-20--M58953_PM1_Ambiance%20view.jpg"
+    ],
+    "description": "The Louis Vuitton Speedy Bandoulière 20 in Monogram Empreinte leather reinterprets the House's iconic Speedy in a compact, polished format. Its softly structured body is crafted from grained Monogram Empreinte leather embossed with an oversized Monogram pattern and finished with gold-color hardware and a padlock. Two Toron handles and a removable, adjustable chain strap allow hand, shoulder or crossbody carry.",
+    "specifications": {
+      "brand": "Louis Vuitton",
+      "model": "Speedy Bandoulière 20",
+      "reference": "M58953",
+      "material": "Embossed grained cowhide leather",
+      "trim": "Cowhide-leather trim",
+      "lining": "Microfiber lining",
+      "hardware": "Gold-color hardware",
+      "color": "Black",
+      "dimensions": "8.1 x 5.3 x 4.7 in (Length x Height x Width)",
+      "closure": "Double zip closure",
+      "interior": "Inside flat pocket",
+      "security": "Padlock",
+      "capacity": "Fits a 6.7-inch smartphone, Lou Compact Wallet, keys, tissues, book, sunglasses and lipstick",
+      "strap": "Removable, adjustable",
+      "strap_drop": "19.3 in",
+      "strap_drop_max": "21.3 in",
+      "handle": "Double Toron handles",
+      "origin": "Made in France, Spain or Italy, or Made in the U.S. of imported materials",
+      "retail_price_source": "Louis Vuitton U.S. official product page",
+      "source": "https://us.louisvuitton.com/eng-us/products/speedy-bandouliere-20-nvprod3160023v/M58953"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "Louis Vuitton",
+    "brand_display_name": "Louis Vuitton",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[1]",
+      "right_side": "images[5]",
+      "back": "images[2]",
+      "overhead": "images[3]",
+      "additional": [
+        "images[4]",
+        "images[6]"
+      ]
+    }
+  },
+  {
+    "id": 266,
+    "name": "Louis Vuitton Nano Speedy — Monogram",
+    "category": "accessories",
+    "retail price": 1960,
+    "sale price": 1199.99,
+    "pre-owned price": 999.99,
+    "new price": 1199.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-nano-speedy--M81085_PM2_Front%20view.jpg",
+    "images": [
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-nano-speedy--M81085_PM2_Front%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-nano-speedy--M81085_PM1_Side%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-nano-speedy--M81085_PM1_Back%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-nano-speedy--M81085_PM1_Interior%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-nano-speedy--M81085_PM1_Interior2%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-nano-speedy--M81085_PM1_Worn%20view.jpg"
+    ],
+    "description": "The Louis Vuitton Nano Speedy is a miniature interpretation of the House's iconic Speedy silhouette, crafted in signature Monogram coated canvas with natural cowhide-leather trim and gold-color hardware. The compact design features two top handles and a removable, adjustable shoulder strap, making it suitable for carrying small daily essentials by hand, over the shoulder or crossbody.",
+    "specifications": {
+      "brand": "Louis Vuitton",
+      "model": "Nano Speedy",
+      "reference": "M81085",
+      "material": "Monogram coated canvas",
+      "trim": "Colored cowhide-leather trim",
+      "hardware": "Gold-color hardware",
+      "dimensions": "6.3 x 3.9 x 3 in (Length x Height x Width)",
+      "closure": "Zip closure",
+      "capacity": "Fits a 6.7-inch smartphone, Rosalie Coin Purse, sunglasses, earphones, keys and lipstick",
+      "strap": "Removable, adjustable",
+      "strap_drop": "17.9 in",
+      "strap_drop_max": "21.3 in",
+      "handle": "Double handles",
+      "origin": "Made in France, Spain or Italy, or Made in the U.S. of imported materials",
+      "retail_price_source": "Louis Vuitton U.S. official product page",
+      "source": "https://us.louisvuitton.com/eng-us/products/nano-speedy-monogram-nvprod3430078v/M81085"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "Louis Vuitton",
+    "brand_display_name": "Louis Vuitton",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[1]",
+      "right_side": "images[5]",
+      "back": "images[2]",
+      "overhead": "images[3]",
+      "additional": [
+        "images[4]"
+      ]
+    }
+  }
+]
 ];
