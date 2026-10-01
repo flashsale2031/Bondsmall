@@ -10526,7 +10526,7 @@ const products = [
   {
     "id": 291,
     "name": "Burberry Small Primrose Bag — Archive Beige Check",
-    "category": "accessories",
+    "category": "Accessories",
     "retail price": 2095,
     "sale price": 1499.99,
     "pre-owned price": 1199.99,
@@ -10585,7 +10585,7 @@ const products = [
   {
     "id": 292,
     "name": "Burberry Top Handle Note Bag — Archive Beige/Briar Brown Check",
-    "category": "accessories",
+    "category": "Accessories",
     "retail price": 1895,
     "sale price": 1499.99,
     "pre-owned price": 1199.99,
@@ -10644,7 +10644,7 @@ const products = [
   {
     "id": 293,
     "name": "Burberry Small Bridle Saddle Bag — Chocolate Brown Check",
-    "category": "accessories",
+    "category": "Accessories",
     "retail price": 2150,
     "sale price": 1499.99,
     "pre-owned price": 1199.99,
@@ -10704,7 +10704,7 @@ const products = [
   {
     "id": 294,
     "name": "Burberry Small Rider Bag — Black Lambskin",
-    "category": "accessories",
+    "category": "Accessories",
     "retail price": 2950,
     "sale price": 1199.99,
     "pre-owned price": 999.99,
@@ -10763,7 +10763,7 @@ const products = [
   {
     "id": 295,
     "name": "Burberry Mini Ruffle Bag — Black Lambskin",
-    "category": "accessories",
+    "category": "Accessories",
     "retail price": 2950,
     "sale price": 1199.99,
     "pre-owned price": 999.99,
@@ -10819,7 +10819,7 @@ const products = [
   {
     "id": 296,
     "name": "Burberry Mini Primrose Bag — Archive Beige Check",
-    "category": "accessories",
+    "category": "Accessories",
     "retail price": 1895,
     "sale price": 1199.99,
     "pre-owned price": 999.99,
