@@ -10285,4 +10285,62 @@ const products = [
       "overhead": "images[4]"
     }
   },
+,
+{
+  "id": 287,
+  "name": "Gucci Horsebit 1955 Small Shoulder Bag — Black Leather",
+  "category": "accessories",
+  "retail price": 3550,
+  "sale price": 1499.99,
+  "pre-owned price": 1199.99,
+  "new price": 1499.99,
+  "condition": "New",
+  "condition_options": [
+    "New",
+    "Pre-owned"
+  ],
+  "default_condition": "New",
+  "image": "https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1721928678/658574_18YSG_1060_013_100_0000_Light-kleine-gucci-horsebit1955-schultertasche.jpg",
+  "images": [
+    "https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1721928678/658574_18YSG_1060_013_100_0000_Light-kleine-gucci-horsebit1955-schultertasche.jpg",
+    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1721928678/658574_18YSG_1060_007_100_0000_Light-.jpg",
+    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1721928678/658574_18YSG_1060_010_069_0000_Light-.jpg",
+    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1721928678/658574_18YSG_1060_004_100_0000_Light-.jpg",
+    "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1721928678/658574_18YSG_1060_013_100_0000_Light-.jpg"
+  ],
+  "description": "The Gucci Horsebit 1955 small shoulder bag combines a compact structured silhouette with the House's equestrian-inspired Horsebit hardware. Crafted in black leather, it is finished with gold-toned hardware and two interchangeable shoulder straps: a tonal leather strap and a green-and-red Web strap. A flap closure and cotton-linen lining complete the refined everyday design.",
+  "specifications": {
+    "brand": "Gucci",
+    "model": "Horsebit 1955 Small Shoulder Bag",
+    "style": "658574 18YSG 1060",
+    "material": "Black leather",
+    "hardware": "Gold-toned",
+    "detail": "Horsebit detail; green and red Web strap",
+    "lining": "Cotton linen",
+    "closure": "Flap closure",
+    "dimensions": "8.1 W x 5.7 H x 2 D in",
+    "weight": "1.3 lb approximately",
+    "straps": "Detachable Web shoulder strap drop 13–20.8 in; leather strap drop 20.4–23.6 in",
+    "origin": "Made in Italy",
+    "capacity": "Fits iPhone Pro Max/Plus, AirPods, small wallet and lipstick",
+    "retail_price_source": "Gucci U.S. official product page",
+    "source": "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/gucci-horsebit-1955-small-shoulder-bag-p-65857418YSG1060"
+  },
+  "productType": "Handbag",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Women",
+  "brand": "Gucci",
+  "brand_display_name": "Gucci",
+  "authenticityGuaranteed": true,
+  "authenticity_badge": "Authenticity Guaranteed",
+  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+  "image_views": {
+    "front_main": "images[0]",
+    "left_side": "images[1]",
+    "right_side": "images[2]",
+    "back": "images[3]",
+    "overhead": "images[4]"
+  }
+}
 ];
