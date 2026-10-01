@@ -9375,5 +9375,184 @@ const products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+  },
+{
+  "id": 270,
+  "name": "Saint Laurent Y Tote in Leather — Black",
+  "category": "accessories",
+  "retail price": 4400,
+  "sale price": 1499.99,
+  "pre-owned price": 1199.99,
+  "new price": 1499.99,
+  "condition": "New",
+  "condition_options": [
+    "New",
+    "Pre-owned"
+  ],
+  "default_condition": "New",
+  "image": "https://saint-laurent.dam.kering.com/asset/e21cc517-2875-4249-b1dd-32c96655e87c/eCom/817602AAEB31000_A.jpg?v=4",
+  "images": [
+    "https://saint-laurent.dam.kering.com/asset/e21cc517-2875-4249-b1dd-32c96655e87c/eCom/817602AAEB31000_A.jpg?v=4",
+    "https://saint-laurent.dam.kering.com/asset/adebac6e-d3f5-412a-baeb-07f50b0cc585/eCom/817602AAEB31000_B.jpg?v=5",
+    "https://saint-laurent.dam.kering.com/asset/3d86db71-e9a4-41ae-875f-b789d711d68e/eCom/817602AAEB31000_C.jpg?v=5",
+    "https://saint-laurent.dam.kering.com/asset/aa5ae3e7-ede9-4574-a3b0-27b3ff903986/eCom/817602AAEB31000_D.jpg?v=4",
+    "https://saint-laurent.dam.kering.com/asset/ff55234b-15db-4895-8d89-2a8730e352fd/Original-Ecom/817602AAEB31000_Y.jpg?v=1"
+  ],
+  "description": "The Saint Laurent Y Tote is a spacious, lightweight everyday shopping bag crafted from finely grained calfskin leather and fully lined in tonal suede. Its understated Y-stitched signature draws from the House archives, while bronze-toned hardware, a hook closure and an interior zip pocket provide refined function. The generous silhouette is designed to carry daily essentials while maintaining a clean, structured profile.",
+  "specifications": {
+    "brand": "Saint Laurent",
+    "model": "Y Tote in Leather",
+    "reference": "817602AAEB31000",
+    "material": "Calfskin leather",
+    "lining": "Tonal suede",
+    "hardware": "Bronze-toned metal",
+    "color": "Black",
+    "dimensions": "14.6 x 12.6 x 2.8–8.7 in (37 x 32 x 7–22 cm)",
+    "strap_drop": "10.2 in / 26 cm",
+    "closure": "Hook closure",
+    "interior": "One interior zip pocket",
+    "silhouette": "Spacious lightweight tote / shopping bag",
+    "country_of_origin": "Italy",
+    "retail_price_source": "Saint Laurent U.S. official product page",
+    "secondary_spec_source": "Saint Laurent official international product details",
+    "source": "https://www.ysl.com/en-us/pr/y-tote-in-leather-813744359.html"
+  },
+  "productType": "Handbag",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Women",
+  "brand": "Saint Laurent",
+  "brand_display_name": "Saint Laurent",
+  "authenticityGuaranteed": true,
+  "authenticity_badge": "Authenticity Guaranteed",
+  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+  "image_views": {
+    "front_main": "images[0]",
+    "left_side": "images[3]",
+    "right_side": "images[4]",
+    "back": "images[2]",
+    "overhead": "images[1]"
   }
+},
+{
+  "id": 271,
+  "name": "Saint Laurent Shopping Saint Laurent in Leather — Black",
+  "category": "accessories",
+  "retail price": 1750,
+  "sale price": 1499.99,
+  "pre-owned price": 1199.99,
+  "new price": 1499.99,
+  "condition": "New",
+  "condition_options": [
+    "New",
+    "Pre-owned"
+  ],
+  "default_condition": "New",
+  "image": "https://saint-laurent.dam.kering.com/m/10380f3b146fb833/eCom-600306CSV0J1000_A.jpg?v=2",
+  "images": [
+    "https://saint-laurent.dam.kering.com/m/10380f3b146fb833/eCom-600306CSV0J1000_A.jpg?v=2",
+    "https://saint-laurent.dam.kering.com/m/5ba7d66211a698cb/eCom-600306CSV0J1000_B.jpg?v=2",
+    "https://saint-laurent.dam.kering.com/asset/850879ff-cf21-4c49-853a-ee351cac16f9/eCom/600306CSV0J1000_C.jpg?v=2",
+    "https://saint-laurent.dam.kering.com/m/42d2c9317e9d64fd/eCom-600306CSV0J1000_D.jpg?v=2",
+    "https://saint-laurent.dam.kering.com/asset/6533c744-a08f-4c09-9168-5d7ae0275802/eCom/600306CSV0J1000_E.jpg?v=2",
+    "https://saint-laurent.dam.kering.com/asset/1db3f778-70cf-48d4-a7ac-6d3af375dbd4/eCom/600306CSV0J1000_H.jpg?v=3"
+  ],
+  "description": "The Saint Laurent Shopping Saint Laurent is a supple North/South tote in black calfskin leather, finished with a leather lining and polished gold-toned hardware. A magnetic snap tab secures the opening, while the detachable zipped pocket keeps smaller essentials organized. The signature Cassandre charm adds a discreet House detail to a practical silhouette designed for everyday carry.",
+  "specifications": {
+    "brand": "Saint Laurent",
+    "model": "Shopping Saint Laurent in Leather",
+    "reference": "600306CSV0J1000",
+    "material": "Calfskin leather and polyurethane",
+    "lining": "Leather",
+    "hardware": "Gold-toned metal",
+    "color": "Black",
+    "dimensions": "12.7 x 13.7 x 4.1 in",
+    "strap_drop": "9.2 in",
+    "closure": "Magnetic snap tab",
+    "interior": "Detachable zipped pocket",
+    "silhouette": "Supple North/South tote",
+    "country_of_origin": "Italy",
+    "retail_price_source": "Saint Laurent U.S. official product page",
+    "secondary_spec_source": "Saint Laurent official international product details",
+    "source": "https://www.ysl.com/en-us/pr/shopping-saint-laurent-in-leather-600306CSV0J1000.html"
+  },
+  "productType": "Handbag",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Women",
+  "brand": "Saint Laurent",
+  "brand_display_name": "Saint Laurent",
+  "authenticityGuaranteed": true,
+  "authenticity_badge": "Authenticity Guaranteed",
+  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+  "image_views": {
+    "front_main": "images[0]",
+    "left_side": "images[3]",
+    "right_side": "images[5]",
+    "back": "images[2]",
+    "overhead": "images[1]",
+    "additional": [
+      "images[4]"
+    ]
+  }
+},
+{
+  "id": 272,
+  "name": "Saint Laurent LE 5 À 7 Supple Large in Grained Leather — Black",
+  "category": "accessories",
+  "retail price": 3200,
+  "sale price": 1499.99,
+  "pre-owned price": 1199.99,
+  "new price": 1499.99,
+  "condition": "New",
+  "condition_options": [
+    "New",
+    "Pre-owned"
+  ],
+  "default_condition": "New",
+  "image": "https://saint-laurent.dam.kering.com/asset/7410b35f-d6b7-4d20-9f96-d58d3ebc9250/eCom/850545AAAUQ1000_A.jpg?v=1",
+  "images": [
+    "https://saint-laurent.dam.kering.com/asset/7410b35f-d6b7-4d20-9f96-d58d3ebc9250/eCom/850545AAAUQ1000_A.jpg?v=1",
+    "https://saint-laurent.dam.kering.com/asset/dccb412d-33d8-41ed-9125-e0b68d2d0bc5/eCom/850545AAAUQ1000_B.jpg?v=1",
+    "https://saint-laurent.dam.kering.com/asset/232866fb-4bd8-479c-9b08-aa0a55d305c6/eCom/850545AAAUQ1000_C.jpg?v=1",
+    "https://saint-laurent.dam.kering.com/asset/bfdf2e1b-5999-44a9-8e11-e233305bb879/eCom/850545AAAUQ1000_D.jpg?v=1",
+    "https://saint-laurent.dam.kering.com/asset/723adfbc-3f3a-4b35-90c4-af05d09f51ea/Original-Ecom/850545AAAUQ1000_Y.jpg?v=1"
+  ],
+  "description": "The large Saint Laurent LE 5 À 7 Supple is a roomy interpretation of the House's signature hobo silhouette. Crafted from finely grained calfskin and lined in suede, it is organized into two main compartments with an interior zip pocket. A leather tab closure decorated with the Cassandre secures the open-top design, while the adjustable strap provides flexible shoulder carry.",
+  "specifications": {
+    "brand": "Saint Laurent",
+    "model": "LE 5 À 7 Supple Large",
+    "reference": "850545AAAUQ1000",
+    "material": "Calfskin leather",
+    "lining": "Suede",
+    "hardware": "Bronze-toned metal",
+    "color": "Black",
+    "dimensions": "11.8 x 12.2 x 5.1 in (30 x 31 x 13 cm)",
+    "strap_drop": "11.8 in / 30 cm",
+    "closure": "Open top with Cassandre hook closure",
+    "interior": "Two main compartments and one zip pocket",
+    "strap": "Adjustable shoulder strap",
+    "country_of_origin": "Italy",
+    "alternate_style_id": "753837AAAUQ1000",
+    "retail_price_source": "Saint Laurent U.S. official product page",
+    "secondary_spec_source": "Saint Laurent official international product details",
+    "source": "https://www.ysl.com/en-us/pr/le-5-a-7-supple-large-in-grained-leather-814052918.html"
+  },
+  "productType": "Handbag",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Women",
+  "brand": "Saint Laurent",
+  "brand_display_name": "Saint Laurent",
+  "authenticityGuaranteed": true,
+  "authenticity_badge": "Authenticity Guaranteed",
+  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+  "image_views": {
+    "front_main": "images[0]",
+    "left_side": "images[3]",
+    "right_side": "images[4]",
+    "back": "images[1]",
+    "overhead": "images[2]"
+  }
+}
 ];
