@@ -675,119 +675,6 @@ const products = [
     "gender": "Unisex"
   },
   {
-    "id": 60,
-    "name": "2021 American Liberty Bronco 1 OZ Gold $100 Coin",
-    "category": "artandcollectibles",
-    "retail price": 19999.99,
-    "sale price": 5999.99,
-    "image": "https://cdn11.bigcommerce.com/s-ojbexn9zb6/images/stencil/1500x1500/products/189262/237437/2021-american-liberty-high-relief-gold-coin-obverse__48730.1767536143.jpg?c=1",
-    "description": "The 2021 American Liberty High Relief Gold Coin is the fifth coin in the American Liberty series. Since its debut in 2015, the American Liberty Gold Coin and Silver Medal Program features coins and medals with modern depictions of allegorical Liberty on the obverse. The reverse features complementary eagle designs. The designs represent what liberty means to each of us individually as Americans, or collectively as a nation.",
-    "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477808267.coreimg.jpeg/1746477874968/2021-american-liberty-high-relief-gold-coin-reverse.jpeg"
-    ],
-    "specifications": {
-      "brand": "US Mint",
-      "material": "24K Gold",
-      "dimensions": "30.61mm Diameter x 2.45mm Thickness",
-      "weight": "1.000 troy oz (31.108 grams)",
-      "edition": "High Relief Limited Edition Proof",
-      "authenticity": "Comes with Certificate of Authenticity & US Mint Presentation Case",
-      "finish": "Proof finish with frosted devices and mirror-like fields",
-      "country_of_mint": "United States Mint (West Point)",
-      "purity": ".9999 Fine Gold",
-      "framed": "No"
-    },
-    "age_group": "Adult",
-    "gender": "Unisex",
-    "brand": "US Mint",
-    "brand_display_name": "US Mint",
-    "brand_tier": "luxury",
-    "luxury_brand": true,
-    "authenticityGuaranteed": true,
-    "authenticity_badge": "Authenticity Guaranteed",
-    "brand_source": "U.S. Mint"
-  },
-  {
-    "id": 61,
-    "name": "Random Year American Buffalo 1 OZ Gold $50 Coin",
-    "category": "artandcollectibles",
-    "retail price": 7999.99,
-    "sale price": 4999.99,
-    "pre-owned price": 3999.99,
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwf875f1a3/images/hi-res/coin-programs/American-Buffalo/26el_c.jpg?sw=1200&sh=1200&sm=fit",
-    "description": "The rugged designs featured on the iconic Buffalo Nickel have never fallen out of favor with collectors who have proven time and time again their love for the romance of the Wild West that the coin epitomizes. The series ended in 1938 but was not forgotten. The design appears each year on the United States Mint's spectacular $50 Gold Buffalo coin, and now the 2026 Gold Buffalos are getting ready to rumble out of The Mint and stampede their way into your collection!",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwf875f1a3/images/hi-res/coin-programs/American-Buffalo/26el_c.jpg?sw=1200&sh=1200&sm=fit",
-      "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-obverse.jpg",
-      "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-reverse.jpg",
-      "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof.jpg",
-      "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-both-cases.jpg",
-      "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-case.jpg"
-    ],
-    "specifications": {
-      "brand": "US Mint",
-      "material": "24K Gold",
-      "dimensions": "32.7mm Diameter x 2.95mm Thickness",
-      "weight": "1.000 troy oz (31.108 grams)",
-      "edition": "Annual Release Proof Collection",
-      "authenticity": "Comes with Certificate of Authenticity & US Mint Custom Box",
-      "finish": "Glistening Proof finish",
-      "country_of_mint": "United States Mint (West Point)",
-      "purity": ".9999 Fine Gold",
-      "framed": "No"
-    },
-    "productType": "Coin",
-    "inventory": 78,
-    "age_group": "Adult",
-    "gender": "Unisex",
-    "brand": "US Mint",
-    "brand_display_name": "US Mint",
-    "brand_tier": "luxury",
-    "luxury_brand": true,
-    "authenticityGuaranteed": true,
-    "authenticity_badge": "Authenticity Guaranteed",
-    "brand_source": "U.S. Mint"
-  },
-  {
-    "id": 62,
-    "name": "2026 American Eagle 1 OZ Gold $50 Coin",
-    "category": "artandcollectibles",
-    "retail price": 7499.99,
-    "sale price": 5799.99,
-    "pre-owned price": 3749.99,
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw39628b9a/images/hi-res/coin-programs/American-Eagle/26eb_c.jpg?sw=1200&sh=1200&sm=fit",
-    "description": "The 2026 American Eagle One Ounce Gold Proof Coin celebrates the 250th anniversary of our Nation's founding with this limited-edition release! Includes anti-counterfeit variable reeding. Struck at the United States Mint facility at West Point. Quantities are limited, don't miss this golden opportunity for this special one-year only edition!",
-    "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw39628b9a/images/hi-res/coin-programs/American-Eagle/26eb_c.jpg?sw=1200&sh=1200&sm=fit",
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw9db3e08e/images/hi-res/coin-programs/American-Eagle/26eb_b.jpg?sw=1200&sh=1200&sm=fit",
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw061f3645/images/hi-res/coin-programs/American-Eagle/26eb_a.jpg?sw=1200&sh=1200&sm=fit",
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw581d899d/images/hi-res/coin-programs/American-Eagle/26eb_f.jpg?sw=1200&sh=1200&sm=fit",
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwcb096fb0/images/hi-res/coin-programs/American-Eagle/26eb_g.jpg?sw=1200&sh=1200&sm=fit"
-    ],
-    "specifications": {
-      "brand": "US Mint",
-      "material": "22K Gold (Standard American Gold Eagle alloy)",
-      "dimensions": "32.7mm Diameter x 2.87mm Thickness",
-      "weight": "1.000 troy oz (33.931 grams total weight)",
-      "edition": "Annual Collector Proof (Limited Edition 250th Anniversary)",
-      "authenticity": "Comes with Certificate of Authenticity & West Point Mint Box",
-      "finish": "Frosted Proof with high-relief details",
-      "country_of_mint": "United States Mint (West Point)",
-      "purity": ".9167 Gold (.9999 Fine Gold Content balance)",
-      "framed": "No"
-    },
-    "inventory": 91,
-    "age_group": "Adult",
-    "gender": "Unisex",
-    "brand": "US Mint",
-    "brand_display_name": "US Mint",
-    "brand_tier": "luxury",
-    "luxury_brand": true,
-    "authenticityGuaranteed": true,
-    "authenticity_badge": "Authenticity Guaranteed",
-    "brand_source": "U.S. Mint"
-  },
-  {
     "id": 29,
     "name": "Wall Art Set",
     "category": "artandcollectibles",
@@ -1599,6 +1486,119 @@ const products = [
     "gender": "Unisex"
   },
   {
+    "id": 60,
+    "name": "2021 American Liberty Bronco 1 OZ Gold $100 Coin",
+    "category": "artandcollectibles",
+    "retail price": 19999.99,
+    "sale price": 5999.99,
+    "image": "https://cdn11.bigcommerce.com/s-ojbexn9zb6/images/stencil/1500x1500/products/189262/237437/2021-american-liberty-high-relief-gold-coin-obverse__48730.1767536143.jpg?c=1",
+    "description": "The 2021 American Liberty High Relief Gold Coin is the fifth coin in the American Liberty series. Since its debut in 2015, the American Liberty Gold Coin and Silver Medal Program features coins and medals with modern depictions of allegorical Liberty on the obverse. The reverse features complementary eagle designs. The designs represent what liberty means to each of us individually as Americans, or collectively as a nation.",
+    "images": [
+      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477808267.coreimg.jpeg/1746477874968/2021-american-liberty-high-relief-gold-coin-reverse.jpeg"
+    ],
+    "specifications": {
+      "brand": "US Mint",
+      "material": "24K Gold",
+      "dimensions": "30.61mm Diameter x 2.45mm Thickness",
+      "weight": "1.000 troy oz (31.108 grams)",
+      "edition": "High Relief Limited Edition Proof",
+      "authenticity": "Comes with Certificate of Authenticity & US Mint Presentation Case",
+      "finish": "Proof finish with frosted devices and mirror-like fields",
+      "country_of_mint": "United States Mint (West Point)",
+      "purity": ".9999 Fine Gold",
+      "framed": "No"
+    },
+    "age_group": "Adult",
+    "gender": "Unisex",
+    "brand": "US Mint",
+    "brand_display_name": "US Mint",
+    "brand_tier": "luxury",
+    "luxury_brand": true,
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "brand_source": "U.S. Mint"
+  },
+  {
+    "id": 61,
+    "name": "Random Year American Buffalo 1 OZ Gold $50 Coin",
+    "category": "artandcollectibles",
+    "retail price": 7999.99,
+    "sale price": 4999.99,
+    "pre-owned price": 3999.99,
+    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwf875f1a3/images/hi-res/coin-programs/American-Buffalo/26el_c.jpg?sw=1200&sh=1200&sm=fit",
+    "description": "The rugged designs featured on the iconic Buffalo Nickel have never fallen out of favor with collectors who have proven time and time again their love for the romance of the Wild West that the coin epitomizes. The series ended in 1938 but was not forgotten. The design appears each year on the United States Mint's spectacular $50 Gold Buffalo coin, and now the 2026 Gold Buffalos are getting ready to rumble out of The Mint and stampede their way into your collection!",
+    "images": [
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwf875f1a3/images/hi-res/coin-programs/American-Buffalo/26el_c.jpg?sw=1200&sh=1200&sm=fit",
+      "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-obverse.jpg",
+      "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-reverse.jpg",
+      "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof.jpg",
+      "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-both-cases.jpg",
+      "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-case.jpg"
+    ],
+    "specifications": {
+      "brand": "US Mint",
+      "material": "24K Gold",
+      "dimensions": "32.7mm Diameter x 2.95mm Thickness",
+      "weight": "1.000 troy oz (31.108 grams)",
+      "edition": "Annual Release Proof Collection",
+      "authenticity": "Comes with Certificate of Authenticity & US Mint Custom Box",
+      "finish": "Glistening Proof finish",
+      "country_of_mint": "United States Mint (West Point)",
+      "purity": ".9999 Fine Gold",
+      "framed": "No"
+    },
+    "productType": "Coin",
+    "inventory": 78,
+    "age_group": "Adult",
+    "gender": "Unisex",
+    "brand": "US Mint",
+    "brand_display_name": "US Mint",
+    "brand_tier": "luxury",
+    "luxury_brand": true,
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "brand_source": "U.S. Mint"
+  },
+  {
+    "id": 62,
+    "name": "2026 American Eagle 1 OZ Gold $50 Coin",
+    "category": "artandcollectibles",
+    "retail price": 7499.99,
+    "sale price": 5799.99,
+    "pre-owned price": 3749.99,
+    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw39628b9a/images/hi-res/coin-programs/American-Eagle/26eb_c.jpg?sw=1200&sh=1200&sm=fit",
+    "description": "The 2026 American Eagle One Ounce Gold Proof Coin celebrates the 250th anniversary of our Nation's founding with this limited-edition release! Includes anti-counterfeit variable reeding. Struck at the United States Mint facility at West Point. Quantities are limited, don't miss this golden opportunity for this special one-year only edition!",
+    "images": [
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw39628b9a/images/hi-res/coin-programs/American-Eagle/26eb_c.jpg?sw=1200&sh=1200&sm=fit",
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw9db3e08e/images/hi-res/coin-programs/American-Eagle/26eb_b.jpg?sw=1200&sh=1200&sm=fit",
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw061f3645/images/hi-res/coin-programs/American-Eagle/26eb_a.jpg?sw=1200&sh=1200&sm=fit",
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw581d899d/images/hi-res/coin-programs/American-Eagle/26eb_f.jpg?sw=1200&sh=1200&sm=fit",
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwcb096fb0/images/hi-res/coin-programs/American-Eagle/26eb_g.jpg?sw=1200&sh=1200&sm=fit"
+    ],
+    "specifications": {
+      "brand": "US Mint",
+      "material": "22K Gold (Standard American Gold Eagle alloy)",
+      "dimensions": "32.7mm Diameter x 2.87mm Thickness",
+      "weight": "1.000 troy oz (33.931 grams total weight)",
+      "edition": "Annual Collector Proof (Limited Edition 250th Anniversary)",
+      "authenticity": "Comes with Certificate of Authenticity & West Point Mint Box",
+      "finish": "Frosted Proof with high-relief details",
+      "country_of_mint": "United States Mint (West Point)",
+      "purity": ".9167 Gold (.9999 Fine Gold Content balance)",
+      "framed": "No"
+    },
+    "inventory": 91,
+    "age_group": "Adult",
+    "gender": "Unisex",
+    "brand": "US Mint",
+    "brand_display_name": "US Mint",
+    "brand_tier": "luxury",
+    "luxury_brand": true,
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "brand_source": "U.S. Mint"
+  },
+  {
     "id": 63,
     "name": "2017 American Liberty 1 OZ Gold $100 Coin",
     "category": "artandcollectibles",
@@ -1633,1422 +1633,6 @@ const products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "brand_source": "U.S. Mint"
-  },
-  {
-    "id": 297,
-    "name": "Sony Playstation 5 (Digital Version)",
-    "category": "entertainment",
-    "retail price": 599.99,
-    "sale price": 399.99,
-    "image": "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80",
-    "description": "The PS5 console unleashes new gaming possibilities that you never anticipated. Experience lightning fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D Audio, and an all-new generation of incredible PlayStation games. Lightning Speed Harness the power of a custom CPU, GPU, and SSD with Integrated I/O that rewrite the rules of what a PlayStation console can do. Stunning Games Marvel at incredible graphics and experience new PS5 features. Play a back catalog of supported PS4 games. Breathtaking Immersion Discover a deeper gaming experience with support for haptic feedback, adaptive triggers, and 3D Audio technology. Vertical stand sold separately. PS5 console (CFI-2100 model group â€“ slim). The CFI-2100 models are compatible with PS5 accessories for CFI-2000 products, including Console Covers (sold separately). 3D audio via built-in TV speakers or analog/USB stereo headphones. Set up and latest system software update required.  Internet connection required to pair Disc Drive and PS5 console upon setup.",
-    "images": [
-      "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80",
-      "https://target.scene7.com/is/image/Target/GUEST_d70f18e4-4f32-4eb5-85a5-03cbdbdebd54?wid=800&hei=800&qlt=80"
-    ],
-    "specifications": {
-      "brand": "Sony",
-      "storage": "825GB Custom High-Speed SSD (slim models have 1TB SSD)",
-      "resolution": "4K UHD Gaming, Up to 8K Output support",
-      "frame_rate": "Up to 120 FPS at 120Hz output",
-      "optical_drive": "4K UHD Blu-ray Disc Drive (removable on slim)",
-      "connectivity": "1x HDMI 2.1, 2x USB-C, 2x USB-A, Wi-Fi 6, Bluetooth 5.1, Ethernet",
-      "controllers_included": "1x DualSense Wireless Controller (White)",
-      "backward_compatible": "Yes, plays over 99% of PS4 disc and digital games",
-      "dimensions": "15.4in x 10.2in x 4.1in",
-      "weight": "9.9 lbs"
-    },
-    "pre-owned price": 299.99,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 298,
-    "name": "Men's Gucci Shirt",
-    "category": "men",
-    "retail price": 1499.99,
-    "sale price": 799.99,
-    "image": "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60",
-    "description": "A classic knit cotton shirt from Gucci, tailored for everyday style and casual comfort.",
-    "images": [
-      "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60",
-      "https://editorialist.com/thumbnails/600/2026/6/043/991/730/43991730~black_1782648216031_1.webp"
-    ],
-    "specifications": {
-      "brand": "Gucci",
-      "material": "100% Cotton",
-      "fit": "Regular Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Machine wash cold, tumble dry low",
-      "country_of_origin": "Italy",
-      "gender": "Men",
-      "style": "Casual / Designer",
-      "season": "All Season"
-    },
-    "sku": "BM-0061",
-    "productType": "Shirt",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 299,
-    "name": "Men's Gucci Coat",
-    "category": "men",
-    "retail price": 2499.99,
-    "sale price": 1499.99,
-    "image": "https://editorialist.com/thumbnail/600/2025/9/038/132/970/38132970~black_1782991430059_0.webp?width=600&quality=60",
-    "description": "A sleek winter coat from Gucci, styled with a windproof exterior shell and high-loft down insulation.",
-    "images": [
-      "https://editorialist.com/thumbnail/600/2025/9/038/132/970/38132970~black_1782991430059_0.webp?width=600&quality=60",
-      "https://editorialist.com/thumbnails/600/2025/9/038/132/970/38132970~black_1782991430059_1.webp",
-      "https://editorialist.com/thumbnails/600/2025/9/038/132/970/38132970~black_1782991430059_2.webp"
-    ],
-    "specifications": {
-      "brand": "Gucci",
-      "material": "100% Nappa Leather",
-      "fit": "Regular Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Dry clean only",
-      "country_of_origin": "Italy",
-      "gender": "Men",
-      "style": "Luxury Outerwear",
-      "season": "Winter / Fall"
-    },
-    "sku": "BM-0062",
-    "productType": "Coat",
-    "inventory": 1,
-    "pre-owned price": 999.99,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 300,
-    "name": "Men's Gucci Travel Bag",
-    "category": "accessories",
-    "retail price": 2999.99,
-    "sale price": 799.99,
-    "image": "https://img.the-fashion-square.com/32600bc847168fd4c3cdecfea82d3d87_1200.webp",
-    "description": "A refined leather handbag from Gucci with a structured silhouette and spacious compartments.",
-    "images": [
-      "https://img.the-fashion-square.com/32600bc847168fd4c3cdecfea82d3d87_1200.webp",
-      "https://img.the-fashion-square.com/5cee4cf0c110f3d3574268b5176e5439_1200.webp",
-      "https://img.the-fashion-square.com/64ff0427634130a99cbd779c3bf63831_1200.webp",
-      "https://img.the-fashion-square.com/277e5f4a6dd51add5782a5f594b8494d_1200.webp"
-    ],
-    "specifications": {
-      "brand": "Gucci",
-      "material": "100% Calfskin Saffiano Leather",
-      "dimensions": "20.5in x 11.8in x 10.2in",
-      "weight": "3.1 lbs",
-      "closure_type": "Zip closure",
-      "strap_type": "Detachable leather shoulder strap",
-      "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Men",
-      "brand_origin": "Italy"
-    },
-    "sku": "BM-0063",
-    "productType": "Travel Bag",
-    "inventory": 100,
-    "pre-owned price": 499.99,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 301,
-    "name": "Men's Gucci Wallet",
-    "category": "accessories",
-    "retail price": 199.99,
-    "sale price": 49.99,
-    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTv0I9wKzNdEqVXN_K7kgbBMs3DNj8iSI5Kls5x0Cz-i-k9QdmXtcBhPl8iZFm2R6arSH2QL2kSs4xJ2y8v7rK2kAsRw8fJ_Q",
-    "description": "A compact bi-fold leather wallet from Gucci, containing multiple card slots and cash sleeves.",
-    "images": [
-      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTv0I9wKzNdEqVXN_K7kgbBMs3DNj8iSI5Kls5x0Cz-i-k9QdmXtcBhPl8iZFm2R6arSH2QL2kSs4xJ2y8v7rK2kAsRw8fJ_Q",
-      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ4rie3X_qj8_KSKZItuXq3eRMk8gmbnqXVRBlUY_r9B2GmmeIMsqmhoNwVQ04MfRBlqBpov5zJOHx1li66aECdbkzGbwlH"
-    ],
-    "specifications": {
-      "brand": "Gucci",
-      "material": "Grained Leather",
-      "dimensions": "4.3in x 3.5in x 0.6in",
-      "weight": "0.2 lbs",
-      "closure_type": "Bi-fold",
-      "strap_type": "N/A",
-      "color_options": "Black, Brown",
-      "gender": "Men",
-      "brand_origin": "Italy"
-    },
-    "sku": "BM-0064",
-    "productType": "Wallet",
-    "inventory": 100,
-    "pre-owned price": 19.99,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 302,
-    "name": "Men's Gucci Leather Belt",
-    "category": "accessories",
-    "retail price": 599.99,
-    "sale price": 499.99,
-    "image": "https://images.stockx.com/images/Gucci-Double-G-Gold-Buckle-15W-Leather-Belt-Black-Studio-1.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&trimcolor=ffffff&updated_at=1606318953",
-    "description": "A classic leather belt from Gucci featuring a signature gold-plated brass buckle.",
-    "images": [
-      "https://images.stockx.com/images/Gucci-Double-G-Gold-Buckle-15W-Leather-Belt-Black-Studio-1.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&trimcolor=ffffff&updated_at=1606318953",
-      "https://images.stockx.com/images/Gucci-Double-G-Gold-Buckle-15W-Leather-Belt-Black-Studio-2.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&trimcolor=ffffff&updated_at=1606318953",
-      "https://images.stockx.com/images/Gucci-Double-G-Gold-Buckle-15W-Leather-Belt-Black-Studio-3.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&trimcolor=ffffff&updated_at=1606318954"
-    ],
-    "specifications": {
-      "brand": "Gucci",
-      "material": "100% Calfskin Leather",
-      "dimensions": "1.5in Width",
-      "weight": "0.4 lbs",
-      "closure_type": "Buckle closure",
-      "strap_type": "N/A",
-      "color_options": "Black / Gold",
-      "gender": "Men",
-      "brand_origin": "Italy"
-    },
-    "sku": "BM-0065",
-    "productType": "Belt",
-    "inventory": 100,
-    "pre-owned price": 199.99,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 303,
-    "name": "Men's Gucci Watch",
-    "category": "jewelry",
-    "retail price": 1999.99,
-    "sale price": 1249.99,
-    "image": "https://www.bezali.com/cdn/shop/products/YA126407_2048x.jpg?v=1604959027",
-    "description": "An exquisite luxury timepiece from Gucci, featuring Swiss precision movement and high-grade stainless steel casing.",
-    "images": [
-      "https://www.bezali.com/cdn/shop/products/YA126407_2048x.jpg?v=1604959027",
-      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSjYO5I6da3OKnvjF36LoIbYQB8aR_1Sd3PMKd_qHRVApOZL2Z4Z3BMZRup1_XEyOs3yEbsWkyKXb20LKO3um7E6_IRIeZPzQYQPmif7NFtxekYcKMZahnBVA"
-    ],
-    "specifications": {
-      "brand": "Gucci",
-      "material": "18K Gold Plated Stainless Steel",
-      "dial_size": "40mm Case",
-      "band_material": "Stainless Steel Link Bracelet",
-      "water_resistance": "100 meters (10 ATM)",
-      "movement": "Swiss Automatic Mechanical",
-      "chain_length": "N/A",
-      "gender": "Men",
-      "warranty": "5 Year Manufacturer Warranty"
-    },
-    "sku": "BM-0066",
-    "productType": "Watch",
-    "inventory": 100,
-    "pre-owned price": 799.99,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 304,
-    "name": "Men's Gucci Socks",
-    "category": "men",
-    "retail price": 149.99,
-    "sale price": 59.99,
-    "image": "https://editorialist.com/thumbnail/600/2026/7/044/053/702/44053702~flamedgren_1782894655224_0.webp?width=600&quality=60",
-    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
-    "images": [
-      "https://editorialist.com/thumbnail/600/2026/7/044/053/702/44053702~flamedgren_1782894655224_0.webp?width=600&quality=60"
-    ],
-    "specifications": {
-      "brand": "Gucci",
-      "material": "95% Cotton, 5% Spandex",
-      "fit": "Stretch Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Machine wash cold",
-      "country_of_origin": "Italy",
-      "gender": "Men"
-    },
-    "sku": "BM-0067",
-    "productType": "Socks",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 305,
-    "name": "Men's Gucci Underwear",
-    "category": "men",
-    "retail price": 99.99,
-    "sale price": 39.99,
-    "image": "https://editorialist.com/thumbnail/600/2026/7/044/217/913/44217913~black_1783044119714_0.webp?width=600&quality=60",
-    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
-    "images": [
-      "https://editorialist.com/thumbnail/600/2026/7/044/217/913/44217913~black_1783044119714_0.webp?width=600&quality=60"
-    ],
-    "specifications": {
-      "brand": "Gucci",
-      "material": "95% Cotton, 5% Spandex",
-      "fit": "Stretch Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Machine wash cold",
-      "country_of_origin": "Italy",
-      "gender": "Men"
-    },
-    "sku": "BM-0068",
-    "productType": "Underwear",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 306,
-    "name": "Men's Gucci Sweater",
-    "category": "men",
-    "retail price": 1999.99,
-    "sale price": 1299.99,
-    "image": "https://www.mytheresa.com/image/1094/1238/100/47/P01124224.jpg",
-    "description": "A premium designer knitwear piece from Gucci crafted with warm wool and cashmere fibers.",
-    "images": [
-      "https://www.mytheresa.com/image/1094/1238/100/47/P01124224.jpg",
-      "https://www.mytheresa.com/image/1094/1238/100/47/P01124224_d2.jpg",
-      "https://www.mytheresa.com/image/1094/1238/100/47/P01124224_d1.jpg"
-    ],
-    "specifications": {
-      "brand": "Gucci",
-      "material": "80% Wool, 20% Cashmere",
-      "fit": "Relaxed Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Dry clean only",
-      "country_of_origin": "Italy",
-      "gender": "Men",
-      "style": "Designer Knitwear",
-      "season": "Winter / Fall"
-    },
-    "sku": "BM-0069",
-    "productType": "Sweater",
-    "inventory": 100,
-    "pre-owned price": 799.99,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 307,
-    "name": "Men's Gucci Shorts",
-    "category": "men",
-    "retail price": 199.99,
-    "sale price": 49.99,
-    "image": "https://images.stockx.com/images/Gucci-Technical-Jersey-Shorts-Black.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1637771600",
-    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
-    "images": [
-      "https://images.stockx.com/images/Gucci-Technical-Jersey-Shorts-Black.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1637771600"
-    ],
-    "specifications": {
-      "brand": "Gucci",
-      "material": "100% Cotton",
-      "fit": "Regular Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Machine wash cold",
-      "country_of_origin": "Italy",
-      "gender": "Men",
-      "style": "Casual / Summer",
-      "season": "Summer"
-    },
-    "sku": "BM-0070",
-    "productType": "Shorts",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 308,
-    "name": "Men's Gucci Casual Pants",
-    "category": "men",
-    "retail price": 499.99,
-    "sale price": 99.99,
-    "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800",
-    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
-    "images": [
-      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800"
-    ],
-    "specifications": {
-      "brand": "Gucci",
-      "material": "100% Linen",
-      "fit": "Regular Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Machine wash cold",
-      "country_of_origin": "Italy",
-      "gender": "Men",
-      "style": "Casual / Summer",
-      "season": "Summer"
-    },
-    "sku": "BM-0071",
-    "productType": "Pants",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 309,
-    "name": "Men's Gucci Hooded Sweatshirt",
-    "category": "men",
-    "retail price": 599.99,
-    "sale price": 199.99,
-    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcROOVj3H0Mgwd5gCJsPJS0v26nNtAMmoDhnsKPC_vNMFd7MMUU",
-    "description": "A classic knit cotton shirt from Gucci, tailored for everyday style and casual comfort.",
-    "images": [
-      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcROOVj3H0Mgwd5gCJsPJS0v26nNtAMmoDhnsKPC_vNMFd7MMUU",
-      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSAuD16M7aEZzmnA8BEu_4VwVJ3XOqQVW05XLrygBtXwgCt7okq-iGHAxyp-RzlG3WOVhV8jYc",
-      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR0z-k46IYEjIgcSF4Mdqzhd-gUhwHpCv7z8uHVuHVZ6WZgD2xQOMj4T-4MPW2qy55uunV3ltg",
-      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQzELDviNEuxXXNbzw6pfPDxTN8Kdw0JxZzLOCagS_46weW4ZCO"
-    ],
-    "specifications": {
-      "brand": "Gucci",
-      "material": "100% Cotton",
-      "fit": "Regular Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Machine wash cold, tumble dry low",
-      "country_of_origin": "Italy",
-      "gender": "Men",
-      "style": "Casual / Designer",
-      "season": "All Season"
-    },
-    "sku": "BM-0072",
-    "productType": "Sweater",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 310,
-    "name": "Men's Gucci Jacket",
-    "category": "men",
-    "retail price": 2999.99,
-    "sale price": 399.99,
-    "image": "https://editorialist.com/thumbnails/600/2026/2/040/629/114/40629114~blue_1770370506523_0.webp",
-    "description": "A sleek winter coat from Gucci, styled with a windproof exterior shell and high-loft down insulation.",
-    "images": [
-      "https://editorialist.com/thumbnails/600/2026/2/040/629/114/40629114~blue_1770370506523_0.webp",
-      "https://editorialist.com/thumbnails/600/2026/2/040/629/114/40629114~blue_1770370506523_1.webp",
-      "https://editorialist.com/thumbnails/600/2026/2/040/629/114/40629114~blue_1770370506523_2.webp",
-      "https://editorialist.com/thumbnails/600/2026/2/040/629/114/40629114~blue_1770370506523_3.webp"
-    ],
-    "specifications": {
-      "brand": "Gucci",
-      "material": "100% Nappa Leather",
-      "fit": "Regular Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Dry clean only",
-      "country_of_origin": "Italy",
-      "gender": "Men",
-      "style": "Luxury Outerwear",
-      "season": "Winter / Fall"
-    },
-    "sku": "BM-0073",
-    "productType": "Jacket",
-    "inventory": 1,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 311,
-    "name": "Women's Gucci Shirt",
-    "category": "women",
-    "retail price": 799.99,
-    "sale price": 99.99,
-    "image": "https://editorialist.com/thumbnail/600/2026/5/042/711/333/42711333~navy_1783566016064_0.webp?width=600&quality=60",
-    "description": "A classic knit cotton shirt from Gucci, tailored for everyday style and casual comfort.",
-    "images": [
-      "https://editorialist.com/thumbnail/600/2026/5/042/711/333/42711333~navy_1783566016064_0.webp?width=600&quality=60"
-    ],
-    "specifications": {
-      "brand": "Gucci",
-      "material": "100% Cotton",
-      "fit": "Regular Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Machine wash cold, tumble dry low",
-      "country_of_origin": "Italy",
-      "gender": "Women",
-      "style": "Casual / Designer",
-      "season": "All Season"
-    },
-    "sku": "BM-0074",
-    "productType": "Shirt",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 312,
-    "name": "Women's Burberry Shirt",
-    "category": "women",
-    "retail price": 499.99,
-    "sale price": 79.99,
-    "image": "https://is4.fwrdassets.com/images/p/fw/zs/BURF-WS205_V1.jpg",
-    "description": "A classic knit cotton shirt from Burberry, tailored for everyday style and casual comfort.",
-    "images": [
-      "https://is4.fwrdassets.com/images/p/fw/zs/BURF-WS205_V1.jpg",
-      "https://is4.fwrdassets.com/images/p/fw/zs/BURF-WS205_V4.jpg",
-      "https://is4.fwrdassets.com/images/p/fw/zs/BURF-WS205_V2.jpg",
-      "https://is4.fwrdassets.com/images/p/fw/zs/BURF-WS205_V3.jpg"
-    ],
-    "specifications": {
-      "brand": "Burberry",
-      "material": "100% Cotton",
-      "fit": "Regular Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Machine wash cold, tumble dry low",
-      "country_of_origin": "Imported",
-      "gender": "Women",
-      "style": "Casual / Designer",
-      "season": "All Season"
-    },
-    "sku": "BM-0075",
-    "productType": "Shirt",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 313,
-    "name": "Canon T7 Rebel EOS",
-    "category": "electronics",
-    "retail price": 499.99,
-    "sale price": 199.99,
-    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6323/6323759_sd.jpg;maxHeight=1920;maxWidth=900?format=webp",
-    "description": "EF-S 18-55mm f/3.5-5.6 standard zoom provides versatility\nDesigned with Canon's optical image stabilizer technology. Expands picture-taking possibilities any time slow shutter speeds are needed.\n\nEF 75-300mm f/4-5.6 4x telephoto zoom lens to entry into telephoto photography\nWell-suited for sports and other applications requiring fast AF. A DC motor is used to power the AF.",
-    "images": [
-      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6323/6323759_sd.jpg;maxHeight=1920;maxWidth=900?format=webp"
-    ],
-    "specifications": {
-      "brand": "Canon",
-      "material": "Metal"
-    },
-    "sku": "BM-0076",
-    "productType": "Camera",
-    "inventory": 10,
-    "age_group": "Adult",
-    "gender": "Unisex"
-  },
-  {
-    "id": 314,
-    "name": "Women's Dolce & Gabbana Slippers",
-    "category": "women",
-    "retail price": 999.99,
-    "sale price": 399.99,
-    "image": "https://editorialist.com/thumbnails/600/2026/5/042/290/122/42290122~brown_1778149407665_3.webp",
-    "description": "Dolce & Gabbana presents these shearling slippers featuring a round toe, open-back design, and a branded insole. The slippers are embellished with luxurious shearling for added warmth and style. The branded insole ensures comfort and showcases the designer's signature touch. This slip-on style offers ease of wear, making them a perfect choice for relaxed yet sophisticated lounging.",
-    "images": [
-      "https://editorialist.com/thumbnails/600/2026/5/042/290/122/42290122~brown_1778149407665_3.webp"
-    ],
-    "specifications": {
-      "brand": "Dolce & Gabbana",
-      "material": "Cotton"
-    },
-    "sku": "BM-0077",
-    "productType": "Slippers",
-    "inventory": 400,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 315,
-    "name": "Men's Adidas Snapback",
-    "category": "accessories",
-    "retail price": 19.99,
-    "sale price": 14.99,
-    "image": "https://images.footballfanatics.com/adidas-originals/mens-white-adidas-originals-emblem-20-snapback-hat_ss5_p-203433842+pv-1+u-i1gaoysxxtnyakdrsmtr+v-6bbfwluskdiwva5s8mes.jpg?_hv=2&w=1018",
-    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
-    "images": [
-      "https://images.footballfanatics.com/adidas-originals/mens-white-adidas-originals-emblem-20-snapback-hat_ss5_p-203433842+pv-1+u-i1gaoysxxtnyakdrsmtr+v-6bbfwluskdiwva5s8mes.jpg?_hv=2&w=1018",
-      "https://images.footballfanatics.com/adidas-originals/mens-white-adidas-originals-emblem-20-snapback-hat_ss5_p-203433842+pv-3+u-i1gaoysxxtnyakdrsmtr+v-i1rlqonorpd4sdp5dthk.jpg?_hv=2&w=1018",
-      "https://images.footballfanatics.com/adidas-originals/mens-white-adidas-originals-emblem-20-snapback-hat_ss5_p-203433842+pv-2+u-i1gaoysxxtnyakdrsmtr+v-77rcjzhbs7v2pvy1dhlu.jpg?_hv=2&w=1018"
-    ],
-    "specifications": {
-      "brand": "Adidas",
-      "material": "Premium construction material"
-    },
-    "sku": "BM-0078",
-    "productType": "Snapback",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 316,
-    "name": "Women's Burberry Handbag",
-    "category": "accessories",
-    "retail price": 2499.99,
-    "sale price": 999.99,
-    "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5499473_100296_m",
-    "description": "A refined leather handbag from Burberry with a structured silhouette and spacious compartments.",
-    "images": [
-      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5499473_100296_m",
-      "https://cdn-images.farfetch-contents.com/32/55/06/24/32550624_62919687_1000.jpg",
-      "https://cdn-images.farfetch-contents.com/32/55/06/24/32550624_62919719_1000.jpg",
-      "https://cdn-images.farfetch-contents.com/32/55/06/24/32550624_62919658_1000.jpg",
-      "https://cdn-images.farfetch-contents.com/32/55/06/24/32550624_62919664_1000.jpg"
-    ],
-    "specifications": {
-      "brand": "Burberry",
-      "material": "100% Leather",
-      "dimensions": "11.0in x 7.5in x 4.0in",
-      "weight": "1.1 lbs",
-      "closure_type": "Chain latch closure",
-      "strap_type": "Adjustable chain crossbody strap",
-      "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Women",
-      "brand_origin": "Italy"
-    },
-    "sku": "BM-0079",
-    "productType": "Handbag",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 317,
-    "name": "Women's Celine Handbag",
-    "category": "accessories",
-    "retail price": 2499.99,
-    "sale price": 999.99,
-    "image": "https://image.celine.com/c608082db4ab6ee7/original/118113GG2-01RC_1_SPR25_P1_W.tif?im=Resize=(900)",
-    "description": "A refined leather handbag from Celine with a structured silhouette and spacious compartments.",
-    "images": [
-      "https://image.celine.com/c608082db4ab6ee7/original/118113GG2-01RC_1_SPR25_P1_W.tif?im=Resize=(900)",
-      "https://image.celine.com/f4816010a1343abf/original/118113GG2-01RC_2_SPR25_P1_W.tif?im=Resize=(900)",
-      "https://image.celine.com/12edc6570452414c/original/118113GG2-01RC_3_SPR25_P1_W.tif?im=Resize=(900)",
-      "https://image.celine.com/d60781e74c535b01/original/118113GG2-01RC_4_SPR25_P1_W.tif?im=Resize=(900)",
-      "https://image.celine.com/29b3905478b8e799/original/118113GG2-01RC_5_SPR25_P1_W.tif?im=Resize=(900)"
-    ],
-    "specifications": {
-      "brand": "Celine",
-      "material": "100% Calfskin Saffiano Leather",
-      "dimensions": "11.0in x 7.5in x 4.0in",
-      "weight": "1.2 lbs",
-      "closure_type": "Magnetic flap closure",
-      "strap_type": "Adjustable chain crossbody strap",
-      "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Women",
-      "brand_origin": "Italy"
-    },
-    "sku": "BM-0080",
-    "productType": "Handbag",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 318,
-    "name": "Samsung Wireless Headphones",
-    "category": "electronics",
-    "retail price": 79.99,
-    "sale price": 49.99,
-    "image": "https://i5.walmartimages.com/seo/Wireless-Headphones-for-Samsung-Galaxy-S23-S22-S21-S20-Ultra-Plus-Foldable-Headset-w-Mic-Hands-free-Earphones-Earbuds-Over-Ear_52440e5a-7f91-4838-bb30-ad7731263d77.76beccc25ae7160ad92777a4e70dc8cc.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
-    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
-    "images": [
-      "https://i5.walmartimages.com/seo/Wireless-Headphones-for-Samsung-Galaxy-S23-S22-S21-S20-Ultra-Plus-Foldable-Headset-w-Mic-Hands-free-Earphones-Earbuds-Over-Ear_52440e5a-7f91-4838-bb30-ad7731263d77.76beccc25ae7160ad92777a4e70dc8cc.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/49f2be71-6924-4e8d-b3b3-b422c653e747.fbaad283b8bbdc1e49fa6cfff1fdc79c.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/74c58236-c9e8-4e34-b584-5f99da85c1d5.65331ca9cad4adefaa96443925065385.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
-    ],
-    "specifications": {
-      "brand": "Samsung",
-      "material": "Premium construction material"
-    },
-    "sku": "BM-0081",
-    "productType": "Headphones",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Unisex"
-  },
-  {
-    "id": 319,
-    "name": "Clipboard",
-    "category": "accessories",
-    "retail price": 1.99,
-    "sale price": 0.99,
-    "image": "https://pipevet.com/media/catalog/product/p/a/parclipboard.jpg",
-    "description": "A sturdy wooden clipboard with a strong steel tension clip, ideal for work, classroom, or office note-taking.",
-    "images": [
-      "https://pipevet.com/media/catalog/product/p/a/parclipboard.jpg",
-      "https://images.unsplash.com/photo-1762341104168-63ddb56e9805?w=800"
-    ],
-    "specifications": {
-      "brand": "Papermate",
-      "material": "Tempered Wood & Steel Clip",
-      "dimensions": "9in x 12.5in",
-      "weight": "0.45 lbs"
-    },
-    "sku": "BM-0082",
-    "productType": "Clipboard",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Unisex"
-  },
-  {
-    "id": 320,
-    "name": "HP Printer",
-    "category": "electronics",
-    "retail price": 29.99,
-    "sale price": 29.99,
-    "image": "https://i5.walmartimages.com/seo/HP-Envy-6152e-Wireless-All-in-One-Color-Photo-Inkjet-Printer-Scanner-Copier-3-Months-FREE-Ink_765c7219-720f-47e0-9c28-1d55f5cce032.48d1b0e9f9cfe7420953a64128ae55ce.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
-    "description": "A high-performance all-in-one printer from HP, supporting printing, copying, scanning, and fast wireless setup.",
-    "images": [
-      "https://i5.walmartimages.com/seo/HP-Envy-6152e-Wireless-All-in-One-Color-Photo-Inkjet-Printer-Scanner-Copier-3-Months-FREE-Ink_765c7219-720f-47e0-9c28-1d55f5cce032.48d1b0e9f9cfe7420953a64128ae55ce.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/a9b145c7-2810-4168-ab26-570fe03b6794.5d332b8068df302193d88132a210e9c6.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/78da91fa-6578-4103-81cb-1d85a8fb8ed2.902a5ef80614df8f792cae800cb32827.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/e9d2cf59-9a2e-4733-b9fd-ffabb100b0da.ac84f24172c882c79809ec911c8d3736.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/252c8762-bb56-4c56-a923-4d51e044ffce.67e795a047a0dc337b16d4f319319b5f.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF"
-    ],
-    "specifications": {
-      "brand": "HP",
-      "print_speed": "Up to 22 ppm (black), 18 ppm (color)",
-      "connectivity": "Wi-Fi, Bluetooth, USB, Ethernet",
-      "functions": "Print, Copy, Scan, Fax",
-      "max_resolution": "4800 x 1200 dpi",
-      "paper_capacity": "250 sheets",
-      "warranty": "1 Year Limited Hardware Warranty"
-    },
-    "sku": "BM-0083",
-    "productType": "Printer",
-    "inventory": 10,
-    "age_group": "Adult",
-    "gender": "Unisex"
-  },
-  {
-    "id": 321,
-    "name": "Men's Nike Snapback",
-    "category": "men",
-    "retail price": 29.99,
-    "sale price": 14.99,
-    "image": "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf80561c5/1000x1000/478/249/100/478249100a.jpg?sw=800&sh=1028&q=100",
-    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
-    "images": [
-      "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf80561c5/1000x1000/478/249/100/478249100a.jpg?sw=800&sh=1028&q=100",
-      "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw777235bd/1000x1000/478/249/100/478249100.jpg?sw=800&sh=1028&q=100",
-      "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw90d74e3d/1000x1000/478/249/100/478249100b.jpg?sw=800&sh=1028&q=100"
-    ],
-    "specifications": {
-      "brand": "Nike",
-      "material": "Premium construction material"
-    },
-    "sku": "BM-0084",
-    "productType": "Snapback",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 322,
-    "name": "Men's True Religion Snapback",
-    "category": "accessories",
-    "retail price": 79.99,
-    "sale price": 19.99,
-    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcReGDk-fOu0tz8U8vQNjD_oTW_eHTM2xnZ6qj9zr4Xf9e1W8UvnyYORtesYe0B892p_HO0PzfKCNnkoFIGrIKzsh_XvNPmFy3mm27YVAsEBczcyyTjpUpsE",
-    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
-    "images": [
-      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcReGDk-fOu0tz8U8vQNjD_oTW_eHTM2xnZ6qj9zr4Xf9e1W8UvnyYORtesYe0B892p_HO0PzfKCNnkoFIGrIKzsh_XvNPmFy3mm27YVAsEBczcyyTjpUpsE",
-      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRhhxJU-rNTvUYlDty1UmfXx09Wsqh5PuIgxikhGYpmvtiO6iZUnyQizmKRYdZgChokLJ_6s1SC6FOxmhshqHL_flfbD0xeN2P1FJUFA2cs3KIWaMVW1Kx9Lg"
-    ],
-    "specifications": {
-      "brand": "True Religion",
-      "material": "Premium construction material"
-    },
-    "sku": "BM-0085",
-    "productType": "Snapback",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 323,
-    "name": "Women's Coach Jacket",
-    "category": "women",
-    "retail price": 399.99,
-    "sale price": 79.99,
-    "image": "https://coach.scene7.com/is/image/Coach/cdk37_b5h_a0?$mobileProductV6$",
-    "description": "A sleek winter coat from Coach, styled with a windproof exterior shell and high-loft down insulation.",
-    "images": [
-      "https://coach.scene7.com/is/image/Coach/cdk37_b5h_a0?$mobileProductV6$",
-      "https://coach.scene7.com/is/image/Coach/cdk37_b5h_a45?$mobileProductV6$",
-      "https://coach.scene7.com/is/image/Coach/cdk37_b5h_a46?$mobileProductV6$"
-    ],
-    "specifications": {
-      "brand": "Coach",
-      "material": "Polyester & Nylon Shell",
-      "fit": "Regular Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Dry clean only",
-      "country_of_origin": "Italy",
-      "gender": "Women",
-      "style": "Luxury Outerwear",
-      "season": "Winter / Fall"
-    },
-    "sku": "BM-0086",
-    "productType": "Jacket",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 324,
-    "name": "Men's Guess Slippers",
-    "category": "men",
-    "retail price": 99.99,
-    "sale price": 49.99,
-    "image": "https://slimages.macysassets.com/is/image/MCY/products/4/optimized/33221164_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp",
-    "description": "Comfortable footwear from Guess, styled with refined leather detailing and a soft footbed.",
-    "images": [
-      "https://slimages.macysassets.com/is/image/MCY/products/4/optimized/33221164_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp",
-      "https://slimages.macysassets.com/is/image/MCY/products/5/optimized/33221135_fpx.tif?op_sharpen=1&wid=500&fit=fit",
-      "1&fmt=webp",
-      "https://slimages.macysassets.com/is/image/MCY/products/6/optimized/33221136_fpx.tif?op_sharpen=1&wid=500&fit=fit"
-    ],
-    "specifications": {
-      "brand": "Guess",
-      "material": "Shearling & Suede Leather",
-      "fit": "Standard Width, True to Size",
-      "sizes_available": "US 7, 8, 9, 10, 11",
-      "care_instructions": "Specialist leather or suede cleaner",
-      "country_of_origin": "Italy",
-      "gender": "Men"
-    },
-    "sku": "BM-0087",
-    "productType": "Slippers",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 325,
-    "name": "Men's Hermés Cologne",
-    "category": "accessories",
-    "retail price": 599.99,
-    "sale price": 99.99,
-    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRdppciVKyXtBI3GnH0jDO-CHizT75F7mJFKYgsuUk2tz--A5lKGmKybl6l6ps",
-    "description": "A sophisticated men's fragrance featuring fresh citrus notes blended with rich woody accords.",
-    "images": [
-      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRdppciVKyXtBI3GnH0jDO-CHizT75F7mJFKYgsuUk2tz--A5lKGmKybl6l6ps",
-      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTIGqw4H55iDHPyZ-lNVUxQW9WTrfuCSHV8NodYc1SP1R-QHTX7FWvRdx-bMA",
-      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQtIojTOzfz4NXb1MQgDgwQFMsB3DcTohD_7i7RtXZ7tBJ0CME0nB6qvPfb70sXw7oKPRR0rQBk"
-    ],
-    "specifications": {
-      "brand": "Hermés",
-      "type": "Eau de Cologne",
-      "size": "3.3 oz (100 ml)",
-      "scent_notes": "Grapefruit, Wood, Mineral Accord",
-      "concentration": "Cologne",
-      "country_of_origin": "France",
-      "gender": "Men"
-    },
-    "sku": "BM-0088",
-    "productType": "Cologne",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 326,
-    "name": "Men's Lacoste Hooded Sweatshirt",
-    "category": "men",
-    "retail price": 799.99,
-    "sale price": 99.99,
-    "image": "https://images.vestiairecollective.com/images/resized/w=2920,q=75,f=auto,/produit/navy-cotton-lacoste-jacket-40436010-1_6.jpg",
-    "description": "A classic knit cotton shirt from Lacoste, tailored for everyday style and casual comfort.",
-    "images": [
-      "https://images.vestiairecollective.com/images/resized/w=2920,q=75,f=auto,/produit/navy-cotton-lacoste-jacket-40436010-1_6.jpg"
-    ],
-    "specifications": {
-      "brand": "Lacoste",
-      "material": "100% Cotton",
-      "fit": "Regular Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Machine wash cold, tumble dry low",
-      "country_of_origin": "Italy",
-      "gender": "Men",
-      "style": "Casual / Designer",
-      "season": "All Season"
-    },
-    "sku": "BM-0089",
-    "productType": "Hoodie",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 327,
-    "name": "Men's Patek Philippe Watch",
-    "category": "jewelry",
-    "retail price": 13649999.99,
-    "sale price": 13599999.99,
-    "image": "https://watchxnyc.com/cdn/shop/files/watchxnyc-watch-default-title-patek-philippe-grand-complications-grandmaster-chime-black-time-calendar-diamond-dial-white-gold-reversible-case-leather-strap-49-4mm-6300-400g-001-31315235700917.jpg?v=1753988293&width=768",
-    "description": "An exquisite luxury timepiece from Patek Philippe, featuring Swiss precision movement and high-grade stainless steel casing.",
-    "images": [
-      "https://watchxnyc.com/cdn/shop/files/watchxnyc-watch-default-title-patek-philippe-grand-complications-grandmaster-chime-black-time-calendar-diamond-dial-white-gold-reversible-case-leather-strap-49-4mm-6300-400g-001-31315235700917.jpg?v=1753988293&width=768",
-      "https://www.hourstriker.com/core/images/dbitems/medium/patek-philippe-grand-complications-grandmaster-chime-haute-joaillerie-6300400g-3-22-2024.webp",
-      "https://cdn.thewatchpages.com/app/uploads/2023/10/03170001/patek-philippe-grand-complications-grandmaster-chime-haute-joaillerie-6300400g-001-3.jpeg",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Wg_fkW7imr7zYQZg4iacXphaRsZPE0h55Al_JTxHRVK95kHwgtjEOa4&s=10"
-    ],
-    "specifications": {
-      "brand": "Patek Philippe",
-      "material": "18K Gold Plated Stainless Steel",
-      "dial_size": "40mm Case",
-      "band_material": "Stainless Steel Link Bracelet",
-      "water_resistance": "100 meters (10 ATM)",
-      "movement": "Swiss Automatic Mechanical",
-      "chain_length": "N/A",
-      "gender": "Men",
-      "warranty": "5 Year Manufacturer Warranty"
-    },
-    "pre-owned price": 12999999.99,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 328,
-    "name": "Queen Size Bed Set With Memory Foam Mattress",
-    "category": "homeandappliances",
-    "retail price": 799.99,
-    "sale price": 199.99,
-    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800",
-    "description": "A premium furniture centerpiece designed with solid wood frames and high-density foam cushioning for home comfort.",
-    "images": [
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800"
-    ],
-    "specifications": {
-      "brand": "Bonds",
-      "material": "Solid Wood Frame & Premium Upholstery",
-      "dimensions": "Varying dimensions depending on set",
-      "weight": "180 lbs",
-      "color_options": "Charcoal, Beige, Slate",
-      "assembly_required": "Yes",
-      "warranty": "3 Year Limited Warranty"
-    },
-    "age_group": "Adult",
-    "gender": "Unisex"
-  },
-  {
-    "id": 329,
-    "name": "Sony Wireless Bluetooth Headphones",
-    "category": "electronics",
-    "retail price": 99.99,
-    "sale price": 59.99,
-    "image": "https://i5.walmartimages.com/seo/Sony-WH-CH520-Wireless-Bluetooth-Headphones-with-Microphone-Black_2bf4c6c6-fe00-4c7d-a96c-7377c4d22468.5c9df151b25b3a1328a6ed171566c71c.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
-    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
-    "images": [
-      "https://i5.walmartimages.com/seo/Sony-WH-CH520-Wireless-Bluetooth-Headphones-with-Microphone-Black_2bf4c6c6-fe00-4c7d-a96c-7377c4d22468.5c9df151b25b3a1328a6ed171566c71c.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/8f993e04-a18a-4ddc-98fd-90891962a117.04e852db72f22a7f356a01bea1f3d4b1.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/9ca0de9b-7f0c-4ee5-ac8e-e66af0eb714f.2571e1e0b3b46e0d122f12006a63cb86.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/7db3cb7f-c463-45cf-a99e-30e0756ccec1.12fac20fdc1c21a988389c1cb30f6051.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/598ab724-5c5b-486f-b475-7ac9fd0a3ed8.9e81de388b75b40638926171398707cb.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF"
-    ],
-    "specifications": {
-      "brand": "Sony",
-      "material": "Premium construction material"
-    },
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Unisex"
-  },
-  {
-    "id": 330,
-    "name": "Women's Burberry Winter Coat",
-    "category": "women",
-    "retail price": 2499.99,
-    "sale price": 1129.99,
-    "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5588120_100296_m",
-    "description": "A sleek winter coat from Burberry, styled with a windproof exterior shell and high-loft down insulation.",
-    "images": [
-      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5588120_100296_m",
-      "https://media.neimanmarcus.com/f_auto",
-      "q_auto:low",
-      "ar_4:5",
-      "c_fill",
-      "dpr_2.0",
-      "w_420/01/nm_5588120_100296_n",
-      "w_420/01/nm_5588120_100296_h",
-      "w_420/01/nm_5588120_100296_c",
-      "w_420/01/nm_5588120_100296_d"
-    ],
-    "specifications": {
-      "brand": "Burberry",
-      "material": "Polyester & Nylon Shell",
-      "fit": "Regular Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Dry clean only",
-      "country_of_origin": "Italy",
-      "gender": "Women",
-      "style": "Luxury Outerwear",
-      "season": "Winter / Fall"
-    },
-    "productType": "Luxury Outerwear",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 331,
-    "name": "Women's Yves Saint Laurent Handbag",
-    "category": "accessories",
-    "retail price": 2999.99,
-    "sale price": 1799.99,
-    "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5519293_100106_m",
-    "description": "A refined leather handbag from Yves Saint Laurent with a structured silhouette and spacious compartments.",
-    "images": [
-      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5519293_100106_m",
-      "https://media.neimanmarcus.com/f_auto",
-      "q_auto:low",
-      "ar_4:5",
-      "c_fill",
-      "dpr_2.0",
-      "w_420/01/nm_5519293_100106_d",
-      "w_420/01/nm_5519293_100106_b",
-      "w_420/01/nm_5519293_100106_c",
-      "w_420/01/nm_5519293_100106_z",
-      "w_420/01/nm_5519293_100106_a"
-    ],
-    "specifications": {
-      "brand": "Yves Saint Laurent",
-      "material": "100% Calfskin Saffiano Leather",
-      "dimensions": "11.0in x 7.5in x 4.0in",
-      "weight": "1.2 lbs",
-      "closure_type": "Magnetic flap closure",
-      "strap_type": "Adjustable chain crossbody strap",
-      "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Women",
-      "brand_origin": "Italy"
-    },
-    "inventory": 100,
-    "pre-owned price": 499.99,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 332,
-    "name": "Men's Gucci Polo Shirt",
-    "category": "men",
-    "retail price": 2499.99,
-    "sale price": 1129.99,
-    "image": "https://editorialist.com/thumbnail/600/2025/6/037/117/150/37117150~black_1750933752573_0.webp?width=600&quality=60",
-    "description": "A classic knit cotton shirt from Gucci, tailored for everyday style and casual comfort.",
-    "images": [
-      "https://editorialist.com/thumbnail/600/2025/6/037/117/150/37117150~black_1750933752573_0.webp?width=600&quality=60"
-    ],
-    "specifications": {
-      "brand": "Gucci",
-      "material": "100% Cotton",
-      "fit": "Regular Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Machine wash cold, tumble dry low",
-      "country_of_origin": "Italy",
-      "gender": "Men",
-      "style": "Casual / Designer",
-      "season": "All Season"
-    },
-    "productType": "Casual / Designer",
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 333,
-    "name": "Women's Hermés Bracelet",
-    "category": "jewelry",
-    "retail price": 999.99,
-    "sale price": 399.99,
-    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR_b3k4qxmqjlilEFOqj8l2bWz0Vg-td3nFhT-2wzegVHucN99_O9cpE_e6U6BSxZVgeQimfRZ45dpg7YcEraDrEVv6tx2rkA",
-    "description": "A polished signature bracelet from Hermés, designed to add a sophisticated touch to any outfit.",
-    "images": [
-      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR_b3k4qxmqjlilEFOqj8l2bWz0Vg-td3nFhT-2wzegVHucN99_O9cpE_e6U6BSxZVgeQimfRZ45dpg7YcEraDrEVv6tx2rkA",
-      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT_iWFY8KPzO4z5X9fEMbb8eBEiWWmdYIVdP_PL8QiNMb3KyOqfNayEkkdQ18SKf1NuDx4RAwZTK1G842a8d-9l0Z2XH28zHA"
-    ],
-    "specifications": {
-      "brand": "Hermés",
-      "material": "18K Gold Plated Brass",
-      "water_resistance": "Water Resistant",
-      "chain_length": "7.5 inches",
-      "gender": "Women",
-      "warranty": "1 Year Limited Warranty"
-    },
-    "productType": "Bracelet",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 334,
-    "name": "Sony Home Theater Projector",
-    "category": "homeandappliances",
-    "retail price": 599.99,
-    "sale price": 299.99,
-    "image": "https://images.crutchfieldonline.com/ImageHandler/trim/704/528/products/2022/14/158/g158W5000ES-o_other3.jpg",
-    "description": "A native 4K home theater projector by Sony, offering stunning cinematic brightness and sharp details.",
-    "images": [
-      "https://images.crutchfieldonline.com/ImageHandler/trim/704/528/products/2022/14/158/g158W5000ES-o_other3.jpg",
-      "https://images.crutchfieldonline.com/ImageHandler/trim/704/528/products/2022/14/158/g158W5000ES-F.jpg",
-      "https://images.unsplash.com/photo-1535016120720-40c646be5580?w=800"
-    ],
-    "specifications": {
-      "brand": "Sony",
-      "brightness": "2,000 Lumens",
-      "resolution": "Native 4K (4096 x 2160)",
-      "light_source": "Laser Diode",
-      "projection_size": "60in to 300in diagonal",
-      "ports": "2x HDMI 2.0b, 1x USB, 1x Ethernet",
-      "weight": "31 lbs",
-      "dimensions": "18.1in W x 7.9in H x 19.9in D",
-      "warranty": "3 Year Limited Warranty"
-    },
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Unisex"
-  },
-  {
-    "id": 335,
-    "name": "Women's Versace Crossbody Bag",
-    "category": "accessories",
-    "retail price": 1799.99,
-    "sale price": 799.99,
-    "image": "https://cdn-images.farfetch-contents.com/32/66/01/95/32660195_63083148_600.jpg",
-    "description": "A refined leather handbag from Versace with a structured silhouette and spacious compartments.",
-    "images": [
-      "https://cdn-images.farfetch-contents.com/32/66/01/95/32660195_63083148_600.jpg",
-      "https://cdn-images.farfetch-contents.com/32/66/01/95/32660195_63075310_600.jpg",
-      "https://cdn-images.farfetch-contents.com/32/66/01/95/32660195_63076375_600.jpg"
-    ],
-    "specifications": {
-      "brand": "Versace",
-      "material": "100% Calfskin Saffiano Leather",
-      "dimensions": "11.0in x 7.5in x 4.0in",
-      "weight": "1.2 lbs",
-      "closure_type": "Magnetic flap closure",
-      "strap_type": "Adjustable chain crossbody strap",
-      "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Women",
-      "brand_origin": "Italy"
-    },
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 336,
-    "name": "Men's Versace Loafers",
-    "category": "men",
-    "retail price": 2999.99,
-    "sale price": 399.99,
-    "image": "https://assets.levelshoes.com/cdn-cgi/image/width=720,height=1008,quality=85,format=webp/media/catalog/product/1/0/1012629-1a09123-1b00v_3.jpg?ts=20231124032014",
-    "description": "Comfortable footwear from Versace, styled with refined leather detailing and a soft footbed.",
-    "images": [
-      "https://assets.levelshoes.com/cdn-cgi/image/width=720,height=1008,quality=85,format=webp/media/catalog/product/1/0/1012629-1a09123-1b00v_3.jpg?ts=20231124032014",
-      "https://assets.levelshoes.com/cdn-cgi/image/width=720",
-      "height=1008",
-      "quality=85",
-      "format=webp/media/catalog/product/1/0/1012629-1a09123-1b00v_5.jpg?ts=20231124032014",
-      "format=webp/media/catalog/product/1/0/1012629-1a09123-1b00v_1.jpg?ts=20231124032014",
-      "format=webp/media/catalog/product/1/0/1012629-1a09123-1b00v_4.jpg?ts=20231124032014",
-      "format=webp/media/catalog/product/1/0/1012629-1a09123-1b00v_2.jpg?ts=20231124032014"
-    ],
-    "specifications": {
-      "brand": "Versace",
-      "material": "Shearling & Suede Leather",
-      "fit": "Standard Width, True to Size",
-      "sizes_available": "US 7, 8, 9, 10, 11",
-      "care_instructions": "Specialist leather or suede cleaner",
-      "country_of_origin": "Italy",
-      "gender": "Men"
-    },
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 337,
-    "name": "Men's Nike Travel Bag",
-    "category": "accessories",
-    "retail price": 99.99,
-    "sale price": 49.99,
-    "image": "https://dks.scene7.com/is/image/GolfGalaxy/21NIKUNKBRSLMDFF9TRVA_Black_Black_White?wid=600&qlt=70&hei=600&fit=constrain&fmt=webp&op_sharpen=1",
-    "description": "A refined leather handbag from Nike with a structured silhouette and spacious compartments.",
-    "images": [
-      "https://dks.scene7.com/is/image/GolfGalaxy/21NIKUNKBRSLMDFF9TRVA_Black_Black_White?wid=600&qlt=70&hei=600&fit=constrain&fmt=webp&op_sharpen=1",
-      "https://dks.scene7.com/is/image/GolfGalaxy/DH7710_010-BlackBlackWhite_OPN-alt1?wid=769&qlt=70&hei=769&fit=constrain&fmt=webp&op_sharpen=1",
-      "https://dks.scene7.com/is/image/GolfGalaxy/DH7710_010-BlackBlackWhite_OPN?wid=769&qlt=70&hei=769&fit=constrain&fmt=webp&op_sharpen=1",
-      "https://dks.scene7.com/is/image/GolfGalaxy/DH7710_010-BlackBlackWhite_SDE?wid=769&qlt=70&hei=769&fit=constrain&fmt=webp&op_sharpen=1",
-      "https://dks.scene7.com/is/image/GolfGalaxy/DH7710_010-BlackBlackWhite_BCK?wid=769&qlt=70&hei=769&fit=constrain&fmt=webp&op_sharpen=1"
-    ],
-    "specifications": {
-      "brand": "Nike",
-      "material": "100% Calfskin Saffiano Leather",
-      "dimensions": "20.5in x 11.8in x 10.2in",
-      "weight": "3.1 lbs",
-      "closure_type": "Zip closure",
-      "strap_type": "Detachable leather shoulder strap",
-      "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Men",
-      "brand_origin": "Italy"
-    },
-    "productType": "Travel Bag",
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 338,
-    "name": "Women's Hermés Epsom Birkin 30 Handbag",
-    "category": "accessories",
-    "retail price": 29999.99,
-    "sale price": 19999.99,
-    "image": "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7825_V1.jpg",
-    "description": "A refined leather handbag from Hermés with a structured silhouette and spacious compartments.",
-    "images": [
-      "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7825_V1.jpg",
-      "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7825_V2.jpg",
-      "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7825_V4.jpg",
-      "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7825_V3.jpg"
-    ],
-    "specifications": {
-      "brand": "Hermés",
-      "material": "100% Calfskin Saffiano Leather",
-      "dimensions": "11.0in x 7.5in x 4.0in",
-      "weight": "1.2 lbs",
-      "closure_type": "Magnetic flap closure",
-      "strap_type": "Adjustable chain crossbody strap",
-      "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Women",
-      "brand_origin": "Paris"
-    },
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 339,
-    "name": "Women's Yves Saint Laurent Handbag",
-    "category": "accessories",
-    "retail price": 3499.99,
-    "sale price": 1119.99,
-    "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_418/01/nm_4957234_100106_m",
-    "description": "A refined leather handbag from Yves Saint Laurent with a structured silhouette and spacious compartments.",
-    "images": [
-      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_418/01/nm_4957234_100106_m",
-      "https://saint-laurent.dam.kering.com/m/7673648721a01958/Medium2-801439AAEAX1000_F.jpg?v=1",
-      "https://media.neimanmarcus.com/f_auto",
-      "q_auto:low",
-      "ar_4:5",
-      "c_fill",
-      "dpr_2.0",
-      "w_418/01/nm_4957234_100106_b",
-      "https://saint-laurent.dam.kering.com/m/7c1118b1b358d47a/Medium2-801439AAEAX1000_D.jpg?v=1",
-      "https://saint-laurent.dam.kering.com/m/32f56814cf5ea274/Medium2-801439AAEAX1000_E.jpg?v=1",
-      "w_1200/01/nm_4957234_100106_c",
-      "https://saint-laurent.dam.kering.com/m/759c8aa016e3f201/Medium2-801439AAEAX1000_C.jpg?v=1",
-      "w_1200/01/nm_4957234_100106_z",
-      "w_418/01/nm_4957234_100106_a"
-    ],
-    "specifications": {
-      "brand": "Yves Saint Laurent",
-      "material": "100% Calfskin Saffiano Leather",
-      "dimensions": "11.0in x 7.5in x 4.0in",
-      "weight": "1.2 lbs",
-      "closure_type": "Magnetic flap closure",
-      "strap_type": "Adjustable chain crossbody strap",
-      "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Women",
-      "brand_origin": "Italy"
-    },
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 340,
-    "name": "Women's Chanel Sweater",
-    "category": "women",
-    "retail price": 2299.99,
-    "sale price": 399.99,
-    "image": "https://images.vestiairecollective.com/images/resized/w=375,q=75,f=auto,/produit/black-cashmere-chanel-knitwear-63591300-1_3.jpg",
-    "description": "A premium designer knitwear piece from Chanel crafted with warm wool and cashmere fibers.",
-    "images": [
-      "https://images.vestiairecollective.com/images/resized/w=375,q=75,f=auto,/produit/black-cashmere-chanel-knitwear-63591300-1_3.jpg",
-      "https://images.vestiairecollective.com/images/resized/w=480",
-      "q=75",
-      "f=auto",
-      "/produit/black-cashmere-chanel-knitwear-59301751-1_2.jpg"
-    ],
-    "specifications": {
-      "brand": "Chanel",
-      "material": "100% Cashmere",
-      "fit": "Relaxed Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Dry clean only",
-      "country_of_origin": "Italy",
-      "gender": "Women",
-      "style": "Designer Knitwear",
-      "season": "Winter / Fall"
-    },
-    "productType": "Designer Knitwear",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 341,
-    "name": "Men's Givenchy Sweater",
-    "category": "men",
-    "retail price": 2499.99,
-    "sale price": 599.99,
-    "image": "https://www.theoutnet.com/variants/images/46376663163101657/F/w920_q80.jpg",
-    "description": "A premium designer knitwear piece from Givenchy crafted with warm wool and cashmere fibers.",
-    "images": [
-      "https://www.theoutnet.com/variants/images/46376663163101657/F/w920_q80.jpg",
-      "https://www.theoutnet.com/variants/images/46376663163101657/R/w920_q80.jpg",
-      "https://www.theoutnet.com/variants/images/46376663163101657/E/w920_q80.jpg"
-    ],
-    "specifications": {
-      "brand": "Givenchy",
-      "material": "100% Cashmere",
-      "fit": "Relaxed Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Dry clean only",
-      "country_of_origin": "Italy",
-      "gender": "Men",
-      "style": "Designer Knitwear",
-      "season": "Winter / Fall"
-    },
-    "productType": "Designer Knitwear",
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 342,
-    "name": "Men's Burberry Bucket Hat",
-    "category": "accessories",
-    "retail price": 399.99,
-    "sale price": 59.99,
-    "image": "https://cdn-images.farfetch-contents.com/15/36/84/80/15368480_37224527_600.jpg",
-    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
-    "images": [
-      "https://cdn-images.farfetch-contents.com/15/36/84/80/15368480_37224527_600.jpg",
-      "https://images.stockx.com/images/Burberry-Check-Cotton-Canvas-Bucket-Hat-Birch-Brown.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1642447308",
-      "https://cdn-images.farfetch-contents.com/15/36/84/80/15368480_37224528_600.jpg",
-      "https://images.stockx.com/images/Burberry-Check-Cotton-Canvas-Bucket-Hat-Birch-Brown-2.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1642447308"
-    ],
-    "specifications": {
-      "brand": "Burberry",
-      "material": "Premium construction material"
-    },
-    "productType": "Hat",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 343,
-    "name": "LG 48\" Smart TV",
-    "category": "homeandappliances",
-    "retail price": 499.99,
-    "sale price": 299.99,
-    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/21afec55-4335-4253-8147-06dd44a6f68b.jpg;maxHeight=828;maxWidth=400?format=webp",
-    "description": "An ultra high-definition Smart TV featuring vivid colors, deep contrast, and advanced smart platform streaming.",
-    "images": [
-      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/21afec55-4335-4253-8147-06dd44a6f68b.jpg;maxHeight=828;maxWidth=400?format=webp",
-      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/70df9969-a281-429c-bb76-1c6ca121546e.jpg;maxHeight=828;maxWidth=400?format=webp"
-    ],
-    "specifications": {
-      "brand": "LG",
-      "display_tech": "4K UHD LED",
-      "screen_size": "55 Inch",
-      "refresh_rate": "120Hz",
-      "smart_platform": "webOS",
-      "ports": "4x HDMI 2.1, 2x USB, 1x Ethernet",
-      "weight": "28 lbs",
-      "dimensions": "48.3in W x 28.0in H x 1.8in D",
-      "warranty": "2 Year Manufacturer Warranty"
-    },
-    "age_group": "Adult",
-    "gender": "Unisex"
-  },
-  {
-    "id": 344,
-    "name": "Apple iPhone 17 Pro Max",
-    "category": "electronics",
-    "retail price": 2499.99,
-    "sale price": 999.99,
-    "image": "https://www.visible.com/shop/assets/images/shop/webp/iPhone_17_Pro_Max_COS_1.webp",
-    "description": "iPhone 17 Pro Max. The most powerful iPhone ever. Brilliant 6.9-inch display, A19 Pro chip, advanced 48MP camera system, and best-ever battery life.",
-    "images": [
-      "https://www.visible.com/shop/assets/images/shop/webp/iPhone_17_Pro_Max_COS_1.webp",
-      "https://www.visible.com/shop/assets/images/shop/webp/iPhone_17_Pro_Max_COS_2.webp"
-    ],
-    "specifications": {
-      "brand": "Apple",
-      "processor": "Apple A19 Pro Chip",
-      "ram": "12GB Unified Memory",
-      "storage": "256GB / 512GB PCIe NVMe SSD",
-      "display": "6.9-inch Super Retina XDR OLED Display",
-      "graphics": "Integrated 6-Core Apple GPU",
-      "battery_life": "Up to 33 hours video playback",
-      "operating_system": "iOS 26",
-      "ports": "USB-C (USB 3.0)",
-      "weight": "0.48 lbs",
-      "color": "Desert Titanium, Natural Titanium"
-    },
-    "productType": "Phone",
-    "age_group": "Adult",
-    "gender": "Unisex"
-  },
-  {
-    "id": 345,
-    "name": "Women's Bailey Bow II UGG Boots",
-    "category": "women",
-    "retail price": 214.99,
-    "sale price": 119.99,
-    "image": "https://dms.deckers.com/ugg/image/upload/t_pdp-slider-small-wp/v1729719376/1016225-CHE_2.png?_s=RAABAB0",
-    "description": "We added silky bows to our iconic sheepskin boot for a sweet, feminine look that's always been a fan fave. Crafted with soft sheepskin, this versatile boot features a durable, ultra-lightweight sole. The pretreated sheepskin upper repels moisture and protects against stains. These pull on boots are available in a range of neutral colors including black, browns, and greys.\n\nThe outsole of this product is either a sugarcane EVA outsole, which is a responsible compound using sugarcane foam that allows us to reduce dependency on fossil fuels by replacing petroleum-based ethylene, or a Treadlite by UGG™ outsole.\n\nThis product was made in a factory that supports women in our supply chain with the help of Reimagining Industry to Support Equality (RISE). This collaborative initiative creates partnerships with brands like ours to empower and educate women in the workplace.",
-    "images": [
-      "https://dms.deckers.com/ugg/image/upload/t_pdp-slider-small-wp/v1729719376/1016225-CHE_2.png?_s=RAABAB0",
-      "https://dms.deckers.com/ugg/image/upload/t_pdp-slider-small-wp/v1733781475/1016225-CHE_3.png?_s=RAABAB0",
-      "https://dms.deckers.com/ugg/image/upload/t_pdp-slider-small-wp/v1729719375/1016225-CHE_1.png?_s=RAABAB0",
-      "https://dms.deckers.com/ugg/image/upload/t_pdp-slider-small-wp/v1729719762/1016225-CHE_4.png?_s=RAABAB0",
-      "https://dms.deckers.com/ugg/image/upload/t_pdp-slider-small-wp/v1729719696/1016225-CHE_5.png?_s=RAABAB0"
-    ],
-    "specifications": {
-      "brand": "UGG",
-      "material": "Sheepskin",
-      "fit": "Standard Width, True to Size",
-      "sizes_available": "US 5, 6, 7, 8, 9, 10, 11",
-      "care_instructions": "Specialist leather or suede cleaner",
-      "country_of_origin": "Italy",
-      "gender": "Women"
-    },
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 346,
-    "name": "Men's MCM Bag",
-    "category": "accessories",
-    "retail price": 2499.99,
-    "sale price": 999.99,
-    "image": "https://images.bloomingdalesassets.com/is/image/BLM/products/8/optimized/16129758_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp",
-    "description": "A refined leather handbag from MCM with a structured silhouette and spacious compartments.",
-    "images": [
-      "https://images.bloomingdalesassets.com/is/image/BLM/products/8/optimized/16129758_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp",
-      "https://images.bloomingdalesassets.com/is/image/BLM/products/9/optimized/16129759_fpx.tif?op_sharpen=1&wid=500&fit=fit",
-      "1&fmt=webp",
-      "https://images.bloomingdalesassets.com/is/image/BLM/products/0/optimized/16129760_fpx.tif?op_sharpen=1&wid=500&fit=fit",
-      "https://images.bloomingdalesassets.com/is/image/BLM/products/2/optimized/16129762_fpx.tif?op_sharpen=1&wid=500&fit=fit"
-    ],
-    "specifications": {
-      "brand": "MCM",
-      "material": "100% Calfskin Saffiano Leather",
-      "dimensions": "11.0in x 7.5in x 4.0in",
-      "weight": "1.2 lbs",
-      "closure_type": "Magnetic flap closure",
-      "strap_type": "Adjustable chain crossbody strap",
-      "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Men",
-      "brand_origin": "USA"
-    },
-    "pre-owned price": 499.99,
-    "age_group": "Adult",
-    "gender": "Men"
   },
   {
     "id": 64,
@@ -3087,835 +1671,6 @@ const products = [
     "brand_source": "U.S. Mint"
   },
   {
-    "id": 347,
-    "name": "LED Light Art",
-    "category": "homeandappliances",
-    "retail price": 99.99,
-    "sale price": 49.99,
-    "image": "https://images.unsplash.com/photo-1519105577358-d68dbbeecb80?w=800",
-    "description": "An ambient LED light art display with customizable color patterns, adding a vibrant modern touch to your room.",
-    "images": [
-      "https://images.unsplash.com/photo-1519105577358-d68dbbeecb80?w=800"
-    ],
-    "specifications": {
-      "brand": "Bonds",
-      "material": "Acrylic Diffuser & Aluminum Frame",
-      "dimensions": "24in x 16in x 1.5in",
-      "weight": "3.8 lbs",
-      "light_source": "Integrated Addressable RGB LED",
-      "power_source": "5V DC USB Power Cord",
-      "warranty": "1 Year Warranty"
-    },
-    "age_group": "Adult",
-    "gender": "Unisex"
-  },
-  {
-    "id": 348,
-    "name": "Women's Chanel Slippers",
-    "category": "women",
-    "retail price": 2499.99,
-    "sale price": 1129.99,
-    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTYmDpEqcZ31jYXN-noLMOHTPROSFf1EFnbqlV57Qt64-by-5_7C7PmsbVfpogzyr_uXdhM1be1",
-    "description": "Comfortable footwear from Chanel, styled with refined leather detailing and a soft footbed.",
-    "images": [
-      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTYmDpEqcZ31jYXN-noLMOHTPROSFf1EFnbqlV57Qt64-by-5_7C7PmsbVfpogzyr_uXdhM1be1",
-      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRlnGfr8YN4RJi6uKYr3Qr_xXwLXwNtqympBbqjugJYf2GzC7QQ4rVOa6w0w6uItasth2TyG6-u"
-    ],
-    "specifications": {
-      "brand": "Chanel",
-      "material": "Shearling & Suede Leather",
-      "fit": "Standard Width, True to Size",
-      "sizes_available": "US 7, 8, 9, 10, 11",
-      "care_instructions": "Specialist leather or suede cleaner",
-      "country_of_origin": "Italy",
-      "gender": "Women"
-    },
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 349,
-    "name": "Men's Abercrombie & Fitch T-shirt",
-    "category": "men",
-    "retail price": 99.99,
-    "sale price": 29.99,
-    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRozStpy3iE0iZCJdXdF0yQex2Nh45h3Yr_hhpZjvTraGgeRkegFSeK4rIZWu2QDhiGFF4_ous",
-    "description": "A classic knit cotton shirt from Abercrombie & Fitch, tailored for everyday style and casual comfort.",
-    "images": [
-      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRozStpy3iE0iZCJdXdF0yQex2Nh45h3Yr_hhpZjvTraGgeRkegFSeK4rIZWu2QDhiGFF4_ous"
-    ],
-    "specifications": {
-      "brand": "Abercrombie & Fitch",
-      "material": "100% Cotton",
-      "fit": "Regular Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Machine wash cold, tumble dry low",
-      "country_of_origin": "Imported",
-      "gender": "Men",
-      "style": "Casual / Designer",
-      "season": "All Season"
-    },
-    "productType": "Shirt",
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 350,
-    "name": "Women's Ferragamo Sweatshirt",
-    "category": "women",
-    "retail price": 2499.99,
-    "sale price": 799.99,
-    "image": "https://editorialist.com/thumbnail/600/2026/6/043/927/695/43927695~red_1782352695819_0.webp?width=600&quality=60AND_PMAX&utm_source=google&utm_medium=cpc&gclsrc=aw.ds&&wt_ga=_&wt_kw=__&gad_source=1&gad_campaignid=23068939813&gbraid=0AAAAADKBVd3zM-wHf3yxRnu66AkIDYQPG&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDpax94lbh-anp_8Lb7GGHvgmDOCfTwA_P-W2HsXaYamy688WPIn0xEaAmX-EALw_wcB",
-    "description": "The cut out detail on the left side of this crew neck sweater emphasizes a sensual appeal, echoed by the leather tie at the shoulder. Made from a cozy blend of wool and cashmere with raglan sleeves and ribbed trims, it is detailed with a custom metal Gancio at the back of the neck.",
-    "images": [
-      "https://editorialist.com/thumbnail/600/2026/6/043/927/695/43927695~red_1782352695819_0.webp?width=600&quality=60AND_PMAX&utm_source=google&utm_medium=cpc&gclsrc=aw.ds&&wt_ga=_&wt_kw=__&gad_source=1&gad_campaignid=23068939813&gbraid=0AAAAADKBVd3zM-wHf3yxRnu66AkIDYQPG&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDpax94lbh-anp_8Lb7GGHvgmDOCfTwA_P-W2HsXaYamy688WPIn0xEaAmX-EALw_wcB",
-      "https://www.baseblu.com/cdn/shop/files/5E311732-E0EB-4A20-B2FA-92C7BE514B49.jpg?v=1783402857",
-      "q_auto:low",
-      "ar_5:7",
-      "c_fill",
-      "dpr_2.0",
-      "w_720/01/bg_5580751_100785_z"
-    ],
-    "specifications": {
-      "brand": "Ferragamo",
-      "material": "Cotton",
-      "dimensions": "8.5in x 5.7in x 2.4in",
-      "weight": "1.1 lbs",
-      "closure_type": "Magnetic flap closure",
-      "strap_type": "Adjustable chain crossbody strap",
-      "color_options": "Nero (Black)",
-      "gender": "Women",
-      "brand_origin": "Italy"
-    },
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 351,
-    "name": "Women's Christian Louboutin Handbag",
-    "category": "accessories",
-    "retail price": 4999.99,
-    "sale price": 1999.99,
-    "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5610215_100106_m",
-    "description": "A refined leather handbag from Bonds with a structured silhouette and spacious compartments.",
-    "images": [
-      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5610215_100106_m",
-      "https://media.neimanmarcus.com/f_auto",
-      "q_auto:low",
-      "ar_4:5",
-      "c_fill",
-      "dpr_2.0",
-      "w_420/01/nm_5610215_100106_b",
-      "w_420/01/nm_5610215_100106_d",
-      "w_420/01/nm_5610215_100106_c"
-    ],
-    "specifications": {
-      "brand": "Christian Louboutin",
-      "material": "100% Calfskin Saffiano Leather",
-      "dimensions": "11.0in x 7.5in x 4.0in",
-      "weight": "1.2 lbs",
-      "closure_type": "Magnetic flap closure",
-      "strap_type": "Adjustable chain crossbody strap",
-      "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Men",
-      "brand_origin": "Italy"
-    },
-    "inventory": 100,
-    "pre-owned price": 999.99,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 352,
-    "name": "HP Copy & FAX Printer",
-    "category": "electronics",
-    "retail price": 299.99,
-    "sale price": 199.99,
-    "image": "https://de2wfhoo6xqi5.cloudfront.net/size/400/ccc/53f/e70c3c2033c168ad579245b551613c2674.jpg",
-    "description": "A high-performance all-in-one printer from HP, supporting printing, copying, scanning, and fast wireless setup.",
-    "images": [
-      "https://de2wfhoo6xqi5.cloudfront.net/size/400/ccc/53f/e70c3c2033c168ad579245b551613c2674.jpg",
-      "https://de2wfhoo6xqi5.cloudfront.net/size/400/403/375/06591467116fe8391462be84353058e718.jpg",
-      "https://de2wfhoo6xqi5.cloudfront.net/size/400/0df/0f4/c2317c681c64b248343f85c5f150ebf48b.jpg",
-      "https://de2wfhoo6xqi5.cloudfront.net/size/400/034/650/748f94a2291111befe45d0254f5102ec94.jpg",
-      "https://de2wfhoo6xqi5.cloudfront.net/size/400/234/4a3/72760fc3b26f753358050b6fbf63b38d62.jpg",
-      "https://de2wfhoo6xqi5.cloudfront.net/size/400/234/f11/480c1714da95ca98750fbef96c23180954.jpg",
-      "https://de2wfhoo6xqi5.cloudfront.net/size/400/270/06f/80c35ab8b35b62b67222b66a55b8bcd256.jpg",
-      "https://de2wfhoo6xqi5.cloudfront.net/size/400/494/071/93a569ddd42bd4b7708b657e6466a96c14.jpg",
-      "https://de2wfhoo6xqi5.cloudfront.net/size/400/564/c3f/d35370fdfe8dea17427d96d098c801c100.jpg"
-    ],
-    "specifications": {
-      "brand": "HP",
-      "print_speed": "Up to 22 ppm (black), 18 ppm (color)",
-      "connectivity": "Wi-Fi, Bluetooth, USB, Ethernet",
-      "functions": "Print, Copy, Scan, Fax",
-      "max_resolution": "4800 x 1200 dpi",
-      "paper_capacity": "250 sheets",
-      "warranty": "1 Year Limited Hardware Warranty"
-    },
-    "productType": "Printer",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Unisex"
-  },
-  {
-    "id": 353,
-    "name": "8 Surveillance Camera Home Security System With DVR",
-    "category": "electronics",
-    "retail price": 499.99,
-    "sale price": 299.99,
-    "image": "https://i5.walmartimages.com/seo/ZOSI-HD-1080N-8-Channel-DVR-Outdoor-Security-System-with-8-720p-1MP-Night-Vision-Bullet-Cameras-Easy-Remote-Access_062b6545-bc23-43ad-85ab-63c7ae16464e.4b617560799ebf06f53d6026a949bb59.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
-    "description": "Designed to meet your home and business security needs. Equipped with 1080p high definition cameras and motion detection recording.",
-    "images": [
-      "https://i5.walmartimages.com/seo/ZOSI-HD-1080N-8-Channel-DVR-Outdoor-Security-System-with-8-720p-1MP-Night-Vision-Bullet-Cameras-Easy-Remote-Access_062b6545-bc23-43ad-85ab-63c7ae16464e.4b617560799ebf06f53d6026a949bb59.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/7bbea46d-8566-4329-901f-1bd8e46cfe4b.388307e2363d36efb3349b00e6885e6a.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
-    ],
-    "specifications": {
-      "brand": "Bonds",
-      "material": "Premium construction material"
-    },
-    "age_group": "Adult",
-    "gender": "Unisex"
-  },
-  {
-    "id": 354,
-    "name": "Women's Tommy Hilfiger Winter Coat",
-    "category": "women",
-    "retail price": 199.99,
-    "sale price": 79.99,
-    "image": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/B15816s6.jpg?im=Resize,width=750",
-    "description": "A sleek winter coat from Bonds, styled with a windproof exterior shell and high-loft down insulation.",
-    "images": [
-      "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/B15816s6.jpg?im=Resize,width=750",
-      "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/B15816s2.jpg?im=Resize",
-      "width=750",
-      "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/B15816s5.jpg?im=Resize",
-      "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/B15816s4.jpg?im=Resize",
-      "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/B15816s3.jpg?im=Resize"
-    ],
-    "specifications": {
-      "brand": "Tommy Hilfiger",
-      "material": "Polyester & Nylon Shell",
-      "fit": "Regular Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Dry clean only",
-      "country_of_origin": "Italy",
-      "gender": "Women",
-      "style": "Luxury Outerwear",
-      "season": "Winter / Fall"
-    },
-    "productType": "Luxury Outerwear",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 355,
-    "name": "Women's Coach Handbag",
-    "category": "accessories",
-    "retail price": 599.99,
-    "sale price": 119.99,
-    "image": "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a0?$mobileProductV6$",
-    "description": "A refined leather handbag from Coach with a structured silhouette and spacious compartments.",
-    "images": [
-      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a0?$mobileProductV6$",
-      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a21?$mobileProductV6$",
-      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a88?$mobileProductV6$",
-      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a3?$mobileProductV6$",
-      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a5?$mobileProductV6$",
-      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a10?$mobileProductV6$",
-      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a99?$mobileProductV6$",
-      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a6?$mobileProductV6$",
-      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a8?$mobileProductV6$"
-    ],
-    "specifications": {
-      "brand": "Coach",
-      "material": "100% Calfskin Saffiano Leather",
-      "dimensions": "11.0in x 7.5in x 4.0in",
-      "weight": "1.2 lbs",
-      "closure_type": "Magnetic flap closure",
-      "strap_type": "Adjustable chain crossbody strap",
-      "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Women",
-      "brand_origin": "USA"
-    },
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 356,
-    "name": "GE Microwave Oven",
-    "category": "homeandappliances",
-    "retail price": 99.99,
-    "sale price": 59.99,
-    "image": "https://images.unsplash.com/photo-1589241534732-26031c00f37c?w=800",
-    "description": "A powerful countertop microwave oven with smart sensors, multiple power levels, and a clean stainless steel finish.",
-    "images": [
-      "https://images.unsplash.com/photo-1589241534732-26031c00f37c?w=800"
-    ],
-    "specifications": {
-      "brand": "GE",
-      "capacity": "1.6 cu. ft.",
-      "power": "1000 Watts",
-      "finish": "Fingerprint Resistant Stainless Steel",
-      "dimensions": "21.8in W x 11.5in H x 15.5in D",
-      "weight": "34 lbs",
-      "warranty": "1 Year Limited Warranty"
-    },
-    "age_group": "Adult",
-    "gender": "Unisex"
-  },
-  {
-    "id": 357,
-    "name": "Aristotle Sculpture",
-    "category": "artandcollectibles",
-    "retail price": 199.99,
-    "sale price": 99.99,
-    "image": "https://images.unsplash.com/photo-1714393674893-b89e436cc6c4?w=800",
-    "description": "A beautifully detailed collectible bust made of hand-poured plaster, perfect for displaying on a bookshelf or desk.",
-    "images": [
-      "https://images.unsplash.com/photo-1714393674893-b89e436cc6c4?w=800"
-    ],
-    "specifications": {
-      "brand": "Bonds Art",
-      "material": "Cast Plaster & Alabaster Powder",
-      "dimensions": "9.5in H x 5.5in W x 5.0in D",
-      "weight": "4.5 lbs",
-      "finish": "Antique Matte / Patina",
-      "authenticity": "Certificate of Authenticity Included"
-    },
-    "age_group": "Adult",
-    "gender": "Unisex"
-  },
-  {
-    "id": 358,
-    "name": "Ryobi Leaf Blower",
-    "category": "homeandappliances",
-    "retail price": 199.99,
-    "sale price": 99.99,
-    "image": "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/617eb17a4f5946c4b406ae24ab5bc0e0_1824x874.jpg?v=1734041953&width=100&height=100&crop=center",
-    "description": "A lightweight cordless leaf blower featuring Whisper technology and variable speed settings for easy yard cleanup.",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/617eb17a4f5946c4b406ae24ab5bc0e0_1824x874.jpg?v=1734041953&width=100&height=100&crop=center",
-      "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/b922cbfd67944fa58b55f4d9f6070cf7_1824x874.jpg?v=1734041953&width=100&height=100&crop=center",
-      "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/22380974f4ec4b04b58e84b68738447f_1824x874.jpg?v=1734041953&width=100&height=100&crop=center",
-      "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/bef5a254d0c1491296f9b56bcfb0d6b1_1824x874.jpg?v=1734041953&width=100&height=100&crop=center",
-      "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/5b4fa95cf05f4126ba77f6571c946eb4_1824x874.jpg?v=1734041953&width=100&height=100&crop=center"
-    ],
-    "specifications": {
-      "brand": "Ryobi",
-      "air_velocity": "110 MPH",
-      "air_volume": "525 CFM",
-      "power_source": "40V Lithium-Ion Battery",
-      "speed_settings": "Variable Speed Trigger",
-      "weight": "8.5 lbs",
-      "noise_rating": "57 dB",
-      "warranty": "5 Year Tool Warranty"
-    },
-    "inventory": 200,
-    "age_group": "Adult",
-    "gender": "Unisex"
-  },
-  {
-    "id": 359,
-    "name": "Women's Abercrombie & Fitch Sweater",
-    "category": "women",
-    "retail price": 399.99,
-    "sale price": 79.99,
-    "image": "https://cf-assets-thredup.thredup.com/assets/860756177/large.jpg",
-    "description": "A premium designer knitwear piece from Abercrombie & Fitch crafted with warm wool and cashmere fibers.",
-    "images": [
-      "https://cf-assets-thredup.thredup.com/assets/860756177/large.jpg",
-      "https://cf-assets-thredup.thredup.com/assets/860756221/large.jpg"
-    ],
-    "specifications": {
-      "brand": "Abercrombie & Fitch",
-      "material": "80% Wool, 20% Cashmere",
-      "fit": "Relaxed Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Dry clean only",
-      "country_of_origin": "Imported",
-      "gender": "Women",
-      "style": "Designer Knitwear",
-      "season": "Winter / Fall"
-    },
-    "productType": "Designer Knitwear",
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 360,
-    "name": "Nintendo Switch 2 Deluxe",
-    "category": "entertainment",
-    "retail price": 499.99,
-    "sale price": 299.99,
-    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTOAYQxW6w0_IfNYm67PVh_phvb65c-nZZXDdrS0uXRJZLpasUI-kKRNMAyzwy6iiylYrEF0-yqSsgt0lauSUDdHpmBKSa0aetPGNbBQZHSYZZMtnlLYqIabA",
-    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
-    "images": [
-      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTOAYQxW6w0_IfNYm67PVh_phvb65c-nZZXDdrS0uXRJZLpasUI-kKRNMAyzwy6iiylYrEF0-yqSsgt0lauSUDdHpmBKSa0aetPGNbBQZHSYZZMtnlLYqIabA",
-      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcREq_P5-iqtoALnVjYHBrbvjmr4xuu_vc_Fsysg-9U1bVLqfgmJE9-7H-jBAS-KRnKZ9ZSsXoo3LjYlzO7NJfWVn6sE1OUy06pU8ecI0Pn1VWU1BkFl36QeLkx6",
-      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRmAFJbHVTua9nw6kyVQwJCCNOVeA8ViVDOKXopBDaJlFaukfM6FJ62_lwWLUDy2LIe2JZXUhHqIyD-28F_puBXNvrLWD7VBY9z0AQLQNl-uz1CCQXaPiNLPw",
-      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQYIlWdv6p-F0Bwc397mlCvidUeRCZ7NNNfMC6HLvAIxpxBCa8pVx7Q1HTIa6858HTfImXNq5oXtnQw9-3Ebeh3of_-zsVV6hJsmuRpzDJSUMuc-MDZsqSIL8A"
-    ],
-    "specifications": {
-      "brand": "Nintendo",
-      "material": "Premium construction material"
-    },
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 361,
-    "name": "Women's Dolce & Gabbana Shirt",
-    "category": "women",
-    "retail price": 599.99,
-    "sale price": 99.99,
-    "image": "https://editorialist.com/thumbnail/600/2022/8/020/342/401/20342401~black_0.webp?width=600&quality=60",
-    "description": "A classic knit cotton shirt from Dolce & Gabbana, tailored for everyday style and casual comfort.",
-    "images": [
-      "https://editorialist.com/thumbnail/600/2022/8/020/342/401/20342401~black_0.webp?width=600&quality=60",
-      "https://editorialist.com/thumbnails/600/2022/8/020/342/401/20342401~black_1.webp",
-      "https://editorialist.com/thumbnails/600/2022/8/020/342/401/20342401~black_3.webp"
-    ],
-    "specifications": {
-      "brand": "Dolce & Gabbana",
-      "material": "100% Cotton",
-      "fit": "Regular Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Machine wash cold, tumble dry low",
-      "country_of_origin": "Italy",
-      "gender": "Women",
-      "style": "Casual / Designer",
-      "season": "All Season"
-    },
-    "productType": "Casual / Designer",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 362,
-    "name": "Women's Abercrombie & Fitch Shirt",
-    "category": "women",
-    "retail price": 99.99,
-    "sale price": 29.99,
-    "image": "https://img.abercrombie.com/is/image/anf/KIC_139-6641-00427-114_prod1?policy=product-medium",
-    "description": "A classic knit cotton shirt from Abercrombie & Fitch, tailored for everyday style and casual comfort.",
-    "images": [
-      "https://img.abercrombie.com/is/image/anf/KIC_139-6641-00427-114_prod1?policy=product-medium",
-      "https://img.abercrombie.com/is/image/anf/KIC_139-6641-00427-114_model1?policy=product-medium",
-      "https://img.abercrombie.com/is/image/anf/KIC_139-6641-00427-114_model2?policy=product-medium",
-      "https://img.abercrombie.com/is/image/anf/KIC_139-6641-00427-114_model3?policy=product-medium",
-      "https://img.abercrombie.com/is/image/anf/KIC_139-6641-00427-114_model4?policy=product-medium",
-      "https://img.abercrombie.com/is/image/anf/KIC_139-6641-00427-114_model5?policy=product-medium"
-    ],
-    "specifications": {
-      "brand": "Abercrombie & Fitch",
-      "material": "100% Cotton",
-      "fit": "Regular Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Machine wash cold, tumble dry low",
-      "country_of_origin": "Imported",
-      "gender": "Women",
-      "style": "Casual / Designer",
-      "season": "All Season"
-    },
-    "productType": "Casual / Designer",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 363,
-    "name": "Mortal Kombat 11",
-    "category": "entertainment",
-    "retail price": 59.99,
-    "sale price": 49.99,
-    "image": "https://target.scene7.com/is/image/Target/GUEST_e1bb5fde-7941-4692-8bac-f8cd371ca28c?wid=800&hei=800&qlt=80",
-    "description": "The highly anticipated fighting game sequel featuring legendary combatants, intense martial arts combos, and cinematic graphics.",
-    "images": [
-      "https://target.scene7.com/is/image/Target/GUEST_e1bb5fde-7941-4692-8bac-f8cd371ca28c?wid=800&hei=800&qlt=80",
-      "https://target.scene7.com/is/image/Target/GUEST_d8ade063-856f-46a1-9216-9be00c13d38f?wid=800&hei=800&qlt=80",
-      "https://target.scene7.com/is/image/Target/GUEST_6aab17bb-f076-4e27-a240-e019ac3ac12f?wid=800&hei=800&qlt=80"
-    ],
-    "specifications": {
-      "brand": "NetherRealm Studios",
-      "platform": "PlayStation 5, Xbox Series X, Switch",
-      "genre": "Fighting / Action",
-      "edition": "Standard Edition",
-      "esrb_rating": "Mature 17+",
-      "release_year": "2025"
-    },
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 364,
-    "name": "Men's Maison Margiela Sweater",
-    "category": "men",
-    "retail price": 3999.99,
-    "sale price": 1199.99,
-    "image": "https://www.theoutnet.com/variants/images/46376663163029858/F/w920_q80.jpg",
-    "description": "A premium designer knitwear piece from Bonds crafted with warm wool and cashmere fibers.",
-    "images": [
-      "https://www.theoutnet.com/variants/images/46376663163029858/F/w920_q80.jpg",
-      "https://www.theoutnet.com/variants/images/46376663163029858/R/w920_q80.jpg",
-      "https://www.theoutnet.com/variants/images/46376663163029858/E/w920_q80.jpg",
-      "https://www.theoutnet.com/variants/images/46376663163029858/D/w920_q80.jpg"
-    ],
-    "specifications": {
-      "brand": "Maison Margiela",
-      "material": "80% Wool, 20% Cashmere",
-      "fit": "Relaxed Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Dry clean only",
-      "country_of_origin": "Italy",
-      "gender": "Men",
-      "style": "Designer Knitwear",
-      "season": "Winter / Fall"
-    },
-    "productType": "Designer Knitwear",
-    "inventory": 20,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 365,
-    "name": "Women's Dolce & Gabbana Crossbody Bag",
-    "category": "accessories",
-    "retail price": 2499.99,
-    "sale price": 1129.99,
-    "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_1200/01/nm_3437979_100106_m",
-    "description": "A refined leather handbag from Dolce & Gabbana with a structured silhouette and spacious compartments.",
-    "images": [
-      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_1200/01/nm_3437979_100106_m",
-      "https://media.neimanmarcus.com/f_auto",
-      "q_auto:low",
-      "ar_4:5",
-      "c_fill",
-      "dpr_2.0",
-      "w_1200/01/nm_3437979_100106_b",
-      "w_1200/01/nm_3437979_100106_c"
-    ],
-    "specifications": {
-      "brand": "Dolce & Gabbana",
-      "material": "100% Calfskin Saffiano Leather",
-      "dimensions": "11.0in x 7.5in x 4.0in",
-      "weight": "1.2 lbs",
-      "closure_type": "Magnetic flap closure",
-      "strap_type": "Adjustable chain crossbody strap",
-      "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Women",
-      "brand_origin": "Italy"
-    },
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 366,
-    "name": "Dolce & Gabbana Twill Baseball Cap",
-    "category": "accessories",
-    "retail price": 299.99,
-    "sale price": 199.99,
-    "image": "https://cdn-images.farfetch-contents.com/20/04/45/98/20044598_50412127_600.jpg",
-    "description": "This baseball cap is crafted in Italy from twill fabric. It features logo embroidery..",
-    "images": [
-      "https://cdn-images.farfetch-contents.com/20/04/45/98/20044598_50412127_600.jpg",
-      "https://cdn-images.farfetch-contents.com/20/04/45/98/20044598_50412133_600.jpg",
-      "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800"
-    ],
-    "specifications": {
-      "brand": "Dolce & Gabbana",
-      "material": "Cotton",
-      "dimensions": "8.5in x 5.7in x 2.4in",
-      "weight": "1.1 lbs",
-      "closure_type": "Magnetic flap closure",
-      "strap_type": "Adjustable chain crossbody strap",
-      "color_options": "Nero (Black)",
-      "gender": "Men",
-      "brand_origin": "Milano"
-    },
-    "productType": "Hat",
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 367,
-    "name": "Men's Rolex Watch",
-    "category": "jewelry",
-    "retail price": 9999.99,
-    "sale price": 7999.99,
-    "image": "https://www.frostnyc.com/cdn/shop/products/Rolex_1ct_black_1_2_900x.jpg?v=1742234857",
-    "description": "An exquisite luxury timepiece from Bonds, featuring Swiss precision movement and high-grade stainless steel casing.",
-    "images": [
-      "https://www.frostnyc.com/cdn/shop/products/Rolex_1ct_black_1_2_900x.jpg?v=1742234857",
-      "https://www.frostnyc.com/cdn/shop/products/RD_2_d45526b2-3476-4337-82a1-270e784cf4b4_900x.jpg?v=1742234858",
-      "https://www.frostnyc.com/cdn/shop/products/TT_RadialBluedial_5_51c7b043-8cf2-4514-9cca-aeb1c0f87887_900x.jpg?v=1742234858",
-      "https://www.frostnyc.com/cdn/shop/products/Stainless_Steel_Black_2_900x.jpg?v=1742234858",
-      "https://www.frostnyc.com/cdn/shop/products/Stainless_Steel_Black_900x.jpg?v=1742234858"
-    ],
-    "specifications": {
-      "brand": "Rolex",
-      "material": "18K Gold Plated Stainless Steel",
-      "dial_size": "40mm Case",
-      "band_material": "Stainless Steel Link Bracelet",
-      "water_resistance": "100 meters (10 ATM)",
-      "movement": "Swiss Automatic Mechanical",
-      "chain_length": "N/A",
-      "gender": "Men",
-      "warranty": "5 Year Manufacturer Warranty"
-    },
-    "pre-owned price": 1999.99,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 368,
-    "name": "Dell Desktop",
-    "category": "electronics",
-    "retail price": 999.99,
-    "sale price": 199.99,
-    "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?w=800",
-    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
-    "images": [
-      "https://images.unsplash.com/photo-1587831990711-23ca6441447b?w=800"
-    ],
-    "specifications": {
-      "brand": "Dell",
-      "material": "Premium construction material"
-    },
-    "productType": "Desktop",
-    "pre-owned price": 99.99,
-    "age_group": "Adult",
-    "gender": "Unisex"
-  },
-  {
-    "id": 369,
-    "name": "Men's Armani Cashmere Sweater",
-    "category": "men",
-    "retail price": 2499.99,
-    "sale price": 1299.99,
-    "image": "https://editorialist.com/thumbnails/600/2026/5/042/891/963/42891963~brown_1779977546165_0.webp",
-    "description": "A premium designer knitwear piece from Armani crafted with warm wool and cashmere fibers.",
-    "images": [
-      "https://editorialist.com/thumbnails/600/2026/5/042/891/963/42891963~brown_1779977546165_0.webp",
-      "https://editorialist.com/thumbnails/600/2026/5/042/891/963/42891963~brown_1779977546165_4.webp",
-      "https://editorialist.com/thumbnails/600/2026/5/042/891/963",
-      "/42891963~brown_1779977546165_3.webp",
-      "https://editorialist.com/thumbnails/600/2026/5/042/891/963/42891963~brown_1779977546165_5.webp"
-    ],
-    "specifications": {
-      "brand": "Armani",
-      "material": "100% Cashmere",
-      "fit": "Relaxed Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Dry clean only",
-      "country_of_origin": "Italy",
-      "gender": "Men",
-      "style": "Designer Knitwear",
-      "season": "Winter / Fall"
-    },
-    "productType": "Designer Knitwear",
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 370,
-    "name": "Women's Chanel Handbag",
-    "category": "accessories",
-    "retail price": 2499.99,
-    "sale price": 1129.99,
-    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTeEyuSkMAIth9VZDSvcQL5hcHFrsuoOejZAnk8E88Wj14bVbrQ-ldbqmMxdzChs9GBii6jE3kM6Q",
-    "description": "A refined leather handbag from Chanel with a structured silhouette and spacious compartments.",
-    "images": [
-      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTeEyuSkMAIth9VZDSvcQL5hcHFrsuoOejZAnk8E88Wj14bVbrQ-ldbqmMxdzChs9GBii6jE3kM6Q",
-      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQFjGJOVB6lZeXLzormbFgaPagFElNfLo6vkeuvUKK_ZZfYNa9TY3KPllaz08lbFZHyCOnPancINJY",
-      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRqAuQkM01iZgux7NwJNScZTajswTJS3Erh6oUA27LOO2d6nIsNdqsgTX7T-vwTSzXqF1cSS9M",
-      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRiGzDNOpkZ0xNAg2YCAAqIlyCGYNujYfPou77hSxL-jcgmCNwXmZCHw08149bwCDpe6172XPnTrg",
-      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQeOs6Y2DMeKtLlsP0U_OOfsxMt6icLhhwMoDyNOQQBTSwLvEGOE-Q1avfs34WLqjGE1C19vvw"
-    ],
-    "specifications": {
-      "brand": "Chanel",
-      "material": "100% Calfskin Saffiano Leather",
-      "dimensions": "11.0in x 7.5in x 4.0in",
-      "weight": "1.2 lbs",
-      "closure_type": "Magnetic flap closure",
-      "strap_type": "Adjustable chain crossbody strap",
-      "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Men",
-      "brand_origin": "Italy"
-    },
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 371,
-    "name": "Men's Cartier Watch",
-    "category": "jewelry",
-    "retail price": 59999.99,
-    "sale price": 39999.99,
-    "image": "https://content.thewosgroup.com/productimage/17311097/17311097_1.jpg?impolicy=zoom",
-    "description": "An exquisite luxury timepiece from Cartier, featuring Swiss precision movement and high-grade stainless steel casing.",
-    "images": [
-      "https://content.thewosgroup.com/productimage/17311097/17311097_1.jpg?impolicy=zoom",
-      "https://content.thewosgroup.com/productimage/17311097/17311097_4.jpg?impolicy=zoom",
-      "https://content.thewosgroup.com/productimage/17311097/17311097_5.jpg?impolicy=zoom",
-      "https://content.thewosgroup.com/productimage/17311097/17311097_8.jpg?impolicy=zoom",
-      "https://content.thewosgroup.com/productimage/17311097/17311097_7.jpg?impolicy=zoom",
-      "https://content.thewosgroup.com/productimage/17311097/17311097_3.jpg?impolicy=zoom"
-    ],
-    "specifications": {
-      "brand": "Cartier",
-      "material": "18K Gold Plated Stainless Steel",
-      "dial_size": "40mm Case",
-      "band_material": "Stainless Steel Link Bracelet",
-      "water_resistance": "100 meters (10 ATM)",
-      "movement": "Swiss Automatic Mechanical",
-      "chain_length": "N/A",
-      "gender": "Men",
-      "warranty": "5 Year Manufacturer Warranty"
-    },
-    "productType": "Watch",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 372,
-    "name": "Women's Chloe Handbag",
-    "category": "accessories",
-    "retail price": 2999.99,
-    "sale price": 1129.99,
-    "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_4103480_100168_m",
-    "description": "A redefined leather handbag from Chloe with a structured silhouette and spacious compartments.",
-    "images": [
-      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_4103480_100168_m"
-    ],
-    "specifications": {
-      "brand": "Chloe",
-      "material": "100% Cream Leather",
-      "dimensions": "11.0in x 7.5in x 4.0in",
-      "weight": "1.6 lbs",
-      "closure_type": "B clip closure",
-      "strap_type": "Adjustable chain crossbody strap",
-      "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Women",
-      "brand_origin": "Italy"
-    },
-    "productType": "Handbag",
-    "inventory": 100,
-    "pre-owned price": 899.99,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 373,
-    "name": "Men's Versace Versus Watch",
-    "category": "jewelry",
-    "retail price": 2499.99,
-    "sale price": 599.99,
-    "image": "https://cdn-images.farfetch-contents.com/26/60/24/86/26602486_57148523_600.jpg",
-    "description": "An exquisite luxury timepiece from Versace, featuring Swiss precision movement and high-grade stainless steel casing.",
-    "images": [
-      "https://cdn-images.farfetch-contents.com/26/60/24/86/26602486_57148523_600.jpg",
-      "https://cdn-images.farfetch-contents.com/26/60/24/86/26602486_57148524_600.jpg",
-      "https://cdn-images.farfetch-contents.com/26/60/24/86/26602486_57148538_600.jpg",
-      "https://cdn-images.farfetch-contents.com/26/60/24/86/26602486_57148541_600.jpg",
-      "https://cdn-images.farfetch-contents.com/26/60/24/86/26602486_57148519_600.jpg"
-    ],
-    "specifications": {
-      "brand": "Versace",
-      "material": "18K Gold Plated Stainless Steel",
-      "dial_size": "40mm Case",
-      "band_material": "Stainless Steel Link Bracelet",
-      "water_resistance": "100 meters (10 ATM)",
-      "movement": "Swiss Automatic Mechanical",
-      "chain_length": "N/A",
-      "gender": "Men",
-      "warranty": "5 Year Manufacturer Warranty"
-    },
-    "productType": "Watch",
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 374,
-    "name": "Men's Gucci Watch",
-    "category": "jewelry",
-    "retail price": 799.99,
-    "sale price": 99.99,
-    "image": "https://www.watch-connection.com/cdn/shop/files/91gjM560cFL._AC_UY1000_1024x1024_72f387c3-81c8-4b21-ba5b-62c30e0a8fb7_1024x1024.jpg?v=1776520493",
-    "description": "An exquisite luxury timepiece from Gucci, featuring Swiss precision movement and high-grade stainless steel casing.",
-    "images": [
-      "https://www.watch-connection.com/cdn/shop/files/91gjM560cFL._AC_UY1000_1024x1024_72f387c3-81c8-4b21-ba5b-62c30e0a8fb7_1024x1024.jpg?v=1776520493",
-      "https://www.watch-connection.com/cdn/shop/files/gucci-black-g-timeless-extra-large-black-pvd-watch-product-8-896494484-normal_1024x1024.jpg?v=1776520507",
-      "https://www.watch-connection.com/cdn/shop/files/gucci-g-timeless-chronograph-black-dial-black-fabric-mens-watch-ya126244_2_1024x1024.jpg?v=1776520521",
-      "https://www.watch-connection.com/cdn/shop/files/gucci-black-g-timeless-extra-large-black-pvd-watch-product-4-896486233-normal_1024x1024.jpg?v=1776520527",
-      "https://www.watch-connection.com/cdn/shop/files/gucci-black-g-timeless-extra-large-black-pvd-watch-product-0-896482912-normal_1024x1024.jpg?v=1776520540"
-    ],
-    "specifications": {
-      "brand": "Gucci",
-      "material": "18K Gold Plated Stainless Steel",
-      "dial_size": "40mm Case",
-      "band_material": "Stainless Steel Link Bracelet",
-      "water_resistance": "100 meters (10 ATM)",
-      "movement": "Swiss Automatic Mechanical",
-      "chain_length": "N/A",
-      "gender": "Men",
-      "warranty": "5 Year Manufacturer Warranty"
-    },
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 375,
-    "name": "Water Fountain",
-    "category": "homeandappliances",
-    "retail price": 9999.99,
-    "sale price": 5999.99,
-    "image": "https://images.unsplash.com/photo-1603077864615-538e955d1ad1?w=800",
-    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
-    "images": [
-      "https://images.unsplash.com/photo-1603077864615-538e955d1ad1?w=800"
-    ],
-    "specifications": {
-      "brand": "Bonds",
-      "material": "Premium construction material"
-    },
-    "age_group": "Adult",
-    "gender": "Unisex"
-  },
-  {
-    "id": 141,
-    "name": "Sony Surround Sound Speaker System",
-    "category": "electronics",
-    "retail price": 499.99,
-    "sale price": 119.99,
-    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ_TR0IC6uoAllHXDMgJNLPIoo4WjGPFkuya6sEYhPzVd2TxPtI5zN_cgBfBefy6EwAd1jv1qJjNwSPUeLiGvgZm0TQ0yU41S7AVnuJW8t5EjhZWzWLCM97fQ",
-    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
-    "images": [
-      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ_TR0IC6uoAllHXDMgJNLPIoo4WjGPFkuya6sEYhPzVd2TxPtI5zN_cgBfBefy6EwAd1jv1qJjNwSPUeLiGvgZm0TQ0yU41S7AVnuJW8t5EjhZWzWLCM97fQ",
-      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR6GM9sI4b83eRHhY1sP--nhdwbMFZ56-A9CWXVw2YY_dabuHWX3Sh6w07LPnFsqzxMPtwDa2chjh0-rIGoRYPklPa2ZeVbGG_uxIfWXQPvd9zTo4h7jI8ToQ",
-      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSkST0mc03sKd-o4DytCKwHq_bR2B2cDYvb5l49zCajLHg2064OOiu9lxG0ZvIV-MqK0B9djc9ptRmm49o34yKFf_eQcs1GPWu1NaXgQYDoIyxunEDixFxI2w",
-      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQOsqn9oMDdDBUttlXmkyPmrrDN5jryph_HkfEdp3vxoX2D4psdI5fmhQ6ZIBT6pG9I2FM32ZBwYeMw5HsT06Zxgm328ohdQ_jEvw6JeBwriJyaWAldOqmOpg",
-      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTWzcvzqI6pnltWVhwZXqgx7Pxt3pI7Ro0J8TVCNi-z8BbJqGnq9-CIW3zzGsj398WNZbBjbbGGxOEQLPl4s8dwF5P3xQYH",
-      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQsCFDPswYxmcNms_33dg3imFZ1SqzeHHTVhBpFZS6fmfiK-z86qYlHrIFbcwzfGQaJKLIzjynJuv-6RSKUZxU3yweg5QAIX6gbn7tViOAujyK_7IjTJ3_zgQ"
-    ],
-    "specifications": {
-      "brand": "Sony",
-      "material": "Premium construction material"
-    },
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Unisex"
-  },
-  {
     "id": 65,
     "name": "2025 DC Comic Superman Gold $50 Coin",
     "category": "artandcollectibles",
@@ -3949,386 +1704,6 @@ const products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "brand_source": "U.S. Mint"
-  },
-  {
-    "id": 143,
-    "name": "Women's Abercrombie & Fitch Hooded Sweatshirt",
-    "category": "women",
-    "retail price": 199.99,
-    "sale price": 59.99,
-    "image": "https://img.abercrombie.com/is/image/anf/KIC_152-6071-00628-112_model1?policy=product-medium",
-    "description": "A classic knit cotton shirt from Abercrombie & Fitch, tailored for everyday style and casual comfort.",
-    "images": [
-      "https://img.abercrombie.com/is/image/anf/KIC_152-6071-00628-112_model1?policy=product-medium",
-      "https://img.abercrombie.com/is/image/anf/KIC_152-6071-00628-112_model3?policy=product-medium",
-      "https://img.abercrombie.com/is/image/anf/KIC_152-6071-00628-112_model2?policy=product-medium"
-    ],
-    "specifications": {
-      "brand": "Abercrombie & Fitch",
-      "material": "100% Cotton",
-      "fit": "Regular Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Machine wash cold, tumble dry low",
-      "country_of_origin": "Imported",
-      "gender": "Women",
-      "style": "Casual / Designer",
-      "season": "All Season"
-    },
-    "productType": "Sweater",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 144,
-    "name": "Men's Nike Track Jacket",
-    "category": "men",
-    "retail price": 79.99,
-    "sale price": 29.99,
-    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRm4uW0A-OjdSid08-7FIg_YdkKd3MRpt-Wr-cB2kQbU8khoeuZxqG73afcZSk1_BB4h52fR5PA",
-    "description": "A sleek winter coat from Nike, styled with a windproof exterior shell and high-loft down insulation.",
-    "images": [
-      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRm4uW0A-OjdSid08-7FIg_YdkKd3MRpt-Wr-cB2kQbU8khoeuZxqG73afcZSk1_BB4h52fR5PA",
-      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHCsj7Kgw1u9BSG7FodxkFb9keehZvzCNoYDPXGsixzFYX2ImlgTS5oHftmhzhCVyrCg7H48-i",
-      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTlZrwsobTN-0jCIe-fCDFJt0FC6vUi9b2iKEW4ib6MlmiuFbNaZPvkMRnI7oqvE5lBfpQEa4Zy"
-    ],
-    "specifications": {
-      "brand": "Nike",
-      "material": "Polyester & Nylon Shell",
-      "fit": "Regular Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Dry clean only",
-      "country_of_origin": "Italy",
-      "gender": "Men",
-      "style": "Luxury Outerwear",
-      "season": "Winter / Fall"
-    },
-    "productType": "Luxury Outerwear",
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 145,
-    "name": "Men's Louis Vuitton Leather Puffer Jacket",
-    "category": "men",
-    "retail price": 2499.99,
-    "sale price": 1129.99,
-    "image": "https://images.stockx.com/images/Louis-Vuitton-Monogram-Leather-Puffer-Jacket-Monogram-Brown.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1768318408",
-    "description": "A sleek winter coat from Bonds, styled with a windproof exterior shell and high-loft down insulation.",
-    "images": [
-      "https://images.stockx.com/images/Louis-Vuitton-Monogram-Leather-Puffer-Jacket-Monogram-Brown.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1768318408",
-      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-monogram-leather-puffer-jacket--HUL92WPW285M_PM1_Worn%20view.jpg",
-      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-monogram-leather-puffer-jacket--HUL92WPW285M_PM1_Cropped%20worn%20view.jpg"
-    ],
-    "specifications": {
-      "brand": "Louis Vuitton",
-      "material": "Polyester & Nylon Shell",
-      "fit": "Regular Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Dry clean only",
-      "country_of_origin": "Italy",
-      "gender": "Men",
-      "style": "Luxury Outerwear",
-      "season": "Winter / Fall"
-    },
-    "productType": "Luxury Outerwear",
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 146,
-    "name": "Women's Christian Dior Handbag",
-    "category": "accessories",
-    "retail price": 1999.99,
-    "sale price": 999.99,
-    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT4pMDqyUA-Zi5WOs1nBSzFFwh66npvURC-e2CTxxYLqKN0iXARt-MAw18WvrzrCdqdDJEyA6Rn1WE",
-    "description": "A refined leather handbag from Christian Dior with a structured silhouette and spacious compartments.",
-    "images": [
-      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT4pMDqyUA-Zi5WOs1nBSzFFwh66npvURC-e2CTxxYLqKN0iXARt-MAw18WvrzrCdqdDJEyA6Rn1WE",
-      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSzmnk6TcPNw-tnMGCdbUAGad4AqNU4gX6Hd5J8F2nDnq2z2RGhvaUvQAkamP3ibFzNIOPA_DIQ_Q",
-      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ3qYFlEpsLr4eijM51SqYxYGr7QhCd5eCoxJNFzUYmJJiP4RkNe3uw1bS42NjlrkQuF-Tpqtuy",
-      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQPAwv92vb9vmIkXfakZlPTH9Z6XHVK1uXu9G1XkwFwEyQg0XjHLA_C1D7ns3SMf0ybsGiLr-A"
-    ],
-    "specifications": {
-      "brand": "Dior",
-      "material": "100% Calfskin Saffiano Leather",
-      "dimensions": "11.0in x 7.5in x 4.0in",
-      "weight": "1.2 lbs",
-      "closure_type": "Magnetic flap closure",
-      "strap_type": "Adjustable chain crossbody strap",
-      "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Women",
-      "brand_origin": "Italy"
-    },
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 147,
-    "name": "Women's Louis Vuitton Handbag",
-    "category": "accessories",
-    "retail price": 2499.99,
-    "sale price": 1129.99,
-    "image": "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-boulogne-pm--M12930_PM2_Front%20view.png?wid=730&hei=730",
-    "description": "A refined leather handbag from Bonds with a structured silhouette and spacious compartments.",
-    "images": [
-      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-boulogne-pm--M12930_PM2_Front%20view.png?wid=730&hei=730",
-      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-boulogne-pm--M12930_PM1_Side%20view.png?wid=730&hei=730",
-      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-boulogne-pm--M12930_PM1_Interior%20view.png?wid=730&hei=730",
-      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-boulogne-pm--M12930_PM1_Back%20view.png?wid=730&hei=730",
-      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-boulogne-pm--M12930_PM1_Cropped%20worn%20view.png?wid=730&hei=730",
-      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-boulogne-pm--M12930_PM1_Worn%20view.png?wid=730&hei=730"
-    ],
-    "specifications": {
-      "brand": "Louis Vuitton",
-      "material": "100% Calfskin Saffiano Leather",
-      "dimensions": "11.0in x 7.5in x 4.0in",
-      "weight": "1.2 lbs",
-      "closure_type": "Magnetic flap closure",
-      "strap_type": "Adjustable chain crossbody strap",
-      "color_options": "Black, Brown, Tan, Cream",
-      "gender": "Men",
-      "brand_origin": "Italy"
-    },
-    "productType": "Handbag",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 148,
-    "name": "Sony 85\" Ultra HD Smart TV",
-    "category": "homeandappliances",
-    "retail price": 5999.99,
-    "sale price": 1999.99,
-    "image": "https://i5.walmartimages.com/seo/Sony-BRAVIA-3-II-85-4K-HDR-LED-Google-TV-with-Gemini_035abbdf-5fab-48bf-bec9-d9115c363631.3ed217d6013de471ec911379b541bd48.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
-    "description": "An ultra high-definition Smart TV featuring vivid colors, deep contrast, and advanced smart platform streaming.",
-    "images": [
-      "https://i5.walmartimages.com/seo/Sony-BRAVIA-3-II-85-4K-HDR-LED-Google-TV-with-Gemini_035abbdf-5fab-48bf-bec9-d9115c363631.3ed217d6013de471ec911379b541bd48.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/99c92ebe-61b2-4548-a1db-32696c0aec97.784e278e193ca75d65197e098caec020.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/1f9cc169-6f53-4503-82f3-d1d910d230fd.a0d8a9ccb877a2d780a13859f778e5ba.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/000a7986-f593-4c71-8fea-56685c1d974f.4ac1c04f50a2a67186dc7570febb2e20.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/12406174-b0f5-4fa4-86c4-5fcee926fb1d.53e188e2bb10beda14daea7e51093c86.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/8d96694d-2b5d-4a1e-9f25-873fd800c05d.522ca0254da8981a7a1f558f85916fd9.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/cd0708ed-3274-4d5b-9608-8e71497bb3c6.0c4a77bb286d03d34483a96fc6e1feff.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF"
-    ],
-    "specifications": {
-      "brand": "Sony",
-      "display_tech": "4K HDR OLED",
-      "screen_size": "85 Inch",
-      "refresh_rate": "120Hz",
-      "smart_platform": "Google TV",
-      "ports": "4x HDMI 2.1, 2x USB, 1x Ethernet",
-      "weight": "95 lbs",
-      "dimensions": "74.8in W x 43.0in H x 1.8in D",
-      "warranty": "2 Year Manufacturer Warranty"
-    },
-    "productType": "TV",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Unisex"
-  },
-  {
-    "id": 149,
-    "name": "Women's Michael Kors Jacket",
-    "category": "women",
-    "retail price": 299.99,
-    "sale price": 99.99,
-    "image": "https://slimages.macysassets.com/is/image/MCY/products/3/optimized/34584323_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp",
-    "description": "A sleek winter coat from Michael Kors, styled with a windproof exterior shell and high-loft down insulation.",
-    "images": [
-      "https://slimages.macysassets.com/is/image/MCY/products/3/optimized/34584323_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp",
-      "https://slimages.macysassets.com/is/image/MCY/products/0/optimized/34584330_fpx.tif?op_sharpen=1&wid=500&fit=fit",
-      "1&fmt=webp",
-      "https://slimages.macysassets.com/is/image/MCY/products/9/optimized/34584329_fpx.tif?op_sharpen=1&wid=500&fit=fit",
-      "https://slimages.macysassets.com/is/image/MCY/products/4/optimized/34850354_fpx.tif?op_sharpen=1&wid=500&fit=fit",
-      "https://slimages.macysassets.com/is/image/MCY/products/4/optimized/34584324_fpx.tif?op_sharpen=1&wid=500&fit=fit"
-    ],
-    "specifications": {
-      "brand": "Michael Kors",
-      "material": "Polyester & Nylon Shell",
-      "fit": "Regular Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Dry clean only",
-      "country_of_origin": "Italy",
-      "gender": "Women",
-      "style": "Luxury Outerwear",
-      "season": "Winter / Fall"
-    },
-    "productType": "Luxury Outerwear",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 150,
-    "name": "Men's Dolce & Gabbana Shorts",
-    "category": "men",
-    "retail price": 2499.99,
-    "sale price": 1129.99,
-    "image": "https://cdn-images.farfetch-contents.com/20/53/15/86/20531586_50546418_600.jpg",
-    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
-    "images": [
-      "https://cdn-images.farfetch-contents.com/20/53/15/86/20531586_50546418_600.jpg",
-      "https://cdn-images.farfetch-contents.com/20/53/15/86/20531586_50546416_600.jpg",
-      "https://cdn-images.farfetch-contents.com/20/53/15/86/20531586_50546417_600.jpg"
-    ],
-    "specifications": {
-      "brand": "Dolce & Gabbana",
-      "material": "100% Cotton",
-      "fit": "Regular Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Machine wash cold",
-      "country_of_origin": "Italy",
-      "gender": "Men",
-      "style": "Casual / Summer",
-      "season": "Summer"
-    },
-    "productType": "Casual / Summer",
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 151,
-    "name": "Leather Sectional Sofa Set",
-    "category": "homeandappliances",
-    "retail price": 1799.99,
-    "sale price": 999.99,
-    "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=800",
-    "description": "A premium furniture centerpiece designed with solid wood frames and high-density foam cushioning for home comfort.",
-    "images": [
-      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=800"
-    ],
-    "specifications": {
-      "brand": "Bonds",
-      "material": "Solid Wood Frame & Premium Upholstery",
-      "dimensions": "Varying dimensions depending on set",
-      "weight": "180 lbs",
-      "color_options": "Charcoal, Beige, Slate",
-      "assembly_required": "Yes",
-      "warranty": "3 Year Limited Warranty"
-    },
-    "age_group": "Adult",
-    "gender": "Unisex"
-  },
-  {
-    "id": 152,
-    "name": "VR Console Bundle",
-    "category": "entertainment",
-    "retail price": 299.99,
-    "sale price": 99.99,
-    "image": "https://i5.walmartimages.com/asr/524febbb-8253-4f8b-8244-decf90540eb9.6f896536388a05d3c6e7d9a2c9959aae.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
-    "description": "A next-generation virtual reality headset bundle, delivering breathtaking immersion, haptic feedback, and 3D audio.",
-    "images": [
-      "https://i5.walmartimages.com/asr/524febbb-8253-4f8b-8244-decf90540eb9.6f896536388a05d3c6e7d9a2c9959aae.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/71257da3-f206-40ad-b3df-1e1be19561fa.f10ed899ae0af6a8db30a25265214e79.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/ab381bdd-03ef-4a1f-a792-fc4d7b48b255.a17b2591729885d32e253b30c184fa86.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/230721e8-7bfa-4c2b-b78d-80aaf80bfb02.bde5f6d355d690ba102e4a674313f610.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
-    ],
-    "specifications": {
-      "brand": "Sony",
-      "display_type": "OLED (2000 x 2040 per eye)",
-      "refresh_rate": "90Hz, 120Hz",
-      "field_of_view": "110 degrees",
-      "controllers": "2x VR Sense Controllers included",
-      "connectivity": "USB-C",
-      "warranty": "1 Year Limited Warranty"
-    },
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Men"
-  },
-  {
-    "id": 153,
-    "name": "Women's Dolce & Gabbana Shorts",
-    "category": "women",
-    "retail price": 299.99,
-    "sale price": 99.99,
-    "image": "https://editorialist.com/thumbnail/600/2025/1/034/206/344/34206344~black_1737144980388_0.webp?width=600&quality=60",
-    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
-    "images": [
-      "https://editorialist.com/thumbnail/600/2025/1/034/206/344/34206344~black_1737144980388_0.webp?width=600&quality=60",
-      "https://editorialist.com/thumbnails/600/2025/1/034/206/344/34206344~black_1737144980388_1.webp",
-      "https://editorialist.com/thumbnails/600/2025/1/034/206/344/34206344~black_1737144980388_2.webp"
-    ],
-    "specifications": {
-      "brand": "Dolce & Gabbana",
-      "material": "100% Cotton",
-      "fit": "Regular Fit",
-      "sizes_available": "S, M, L, XL",
-      "care_instructions": "Machine wash cold",
-      "country_of_origin": "Italy",
-      "gender": "Women",
-      "style": "Casual / Summer",
-      "season": "Summer"
-    },
-    "productType": "Casual / Summer",
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
-  },
-  {
-    "id": 154,
-    "name": "Sony 4K Digital Camcorder",
-    "category": "electronics",
-    "retail price": 499.99,
-    "sale price": 139.99,
-    "image": "https://i5.walmartimages.com/seo/Sony-FDR-AX43-UHD-4K-Handycam-Camcorder-Sold-without-manufacturer-warranty_41131016-94b6-438d-ae80-7a731f7a4065.121ec5c5cbbdb456e9ac4200a265f020.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
-    "description": "A high-resolution 4K digital camcorder designed for smooth handheld shooting and crystal-clear video capture.",
-    "images": [
-      "https://i5.walmartimages.com/seo/Sony-FDR-AX43-UHD-4K-Handycam-Camcorder-Sold-without-manufacturer-warranty_41131016-94b6-438d-ae80-7a731f7a4065.121ec5c5cbbdb456e9ac4200a265f020.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/fa8c7a6e-6b12-493e-a80f-3d2a0a115879.9e2038a488694b290623962e64ede1f1.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/a1853fe7-2c19-4bdd-beb3-685a2de08e0f.2a670983469197a3fd1773f9fedf6a82.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/2b600759-0e28-4fc2-bba9-aeb81eed393e.4309baa7f3f57090ec647bdf2a338c7a.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/e3bcb7d5-4834-4f25-b440-223474ee0ff3.ea5cf97b70b1939624adda9a1a7948d9.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/41131016-94b6-438d-ae80-7a731f7a4065.121ec5c5cbbdb456e9ac4200a265f020.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF"
-    ],
-    "specifications": {
-      "brand": "Sony",
-      "video_resolution": "4K Ultra HD (3840x2160)",
-      "lens": "ZEISS Vario-Sonnar T* Lens",
-      "stabilization": "Balanced Optical SteadyShot",
-      "weight": "1.8 lbs",
-      "warranty": "1 Year Limited Warranty"
-    },
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Unisex"
-  },
-  {
-    "id": 155,
-    "name": "Samsung Galaxy Tablet",
-    "category": "electronics",
-    "retail price": 299.99,
-    "sale price": 99.99,
-    "image": "https://de2wfhoo6xqi5.cloudfront.net/size/400/f29/082/98327e489585792a2cfadfe24b01605cbd.jpg",
-    "description": "A sleek, lightweight tablet featuring a brilliant AMOLED screen, high-performance processor, and long battery life.",
-    "images": [
-      "https://de2wfhoo6xqi5.cloudfront.net/size/400/f29/082/98327e489585792a2cfadfe24b01605cbd.jpg",
-      "https://de2wfhoo6xqi5.cloudfront.net/size/400/108/b23/62a38dce07c76e3d939fc056f93f7bcaaa.jpg",
-      "https://de2wfhoo6xqi5.cloudfront.net/size/400/022/2ec/a04668ae05cba2650db99f09b465f062cf.jpg",
-      "https://de2wfhoo6xqi5.cloudfront.net/size/400/201/3df/6022095e0acbb4b9885b4cae3dc2df7c9a.jpg",
-      "https://de2wfhoo6xqi5.cloudfront.net/size/400/27b/762/713e6103a229a7c76e3187b9733ffbcb0c.jpg",
-      "https://de2wfhoo6xqi5.cloudfront.net/size/400/408/e81/f9081d76293aba53e796a442c122290026.jpg",
-      "https://de2wfhoo6xqi5.cloudfront.net/size/400/42d/7a7/6b5fd332a4ae354aa8968305a882dee9e6.jpg",
-      "https://de2wfhoo6xqi5.cloudfront.net/size/400/45d/a0b/665e9fb344a5358319bb9dbc8d8fa43fe2.jpg",
-      "https://de2wfhoo6xqi5.cloudfront.net/size/400/50e/677/433b5679396a28caee702fc7dd8e7e4b46.jpg"
-    ],
-    "specifications": {
-      "brand": "Samsung",
-      "processor": "Snapdragon 8 Gen 2",
-      "ram": "8GB RAM",
-      "storage": "128GB SSD",
-      "display": "11-inch Dynamic AMOLED 2X",
-      "operating_system": "Android 14",
-      "ports": "USB-C",
-      "weight": "1.1 lbs",
-      "warranty": "1 Year Limited Warranty"
-    },
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Unisex"
   },
   {
     "id": 66,
@@ -7795,6 +5170,2631 @@ const products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint"
+  },
+  {
+    "id": 297,
+    "name": "Sony Playstation 5 (Digital Version)",
+    "category": "entertainment",
+    "retail price": 599.99,
+    "sale price": 399.99,
+    "image": "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80",
+    "description": "The PS5 console unleashes new gaming possibilities that you never anticipated. Experience lightning fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D Audio, and an all-new generation of incredible PlayStation games. Lightning Speed Harness the power of a custom CPU, GPU, and SSD with Integrated I/O that rewrite the rules of what a PlayStation console can do. Stunning Games Marvel at incredible graphics and experience new PS5 features. Play a back catalog of supported PS4 games. Breathtaking Immersion Discover a deeper gaming experience with support for haptic feedback, adaptive triggers, and 3D Audio technology. Vertical stand sold separately. PS5 console (CFI-2100 model group â€“ slim). The CFI-2100 models are compatible with PS5 accessories for CFI-2000 products, including Console Covers (sold separately). 3D audio via built-in TV speakers or analog/USB stereo headphones. Set up and latest system software update required.  Internet connection required to pair Disc Drive and PS5 console upon setup.",
+    "images": [
+      "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_d70f18e4-4f32-4eb5-85a5-03cbdbdebd54?wid=800&hei=800&qlt=80"
+    ],
+    "specifications": {
+      "brand": "Sony",
+      "storage": "825GB Custom High-Speed SSD (slim models have 1TB SSD)",
+      "resolution": "4K UHD Gaming, Up to 8K Output support",
+      "frame_rate": "Up to 120 FPS at 120Hz output",
+      "optical_drive": "4K UHD Blu-ray Disc Drive (removable on slim)",
+      "connectivity": "1x HDMI 2.1, 2x USB-C, 2x USB-A, Wi-Fi 6, Bluetooth 5.1, Ethernet",
+      "controllers_included": "1x DualSense Wireless Controller (White)",
+      "backward_compatible": "Yes, plays over 99% of PS4 disc and digital games",
+      "dimensions": "15.4in x 10.2in x 4.1in",
+      "weight": "9.9 lbs"
+    },
+    "pre-owned price": 299.99,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 298,
+    "name": "Men's Gucci Shirt",
+    "category": "men",
+    "retail price": 1499.99,
+    "sale price": 799.99,
+    "image": "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60",
+    "description": "A classic knit cotton shirt from Gucci, tailored for everyday style and casual comfort.",
+    "images": [
+      "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnails/600/2026/6/043/991/730/43991730~black_1782648216031_1.webp"
+    ],
+    "specifications": {
+      "brand": "Gucci",
+      "material": "100% Cotton",
+      "fit": "Regular Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Machine wash cold, tumble dry low",
+      "country_of_origin": "Italy",
+      "gender": "Men",
+      "style": "Casual / Designer",
+      "season": "All Season"
+    },
+    "sku": "BM-0061",
+    "productType": "Shirt",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 299,
+    "name": "Men's Gucci Coat",
+    "category": "men",
+    "retail price": 2499.99,
+    "sale price": 1499.99,
+    "image": "https://editorialist.com/thumbnail/600/2025/9/038/132/970/38132970~black_1782991430059_0.webp?width=600&quality=60",
+    "description": "A sleek winter coat from Gucci, styled with a windproof exterior shell and high-loft down insulation.",
+    "images": [
+      "https://editorialist.com/thumbnail/600/2025/9/038/132/970/38132970~black_1782991430059_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnails/600/2025/9/038/132/970/38132970~black_1782991430059_1.webp",
+      "https://editorialist.com/thumbnails/600/2025/9/038/132/970/38132970~black_1782991430059_2.webp"
+    ],
+    "specifications": {
+      "brand": "Gucci",
+      "material": "100% Nappa Leather",
+      "fit": "Regular Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Dry clean only",
+      "country_of_origin": "Italy",
+      "gender": "Men",
+      "style": "Luxury Outerwear",
+      "season": "Winter / Fall"
+    },
+    "sku": "BM-0062",
+    "productType": "Coat",
+    "inventory": 1,
+    "pre-owned price": 999.99,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 300,
+    "name": "Men's Gucci Travel Bag",
+    "category": "accessories",
+    "retail price": 2999.99,
+    "sale price": 799.99,
+    "image": "https://img.the-fashion-square.com/32600bc847168fd4c3cdecfea82d3d87_1200.webp",
+    "description": "A refined leather handbag from Gucci with a structured silhouette and spacious compartments.",
+    "images": [
+      "https://img.the-fashion-square.com/32600bc847168fd4c3cdecfea82d3d87_1200.webp",
+      "https://img.the-fashion-square.com/5cee4cf0c110f3d3574268b5176e5439_1200.webp",
+      "https://img.the-fashion-square.com/64ff0427634130a99cbd779c3bf63831_1200.webp",
+      "https://img.the-fashion-square.com/277e5f4a6dd51add5782a5f594b8494d_1200.webp"
+    ],
+    "specifications": {
+      "brand": "Gucci",
+      "material": "100% Calfskin Saffiano Leather",
+      "dimensions": "20.5in x 11.8in x 10.2in",
+      "weight": "3.1 lbs",
+      "closure_type": "Zip closure",
+      "strap_type": "Detachable leather shoulder strap",
+      "color_options": "Black, Brown, Tan, Cream",
+      "gender": "Men",
+      "brand_origin": "Italy"
+    },
+    "sku": "BM-0063",
+    "productType": "Travel Bag",
+    "inventory": 100,
+    "pre-owned price": 499.99,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 301,
+    "name": "Men's Gucci Wallet",
+    "category": "accessories",
+    "retail price": 199.99,
+    "sale price": 49.99,
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTv0I9wKzNdEqVXN_K7kgbBMs3DNj8iSI5Kls5x0Cz-i-k9QdmXtcBhPl8iZFm2R6arSH2QL2kSs4xJ2y8v7rK2kAsRw8fJ_Q",
+    "description": "A compact bi-fold leather wallet from Gucci, containing multiple card slots and cash sleeves.",
+    "images": [
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTv0I9wKzNdEqVXN_K7kgbBMs3DNj8iSI5Kls5x0Cz-i-k9QdmXtcBhPl8iZFm2R6arSH2QL2kSs4xJ2y8v7rK2kAsRw8fJ_Q",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ4rie3X_qj8_KSKZItuXq3eRMk8gmbnqXVRBlUY_r9B2GmmeIMsqmhoNwVQ04MfRBlqBpov5zJOHx1li66aECdbkzGbwlH"
+    ],
+    "specifications": {
+      "brand": "Gucci",
+      "material": "Grained Leather",
+      "dimensions": "4.3in x 3.5in x 0.6in",
+      "weight": "0.2 lbs",
+      "closure_type": "Bi-fold",
+      "strap_type": "N/A",
+      "color_options": "Black, Brown",
+      "gender": "Men",
+      "brand_origin": "Italy"
+    },
+    "sku": "BM-0064",
+    "productType": "Wallet",
+    "inventory": 100,
+    "pre-owned price": 19.99,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 302,
+    "name": "Men's Gucci Leather Belt",
+    "category": "accessories",
+    "retail price": 599.99,
+    "sale price": 499.99,
+    "image": "https://images.stockx.com/images/Gucci-Double-G-Gold-Buckle-15W-Leather-Belt-Black-Studio-1.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&trimcolor=ffffff&updated_at=1606318953",
+    "description": "A classic leather belt from Gucci featuring a signature gold-plated brass buckle.",
+    "images": [
+      "https://images.stockx.com/images/Gucci-Double-G-Gold-Buckle-15W-Leather-Belt-Black-Studio-1.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&trimcolor=ffffff&updated_at=1606318953",
+      "https://images.stockx.com/images/Gucci-Double-G-Gold-Buckle-15W-Leather-Belt-Black-Studio-2.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&trimcolor=ffffff&updated_at=1606318953",
+      "https://images.stockx.com/images/Gucci-Double-G-Gold-Buckle-15W-Leather-Belt-Black-Studio-3.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&trimcolor=ffffff&updated_at=1606318954"
+    ],
+    "specifications": {
+      "brand": "Gucci",
+      "material": "100% Calfskin Leather",
+      "dimensions": "1.5in Width",
+      "weight": "0.4 lbs",
+      "closure_type": "Buckle closure",
+      "strap_type": "N/A",
+      "color_options": "Black / Gold",
+      "gender": "Men",
+      "brand_origin": "Italy"
+    },
+    "sku": "BM-0065",
+    "productType": "Belt",
+    "inventory": 100,
+    "pre-owned price": 199.99,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 303,
+    "name": "Men's Gucci Watch",
+    "category": "jewelry",
+    "retail price": 1999.99,
+    "sale price": 1249.99,
+    "image": "https://www.bezali.com/cdn/shop/products/YA126407_2048x.jpg?v=1604959027",
+    "description": "An exquisite luxury timepiece from Gucci, featuring Swiss precision movement and high-grade stainless steel casing.",
+    "images": [
+      "https://www.bezali.com/cdn/shop/products/YA126407_2048x.jpg?v=1604959027",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSjYO5I6da3OKnvjF36LoIbYQB8aR_1Sd3PMKd_qHRVApOZL2Z4Z3BMZRup1_XEyOs3yEbsWkyKXb20LKO3um7E6_IRIeZPzQYQPmif7NFtxekYcKMZahnBVA"
+    ],
+    "specifications": {
+      "brand": "Gucci",
+      "material": "18K Gold Plated Stainless Steel",
+      "dial_size": "40mm Case",
+      "band_material": "Stainless Steel Link Bracelet",
+      "water_resistance": "100 meters (10 ATM)",
+      "movement": "Swiss Automatic Mechanical",
+      "chain_length": "N/A",
+      "gender": "Men",
+      "warranty": "5 Year Manufacturer Warranty"
+    },
+    "sku": "BM-0066",
+    "productType": "Watch",
+    "inventory": 100,
+    "pre-owned price": 799.99,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 304,
+    "name": "Men's Gucci Socks",
+    "category": "men",
+    "retail price": 149.99,
+    "sale price": 59.99,
+    "image": "https://editorialist.com/thumbnail/600/2026/7/044/053/702/44053702~flamedgren_1782894655224_0.webp?width=600&quality=60",
+    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
+    "images": [
+      "https://editorialist.com/thumbnail/600/2026/7/044/053/702/44053702~flamedgren_1782894655224_0.webp?width=600&quality=60"
+    ],
+    "specifications": {
+      "brand": "Gucci",
+      "material": "95% Cotton, 5% Spandex",
+      "fit": "Stretch Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Machine wash cold",
+      "country_of_origin": "Italy",
+      "gender": "Men"
+    },
+    "sku": "BM-0067",
+    "productType": "Socks",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 305,
+    "name": "Men's Gucci Underwear",
+    "category": "men",
+    "retail price": 99.99,
+    "sale price": 39.99,
+    "image": "https://editorialist.com/thumbnail/600/2026/7/044/217/913/44217913~black_1783044119714_0.webp?width=600&quality=60",
+    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
+    "images": [
+      "https://editorialist.com/thumbnail/600/2026/7/044/217/913/44217913~black_1783044119714_0.webp?width=600&quality=60"
+    ],
+    "specifications": {
+      "brand": "Gucci",
+      "material": "95% Cotton, 5% Spandex",
+      "fit": "Stretch Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Machine wash cold",
+      "country_of_origin": "Italy",
+      "gender": "Men"
+    },
+    "sku": "BM-0068",
+    "productType": "Underwear",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 306,
+    "name": "Men's Gucci Sweater",
+    "category": "men",
+    "retail price": 1999.99,
+    "sale price": 1299.99,
+    "image": "https://www.mytheresa.com/image/1094/1238/100/47/P01124224.jpg",
+    "description": "A premium designer knitwear piece from Gucci crafted with warm wool and cashmere fibers.",
+    "images": [
+      "https://www.mytheresa.com/image/1094/1238/100/47/P01124224.jpg",
+      "https://www.mytheresa.com/image/1094/1238/100/47/P01124224_d2.jpg",
+      "https://www.mytheresa.com/image/1094/1238/100/47/P01124224_d1.jpg"
+    ],
+    "specifications": {
+      "brand": "Gucci",
+      "material": "80% Wool, 20% Cashmere",
+      "fit": "Relaxed Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Dry clean only",
+      "country_of_origin": "Italy",
+      "gender": "Men",
+      "style": "Designer Knitwear",
+      "season": "Winter / Fall"
+    },
+    "sku": "BM-0069",
+    "productType": "Sweater",
+    "inventory": 100,
+    "pre-owned price": 799.99,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 307,
+    "name": "Men's Gucci Shorts",
+    "category": "men",
+    "retail price": 199.99,
+    "sale price": 49.99,
+    "image": "https://images.stockx.com/images/Gucci-Technical-Jersey-Shorts-Black.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1637771600",
+    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
+    "images": [
+      "https://images.stockx.com/images/Gucci-Technical-Jersey-Shorts-Black.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1637771600"
+    ],
+    "specifications": {
+      "brand": "Gucci",
+      "material": "100% Cotton",
+      "fit": "Regular Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Machine wash cold",
+      "country_of_origin": "Italy",
+      "gender": "Men",
+      "style": "Casual / Summer",
+      "season": "Summer"
+    },
+    "sku": "BM-0070",
+    "productType": "Shorts",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 308,
+    "name": "Men's Gucci Casual Pants",
+    "category": "men",
+    "retail price": 499.99,
+    "sale price": 99.99,
+    "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800",
+    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
+    "images": [
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800"
+    ],
+    "specifications": {
+      "brand": "Gucci",
+      "material": "100% Linen",
+      "fit": "Regular Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Machine wash cold",
+      "country_of_origin": "Italy",
+      "gender": "Men",
+      "style": "Casual / Summer",
+      "season": "Summer"
+    },
+    "sku": "BM-0071",
+    "productType": "Pants",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 309,
+    "name": "Men's Gucci Hooded Sweatshirt",
+    "category": "men",
+    "retail price": 599.99,
+    "sale price": 199.99,
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcROOVj3H0Mgwd5gCJsPJS0v26nNtAMmoDhnsKPC_vNMFd7MMUU",
+    "description": "A classic knit cotton shirt from Gucci, tailored for everyday style and casual comfort.",
+    "images": [
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcROOVj3H0Mgwd5gCJsPJS0v26nNtAMmoDhnsKPC_vNMFd7MMUU",
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSAuD16M7aEZzmnA8BEu_4VwVJ3XOqQVW05XLrygBtXwgCt7okq-iGHAxyp-RzlG3WOVhV8jYc",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR0z-k46IYEjIgcSF4Mdqzhd-gUhwHpCv7z8uHVuHVZ6WZgD2xQOMj4T-4MPW2qy55uunV3ltg",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQzELDviNEuxXXNbzw6pfPDxTN8Kdw0JxZzLOCagS_46weW4ZCO"
+    ],
+    "specifications": {
+      "brand": "Gucci",
+      "material": "100% Cotton",
+      "fit": "Regular Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Machine wash cold, tumble dry low",
+      "country_of_origin": "Italy",
+      "gender": "Men",
+      "style": "Casual / Designer",
+      "season": "All Season"
+    },
+    "sku": "BM-0072",
+    "productType": "Sweater",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 310,
+    "name": "Men's Gucci Jacket",
+    "category": "men",
+    "retail price": 2999.99,
+    "sale price": 399.99,
+    "image": "https://editorialist.com/thumbnails/600/2026/2/040/629/114/40629114~blue_1770370506523_0.webp",
+    "description": "A sleek winter coat from Gucci, styled with a windproof exterior shell and high-loft down insulation.",
+    "images": [
+      "https://editorialist.com/thumbnails/600/2026/2/040/629/114/40629114~blue_1770370506523_0.webp",
+      "https://editorialist.com/thumbnails/600/2026/2/040/629/114/40629114~blue_1770370506523_1.webp",
+      "https://editorialist.com/thumbnails/600/2026/2/040/629/114/40629114~blue_1770370506523_2.webp",
+      "https://editorialist.com/thumbnails/600/2026/2/040/629/114/40629114~blue_1770370506523_3.webp"
+    ],
+    "specifications": {
+      "brand": "Gucci",
+      "material": "100% Nappa Leather",
+      "fit": "Regular Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Dry clean only",
+      "country_of_origin": "Italy",
+      "gender": "Men",
+      "style": "Luxury Outerwear",
+      "season": "Winter / Fall"
+    },
+    "sku": "BM-0073",
+    "productType": "Jacket",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 311,
+    "name": "Women's Gucci Shirt",
+    "category": "women",
+    "retail price": 799.99,
+    "sale price": 99.99,
+    "image": "https://editorialist.com/thumbnail/600/2026/5/042/711/333/42711333~navy_1783566016064_0.webp?width=600&quality=60",
+    "description": "A classic knit cotton shirt from Gucci, tailored for everyday style and casual comfort.",
+    "images": [
+      "https://editorialist.com/thumbnail/600/2026/5/042/711/333/42711333~navy_1783566016064_0.webp?width=600&quality=60"
+    ],
+    "specifications": {
+      "brand": "Gucci",
+      "material": "100% Cotton",
+      "fit": "Regular Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Machine wash cold, tumble dry low",
+      "country_of_origin": "Italy",
+      "gender": "Women",
+      "style": "Casual / Designer",
+      "season": "All Season"
+    },
+    "sku": "BM-0074",
+    "productType": "Shirt",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 312,
+    "name": "Women's Burberry Shirt",
+    "category": "women",
+    "retail price": 499.99,
+    "sale price": 79.99,
+    "image": "https://is4.fwrdassets.com/images/p/fw/zs/BURF-WS205_V1.jpg",
+    "description": "A classic knit cotton shirt from Burberry, tailored for everyday style and casual comfort.",
+    "images": [
+      "https://is4.fwrdassets.com/images/p/fw/zs/BURF-WS205_V1.jpg",
+      "https://is4.fwrdassets.com/images/p/fw/zs/BURF-WS205_V4.jpg",
+      "https://is4.fwrdassets.com/images/p/fw/zs/BURF-WS205_V2.jpg",
+      "https://is4.fwrdassets.com/images/p/fw/zs/BURF-WS205_V3.jpg"
+    ],
+    "specifications": {
+      "brand": "Burberry",
+      "material": "100% Cotton",
+      "fit": "Regular Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Machine wash cold, tumble dry low",
+      "country_of_origin": "Imported",
+      "gender": "Women",
+      "style": "Casual / Designer",
+      "season": "All Season"
+    },
+    "sku": "BM-0075",
+    "productType": "Shirt",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 313,
+    "name": "Canon T7 Rebel EOS",
+    "category": "electronics",
+    "retail price": 499.99,
+    "sale price": 199.99,
+    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6323/6323759_sd.jpg;maxHeight=1920;maxWidth=900?format=webp",
+    "description": "EF-S 18-55mm f/3.5-5.6 standard zoom provides versatility\nDesigned with Canon's optical image stabilizer technology. Expands picture-taking possibilities any time slow shutter speeds are needed.\n\nEF 75-300mm f/4-5.6 4x telephoto zoom lens to entry into telephoto photography\nWell-suited for sports and other applications requiring fast AF. A DC motor is used to power the AF.",
+    "images": [
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6323/6323759_sd.jpg;maxHeight=1920;maxWidth=900?format=webp"
+    ],
+    "specifications": {
+      "brand": "Canon",
+      "material": "Metal"
+    },
+    "sku": "BM-0076",
+    "productType": "Camera",
+    "inventory": 10,
+    "age_group": "Adult",
+    "gender": "Unisex"
+  },
+  {
+    "id": 314,
+    "name": "Women's Dolce & Gabbana Slippers",
+    "category": "women",
+    "retail price": 999.99,
+    "sale price": 399.99,
+    "image": "https://editorialist.com/thumbnails/600/2026/5/042/290/122/42290122~brown_1778149407665_3.webp",
+    "description": "Dolce & Gabbana presents these shearling slippers featuring a round toe, open-back design, and a branded insole. The slippers are embellished with luxurious shearling for added warmth and style. The branded insole ensures comfort and showcases the designer's signature touch. This slip-on style offers ease of wear, making them a perfect choice for relaxed yet sophisticated lounging.",
+    "images": [
+      "https://editorialist.com/thumbnails/600/2026/5/042/290/122/42290122~brown_1778149407665_3.webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "Cotton"
+    },
+    "sku": "BM-0077",
+    "productType": "Slippers",
+    "inventory": 400,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 315,
+    "name": "Men's Adidas Snapback",
+    "category": "accessories",
+    "retail price": 19.99,
+    "sale price": 14.99,
+    "image": "https://images.footballfanatics.com/adidas-originals/mens-white-adidas-originals-emblem-20-snapback-hat_ss5_p-203433842+pv-1+u-i1gaoysxxtnyakdrsmtr+v-6bbfwluskdiwva5s8mes.jpg?_hv=2&w=1018",
+    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
+    "images": [
+      "https://images.footballfanatics.com/adidas-originals/mens-white-adidas-originals-emblem-20-snapback-hat_ss5_p-203433842+pv-1+u-i1gaoysxxtnyakdrsmtr+v-6bbfwluskdiwva5s8mes.jpg?_hv=2&w=1018",
+      "https://images.footballfanatics.com/adidas-originals/mens-white-adidas-originals-emblem-20-snapback-hat_ss5_p-203433842+pv-3+u-i1gaoysxxtnyakdrsmtr+v-i1rlqonorpd4sdp5dthk.jpg?_hv=2&w=1018",
+      "https://images.footballfanatics.com/adidas-originals/mens-white-adidas-originals-emblem-20-snapback-hat_ss5_p-203433842+pv-2+u-i1gaoysxxtnyakdrsmtr+v-77rcjzhbs7v2pvy1dhlu.jpg?_hv=2&w=1018"
+    ],
+    "specifications": {
+      "brand": "Adidas",
+      "material": "Premium construction material"
+    },
+    "sku": "BM-0078",
+    "productType": "Snapback",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 316,
+    "name": "Women's Burberry Handbag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 999.99,
+    "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5499473_100296_m",
+    "description": "A refined leather handbag from Burberry with a structured silhouette and spacious compartments.",
+    "images": [
+      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5499473_100296_m",
+      "https://cdn-images.farfetch-contents.com/32/55/06/24/32550624_62919687_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/32/55/06/24/32550624_62919719_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/32/55/06/24/32550624_62919658_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/32/55/06/24/32550624_62919664_1000.jpg"
+    ],
+    "specifications": {
+      "brand": "Burberry",
+      "material": "100% Leather",
+      "dimensions": "11.0in x 7.5in x 4.0in",
+      "weight": "1.1 lbs",
+      "closure_type": "Chain latch closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Black, Brown, Tan, Cream",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    },
+    "sku": "BM-0079",
+    "productType": "Handbag",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 317,
+    "name": "Women's Celine Handbag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 999.99,
+    "image": "https://image.celine.com/c608082db4ab6ee7/original/118113GG2-01RC_1_SPR25_P1_W.tif?im=Resize=(900)",
+    "description": "A refined leather handbag from Celine with a structured silhouette and spacious compartments.",
+    "images": [
+      "https://image.celine.com/c608082db4ab6ee7/original/118113GG2-01RC_1_SPR25_P1_W.tif?im=Resize=(900)",
+      "https://image.celine.com/f4816010a1343abf/original/118113GG2-01RC_2_SPR25_P1_W.tif?im=Resize=(900)",
+      "https://image.celine.com/12edc6570452414c/original/118113GG2-01RC_3_SPR25_P1_W.tif?im=Resize=(900)",
+      "https://image.celine.com/d60781e74c535b01/original/118113GG2-01RC_4_SPR25_P1_W.tif?im=Resize=(900)",
+      "https://image.celine.com/29b3905478b8e799/original/118113GG2-01RC_5_SPR25_P1_W.tif?im=Resize=(900)"
+    ],
+    "specifications": {
+      "brand": "Celine",
+      "material": "100% Calfskin Saffiano Leather",
+      "dimensions": "11.0in x 7.5in x 4.0in",
+      "weight": "1.2 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Black, Brown, Tan, Cream",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    },
+    "sku": "BM-0080",
+    "productType": "Handbag",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 318,
+    "name": "Samsung Wireless Headphones",
+    "category": "electronics",
+    "retail price": 79.99,
+    "sale price": 49.99,
+    "image": "https://i5.walmartimages.com/seo/Wireless-Headphones-for-Samsung-Galaxy-S23-S22-S21-S20-Ultra-Plus-Foldable-Headset-w-Mic-Hands-free-Earphones-Earbuds-Over-Ear_52440e5a-7f91-4838-bb30-ad7731263d77.76beccc25ae7160ad92777a4e70dc8cc.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
+    "images": [
+      "https://i5.walmartimages.com/seo/Wireless-Headphones-for-Samsung-Galaxy-S23-S22-S21-S20-Ultra-Plus-Foldable-Headset-w-Mic-Hands-free-Earphones-Earbuds-Over-Ear_52440e5a-7f91-4838-bb30-ad7731263d77.76beccc25ae7160ad92777a4e70dc8cc.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/49f2be71-6924-4e8d-b3b3-b422c653e747.fbaad283b8bbdc1e49fa6cfff1fdc79c.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/74c58236-c9e8-4e34-b584-5f99da85c1d5.65331ca9cad4adefaa96443925065385.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+    ],
+    "specifications": {
+      "brand": "Samsung",
+      "material": "Premium construction material"
+    },
+    "sku": "BM-0081",
+    "productType": "Headphones",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Unisex"
+  },
+  {
+    "id": 319,
+    "name": "Clipboard",
+    "category": "accessories",
+    "retail price": 1.99,
+    "sale price": 0.99,
+    "image": "https://pipevet.com/media/catalog/product/p/a/parclipboard.jpg",
+    "description": "A sturdy wooden clipboard with a strong steel tension clip, ideal for work, classroom, or office note-taking.",
+    "images": [
+      "https://pipevet.com/media/catalog/product/p/a/parclipboard.jpg",
+      "https://images.unsplash.com/photo-1762341104168-63ddb56e9805?w=800"
+    ],
+    "specifications": {
+      "brand": "Papermate",
+      "material": "Tempered Wood & Steel Clip",
+      "dimensions": "9in x 12.5in",
+      "weight": "0.45 lbs"
+    },
+    "sku": "BM-0082",
+    "productType": "Clipboard",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Unisex"
+  },
+  {
+    "id": 320,
+    "name": "HP Printer",
+    "category": "electronics",
+    "retail price": 29.99,
+    "sale price": 29.99,
+    "image": "https://i5.walmartimages.com/seo/HP-Envy-6152e-Wireless-All-in-One-Color-Photo-Inkjet-Printer-Scanner-Copier-3-Months-FREE-Ink_765c7219-720f-47e0-9c28-1d55f5cce032.48d1b0e9f9cfe7420953a64128ae55ce.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "description": "A high-performance all-in-one printer from HP, supporting printing, copying, scanning, and fast wireless setup.",
+    "images": [
+      "https://i5.walmartimages.com/seo/HP-Envy-6152e-Wireless-All-in-One-Color-Photo-Inkjet-Printer-Scanner-Copier-3-Months-FREE-Ink_765c7219-720f-47e0-9c28-1d55f5cce032.48d1b0e9f9cfe7420953a64128ae55ce.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/a9b145c7-2810-4168-ab26-570fe03b6794.5d332b8068df302193d88132a210e9c6.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/78da91fa-6578-4103-81cb-1d85a8fb8ed2.902a5ef80614df8f792cae800cb32827.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/e9d2cf59-9a2e-4733-b9fd-ffabb100b0da.ac84f24172c882c79809ec911c8d3736.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/252c8762-bb56-4c56-a923-4d51e044ffce.67e795a047a0dc337b16d4f319319b5f.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF"
+    ],
+    "specifications": {
+      "brand": "HP",
+      "print_speed": "Up to 22 ppm (black), 18 ppm (color)",
+      "connectivity": "Wi-Fi, Bluetooth, USB, Ethernet",
+      "functions": "Print, Copy, Scan, Fax",
+      "max_resolution": "4800 x 1200 dpi",
+      "paper_capacity": "250 sheets",
+      "warranty": "1 Year Limited Hardware Warranty"
+    },
+    "sku": "BM-0083",
+    "productType": "Printer",
+    "inventory": 10,
+    "age_group": "Adult",
+    "gender": "Unisex"
+  },
+  {
+    "id": 321,
+    "name": "Men's Nike Snapback",
+    "category": "men",
+    "retail price": 29.99,
+    "sale price": 14.99,
+    "image": "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf80561c5/1000x1000/478/249/100/478249100a.jpg?sw=800&sh=1028&q=100",
+    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
+    "images": [
+      "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf80561c5/1000x1000/478/249/100/478249100a.jpg?sw=800&sh=1028&q=100",
+      "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw777235bd/1000x1000/478/249/100/478249100.jpg?sw=800&sh=1028&q=100",
+      "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw90d74e3d/1000x1000/478/249/100/478249100b.jpg?sw=800&sh=1028&q=100"
+    ],
+    "specifications": {
+      "brand": "Nike",
+      "material": "Premium construction material"
+    },
+    "sku": "BM-0084",
+    "productType": "Snapback",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 322,
+    "name": "Men's True Religion Snapback",
+    "category": "accessories",
+    "retail price": 79.99,
+    "sale price": 19.99,
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcReGDk-fOu0tz8U8vQNjD_oTW_eHTM2xnZ6qj9zr4Xf9e1W8UvnyYORtesYe0B892p_HO0PzfKCNnkoFIGrIKzsh_XvNPmFy3mm27YVAsEBczcyyTjpUpsE",
+    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
+    "images": [
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcReGDk-fOu0tz8U8vQNjD_oTW_eHTM2xnZ6qj9zr4Xf9e1W8UvnyYORtesYe0B892p_HO0PzfKCNnkoFIGrIKzsh_XvNPmFy3mm27YVAsEBczcyyTjpUpsE",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRhhxJU-rNTvUYlDty1UmfXx09Wsqh5PuIgxikhGYpmvtiO6iZUnyQizmKRYdZgChokLJ_6s1SC6FOxmhshqHL_flfbD0xeN2P1FJUFA2cs3KIWaMVW1Kx9Lg"
+    ],
+    "specifications": {
+      "brand": "True Religion",
+      "material": "Premium construction material"
+    },
+    "sku": "BM-0085",
+    "productType": "Snapback",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 323,
+    "name": "Women's Coach Jacket",
+    "category": "women",
+    "retail price": 399.99,
+    "sale price": 79.99,
+    "image": "https://coach.scene7.com/is/image/Coach/cdk37_b5h_a0?$mobileProductV6$",
+    "description": "A sleek winter coat from Coach, styled with a windproof exterior shell and high-loft down insulation.",
+    "images": [
+      "https://coach.scene7.com/is/image/Coach/cdk37_b5h_a0?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cdk37_b5h_a45?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cdk37_b5h_a46?$mobileProductV6$"
+    ],
+    "specifications": {
+      "brand": "Coach",
+      "material": "Polyester & Nylon Shell",
+      "fit": "Regular Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Dry clean only",
+      "country_of_origin": "Italy",
+      "gender": "Women",
+      "style": "Luxury Outerwear",
+      "season": "Winter / Fall"
+    },
+    "sku": "BM-0086",
+    "productType": "Jacket",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 324,
+    "name": "Men's Guess Slippers",
+    "category": "men",
+    "retail price": 99.99,
+    "sale price": 49.99,
+    "image": "https://slimages.macysassets.com/is/image/MCY/products/4/optimized/33221164_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp",
+    "description": "Comfortable footwear from Guess, styled with refined leather detailing and a soft footbed.",
+    "images": [
+      "https://slimages.macysassets.com/is/image/MCY/products/4/optimized/33221164_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp",
+      "https://slimages.macysassets.com/is/image/MCY/products/5/optimized/33221135_fpx.tif?op_sharpen=1&wid=500&fit=fit",
+      "1&fmt=webp",
+      "https://slimages.macysassets.com/is/image/MCY/products/6/optimized/33221136_fpx.tif?op_sharpen=1&wid=500&fit=fit"
+    ],
+    "specifications": {
+      "brand": "Guess",
+      "material": "Shearling & Suede Leather",
+      "fit": "Standard Width, True to Size",
+      "sizes_available": "US 7, 8, 9, 10, 11",
+      "care_instructions": "Specialist leather or suede cleaner",
+      "country_of_origin": "Italy",
+      "gender": "Men"
+    },
+    "sku": "BM-0087",
+    "productType": "Slippers",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 325,
+    "name": "Men's Hermés Cologne",
+    "category": "accessories",
+    "retail price": 599.99,
+    "sale price": 99.99,
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRdppciVKyXtBI3GnH0jDO-CHizT75F7mJFKYgsuUk2tz--A5lKGmKybl6l6ps",
+    "description": "A sophisticated men's fragrance featuring fresh citrus notes blended with rich woody accords.",
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRdppciVKyXtBI3GnH0jDO-CHizT75F7mJFKYgsuUk2tz--A5lKGmKybl6l6ps",
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTIGqw4H55iDHPyZ-lNVUxQW9WTrfuCSHV8NodYc1SP1R-QHTX7FWvRdx-bMA",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQtIojTOzfz4NXb1MQgDgwQFMsB3DcTohD_7i7RtXZ7tBJ0CME0nB6qvPfb70sXw7oKPRR0rQBk"
+    ],
+    "specifications": {
+      "brand": "Hermés",
+      "type": "Eau de Cologne",
+      "size": "3.3 oz (100 ml)",
+      "scent_notes": "Grapefruit, Wood, Mineral Accord",
+      "concentration": "Cologne",
+      "country_of_origin": "France",
+      "gender": "Men"
+    },
+    "sku": "BM-0088",
+    "productType": "Cologne",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 326,
+    "name": "Men's Lacoste Hooded Sweatshirt",
+    "category": "men",
+    "retail price": 799.99,
+    "sale price": 99.99,
+    "image": "https://images.vestiairecollective.com/images/resized/w=2920,q=75,f=auto,/produit/navy-cotton-lacoste-jacket-40436010-1_6.jpg",
+    "description": "A classic knit cotton shirt from Lacoste, tailored for everyday style and casual comfort.",
+    "images": [
+      "https://images.vestiairecollective.com/images/resized/w=2920,q=75,f=auto,/produit/navy-cotton-lacoste-jacket-40436010-1_6.jpg"
+    ],
+    "specifications": {
+      "brand": "Lacoste",
+      "material": "100% Cotton",
+      "fit": "Regular Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Machine wash cold, tumble dry low",
+      "country_of_origin": "Italy",
+      "gender": "Men",
+      "style": "Casual / Designer",
+      "season": "All Season"
+    },
+    "sku": "BM-0089",
+    "productType": "Hoodie",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 327,
+    "name": "Men's Patek Philippe Watch",
+    "category": "jewelry",
+    "retail price": 13649999.99,
+    "sale price": 13599999.99,
+    "image": "https://watchxnyc.com/cdn/shop/files/watchxnyc-watch-default-title-patek-philippe-grand-complications-grandmaster-chime-black-time-calendar-diamond-dial-white-gold-reversible-case-leather-strap-49-4mm-6300-400g-001-31315235700917.jpg?v=1753988293&width=768",
+    "description": "An exquisite luxury timepiece from Patek Philippe, featuring Swiss precision movement and high-grade stainless steel casing.",
+    "images": [
+      "https://watchxnyc.com/cdn/shop/files/watchxnyc-watch-default-title-patek-philippe-grand-complications-grandmaster-chime-black-time-calendar-diamond-dial-white-gold-reversible-case-leather-strap-49-4mm-6300-400g-001-31315235700917.jpg?v=1753988293&width=768",
+      "https://www.hourstriker.com/core/images/dbitems/medium/patek-philippe-grand-complications-grandmaster-chime-haute-joaillerie-6300400g-3-22-2024.webp",
+      "https://cdn.thewatchpages.com/app/uploads/2023/10/03170001/patek-philippe-grand-complications-grandmaster-chime-haute-joaillerie-6300400g-001-3.jpeg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Wg_fkW7imr7zYQZg4iacXphaRsZPE0h55Al_JTxHRVK95kHwgtjEOa4&s=10"
+    ],
+    "specifications": {
+      "brand": "Patek Philippe",
+      "material": "18K Gold Plated Stainless Steel",
+      "dial_size": "40mm Case",
+      "band_material": "Stainless Steel Link Bracelet",
+      "water_resistance": "100 meters (10 ATM)",
+      "movement": "Swiss Automatic Mechanical",
+      "chain_length": "N/A",
+      "gender": "Men",
+      "warranty": "5 Year Manufacturer Warranty"
+    },
+    "pre-owned price": 12999999.99,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 328,
+    "name": "Queen Size Bed Set With Memory Foam Mattress",
+    "category": "homeandappliances",
+    "retail price": 799.99,
+    "sale price": 199.99,
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800",
+    "description": "A premium furniture centerpiece designed with solid wood frames and high-density foam cushioning for home comfort.",
+    "images": [
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800"
+    ],
+    "specifications": {
+      "brand": "Bonds",
+      "material": "Solid Wood Frame & Premium Upholstery",
+      "dimensions": "Varying dimensions depending on set",
+      "weight": "180 lbs",
+      "color_options": "Charcoal, Beige, Slate",
+      "assembly_required": "Yes",
+      "warranty": "3 Year Limited Warranty"
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
+  },
+  {
+    "id": 329,
+    "name": "Sony Wireless Bluetooth Headphones",
+    "category": "electronics",
+    "retail price": 99.99,
+    "sale price": 59.99,
+    "image": "https://i5.walmartimages.com/seo/Sony-WH-CH520-Wireless-Bluetooth-Headphones-with-Microphone-Black_2bf4c6c6-fe00-4c7d-a96c-7377c4d22468.5c9df151b25b3a1328a6ed171566c71c.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
+    "images": [
+      "https://i5.walmartimages.com/seo/Sony-WH-CH520-Wireless-Bluetooth-Headphones-with-Microphone-Black_2bf4c6c6-fe00-4c7d-a96c-7377c4d22468.5c9df151b25b3a1328a6ed171566c71c.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/8f993e04-a18a-4ddc-98fd-90891962a117.04e852db72f22a7f356a01bea1f3d4b1.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/9ca0de9b-7f0c-4ee5-ac8e-e66af0eb714f.2571e1e0b3b46e0d122f12006a63cb86.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/7db3cb7f-c463-45cf-a99e-30e0756ccec1.12fac20fdc1c21a988389c1cb30f6051.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/598ab724-5c5b-486f-b475-7ac9fd0a3ed8.9e81de388b75b40638926171398707cb.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF"
+    ],
+    "specifications": {
+      "brand": "Sony",
+      "material": "Premium construction material"
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Unisex"
+  },
+  {
+    "id": 330,
+    "name": "Women's Burberry Winter Coat",
+    "category": "women",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5588120_100296_m",
+    "description": "A sleek winter coat from Burberry, styled with a windproof exterior shell and high-loft down insulation.",
+    "images": [
+      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5588120_100296_m",
+      "https://media.neimanmarcus.com/f_auto",
+      "q_auto:low",
+      "ar_4:5",
+      "c_fill",
+      "dpr_2.0",
+      "w_420/01/nm_5588120_100296_n",
+      "w_420/01/nm_5588120_100296_h",
+      "w_420/01/nm_5588120_100296_c",
+      "w_420/01/nm_5588120_100296_d"
+    ],
+    "specifications": {
+      "brand": "Burberry",
+      "material": "Polyester & Nylon Shell",
+      "fit": "Regular Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Dry clean only",
+      "country_of_origin": "Italy",
+      "gender": "Women",
+      "style": "Luxury Outerwear",
+      "season": "Winter / Fall"
+    },
+    "productType": "Luxury Outerwear",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 331,
+    "name": "Women's Yves Saint Laurent Handbag",
+    "category": "accessories",
+    "retail price": 2999.99,
+    "sale price": 1799.99,
+    "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5519293_100106_m",
+    "description": "A refined leather handbag from Yves Saint Laurent with a structured silhouette and spacious compartments.",
+    "images": [
+      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5519293_100106_m",
+      "https://media.neimanmarcus.com/f_auto",
+      "q_auto:low",
+      "ar_4:5",
+      "c_fill",
+      "dpr_2.0",
+      "w_420/01/nm_5519293_100106_d",
+      "w_420/01/nm_5519293_100106_b",
+      "w_420/01/nm_5519293_100106_c",
+      "w_420/01/nm_5519293_100106_z",
+      "w_420/01/nm_5519293_100106_a"
+    ],
+    "specifications": {
+      "brand": "Yves Saint Laurent",
+      "material": "100% Calfskin Saffiano Leather",
+      "dimensions": "11.0in x 7.5in x 4.0in",
+      "weight": "1.2 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Black, Brown, Tan, Cream",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    },
+    "inventory": 100,
+    "pre-owned price": 499.99,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 332,
+    "name": "Men's Gucci Polo Shirt",
+    "category": "men",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://editorialist.com/thumbnail/600/2025/6/037/117/150/37117150~black_1750933752573_0.webp?width=600&quality=60",
+    "description": "A classic knit cotton shirt from Gucci, tailored for everyday style and casual comfort.",
+    "images": [
+      "https://editorialist.com/thumbnail/600/2025/6/037/117/150/37117150~black_1750933752573_0.webp?width=600&quality=60"
+    ],
+    "specifications": {
+      "brand": "Gucci",
+      "material": "100% Cotton",
+      "fit": "Regular Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Machine wash cold, tumble dry low",
+      "country_of_origin": "Italy",
+      "gender": "Men",
+      "style": "Casual / Designer",
+      "season": "All Season"
+    },
+    "productType": "Casual / Designer",
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 333,
+    "name": "Women's Hermés Bracelet",
+    "category": "jewelry",
+    "retail price": 999.99,
+    "sale price": 399.99,
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR_b3k4qxmqjlilEFOqj8l2bWz0Vg-td3nFhT-2wzegVHucN99_O9cpE_e6U6BSxZVgeQimfRZ45dpg7YcEraDrEVv6tx2rkA",
+    "description": "A polished signature bracelet from Hermés, designed to add a sophisticated touch to any outfit.",
+    "images": [
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR_b3k4qxmqjlilEFOqj8l2bWz0Vg-td3nFhT-2wzegVHucN99_O9cpE_e6U6BSxZVgeQimfRZ45dpg7YcEraDrEVv6tx2rkA",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT_iWFY8KPzO4z5X9fEMbb8eBEiWWmdYIVdP_PL8QiNMb3KyOqfNayEkkdQ18SKf1NuDx4RAwZTK1G842a8d-9l0Z2XH28zHA"
+    ],
+    "specifications": {
+      "brand": "Hermés",
+      "material": "18K Gold Plated Brass",
+      "water_resistance": "Water Resistant",
+      "chain_length": "7.5 inches",
+      "gender": "Women",
+      "warranty": "1 Year Limited Warranty"
+    },
+    "productType": "Bracelet",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 334,
+    "name": "Sony Home Theater Projector",
+    "category": "homeandappliances",
+    "retail price": 599.99,
+    "sale price": 299.99,
+    "image": "https://images.crutchfieldonline.com/ImageHandler/trim/704/528/products/2022/14/158/g158W5000ES-o_other3.jpg",
+    "description": "A native 4K home theater projector by Sony, offering stunning cinematic brightness and sharp details.",
+    "images": [
+      "https://images.crutchfieldonline.com/ImageHandler/trim/704/528/products/2022/14/158/g158W5000ES-o_other3.jpg",
+      "https://images.crutchfieldonline.com/ImageHandler/trim/704/528/products/2022/14/158/g158W5000ES-F.jpg",
+      "https://images.unsplash.com/photo-1535016120720-40c646be5580?w=800"
+    ],
+    "specifications": {
+      "brand": "Sony",
+      "brightness": "2,000 Lumens",
+      "resolution": "Native 4K (4096 x 2160)",
+      "light_source": "Laser Diode",
+      "projection_size": "60in to 300in diagonal",
+      "ports": "2x HDMI 2.0b, 1x USB, 1x Ethernet",
+      "weight": "31 lbs",
+      "dimensions": "18.1in W x 7.9in H x 19.9in D",
+      "warranty": "3 Year Limited Warranty"
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Unisex"
+  },
+  {
+    "id": 335,
+    "name": "Women's Versace Crossbody Bag",
+    "category": "accessories",
+    "retail price": 1799.99,
+    "sale price": 799.99,
+    "image": "https://cdn-images.farfetch-contents.com/32/66/01/95/32660195_63083148_600.jpg",
+    "description": "A refined leather handbag from Versace with a structured silhouette and spacious compartments.",
+    "images": [
+      "https://cdn-images.farfetch-contents.com/32/66/01/95/32660195_63083148_600.jpg",
+      "https://cdn-images.farfetch-contents.com/32/66/01/95/32660195_63075310_600.jpg",
+      "https://cdn-images.farfetch-contents.com/32/66/01/95/32660195_63076375_600.jpg"
+    ],
+    "specifications": {
+      "brand": "Versace",
+      "material": "100% Calfskin Saffiano Leather",
+      "dimensions": "11.0in x 7.5in x 4.0in",
+      "weight": "1.2 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Black, Brown, Tan, Cream",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 336,
+    "name": "Men's Versace Loafers",
+    "category": "men",
+    "retail price": 2999.99,
+    "sale price": 399.99,
+    "image": "https://assets.levelshoes.com/cdn-cgi/image/width=720,height=1008,quality=85,format=webp/media/catalog/product/1/0/1012629-1a09123-1b00v_3.jpg?ts=20231124032014",
+    "description": "Comfortable footwear from Versace, styled with refined leather detailing and a soft footbed.",
+    "images": [
+      "https://assets.levelshoes.com/cdn-cgi/image/width=720,height=1008,quality=85,format=webp/media/catalog/product/1/0/1012629-1a09123-1b00v_3.jpg?ts=20231124032014",
+      "https://assets.levelshoes.com/cdn-cgi/image/width=720",
+      "height=1008",
+      "quality=85",
+      "format=webp/media/catalog/product/1/0/1012629-1a09123-1b00v_5.jpg?ts=20231124032014",
+      "format=webp/media/catalog/product/1/0/1012629-1a09123-1b00v_1.jpg?ts=20231124032014",
+      "format=webp/media/catalog/product/1/0/1012629-1a09123-1b00v_4.jpg?ts=20231124032014",
+      "format=webp/media/catalog/product/1/0/1012629-1a09123-1b00v_2.jpg?ts=20231124032014"
+    ],
+    "specifications": {
+      "brand": "Versace",
+      "material": "Shearling & Suede Leather",
+      "fit": "Standard Width, True to Size",
+      "sizes_available": "US 7, 8, 9, 10, 11",
+      "care_instructions": "Specialist leather or suede cleaner",
+      "country_of_origin": "Italy",
+      "gender": "Men"
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 337,
+    "name": "Men's Nike Travel Bag",
+    "category": "accessories",
+    "retail price": 99.99,
+    "sale price": 49.99,
+    "image": "https://dks.scene7.com/is/image/GolfGalaxy/21NIKUNKBRSLMDFF9TRVA_Black_Black_White?wid=600&qlt=70&hei=600&fit=constrain&fmt=webp&op_sharpen=1",
+    "description": "A refined leather handbag from Nike with a structured silhouette and spacious compartments.",
+    "images": [
+      "https://dks.scene7.com/is/image/GolfGalaxy/21NIKUNKBRSLMDFF9TRVA_Black_Black_White?wid=600&qlt=70&hei=600&fit=constrain&fmt=webp&op_sharpen=1",
+      "https://dks.scene7.com/is/image/GolfGalaxy/DH7710_010-BlackBlackWhite_OPN-alt1?wid=769&qlt=70&hei=769&fit=constrain&fmt=webp&op_sharpen=1",
+      "https://dks.scene7.com/is/image/GolfGalaxy/DH7710_010-BlackBlackWhite_OPN?wid=769&qlt=70&hei=769&fit=constrain&fmt=webp&op_sharpen=1",
+      "https://dks.scene7.com/is/image/GolfGalaxy/DH7710_010-BlackBlackWhite_SDE?wid=769&qlt=70&hei=769&fit=constrain&fmt=webp&op_sharpen=1",
+      "https://dks.scene7.com/is/image/GolfGalaxy/DH7710_010-BlackBlackWhite_BCK?wid=769&qlt=70&hei=769&fit=constrain&fmt=webp&op_sharpen=1"
+    ],
+    "specifications": {
+      "brand": "Nike",
+      "material": "100% Calfskin Saffiano Leather",
+      "dimensions": "20.5in x 11.8in x 10.2in",
+      "weight": "3.1 lbs",
+      "closure_type": "Zip closure",
+      "strap_type": "Detachable leather shoulder strap",
+      "color_options": "Black, Brown, Tan, Cream",
+      "gender": "Men",
+      "brand_origin": "Italy"
+    },
+    "productType": "Travel Bag",
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 338,
+    "name": "Women's Hermés Epsom Birkin 30 Handbag",
+    "category": "accessories",
+    "retail price": 29999.99,
+    "sale price": 19999.99,
+    "image": "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7825_V1.jpg",
+    "description": "A refined leather handbag from Hermés with a structured silhouette and spacious compartments.",
+    "images": [
+      "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7825_V1.jpg",
+      "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7825_V2.jpg",
+      "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7825_V4.jpg",
+      "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7825_V3.jpg"
+    ],
+    "specifications": {
+      "brand": "Hermés",
+      "material": "100% Calfskin Saffiano Leather",
+      "dimensions": "11.0in x 7.5in x 4.0in",
+      "weight": "1.2 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Black, Brown, Tan, Cream",
+      "gender": "Women",
+      "brand_origin": "Paris"
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 339,
+    "name": "Women's Yves Saint Laurent Handbag",
+    "category": "accessories",
+    "retail price": 3499.99,
+    "sale price": 1119.99,
+    "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_418/01/nm_4957234_100106_m",
+    "description": "A refined leather handbag from Yves Saint Laurent with a structured silhouette and spacious compartments.",
+    "images": [
+      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_418/01/nm_4957234_100106_m",
+      "https://saint-laurent.dam.kering.com/m/7673648721a01958/Medium2-801439AAEAX1000_F.jpg?v=1",
+      "https://media.neimanmarcus.com/f_auto",
+      "q_auto:low",
+      "ar_4:5",
+      "c_fill",
+      "dpr_2.0",
+      "w_418/01/nm_4957234_100106_b",
+      "https://saint-laurent.dam.kering.com/m/7c1118b1b358d47a/Medium2-801439AAEAX1000_D.jpg?v=1",
+      "https://saint-laurent.dam.kering.com/m/32f56814cf5ea274/Medium2-801439AAEAX1000_E.jpg?v=1",
+      "w_1200/01/nm_4957234_100106_c",
+      "https://saint-laurent.dam.kering.com/m/759c8aa016e3f201/Medium2-801439AAEAX1000_C.jpg?v=1",
+      "w_1200/01/nm_4957234_100106_z",
+      "w_418/01/nm_4957234_100106_a"
+    ],
+    "specifications": {
+      "brand": "Yves Saint Laurent",
+      "material": "100% Calfskin Saffiano Leather",
+      "dimensions": "11.0in x 7.5in x 4.0in",
+      "weight": "1.2 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Black, Brown, Tan, Cream",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 340,
+    "name": "Women's Chanel Sweater",
+    "category": "women",
+    "retail price": 2299.99,
+    "sale price": 399.99,
+    "image": "https://images.vestiairecollective.com/images/resized/w=375,q=75,f=auto,/produit/black-cashmere-chanel-knitwear-63591300-1_3.jpg",
+    "description": "A premium designer knitwear piece from Chanel crafted with warm wool and cashmere fibers.",
+    "images": [
+      "https://images.vestiairecollective.com/images/resized/w=375,q=75,f=auto,/produit/black-cashmere-chanel-knitwear-63591300-1_3.jpg",
+      "https://images.vestiairecollective.com/images/resized/w=480",
+      "q=75",
+      "f=auto",
+      "/produit/black-cashmere-chanel-knitwear-59301751-1_2.jpg"
+    ],
+    "specifications": {
+      "brand": "Chanel",
+      "material": "100% Cashmere",
+      "fit": "Relaxed Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Dry clean only",
+      "country_of_origin": "Italy",
+      "gender": "Women",
+      "style": "Designer Knitwear",
+      "season": "Winter / Fall"
+    },
+    "productType": "Designer Knitwear",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 341,
+    "name": "Men's Givenchy Sweater",
+    "category": "men",
+    "retail price": 2499.99,
+    "sale price": 599.99,
+    "image": "https://www.theoutnet.com/variants/images/46376663163101657/F/w920_q80.jpg",
+    "description": "A premium designer knitwear piece from Givenchy crafted with warm wool and cashmere fibers.",
+    "images": [
+      "https://www.theoutnet.com/variants/images/46376663163101657/F/w920_q80.jpg",
+      "https://www.theoutnet.com/variants/images/46376663163101657/R/w920_q80.jpg",
+      "https://www.theoutnet.com/variants/images/46376663163101657/E/w920_q80.jpg"
+    ],
+    "specifications": {
+      "brand": "Givenchy",
+      "material": "100% Cashmere",
+      "fit": "Relaxed Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Dry clean only",
+      "country_of_origin": "Italy",
+      "gender": "Men",
+      "style": "Designer Knitwear",
+      "season": "Winter / Fall"
+    },
+    "productType": "Designer Knitwear",
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 342,
+    "name": "Men's Burberry Bucket Hat",
+    "category": "accessories",
+    "retail price": 399.99,
+    "sale price": 59.99,
+    "image": "https://cdn-images.farfetch-contents.com/15/36/84/80/15368480_37224527_600.jpg",
+    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
+    "images": [
+      "https://cdn-images.farfetch-contents.com/15/36/84/80/15368480_37224527_600.jpg",
+      "https://images.stockx.com/images/Burberry-Check-Cotton-Canvas-Bucket-Hat-Birch-Brown.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1642447308",
+      "https://cdn-images.farfetch-contents.com/15/36/84/80/15368480_37224528_600.jpg",
+      "https://images.stockx.com/images/Burberry-Check-Cotton-Canvas-Bucket-Hat-Birch-Brown-2.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1642447308"
+    ],
+    "specifications": {
+      "brand": "Burberry",
+      "material": "Premium construction material"
+    },
+    "productType": "Hat",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 343,
+    "name": "LG 48\" Smart TV",
+    "category": "homeandappliances",
+    "retail price": 499.99,
+    "sale price": 299.99,
+    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/21afec55-4335-4253-8147-06dd44a6f68b.jpg;maxHeight=828;maxWidth=400?format=webp",
+    "description": "An ultra high-definition Smart TV featuring vivid colors, deep contrast, and advanced smart platform streaming.",
+    "images": [
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/21afec55-4335-4253-8147-06dd44a6f68b.jpg;maxHeight=828;maxWidth=400?format=webp",
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/70df9969-a281-429c-bb76-1c6ca121546e.jpg;maxHeight=828;maxWidth=400?format=webp"
+    ],
+    "specifications": {
+      "brand": "LG",
+      "display_tech": "4K UHD LED",
+      "screen_size": "55 Inch",
+      "refresh_rate": "120Hz",
+      "smart_platform": "webOS",
+      "ports": "4x HDMI 2.1, 2x USB, 1x Ethernet",
+      "weight": "28 lbs",
+      "dimensions": "48.3in W x 28.0in H x 1.8in D",
+      "warranty": "2 Year Manufacturer Warranty"
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
+  },
+  {
+    "id": 344,
+    "name": "Apple iPhone 17 Pro Max",
+    "category": "electronics",
+    "retail price": 2499.99,
+    "sale price": 999.99,
+    "image": "https://www.visible.com/shop/assets/images/shop/webp/iPhone_17_Pro_Max_COS_1.webp",
+    "description": "iPhone 17 Pro Max. The most powerful iPhone ever. Brilliant 6.9-inch display, A19 Pro chip, advanced 48MP camera system, and best-ever battery life.",
+    "images": [
+      "https://www.visible.com/shop/assets/images/shop/webp/iPhone_17_Pro_Max_COS_1.webp",
+      "https://www.visible.com/shop/assets/images/shop/webp/iPhone_17_Pro_Max_COS_2.webp"
+    ],
+    "specifications": {
+      "brand": "Apple",
+      "processor": "Apple A19 Pro Chip",
+      "ram": "12GB Unified Memory",
+      "storage": "256GB / 512GB PCIe NVMe SSD",
+      "display": "6.9-inch Super Retina XDR OLED Display",
+      "graphics": "Integrated 6-Core Apple GPU",
+      "battery_life": "Up to 33 hours video playback",
+      "operating_system": "iOS 26",
+      "ports": "USB-C (USB 3.0)",
+      "weight": "0.48 lbs",
+      "color": "Desert Titanium, Natural Titanium"
+    },
+    "productType": "Phone",
+    "age_group": "Adult",
+    "gender": "Unisex"
+  },
+  {
+    "id": 345,
+    "name": "Women's Bailey Bow II UGG Boots",
+    "category": "women",
+    "retail price": 214.99,
+    "sale price": 119.99,
+    "image": "https://dms.deckers.com/ugg/image/upload/t_pdp-slider-small-wp/v1729719376/1016225-CHE_2.png?_s=RAABAB0",
+    "description": "We added silky bows to our iconic sheepskin boot for a sweet, feminine look that's always been a fan fave. Crafted with soft sheepskin, this versatile boot features a durable, ultra-lightweight sole. The pretreated sheepskin upper repels moisture and protects against stains. These pull on boots are available in a range of neutral colors including black, browns, and greys.\n\nThe outsole of this product is either a sugarcane EVA outsole, which is a responsible compound using sugarcane foam that allows us to reduce dependency on fossil fuels by replacing petroleum-based ethylene, or a Treadlite by UGG™ outsole.\n\nThis product was made in a factory that supports women in our supply chain with the help of Reimagining Industry to Support Equality (RISE). This collaborative initiative creates partnerships with brands like ours to empower and educate women in the workplace.",
+    "images": [
+      "https://dms.deckers.com/ugg/image/upload/t_pdp-slider-small-wp/v1729719376/1016225-CHE_2.png?_s=RAABAB0",
+      "https://dms.deckers.com/ugg/image/upload/t_pdp-slider-small-wp/v1733781475/1016225-CHE_3.png?_s=RAABAB0",
+      "https://dms.deckers.com/ugg/image/upload/t_pdp-slider-small-wp/v1729719375/1016225-CHE_1.png?_s=RAABAB0",
+      "https://dms.deckers.com/ugg/image/upload/t_pdp-slider-small-wp/v1729719762/1016225-CHE_4.png?_s=RAABAB0",
+      "https://dms.deckers.com/ugg/image/upload/t_pdp-slider-small-wp/v1729719696/1016225-CHE_5.png?_s=RAABAB0"
+    ],
+    "specifications": {
+      "brand": "UGG",
+      "material": "Sheepskin",
+      "fit": "Standard Width, True to Size",
+      "sizes_available": "US 5, 6, 7, 8, 9, 10, 11",
+      "care_instructions": "Specialist leather or suede cleaner",
+      "country_of_origin": "Italy",
+      "gender": "Women"
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 346,
+    "name": "Men's MCM Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 999.99,
+    "image": "https://images.bloomingdalesassets.com/is/image/BLM/products/8/optimized/16129758_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp",
+    "description": "A refined leather handbag from MCM with a structured silhouette and spacious compartments.",
+    "images": [
+      "https://images.bloomingdalesassets.com/is/image/BLM/products/8/optimized/16129758_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp",
+      "https://images.bloomingdalesassets.com/is/image/BLM/products/9/optimized/16129759_fpx.tif?op_sharpen=1&wid=500&fit=fit",
+      "1&fmt=webp",
+      "https://images.bloomingdalesassets.com/is/image/BLM/products/0/optimized/16129760_fpx.tif?op_sharpen=1&wid=500&fit=fit",
+      "https://images.bloomingdalesassets.com/is/image/BLM/products/2/optimized/16129762_fpx.tif?op_sharpen=1&wid=500&fit=fit"
+    ],
+    "specifications": {
+      "brand": "MCM",
+      "material": "100% Calfskin Saffiano Leather",
+      "dimensions": "11.0in x 7.5in x 4.0in",
+      "weight": "1.2 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Black, Brown, Tan, Cream",
+      "gender": "Men",
+      "brand_origin": "USA"
+    },
+    "pre-owned price": 499.99,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 347,
+    "name": "LED Light Art",
+    "category": "homeandappliances",
+    "retail price": 99.99,
+    "sale price": 49.99,
+    "image": "https://images.unsplash.com/photo-1519105577358-d68dbbeecb80?w=800",
+    "description": "An ambient LED light art display with customizable color patterns, adding a vibrant modern touch to your room.",
+    "images": [
+      "https://images.unsplash.com/photo-1519105577358-d68dbbeecb80?w=800"
+    ],
+    "specifications": {
+      "brand": "Bonds",
+      "material": "Acrylic Diffuser & Aluminum Frame",
+      "dimensions": "24in x 16in x 1.5in",
+      "weight": "3.8 lbs",
+      "light_source": "Integrated Addressable RGB LED",
+      "power_source": "5V DC USB Power Cord",
+      "warranty": "1 Year Warranty"
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
+  },
+  {
+    "id": 348,
+    "name": "Women's Chanel Slippers",
+    "category": "women",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTYmDpEqcZ31jYXN-noLMOHTPROSFf1EFnbqlV57Qt64-by-5_7C7PmsbVfpogzyr_uXdhM1be1",
+    "description": "Comfortable footwear from Chanel, styled with refined leather detailing and a soft footbed.",
+    "images": [
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTYmDpEqcZ31jYXN-noLMOHTPROSFf1EFnbqlV57Qt64-by-5_7C7PmsbVfpogzyr_uXdhM1be1",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRlnGfr8YN4RJi6uKYr3Qr_xXwLXwNtqympBbqjugJYf2GzC7QQ4rVOa6w0w6uItasth2TyG6-u"
+    ],
+    "specifications": {
+      "brand": "Chanel",
+      "material": "Shearling & Suede Leather",
+      "fit": "Standard Width, True to Size",
+      "sizes_available": "US 7, 8, 9, 10, 11",
+      "care_instructions": "Specialist leather or suede cleaner",
+      "country_of_origin": "Italy",
+      "gender": "Women"
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 349,
+    "name": "Men's Abercrombie & Fitch T-shirt",
+    "category": "men",
+    "retail price": 99.99,
+    "sale price": 29.99,
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRozStpy3iE0iZCJdXdF0yQex2Nh45h3Yr_hhpZjvTraGgeRkegFSeK4rIZWu2QDhiGFF4_ous",
+    "description": "A classic knit cotton shirt from Abercrombie & Fitch, tailored for everyday style and casual comfort.",
+    "images": [
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRozStpy3iE0iZCJdXdF0yQex2Nh45h3Yr_hhpZjvTraGgeRkegFSeK4rIZWu2QDhiGFF4_ous"
+    ],
+    "specifications": {
+      "brand": "Abercrombie & Fitch",
+      "material": "100% Cotton",
+      "fit": "Regular Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Machine wash cold, tumble dry low",
+      "country_of_origin": "Imported",
+      "gender": "Men",
+      "style": "Casual / Designer",
+      "season": "All Season"
+    },
+    "productType": "Shirt",
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 350,
+    "name": "Women's Ferragamo Sweatshirt",
+    "category": "women",
+    "retail price": 2499.99,
+    "sale price": 799.99,
+    "image": "https://editorialist.com/thumbnail/600/2026/6/043/927/695/43927695~red_1782352695819_0.webp?width=600&quality=60AND_PMAX&utm_source=google&utm_medium=cpc&gclsrc=aw.ds&&wt_ga=_&wt_kw=__&gad_source=1&gad_campaignid=23068939813&gbraid=0AAAAADKBVd3zM-wHf3yxRnu66AkIDYQPG&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDpax94lbh-anp_8Lb7GGHvgmDOCfTwA_P-W2HsXaYamy688WPIn0xEaAmX-EALw_wcB",
+    "description": "The cut out detail on the left side of this crew neck sweater emphasizes a sensual appeal, echoed by the leather tie at the shoulder. Made from a cozy blend of wool and cashmere with raglan sleeves and ribbed trims, it is detailed with a custom metal Gancio at the back of the neck.",
+    "images": [
+      "https://editorialist.com/thumbnail/600/2026/6/043/927/695/43927695~red_1782352695819_0.webp?width=600&quality=60AND_PMAX&utm_source=google&utm_medium=cpc&gclsrc=aw.ds&&wt_ga=_&wt_kw=__&gad_source=1&gad_campaignid=23068939813&gbraid=0AAAAADKBVd3zM-wHf3yxRnu66AkIDYQPG&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDpax94lbh-anp_8Lb7GGHvgmDOCfTwA_P-W2HsXaYamy688WPIn0xEaAmX-EALw_wcB",
+      "https://www.baseblu.com/cdn/shop/files/5E311732-E0EB-4A20-B2FA-92C7BE514B49.jpg?v=1783402857",
+      "q_auto:low",
+      "ar_5:7",
+      "c_fill",
+      "dpr_2.0",
+      "w_720/01/bg_5580751_100785_z"
+    ],
+    "specifications": {
+      "brand": "Ferragamo",
+      "material": "Cotton",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 351,
+    "name": "Women's Christian Louboutin Handbag",
+    "category": "accessories",
+    "retail price": 4999.99,
+    "sale price": 1999.99,
+    "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5610215_100106_m",
+    "description": "A refined leather handbag from Bonds with a structured silhouette and spacious compartments.",
+    "images": [
+      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5610215_100106_m",
+      "https://media.neimanmarcus.com/f_auto",
+      "q_auto:low",
+      "ar_4:5",
+      "c_fill",
+      "dpr_2.0",
+      "w_420/01/nm_5610215_100106_b",
+      "w_420/01/nm_5610215_100106_d",
+      "w_420/01/nm_5610215_100106_c"
+    ],
+    "specifications": {
+      "brand": "Christian Louboutin",
+      "material": "100% Calfskin Saffiano Leather",
+      "dimensions": "11.0in x 7.5in x 4.0in",
+      "weight": "1.2 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Black, Brown, Tan, Cream",
+      "gender": "Men",
+      "brand_origin": "Italy"
+    },
+    "inventory": 100,
+    "pre-owned price": 999.99,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 352,
+    "name": "HP Copy & FAX Printer",
+    "category": "electronics",
+    "retail price": 299.99,
+    "sale price": 199.99,
+    "image": "https://de2wfhoo6xqi5.cloudfront.net/size/400/ccc/53f/e70c3c2033c168ad579245b551613c2674.jpg",
+    "description": "A high-performance all-in-one printer from HP, supporting printing, copying, scanning, and fast wireless setup.",
+    "images": [
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/ccc/53f/e70c3c2033c168ad579245b551613c2674.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/403/375/06591467116fe8391462be84353058e718.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/0df/0f4/c2317c681c64b248343f85c5f150ebf48b.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/034/650/748f94a2291111befe45d0254f5102ec94.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/234/4a3/72760fc3b26f753358050b6fbf63b38d62.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/234/f11/480c1714da95ca98750fbef96c23180954.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/270/06f/80c35ab8b35b62b67222b66a55b8bcd256.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/494/071/93a569ddd42bd4b7708b657e6466a96c14.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/564/c3f/d35370fdfe8dea17427d96d098c801c100.jpg"
+    ],
+    "specifications": {
+      "brand": "HP",
+      "print_speed": "Up to 22 ppm (black), 18 ppm (color)",
+      "connectivity": "Wi-Fi, Bluetooth, USB, Ethernet",
+      "functions": "Print, Copy, Scan, Fax",
+      "max_resolution": "4800 x 1200 dpi",
+      "paper_capacity": "250 sheets",
+      "warranty": "1 Year Limited Hardware Warranty"
+    },
+    "productType": "Printer",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Unisex"
+  },
+  {
+    "id": 353,
+    "name": "8 Surveillance Camera Home Security System With DVR",
+    "category": "electronics",
+    "retail price": 499.99,
+    "sale price": 299.99,
+    "image": "https://i5.walmartimages.com/seo/ZOSI-HD-1080N-8-Channel-DVR-Outdoor-Security-System-with-8-720p-1MP-Night-Vision-Bullet-Cameras-Easy-Remote-Access_062b6545-bc23-43ad-85ab-63c7ae16464e.4b617560799ebf06f53d6026a949bb59.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+    "description": "Designed to meet your home and business security needs. Equipped with 1080p high definition cameras and motion detection recording.",
+    "images": [
+      "https://i5.walmartimages.com/seo/ZOSI-HD-1080N-8-Channel-DVR-Outdoor-Security-System-with-8-720p-1MP-Night-Vision-Bullet-Cameras-Easy-Remote-Access_062b6545-bc23-43ad-85ab-63c7ae16464e.4b617560799ebf06f53d6026a949bb59.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/7bbea46d-8566-4329-901f-1bd8e46cfe4b.388307e2363d36efb3349b00e6885e6a.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+    ],
+    "specifications": {
+      "brand": "Bonds",
+      "material": "Premium construction material"
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
+  },
+  {
+    "id": 354,
+    "name": "Women's Tommy Hilfiger Winter Coat",
+    "category": "women",
+    "retail price": 199.99,
+    "sale price": 79.99,
+    "image": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/B15816s6.jpg?im=Resize,width=750",
+    "description": "A sleek winter coat from Bonds, styled with a windproof exterior shell and high-loft down insulation.",
+    "images": [
+      "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/B15816s6.jpg?im=Resize,width=750",
+      "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/B15816s2.jpg?im=Resize",
+      "width=750",
+      "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/B15816s5.jpg?im=Resize",
+      "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/B15816s4.jpg?im=Resize",
+      "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/B15816s3.jpg?im=Resize"
+    ],
+    "specifications": {
+      "brand": "Tommy Hilfiger",
+      "material": "Polyester & Nylon Shell",
+      "fit": "Regular Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Dry clean only",
+      "country_of_origin": "Italy",
+      "gender": "Women",
+      "style": "Luxury Outerwear",
+      "season": "Winter / Fall"
+    },
+    "productType": "Luxury Outerwear",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 355,
+    "name": "Women's Coach Handbag",
+    "category": "accessories",
+    "retail price": 599.99,
+    "sale price": 119.99,
+    "image": "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a0?$mobileProductV6$",
+    "description": "A refined leather handbag from Coach with a structured silhouette and spacious compartments.",
+    "images": [
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a0?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a21?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a88?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a3?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a5?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a10?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a99?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a6?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cw626_b4pgb_a8?$mobileProductV6$"
+    ],
+    "specifications": {
+      "brand": "Coach",
+      "material": "100% Calfskin Saffiano Leather",
+      "dimensions": "11.0in x 7.5in x 4.0in",
+      "weight": "1.2 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Black, Brown, Tan, Cream",
+      "gender": "Women",
+      "brand_origin": "USA"
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 356,
+    "name": "GE Microwave Oven",
+    "category": "homeandappliances",
+    "retail price": 99.99,
+    "sale price": 59.99,
+    "image": "https://images.unsplash.com/photo-1589241534732-26031c00f37c?w=800",
+    "description": "A powerful countertop microwave oven with smart sensors, multiple power levels, and a clean stainless steel finish.",
+    "images": [
+      "https://images.unsplash.com/photo-1589241534732-26031c00f37c?w=800"
+    ],
+    "specifications": {
+      "brand": "GE",
+      "capacity": "1.6 cu. ft.",
+      "power": "1000 Watts",
+      "finish": "Fingerprint Resistant Stainless Steel",
+      "dimensions": "21.8in W x 11.5in H x 15.5in D",
+      "weight": "34 lbs",
+      "warranty": "1 Year Limited Warranty"
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
+  },
+  {
+    "id": 357,
+    "name": "Aristotle Sculpture",
+    "category": "artandcollectibles",
+    "retail price": 199.99,
+    "sale price": 99.99,
+    "image": "https://images.unsplash.com/photo-1714393674893-b89e436cc6c4?w=800",
+    "description": "A beautifully detailed collectible bust made of hand-poured plaster, perfect for displaying on a bookshelf or desk.",
+    "images": [
+      "https://images.unsplash.com/photo-1714393674893-b89e436cc6c4?w=800"
+    ],
+    "specifications": {
+      "brand": "Bonds Art",
+      "material": "Cast Plaster & Alabaster Powder",
+      "dimensions": "9.5in H x 5.5in W x 5.0in D",
+      "weight": "4.5 lbs",
+      "finish": "Antique Matte / Patina",
+      "authenticity": "Certificate of Authenticity Included"
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
+  },
+  {
+    "id": 358,
+    "name": "Ryobi Leaf Blower",
+    "category": "homeandappliances",
+    "retail price": 199.99,
+    "sale price": 99.99,
+    "image": "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/617eb17a4f5946c4b406ae24ab5bc0e0_1824x874.jpg?v=1734041953&width=100&height=100&crop=center",
+    "description": "A lightweight cordless leaf blower featuring Whisper technology and variable speed settings for easy yard cleanup.",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/617eb17a4f5946c4b406ae24ab5bc0e0_1824x874.jpg?v=1734041953&width=100&height=100&crop=center",
+      "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/b922cbfd67944fa58b55f4d9f6070cf7_1824x874.jpg?v=1734041953&width=100&height=100&crop=center",
+      "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/22380974f4ec4b04b58e84b68738447f_1824x874.jpg?v=1734041953&width=100&height=100&crop=center",
+      "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/bef5a254d0c1491296f9b56bcfb0d6b1_1824x874.jpg?v=1734041953&width=100&height=100&crop=center",
+      "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/5b4fa95cf05f4126ba77f6571c946eb4_1824x874.jpg?v=1734041953&width=100&height=100&crop=center"
+    ],
+    "specifications": {
+      "brand": "Ryobi",
+      "air_velocity": "110 MPH",
+      "air_volume": "525 CFM",
+      "power_source": "40V Lithium-Ion Battery",
+      "speed_settings": "Variable Speed Trigger",
+      "weight": "8.5 lbs",
+      "noise_rating": "57 dB",
+      "warranty": "5 Year Tool Warranty"
+    },
+    "inventory": 200,
+    "age_group": "Adult",
+    "gender": "Unisex"
+  },
+  {
+    "id": 359,
+    "name": "Women's Abercrombie & Fitch Sweater",
+    "category": "women",
+    "retail price": 399.99,
+    "sale price": 79.99,
+    "image": "https://cf-assets-thredup.thredup.com/assets/860756177/large.jpg",
+    "description": "A premium designer knitwear piece from Abercrombie & Fitch crafted with warm wool and cashmere fibers.",
+    "images": [
+      "https://cf-assets-thredup.thredup.com/assets/860756177/large.jpg",
+      "https://cf-assets-thredup.thredup.com/assets/860756221/large.jpg"
+    ],
+    "specifications": {
+      "brand": "Abercrombie & Fitch",
+      "material": "80% Wool, 20% Cashmere",
+      "fit": "Relaxed Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Dry clean only",
+      "country_of_origin": "Imported",
+      "gender": "Women",
+      "style": "Designer Knitwear",
+      "season": "Winter / Fall"
+    },
+    "productType": "Designer Knitwear",
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 360,
+    "name": "Nintendo Switch 2 Deluxe",
+    "category": "entertainment",
+    "retail price": 499.99,
+    "sale price": 299.99,
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTOAYQxW6w0_IfNYm67PVh_phvb65c-nZZXDdrS0uXRJZLpasUI-kKRNMAyzwy6iiylYrEF0-yqSsgt0lauSUDdHpmBKSa0aetPGNbBQZHSYZZMtnlLYqIabA",
+    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTOAYQxW6w0_IfNYm67PVh_phvb65c-nZZXDdrS0uXRJZLpasUI-kKRNMAyzwy6iiylYrEF0-yqSsgt0lauSUDdHpmBKSa0aetPGNbBQZHSYZZMtnlLYqIabA",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcREq_P5-iqtoALnVjYHBrbvjmr4xuu_vc_Fsysg-9U1bVLqfgmJE9-7H-jBAS-KRnKZ9ZSsXoo3LjYlzO7NJfWVn6sE1OUy06pU8ecI0Pn1VWU1BkFl36QeLkx6",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRmAFJbHVTua9nw6kyVQwJCCNOVeA8ViVDOKXopBDaJlFaukfM6FJ62_lwWLUDy2LIe2JZXUhHqIyD-28F_puBXNvrLWD7VBY9z0AQLQNl-uz1CCQXaPiNLPw",
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQYIlWdv6p-F0Bwc397mlCvidUeRCZ7NNNfMC6HLvAIxpxBCa8pVx7Q1HTIa6858HTfImXNq5oXtnQw9-3Ebeh3of_-zsVV6hJsmuRpzDJSUMuc-MDZsqSIL8A"
+    ],
+    "specifications": {
+      "brand": "Nintendo",
+      "material": "Premium construction material"
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 361,
+    "name": "Women's Dolce & Gabbana Shirt",
+    "category": "women",
+    "retail price": 599.99,
+    "sale price": 99.99,
+    "image": "https://editorialist.com/thumbnail/600/2022/8/020/342/401/20342401~black_0.webp?width=600&quality=60",
+    "description": "A classic knit cotton shirt from Dolce & Gabbana, tailored for everyday style and casual comfort.",
+    "images": [
+      "https://editorialist.com/thumbnail/600/2022/8/020/342/401/20342401~black_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnails/600/2022/8/020/342/401/20342401~black_1.webp",
+      "https://editorialist.com/thumbnails/600/2022/8/020/342/401/20342401~black_3.webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Cotton",
+      "fit": "Regular Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Machine wash cold, tumble dry low",
+      "country_of_origin": "Italy",
+      "gender": "Women",
+      "style": "Casual / Designer",
+      "season": "All Season"
+    },
+    "productType": "Casual / Designer",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 362,
+    "name": "Women's Abercrombie & Fitch Shirt",
+    "category": "women",
+    "retail price": 99.99,
+    "sale price": 29.99,
+    "image": "https://img.abercrombie.com/is/image/anf/KIC_139-6641-00427-114_prod1?policy=product-medium",
+    "description": "A classic knit cotton shirt from Abercrombie & Fitch, tailored for everyday style and casual comfort.",
+    "images": [
+      "https://img.abercrombie.com/is/image/anf/KIC_139-6641-00427-114_prod1?policy=product-medium",
+      "https://img.abercrombie.com/is/image/anf/KIC_139-6641-00427-114_model1?policy=product-medium",
+      "https://img.abercrombie.com/is/image/anf/KIC_139-6641-00427-114_model2?policy=product-medium",
+      "https://img.abercrombie.com/is/image/anf/KIC_139-6641-00427-114_model3?policy=product-medium",
+      "https://img.abercrombie.com/is/image/anf/KIC_139-6641-00427-114_model4?policy=product-medium",
+      "https://img.abercrombie.com/is/image/anf/KIC_139-6641-00427-114_model5?policy=product-medium"
+    ],
+    "specifications": {
+      "brand": "Abercrombie & Fitch",
+      "material": "100% Cotton",
+      "fit": "Regular Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Machine wash cold, tumble dry low",
+      "country_of_origin": "Imported",
+      "gender": "Women",
+      "style": "Casual / Designer",
+      "season": "All Season"
+    },
+    "productType": "Casual / Designer",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 363,
+    "name": "Mortal Kombat 11",
+    "category": "entertainment",
+    "retail price": 59.99,
+    "sale price": 49.99,
+    "image": "https://target.scene7.com/is/image/Target/GUEST_e1bb5fde-7941-4692-8bac-f8cd371ca28c?wid=800&hei=800&qlt=80",
+    "description": "The highly anticipated fighting game sequel featuring legendary combatants, intense martial arts combos, and cinematic graphics.",
+    "images": [
+      "https://target.scene7.com/is/image/Target/GUEST_e1bb5fde-7941-4692-8bac-f8cd371ca28c?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_d8ade063-856f-46a1-9216-9be00c13d38f?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_6aab17bb-f076-4e27-a240-e019ac3ac12f?wid=800&hei=800&qlt=80"
+    ],
+    "specifications": {
+      "brand": "NetherRealm Studios",
+      "platform": "PlayStation 5, Xbox Series X, Switch",
+      "genre": "Fighting / Action",
+      "edition": "Standard Edition",
+      "esrb_rating": "Mature 17+",
+      "release_year": "2025"
+    },
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 364,
+    "name": "Men's Maison Margiela Sweater",
+    "category": "men",
+    "retail price": 3999.99,
+    "sale price": 1199.99,
+    "image": "https://www.theoutnet.com/variants/images/46376663163029858/F/w920_q80.jpg",
+    "description": "A premium designer knitwear piece from Bonds crafted with warm wool and cashmere fibers.",
+    "images": [
+      "https://www.theoutnet.com/variants/images/46376663163029858/F/w920_q80.jpg",
+      "https://www.theoutnet.com/variants/images/46376663163029858/R/w920_q80.jpg",
+      "https://www.theoutnet.com/variants/images/46376663163029858/E/w920_q80.jpg",
+      "https://www.theoutnet.com/variants/images/46376663163029858/D/w920_q80.jpg"
+    ],
+    "specifications": {
+      "brand": "Maison Margiela",
+      "material": "80% Wool, 20% Cashmere",
+      "fit": "Relaxed Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Dry clean only",
+      "country_of_origin": "Italy",
+      "gender": "Men",
+      "style": "Designer Knitwear",
+      "season": "Winter / Fall"
+    },
+    "productType": "Designer Knitwear",
+    "inventory": 20,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 365,
+    "name": "Women's Dolce & Gabbana Crossbody Bag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_1200/01/nm_3437979_100106_m",
+    "description": "A refined leather handbag from Dolce & Gabbana with a structured silhouette and spacious compartments.",
+    "images": [
+      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_1200/01/nm_3437979_100106_m",
+      "https://media.neimanmarcus.com/f_auto",
+      "q_auto:low",
+      "ar_4:5",
+      "c_fill",
+      "dpr_2.0",
+      "w_1200/01/nm_3437979_100106_b",
+      "w_1200/01/nm_3437979_100106_c"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Calfskin Saffiano Leather",
+      "dimensions": "11.0in x 7.5in x 4.0in",
+      "weight": "1.2 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Black, Brown, Tan, Cream",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 366,
+    "name": "Dolce & Gabbana Twill Baseball Cap",
+    "category": "accessories",
+    "retail price": 299.99,
+    "sale price": 199.99,
+    "image": "https://cdn-images.farfetch-contents.com/20/04/45/98/20044598_50412127_600.jpg",
+    "description": "This baseball cap is crafted in Italy from twill fabric. It features logo embroidery..",
+    "images": [
+      "https://cdn-images.farfetch-contents.com/20/04/45/98/20044598_50412127_600.jpg",
+      "https://cdn-images.farfetch-contents.com/20/04/45/98/20044598_50412133_600.jpg",
+      "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "Cotton",
+      "dimensions": "8.5in x 5.7in x 2.4in",
+      "weight": "1.1 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Nero (Black)",
+      "gender": "Men",
+      "brand_origin": "Milano"
+    },
+    "productType": "Hat",
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 367,
+    "name": "Men's Rolex Watch",
+    "category": "jewelry",
+    "retail price": 9999.99,
+    "sale price": 7999.99,
+    "image": "https://www.frostnyc.com/cdn/shop/products/Rolex_1ct_black_1_2_900x.jpg?v=1742234857",
+    "description": "An exquisite luxury timepiece from Bonds, featuring Swiss precision movement and high-grade stainless steel casing.",
+    "images": [
+      "https://www.frostnyc.com/cdn/shop/products/Rolex_1ct_black_1_2_900x.jpg?v=1742234857",
+      "https://www.frostnyc.com/cdn/shop/products/RD_2_d45526b2-3476-4337-82a1-270e784cf4b4_900x.jpg?v=1742234858",
+      "https://www.frostnyc.com/cdn/shop/products/TT_RadialBluedial_5_51c7b043-8cf2-4514-9cca-aeb1c0f87887_900x.jpg?v=1742234858",
+      "https://www.frostnyc.com/cdn/shop/products/Stainless_Steel_Black_2_900x.jpg?v=1742234858",
+      "https://www.frostnyc.com/cdn/shop/products/Stainless_Steel_Black_900x.jpg?v=1742234858"
+    ],
+    "specifications": {
+      "brand": "Rolex",
+      "material": "18K Gold Plated Stainless Steel",
+      "dial_size": "40mm Case",
+      "band_material": "Stainless Steel Link Bracelet",
+      "water_resistance": "100 meters (10 ATM)",
+      "movement": "Swiss Automatic Mechanical",
+      "chain_length": "N/A",
+      "gender": "Men",
+      "warranty": "5 Year Manufacturer Warranty"
+    },
+    "pre-owned price": 1999.99,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 368,
+    "name": "Dell Desktop",
+    "category": "electronics",
+    "retail price": 999.99,
+    "sale price": 199.99,
+    "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?w=800",
+    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
+    "images": [
+      "https://images.unsplash.com/photo-1587831990711-23ca6441447b?w=800"
+    ],
+    "specifications": {
+      "brand": "Dell",
+      "material": "Premium construction material"
+    },
+    "productType": "Desktop",
+    "pre-owned price": 99.99,
+    "age_group": "Adult",
+    "gender": "Unisex"
+  },
+  {
+    "id": 369,
+    "name": "Men's Armani Cashmere Sweater",
+    "category": "men",
+    "retail price": 2499.99,
+    "sale price": 1299.99,
+    "image": "https://editorialist.com/thumbnails/600/2026/5/042/891/963/42891963~brown_1779977546165_0.webp",
+    "description": "A premium designer knitwear piece from Armani crafted with warm wool and cashmere fibers.",
+    "images": [
+      "https://editorialist.com/thumbnails/600/2026/5/042/891/963/42891963~brown_1779977546165_0.webp",
+      "https://editorialist.com/thumbnails/600/2026/5/042/891/963/42891963~brown_1779977546165_4.webp",
+      "https://editorialist.com/thumbnails/600/2026/5/042/891/963",
+      "/42891963~brown_1779977546165_3.webp",
+      "https://editorialist.com/thumbnails/600/2026/5/042/891/963/42891963~brown_1779977546165_5.webp"
+    ],
+    "specifications": {
+      "brand": "Armani",
+      "material": "100% Cashmere",
+      "fit": "Relaxed Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Dry clean only",
+      "country_of_origin": "Italy",
+      "gender": "Men",
+      "style": "Designer Knitwear",
+      "season": "Winter / Fall"
+    },
+    "productType": "Designer Knitwear",
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 370,
+    "name": "Women's Chanel Handbag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTeEyuSkMAIth9VZDSvcQL5hcHFrsuoOejZAnk8E88Wj14bVbrQ-ldbqmMxdzChs9GBii6jE3kM6Q",
+    "description": "A refined leather handbag from Chanel with a structured silhouette and spacious compartments.",
+    "images": [
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTeEyuSkMAIth9VZDSvcQL5hcHFrsuoOejZAnk8E88Wj14bVbrQ-ldbqmMxdzChs9GBii6jE3kM6Q",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQFjGJOVB6lZeXLzormbFgaPagFElNfLo6vkeuvUKK_ZZfYNa9TY3KPllaz08lbFZHyCOnPancINJY",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRqAuQkM01iZgux7NwJNScZTajswTJS3Erh6oUA27LOO2d6nIsNdqsgTX7T-vwTSzXqF1cSS9M",
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRiGzDNOpkZ0xNAg2YCAAqIlyCGYNujYfPou77hSxL-jcgmCNwXmZCHw08149bwCDpe6172XPnTrg",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQeOs6Y2DMeKtLlsP0U_OOfsxMt6icLhhwMoDyNOQQBTSwLvEGOE-Q1avfs34WLqjGE1C19vvw"
+    ],
+    "specifications": {
+      "brand": "Chanel",
+      "material": "100% Calfskin Saffiano Leather",
+      "dimensions": "11.0in x 7.5in x 4.0in",
+      "weight": "1.2 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Black, Brown, Tan, Cream",
+      "gender": "Men",
+      "brand_origin": "Italy"
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 371,
+    "name": "Men's Cartier Watch",
+    "category": "jewelry",
+    "retail price": 59999.99,
+    "sale price": 39999.99,
+    "image": "https://content.thewosgroup.com/productimage/17311097/17311097_1.jpg?impolicy=zoom",
+    "description": "An exquisite luxury timepiece from Cartier, featuring Swiss precision movement and high-grade stainless steel casing.",
+    "images": [
+      "https://content.thewosgroup.com/productimage/17311097/17311097_1.jpg?impolicy=zoom",
+      "https://content.thewosgroup.com/productimage/17311097/17311097_4.jpg?impolicy=zoom",
+      "https://content.thewosgroup.com/productimage/17311097/17311097_5.jpg?impolicy=zoom",
+      "https://content.thewosgroup.com/productimage/17311097/17311097_8.jpg?impolicy=zoom",
+      "https://content.thewosgroup.com/productimage/17311097/17311097_7.jpg?impolicy=zoom",
+      "https://content.thewosgroup.com/productimage/17311097/17311097_3.jpg?impolicy=zoom"
+    ],
+    "specifications": {
+      "brand": "Cartier",
+      "material": "18K Gold Plated Stainless Steel",
+      "dial_size": "40mm Case",
+      "band_material": "Stainless Steel Link Bracelet",
+      "water_resistance": "100 meters (10 ATM)",
+      "movement": "Swiss Automatic Mechanical",
+      "chain_length": "N/A",
+      "gender": "Men",
+      "warranty": "5 Year Manufacturer Warranty"
+    },
+    "productType": "Watch",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 372,
+    "name": "Women's Chloe Handbag",
+    "category": "accessories",
+    "retail price": 2999.99,
+    "sale price": 1129.99,
+    "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_4103480_100168_m",
+    "description": "A redefined leather handbag from Chloe with a structured silhouette and spacious compartments.",
+    "images": [
+      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_4103480_100168_m"
+    ],
+    "specifications": {
+      "brand": "Chloe",
+      "material": "100% Cream Leather",
+      "dimensions": "11.0in x 7.5in x 4.0in",
+      "weight": "1.6 lbs",
+      "closure_type": "B clip closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Black, Brown, Tan, Cream",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    },
+    "productType": "Handbag",
+    "inventory": 100,
+    "pre-owned price": 899.99,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 373,
+    "name": "Men's Versace Versus Watch",
+    "category": "jewelry",
+    "retail price": 2499.99,
+    "sale price": 599.99,
+    "image": "https://cdn-images.farfetch-contents.com/26/60/24/86/26602486_57148523_600.jpg",
+    "description": "An exquisite luxury timepiece from Versace, featuring Swiss precision movement and high-grade stainless steel casing.",
+    "images": [
+      "https://cdn-images.farfetch-contents.com/26/60/24/86/26602486_57148523_600.jpg",
+      "https://cdn-images.farfetch-contents.com/26/60/24/86/26602486_57148524_600.jpg",
+      "https://cdn-images.farfetch-contents.com/26/60/24/86/26602486_57148538_600.jpg",
+      "https://cdn-images.farfetch-contents.com/26/60/24/86/26602486_57148541_600.jpg",
+      "https://cdn-images.farfetch-contents.com/26/60/24/86/26602486_57148519_600.jpg"
+    ],
+    "specifications": {
+      "brand": "Versace",
+      "material": "18K Gold Plated Stainless Steel",
+      "dial_size": "40mm Case",
+      "band_material": "Stainless Steel Link Bracelet",
+      "water_resistance": "100 meters (10 ATM)",
+      "movement": "Swiss Automatic Mechanical",
+      "chain_length": "N/A",
+      "gender": "Men",
+      "warranty": "5 Year Manufacturer Warranty"
+    },
+    "productType": "Watch",
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 374,
+    "name": "Men's Gucci Watch",
+    "category": "jewelry",
+    "retail price": 799.99,
+    "sale price": 99.99,
+    "image": "https://www.watch-connection.com/cdn/shop/files/91gjM560cFL._AC_UY1000_1024x1024_72f387c3-81c8-4b21-ba5b-62c30e0a8fb7_1024x1024.jpg?v=1776520493",
+    "description": "An exquisite luxury timepiece from Gucci, featuring Swiss precision movement and high-grade stainless steel casing.",
+    "images": [
+      "https://www.watch-connection.com/cdn/shop/files/91gjM560cFL._AC_UY1000_1024x1024_72f387c3-81c8-4b21-ba5b-62c30e0a8fb7_1024x1024.jpg?v=1776520493",
+      "https://www.watch-connection.com/cdn/shop/files/gucci-black-g-timeless-extra-large-black-pvd-watch-product-8-896494484-normal_1024x1024.jpg?v=1776520507",
+      "https://www.watch-connection.com/cdn/shop/files/gucci-g-timeless-chronograph-black-dial-black-fabric-mens-watch-ya126244_2_1024x1024.jpg?v=1776520521",
+      "https://www.watch-connection.com/cdn/shop/files/gucci-black-g-timeless-extra-large-black-pvd-watch-product-4-896486233-normal_1024x1024.jpg?v=1776520527",
+      "https://www.watch-connection.com/cdn/shop/files/gucci-black-g-timeless-extra-large-black-pvd-watch-product-0-896482912-normal_1024x1024.jpg?v=1776520540"
+    ],
+    "specifications": {
+      "brand": "Gucci",
+      "material": "18K Gold Plated Stainless Steel",
+      "dial_size": "40mm Case",
+      "band_material": "Stainless Steel Link Bracelet",
+      "water_resistance": "100 meters (10 ATM)",
+      "movement": "Swiss Automatic Mechanical",
+      "chain_length": "N/A",
+      "gender": "Men",
+      "warranty": "5 Year Manufacturer Warranty"
+    },
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 375,
+    "name": "Water Fountain",
+    "category": "homeandappliances",
+    "retail price": 9999.99,
+    "sale price": 5999.99,
+    "image": "https://images.unsplash.com/photo-1603077864615-538e955d1ad1?w=800",
+    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
+    "images": [
+      "https://images.unsplash.com/photo-1603077864615-538e955d1ad1?w=800"
+    ],
+    "specifications": {
+      "brand": "Bonds",
+      "material": "Premium construction material"
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
+  },
+  {
+    "id": 141,
+    "name": "Sony Surround Sound Speaker System",
+    "category": "electronics",
+    "retail price": 499.99,
+    "sale price": 119.99,
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ_TR0IC6uoAllHXDMgJNLPIoo4WjGPFkuya6sEYhPzVd2TxPtI5zN_cgBfBefy6EwAd1jv1qJjNwSPUeLiGvgZm0TQ0yU41S7AVnuJW8t5EjhZWzWLCM97fQ",
+    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
+    "images": [
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ_TR0IC6uoAllHXDMgJNLPIoo4WjGPFkuya6sEYhPzVd2TxPtI5zN_cgBfBefy6EwAd1jv1qJjNwSPUeLiGvgZm0TQ0yU41S7AVnuJW8t5EjhZWzWLCM97fQ",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR6GM9sI4b83eRHhY1sP--nhdwbMFZ56-A9CWXVw2YY_dabuHWX3Sh6w07LPnFsqzxMPtwDa2chjh0-rIGoRYPklPa2ZeVbGG_uxIfWXQPvd9zTo4h7jI8ToQ",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSkST0mc03sKd-o4DytCKwHq_bR2B2cDYvb5l49zCajLHg2064OOiu9lxG0ZvIV-MqK0B9djc9ptRmm49o34yKFf_eQcs1GPWu1NaXgQYDoIyxunEDixFxI2w",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQOsqn9oMDdDBUttlXmkyPmrrDN5jryph_HkfEdp3vxoX2D4psdI5fmhQ6ZIBT6pG9I2FM32ZBwYeMw5HsT06Zxgm328ohdQ_jEvw6JeBwriJyaWAldOqmOpg",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTWzcvzqI6pnltWVhwZXqgx7Pxt3pI7Ro0J8TVCNi-z8BbJqGnq9-CIW3zzGsj398WNZbBjbbGGxOEQLPl4s8dwF5P3xQYH",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQsCFDPswYxmcNms_33dg3imFZ1SqzeHHTVhBpFZS6fmfiK-z86qYlHrIFbcwzfGQaJKLIzjynJuv-6RSKUZxU3yweg5QAIX6gbn7tViOAujyK_7IjTJ3_zgQ"
+    ],
+    "specifications": {
+      "brand": "Sony",
+      "material": "Premium construction material"
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Unisex"
+  },
+  {
+    "id": 143,
+    "name": "Women's Abercrombie & Fitch Hooded Sweatshirt",
+    "category": "women",
+    "retail price": 199.99,
+    "sale price": 59.99,
+    "image": "https://img.abercrombie.com/is/image/anf/KIC_152-6071-00628-112_model1?policy=product-medium",
+    "description": "A classic knit cotton shirt from Abercrombie & Fitch, tailored for everyday style and casual comfort.",
+    "images": [
+      "https://img.abercrombie.com/is/image/anf/KIC_152-6071-00628-112_model1?policy=product-medium",
+      "https://img.abercrombie.com/is/image/anf/KIC_152-6071-00628-112_model3?policy=product-medium",
+      "https://img.abercrombie.com/is/image/anf/KIC_152-6071-00628-112_model2?policy=product-medium"
+    ],
+    "specifications": {
+      "brand": "Abercrombie & Fitch",
+      "material": "100% Cotton",
+      "fit": "Regular Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Machine wash cold, tumble dry low",
+      "country_of_origin": "Imported",
+      "gender": "Women",
+      "style": "Casual / Designer",
+      "season": "All Season"
+    },
+    "productType": "Sweater",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 144,
+    "name": "Men's Nike Track Jacket",
+    "category": "men",
+    "retail price": 79.99,
+    "sale price": 29.99,
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRm4uW0A-OjdSid08-7FIg_YdkKd3MRpt-Wr-cB2kQbU8khoeuZxqG73afcZSk1_BB4h52fR5PA",
+    "description": "A sleek winter coat from Nike, styled with a windproof exterior shell and high-loft down insulation.",
+    "images": [
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRm4uW0A-OjdSid08-7FIg_YdkKd3MRpt-Wr-cB2kQbU8khoeuZxqG73afcZSk1_BB4h52fR5PA",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHCsj7Kgw1u9BSG7FodxkFb9keehZvzCNoYDPXGsixzFYX2ImlgTS5oHftmhzhCVyrCg7H48-i",
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTlZrwsobTN-0jCIe-fCDFJt0FC6vUi9b2iKEW4ib6MlmiuFbNaZPvkMRnI7oqvE5lBfpQEa4Zy"
+    ],
+    "specifications": {
+      "brand": "Nike",
+      "material": "Polyester & Nylon Shell",
+      "fit": "Regular Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Dry clean only",
+      "country_of_origin": "Italy",
+      "gender": "Men",
+      "style": "Luxury Outerwear",
+      "season": "Winter / Fall"
+    },
+    "productType": "Luxury Outerwear",
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 145,
+    "name": "Men's Louis Vuitton Leather Puffer Jacket",
+    "category": "men",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://images.stockx.com/images/Louis-Vuitton-Monogram-Leather-Puffer-Jacket-Monogram-Brown.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1768318408",
+    "description": "A sleek winter coat from Bonds, styled with a windproof exterior shell and high-loft down insulation.",
+    "images": [
+      "https://images.stockx.com/images/Louis-Vuitton-Monogram-Leather-Puffer-Jacket-Monogram-Brown.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1768318408",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-monogram-leather-puffer-jacket--HUL92WPW285M_PM1_Worn%20view.jpg",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-monogram-leather-puffer-jacket--HUL92WPW285M_PM1_Cropped%20worn%20view.jpg"
+    ],
+    "specifications": {
+      "brand": "Louis Vuitton",
+      "material": "Polyester & Nylon Shell",
+      "fit": "Regular Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Dry clean only",
+      "country_of_origin": "Italy",
+      "gender": "Men",
+      "style": "Luxury Outerwear",
+      "season": "Winter / Fall"
+    },
+    "productType": "Luxury Outerwear",
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 146,
+    "name": "Women's Christian Dior Handbag",
+    "category": "accessories",
+    "retail price": 1999.99,
+    "sale price": 999.99,
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT4pMDqyUA-Zi5WOs1nBSzFFwh66npvURC-e2CTxxYLqKN0iXARt-MAw18WvrzrCdqdDJEyA6Rn1WE",
+    "description": "A refined leather handbag from Christian Dior with a structured silhouette and spacious compartments.",
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT4pMDqyUA-Zi5WOs1nBSzFFwh66npvURC-e2CTxxYLqKN0iXARt-MAw18WvrzrCdqdDJEyA6Rn1WE",
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSzmnk6TcPNw-tnMGCdbUAGad4AqNU4gX6Hd5J8F2nDnq2z2RGhvaUvQAkamP3ibFzNIOPA_DIQ_Q",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ3qYFlEpsLr4eijM51SqYxYGr7QhCd5eCoxJNFzUYmJJiP4RkNe3uw1bS42NjlrkQuF-Tpqtuy",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQPAwv92vb9vmIkXfakZlPTH9Z6XHVK1uXu9G1XkwFwEyQg0XjHLA_C1D7ns3SMf0ybsGiLr-A"
+    ],
+    "specifications": {
+      "brand": "Dior",
+      "material": "100% Calfskin Saffiano Leather",
+      "dimensions": "11.0in x 7.5in x 4.0in",
+      "weight": "1.2 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Black, Brown, Tan, Cream",
+      "gender": "Women",
+      "brand_origin": "Italy"
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 147,
+    "name": "Women's Louis Vuitton Handbag",
+    "category": "accessories",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-boulogne-pm--M12930_PM2_Front%20view.png?wid=730&hei=730",
+    "description": "A refined leather handbag from Bonds with a structured silhouette and spacious compartments.",
+    "images": [
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-boulogne-pm--M12930_PM2_Front%20view.png?wid=730&hei=730",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-boulogne-pm--M12930_PM1_Side%20view.png?wid=730&hei=730",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-boulogne-pm--M12930_PM1_Interior%20view.png?wid=730&hei=730",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-boulogne-pm--M12930_PM1_Back%20view.png?wid=730&hei=730",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-boulogne-pm--M12930_PM1_Cropped%20worn%20view.png?wid=730&hei=730",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-boulogne-pm--M12930_PM1_Worn%20view.png?wid=730&hei=730"
+    ],
+    "specifications": {
+      "brand": "Louis Vuitton",
+      "material": "100% Calfskin Saffiano Leather",
+      "dimensions": "11.0in x 7.5in x 4.0in",
+      "weight": "1.2 lbs",
+      "closure_type": "Magnetic flap closure",
+      "strap_type": "Adjustable chain crossbody strap",
+      "color_options": "Black, Brown, Tan, Cream",
+      "gender": "Men",
+      "brand_origin": "Italy"
+    },
+    "productType": "Handbag",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 148,
+    "name": "Sony 85\" Ultra HD Smart TV",
+    "category": "homeandappliances",
+    "retail price": 5999.99,
+    "sale price": 1999.99,
+    "image": "https://i5.walmartimages.com/seo/Sony-BRAVIA-3-II-85-4K-HDR-LED-Google-TV-with-Gemini_035abbdf-5fab-48bf-bec9-d9115c363631.3ed217d6013de471ec911379b541bd48.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "description": "An ultra high-definition Smart TV featuring vivid colors, deep contrast, and advanced smart platform streaming.",
+    "images": [
+      "https://i5.walmartimages.com/seo/Sony-BRAVIA-3-II-85-4K-HDR-LED-Google-TV-with-Gemini_035abbdf-5fab-48bf-bec9-d9115c363631.3ed217d6013de471ec911379b541bd48.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/99c92ebe-61b2-4548-a1db-32696c0aec97.784e278e193ca75d65197e098caec020.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/1f9cc169-6f53-4503-82f3-d1d910d230fd.a0d8a9ccb877a2d780a13859f778e5ba.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/000a7986-f593-4c71-8fea-56685c1d974f.4ac1c04f50a2a67186dc7570febb2e20.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/12406174-b0f5-4fa4-86c4-5fcee926fb1d.53e188e2bb10beda14daea7e51093c86.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/8d96694d-2b5d-4a1e-9f25-873fd800c05d.522ca0254da8981a7a1f558f85916fd9.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/cd0708ed-3274-4d5b-9608-8e71497bb3c6.0c4a77bb286d03d34483a96fc6e1feff.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF"
+    ],
+    "specifications": {
+      "brand": "Sony",
+      "display_tech": "4K HDR OLED",
+      "screen_size": "85 Inch",
+      "refresh_rate": "120Hz",
+      "smart_platform": "Google TV",
+      "ports": "4x HDMI 2.1, 2x USB, 1x Ethernet",
+      "weight": "95 lbs",
+      "dimensions": "74.8in W x 43.0in H x 1.8in D",
+      "warranty": "2 Year Manufacturer Warranty"
+    },
+    "productType": "TV",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Unisex"
+  },
+  {
+    "id": 149,
+    "name": "Women's Michael Kors Jacket",
+    "category": "women",
+    "retail price": 299.99,
+    "sale price": 99.99,
+    "image": "https://slimages.macysassets.com/is/image/MCY/products/3/optimized/34584323_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp",
+    "description": "A sleek winter coat from Michael Kors, styled with a windproof exterior shell and high-loft down insulation.",
+    "images": [
+      "https://slimages.macysassets.com/is/image/MCY/products/3/optimized/34584323_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp",
+      "https://slimages.macysassets.com/is/image/MCY/products/0/optimized/34584330_fpx.tif?op_sharpen=1&wid=500&fit=fit",
+      "1&fmt=webp",
+      "https://slimages.macysassets.com/is/image/MCY/products/9/optimized/34584329_fpx.tif?op_sharpen=1&wid=500&fit=fit",
+      "https://slimages.macysassets.com/is/image/MCY/products/4/optimized/34850354_fpx.tif?op_sharpen=1&wid=500&fit=fit",
+      "https://slimages.macysassets.com/is/image/MCY/products/4/optimized/34584324_fpx.tif?op_sharpen=1&wid=500&fit=fit"
+    ],
+    "specifications": {
+      "brand": "Michael Kors",
+      "material": "Polyester & Nylon Shell",
+      "fit": "Regular Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Dry clean only",
+      "country_of_origin": "Italy",
+      "gender": "Women",
+      "style": "Luxury Outerwear",
+      "season": "Winter / Fall"
+    },
+    "productType": "Luxury Outerwear",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 150,
+    "name": "Men's Dolce & Gabbana Shorts",
+    "category": "men",
+    "retail price": 2499.99,
+    "sale price": 1129.99,
+    "image": "https://cdn-images.farfetch-contents.com/20/53/15/86/20531586_50546418_600.jpg",
+    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
+    "images": [
+      "https://cdn-images.farfetch-contents.com/20/53/15/86/20531586_50546418_600.jpg",
+      "https://cdn-images.farfetch-contents.com/20/53/15/86/20531586_50546416_600.jpg",
+      "https://cdn-images.farfetch-contents.com/20/53/15/86/20531586_50546417_600.jpg"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Cotton",
+      "fit": "Regular Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Machine wash cold",
+      "country_of_origin": "Italy",
+      "gender": "Men",
+      "style": "Casual / Summer",
+      "season": "Summer"
+    },
+    "productType": "Casual / Summer",
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 151,
+    "name": "Leather Sectional Sofa Set",
+    "category": "homeandappliances",
+    "retail price": 1799.99,
+    "sale price": 999.99,
+    "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=800",
+    "description": "A premium furniture centerpiece designed with solid wood frames and high-density foam cushioning for home comfort.",
+    "images": [
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=800"
+    ],
+    "specifications": {
+      "brand": "Bonds",
+      "material": "Solid Wood Frame & Premium Upholstery",
+      "dimensions": "Varying dimensions depending on set",
+      "weight": "180 lbs",
+      "color_options": "Charcoal, Beige, Slate",
+      "assembly_required": "Yes",
+      "warranty": "3 Year Limited Warranty"
+    },
+    "age_group": "Adult",
+    "gender": "Unisex"
+  },
+  {
+    "id": 152,
+    "name": "VR Console Bundle",
+    "category": "entertainment",
+    "retail price": 299.99,
+    "sale price": 99.99,
+    "image": "https://i5.walmartimages.com/asr/524febbb-8253-4f8b-8244-decf90540eb9.6f896536388a05d3c6e7d9a2c9959aae.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+    "description": "A next-generation virtual reality headset bundle, delivering breathtaking immersion, haptic feedback, and 3D audio.",
+    "images": [
+      "https://i5.walmartimages.com/asr/524febbb-8253-4f8b-8244-decf90540eb9.6f896536388a05d3c6e7d9a2c9959aae.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/71257da3-f206-40ad-b3df-1e1be19561fa.f10ed899ae0af6a8db30a25265214e79.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/ab381bdd-03ef-4a1f-a792-fc4d7b48b255.a17b2591729885d32e253b30c184fa86.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/230721e8-7bfa-4c2b-b78d-80aaf80bfb02.bde5f6d355d690ba102e4a674313f610.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+    ],
+    "specifications": {
+      "brand": "Sony",
+      "display_type": "OLED (2000 x 2040 per eye)",
+      "refresh_rate": "90Hz, 120Hz",
+      "field_of_view": "110 degrees",
+      "controllers": "2x VR Sense Controllers included",
+      "connectivity": "USB-C",
+      "warranty": "1 Year Limited Warranty"
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Men"
+  },
+  {
+    "id": 153,
+    "name": "Women's Dolce & Gabbana Shorts",
+    "category": "women",
+    "retail price": 299.99,
+    "sale price": 99.99,
+    "image": "https://editorialist.com/thumbnail/600/2025/1/034/206/344/34206344~black_1737144980388_0.webp?width=600&quality=60",
+    "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
+    "images": [
+      "https://editorialist.com/thumbnail/600/2025/1/034/206/344/34206344~black_1737144980388_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnails/600/2025/1/034/206/344/34206344~black_1737144980388_1.webp",
+      "https://editorialist.com/thumbnails/600/2025/1/034/206/344/34206344~black_1737144980388_2.webp"
+    ],
+    "specifications": {
+      "brand": "Dolce & Gabbana",
+      "material": "100% Cotton",
+      "fit": "Regular Fit",
+      "sizes_available": "S, M, L, XL",
+      "care_instructions": "Machine wash cold",
+      "country_of_origin": "Italy",
+      "gender": "Women",
+      "style": "Casual / Summer",
+      "season": "Summer"
+    },
+    "productType": "Casual / Summer",
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+  },
+  {
+    "id": 154,
+    "name": "Sony 4K Digital Camcorder",
+    "category": "electronics",
+    "retail price": 499.99,
+    "sale price": 139.99,
+    "image": "https://i5.walmartimages.com/seo/Sony-FDR-AX43-UHD-4K-Handycam-Camcorder-Sold-without-manufacturer-warranty_41131016-94b6-438d-ae80-7a731f7a4065.121ec5c5cbbdb456e9ac4200a265f020.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "description": "A high-resolution 4K digital camcorder designed for smooth handheld shooting and crystal-clear video capture.",
+    "images": [
+      "https://i5.walmartimages.com/seo/Sony-FDR-AX43-UHD-4K-Handycam-Camcorder-Sold-without-manufacturer-warranty_41131016-94b6-438d-ae80-7a731f7a4065.121ec5c5cbbdb456e9ac4200a265f020.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/fa8c7a6e-6b12-493e-a80f-3d2a0a115879.9e2038a488694b290623962e64ede1f1.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/a1853fe7-2c19-4bdd-beb3-685a2de08e0f.2a670983469197a3fd1773f9fedf6a82.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/2b600759-0e28-4fc2-bba9-aeb81eed393e.4309baa7f3f57090ec647bdf2a338c7a.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/e3bcb7d5-4834-4f25-b440-223474ee0ff3.ea5cf97b70b1939624adda9a1a7948d9.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/asr/41131016-94b6-438d-ae80-7a731f7a4065.121ec5c5cbbdb456e9ac4200a265f020.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF"
+    ],
+    "specifications": {
+      "brand": "Sony",
+      "video_resolution": "4K Ultra HD (3840x2160)",
+      "lens": "ZEISS Vario-Sonnar T* Lens",
+      "stabilization": "Balanced Optical SteadyShot",
+      "weight": "1.8 lbs",
+      "warranty": "1 Year Limited Warranty"
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Unisex"
+  },
+  {
+    "id": 155,
+    "name": "Samsung Galaxy Tablet",
+    "category": "electronics",
+    "retail price": 299.99,
+    "sale price": 99.99,
+    "image": "https://de2wfhoo6xqi5.cloudfront.net/size/400/f29/082/98327e489585792a2cfadfe24b01605cbd.jpg",
+    "description": "A sleek, lightweight tablet featuring a brilliant AMOLED screen, high-performance processor, and long battery life.",
+    "images": [
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/f29/082/98327e489585792a2cfadfe24b01605cbd.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/108/b23/62a38dce07c76e3d939fc056f93f7bcaaa.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/022/2ec/a04668ae05cba2650db99f09b465f062cf.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/201/3df/6022095e0acbb4b9885b4cae3dc2df7c9a.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/27b/762/713e6103a229a7c76e3187b9733ffbcb0c.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/408/e81/f9081d76293aba53e796a442c122290026.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/42d/7a7/6b5fd332a4ae354aa8968305a882dee9e6.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/45d/a0b/665e9fb344a5358319bb9dbc8d8fa43fe2.jpg",
+      "https://de2wfhoo6xqi5.cloudfront.net/size/400/50e/677/433b5679396a28caee702fc7dd8e7e4b46.jpg"
+    ],
+    "specifications": {
+      "brand": "Samsung",
+      "processor": "Snapdragon 8 Gen 2",
+      "ram": "8GB RAM",
+      "storage": "128GB SSD",
+      "display": "11-inch Dynamic AMOLED 2X",
+      "operating_system": "Android 14",
+      "ports": "USB-C",
+      "weight": "1.1 lbs",
+      "warranty": "1 Year Limited Warranty"
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Unisex"
   },
   {
     "id": 238,
