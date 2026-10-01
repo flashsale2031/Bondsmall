@@ -7832,7 +7832,10 @@ const products = [
     "age_group": "Adult",
     "gender": "Women",
     "brand": "CHANEL",
-    "brand_display_name": "CHANEL"
+    "brand_display_name": "CHANEL",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace\u2019s required authentication checks."
   },
   {
     "id": 239,
@@ -7871,7 +7874,10 @@ const products = [
     "age_group": "Adult",
     "gender": "Women",
     "brand": "CHANEL",
-    "brand_display_name": "CHANEL"
+    "brand_display_name": "CHANEL",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace\u2019s required authentication checks."
   },
   {
     "id": 240,
@@ -7909,7 +7915,10 @@ const products = [
     "age_group": "Adult",
     "gender": "Women",
     "brand": "CHANEL",
-    "brand_display_name": "CHANEL"
+    "brand_display_name": "CHANEL",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace\u2019s required authentication checks."
   },
   {
     "id": 241,
@@ -7948,7 +7957,10 @@ const products = [
     "age_group": "Adult",
     "gender": "Women",
     "brand": "CHANEL",
-    "brand_display_name": "CHANEL"
+    "brand_display_name": "CHANEL",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace\u2019s required authentication checks."
   }
 ,
 {
@@ -7987,7 +7999,10 @@ const products = [
     "age_group": "Adult",
     "gender": "Women",
     "brand": "CHANEL",
-    "brand_display_name": "CHANEL"
+    "brand_display_name": "CHANEL",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace\u2019s required authentication checks."
   },
   {
     "id": 243,
@@ -8025,7 +8040,10 @@ const products = [
     "age_group": "Adult",
     "gender": "Women",
     "brand": "CHANEL",
-    "brand_display_name": "CHANEL"
+    "brand_display_name": "CHANEL",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace\u2019s required authentication checks."
   },
   {
     "id": 244,
@@ -8065,7 +8083,10 @@ const products = [
     "age_group": "Adult",
     "gender": "Women",
     "brand": "CHANEL",
-    "brand_display_name": "CHANEL"
+    "brand_display_name": "CHANEL",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace\u2019s required authentication checks."
   },
   {
     "id": 245,
@@ -8102,6 +8123,9 @@ const products = [
     "age_group": "Adult",
     "gender": "Women",
     "brand": "CHANEL",
-    "brand_display_name": "CHANEL"
+    "brand_display_name": "CHANEL",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace\u2019s required authentication checks."
   }
 ];
