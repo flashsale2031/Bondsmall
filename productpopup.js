@@ -32,6 +32,14 @@ window.BondsGoldCoinImages = window.BondsGoldCoinImages || (() => {
         return list;
     };
     const pick = (list, pattern, exclude) => list.find((u) => pattern.test(u) && u !== exclude) || "";
+    function pairedReverse(url) {
+        const s = String(url || "");
+        if (/_Obv\.(jpe?g|png|webp)(?:[?#].*)?$/i.test(s)) return s.replace(/_Obv\.(jpe?g|png|webp)/i, "_Rev.$1");
+        if (/_obv\.(jpe?g|png|webp)(?:[?#].*)?$/i.test(s)) return s.replace(/_obv\.(jpe?g|png|webp)/i, "_rev.$1");
+        if (/-obverse\.(jpe?g|png|webp)(?:[?#].*)?$/i.test(s)) return s.replace(/-obverse\.(jpe?g|png|webp)/i, "-reverse.$1");
+        if (/-Obverse\.(jpe?g|png|webp)(?:[?#].*)?$/i.test(s)) return s.replace(/-Obverse\.(jpe?g|png|webp)/i, "-Reverse.$1");
+        return "";
+    }
     function seriesReverse(product, exclude) {
         const name = String(product?.name || "").toLowerCase();
         const yearMatch = name.match(/\b(19|20)\d{2}\b/);
@@ -66,7 +74,7 @@ window.BondsGoldCoinImages = window.BondsGoldCoinImages || (() => {
         if (!hadPlaceholder) return { images: (product?.images || []).filter(Boolean).slice(0, 8), modes: [] };
         if (!source.length) return { images: [], modes: ["front","left","right","back","case"] };
         const front = pick(source, /(?:_obv|_obverse|obverse)/i) || source[0];
-        const back = pick(source, /(?:_rev|_reverse|reverse)/i, front) || seriesReverse(product, front) || source.find((u) => u !== front) || front;
+        const back = pick(source, /(?:_rev|_reverse|reverse)/i, front) || pairedReverse(front) || seriesReverse(product, front) || source.find((u) => u !== front) || front;
         const casePhoto = pick(source, /(?:slab|case|box|coa|capsule|holder|packaging|presentation)/i, front) || source.find((u) => u !== front && u !== back) || front;
         return { images: [front, front, back, back, casePhoto], modes: ["front","left","right","back","case"] };
     }
