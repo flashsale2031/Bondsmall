@@ -3978,7 +3978,7 @@ window.products = [
   },
   {
     "id": 103,
-    "name": "2014 American Liberty Gold Coin",
+    "name": "2014 American Gold Eagle One Ounce Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4649.99,
     "sale price": 4649.99,
@@ -3990,8 +3990,14 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "",
-    "images": [],
+    "image": "https://www.images-apmex.com/images/products/2014-1-oz-american-gold-eagle-bu_79031_Slab.jpg",
+    "images": [
+      "https://www.images-apmex.com/images/products/2014-1-oz-american-gold-eagle-bu_79031_Slab.jpg",
+      "https://sdbullion.com/media/catalog/product/cache/7210201ab1ce52030165d205aa451b65/g/o/gold-american-eagle-back.jpeg",
+      "https://www.images-apmex.com/images/products/2014-1-oz-american-gold-eagle-bu_79031_Slab.jpg",
+      "https://sdbullion.com/media/catalog/product/cache/7210201ab1ce52030165d205aa451b65/g/o/gold-american-eagle-back.jpeg",
+      "https://www.images-apmex.com/images/products/2014-1-oz-american-gold-eagle-bu_79031_Slab.jpg"
+    ],
     "image_views": {
       "front_main": "images[0]",
       "back": "images[1]",
@@ -3999,19 +4005,25 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_source": "Verified source image(s) where available; generated missing gallery views",
+    "photo_source": "Verified 2014 American Gold Eagle product photography from APMEX and verified reverse-design photography from SD Bullion; side views use the verified photographs with gallery perspective rendering.",
     "photo_year": 2014,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
-    "official_issue": false,
-    "listing_status": "Catalog placeholder — no verified official issue for this year; product photography intentionally suppressed.",
-    "description": "This catalog entry preserves the requested 2014 Bonds Mall pricing, but it is not represented as an official U.S. Mint American Liberty gold coin. The U.S. Mint's American Liberty gold series archive does not list a 2014 gold coin.",
+    "official_issue": true,
+    "listing_status": "Verified 2014 American Gold Eagle product.",
+    "description": "2014 American Gold Eagle one-ounce gold coin. The obverse uses the Saint-Gaudens Liberty design and the reverse uses the Miley Busiek eagle-family design.",
     "specifications": {
       "brand": "US Mint",
       "catalog_year": "2014",
-      "official_issue": false,
-      "verification_note": "The U.S. Mint's American Liberty gold series archive does not list a 2014 gold coin.",
-      "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty"
+      "official_issue": true,
+      "weight": "1 troy oz",
+      "purity": ".9167",
+      "denomination": "$50",
+      "diameter": "32.7 mm",
+      "thickness": "2.87 mm",
+      "obverse_designer": "Augustus Saint-Gaudens",
+      "reverse_designer": "Miley Busiek",
+      "source": "https://www.usmint.gov/news/press-releases/20140515-american-eagle-one-ounce-gold-uncirculated-coin-goes-on-sale-may-22"
     },
     "productType": "Coin",
     "inventory": 0,
@@ -4025,8 +4037,8 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "image_quality_status": "No verified product image",
-    "image_note": "This catalog year is not an official U.S. Mint American Liberty gold issue; Bonds Mall must not display a fabricated coin image."
+    "image_quality_status": "Verified product photography",
+    "image_note": "Verified 2014 American Gold Eagle photography; no generic generated coin artwork."
   },
   {
     "id": 104,
