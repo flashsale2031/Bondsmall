@@ -189,10 +189,17 @@ function productForCondition(product, condition) {
         : (product.image || sourceImages[0] || "");
     const images = [mainImage, ...sourceImages.filter((image) => image !== mainImage)].filter(Boolean);
 
+    // Preserve the gold-coin verified gallery selected by enrichForPopup.
+    const goldGallery = window.BondsGoldCoinImages && window.BondsGoldCoinImages.getGallery(product);
+    const hasGoldGallery = goldGallery && goldGallery.modes && goldGallery.modes.length && goldGallery.images && goldGallery.images.length;
+    const finalImage = hasGoldGallery && !preOwned ? goldGallery.images[0] : mainImage;
+    const finalImages = hasGoldGallery && !preOwned ? goldGallery.images : images;
+
     return {
         ...product,
-        image: mainImage,
-        images,
+        image: finalImage,
+        images: finalImages,
+        galleryViewModes: hasGoldGallery && !preOwned ? goldGallery.modes : (product.galleryViewModes || []),
         specifications: {
             ...(product.specifications || {}),
             condition: selectedCondition
