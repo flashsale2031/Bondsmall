@@ -7,22 +7,25 @@ let activeReviewProductId = "";
 /* Gold-coin image quality layer: reject generated placeholders and build a
    five-view gallery from verified product photography when available. */
 window.BondsGoldCoinImages = window.BondsGoldCoinImages || (() => {
-    const placeholder = (src) => /^data:image\\//i.test(String(src || ""));
+    const placeholder = (src) => /^data:image\//i.test(String(src || ""));
     const usable = (src) => {
         const s = String(src || "");
-        if (!/^https?:\\/\\//i.test(s) || placeholder(s)) return false;
-        if (/\\/(?:learn\\/coins-and-medals\\/collectible-coins\\/american-liberty|coin-programs\\/american-liberty|coins-precious-metal-coins\\/bullion-coin-programs|coins\\/coin-programs\\/american-buffalo-coins)\\s*$/i.test(s)) return false;
-        return /\\.(?:jpe?g|png|webp)(?:[?#].*)?$/i.test(s) || /coreimg\\.(?:jpeg|jpg|png|webp)/i.test(s) || /images\\/products\\//i.test(s);
+        if (!/^https?:\/\//i.test(s) || placeholder(s)) return false;
+        if (/\/(?:learn\/coins-and-medals\/collectible-coins\/american-liberty|coin-programs\/american-liberty|coins-precious-metal-coins\/bullion-coin-programs|coins\/coin-programs\/american-buffalo-coins)\s*$/i.test(s)) return false;
+        return /\.(?:jpe?g|png|webp)(?:[?#].*)?$/i.test(s) || /coreimg\.(?:jpeg|jpg|png|webp)/i.test(s) || /images\/products\//i.test(s);
     };
     const isGoldCoin = (product) => {
         const name = String(product?.name || "").toLowerCase();
         const type = String(product?.productType || "").toLowerCase();
         const material = String(product?.specifications?.material || "").toLowerCase();
-        return type === "coin" && (\\/\\bgold\\b\\/.test(name) || /\\bgold\\b/.test(material) || /\\b9999\\b/.test(material));
+        return type === "coin" && (/\bgold\b/.test(name) || /\bgold\b/.test(material) || /\b9999\b/.test(material));
     };
     const candidates = (product) => {
         const list = [];
-        const push = (v) => { if (Array.isArray(v)) v.forEach(push); else if (usable(v) && !list.includes(v)) list.push(v); };
+        const push = (v) => {
+            if (Array.isArray(v)) v.forEach(push);
+            else if (usable(v) && !list.includes(v)) list.push(v);
+        };
         push(product?.image);
         push(product?.images);
         if (product?.image_views && typeof product.image_views === "object") push(Object.values(product.image_views));
@@ -46,7 +49,6 @@ window.BondsGoldCoinImages = window.BondsGoldCoinImages || (() => {
     }
     return { isGoldCoin, candidates, getPrimary, getGallery };
 })();
-
 
 function formatPopupMoney(value) {
     if (window.BondsmallLocale && typeof window.BondsmallLocale.formatMoney === 'function') return window.BondsmallLocale.formatMoney(value);
