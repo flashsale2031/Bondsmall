@@ -3993,9 +3993,9 @@ window.products = [
     "image": "https://sdbullion.com/media/catalog/product/o/b/obv1_1_8.jpg",
     "images": [
       "https://sdbullion.com/media/catalog/product/o/b/obv1_1_8.jpg",
-      "https://sdbullion.com/media/catalog/product/r/e/rev1_1_8.jpg",
+      "https://i.usacoinbook.com/us-coins/american-eagle-gold-bullion.webp",
       "https://sdbullion.com/media/catalog/product/o/b/obv1_1_8.jpg",
-      "https://sdbullion.com/media/catalog/product/r/e/rev1_1_8.jpg",
+      "https://i.usacoinbook.com/us-coins/american-eagle-gold-bullion.webp",
       "https://sdbullion.com/media/catalog/product/o/b/obv1_1_8.jpg"
     ],
     "image_views": {
