@@ -1064,6 +1064,7 @@ function populatePhotos(enrichedProduct) {
     mainImg.classList.remove("coin-view-left","coin-view-right","coin-view-case");
     if (viewModes[0]) mainImg.classList.add(`coin-view-${viewModes[0]}`);
     mainImg.alt = enrichedProduct.name || "";
+    mainImg.referrerPolicy = "no-referrer";
     mainImg.style.display = "block";
     mainImg.style.maxWidth = "100%";
 
@@ -1110,6 +1111,7 @@ function populatePhotos(enrichedProduct) {
 
         const im = document.createElement("img");
         im.src = src;
+        im.referrerPolicy = "no-referrer";
         im.alt = "";
         if (viewModes[idx]) im.classList.add(`coin-view-${viewModes[idx]}`);
         im.loading = "lazy";
