@@ -10,7 +10,7 @@ window.BondsGoldCoinImages = window.BondsGoldCoinImages || (() => {
     const placeholder = (src) => /^data:image\//i.test(String(src || ""));
     const usable = (src) => {
         const s = String(src || "");
-        if (!/^https?:\/\//i.test(s) || placeholder(s)) return false;
+        if ((!/^https?:\/\//i.test(s) && !/^(?:assets\/|\.\/|\/)/i.test(s)) || placeholder(s)) return false;
         if (/\/(?:learn\/coins-and-medals\/collectible-coins\/american-liberty|coin-programs\/american-liberty|coins-precious-metal-coins\/bullion-coin-programs|coins\/coin-programs\/american-buffalo-coins)\s*$/i.test(s)) return false;
         return /\.(?:jpe?g|png|webp)(?:[?#].*)?$/i.test(s) || /coreimg\.(?:jpeg|jpg|png|webp)/i.test(s) || /images\/products\//i.test(s);
     };
