@@ -4103,7 +4103,7 @@ window.products = [
   },
   {
     "id": 105,
-    "name": "2016 American Liberty Gold Coin",
+    "name": "2016 Standing Liberty Centennial Gold Coin",
     "category": "artandcollectibles",
     "retail price": 4199.99,
     "sale price": 4199.99,
@@ -4115,28 +4115,41 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "",
-    "images": [],
+    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/centennial-gold-coins/standing-liberty/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746131370494.coreimg.jpeg/1746131416981/2016-standing-liberty-centennial-gold-coin-obverse.jpeg",
+    "images": [
+      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/centennial-gold-coins/standing-liberty/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746131370494.coreimg.jpeg/1746131416981/2016-standing-liberty-centennial-gold-coin-obverse.jpeg",
+      "https://www.coinnews.net/wp-content/uploads/2016/09/2016-W-Standing-Liberty-Centennial-Gold-Coin-Edge-and-Rim.jpg",
+      "https://www.coinnews.net/wp-content/uploads/2016/09/2016-W-Standing-Liberty-Centennial-Gold-Coin-Edge-and-Rim.jpg",
+      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/centennial-gold-coins/standing-liberty/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746131371832.coreimg.jpeg/1746131442285/2016-standing-liberty-centennial-gold-coin-reverse.jpeg",
+      "https://images.squarespace-cdn.com/content/v1/63b6137df8b2930293ac10c0/12d650b3-0399-422b-8ade-8d71c80b375f/734070.jpg?format=2500w"
+    ],
     "image_views": {
-      "front_main": "images[0]",
-      "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
-      "case_photo": "images[4]"
+      "front_main": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/centennial-gold-coins/standing-liberty/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746131370494.coreimg.jpeg/1746131416981/2016-standing-liberty-centennial-gold-coin-obverse.jpeg",
+      "left_side": "https://www.coinnews.net/wp-content/uploads/2016/09/2016-W-Standing-Liberty-Centennial-Gold-Coin-Edge-and-Rim.jpg",
+      "right_side": "https://www.coinnews.net/wp-content/uploads/2016/09/2016-W-Standing-Liberty-Centennial-Gold-Coin-Edge-and-Rim.jpg",
+      "back": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/centennial-gold-coins/standing-liberty/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746131371832.coreimg.jpeg/1746131442285/2016-standing-liberty-centennial-gold-coin-reverse.jpeg",
+      "case_photo": "https://images.squarespace-cdn.com/content/v1/63b6137df8b2930293ac10c0/12d650b3-0399-422b-8ade-8d71c80b375f/734070.jpg?format=2500w"
     },
-    "photo_source": "Verified source image(s) where available; generated missing gallery views",
+    "photo_source": "U.S. Mint obverse/reverse; CoinNews reeded-edge photography; Coin Photography Studio presentation-case photography",
     "photo_year": 2016,
     "photo_is_representative": false,
-    "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
-    "official_issue": false,
-    "listing_status": "Catalog placeholder — no verified official issue for this year; product photography intentionally suppressed.",
-    "description": "This catalog entry preserves the requested 2016 Bonds Mall pricing, but it is not represented as an official U.S. Mint American Liberty gold coin. The U.S. Mint issued a 2016 American Liberty silver medal, not an American Liberty gold coin.",
+    "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/centennial-gold-coins/standing-liberty",
+    "official_issue": true,
+    "listing_status": "Verified official 2016 U.S. Mint Standing Liberty Centennial Gold Coin",
+    "description": "2016 Standing Liberty Centennial Gold Coin, struck at the West Point Mint in .9999 fine 24-karat gold. The obverse shows Liberty holding a shield and olive branch; the reverse shows an eagle in flight flanked by 13 stars. Original U.S. Mint packaging included a custom black presentation case and Certificate of Authenticity.",
     "specifications": {
       "brand": "US Mint",
       "catalog_year": "2016",
-      "official_issue": false,
-      "verification_note": "The U.S. Mint issued a 2016 American Liberty silver medal, not an American Liberty gold coin.",
-      "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty"
+      "official_issue": true,
+      "verification_note": "Verified against the U.S. Mint's official 2016 Standing Liberty Centennial Gold Coin page.",
+      "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/centennial-gold-coins/standing-liberty",
+      "composition": "99.99% Gold",
+      "fineness": "0.9999",
+      "weight": "0.2500 troy oz. (7.776 grams)",
+      "diameter": "22.00 mm",
+      "mint": "West Point",
+      "mint_mark": "W",
+      "edge": "Reeded"
     },
     "productType": "Coin",
     "inventory": 0,
@@ -4148,10 +4161,10 @@ window.products = [
     "luxury_brand": true,
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
+    "authenticity": "Official U.S. Mint product; product identity and specifications are verified against U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "image_quality_status": "No verified product image",
-    "image_note": "This catalog year is not an official U.S. Mint American Liberty gold issue; Bonds Mall must not display a fabricated coin image."
+    "image_quality_status": "Verified five-view gallery",
+    "image_note": "Gallery uses verified obverse and reverse photography, a reeded-edge photograph, and a presentation-case photograph; no generated placeholder coin art is used."
   },
   {
     "id": 106,
