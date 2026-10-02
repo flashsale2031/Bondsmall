@@ -4619,7 +4619,7 @@ window.products = [
     "image_views": {
       "front_main": "images[0]",
       "left_side": "images[2]",
-      "right_side": "images[2]",
+      "right_side": "images[3]",
       "back": "images[3]",
       "case_photo": "images[4]"
     },
@@ -4660,7 +4660,7 @@ window.products = [
     "authenticity": "Official U.S. Mint 2024 Liberty & Britannia gold proof coin; product identity and specifications are verified against U.S. Mint source material.",
     "brand_source": "U.S. Mint",
     "image_quality_status": "Verified five-view gallery",
-    "image_note": "Gallery uses official U.S. Mint obverse/reverse photography, CSS perspective treatment for left/right side views, and verified presentation-set photography for the case view. No generic placeholder coin art is used."
+    "image_note": "Gallery uses official U.S. Mint obverse/reverse photography, perspective treatment of the verified obverse/reverse for the left/right slots, and verified presentation-set photography for the case view. No generated placeholder coin art is used."
   },
   {
     "id": 114,
