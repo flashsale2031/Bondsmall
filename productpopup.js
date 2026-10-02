@@ -32,6 +32,29 @@ window.BondsGoldCoinImages = window.BondsGoldCoinImages || (() => {
         return list;
     };
     const pick = (list, pattern, exclude) => list.find((u) => pattern.test(u) && u !== exclude) || "";
+    function seriesReverse(product, exclude) {
+        const name = String(product?.name || "").toLowerCase();
+        const yearMatch = name.match(/\b(19|20)\d{2}\b/);
+        const year = yearMatch ? Number(yearMatch[0]) : 0;
+        let family = "";
+        if (/american eagle/.test(name)) family = year >= 2021 ? "eagle-modern" : "eagle-legacy";
+        else if (/american buffalo/.test(name)) family = "buffalo";
+        if (!family || !Array.isArray(window.products)) return "";
+        for (const candidate of window.products) {
+            if (candidate === product) continue;
+            const cn = String(candidate?.name || "").toLowerCase();
+            if (family === "eagle-modern" && (!/american eagle/.test(cn) || !/gold/.test(cn))) continue;
+            if (family === "eagle-legacy" && (!/american eagle/.test(cn) || !/gold/.test(cn))) continue;
+            if (family === "buffalo" && !/american buffalo.*gold/.test(cn)) continue;
+            const cy = Number((cn.match(/\b(19|20)\d{2}\b/) || [0])[0]);
+            if (family === "eagle-legacy" && cy >= 2021) continue;
+            if (family === "eagle-modern" && cy && cy < 2021) continue;
+            const urls = candidates(candidate);
+            const reverse = pick(urls, /(?:_rev|_reverse|reverse)/i, exclude);
+            if (reverse) return reverse;
+        }
+        return "";
+    }
     function getPrimary(product) {
         if (!isGoldCoin(product)) return product?.image || "";
         return candidates(product)[0] || "";
@@ -43,7 +66,7 @@ window.BondsGoldCoinImages = window.BondsGoldCoinImages || (() => {
         if (!hadPlaceholder) return { images: (product?.images || []).filter(Boolean).slice(0, 8), modes: [] };
         if (!source.length) return { images: [], modes: ["front","left","right","back","case"] };
         const front = pick(source, /(?:_obv|_obverse|obverse)/i) || source[0];
-        const back = pick(source, /(?:_rev|_reverse|reverse)/i, front) || source.find((u) => u !== front) || front;
+        const back = pick(source, /(?:_rev|_reverse|reverse)/i, front) || seriesReverse(product, front) || source.find((u) => u !== front) || front;
         const casePhoto = pick(source, /(?:slab|case|box|coa|capsule|holder|packaging|presentation)/i, front) || source.find((u) => u !== front && u !== back) || front;
         return { images: [front, front, back, back, casePhoto], modes: ["front","left","right","back","case"] };
     }
@@ -873,10 +896,12 @@ function ensurePopupLayoutStyles() {
         #product-modal .main-photo #main-photo.coin-view-left { transform: perspective(900px) rotateY(-48deg) rotateX(2deg) scale(.93); filter: saturate(1.05) drop-shadow(18px 10px 12px rgba(48,32,16,.28)); }
         #product-modal .main-photo #main-photo.coin-view-right { transform: perspective(900px) rotateY(48deg) rotateX(2deg) scale(.93); filter: saturate(1.05) drop-shadow(-18px 10px 12px rgba(48,32,16,.28)); }
         #product-modal .main-photo #main-photo.coin-view-case { transform: scale(.78); padding: 4%; box-sizing: border-box; background: linear-gradient(145deg,#171717,#2b241d 55%,#111); border: 8px solid #1a1714; border-radius: 14px; box-shadow: inset 0 0 0 2px #8d6b38, 0 18px 28px rgba(0,0,0,.28); }
-        #product-modal .photo-thumb
-        #product-modal .photo-strip-track { display: flex; gap: .45rem; overflow-x: auto; }
+        #product-modal .photo-thumb { display: flex; gap: .45rem; overflow-x: auto; }
         #product-modal .photo-thumb { flex: 0 0 58px; width: 58px; height: 58px; overflow: hidden; }
-        #product-modal .photo-thumb img { width: 100%; height: 100%; object-fit: cover; }
+        #product-modal .photo-thumb img { width: 100%; height: 100%; object-fit: cover; transform-origin: center center; transition: transform .2s ease, box-shadow .2s ease; }
+        #product-modal .photo-thumb img.coin-view-left { transform: perspective(500px) rotateY(-42deg) scale(.92); }
+        #product-modal .photo-thumb img.coin-view-right { transform: perspective(500px) rotateY(42deg) scale(.92); }
+        #product-modal .photo-thumb img.coin-view-case { transform: scale(.78); background: #211d19; border: 3px solid #6e542d; border-radius: 6px; }
         @media (max-width: 720px) {
             #product-modal { align-items: flex-start; padding: .75rem; }
             #product-modal .modal-card { width: 100%; max-height: calc(100vh - 1.5rem); border-radius: 16px; }
