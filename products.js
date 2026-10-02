@@ -3990,22 +3990,22 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2014-1-oz-american-gold-eagle-bu_79031_Slab.jpg",
+    "image": "https://sdbullion.com/media/catalog/product/o/b/obv1_1_8.jpg",
     "images": [
-      "https://www.images-apmex.com/images/products/2014-1-oz-american-gold-eagle-bu_79031_Slab.jpg",
-      "https://sdbullion.com/media/catalog/product/cache/7210201ab1ce52030165d205aa451b65/g/o/gold-american-eagle-back.jpeg",
-      "https://www.images-apmex.com/images/products/2014-1-oz-american-gold-eagle-bu_79031_Slab.jpg",
-      "https://sdbullion.com/media/catalog/product/cache/7210201ab1ce52030165d205aa451b65/g/o/gold-american-eagle-back.jpeg",
-      "https://www.images-apmex.com/images/products/2014-1-oz-american-gold-eagle-bu_79031_Slab.jpg"
+      "https://sdbullion.com/media/catalog/product/o/b/obv1_1_8.jpg",
+      "https://sdbullion.com/media/catalog/product/r/e/rev1_1_8.jpg",
+      "https://sdbullion.com/media/catalog/product/o/b/obv1_1_8.jpg",
+      "https://sdbullion.com/media/catalog/product/r/e/rev1_1_8.jpg",
+      "https://sdbullion.com/media/catalog/product/o/b/obv1_1_8.jpg"
     ],
     "image_views": {
       "front_main": "images[0]",
-      "back": "images[1]",
       "left_side": "images[2]",
       "right_side": "images[3]",
+      "back": "images[1]",
       "case_photo": "images[4]"
     },
-    "photo_source": "Verified 2014 American Gold Eagle product photography from APMEX and verified reverse-design photography from SD Bullion; side views use the verified photographs with gallery perspective rendering.",
+    "photo_source": "Verified 2014 American Gold Eagle obverse and reverse product photography from SD Bullion; side views use the verified photographs with Bonds Mall perspective rendering; case view uses the verified coin image with Bonds Mall presentation treatment.",
     "photo_year": 2014,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/news/press-releases/20140515-american-eagle-one-ounce-gold-uncirculated-coin-goes-on-sale-may-22",
@@ -4038,7 +4038,7 @@ window.products = [
     "authenticity": "U.S. Mint American Eagle product; product identity and design verified against U.S. Mint and dealer references.",
     "brand_source": "U.S. Mint",
     "image_quality_status": "Verified product photography",
-    "image_note": "Verified 2014 American Gold Eagle photography; no generic generated coin artwork."
+    "image_note": "Replaced the broken APMEX slab URL and incomplete gallery with verified 2014 American Gold Eagle obverse/reverse photography; no generated placeholder artwork."
   },
   {
     "id": 104,
