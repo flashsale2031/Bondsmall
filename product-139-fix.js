@@ -1,34 +1,36 @@
-/* Product 139 correction: American Buffalo 2025 One Ounce Gold Proof Coin.
- * The authoritative catalog previously mapped ID 139 to the bullion version.
- * Keep the stable product ID/URL, but correct the record to the U.S. Mint proof issue.
- */
+/* Product 139 correction: American Buffalo 2024 One Ounce Gold Proof Coin.
+ * ID 139 was originally one of the early American Buffalo catalog slots that
+ * needed to be converted because the requested 2002-2005 Buffalo issues were
+ * never produced by the U.S. Mint. The U.S. Mint launched the Buffalo program
+ * in 2006, so this stable URL now represents the 2024 proof issue instead.
+ */ 
 (() => {
     const proof = {
         id: 139,
-        name: "2025 American Buffalo One Ounce Gold Proof Coin",
+        name: "2024 American Buffalo One Ounce Gold Proof Coin",
         category: "artandcollectibles",
-        "retail price": 5340.00,
-        "sale price": 5340.00,
-        "new price": 5340.00,
-        "pre-owned price": 4806.00,
+        "retail price": 5390.00,
+        "sale price": 5390.00,
+        "new price": 5390.00,
+        "pre-owned price": 4851.00,
         condition: "New",
         condition_options: ["New", "Pre-owned"],
         default_condition: "New",
-        image: "https://www.usmint.gov/content/dam/usmint/image-library/coins/2025/American-Buffalo-Gold-Proof-Obverse.jpg",
+        image: "https://www.usmint.gov/content/dam/usmint/image-library/coins/2024/American-Buffalo-Gold-Proof-Obverse.jpg",
         images: [
-            "https://www.usmint.gov/content/dam/usmint/image-library/coins/2025/American-Buffalo-Gold-Proof-Obverse.jpg",
-            "https://www.usmint.gov/content/dam/usmint/image-library/coins/2025/American-Buffalo-Gold-Proof-Reverse.jpg"
+            "https://www.usmint.gov/content/dam/usmint/image-library/coins/2024/American-Buffalo-Gold-Proof-Obverse.jpg",
+            "https://www.usmint.gov/content/dam/usmint/image-library/coins/2024/American-Buffalo-Gold-Proof-Reverse.jpg"
         ],
         image_views: {
-            front_main: "https://www.usmint.gov/content/dam/usmint/image-library/coins/2025/American-Buffalo-Gold-Proof-Obverse.jpg",
-            back: "https://www.usmint.gov/content/dam/usmint/image-library/coins/2025/American-Buffalo-Gold-Proof-Reverse.jpg"
+            front_main: "https://www.usmint.gov/content/dam/usmint/image-library/coins/2024/American-Buffalo-Gold-Proof-Obverse.jpg",
+            back: "https://www.usmint.gov/content/dam/usmint/image-library/coins/2024/American-Buffalo-Gold-Proof-Reverse.jpg"
         },
-        photo_source: "U.S. Mint official 2025 American Buffalo One Ounce Gold Proof Coin product listing.",
-        photo_year: 2025,
+        photo_source: "U.S. Mint official 2024 American Buffalo One Ounce Gold Proof Coin listing.",
+        photo_year: 2024,
         photo_is_representative: false,
-        source: "https://www.usmint.gov/american-buffalo-2025-one-ounce-gold-proof-coin-25EL.html",
+        source: "https://www.usmint.gov/american-buffalo-2024-one-ounce-gold-proof-coin-24EL.html",
         official_issue: true,
-        description: "The 2025 American Buffalo One Ounce Gold Proof Coin is the collector version of the official U.S. Mint American Buffalo Gold Bullion Coin. It contains one troy ounce of .9999 fine 24-karat gold and carries the 2025 Buffalo design based on James Earle Fraser's 1913 Type I Buffalo nickel.",
+        description: "The 2024 American Buffalo One Ounce Gold Proof Coin is the collector version of the official U.S. Mint American Buffalo Gold Bullion Coin. It contains one troy ounce of .9999 fine 24-karat gold and features the 2024 Buffalo design based on James Earle Fraser's 1913 Type I Buffalo nickel.",
         specifications: {
             brand: "US Mint",
             material: "24-karat gold (99.99% gold)",
@@ -38,10 +40,10 @@
             mint: "West Point",
             mint_mark: "W",
             finish: "Proof",
-            year: "2025",
+            year: "2024",
             edge: "Reeded",
             privy_mark: "None",
-            item_number: "25EL",
+            item_number: "24EL",
             reverse_design: "American bison based on James Earle Fraser's Buffalo Nickel"
         },
         productType: "Coin",
@@ -69,7 +71,5 @@
         replace(window.BondsmallCatalogAuthority.records);
     }
 
-    // Expose the corrected record so the exact-ID resolver can use it even if
-    // a lazy catalog chunk later replaces window.products.
     window.BondsmallProduct139Proof = proof;
 })();
