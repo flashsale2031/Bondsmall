@@ -4,6 +4,49 @@
  */
 
 let activeReviewProductId = "";
+/* Gold-coin image quality layer: reject generated placeholders and build a
+   five-view gallery from verified product photography when available. */
+window.BondsGoldCoinImages = window.BondsGoldCoinImages || (() => {
+    const placeholder = (src) => /^data:image\\//i.test(String(src || ""));
+    const usable = (src) => {
+        const s = String(src || "");
+        if (!/^https?:\\/\\//i.test(s) || placeholder(s)) return false;
+        if (/\\/(?:learn\\/coins-and-medals\\/collectible-coins\\/american-liberty|coin-programs\\/american-liberty|coins-precious-metal-coins\\/bullion-coin-programs|coins\\/coin-programs\\/american-buffalo-coins)\\s*$/i.test(s)) return false;
+        return /\\.(?:jpe?g|png|webp)(?:[?#].*)?$/i.test(s) || /coreimg\\.(?:jpeg|jpg|png|webp)/i.test(s) || /images\\/products\\//i.test(s);
+    };
+    const isGoldCoin = (product) => {
+        const name = String(product?.name || "").toLowerCase();
+        const type = String(product?.productType || "").toLowerCase();
+        const material = String(product?.specifications?.material || "").toLowerCase();
+        return type === "coin" && (\\/\\bgold\\b\\/.test(name) || /\\bgold\\b/.test(material) || /\\b9999\\b/.test(material));
+    };
+    const candidates = (product) => {
+        const list = [];
+        const push = (v) => { if (Array.isArray(v)) v.forEach(push); else if (usable(v) && !list.includes(v)) list.push(v); };
+        push(product?.image);
+        push(product?.images);
+        if (product?.image_views && typeof product.image_views === "object") push(Object.values(product.image_views));
+        return list;
+    };
+    const pick = (list, pattern, exclude) => list.find((u) => pattern.test(u) && u !== exclude) || "";
+    function getPrimary(product) {
+        if (!isGoldCoin(product)) return product?.image || "";
+        return candidates(product)[0] || "";
+    }
+    function getGallery(product) {
+        if (!isGoldCoin(product)) return { images: (product?.images || []).filter(Boolean), modes: [] };
+        const source = candidates(product);
+        const hadPlaceholder = (Array.isArray(product?.images) && product.images.some(placeholder)) || placeholder(product?.image);
+        if (!hadPlaceholder) return { images: (product?.images || []).filter(Boolean).slice(0, 8), modes: [] };
+        if (!source.length) return { images: [], modes: ["front","left","right","back","case"] };
+        const front = pick(source, /(?:_obv|_obverse|obverse)/i) || source[0];
+        const back = pick(source, /(?:_rev|_reverse|reverse)/i, front) || source.find((u) => u !== front) || front;
+        const casePhoto = pick(source, /(?:slab|case|box|coa|capsule|holder|packaging|presentation)/i, front) || source.find((u) => u !== front && u !== back) || front;
+        return { images: [front, front, back, back, casePhoto], modes: ["front","left","right","back","case"] };
+    }
+    return { isGoldCoin, candidates, getPrimary, getGallery };
+})();
+
 
 function formatPopupMoney(value) {
     if (window.BondsmallLocale && typeof window.BondsmallLocale.formatMoney === 'function') return window.BondsmallLocale.formatMoney(value);
@@ -24,7 +67,10 @@ function inferBrandFromName(name) {
 function enrichForPopup(product) {
     const authoritative = Boolean(window.BondsmallCatalogAuthority && typeof window.BondsmallCatalogAuthority.has === "function" && window.BondsmallCatalogAuthority.has(product && product.id));
     const sourceImages = Array.isArray(product.images) ? product.images : (Array.isArray(product.image) ? product.image : (product.image ? [product.image] : []));
-    const imgs = authoritative ? sourceImages.slice() : [...new Set([...(product.image ? (Array.isArray(product.image) ? product.image : [product.image]) : []), ...(product.images || [])].filter(Boolean))];
+    const rawImgs = authoritative ? sourceImages.slice() : [...new Set([...(product.image ? (Array.isArray(product.image) ? product.image : [product.image]) : []), ...(product.images || [])].filter(Boolean))];
+    const goldGallery = window.BondsGoldCoinImages && window.BondsGoldCoinImages.getGallery(product);
+    const imgs = goldGallery && goldGallery.modes.length ? goldGallery.images : rawImgs;
+    const galleryViewModes = goldGallery && goldGallery.modes.length ? goldGallery.modes : [];
 
     let retailPrice = product["retail price"] ?? product.retailPrice ?? null;
     if (!authoritative && (retailPrice === null || retailPrice === undefined || retailPrice === "")) {
@@ -64,6 +110,7 @@ function enrichForPopup(product) {
         ...product,
         mainPhoto: imgs[0] || "",
         images: imgs,
+        galleryViewModes: galleryViewModes,
         salePrice: salePrice,
         retailPrice: retailPrice,
         preOwnedPrice: preOwnedPrice,
@@ -820,7 +867,11 @@ function ensurePopupLayoutStyles() {
         #product-modal .product-display-grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(280px, .85fr); gap: 1.5rem; }
         #product-modal .product-image-col { min-width: 0; }
         #product-modal .main-photo { width: 100%; height: auto; aspect-ratio: 1 / 1; max-height: min(58vh, 680px); overflow: hidden; }
-        #product-modal .main-photo #main-photo { width: 100%; height: 100%; max-width: 100%; max-height: 100%; object-fit: contain; display: block; }
+        #product-modal .main-photo #main-photo { width: 100%; height: 100%; max-width: 100%; max-height: 100%; object-fit: contain; display: block; transform-origin: center center; transition: transform .28s ease, filter .28s ease, box-shadow .28s ease; }
+        #product-modal .main-photo #main-photo.coin-view-left { transform: perspective(900px) rotateY(-48deg) rotateX(2deg) scale(.93); filter: saturate(1.05) drop-shadow(18px 10px 12px rgba(48,32,16,.28)); }
+        #product-modal .main-photo #main-photo.coin-view-right { transform: perspective(900px) rotateY(48deg) rotateX(2deg) scale(.93); filter: saturate(1.05) drop-shadow(-18px 10px 12px rgba(48,32,16,.28)); }
+        #product-modal .main-photo #main-photo.coin-view-case { transform: scale(.78); padding: 4%; box-sizing: border-box; background: linear-gradient(145deg,#171717,#2b241d 55%,#111); border: 8px solid #1a1714; border-radius: 14px; box-shadow: inset 0 0 0 2px #8d6b38, 0 18px 28px rgba(0,0,0,.28); }
+        #product-modal .photo-thumb
         #product-modal .photo-strip-track { display: flex; gap: .45rem; overflow-x: auto; }
         #product-modal .photo-thumb { flex: 0 0 58px; width: 58px; height: 58px; overflow: hidden; }
         #product-modal .photo-thumb img { width: 100%; height: 100%; object-fit: cover; }
@@ -948,14 +999,18 @@ function populatePhotos(enrichedProduct) {
     let prevBtn    = document.getElementById("photo-strip-prev");
     let nextBtn    = document.getElementById("photo-strip-next");
 
-    const MAX_PHOTOS = 8;
+    const isGoldRegeneratedGallery = Array.isArray(enrichedProduct.galleryViewModes) && enrichedProduct.galleryViewModes.length > 0;
+    const MAX_PHOTOS = isGoldRegeneratedGallery ? 5 : 8;
     let urls = (enrichedProduct.images || []).filter(Boolean).slice(0, MAX_PHOTOS);
+    const viewModes = isGoldRegeneratedGallery ? enrichedProduct.galleryViewModes.slice(0, urls.length) : [];
     if (urls.length === 0 && enrichedProduct.image) {
         urls = [enrichedProduct.image];
     }
 
     /* ── Set the main display image ── */
     mainImg.src = urls[0] || "";
+    mainImg.classList.remove("coin-view-left","coin-view-right","coin-view-case");
+    if (viewModes[0]) mainImg.classList.add(`coin-view-${viewModes[0]}`);
     mainImg.alt = enrichedProduct.name || "";
     mainImg.style.display = "block";
     mainImg.style.maxWidth = "100%";
@@ -998,11 +1053,13 @@ function populatePhotos(enrichedProduct) {
         btn.className = "photo-thumb" + (idx === 0 ? " is-active" : "");
         btn.setAttribute("role", "option");
         btn.setAttribute("aria-selected", idx === 0 ? "true" : "false");
-        btn.setAttribute("aria-label", `Photo ${idx + 1} of ${urls.length}`);
+        const viewLabel = viewModes[idx] ? ({front:"Front / obverse", left:"Left-side angle", right:"Right-side angle", back:"Back / reverse", case:"Case view"}[viewModes[idx]] || `Photo ${idx + 1}`) : `Photo ${idx + 1}`;
+        btn.setAttribute("aria-label", `${viewLabel} of ${urls.length}`);
 
         const im = document.createElement("img");
         im.src = src;
         im.alt = "";
+        if (viewModes[idx]) im.classList.add(`coin-view-${viewModes[idx]}`);
         im.loading = "lazy";
         btn.appendChild(im);
 
@@ -1025,7 +1082,11 @@ function populatePhotos(enrichedProduct) {
             b.setAttribute("aria-selected", i === idx ? "true" : "false");
         });
 
-        if (mainImg) mainImg.src = urls[idx];
+        if (mainImg) {
+            mainImg.src = urls[idx];
+            mainImg.classList.remove("coin-view-left","coin-view-right","coin-view-case");
+            if (viewModes[idx]) mainImg.classList.add(`coin-view-${viewModes[idx]}`);
+        }
 
         updateArrows();
         scrollThumbIntoView(idx);
