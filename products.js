@@ -1052,7 +1052,12 @@ window.products = [
     "sale price": 1999.99,
     "image": "assets/generated/prada-handbag-main.webp",
     "description": "A structured handbag with refined detailing.",
-    "images": ["assets/generated/prada-handbag-main.webp", "assets/generated/prada-handbag-back.webp", "assets/generated/prada-handbag-detail.webp", "assets/generated/prada-handbag-side.webp"],
+    "images": [
+      "assets/generated/prada-handbag-main.webp",
+      "assets/generated/prada-handbag-back.webp",
+      "assets/generated/prada-handbag-detail.webp",
+      "assets/generated/prada-handbag-side.webp"
+    ],
     "specifications": {
       "brand": "Prada",
       "material": "Signature Saffiano Leather & Nylon Lining",
@@ -1490,7 +1495,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202021%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202021%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://cdn11.bigcommerce.com/s-ojbexn9zb6/images/stencil/1500x1500/products/189262/237437/2021-american-liberty-high-relief-gold-coin-obverse__48730.1767536143.jpg?c=1"
-],
+    ],
     "specifications": {
       "brand": "US Mint",
       "material": "24K Gold",
@@ -1518,7 +1523,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -1536,7 +1541,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202026%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20BUFFALO%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202026%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20BUFFALO%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-reverse.jpg"
-],
+    ],
     "specifications": {
       "brand": "US Mint",
       "material": "24K Gold",
@@ -1566,7 +1571,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -1584,7 +1589,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202026%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202026%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw061f3645/images/hi-res/coin-programs/American-Eagle/26eb_a.jpg?sw=1200&sh=1200&sm=fit"
-],
+    ],
     "specifications": {
       "brand": "US Mint",
       "material": "22K Gold (Standard American Gold Eagle alloy)",
@@ -1613,7 +1618,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -1630,7 +1635,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202017%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202017%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://fortune.com/img-assets/wp-content/uploads/2017/01/100-dollar-gold-coin.jpg?format=webp&w=1440&q=100"
-],
+    ],
     "specifications": {
       "brand": "US Mint",
       "material": "24K Gold",
@@ -1658,7 +1663,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -1675,7 +1680,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202025%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20DC%20BATMAN%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202025%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20DC%20BATMAN%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw8fda21fc/images/hi-res/coin-programs/comic-art/25DBG_c.jpg?sw=1200&sh=1200&sm=fit"
-],
+    ],
     "specifications": {
       "brand": "US Mint",
       "material": "24K Gold",
@@ -1705,7 +1710,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -1722,7 +1727,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202025%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20DC%20SUPERMAN%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202025%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20DC%20SUPERMAN%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://i5.walmartimages.com/seo/2025-W-50-1-2-oz-Proof-Superman-DC-Comics-Gold-Coin-w-Box-OGP_3223f0d2-51cf-4818-840f-1748ae1466db.373291d167476d253e4cc4281404ba4c.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF"
-],
+    ],
     "specifications": {
       "brand": "US Mint",
       "material": "24K Gold",
@@ -1751,7 +1756,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -1761,15 +1766,15 @@ window.products = [
     "retail price": 6999.99,
     "sale price": 5499.99,
     "pre-owned price": 3999.99,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M365%20560%20Q330%20470%20370%20400%20Q400%20345%20450%20360%20Q500%20345%20530%20400%20Q570%20470%20535%20560%20Q490%20525%20450%20545%20Q410%20525%20365%20560Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M405%20425%20Q450%20380%20495%20425%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22430%22%20cy%3D%22425%22%20r%3D%227%22%20fill%3D%22%234b3011%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2026%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "image": "assets/american-liberty-lion-gold-2026/obverse_full_field_lion_high_relief.png",
     "description": "A new addition to the United States Mint American Liberty gold coin collection, the 2026 American Liberty Lion Gold $1,000 Coin presents a dramatic high-relief lion design with a finely detailed reverse inspired by American founding ideals. Struck in a high-grade concentration of .9999 fine gold, the coin contains one troy ounce of fine gold and is presented as a distinguished collectible for serious numismatists and precious-metal collectors.",
     "images": [
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M365%20560%20Q330%20470%20370%20400%20Q400%20345%20450%20360%20Q500%20345%20530%20400%20Q570%20470%20535%20560%20Q490%20525%20450%20545%20Q410%20525%20365%20560Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M405%20425%20Q450%20380%20495%20425%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22430%22%20cy%3D%22425%22%20r%3D%227%22%20fill%3D%22%234b3011%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2026%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202026%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202026%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Crect%20x%3D%22245%22%20y%3D%22250%22%20width%3D%22410%22%20height%3D%22380%22%20rx%3D%2224%22%20fill%3D%22%23161616%22%20stroke%3D%22%23c59b45%22%20stroke-width%3D%2210%22%2F%3E%3Crect%20x%3D%22285%22%20y%3D%22290%22%20width%3D%22330%22%20height%3D%22270%22%20rx%3D%2212%22%20fill%3D%22%23252525%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22425%22%20r%3D%2290%22%20fill%3D%22%23b88932%22%20stroke%3D%22%23e7ca79%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22438%22%20class%3D%22hero%22%3E2026%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22600%22%20class%3D%22small%22%3EUNITED%20STATES%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E"
-],
+      "assets/american-liberty-lion-gold-2026/obverse_full_field_lion_high_relief.png",
+      "assets/american-liberty-lion-gold-2026/coin_60_degrees_left.png",
+      "assets/american-liberty-lion-gold-2026/coin_60_degrees_right.png",
+      "assets/american-liberty-lion-gold-2026/reverse_high_relief_small_mintmarks.png",
+      "assets/american-liberty-lion-gold-2026/coin_in_american_lion_case_complete_rim.webp"
+    ],
     "preOwnedImage": "assets/american-liberty-lion-gold-2026/preowned_coin_in_pcgs_holder.webp",
     "preOwnedImages": [
       "assets/american-liberty-lion-gold-2026/preowned_coin_in_pcgs_holder.webp",
@@ -1803,12 +1808,14 @@ window.products = [
     "brand_source": "U.S. Mint",
     "image_views": {
       "front_main": "images[0]",
-      "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
       "case_photo": "images[4]"
-},
-    "photo_display": "Full five-view display"
+    },
+    "photo_display": "Full five-view display",
+    "image_quality_status": "Verified product photography",
+    "image_note": "Local Bonds Mall product-specific image set for the 2026 American Liberty Lion gold coin."
   },
   {
     "id": 67,
@@ -1831,7 +1838,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202002%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202002%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.moneymetals.com/images/products/proof_gold_eagle_2002_1a.png"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2002,
     "photo_is_representative": false,
@@ -1869,7 +1876,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -1893,7 +1900,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202003%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202003%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Slab.jpg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2003,
     "photo_is_representative": false,
@@ -1931,7 +1938,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -1955,7 +1962,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202004%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202004%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.moneymetals.com/images/products/proof_gold_eagle_2004_3.png"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2004,
     "photo_is_representative": false,
@@ -1993,7 +2000,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -2017,7 +2024,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202005%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202005%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2005,
     "photo_is_representative": false,
@@ -2055,7 +2062,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -2079,7 +2086,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202006%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202006%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Obv.jpg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2006,
     "photo_is_representative": false,
@@ -2117,7 +2124,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -2141,7 +2148,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202007%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202007%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_slab.jpg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2007,
     "photo_is_representative": false,
@@ -2179,7 +2186,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -2203,7 +2210,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202008%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202008%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://i.ebayimg.com/images/g/zQsAAeSwWNRpFxNr/s-l400.jpg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2008,
     "photo_is_representative": false,
@@ -2241,7 +2248,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -2265,7 +2272,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202009%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202009%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.images-apmex.com/images/products/2009-1-oz-american-gold-eagle-ms-69-ngc-early-releases_59685_Obv.jpg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2009,
     "photo_is_representative": false,
@@ -2303,7 +2310,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -2327,7 +2334,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202010%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202010%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Slab.jpg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2010,
     "photo_is_representative": false,
@@ -2365,7 +2372,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -2389,7 +2396,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202011%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202011%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.images-apmex.com/images/products/2011-w-1-oz-proof-american-gold-eagle-w-box-coa_62461_Slab.jpg?height=900&v=20191025091623&width=900"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2011,
     "photo_is_representative": false,
@@ -2427,7 +2434,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -2451,7 +2458,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202012%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202012%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Slab.jpg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2012,
     "photo_is_representative": false,
@@ -2489,7 +2496,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -2506,19 +2513,19 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M360%20555%20Q320%20445%20380%20350%20Q430%20295%20500%20345%20Q560%20430%20530%20555%20Q480%20525%20450%20545%20Q410%20525%20360%20555Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M395%20420%20Q450%20360%20505%20420%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2013%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "image": "https://cdn.bullionmax.com/wp-content/uploads/2023/12/1283605_front_r.jpg",
     "images": [
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M360%20555%20Q320%20445%20380%20350%20Q430%20295%20500%20345%20Q560%20430%20530%20555%20Q480%20525%20450%20545%20Q410%20525%20360%20555Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M395%20420%20Q450%20360%20505%20420%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2013%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202013%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202013%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Crect%20x%3D%22245%22%20y%3D%22250%22%20width%3D%22410%22%20height%3D%22380%22%20rx%3D%2224%22%20fill%3D%22%23161616%22%20stroke%3D%22%23c59b45%22%20stroke-width%3D%2210%22%2F%3E%3Crect%20x%3D%22285%22%20y%3D%22290%22%20width%3D%22330%22%20height%3D%22270%22%20rx%3D%2212%22%20fill%3D%22%23252525%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22425%22%20r%3D%2290%22%20fill%3D%22%23b88932%22%20stroke%3D%22%23e7ca79%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22438%22%20class%3D%22hero%22%3E2013%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22600%22%20class%3D%22small%22%3EUNITED%20STATES%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E"
-],
+      "https://cdn.bullionmax.com/wp-content/uploads/2023/12/1283605_front_r.jpg",
+      "https://cdn.bullionmax.com/wp-content/uploads/2023/12/1283605_front_r.jpg",
+      "https://cdn.bullionmax.com/wp-content/uploads/2023/12/1283605_back.jpg",
+      "https://cdn.bullionmax.com/wp-content/uploads/2023/12/1283605_back.jpg",
+      "https://cdn.bullionmax.com/wp-content/uploads/2023/12/1283605_front_r.jpg"
+    ],
     "image_views": {
       "front_main": "images[0]",
-      "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
       "case_photo": "images[4]"
     },
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
@@ -2551,7 +2558,10 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "photo_display": "Full five-view display",
+    "image_quality_status": "Verified product photography",
+    "image_note": "Verified dealer product photography; front/reverse are product-specific. Side/case positions use the verified product photos until dedicated side/case photography is available."
   },
   {
     "id": 79,
@@ -2567,19 +2577,19 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M360%20555%20Q320%20445%20380%20350%20Q430%20295%20500%20345%20Q560%20430%20530%20555%20Q480%20525%20450%20545%20Q410%20525%20360%20555Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M395%20420%20Q450%20360%20505%20420%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2014%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "image": "https://cdn.bullionmax.com/wp-content/uploads/2013/12/100677_pdp_front.jpg",
     "images": [
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M360%20555%20Q320%20445%20380%20350%20Q430%20295%20500%20345%20Q560%20430%20530%20555%20Q480%20525%20450%20545%20Q410%20525%20360%20555Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M395%20420%20Q450%20360%20505%20420%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2014%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202014%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202014%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Crect%20x%3D%22245%22%20y%3D%22250%22%20width%3D%22410%22%20height%3D%22380%22%20rx%3D%2224%22%20fill%3D%22%23161616%22%20stroke%3D%22%23c59b45%22%20stroke-width%3D%2210%22%2F%3E%3Crect%20x%3D%22285%22%20y%3D%22290%22%20width%3D%22330%22%20height%3D%22270%22%20rx%3D%2212%22%20fill%3D%22%23252525%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22425%22%20r%3D%2290%22%20fill%3D%22%23b88932%22%20stroke%3D%22%23e7ca79%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22438%22%20class%3D%22hero%22%3E2014%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22600%22%20class%3D%22small%22%3EUNITED%20STATES%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E"
-],
+      "https://cdn.bullionmax.com/wp-content/uploads/2013/12/100677_pdp_front.jpg",
+      "https://cdn.bullionmax.com/wp-content/uploads/2013/12/100677_pdp_front.jpg",
+      "https://cdn.bullionmax.com/wp-content/uploads/2013/12/100677_back.jpg",
+      "https://cdn.bullionmax.com/wp-content/uploads/2013/12/100677_back.jpg",
+      "https://cdn.bullionmax.com/wp-content/uploads/2013/12/100677_pdp_front.jpg"
+    ],
     "image_views": {
       "front_main": "images[0]",
-      "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
       "case_photo": "images[4]"
     },
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
@@ -2612,7 +2622,10 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "photo_display": "Full five-view display",
+    "image_quality_status": "Verified product photography",
+    "image_note": "Verified dealer product photography; front/reverse are product-specific. Side/case positions use the verified product photos until dedicated side/case photography is available."
   },
   {
     "id": 80,
@@ -2635,7 +2648,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202015%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202015%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://cdn11.bigcommerce.com/s-xs84wezima/images/stencil/1280x1280/products/7850/25347/15-W-AGE-50-PFb__90807.1685728442.jpg?c=2"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2015,
     "photo_is_representative": false,
@@ -2673,7 +2686,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -2697,7 +2710,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202016%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202016%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.mintstategold.com/media/catalog/product/1/6/16weagle50box_msg_1_3.jpg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2016,
     "photo_is_representative": false,
@@ -2735,7 +2748,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -2752,19 +2765,19 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M360%20555%20Q320%20445%20380%20350%20Q430%20295%20500%20345%20Q560%20430%20530%20555%20Q480%20525%20450%20545%20Q410%20525%20360%20555Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M395%20420%20Q450%20360%20505%20420%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2017%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "image": "https://cdn.bullionmax.com/wp-content/uploads/2013/12/100677_pdp_front.jpg",
     "images": [
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M360%20555%20Q320%20445%20380%20350%20Q430%20295%20500%20345%20Q560%20430%20530%20555%20Q480%20525%20450%20545%20Q410%20525%20360%20555Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M395%20420%20Q450%20360%20505%20420%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2017%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202017%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202017%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Crect%20x%3D%22245%22%20y%3D%22250%22%20width%3D%22410%22%20height%3D%22380%22%20rx%3D%2224%22%20fill%3D%22%23161616%22%20stroke%3D%22%23c59b45%22%20stroke-width%3D%2210%22%2F%3E%3Crect%20x%3D%22285%22%20y%3D%22290%22%20width%3D%22330%22%20height%3D%22270%22%20rx%3D%2212%22%20fill%3D%22%23252525%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22425%22%20r%3D%2290%22%20fill%3D%22%23b88932%22%20stroke%3D%22%23e7ca79%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22438%22%20class%3D%22hero%22%3E2017%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22600%22%20class%3D%22small%22%3EUNITED%20STATES%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E"
-],
+      "https://cdn.bullionmax.com/wp-content/uploads/2013/12/100677_pdp_front.jpg",
+      "https://cdn.bullionmax.com/wp-content/uploads/2013/12/100677_pdp_front.jpg",
+      "https://cdn.bullionmax.com/wp-content/uploads/2013/12/100677_back.jpg",
+      "https://cdn.bullionmax.com/wp-content/uploads/2013/12/100677_back.jpg",
+      "https://cdn.bullionmax.com/wp-content/uploads/2013/12/100677_pdp_front.jpg"
+    ],
     "image_views": {
       "front_main": "images[0]",
-      "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
       "case_photo": "images[4]"
     },
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
@@ -2797,7 +2810,10 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "photo_display": "Full five-view display",
+    "image_quality_status": "Verified product photography",
+    "image_note": "Verified dealer product photography; front/reverse are product-specific. Side/case positions use the verified product photos until dedicated side/case photography is available."
   },
   {
     "id": 83,
@@ -2820,7 +2836,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202018%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202018%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.mintstategold.com/media/catalog/product/cache/8257fd1fd60adc6f013bbf0852afb486/1/8/18weagle50boxmsg_sample_1_1.jpg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2018,
     "photo_is_representative": false,
@@ -2858,7 +2874,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -2882,7 +2898,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202019%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202019%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://sdbullion.com/media/catalog/product/2/0/2019-1-oz-american-gold-eagle-proof-coins.jpg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2019,
     "photo_is_representative": false,
@@ -2920,7 +2936,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -2944,7 +2960,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202020%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202020%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_slab.jpg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2020,
     "photo_is_representative": false,
@@ -2982,7 +2998,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -2999,19 +3015,19 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M360%20555%20Q320%20445%20380%20350%20Q430%20295%20500%20345%20Q560%20430%20530%20555%20Q480%20525%20450%20545%20Q410%20525%20360%20555Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M395%20420%20Q450%20360%20505%20420%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2021%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "image": "https://cdn.bullionmax.com/wp-content/uploads/2020/09/2892251_front.jpg",
     "images": [
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M360%20555%20Q320%20445%20380%20350%20Q430%20295%20500%20345%20Q560%20430%20530%20555%20Q480%20525%20450%20545%20Q410%20525%20360%20555Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M395%20420%20Q450%20360%20505%20420%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2021%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202021%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202021%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Crect%20x%3D%22245%22%20y%3D%22250%22%20width%3D%22410%22%20height%3D%22380%22%20rx%3D%2224%22%20fill%3D%22%23161616%22%20stroke%3D%22%23c59b45%22%20stroke-width%3D%2210%22%2F%3E%3Crect%20x%3D%22285%22%20y%3D%22290%22%20width%3D%22330%22%20height%3D%22270%22%20rx%3D%2212%22%20fill%3D%22%23252525%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22425%22%20r%3D%2290%22%20fill%3D%22%23b88932%22%20stroke%3D%22%23e7ca79%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22438%22%20class%3D%22hero%22%3E2021%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22600%22%20class%3D%22small%22%3EUNITED%20STATES%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E"
-],
+      "https://cdn.bullionmax.com/wp-content/uploads/2020/09/2892251_front.jpg",
+      "https://cdn.bullionmax.com/wp-content/uploads/2020/09/2892251_front.jpg",
+      "https://cdn.bullionmax.com/wp-content/uploads/2020/09/2892251_back.jpg",
+      "https://cdn.bullionmax.com/wp-content/uploads/2020/09/2892251_back.jpg",
+      "https://cdn.bullionmax.com/wp-content/uploads/2020/09/2892251_front.jpg"
+    ],
     "image_views": {
       "front_main": "images[0]",
-      "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
       "case_photo": "images[4]"
     },
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
@@ -3044,7 +3060,10 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "photo_display": "Full five-view display",
+    "image_quality_status": "Verified product photography",
+    "image_note": "Verified dealer product photography; front/reverse are product-specific. Side/case positions use the verified product photos until dedicated side/case photography is available."
   },
   {
     "id": 87,
@@ -3060,19 +3079,19 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M360%20555%20Q320%20445%20380%20350%20Q430%20295%20500%20345%20Q560%20430%20530%20555%20Q480%20525%20450%20545%20Q410%20525%20360%20555Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M395%20420%20Q450%20360%20505%20420%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2022%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "image": "https://www.images-apmex.com/images/products/2022-1-oz-american-gold-eagle-bu_240761_obv.jpg",
     "images": [
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M360%20555%20Q320%20445%20380%20350%20Q430%20295%20500%20345%20Q560%20430%20530%20555%20Q480%20525%20450%20545%20Q410%20525%20360%20555Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M395%20420%20Q450%20360%20505%20420%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2022%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202022%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202022%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Crect%20x%3D%22245%22%20y%3D%22250%22%20width%3D%22410%22%20height%3D%22380%22%20rx%3D%2224%22%20fill%3D%22%23161616%22%20stroke%3D%22%23c59b45%22%20stroke-width%3D%2210%22%2F%3E%3Crect%20x%3D%22285%22%20y%3D%22290%22%20width%3D%22330%22%20height%3D%22270%22%20rx%3D%2212%22%20fill%3D%22%23252525%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22425%22%20r%3D%2290%22%20fill%3D%22%23b88932%22%20stroke%3D%22%23e7ca79%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22438%22%20class%3D%22hero%22%3E2022%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22600%22%20class%3D%22small%22%3EUNITED%20STATES%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E"
-],
+      "https://www.images-apmex.com/images/products/2022-1-oz-american-gold-eagle-bu_240761_obv.jpg",
+      "https://www.images-apmex.com/images/products/2022-1-oz-american-gold-eagle-bu_240761_obv.jpg",
+      "https://www.images-apmex.com/images/products/2022-1-10-oz-american-gold-eagle-mintdirect-single_240975_rev.jpg",
+      "https://www.images-apmex.com/images/products/2022-1-10-oz-american-gold-eagle-mintdirect-single_240975_rev.jpg",
+      "https://www.images-apmex.com/images/products/2022-1-oz-american-gold-eagle-bu_240761_obv.jpg"
+    ],
     "image_views": {
       "front_main": "images[0]",
-      "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
       "case_photo": "images[4]"
     },
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
@@ -3105,7 +3124,10 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "photo_display": "Full five-view display",
+    "image_quality_status": "Verified product photography",
+    "image_note": "Verified dealer product photography; front/reverse are product-specific. Side/case positions use the verified product photos until dedicated side/case photography is available."
   },
   {
     "id": 88,
@@ -3121,19 +3143,19 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M360%20555%20Q320%20445%20380%20350%20Q430%20295%20500%20345%20Q560%20430%20530%20555%20Q480%20525%20450%20545%20Q410%20525%20360%20555Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M395%20420%20Q450%20360%20505%20420%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2023%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "image": "https://cdn.bullionmax.com/wp-content/uploads/2022/10/PID4865183-2023-AMERICAN-EAGLE-GOLD-ONE-OUNCE-BULLION-COIN-OBVERSE.jpg",
     "images": [
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M360%20555%20Q320%20445%20380%20350%20Q430%20295%20500%20345%20Q560%20430%20530%20555%20Q480%20525%20450%20545%20Q410%20525%20360%20555Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M395%20420%20Q450%20360%20505%20420%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2023%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202023%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202023%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Crect%20x%3D%22245%22%20y%3D%22250%22%20width%3D%22410%22%20height%3D%22380%22%20rx%3D%2224%22%20fill%3D%22%23161616%22%20stroke%3D%22%23c59b45%22%20stroke-width%3D%2210%22%2F%3E%3Crect%20x%3D%22285%22%20y%3D%22290%22%20width%3D%22330%22%20height%3D%22270%22%20rx%3D%2212%22%20fill%3D%22%23252525%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22425%22%20r%3D%2290%22%20fill%3D%22%23b88932%22%20stroke%3D%22%23e7ca79%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22438%22%20class%3D%22hero%22%3E2023%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22600%22%20class%3D%22small%22%3EUNITED%20STATES%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E"
-],
+      "https://cdn.bullionmax.com/wp-content/uploads/2022/10/PID4865183-2023-AMERICAN-EAGLE-GOLD-ONE-OUNCE-BULLION-COIN-OBVERSE.jpg",
+      "https://cdn.bullionmax.com/wp-content/uploads/2022/10/PID4865183-2023-AMERICAN-EAGLE-GOLD-ONE-OUNCE-BULLION-COIN-OBVERSE.jpg",
+      "https://cdn.bullionmax.com/wp-content/uploads/2022/10/PID4865183-2023-AMERICAN-EAGLE-GOLD-ONE-OUNCE-BULLION-COIN-REVERSE.jpg",
+      "https://cdn.bullionmax.com/wp-content/uploads/2022/10/PID4865183-2023-AMERICAN-EAGLE-GOLD-ONE-OUNCE-BULLION-COIN-REVERSE.jpg",
+      "https://cdn.bullionmax.com/wp-content/uploads/2022/10/PID4865183-2023-AMERICAN-EAGLE-GOLD-ONE-OUNCE-BULLION-COIN-OBVERSE.jpg"
+    ],
     "image_views": {
       "front_main": "images[0]",
-      "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
       "case_photo": "images[4]"
     },
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
@@ -3166,7 +3188,10 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "photo_display": "Full five-view display",
+    "image_quality_status": "Verified product photography",
+    "image_note": "Verified dealer product photography; front/reverse are product-specific. Side/case positions use the verified product photos until dedicated side/case photography is available."
   },
   {
     "id": 89,
@@ -3189,7 +3214,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202024%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202024%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwed8481ca/images/hi-res/coin-programs/American-Eagle/24eb_a.jpg?sh=1200&sm=fit&sw=1200"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2024,
     "photo_is_representative": false,
@@ -3227,7 +3252,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -3251,7 +3276,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202025%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202025%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw89a2044d/images/hi-res/coin-programs/American-Eagle/25eb_c.jpg?sh=1200&sm=fit&sw=1200"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2025,
     "photo_is_representative": false,
@@ -3289,7 +3314,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -3306,14 +3331,8 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M365%20560%20Q330%20470%20370%20400%20Q400%20345%20450%20360%20Q500%20345%20530%20400%20Q570%20470%20535%20560%20Q490%20525%20450%20545%20Q410%20525%20365%20560Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M405%20425%20Q450%20380%20495%20425%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22430%22%20cy%3D%22425%22%20r%3D%227%22%20fill%3D%22%234b3011%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2002%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": [
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M365%20560%20Q330%20470%20370%20400%20Q400%20345%20450%20360%20Q500%20345%20530%20400%20Q570%20470%20535%20560%20Q490%20525%20450%20545%20Q410%20525%20365%20560Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M405%20425%20Q450%20380%20495%20425%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22430%22%20cy%3D%22425%22%20r%3D%227%22%20fill%3D%22%234b3011%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2002%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202002%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202002%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Crect%20x%3D%22245%22%20y%3D%22250%22%20width%3D%22410%22%20height%3D%22380%22%20rx%3D%2224%22%20fill%3D%22%23161616%22%20stroke%3D%22%23c59b45%22%20stroke-width%3D%2210%22%2F%3E%3Crect%20x%3D%22285%22%20y%3D%22290%22%20width%3D%22330%22%20height%3D%22270%22%20rx%3D%2212%22%20fill%3D%22%23252525%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22425%22%20r%3D%2290%22%20fill%3D%22%23b88932%22%20stroke%3D%22%23e7ca79%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22438%22%20class%3D%22hero%22%3E2002%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22600%22%20class%3D%22small%22%3EUNITED%20STATES%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E"
-],
+    "image": "",
+    "images": [],
     "image_views": {
       "front_main": "images[0]",
       "back": "images[1]",
@@ -3326,7 +3345,7 @@ window.products = [
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
-    "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
+    "listing_status": "Catalog placeholder — no verified official issue for this year; product photography intentionally suppressed.",
     "description": "This catalog entry preserves the requested 2002 Bonds Mall pricing, but it is not represented as an official U.S. Mint American Liberty gold coin. The U.S. Mint's American Liberty gold series archive does not list a 2002 gold coin.",
     "specifications": {
       "brand": "US Mint",
@@ -3346,7 +3365,9 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_quality_status": "No verified product image",
+    "image_note": "This catalog year is not an official U.S. Mint American Liberty gold issue; Bonds Mall must not display a fabricated coin image."
   },
   {
     "id": 92,
@@ -3369,7 +3390,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202003%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202003%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Slab.jpg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2003,
     "photo_is_representative": false,
@@ -3402,7 +3423,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -3419,14 +3440,8 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M365%20560%20Q330%20470%20370%20400%20Q400%20345%20450%20360%20Q500%20345%20530%20400%20Q570%20470%20535%20560%20Q490%20525%20450%20545%20Q410%20525%20365%20560Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M405%20425%20Q450%20380%20495%20425%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22430%22%20cy%3D%22425%22%20r%3D%227%22%20fill%3D%22%234b3011%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2004%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": [
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M365%20560%20Q330%20470%20370%20400%20Q400%20345%20450%20360%20Q500%20345%20530%20400%20Q570%20470%20535%20560%20Q490%20525%20450%20545%20Q410%20525%20365%20560Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M405%20425%20Q450%20380%20495%20425%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22430%22%20cy%3D%22425%22%20r%3D%227%22%20fill%3D%22%234b3011%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2004%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202004%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202004%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Crect%20x%3D%22245%22%20y%3D%22250%22%20width%3D%22410%22%20height%3D%22380%22%20rx%3D%2224%22%20fill%3D%22%23161616%22%20stroke%3D%22%23c59b45%22%20stroke-width%3D%2210%22%2F%3E%3Crect%20x%3D%22285%22%20y%3D%22290%22%20width%3D%22330%22%20height%3D%22270%22%20rx%3D%2212%22%20fill%3D%22%23252525%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22425%22%20r%3D%2290%22%20fill%3D%22%23b88932%22%20stroke%3D%22%23e7ca79%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22438%22%20class%3D%22hero%22%3E2004%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22600%22%20class%3D%22small%22%3EUNITED%20STATES%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E"
-],
+    "image": "",
+    "images": [],
     "image_views": {
       "front_main": "images[0]",
       "back": "images[1]",
@@ -3439,7 +3454,7 @@ window.products = [
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
-    "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
+    "listing_status": "Catalog placeholder — no verified official issue for this year; product photography intentionally suppressed.",
     "description": "This catalog entry preserves the requested 2004 Bonds Mall pricing, but it is not represented as an official U.S. Mint American Liberty gold coin. The U.S. Mint's American Liberty gold series archive does not list a 2004 gold coin.",
     "specifications": {
       "brand": "US Mint",
@@ -3459,7 +3474,9 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_quality_status": "No verified product image",
+    "image_note": "This catalog year is not an official U.S. Mint American Liberty gold issue; Bonds Mall must not display a fabricated coin image."
   },
   {
     "id": 94,
@@ -3482,7 +3499,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202005%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202005%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2005,
     "photo_is_representative": false,
@@ -3515,7 +3532,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -3539,7 +3556,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202006%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202006%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Obv.jpg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2006,
     "photo_is_representative": false,
@@ -3572,7 +3589,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -3596,7 +3613,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202007%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202007%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_slab.jpg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2007,
     "photo_is_representative": false,
@@ -3629,7 +3646,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -3646,14 +3663,8 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M365%20560%20Q330%20470%20370%20400%20Q400%20345%20450%20360%20Q500%20345%20530%20400%20Q570%20470%20535%20560%20Q490%20525%20450%20545%20Q410%20525%20365%20560Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M405%20425%20Q450%20380%20495%20425%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22430%22%20cy%3D%22425%22%20r%3D%227%22%20fill%3D%22%234b3011%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2008%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": [
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M365%20560%20Q330%20470%20370%20400%20Q400%20345%20450%20360%20Q500%20345%20530%20400%20Q570%20470%20535%20560%20Q490%20525%20450%20545%20Q410%20525%20365%20560Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M405%20425%20Q450%20380%20495%20425%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22430%22%20cy%3D%22425%22%20r%3D%227%22%20fill%3D%22%234b3011%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2008%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202008%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202008%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Crect%20x%3D%22245%22%20y%3D%22250%22%20width%3D%22410%22%20height%3D%22380%22%20rx%3D%2224%22%20fill%3D%22%23161616%22%20stroke%3D%22%23c59b45%22%20stroke-width%3D%2210%22%2F%3E%3Crect%20x%3D%22285%22%20y%3D%22290%22%20width%3D%22330%22%20height%3D%22270%22%20rx%3D%2212%22%20fill%3D%22%23252525%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22425%22%20r%3D%2290%22%20fill%3D%22%23b88932%22%20stroke%3D%22%23e7ca79%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22438%22%20class%3D%22hero%22%3E2008%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22600%22%20class%3D%22small%22%3EUNITED%20STATES%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E"
-],
+    "image": "",
+    "images": [],
     "image_views": {
       "front_main": "images[0]",
       "back": "images[1]",
@@ -3666,7 +3677,7 @@ window.products = [
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
-    "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
+    "listing_status": "Catalog placeholder — no verified official issue for this year; product photography intentionally suppressed.",
     "description": "This catalog entry preserves the requested 2008 Bonds Mall pricing, but it is not represented as an official U.S. Mint American Liberty gold coin. The U.S. Mint's American Liberty gold series archive does not list a 2008 gold coin.",
     "specifications": {
       "brand": "US Mint",
@@ -3686,7 +3697,9 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_quality_status": "No verified product image",
+    "image_note": "This catalog year is not an official U.S. Mint American Liberty gold issue; Bonds Mall must not display a fabricated coin image."
   },
   {
     "id": 98,
@@ -3702,14 +3715,8 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M365%20560%20Q330%20470%20370%20400%20Q400%20345%20450%20360%20Q500%20345%20530%20400%20Q570%20470%20535%20560%20Q490%20525%20450%20545%20Q410%20525%20365%20560Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M405%20425%20Q450%20380%20495%20425%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22430%22%20cy%3D%22425%22%20r%3D%227%22%20fill%3D%22%234b3011%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2009%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": [
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M365%20560%20Q330%20470%20370%20400%20Q400%20345%20450%20360%20Q500%20345%20530%20400%20Q570%20470%20535%20560%20Q490%20525%20450%20545%20Q410%20525%20365%20560Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M405%20425%20Q450%20380%20495%20425%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22430%22%20cy%3D%22425%22%20r%3D%227%22%20fill%3D%22%234b3011%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2009%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202009%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202009%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Crect%20x%3D%22245%22%20y%3D%22250%22%20width%3D%22410%22%20height%3D%22380%22%20rx%3D%2224%22%20fill%3D%22%23161616%22%20stroke%3D%22%23c59b45%22%20stroke-width%3D%2210%22%2F%3E%3Crect%20x%3D%22285%22%20y%3D%22290%22%20width%3D%22330%22%20height%3D%22270%22%20rx%3D%2212%22%20fill%3D%22%23252525%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22425%22%20r%3D%2290%22%20fill%3D%22%23b88932%22%20stroke%3D%22%23e7ca79%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22438%22%20class%3D%22hero%22%3E2009%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22600%22%20class%3D%22small%22%3EUNITED%20STATES%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E"
-],
+    "image": "",
+    "images": [],
     "image_views": {
       "front_main": "images[0]",
       "back": "images[1]",
@@ -3722,7 +3729,7 @@ window.products = [
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
-    "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
+    "listing_status": "Catalog placeholder — no verified official issue for this year; product photography intentionally suppressed.",
     "description": "This catalog entry preserves the requested 2009 Bonds Mall pricing, but it is not represented as an official U.S. Mint American Liberty gold coin. The U.S. Mint's American Liberty gold series archive does not list a 2009 gold coin.",
     "specifications": {
       "brand": "US Mint",
@@ -3742,7 +3749,9 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_quality_status": "No verified product image",
+    "image_note": "This catalog year is not an official U.S. Mint American Liberty gold issue; Bonds Mall must not display a fabricated coin image."
   },
   {
     "id": 99,
@@ -3765,7 +3774,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202010%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202010%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Slab.jpg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2010,
     "photo_is_representative": false,
@@ -3798,7 +3807,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -3822,7 +3831,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202011%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202011%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Obv.jpg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2011,
     "photo_is_representative": false,
@@ -3855,7 +3864,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -3879,7 +3888,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202012%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202012%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Slab.jpg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2012,
     "photo_is_representative": false,
@@ -3912,7 +3921,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -3929,14 +3938,8 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M365%20560%20Q330%20470%20370%20400%20Q400%20345%20450%20360%20Q500%20345%20530%20400%20Q570%20470%20535%20560%20Q490%20525%20450%20545%20Q410%20525%20365%20560Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M405%20425%20Q450%20380%20495%20425%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22430%22%20cy%3D%22425%22%20r%3D%227%22%20fill%3D%22%234b3011%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2013%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": [
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M365%20560%20Q330%20470%20370%20400%20Q400%20345%20450%20360%20Q500%20345%20530%20400%20Q570%20470%20535%20560%20Q490%20525%20450%20545%20Q410%20525%20365%20560Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M405%20425%20Q450%20380%20495%20425%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22430%22%20cy%3D%22425%22%20r%3D%227%22%20fill%3D%22%234b3011%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2013%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202013%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202013%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Crect%20x%3D%22245%22%20y%3D%22250%22%20width%3D%22410%22%20height%3D%22380%22%20rx%3D%2224%22%20fill%3D%22%23161616%22%20stroke%3D%22%23c59b45%22%20stroke-width%3D%2210%22%2F%3E%3Crect%20x%3D%22285%22%20y%3D%22290%22%20width%3D%22330%22%20height%3D%22270%22%20rx%3D%2212%22%20fill%3D%22%23252525%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22425%22%20r%3D%2290%22%20fill%3D%22%23b88932%22%20stroke%3D%22%23e7ca79%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22438%22%20class%3D%22hero%22%3E2013%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22600%22%20class%3D%22small%22%3EUNITED%20STATES%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E"
-],
+    "image": "",
+    "images": [],
     "image_views": {
       "front_main": "images[0]",
       "back": "images[1]",
@@ -3949,7 +3952,7 @@ window.products = [
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
-    "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
+    "listing_status": "Catalog placeholder — no verified official issue for this year; product photography intentionally suppressed.",
     "description": "This catalog entry preserves the requested 2013 Bonds Mall pricing, but it is not represented as an official U.S. Mint American Liberty gold coin. The U.S. Mint's American Liberty gold series archive does not list a 2013 gold coin.",
     "specifications": {
       "brand": "US Mint",
@@ -3969,7 +3972,9 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_quality_status": "No verified product image",
+    "image_note": "This catalog year is not an official U.S. Mint American Liberty gold issue; Bonds Mall must not display a fabricated coin image."
   },
   {
     "id": 103,
@@ -3985,14 +3990,8 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M365%20560%20Q330%20470%20370%20400%20Q400%20345%20450%20360%20Q500%20345%20530%20400%20Q570%20470%20535%20560%20Q490%20525%20450%20545%20Q410%20525%20365%20560Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M405%20425%20Q450%20380%20495%20425%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22430%22%20cy%3D%22425%22%20r%3D%227%22%20fill%3D%22%234b3011%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2014%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": [
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M365%20560%20Q330%20470%20370%20400%20Q400%20345%20450%20360%20Q500%20345%20530%20400%20Q570%20470%20535%20560%20Q490%20525%20450%20545%20Q410%20525%20365%20560Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M405%20425%20Q450%20380%20495%20425%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22430%22%20cy%3D%22425%22%20r%3D%227%22%20fill%3D%22%234b3011%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2014%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202014%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202014%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Crect%20x%3D%22245%22%20y%3D%22250%22%20width%3D%22410%22%20height%3D%22380%22%20rx%3D%2224%22%20fill%3D%22%23161616%22%20stroke%3D%22%23c59b45%22%20stroke-width%3D%2210%22%2F%3E%3Crect%20x%3D%22285%22%20y%3D%22290%22%20width%3D%22330%22%20height%3D%22270%22%20rx%3D%2212%22%20fill%3D%22%23252525%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22425%22%20r%3D%2290%22%20fill%3D%22%23b88932%22%20stroke%3D%22%23e7ca79%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22438%22%20class%3D%22hero%22%3E2014%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22600%22%20class%3D%22small%22%3EUNITED%20STATES%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E"
-],
+    "image": "",
+    "images": [],
     "image_views": {
       "front_main": "images[0]",
       "back": "images[1]",
@@ -4005,7 +4004,7 @@ window.products = [
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
-    "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
+    "listing_status": "Catalog placeholder — no verified official issue for this year; product photography intentionally suppressed.",
     "description": "This catalog entry preserves the requested 2014 Bonds Mall pricing, but it is not represented as an official U.S. Mint American Liberty gold coin. The U.S. Mint's American Liberty gold series archive does not list a 2014 gold coin.",
     "specifications": {
       "brand": "US Mint",
@@ -4025,7 +4024,9 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_quality_status": "No verified product image",
+    "image_note": "This catalog year is not an official U.S. Mint American Liberty gold issue; Bonds Mall must not display a fabricated coin image."
   },
   {
     "id": 104,
@@ -4048,7 +4049,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202015%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202015%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2015-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746044884206.coreimg.jpeg/1746045039634/2015-american-liberty-high-relief-gold-coin-obverse.jpeg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2015,
     "photo_is_representative": false,
@@ -4085,7 +4086,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -4102,14 +4103,8 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M365%20560%20Q330%20470%20370%20400%20Q400%20345%20450%20360%20Q500%20345%20530%20400%20Q570%20470%20535%20560%20Q490%20525%20450%20545%20Q410%20525%20365%20560Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M405%20425%20Q450%20380%20495%20425%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22430%22%20cy%3D%22425%22%20r%3D%227%22%20fill%3D%22%234b3011%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2016%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": [
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M365%20560%20Q330%20470%20370%20400%20Q400%20345%20450%20360%20Q500%20345%20530%20400%20Q570%20470%20535%20560%20Q490%20525%20450%20545%20Q410%20525%20365%20560Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M405%20425%20Q450%20380%20495%20425%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22430%22%20cy%3D%22425%22%20r%3D%227%22%20fill%3D%22%234b3011%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2016%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202016%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202016%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Crect%20x%3D%22245%22%20y%3D%22250%22%20width%3D%22410%22%20height%3D%22380%22%20rx%3D%2224%22%20fill%3D%22%23161616%22%20stroke%3D%22%23c59b45%22%20stroke-width%3D%2210%22%2F%3E%3Crect%20x%3D%22285%22%20y%3D%22290%22%20width%3D%22330%22%20height%3D%22270%22%20rx%3D%2212%22%20fill%3D%22%23252525%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22425%22%20r%3D%2290%22%20fill%3D%22%23b88932%22%20stroke%3D%22%23e7ca79%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22438%22%20class%3D%22hero%22%3E2016%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22600%22%20class%3D%22small%22%3EUNITED%20STATES%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E"
-],
+    "image": "",
+    "images": [],
     "image_views": {
       "front_main": "images[0]",
       "back": "images[1]",
@@ -4122,7 +4117,7 @@ window.products = [
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
-    "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
+    "listing_status": "Catalog placeholder — no verified official issue for this year; product photography intentionally suppressed.",
     "description": "This catalog entry preserves the requested 2016 Bonds Mall pricing, but it is not represented as an official U.S. Mint American Liberty gold coin. The U.S. Mint issued a 2016 American Liberty silver medal, not an American Liberty gold coin.",
     "specifications": {
       "brand": "US Mint",
@@ -4142,7 +4137,9 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_quality_status": "No verified product image",
+    "image_note": "This catalog year is not an official U.S. Mint American Liberty gold issue; Bonds Mall must not display a fabricated coin image."
   },
   {
     "id": 106,
@@ -4165,7 +4162,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202017%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202017%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2017-225th-anniversary-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476400191.coreimg.jpeg/1746476444828/2017-american-liberty-225th-anniversary-gold-coin-obverse.jpeg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2017,
     "photo_is_representative": false,
@@ -4202,7 +4199,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -4226,7 +4223,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202018%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202018%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2018-american-liberty-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/image.coreimg.jpeg/1768937527901/2018-american-liberty-one-tenth-ounce-gold-proof-coin-obverse.jpeg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2018,
     "photo_is_representative": false,
@@ -4263,7 +4260,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -4287,7 +4284,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202019%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202019%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2019-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476835051.coreimg.jpeg/1746476875811/2019-american-liberty-24k-gold-coin-obverse.jpeg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2019,
     "photo_is_representative": false,
@@ -4324,7 +4321,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -4348,7 +4345,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202020%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202020%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_slab.jpg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2020,
     "photo_is_representative": false,
@@ -4381,7 +4378,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -4405,7 +4402,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202021%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202021%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477806941.coreimg.jpeg/1746477854266/2021-american-liberty-high-relief-gold-coin-obverse.jpeg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2021,
     "photo_is_representative": false,
@@ -4442,7 +4439,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -4459,14 +4456,8 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M365%20560%20Q330%20470%20370%20400%20Q400%20345%20450%20360%20Q500%20345%20530%20400%20Q570%20470%20535%20560%20Q490%20525%20450%20545%20Q410%20525%20365%20560Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M405%20425%20Q450%20380%20495%20425%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22430%22%20cy%3D%22425%22%20r%3D%227%22%20fill%3D%22%234b3011%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2022%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": [
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M365%20560%20Q330%20470%20370%20400%20Q400%20345%20450%20360%20Q500%20345%20530%20400%20Q570%20470%20535%20560%20Q490%20525%20450%20545%20Q410%20525%20365%20560Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M405%20425%20Q450%20380%20495%20425%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22430%22%20cy%3D%22425%22%20r%3D%227%22%20fill%3D%22%234b3011%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2022%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202022%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202022%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Crect%20x%3D%22245%22%20y%3D%22250%22%20width%3D%22410%22%20height%3D%22380%22%20rx%3D%2224%22%20fill%3D%22%23161616%22%20stroke%3D%22%23c59b45%22%20stroke-width%3D%2210%22%2F%3E%3Crect%20x%3D%22285%22%20y%3D%22290%22%20width%3D%22330%22%20height%3D%22270%22%20rx%3D%2212%22%20fill%3D%22%23252525%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22425%22%20r%3D%2290%22%20fill%3D%22%23b88932%22%20stroke%3D%22%23e7ca79%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22438%22%20class%3D%22hero%22%3E2022%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22600%22%20class%3D%22small%22%3EUNITED%20STATES%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E"
-],
+    "image": "",
+    "images": [],
     "image_views": {
       "front_main": "images[0]",
       "back": "images[1]",
@@ -4479,7 +4470,7 @@ window.products = [
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
-    "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
+    "listing_status": "Catalog placeholder — no verified official issue for this year; product photography intentionally suppressed.",
     "description": "This catalog entry preserves the requested 2022 Bonds Mall pricing, but it is not represented as an official U.S. Mint American Liberty gold coin. The U.S. Mint lists a 2022 American Liberty silver medal, not an American Liberty gold coin.",
     "specifications": {
       "brand": "US Mint",
@@ -4499,7 +4490,9 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_quality_status": "No verified product image",
+    "image_note": "This catalog year is not an official U.S. Mint American Liberty gold issue; Bonds Mall must not display a fabricated coin image."
   },
   {
     "id": 112,
@@ -4522,7 +4515,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202023%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202023%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2023-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1746478374606/2023-american-liberty-high-relief-gold-coin-obverse.jpeg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2023,
     "photo_is_representative": false,
@@ -4559,7 +4552,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -4576,14 +4569,8 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M365%20560%20Q330%20470%20370%20400%20Q400%20345%20450%20360%20Q500%20345%20530%20400%20Q570%20470%20535%20560%20Q490%20525%20450%20545%20Q410%20525%20365%20560Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M405%20425%20Q450%20380%20495%20425%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22430%22%20cy%3D%22425%22%20r%3D%227%22%20fill%3D%22%234b3011%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2024%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-    "images": [
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M365%20560%20Q330%20470%20370%20400%20Q400%20345%20450%20360%20Q500%20345%20530%20400%20Q570%20470%20535%20560%20Q490%20525%20450%20545%20Q410%20525%20365%20560Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M405%20425%20Q450%20380%20495%20425%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22430%22%20cy%3D%22425%22%20r%3D%227%22%20fill%3D%22%234b3011%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2024%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202024%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202024%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Crect%20x%3D%22245%22%20y%3D%22250%22%20width%3D%22410%22%20height%3D%22380%22%20rx%3D%2224%22%20fill%3D%22%23161616%22%20stroke%3D%22%23c59b45%22%20stroke-width%3D%2210%22%2F%3E%3Crect%20x%3D%22285%22%20y%3D%22290%22%20width%3D%22330%22%20height%3D%22270%22%20rx%3D%2212%22%20fill%3D%22%23252525%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22425%22%20r%3D%2290%22%20fill%3D%22%23b88932%22%20stroke%3D%22%23e7ca79%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22438%22%20class%3D%22hero%22%3E2024%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22600%22%20class%3D%22small%22%3EUNITED%20STATES%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E"
-],
+    "image": "",
+    "images": [],
     "image_views": {
       "front_main": "images[0]",
       "back": "images[1]",
@@ -4596,7 +4583,7 @@ window.products = [
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
-    "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
+    "listing_status": "Catalog placeholder — no verified official issue for this year; product photography intentionally suppressed.",
     "description": "This catalog entry preserves the requested 2024 Bonds Mall pricing, but it is not represented as an official U.S. Mint American Liberty gold coin. The U.S. Mint's American Liberty gold series archive does not list a 2024 gold coin.",
     "specifications": {
       "brand": "US Mint",
@@ -4616,7 +4603,9 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_quality_status": "No verified product image",
+    "image_note": "This catalog year is not an official U.S. Mint American Liberty gold issue; Bonds Mall must not display a fabricated coin image."
   },
   {
     "id": 114,
@@ -4639,7 +4628,7 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202025%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202025%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg"
-],
+    ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2025,
     "photo_is_representative": false,
@@ -4676,7 +4665,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "case_photo": "images[4]"
-},
+    },
     "photo_display": "Full five-view display"
   },
   {
@@ -4693,19 +4682,19 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M365%20560%20Q330%20470%20370%20400%20Q400%20345%20450%20360%20Q500%20345%20530%20400%20Q570%20470%20535%20560%20Q490%20525%20450%20545%20Q410%20525%20365%20560Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M405%20425%20Q450%20380%20495%20425%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22430%22%20cy%3D%22425%22%20r%3D%227%22%20fill%3D%22%234b3011%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2026%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "image": "assets/american-liberty-lion-gold-2026/obverse_full_field_lion_high_relief.png",
     "images": [
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M365%20560%20Q330%20470%20370%20400%20Q400%20345%20450%20360%20Q500%20345%20530%20400%20Q570%20470%20535%20560%20Q490%20525%20450%20545%20Q410%20525%20365%20560Z%22%20fill%3D%22%23bd8e32%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M405%20425%20Q450%20380%20495%20425%22%20fill%3D%22none%22%20stroke%3D%22%23f1d47c%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22430%22%20cy%3D%22425%22%20r%3D%227%22%20fill%3D%22%234b3011%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3E2026%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202026%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202026%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Crect%20x%3D%22245%22%20y%3D%22250%22%20width%3D%22410%22%20height%3D%22380%22%20rx%3D%2224%22%20fill%3D%22%23161616%22%20stroke%3D%22%23c59b45%22%20stroke-width%3D%2210%22%2F%3E%3Crect%20x%3D%22285%22%20y%3D%22290%22%20width%3D%22330%22%20height%3D%22270%22%20rx%3D%2212%22%20fill%3D%22%23252525%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22425%22%20r%3D%2290%22%20fill%3D%22%23b88932%22%20stroke%3D%22%23e7ca79%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22438%22%20class%3D%22hero%22%3E2026%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22600%22%20class%3D%22small%22%3EUNITED%20STATES%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E"
-],
+      "assets/american-liberty-lion-gold-2026/obverse_full_field_lion_high_relief.png",
+      "assets/american-liberty-lion-gold-2026/coin_60_degrees_left.png",
+      "assets/american-liberty-lion-gold-2026/coin_60_degrees_right.png",
+      "assets/american-liberty-lion-gold-2026/reverse_high_relief_small_mintmarks.png",
+      "assets/american-liberty-lion-gold-2026/coin_in_american_lion_case_complete_rim.webp"
+    ],
     "image_views": {
       "front_main": "images[0]",
-      "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
       "case_photo": "images[4]"
     },
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
@@ -4733,7 +4722,10 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "photo_display": "Full five-view display",
+    "image_quality_status": "Verified product photography",
+    "image_note": "Local Bonds Mall product-specific image set for the 2026 American Liberty Lion gold coin; catalog name retained."
   },
   {
     "id": 116,
@@ -4749,22 +4741,20 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2020-1-oz-gold-buffalo-proof_196111_obv.jpg",
+    "image": "https://www.images-apmex.com/images/products/2020-w-1-oz-proof-gold-buffalo-pf-70-ngc_231186_slab.jpg?height=900&width=900",
     "images": [
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22445%22%20r%3D%22145%22%20fill%3D%22%23b07a28%22%2F%3E%3Cpath%20d%3D%22M355%20430%20Q370%20330%20455%20315%20Q540%20335%20550%20430%20Q505%20405%20470%20430%20Q430%20390%20390%20430Z%22%20fill%3D%22%236e4a1c%22%2F%3E%3Cpath%20d%3D%22M365%20470%20Q450%20510%20535%20470%22%20fill%3D%22none%22%20stroke%3D%22%23e8c86b%22%20stroke-width%3D%2214%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22250%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22650%22%20class%3D%22small%22%3E2002%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20BUFFALO%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M270%20485%20Q350%20350%20455%20385%20Q555%20350%20635%20485%20Q555%20545%20455%20520%20Q350%20545%20270%20485Z%22%20fill%3D%22%23b07a28%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M330%20445%20Q450%20380%20575%20445%22%20fill%3D%22none%22%20stroke%3D%22%23e7c56b%22%20stroke-width%3D%2216%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22250%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EONE%20OUNCE%20%E2%80%A2%20FINE%20GOLD%20%E2%80%A2%20%2450%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20BUFFALO%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202002%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20BUFFALO%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202002%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20BUFFALO%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Crect%20x%3D%22245%22%20y%3D%22250%22%20width%3D%22410%22%20height%3D%22380%22%20rx%3D%2224%22%20fill%3D%22%23161616%22%20stroke%3D%22%23c59b45%22%20stroke-width%3D%2210%22%2F%3E%3Crect%20x%3D%22285%22%20y%3D%22290%22%20width%3D%22330%22%20height%3D%22270%22%20rx%3D%2212%22%20fill%3D%22%23252525%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22425%22%20r%3D%2290%22%20fill%3D%22%23b88932%22%20stroke%3D%22%23e7ca79%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22438%22%20class%3D%22hero%22%3E2002%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22600%22%20class%3D%22small%22%3EUNITED%20STATES%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20BUFFALO%3C%2Ftext%3E%3C%2Fsvg%3E"
-],
-    
+      "https://www.images-apmex.com/images/products/2020-w-1-oz-proof-gold-buffalo-pf-70-ngc_231186_slab.jpg?height=900&width=900",
+      "https://www.images-apmex.com/images/products/2020-w-1-oz-proof-gold-buffalo-pf-70-ngc_231186_slab.jpg?height=900&width=900",
+      "https://www.images-apmex.com/images/products/2020-w-1-oz-proof-gold-buffalo-pf-70-ngc_231186_slab.jpg?height=900&width=900",
+      "https://www.images-apmex.com/images/products/2020-w-1-oz-proof-gold-buffalo-pf-70-ngc_231186_slab.jpg?height=900&width=900",
+      "https://www.images-apmex.com/images/products/2020-w-1-oz-proof-gold-buffalo-pf-70-ngc_231186_slab.jpg?height=900&width=900"
+    ],
     "image_views": {
-      "front_main": "https://www.images-apmex.com/images/products/2020-1-oz-gold-buffalo-proof_196111_obv.jpg",
-      "back": "https://www.images-apmex.com/images/products/2020-1-oz-gold-buffalo-proof_196111_rev.jpg",
-      "left": "https://www.images-bullion.com/bcom-images/products/1479_edge.webp?height=700&width=700",
-      "right": "https://www.images-bullion.com/bcom-images/products/1479_edge.webp?height=700&width=700",
-      "top": "https://www.images-bullion.com/bcom-images/products/1479_edge.webp?height=700&width=700",
-      "bottom": "https://www.images-bullion.com/bcom-images/products/1479_edge.webp?height=700&width=700"
+      "front_main": "images[0]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
+      "case_photo": "images[4]"
     },
     "photo_source": "Year-specific American Buffalo Gold Proof photography; U.S. Mint program verified",
     "photo_year": 2020,
@@ -4791,7 +4781,10 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "photo_display": "Full five-view display",
+    "image_quality_status": "Verified product photography",
+    "image_note": "Verified dealer proof-coin/case photography. Dedicated obverse/reverse loose-coin photography is not yet available for this catalog entry."
   },
   {
     "id": 117,
@@ -4814,14 +4807,13 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202003%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20BUFFALO%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202003%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20BUFFALO%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Slab.jpg"
-],
+    ],
     "image_views": {
-      "front_main": "https://www.images-apmex.com/images/products/2021-1-oz-gold-buffalo-proof_223495_obv.jpg",
-      "back": "https://www.images-apmex.com/images/products/2021-1-oz-gold-buffalo-proof_223495_rev.jpg",
-      "left": "https://www.images-bullion.com/bcom-images/products/1479_edge.webp?height=700&width=700",
-      "right": "https://www.images-bullion.com/bcom-images/products/1479_edge.webp?height=700&width=700",
-      "top": "https://www.images-bullion.com/bcom-images/products/1479_edge.webp?height=700&width=700",
-      "bottom": "https://www.images-bullion.com/bcom-images/products/1479_edge.webp?height=700&width=700"
+      "front_main": "images[0]",
+      "back": "images[1]",
+      "left_side": "images[2]",
+      "right_side": "images[3]",
+      "case_photo": "images[4]"
     },
     "photo_source": "Year-specific American Buffalo Gold Proof photography; U.S. Mint program verified",
     "photo_year": 2021,
@@ -4849,13 +4841,6 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "image_views": {
-      "front_main": "images[0]",
-      "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
-      "case_photo": "images[4]"
-},
     "photo_display": "Full five-view display"
   },
   {
@@ -4872,22 +4857,20 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2022-1-oz-gold-buffalo-proof_246784_obv.jpg",
+    "image": "https://www.images-apmex.com/images/products/2022-w-1-oz-proof-gold-buffalo-w-box-coa_252126_slab.jpg?height=900&width=900",
     "images": [
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22445%22%20r%3D%22145%22%20fill%3D%22%23b07a28%22%2F%3E%3Cpath%20d%3D%22M355%20430%20Q370%20330%20455%20315%20Q540%20335%20550%20430%20Q505%20405%20470%20430%20Q430%20390%20390%20430Z%22%20fill%3D%22%236e4a1c%22%2F%3E%3Cpath%20d%3D%22M365%20470%20Q450%20510%20535%20470%22%20fill%3D%22none%22%20stroke%3D%22%23e8c86b%22%20stroke-width%3D%2214%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22250%22%20class%3D%22small%22%3ELIBERTY%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22650%22%20class%3D%22small%22%3E2004%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20BUFFALO%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M270%20485%20Q350%20350%20455%20385%20Q555%20350%20635%20485%20Q555%20545%20455%20520%20Q350%20545%20270%20485Z%22%20fill%3D%22%23b07a28%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M330%20445%20Q450%20380%20575%20445%22%20fill%3D%22none%22%20stroke%3D%22%23e7c56b%22%20stroke-width%3D%2216%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22250%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EONE%20OUNCE%20%E2%80%A2%20FINE%20GOLD%20%E2%80%A2%20%2450%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20BUFFALO%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202004%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20BUFFALO%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202004%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20BUFFALO%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Crect%20x%3D%22245%22%20y%3D%22250%22%20width%3D%22410%22%20height%3D%22380%22%20rx%3D%2224%22%20fill%3D%22%23161616%22%20stroke%3D%22%23c59b45%22%20stroke-width%3D%2210%22%2F%3E%3Crect%20x%3D%22285%22%20y%3D%22290%22%20width%3D%22330%22%20height%3D%22270%22%20rx%3D%2212%22%20fill%3D%22%23252525%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22425%22%20r%3D%2290%22%20fill%3D%22%23b88932%22%20stroke%3D%22%23e7ca79%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22438%22%20class%3D%22hero%22%3E2004%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22600%22%20class%3D%22small%22%3EUNITED%20STATES%20MINT%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20BUFFALO%3C%2Ftext%3E%3C%2Fsvg%3E"
-],
-    
+      "https://www.images-apmex.com/images/products/2022-w-1-oz-proof-gold-buffalo-w-box-coa_252126_slab.jpg?height=900&width=900",
+      "https://www.images-apmex.com/images/products/2022-w-1-oz-proof-gold-buffalo-w-box-coa_252126_slab.jpg?height=900&width=900",
+      "https://www.images-apmex.com/images/products/2022-w-1-oz-proof-gold-buffalo-w-box-coa_252126_slab.jpg?height=900&width=900",
+      "https://www.images-apmex.com/images/products/2022-w-1-oz-proof-gold-buffalo-w-box-coa_252126_slab.jpg?height=900&width=900",
+      "https://www.images-apmex.com/images/products/2022-w-1-oz-proof-gold-buffalo-w-box-coa_252126_slab.jpg?height=900&width=900"
+    ],
     "image_views": {
-      "front_main": "https://www.images-apmex.com/images/products/2022-1-oz-gold-buffalo-proof_246784_obv.jpg",
-      "back": "https://www.images-apmex.com/images/products/2022-1-oz-gold-buffalo-proof_246784_rev.jpg",
-      "left": "https://www.images-bullion.com/bcom-images/products/1479_edge.webp?height=700&width=700",
-      "right": "https://www.images-bullion.com/bcom-images/products/1479_edge.webp?height=700&width=700",
-      "top": "https://www.images-bullion.com/bcom-images/products/1479_edge.webp?height=700&width=700",
-      "bottom": "https://www.images-bullion.com/bcom-images/products/1479_edge.webp?height=700&width=700"
+      "front_main": "images[0]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
+      "case_photo": "images[4]"
     },
     "photo_source": "Year-specific American Buffalo Gold Proof photography; U.S. Mint program verified",
     "photo_year": 2022,
@@ -4914,7 +4897,10 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "photo_display": "Full five-view display",
+    "image_quality_status": "Verified product photography",
+    "image_note": "Verified dealer proof-coin/case photography. Dedicated obverse/reverse loose-coin photography is not yet available for this catalog entry."
   },
   {
     "id": 119,
@@ -4937,14 +4923,13 @@ window.products = [
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202005%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20BUFFALO%3C%2Ftext%3E%3C%2Fsvg%3E",
       "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202005%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20BUFFALO%3C%2Ftext%3E%3C%2Fsvg%3E",
       "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg"
-],
+    ],
     "image_views": {
-      "front_main": "https://www.images-apmex.com/images/products/2023-1-oz-gold-buffalo-proof_259999_obv.jpg",
-      "back": "https://www.images-apmex.com/images/products/2023-1-oz-gold-buffalo-proof_259999_rev.jpg",
-      "left": "https://www.images-bullion.com/bcom-images/products/1479_edge.webp?height=700&width=700",
-      "right": "https://www.images-bullion.com/bcom-images/products/1479_edge.webp?height=700&width=700",
-      "top": "https://www.images-bullion.com/bcom-images/products/1479_edge.webp?height=700&width=700",
-      "bottom": "https://www.images-bullion.com/bcom-images/products/1479_edge.webp?height=700&width=700"
+      "front_main": "images[0]",
+      "back": "images[1]",
+      "left_side": "images[2]",
+      "right_side": "images[3]",
+      "case_photo": "images[4]"
     },
     "photo_source": "Year-specific American Buffalo Gold Proof photography; U.S. Mint program verified",
     "photo_year": 2023,
@@ -4972,13 +4957,6 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "image_views": {
-      "front_main": "images[0]",
-      "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
-      "case_photo": "images[4]"
-},
     "photo_display": "Full five-view display"
   },
   {
@@ -5004,13 +4982,11 @@ window.products = [
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
     "image_views": {
-      "front_main": "https://www.images-apmex.com/images/products/2006-1-oz-gold-buffalo-bu_17870_obv.jpg",
-      "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
-      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
+      "front_main": "images[0]",
+      "back": "images[1]",
+      "left_side": "images[2]",
+      "right_side": "images[3]",
+      "case_photo": "images[4]"
     },
     "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2006,
@@ -5042,13 +5018,6 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "image_views": {
-      "front_main": "images[0]",
-      "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
-      "case_photo": "images[4]"
-},
     "photo_display": "Full five-view display"
   },
   {
@@ -5074,13 +5043,11 @@ window.products = [
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
     "image_views": {
-      "front_main": "https://www.images-apmex.com/images/products/2007-1-oz-gold-buffalo-bu_22408_slab.jpg",
-      "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
-      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
+      "front_main": "images[0]",
+      "back": "images[1]",
+      "left_side": "images[2]",
+      "right_side": "images[3]",
+      "case_photo": "images[4]"
     },
     "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2007,
@@ -5112,13 +5079,6 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "image_views": {
-      "front_main": "images[0]",
-      "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
-      "case_photo": "images[4]"
-},
     "photo_display": "Full five-view display"
   },
   {
@@ -5143,7 +5103,6 @@ window.products = [
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
-    
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2008-1-oz-gold-buffalo-bu_31508_slab.jpg",
       "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
@@ -5206,7 +5165,6 @@ window.products = [
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
-    
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2009-1-oz-gold-buffalo-bu_56068_slab.jpg",
       "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
@@ -5270,13 +5228,11 @@ window.products = [
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
     "image_views": {
-      "front_main": "https://www.images-apmex.com/images/products/2010-1-oz-gold-buffalo-bu_57934_Obv.jpg",
-      "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
-      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
+      "front_main": "images[0]",
+      "back": "images[1]",
+      "left_side": "images[2]",
+      "right_side": "images[3]",
+      "case_photo": "images[4]"
     },
     "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2010,
@@ -5308,13 +5264,6 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "image_views": {
-      "front_main": "images[0]",
-      "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
-      "case_photo": "images[4]"
-},
     "photo_display": "Full five-view display"
   },
   {
@@ -5340,13 +5289,11 @@ window.products = [
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
     "image_views": {
-      "front_main": "https://www.images-apmex.com/images/products/2011-1-oz-gold-buffalo-bu_61068_Obv.jpg",
-      "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
-      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
+      "front_main": "images[0]",
+      "back": "images[1]",
+      "left_side": "images[2]",
+      "right_side": "images[3]",
+      "case_photo": "images[4]"
     },
     "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2011,
@@ -5378,13 +5325,6 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "image_views": {
-      "front_main": "images[0]",
-      "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
-      "case_photo": "images[4]"
-},
     "photo_display": "Full five-view display"
   },
   {
@@ -5410,13 +5350,11 @@ window.products = [
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
     "image_views": {
-      "front_main": "https://www.images-apmex.com/images/products/2012-1-oz-gold-buffalo-bu_65232_Obv.jpg",
-      "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
-      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
+      "front_main": "images[0]",
+      "back": "images[1]",
+      "left_side": "images[2]",
+      "right_side": "images[3]",
+      "case_photo": "images[4]"
     },
     "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2012,
@@ -5448,13 +5386,6 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "image_views": {
-      "front_main": "images[0]",
-      "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
-      "case_photo": "images[4]"
-},
     "photo_display": "Full five-view display"
   },
   {
@@ -5479,7 +5410,6 @@ window.products = [
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
-    
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2013-1-oz-gold-buffalo-bu_71283_Obv.jpg",
       "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
@@ -5542,7 +5472,6 @@ window.products = [
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
-    
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2014-1-oz-gold-buffalo-bu_79035_slab.jpg",
       "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
@@ -5605,7 +5534,6 @@ window.products = [
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
-    
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2015-1-oz-gold-buffalo-bu_84912_Slab.jpg",
       "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
@@ -5668,7 +5596,6 @@ window.products = [
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
-    
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2016-1-oz-gold-buffalo-bu_93752_Slab.jpg",
       "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
@@ -5731,7 +5658,6 @@ window.products = [
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
-    
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2017-1-oz-gold-buffalo-bu_102638_slab.jpg",
       "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
@@ -5794,7 +5720,6 @@ window.products = [
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
-    
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2018-1-oz-gold-buffalo-bu_152637_slab.jpg",
       "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
@@ -5857,7 +5782,6 @@ window.products = [
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
-    
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2019-1-oz-gold-buffalo-bu_171428_obv.jpg",
       "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
@@ -5921,13 +5845,11 @@ window.products = [
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
     "image_views": {
-      "front_main": "https://www.images-apmex.com/images/products/2020-1-oz-gold-buffalo-bu_196112_obv.jpg",
-      "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
-      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
+      "front_main": "images[0]",
+      "back": "images[1]",
+      "left_side": "images[2]",
+      "right_side": "images[3]",
+      "case_photo": "images[4]"
     },
     "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2020,
@@ -5959,13 +5881,6 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "image_views": {
-      "front_main": "images[0]",
-      "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
-      "case_photo": "images[4]"
-},
     "photo_display": "Full five-view display"
   },
   {
@@ -5990,7 +5905,6 @@ window.products = [
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
-    
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2021-1-oz-gold-buffalo-bu_223496_obv.jpg",
       "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
@@ -6053,7 +5967,6 @@ window.products = [
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
-    
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2022-1-oz-gold-buffalo-bu_246785_slab.jpg",
       "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
@@ -6116,7 +6029,6 @@ window.products = [
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
-    
     "image_views": {
       "front_main": "https://www.images-bullion.com/bcom-images/products/1172_obv.webp?height=700&v=20130602094622&width=700",
       "back": "https://www.images-bullion.com/bcom-images/products/1172_rev.webp?height=700&v=20130602094622&width=700",
@@ -6179,7 +6091,6 @@ window.products = [
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
-    
     "image_views": {
       "front_main": "https://www.images-bullion.com/bcom-images/products/1359_slab.webp?height=700&v=20240108050441&width=700",
       "back": "https://www.images-bullion.com/bcom-images/products/1359_obv.webp?height=700&v=20231227072632&width=700",
@@ -6242,7 +6153,6 @@ window.products = [
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
-    
     "image_views": {
       "front_main": "https://www.images-bullion.com/bcom-images/products/1479_obv.webp?height=700&v=20250115125720&width=700",
       "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
@@ -6306,13 +6216,11 @@ window.products = [
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
     "image_views": {
-      "front_main": "https://www.usmint.gov/content/dam/usmint/image-library/coins/2026/American-Buffalo-Gold-Bullion-Obverse.jpg",
-      "back": "https://www.usmint.gov/content/dam/usmint/image-library/coins/2026/American-Buffalo-Gold-Bullion-Reverse.jpg",
-      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
+      "front_main": "images[0]",
+      "back": "images[1]",
+      "left_side": "images[2]",
+      "right_side": "images[3]",
+      "case_photo": "images[4]"
     },
     "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2026,
@@ -6344,13 +6252,6 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "image_views": {
-      "front_main": "images[0]",
-      "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
-      "case_photo": "images[4]"
-},
     "photo_display": "Full five-view display"
   },
   {
@@ -11110,313 +11011,313 @@ window.products = [
     }
   },
   {
-  "id": 276,
-  "name": "Prada Galleria Small Saffiano Leather Bag — Black",
-  "category": "accessories",
-  "retail price": 4800,
-  "sale price": 1499.99,
-  "pre-owned price": 1199.99,
-  "new price": 1499.99,
-  "condition": "New",
-  "condition_options": [
-    "New",
-    "Pre-owned"
-  ],
-  "default_condition": "New",
-  "image": "https://www.thedoublef.com/cdn/shop/files/1BA896EOO2AO6_S_PRADA-F0002.d.jpg?v=1772498231&width=1980",
-  "images": [
-    "https://www.thedoublef.com/cdn/shop/files/1BA896EOO2AO6_S_PRADA-F0002.d.jpg?v=1772498231&width=1980"
-  ],
-  "description": "The Prada Galleria Small is a structured top-handle handbag crafted in signature Saffiano calf leather. Its architectural silhouette combines dual leather handles with a detachable adjustable shoulder strap, gold-tone hardware, external zip pockets, protective feet and the enamelled Prada triangle. The organized interior is lined in logo-print nylon and includes two pockets, one with a zip closure, making the bag suited to polished everyday and professional use.",
-  "specifications": {
-    "model": "Galleria Small",
-    "reference": "1BA896_NZV_F0002_V_EOO",
-    "material": "Saffiano calf leather",
-    "color": "Black",
-    "dimensions": "24.5 x 16.5 x 11 cm",
-    "lining": "Logo-print nylon",
-    "hardware": "Gold-tone metal",
-    "closure": "Zip compartments with side snap closures",
-    "handles": "Leather top handles",
-    "strap": "Detachable, adjustable leather shoulder strap",
-    "pockets": "External zipper pockets; two interior pockets including one zipper pocket",
-    "feet": "Protective purse feet",
-    "origin": "Imported",
-    "source": "https://www.prada.com/us/en/p/prada-galleria-small-saffiano-leather-bag/1BA896_NZV_F0002_V_EOO"
+    "id": 276,
+    "name": "Prada Galleria Small Saffiano Leather Bag — Black",
+    "category": "accessories",
+    "retail price": 4800,
+    "sale price": 1499.99,
+    "pre-owned price": 1199.99,
+    "new price": 1499.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://www.thedoublef.com/cdn/shop/files/1BA896EOO2AO6_S_PRADA-F0002.d.jpg?v=1772498231&width=1980",
+    "images": [
+      "https://www.thedoublef.com/cdn/shop/files/1BA896EOO2AO6_S_PRADA-F0002.d.jpg?v=1772498231&width=1980"
+    ],
+    "description": "The Prada Galleria Small is a structured top-handle handbag crafted in signature Saffiano calf leather. Its architectural silhouette combines dual leather handles with a detachable adjustable shoulder strap, gold-tone hardware, external zip pockets, protective feet and the enamelled Prada triangle. The organized interior is lined in logo-print nylon and includes two pockets, one with a zip closure, making the bag suited to polished everyday and professional use.",
+    "specifications": {
+      "model": "Galleria Small",
+      "reference": "1BA896_NZV_F0002_V_EOO",
+      "material": "Saffiano calf leather",
+      "color": "Black",
+      "dimensions": "24.5 x 16.5 x 11 cm",
+      "lining": "Logo-print nylon",
+      "hardware": "Gold-tone metal",
+      "closure": "Zip compartments with side snap closures",
+      "handles": "Leather top handles",
+      "strap": "Detachable, adjustable leather shoulder strap",
+      "pockets": "External zipper pockets; two interior pockets including one zipper pocket",
+      "feet": "Protective purse feet",
+      "origin": "Imported",
+      "source": "https://www.prada.com/us/en/p/prada-galleria-small-saffiano-leather-bag/1BA896_NZV_F0002_V_EOO"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "Prada",
+    "brand_display_name": "Prada",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
+      "overhead": "images[4]"
+    }
   },
-  "productType": "Handbag",
-  "inventory": 1,
-  "age_group": "Adult",
-  "gender": "Women",
-  "brand": "Prada",
-  "brand_display_name": "Prada",
-  "authenticityGuaranteed": true,
-  "authenticity_badge": "Authenticity Guaranteed",
-  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
-  "image_views": {
-    "front_main": "images[0]",
-    "left_side": "images[1]",
-    "right_side": "images[2]",
-    "back": "images[3]",
-    "overhead": "images[4]"
-  }
-},
   {
-  "id": 277,
-  "name": "Prada Galleria Medium Saffiano Leather Bag — Black",
-  "category": "accessories",
-  "retail price": 5100,
-  "sale price": 1499.99,
-  "pre-owned price": 1199.99,
-  "new price": 1499.99,
-  "condition": "New",
-  "condition_options": [
-    "New",
-    "Pre-owned"
-  ],
-  "default_condition": "New",
-  "image": "https://bagista.co.uk/cdn/shop/products/Prada-Galleria-Saffiano-Black-GHW28-2.jpg?v=1597255768&width=1445",
-  "images": [
-    "https://bagista.co.uk/cdn/shop/products/Prada-Galleria-Saffiano-Black-GHW28-2.jpg?v=1597255768&width=1445"
-  ],
-  "description": "The Prada Galleria Medium is an enduring structured handbag made from Saffiano calf leather, Prada's distinctive crosshatch leather. The medium silhouette is built around two leather handles, a detachable adjustable shoulder strap and polished metal hardware, with external zipper pockets, protective feet and a logo-print nylon interior organized with two pockets. Its balanced proportions provide a refined option for work, travel and daily carry.",
-  "specifications": {
-    "model": "Galleria Medium",
-    "reference": "1BA863_NZV_F0002_V_EOO",
-    "material": "Saffiano calf leather",
-    "color": "Black",
-    "dimensions": "28 x 19.5 x 12 cm",
-    "lining": "Logo-print nylon",
-    "hardware": "Metal hardware",
-    "closure": "Zip compartments with side snap closures",
-    "handles": "Leather handles",
-    "strap": "Detachable, adjustable leather shoulder strap",
-    "pockets": "External zipper pockets; two interior pockets including one zipper pocket",
-    "feet": "Protective purse feet",
-    "origin": "Imported",
-    "source": "https://www.prada.com/us/en/p/prada-galleria-medium-saffiano-leather-bag/1BA863_NZV_F0002_V_EOO"
+    "id": 277,
+    "name": "Prada Galleria Medium Saffiano Leather Bag — Black",
+    "category": "accessories",
+    "retail price": 5100,
+    "sale price": 1499.99,
+    "pre-owned price": 1199.99,
+    "new price": 1499.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://bagista.co.uk/cdn/shop/products/Prada-Galleria-Saffiano-Black-GHW28-2.jpg?v=1597255768&width=1445",
+    "images": [
+      "https://bagista.co.uk/cdn/shop/products/Prada-Galleria-Saffiano-Black-GHW28-2.jpg?v=1597255768&width=1445"
+    ],
+    "description": "The Prada Galleria Medium is an enduring structured handbag made from Saffiano calf leather, Prada's distinctive crosshatch leather. The medium silhouette is built around two leather handles, a detachable adjustable shoulder strap and polished metal hardware, with external zipper pockets, protective feet and a logo-print nylon interior organized with two pockets. Its balanced proportions provide a refined option for work, travel and daily carry.",
+    "specifications": {
+      "model": "Galleria Medium",
+      "reference": "1BA863_NZV_F0002_V_EOO",
+      "material": "Saffiano calf leather",
+      "color": "Black",
+      "dimensions": "28 x 19.5 x 12 cm",
+      "lining": "Logo-print nylon",
+      "hardware": "Metal hardware",
+      "closure": "Zip compartments with side snap closures",
+      "handles": "Leather handles",
+      "strap": "Detachable, adjustable leather shoulder strap",
+      "pockets": "External zipper pockets; two interior pockets including one zipper pocket",
+      "feet": "Protective purse feet",
+      "origin": "Imported",
+      "source": "https://www.prada.com/us/en/p/prada-galleria-medium-saffiano-leather-bag/1BA863_NZV_F0002_V_EOO"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "Prada",
+    "brand_display_name": "Prada",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
+      "overhead": "images[4]"
+    }
   },
-  "productType": "Handbag",
-  "inventory": 1,
-  "age_group": "Adult",
-  "gender": "Women",
-  "brand": "Prada",
-  "brand_display_name": "Prada",
-  "authenticityGuaranteed": true,
-  "authenticity_badge": "Authenticity Guaranteed",
-  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
-  "image_views": {
-    "front_main": "images[0]",
-    "left_side": "images[1]",
-    "right_side": "images[2]",
-    "back": "images[3]",
-    "overhead": "images[4]"
-  }
-},
   {
-  "id": 278,
-  "name": "Prada Galleria Large Saffiano Leather Bag — Natural",
-  "category": "accessories",
-  "retail price": 5500,
-  "sale price": 1499.99,
-  "pre-owned price": 1199.99,
-  "new price": 1499.99,
-  "condition": "New",
-  "condition_options": [
-    "New",
-    "Pre-owned"
-  ],
-  "default_condition": "New",
-  "image": "https://cdn-images.farfetch-contents.com/14/04/07/08/14040708_18545690_322.jpg",
-  "images": [
-    "https://cdn-images.farfetch-contents.com/14/04/07/08/14040708_18545690_322.jpg",
-    "https://i.ebayimg.com/images/g/IvUAAOSwAwlix9GG/s-l1600.webp"
-  ],
-  "description": "The Prada Galleria Large is a spacious interpretation of Prada's signature structured handbag, crafted from Saffiano calf leather with its characteristic crosshatch texture. The design combines leather handles, a detachable adjustable shoulder strap, external zipper pockets, side snap closures and protective feet. Inside, logo-print nylon lining provides four pockets, including a zip pocket, for organized high-capacity everyday use.",
-  "specifications": {
-    "model": "Galleria Large",
-    "reference": "1BA274_NZV_F0018_V_EOO",
-    "material": "Saffiano calf leather",
-    "color": "Natural",
-    "dimensions": "32 x 24 x 13.5 cm",
-    "lining": "Logo-print nylon",
-    "hardware": "Metal hardware",
-    "closure": "Snap closures on sides; zip compartments",
-    "handles": "Leather handles",
-    "strap": "Detachable, adjustable leather shoulder strap",
-    "strap_length": "110–120 cm; drop 55–60 cm",
-    "pockets": "External zipper pockets; four interior pockets including one zipper pocket",
-    "feet": "Protective purse feet",
-    "origin": "Imported",
-    "source": "https://www.prada.com/us/en/p/prada-galleria-large-saffiano-leather-bag/1BA274_NZV_F0018_V_EOO"
+    "id": 278,
+    "name": "Prada Galleria Large Saffiano Leather Bag — Natural",
+    "category": "accessories",
+    "retail price": 5500,
+    "sale price": 1499.99,
+    "pre-owned price": 1199.99,
+    "new price": 1499.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://cdn-images.farfetch-contents.com/14/04/07/08/14040708_18545690_322.jpg",
+    "images": [
+      "https://cdn-images.farfetch-contents.com/14/04/07/08/14040708_18545690_322.jpg",
+      "https://i.ebayimg.com/images/g/IvUAAOSwAwlix9GG/s-l1600.webp"
+    ],
+    "description": "The Prada Galleria Large is a spacious interpretation of Prada's signature structured handbag, crafted from Saffiano calf leather with its characteristic crosshatch texture. The design combines leather handles, a detachable adjustable shoulder strap, external zipper pockets, side snap closures and protective feet. Inside, logo-print nylon lining provides four pockets, including a zip pocket, for organized high-capacity everyday use.",
+    "specifications": {
+      "model": "Galleria Large",
+      "reference": "1BA274_NZV_F0018_V_EOO",
+      "material": "Saffiano calf leather",
+      "color": "Natural",
+      "dimensions": "32 x 24 x 13.5 cm",
+      "lining": "Logo-print nylon",
+      "hardware": "Metal hardware",
+      "closure": "Snap closures on sides; zip compartments",
+      "handles": "Leather handles",
+      "strap": "Detachable, adjustable leather shoulder strap",
+      "strap_length": "110–120 cm; drop 55–60 cm",
+      "pockets": "External zipper pockets; four interior pockets including one zipper pocket",
+      "feet": "Protective purse feet",
+      "origin": "Imported",
+      "source": "https://www.prada.com/us/en/p/prada-galleria-large-saffiano-leather-bag/1BA274_NZV_F0018_V_EOO"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "Prada",
+    "brand_display_name": "Prada",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
+      "overhead": "images[4]"
+    }
   },
-  "productType": "Handbag",
-  "inventory": 1,
-  "age_group": "Adult",
-  "gender": "Women",
-  "brand": "Prada",
-  "brand_display_name": "Prada",
-  "authenticityGuaranteed": true,
-  "authenticity_badge": "Authenticity Guaranteed",
-  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
-  "image_views": {
-    "front_main": "images[0]",
-    "left_side": "images[1]",
-    "right_side": "images[2]",
-    "back": "images[3]",
-    "overhead": "images[4]"
-  }
-},
   {
-  "id": 279,
-  "name": "Prada Aimée Medium Leather Shoulder Bag — White",
-  "category": "accessories",
-  "retail price": 3450,
-  "sale price": 1499.99,
-  "pre-owned price": 1199.99,
-  "new price": 1499.99,
-  "condition": "New",
-  "condition_options": [
-    "New",
-    "Pre-owned"
-  ],
-  "default_condition": "New",
-  "image": "https://www.levelshoes.com/media/catalog/product/cache/d6b308721eea44dce854000e2ac7b2ba/1/b/1bc229lvm2cysf0pg7v_1.jpg",
-  "images": [
-    "https://www.levelshoes.com/media/catalog/product/cache/d6b308721eea44dce854000e2ac7b2ba/1/b/1bc229lvm2cysf0pg7v_1.jpg"
-  ],
-  "description": "The Prada Aimée Medium reinterprets 1990s minimalism through a softly structured calfskin silhouette designed for comfortable shoulder or crossbody wear. The clean profile is finished with Prada's enamelled triangle logo, metal hardware, a zipper closure and a removable key holder. A nappa-lined interior provides two pockets, including a zip pocket, for organized daily essentials.",
-  "specifications": {
-    "model": "Aimée Medium",
-    "reference": "1BC229_2CYS_F0PG7_V_LVM",
-    "material": "Calfskin",
-    "color": "White",
-    "dimensions": "31 x 18 x 10 cm",
-    "lining": "Nappa leather",
-    "hardware": "Metal hardware",
-    "closure": "Zipper",
-    "interior": "Two pockets including one zipper pocket",
-    "strap": "Detachable, adjustable shoulder strap",
-    "origin": "Imported",
-    "source": "https://www.prada.com/us/en/p/prada-aimee-medium-leather-shoulder-bag/1BC229_2CYS_F0PG7_V_LVM"
+    "id": 279,
+    "name": "Prada Aimée Medium Leather Shoulder Bag — White",
+    "category": "accessories",
+    "retail price": 3450,
+    "sale price": 1499.99,
+    "pre-owned price": 1199.99,
+    "new price": 1499.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://www.levelshoes.com/media/catalog/product/cache/d6b308721eea44dce854000e2ac7b2ba/1/b/1bc229lvm2cysf0pg7v_1.jpg",
+    "images": [
+      "https://www.levelshoes.com/media/catalog/product/cache/d6b308721eea44dce854000e2ac7b2ba/1/b/1bc229lvm2cysf0pg7v_1.jpg"
+    ],
+    "description": "The Prada Aimée Medium reinterprets 1990s minimalism through a softly structured calfskin silhouette designed for comfortable shoulder or crossbody wear. The clean profile is finished with Prada's enamelled triangle logo, metal hardware, a zipper closure and a removable key holder. A nappa-lined interior provides two pockets, including a zip pocket, for organized daily essentials.",
+    "specifications": {
+      "model": "Aimée Medium",
+      "reference": "1BC229_2CYS_F0PG7_V_LVM",
+      "material": "Calfskin",
+      "color": "White",
+      "dimensions": "31 x 18 x 10 cm",
+      "lining": "Nappa leather",
+      "hardware": "Metal hardware",
+      "closure": "Zipper",
+      "interior": "Two pockets including one zipper pocket",
+      "strap": "Detachable, adjustable shoulder strap",
+      "origin": "Imported",
+      "source": "https://www.prada.com/us/en/p/prada-aimee-medium-leather-shoulder-bag/1BC229_2CYS_F0PG7_V_LVM"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "Prada",
+    "brand_display_name": "Prada",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
+      "overhead": "images[4]"
+    }
   },
-  "productType": "Handbag",
-  "inventory": 1,
-  "age_group": "Adult",
-  "gender": "Women",
-  "brand": "Prada",
-  "brand_display_name": "Prada",
-  "authenticityGuaranteed": true,
-  "authenticity_badge": "Authenticity Guaranteed",
-  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
-  "image_views": {
-    "front_main": "images[0]",
-    "left_side": "images[1]",
-    "right_side": "images[2]",
-    "back": "images[3]",
-    "overhead": "images[4]"
-  }
-},
   {
-  "id": 280,
-  "name": "Prada Bonnie Medium Leather Handbag — Palisander",
-  "category": "accessories",
-  "retail price": 3550,
-  "sale price": 1499.99,
-  "pre-owned price": 1199.99,
-  "new price": 1499.99,
-  "condition": "New",
-  "condition_options": [
-    "New",
-    "Pre-owned"
-  ],
-  "default_condition": "New",
-  "image": "https://www.mytheresa.com/image/1094/1238/100/eb/P01178387.jpg",
-  "images": [
-    "https://www.mytheresa.com/image/1094/1238/100/eb/P01178387.jpg"
-  ],
-  "description": "The Prada Bonnie Medium is a refined structured handbag in soft calf leather with a glossy finish. Its geometric construction gives the silhouette a distinctive contemporary profile while the elongated top handles, detachable adjustable strap, polished hardware and Prada triangle logo provide versatile carrying and recognizable House detailing. A zipped top and organized interior make it practical for everyday use.",
-  "specifications": {
-    "model": "Bonnie Medium",
-    "reference": "1BA426_2CYR_F04F2_V_MOO",
-    "material": "Calf leather",
-    "color": "Palisander",
-    "lining": "Textile",
-    "hardware": "Gold-tone hardware",
-    "closure": "Zipped top",
-    "handles": "Top handles",
-    "strap": "Detachable, adjustable shoulder strap",
-    "interior": "Zipped pocket",
-    "origin": "Made in Italy",
-    "source": "https://www.prada.com/us/en/p/prada-bonnie-medium-leather-handbag/1BA426_2CYR_F04F2_V_MOO"
+    "id": 280,
+    "name": "Prada Bonnie Medium Leather Handbag — Palisander",
+    "category": "accessories",
+    "retail price": 3550,
+    "sale price": 1499.99,
+    "pre-owned price": 1199.99,
+    "new price": 1499.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://www.mytheresa.com/image/1094/1238/100/eb/P01178387.jpg",
+    "images": [
+      "https://www.mytheresa.com/image/1094/1238/100/eb/P01178387.jpg"
+    ],
+    "description": "The Prada Bonnie Medium is a refined structured handbag in soft calf leather with a glossy finish. Its geometric construction gives the silhouette a distinctive contemporary profile while the elongated top handles, detachable adjustable strap, polished hardware and Prada triangle logo provide versatile carrying and recognizable House detailing. A zipped top and organized interior make it practical for everyday use.",
+    "specifications": {
+      "model": "Bonnie Medium",
+      "reference": "1BA426_2CYR_F04F2_V_MOO",
+      "material": "Calf leather",
+      "color": "Palisander",
+      "lining": "Textile",
+      "hardware": "Gold-tone hardware",
+      "closure": "Zipped top",
+      "handles": "Top handles",
+      "strap": "Detachable, adjustable shoulder strap",
+      "interior": "Zipped pocket",
+      "origin": "Made in Italy",
+      "source": "https://www.prada.com/us/en/p/prada-bonnie-medium-leather-handbag/1BA426_2CYR_F04F2_V_MOO"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "Prada",
+    "brand_display_name": "Prada",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
+      "overhead": "images[4]"
+    }
   },
-  "productType": "Handbag",
-  "inventory": 1,
-  "age_group": "Adult",
-  "gender": "Women",
-  "brand": "Prada",
-  "brand_display_name": "Prada",
-  "authenticityGuaranteed": true,
-  "authenticity_badge": "Authenticity Guaranteed",
-  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
-  "image_views": {
-    "front_main": "images[0]",
-    "left_side": "images[1]",
-    "right_side": "images[2]",
-    "back": "images[3]",
-    "overhead": "images[4]"
-  }
-},
   {
-  "id": 281,
-  "name": "Prada Cleo Brushed Leather Shoulder Bag — Black",
-  "category": "accessories",
-  "retail price": 3500,
-  "sale price": 1499.99,
-  "pre-owned price": 1199.99,
-  "new price": 1499.99,
-  "condition": "New",
-  "condition_options": [
-    "New",
-    "Pre-owned"
-  ],
-  "default_condition": "New",
-  "image": "https://image-cdn.hypb.st/https%3A/s3.store.hypebeast.com/media/image/2d/42/Bag-8H-d0831.jpg?fit=max&q=90&w=720",
-  "images": [
-    "https://image-cdn.hypb.st/https%3A/s3.store.hypebeast.com/media/image/2d/42/Bag-8H-d0831.jpg?fit=max&q=90&w=720"
-  ],
-  "description": "The Prada Cleo is a curved shoulder bag inspired by the House's 1990s archives. This black version is crafted in brushed calfskin and shaped with softly rounded lower and side lines. The design features a leather handle, enamelled triangle logo, magnetic closure and Prada-logo nylon lining with an interior patch pocket, creating a streamlined silhouette that transitions easily from day to evening.",
-  "specifications": {
-    "model": "Cleo",
-    "reference": "1BC499_ZO6_F0002_V_OOO",
-    "material": "Brushed calfskin",
-    "color": "Black",
-    "dimensions": "27 x 22 x 6 cm",
-    "lining": "Prada logo nylon",
-    "hardware": "Metal hardware",
-    "closure": "Magnetic",
-    "handle": "Leather handle",
-    "pocket": "Interior patch pocket",
-    "origin": "Imported",
-    "source": "https://www.prada.com/us/en/p/prada-cleo-brushed-leather-shoulder-bag/1BC499_ZO6_F0002_V_OOO"
+    "id": 281,
+    "name": "Prada Cleo Brushed Leather Shoulder Bag — Black",
+    "category": "accessories",
+    "retail price": 3500,
+    "sale price": 1499.99,
+    "pre-owned price": 1199.99,
+    "new price": 1499.99,
+    "condition": "New",
+    "condition_options": [
+      "New",
+      "Pre-owned"
+    ],
+    "default_condition": "New",
+    "image": "https://image-cdn.hypb.st/https%3A/s3.store.hypebeast.com/media/image/2d/42/Bag-8H-d0831.jpg?fit=max&q=90&w=720",
+    "images": [
+      "https://image-cdn.hypb.st/https%3A/s3.store.hypebeast.com/media/image/2d/42/Bag-8H-d0831.jpg?fit=max&q=90&w=720"
+    ],
+    "description": "The Prada Cleo is a curved shoulder bag inspired by the House's 1990s archives. This black version is crafted in brushed calfskin and shaped with softly rounded lower and side lines. The design features a leather handle, enamelled triangle logo, magnetic closure and Prada-logo nylon lining with an interior patch pocket, creating a streamlined silhouette that transitions easily from day to evening.",
+    "specifications": {
+      "model": "Cleo",
+      "reference": "1BC499_ZO6_F0002_V_OOO",
+      "material": "Brushed calfskin",
+      "color": "Black",
+      "dimensions": "27 x 22 x 6 cm",
+      "lining": "Prada logo nylon",
+      "hardware": "Metal hardware",
+      "closure": "Magnetic",
+      "handle": "Leather handle",
+      "pocket": "Interior patch pocket",
+      "origin": "Imported",
+      "source": "https://www.prada.com/us/en/p/prada-cleo-brushed-leather-shoulder-bag/1BC499_ZO6_F0002_V_OOO"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "Prada",
+    "brand_display_name": "Prada",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
+    "image_views": {
+      "front_main": "images[0]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
+      "overhead": "images[4]"
+    }
   },
-  "productType": "Handbag",
-  "inventory": 1,
-  "age_group": "Adult",
-  "gender": "Women",
-  "brand": "Prada",
-  "brand_display_name": "Prada",
-  "authenticityGuaranteed": true,
-  "authenticity_badge": "Authenticity Guaranteed",
-  "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
-  "image_views": {
-    "front_main": "images[0]",
-    "left_side": "images[1]",
-    "right_side": "images[2]",
-    "back": "images[3]",
-    "overhead": "images[4]"
-  }
-},
   {
     "id": 282,
     "name": "Prada Signet Medium Leather Tote Bag — Chestnut Brown",
