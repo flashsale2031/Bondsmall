@@ -20,11 +20,20 @@ window.BondsGoldCoinImages = window.BondsGoldCoinImages || (() => {
         const material = String(product?.specifications?.material || "").toLowerCase();
         return type === "coin" && (/\bgold\b/.test(name) || /\bgold\b/.test(material) || /\b9999\b/.test(material));
     };
+    const resolveView = (product, value) => {
+        if (typeof value !== "string") return "";
+        const m = value.match(/^images\[(\d+)\]$/);
+        if (m && Array.isArray(product?.images)) return product.images[Number(m[1])] || "";
+        return value;
+    };
     const candidates = (product) => {
         const list = [];
         const push = (v) => {
             if (Array.isArray(v)) v.forEach(push);
-            else if (usable(v) && !list.includes(v)) list.push(v);
+            else {
+                const resolved = resolveView(product, v);
+                if (usable(resolved) && !list.includes(resolved)) list.push(resolved);
+            }
         };
         push(product?.image);
         push(product?.images);
@@ -70,13 +79,21 @@ window.BondsGoldCoinImages = window.BondsGoldCoinImages || (() => {
     function getGallery(product) {
         if (!isGoldCoin(product)) return { images: (product?.images || []).filter(Boolean), modes: [] };
         const source = candidates(product);
+        const views = product?.image_views && typeof product.image_views === "object" ? product.image_views : {};
+        const frontMapped = resolveView(product, views.front_main || views.front || "");
+        const backMapped = resolveView(product, views.back || views.reverse || "");
+        const leftMapped = resolveView(product, views.left_side || views.left || "");
+        const rightMapped = resolveView(product, views.right_side || views.right || "");
+        const caseMapped = resolveView(product, views.case_photo || views.case || views.packaging || "");
         const hadPlaceholder = (Array.isArray(product?.images) && product.images.some(placeholder)) || placeholder(product?.image);
-        if (!hadPlaceholder) return { images: (product?.images || []).filter(Boolean).slice(0, 8), modes: [] };
-        if (!source.length) return { images: [], modes: ["front","left","right","back","case"] };
-        const front = pick(source, /(?:_obv|_obverse|obverse)/i) || source[0];
-        const back = pick(source, /(?:_rev|_reverse|reverse)/i, front) || pairedReverse(front) || seriesReverse(product, front) || source.find((u) => u !== front) || front;
-        const casePhoto = pick(source, /(?:slab|case|box|coa|capsule|holder|packaging|presentation)/i, front) || source.find((u) => u !== front && u !== back) || front;
-        return { images: [front, front, back, back, casePhoto], modes: ["front","left","right","back","case"] };
+        const front = usable(frontMapped) ? frontMapped : pick(source, /(?:_obv|_obverse|obverse)/i) || source[0] || "";
+        const back = usable(backMapped) ? backMapped : pick(source, /(?:_rev|_reverse|reverse)/i, front) || pairedReverse(front) || seriesReverse(product, front) || source.find((u) => u !== front) || front;
+        const left = usable(leftMapped) ? leftMapped : front;
+        const right = usable(rightMapped) ? rightMapped : back;
+        const casePhoto = usable(caseMapped) ? caseMapped : pick(source, /(?:slab|case|box|coa|capsule|holder|packaging|presentation)/i, front) || source.find((u) => u !== front && u !== back) || front;
+        const hasExplicitViews = [frontMapped, leftMapped, rightMapped, backMapped, caseMapped].some(Boolean);
+        if (!hadPlaceholder && !hasExplicitViews) return { images: (product?.images || []).filter(usable).slice(0, 8), modes: [] };
+        return { images: [front, left, right, back, casePhoto].filter(Boolean), modes: ["front","left","right","back","case"].slice(0, [front,left,right,back,casePhoto].filter(Boolean).length) };
     }
     return { isGoldCoin, candidates, getPrimary, getGallery };
 })();
