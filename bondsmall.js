@@ -222,7 +222,8 @@
 
     function preloadVisibleImages(productsToRender) {
         productsToRender.slice(0, 8).forEach((product) => {
-            const optimized = optimizeGridImageUrl(product.image);
+            const primary = window.BondsGoldCoinImages && typeof window.BondsGoldCoinImages.getPrimary === "function" ? window.BondsGoldCoinImages.getPrimary(product) : product.image;
+            const optimized = optimizeGridImageUrl(primary);
             if (!optimized || preloadedImages.has(optimized)) {
                 return;
             }
@@ -766,7 +767,8 @@
         const luxuryBrands = ["dolce & gabbana", "louis vuitton", "yves saint laurent", "gucci", "prada", "hermes", "fendi", "chanel", "dior", "abercrombie & fitch", "bathing ape", "bathing apes", "michael kors", "rolex", "patek philippe", "marc jacobs", "us mint"];
 
         productGrid.innerHTML = pageProducts.map((product, index) => {
-            const imageSrc = optimizeGridImageUrl(product.image);
+            const primaryImage = window.BondsGoldCoinImages && typeof window.BondsGoldCoinImages.getPrimary === "function" ? window.BondsGoldCoinImages.getPrimary(product) : product.image;
+            const imageSrc = optimizeGridImageUrl(primaryImage);
             const favs = getFavorites();
             const isFav = favs.includes(product.id);
             const isLuxury = luxuryBrands.some(brand => (product.name || "").toLowerCase().includes(brand));
