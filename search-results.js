@@ -606,10 +606,16 @@
         if (target === currentPage) return;
         currentPage = target;
         writeUrlParams();
+        // Category pagination uses the request token so an earlier page load
+        // can never finish after a newer page selection and overwrite the grid.
+        if (categoryView && typeof window.BondsmallCatalog.ensureCategoryPage === "function") {
+            requestCategoryPage(target);
+            if (resultsGrid) resultsGrid.scrollIntoView({ behavior: "smooth", block: "start" });
+            return;
+        }
+
         const loading = window.BondsmallCatalog
-            ? (categoryView && typeof window.BondsmallCatalog.ensureCategoryPage === "function"
-                ? window.BondsmallCatalog.ensureCategoryPage(currentCategory, target, perPage)
-                : window.BondsmallCatalog.ensurePage(target, perPage))
+            ? window.BondsmallCatalog.ensurePage(target, perPage)
             : Promise.resolve();
         Promise.resolve(loading).then(() => {
             renderProducts();
