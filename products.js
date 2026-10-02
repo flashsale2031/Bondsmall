@@ -4986,9 +4986,22 @@ window.products = [
     "default_condition": "New",
     "image": "https://www.images-apmex.com/images/products/2006-1-oz-gold-buffalo-bu_17870_obv.jpg",
     "images": [
-      "https://www.images-apmex.com/images/products/2006-1-oz-gold-buffalo-bu_17870_obv.jpg"
+      "https://www.images-apmex.com/images/products/2006-1-oz-gold-buffalo-bu_17870_obv.jpg",
+      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
-    "photo_source": "APMEX year-specific coin photography",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2006-1-oz-gold-buffalo-bu_17870_obv.jpg",
+      "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
+    },
+    "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2006,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
@@ -5043,9 +5056,22 @@ window.products = [
     "default_condition": "New",
     "image": "https://www.images-apmex.com/images/products/2007-1-oz-gold-buffalo-bu_22408_slab.jpg",
     "images": [
-      "https://www.images-apmex.com/images/products/2007-1-oz-gold-buffalo-bu_22408_slab.jpg"
+      "https://www.images-apmex.com/images/products/2007-1-oz-gold-buffalo-bu_22408_slab.jpg",
+      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
-    "photo_source": "APMEX year-specific coin photography",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2007-1-oz-gold-buffalo-bu_22408_slab.jpg",
+      "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
+    },
+    "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2007,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
@@ -5100,12 +5126,23 @@ window.products = [
     "default_condition": "New",
     "image": "https://www.images-apmex.com/images/products/2008-1-oz-gold-buffalo-bu_31508_slab.jpg",
     "images": [
-      "https://www.images-apmex.com/images/products/2008-1-oz-gold-buffalo-bu_31508_slab.jpg"
+      "https://www.images-apmex.com/images/products/2008-1-oz-gold-buffalo-bu_31508_slab.jpg",
+      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
+    
     "image_views": {
-      "front_main": "images[0]"
+      "front_main": "https://www.images-apmex.com/images/products/2008-1-oz-gold-buffalo-bu_31508_slab.jpg",
+      "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
     },
-    "photo_source": "APMEX year-specific coin photography",
+    "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2008,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
@@ -5152,12 +5189,23 @@ window.products = [
     "default_condition": "New",
     "image": "https://www.images-apmex.com/images/products/2009-1-oz-gold-buffalo-bu_56068_slab.jpg",
     "images": [
-      "https://www.images-apmex.com/images/products/2009-1-oz-gold-buffalo-bu_56068_slab.jpg"
+      "https://www.images-apmex.com/images/products/2009-1-oz-gold-buffalo-bu_56068_slab.jpg",
+      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
+    
     "image_views": {
-      "front_main": "images[0]"
+      "front_main": "https://www.images-apmex.com/images/products/2009-1-oz-gold-buffalo-bu_56068_slab.jpg",
+      "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
     },
-    "photo_source": "APMEX year-specific coin photography",
+    "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2009,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
@@ -5204,9 +5252,22 @@ window.products = [
     "default_condition": "New",
     "image": "https://www.images-apmex.com/images/products/2010-1-oz-gold-buffalo-bu_57934_Obv.jpg",
     "images": [
-      "https://www.images-apmex.com/images/products/2010-1-oz-gold-buffalo-bu_57934_Obv.jpg"
+      "https://www.images-apmex.com/images/products/2010-1-oz-gold-buffalo-bu_57934_Obv.jpg",
+      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
-    "photo_source": "APMEX year-specific coin photography",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2010-1-oz-gold-buffalo-bu_57934_Obv.jpg",
+      "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
+    },
+    "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2010,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
@@ -5261,9 +5322,22 @@ window.products = [
     "default_condition": "New",
     "image": "https://www.images-apmex.com/images/products/2011-1-oz-gold-buffalo-bu_61068_Obv.jpg",
     "images": [
-      "https://www.images-apmex.com/images/products/2011-1-oz-gold-buffalo-bu_61068_Obv.jpg"
+      "https://www.images-apmex.com/images/products/2011-1-oz-gold-buffalo-bu_61068_Obv.jpg",
+      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
-    "photo_source": "APMEX year-specific coin photography",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2011-1-oz-gold-buffalo-bu_61068_Obv.jpg",
+      "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
+    },
+    "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2011,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
@@ -5318,9 +5392,22 @@ window.products = [
     "default_condition": "New",
     "image": "https://www.images-apmex.com/images/products/2012-1-oz-gold-buffalo-bu_65232_Obv.jpg",
     "images": [
-      "https://www.images-apmex.com/images/products/2012-1-oz-gold-buffalo-bu_65232_Obv.jpg"
+      "https://www.images-apmex.com/images/products/2012-1-oz-gold-buffalo-bu_65232_Obv.jpg",
+      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
-    "photo_source": "APMEX year-specific coin photography",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2012-1-oz-gold-buffalo-bu_65232_Obv.jpg",
+      "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
+    },
+    "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2012,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
@@ -5375,12 +5462,23 @@ window.products = [
     "default_condition": "New",
     "image": "https://www.images-apmex.com/images/products/2013-1-oz-gold-buffalo-bu_71283_Obv.jpg",
     "images": [
-      "https://www.images-apmex.com/images/products/2013-1-oz-gold-buffalo-bu_71283_Obv.jpg"
+      "https://www.images-apmex.com/images/products/2013-1-oz-gold-buffalo-bu_71283_Obv.jpg",
+      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
+    
     "image_views": {
-      "front_main": "images[0]"
+      "front_main": "https://www.images-apmex.com/images/products/2013-1-oz-gold-buffalo-bu_71283_Obv.jpg",
+      "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
     },
-    "photo_source": "APMEX year-specific coin photography",
+    "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2013,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
@@ -5427,12 +5525,23 @@ window.products = [
     "default_condition": "New",
     "image": "https://www.images-apmex.com/images/products/2014-1-oz-gold-buffalo-bu_79035_slab.jpg",
     "images": [
-      "https://www.images-apmex.com/images/products/2014-1-oz-gold-buffalo-bu_79035_slab.jpg"
+      "https://www.images-apmex.com/images/products/2014-1-oz-gold-buffalo-bu_79035_slab.jpg",
+      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
+    
     "image_views": {
-      "front_main": "images[0]"
+      "front_main": "https://www.images-apmex.com/images/products/2014-1-oz-gold-buffalo-bu_79035_slab.jpg",
+      "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
     },
-    "photo_source": "APMEX year-specific coin photography",
+    "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2014,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
@@ -5479,12 +5588,23 @@ window.products = [
     "default_condition": "New",
     "image": "https://www.images-apmex.com/images/products/2015-1-oz-gold-buffalo-bu_84912_Slab.jpg",
     "images": [
-      "https://www.images-apmex.com/images/products/2015-1-oz-gold-buffalo-bu_84912_Slab.jpg"
+      "https://www.images-apmex.com/images/products/2015-1-oz-gold-buffalo-bu_84912_Slab.jpg",
+      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
+    
     "image_views": {
-      "front_main": "images[0]"
+      "front_main": "https://www.images-apmex.com/images/products/2015-1-oz-gold-buffalo-bu_84912_Slab.jpg",
+      "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
     },
-    "photo_source": "APMEX year-specific coin photography",
+    "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2015,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
@@ -5531,12 +5651,23 @@ window.products = [
     "default_condition": "New",
     "image": "https://www.images-apmex.com/images/products/2016-1-oz-gold-buffalo-bu_93752_Slab.jpg",
     "images": [
-      "https://www.images-apmex.com/images/products/2016-1-oz-gold-buffalo-bu_93752_Slab.jpg"
+      "https://www.images-apmex.com/images/products/2016-1-oz-gold-buffalo-bu_93752_Slab.jpg",
+      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
+    
     "image_views": {
-      "front_main": "images[0]"
+      "front_main": "https://www.images-apmex.com/images/products/2016-1-oz-gold-buffalo-bu_93752_Slab.jpg",
+      "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
     },
-    "photo_source": "APMEX year-specific coin photography",
+    "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2016,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
@@ -5583,12 +5714,23 @@ window.products = [
     "default_condition": "New",
     "image": "https://www.images-apmex.com/images/products/2017-1-oz-gold-buffalo-bu_102638_slab.jpg",
     "images": [
-      "https://www.images-apmex.com/images/products/2017-1-oz-gold-buffalo-bu_102638_slab.jpg"
+      "https://www.images-apmex.com/images/products/2017-1-oz-gold-buffalo-bu_102638_slab.jpg",
+      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
+    
     "image_views": {
-      "front_main": "images[0]"
+      "front_main": "https://www.images-apmex.com/images/products/2017-1-oz-gold-buffalo-bu_102638_slab.jpg",
+      "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
     },
-    "photo_source": "APMEX year-specific coin photography",
+    "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2017,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
@@ -5635,12 +5777,23 @@ window.products = [
     "default_condition": "New",
     "image": "https://www.images-apmex.com/images/products/2018-1-oz-gold-buffalo-bu_152637_slab.jpg",
     "images": [
-      "https://www.images-apmex.com/images/products/2018-1-oz-gold-buffalo-bu_152637_slab.jpg"
+      "https://www.images-apmex.com/images/products/2018-1-oz-gold-buffalo-bu_152637_slab.jpg",
+      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
+    
     "image_views": {
-      "front_main": "images[0]"
+      "front_main": "https://www.images-apmex.com/images/products/2018-1-oz-gold-buffalo-bu_152637_slab.jpg",
+      "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
     },
-    "photo_source": "APMEX year-specific coin photography",
+    "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2018,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
@@ -5687,12 +5840,23 @@ window.products = [
     "default_condition": "New",
     "image": "https://www.images-apmex.com/images/products/2019-1-oz-gold-buffalo-bu_171428_obv.jpg",
     "images": [
-      "https://www.images-apmex.com/images/products/2019-1-oz-gold-buffalo-bu_171428_obv.jpg"
+      "https://www.images-apmex.com/images/products/2019-1-oz-gold-buffalo-bu_171428_obv.jpg",
+      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
+    
     "image_views": {
-      "front_main": "images[0]"
+      "front_main": "https://www.images-apmex.com/images/products/2019-1-oz-gold-buffalo-bu_171428_obv.jpg",
+      "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
     },
-    "photo_source": "APMEX year-specific coin photography",
+    "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2019,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
@@ -5739,9 +5903,22 @@ window.products = [
     "default_condition": "New",
     "image": "https://www.images-apmex.com/images/products/2020-1-oz-gold-buffalo-bu_196112_obv.jpg",
     "images": [
-      "https://www.images-apmex.com/images/products/2020-1-oz-gold-buffalo-bu_196112_obv.jpg"
+      "https://www.images-apmex.com/images/products/2020-1-oz-gold-buffalo-bu_196112_obv.jpg",
+      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
-    "photo_source": "APMEX year-specific coin photography",
+    "image_views": {
+      "front_main": "https://www.images-apmex.com/images/products/2020-1-oz-gold-buffalo-bu_196112_obv.jpg",
+      "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
+    },
+    "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2020,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
@@ -5796,12 +5973,23 @@ window.products = [
     "default_condition": "New",
     "image": "https://www.images-apmex.com/images/products/2021-1-oz-gold-buffalo-bu_223496_obv.jpg",
     "images": [
-      "https://www.images-apmex.com/images/products/2021-1-oz-gold-buffalo-bu_223496_obv.jpg"
+      "https://www.images-apmex.com/images/products/2021-1-oz-gold-buffalo-bu_223496_obv.jpg",
+      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
+    
     "image_views": {
-      "front_main": "images[0]"
+      "front_main": "https://www.images-apmex.com/images/products/2021-1-oz-gold-buffalo-bu_223496_obv.jpg",
+      "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
     },
-    "photo_source": "APMEX year-specific coin photography",
+    "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2021,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
@@ -5848,12 +6036,23 @@ window.products = [
     "default_condition": "New",
     "image": "https://www.images-apmex.com/images/products/2022-1-oz-gold-buffalo-bu_246785_slab.jpg",
     "images": [
-      "https://www.images-apmex.com/images/products/2022-1-oz-gold-buffalo-bu_246785_slab.jpg"
+      "https://www.images-apmex.com/images/products/2022-1-oz-gold-buffalo-bu_246785_slab.jpg",
+      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
+    
     "image_views": {
-      "front_main": "images[0]"
+      "front_main": "https://www.images-apmex.com/images/products/2022-1-oz-gold-buffalo-bu_246785_slab.jpg",
+      "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
     },
-    "photo_source": "APMEX year-specific coin photography",
+    "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2022,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
@@ -5898,14 +6097,25 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2023-1-oz-gold-buffalo-bu_260000_slab.jpg",
+    "image": "https://www.images-bullion.com/bcom-images/products/1172_obv.webp?height=700&v=20130602094622&width=700",
     "images": [
-      "https://www.images-apmex.com/images/products/2023-1-oz-gold-buffalo-bu_260000_slab.jpg"
+      "https://www.images-bullion.com/bcom-images/products/1172_obv.webp?height=700&v=20130602094622&width=700",
+      "https://www.images-bullion.com/bcom-images/products/1172_rev.webp?height=700&v=20130602094622&width=700",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
+    
     "image_views": {
-      "front_main": "images[0]"
+      "front_main": "https://www.images-bullion.com/bcom-images/products/1172_obv.webp?height=700&v=20130602094622&width=700",
+      "back": "https://www.images-bullion.com/bcom-images/products/1172_rev.webp?height=700&v=20130602094622&width=700",
+      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
     },
-    "photo_source": "APMEX year-specific coin photography",
+    "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2023,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
@@ -5950,14 +6160,25 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2024-1-oz-gold-buffalo-bu_284450_slab.jpeg",
+    "image": "https://www.images-bullion.com/bcom-images/products/1359_slab.webp?height=700&v=20240108050441&width=700",
     "images": [
-      "https://www.images-apmex.com/images/products/2024-1-oz-gold-buffalo-bu_284450_slab.jpeg"
+      "https://www.images-bullion.com/bcom-images/products/1359_slab.webp?height=700&v=20240108050441&width=700",
+      "https://www.images-bullion.com/bcom-images/products/1359_obv.webp?height=700&v=20231227072632&width=700",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
+    
     "image_views": {
-      "front_main": "images[0]"
+      "front_main": "https://www.images-bullion.com/bcom-images/products/1359_slab.webp?height=700&v=20240108050441&width=700",
+      "back": "https://www.images-bullion.com/bcom-images/products/1359_obv.webp?height=700&v=20231227072632&width=700",
+      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
     },
-    "photo_source": "APMEX year-specific coin photography",
+    "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2024,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
@@ -6002,14 +6223,25 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2025-1-oz-gold-buffalo-bu_299037_slab.jpeg",
+    "image": "https://www.images-bullion.com/bcom-images/products/1479_obv.webp?height=700&v=20250115125720&width=700",
     "images": [
-      "https://www.images-apmex.com/images/products/2025-1-oz-gold-buffalo-bu_299037_slab.jpeg"
+      "https://www.images-bullion.com/bcom-images/products/1479_obv.webp?height=700&v=20250115125720&width=700",
+      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
+    
     "image_views": {
-      "front_main": "images[0]"
+      "front_main": "https://www.images-bullion.com/bcom-images/products/1479_obv.webp?height=700&v=20250115125720&width=700",
+      "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
+      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
     },
-    "photo_source": "APMEX year-specific coin photography",
+    "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2025,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
@@ -6054,11 +6286,24 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2026-1-oz-gold-buffalo-bu_316832_slab.jpg",
+    "image": "https://www.usmint.gov/content/dam/usmint/image-library/coins/2026/American-Buffalo-Gold-Bullion-Obverse.jpg",
     "images": [
-      "https://www.images-apmex.com/images/products/2026-1-oz-gold-buffalo-bu_316832_slab.jpg"
+      "https://www.usmint.gov/content/dam/usmint/image-library/coins/2026/American-Buffalo-Gold-Bullion-Obverse.jpg",
+      "https://www.usmint.gov/content/dam/usmint/image-library/coins/2026/American-Buffalo-Gold-Bullion-Reverse.jpg",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
-    "photo_source": "APMEX year-specific coin photography",
+    "image_views": {
+      "front_main": "https://www.usmint.gov/content/dam/usmint/image-library/coins/2026/American-Buffalo-Gold-Bullion-Obverse.jpg",
+      "back": "https://www.usmint.gov/content/dam/usmint/image-library/coins/2026/American-Buffalo-Gold-Bullion-Reverse.jpg",
+      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
+    },
+    "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2026,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
