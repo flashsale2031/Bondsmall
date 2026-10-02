@@ -5135,9 +5135,9 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2008-1-oz-gold-buffalo-bu_31508_slab.jpg",
+    "image": "assets/main-images/2008-american-buffalo-obverse.jpg",
     "images": [
-      "https://www.images-apmex.com/images/products/2008-1-oz-gold-buffalo-bu_31508_slab.jpg",
+      "assets/main-images/2008-american-buffalo-obverse.jpg",
       "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
@@ -5145,7 +5145,7 @@ window.products = [
     ],
     
     "image_views": {
-      "front_main": "https://www.images-apmex.com/images/products/2008-1-oz-gold-buffalo-bu_31508_slab.jpg",
+      "front_main": "assets/main-images/2008-american-buffalo-obverse.jpg",
       "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
       "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
       "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
@@ -5153,7 +5153,7 @@ window.products = [
       "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
       "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
     },
-    "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
+    "photo_source": "Main obverse from Provident Metals; supporting coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2008,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
@@ -5198,9 +5198,9 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2009-1-oz-gold-buffalo-bu_56068_slab.jpg",
+    "image": "assets/main-images/2009-american-buffalo-obverse.jpg",
     "images": [
-      "https://www.images-apmex.com/images/products/2009-1-oz-gold-buffalo-bu_56068_slab.jpg",
+      "assets/main-images/2009-american-buffalo-obverse.jpg",
       "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
@@ -5208,7 +5208,7 @@ window.products = [
     ],
     
     "image_views": {
-      "front_main": "https://www.images-apmex.com/images/products/2009-1-oz-gold-buffalo-bu_56068_slab.jpg",
+      "front_main": "assets/main-images/2009-american-buffalo-obverse.jpg",
       "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
       "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
       "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
@@ -5216,7 +5216,7 @@ window.products = [
       "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
       "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
     },
-    "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
+    "photo_source": "Main obverse from Provident Metals; supporting coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2009,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
