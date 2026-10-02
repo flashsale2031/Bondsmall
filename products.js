@@ -4008,7 +4008,7 @@ window.products = [
     "photo_source": "Verified 2014 American Gold Eagle product photography from APMEX and verified reverse-design photography from SD Bullion; side views use the verified photographs with gallery perspective rendering.",
     "photo_year": 2014,
     "photo_is_representative": false,
-    "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
+    "source": "https://www.usmint.gov/news/press-releases/20140515-american-eagle-one-ounce-gold-uncirculated-coin-goes-on-sale-may-22",
     "official_issue": true,
     "listing_status": "Verified 2014 American Gold Eagle product.",
     "description": "2014 American Gold Eagle one-ounce gold coin. The obverse uses the Saint-Gaudens Liberty design and the reverse uses the Miley Busiek eagle-family design.",
@@ -4035,7 +4035,7 @@ window.products = [
     "luxury_brand": true,
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
+    "authenticity": "U.S. Mint American Eagle product; product identity and design verified against U.S. Mint and dealer references.",
     "brand_source": "U.S. Mint",
     "image_quality_status": "Verified product photography",
     "image_note": "Verified 2014 American Gold Eagle photography; no generic generated coin artwork."
