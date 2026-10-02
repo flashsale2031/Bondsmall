@@ -2765,13 +2765,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://cdn.bullionmax.com/wp-content/uploads/2013/12/100677_pdp_front.jpg",
+    "image": "https://www.images-apmex.com/images/products/2017-1-4-oz-american-gold-eagle-ms-70-pcgs_288697_obv.jpeg",
     "images": [
-      "https://cdn.bullionmax.com/wp-content/uploads/2013/12/100677_pdp_front.jpg",
-      "https://cdn.bullionmax.com/wp-content/uploads/2013/12/100677_pdp_front.jpg",
-      "https://cdn.bullionmax.com/wp-content/uploads/2013/12/100677_back.jpg",
-      "https://cdn.bullionmax.com/wp-content/uploads/2013/12/100677_back.jpg",
-      "https://cdn.bullionmax.com/wp-content/uploads/2013/12/100677_pdp_front.jpg"
+      "https://www.images-apmex.com/images/products/2017-1-4-oz-american-gold-eagle-ms-70-pcgs_288697_obv.jpeg",
+      "https://www.images-apmex.com/images/products/2017-1-4-oz-american-gold-eagle-ms-70-pcgs_288697_obv.jpeg",
+      "https://www.images-apmex.com/images/products/2017-1-4-oz-american-gold-eagle-ms-70-pcgs_288697_rev.jpeg",
+      "https://www.images-apmex.com/images/products/2017-1-4-oz-american-gold-eagle-ms-70-pcgs_288697_rev.jpeg",
+      "https://www.images-apmex.com/images/products/2017-1-4-oz-american-gold-eagle-ms-70-pcgs_288697_obv.jpeg"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -2813,7 +2813,7 @@ window.products = [
     "brand_source": "U.S. Mint",
     "photo_display": "Full five-view display",
     "image_quality_status": "Verified product photography",
-    "image_note": "Verified dealer product photography; front/reverse are product-specific. Side/case positions use the verified product photos until dedicated side/case photography is available."
+    "image_note": "Verified APMEX product photography from the 2017 American Gold Eagle design; the same denomination-independent design is used on the one-ounce issue."
   },
   {
     "id": 83,
@@ -3015,13 +3015,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://cdn.bullionmax.com/wp-content/uploads/2020/09/2892251_front.jpg",
+    "image": "https://www.images-apmex.com/images/products/2021-1-oz-american-gold-eagle-coin-bu-type-2_229435_slab.jpg?height=900&width=900",
     "images": [
-      "https://cdn.bullionmax.com/wp-content/uploads/2020/09/2892251_front.jpg",
-      "https://cdn.bullionmax.com/wp-content/uploads/2020/09/2892251_front.jpg",
-      "https://cdn.bullionmax.com/wp-content/uploads/2020/09/2892251_back.jpg",
-      "https://cdn.bullionmax.com/wp-content/uploads/2020/09/2892251_back.jpg",
-      "https://cdn.bullionmax.com/wp-content/uploads/2020/09/2892251_front.jpg"
+      "https://www.images-apmex.com/images/products/2021-1-oz-american-gold-eagle-coin-bu-type-2_229435_slab.jpg?height=900&width=900",
+      "https://www.images-apmex.com/images/products/2021-1-oz-american-gold-eagle-coin-bu-type-2_229435_slab.jpg?height=900&width=900",
+      "https://www.images-apmex.com/images/products/2021-1-oz-american-gold-eagle-coin-bu-type-2_229435_slab.jpg?height=900&width=900",
+      "https://www.images-apmex.com/images/products/2021-1-oz-american-gold-eagle-coin-bu-type-2_229435_slab.jpg?height=900&width=900",
+      "https://www.images-apmex.com/images/products/2021-1-oz-american-gold-eagle-coin-bu-type-2_229435_slab.jpg?height=900&width=900"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -3063,7 +3063,7 @@ window.products = [
     "brand_source": "U.S. Mint",
     "photo_display": "Full five-view display",
     "image_quality_status": "Verified product photography",
-    "image_note": "Verified dealer product photography; front/reverse are product-specific. Side/case positions use the verified product photos until dedicated side/case photography is available."
+    "image_note": "Verified APMEX Type 2 2021 product photography. The source image shows the actual redesigned 2021 obverse and reverse together."
   },
   {
     "id": 87,
@@ -4741,14 +4741,8 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2020-w-1-oz-proof-gold-buffalo-pf-70-ngc_231186_slab.jpg?height=900&width=900",
-    "images": [
-      "https://www.images-apmex.com/images/products/2020-w-1-oz-proof-gold-buffalo-pf-70-ngc_231186_slab.jpg?height=900&width=900",
-      "https://www.images-apmex.com/images/products/2020-w-1-oz-proof-gold-buffalo-pf-70-ngc_231186_slab.jpg?height=900&width=900",
-      "https://www.images-apmex.com/images/products/2020-w-1-oz-proof-gold-buffalo-pf-70-ngc_231186_slab.jpg?height=900&width=900",
-      "https://www.images-apmex.com/images/products/2020-w-1-oz-proof-gold-buffalo-pf-70-ngc_231186_slab.jpg?height=900&width=900",
-      "https://www.images-apmex.com/images/products/2020-w-1-oz-proof-gold-buffalo-pf-70-ngc_231186_slab.jpg?height=900&width=900"
-    ],
+    "image": "",
+    "images": [],
     "image_views": {
       "front_main": "images[0]",
       "left_side": "images[1]",
@@ -4769,7 +4763,7 @@ window.products = [
       "verification_note": "American Buffalo Gold Coin program began in 2006.",
       "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-buffalo"
     },
-    "listing_status": "Catalog placeholder — not an official U.S. Mint issue for this year.",
+    "listing_status": "Catalog placeholder — no verified official issue; product photography intentionally suppressed.",
     "productType": "Coin",
     "inventory": 0,
     "age_group": "Adult",
@@ -4783,8 +4777,8 @@ window.products = [
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
     "photo_display": "Full five-view display",
-    "image_quality_status": "Verified product photography",
-    "image_note": "Verified dealer proof-coin/case photography. Dedicated obverse/reverse loose-coin photography is not yet available for this catalog entry."
+    "image_quality_status": "No verified product image",
+    "image_note": "Catalog entry is not an official U.S. Mint issue for the year described; fabricated/generated coin imagery has been suppressed."
   },
   {
     "id": 117,
@@ -4857,14 +4851,8 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2022-w-1-oz-proof-gold-buffalo-w-box-coa_252126_slab.jpg?height=900&width=900",
-    "images": [
-      "https://www.images-apmex.com/images/products/2022-w-1-oz-proof-gold-buffalo-w-box-coa_252126_slab.jpg?height=900&width=900",
-      "https://www.images-apmex.com/images/products/2022-w-1-oz-proof-gold-buffalo-w-box-coa_252126_slab.jpg?height=900&width=900",
-      "https://www.images-apmex.com/images/products/2022-w-1-oz-proof-gold-buffalo-w-box-coa_252126_slab.jpg?height=900&width=900",
-      "https://www.images-apmex.com/images/products/2022-w-1-oz-proof-gold-buffalo-w-box-coa_252126_slab.jpg?height=900&width=900",
-      "https://www.images-apmex.com/images/products/2022-w-1-oz-proof-gold-buffalo-w-box-coa_252126_slab.jpg?height=900&width=900"
-    ],
+    "image": "",
+    "images": [],
     "image_views": {
       "front_main": "images[0]",
       "left_side": "images[1]",
@@ -4885,7 +4873,7 @@ window.products = [
       "verification_note": "American Buffalo Gold Coin program began in 2006.",
       "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-buffalo"
     },
-    "listing_status": "Catalog placeholder — not an official U.S. Mint issue for this year.",
+    "listing_status": "Catalog placeholder — no verified official issue; product photography intentionally suppressed.",
     "productType": "Coin",
     "inventory": 0,
     "age_group": "Adult",
@@ -4899,8 +4887,8 @@ window.products = [
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
     "photo_display": "Full five-view display",
-    "image_quality_status": "Verified product photography",
-    "image_note": "Verified dealer proof-coin/case photography. Dedicated obverse/reverse loose-coin photography is not yet available for this catalog entry."
+    "image_quality_status": "No verified product image",
+    "image_note": "Catalog entry is not an official U.S. Mint issue for the year described; fabricated/generated coin imagery has been suppressed."
   },
   {
     "id": 119,
