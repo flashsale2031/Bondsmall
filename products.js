@@ -1487,14 +1487,14 @@ window.products = [
     "category": "artandcollectibles",
     "retail price": 19999.99,
     "sale price": 5999.99,
-    "image": "https://cdn11.bigcommerce.com/s-ojbexn9zb6/images/stencil/1500x1500/products/189262/237437/2021-american-liberty-high-relief-gold-coin-obverse__48730.1767536143.jpg?c=1",
+    "image": "assets/gold-coins/60/view-01.webp",
     "description": "The 2021 American Liberty High Relief Gold Coin is the fifth coin in the American Liberty series. Since its debut in 2015, the American Liberty Gold Coin and Silver Medal Program features coins and medals with modern depictions of allegorical Liberty on the obverse. The reverse features complementary eagle designs. The designs represent what liberty means to each of us individually as Americans, or collectively as a nation.",
     "images": [
-      "https://cdn11.bigcommerce.com/s-ojbexn9zb6/images/stencil/1500x1500/products/189262/237437/2021-american-liberty-high-relief-gold-coin-obverse__48730.1767536143.jpg?c=1",
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477808267.coreimg.jpeg/1746477874968/2021-american-liberty-high-relief-gold-coin-reverse.jpeg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202021%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202021%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://cdn11.bigcommerce.com/s-ojbexn9zb6/images/stencil/1500x1500/products/189262/237437/2021-american-liberty-high-relief-gold-coin-obverse__48730.1767536143.jpg?c=1"
+      "assets/gold-coins/60/view-01.webp",
+      "assets/gold-coins/60/view-02.webp",
+      "assets/gold-coins/60/view-03.webp",
+      "assets/gold-coins/60/view-04.webp",
+      "assets/gold-coins/60/view-05.webp"
     ],
     "specifications": {
       "brand": "US Mint",
@@ -1524,7 +1524,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 61,
@@ -1533,14 +1535,14 @@ window.products = [
     "retail price": 7999.99,
     "sale price": 4999.99,
     "pre-owned price": 3999.99,
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwf875f1a3/images/hi-res/coin-programs/American-Buffalo/26el_c.jpg?sw=1200&sh=1200&sm=fit",
+    "image": "assets/gold-coins/61/view-01.webp",
     "description": "The rugged designs featured on the iconic Buffalo Nickel have never fallen out of favor with collectors who have proven time and time again their love for the romance of the Wild West that the coin epitomizes. The series ended in 1938 but was not forgotten. The design appears each year on the United States Mint's spectacular $50 Gold Buffalo coin, and now the 2026 Gold Buffalos are getting ready to rumble out of The Mint and stampede their way into your collection!",
     "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwf875f1a3/images/hi-res/coin-programs/American-Buffalo/26el_c.jpg?sw=1200&sh=1200&sm=fit",
-      "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-reverse.jpg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202026%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20BUFFALO%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202026%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20BUFFALO%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.moneymetals.com/images/products/2006-1oz-gold-coins-american-buffalo-proof-reverse.jpg"
+      "assets/gold-coins/61/view-01.webp",
+      "assets/gold-coins/61/view-02.webp",
+      "assets/gold-coins/61/view-03.webp",
+      "assets/gold-coins/61/view-04.webp",
+      "assets/gold-coins/61/view-05.webp"
     ],
     "specifications": {
       "brand": "US Mint",
@@ -1572,7 +1574,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 62,
@@ -1581,14 +1585,14 @@ window.products = [
     "retail price": 7499.99,
     "sale price": 5799.99,
     "pre-owned price": 3749.99,
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw39628b9a/images/hi-res/coin-programs/American-Eagle/26eb_c.jpg?sw=1200&sh=1200&sm=fit",
+    "image": "assets/gold-coins/62/view-01.webp",
     "description": "The 2026 American Eagle One Ounce Gold Proof Coin celebrates the 250th anniversary of our Nation's founding with this limited-edition release! Includes anti-counterfeit variable reeding. Struck at the United States Mint facility at West Point. Quantities are limited, don't miss this golden opportunity for this special one-year only edition!",
     "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw39628b9a/images/hi-res/coin-programs/American-Eagle/26eb_c.jpg?sw=1200&sh=1200&sm=fit",
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw9db3e08e/images/hi-res/coin-programs/American-Eagle/26eb_b.jpg?sw=1200&sh=1200&sm=fit",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202026%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202026%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw061f3645/images/hi-res/coin-programs/American-Eagle/26eb_a.jpg?sw=1200&sh=1200&sm=fit"
+      "assets/gold-coins/62/view-01.webp",
+      "assets/gold-coins/62/view-02.webp",
+      "assets/gold-coins/62/view-03.webp",
+      "assets/gold-coins/62/view-04.webp",
+      "assets/gold-coins/62/view-05.webp"
     ],
     "specifications": {
       "brand": "US Mint",
@@ -1619,7 +1623,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 63,
@@ -1627,14 +1633,14 @@ window.products = [
     "category": "artandcollectibles",
     "retail price": 6499.99,
     "sale price": 4999.99,
-    "image": "https://www.pcgs.com/UserImages/category-545532-slot-2-obverse.jpg",
+    "image": "assets/gold-coins/63/view-01.webp",
     "description": "The 2017 $100 American Liberty 225th Anniversary Gold Coin (1oz) was made to celerbate the 225th anniversary of the US Mint. The obverse depicts Lady Liberty with a crown of stars. The reverse features a fierce looking eagle mid flight. This coin is 1oz .9999 pure gold and was struck at West Point. Only 100,000 of these were ever minted.",
     "images": [
-      "https://www.pcgs.com/UserImages/category-545532-slot-2-obverse.jpg",
-      "https://static01.nyt.com/images/2017/01/14/us/14coinX_xp/14coinX_xp-videoSixteenByNineJumbo1600.jpg?year=2017&h=675&w=1200&s=2c980a206730dbd58b9bcb31d329e4e735305c1ef0b2d8996179e18347fe9357&k=ZQJBKqZ0VN&tw=1",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202017%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202017%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://fortune.com/img-assets/wp-content/uploads/2017/01/100-dollar-gold-coin.jpg?format=webp&w=1440&q=100"
+      "assets/gold-coins/63/view-01.webp",
+      "assets/gold-coins/63/view-02.webp",
+      "assets/gold-coins/63/view-03.webp",
+      "assets/gold-coins/63/view-04.webp",
+      "assets/gold-coins/63/view-05.webp"
     ],
     "specifications": {
       "brand": "US Mint",
@@ -1664,7 +1670,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 64,
@@ -1672,14 +1680,14 @@ window.products = [
     "category": "artandcollectibles",
     "retail price": 5999.99,
     "sale price": 4999.99,
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw8fda21fc/images/hi-res/coin-programs/comic-art/25DBG_c.jpg?sw=1200&sh=1200&sm=fit",
+    "image": "assets/gold-coins/64/view-01.webp",
     "description": "From the shadows, the Dark Knight emerges as the second release in our Comic Art Coin Program. Batman is newly etched in a 99.9% 24-Karat gold proof coin.",
     "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw8fda21fc/images/hi-res/coin-programs/comic-art/25DBG_c.jpg?sw=1200&sh=1200&sm=fit",
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw00a46c11/images/hi-res/coin-programs/comic-art/25DBG_b.jpg?sw=1200&sh=1200&sm=fit",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202025%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20DC%20BATMAN%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202025%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20DC%20BATMAN%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw8fda21fc/images/hi-res/coin-programs/comic-art/25DBG_c.jpg?sw=1200&sh=1200&sm=fit"
+      "assets/gold-coins/64/view-01.webp",
+      "assets/gold-coins/64/view-02.webp",
+      "assets/gold-coins/64/view-03.webp",
+      "assets/gold-coins/64/view-04.webp",
+      "assets/gold-coins/64/view-05.webp"
     ],
     "specifications": {
       "brand": "US Mint",
@@ -1711,7 +1719,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 65,
@@ -1719,14 +1729,14 @@ window.products = [
     "category": "artandcollectibles",
     "retail price": 5999.99,
     "sale price": 4999.99,
-    "image": "https://i5.walmartimages.com/seo/2025-W-50-1-2-oz-Proof-Superman-DC-Comics-Gold-Coin-w-Box-OGP_3223f0d2-51cf-4818-840f-1748ae1466db.373291d167476d253e4cc4281404ba4c.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "image": "assets/gold-coins/65/view-01.webp",
     "description": "An exceptional proof gold coin celebrating the Man of Steel. Professionally graded and encapsulated by U.S. Mint's approved comic art series.",
     "images": [
-      "https://i5.walmartimages.com/seo/2025-W-50-1-2-oz-Proof-Superman-DC-Comics-Gold-Coin-w-Box-OGP_3223f0d2-51cf-4818-840f-1748ae1466db.373291d167476d253e4cc4281404ba4c.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/2408ab5c-04fd-470e-851b-564222f2d187.63f1f0961f63d20c5351c47b49904c39.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202025%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20DC%20SUPERMAN%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202025%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20DC%20SUPERMAN%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://i5.walmartimages.com/seo/2025-W-50-1-2-oz-Proof-Superman-DC-Comics-Gold-Coin-w-Box-OGP_3223f0d2-51cf-4818-840f-1748ae1466db.373291d167476d253e4cc4281404ba4c.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF"
+      "assets/gold-coins/65/view-01.webp",
+      "assets/gold-coins/65/view-02.webp",
+      "assets/gold-coins/65/view-03.webp",
+      "assets/gold-coins/65/view-04.webp",
+      "assets/gold-coins/65/view-05.webp"
     ],
     "specifications": {
       "brand": "US Mint",
@@ -1757,7 +1767,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 66,
@@ -1766,14 +1778,14 @@ window.products = [
     "retail price": 6999.99,
     "sale price": 5499.99,
     "pre-owned price": 3999.99,
-    "image": "assets/american-liberty-lion-gold-2026/obverse_full_field_lion_high_relief.png",
+    "image": "assets/gold-coins/66/view-01.webp",
     "description": "A new addition to the United States Mint American Liberty gold coin collection, the 2026 American Liberty Lion Gold $1,000 Coin presents a dramatic high-relief lion design with a finely detailed reverse inspired by American founding ideals. Struck in a high-grade concentration of .9999 fine gold, the coin contains one troy ounce of fine gold and is presented as a distinguished collectible for serious numismatists and precious-metal collectors.",
     "images": [
-      "assets/american-liberty-lion-gold-2026/obverse_full_field_lion_high_relief.png",
-      "assets/american-liberty-lion-gold-2026/coin_60_degrees_left.png",
-      "assets/american-liberty-lion-gold-2026/coin_60_degrees_right.png",
-      "assets/american-liberty-lion-gold-2026/reverse_high_relief_small_mintmarks.png",
-      "assets/american-liberty-lion-gold-2026/coin_in_american_lion_case_complete_rim.webp"
+      "assets/gold-coins/66/view-01.webp",
+      "assets/gold-coins/66/view-02.webp",
+      "assets/gold-coins/66/view-03.webp",
+      "assets/gold-coins/66/view-04.webp",
+      "assets/gold-coins/66/view-05.webp"
     ],
     "preOwnedImage": "assets/american-liberty-lion-gold-2026/preowned_coin_in_pcgs_holder.webp",
     "preOwnedImages": [
@@ -1814,8 +1826,8 @@ window.products = [
       "case_photo": "images[4]"
     },
     "photo_display": "Full five-view display",
-    "image_quality_status": "Verified product photography",
-    "image_note": "Local Bonds Mall product-specific image set for the 2026 American Liberty Lion gold coin."
+    "image_quality_status": "Local Bonds Mall generated asset",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts."
   },
   {
     "id": 67,
@@ -1831,13 +1843,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.moneymetals.com/images/products/proof_gold_eagle_2002_1a.png",
+    "image": "assets/gold-coins/67/view-01.webp",
     "images": [
-      "https://www.moneymetals.com/images/products/proof_gold_eagle_2002_1a.png",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202002%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202002%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.moneymetals.com/images/products/proof_gold_eagle_2002_1a.png"
+      "assets/gold-coins/67/view-01.webp",
+      "assets/gold-coins/67/view-02.webp",
+      "assets/gold-coins/67/view-03.webp",
+      "assets/gold-coins/67/view-04.webp",
+      "assets/gold-coins/67/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2002,
@@ -1877,7 +1889,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 68,
@@ -1893,13 +1907,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Obv.jpg",
+    "image": "assets/gold-coins/68/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Obv.jpg",
-      "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Rev.jpg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202003%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202003%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Slab.jpg"
+      "assets/gold-coins/68/view-01.webp",
+      "assets/gold-coins/68/view-02.webp",
+      "assets/gold-coins/68/view-03.webp",
+      "assets/gold-coins/68/view-04.webp",
+      "assets/gold-coins/68/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2003,
@@ -1939,7 +1953,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 69,
@@ -1955,13 +1971,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.moneymetals.com/images/products/proof_gold_eagle_2004_3.png",
+    "image": "assets/gold-coins/69/view-01.webp",
     "images": [
-      "https://www.moneymetals.com/images/products/proof_gold_eagle_2004_3.png",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202004%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202004%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.moneymetals.com/images/products/proof_gold_eagle_2004_3.png"
+      "assets/gold-coins/69/view-01.webp",
+      "assets/gold-coins/69/view-02.webp",
+      "assets/gold-coins/69/view-03.webp",
+      "assets/gold-coins/69/view-04.webp",
+      "assets/gold-coins/69/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2004,
@@ -2001,7 +2017,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 70,
@@ -2017,13 +2035,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg",
+    "image": "assets/gold-coins/70/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg",
-      "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Rev.jpg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202005%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202005%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg"
+      "assets/gold-coins/70/view-01.webp",
+      "assets/gold-coins/70/view-02.webp",
+      "assets/gold-coins/70/view-03.webp",
+      "assets/gold-coins/70/view-04.webp",
+      "assets/gold-coins/70/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2005,
@@ -2063,7 +2081,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 71,
@@ -2079,13 +2099,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Obv.jpg",
+    "image": "assets/gold-coins/71/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Obv.jpg",
-      "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Rev.jpg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202006%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202006%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Obv.jpg"
+      "assets/gold-coins/71/view-01.webp",
+      "assets/gold-coins/71/view-02.webp",
+      "assets/gold-coins/71/view-03.webp",
+      "assets/gold-coins/71/view-04.webp",
+      "assets/gold-coins/71/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2006,
@@ -2125,7 +2145,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 72,
@@ -2141,13 +2163,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_obv.jpg",
+    "image": "assets/gold-coins/72/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_obv.jpg",
-      "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_rev.jpg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202007%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202007%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_slab.jpg"
+      "assets/gold-coins/72/view-01.webp",
+      "assets/gold-coins/72/view-02.webp",
+      "assets/gold-coins/72/view-03.webp",
+      "assets/gold-coins/72/view-04.webp",
+      "assets/gold-coins/72/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2007,
@@ -2187,7 +2209,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 73,
@@ -2203,13 +2227,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://i.ebayimg.com/images/g/zQsAAeSwWNRpFxNr/s-l400.jpg",
+    "image": "assets/gold-coins/73/view-01.webp",
     "images": [
-      "https://i.ebayimg.com/images/g/zQsAAeSwWNRpFxNr/s-l400.jpg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202008%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202008%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://i.ebayimg.com/images/g/zQsAAeSwWNRpFxNr/s-l400.jpg"
+      "assets/gold-coins/73/view-01.webp",
+      "assets/gold-coins/73/view-02.webp",
+      "assets/gold-coins/73/view-03.webp",
+      "assets/gold-coins/73/view-04.webp",
+      "assets/gold-coins/73/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2008,
@@ -2249,7 +2273,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 74,
@@ -2265,13 +2291,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2009-1-oz-american-gold-eagle-ms-69-ngc-early-releases_59685_Obv.jpg",
+    "image": "assets/gold-coins/74/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2009-1-oz-american-gold-eagle-ms-69-ngc-early-releases_59685_Obv.jpg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202009%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202009%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.images-apmex.com/images/products/2009-1-oz-american-gold-eagle-ms-69-ngc-early-releases_59685_Obv.jpg"
+      "assets/gold-coins/74/view-01.webp",
+      "assets/gold-coins/74/view-02.webp",
+      "assets/gold-coins/74/view-03.webp",
+      "assets/gold-coins/74/view-04.webp",
+      "assets/gold-coins/74/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2009,
@@ -2311,7 +2337,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 75,
@@ -2327,13 +2355,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Obv.jpg",
+    "image": "assets/gold-coins/75/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Obv.jpg",
-      "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Rev.jpg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202010%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202010%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Slab.jpg"
+      "assets/gold-coins/75/view-01.webp",
+      "assets/gold-coins/75/view-02.webp",
+      "assets/gold-coins/75/view-03.webp",
+      "assets/gold-coins/75/view-04.webp",
+      "assets/gold-coins/75/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2010,
@@ -2373,7 +2401,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 76,
@@ -2389,13 +2419,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Obv.jpg",
+    "image": "assets/gold-coins/76/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Obv.jpg",
-      "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Rev.jpg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202011%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202011%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.images-apmex.com/images/products/2011-w-1-oz-proof-american-gold-eagle-w-box-coa_62461_Slab.jpg?height=900&v=20191025091623&width=900"
+      "assets/gold-coins/76/view-01.webp",
+      "assets/gold-coins/76/view-02.webp",
+      "assets/gold-coins/76/view-03.webp",
+      "assets/gold-coins/76/view-04.webp",
+      "assets/gold-coins/76/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2011,
@@ -2435,7 +2465,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 77,
@@ -2451,13 +2483,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Obv.jpg",
+    "image": "assets/gold-coins/77/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Obv.jpg",
-      "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Rev.jpg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202012%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202012%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Slab.jpg"
+      "assets/gold-coins/77/view-01.webp",
+      "assets/gold-coins/77/view-02.webp",
+      "assets/gold-coins/77/view-03.webp",
+      "assets/gold-coins/77/view-04.webp",
+      "assets/gold-coins/77/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2012,
@@ -2497,7 +2529,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 78,
@@ -2513,13 +2547,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://cdn.bullionmax.com/wp-content/uploads/2023/12/1283605_front_r.jpg",
+    "image": "assets/gold-coins/78/view-01.webp",
     "images": [
-      "https://cdn.bullionmax.com/wp-content/uploads/2023/12/1283605_front_r.jpg",
-      "https://cdn.bullionmax.com/wp-content/uploads/2023/12/1283605_front_r.jpg",
-      "https://cdn.bullionmax.com/wp-content/uploads/2023/12/1283605_back.jpg",
-      "https://cdn.bullionmax.com/wp-content/uploads/2023/12/1283605_back.jpg",
-      "https://cdn.bullionmax.com/wp-content/uploads/2023/12/1283605_front_r.jpg"
+      "assets/gold-coins/78/view-01.webp",
+      "assets/gold-coins/78/view-02.webp",
+      "assets/gold-coins/78/view-03.webp",
+      "assets/gold-coins/78/view-04.webp",
+      "assets/gold-coins/78/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -2560,8 +2594,8 @@ window.products = [
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
     "photo_display": "Full five-view display",
-    "image_quality_status": "Verified product photography",
-    "image_note": "Verified dealer product photography; front/reverse are product-specific. Side/case positions use the verified product photos until dedicated side/case photography is available."
+    "image_quality_status": "Local Bonds Mall generated asset",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts."
   },
   {
     "id": 79,
@@ -2577,13 +2611,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://cdn.bullionmax.com/wp-content/uploads/2013/12/100677_pdp_front.jpg",
+    "image": "assets/gold-coins/79/view-01.webp",
     "images": [
-      "https://cdn.bullionmax.com/wp-content/uploads/2013/12/100677_pdp_front.jpg",
-      "https://cdn.bullionmax.com/wp-content/uploads/2013/12/100677_pdp_front.jpg",
-      "https://cdn.bullionmax.com/wp-content/uploads/2013/12/100677_back.jpg",
-      "https://cdn.bullionmax.com/wp-content/uploads/2013/12/100677_back.jpg",
-      "https://cdn.bullionmax.com/wp-content/uploads/2013/12/100677_pdp_front.jpg"
+      "assets/gold-coins/79/view-01.webp",
+      "assets/gold-coins/79/view-02.webp",
+      "assets/gold-coins/79/view-03.webp",
+      "assets/gold-coins/79/view-04.webp",
+      "assets/gold-coins/79/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -2624,8 +2658,8 @@ window.products = [
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
     "photo_display": "Full five-view display",
-    "image_quality_status": "Verified product photography",
-    "image_note": "Verified dealer product photography; front/reverse are product-specific. Side/case positions use the verified product photos until dedicated side/case photography is available."
+    "image_quality_status": "Local Bonds Mall generated asset",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts."
   },
   {
     "id": 80,
@@ -2641,13 +2675,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://cdn11.bigcommerce.com/s-xs84wezima/images/stencil/1280x1280/products/7850/25347/15-W-AGE-50-PFb__90807.1685728442.jpg?c=2",
+    "image": "assets/gold-coins/80/view-01.webp",
     "images": [
-      "https://cdn11.bigcommerce.com/s-xs84wezima/images/stencil/1280x1280/products/7850/25347/15-W-AGE-50-PFb__90807.1685728442.jpg?c=2",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202015%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202015%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://cdn11.bigcommerce.com/s-xs84wezima/images/stencil/1280x1280/products/7850/25347/15-W-AGE-50-PFb__90807.1685728442.jpg?c=2"
+      "assets/gold-coins/80/view-01.webp",
+      "assets/gold-coins/80/view-02.webp",
+      "assets/gold-coins/80/view-03.webp",
+      "assets/gold-coins/80/view-04.webp",
+      "assets/gold-coins/80/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2015,
@@ -2687,7 +2721,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 81,
@@ -2703,13 +2739,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.mintstategold.com/media/catalog/product/1/6/16weagle50box_msg_1_3.jpg",
+    "image": "assets/gold-coins/81/view-01.webp",
     "images": [
-      "https://www.mintstategold.com/media/catalog/product/1/6/16weagle50box_msg_1_3.jpg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202016%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202016%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.mintstategold.com/media/catalog/product/1/6/16weagle50box_msg_1_3.jpg"
+      "assets/gold-coins/81/view-01.webp",
+      "assets/gold-coins/81/view-02.webp",
+      "assets/gold-coins/81/view-03.webp",
+      "assets/gold-coins/81/view-04.webp",
+      "assets/gold-coins/81/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2016,
@@ -2749,7 +2785,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 82,
@@ -2765,13 +2803,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2017-1-4-oz-american-gold-eagle-ms-70-pcgs_288697_obv.jpeg",
+    "image": "assets/gold-coins/82/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2017-1-4-oz-american-gold-eagle-ms-70-pcgs_288697_obv.jpeg",
-      "https://www.images-apmex.com/images/products/2017-1-4-oz-american-gold-eagle-ms-70-pcgs_288697_obv.jpeg",
-      "https://www.images-apmex.com/images/products/2017-1-4-oz-american-gold-eagle-ms-70-pcgs_288697_rev.jpeg",
-      "https://www.images-apmex.com/images/products/2017-1-4-oz-american-gold-eagle-ms-70-pcgs_288697_rev.jpeg",
-      "https://www.images-apmex.com/images/products/2017-1-4-oz-american-gold-eagle-ms-70-pcgs_288697_obv.jpeg"
+      "assets/gold-coins/82/view-01.webp",
+      "assets/gold-coins/82/view-02.webp",
+      "assets/gold-coins/82/view-03.webp",
+      "assets/gold-coins/82/view-04.webp",
+      "assets/gold-coins/82/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -2812,8 +2850,8 @@ window.products = [
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
     "photo_display": "Full five-view display",
-    "image_quality_status": "Verified product photography",
-    "image_note": "Verified APMEX product photography from the 2017 American Gold Eagle design; the same denomination-independent design is used on the one-ounce issue."
+    "image_quality_status": "Local Bonds Mall generated asset",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts."
   },
   {
     "id": 83,
@@ -2829,13 +2867,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.mintstategold.com/media/catalog/product/cache/8257fd1fd60adc6f013bbf0852afb486/1/8/18weagle50boxmsg_sample_1_1.jpg",
+    "image": "assets/gold-coins/83/view-01.webp",
     "images": [
-      "https://www.mintstategold.com/media/catalog/product/cache/8257fd1fd60adc6f013bbf0852afb486/1/8/18weagle50boxmsg_sample_1_1.jpg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202018%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202018%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.mintstategold.com/media/catalog/product/cache/8257fd1fd60adc6f013bbf0852afb486/1/8/18weagle50boxmsg_sample_1_1.jpg"
+      "assets/gold-coins/83/view-01.webp",
+      "assets/gold-coins/83/view-02.webp",
+      "assets/gold-coins/83/view-03.webp",
+      "assets/gold-coins/83/view-04.webp",
+      "assets/gold-coins/83/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2018,
@@ -2875,7 +2913,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 84,
@@ -2891,13 +2931,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://sdbullion.com/media/catalog/product/2/0/2019-1-oz-american-gold-eagle-proof-coins.jpg",
+    "image": "assets/gold-coins/84/view-01.webp",
     "images": [
-      "https://sdbullion.com/media/catalog/product/2/0/2019-1-oz-american-gold-eagle-proof-coins.jpg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202019%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202019%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://sdbullion.com/media/catalog/product/2/0/2019-1-oz-american-gold-eagle-proof-coins.jpg"
+      "assets/gold-coins/84/view-01.webp",
+      "assets/gold-coins/84/view-02.webp",
+      "assets/gold-coins/84/view-03.webp",
+      "assets/gold-coins/84/view-04.webp",
+      "assets/gold-coins/84/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2019,
@@ -2937,7 +2977,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 85,
@@ -2953,13 +2995,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_obv.jpg",
+    "image": "assets/gold-coins/85/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_obv.jpg",
-      "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_rev.jpg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202020%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202020%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_slab.jpg"
+      "assets/gold-coins/85/view-01.webp",
+      "assets/gold-coins/85/view-02.webp",
+      "assets/gold-coins/85/view-03.webp",
+      "assets/gold-coins/85/view-04.webp",
+      "assets/gold-coins/85/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2020,
@@ -2999,7 +3041,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 86,
@@ -3015,13 +3059,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2021-1-oz-american-gold-eagle-coin-bu-type-2_229435_slab.jpg?height=900&width=900",
+    "image": "assets/gold-coins/86/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2021-1-oz-american-gold-eagle-coin-bu-type-2_229435_slab.jpg?height=900&width=900",
-      "https://www.images-apmex.com/images/products/2021-1-oz-american-gold-eagle-coin-bu-type-2_229435_slab.jpg?height=900&width=900",
-      "https://www.images-apmex.com/images/products/2021-1-oz-american-gold-eagle-coin-bu-type-2_229435_slab.jpg?height=900&width=900",
-      "https://www.images-apmex.com/images/products/2021-1-oz-american-gold-eagle-coin-bu-type-2_229435_slab.jpg?height=900&width=900",
-      "https://www.images-apmex.com/images/products/2021-1-oz-american-gold-eagle-coin-bu-type-2_229435_slab.jpg?height=900&width=900"
+      "assets/gold-coins/86/view-01.webp",
+      "assets/gold-coins/86/view-02.webp",
+      "assets/gold-coins/86/view-03.webp",
+      "assets/gold-coins/86/view-04.webp",
+      "assets/gold-coins/86/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -3062,8 +3106,8 @@ window.products = [
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
     "photo_display": "Full five-view display",
-    "image_quality_status": "Verified product photography",
-    "image_note": "Verified APMEX Type 2 2021 product photography. The source image shows the actual redesigned 2021 obverse and reverse together."
+    "image_quality_status": "Local Bonds Mall generated asset",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts."
   },
   {
     "id": 87,
@@ -3079,13 +3123,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2022-1-oz-american-gold-eagle-bu_240761_obv.jpg",
+    "image": "assets/gold-coins/87/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2022-1-oz-american-gold-eagle-bu_240761_obv.jpg",
-      "https://www.images-apmex.com/images/products/2022-1-oz-american-gold-eagle-bu_240761_obv.jpg",
-      "https://www.images-apmex.com/images/products/2022-1-10-oz-american-gold-eagle-mintdirect-single_240975_rev.jpg",
-      "https://www.images-apmex.com/images/products/2022-1-10-oz-american-gold-eagle-mintdirect-single_240975_rev.jpg",
-      "https://www.images-apmex.com/images/products/2022-1-oz-american-gold-eagle-bu_240761_obv.jpg"
+      "assets/gold-coins/87/view-01.webp",
+      "assets/gold-coins/87/view-02.webp",
+      "assets/gold-coins/87/view-03.webp",
+      "assets/gold-coins/87/view-04.webp",
+      "assets/gold-coins/87/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -3126,8 +3170,8 @@ window.products = [
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
     "photo_display": "Full five-view display",
-    "image_quality_status": "Verified product photography",
-    "image_note": "Verified dealer product photography; front/reverse are product-specific. Side/case positions use the verified product photos until dedicated side/case photography is available."
+    "image_quality_status": "Local Bonds Mall generated asset",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts."
   },
   {
     "id": 88,
@@ -3143,13 +3187,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://cdn.bullionmax.com/wp-content/uploads/2022/10/PID4865183-2023-AMERICAN-EAGLE-GOLD-ONE-OUNCE-BULLION-COIN-OBVERSE.jpg",
+    "image": "assets/gold-coins/88/view-01.webp",
     "images": [
-      "https://cdn.bullionmax.com/wp-content/uploads/2022/10/PID4865183-2023-AMERICAN-EAGLE-GOLD-ONE-OUNCE-BULLION-COIN-OBVERSE.jpg",
-      "https://cdn.bullionmax.com/wp-content/uploads/2022/10/PID4865183-2023-AMERICAN-EAGLE-GOLD-ONE-OUNCE-BULLION-COIN-OBVERSE.jpg",
-      "https://cdn.bullionmax.com/wp-content/uploads/2022/10/PID4865183-2023-AMERICAN-EAGLE-GOLD-ONE-OUNCE-BULLION-COIN-REVERSE.jpg",
-      "https://cdn.bullionmax.com/wp-content/uploads/2022/10/PID4865183-2023-AMERICAN-EAGLE-GOLD-ONE-OUNCE-BULLION-COIN-REVERSE.jpg",
-      "https://cdn.bullionmax.com/wp-content/uploads/2022/10/PID4865183-2023-AMERICAN-EAGLE-GOLD-ONE-OUNCE-BULLION-COIN-OBVERSE.jpg"
+      "assets/gold-coins/88/view-01.webp",
+      "assets/gold-coins/88/view-02.webp",
+      "assets/gold-coins/88/view-03.webp",
+      "assets/gold-coins/88/view-04.webp",
+      "assets/gold-coins/88/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -3190,8 +3234,8 @@ window.products = [
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
     "photo_display": "Full five-view display",
-    "image_quality_status": "Verified product photography",
-    "image_note": "Verified dealer product photography; front/reverse are product-specific. Side/case positions use the verified product photos until dedicated side/case photography is available."
+    "image_quality_status": "Local Bonds Mall generated asset",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts."
   },
   {
     "id": 89,
@@ -3207,13 +3251,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwed8481ca/images/hi-res/coin-programs/American-Eagle/24eb_a.jpg?sh=1200&sm=fit&sw=1200",
+    "image": "assets/gold-coins/89/view-01.webp",
     "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwed8481ca/images/hi-res/coin-programs/American-Eagle/24eb_a.jpg?sh=1200&sm=fit&sw=1200",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202024%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202024%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwed8481ca/images/hi-res/coin-programs/American-Eagle/24eb_a.jpg?sh=1200&sm=fit&sw=1200"
+      "assets/gold-coins/89/view-01.webp",
+      "assets/gold-coins/89/view-02.webp",
+      "assets/gold-coins/89/view-03.webp",
+      "assets/gold-coins/89/view-04.webp",
+      "assets/gold-coins/89/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2024,
@@ -3253,7 +3297,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 90,
@@ -3269,13 +3315,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw89a2044d/images/hi-res/coin-programs/American-Eagle/25eb_c.jpg?sh=1200&sm=fit&sw=1200",
+    "image": "assets/gold-coins/90/view-01.webp",
     "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw89a2044d/images/hi-res/coin-programs/American-Eagle/25eb_c.jpg?sh=1200&sm=fit&sw=1200",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202025%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202025%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20EAGLE%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw89a2044d/images/hi-res/coin-programs/American-Eagle/25eb_c.jpg?sh=1200&sm=fit&sw=1200"
+      "assets/gold-coins/90/view-01.webp",
+      "assets/gold-coins/90/view-02.webp",
+      "assets/gold-coins/90/view-03.webp",
+      "assets/gold-coins/90/view-04.webp",
+      "assets/gold-coins/90/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2025,
@@ -3315,7 +3361,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 91,
@@ -3383,13 +3431,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Obv.jpg",
+    "image": "assets/gold-coins/92/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Obv.jpg",
-      "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Rev.jpg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202003%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202003%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Slab.jpg"
+      "assets/gold-coins/92/view-01.webp",
+      "assets/gold-coins/92/view-02.webp",
+      "assets/gold-coins/92/view-03.webp",
+      "assets/gold-coins/92/view-04.webp",
+      "assets/gold-coins/92/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2003,
@@ -3424,7 +3472,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 93,
@@ -3492,13 +3542,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg",
+    "image": "assets/gold-coins/94/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg",
-      "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Rev.jpg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202005%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202005%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg"
+      "assets/gold-coins/94/view-01.webp",
+      "assets/gold-coins/94/view-02.webp",
+      "assets/gold-coins/94/view-03.webp",
+      "assets/gold-coins/94/view-04.webp",
+      "assets/gold-coins/94/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2005,
@@ -3533,7 +3583,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 95,
@@ -3549,13 +3601,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Obv.jpg",
+    "image": "assets/gold-coins/95/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Obv.jpg",
-      "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Rev.jpg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202006%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202006%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.images-apmex.com/images/products/2006-w-1-oz-proof-american-gold-eagle-w-box-coa_12209_Obv.jpg"
+      "assets/gold-coins/95/view-01.webp",
+      "assets/gold-coins/95/view-02.webp",
+      "assets/gold-coins/95/view-03.webp",
+      "assets/gold-coins/95/view-04.webp",
+      "assets/gold-coins/95/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2006,
@@ -3590,7 +3642,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 96,
@@ -3606,13 +3660,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_obv.jpg",
+    "image": "assets/gold-coins/96/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_obv.jpg",
-      "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_rev.jpg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202007%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202007%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.images-apmex.com/images/products/2007-1-oz-american-gold-eagle-bu_21529_slab.jpg"
+      "assets/gold-coins/96/view-01.webp",
+      "assets/gold-coins/96/view-02.webp",
+      "assets/gold-coins/96/view-03.webp",
+      "assets/gold-coins/96/view-04.webp",
+      "assets/gold-coins/96/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2007,
@@ -3647,7 +3701,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 97,
@@ -3767,13 +3823,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Obv.jpg",
+    "image": "assets/gold-coins/99/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Obv.jpg",
-      "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Rev.jpg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202010%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202010%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.images-apmex.com/images/products/2010-1-oz-american-gold-eagle-ms-69-pcgs_84951_Slab.jpg"
+      "assets/gold-coins/99/view-01.webp",
+      "assets/gold-coins/99/view-02.webp",
+      "assets/gold-coins/99/view-03.webp",
+      "assets/gold-coins/99/view-04.webp",
+      "assets/gold-coins/99/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2010,
@@ -3808,7 +3864,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 100,
@@ -3824,13 +3882,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Obv.jpg",
+    "image": "assets/gold-coins/100/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Obv.jpg",
-      "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Rev.jpg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202011%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202011%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.images-apmex.com/images/products/2011-1-oz-american-gold-eagle-bu_59146_Obv.jpg"
+      "assets/gold-coins/100/view-01.webp",
+      "assets/gold-coins/100/view-02.webp",
+      "assets/gold-coins/100/view-03.webp",
+      "assets/gold-coins/100/view-04.webp",
+      "assets/gold-coins/100/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2011,
@@ -3865,7 +3923,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 101,
@@ -3881,13 +3941,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Obv.jpg",
+    "image": "assets/gold-coins/101/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Obv.jpg",
-      "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Rev.jpg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202012%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202012%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.images-apmex.com/images/products/2012-1-oz-american-gold-eagle-ms-70-ngc-early-releases_67319_Slab.jpg"
+      "assets/gold-coins/101/view-01.webp",
+      "assets/gold-coins/101/view-02.webp",
+      "assets/gold-coins/101/view-03.webp",
+      "assets/gold-coins/101/view-04.webp",
+      "assets/gold-coins/101/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2012,
@@ -3922,7 +3982,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 102,
@@ -3990,13 +4052,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://sdbullion.com/media/catalog/product/o/b/obv1_1_8.jpg",
+    "image": "assets/gold-coins/103/view-01.webp",
     "images": [
-      "https://sdbullion.com/media/catalog/product/o/b/obv1_1_8.jpg",
-      "https://i.usacoinbook.com/us-coins/american-eagle-gold-bullion.webp",
-      "https://sdbullion.com/media/catalog/product/o/b/obv1_1_8.jpg",
-      "https://i.usacoinbook.com/us-coins/american-eagle-gold-bullion.webp",
-      "https://sdbullion.com/media/catalog/product/o/b/obv1_1_8.jpg"
+      "assets/gold-coins/103/view-01.webp",
+      "assets/gold-coins/103/view-02.webp",
+      "assets/gold-coins/103/view-03.webp",
+      "assets/gold-coins/103/view-04.webp",
+      "assets/gold-coins/103/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -4037,8 +4099,8 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "U.S. Mint American Eagle product; product identity and design verified against U.S. Mint and dealer references.",
     "brand_source": "U.S. Mint",
-    "image_quality_status": "Verified product photography",
-    "image_note": "Replaced the broken APMEX slab URL and incomplete gallery with verified 2014 American Gold Eagle obverse/reverse photography; no generated placeholder artwork."
+    "image_quality_status": "Local Bonds Mall generated asset",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts."
   },
   {
     "id": 104,
@@ -4054,13 +4116,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2015-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746044884206.coreimg.jpeg/1746045039634/2015-american-liberty-high-relief-gold-coin-obverse.jpeg",
+    "image": "assets/gold-coins/104/view-01.webp",
     "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2015-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746044884206.coreimg.jpeg/1746045039634/2015-american-liberty-high-relief-gold-coin-obverse.jpeg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202015%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202015%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2015-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746044884206.coreimg.jpeg/1746045039634/2015-american-liberty-high-relief-gold-coin-obverse.jpeg"
+      "assets/gold-coins/104/view-01.webp",
+      "assets/gold-coins/104/view-02.webp",
+      "assets/gold-coins/104/view-03.webp",
+      "assets/gold-coins/104/view-04.webp",
+      "assets/gold-coins/104/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2015,
@@ -4099,7 +4161,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 105,
@@ -4115,13 +4179,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/centennial-gold-coins/standing-liberty/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746131370494.coreimg.jpeg/1746131416981/2016-standing-liberty-centennial-gold-coin-obverse.jpeg",
+    "image": "assets/gold-coins/105/view-01.webp",
     "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/centennial-gold-coins/standing-liberty/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746131370494.coreimg.jpeg/1746131416981/2016-standing-liberty-centennial-gold-coin-obverse.jpeg",
-      "https://www.coinnews.net/wp-content/uploads/2016/09/2016-W-Standing-Liberty-Centennial-Gold-Coin-Edge-and-Rim.jpg",
-      "https://www.coinnews.net/wp-content/uploads/2016/09/2016-W-Standing-Liberty-Centennial-Gold-Coin-Edge-and-Rim.jpg",
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/centennial-gold-coins/standing-liberty/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746131371832.coreimg.jpeg/1746131442285/2016-standing-liberty-centennial-gold-coin-reverse.jpeg",
-      "https://images.squarespace-cdn.com/content/v1/63b6137df8b2930293ac10c0/12d650b3-0399-422b-8ade-8d71c80b375f/734070.jpg?format=2500w"
+      "assets/gold-coins/105/view-01.webp",
+      "assets/gold-coins/105/view-02.webp",
+      "assets/gold-coins/105/view-03.webp",
+      "assets/gold-coins/105/view-04.webp",
+      "assets/gold-coins/105/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/centennial-gold-coins/standing-liberty/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746131370494.coreimg.jpeg/1746131416981/2016-standing-liberty-centennial-gold-coin-obverse.jpeg",
@@ -4163,8 +4227,8 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product; product identity and specifications are verified against U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "image_quality_status": "Verified five-view gallery",
-    "image_note": "Gallery uses verified obverse and reverse photography, a reeded-edge photograph, and a presentation-case photograph; no generated placeholder coin art is used."
+    "image_quality_status": "Local Bonds Mall generated asset",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts."
   },
   {
     "id": 106,
@@ -4180,13 +4244,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2017-225th-anniversary-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476400191.coreimg.jpeg/1746476444828/2017-american-liberty-225th-anniversary-gold-coin-obverse.jpeg",
+    "image": "assets/gold-coins/106/view-01.webp",
     "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2017-225th-anniversary-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476400191.coreimg.jpeg/1746476444828/2017-american-liberty-225th-anniversary-gold-coin-obverse.jpeg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202017%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202017%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2017-225th-anniversary-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476400191.coreimg.jpeg/1746476444828/2017-american-liberty-225th-anniversary-gold-coin-obverse.jpeg"
+      "assets/gold-coins/106/view-01.webp",
+      "assets/gold-coins/106/view-02.webp",
+      "assets/gold-coins/106/view-03.webp",
+      "assets/gold-coins/106/view-04.webp",
+      "assets/gold-coins/106/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2017,
@@ -4225,7 +4289,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 107,
@@ -4241,13 +4307,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2018-american-liberty-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/image.coreimg.jpeg/1768937527901/2018-american-liberty-one-tenth-ounce-gold-proof-coin-obverse.jpeg",
+    "image": "assets/gold-coins/107/view-01.webp",
     "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2018-american-liberty-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/image.coreimg.jpeg/1768937527901/2018-american-liberty-one-tenth-ounce-gold-proof-coin-obverse.jpeg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202018%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202018%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2018-american-liberty-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/image.coreimg.jpeg/1768937527901/2018-american-liberty-one-tenth-ounce-gold-proof-coin-obverse.jpeg"
+      "assets/gold-coins/107/view-01.webp",
+      "assets/gold-coins/107/view-02.webp",
+      "assets/gold-coins/107/view-03.webp",
+      "assets/gold-coins/107/view-04.webp",
+      "assets/gold-coins/107/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2018,
@@ -4286,7 +4352,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 108,
@@ -4302,13 +4370,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2019-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476835051.coreimg.jpeg/1746476875811/2019-american-liberty-24k-gold-coin-obverse.jpeg",
+    "image": "assets/gold-coins/108/view-01.webp",
     "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2019-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476835051.coreimg.jpeg/1746476875811/2019-american-liberty-24k-gold-coin-obverse.jpeg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202019%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202019%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2019-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476835051.coreimg.jpeg/1746476875811/2019-american-liberty-24k-gold-coin-obverse.jpeg"
+      "assets/gold-coins/108/view-01.webp",
+      "assets/gold-coins/108/view-02.webp",
+      "assets/gold-coins/108/view-03.webp",
+      "assets/gold-coins/108/view-04.webp",
+      "assets/gold-coins/108/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2019,
@@ -4347,7 +4415,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 109,
@@ -4363,13 +4433,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_obv.jpg",
+    "image": "assets/gold-coins/109/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_obv.jpg",
-      "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_rev.jpg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202020%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202020%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_slab.jpg"
+      "assets/gold-coins/109/view-01.webp",
+      "assets/gold-coins/109/view-02.webp",
+      "assets/gold-coins/109/view-03.webp",
+      "assets/gold-coins/109/view-04.webp",
+      "assets/gold-coins/109/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2020,
@@ -4404,7 +4474,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 110,
@@ -4420,13 +4492,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477806941.coreimg.jpeg/1746477854266/2021-american-liberty-high-relief-gold-coin-obverse.jpeg",
+    "image": "assets/gold-coins/110/view-01.webp",
     "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477806941.coreimg.jpeg/1746477854266/2021-american-liberty-high-relief-gold-coin-obverse.jpeg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202021%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202021%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477806941.coreimg.jpeg/1746477854266/2021-american-liberty-high-relief-gold-coin-obverse.jpeg"
+      "assets/gold-coins/110/view-01.webp",
+      "assets/gold-coins/110/view-02.webp",
+      "assets/gold-coins/110/view-03.webp",
+      "assets/gold-coins/110/view-04.webp",
+      "assets/gold-coins/110/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2021,
@@ -4465,7 +4537,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 111,
@@ -4547,13 +4621,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/content/usmint/us/en/learn/coins-and-medals/collectible-coins/american-liberty/2023-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1746478374606/2023-american-liberty-high-relief-gold-coin-obverse.jpeg",
+    "image": "assets/gold-coins/112/view-01.webp",
     "images": [
-      "https://www.usmint.gov/content/usmint/us/en/learn/coins-and-medals/collectible-coins/american-liberty/2023-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1746478374606/2023-american-liberty-high-relief-gold-coin-obverse.jpeg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202023%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202023%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2023-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1746478374606/2023-american-liberty-high-relief-gold-coin-obverse.jpeg"
+      "assets/gold-coins/112/view-01.webp",
+      "assets/gold-coins/112/view-02.webp",
+      "assets/gold-coins/112/view-03.webp",
+      "assets/gold-coins/112/view-04.webp",
+      "assets/gold-coins/112/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2023,
@@ -4592,7 +4666,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 113,
@@ -4608,13 +4684,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/liberty-and-britannia/liberty-and-britannia-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746123204923.coreimg.jpeg/1746123345863/2024-liberty-britannia-gold-coin-obverse.jpeg",
+    "image": "assets/gold-coins/113/view-01.webp",
     "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/liberty-and-britannia/liberty-and-britannia-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746123204923.coreimg.jpeg/1746123345863/2024-liberty-britannia-gold-coin-obverse.jpeg",
-      "https://www.usmint.gov/content/usmint/us/en/learn/coins-and-medals/collectible-coins/liberty-and-britannia/liberty-and-britannia-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746123206131.coreimg.jpeg/1746123371340/2024-liberty-britannia-gold-coin-reverse.jpeg",
-      "https://www.usmint.gov/content/usmint/us/en/learn/coins-and-medals/collectible-coins/liberty-and-britannia/liberty-and-britannia-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746123204923.coreimg.jpeg/1746123345863/2024-liberty-britannia-gold-coin-obverse.jpeg",
-      "https://www.usmint.gov/content/usmint/us/en/learn/coins-and-medals/collectible-coins/liberty-and-britannia/liberty-and-britannia-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746123206131.coreimg.jpeg/1746123371340/2024-liberty-britannia-gold-coin-reverse.jpeg",
-      "https://sdbullion.com/media/catalog/product/g/u/gus24libbritw-1p-2024-w-us-gold-britannia-and-liberty-1-oz-proof-box-coa.jpg"
+      "assets/gold-coins/113/view-01.webp",
+      "assets/gold-coins/113/view-02.webp",
+      "assets/gold-coins/113/view-03.webp",
+      "assets/gold-coins/113/view-04.webp",
+      "assets/gold-coins/113/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -4659,8 +4735,8 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint 2024 Liberty & Britannia gold proof coin; product identity and specifications are verified against U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "image_quality_status": "Verified five-view gallery",
-    "image_note": "Gallery uses official U.S. Mint obverse/reverse photography, perspective treatment of the verified obverse/reverse for the left/right slots, and verified presentation-set photography for the case view. No generated placeholder coin art is used."
+    "image_quality_status": "Local Bonds Mall generated asset",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts."
   },
   {
     "id": 114,
@@ -4676,13 +4752,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
+    "image": "assets/gold-coins/114/view-01.webp",
     "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M275%20490%20Q360%20380%20450%20405%20Q540%20380%20625%20490%20Q550%20525%20500%20485%20Q450%20535%20400%20485%20Q350%20525%20275%20490Z%22%20fill%3D%22%23b48735%22%20stroke%3D%22%235a3a12%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M365%20440%20Q450%20390%20535%20440%22%20fill%3D%22none%22%20stroke%3D%22%23f0d27a%22%20stroke-width%3D%2212%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22255%22%20class%3D%22small%22%3EUNITED%20STATES%20OF%20AMERICA%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%22665%22%20class%3D%22small%22%3EE%20PLURIBUS%20UNUM%20%E2%80%A2%20GOLD%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202025%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202025%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20LIBERTY%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg"
+      "assets/gold-coins/114/view-01.webp",
+      "assets/gold-coins/114/view-02.webp",
+      "assets/gold-coins/114/view-03.webp",
+      "assets/gold-coins/114/view-04.webp",
+      "assets/gold-coins/114/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2025,
@@ -4721,7 +4797,9 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 115,
@@ -4737,13 +4815,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/american-liberty-lion-gold-2026/obverse_full_field_lion_high_relief.png",
+    "image": "assets/gold-coins/115/view-01.webp",
     "images": [
-      "assets/american-liberty-lion-gold-2026/obverse_full_field_lion_high_relief.png",
-      "assets/american-liberty-lion-gold-2026/coin_60_degrees_left.png",
-      "assets/american-liberty-lion-gold-2026/coin_60_degrees_right.png",
-      "assets/american-liberty-lion-gold-2026/reverse_high_relief_small_mintmarks.png",
-      "assets/american-liberty-lion-gold-2026/coin_in_american_lion_case_complete_rim.webp"
+      "assets/gold-coins/115/view-01.webp",
+      "assets/gold-coins/115/view-02.webp",
+      "assets/gold-coins/115/view-03.webp",
+      "assets/gold-coins/115/view-04.webp",
+      "assets/gold-coins/115/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -4779,8 +4857,8 @@ window.products = [
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
     "photo_display": "Full five-view display",
-    "image_quality_status": "Verified product photography",
-    "image_note": "Local Bonds Mall product-specific image set for the 2026 American Liberty Lion gold coin; catalog name retained."
+    "image_quality_status": "Local Bonds Mall generated asset",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts."
   },
   {
     "id": 116,
@@ -4796,13 +4874,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.moneymetals.com/images/products/2020-1oz-gold-rounds-american-buffalo-proofs-obverse.jpg",
+    "image": "assets/gold-coins/116/view-01.webp",
     "images": [
-      "https://www.moneymetals.com/images/products/2020-1oz-gold-rounds-american-buffalo-proofs-obverse.jpg",
-      "https://www.moneymetals.com/images/products/2020-1oz-gold-rounds-american-buffalo-proofs-reverse.jpg",
-      "https://www.moneymetals.com/images/products/2020-1oz-gold-rounds-american-buffalo-proofs-obverse.jpg",
-      "https://www.moneymetals.com/images/products/2020-1oz-gold-rounds-american-buffalo-proofs-reverse.jpg",
-      "https://www.moneymetals.com/images/products/2020-1oz-gold-rounds-american-buffalo-proofs-open-case.jpg"
+      "assets/gold-coins/116/view-01.webp",
+      "assets/gold-coins/116/view-02.webp",
+      "assets/gold-coins/116/view-03.webp",
+      "assets/gold-coins/116/view-04.webp",
+      "assets/gold-coins/116/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -4844,8 +4922,8 @@ window.products = [
     "authenticity": "Official U.S. Mint product issue; image sources are identified by view and the gallery does not use generated placeholder coin art.",
     "brand_source": "U.S. Mint",
     "photo_display": "Full five-view display",
-    "image_quality_status": "Verified five-view gallery",
-    "image_note": "Gallery uses verified 2020 obverse and reverse coin photography, perspective treatment for the left/right side slots, and a verified 2020 Mint presentation case/COA photo. No generic placeholder coin art is used."
+    "image_quality_status": "Local Bonds Mall generated asset",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts."
   },
   {
     "id": 117,
@@ -4861,13 +4939,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://unitedpatriotcoin.com/cdn/shop/files/1gbu21pr_600x600_png.png?v=1760027219&width=1090",
+    "image": "assets/gold-coins/117/view-01.webp",
     "images": [
-      "https://unitedpatriotcoin.com/cdn/shop/files/1gbu21pr_600x600_png.png?v=1760027219&width=1090",
-      "https://unitedpatriotcoin.com/cdn/shop/files/1gbu21prr_600x600_png.png?v=1760027219&width=1090",
-      "https://unitedpatriotcoin.com/cdn/shop/files/1gbu21pr_600x600_png.png?v=1760027219&width=1090",
-      "https://unitedpatriotcoin.com/cdn/shop/files/1gbu21prr_600x600_png.png?v=1760027219&width=1090",
-      "https://idccoin.com/thumbs/2021-w-1-oz-proof-american-gold-buffalo-coin-box-coa-310751-large.jpg"
+      "assets/gold-coins/117/view-01.webp",
+      "assets/gold-coins/117/view-02.webp",
+      "assets/gold-coins/117/view-03.webp",
+      "assets/gold-coins/117/view-04.webp",
+      "assets/gold-coins/117/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -4909,7 +4987,9 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 118,
@@ -4925,13 +5005,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://i.usacoinbook.com/us-coins/2022-w-proof-one-ounce-american-gold-buffalo.jpg",
+    "image": "assets/gold-coins/118/view-01.webp",
     "images": [
-      "https://i.usacoinbook.com/us-coins/2022-w-proof-one-ounce-american-gold-buffalo.jpg",
-      "https://assets.goldeneaglecoin.com/resource/productimages/Buff2022PFr.jpg",
-      "https://i.usacoinbook.com/us-coins/2022-w-proof-one-ounce-american-gold-buffalo.jpg",
-      "https://assets.goldeneaglecoin.com/resource/productimages/Buff2022PFr.jpg",
-      "https://www.images-apmex.com/images/products/2022-w-1-oz-proof-gold-buffalo-w-box-coa_252126_slab.jpg?height=560&v=20220516094716%3Fv%3D20250509010437&width=560"
+      "assets/gold-coins/118/view-01.webp",
+      "assets/gold-coins/118/view-02.webp",
+      "assets/gold-coins/118/view-03.webp",
+      "assets/gold-coins/118/view-04.webp",
+      "assets/gold-coins/118/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -4975,8 +5055,8 @@ window.products = [
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
     "photo_display": "Full five-view display",
-    "image_quality_status": "Verified five-view gallery",
-    "image_note": "Gallery uses verified 2022 American Buffalo obverse/reverse photography, CSS perspective treatment for the side slots, and verified 2022 U.S. Mint packaging photography for the case view. No American Eagle imagery or generated placeholder art is used."
+    "image_quality_status": "Local Bonds Mall generated asset",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts."
   },
   {
     "id": 119,
@@ -4992,13 +5072,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2023-1-oz-gold-buffalo-proof_259999_obv.jpg",
+    "image": "assets/gold-coins/119/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg",
-      "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Rev.jpg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202005%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20BUFFALO%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202005%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20BUFFALO%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.images-apmex.com/images/products/2005-w-1-oz-proof-american-gold-eagle-w-box-coa_12208_Obv.jpg"
+      "assets/gold-coins/119/view-01.webp",
+      "assets/gold-coins/119/view-02.webp",
+      "assets/gold-coins/119/view-03.webp",
+      "assets/gold-coins/119/view-04.webp",
+      "assets/gold-coins/119/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -5033,7 +5113,9 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 120,
@@ -5049,13 +5131,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2006-1-oz-gold-buffalo-bu_17870_obv.jpg",
+    "image": "assets/gold-coins/120/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2006-1-oz-gold-buffalo-bu_17870_obv.jpg",
-      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
+      "assets/gold-coins/120/view-01.webp",
+      "assets/gold-coins/120/view-02.webp",
+      "assets/gold-coins/120/view-03.webp",
+      "assets/gold-coins/120/view-04.webp",
+      "assets/gold-coins/120/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -5094,7 +5176,9 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 121,
@@ -5110,13 +5194,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.moneymetals.com/images/products/2007-1oz-gold-coins-american-buffalo-proof-obverse.jpg",
+    "image": "assets/gold-coins/121/view-01.webp",
     "images": [
-      "https://www.moneymetals.com/images/products/2007-1oz-gold-coins-american-buffalo-proof-obverse.jpg",
-      "https://www.moneymetals.com/images/products/2007-1oz-gold-coins-american-buffalo-proof-reverse.jpg",
-      "https://www.moneymetals.com/images/products/2007-1oz-gold-coins-american-buffalo-proof-obverse.jpg",
-      "https://www.moneymetals.com/images/products/2007-1oz-gold-coins-american-buffalo-proof-reverse.jpg",
-      "https://www.moneymetals.com/images/products/2007-1oz-gold-coins-american-buffalo-proof-case.jpg"
+      "assets/gold-coins/121/view-01.webp",
+      "assets/gold-coins/121/view-02.webp",
+      "assets/gold-coins/121/view-03.webp",
+      "assets/gold-coins/121/view-04.webp",
+      "assets/gold-coins/121/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -5156,8 +5240,8 @@ window.products = [
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
     "photo_display": "Full five-view display",
-    "image_quality_status": "Verified five-view gallery",
-    "image_note": "Product card and main image use the verified 2007 American Buffalo proof obverse. Gallery uses the verified Buffalo reverse and 2007 U.S. Mint presentation-case photograph; side slots use the verified obverse/reverse with the site's perspective treatment. No American Eagle or unrelated imagery is used."
+    "image_quality_status": "Local Bonds Mall generated asset",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts."
   },
   {
     "id": 122,
@@ -5173,13 +5257,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2008-1-oz-gold-buffalo-bu_31508_slab.jpg",
+    "image": "assets/gold-coins/122/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2008-1-oz-gold-buffalo-bu_31508_slab.jpg",
-      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
+      "assets/gold-coins/122/view-01.webp",
+      "assets/gold-coins/122/view-02.webp",
+      "assets/gold-coins/122/view-03.webp",
+      "assets/gold-coins/122/view-04.webp",
+      "assets/gold-coins/122/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2008-1-oz-gold-buffalo-bu_31508_slab.jpg",
@@ -5219,7 +5303,9 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 123,
@@ -5235,13 +5321,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://static.jmbullion.com/image/upload/v1761315577/GCAB109_4_obverse",
+    "image": "assets/gold-coins/123/view-01.webp",
     "images": [
-      "https://static.jmbullion.com/image/upload/v1761315577/GCAB109_4_obverse",
-      "https://d3h9wgial7chxw.cloudfront.net/products/6334/zoom/2009-gold-1-ounce-buffalo-coin-single-united-states-of-america-reverse.jpg?format=webp",
-      "https://www.images-apmex.com/images/products/2009-1-oz-gold-buffalo-bu_56068_Obv.jpg?height=900&v=20191025091623&width=900",
-      "https://thecastlejewelry.com/cdn/shop/files/buffalodown.jpg?v=1773252959&width=1024",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
+      "assets/gold-coins/123/view-01.webp",
+      "assets/gold-coins/123/view-02.webp",
+      "assets/gold-coins/123/view-03.webp",
+      "assets/gold-coins/123/view-04.webp",
+      "assets/gold-coins/123/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://static.jmbullion.com/image/upload/v1761315577/GCAB109_4_obverse",
@@ -5280,7 +5366,9 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 124,
@@ -5296,13 +5384,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2010-1-oz-gold-buffalo-bu_57934_Obv.jpg",
+    "image": "assets/gold-coins/124/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2010-1-oz-gold-buffalo-bu_57934_Obv.jpg",
-      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
+      "assets/gold-coins/124/view-01.webp",
+      "assets/gold-coins/124/view-02.webp",
+      "assets/gold-coins/124/view-03.webp",
+      "assets/gold-coins/124/view-04.webp",
+      "assets/gold-coins/124/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -5341,7 +5429,9 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 125,
@@ -5357,13 +5447,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2011-1-oz-gold-buffalo-bu_61068_Obv.jpg",
+    "image": "assets/gold-coins/125/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2011-1-oz-gold-buffalo-bu_61068_Obv.jpg",
-      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
+      "assets/gold-coins/125/view-01.webp",
+      "assets/gold-coins/125/view-02.webp",
+      "assets/gold-coins/125/view-03.webp",
+      "assets/gold-coins/125/view-04.webp",
+      "assets/gold-coins/125/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -5402,7 +5492,9 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 126,
@@ -5418,13 +5510,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2012-1-oz-gold-buffalo-bu_65232_Obv.jpg",
+    "image": "assets/gold-coins/126/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2012-1-oz-gold-buffalo-bu_65232_Obv.jpg",
-      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
+      "assets/gold-coins/126/view-01.webp",
+      "assets/gold-coins/126/view-02.webp",
+      "assets/gold-coins/126/view-03.webp",
+      "assets/gold-coins/126/view-04.webp",
+      "assets/gold-coins/126/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -5463,7 +5555,9 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 127,
@@ -5479,13 +5573,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2013-1-oz-gold-buffalo-bu_71283_Obv.jpg",
+    "image": "assets/gold-coins/127/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2013-1-oz-gold-buffalo-bu_71283_Obv.jpg",
-      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
+      "assets/gold-coins/127/view-01.webp",
+      "assets/gold-coins/127/view-02.webp",
+      "assets/gold-coins/127/view-03.webp",
+      "assets/gold-coins/127/view-04.webp",
+      "assets/gold-coins/127/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2013-1-oz-gold-buffalo-bu_71283_Obv.jpg",
@@ -5525,7 +5619,9 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 128,
@@ -5541,13 +5637,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2014-1-oz-gold-buffalo-bu_79035_slab.jpg",
+    "image": "assets/gold-coins/128/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2014-1-oz-gold-buffalo-bu_79035_slab.jpg",
-      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
+      "assets/gold-coins/128/view-01.webp",
+      "assets/gold-coins/128/view-02.webp",
+      "assets/gold-coins/128/view-03.webp",
+      "assets/gold-coins/128/view-04.webp",
+      "assets/gold-coins/128/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2014-1-oz-gold-buffalo-bu_79035_slab.jpg",
@@ -5587,7 +5683,9 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 129,
@@ -5603,13 +5701,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2015-1-oz-gold-buffalo-bu_84912_Slab.jpg",
+    "image": "assets/gold-coins/129/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2015-1-oz-gold-buffalo-bu_84912_Slab.jpg",
-      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
+      "assets/gold-coins/129/view-01.webp",
+      "assets/gold-coins/129/view-02.webp",
+      "assets/gold-coins/129/view-03.webp",
+      "assets/gold-coins/129/view-04.webp",
+      "assets/gold-coins/129/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2015-1-oz-gold-buffalo-bu_84912_Slab.jpg",
@@ -5649,7 +5747,9 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 130,
@@ -5665,13 +5765,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2016-1-oz-gold-buffalo-bu_93752_Slab.jpg",
+    "image": "assets/gold-coins/130/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2016-1-oz-gold-buffalo-bu_93752_Slab.jpg",
-      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
+      "assets/gold-coins/130/view-01.webp",
+      "assets/gold-coins/130/view-02.webp",
+      "assets/gold-coins/130/view-03.webp",
+      "assets/gold-coins/130/view-04.webp",
+      "assets/gold-coins/130/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2016-1-oz-gold-buffalo-bu_93752_Slab.jpg",
@@ -5711,7 +5811,9 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 131,
@@ -5727,13 +5829,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2017-1-oz-gold-buffalo-bu_102638_slab.jpg",
+    "image": "assets/gold-coins/131/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2017-1-oz-gold-buffalo-bu_102638_slab.jpg",
-      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
+      "assets/gold-coins/131/view-01.webp",
+      "assets/gold-coins/131/view-02.webp",
+      "assets/gold-coins/131/view-03.webp",
+      "assets/gold-coins/131/view-04.webp",
+      "assets/gold-coins/131/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2017-1-oz-gold-buffalo-bu_102638_slab.jpg",
@@ -5773,7 +5875,9 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 132,
@@ -5789,13 +5893,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2018-1-oz-gold-buffalo-bu_152637_slab.jpg",
+    "image": "assets/gold-coins/132/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2018-1-oz-gold-buffalo-bu_152637_slab.jpg",
-      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
+      "assets/gold-coins/132/view-01.webp",
+      "assets/gold-coins/132/view-02.webp",
+      "assets/gold-coins/132/view-03.webp",
+      "assets/gold-coins/132/view-04.webp",
+      "assets/gold-coins/132/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2018-1-oz-gold-buffalo-bu_152637_slab.jpg",
@@ -5835,7 +5939,9 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 133,
@@ -5851,13 +5957,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2019-1-oz-gold-buffalo-bu_171428_obv.jpg",
+    "image": "assets/gold-coins/133/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2019-1-oz-gold-buffalo-bu_171428_obv.jpg",
-      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
+      "assets/gold-coins/133/view-01.webp",
+      "assets/gold-coins/133/view-02.webp",
+      "assets/gold-coins/133/view-03.webp",
+      "assets/gold-coins/133/view-04.webp",
+      "assets/gold-coins/133/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2019-1-oz-gold-buffalo-bu_171428_obv.jpg",
@@ -5897,7 +6003,9 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 134,
@@ -5913,13 +6021,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2020-1-oz-gold-buffalo-bu_196112_obv.jpg",
+    "image": "assets/gold-coins/134/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2020-1-oz-gold-buffalo-bu_196112_obv.jpg",
-      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
+      "assets/gold-coins/134/view-01.webp",
+      "assets/gold-coins/134/view-02.webp",
+      "assets/gold-coins/134/view-03.webp",
+      "assets/gold-coins/134/view-04.webp",
+      "assets/gold-coins/134/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -5958,7 +6066,9 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 135,
@@ -5974,13 +6084,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2021-1-oz-gold-buffalo-bu_223496_obv.jpg",
+    "image": "assets/gold-coins/135/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2021-1-oz-gold-buffalo-bu_223496_obv.jpg",
-      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
+      "assets/gold-coins/135/view-01.webp",
+      "assets/gold-coins/135/view-02.webp",
+      "assets/gold-coins/135/view-03.webp",
+      "assets/gold-coins/135/view-04.webp",
+      "assets/gold-coins/135/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2021-1-oz-gold-buffalo-bu_223496_obv.jpg",
@@ -6020,7 +6130,9 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 136,
@@ -6036,13 +6148,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2022-1-oz-gold-buffalo-bu_246785_slab.jpg",
+    "image": "assets/gold-coins/136/view-01.webp",
     "images": [
-      "https://www.images-apmex.com/images/products/2022-1-oz-gold-buffalo-bu_246785_slab.jpg",
-      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
+      "assets/gold-coins/136/view-01.webp",
+      "assets/gold-coins/136/view-02.webp",
+      "assets/gold-coins/136/view-03.webp",
+      "assets/gold-coins/136/view-04.webp",
+      "assets/gold-coins/136/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2022-1-oz-gold-buffalo-bu_246785_slab.jpg",
@@ -6082,7 +6194,9 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 137,
@@ -6098,13 +6212,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-bullion.com/bcom-images/products/1172_obv.webp?height=700&v=20130602094622&width=700",
+    "image": "assets/gold-coins/137/view-01.webp",
     "images": [
-      "https://www.images-bullion.com/bcom-images/products/1172_obv.webp?height=700&v=20130602094622&width=700",
-      "https://www.images-bullion.com/bcom-images/products/1172_rev.webp?height=700&v=20130602094622&width=700",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
+      "assets/gold-coins/137/view-01.webp",
+      "assets/gold-coins/137/view-02.webp",
+      "assets/gold-coins/137/view-03.webp",
+      "assets/gold-coins/137/view-04.webp",
+      "assets/gold-coins/137/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-bullion.com/bcom-images/products/1172_obv.webp?height=700&v=20130602094622&width=700",
@@ -6144,7 +6258,9 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 138,
@@ -6160,13 +6276,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-bullion.com/bcom-images/products/1359_slab.webp?height=700&v=20240108050441&width=700",
+    "image": "assets/gold-coins/138/view-01.webp",
     "images": [
-      "https://www.images-bullion.com/bcom-images/products/1359_slab.webp?height=700&v=20240108050441&width=700",
-      "https://www.images-bullion.com/bcom-images/products/1359_obv.webp?height=700&v=20231227072632&width=700",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
+      "assets/gold-coins/138/view-01.webp",
+      "assets/gold-coins/138/view-02.webp",
+      "assets/gold-coins/138/view-03.webp",
+      "assets/gold-coins/138/view-04.webp",
+      "assets/gold-coins/138/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-bullion.com/bcom-images/products/1359_slab.webp?height=700&v=20240108050441&width=700",
@@ -6206,7 +6322,9 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 139,
@@ -6222,13 +6340,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-bullion.com/bcom-images/products/1479_obv.webp?height=700&v=20250115125720&width=700",
+    "image": "assets/gold-coins/139/view-01.webp",
     "images": [
-      "https://www.images-bullion.com/bcom-images/products/1479_obv.webp?height=700&v=20250115125720&width=700",
-      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
+      "assets/gold-coins/139/view-01.webp",
+      "assets/gold-coins/139/view-02.webp",
+      "assets/gold-coins/139/view-03.webp",
+      "assets/gold-coins/139/view-04.webp",
+      "assets/gold-coins/139/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-bullion.com/bcom-images/products/1479_obv.webp?height=700&v=20250115125720&width=700",
@@ -6268,7 +6386,9 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
-    "brand_source": "U.S. Mint"
+    "brand_source": "U.S. Mint",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 140,
@@ -6284,13 +6404,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/content/dam/usmint/image-library/coins/2026/American-Buffalo-Proof-Gold-Obverse.jpg",
+    "image": "assets/gold-coins/140/view-01.webp",
     "images": [
-      "https://www.usmint.gov/content/dam/usmint/image-library/coins/2026/American-Buffalo-Proof-Gold-Obverse.jpg",
-      "https://www.usmint.gov/content/dam/usmint/image-library/coins/2026/American-Buffalo-Proof-Gold-Reverse.jpg",
-      "https://www.usmint.gov/content/dam/usmint/image-library/coins/2026/American-Buffalo-Proof-Gold-Obverse.jpg",
-      "https://www.usmint.gov/content/dam/usmint/image-library/coins/2026/American-Buffalo-Proof-Gold-Reverse.jpg",
-      "https://i.ebayimg.com/images/g/uvUAAeSwcSpp~PR6/s-l500.jpg"
+      "assets/gold-coins/140/view-01.webp",
+      "assets/gold-coins/140/view-02.webp",
+      "assets/gold-coins/140/view-03.webp",
+      "assets/gold-coins/140/view-04.webp",
+      "assets/gold-coins/140/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -6329,7 +6449,9 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated asset"
   },
   {
     "id": 297,
@@ -12203,4 +12325,4 @@ window.products = [
     },
     "image_note": "The first four images are official Burberry product assets. The fifth is a top-down/opening view from Nordstrom's Mini Primrose listing, used to supply the requested overhead view."
   }
-];
+]
