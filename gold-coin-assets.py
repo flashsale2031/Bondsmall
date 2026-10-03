@@ -80,7 +80,7 @@ def main() -> None:
     end = text.rfind("];")
     if start < 0 or end < 0:
         raise RuntimeError("products.js does not contain the expected array")
-    products = json.loads(text[start : end + 2])
+    products = json.loads(text[start : end + 1])
 
     generated = []
     skipped = []
