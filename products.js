@@ -6262,13 +6262,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/content/dam/usmint/image-library/coins/2026/American-Buffalo-Gold-Bullion-Obverse.jpg",
+    "image": "https://www.usmint.gov/content/dam/usmint/image-library/coins/2026/American-Buffalo-Proof-Gold-Obverse.jpg",
     "images": [
-      "https://www.usmint.gov/content/dam/usmint/image-library/coins/2026/American-Buffalo-Gold-Bullion-Obverse.jpg",
-      "https://www.usmint.gov/content/dam/usmint/image-library/coins/2026/American-Buffalo-Gold-Bullion-Reverse.jpg",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
+      "https://www.usmint.gov/content/dam/usmint/image-library/coins/2026/American-Buffalo-Proof-Gold-Obverse.jpg",
+      "https://www.usmint.gov/content/dam/usmint/image-library/coins/2026/American-Buffalo-Proof-Gold-Reverse.jpg",
+      "https://www.usmint.gov/content/dam/usmint/image-library/coins/2026/American-Buffalo-Proof-Gold-Obverse.jpg",
+      "https://www.usmint.gov/content/dam/usmint/image-library/coins/2026/American-Buffalo-Proof-Gold-Reverse.jpg",
+      "https://i.ebayimg.com/images/g/uvUAAeSwcSpp~PR6/s-l500.jpg"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -6277,7 +6277,7 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
+    "photo_source": "Verified 2026 U.S. Mint proof obverse/reverse photography; verified 2026 American Buffalo presentation packaging photograph.",
     "photo_year": 2026,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
