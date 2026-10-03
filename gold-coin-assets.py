@@ -23,7 +23,7 @@ ROOT = Path(__file__).resolve().parent
 PRODUCTS = ROOT / "products.js"
 OUT = ROOT / "assets" / "gold-coins"
 UA = "BondsMall-GoldCoinAssetBuilder/1.0"
-TIMEOUT = 30
+TIMEOUT = 8\nMAX_WORKERS = 12
 
 
 def load_source(value: str) -> Image.Image:
@@ -116,12 +116,19 @@ def main() -> None:
         target = OUT / str(product_id)
         target.mkdir(parents=True, exist_ok=True)
 
-        rendered = []
-        for index, source in enumerate(unique_sources, 1):
-            try:
-                rendered.append(normalize(load_source(source)))
-            except Exception as exc:
-                print(f"WARN id={product_id} source={index}: {exc}")
+        rendered = [None] * len(unique_sources)
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
+            jobs = {
+                pool.submit(load_source, source): index
+                for index, source in enumerate(unique_sources, 1)
+            }
+            for future in as_completed(jobs):
+                index = jobs[future]
+                try:
+                    rendered[index - 1] = normalize(future.result())
+                except Exception as exc:
+                    print(f"WARN id={product_id} source={index}: {exc}")
+        rendered = [image for image in rendered if image is not None]
 
         if not rendered:
             skipped.append(product_id)
