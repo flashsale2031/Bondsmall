@@ -4796,13 +4796,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://mgi.usgoldbureau.com/media/catalog/product/p/r/prod-20_50gabpf70-2020-gold-american-buffalo-proof-70-coin-obverse-650x650.jpg",
+    "image": "https://www.moneymetals.com/images/products/2020-1oz-gold-rounds-american-buffalo-proofs-obverse.jpg",
     "images": [
-      "https://mgi.usgoldbureau.com/media/catalog/product/p/r/prod-20_50gabpf70-2020-gold-american-buffalo-proof-70-coin-obverse-650x650.jpg",
-      "https://mgi.usgoldbureau.com/media/catalog/product/p/r/prod-20_50gabpf70-2020-gold-american-buffalo-proof-70-coin-reverse-650x650.jpg",
-      "https://mgi.usgoldbureau.com/media/catalog/product/p/r/prod-20_50gabpf70-2020-gold-american-buffalo-proof-70-coin-obverse-650x650.jpg",
-      "https://mgi.usgoldbureau.com/media/catalog/product/p/r/prod-20_50gabpf70-2020-gold-american-buffalo-proof-70-coin-reverse-650x650.jpg",
-      "https://www.mintstategold.com/media/catalog/product/cache/8257fd1fd60adc6f013bbf0852afb486/2/0/20wbuff_boxmsg.jpg"
+      "https://www.moneymetals.com/images/products/2020-1oz-gold-rounds-american-buffalo-proofs-obverse.jpg",
+      "https://www.moneymetals.com/images/products/2020-1oz-gold-rounds-american-buffalo-proofs-reverse.jpg",
+      "https://www.moneymetals.com/images/products/2020-1oz-gold-rounds-american-buffalo-proofs-obverse.jpg",
+      "https://www.moneymetals.com/images/products/2020-1oz-gold-rounds-american-buffalo-proofs-reverse.jpg",
+      "https://www.moneymetals.com/images/products/2020-1oz-gold-rounds-american-buffalo-proofs-open-case.jpg"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -4811,7 +4811,7 @@ window.products = [
       "back": "images[1]",
       "case_photo": "images[4]"
     },
-    "photo_source": "2020-specific American Buffalo Gold Proof obverse/reverse photography from U.S. Gold Bureau; 2020 Mint presentation case/COA photography from Mint State Gold; U.S. Mint issue verified.",
+    "photo_source": "Verified 2020 American Buffalo Gold Proof obverse/reverse and presentation-case photography from Money Metals Exchange; U.S. Mint issue verified.",
     "photo_year": 2020,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/news/press-releases/2020-american-buffalo-one-ounce-gold-proof-coin-on-sale-may-7",
