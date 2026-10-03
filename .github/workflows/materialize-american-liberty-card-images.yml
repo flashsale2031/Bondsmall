@@ -1,0 +1,68 @@
+name: Materialize American Liberty card images
+
+on:
+  push:
+    paths:
+      - "products.js"
+      - ".github/workflows/materialize-american-liberty-card-images.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[bot-assets]')"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download verified card images
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+
+          images = {
+              "2017.jpg": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2017-225th-anniversary-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476400191.coreimg.jpeg/1746476444828/2017-american-liberty-225th-anniversary-gold-coin-obverse.jpeg",
+              "2018.jpg": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2018-american-liberty-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/image.coreimg.jpeg/1768937527901/2018-american-liberty-one-tenth-ounce-gold-proof-coin-obverse.jpeg",
+              "2019.jpg": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2019-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746476835051.coreimg.jpeg/1746476875811/2019-american-liberty-24k-gold-coin-obverse.jpeg",
+              "2020.jpg": "https://www.images-apmex.com/images/products/2020-1-oz-american-gold-eagle-mintdirect-single_196140_obv.jpg",
+              "2021.jpg": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746477806941.coreimg.jpeg/1746477854266/2021-american-liberty-high-relief-gold-coin-obverse.jpeg",
+              "2022.jpg": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2022-american-liberty-silver/_jcr_content/root/container_1426747781/imagegallerypdp/item_1751990764522.coreimg.jpeg/1751990795954/2022-american-liberty-silver-medal-obverse.jpeg",
+              "2023.jpg": "https://www.usmint.gov/content/usmint/us/en/learn/coins-and-medals/collectible-coins/american-liberty/2023-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1746478374606/2023-american-liberty-high-relief-gold-coin-obverse.jpeg",
+              "2024.jpg": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/liberty-and-britannia/liberty-and-britannia-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746123204923.coreimg.jpeg/1746123345863/2024-liberty-britannia-gold-coin-obverse.jpeg",
+              "2025.jpg": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746478319507.coreimg.jpeg/1768933792492/american-liberty-gold-obverse.jpeg",
+          }
+
+          out = Path("assets/product-card/american-liberty")
+          out.mkdir(parents=True, exist_ok=True)
+
+          for filename, url in images.items():
+              target = out / filename
+              req = Request(url, headers={
+                  "User-Agent": "Mozilla/5.0 (compatible; BondsMallAssetMaterializer/1.0)"
+              })
+              with urlopen(req, timeout=45) as response:
+                  data = response.read()
+              if len(data) < 1000:
+                  raise RuntimeError(f"{filename}: downloaded content is unexpectedly small")
+              target.write_bytes(data)
+              print(f"materialized {target} ({len(data)} bytes)")
+
+          PY
+
+      - name: Commit materialized assets
+        run: |
+          git config user.name "Bonds Mall Asset Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add assets/product-card/american-liberty
+          if git diff --cached --quiet; then
+            echo "No new image assets to commit."
+            exit 0
+          fi
+          git commit -m "Materialize American Liberty card images [bot-assets]"
+          git push
