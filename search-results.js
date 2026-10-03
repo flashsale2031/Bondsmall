@@ -136,7 +136,7 @@
             ![91, 93, 97, 98, 102].includes(id);
         if (!isGoldCoin) return "";
         const safeView = Math.max(1, Math.min(5, Number(view) || 1));
-        return `assets/gold-coins/${id}/view-${String(safeView).padStart(2, "0")}.webp`;
+        return `/assets/gold-coins/${id}/view-${String(safeView).padStart(2, "0")}.webp`;
     }
 
     function optimizeGridImageUrl(rawUrl, product = null) {

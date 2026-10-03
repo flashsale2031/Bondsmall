@@ -9,7 +9,7 @@
   const base = 'catalog-pages/';
   const target = window.products = window.products || [];
   const authority = window.BondsmallCatalogAuthority || { records: [], has: () => false, get: () => null };
-  const version = '2.4.3-gzip';
+  const version = '2.4.4-gold-local';
   const categoryIndex = (window.BondsmallCategoryIndex && window.BondsmallCategoryIndex.categories) || {};
   const categoryStates = new Map();
 
@@ -24,7 +24,23 @@
     // Keep the chunk's shape and order. Replace only matching IDs with the
     // immutable products.js snapshot; never prepend the full authority list to
     // every lazy chunk, which would make every page render page one again.
-    return incoming.map(product => byId.get(Number(product && product.id)) || product);
+    return incoming.map(product => {
+      const chosen = byId.get(Number(product && product.id)) || product;
+      const id = Number(chosen && chosen.id);
+      const name = String(chosen && chosen.name || '').toLowerCase();
+      const category = String(chosen && chosen.category || '').toLowerCase();
+      const isGoldCoin = Number.isFinite(id) &&
+        (name.includes('gold coin') || (category === 'artandcollectibles' && name.includes('gold'))) &&
+        id >= 60 && id <= 140 &&
+        ![91, 93, 97, 98, 102].includes(id);
+      if (!isGoldCoin) return chosen;
+      const base = '/assets/gold-coins/' + id;
+      return {
+        ...chosen,
+        image: base + '/view-01.webp',
+        images: [1, 2, 3, 4, 5].map(view => base + '/view-' + String(view).padStart(2, '0') + '.webp')
+      };
+    });
   }
 
   function setTarget(records) {

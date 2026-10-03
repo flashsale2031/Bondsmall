@@ -35,7 +35,7 @@ window.BondsGoldCoinImages = window.BondsGoldCoinImages || (() => {
             id >= 60 && id <= 140 &&
             ![91, 93, 97, 98, 102].includes(id);
         if (!isGold) return null;
-        const base = `assets/gold-coins/${id}`;
+        const base = `/assets/gold-coins/${id}`;
         return {
             images: [1,2,3,4,5].map(view => `${base}/view-${String(view).padStart(2, "0")}.webp`),
             modes: ["front","left","right","back","case"]

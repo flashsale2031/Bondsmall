@@ -1487,14 +1487,14 @@ window.products = [
     "category": "artandcollectibles",
     "retail price": 19999.99,
     "sale price": 5999.99,
-    "image": "assets/gold-coins/60/view-01.webp",
+    "image": "/assets/gold-coins/60/view-01.webp",
     "description": "The 2021 American Liberty High Relief Gold Coin is the fifth coin in the American Liberty series. Since its debut in 2015, the American Liberty Gold Coin and Silver Medal Program features coins and medals with modern depictions of allegorical Liberty on the obverse. The reverse features complementary eagle designs. The designs represent what liberty means to each of us individually as Americans, or collectively as a nation.",
     "images": [
-      "assets/gold-coins/60/view-01.webp",
-      "assets/gold-coins/60/view-02.webp",
-      "assets/gold-coins/60/view-03.webp",
-      "assets/gold-coins/60/view-04.webp",
-      "assets/gold-coins/60/view-05.webp"
+      "/assets/gold-coins/60/view-01.webp",
+      "/assets/gold-coins/60/view-02.webp",
+      "/assets/gold-coins/60/view-03.webp",
+      "/assets/gold-coins/60/view-04.webp",
+      "/assets/gold-coins/60/view-05.webp"
     ],
     "specifications": {
       "brand": "US Mint",
@@ -1535,14 +1535,14 @@ window.products = [
     "retail price": 7999.99,
     "sale price": 4999.99,
     "pre-owned price": 3999.99,
-    "image": "assets/gold-coins/61/view-01.webp",
+    "image": "/assets/gold-coins/61/view-01.webp",
     "description": "The rugged designs featured on the iconic Buffalo Nickel have never fallen out of favor with collectors who have proven time and time again their love for the romance of the Wild West that the coin epitomizes. The series ended in 1938 but was not forgotten. The design appears each year on the United States Mint's spectacular $50 Gold Buffalo coin, and now the 2026 Gold Buffalos are getting ready to rumble out of The Mint and stampede their way into your collection!",
     "images": [
-      "assets/gold-coins/61/view-01.webp",
-      "assets/gold-coins/61/view-02.webp",
-      "assets/gold-coins/61/view-03.webp",
-      "assets/gold-coins/61/view-04.webp",
-      "assets/gold-coins/61/view-05.webp"
+      "/assets/gold-coins/61/view-01.webp",
+      "/assets/gold-coins/61/view-02.webp",
+      "/assets/gold-coins/61/view-03.webp",
+      "/assets/gold-coins/61/view-04.webp",
+      "/assets/gold-coins/61/view-05.webp"
     ],
     "specifications": {
       "brand": "US Mint",
@@ -1585,14 +1585,14 @@ window.products = [
     "retail price": 7499.99,
     "sale price": 5799.99,
     "pre-owned price": 3749.99,
-    "image": "assets/gold-coins/62/view-01.webp",
+    "image": "/assets/gold-coins/62/view-01.webp",
     "description": "The 2026 American Eagle One Ounce Gold Proof Coin celebrates the 250th anniversary of our Nation's founding with this limited-edition release! Includes anti-counterfeit variable reeding. Struck at the United States Mint facility at West Point. Quantities are limited, don't miss this golden opportunity for this special one-year only edition!",
     "images": [
-      "assets/gold-coins/62/view-01.webp",
-      "assets/gold-coins/62/view-02.webp",
-      "assets/gold-coins/62/view-03.webp",
-      "assets/gold-coins/62/view-04.webp",
-      "assets/gold-coins/62/view-05.webp"
+      "/assets/gold-coins/62/view-01.webp",
+      "/assets/gold-coins/62/view-02.webp",
+      "/assets/gold-coins/62/view-03.webp",
+      "/assets/gold-coins/62/view-04.webp",
+      "/assets/gold-coins/62/view-05.webp"
     ],
     "specifications": {
       "brand": "US Mint",
@@ -1633,14 +1633,14 @@ window.products = [
     "category": "artandcollectibles",
     "retail price": 6499.99,
     "sale price": 4999.99,
-    "image": "assets/gold-coins/63/view-01.webp",
+    "image": "/assets/gold-coins/63/view-01.webp",
     "description": "The 2017 $100 American Liberty 225th Anniversary Gold Coin (1oz) was made to celerbate the 225th anniversary of the US Mint. The obverse depicts Lady Liberty with a crown of stars. The reverse features a fierce looking eagle mid flight. This coin is 1oz .9999 pure gold and was struck at West Point. Only 100,000 of these were ever minted.",
     "images": [
-      "assets/gold-coins/63/view-01.webp",
-      "assets/gold-coins/63/view-02.webp",
-      "assets/gold-coins/63/view-03.webp",
-      "assets/gold-coins/63/view-04.webp",
-      "assets/gold-coins/63/view-05.webp"
+      "/assets/gold-coins/63/view-01.webp",
+      "/assets/gold-coins/63/view-02.webp",
+      "/assets/gold-coins/63/view-03.webp",
+      "/assets/gold-coins/63/view-04.webp",
+      "/assets/gold-coins/63/view-05.webp"
     ],
     "specifications": {
       "brand": "US Mint",
@@ -1680,14 +1680,14 @@ window.products = [
     "category": "artandcollectibles",
     "retail price": 5999.99,
     "sale price": 4999.99,
-    "image": "assets/gold-coins/64/view-01.webp",
+    "image": "/assets/gold-coins/64/view-01.webp",
     "description": "From the shadows, the Dark Knight emerges as the second release in our Comic Art Coin Program. Batman is newly etched in a 99.9% 24-Karat gold proof coin.",
     "images": [
-      "assets/gold-coins/64/view-01.webp",
-      "assets/gold-coins/64/view-02.webp",
-      "assets/gold-coins/64/view-03.webp",
-      "assets/gold-coins/64/view-04.webp",
-      "assets/gold-coins/64/view-05.webp"
+      "/assets/gold-coins/64/view-01.webp",
+      "/assets/gold-coins/64/view-02.webp",
+      "/assets/gold-coins/64/view-03.webp",
+      "/assets/gold-coins/64/view-04.webp",
+      "/assets/gold-coins/64/view-05.webp"
     ],
     "specifications": {
       "brand": "US Mint",
@@ -1729,14 +1729,14 @@ window.products = [
     "category": "artandcollectibles",
     "retail price": 5999.99,
     "sale price": 4999.99,
-    "image": "assets/gold-coins/65/view-01.webp",
+    "image": "/assets/gold-coins/65/view-01.webp",
     "description": "An exceptional proof gold coin celebrating the Man of Steel. Professionally graded and encapsulated by U.S. Mint's approved comic art series.",
     "images": [
-      "assets/gold-coins/65/view-01.webp",
-      "assets/gold-coins/65/view-02.webp",
-      "assets/gold-coins/65/view-03.webp",
-      "assets/gold-coins/65/view-04.webp",
-      "assets/gold-coins/65/view-05.webp"
+      "/assets/gold-coins/65/view-01.webp",
+      "/assets/gold-coins/65/view-02.webp",
+      "/assets/gold-coins/65/view-03.webp",
+      "/assets/gold-coins/65/view-04.webp",
+      "/assets/gold-coins/65/view-05.webp"
     ],
     "specifications": {
       "brand": "US Mint",
@@ -1778,14 +1778,14 @@ window.products = [
     "retail price": 6999.99,
     "sale price": 5499.99,
     "pre-owned price": 3999.99,
-    "image": "assets/gold-coins/66/view-01.webp",
+    "image": "/assets/gold-coins/66/view-01.webp",
     "description": "A new addition to the United States Mint American Liberty gold coin collection, the 2026 American Liberty Lion Gold $1,000 Coin presents a dramatic high-relief lion design with a finely detailed reverse inspired by American founding ideals. Struck in a high-grade concentration of .9999 fine gold, the coin contains one troy ounce of fine gold and is presented as a distinguished collectible for serious numismatists and precious-metal collectors.",
     "images": [
-      "assets/gold-coins/66/view-01.webp",
-      "assets/gold-coins/66/view-02.webp",
-      "assets/gold-coins/66/view-03.webp",
-      "assets/gold-coins/66/view-04.webp",
-      "assets/gold-coins/66/view-05.webp"
+      "/assets/gold-coins/66/view-01.webp",
+      "/assets/gold-coins/66/view-02.webp",
+      "/assets/gold-coins/66/view-03.webp",
+      "/assets/gold-coins/66/view-04.webp",
+      "/assets/gold-coins/66/view-05.webp"
     ],
     "preOwnedImage": "assets/american-liberty-lion-gold-2026/preowned_coin_in_pcgs_holder.webp",
     "preOwnedImages": [
@@ -1843,13 +1843,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/67/view-01.webp",
+    "image": "/assets/gold-coins/67/view-01.webp",
     "images": [
-      "assets/gold-coins/67/view-01.webp",
-      "assets/gold-coins/67/view-02.webp",
-      "assets/gold-coins/67/view-03.webp",
-      "assets/gold-coins/67/view-04.webp",
-      "assets/gold-coins/67/view-05.webp"
+      "/assets/gold-coins/67/view-01.webp",
+      "/assets/gold-coins/67/view-02.webp",
+      "/assets/gold-coins/67/view-03.webp",
+      "/assets/gold-coins/67/view-04.webp",
+      "/assets/gold-coins/67/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2002,
@@ -1907,13 +1907,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/68/view-01.webp",
+    "image": "/assets/gold-coins/68/view-01.webp",
     "images": [
-      "assets/gold-coins/68/view-01.webp",
-      "assets/gold-coins/68/view-02.webp",
-      "assets/gold-coins/68/view-03.webp",
-      "assets/gold-coins/68/view-04.webp",
-      "assets/gold-coins/68/view-05.webp"
+      "/assets/gold-coins/68/view-01.webp",
+      "/assets/gold-coins/68/view-02.webp",
+      "/assets/gold-coins/68/view-03.webp",
+      "/assets/gold-coins/68/view-04.webp",
+      "/assets/gold-coins/68/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2003,
@@ -1971,13 +1971,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/69/view-01.webp",
+    "image": "/assets/gold-coins/69/view-01.webp",
     "images": [
-      "assets/gold-coins/69/view-01.webp",
-      "assets/gold-coins/69/view-02.webp",
-      "assets/gold-coins/69/view-03.webp",
-      "assets/gold-coins/69/view-04.webp",
-      "assets/gold-coins/69/view-05.webp"
+      "/assets/gold-coins/69/view-01.webp",
+      "/assets/gold-coins/69/view-02.webp",
+      "/assets/gold-coins/69/view-03.webp",
+      "/assets/gold-coins/69/view-04.webp",
+      "/assets/gold-coins/69/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2004,
@@ -2035,13 +2035,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/70/view-01.webp",
+    "image": "/assets/gold-coins/70/view-01.webp",
     "images": [
-      "assets/gold-coins/70/view-01.webp",
-      "assets/gold-coins/70/view-02.webp",
-      "assets/gold-coins/70/view-03.webp",
-      "assets/gold-coins/70/view-04.webp",
-      "assets/gold-coins/70/view-05.webp"
+      "/assets/gold-coins/70/view-01.webp",
+      "/assets/gold-coins/70/view-02.webp",
+      "/assets/gold-coins/70/view-03.webp",
+      "/assets/gold-coins/70/view-04.webp",
+      "/assets/gold-coins/70/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2005,
@@ -2099,13 +2099,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/71/view-01.webp",
+    "image": "/assets/gold-coins/71/view-01.webp",
     "images": [
-      "assets/gold-coins/71/view-01.webp",
-      "assets/gold-coins/71/view-02.webp",
-      "assets/gold-coins/71/view-03.webp",
-      "assets/gold-coins/71/view-04.webp",
-      "assets/gold-coins/71/view-05.webp"
+      "/assets/gold-coins/71/view-01.webp",
+      "/assets/gold-coins/71/view-02.webp",
+      "/assets/gold-coins/71/view-03.webp",
+      "/assets/gold-coins/71/view-04.webp",
+      "/assets/gold-coins/71/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2006,
@@ -2163,13 +2163,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/72/view-01.webp",
+    "image": "/assets/gold-coins/72/view-01.webp",
     "images": [
-      "assets/gold-coins/72/view-01.webp",
-      "assets/gold-coins/72/view-02.webp",
-      "assets/gold-coins/72/view-03.webp",
-      "assets/gold-coins/72/view-04.webp",
-      "assets/gold-coins/72/view-05.webp"
+      "/assets/gold-coins/72/view-01.webp",
+      "/assets/gold-coins/72/view-02.webp",
+      "/assets/gold-coins/72/view-03.webp",
+      "/assets/gold-coins/72/view-04.webp",
+      "/assets/gold-coins/72/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2007,
@@ -2227,13 +2227,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/73/view-01.webp",
+    "image": "/assets/gold-coins/73/view-01.webp",
     "images": [
-      "assets/gold-coins/73/view-01.webp",
-      "assets/gold-coins/73/view-02.webp",
-      "assets/gold-coins/73/view-03.webp",
-      "assets/gold-coins/73/view-04.webp",
-      "assets/gold-coins/73/view-05.webp"
+      "/assets/gold-coins/73/view-01.webp",
+      "/assets/gold-coins/73/view-02.webp",
+      "/assets/gold-coins/73/view-03.webp",
+      "/assets/gold-coins/73/view-04.webp",
+      "/assets/gold-coins/73/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2008,
@@ -2291,13 +2291,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/74/view-01.webp",
+    "image": "/assets/gold-coins/74/view-01.webp",
     "images": [
-      "assets/gold-coins/74/view-01.webp",
-      "assets/gold-coins/74/view-02.webp",
-      "assets/gold-coins/74/view-03.webp",
-      "assets/gold-coins/74/view-04.webp",
-      "assets/gold-coins/74/view-05.webp"
+      "/assets/gold-coins/74/view-01.webp",
+      "/assets/gold-coins/74/view-02.webp",
+      "/assets/gold-coins/74/view-03.webp",
+      "/assets/gold-coins/74/view-04.webp",
+      "/assets/gold-coins/74/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2009,
@@ -2355,13 +2355,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/75/view-01.webp",
+    "image": "/assets/gold-coins/75/view-01.webp",
     "images": [
-      "assets/gold-coins/75/view-01.webp",
-      "assets/gold-coins/75/view-02.webp",
-      "assets/gold-coins/75/view-03.webp",
-      "assets/gold-coins/75/view-04.webp",
-      "assets/gold-coins/75/view-05.webp"
+      "/assets/gold-coins/75/view-01.webp",
+      "/assets/gold-coins/75/view-02.webp",
+      "/assets/gold-coins/75/view-03.webp",
+      "/assets/gold-coins/75/view-04.webp",
+      "/assets/gold-coins/75/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2010,
@@ -2419,13 +2419,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/76/view-01.webp",
+    "image": "/assets/gold-coins/76/view-01.webp",
     "images": [
-      "assets/gold-coins/76/view-01.webp",
-      "assets/gold-coins/76/view-02.webp",
-      "assets/gold-coins/76/view-03.webp",
-      "assets/gold-coins/76/view-04.webp",
-      "assets/gold-coins/76/view-05.webp"
+      "/assets/gold-coins/76/view-01.webp",
+      "/assets/gold-coins/76/view-02.webp",
+      "/assets/gold-coins/76/view-03.webp",
+      "/assets/gold-coins/76/view-04.webp",
+      "/assets/gold-coins/76/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2011,
@@ -2483,13 +2483,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/77/view-01.webp",
+    "image": "/assets/gold-coins/77/view-01.webp",
     "images": [
-      "assets/gold-coins/77/view-01.webp",
-      "assets/gold-coins/77/view-02.webp",
-      "assets/gold-coins/77/view-03.webp",
-      "assets/gold-coins/77/view-04.webp",
-      "assets/gold-coins/77/view-05.webp"
+      "/assets/gold-coins/77/view-01.webp",
+      "/assets/gold-coins/77/view-02.webp",
+      "/assets/gold-coins/77/view-03.webp",
+      "/assets/gold-coins/77/view-04.webp",
+      "/assets/gold-coins/77/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2012,
@@ -2547,13 +2547,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/78/view-01.webp",
+    "image": "/assets/gold-coins/78/view-01.webp",
     "images": [
-      "assets/gold-coins/78/view-01.webp",
-      "assets/gold-coins/78/view-02.webp",
-      "assets/gold-coins/78/view-03.webp",
-      "assets/gold-coins/78/view-04.webp",
-      "assets/gold-coins/78/view-05.webp"
+      "/assets/gold-coins/78/view-01.webp",
+      "/assets/gold-coins/78/view-02.webp",
+      "/assets/gold-coins/78/view-03.webp",
+      "/assets/gold-coins/78/view-04.webp",
+      "/assets/gold-coins/78/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -2611,13 +2611,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/79/view-01.webp",
+    "image": "/assets/gold-coins/79/view-01.webp",
     "images": [
-      "assets/gold-coins/79/view-01.webp",
-      "assets/gold-coins/79/view-02.webp",
-      "assets/gold-coins/79/view-03.webp",
-      "assets/gold-coins/79/view-04.webp",
-      "assets/gold-coins/79/view-05.webp"
+      "/assets/gold-coins/79/view-01.webp",
+      "/assets/gold-coins/79/view-02.webp",
+      "/assets/gold-coins/79/view-03.webp",
+      "/assets/gold-coins/79/view-04.webp",
+      "/assets/gold-coins/79/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -2675,13 +2675,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/80/view-01.webp",
+    "image": "/assets/gold-coins/80/view-01.webp",
     "images": [
-      "assets/gold-coins/80/view-01.webp",
-      "assets/gold-coins/80/view-02.webp",
-      "assets/gold-coins/80/view-03.webp",
-      "assets/gold-coins/80/view-04.webp",
-      "assets/gold-coins/80/view-05.webp"
+      "/assets/gold-coins/80/view-01.webp",
+      "/assets/gold-coins/80/view-02.webp",
+      "/assets/gold-coins/80/view-03.webp",
+      "/assets/gold-coins/80/view-04.webp",
+      "/assets/gold-coins/80/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2015,
@@ -2739,13 +2739,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/81/view-01.webp",
+    "image": "/assets/gold-coins/81/view-01.webp",
     "images": [
-      "assets/gold-coins/81/view-01.webp",
-      "assets/gold-coins/81/view-02.webp",
-      "assets/gold-coins/81/view-03.webp",
-      "assets/gold-coins/81/view-04.webp",
-      "assets/gold-coins/81/view-05.webp"
+      "/assets/gold-coins/81/view-01.webp",
+      "/assets/gold-coins/81/view-02.webp",
+      "/assets/gold-coins/81/view-03.webp",
+      "/assets/gold-coins/81/view-04.webp",
+      "/assets/gold-coins/81/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2016,
@@ -2803,13 +2803,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/82/view-01.webp",
+    "image": "/assets/gold-coins/82/view-01.webp",
     "images": [
-      "assets/gold-coins/82/view-01.webp",
-      "assets/gold-coins/82/view-02.webp",
-      "assets/gold-coins/82/view-03.webp",
-      "assets/gold-coins/82/view-04.webp",
-      "assets/gold-coins/82/view-05.webp"
+      "/assets/gold-coins/82/view-01.webp",
+      "/assets/gold-coins/82/view-02.webp",
+      "/assets/gold-coins/82/view-03.webp",
+      "/assets/gold-coins/82/view-04.webp",
+      "/assets/gold-coins/82/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -2867,13 +2867,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/83/view-01.webp",
+    "image": "/assets/gold-coins/83/view-01.webp",
     "images": [
-      "assets/gold-coins/83/view-01.webp",
-      "assets/gold-coins/83/view-02.webp",
-      "assets/gold-coins/83/view-03.webp",
-      "assets/gold-coins/83/view-04.webp",
-      "assets/gold-coins/83/view-05.webp"
+      "/assets/gold-coins/83/view-01.webp",
+      "/assets/gold-coins/83/view-02.webp",
+      "/assets/gold-coins/83/view-03.webp",
+      "/assets/gold-coins/83/view-04.webp",
+      "/assets/gold-coins/83/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2018,
@@ -2931,13 +2931,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/84/view-01.webp",
+    "image": "/assets/gold-coins/84/view-01.webp",
     "images": [
-      "assets/gold-coins/84/view-01.webp",
-      "assets/gold-coins/84/view-02.webp",
-      "assets/gold-coins/84/view-03.webp",
-      "assets/gold-coins/84/view-04.webp",
-      "assets/gold-coins/84/view-05.webp"
+      "/assets/gold-coins/84/view-01.webp",
+      "/assets/gold-coins/84/view-02.webp",
+      "/assets/gold-coins/84/view-03.webp",
+      "/assets/gold-coins/84/view-04.webp",
+      "/assets/gold-coins/84/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2019,
@@ -2995,13 +2995,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/85/view-01.webp",
+    "image": "/assets/gold-coins/85/view-01.webp",
     "images": [
-      "assets/gold-coins/85/view-01.webp",
-      "assets/gold-coins/85/view-02.webp",
-      "assets/gold-coins/85/view-03.webp",
-      "assets/gold-coins/85/view-04.webp",
-      "assets/gold-coins/85/view-05.webp"
+      "/assets/gold-coins/85/view-01.webp",
+      "/assets/gold-coins/85/view-02.webp",
+      "/assets/gold-coins/85/view-03.webp",
+      "/assets/gold-coins/85/view-04.webp",
+      "/assets/gold-coins/85/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2020,
@@ -3059,13 +3059,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/86/view-01.webp",
+    "image": "/assets/gold-coins/86/view-01.webp",
     "images": [
-      "assets/gold-coins/86/view-01.webp",
-      "assets/gold-coins/86/view-02.webp",
-      "assets/gold-coins/86/view-03.webp",
-      "assets/gold-coins/86/view-04.webp",
-      "assets/gold-coins/86/view-05.webp"
+      "/assets/gold-coins/86/view-01.webp",
+      "/assets/gold-coins/86/view-02.webp",
+      "/assets/gold-coins/86/view-03.webp",
+      "/assets/gold-coins/86/view-04.webp",
+      "/assets/gold-coins/86/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -3123,13 +3123,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/87/view-01.webp",
+    "image": "/assets/gold-coins/87/view-01.webp",
     "images": [
-      "assets/gold-coins/87/view-01.webp",
-      "assets/gold-coins/87/view-02.webp",
-      "assets/gold-coins/87/view-03.webp",
-      "assets/gold-coins/87/view-04.webp",
-      "assets/gold-coins/87/view-05.webp"
+      "/assets/gold-coins/87/view-01.webp",
+      "/assets/gold-coins/87/view-02.webp",
+      "/assets/gold-coins/87/view-03.webp",
+      "/assets/gold-coins/87/view-04.webp",
+      "/assets/gold-coins/87/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -3187,13 +3187,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/88/view-01.webp",
+    "image": "/assets/gold-coins/88/view-01.webp",
     "images": [
-      "assets/gold-coins/88/view-01.webp",
-      "assets/gold-coins/88/view-02.webp",
-      "assets/gold-coins/88/view-03.webp",
-      "assets/gold-coins/88/view-04.webp",
-      "assets/gold-coins/88/view-05.webp"
+      "/assets/gold-coins/88/view-01.webp",
+      "/assets/gold-coins/88/view-02.webp",
+      "/assets/gold-coins/88/view-03.webp",
+      "/assets/gold-coins/88/view-04.webp",
+      "/assets/gold-coins/88/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -3251,13 +3251,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/89/view-01.webp",
+    "image": "/assets/gold-coins/89/view-01.webp",
     "images": [
-      "assets/gold-coins/89/view-01.webp",
-      "assets/gold-coins/89/view-02.webp",
-      "assets/gold-coins/89/view-03.webp",
-      "assets/gold-coins/89/view-04.webp",
-      "assets/gold-coins/89/view-05.webp"
+      "/assets/gold-coins/89/view-01.webp",
+      "/assets/gold-coins/89/view-02.webp",
+      "/assets/gold-coins/89/view-03.webp",
+      "/assets/gold-coins/89/view-04.webp",
+      "/assets/gold-coins/89/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2024,
@@ -3315,13 +3315,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/90/view-01.webp",
+    "image": "/assets/gold-coins/90/view-01.webp",
     "images": [
-      "assets/gold-coins/90/view-01.webp",
-      "assets/gold-coins/90/view-02.webp",
-      "assets/gold-coins/90/view-03.webp",
-      "assets/gold-coins/90/view-04.webp",
-      "assets/gold-coins/90/view-05.webp"
+      "/assets/gold-coins/90/view-01.webp",
+      "/assets/gold-coins/90/view-02.webp",
+      "/assets/gold-coins/90/view-03.webp",
+      "/assets/gold-coins/90/view-04.webp",
+      "/assets/gold-coins/90/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2025,
@@ -3431,13 +3431,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/92/view-01.webp",
+    "image": "/assets/gold-coins/92/view-01.webp",
     "images": [
-      "assets/gold-coins/92/view-01.webp",
-      "assets/gold-coins/92/view-02.webp",
-      "assets/gold-coins/92/view-03.webp",
-      "assets/gold-coins/92/view-04.webp",
-      "assets/gold-coins/92/view-05.webp"
+      "/assets/gold-coins/92/view-01.webp",
+      "/assets/gold-coins/92/view-02.webp",
+      "/assets/gold-coins/92/view-03.webp",
+      "/assets/gold-coins/92/view-04.webp",
+      "/assets/gold-coins/92/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2003,
@@ -3542,13 +3542,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/94/view-01.webp",
+    "image": "/assets/gold-coins/94/view-01.webp",
     "images": [
-      "assets/gold-coins/94/view-01.webp",
-      "assets/gold-coins/94/view-02.webp",
-      "assets/gold-coins/94/view-03.webp",
-      "assets/gold-coins/94/view-04.webp",
-      "assets/gold-coins/94/view-05.webp"
+      "/assets/gold-coins/94/view-01.webp",
+      "/assets/gold-coins/94/view-02.webp",
+      "/assets/gold-coins/94/view-03.webp",
+      "/assets/gold-coins/94/view-04.webp",
+      "/assets/gold-coins/94/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2005,
@@ -3601,13 +3601,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/95/view-01.webp",
+    "image": "/assets/gold-coins/95/view-01.webp",
     "images": [
-      "assets/gold-coins/95/view-01.webp",
-      "assets/gold-coins/95/view-02.webp",
-      "assets/gold-coins/95/view-03.webp",
-      "assets/gold-coins/95/view-04.webp",
-      "assets/gold-coins/95/view-05.webp"
+      "/assets/gold-coins/95/view-01.webp",
+      "/assets/gold-coins/95/view-02.webp",
+      "/assets/gold-coins/95/view-03.webp",
+      "/assets/gold-coins/95/view-04.webp",
+      "/assets/gold-coins/95/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2006,
@@ -3660,13 +3660,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/96/view-01.webp",
+    "image": "/assets/gold-coins/96/view-01.webp",
     "images": [
-      "assets/gold-coins/96/view-01.webp",
-      "assets/gold-coins/96/view-02.webp",
-      "assets/gold-coins/96/view-03.webp",
-      "assets/gold-coins/96/view-04.webp",
-      "assets/gold-coins/96/view-05.webp"
+      "/assets/gold-coins/96/view-01.webp",
+      "/assets/gold-coins/96/view-02.webp",
+      "/assets/gold-coins/96/view-03.webp",
+      "/assets/gold-coins/96/view-04.webp",
+      "/assets/gold-coins/96/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2007,
@@ -3823,13 +3823,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/99/view-01.webp",
+    "image": "/assets/gold-coins/99/view-01.webp",
     "images": [
-      "assets/gold-coins/99/view-01.webp",
-      "assets/gold-coins/99/view-02.webp",
-      "assets/gold-coins/99/view-03.webp",
-      "assets/gold-coins/99/view-04.webp",
-      "assets/gold-coins/99/view-05.webp"
+      "/assets/gold-coins/99/view-01.webp",
+      "/assets/gold-coins/99/view-02.webp",
+      "/assets/gold-coins/99/view-03.webp",
+      "/assets/gold-coins/99/view-04.webp",
+      "/assets/gold-coins/99/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2010,
@@ -3882,13 +3882,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/100/view-01.webp",
+    "image": "/assets/gold-coins/100/view-01.webp",
     "images": [
-      "assets/gold-coins/100/view-01.webp",
-      "assets/gold-coins/100/view-02.webp",
-      "assets/gold-coins/100/view-03.webp",
-      "assets/gold-coins/100/view-04.webp",
-      "assets/gold-coins/100/view-05.webp"
+      "/assets/gold-coins/100/view-01.webp",
+      "/assets/gold-coins/100/view-02.webp",
+      "/assets/gold-coins/100/view-03.webp",
+      "/assets/gold-coins/100/view-04.webp",
+      "/assets/gold-coins/100/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2011,
@@ -3941,13 +3941,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/101/view-01.webp",
+    "image": "/assets/gold-coins/101/view-01.webp",
     "images": [
-      "assets/gold-coins/101/view-01.webp",
-      "assets/gold-coins/101/view-02.webp",
-      "assets/gold-coins/101/view-03.webp",
-      "assets/gold-coins/101/view-04.webp",
-      "assets/gold-coins/101/view-05.webp"
+      "/assets/gold-coins/101/view-01.webp",
+      "/assets/gold-coins/101/view-02.webp",
+      "/assets/gold-coins/101/view-03.webp",
+      "/assets/gold-coins/101/view-04.webp",
+      "/assets/gold-coins/101/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2012,
@@ -4052,13 +4052,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/103/view-01.webp",
+    "image": "/assets/gold-coins/103/view-01.webp",
     "images": [
-      "assets/gold-coins/103/view-01.webp",
-      "assets/gold-coins/103/view-02.webp",
-      "assets/gold-coins/103/view-03.webp",
-      "assets/gold-coins/103/view-04.webp",
-      "assets/gold-coins/103/view-05.webp"
+      "/assets/gold-coins/103/view-01.webp",
+      "/assets/gold-coins/103/view-02.webp",
+      "/assets/gold-coins/103/view-03.webp",
+      "/assets/gold-coins/103/view-04.webp",
+      "/assets/gold-coins/103/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -4116,13 +4116,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/104/view-01.webp",
+    "image": "/assets/gold-coins/104/view-01.webp",
     "images": [
-      "assets/gold-coins/104/view-01.webp",
-      "assets/gold-coins/104/view-02.webp",
-      "assets/gold-coins/104/view-03.webp",
-      "assets/gold-coins/104/view-04.webp",
-      "assets/gold-coins/104/view-05.webp"
+      "/assets/gold-coins/104/view-01.webp",
+      "/assets/gold-coins/104/view-02.webp",
+      "/assets/gold-coins/104/view-03.webp",
+      "/assets/gold-coins/104/view-04.webp",
+      "/assets/gold-coins/104/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2015,
@@ -4179,13 +4179,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/105/view-01.webp",
+    "image": "/assets/gold-coins/105/view-01.webp",
     "images": [
-      "assets/gold-coins/105/view-01.webp",
-      "assets/gold-coins/105/view-02.webp",
-      "assets/gold-coins/105/view-03.webp",
-      "assets/gold-coins/105/view-04.webp",
-      "assets/gold-coins/105/view-05.webp"
+      "/assets/gold-coins/105/view-01.webp",
+      "/assets/gold-coins/105/view-02.webp",
+      "/assets/gold-coins/105/view-03.webp",
+      "/assets/gold-coins/105/view-04.webp",
+      "/assets/gold-coins/105/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/centennial-gold-coins/standing-liberty/_jcr_content/root/container_1426747781/imagegallerypdp/item_1746131370494.coreimg.jpeg/1746131416981/2016-standing-liberty-centennial-gold-coin-obverse.jpeg",
@@ -4244,13 +4244,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/106/view-01.webp",
+    "image": "/assets/gold-coins/106/view-01.webp",
     "images": [
-      "assets/gold-coins/106/view-01.webp",
-      "assets/gold-coins/106/view-02.webp",
-      "assets/gold-coins/106/view-03.webp",
-      "assets/gold-coins/106/view-04.webp",
-      "assets/gold-coins/106/view-05.webp"
+      "/assets/gold-coins/106/view-01.webp",
+      "/assets/gold-coins/106/view-02.webp",
+      "/assets/gold-coins/106/view-03.webp",
+      "/assets/gold-coins/106/view-04.webp",
+      "/assets/gold-coins/106/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2017,
@@ -4307,13 +4307,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/107/view-01.webp",
+    "image": "/assets/gold-coins/107/view-01.webp",
     "images": [
-      "assets/gold-coins/107/view-01.webp",
-      "assets/gold-coins/107/view-02.webp",
-      "assets/gold-coins/107/view-03.webp",
-      "assets/gold-coins/107/view-04.webp",
-      "assets/gold-coins/107/view-05.webp"
+      "/assets/gold-coins/107/view-01.webp",
+      "/assets/gold-coins/107/view-02.webp",
+      "/assets/gold-coins/107/view-03.webp",
+      "/assets/gold-coins/107/view-04.webp",
+      "/assets/gold-coins/107/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2018,
@@ -4370,13 +4370,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/108/view-01.webp",
+    "image": "/assets/gold-coins/108/view-01.webp",
     "images": [
-      "assets/gold-coins/108/view-01.webp",
-      "assets/gold-coins/108/view-02.webp",
-      "assets/gold-coins/108/view-03.webp",
-      "assets/gold-coins/108/view-04.webp",
-      "assets/gold-coins/108/view-05.webp"
+      "/assets/gold-coins/108/view-01.webp",
+      "/assets/gold-coins/108/view-02.webp",
+      "/assets/gold-coins/108/view-03.webp",
+      "/assets/gold-coins/108/view-04.webp",
+      "/assets/gold-coins/108/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2019,
@@ -4433,13 +4433,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/109/view-01.webp",
+    "image": "/assets/gold-coins/109/view-01.webp",
     "images": [
-      "assets/gold-coins/109/view-01.webp",
-      "assets/gold-coins/109/view-02.webp",
-      "assets/gold-coins/109/view-03.webp",
-      "assets/gold-coins/109/view-04.webp",
-      "assets/gold-coins/109/view-05.webp"
+      "/assets/gold-coins/109/view-01.webp",
+      "/assets/gold-coins/109/view-02.webp",
+      "/assets/gold-coins/109/view-03.webp",
+      "/assets/gold-coins/109/view-04.webp",
+      "/assets/gold-coins/109/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2020,
@@ -4492,13 +4492,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/110/view-01.webp",
+    "image": "/assets/gold-coins/110/view-01.webp",
     "images": [
-      "assets/gold-coins/110/view-01.webp",
-      "assets/gold-coins/110/view-02.webp",
-      "assets/gold-coins/110/view-03.webp",
-      "assets/gold-coins/110/view-04.webp",
-      "assets/gold-coins/110/view-05.webp"
+      "/assets/gold-coins/110/view-01.webp",
+      "/assets/gold-coins/110/view-02.webp",
+      "/assets/gold-coins/110/view-03.webp",
+      "/assets/gold-coins/110/view-04.webp",
+      "/assets/gold-coins/110/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2021,
@@ -4621,13 +4621,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/112/view-01.webp",
+    "image": "/assets/gold-coins/112/view-01.webp",
     "images": [
-      "assets/gold-coins/112/view-01.webp",
-      "assets/gold-coins/112/view-02.webp",
-      "assets/gold-coins/112/view-03.webp",
-      "assets/gold-coins/112/view-04.webp",
-      "assets/gold-coins/112/view-05.webp"
+      "/assets/gold-coins/112/view-01.webp",
+      "/assets/gold-coins/112/view-02.webp",
+      "/assets/gold-coins/112/view-03.webp",
+      "/assets/gold-coins/112/view-04.webp",
+      "/assets/gold-coins/112/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2023,
@@ -4684,13 +4684,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/113/view-01.webp",
+    "image": "/assets/gold-coins/113/view-01.webp",
     "images": [
-      "assets/gold-coins/113/view-01.webp",
-      "assets/gold-coins/113/view-02.webp",
-      "assets/gold-coins/113/view-03.webp",
-      "assets/gold-coins/113/view-04.webp",
-      "assets/gold-coins/113/view-05.webp"
+      "/assets/gold-coins/113/view-01.webp",
+      "/assets/gold-coins/113/view-02.webp",
+      "/assets/gold-coins/113/view-03.webp",
+      "/assets/gold-coins/113/view-04.webp",
+      "/assets/gold-coins/113/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -4752,13 +4752,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/114/view-01.webp",
+    "image": "/assets/gold-coins/114/view-01.webp",
     "images": [
-      "assets/gold-coins/114/view-01.webp",
-      "assets/gold-coins/114/view-02.webp",
-      "assets/gold-coins/114/view-03.webp",
-      "assets/gold-coins/114/view-04.webp",
-      "assets/gold-coins/114/view-05.webp"
+      "/assets/gold-coins/114/view-01.webp",
+      "/assets/gold-coins/114/view-02.webp",
+      "/assets/gold-coins/114/view-03.webp",
+      "/assets/gold-coins/114/view-04.webp",
+      "/assets/gold-coins/114/view-05.webp"
     ],
     "photo_source": "Verified source image(s) where available; generated missing gallery views",
     "photo_year": 2025,
@@ -4815,13 +4815,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/115/view-01.webp",
+    "image": "/assets/gold-coins/115/view-01.webp",
     "images": [
-      "assets/gold-coins/115/view-01.webp",
-      "assets/gold-coins/115/view-02.webp",
-      "assets/gold-coins/115/view-03.webp",
-      "assets/gold-coins/115/view-04.webp",
-      "assets/gold-coins/115/view-05.webp"
+      "/assets/gold-coins/115/view-01.webp",
+      "/assets/gold-coins/115/view-02.webp",
+      "/assets/gold-coins/115/view-03.webp",
+      "/assets/gold-coins/115/view-04.webp",
+      "/assets/gold-coins/115/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -4874,13 +4874,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/116/view-01.webp",
+    "image": "/assets/gold-coins/116/view-01.webp",
     "images": [
-      "assets/gold-coins/116/view-01.webp",
-      "assets/gold-coins/116/view-02.webp",
-      "assets/gold-coins/116/view-03.webp",
-      "assets/gold-coins/116/view-04.webp",
-      "assets/gold-coins/116/view-05.webp"
+      "/assets/gold-coins/116/view-01.webp",
+      "/assets/gold-coins/116/view-02.webp",
+      "/assets/gold-coins/116/view-03.webp",
+      "/assets/gold-coins/116/view-04.webp",
+      "/assets/gold-coins/116/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -4939,13 +4939,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/117/view-01.webp",
+    "image": "/assets/gold-coins/117/view-01.webp",
     "images": [
-      "assets/gold-coins/117/view-01.webp",
-      "assets/gold-coins/117/view-02.webp",
-      "assets/gold-coins/117/view-03.webp",
-      "assets/gold-coins/117/view-04.webp",
-      "assets/gold-coins/117/view-05.webp"
+      "/assets/gold-coins/117/view-01.webp",
+      "/assets/gold-coins/117/view-02.webp",
+      "/assets/gold-coins/117/view-03.webp",
+      "/assets/gold-coins/117/view-04.webp",
+      "/assets/gold-coins/117/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -5005,13 +5005,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/118/view-01.webp",
+    "image": "/assets/gold-coins/118/view-01.webp",
     "images": [
-      "assets/gold-coins/118/view-01.webp",
-      "assets/gold-coins/118/view-02.webp",
-      "assets/gold-coins/118/view-03.webp",
-      "assets/gold-coins/118/view-04.webp",
-      "assets/gold-coins/118/view-05.webp"
+      "/assets/gold-coins/118/view-01.webp",
+      "/assets/gold-coins/118/view-02.webp",
+      "/assets/gold-coins/118/view-03.webp",
+      "/assets/gold-coins/118/view-04.webp",
+      "/assets/gold-coins/118/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -5072,13 +5072,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/119/view-01.webp",
+    "image": "/assets/gold-coins/119/view-01.webp",
     "images": [
-      "assets/gold-coins/119/view-01.webp",
-      "assets/gold-coins/119/view-02.webp",
-      "assets/gold-coins/119/view-03.webp",
-      "assets/gold-coins/119/view-04.webp",
-      "assets/gold-coins/119/view-05.webp"
+      "/assets/gold-coins/119/view-01.webp",
+      "/assets/gold-coins/119/view-02.webp",
+      "/assets/gold-coins/119/view-03.webp",
+      "/assets/gold-coins/119/view-04.webp",
+      "/assets/gold-coins/119/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -5131,13 +5131,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/120/view-01.webp",
+    "image": "/assets/gold-coins/120/view-01.webp",
     "images": [
-      "assets/gold-coins/120/view-01.webp",
-      "assets/gold-coins/120/view-02.webp",
-      "assets/gold-coins/120/view-03.webp",
-      "assets/gold-coins/120/view-04.webp",
-      "assets/gold-coins/120/view-05.webp"
+      "/assets/gold-coins/120/view-01.webp",
+      "/assets/gold-coins/120/view-02.webp",
+      "/assets/gold-coins/120/view-03.webp",
+      "/assets/gold-coins/120/view-04.webp",
+      "/assets/gold-coins/120/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -5194,13 +5194,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/121/view-01.webp",
+    "image": "/assets/gold-coins/121/view-01.webp",
     "images": [
-      "assets/gold-coins/121/view-01.webp",
-      "assets/gold-coins/121/view-02.webp",
-      "assets/gold-coins/121/view-03.webp",
-      "assets/gold-coins/121/view-04.webp",
-      "assets/gold-coins/121/view-05.webp"
+      "/assets/gold-coins/121/view-01.webp",
+      "/assets/gold-coins/121/view-02.webp",
+      "/assets/gold-coins/121/view-03.webp",
+      "/assets/gold-coins/121/view-04.webp",
+      "/assets/gold-coins/121/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -5257,13 +5257,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/122/view-01.webp",
+    "image": "/assets/gold-coins/122/view-01.webp",
     "images": [
-      "assets/gold-coins/122/view-01.webp",
-      "assets/gold-coins/122/view-02.webp",
-      "assets/gold-coins/122/view-03.webp",
-      "assets/gold-coins/122/view-04.webp",
-      "assets/gold-coins/122/view-05.webp"
+      "/assets/gold-coins/122/view-01.webp",
+      "/assets/gold-coins/122/view-02.webp",
+      "/assets/gold-coins/122/view-03.webp",
+      "/assets/gold-coins/122/view-04.webp",
+      "/assets/gold-coins/122/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2008-1-oz-gold-buffalo-bu_31508_slab.jpg",
@@ -5321,13 +5321,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/123/view-01.webp",
+    "image": "/assets/gold-coins/123/view-01.webp",
     "images": [
-      "assets/gold-coins/123/view-01.webp",
-      "assets/gold-coins/123/view-02.webp",
-      "assets/gold-coins/123/view-03.webp",
-      "assets/gold-coins/123/view-04.webp",
-      "assets/gold-coins/123/view-05.webp"
+      "/assets/gold-coins/123/view-01.webp",
+      "/assets/gold-coins/123/view-02.webp",
+      "/assets/gold-coins/123/view-03.webp",
+      "/assets/gold-coins/123/view-04.webp",
+      "/assets/gold-coins/123/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://static.jmbullion.com/image/upload/v1761315577/GCAB109_4_obverse",
@@ -5384,13 +5384,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/124/view-01.webp",
+    "image": "/assets/gold-coins/124/view-01.webp",
     "images": [
-      "assets/gold-coins/124/view-01.webp",
-      "assets/gold-coins/124/view-02.webp",
-      "assets/gold-coins/124/view-03.webp",
-      "assets/gold-coins/124/view-04.webp",
-      "assets/gold-coins/124/view-05.webp"
+      "/assets/gold-coins/124/view-01.webp",
+      "/assets/gold-coins/124/view-02.webp",
+      "/assets/gold-coins/124/view-03.webp",
+      "/assets/gold-coins/124/view-04.webp",
+      "/assets/gold-coins/124/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -5447,13 +5447,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/125/view-01.webp",
+    "image": "/assets/gold-coins/125/view-01.webp",
     "images": [
-      "assets/gold-coins/125/view-01.webp",
-      "assets/gold-coins/125/view-02.webp",
-      "assets/gold-coins/125/view-03.webp",
-      "assets/gold-coins/125/view-04.webp",
-      "assets/gold-coins/125/view-05.webp"
+      "/assets/gold-coins/125/view-01.webp",
+      "/assets/gold-coins/125/view-02.webp",
+      "/assets/gold-coins/125/view-03.webp",
+      "/assets/gold-coins/125/view-04.webp",
+      "/assets/gold-coins/125/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -5510,13 +5510,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/126/view-01.webp",
+    "image": "/assets/gold-coins/126/view-01.webp",
     "images": [
-      "assets/gold-coins/126/view-01.webp",
-      "assets/gold-coins/126/view-02.webp",
-      "assets/gold-coins/126/view-03.webp",
-      "assets/gold-coins/126/view-04.webp",
-      "assets/gold-coins/126/view-05.webp"
+      "/assets/gold-coins/126/view-01.webp",
+      "/assets/gold-coins/126/view-02.webp",
+      "/assets/gold-coins/126/view-03.webp",
+      "/assets/gold-coins/126/view-04.webp",
+      "/assets/gold-coins/126/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -5573,13 +5573,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/127/view-01.webp",
+    "image": "/assets/gold-coins/127/view-01.webp",
     "images": [
-      "assets/gold-coins/127/view-01.webp",
-      "assets/gold-coins/127/view-02.webp",
-      "assets/gold-coins/127/view-03.webp",
-      "assets/gold-coins/127/view-04.webp",
-      "assets/gold-coins/127/view-05.webp"
+      "/assets/gold-coins/127/view-01.webp",
+      "/assets/gold-coins/127/view-02.webp",
+      "/assets/gold-coins/127/view-03.webp",
+      "/assets/gold-coins/127/view-04.webp",
+      "/assets/gold-coins/127/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2013-1-oz-gold-buffalo-bu_71283_Obv.jpg",
@@ -5637,13 +5637,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/128/view-01.webp",
+    "image": "/assets/gold-coins/128/view-01.webp",
     "images": [
-      "assets/gold-coins/128/view-01.webp",
-      "assets/gold-coins/128/view-02.webp",
-      "assets/gold-coins/128/view-03.webp",
-      "assets/gold-coins/128/view-04.webp",
-      "assets/gold-coins/128/view-05.webp"
+      "/assets/gold-coins/128/view-01.webp",
+      "/assets/gold-coins/128/view-02.webp",
+      "/assets/gold-coins/128/view-03.webp",
+      "/assets/gold-coins/128/view-04.webp",
+      "/assets/gold-coins/128/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2014-1-oz-gold-buffalo-bu_79035_slab.jpg",
@@ -5701,13 +5701,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/129/view-01.webp",
+    "image": "/assets/gold-coins/129/view-01.webp",
     "images": [
-      "assets/gold-coins/129/view-01.webp",
-      "assets/gold-coins/129/view-02.webp",
-      "assets/gold-coins/129/view-03.webp",
-      "assets/gold-coins/129/view-04.webp",
-      "assets/gold-coins/129/view-05.webp"
+      "/assets/gold-coins/129/view-01.webp",
+      "/assets/gold-coins/129/view-02.webp",
+      "/assets/gold-coins/129/view-03.webp",
+      "/assets/gold-coins/129/view-04.webp",
+      "/assets/gold-coins/129/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2015-1-oz-gold-buffalo-bu_84912_Slab.jpg",
@@ -5765,13 +5765,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/130/view-01.webp",
+    "image": "/assets/gold-coins/130/view-01.webp",
     "images": [
-      "assets/gold-coins/130/view-01.webp",
-      "assets/gold-coins/130/view-02.webp",
-      "assets/gold-coins/130/view-03.webp",
-      "assets/gold-coins/130/view-04.webp",
-      "assets/gold-coins/130/view-05.webp"
+      "/assets/gold-coins/130/view-01.webp",
+      "/assets/gold-coins/130/view-02.webp",
+      "/assets/gold-coins/130/view-03.webp",
+      "/assets/gold-coins/130/view-04.webp",
+      "/assets/gold-coins/130/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2016-1-oz-gold-buffalo-bu_93752_Slab.jpg",
@@ -5829,13 +5829,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/131/view-01.webp",
+    "image": "/assets/gold-coins/131/view-01.webp",
     "images": [
-      "assets/gold-coins/131/view-01.webp",
-      "assets/gold-coins/131/view-02.webp",
-      "assets/gold-coins/131/view-03.webp",
-      "assets/gold-coins/131/view-04.webp",
-      "assets/gold-coins/131/view-05.webp"
+      "/assets/gold-coins/131/view-01.webp",
+      "/assets/gold-coins/131/view-02.webp",
+      "/assets/gold-coins/131/view-03.webp",
+      "/assets/gold-coins/131/view-04.webp",
+      "/assets/gold-coins/131/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2017-1-oz-gold-buffalo-bu_102638_slab.jpg",
@@ -5893,13 +5893,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/132/view-01.webp",
+    "image": "/assets/gold-coins/132/view-01.webp",
     "images": [
-      "assets/gold-coins/132/view-01.webp",
-      "assets/gold-coins/132/view-02.webp",
-      "assets/gold-coins/132/view-03.webp",
-      "assets/gold-coins/132/view-04.webp",
-      "assets/gold-coins/132/view-05.webp"
+      "/assets/gold-coins/132/view-01.webp",
+      "/assets/gold-coins/132/view-02.webp",
+      "/assets/gold-coins/132/view-03.webp",
+      "/assets/gold-coins/132/view-04.webp",
+      "/assets/gold-coins/132/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2018-1-oz-gold-buffalo-bu_152637_slab.jpg",
@@ -5957,13 +5957,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/133/view-01.webp",
+    "image": "/assets/gold-coins/133/view-01.webp",
     "images": [
-      "assets/gold-coins/133/view-01.webp",
-      "assets/gold-coins/133/view-02.webp",
-      "assets/gold-coins/133/view-03.webp",
-      "assets/gold-coins/133/view-04.webp",
-      "assets/gold-coins/133/view-05.webp"
+      "/assets/gold-coins/133/view-01.webp",
+      "/assets/gold-coins/133/view-02.webp",
+      "/assets/gold-coins/133/view-03.webp",
+      "/assets/gold-coins/133/view-04.webp",
+      "/assets/gold-coins/133/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2019-1-oz-gold-buffalo-bu_171428_obv.jpg",
@@ -6021,13 +6021,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/134/view-01.webp",
+    "image": "/assets/gold-coins/134/view-01.webp",
     "images": [
-      "assets/gold-coins/134/view-01.webp",
-      "assets/gold-coins/134/view-02.webp",
-      "assets/gold-coins/134/view-03.webp",
-      "assets/gold-coins/134/view-04.webp",
-      "assets/gold-coins/134/view-05.webp"
+      "/assets/gold-coins/134/view-01.webp",
+      "/assets/gold-coins/134/view-02.webp",
+      "/assets/gold-coins/134/view-03.webp",
+      "/assets/gold-coins/134/view-04.webp",
+      "/assets/gold-coins/134/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -6084,13 +6084,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/135/view-01.webp",
+    "image": "/assets/gold-coins/135/view-01.webp",
     "images": [
-      "assets/gold-coins/135/view-01.webp",
-      "assets/gold-coins/135/view-02.webp",
-      "assets/gold-coins/135/view-03.webp",
-      "assets/gold-coins/135/view-04.webp",
-      "assets/gold-coins/135/view-05.webp"
+      "/assets/gold-coins/135/view-01.webp",
+      "/assets/gold-coins/135/view-02.webp",
+      "/assets/gold-coins/135/view-03.webp",
+      "/assets/gold-coins/135/view-04.webp",
+      "/assets/gold-coins/135/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2021-1-oz-gold-buffalo-bu_223496_obv.jpg",
@@ -6148,13 +6148,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/136/view-01.webp",
+    "image": "/assets/gold-coins/136/view-01.webp",
     "images": [
-      "assets/gold-coins/136/view-01.webp",
-      "assets/gold-coins/136/view-02.webp",
-      "assets/gold-coins/136/view-03.webp",
-      "assets/gold-coins/136/view-04.webp",
-      "assets/gold-coins/136/view-05.webp"
+      "/assets/gold-coins/136/view-01.webp",
+      "/assets/gold-coins/136/view-02.webp",
+      "/assets/gold-coins/136/view-03.webp",
+      "/assets/gold-coins/136/view-04.webp",
+      "/assets/gold-coins/136/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-apmex.com/images/products/2022-1-oz-gold-buffalo-bu_246785_slab.jpg",
@@ -6212,13 +6212,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/137/view-01.webp",
+    "image": "/assets/gold-coins/137/view-01.webp",
     "images": [
-      "assets/gold-coins/137/view-01.webp",
-      "assets/gold-coins/137/view-02.webp",
-      "assets/gold-coins/137/view-03.webp",
-      "assets/gold-coins/137/view-04.webp",
-      "assets/gold-coins/137/view-05.webp"
+      "/assets/gold-coins/137/view-01.webp",
+      "/assets/gold-coins/137/view-02.webp",
+      "/assets/gold-coins/137/view-03.webp",
+      "/assets/gold-coins/137/view-04.webp",
+      "/assets/gold-coins/137/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-bullion.com/bcom-images/products/1172_obv.webp?height=700&v=20130602094622&width=700",
@@ -6276,13 +6276,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/138/view-01.webp",
+    "image": "/assets/gold-coins/138/view-01.webp",
     "images": [
-      "assets/gold-coins/138/view-01.webp",
-      "assets/gold-coins/138/view-02.webp",
-      "assets/gold-coins/138/view-03.webp",
-      "assets/gold-coins/138/view-04.webp",
-      "assets/gold-coins/138/view-05.webp"
+      "/assets/gold-coins/138/view-01.webp",
+      "/assets/gold-coins/138/view-02.webp",
+      "/assets/gold-coins/138/view-03.webp",
+      "/assets/gold-coins/138/view-04.webp",
+      "/assets/gold-coins/138/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-bullion.com/bcom-images/products/1359_slab.webp?height=700&v=20240108050441&width=700",
@@ -6340,13 +6340,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/139/view-01.webp",
+    "image": "/assets/gold-coins/139/view-01.webp",
     "images": [
-      "assets/gold-coins/139/view-01.webp",
-      "assets/gold-coins/139/view-02.webp",
-      "assets/gold-coins/139/view-03.webp",
-      "assets/gold-coins/139/view-04.webp",
-      "assets/gold-coins/139/view-05.webp"
+      "/assets/gold-coins/139/view-01.webp",
+      "/assets/gold-coins/139/view-02.webp",
+      "/assets/gold-coins/139/view-03.webp",
+      "/assets/gold-coins/139/view-04.webp",
+      "/assets/gold-coins/139/view-05.webp"
     ],
     "image_views": {
       "front_main": "https://www.images-bullion.com/bcom-images/products/1479_obv.webp?height=700&v=20250115125720&width=700",
@@ -6404,13 +6404,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/140/view-01.webp",
+    "image": "/assets/gold-coins/140/view-01.webp",
     "images": [
-      "assets/gold-coins/140/view-01.webp",
-      "assets/gold-coins/140/view-02.webp",
-      "assets/gold-coins/140/view-03.webp",
-      "assets/gold-coins/140/view-04.webp",
-      "assets/gold-coins/140/view-05.webp"
+      "/assets/gold-coins/140/view-01.webp",
+      "/assets/gold-coins/140/view-02.webp",
+      "/assets/gold-coins/140/view-03.webp",
+      "/assets/gold-coins/140/view-04.webp",
+      "/assets/gold-coins/140/view-05.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
