@@ -56,7 +56,9 @@ def load_source(value: str) -> Image.Image:
         content_type = response.headers.get("Content-Type", "")
         is_svg = "svg" in content_type.lower()
     else:
-        path = ROOT / value
+        # Catalog runtime paths may be root-relative ("/assets/...") or
+        # repository-relative ("assets/..."). Normalize both to the checkout.
+        path = ROOT / value.lstrip("/")
         if not path.exists():
             raise FileNotFoundError(value)
         raw = path.read_bytes()
