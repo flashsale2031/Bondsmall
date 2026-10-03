@@ -33,8 +33,11 @@ MAX_WORKERS = 12
 def load_source(value: str) -> Image.Image:
     if not value:
         raise ValueError("empty image source")
+
+    is_svg = False
     if value.startswith("data:image/"):
         header, payload = value.split(",", 1)
+        is_svg = header.startswith("data:image/svg+xml")
         raw = (
             base64.b64decode(payload)
             if ";base64" in header
@@ -50,13 +53,19 @@ def load_source(value: str) -> Image.Image:
         )
         with urllib.request.urlopen(req, timeout=TIMEOUT) as response:
             raw = response.read()
+        content_type = response.headers.get("Content-Type", "")
+        is_svg = "svg" in content_type.lower()
     else:
         path = ROOT / value
         if not path.exists():
             raise FileNotFoundError(value)
         raw = path.read_bytes()
-    if header.startswith("data:image/svg+xml"):\n            png = cairosvg.svg2png(bytestring=raw, output_width=1200, output_height=1200)\n            return Image.open(io.BytesIO(png)).convert("RGBA")\n        return Image.open(io.BytesIO(raw)).convert("RGBA")
+        is_svg = path.suffix.lower() == ".svg"
 
+    if is_svg:
+        png = cairosvg.svg2png(bytestring=raw, output_width=1200, output_height=1200)
+        return Image.open(io.BytesIO(png)).convert("RGBA")
+    return Image.open(io.BytesIO(raw)).convert("RGBA")
 
 def normalize(img: Image.Image, size: int = 1200) -> Image.Image:
     img = ImageOps.exif_transpose(img)
