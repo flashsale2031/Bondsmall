@@ -92,8 +92,12 @@ window.BondsGoldCoinImages = window.BondsGoldCoinImages || (() => {
         const right = usable(rightMapped) ? rightMapped : back;
         const casePhoto = usable(caseMapped) ? caseMapped : pick(source, /(?:slab|case|box|coa|capsule|holder|packaging|presentation)/i, front) || source.find((u) => u !== front && u !== back) || front;
         const hasExplicitViews = [frontMapped, leftMapped, rightMapped, backMapped, caseMapped].some(Boolean);
-        if (!hadPlaceholder && !hasExplicitViews) return { images: (product?.images || []).filter(usable).slice(0, 8), modes: [] };
-        return { images: [front, left, right, back, casePhoto].filter(Boolean), modes: ["front","left","right","back","case"].slice(0, [front,left,right,back,casePhoto].filter(Boolean).length) };
+        // Always normalize verified gold-coin galleries to the five-view presentation.
+        // This prevents a valid catalog record from bypassing the product-specific gallery
+        // simply because its source images are already non-placeholder URLs.
+        const normalized = [front, left, right, back, casePhoto].filter(Boolean);
+        if (!normalized.length) return { images: [], modes: [] };
+        return { images: normalized, modes: ["front","left","right","back","case"].slice(0, normalized.length) };
     }
     return { isGoldCoin, candidates, getPrimary, getGallery };
 })();
