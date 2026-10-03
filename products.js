@@ -4752,15 +4752,15 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/114/view-01.webp",
+    "image": "assets/gold-coins/114/view-01.svg",
     "images": [
-      "assets/gold-coins/114/view-01.webp",
-      "assets/gold-coins/114/view-02.webp",
-      "assets/gold-coins/114/view-03.webp",
-      "assets/gold-coins/114/view-04.webp",
-      "assets/gold-coins/114/view-05.webp"
+      "assets/gold-coins/114/view-01.svg",
+      "assets/gold-coins/114/view-02.svg",
+      "assets/gold-coins/114/view-03.svg",
+      "assets/gold-coins/114/view-04.svg",
+      "assets/gold-coins/114/view-05.svg"
     ],
-    "photo_source": "Verified source image(s) where available; generated missing gallery views",
+    "photo_source": "Verified U.S. Mint 2025 design reference; Bonds Mall local generated white-background SVG product assets",
     "photo_year": 2025,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin",
@@ -4798,8 +4798,8 @@ window.products = [
       "case_photo": "images[4]"
     },
     "photo_display": "Full five-view display",
-    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
-    "image_quality_status": "Local Bonds Mall generated asset"
+    "image_note": "Bonds Mall local white-background generated product assets. Rendering is fully local and does not depend on external photo URLs or placeholders.",
+    "image_quality_status": "Local Bonds Mall generated white-background asset"
   },
   {
     "id": 115,
