@@ -126,7 +126,22 @@
 
     function digitsOnly(v) { return (v || "").replace(/\D/g, ""); }
 
-    function optimizeGridImageUrl(rawUrl) {
+    function goldCoinLocalImage(product, view = 1) {
+        const id = Number(product && product.id);
+        const name = String(product && product.name || "").toLowerCase();
+        const category = String(product && product.category || "").toLowerCase();
+        const isGoldCoin = Number.isFinite(id) &&
+            (name.includes("gold coin") || (category === "artandcollectibles" && name.includes("gold"))) &&
+            id >= 60 && id <= 140 &&
+            ![91, 93, 97, 98, 102].includes(id);
+        if (!isGoldCoin) return "";
+        const safeView = Math.max(1, Math.min(5, Number(view) || 1));
+        return `assets/gold-coins/${id}/view-${String(safeView).padStart(2, "0")}.webp`;
+    }
+
+    function optimizeGridImageUrl(rawUrl, product = null) {
+        const localGold = goldCoinLocalImage(product, 1);
+        if (localGold) return localGold;
         if (!rawUrl) return "";
         try {
             const url = new URL(rawUrl);
@@ -185,7 +200,7 @@
 
     function preloadVisibleImages(productsToRender) {
         productsToRender.slice(0, 8).forEach((product) => {
-            const optimized = optimizeGridImageUrl(product && product.image);
+            const optimized = optimizeGridImageUrl(product && product.image, product);
             if (!optimized || preloadedImages.has(optimized)) return;
             preloadedImages.add(optimized);
 
@@ -728,13 +743,13 @@
         const localStart = categoryView ? 0 : (window.BondsmallCatalog ? (startIdx % window.BondsmallCatalog.chunkSize) : startIdx);
         const pageProducts = filtered.slice(localStart, localStart + perPage);
 
-        pageProducts.slice(0, 12).forEach(p => warmupImageHost(optimizeGridImageUrl(p.image)));
+        pageProducts.slice(0, 12).forEach(p => warmupImageHost(optimizeGridImageUrl(p.image, p)));
         preloadVisibleImages(pageProducts);
 
         const luxuryBrands = ["dolce & gabbana", "louis vuitton", "yves saint laurent", "gucci", "prada", "hermes", "fendi", "chanel", "dior", "abercrombie & fitch", "bathing ape", "bathing apes", "michael kors", "rolex", "patek philippe", "marc jacobs", "us mint"];
 
         resultsGrid.innerHTML = pageProducts.map((product, index) => {
-            const imgSrc = optimizeGridImageUrl(product.image);
+            const imgSrc = optimizeGridImageUrl(product.image, product);
             const favs = getFavorites();
             const isFav = favs.includes(product.id);
             const isLuxury = luxuryBrands.some(brand => (product.name || "").toLowerCase().includes(brand));
