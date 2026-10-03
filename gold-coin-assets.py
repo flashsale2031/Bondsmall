@@ -18,6 +18,8 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
+import cairosvg
+
 from PIL import Image, ImageOps
 
 ROOT = Path(__file__).resolve().parent
@@ -53,7 +55,7 @@ def load_source(value: str) -> Image.Image:
         if not path.exists():
             raise FileNotFoundError(value)
         raw = path.read_bytes()
-    return Image.open(io.BytesIO(raw)).convert("RGBA")
+    if header.startswith("data:image/svg+xml"):\n            png = cairosvg.svg2png(bytestring=raw, output_width=1200, output_height=1200)\n            return Image.open(io.BytesIO(png)).convert("RGBA")\n        return Image.open(io.BytesIO(raw)).convert("RGBA")
 
 
 def normalize(img: Image.Image, size: int = 1200) -> Image.Image:
@@ -88,7 +90,7 @@ def main() -> None:
     skipped = []
 
     for product in products:
-        if not product or not is_gold_coin(product):
+        if not isinstance(product, dict) or not is_gold_coin(product):
             continue
 
         product_id = int(product["id"])
