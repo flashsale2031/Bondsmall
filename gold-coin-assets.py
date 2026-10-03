@@ -90,8 +90,11 @@ def local_path(product_id: int, view: int) -> str:
 def main() -> None:
     text = PRODUCTS.read_text(encoding="utf-8")
     start = text.find("[")
-    end = text.rfind("];")
-    if start < 0 or end < 0:
+    # products.js is emitted as `window.products = [...]` and may end with
+    # either `];` or a bare `]`; accept both forms so the asset job cannot
+    # fail merely because a formatter removed the trailing semicolon.
+    end = text.rfind("]")
+    if start < 0 or end < start:
         raise RuntimeError("products.js does not contain the expected array")
     products = json.loads(text[start : end + 1])
 
