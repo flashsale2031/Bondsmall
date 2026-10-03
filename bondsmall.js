@@ -165,31 +165,26 @@
             const url = new URL(rawUrl);
             const host = url.hostname.toLowerCase();
 
-            // Use moderate dimensions for catalog cards to reduce transfer size.
-            if (host.includes("unsplash.com")) {
-                url.searchParams.set("auto", "format");
-                url.searchParams.set("fit", "crop");
-                url.searchParams.set("w", "640");
-                url.searchParams.set("q", "72");
+            // Keep first-party/local assets direct. External catalog photography is
+            // normalized through a global image cache/resize edge so cards do not
+            // wait on large retailer originals or hotlink-sensitive hosts.
+            if (host === window.location.hostname || host === "bondsmall.com" || host === "www.bondsmall.com" || host === "wsrv.nl") {
                 return url.toString();
             }
 
-            if (host.includes("scene7.com") || host.includes("macysassets.com") || host.includes("target.com")) {
-                url.searchParams.set("wid", "640");
-                return url.toString();
-            }
-
-            if (host.includes("gstatic.com") || host.includes("googleusercontent.com") || host.includes("tbn")) {
-                if (!url.searchParams.has("w") && !url.searchParams.has("wid")) {
-                    url.searchParams.set("w", "640");
-                }
-                return url.toString();
-            }
+            const proxy = new URL("https://wsrv.nl/");
+            proxy.searchParams.set("url", url.toString());
+            proxy.searchParams.set("w", "640");
+            proxy.searchParams.set("h", "640");
+            proxy.searchParams.set("fit", "contain");
+            proxy.searchParams.set("we", "1");
+            proxy.searchParams.set("output", "webp");
+            proxy.searchParams.set("q", "78");
+            proxy.searchParams.set("maxage", "30d");
+            return proxy.toString();
         } catch (_) {
-            // If URL parsing fails, keep the original source.
+            return rawUrl;
         }
-
-        return rawUrl;
     }
 
     function warmupImageHost(imageUrl) {
@@ -205,16 +200,16 @@
 
             warmedHosts.add(origin);
 
-            const dnsPrefetch = document.createElement("link");
-            dnsPrefetch.rel = "dns-prefetch";
-            dnsPrefetch.href = origin;
-            document.head.appendChild(dnsPrefetch);
-
             const preconnect = document.createElement("link");
             preconnect.rel = "preconnect";
             preconnect.href = origin;
             preconnect.crossOrigin = "anonymous";
             document.head.appendChild(preconnect);
+
+            const dnsPrefetch = document.createElement("link");
+            dnsPrefetch.rel = "dns-prefetch";
+            dnsPrefetch.href = origin;
+            document.head.appendChild(dnsPrefetch);
         } catch (_) {
             // Ignore malformed URLs.
         }
@@ -229,8 +224,17 @@
             }
 
             preloadedImages.add(optimized);
+
+            const link = document.createElement("link");
+            link.rel = "preload";
+            link.as = "image";
+            link.href = optimized;
+            link.fetchPriority = "high";
+            document.head.appendChild(link);
+
             const img = new Image();
             img.decoding = "async";
+            img.fetchPriority = "high";
             img.src = optimized;
         });
     }
