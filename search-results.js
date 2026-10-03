@@ -754,6 +754,7 @@
                               loading="${index < 8 ? "eager" : "lazy"}"
                               fetchpriority="${index < 4 ? "high" : "auto"}"
                               decoding="async"
+                              referrerpolicy="no-referrer"
                               data-action="open-modal" data-id="${product.id}">
                         <button class="share-btn" data-action="share-product" data-id="${product.id}" aria-label="Share ${product.name}">
                             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
