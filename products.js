@@ -5235,22 +5235,22 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2009-1-oz-gold-buffalo-bu_56068_slab.jpg",
+    "image": "https://www.images-apmex.com/images/products/2009-1-oz-gold-buffalo-bu_56068_Obv.jpg?height=900&v=20191025091623&width=900",
     "images": [
-      "https://www.images-apmex.com/images/products/2009-1-oz-gold-buffalo-bu_56068_slab.jpg",
+      "https://www.images-apmex.com/images/products/2009-1-oz-gold-buffalo-bu_56068_Obv.jpg?height=900&v=20191025091623&width=900",
       "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
       "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
+      "https://www.images-apmex.com/images/products/2009-1-oz-gold-buffalo-bu_56068_slab.jpg"
     ],
     "image_views": {
-      "front_main": "https://www.images-apmex.com/images/products/2009-1-oz-gold-buffalo-bu_56068_slab.jpg",
+      "front_main": "https://www.images-apmex.com/images/products/2009-1-oz-gold-buffalo-bu_56068_Obv.jpg?height=900&v=20191025091623&width=900",
       "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
       "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
       "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
       "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
       "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "edge_note": "Actual reeded-edge reference photo; left/right/top/bottom use the same symmetric edge view."
+      "case_photo": "https://www.images-apmex.com/images/products/2009-1-oz-gold-buffalo-bu_56068_slab.jpg",
+      "edge_note": "Verified 2009 American Buffalo edge reference; use only as a secondary display view."
     },
     "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2009,
