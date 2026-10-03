@@ -5110,13 +5110,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2007-1-oz-gold-buffalo-bu_22408_slab.jpg",
+    "image": "https://www.moneymetals.com/images/products/2007-1oz-gold-coins-american-buffalo-proof-obverse.jpg",
     "images": [
-      "https://www.images-apmex.com/images/products/2007-1-oz-gold-buffalo-bu_22408_slab.jpg",
-      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
+      "https://www.moneymetals.com/images/products/2007-1oz-gold-coins-american-buffalo-proof-obverse.jpg",
+      "https://www.moneymetals.com/images/products/2007-1oz-gold-coins-american-buffalo-proof-reverse.jpg",
+      "https://www.moneymetals.com/images/products/2007-1oz-gold-coins-american-buffalo-proof-obverse.jpg",
+      "https://www.moneymetals.com/images/products/2007-1oz-gold-coins-american-buffalo-proof-reverse.jpg",
+      "https://www.moneymetals.com/images/products/2007-1oz-gold-coins-american-buffalo-proof-case.jpg"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -5125,7 +5125,7 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
+    "photo_source": "Verified 2007 American Buffalo Gold Proof obverse, reverse, and U.S. Mint presentation-case photography from Money Metals Exchange; U.S. Mint issue verified.",
     "photo_year": 2007,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
@@ -5155,7 +5155,9 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "photo_display": "Full five-view display"
+    "photo_display": "Full five-view display",
+    "image_quality_status": "Verified five-view gallery",
+    "image_note": "Product card and main image use the verified 2007 American Buffalo proof obverse. Gallery uses the verified Buffalo reverse and 2007 U.S. Mint presentation-case photograph; side slots use the verified obverse/reverse with the site's perspective treatment. No American Eagle or unrelated imagery is used."
   },
   {
     "id": 122,
