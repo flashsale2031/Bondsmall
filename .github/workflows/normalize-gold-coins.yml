@@ -17,8 +17,15 @@ jobs:
     if: ${{ !contains(github.event.head_commit.message, '[gold-assets]') }}
     runs-on: ubuntu-latest
     steps:
-      - name: Check out Bonds Mall
+      - name: Check out Bonds Mall catalog sources
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            products.js
+            gold-coin-assets.py
+            assets/american-liberty-lion-gold-2026
+          sparse-checkout-cone-mode: false
 
       - name: Set up Python
         uses: actions/setup-python@v5
