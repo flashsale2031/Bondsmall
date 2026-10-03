@@ -35,6 +35,9 @@
     let selectedDeals         = [];
     let currentPage          = 1;
     let displayProducts      = [];
+    // Category pages are fetched asynchronously. Keep the exact page payload here
+    // so a later catalog chunk cannot overwrite the page the user selected.
+    let categoryPageRecords = null;
 
     /* ── DOM References ───────────────────────── */
     const searchInput   = document.getElementById("sr-search");
@@ -190,12 +193,15 @@
         ];
 
         const chunkRecords = Array.isArray(window.products) ? window.products : [];
+        const categoryRecords = (currentCategory !== "all" && !currentQuery && Array.isArray(categoryPageRecords))
+            ? categoryPageRecords
+            : chunkRecords;
         const authorityRecords = window.BondsmallCatalogAuthority && Array.isArray(window.BondsmallCatalogAuthority.records)
             ? window.BondsmallCatalogAuthority.records
             : [];
         const activeRecords = currentQuery
             ? Array.from(new Map([...chunkRecords, ...authorityRecords].map(product => [Number(product && product.id), product])).values())
-            : chunkRecords;
+            : categoryRecords;
         displayProducts = activeRecords.map((source) => {
             const authoritativeSource = window.BondsmallCatalogAuthority && typeof window.BondsmallCatalogAuthority.get === "function"
                 ? window.BondsmallCatalogAuthority.get(source && source.id)
@@ -423,8 +429,16 @@
         }
         if (resultsGrid) resultsGrid.innerHTML = '<div class="sr-empty-state"><p>Loading category products…</p></div>';
         window.BondsmallCatalog.ensureCategoryPage(currentCategory, page, getProductsPerPage())
-            .then(() => { if (token === categoryRequestToken) renderAll(); })
-            .catch(() => { if (token === categoryRequestToken) renderAll(); });
+            .then((records) => {
+                if (token !== categoryRequestToken) return;
+                categoryPageRecords = Array.isArray(records) ? records.slice() : [];
+                renderAll();
+            })
+            .catch(() => {
+                if (token !== categoryRequestToken) return;
+                categoryPageRecords = [];
+                renderAll();
+            });
     }
 
     /* ── Render products ──────────────────────── */
@@ -1126,6 +1140,7 @@
                 if (!item) return;
                 currentCategory = item.dataset.filterCat;
                 currentPage = 1;
+                categoryPageRecords = null;
                 writeUrlParams();
                 closeFilterDrop();
                 renderAll();
@@ -1523,6 +1538,7 @@
 
             readUrlParams();
             currentPage = 1;
+            categoryPageRecords = null;
             if (currentCategory !== "all" && window.BondsmallCatalog && typeof window.BondsmallCatalog.ensureCategoryPage === "function") {
                 requestCategoryPage(1);
             } else {
