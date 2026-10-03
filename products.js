@@ -5235,22 +5235,21 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2009-1-oz-gold-buffalo-bu_56068_Obv.jpg?height=900&v=20191025091623&width=900",
+    "image": "https://static.jmbullion.com/image/upload/v1761315577/GCAB109_4_obverse",
     "images": [
+      "https://static.jmbullion.com/image/upload/v1761315577/GCAB109_4_obverse",
+      "https://d3h9wgial7chxw.cloudfront.net/products/6334/zoom/2009-gold-1-ounce-buffalo-coin-single-united-states-of-america-reverse.jpg?format=webp",
       "https://www.images-apmex.com/images/products/2009-1-oz-gold-buffalo-bu_56068_Obv.jpg?height=900&v=20191025091623&width=900",
-      "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
-      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "https://www.images-apmex.com/images/products/2009-1-oz-gold-buffalo-bu_56068_slab.jpg"
+      "https://thecastlejewelry.com/cdn/shop/files/buffalodown.jpg?v=1773252959&width=1024",
+      "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png"
     ],
     "image_views": {
-      "front_main": "https://www.images-apmex.com/images/products/2009-1-oz-gold-buffalo-bu_56068_Obv.jpg?height=900&v=20191025091623&width=900",
-      "back": "https://www.images-bullion.com/bcom-images/products/1479_rev.webp?height=700&v=20250115125720&width=700",
-      "left": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "right": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
+      "front_main": "https://static.jmbullion.com/image/upload/v1761315577/GCAB109_4_obverse",
+      "back": "https://d3h9wgial7chxw.cloudfront.net/products/6334/zoom/2009-gold-1-ounce-buffalo-coin-single-united-states-of-america-reverse.jpg?format=webp",
+      "left": "https://www.images-apmex.com/images/products/2009-1-oz-gold-buffalo-bu_56068_Obv.jpg?height=900&v=20191025091623&width=900",
+      "right": "https://thecastlejewelry.com/cdn/shop/files/buffalodown.jpg?v=1773252959&width=1024",
       "top": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "bottom": "https://images.silvergold.media/cdn-cgi/image/quality%3D80%2Cformat%3Dauto/https%3A/silvergold.media/media/products/2597/pp-2597-3.png",
-      "case_photo": "https://www.images-apmex.com/images/products/2009-1-oz-gold-buffalo-bu_56068_slab.jpg",
-      "edge_note": "Verified 2009 American Buffalo edge reference; use only as a secondary display view."
+      "case_photo": "https://www.images-apmex.com/images/products/2009-1-oz-gold-buffalo-bu_56068_slab.jpg"
     },
     "photo_source": "Verified coin photography from APMEX, Bullion.com, and U.S. Mint; reeded-edge reference from SilverGoldBull.",
     "photo_year": 2009,
