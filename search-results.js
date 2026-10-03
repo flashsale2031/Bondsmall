@@ -131,19 +131,27 @@
         try {
             const url = new URL(rawUrl);
             const host = url.hostname.toLowerCase();
-            if (host.includes("unsplash.com")) {
-                url.searchParams.set("auto", "format");
-                url.searchParams.set("fit", "crop");
-                url.searchParams.set("w", "640");
-                url.searchParams.set("q", "72");
+
+            // Keep first-party/local assets direct. External catalog photography is
+            // normalized through a global image cache/resize edge so product cards
+            // do not wait on large retailer originals or hotlink-sensitive hosts.
+            if (host === window.location.hostname || host === "bondsmall.com" || host === "www.bondsmall.com" || host === "wsrv.nl") {
                 return url.toString();
             }
-            if (host.includes("scene7.com") || host.includes("macysassets.com") || host.includes("target.com")) {
-                url.searchParams.set("wid", "640");
-                return url.toString();
-            }
-        } catch (_) {}
-        return rawUrl;
+
+            const proxy = new URL("https://wsrv.nl/");
+            proxy.searchParams.set("url", url.toString());
+            proxy.searchParams.set("w", "640");
+            proxy.searchParams.set("h", "640");
+            proxy.searchParams.set("fit", "contain");
+            proxy.searchParams.set("we", "1");
+            proxy.searchParams.set("output", "webp");
+            proxy.searchParams.set("q", "78");
+            proxy.searchParams.set("maxage", "30d");
+            return proxy.toString();
+        } catch (_) {
+            return rawUrl;
+        }
     }
 
     function warmupImageHost(imageUrl) {
@@ -152,11 +160,38 @@
             const { origin } = new URL(imageUrl);
             if (!origin || warmedHosts.has(origin)) return;
             warmedHosts.add(origin);
-            const link = document.createElement("link");
-            link.rel = "dns-prefetch";
-            link.href = origin;
-            document.head.appendChild(link);
+
+            const preconnect = document.createElement("link");
+            preconnect.rel = "preconnect";
+            preconnect.href = origin;
+            preconnect.crossOrigin = "anonymous";
+            document.head.appendChild(preconnect);
+
+            const dns = document.createElement("link");
+            dns.rel = "dns-prefetch";
+            dns.href = origin;
+            document.head.appendChild(dns);
         } catch (_) {}
+    }
+
+    function preloadVisibleImages(productsToRender) {
+        productsToRender.slice(0, 8).forEach((product) => {
+            const optimized = optimizeGridImageUrl(product && product.image);
+            if (!optimized || preloadedImages.has(optimized)) return;
+            preloadedImages.add(optimized);
+
+            const link = document.createElement("link");
+            link.rel = "preload";
+            link.as = "image";
+            link.href = optimized;
+            link.fetchPriority = "high";
+            document.head.appendChild(link);
+
+            const img = new Image();
+            img.decoding = "async";
+            img.fetchPriority = "high";
+            img.src = optimized;
+        });
     }
 
     /* ── Read URL params ──────────────────────── */
@@ -683,6 +718,7 @@
         const pageProducts = filtered.slice(localStart, localStart + perPage);
 
         pageProducts.slice(0, 12).forEach(p => warmupImageHost(optimizeGridImageUrl(p.image)));
+        preloadVisibleImages(pageProducts);
 
         const luxuryBrands = ["dolce & gabbana", "louis vuitton", "yves saint laurent", "gucci", "prada", "hermes", "fendi", "chanel", "dior", "abercrombie & fitch", "bathing ape", "bathing apes", "michael kors", "rolex", "patek philippe", "marc jacobs", "us mint"];
 
