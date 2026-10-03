@@ -26,6 +26,7 @@ ROOT = Path(__file__).resolve().parent
 PRODUCTS = ROOT / "products.js"
 OUT = ROOT / "assets" / "gold-coins"
 SOURCE_MANIFEST = ROOT / "gold-coin-source-images.json"
+REMOTE_SOURCE_MANIFEST = "https://raw.githubusercontent.com/flashsale2031/Bondsmall/main/gold-coin-source-images.json"
 UA = "BondsMall-GoldCoinAssetBuilder/1.0"
 TIMEOUT = 8
 MAX_WORKERS = 12
@@ -102,12 +103,21 @@ def main() -> None:
     products = json.loads(text[start : end + 1])
 
     source_manifest = {}
+    manifest_text = None
     if SOURCE_MANIFEST.exists():
+        manifest_text = SOURCE_MANIFEST.read_text(encoding="utf-8")
+    else:
         try:
-            manifest = json.loads(SOURCE_MANIFEST.read_text(encoding="utf-8"))
+            with urllib.request.urlopen(REMOTE_SOURCE_MANIFEST, timeout=TIMEOUT) as response:
+                manifest_text = response.read().decode("utf-8")
+        except Exception as exc:
+            print(f"WARN source manifest could not be loaded locally or remotely: {exc}")
+    if manifest_text:
+        try:
+            manifest = json.loads(manifest_text)
             source_manifest = manifest.get("products") or {}
         except Exception as exc:
-            print(f"WARN source manifest could not be read: {exc}")
+            print(f"WARN source manifest is invalid: {exc}")
 
     generated = []
     skipped = []
