@@ -230,11 +230,13 @@
             link.as = "image";
             link.href = optimized;
             link.fetchPriority = "high";
+            link.referrerPolicy = "no-referrer";
             document.head.appendChild(link);
 
             const img = new Image();
             img.decoding = "async";
             img.fetchPriority = "high";
+            img.referrerPolicy = "no-referrer";
             img.src = optimized;
         });
     }
