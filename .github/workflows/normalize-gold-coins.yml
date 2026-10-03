@@ -33,7 +33,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install image tooling
-        run: python -m pip install --disable-pip-version-check --no-input pillow
+        run: python -m pip install --disable-pip-version-check --no-input pillow cairosvg
 
       - name: Generate local white-background gold coin assets
         run: python gold-coin-assets.py
