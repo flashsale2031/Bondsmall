@@ -132,10 +132,19 @@
             const url = new URL(rawUrl);
             const host = url.hostname.toLowerCase();
 
-            // Keep first-party/local assets direct. External catalog photography is
-            // normalized through a global image cache/resize edge so product cards
-            // do not wait on large retailer originals or hotlink-sensitive hosts.
-            if (host === window.location.hostname || host === "bondsmall.com" || host === "www.bondsmall.com" || host === "wsrv.nl") {
+            // First-party/local assets and sources that reject image-proxy fetches
+            // stay direct. Product-card <img> tags use referrerpolicy="no-referrer"
+            // so hotlink-sensitive official catalog hosts can serve the image.
+            if (
+                host === window.location.hostname ||
+                host === "bondsmall.com" ||
+                host === "www.bondsmall.com" ||
+                host === "wsrv.nl" ||
+                host === "usmint.gov" ||
+                host.endsWith(".usmint.gov") ||
+                host === "images-apmex.com" ||
+                host.endsWith(".images-apmex.com")
+            ) {
                 return url.toString();
             }
 
@@ -185,11 +194,13 @@
             link.as = "image";
             link.href = optimized;
             link.fetchPriority = "high";
+            link.referrerPolicy = "no-referrer";
             document.head.appendChild(link);
 
             const img = new Image();
             img.decoding = "async";
             img.fetchPriority = "high";
+            img.referrerPolicy = "no-referrer";
             img.src = optimized;
         });
     }
