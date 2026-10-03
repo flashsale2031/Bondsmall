@@ -39,6 +39,36 @@ jobs:
       - name: Generate local white-background gold coin assets
         run: python gold-coin-assets.py
 
+
+      - name: Verify gold coin runtime imagery is repository-local
+        run: |
+          python - <<'PY'
+          import json, re
+          from pathlib import Path
+
+          text = Path("products.js").read_text(encoding="utf-8")
+          products = json.loads(text[text.find("["):text.rfind("]") + 1])
+          gold = [
+              p for p in products if isinstance(p, dict) and (
+                  "gold coin" in str(p.get("name", "")).lower()
+                  or (str(p.get("category", "")).lower() == "artandcollectibles" and "gold" in str(p.get("name", "")).lower())
+              )
+          ]
+          external = []
+          incomplete = []
+          for p in gold:
+              values = [p.get("image")] + list(p.get("images") or [])
+              if any(isinstance(v, str) and re.match(r"^https?://", v) for v in values):
+                  external.append(p.get("id"))
+              if not p.get("image") or len(p.get("images") or []) < 5:
+                  incomplete.append(p.get("id"))
+          if external:
+              raise SystemExit(f"Gold coin products still reference external runtime imagery: {external}")
+          if incomplete:
+              print(f"Gold coin products without five local views (no verified source photography): {incomplete}")
+          print(f"Verified {len(gold)} gold coin products: runtime imagery is same-origin/local where available.")
+          PY
+
       - name: Commit generated assets and localized catalog
         run: |
           git config user.name "github-actions[bot]"
