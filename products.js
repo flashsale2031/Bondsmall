@@ -4861,13 +4861,13 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.images-apmex.com/images/products/2021-1-oz-gold-buffalo-proof_223495_obv.jpg",
+    "image": "https://unitedpatriotcoin.com/cdn/shop/files/1gbu21pr_600x600_png.png?v=1760027219&width=1090",
     "images": [
-      "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Obv.jpg",
-      "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Rev.jpg",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ELEFT%20EDGE%20%E2%80%A2%202003%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20BUFFALO%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%221000%22%20viewBox%3D%220%200%20900%20900%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22g%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23f4d98a%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23c08b2e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237b541a%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22900%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22315%22%20fill%3D%22url(%23g)%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22450%22%20r%3D%22285%22%20fill%3D%22none%22%20stroke%3D%22%23f5dda0%22%20stroke-width%3D%226%22%2F%3E%3Cellipse%20cx%3D%22450%22%20cy%3D%22450%22%20rx%3D%22250%22%20ry%3D%2270%22%20fill%3D%22%23a97627%22%20stroke%3D%22%23e1bf68%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M200%20450%20L700%20450%22%20stroke%3D%22%235b3b12%22%20stroke-width%3D%228%22%2F%3E%3Ctext%20x%3D%22450%22%20y%3D%22570%22%20class%3D%22small%22%3ERIGHT%20EDGE%20%E2%80%A2%202003%3C%2Ftext%3E%3Ctext%20x%3D%22450%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%234b3415%22%3EUS%20MINT%20%E2%80%A2%20AMERICAN%20BUFFALO%3C%2Ftext%3E%3C%2Fsvg%3E",
-      "https://www.images-apmex.com/images/products/2003-1-oz-american-gold-eagle-ms-69-pcgs_7652_Slab.jpg"
+      "https://unitedpatriotcoin.com/cdn/shop/files/1gbu21pr_600x600_png.png?v=1760027219&width=1090",
+      "https://unitedpatriotcoin.com/cdn/shop/files/1gbu21prr_600x600_png.png?v=1760027219&width=1090",
+      "https://unitedpatriotcoin.com/cdn/shop/files/1gbu21pr_600x600_png.png?v=1760027219&width=1090",
+      "https://unitedpatriotcoin.com/cdn/shop/files/1gbu21prr_600x600_png.png?v=1760027219&width=1090",
+      "https://idccoin.com/thumbs/2021-w-1-oz-proof-american-gold-buffalo-coin-box-coa-310751-large.jpg"
     ],
     "image_views": {
       "front_main": "images[0]",
@@ -4876,20 +4876,27 @@ window.products = [
       "right_side": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_source": "Year-specific American Buffalo Gold Proof photography; U.S. Mint program verified",
+    "photo_source": "Verified 2021 American Gold Buffalo Proof obverse/reverse photography from United Patriot Coin; verified 2021 original government packaging photograph from IDC Coin & Bullion.",
     "photo_year": 2021,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
-    "official_issue": false,
-    "description": "This catalog entry preserves the requested 2003 Bonds Mall pricing, but the U.S. Mint did not begin the American Buffalo Gold Coin program until 2006 and therefore does not have an official 2003 American Buffalo Gold Coin.",
+    "official_issue": true,
+    "description": "The 2021 American Buffalo One Ounce Gold Proof Coin is an official U.S. Mint one-ounce 24-karat (.9999 fine) gold proof coin struck at West Point. The obverse features a Native American profile and the reverse features an American Buffalo, based on James Earle Fraser's 1913 Type I Buffalo nickel designs. The 2021 issue was supplied in original U.S. Mint presentation packaging with a Certificate of Authenticity.",
     "specifications": {
       "brand": "US Mint",
-      "catalog_year": "2003",
-      "official_issue": false,
-      "verification_note": "American Buffalo Gold Coin program began in 2006.",
-      "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-buffalo"
+      "catalog_year": "2021",
+      "official_issue": true,
+      "material": "24-karat gold (99.99% gold)",
+      "weight": "1.000 troy oz",
+      "diameter": "32.70 mm",
+      "denomination": "$50",
+      "mint": "West Point",
+      "mint_mark": "W",
+      "finish": "Proof",
+      "edge": "Reeded",
+      "source": "U.S. Mint 2021 American Buffalo Gold Coin documentation"
     },
-    "listing_status": "Catalog placeholder — not an official U.S. Mint issue for this year.",
+    "listing_status": "Verified official 2021 U.S. Mint American Buffalo Gold Proof Coin",
     "productType": "Coin",
     "inventory": 0,
     "age_group": "Adult",
