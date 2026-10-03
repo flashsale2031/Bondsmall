@@ -1,0 +1,44 @@
+name: Normalize gold coin product photography
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - products.js
+      - gold-coin-assets.py
+      - .github/workflows/normalize-gold-coins.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  normalize:
+    if: ${{ !contains(github.event.head_commit.message, '[gold-assets]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Bonds Mall
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install image tooling
+        run: python -m pip install --disable-pip-version-check --no-input pillow
+
+      - name: Generate local white-background gold coin assets
+        run: python gold-coin-assets.py
+
+      - name: Commit generated assets and localized catalog
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add products.js assets/gold-coins
+          if git diff --cached --quiet; then
+            echo "No gold-coin asset changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: localize gold coin product photography [gold-assets]"
+          git push
