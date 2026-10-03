@@ -25,6 +25,7 @@ from PIL import Image, ImageOps
 ROOT = Path(__file__).resolve().parent
 PRODUCTS = ROOT / "products.js"
 OUT = ROOT / "assets" / "gold-coins"
+SOURCE_MANIFEST = ROOT / "gold-coin-source-images.json"
 UA = "BondsMall-GoldCoinAssetBuilder/1.0"
 TIMEOUT = 8
 MAX_WORKERS = 12
@@ -100,6 +101,14 @@ def main() -> None:
         raise RuntimeError("products.js does not contain the expected array")
     products = json.loads(text[start : end + 1])
 
+    source_manifest = {}
+    if SOURCE_MANIFEST.exists():
+        try:
+            manifest = json.loads(SOURCE_MANIFEST.read_text(encoding="utf-8"))
+            source_manifest = manifest.get("products") or {}
+        except Exception as exc:
+            print(f"WARN source manifest could not be read: {exc}")
+
     generated = []
     skipped = []
 
@@ -108,17 +117,26 @@ def main() -> None:
             continue
 
         product_id = int(product["id"])
-        sources = []
+        # Prefer the immutable pre-localization source manifest. This is
+        # important because products.js is rewritten to local asset paths after
+        # generation; without the manifest a later rebuild would normalize the
+        # already-generated WebP files instead of the original source photography.
+        manifest_entry = source_manifest.get(str(product_id), {})
+        sources = [
+            source for source in (manifest_entry.get("sources") or [])
+            if isinstance(source, str) and source
+        ]
 
-        main_source = product.get("image")
-        if isinstance(main_source, list):
-            main_source = main_source[0] if main_source else ""
-        if isinstance(main_source, str) and main_source:
-            sources.append(main_source)
+        if not sources:
+            main_source = product.get("image")
+            if isinstance(main_source, list):
+                main_source = main_source[0] if main_source else ""
+            if isinstance(main_source, str) and main_source:
+                sources.append(main_source)
 
-        for source in product.get("images") or []:
-            if isinstance(source, str) and source:
-                sources.append(source)
+            for source in product.get("images") or []:
+                if isinstance(source, str) and source:
+                    sources.append(source)
 
         if not sources:
             skipped.append(product_id)
