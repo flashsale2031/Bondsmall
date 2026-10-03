@@ -26,7 +26,25 @@ window.BondsGoldCoinImages = window.BondsGoldCoinImages || (() => {
         if (m && Array.isArray(product?.images)) return product.images[Number(m[1])] || "";
         return value;
     };
+    const localGallery = (product) => {
+        const id = Number(product && product.id);
+        const name = String(product && product.name || "").toLowerCase();
+        const category = String(product && product.category || "").toLowerCase();
+        const isGold = Number.isFinite(id) &&
+            (name.includes("gold coin") || (category === "artandcollectibles" && name.includes("gold"))) &&
+            id >= 60 && id <= 140 &&
+            ![91, 93, 97, 98, 102].includes(id);
+        if (!isGold) return null;
+        const base = `assets/gold-coins/${id}`;
+        return {
+            images: [1,2,3,4,5].map(view => `${base}/view-${String(view).padStart(2, "0")}.webp`),
+            modes: ["front","left","right","back","case"]
+        };
+    };
+
     const candidates = (product) => {
+        const local = localGallery(product);
+        if (local) return local.images.slice();
         const list = [];
         const push = (v) => {
             if (Array.isArray(v)) v.forEach(push);
@@ -74,10 +92,13 @@ window.BondsGoldCoinImages = window.BondsGoldCoinImages || (() => {
     }
     function getPrimary(product) {
         if (!isGoldCoin(product)) return product?.image || "";
-        return candidates(product)[0] || "";
+        const local = localGallery(product);
+        return local ? local.images[0] : (candidates(product)[0] || "");
     }
     function getGallery(product) {
         if (!isGoldCoin(product)) return { images: (product?.images || []).filter(Boolean), modes: [] };
+        const local = localGallery(product);
+        if (local) return local;
         const source = candidates(product);
         const views = product?.image_views && typeof product.image_views === "object" ? product.image_views : {};
         const frontMapped = resolveView(product, views.front_main || views.front || "");
