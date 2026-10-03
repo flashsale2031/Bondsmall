@@ -23,7 +23,8 @@ ROOT = Path(__file__).resolve().parent
 PRODUCTS = ROOT / "products.js"
 OUT = ROOT / "assets" / "gold-coins"
 UA = "BondsMall-GoldCoinAssetBuilder/1.0"
-TIMEOUT = 8\nMAX_WORKERS = 12
+TIMEOUT = 8
+MAX_WORKERS = 12
 
 
 def load_source(value: str) -> Image.Image:
