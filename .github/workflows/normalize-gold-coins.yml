@@ -25,6 +25,7 @@ jobs:
             products.js
             gold-coin-assets.py
             assets/american-liberty-lion-gold-2026
+            assets/gold-coins
           sparse-checkout-cone-mode: false
 
       - name: Set up Python
