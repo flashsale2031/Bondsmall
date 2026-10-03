@@ -4925,8 +4925,14 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "",
-    "images": [],
+    "image": "https://i.usacoinbook.com/us-coins/2022-w-proof-one-ounce-american-gold-buffalo.jpg",
+    "images": [
+      "https://i.usacoinbook.com/us-coins/2022-w-proof-one-ounce-american-gold-buffalo.jpg",
+      "https://assets.goldeneaglecoin.com/resource/productimages/Buff2022PFr.jpg",
+      "https://i.usacoinbook.com/us-coins/2022-w-proof-one-ounce-american-gold-buffalo.jpg",
+      "https://assets.goldeneaglecoin.com/resource/productimages/Buff2022PFr.jpg",
+      "https://www.images-apmex.com/images/products/2022-w-1-oz-proof-gold-buffalo-w-box-coa_252126_slab.jpg?height=560&v=20220516094716%3Fv%3D20250509010437&width=560"
+    ],
     "image_views": {
       "front_main": "images[0]",
       "left_side": "images[1]",
@@ -4934,20 +4940,28 @@ window.products = [
       "back": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_source": "Year-specific American Buffalo Gold Proof photography; U.S. Mint program verified",
+    "photo_source": "Verified 2022 American Gold Buffalo Proof obverse/reverse photography from U.S. coin reference sources; verified 2022 Mint packaging photography from APMEX.",
     "photo_year": 2022,
     "photo_is_representative": false,
-    "source": "https://www.usmint.gov/american-buffalo-2026-one-ounce-gold-proof-coin-26EL.html",
-    "official_issue": false,
-    "description": "This catalog entry preserves the requested 2004 Bonds Mall pricing, but the U.S. Mint did not begin the American Buffalo Gold Coin program until 2006 and therefore does not have an official 2004 American Buffalo Gold Coin.",
+    "source": "https://www.usmint.gov/news/press-releases/mint-to-release-2022-american-buffalo-gold-proof-coin-on-may-12",
+    "official_issue": true,
+    "description": "Official 2022 U.S. Mint American Buffalo One Ounce Gold Proof Coin: 24-karat .9999 fine gold, struck at West Point, with the Native American obverse and American Buffalo reverse. The 2022 issue was encapsulated and presented in a black presentation case with U.S. Mint seal, outer sleeve, and Certificate of Authenticity.",
     "specifications": {
       "brand": "US Mint",
-      "catalog_year": "2004",
-      "official_issue": false,
-      "verification_note": "American Buffalo Gold Coin program began in 2006.",
-      "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-buffalo"
+      "catalog_year": "2022",
+      "official_issue": true,
+      "material": "24-karat gold (99.99% gold)",
+      "weight": "1.000 troy oz",
+      "diameter": "32.70 mm",
+      "thickness": "2.95 mm",
+      "denomination": "$50",
+      "mint": "West Point",
+      "mint_mark": "W",
+      "finish": "Proof",
+      "edge": "Reeded",
+      "source": "U.S. Mint 2022 American Buffalo Gold Coin documentation"
     },
-    "listing_status": "Catalog placeholder — no verified official issue; product photography intentionally suppressed.",
+    "listing_status": "Verified official 2022 U.S. Mint American Buffalo Gold Proof Coin",
     "productType": "Coin",
     "inventory": 0,
     "age_group": "Adult",
@@ -4961,8 +4975,8 @@ window.products = [
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
     "photo_display": "Full five-view display",
-    "image_quality_status": "No verified product image",
-    "image_note": "Catalog entry is not an official U.S. Mint issue for the year described; fabricated/generated coin imagery has been suppressed."
+    "image_quality_status": "Verified five-view gallery",
+    "image_note": "Gallery uses verified 2022 American Buffalo obverse/reverse photography, CSS perspective treatment for the side slots, and verified 2022 U.S. Mint packaging photography for the case view. No American Eagle imagery or generated placeholder art is used."
   },
   {
     "id": 119,
