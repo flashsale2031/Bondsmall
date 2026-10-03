@@ -34,11 +34,17 @@
         id >= 60 && id <= 140 &&
         ![91, 93, 97, 98, 102].includes(id);
       if (!isGoldCoin) return chosen;
-      const base = '/assets/gold-coins/' + id;
+
+      // Product 114 has a deliberately generated, white-background SVG gallery.
+      // Keep that local gallery intact instead of rewriting it to missing .webp
+      // paths during lazy catalog hydration. Other gold coins retain the shared
+      // WebP gallery convention.
+      const extension = id === 114 ? 'svg' : 'webp';
+      const assetBase = '/assets/gold-coins/' + id;
       return {
         ...chosen,
-        image: base + '/view-01.webp',
-        images: [1, 2, 3, 4, 5].map(view => base + '/view-' + String(view).padStart(2, '0') + '.webp')
+        image: assetBase + '/view-01.' + extension,
+        images: [1, 2, 3, 4, 5].map(view => assetBase + '/view-' + String(view).padStart(2, '0') + '.' + extension)
       };
     });
   }
