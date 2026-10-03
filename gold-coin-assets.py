@@ -134,22 +134,25 @@ def main() -> None:
         manifest_entry = source_manifest.get(str(product_id), {})
         sources = [
             source for source in (manifest_entry.get("sources") or [])
-            if isinstance(source, str) and source
+            if isinstance(source, str)
+            and source
+            and not source.startswith("data:image/svg+xml")
         ]
 
         if not sources:
             main_source = product.get("image")
             if isinstance(main_source, list):
                 main_source = main_source[0] if main_source else ""
-            if isinstance(main_source, str) and main_source:
+            if isinstance(main_source, str) and main_source and not main_source.startswith("data:image/svg+xml"):
                 sources.append(main_source)
 
             for source in product.get("images") or []:
-                if isinstance(source, str) and source:
+                if isinstance(source, str) and source and not source.startswith("data:image/svg+xml"):
                     sources.append(source)
 
         if not sources:
             skipped.append(product_id)
+            print(f"WARN id={product_id}: no real source photography available; product left unchanged")
             continue
 
         unique_sources = []
