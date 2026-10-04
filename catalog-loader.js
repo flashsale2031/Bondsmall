@@ -40,6 +40,7 @@
       // paths during lazy catalog hydration. Other gold coins retain the shared
       // WebP gallery convention.
       const extension = [108, 109, 110, 112, 114].includes(id) ? 'svg?v=20261003-7' : 'webp';
+      if (id === 104) return chosen;
       const assetBase = '/assets/gold-coins/' + id;
       return {
         ...chosen,
