@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img">
+<defs>
+ <radialGradient id="g" cx="38%" cy="30%"><stop offset="0" stop-color="#fff7b8"/><stop offset=".28" stop-color="#f4d66a"/><stop offset=".62" stop-color="#c99625"/><stop offset=".86" stop-color="#8a5a0b"/><stop offset="1" stop-color="#d9b64d"/></radialGradient>
+ <radialGradient id="s" cx="50%" cy="50%"><stop offset="0" stop-color="#fff8bf"/><stop offset=".7" stop-color="#d8aa34"/><stop offset="1" stop-color="#9b6812"/></radialGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7e38b"/><stop offset=".5" stop-color="#9d6a13"/><stop offset="1" stop-color="#e8c75c"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-opacity=".22"/></filter>
+</defs>
+<rect width="800" height="800" fill="#fff"/>
+<ellipse cx="400" cy="400" rx="292" ry="260" fill="url(#edge)" stroke="#7b5008" stroke-width="8" filter="url(#shadow)"/>
+    <ellipse cx="400" cy="400" rx="266" ry="235" fill="none" stroke="#f8e18a" stroke-width="4"/>
+    <path d="M400 170 Q330 260 330 400 Q330 540 400 630 Q470 540 470 400 Q470 260 400 170Z" fill="#9d6912" opacity=".55"/>
+    <g stroke="#f7df83" stroke-width="8" opacity=".8"><path d="M410 230 L455 220"/><path d="M410 250 L455 240"/><path d="M410 270 L455 260"/><path d="M410 290 L455 280"/><path d="M410 310 L455 300"/><path d="M410 330 L455 320"/><path d="M410 350 L455 340"/><path d="M410 370 L455 360"/><path d="M410 390 L455 380"/><path d="M410 410 L455 400"/><path d="M410 430 L455 420"/><path d="M410 450 L455 440"/><path d="M410 470 L455 460"/><path d="M410 490 L455 480"/><path d="M410 510 L455 500"/><path d="M410 530 L455 520"/><path d="M410 550 L455 540"/><path d="M410 570 L455 560"/></g>
+    <text x="400" y="735" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#5b3a08">WEST POINT • W MINT MARK</text></svg>
