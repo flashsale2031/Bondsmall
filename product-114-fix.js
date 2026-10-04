@@ -2,7 +2,7 @@
   'use strict';
   const PRODUCT_ID = 114;
   const LOCAL_BASE = 'assets/gold-coins/114/';
-  const IMAGES = [1, 2, 3, 4, 5].map(n => LOCAL_BASE + 'view-' + String(n).padStart(2, '0') + '.svg');
+  const IMAGES = [1, 2, 3, 4, 5].map(n => LOCAL_BASE + 'view-' + String(n).padStart(2, '0') + '.svg?v=20261003-3');
   const referenceSources = [
     'https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin',
     'https://www.apmex.com/product/318944/2025-w-high-relief-american-liberty-gold-proof-box-coa',
