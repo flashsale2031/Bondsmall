@@ -9,7 +9,7 @@
   const base = 'catalog-pages/';
   const target = window.products = window.products || [];
   const authority = window.BondsmallCatalogAuthority || { records: [], has: () => false, get: () => null };
-  const version = '2.4.8-gold-local';
+  const version = '2.4.9-gold-local';
   const categoryIndex = (window.BondsmallCategoryIndex && window.BondsmallCategoryIndex.categories) || {};
   const categoryStates = new Map();
 
@@ -39,7 +39,7 @@
       // Keep these local galleries intact instead of rewriting them to missing .webp
       // paths during lazy catalog hydration. Other gold coins retain the shared
       // WebP gallery convention.
-      const extension = [108, 110, 112, 114].includes(id) ? 'svg?v=20261003-6' : 'webp';
+      const extension = [108, 109, 110, 112, 114].includes(id) ? 'svg?v=20261003-7' : 'webp';
       const assetBase = '/assets/gold-coins/' + id;
       return {
         ...chosen,
