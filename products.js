@@ -4439,7 +4439,7 @@ window.products = [
       "assets/gold-coins/109/view-02.svg?v=20261003-7",
       "assets/gold-coins/109/view-03.svg?v=20261003-7",
       "assets/gold-coins/109/view-04.svg?v=20261003-7",
-      "assets/gold-coins/109/view-05.svg?v=20261003-7"
+      "assets/gold-coins/109/view-04.svg?v=20261003-7"
     ],
     "photo_source": "eBay reference supplied for Product 109; Bonds Mall local white-background generated gallery",
     "photo_year": 2020,
