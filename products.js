@@ -4116,17 +4116,15 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/104/view-01.webp",
+    "image": "https://fmrgold.com/wp-content/uploads/2025/07/id10077310chlm7pXVIGvhy27-Qbl1Z-nhpKPE9qc9bBGY_kYAnxufcPYBeyext-300x300.jpg",
     "images": [
-      "assets/gold-coins/104/view-01.webp",
-      "assets/gold-coins/104/view-02.webp",
-      "assets/gold-coins/104/view-03.webp",
-      "assets/gold-coins/104/view-04.webp",
-      "assets/gold-coins/104/view-05.webp"
+      "https://fmrgold.com/wp-content/uploads/2025/07/id10077310chlm7pXVIGvhy27-Qbl1Z-nhpKPE9qc9bBGY_kYAnxufcPYBeyext-300x300.jpg",
+      "https://fmrgold.com/wp-content/uploads/2025/07/id10077173chp9Ql4cZMay3NlIqWQFHL8mkyHyL4AGYXx7vMsX3z5MYs1aejext-300x300.jpg",
+      "https://fmrgold.com/wp-content/uploads/2025/07/id10077173chp9Ql4cZMay3NlIqWQFHL8mkyHyL4AGYXx7vMsX3z5MYs1aejext-1-300x300.jpg"
     ],
-    "photo_source": "Verified source image(s) where available; generated missing gallery views",
+    "photo_source": "FMR Gold product reference supplied by user; three published product images",
     "photo_year": 2015,
-    "photo_is_representative": false,
+    "photo_is_representative": true,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2015-high-relief-gold-coin",
     "official_issue": true,
     "description": "The 2015 American Liberty High Relief Gold Coin presents a modern rendition of Liberty standing, crowned with leaves and holding the American flag and a torch; the reverse features a bald eagle in flight clutching an olive branch.",
@@ -4162,8 +4160,8 @@ window.products = [
       "case_photo": "images[4]"
     },
     "photo_display": "Full five-view display",
-    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
-    "image_quality_status": "Local Bonds Mall generated asset"
+    "image_note": "FMR Gold reference images supplied by the user; used directly so the product matches the referenced 2015-W Liberty High Relief Gold Coin PCGS MS69.",
+    "image_quality_status": "Verified FMR Gold reference imagery"
   },
   {
     "id": 105,
