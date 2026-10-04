@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img">
+<defs>
+ <radialGradient id="g" cx="38%" cy="30%"><stop offset="0" stop-color="#fff7b8"/><stop offset=".28" stop-color="#f4d66a"/><stop offset=".62" stop-color="#c99625"/><stop offset=".86" stop-color="#8a5a0b"/><stop offset="1" stop-color="#d9b64d"/></radialGradient>
+ <radialGradient id="s" cx="50%" cy="50%"><stop offset="0" stop-color="#fff8bf"/><stop offset=".7" stop-color="#d8aa34"/><stop offset="1" stop-color="#9b6812"/></radialGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7e38b"/><stop offset=".5" stop-color="#9d6a13"/><stop offset="1" stop-color="#e8c75c"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-opacity=".22"/></filter>
+</defs>
+<rect width="800" height="800" fill="#fff"/>
+<circle cx="400" cy="400" r="292" fill="url(#g)" stroke="#7b5008" stroke-width="8" filter="url(#shadow)"/>
+<circle cx="400" cy="400" r="272" fill="none" stroke="#f9e58b" stroke-width="4" opacity=".7"/>
+<circle cx="400" cy="400" r="252" fill="none" stroke="#8d5d10" stroke-width="3" opacity=".65"/><g fill="#5f3d0a" stroke="#4d3107" stroke-width="5" stroke-linejoin="round">
+      <path d="M260 505 C205 472 204 411 246 365 C283 324 346 305 402 327 C451 346 489 389 505 438 C520 484 501 526 461 545 C421 564 374 545 350 514 C326 484 307 464 276 458 C256 454 246 476 260 505Z"/>
+      <path d="M319 347 C287 326 271 293 286 261 C301 229 340 219 368 239 C390 254 398 282 387 308 L367 349Z"/>
+      <path d="M371 309 C399 289 427 291 449 310 C463 322 471 342 468 360 L442 382 L415 355 L384 344Z"/>
+      <path d="M455 365 C488 361 518 375 536 400 L555 428 L526 438 L492 421 L464 405Z"/>
+      <path d="M292 445 C260 448 233 465 220 492 L202 530 L235 535 L269 508 L306 486Z"/>
+      <path d="M352 510 C337 548 316 574 282 598 L255 616 L286 627 L327 611 L361 575Z"/>
+      <path d="M429 510 C455 544 478 569 512 584 L551 600 L532 621 L491 616 L451 590 L417 553Z"/>
+      <path d="M308 398 C326 376 352 368 378 377 C396 383 410 396 418 414 C394 407 372 406 349 415 C333 421 319 416 308 398Z" fill="#9a6712"/>
+      <path d="M407 438 C434 419 468 416 500 429 C475 438 450 449 429 468Z" fill="#9a6712"/>
+    </g>
+    <g fill="none" stroke="#f9e58b" stroke-width="4" opacity=".8">
+      <path d="M224 338 Q400 170 576 338"/><path d="M232 350 Q400 205 568 350"/>
+    </g>
+    <text x="400" y="156" text-anchor="middle" font-family="Georgia,serif" font-size="54" font-weight="700" letter-spacing="7" fill="#4d3208">LIBERTY</text>
+    <text x="400" y="684" text-anchor="middle" font-family="Georgia,serif" font-size="30" font-weight="700" letter-spacing="3" fill="#4d3208">IN GOD WE TRUST</text>
+    <text x="400" y="632" text-anchor="middle" font-family="Georgia,serif" font-size="31" font-weight="700" fill="#4d3208">2021</text>
+    <text x="592" y="576" text-anchor="middle" font-family="Georgia,serif" font-size="30" font-weight="700" fill="#4d3208">W</text></svg>
