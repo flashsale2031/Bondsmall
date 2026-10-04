@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-label="2022 American Liberty Silver Medal obverse on white background">
+<rect width="1000" height="1000" fill="#fff"/>
+<defs>
+ <radialGradient id="silver"><stop offset="0" stop-color="#fafafa"/><stop offset=".58" stop-color="#c9c9c9"/><stop offset=".82" stop-color="#f8f8f8"/><stop offset="1" stop-color="#9b9b9b"/></radialGradient>
+ <filter id="shadow"><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<ellipse cx="500" cy="895" rx="330" ry="28" fill="#aaa" opacity=".22" filter="url(#shadow)"/>
+<circle cx="500" cy="500" r="395" fill="url(#silver)" stroke="#555" stroke-width="8"/>
+<circle cx="500" cy="500" r="370" fill="none" stroke="#777" stroke-width="4"/>
+<g fill="#444" font-family="Georgia,serif" text-anchor="middle">
+ <text x="500" y="245" font-size="92" letter-spacing="12">LIBERTY</text>
+ <text x="500" y="805" font-size="70" letter-spacing="5">2022</text>
+</g>
+<g stroke="#555" stroke-width="7" stroke-linecap="round" opacity=".8">
+ <path d="M300 650L500 475L700 650"/><path d="M340 690L500 475L660 690"/>
+ <path d="M365 720L500 475L635 720"/><path d="M390 740L500 475L610 740"/>
+</g>
+<circle cx="500" cy="690" r="95" fill="#8d8d8d" stroke="#555" stroke-width="5"/>
+<g fill="#5b5b5b" stroke="#3e3e3e" stroke-width="5">
+ <path d="M270 505 C315 440 385 420 455 448 C505 468 555 460 615 432 C675 404 734 434 752 487 C728 474 705 472 681 480 C650 490 630 514 611 545 C585 588 556 620 508 625 C459 630 427 601 400 570 C372 538 330 518 270 505Z"/>
+ <path d="M355 458 C337 420 344 376 375 351 C382 390 400 410 429 429 L405 472Z"/>
+ <path d="M430 445 C407 405 418 357 452 329 C456 374 475 401 505 421 L483 464Z"/>
+ <path d="M598 449 C625 420 648 386 651 346 C682 373 688 420 663 456 L635 479Z"/>
+ <path d="M700 456 C737 447 766 460 787 484 C755 487 729 500 706 520 L676 492Z"/>
+</g>
+<circle cx="500" cy="500" r="395" fill="none" stroke="#222" stroke-width="3"/>
+</svg>
