@@ -1162,9 +1162,6 @@ function populatePhotos(enrichedProduct) {
 
         btn.addEventListener("click", () => {
             activateThumb(idx);
-            if (typeof window.BondsMallOpenProductLightbox === "function") {
-                window.BondsMallOpenProductLightbox(urls, idx);
-            }
         });
         track.appendChild(btn);
         return btn;
