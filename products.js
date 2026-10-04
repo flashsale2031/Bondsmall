@@ -4492,15 +4492,15 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/110/view-01.webp",
+    "image": "assets/gold-coins/110/view-01.svg?v=20261003-5",
     "images": [
-      "assets/gold-coins/110/view-01.webp",
-      "assets/gold-coins/110/view-02.webp",
-      "assets/gold-coins/110/view-03.webp",
-      "assets/gold-coins/110/view-04.webp",
-      "assets/gold-coins/110/view-05.webp"
+      "assets/gold-coins/110/view-01.svg?v=20261003-5",
+      "assets/gold-coins/110/view-02.svg?v=20261003-5",
+      "assets/gold-coins/110/view-03.svg?v=20261003-5",
+      "assets/gold-coins/110/view-04.svg?v=20261003-5",
+      "assets/gold-coins/110/view-05.svg?v=20261003-5"
     ],
-    "photo_source": "Verified source image(s) where available; generated missing gallery views",
+    "photo_source": "Verified U.S. Mint 2021 design reference; Bonds Mall local generated white-background SVG product gallery",
     "photo_year": 2021,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin",
@@ -4538,8 +4538,8 @@ window.products = [
       "case_photo": "images[4]"
     },
     "photo_display": "Full five-view display",
-    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
-    "image_quality_status": "Local Bonds Mall generated asset"
+    "image_note": "Bonds Mall local white-background generated gallery based on the verified 2021 U.S. Mint design; runtime does not depend on external image hosts or placeholder WebP assets.",
+    "image_quality_status": "Local Bonds Mall generated 2021 asset"
   },
   {
     "id": 111,
