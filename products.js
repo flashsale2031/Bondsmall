@@ -4553,11 +4553,11 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2022-american-liberty-silver/_jcr_content/root/container_1426747781/imagegallerypdp/item_1751990764522.coreimg.jpeg/1751990795954/2022-american-liberty-silver-medal-obverse.jpeg",
+    "image": "assets/generated/2022-american-liberty-silver-obverse.svg",
     "images": [
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2022-american-liberty-silver/_jcr_content/root/container_1426747781/imagegallerypdp/item_1751990764522.coreimg.jpeg/1751990795954/2022-american-liberty-silver-medal-obverse.jpeg",
+      "assets/generated/2022-american-liberty-silver-obverse.svg",
       "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2022-american-liberty-silver/_jcr_content/root/container_1426747781/imagegallerypdp/item_1751990768256.coreimg.jpeg/1751990813776/2022-american-liberty-silver-medal-reverse.jpeg",
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2022-american-liberty-silver/_jcr_content/root/container_1426747781/imagegallerypdp/item_1751990764522.coreimg.jpeg/1751990795954/2022-american-liberty-silver-medal-obverse.jpeg",
+      "assets/generated/2022-american-liberty-silver-obverse.svg",
       "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2022-american-liberty-silver/_jcr_content/root/container_1426747781/imagegallerypdp/item_1751990768256.coreimg.jpeg/1751990813776/2022-american-liberty-silver-medal-reverse.jpeg",
       "https://sdbullion.com/media/catalog/product/cache/7210201ab1ce52030165d205aa451b65/s/u/sus22liberty-1p-2022-us-american-liberty-1-oz-silver-proof-medal-w-box-coa-set.jpg"
     ],
