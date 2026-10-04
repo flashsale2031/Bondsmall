@@ -4370,15 +4370,15 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/108/view-01.webp",
+    "image": "assets/gold-coins/108/view-01.svg?v=20261003-6",
     "images": [
-      "assets/gold-coins/108/view-01.webp",
-      "assets/gold-coins/108/view-02.webp",
-      "assets/gold-coins/108/view-03.webp",
-      "assets/gold-coins/108/view-04.webp",
-      "assets/gold-coins/108/view-05.webp"
+      "assets/gold-coins/108/view-01.svg?v=20261003-6",
+      "assets/gold-coins/108/view-02.svg?v=20261003-6",
+      "assets/gold-coins/108/view-03.svg?v=20261003-6",
+      "assets/gold-coins/108/view-04.svg?v=20261003-6",
+      "assets/gold-coins/108/view-05.svg?v=20261003-6"
     ],
-    "photo_source": "Verified source image(s) where available; generated missing gallery views",
+    "photo_source": "Verified U.S. Mint 2019 design reference; Bonds Mall local generated white-background SVG product gallery",
     "photo_year": 2019,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2019-high-relief-gold-coin",
