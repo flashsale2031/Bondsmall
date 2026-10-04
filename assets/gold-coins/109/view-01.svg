@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<rect width="512" height="512" fill="white"/>
+<ellipse cx="256" cy="449" rx="155" ry="16" fill="#ddd" opacity=".45"/>
+<text x="256" y="78" text-anchor="middle" font-family="Georgia" font-size="24" letter-spacing="5" fill="#7b5a20">LIBERTY</text>
+<circle cx="256" cy="256" r="205" fill="none" stroke="#8a6827" stroke-width="4"/>
+<path d="M235 345 C205 315 190 270 205 225 C220 183 260 145 300 140 C275 165 267 193 274 218 C282 246 306 267 330 284 C303 303 275 329 235 345Z" fill="#d6b35c" stroke="#76571f" stroke-width="5"/>
+<path d="M255 162 C228 183 213 208 210 238 C206 270 218 300 239 325" fill="none" stroke="#7d5c20" stroke-width="7"/>
+<path d="M195 210 Q235 175 280 185" fill="none" stroke="#76571f" stroke-width="5"/>
+<text x="256" y="430" text-anchor="middle" font-family="Georgia" font-size="19" letter-spacing="2" fill="#7b5a20">IN GOD WE TRUST</text>
+<text x="256" y="398" text-anchor="middle" font-family="Georgia" font-size="22" fill="#7b5a20">2020</text>
+</svg>
