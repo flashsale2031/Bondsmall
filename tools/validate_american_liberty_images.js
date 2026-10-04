@@ -73,7 +73,7 @@ assert.deepEqual(Array.from(overridden2025.images), [expected.get(114).front, ex
 assert.equal(overridden2025.photo_display, 'Obverse and reverse');
 assert.match(fs.readFileSync(path.join(root, 'index.html'), 'utf8'), /product-114-fix\.js\?v=20261004-american-liberty-photos-1/);
 
-const newProductKey = 'products.js?v=20261004-american-liberty-photos-1';
+const newProductKey = 'products.js?v=20261004-american-liberty-photos-2';
 const oldProductKey = 'products.js?v=20261003-liberty-images-1';
 function walk(directory) {
   return fs.readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {

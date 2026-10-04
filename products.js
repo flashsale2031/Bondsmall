@@ -4525,22 +4525,20 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/generated/2022-american-liberty-silver-obverse.svg",
+    "image": "assets/medals/2022-american-liberty-silver/obverse.webp",
     "images": [
-      "assets/generated/2022-american-liberty-silver-obverse.svg",
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2022-american-liberty-silver/_jcr_content/root/container_1426747781/imagegallerypdp/item_1751990768256.coreimg.jpeg/1751990813776/2022-american-liberty-silver-medal-reverse.jpeg",
-      "assets/generated/2022-american-liberty-silver-obverse.svg",
-      "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2022-american-liberty-silver/_jcr_content/root/container_1426747781/imagegallerypdp/item_1751990768256.coreimg.jpeg/1751990813776/2022-american-liberty-silver-medal-reverse.jpeg",
-      "https://sdbullion.com/media/catalog/product/cache/7210201ab1ce52030165d205aa451b65/s/u/sus22liberty-1p-2022-us-american-liberty-1-oz-silver-proof-medal-w-box-coa-set.jpg"
+      "assets/medals/2022-american-liberty-silver/obverse.webp",
+      "assets/medals/2022-american-liberty-silver/reverse-and-packaging.webp",
+      "assets/medals/2022-american-liberty-silver/presentation-case.webp",
+      "assets/medals/2022-american-liberty-silver/packaging-detail.webp"
     ],
     "image_views": {
       "front_main": "images[0]",
-      "left_side": "images[2]",
-      "right_side": "images[2]",
-      "back": "images[3]",
-      "case_photo": "images[4]"
+      "back": "images[1]",
+      "case_photo": "images[2]",
+      "packaging": "images[3]"
     },
-    "photo_source": "U.S. Mint official obverse/reverse photography; SD Bullion product-and-packaging photograph for presentation case",
+    "photo_source": "Local verified product photography sourced from Liberty Coin, JM Bullion, CollecTons, and Rinkor Rare Coins; product identity and specifications verified against the U.S. Mint issue page",
     "photo_year": 2022,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2022-american-liberty-silver",
@@ -4574,8 +4572,8 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint 2022 American Liberty Silver Medal; product identity and specifications are verified against U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "image_quality_status": "Verified five-view gallery",
-    "image_note": "Gallery uses official U.S. Mint obverse and reverse photography, CSS perspective treatment for side views, and a verified product-and-packaging photograph for the case view. No generic placeholder medal art is used."
+    "image_quality_status": "Verified four-photo local gallery",
+    "image_note": "Gallery uses local year-matched obverse, reverse-and-packaging, presentation-case, and packaging-detail photographs. No generated placeholder or external hotlink is used."
   },
   {
     "id": 112,
