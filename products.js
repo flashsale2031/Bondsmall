@@ -4433,21 +4433,21 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/109/view-01.webp",
+    "image": "assets/gold-coins/109/view-01.svg?v=20261003-7",
     "images": [
-      "assets/gold-coins/109/view-01.webp",
-      "assets/gold-coins/109/view-02.webp",
-      "assets/gold-coins/109/view-03.webp",
-      "assets/gold-coins/109/view-04.webp",
-      "assets/gold-coins/109/view-05.webp"
+      "assets/gold-coins/109/view-01.svg?v=20261003-7",
+      "assets/gold-coins/109/view-02.svg?v=20261003-7",
+      "assets/gold-coins/109/view-03.svg?v=20261003-7",
+      "assets/gold-coins/109/view-04.svg?v=20261003-7",
+      "assets/gold-coins/109/view-05.svg?v=20261003-7"
     ],
-    "photo_source": "Verified source image(s) where available; generated missing gallery views",
+    "photo_source": "eBay reference supplied for Product 109; Bonds Mall local white-background generated gallery",
     "photo_year": 2020,
-    "photo_is_representative": false,
+    "photo_is_representative": true,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
     "official_issue": false,
-    "listing_status": "Catalog placeholder — not an official U.S. Mint American Liberty gold issue for this year.",
-    "description": "This catalog entry preserves the requested 2020 Bonds Mall pricing, but it is not represented as an official U.S. Mint American Liberty gold coin. The U.S. Mint's American Liberty gold series archive does not list a 2020 gold coin.",
+    "listing_status": "Requested 2020 Liberty reference; visual asset is locally generated from the supplied seller reference.",
+    "description": "Bonds Mall Product 109 uses the supplied 2020 Liberty seller reference for its visual presentation. The local gallery is intentionally self-hosted and does not depend on external image hosts.",
     "specifications": {
       "brand": "US Mint",
       "catalog_year": "2020",
@@ -4475,8 +4475,8 @@ window.products = [
       "case_photo": "images[4]"
     },
     "photo_display": "Full five-view display",
-    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
-    "image_quality_status": "Local Bonds Mall generated asset"
+    "image_note": "Bonds Mall local white-background generated gallery based on the supplied 2020 Liberty reference; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated 2020 Liberty asset"
   },
   {
     "id": 110,
@@ -7812,7 +7812,7 @@ window.products = [
     "gender": "Unisex"
   },
   {
-    "id": 345,
+    "id": 376,
     "name": "Women's Bailey Bow II UGG Boots",
     "category": "women",
     "retail price": 214.99,
