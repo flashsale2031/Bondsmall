@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<rect width="512" height="512" fill="white"/>
+<ellipse cx="256" cy="449" rx="155" ry="16" fill="#ddd" opacity=".45"/>
+<text x="256" y="78" text-anchor="middle" font-family="Georgia" font-size="22" letter-spacing="3" fill="#7b5a20">UNITED STATES OF AMERICA</text>
+<circle cx="256" cy="256" r="205" fill="none" stroke="#8a6827" stroke-width="4"/>
+<path d="M150 280 C180 235 220 205 268 198 C315 191 356 210 385 244 C353 246 328 258 305 281 C281 306 267 336 250 366 C230 340 204 320 174 310 C160 305 151 295 150 280Z" fill="#d6b35c" stroke="#76571f" stroke-width="5"/>
+<path d="M188 282 Q230 255 272 246 Q318 238 356 254" fill="none" stroke="#76571f" stroke-width="6"/>
+<path d="M250 300 L300 330 L272 353 L235 325Z" fill="none" stroke="#76571f" stroke-width="5"/>
+<text x="256" y="414" text-anchor="middle" font-family="Georgia" font-size="18" letter-spacing="2" fill="#7b5a20">ONE OUNCE • .999 FINE GOLD</text>
+<text x="256" y="445" text-anchor="middle" font-family="Georgia" font-size="20" fill="#7b5a20">$25</text><rect x="108" y="108" width="296" height="296" rx="18" fill="none" stroke="#b58a35" stroke-width="10" opacity=".45"/>
+</svg>
