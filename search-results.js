@@ -134,7 +134,9 @@
             (name.includes("gold coin") || (category === "artandcollectibles" && name.includes("gold"))) &&
             id >= 60 && id <= 140 &&
             ![91, 93, 97, 98, 102].includes(id);
-        if (!isGoldCoin) return "";
+        // These Liberty records have year-specific product images; keep their
+        // curated primary image instead of forcing the legacy shared WebP set.
+        if (!isGoldCoin || [104, 106, 107, 108, 110, 112, 114].includes(id)) return "";
         const safeView = Math.max(1, Math.min(5, Number(view) || 1));
         return `/assets/gold-coins/${id}/view-${String(safeView).padStart(2, "0")}.webp`;
     }

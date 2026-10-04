@@ -4242,15 +4242,12 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/106/view-01.webp",
+    "image": "assets/gold-coins/106/liberty-2017-obverse.webp",
     "images": [
-      "assets/gold-coins/106/view-01.webp",
-      "assets/gold-coins/106/view-02.webp",
-      "assets/gold-coins/106/view-03.webp",
-      "assets/gold-coins/106/view-04.webp",
-      "assets/gold-coins/106/view-05.webp"
+      "assets/gold-coins/106/liberty-2017-obverse.webp",
+      "assets/gold-coins/106/liberty-2017-reverse.webp"
     ],
-    "photo_source": "Verified source image(s) where available; generated missing gallery views",
+    "photo_source": "American Liberty Coins & Medals 2017 paired obverse/reverse photo; design cross-checked against the official U.S. Mint issue",
     "photo_year": 2017,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2017-225th-anniversary-gold-coin",
@@ -4282,14 +4279,14 @@ window.products = [
     "brand_source": "U.S. Mint",
     "image_views": {
       "front_main": "images[0]",
+      "left_side": "images[0]",
+      "right_side": "images[1]",
       "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
-      "case_photo": "images[4]"
+      "case_photo": "images[0]"
     },
-    "photo_display": "Full five-view display",
-    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
-    "image_quality_status": "Local Bonds Mall generated asset"
+    "photo_display": "Obverse and reverse",
+    "image_note": "Local, year-matched 2017 obverse and reverse coin views; product cards and the gallery no longer use shared placeholder WebPs.",
+    "image_quality_status": "Verified year-specific obverse/reverse assets"
   },
   {
     "id": 107,
@@ -4305,15 +4302,12 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/107/view-01.webp",
+    "image": "assets/gold-coins/107/liberty-2018-obverse.webp",
     "images": [
-      "assets/gold-coins/107/view-01.webp",
-      "assets/gold-coins/107/view-02.webp",
-      "assets/gold-coins/107/view-03.webp",
-      "assets/gold-coins/107/view-04.webp",
-      "assets/gold-coins/107/view-05.webp"
+      "assets/gold-coins/107/liberty-2018-obverse.webp",
+      "assets/gold-coins/107/liberty-2018-obverse-reverse.webp"
     ],
-    "photo_source": "Verified source image(s) where available; generated missing gallery views",
+    "photo_source": "APMEX 2018 obverse photo and paired 2018 obverse/reverse product photo; designs cross-checked against the official U.S. Mint issue",
     "photo_year": 2018,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2018-american-liberty-gold-coin",
@@ -4345,14 +4339,14 @@ window.products = [
     "brand_source": "U.S. Mint",
     "image_views": {
       "front_main": "images[0]",
+      "left_side": "images[0]",
+      "right_side": "images[1]",
       "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
-      "case_photo": "images[4]"
+      "case_photo": "images[1]"
     },
-    "photo_display": "Full five-view display",
-    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
-    "image_quality_status": "Local Bonds Mall generated asset"
+    "photo_display": "Obverse and reverse",
+    "image_note": "Local, year-matched 2018 obverse and paired obverse/reverse coin views; product cards and the gallery no longer use shared placeholder WebPs.",
+    "image_quality_status": "Verified year-specific obverse/reverse assets"
   },
   {
     "id": 108,

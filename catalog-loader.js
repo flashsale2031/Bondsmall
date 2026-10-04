@@ -9,7 +9,7 @@
   const base = 'catalog-pages/';
   const target = window.products = window.products || [];
   const authority = window.BondsmallCatalogAuthority || { records: [], has: () => false, get: () => null };
-  const version = '2.4.9-gold-local';
+  const version = '2.4.10-liberty-images-1';
   const categoryIndex = (window.BondsmallCategoryIndex && window.BondsmallCategoryIndex.categories) || {};
   const categoryStates = new Map();
 
@@ -35,12 +35,13 @@
         ![91, 93, 97, 98, 102].includes(id);
       if (!isGoldCoin) return chosen;
 
-      // Products 108, 110, 112, and 114 use deliberately generated, white-background SVG galleries.
-      // Keep these local galleries intact instead of rewriting them to missing .webp
-      // paths during lazy catalog hydration. Other gold coins retain the shared
-      // WebP gallery convention.
+      // These curated Liberty listings have authoritative, year-specific images
+      // in products.js. Preserve them instead of replacing them with the legacy
+      // shared WebP placeholder gallery during lazy catalog hydration.
+      if ([104, 106, 107, 108, 110, 112, 114].includes(id)) return chosen;
+
+      // Uncurated gold coins retain the legacy shared WebP gallery convention.
       const extension = [108, 109, 110, 112, 114].includes(id) ? 'svg?v=20261003-7' : 'webp';
-      if (id === 104) return chosen;
       const assetBase = '/assets/gold-coins/' + id;
       return {
         ...chosen,

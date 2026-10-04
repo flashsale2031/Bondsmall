@@ -4,15 +4,17 @@
  */
 
 let activeReviewProductId = "";
-/* Gold-coin image quality layer: reject generated placeholders and build a
-   five-view gallery from verified product photography when available. */
+/* Gold-coin image quality layer: prefer curated product-specific images over
+   legacy placeholders and build galleries from verified product sources. */
 window.BondsGoldCoinImages = window.BondsGoldCoinImages || (() => {
     const placeholder = (src) => /^data:image\//i.test(String(src || ""));
+    const productSpecificImageIds = new Set([104, 106, 107, 108, 110, 112, 114]);
     const usable = (src) => {
         const s = String(src || "");
         if ((!/^https?:\/\//i.test(s) && !/^(?:assets\/|\.\/|\/)/i.test(s)) || placeholder(s)) return false;
         if (/\/(?:learn\/coins-and-medals\/collectible-coins\/american-liberty|coin-programs\/american-liberty|coins-precious-metal-coins\/bullion-coin-programs|coins\/coin-programs\/american-buffalo-coins)\s*$/i.test(s)) return false;
-        return /\.(?:jpe?g|png|webp)(?:[?#].*)?$/i.test(s) || /coreimg\.(?:jpeg|jpg|png|webp)/i.test(s) || /images\/products\//i.test(s);
+        const localSvg = /^(?:assets\/|\.\/|\/).+\.svg(?:[?#].*)?$/i.test(s);
+        return localSvg || /\.(?:jpe?g|png|webp)(?:[?#].*)?$/i.test(s) || /coreimg\.(?:jpeg|jpg|png|webp)/i.test(s) || /images\/products\//i.test(s);
     };
     const isGoldCoin = (product) => {
         const name = String(product?.name || "").toLowerCase();
@@ -30,6 +32,9 @@ window.BondsGoldCoinImages = window.BondsGoldCoinImages || (() => {
         const id = Number(product && product.id);
         const name = String(product && product.name || "").toLowerCase();
         const category = String(product && product.category || "").toLowerCase();
+        // These curated Liberty listings have product-specific sources in products.js.
+        // Do not replace them with the shared placeholder WebP set.
+        if (productSpecificImageIds.has(id)) return null;
         const isGold = Number.isFinite(id) &&
             (name.includes("gold coin") || (category === "artandcollectibles" && name.includes("gold"))) &&
             id >= 60 && id <= 140 &&
@@ -106,6 +111,12 @@ window.BondsGoldCoinImages = window.BondsGoldCoinImages || (() => {
         const leftMapped = resolveView(product, views.left_side || views.left || "");
         const rightMapped = resolveView(product, views.right_side || views.right || "");
         const caseMapped = resolveView(product, views.case_photo || views.case || views.packaging || "");
+        if (product?.photo_display === "Obverse and reverse") {
+            const front = usable(frontMapped) ? frontMapped : source[0] || "";
+            const back = usable(backMapped) ? backMapped : source.find((url) => url !== front) || front;
+            const images = Array.from(new Set([front, back].filter(Boolean)));
+            return { images, modes: images.map((_, index) => index === 0 ? "front" : "back") };
+        }
         const hadPlaceholder = (Array.isArray(product?.images) && product.images.some(placeholder)) || placeholder(product?.image);
         const front = usable(frontMapped) ? frontMapped : pick(source, /(?:_obv|_obverse|obverse)/i) || source[0] || "";
         const back = usable(backMapped) ? backMapped : pick(source, /(?:_rev|_reverse|reverse)/i, front) || pairedReverse(front) || seriesReverse(product, front) || source.find((u) => u !== front) || front;
