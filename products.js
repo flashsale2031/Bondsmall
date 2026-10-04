@@ -4621,15 +4621,15 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/112/view-01.webp",
+    "image": "assets/gold-coins/112/view-01.svg?v=20261003-4",
     "images": [
-      "assets/gold-coins/112/view-01.webp",
-      "assets/gold-coins/112/view-02.webp",
-      "assets/gold-coins/112/view-03.webp",
-      "assets/gold-coins/112/view-04.webp",
-      "assets/gold-coins/112/view-05.webp"
+      "assets/gold-coins/112/view-01.svg?v=20261003-4",
+      "assets/gold-coins/112/view-02.svg?v=20261003-4",
+      "assets/gold-coins/112/view-03.svg?v=20261003-4",
+      "assets/gold-coins/112/view-04.svg?v=20261003-4",
+      "assets/gold-coins/112/view-05.svg?v=20261003-4"
     ],
-    "photo_source": "Verified source image(s) where available; generated missing gallery views",
+    "photo_source": "U.S. Mint verified 2023 design reference; Bonds Mall local generated white-background SVG gallery",
     "photo_year": 2023,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2023-high-relief-gold-coin",
@@ -4667,8 +4667,8 @@ window.products = [
       "case_photo": "images[4]"
     },
     "photo_display": "Full five-view display",
-    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
-    "image_quality_status": "Local Bonds Mall generated asset"
+    "image_note": "Bonds Mall local white-background generated gallery based on the verified 2023 U.S. Mint design; runtime does not depend on external image hosts.",
+    "image_quality_status": "Local Bonds Mall generated 2023 asset"
   },
   {
     "id": 113,
