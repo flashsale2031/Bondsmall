@@ -9,7 +9,7 @@
   const base = 'catalog-pages/';
   const target = window.products = window.products || [];
   const authority = window.BondsmallCatalogAuthority || { records: [], has: () => false, get: () => null };
-  const version = '2.4.6-gold-local';
+  const version = '2.4.7-gold-local';
   const categoryIndex = (window.BondsmallCategoryIndex && window.BondsmallCategoryIndex.categories) || {};
   const categoryStates = new Map();
 
@@ -35,11 +35,11 @@
         ![91, 93, 97, 98, 102].includes(id);
       if (!isGoldCoin) return chosen;
 
-      // Product 114 has a deliberately generated, white-background SVG gallery.
-      // Keep that local gallery intact instead of rewriting it to missing .webp
+      // Products 110, 112, and 114 use deliberately generated, white-background SVG galleries.
+      // Keep these local galleries intact instead of rewriting them to missing .webp
       // paths during lazy catalog hydration. Other gold coins retain the shared
       // WebP gallery convention.
-      const extension = [112, 114].includes(id) ? 'svg?v=20261003-4' : 'webp';
+      const extension = [110, 112, 114].includes(id) ? 'svg?v=20261003-5' : 'webp';
       const assetBase = '/assets/gold-coins/' + id;
       return {
         ...chosen,
