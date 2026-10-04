@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img">
+<defs>
+ <radialGradient id="g" cx="38%" cy="30%"><stop offset="0" stop-color="#fff7b8"/><stop offset=".28" stop-color="#f4d66a"/><stop offset=".62" stop-color="#c99625"/><stop offset=".86" stop-color="#8a5a0b"/><stop offset="1" stop-color="#d9b64d"/></radialGradient>
+ <radialGradient id="s" cx="50%" cy="50%"><stop offset="0" stop-color="#fff8bf"/><stop offset=".7" stop-color="#d8aa34"/><stop offset="1" stop-color="#9b6812"/></radialGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7e38b"/><stop offset=".5" stop-color="#9d6a13"/><stop offset="1" stop-color="#e8c75c"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-opacity=".22"/></filter>
+</defs>
+<rect width="800" height="800" fill="#fff"/>
+<circle cx="400" cy="400" r="292" fill="url(#g)" stroke="#7b5008" stroke-width="8" filter="url(#shadow)"/>
+<circle cx="400" cy="400" r="272" fill="none" stroke="#f9e58b" stroke-width="4" opacity=".7"/>
+<circle cx="400" cy="400" r="252" fill="none" stroke="#8d5d10" stroke-width="3" opacity=".65"/><g fill="#5b3a08" stroke="#4b3007" stroke-width="5" stroke-linejoin="round">
+      <path d="M250 492 C244 437 267 376 318 337 C367 300 430 288 489 310 C536 328 572 367 586 414 C602 468 580 523 538 558 C493 595 427 601 375 580 C318 557 259 536 250 492Z"/>
+      <path d="M311 390 C342 353 385 334 430 341 C469 347 501 369 523 401 C493 389 466 388 438 398 C407 409 382 429 363 455 C347 435 330 413 311 390Z"/>
+      <path d="M352 457 C378 438 408 429 440 433 C470 437 498 451 522 470 C493 472 469 479 445 492 C416 507 392 527 375 551 C362 519 354 488 352 457Z"/>
+      <path d="M438 397 C466 376 497 369 526 378 L566 397 L542 418 L508 410 L474 425Z"/>
+      <path d="M497 439 C531 431 558 438 581 456 L598 477 L573 486 L545 472 L514 473Z"/>
+      <path d="M521 488 C548 488 572 500 588 521 L596 542 L568 543 L544 526 L516 516Z"/>
+      <path d="M306 455 C279 449 254 455 231 472 L214 492 L239 499 L264 487 L294 486Z"/>
+    </g>
+    <path d="M285 525 Q400 625 535 544" fill="none" stroke="#f8e28a" stroke-width="6" opacity=".65"/>
+    <text x="400" y="126" text-anchor="middle" font-family="Georgia,serif" font-size="31" font-weight="700" letter-spacing="2" fill="#4d3208">UNITED STATES OF AMERICA</text>
+    <text x="400" y="678" text-anchor="middle" font-family="Georgia,serif" font-size="27" font-weight="700" fill="#4d3208">E PLURIBUS UNUM</text>
+    <text x="178" y="606" text-anchor="middle" font-family="Georgia,serif" font-size="25" font-weight="700" fill="#4d3208">1 OZ.</text>
+    <text x="622" y="606" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#4d3208">.9999 FINE GOLD</text>
+    <text x="400" y="716" text-anchor="middle" font-family="Georgia,serif" font-size="34" font-weight="700" fill="#4d3208">$100</text></svg>
