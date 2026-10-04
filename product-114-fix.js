@@ -1,13 +1,15 @@
 (() => {
   'use strict';
   const PRODUCT_ID = 114;
-  const LOCAL_BASE = 'assets/gold-coins/114/';
-  const IMAGES = [1, 2, 3, 4, 5].map(n => LOCAL_BASE + 'view-' + String(n).padStart(2, '0') + '.svg?v=20261003-3');
+  const IMAGES = [
+    'assets/gold-coins/114/liberty-2025-obverse.webp',
+    'assets/gold-coins/114/liberty-2025-reverse.webp'
+  ];
   const referenceSources = [
     'https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin',
     'https://www.apmex.com/product/318944/2025-w-high-relief-american-liberty-gold-proof-box-coa',
-    'https://www.bgasc.com/product/2025-w-1-oz-proof-american-liberty-high-relief-gold-coin',
-    'https://www.jmbullion.com/2025-w-1-oz-proof-american-liberty-high-relief-gold-coin/'
+    'https://www.rinkorrarecoins.com/item/2025-w-1oz-american-liberty-gold-high-relief-proof-box-and-coa/1GHR2025',
+    'https://www.jmbullion.com/2025-w-1-oz-proof-american-liberty-high-relief-gold-coin-pcgs-pr70-dcam/'
   ];
 
   const patch = product => {
@@ -17,17 +19,15 @@
       image: IMAGES[0],
       images: IMAGES.slice(),
       image_views: {
-        front_main: IMAGES[0],
-        left_side: IMAGES[2],
-        right_side: IMAGES[3],
-        back: IMAGES[1],
-        case_photo: IMAGES[4]
+        front_main: 'images[0]',
+        back: 'images[1]'
       },
-      photo_source: 'Bonds Mall generated white-background gallery, based on the verified U.S. Mint 2025 design and dealer packaging/view references.',
+      photo_display: 'Obverse and reverse',
+      photo_source: 'Official U.S. Mint 2025 obverse and reverse product photos; locally optimized and stored.',
       photo_year: 2025,
       photo_is_representative: false,
-      image_quality_status: 'Local Bonds Mall generated asset',
-      image_note: 'Main obverse is a generated white-background product image. Additional angles and case presentation are generated from the verified design and packaging references; the storefront does not depend on photo URL links or placeholders.',
+      image_quality_status: 'Verified year-specific obverse/reverse product images; local optimized WebP',
+      image_note: 'Official U.S. Mint 2025 sunflower-and-bee obverse and eagle reverse images; product cards and gallery use these local assets.',
       image_reference_sources: referenceSources
     };
   };

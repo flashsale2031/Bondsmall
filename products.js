@@ -4116,15 +4116,11 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "https://fmrgold.com/wp-content/uploads/2025/07/id10077310chlm7pXVIGvhy27-Qbl1Z-nhpKPE9qc9bBGY_kYAnxufcPYBeyext-300x300.jpg",
-    "images": [
-      "https://fmrgold.com/wp-content/uploads/2025/07/id10077310chlm7pXVIGvhy27-Qbl1Z-nhpKPE9qc9bBGY_kYAnxufcPYBeyext-300x300.jpg",
-      "https://fmrgold.com/wp-content/uploads/2025/07/id10077173chp9Ql4cZMay3NlIqWQFHL8mkyHyL4AGYXx7vMsX3z5MYs1aejext-300x300.jpg",
-      "https://fmrgold.com/wp-content/uploads/2025/07/id10077173chp9Ql4cZMay3NlIqWQFHL8mkyHyL4AGYXx7vMsX3z5MYs1aejext-1-300x300.jpg"
-    ],
-    "photo_source": "FMR Gold product reference supplied by user; three published product images",
+    "image": "assets/gold-coins/104/liberty-2015-obverse.webp",
+    "images": ["assets/gold-coins/104/liberty-2015-obverse.webp", "assets/gold-coins/104/liberty-2015-reverse.webp"],
+    "photo_source": "Official U.S. Mint 2015 obverse and reverse product photos; https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2015-high-relief-gold-coin",
     "photo_year": 2015,
-    "photo_is_representative": true,
+    "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2015-high-relief-gold-coin",
     "official_issue": true,
     "description": "The 2015 American Liberty High Relief Gold Coin presents a modern rendition of Liberty standing, crowned with leaves and holding the American flag and a torch; the reverse features a bald eagle in flight clutching an olive branch.",
@@ -4152,16 +4148,10 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "image_views": {
-      "front_main": "images[0]",
-      "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
-      "case_photo": "images[4]"
-    },
-    "photo_display": "Full five-view display",
-    "image_note": "FMR Gold reference images supplied by the user; used directly so the product matches the referenced 2015-W Liberty High Relief Gold Coin PCGS MS69.",
-    "image_quality_status": "Verified FMR Gold reference imagery"
+    "image_views": {"front_main": "images[0]", "back": "images[1]"},
+    "photo_display": "Obverse and reverse",
+    "image_note": "Official U.S. Mint 2015 obverse/reverse images, stored locally as optimized WebP product assets.",
+    "image_quality_status": "Verified year-specific obverse/reverse product images; local optimized WebP"
   },
   {
     "id": 105,
@@ -4243,11 +4233,8 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "assets/gold-coins/106/liberty-2017-obverse.webp",
-    "images": [
-      "assets/gold-coins/106/liberty-2017-obverse.webp",
-      "assets/gold-coins/106/liberty-2017-reverse.webp"
-    ],
-    "photo_source": "American Liberty Coins & Medals 2017 paired obverse/reverse photo; design cross-checked against the official U.S. Mint issue",
+    "images": ["assets/gold-coins/106/liberty-2017-obverse.webp", "assets/gold-coins/106/liberty-2017-reverse.webp"],
+    "photo_source": "Official U.S. Mint 2017 American Liberty 225th Anniversary obverse and reverse product photos; https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2017-225th-anniversary-gold-coin",
     "photo_year": 2017,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2017-225th-anniversary-gold-coin",
@@ -4277,16 +4264,10 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "image_views": {
-      "front_main": "images[0]",
-      "left_side": "images[0]",
-      "right_side": "images[1]",
-      "back": "images[1]",
-      "case_photo": "images[0]"
-    },
+    "image_views": {"front_main": "images[0]", "back": "images[1]"},
     "photo_display": "Obverse and reverse",
-    "image_note": "Local, year-matched 2017 obverse and reverse coin views; product cards and the gallery no longer use shared placeholder WebPs.",
-    "image_quality_status": "Verified year-specific obverse/reverse assets"
+    "image_note": "Official U.S. Mint 2017 anniversary coin obverse/reverse images, stored locally as optimized WebP product assets.",
+    "image_quality_status": "Verified year-specific obverse/reverse product images; local optimized WebP"
   },
   {
     "id": 107,
@@ -4303,11 +4284,8 @@ window.products = [
     ],
     "default_condition": "New",
     "image": "assets/gold-coins/107/liberty-2018-obverse.webp",
-    "images": [
-      "assets/gold-coins/107/liberty-2018-obverse.webp",
-      "assets/gold-coins/107/liberty-2018-obverse-reverse.webp"
-    ],
-    "photo_source": "APMEX 2018 obverse photo and paired 2018 obverse/reverse product photo; designs cross-checked against the official U.S. Mint issue",
+    "images": ["assets/gold-coins/107/liberty-2018-obverse.webp", "assets/gold-coins/107/liberty-2018-reverse.webp"],
+    "photo_source": "APMEX 2018 W 1/10 oz Proof American Liberty listing (obverse and reverse photos), verified against the official U.S. Mint issue page: https://www.apmex.com/product/162397/2018-w-1-10-oz-proof-american-liberty-gold-w-box-and-coa ; https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2018-american-liberty-gold-coin",
     "photo_year": 2018,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2018-american-liberty-gold-coin",
@@ -4337,16 +4315,10 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "image_views": {
-      "front_main": "images[0]",
-      "left_side": "images[0]",
-      "right_side": "images[1]",
-      "back": "images[1]",
-      "case_photo": "images[1]"
-    },
+    "image_views": {"front_main": "images[0]", "back": "images[1]"},
     "photo_display": "Obverse and reverse",
-    "image_note": "Local, year-matched 2018 obverse and paired obverse/reverse coin views; product cards and the gallery no longer use shared placeholder WebPs.",
-    "image_quality_status": "Verified year-specific obverse/reverse assets"
+    "image_note": "Year-specific APMEX 2018 $10 fractional Liberty coin obverse/reverse photos, stored locally as optimized WebP assets.",
+    "image_quality_status": "Verified year-specific obverse/reverse product images; local optimized WebP"
   },
   {
     "id": 108,
@@ -4362,15 +4334,9 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/108/view-01.svg?v=20261003-6",
-    "images": [
-      "assets/gold-coins/108/view-01.svg?v=20261003-6",
-      "assets/gold-coins/108/view-02.svg?v=20261003-6",
-      "assets/gold-coins/108/view-03.svg?v=20261003-6",
-      "assets/gold-coins/108/view-04.svg?v=20261003-6",
-      "assets/gold-coins/108/view-05.svg?v=20261003-6"
-    ],
-    "photo_source": "Verified U.S. Mint 2019 design reference; Bonds Mall local generated white-background SVG product gallery",
+    "image": "assets/gold-coins/108/liberty-2019-obverse.webp",
+    "images": ["assets/gold-coins/108/liberty-2019-obverse.webp", "assets/gold-coins/108/liberty-2019-reverse.webp"],
+    "photo_source": "Official U.S. Mint 2019 American Liberty obverse and reverse product photos; https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2019-high-relief-gold-coin",
     "photo_year": 2019,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2019-high-relief-gold-coin",
@@ -4400,16 +4366,10 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "image_views": {
-      "front_main": "images[0]",
-      "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
-      "case_photo": "images[4]"
-    },
-    "photo_display": "Full five-view display",
-    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
-    "image_quality_status": "Local Bonds Mall generated asset"
+    "image_views": {"front_main": "images[0]", "back": "images[1]"},
+    "photo_display": "Obverse and reverse",
+    "image_note": "Official U.S. Mint 2019 obverse/reverse images, stored locally as optimized WebP product assets.",
+    "image_quality_status": "Verified year-specific obverse/reverse product images; local optimized WebP"
   },
   {
     "id": 109,
@@ -4484,15 +4444,9 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/110/view-01.svg?v=20261003-5",
-    "images": [
-      "assets/gold-coins/110/view-01.svg?v=20261003-5",
-      "assets/gold-coins/110/view-02.svg?v=20261003-5",
-      "assets/gold-coins/110/view-03.svg?v=20261003-5",
-      "assets/gold-coins/110/view-04.svg?v=20261003-5",
-      "assets/gold-coins/110/view-05.svg?v=20261003-5"
-    ],
-    "photo_source": "Verified U.S. Mint 2021 design reference; Bonds Mall local generated white-background SVG product gallery",
+    "image": "assets/gold-coins/110/liberty-2021-obverse.webp",
+    "images": ["assets/gold-coins/110/liberty-2021-obverse.webp", "assets/gold-coins/110/liberty-2021-reverse.webp"],
+    "photo_source": "Official U.S. Mint 2021 American Liberty High Relief obverse and reverse product photos; https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin",
     "photo_year": 2021,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2021-high-relief-gold-coin",
@@ -4522,16 +4476,10 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "image_views": {
-      "front_main": "images[0]",
-      "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
-      "case_photo": "images[4]"
-    },
-    "photo_display": "Full five-view display",
-    "image_note": "Bonds Mall local white-background generated gallery based on the verified 2021 U.S. Mint design; runtime does not depend on external image hosts or placeholder WebP assets.",
-    "image_quality_status": "Local Bonds Mall generated 2021 asset"
+    "image_views": {"front_main": "images[0]", "back": "images[1]"},
+    "photo_display": "Obverse and reverse",
+    "image_note": "Official U.S. Mint 2021 mustang-obverse/eagle-reverse images, stored locally as optimized WebP product assets.",
+    "image_quality_status": "Verified year-specific obverse/reverse product images; local optimized WebP"
   },
   {
     "id": 111,
@@ -4613,15 +4561,9 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/112/view-01.svg?v=20261003-4",
-    "images": [
-      "assets/gold-coins/112/view-01.svg?v=20261003-4",
-      "assets/gold-coins/112/view-02.svg?v=20261003-4",
-      "assets/gold-coins/112/view-03.svg?v=20261003-4",
-      "assets/gold-coins/112/view-04.svg?v=20261003-4",
-      "assets/gold-coins/112/view-05.svg?v=20261003-4"
-    ],
-    "photo_source": "U.S. Mint verified 2023 design reference; Bonds Mall local generated white-background SVG gallery",
+    "image": "assets/gold-coins/112/liberty-2023-obverse.webp",
+    "images": ["assets/gold-coins/112/liberty-2023-obverse.webp", "assets/gold-coins/112/liberty-2023-reverse.webp"],
+    "photo_source": "Official U.S. Mint 2023 American Liberty High Relief obverse and reverse product photos; https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2023-high-relief-gold-coin",
     "photo_year": 2023,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2023-high-relief-gold-coin",
@@ -4651,16 +4593,10 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "image_views": {
-      "front_main": "images[0]",
-      "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
-      "case_photo": "images[4]"
-    },
-    "photo_display": "Full five-view display",
-    "image_note": "Bonds Mall local white-background generated gallery based on the verified 2023 U.S. Mint design; runtime does not depend on external image hosts.",
-    "image_quality_status": "Local Bonds Mall generated 2023 asset"
+    "image_views": {"front_main": "images[0]", "back": "images[1]"},
+    "photo_display": "Obverse and reverse",
+    "image_note": "Official U.S. Mint 2023 bristlecone-pine obverse/eagle-reverse images, stored locally as optimized WebP product assets.",
+    "image_quality_status": "Verified year-specific obverse/reverse product images; local optimized WebP"
   },
   {
     "id": 113,
@@ -4744,15 +4680,9 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "assets/gold-coins/114/view-01.svg",
-    "images": [
-      "assets/gold-coins/114/view-01.svg",
-      "assets/gold-coins/114/view-02.svg",
-      "assets/gold-coins/114/view-03.svg",
-      "assets/gold-coins/114/view-04.svg",
-      "assets/gold-coins/114/view-05.svg"
-    ],
-    "photo_source": "Verified U.S. Mint 2025 design reference; Bonds Mall local generated white-background SVG product assets",
+    "image": "assets/gold-coins/114/liberty-2025-obverse.webp",
+    "images": ["assets/gold-coins/114/liberty-2025-obverse.webp", "assets/gold-coins/114/liberty-2025-reverse.webp"],
+    "photo_source": "Official U.S. Mint 2025 American Liberty High Relief obverse and reverse product photos; https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin",
     "photo_year": 2025,
     "photo_is_representative": false,
     "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin",
@@ -4782,16 +4712,10 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "image_views": {
-      "front_main": "images[0]",
-      "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
-      "case_photo": "images[4]"
-    },
-    "photo_display": "Full five-view display",
-    "image_note": "Bonds Mall local white-background generated product assets. Rendering is fully local and does not depend on external photo URLs or placeholders.",
-    "image_quality_status": "Local Bonds Mall generated white-background asset"
+    "image_views": {"front_main": "images[0]", "back": "images[1]"},
+    "photo_display": "Obverse and reverse",
+    "image_note": "Official U.S. Mint 2025 sunflower-and-bee obverse/eagle-reverse images, stored locally as optimized WebP product assets.",
+    "image_quality_status": "Verified year-specific obverse/reverse product images; local optimized WebP"
   },
   {
     "id": 115,
