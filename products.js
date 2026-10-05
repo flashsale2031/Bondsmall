@@ -13465,5 +13465,29 @@ window.products = [
     "specifications":{"brand":"Celine","model":"Soft Triomphe Besace","material":"Supple shiny lambskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"123632T88.38NO","style":"Shoulder / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
+  {
+    "id":355,"name":"Dior Médaillon Bucket Bag — Small Black Grained Calfskin","category":"accessories","retail price":3900,"sale price":3900,
+    "image":"https://assets.christiandior.com/is/image/diorprod/M1531QUQWM900_SBG_E01?%24r9x10_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1850",
+    "images":["https://assets.christiandior.com/is/image/diorprod/M1531QUQWM900_SBG_E01?%24r9x10_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1850","https://assets.christiandior.com/is/image/diorprod/M1531QUQWM900_SBG_E03?%24r9x10_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1850","https://assets.christiandior.com/is/image/diorprod/M1531QUQWM900_SBG_E06?%24r9x10_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1850","https://assets.christiandior.com/is/image/diorprod/LOOK_F_26_3_LOOK_166_E04?%24r9x10_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1850"],
+    "description":"Small Dior Médaillon Bucket bag in black grained calfskin with adjustable strap, signature Médaillon detail and detachable Dior Oblique jacquard pouch.",
+    "specifications":{"brand":"Dior","model":"Dior Médaillon Bucket Small","reference":"M1531QUQW_M900","material":"Grained calfskin","lining":"Goatskin and calfskin","hardware":"Gold-tone","origin":"Italy","dimensions":"19 x 18 x 12.5 cm","style":"Bucket / Shoulder"},
+    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior"
+  },
+  {
+    "id":356,"name":"Dior Médaillon Bucket Bag — Medium Black Grained Calfskin","category":"accessories","retail price":4600,"sale price":4600,
+    "image":"https://assets.christiandior.com/is/image/diorprod/M1532QUQWM900_SBG_E01?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600",
+    "images":["https://assets.christiandior.com/is/image/diorprod/M1532QUQWM900_SBG_E01?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600","https://assets.christiandior.com/is/image/diorprod/M1532QUQWM900_SBG_E03?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600","https://assets.christiandior.com/is/image/diorprod/M1532QUQWM900_SBG_E06?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600","https://assets.christiandior.com/is/image/diorprod/M1532QUQWM900_SBG_E07?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600"],
+    "description":"Medium Dior Médaillon Bucket bag in black grained calfskin with adjustable strap, signature Médaillon detail and detachable Dior Oblique jacquard pouch.",
+    "specifications":{"brand":"Dior","model":"Dior Médaillon Bucket Medium","reference":"M1532QUQW_M900","material":"Grained calfskin","lining":"Goatskin and calfskin","hardware":"Gold-tone","origin":"Italy","dimensions":"26.5 x 26 x 15 cm","style":"Bucket / Shoulder"},
+    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior"
+  },
+  {
+    "id":357,"name":"Dior Small Promenade Flap Bag — Black Flat Cannage Calfskin","category":"accessories","retail price":3800,"sale price":3800,
+    "image":"https://assets.christiandior.com/is/image/diorprod/LOOK_F_26_4_LOOK_054_E04-1?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600",
+    "images":["https://assets.christiandior.com/is/image/diorprod/LOOK_F_26_4_LOOK_054_E04-1?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600","https://assets.christiandior.com/is/image/diorprod/LOOK_F_26_4_LOOK_054_E01-1?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600","https://assets.christiandior.com/is/image/diorprod/LOOK_F_26_4_LOOK_054_E13-1?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600","https://assets.christiandior.com/is/image/diorprod/M2867ODKZM900_SBG_E01-1?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600"],
+    "description":"Small Dior Promenade Flap bag in black flat Cannage calfskin with slender handles and refined Dior bow detailing.",
+    "specifications":{"brand":"Dior","model":"Small Dior Promenade Flap","material":"Flat Cannage calfskin","hardware":"Gold-tone","origin":"Italy","style":"Top Handle / Shoulder"},
+    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior"
+  },
 
 ]
