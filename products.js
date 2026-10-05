@@ -12366,4 +12366,530 @@ window.products = [
   "brand": "United States Mint",
   "brand_display_name": "United States Mint"
 }
+,
+{
+  "name": "2026 American Eagle One-Half Ounce Gold Proof $25 Coin",
+  "category": "artandcollectibles",
+  "retail price": 2690,
+  "sale price": 2690,
+  "image": "assets/gold-coins/62/view-01.webp",
+  "images": [
+    "assets/gold-coins/62/view-01.webp"
+  ],
+  "description": "2026 American Eagle collector coin variant from the United States Mint, added as a missing denomination/precious-metal variant in the Bonds Mall catalog.",
+  "specifications": {
+    "program": "American Eagle",
+    "year": 2026,
+    "denomination": "$25",
+    "weight": "0.500 troy oz.",
+    "composition": "91.67% gold, 3% silver, balance copper",
+    "finish": "Proof",
+    "mint": "West Point (W)",
+    "source": "https://www.usmint.gov/american-eagle-2026-gold-proof-four-coin-set-26EF.html"
+  },
+  "productType": "Coin",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Unisex",
+  "brand": "United States Mint",
+  "brand_display_name": "United States Mint",
+  "id": 299
+},
+{
+  "name": "2026 American Eagle One-Quarter Ounce Gold Proof $10 Coin",
+  "category": "artandcollectibles",
+  "retail price": 1385,
+  "sale price": 1385,
+  "image": "assets/gold-coins/62/view-01.webp",
+  "images": [
+    "assets/gold-coins/62/view-01.webp"
+  ],
+  "description": "2026 American Eagle collector coin variant from the United States Mint, added as a missing denomination/precious-metal variant in the Bonds Mall catalog.",
+  "specifications": {
+    "program": "American Eagle",
+    "year": 2026,
+    "denomination": "$10",
+    "weight": "0.250 troy oz.",
+    "composition": "91.67% gold, 3% silver, balance copper",
+    "finish": "Proof",
+    "mint": "West Point (W)",
+    "source": "https://www.usmint.gov/american-eagle-2026-gold-proof-four-coin-set-26EF.html"
+  },
+  "productType": "Coin",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Unisex",
+  "brand": "United States Mint",
+  "brand_display_name": "United States Mint",
+  "id": 300
+},
+{
+  "name": "2026 American Eagle One-Tenth Ounce Gold Proof $5 Coin",
+  "category": "artandcollectibles",
+  "retail price": 605,
+  "sale price": 605,
+  "image": "assets/gold-coins/62/view-01.webp",
+  "images": [
+    "assets/gold-coins/62/view-01.webp"
+  ],
+  "description": "2026 American Eagle collector coin variant from the United States Mint, added as a missing denomination/precious-metal variant in the Bonds Mall catalog.",
+  "specifications": {
+    "program": "American Eagle",
+    "year": 2026,
+    "denomination": "$5",
+    "weight": "0.100 troy oz.",
+    "composition": "91.67% gold, 3% silver, balance copper",
+    "finish": "Proof",
+    "mint": "West Point (W)",
+    "source": "https://www.usmint.gov/american-eagle-2026-gold-proof-four-coin-set-26EF.html"
+  },
+  "productType": "Coin",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Unisex",
+  "brand": "United States Mint",
+  "brand_display_name": "United States Mint",
+  "id": 301
+},
+{
+  "name": "2026 American Eagle One Ounce Silver Proof $1 Coin",
+  "category": "artandcollectibles",
+  "retail price": 173,
+  "sale price": 173,
+  "image": "assets/gold-coins/62/view-01.webp",
+  "images": [
+    "assets/gold-coins/62/view-01.webp"
+  ],
+  "description": "2026 American Eagle one-ounce silver proof coin, the missing silver precious-metal variant for the American Eagle family.",
+  "specifications": {
+    "program": "American Eagle",
+    "year": 2026,
+    "denomination": "$1",
+    "weight": "1.000 troy oz.",
+    "composition": "99.9% fine silver",
+    "finish": "Proof",
+    "mint": "West Point (W)",
+    "source": "https://www.usmint.gov/american-eagle-2026-one-ounce-silver-proof-coin-26EA.html"
+  },
+  "productType": "Coin",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Unisex",
+  "brand": "United States Mint",
+  "brand_display_name": "United States Mint",
+  "id": 302
+},
+{
+  "name": "2026 American Eagle One Ounce Palladium Uncirculated $25 Coin",
+  "category": "artandcollectibles",
+  "retail price": 1945,
+  "sale price": 1945,
+  "image": "assets/gold-coins/62/view-01.webp",
+  "images": [
+    "assets/gold-coins/62/view-01.webp"
+  ],
+  "description": "2026 American Eagle one-ounce palladium uncirculated coin, the missing palladium precious-metal variant for the American Eagle family.",
+  "specifications": {
+    "program": "American Eagle",
+    "year": 2026,
+    "denomination": "$25",
+    "weight": "1.000 troy oz.",
+    "composition": "99.95% palladium",
+    "finish": "Uncirculated",
+    "mint": "West Point (W)",
+    "source": "https://www.usmint.gov/american-eagle-2026-one-ounce-palladium-uncirculated-coin-26EK.html"
+  },
+  "productType": "Coin",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Unisex",
+  "brand": "United States Mint",
+  "brand_display_name": "United States Mint",
+  "id": 303
+},
+{
+  "name": "Comic Art One Ounce Silver Medal — Batman™",
+  "category": "artandcollectibles",
+  "retail price": 200,
+  "sale price": 200,
+  "image": "assets/gold-coins/64/view-01.webp",
+  "images": [
+    "assets/gold-coins/64/view-01.webp"
+  ],
+  "description": "Comic Art 99.9% fine silver medal featuring Batman™, completing the DC Comic precious-metal variants.",
+  "specifications": {
+    "program": "Comic Art Coin & Medal Program",
+    "character": "Batman™",
+    "metal": "Silver",
+    "weight": "1.000 troy oz.",
+    "composition": "99.9% silver",
+    "denomination": "N/A",
+    "finish": "Matte",
+    "mint": "Philadelphia (P)",
+    "item_number": "25DBS1",
+    "source": "https://www.usmint.gov/comic-art-one-ounce-silver-medal-batman-25dbs1.html"
+  },
+  "productType": "Silver Medal",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Unisex",
+  "brand": "United States Mint",
+  "brand_display_name": "United States Mint",
+  "id": 304
+},
+{
+  "name": "Comic Art 2.5 Ounce Silver Medal — Batman™",
+  "category": "artandcollectibles",
+  "retail price": 400,
+  "sale price": 400,
+  "image": "assets/gold-coins/64/view-01.webp",
+  "images": [
+    "assets/gold-coins/64/view-01.webp"
+  ],
+  "description": "Comic Art 99.9% fine silver medal featuring Batman™, completing the DC Comic precious-metal variants.",
+  "specifications": {
+    "program": "Comic Art Coin & Medal Program",
+    "character": "Batman™",
+    "metal": "Silver",
+    "weight": "2.500 troy oz.",
+    "composition": "99.9% silver",
+    "denomination": "N/A",
+    "finish": "Matte",
+    "mint": "Philadelphia (P)",
+    "item_number": "25DBS2",
+    "source": "https://www.usmint.gov/comic-art-2.5-ounce-silver-medal-batman-25dbs2.html"
+  },
+  "productType": "Silver Medal",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Unisex",
+  "brand": "United States Mint",
+  "brand_display_name": "United States Mint",
+  "id": 305
+},
+{
+  "name": "Comic Art One Ounce Silver Medal — Superman™",
+  "category": "artandcollectibles",
+  "retail price": 200,
+  "sale price": 200,
+  "image": "assets/gold-coins/65/view-01.webp",
+  "images": [
+    "assets/gold-coins/65/view-01.webp"
+  ],
+  "description": "Comic Art 99.9% fine silver medal featuring Superman™, completing the DC Comic precious-metal variants.",
+  "specifications": {
+    "program": "Comic Art Coin & Medal Program",
+    "character": "Superman™",
+    "metal": "Silver",
+    "weight": "1.000 troy oz.",
+    "composition": "99.9% silver",
+    "denomination": "N/A",
+    "finish": "Matte",
+    "mint": "Philadelphia (P)",
+    "item_number": "25DSS1",
+    "source": "https://www.usmint.gov/comic-art-one-ounce-silver-medal-superman-25dss1.html"
+  },
+  "productType": "Silver Medal",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Unisex",
+  "brand": "United States Mint",
+  "brand_display_name": "United States Mint",
+  "id": 306
+},
+{
+  "name": "Comic Art 2.5 Ounce Silver Medal — Superman™",
+  "category": "artandcollectibles",
+  "retail price": 400,
+  "sale price": 400,
+  "image": "assets/gold-coins/65/view-01.webp",
+  "images": [
+    "assets/gold-coins/65/view-01.webp"
+  ],
+  "description": "Comic Art 99.9% fine silver medal featuring Superman™, completing the DC Comic precious-metal variants.",
+  "specifications": {
+    "program": "Comic Art Coin & Medal Program",
+    "character": "Superman™",
+    "metal": "Silver",
+    "weight": "2.500 troy oz.",
+    "composition": "99.9% silver",
+    "denomination": "N/A",
+    "finish": "Matte",
+    "mint": "Philadelphia (P)",
+    "item_number": "25DSS2",
+    "source": "https://www.usmint.gov/comic-art-2.5-ounce-silver-medal-superman-25dss2.html"
+  },
+  "productType": "Silver Medal",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Unisex",
+  "brand": "United States Mint",
+  "brand_display_name": "United States Mint",
+  "id": 307
+},
+{
+  "name": "Comic Art One Ounce Silver Medal — Wonder Woman™",
+  "category": "artandcollectibles",
+  "retail price": 200,
+  "sale price": 200,
+  "image": "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80",
+  "images": [
+    "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80"
+  ],
+  "description": "Comic Art 99.9% fine silver medal featuring Wonder Woman™, completing the DC Comic precious-metal variants.",
+  "specifications": {
+    "program": "Comic Art Coin & Medal Program",
+    "character": "Wonder Woman™",
+    "metal": "Silver",
+    "weight": "1.000 troy oz.",
+    "composition": "99.9% silver",
+    "denomination": "N/A",
+    "finish": "Matte",
+    "mint": "Philadelphia (P)",
+    "item_number": "25DWS1",
+    "source": "https://www.usmint.gov/comic-art-one-ounce-silver-medal-wonder-woman-25dws1.html"
+  },
+  "productType": "Silver Medal",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Unisex",
+  "brand": "United States Mint",
+  "brand_display_name": "United States Mint",
+  "id": 308
+},
+{
+  "name": "Comic Art 2.5 Ounce Silver Medal — Wonder Woman™",
+  "category": "artandcollectibles",
+  "retail price": 400,
+  "sale price": 400,
+  "image": "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80",
+  "images": [
+    "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80"
+  ],
+  "description": "Comic Art 99.9% fine silver medal featuring Wonder Woman™, completing the DC Comic precious-metal variants.",
+  "specifications": {
+    "program": "Comic Art Coin & Medal Program",
+    "character": "Wonder Woman™",
+    "metal": "Silver",
+    "weight": "2.500 troy oz.",
+    "composition": "99.9% silver",
+    "denomination": "N/A",
+    "finish": "Matte",
+    "mint": "Philadelphia (P)",
+    "item_number": "25DWS2",
+    "source": "https://www.usmint.gov/comic-art-2.5-ounce-silver-medal-wonder-woman-25dws2.html"
+  },
+  "productType": "Silver Medal",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Unisex",
+  "brand": "United States Mint",
+  "brand_display_name": "United States Mint",
+  "id": 309
+},
+{
+  "name": "Comic Art One Ounce Silver Medal — Supergirl™",
+  "category": "artandcollectibles",
+  "retail price": 200,
+  "sale price": 200,
+  "image": "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60",
+  "images": [
+    "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60"
+  ],
+  "description": "Comic Art 99.9% fine silver medal featuring Supergirl™, completing the DC Comic precious-metal variants.",
+  "specifications": {
+    "program": "Comic Art Coin & Medal Program",
+    "character": "Supergirl™",
+    "metal": "Silver",
+    "weight": "1.000 troy oz.",
+    "composition": "99.9% silver",
+    "denomination": "N/A",
+    "finish": "Matte",
+    "mint": "Philadelphia (P)",
+    "item_number": "26DSS1",
+    "source": "https://www.usmint.gov/comic-art-one-ounce-silver-medal-supergirl-26dss1.html"
+  },
+  "productType": "Silver Medal",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Unisex",
+  "brand": "United States Mint",
+  "brand_display_name": "United States Mint",
+  "id": 310
+},
+{
+  "name": "Comic Art 2.5 Ounce Silver Medal — Supergirl™",
+  "category": "artandcollectibles",
+  "retail price": 400,
+  "sale price": 400,
+  "image": "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60",
+  "images": [
+    "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60"
+  ],
+  "description": "Comic Art 99.9% fine silver medal featuring Supergirl™, completing the DC Comic precious-metal variants.",
+  "specifications": {
+    "program": "Comic Art Coin & Medal Program",
+    "character": "Supergirl™",
+    "metal": "Silver",
+    "weight": "2.500 troy oz.",
+    "composition": "99.9% silver",
+    "denomination": "N/A",
+    "finish": "Matte",
+    "mint": "Philadelphia (P)",
+    "item_number": "26DSS2",
+    "source": "https://www.usmint.gov/comic-art-2.5-ounce-silver-medal-supergirl-26dss2.html"
+  },
+  "productType": "Silver Medal",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Unisex",
+  "brand": "United States Mint",
+  "brand_display_name": "United States Mint",
+  "id": 311
+},
+{
+  "name": "2017 American Liberty 225th Anniversary Silver Medal",
+  "category": "artandcollectibles",
+  "retail price": 170,
+  "sale price": 170,
+  "image": "assets/gold-coins/106/liberty-2017-obverse.webp",
+  "images": [
+    "assets/gold-coins/106/liberty-2017-obverse.webp"
+  ],
+  "description": "United States Mint American Liberty 2017 silver medal corresponding to the American Liberty gold-coin design.",
+  "specifications": {
+    "program": "American Liberty",
+    "year": 2017,
+    "metal": "Silver",
+    "weight": "1.000 troy oz.",
+    "composition": "99.9% fine silver",
+    "denomination": "N/A",
+    "finish": "Proof",
+    "mint": "Philadelphia (P)",
+    "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty"
+  },
+  "productType": "Silver Medal",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Unisex",
+  "brand": "United States Mint",
+  "brand_display_name": "United States Mint",
+  "id": 312
+},
+{
+  "name": "2019 American Liberty High Relief Silver Medal",
+  "category": "artandcollectibles",
+  "retail price": 170,
+  "sale price": 170,
+  "image": "assets/gold-coins/108/liberty-2019-obverse.webp",
+  "images": [
+    "assets/gold-coins/108/liberty-2019-obverse.webp"
+  ],
+  "description": "United States Mint American Liberty 2019 silver medal corresponding to the American Liberty gold-coin design.",
+  "specifications": {
+    "program": "American Liberty",
+    "year": 2019,
+    "metal": "Silver",
+    "weight": "1.000 troy oz.",
+    "composition": "99.9% fine silver",
+    "denomination": "N/A",
+    "finish": "Proof",
+    "mint": "Philadelphia (P)",
+    "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty"
+  },
+  "productType": "Silver Medal",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Unisex",
+  "brand": "United States Mint",
+  "brand_display_name": "United States Mint",
+  "id": 313
+},
+{
+  "name": "2023 American Liberty Silver Medal",
+  "category": "artandcollectibles",
+  "retail price": 170,
+  "sale price": 170,
+  "image": "assets/gold-coins/112/liberty-2023-obverse.webp",
+  "images": [
+    "assets/gold-coins/112/liberty-2023-obverse.webp"
+  ],
+  "description": "United States Mint American Liberty 2023 silver medal corresponding to the American Liberty gold-coin design.",
+  "specifications": {
+    "program": "American Liberty",
+    "year": 2023,
+    "metal": "Silver",
+    "weight": "1.000 troy oz.",
+    "composition": "99.9% fine silver",
+    "denomination": "N/A",
+    "finish": "Proof",
+    "mint": "Philadelphia (P)",
+    "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty"
+  },
+  "productType": "Silver Medal",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Unisex",
+  "brand": "United States Mint",
+  "brand_display_name": "United States Mint",
+  "id": 314
+},
+{
+  "name": "2025 American Liberty Silver Medal",
+  "category": "artandcollectibles",
+  "retail price": 170,
+  "sale price": 170,
+  "image": "assets/gold-coins/114/liberty-2025-obverse.webp",
+  "images": [
+    "assets/gold-coins/114/liberty-2025-obverse.webp"
+  ],
+  "description": "United States Mint American Liberty 2025 silver medal corresponding to the American Liberty gold-coin design.",
+  "specifications": {
+    "program": "American Liberty",
+    "year": 2025,
+    "metal": "Silver",
+    "weight": "1.000 troy oz.",
+    "composition": "99.9% fine silver",
+    "denomination": "N/A",
+    "finish": "Proof",
+    "mint": "Philadelphia (P)",
+    "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty"
+  },
+  "productType": "Silver Medal",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Unisex",
+  "brand": "United States Mint",
+  "brand_display_name": "United States Mint",
+  "id": 315
+},
+{
+  "name": "2024 Liberty & Britannia 99.9% Silver Proof Medal",
+  "category": "artandcollectibles",
+  "retail price": 89,
+  "sale price": 89,
+  "image": "assets/gold-coins/113/view-01.webp",
+  "images": [
+    "assets/gold-coins/113/view-01.webp"
+  ],
+  "description": "The silver precious-metal companion to the 2024 Liberty & Britannia 24K high-relief gold proof coin.",
+  "specifications": {
+    "program": "Liberty & Britannia",
+    "year": 2024,
+    "metal": "Silver",
+    "weight": "1.000 troy oz.",
+    "composition": "99.9% silver",
+    "denomination": "N/A",
+    "finish": "Proof",
+    "mint": "Philadelphia (P)",
+    "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/liberty-and-britannia/liberty-and-britannia-medal"
+  },
+  "productType": "Silver Medal",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Unisex",
+  "brand": "United States Mint",
+  "brand_display_name": "United States Mint",
+  "id": 316
+}
 ]
