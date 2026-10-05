@@ -654,10 +654,10 @@ window.products = [
     "category": "artandcollectibles",
     "retail price": 799.99,
     "sale price": 199.99,
-    "image": "https://m.media-amazon.com/images/I/71g1Qh2QqVL._AC_SL1000_.jpg",
+    "image": "https://statue.com/cdn/shop/files/FDMSC-001-190.00.default.jpg?v=1733405646&width=1946",
     "description": "A collectible bust honoring Benjamin Franklin, reproduced from Jean-Antoine Houdon's classic portrait bust.",
     "images": [
-      "https://m.media-amazon.com/images/I/71g1Qh2QqVL._AC_SL1000_.jpg",
+      "https://statue.com/cdn/shop/files/FDMSC-001-190.00.default.jpg?v=1733405646&width=1946",
       "https://www.nationalarchivesstore.org/cdn/shop/products/Mackenzie_Fisher_-_105506_BUST_6_FRANKLIN_2.jpg?v=1542388876&width=3840",
       "https://www.nationalarchivesstore.org/cdn/shop/products/Mackenzie_Fisher_-_105506_BUST_6_FRANKLIN_3.jpg?v=1542388876&width=3840",
       "https://www.nationalarchivesstore.org/cdn/shop/products/5965f741-f7e2-4c45-a900-bdb4ca247f65.png?v=1759439151&width=3840"
