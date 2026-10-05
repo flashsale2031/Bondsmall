@@ -4000,28 +4000,41 @@ window.products = [
       "Pre-owned"
     ],
     "default_condition": "New",
-    "image": "",
-    "images": [],
+    "image": "assets/gold-coins/102/view-01.webp",
+    "images": [
+      "assets/gold-coins/102/view-01.webp",
+      "assets/gold-coins/102/view-02.webp",
+      "assets/gold-coins/102/view-03.webp",
+      "assets/gold-coins/102/view-04.webp",
+      "assets/gold-coins/102/view-05.webp"
+    ],
     "image_views": {
       "front_main": "images[0]",
-      "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
+      "left_side": "images[1]",
+      "right_side": "images[2]",
+      "back": "images[3]",
       "case_photo": "images[4]"
     },
-    "photo_source": "Verified source image(s) where available; generated missing gallery views",
+    "photo_source": "APMEX 2013 American Silver Eagle BU obverse, reverse, and Mint packaging source photos; normalized into local Bonds Mall WebP assets",
     "photo_year": 2013,
     "photo_is_representative": false,
-    "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty",
-    "official_issue": false,
-    "listing_status": "Catalog placeholder — no verified official issue for this year; product photography intentionally suppressed.",
-    "description": "This catalog entry preserves the requested 2013 Bonds Mall pricing, but it is not represented as an official U.S. Mint American Liberty gold coin. The U.S. Mint's American Liberty gold series archive does not list a 2013 gold coin.",
+    "source": "https://www.apmex.com/product/72459/2013-1-oz-american-silver-eagle-bu",
+    "official_issue": true,
+    "listing_status": "Verified 2013 American Silver Eagle fallback for the legacy American Liberty catalog label.",
+    "description": "This legacy 2013 American Liberty catalog label is represented with the verified 2013 American Silver Eagle because the U.S. Mint American Liberty series began in 2015. The local gallery shows the Walking Liberty obverse, heraldic eagle reverse, and Mint tube packaging on white backgrounds.",
     "specifications": {
       "brand": "US Mint",
+      "material": ".999 fine silver",
+      "weight": "1 troy oz",
+      "diameter": "40.6 mm",
+      "face_value": "$1",
+      "mint": "U.S. Mint",
+      "finish": "Brilliant Uncirculated",
+      "year": "2013",
       "catalog_year": "2013",
-      "official_issue": false,
-      "verification_note": "The U.S. Mint's American Liberty gold series archive does not list a 2013 gold coin.",
-      "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty"
+      "official_issue": true,
+      "verification_note": "2013 American Liberty gold is not an official U.S. Mint issue; this listing uses the verified 2013 American Silver Eagle fallback requested for the catalog entry.",
+      "source": "https://www.apmex.com/product/72459/2013-1-oz-american-silver-eagle-bu"
     },
     "productType": "Coin",
     "inventory": 0,
@@ -4035,8 +4048,9 @@ window.products = [
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Official U.S. Mint product listing; authenticity information is based on U.S. Mint source material.",
     "brand_source": "U.S. Mint",
-    "image_quality_status": "No verified product image",
-    "image_note": "This catalog year is not an official U.S. Mint American Liberty gold issue; Bonds Mall must not display a fabricated coin image."
+    "photo_display": "Full five-view display",
+    "image_quality_status": "Local Bonds Mall generated asset",
+    "image_note": "Local white-background gallery generated from verified APMEX 2013 American Silver Eagle product photos; runtime does not depend on external image hosts. View 05 shows the Mint tube/packaging because individual BU Silver Eagles are sold in protective flips or tubes rather than a gold-style presentation case."
   },
   {
     "id": 103,
