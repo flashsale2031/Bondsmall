@@ -749,51 +749,28 @@
         preloadVisibleImages(pageProducts);
 
         const luxuryBrands = ["dolce & gabbana", "louis vuitton", "yves saint laurent", "gucci", "prada", "hermes", "fendi", "chanel", "dior", "abercrombie & fitch", "bathing ape", "bathing apes", "michael kors", "rolex", "patek philippe", "marc jacobs", "us mint"];
-
         resultsGrid.innerHTML = pageProducts.map((product, index) => {
             const imgSrc = optimizeGridImageUrl(product.image, product);
             const favs = getFavorites();
             const isFav = favs.includes(product.id);
             const isLuxury = luxuryBrands.some(brand => (product.name || "").toLowerCase().includes(brand));
             const luxuryBadgeHTML = isLuxury ? `
-                <span class="luxury-badge" style="position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%); z-index: 2; background: #ffffff; color: #1c1b1a; border: 1px solid #d0c9be; font-size: 0.62rem; font-weight: 800; padding: 0.28rem 0.55rem; border-radius: 6px; white-space: nowrap; max-width: calc(100% - 24px); overflow: hidden; text-overflow: ellipsis; pointer-events: none; letter-spacing: 0.03em; display: inline-flex; align-items: center; gap: 4px;">
-                    <svg style="width: 10px; height: 10px; flex-shrink: 0;" fill="#1c1b1a" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                <span class="luxury-badge" aria-label="Authenticity Guaranteed">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
                     Authenticity Guaranteed
                 </span>
             ` : '';
-
-            return `
-            <article class="product-card">
-                <div class="product-info">
-                    <div class="product-image-wrap" style="position: relative; margin: -0.9rem -0.9rem 0.8rem -0.9rem; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px;">
-                        <img class="product-image" src="${imgSrc}" alt="${product.name}"
-                              width="640" height="640"
-                              loading="${index < 8 ? "eager" : "lazy"}"
-                              fetchpriority="${index < 4 ? "high" : "auto"}"
-                              decoding="async"
-                              referrerpolicy="no-referrer"
-                              data-action="open-modal" data-id="${product.id}">
-                        <button class="share-btn" data-action="share-product" data-id="${product.id}" aria-label="Share ${product.name}">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
-                                <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
-                                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
-                            </svg>
-                        </button>
-                        <button class="fav-btn ${isFav ? "is-active" : ""}" data-action="fav-product" data-id="${product.id}" aria-label="Favorite ${product.name}">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="${isFav ? "#8c2f39" : "none"}" stroke="${isFav ? "#8c2f39" : "currentColor"}" stroke-width="2.3" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-                        </button>
-                        ${luxuryBadgeHTML}
-                    </div>
-                    <h3 class="product-name" style="cursor: pointer;" data-action="open-modal" data-id="${product.id}">${product.name}</h3>
-                    <div class="product-price-row" style="display: flex; gap: 0.5rem; align-items: baseline; margin-bottom: 0.3rem; flex-wrap: wrap;">
-                        <span class="retail-price" style="text-decoration: line-through; color: var(--muted); font-size: 0.85rem;">${renderPrice(filedRetailPrice(product))}</span>
-                        <span class="sale-price" style="color: var(--good, #1f7a46); font-weight: 800; font-size: 1rem;">${renderPrice(filedSalePrice(product))}</span>
-                    </div>
-                    <button class="add-btn" data-action="add-cart" data-id="${product.id}">Add to Cart</button>
-                </div>
-            </article>`;
+            return window.BondsMallProductCard.render(product, {
+                frontImage: imgSrc,
+                isFavorite: isFav,
+                loading: index < 8 ? "eager" : "lazy",
+                fetchPriority: index < 4 ? "high" : "auto",
+                retailPrice: renderPrice(filedRetailPrice(product)),
+                salePrice: renderPrice(filedSalePrice(product)),
+                luxuryBadgeHTML
+            });
         }).join("");
-
+        window.BondsMallProductCard.initRotators(resultsGrid);
         renderSRPagination(Math.max(filtered.length, catalogTotal));
     }
 
