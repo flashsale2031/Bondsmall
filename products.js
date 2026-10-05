@@ -12299,5 +12299,71 @@ window.products = [
       "overhead": "images[4]"
     },
     "image_note": "The first four images are official Burberry product assets. The fifth is a top-down/opening view from Nordstrom's Mini Primrose listing, used to supply the requested overhead view."
-  }
+  },
+{
+  "id": 297,
+  "name": "Comic Art 24-Karat Gold Proof Coin — Wonder Woman™",
+  "category": "artandcollectibles",
+  "retail price": 3390,
+  "sale price": 2999.99,
+  "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwaac34f3a/images/hi-res/coin-programs/comic-art/25DWG_d.jpg?sh=1200&sm=fit&sw=1200",
+  "images": [
+    "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwaac34f3a/images/hi-res/coin-programs/comic-art/25DWG_d.jpg?sh=1200&sm=fit&sw=1200"
+  ],
+  "description": "A United States Mint Comic Art 24-karat gold proof coin featuring Wonder Woman™, the 2025 release in the DC Super Hero series.",
+  "specifications": {
+    "brand": "United States Mint",
+    "program": "Comic Art Coin & Medal Program",
+    "character": "Wonder Woman™",
+    "year": 2025,
+    "denomination": "$50",
+    "finish": "Proof",
+    "composition": "99.99% Gold",
+    "gold_fine_weight": "0.500 troy oz.",
+    "diameter": "1.063 inches / 27.00 mm",
+    "mint": "West Point (W)",
+    "mintage_limit": 10000,
+    "item_number": "25DWG",
+    "source": "https://www.usmint.gov/comic-art-24-karat-gold-proof-coin-wonder-woman-25DWG.html"
+  },
+  "productType": "Gold Coin",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Unisex",
+  "brand": "United States Mint",
+  "brand_display_name": "United States Mint"
+},
+{
+  "id": 298,
+  "name": "Comic Art 24-Karat Gold Proof Coin — Supergirl™",
+  "category": "artandcollectibles",
+  "retail price": 3390,
+  "sale price": 2999.99,
+  "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwc0fd3307/images/hi-res/coin-programs/comic-art/26DSG_d.jpg?sh=1200&sm=fit&sw=1200",
+  "images": [
+    "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwc0fd3307/images/hi-res/coin-programs/comic-art/26DSG_d.jpg?sh=1200&sm=fit&sw=1200"
+  ],
+  "description": "A United States Mint Comic Art 24-karat gold proof coin featuring Supergirl™, the 2026 release in the DC Super Hero series.",
+  "specifications": {
+    "brand": "United States Mint",
+    "program": "Comic Art Coin & Medal Program",
+    "character": "Supergirl™",
+    "year": 2026,
+    "denomination": "$50",
+    "finish": "Proof",
+    "composition": "99.99% Gold",
+    "gold_fine_weight": "0.500 troy oz.",
+    "diameter": "1.063 inches / 27.00 mm",
+    "mint": "West Point (W)",
+    "mintage_limit": 10000,
+    "item_number": "26DSG",
+    "source": "https://www.usmint.gov/comic-art-24-karat-gold-proof-coin-supergirl-26DSG.html"
+  },
+  "productType": "Gold Coin",
+  "inventory": 1,
+  "age_group": "Adult",
+  "gender": "Unisex",
+  "brand": "United States Mint",
+  "brand_display_name": "United States Mint"
+}
 ]
