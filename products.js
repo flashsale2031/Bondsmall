@@ -7667,7 +7667,7 @@ window.products = [
     },
     "inventory": 100,
     "age_group": "Adult",
-    "gender": "Women"
+    "gender": "Women",
     "marketplace": {
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
       "availability": "in_stock",
@@ -7746,7 +7746,7 @@ window.products = [
     },
     "inventory": 100,
     "age_group": "Adult",
-    "gender": "Women"
+    "gender": "Women",
     "marketplace": {
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
       "availability": "in_stock",
@@ -7989,7 +7989,7 @@ window.products = [
     },
     "pre-owned price": 499.99,
     "age_group": "Adult",
-    "gender": "Men"
+    "gender": "Men",
     "marketplace": {
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
       "availability": "in_stock",
@@ -8183,7 +8183,7 @@ window.products = [
     "inventory": 100,
     "pre-owned price": 999.99,
     "age_group": "Adult",
-    "gender": "Women"
+    "gender": "Women",
     "marketplace": {
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
       "availability": "in_stock",
@@ -8343,7 +8343,7 @@ window.products = [
     },
     "inventory": 100,
     "age_group": "Adult",
-    "gender": "Women"
+    "gender": "Women",
     "marketplace": {
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
       "availability": "in_stock",
@@ -9383,7 +9383,7 @@ window.products = [
     "brand_display_name": "CHANEL",
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks.",
 
     "marketplace": {
 
@@ -9495,7 +9495,7 @@ window.products = [
     "brand_display_name": "CHANEL",
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks.",
 
     "marketplace": {
 
@@ -9606,7 +9606,7 @@ window.products = [
     "brand_display_name": "CHANEL",
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks.",
 
     "marketplace": {
 
@@ -9718,7 +9718,7 @@ window.products = [
     "brand_display_name": "CHANEL",
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks.",
 
     "marketplace": {
 
@@ -9832,7 +9832,7 @@ window.products = [
     "brand_display_name": "CHANEL",
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks.",
 
     "marketplace": {
 
@@ -9946,7 +9946,7 @@ window.products = [
     "brand_display_name": "CHANEL",
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks.",
 
     "marketplace": {
 
@@ -10062,7 +10062,7 @@ window.products = [
     "brand_display_name": "CHANEL",
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks.",
 
     "marketplace": {
 
@@ -10175,7 +10175,7 @@ window.products = [
     "brand_display_name": "CHANEL",
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks.",
 
     "marketplace": {
 
@@ -10297,7 +10297,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "overhead": "images[4]"
-    }
+    },
 
     "marketplace": {
 
@@ -10419,7 +10419,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "overhead": "images[4]"
-    }
+    },
 
     "marketplace": {
 
@@ -10540,7 +10540,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "overhead": "images[4]"
-    }
+    },
 
     "marketplace": {
 
@@ -10663,7 +10663,7 @@ window.products = [
       "left_side": "images[2]",
       "right_side": "images[3]",
       "overhead": "images[4]"
-    }
+    },
 
     "marketplace": {
 
@@ -10780,7 +10780,7 @@ window.products = [
     "brand_display_name": "Louis Vuitton",
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks."
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
 
     "marketplace": {
 
@@ -10898,7 +10898,7 @@ window.products = [
     "brand_display_name": "Louis Vuitton",
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks."
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
 
     "marketplace": {
 
@@ -11020,7 +11020,7 @@ window.products = [
     "brand_display_name": "Louis Vuitton",
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks."
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
 
     "marketplace": {
 
@@ -11139,7 +11139,7 @@ window.products = [
     "brand_display_name": "Louis Vuitton",
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks."
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks.",
 
     "marketplace": {
 
@@ -11274,7 +11274,7 @@ window.products = [
         "images[5]",
         "images[6]"
       ]
-    }
+    },
 
     "marketplace": {
 
@@ -11405,7 +11405,7 @@ window.products = [
         "images[4]",
         "images[5]"
       ]
-    }
+    },
 
     "marketplace": {
 
@@ -11539,7 +11539,7 @@ window.products = [
         "images[5]",
         "images[6]"
       ]
-    }
+    },
 
     "marketplace": {
 
@@ -11671,7 +11671,7 @@ window.products = [
         "images[4]",
         "images[5]"
       ]
-    }
+    },
 
     "marketplace": {
 
@@ -11792,7 +11792,7 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]",
       "overhead": "images[4]"
-    }
+    },
 
     "marketplace": {
 
@@ -11913,7 +11913,7 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]",
       "overhead": "images[4]"
-    }
+    },
 
     "marketplace": {
 
@@ -12034,7 +12034,7 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]",
       "overhead": "images[4]"
-    }
+    },
 
     "marketplace": {
 
@@ -12355,7 +12355,7 @@ window.products = [
       "additional": [
         "images[4]"
       ]
-    }
+    },
 
     "marketplace": {
 
@@ -12489,7 +12489,7 @@ window.products = [
         "images[4]",
         "images[6]"
       ]
-    }
+    },
 
     "marketplace": {
 
@@ -12617,7 +12617,7 @@ window.products = [
       "additional": [
         "images[4]"
       ]
-    }
+    },
 
     "marketplace": {
 
@@ -12737,7 +12737,7 @@ window.products = [
       "right_side": "images[1]",
       "back": "images[3]",
       "overhead": "images[4]"
-    }
+    },
 
     "marketplace": {
 
@@ -12859,7 +12859,7 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]",
       "overhead": "images[4]"
-    }
+    },
 
     "marketplace": {
 
@@ -12981,7 +12981,7 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]",
       "overhead": "images[4]"
-    }
+    },
 
     "marketplace": {
 
@@ -13105,7 +13105,7 @@ window.products = [
       "right_side": "images[4]",
       "back": "images[2]",
       "overhead": "images[1]"
-    }
+    },
 
     "marketplace": {
 
@@ -13233,7 +13233,7 @@ window.products = [
       "additional": [
         "images[4]"
       ]
-    }
+    },
 
     "marketplace": {
 
@@ -13358,7 +13358,7 @@ window.products = [
       "right_side": "images[4]",
       "back": "images[1]",
       "overhead": "images[2]"
-    }
+    },
 
     "marketplace": {
 
@@ -13488,7 +13488,7 @@ window.products = [
       "additional": [
         "images[4]"
       ]
-    }
+    },
 
     "marketplace": {
 
@@ -13619,7 +13619,7 @@ window.products = [
       "additional": [
         "images[4]"
       ]
-    }
+    },
 
     "marketplace": {
 
@@ -13748,7 +13748,7 @@ window.products = [
       "additional": [
         "images[4]"
       ]
-    }
+    },
 
     "marketplace": {
 
@@ -13869,7 +13869,7 @@ window.products = [
       "left_side": "images[1]",
       "right_side": "images[2]",
       "back": "images[3]"
-    }
+    },
 
     "marketplace": {
 
@@ -13990,7 +13990,7 @@ window.products = [
       "left_side": "images[1]",
       "right_side": "images[2]",
       "back": "images[3]"
-    }
+    },
 
     "marketplace": {
 
@@ -14112,7 +14112,7 @@ window.products = [
       "left_side": "images[1]",
       "right_side": "images[2]",
       "back": "images[3]"
-    }
+    },
 
     "marketplace": {
 
@@ -14231,7 +14231,7 @@ window.products = [
       "left_side": "images[1]",
       "right_side": "images[2]",
       "back": "images[3]"
-    }
+    },
 
     "marketplace": {
 
@@ -14350,7 +14350,7 @@ window.products = [
       "left_side": "images[1]",
       "right_side": "images[2]",
       "back": "images[3]"
-    }
+    },
 
     "marketplace": {
 
@@ -14469,7 +14469,7 @@ window.products = [
       "left_side": "images[1]",
       "right_side": "images[2]",
       "back": "images[3]"
-    }
+    },
 
     "marketplace": {
 
@@ -14591,7 +14591,7 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]",
       "overhead": "images[4]"
-    }
+    },
 
     "marketplace": {
 
@@ -14711,7 +14711,7 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]",
       "overhead": "images[4]"
-    }
+    },
 
     "marketplace": {
 
@@ -14831,7 +14831,7 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]",
       "overhead": "images[4]"
-    }
+    },
 
     "marketplace": {
 
@@ -14954,7 +14954,7 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]",
       "overhead": "images[4]"
-    }
+    },
 
     "marketplace": {
 
@@ -15078,7 +15078,7 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]",
       "overhead": "images[4]"
-    }
+    },
 
     "marketplace": {
 
@@ -15204,7 +15204,7 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]",
       "overhead": "images[4]"
-    }
+    },
 
     "marketplace": {
 
@@ -15328,7 +15328,7 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]",
       "overhead": "images[4]"
-    }
+    },
 
     "marketplace": {
 
@@ -15453,7 +15453,7 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]",
       "overhead": "images[4]"
-    }
+    },
 
     "marketplace": {
 
@@ -15578,7 +15578,7 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]",
       "overhead": "images[4]"
-    }
+    },
 
     "marketplace": {
 
@@ -15703,7 +15703,7 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]",
       "overhead": "images[4]"
-    }
+    },
 
     "marketplace": {
 
@@ -15829,7 +15829,7 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]",
       "overhead": "images[4]"
-    }
+    },
 
     "marketplace": {
 
@@ -15954,7 +15954,7 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     },
-    "image_note": "All five gallery images are direct Burberry product assets."
+    "image_note": "All five gallery images are direct Burberry product assets.",
 
     "marketplace": {
 
@@ -16076,7 +16076,7 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     },
-    "image_note": "All five gallery images are direct Burberry product assets."
+    "image_note": "All five gallery images are direct Burberry product assets.",
 
     "marketplace": {
 
@@ -16201,7 +16201,7 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     },
-    "image_note": "The first four images are official Burberry product assets. The fifth is a top-down/opening view from Nordstrom's Mini Primrose listing, used to supply the requested overhead view."
+    "image_note": "The first four images are official Burberry product assets. The fifth is a top-down/opening view from Nordstrom's Mini Primrose listing, used to supply the requested overhead view.",
 
     "marketplace": {
 
@@ -16896,7 +16896,7 @@ window.products = [
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Hermès",
-    "brand_display_name": "Hermès"
+    "brand_display_name": "Hermès",
 
     "marketplace": {
 
@@ -16996,7 +16996,7 @@ window.products = [
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Hermès",
-    "brand_display_name": "Hermès"
+    "brand_display_name": "Hermès",
 
     "marketplace": {
 
@@ -17095,7 +17095,7 @@ window.products = [
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Dior",
-    "brand_display_name": "Dior"
+    "brand_display_name": "Dior",
 
     "marketplace": {
 
@@ -17194,7 +17194,7 @@ window.products = [
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Dior",
-    "brand_display_name": "Dior"
+    "brand_display_name": "Dior",
 
     "marketplace": {
 
@@ -17293,7 +17293,7 @@ window.products = [
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Bottega Veneta",
-    "brand_display_name": "Bottega Veneta"
+    "brand_display_name": "Bottega Veneta",
 
     "marketplace": {
 
@@ -17392,7 +17392,7 @@ window.products = [
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Fendi",
-    "brand_display_name": "Fendi"
+    "brand_display_name": "Fendi",
 
     "marketplace": {
 
@@ -17491,7 +17491,7 @@ window.products = [
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Valentino Garavani",
-    "brand_display_name": "Valentino"
+    "brand_display_name": "Valentino",
 
     "marketplace": {
 
@@ -17608,7 +17608,7 @@ window.products = [
     ],
     "description": "Quiet-luxury Louis Vuitton hobo in black grained calfskin with suede lining, adjustable strap and signature engraved padlock.",
     "specifications": {"brand":"Louis Vuitton","model":"Low Key Hobo MM","material":"Grained calfskin","hardware":"Gold-color hardware","dimensions":"31 x 35 x 18 cm","origin":"France, Spain, Italy or USA","style":"Hobo"},
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton"
+    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton",
 
     "marketplace": {
 
@@ -17693,7 +17693,7 @@ window.products = [
     ],
     "description": "Compact Multipass Mini in black grained leather with a sculptural hobo silhouette, gold chain detail and detachable Monogram strap.",
     "specifications": {"brand":"Louis Vuitton","model":"Multipass Mini","material":"Grained leather","hardware":"Gold-color hardware","reference":"M2A840","style":"Mini Shoulder Bag"},
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton"
+    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton",
 
     "marketplace": {
 
@@ -17778,7 +17778,7 @@ window.products = [
     ],
     "description": "Miniature Madeleine in black Monogram Empreinte leather with S-lock closure and removable LV Circle charm chain.",
     "specifications": {"brand":"Louis Vuitton","model":"Nano Madeleine","material":"Supple grained cowhide leather","hardware":"Gold-color hardware","dimensions":"21 x 12.5 x 6 cm","reference":"M12144","style":"Nano Top Handle / Crossbody"},
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton"
+    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton",
 
     "marketplace": {
 
@@ -17863,7 +17863,7 @@ window.products = [
     ],
     "description": "Express MM in supple brown calf leather accented with Monogram canvas, gold-tone hardware, clochette and padlock.",
     "specifications": {"brand":"Louis Vuitton","model":"Express MM","material":"Calf leather and Monogram canvas","hardware":"Gold-tone hardware","reference":"M26397","style":"Top Handle / Shoulder"},
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton"
+    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton",
 
     "marketplace": {
 
@@ -17948,7 +17948,7 @@ window.products = [
     ],
     "description": "Archival-inspired Pochette Papillon in Monogram Canvas with natural cowhide trim and removable leather strap.",
     "specifications": {"brand":"Louis Vuitton","model":"Pochette Papillon","material":"Monogram Canvas and cowhide leather","reference":"M25703","style":"Shoulder / Hand Carry"},
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton"
+    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton",
 
     "marketplace": {
 
@@ -18033,7 +18033,7 @@ window.products = [
     ],
     "description": "Small Whisker in black glazed calfskin with a structural handle, giant zip opening, detachable strap and signature embossed branding.",
     "specifications": {"brand":"Loewe","model":"Small Whisker","material":"Glazed calfskin","dimensions":"25.5 x 14 x 17 cm","origin":"Spain","style":"Shoulder / Crossbody / Hand Carry"},
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Loewe","brand_display_name":"Loewe"
+    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Loewe","brand_display_name":"Loewe",
 
     "marketplace": {
 
@@ -18118,7 +18118,7 @@ window.products = [
     ],
     "description": "Hammock Flip in black classic calfskin, designed to transform between a carry-all and body-friendly hobo with versatile carry options.",
     "specifications": {"brand":"Loewe","model":"Hammock Flip","material":"Classic calfskin","origin":"Spain","style":"Top Handle / Hobo / Crossbody"},
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Loewe","brand_display_name":"Loewe"
+    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Loewe","brand_display_name":"Loewe",
 
     "marketplace": {
 
@@ -18217,7 +18217,7 @@ window.products = [
       "https://www.mytheresa.com/media/1094/1238/100/bb/P01196941_d1.jpg"
     ],
     "description":"Gucci Borsetto medium shoulder bag in supple black leather with Horsebit hardware, Web stripe, top handles and detachable adjustable shoulder strap.",
-    "specifications":{"brand":"Gucci","model":"Borsetto Medium","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
+    "specifications":{"brand":"Gucci","model":"Borsetto Medium","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci",
 
     "marketplace": {
 
@@ -18297,7 +18297,7 @@ window.products = [
       "https://www.mytheresa.com/media/1094/1238/100/bb/P01192312_d1.jpg"
     ],
     "description":"Gucci Paparazzo medium tote in black leather with Horsebit hardware, green-and-red Web stripe, structured top handle and detachable shoulder strap.",
-    "specifications":{"brand":"Gucci","model":"Paparazzo Medium","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
+    "specifications":{"brand":"Gucci","model":"Paparazzo Medium","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci",
 
     "marketplace": {
 
@@ -18377,7 +18377,7 @@ window.products = [
       "https://www.mytheresa.com/media/1094/1238/100/bb/P01151161_d1.jpg"
     ],
     "description":"Gucci Jackie Slim medium shoulder bag in black leather with the signature piston closure, curved silhouette and detachable belt.",
-    "specifications":{"brand":"Gucci","model":"Jackie Slim Medium","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Shoulder Bag"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
+    "specifications":{"brand":"Gucci","model":"Jackie Slim Medium","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Shoulder Bag"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci",
 
     "marketplace": {
 
@@ -18457,7 +18457,7 @@ window.products = [
       "https://www.mytheresa.com/media/1094/1238/100/bb/P01248060_d1.jpg"
     ],
     "description":"Gucci Brera medium crossbody in black soft grainy leather with silver-toned hardware, detachable handle and signature Web strap.",
-    "specifications":{"brand":"Gucci","model":"Brera Medium","material":"Black grainy leather","hardware":"Silver-toned","origin":"Italy","style":"Crossbody / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
+    "specifications":{"brand":"Gucci","model":"Brera Medium","material":"Black grainy leather","hardware":"Silver-toned","origin":"Italy","style":"Crossbody / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci",
 
     "marketplace": {
 
@@ -18537,7 +18537,7 @@ window.products = [
       "https://media.gucci.com/style/DarkGray_Center_0_0_700x700/1761821103/853971_AAF2H_1060_001_100_0000_Light-groer-gucci-giglio-shopper.jpg"
     ],
     "description":"Gucci Giglio large tote in glossy black leather with Web trim, Double G hardware, removable pouch and spacious GG-lined interior.",
-    "specifications":{"brand":"Gucci","model":"Giglio Large","material":"Black leather","hardware":"Light gold-toned","origin":"Italy","style":"Tote"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
+    "specifications":{"brand":"Gucci","model":"Giglio Large","material":"Black leather","hardware":"Light gold-toned","origin":"Italy","style":"Tote"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci",
 
     "marketplace": {
 
@@ -18617,7 +18617,7 @@ window.products = [
       "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1774361706/860845_FAFWA_1053_002_069_0052_Light-gucci-giglio-small-tote-bag.jpg"
     ],
     "description":"Gucci Giglio small tote in black GG canvas with leather trim, Web stripe, Double G detail and detachable shoulder strap.",
-    "specifications":{"brand":"Gucci","model":"Giglio Small","material":"GG canvas and leather","hardware":"Gold-toned","origin":"Italy","style":"Tote / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
+    "specifications":{"brand":"Gucci","model":"Giglio Small","material":"GG canvas and leather","hardware":"Gold-toned","origin":"Italy","style":"Tote / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci",
 
     "marketplace": {
 
@@ -18697,7 +18697,7 @@ window.products = [
       "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1781281810/A0034B_AAHC3_1000_006_065_0000_Light-lady-lunetta-chain-small-shoulder-bag.jpg"
     ],
     "description":"Lady Lunetta Chain small shoulder bag in black perforated GG leather with gold chain, Double G zip detail and adjustable leather strap.",
-    "specifications":{"brand":"Gucci","model":"Lady Lunetta Chain Small","material":"Black perforated GG leather","hardware":"Gold-toned","origin":"Italy","style":"Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
+    "specifications":{"brand":"Gucci","model":"Lady Lunetta Chain Small","material":"Black perforated GG leather","hardware":"Gold-toned","origin":"Italy","style":"Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci",
 
     "marketplace": {
 
@@ -18777,7 +18777,7 @@ window.products = [
       "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1777477532/874743_FAF8W_1144_007_070_0000_Light-.jpg"
     ],
     "description":"Lady Lunetta small shoulder bag in washed black GG denim with black leather trim, Gucci plaque and detachable adjustable strap.",
-    "specifications":{"brand":"Gucci","model":"Lady Lunetta Small","material":"Black GG denim","hardware":"Palladium-toned","origin":"Italy","style":"Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
+    "specifications":{"brand":"Gucci","model":"Lady Lunetta Small","material":"Black GG denim","hardware":"Palladium-toned","origin":"Italy","style":"Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci",
 
     "marketplace": {
 
@@ -18857,7 +18857,7 @@ window.products = [
       "https://mygemma.com/cdn/shop/products/116193-fv_1200x.jpg?v=1650961451"
     ],
     "description":"Ophidia medium Boston bag in black pebbled leather with green-red Web stripe, GG hardware, top handles and detachable shoulder strap.",
-    "specifications":{"brand":"Gucci","model":"Ophidia Medium Boston","material":"Black pebbled leather","hardware":"Gold-toned","style":"Boston / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
+    "specifications":{"brand":"Gucci","model":"Ophidia Medium Boston","material":"Black pebbled leather","hardware":"Gold-toned","style":"Boston / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci",
 
     "marketplace": {
 
@@ -18937,7 +18937,7 @@ window.products = [
       "https://www.gucci.com/us/en/pr/women/handbags/crossbody-bags-for-women/borsetto-medium-boston-bag-p-866732AAGIQ1053"
     ],
     "description":"Borsetto medium Boston bag in black soft leather with Horsebit, Web, Diamante lining and detachable adjustable strap.",
-    "specifications":{"brand":"Gucci","model":"Borsetto Medium Boston","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Boston / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
+    "specifications":{"brand":"Gucci","model":"Borsetto Medium Boston","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Boston / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci",
 
     "marketplace": {
 
@@ -19017,7 +19017,7 @@ window.products = [
       "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/horsebit-duomo-medium-top-handle-bag-p-A006N6AAG8B1000"
     ],
     "description":"Horsebit Duomo medium top handle bag in glossy black leather with emblematic Horsebit hardware, top handle and detachable strap.",
-    "specifications":{"brand":"Gucci","model":"Horsebit Duomo Medium","material":"Black glossy leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
+    "specifications":{"brand":"Gucci","model":"Horsebit Duomo Medium","material":"Black glossy leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci",
 
     "marketplace": {
 
@@ -19097,7 +19097,7 @@ window.products = [
       "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/horsebit-duomo-small-top-handle-bag-p-A006O9AAG8B1000"
     ],
     "description":"Horsebit Duomo small top handle bag in glossy black leather with Horsebit hardware, top handle and adjustable detachable strap.",
-    "specifications":{"brand":"Gucci","model":"Horsebit Duomo Small","material":"Black glossy leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
+    "specifications":{"brand":"Gucci","model":"Horsebit Duomo Small","material":"Black glossy leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci",
 
     "marketplace": {
 
@@ -19177,7 +19177,7 @@ window.products = [
       "https://image.celine.com/asset/7b032fef-31f4-4610-8325-acd9a6e76895/L10BF5C12-38NO_1_WI26_W_V1.jpg?im=Resize%3D%28800%29"
     ],
     "description":"Celine Small Flair in black grained calfskin with Triomphe turn-lock, removable strap and structured top handle.",
-    "specifications":{"brand":"Celine","model":"Small Flair","material":"Grained calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"L10BF5C12.38NO","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
+    "specifications":{"brand":"Celine","model":"Small Flair","material":"Grained calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"L10BF5C12.38NO","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine",
 
     "marketplace": {
 
@@ -19257,7 +19257,7 @@ window.products = [
       "https://image.celine.com/asset/6be8ff11-f678-4b7f-9b4a-0c4de68a488c/L10BF5B53-18CH_1_WI26_W_V1.jpg?im=Resize%3D(800)"
     ],
     "description":"Celine Small Flair in chestnut shiny calfskin with gold-finish Triomphe turn-lock and removable strap.",
-    "specifications":{"brand":"Celine","model":"Small Flair","material":"Shiny calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"L10BF5B53.18CH","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
+    "specifications":{"brand":"Celine","model":"Small Flair","material":"Shiny calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"L10BF5B53.18CH","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine",
 
     "marketplace": {
 
@@ -19337,7 +19337,7 @@ window.products = [
       "https://image.celine.com/asset/388b9254-eea3-4376-901c-c359827fb994/L102S3J15-28PO_1_WI26_W_V1.jpg?im=Resize%3D(800)"
     ],
     "description":"Soft Triomphe bucket in Syrah shiny lambskin with Triomphe magnetic closure, suede calfskin lining and adjustable strap.",
-    "specifications":{"brand":"Celine","model":"Soft Triomphe Bucket","material":"Shiny lambskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L102S3J15.28PO","style":"Bucket / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
+    "specifications":{"brand":"Celine","model":"Soft Triomphe Bucket","material":"Shiny lambskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L102S3J15.28PO","style":"Bucket / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine",
 
     "marketplace": {
 
@@ -19417,7 +19417,7 @@ window.products = [
       "https://image.celine.com/asset/705d9fa7-503d-49af-a672-d5ee6b88cf43/L10373778-00WC_1_FALL26_W_V1.jpg?im=Resize%3D(800)"
     ],
     "description":"Soft Triomphe Little Halfmoon in white cotton shiny lambskin with Triomphe magnetic closure and adjustable strap.",
-    "specifications":{"brand":"Celine","model":"Soft Triomphe Little Halfmoon","material":"Shiny lambskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L10373778.00WC","style":"Shoulder / Slingback"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
+    "specifications":{"brand":"Celine","model":"Soft Triomphe Little Halfmoon","material":"Shiny lambskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L10373778.00WC","style":"Shoulder / Slingback"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine",
 
     "marketplace": {
 
@@ -19497,7 +19497,7 @@ window.products = [
       "https://image.celine.com/asset/a760a572-1833-4440-ade6-ac054ebd6bd1/118113FXK-03SA_1_SPR26_W_V1.jpg?im=Resize%3D(800)"
     ],
     "description":"Teen Nino in supple Safari grained calfskin with Triomphe metallic closure, two compartments and removable adjustable strap.",
-    "specifications":{"brand":"Celine","model":"Teen Nino","material":"Supple grained calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"118113FXK.03SA","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
+    "specifications":{"brand":"Celine","model":"Teen Nino","material":"Supple grained calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"118113FXK.03SA","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine",
 
     "marketplace": {
 
@@ -19577,7 +19577,7 @@ window.products = [
       "https://image.celine.com/asset/72187695-3210-4750-82e0-8797cbf94676/L10133Q71-01RC_1_SUM26_W_V1.jpg?im=Resize%3D(800)"
     ],
     "description":"Small Hobo in Rice supple smooth calfskin with suede calfskin lining, gold finishing and removable adjustable strap.",
-    "specifications":{"brand":"Celine","model":"Small Hobo","material":"Supple smooth calfskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L10133Q71.01RC","style":"Hobo / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
+    "specifications":{"brand":"Celine","model":"Small Hobo","material":"Supple smooth calfskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L10133Q71.01RC","style":"Hobo / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine",
 
     "marketplace": {
 
@@ -19657,7 +19657,7 @@ window.products = [
       "https://image.celine.com/asset/65d3450d-eb39-4bcc-8b16-b8984211fdff/L102H3J23-14ML_1_SUM26_W_V1.jpg?im=Resize%3D(800)"
     ],
     "description":"Drop Bucket in multicolor smooth calfskin with suede lining, gold finishing and signature sliding Triomphe ball detail.",
-    "specifications":{"brand":"Celine","model":"Drop Bucket","material":"Smooth calfskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L102H3J23.14ML","style":"Bucket / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
+    "specifications":{"brand":"Celine","model":"Drop Bucket","material":"Smooth calfskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L102H3J23.14ML","style":"Bucket / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine",
 
     "marketplace": {
 
@@ -19737,7 +19737,7 @@ window.products = [
       "https://image.celine.com/asset/f2718518-3570-499f-a89b-0b8bb34a8dd5/L10AT5C12-38NO_1_WI26_W_V1.jpg?im=Resize%3D(800)"
     ],
     "description":"Celine Flair in black grained calfskin with double-zip closure, Triomphe turn-lock, structured handle and removable strap.",
-    "specifications":{"brand":"Celine","model":"Flair","material":"Grained calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"L10AT5C12.38NO","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
+    "specifications":{"brand":"Celine","model":"Flair","material":"Grained calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"L10AT5C12.38NO","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine",
 
     "marketplace": {
 
@@ -19817,7 +19817,7 @@ window.products = [
       "https://image.celine.com/asset/912f27db-a88d-4e6e-885e-145c0db4ce33/L108K3056-38NO_1_SPR26_W_V1.jpg?im=Resize%3D(800)"
     ],
     "description":"Celine Luggage in black grained calfskin with spacious interior, removable adjustable strap and twin handles.",
-    "specifications":{"brand":"Celine","model":"Luggage","material":"Grained calfskin","lining":"Suede calfskin","reference":"L108K3056.38NO","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
+    "specifications":{"brand":"Celine","model":"Luggage","material":"Grained calfskin","lining":"Suede calfskin","reference":"L108K3056.38NO","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine",
 
     "marketplace": {
 
@@ -19897,7 +19897,7 @@ window.products = [
       "https://image.celine.com/asset/567bbd96-64f0-40d6-8c1c-aa87c019a750/123632T88-38NO_1_SPR26_W_V1.jpg?im=Resize%3D(800)"
     ],
     "description":"Soft Triomphe Besace in black supple shiny lambskin with Triomphe magnetic closure, suede lining and adjustable strap.",
-    "specifications":{"brand":"Celine","model":"Soft Triomphe Besace","material":"Supple shiny lambskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"123632T88.38NO","style":"Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
+    "specifications":{"brand":"Celine","model":"Soft Triomphe Besace","material":"Supple shiny lambskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"123632T88.38NO","style":"Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine",
 
     "marketplace": {
 
@@ -19977,7 +19977,7 @@ window.products = [
       "https://assets.christiandior.com/is/image/diorprod/M1531QUQWM900_SBG_E01?%24r9x10_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1850"
     ],
     "description":"Small Dior Médaillon Bucket bag in black grained calfskin with adjustable strap, signature Médaillon detail and detachable Dior Oblique jacquard pouch.",
-    "specifications":{"brand":"Dior","model":"Dior Médaillon Bucket Small","reference":"M1531QUQW_M900","material":"Grained calfskin","lining":"Goatskin and calfskin","hardware":"Gold-tone","origin":"Italy","dimensions":"19 x 18 x 12.5 cm","style":"Bucket / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior"
+    "specifications":{"brand":"Dior","model":"Dior Médaillon Bucket Small","reference":"M1531QUQW_M900","material":"Grained calfskin","lining":"Goatskin and calfskin","hardware":"Gold-tone","origin":"Italy","dimensions":"19 x 18 x 12.5 cm","style":"Bucket / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior",
 
     "marketplace": {
 
@@ -20057,7 +20057,7 @@ window.products = [
       "https://assets.christiandior.com/is/image/diorprod/M1532QUQWM900_SBG_E01?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600"
     ],
     "description":"Medium Dior Médaillon Bucket bag in black grained calfskin with adjustable strap, signature Médaillon detail and detachable Dior Oblique jacquard pouch.",
-    "specifications":{"brand":"Dior","model":"Dior Médaillon Bucket Medium","reference":"M1532QUQW_M900","material":"Grained calfskin","lining":"Goatskin and calfskin","hardware":"Gold-tone","origin":"Italy","dimensions":"26.5 x 26 x 15 cm","style":"Bucket / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior"
+    "specifications":{"brand":"Dior","model":"Dior Médaillon Bucket Medium","reference":"M1532QUQW_M900","material":"Grained calfskin","lining":"Goatskin and calfskin","hardware":"Gold-tone","origin":"Italy","dimensions":"26.5 x 26 x 15 cm","style":"Bucket / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior",
 
     "marketplace": {
 
@@ -20137,7 +20137,7 @@ window.products = [
       "https://assets.christiandior.com/is/image/diorprod/LOOK_F_26_4_LOOK_054_E04-1?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600"
     ],
     "description":"Small Dior Promenade Flap bag in black flat Cannage calfskin with slender handles and refined Dior bow detailing.",
-    "specifications":{"brand":"Dior","model":"Small Dior Promenade Flap","material":"Flat Cannage calfskin","hardware":"Gold-tone","origin":"Italy","style":"Top Handle / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior"
+    "specifications":{"brand":"Dior","model":"Small Dior Promenade Flap","material":"Flat Cannage calfskin","hardware":"Gold-tone","origin":"Italy","style":"Top Handle / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior",
 
     "marketplace": {
 
@@ -20211,7 +20211,7 @@ window.products = [
     "image":"https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw1c0e9421/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1F.jpg?q=100&sw=750",
     "images":["https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw1c0e9421/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1F.jpg?q=100&sw=750","https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw3ec25a4a/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1P.jpg?q=100&sw=750","https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw1d8eb63a/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1Q.jpg?q=100&sw=750","https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dwce2cba2e/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1R.jpg?q=100&sw=750"],
     "description":"Loewe Mini Amazona 180 in black soft calfskin with signature toron top handle, concealed closure and removable shoulder/crossbody straps.",
-    "specifications":{"brand":"Loewe","model":"Mini Amazona 180","material":"Soft calfskin","color":"Black","reference":"A039AS4X12-1100","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Loewe","brand_display_name":"Loewe"
+    "specifications":{"brand":"Loewe","model":"Mini Amazona 180","material":"Soft calfskin","color":"Black","reference":"A039AS4X12-1100","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Loewe","brand_display_name":"Loewe",
 
     "marketplace": {
 
