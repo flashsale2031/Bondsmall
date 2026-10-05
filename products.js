@@ -1813,7 +1813,7 @@ window.products = [
       "product_type": "Gold Coin"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -1876,7 +1876,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -1940,7 +1940,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2004,7 +2004,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2068,7 +2068,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2132,7 +2132,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2196,7 +2196,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2260,7 +2260,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2324,7 +2324,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2388,7 +2388,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2452,7 +2452,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2516,7 +2516,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2587,7 +2587,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2651,7 +2651,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2708,7 +2708,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2772,7 +2772,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2843,7 +2843,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2900,7 +2900,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2964,7 +2964,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -3028,7 +3028,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -3099,7 +3099,7 @@ window.products = [
       "reverse_design": "Jennie Norris / Renata Gordon eagle (2021 redesign)"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -3163,7 +3163,7 @@ window.products = [
       "reverse_design": "Jennie Norris / Renata Gordon eagle (2021 redesign)"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -3227,7 +3227,7 @@ window.products = [
       "reverse_design": "Jennie Norris / Renata Gordon eagle (2021 redesign)"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -3284,7 +3284,7 @@ window.products = [
       "reverse_design": "Jennie Norris / Renata Gordon eagle (2021 redesign)"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -3348,7 +3348,7 @@ window.products = [
       "reverse_design": "Jennie Norris / Renata Gordon eagle (2021 redesign)"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -4159,7 +4159,7 @@ window.products = [
       "product_type": "Gold Coin"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -4281,7 +4281,7 @@ window.products = [
       "product_type": "Gold Coin"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -4338,7 +4338,7 @@ window.products = [
       "product_type": "Gold Coin"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -4395,7 +4395,7 @@ window.products = [
       "product_type": "Gold Coin"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -4511,7 +4511,7 @@ window.products = [
       "product_type": "Gold Coin"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -4580,7 +4580,7 @@ window.products = [
       "edge": "Plain"
     },
     "productType": "Medal",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -4632,7 +4632,7 @@ window.products = [
       "product_type": "Gold Coin"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -4705,7 +4705,7 @@ window.products = [
       "denomination": "$100"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -4757,7 +4757,7 @@ window.products = [
       "product_type": "Gold Coin"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -4885,7 +4885,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5140,7 +5140,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5203,7 +5203,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5268,7 +5268,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5331,7 +5331,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5393,7 +5393,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5456,7 +5456,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5519,7 +5519,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5584,7 +5584,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5648,7 +5648,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5712,7 +5712,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5776,7 +5776,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5840,7 +5840,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5904,7 +5904,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5968,7 +5968,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -6030,7 +6030,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -6095,7 +6095,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -6159,7 +6159,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -6223,7 +6223,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -6287,7 +6287,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -6351,7 +6351,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -6413,7 +6413,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -6512,7 +6512,7 @@ window.products = [
     },
     "sku": "BM-0062",
     "productType": "Coat",
-    "inventory": 1,
+    "inventory": 100,
     "pre-owned price": 999.99,
     "age_group": "Adult",
     "gender": "Men"
@@ -6848,7 +6848,7 @@ window.products = [
     },
     "sku": "BM-0073",
     "productType": "Jacket",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Men"
   },
@@ -9376,7 +9376,7 @@ window.products = [
       "hardware": "Gold-tone metal",
       "source": "https://www.chanel.com/us/fashion/p/AS6522B2673794305/2-55-handbag-lambskin-gold-tone-metal/"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "CHANEL",
@@ -9488,7 +9488,7 @@ window.products = [
       "closure": "Double C turnlock",
       "source": "https://www.chanel.com/us/fashion/p/AS1160B0485294305/chanel-19-handbag-shiny-lambskin-gold-tone-silver-tone-ruthenium-finish-metal/"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "CHANEL",
@@ -9599,7 +9599,7 @@ window.products = [
       "silhouette": "Structured quilted flap",
       "source": "https://www.chanel.com/us/fashion/p/A67086Y0995394305/boy-chanel-handbag-calfskin-ruthenium-finish-metal/"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "CHANEL",
@@ -9711,7 +9711,7 @@ window.products = [
       "carry_options": "Hand or shoulder carry",
       "source": "https://www.chanel.com/us/fashion/p/A01112B2574794305/classic-11-12-handbag-lambskin-gold-tone-metal/"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "CHANEL",
@@ -9825,7 +9825,7 @@ window.products = [
       "retail_price_source": "CHANEL U.S. official product page",
       "source": "https://www.chanel.com/us/fashion/p/AS3261B1905994305/chanel-22-handbag-shiny-calfskin-gold-tone-metal/"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "CHANEL",
@@ -9939,7 +9939,7 @@ window.products = [
       "retail_price_source": "CHANEL U.S. official product page",
       "source": "https://www.chanel.com/us/fashion/p/AS3260B1905994305/chanel-22-small-handbag-shiny-calfskin-gold-tone-metal/"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "CHANEL",
@@ -10055,7 +10055,7 @@ window.products = [
       "specifications_cross_check": "Bragmybag detailed CHANEL 25 specification reference",
       "source": "https://www.chanel.com/us/fashion/p/AS5293B2030494305/chanel-25-small-handbag-grained-calfskin-gold-tone-metal/"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "CHANEL",
@@ -10168,7 +10168,7 @@ window.products = [
       "retail_price_source": "CHANEL U.S. official product page",
       "source": "https://www.chanel.com/us/fashion/p/AP4241Y01480C3906/classic-wallet-on-chain-lambskin-silver-tone-metal/"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "CHANEL",
@@ -10283,7 +10283,7 @@ window.products = [
       "image_source": "Saint Laurent / Kering DAM; supplemental Fashionphile directional reference",
       "source": "https://www.ysl.com/en-us/pr/loulou-mini-in-lambskin-821749AAE4Y1000.html"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Saint Laurent",
@@ -10405,7 +10405,7 @@ window.products = [
       "image_source": "Saint Laurent / Kering DAM; Coveti supplemental gallery",
       "source": "https://www.ysl.com/en-us/pr/college-medium-in-quilted-leather-600279BRM071000.html"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Saint Laurent",
@@ -10526,7 +10526,7 @@ window.products = [
       "image_source": "Saint Laurent / Kering DAM; supplemental directional gallery reference",
       "source": "https://www.ysl.com/en-us/pr/le-5-a-7-supple-small-in-grained-leather-850533AAAUQ1000.html"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Saint Laurent",
@@ -10649,7 +10649,7 @@ window.products = [
       "image_source": "Saint Laurent / Kering DAM; supplemental retailer reference",
       "source": "https://www.ysl.com/en-us/pr/mombasa-small-in-leather-851432AAGWJ1000.html"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Saint Laurent",
@@ -10773,7 +10773,7 @@ window.products = [
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/low-key-hobo-mm-h33-nvprod8010483v/M3A865"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Louis Vuitton",
@@ -10891,7 +10891,7 @@ window.products = [
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/side-trunk-mm-other-leathers-nvprod8010095v/M29904"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Louis Vuitton",
@@ -11013,7 +11013,7 @@ window.products = [
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/carryall-pm-monogram-embleme-nvprod8010269v/M2A184"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Louis Vuitton",
@@ -11132,7 +11132,7 @@ window.products = [
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/diane-monogram-empreinte-nvprod6150009v/M2A335"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Louis Vuitton",
@@ -11255,7 +11255,7 @@ window.products = [
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/alma-bb-monogram-nvprod5190086v/M46990"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Louis Vuitton",
@@ -11387,7 +11387,7 @@ window.products = [
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/speedy-bandouliere-25-damier-ebene-nvprod5320018v/N40575"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Louis Vuitton",
@@ -11520,7 +11520,7 @@ window.products = [
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/pochette-metis-monogram-reverse-canvas-nvprod1770373v/M44876"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Louis Vuitton",
@@ -11653,7 +11653,7 @@ window.products = [
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/neverfull-mm-monogram-embleme-nvprod7830227v/M2A096"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Louis Vuitton",
@@ -11778,7 +11778,7 @@ window.products = [
       "craftsmanship": "CHANEL handbag construction",
       "wear": "Shoulder or crossbody"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "CHANEL",
@@ -11899,7 +11899,7 @@ window.products = [
       "craftsmanship": "CHANEL handbag construction",
       "wear": "Shoulder or crossbody"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "CHANEL",
@@ -12020,7 +12020,7 @@ window.products = [
       "craftsmanship": "CHANEL handbag construction",
       "wear": "Shoulder or crossbody"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "CHANEL",
@@ -12150,7 +12150,7 @@ window.products = [
       },
 
     "productType": "Handbag",
-      "inventory": 1,
+      "inventory": 100,
       "age_group": "Adult",
       "gender": "Women",
       "brand": "Saint Laurent",
@@ -12212,7 +12212,7 @@ window.products = [
       },
 
     "productType": "Handbag",
-      "inventory": 1,
+      "inventory": 100,
       "age_group": "Adult",
       "gender": "Women",
       "brand": "Saint Laurent",
@@ -12275,7 +12275,7 @@ window.products = [
       },
 
     "productType": "Handbag",
-      "inventory": 1,
+      "inventory": 100,
       "age_group": "Adult",
       "gender": "Women",
       "brand": "Saint Laurent",
@@ -12338,7 +12338,7 @@ window.products = [
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/loop-hobo-monogram-canvas-nvprod3860089v/M46311"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Louis Vuitton",
@@ -12471,7 +12471,7 @@ window.products = [
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/speedy-bandouliere-20-nvprod3160023v/M58953"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Louis Vuitton",
@@ -12600,7 +12600,7 @@ window.products = [
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/nano-speedy-monogram-nvprod3430078v/M81085"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Louis Vuitton",
@@ -12723,7 +12723,7 @@ window.products = [
       "retail_price_source": "CHANEL U.S. official product page",
       "source": "https://www.chanel.com/us/fashion/p/AS5553B2030494305/chanel-25-large-handbag-grained-calfskin-gold-tone-metal/"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "CHANEL",
@@ -12845,7 +12845,7 @@ window.products = [
       "secondary_spec_source": "Jack Road and other exact-reference listings",
       "source": "https://www.chanel.com/us/fashion/p/AS3980B1905994305/chanel-22-mini-handbag-shiny-calfskin-gold-tone-metal/"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "CHANEL",
@@ -12967,7 +12967,7 @@ window.products = [
       "secondary_spec_source": "Exact-reference resale listings",
       "source": "https://www.chanel.com/us/fashion/p/AS0874Y0463494305/mini-2-55-handbag-aged-calfskin-gold-tone-metal/"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "CHANEL",
@@ -13091,7 +13091,7 @@ window.products = [
       "secondary_spec_source": "Saint Laurent official international product details",
       "source": "https://www.ysl.com/en-us/pr/y-tote-in-leather-813744359.html"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Saint Laurent",
@@ -13216,7 +13216,7 @@ window.products = [
       "secondary_spec_source": "Saint Laurent official international product details",
       "source": "https://www.ysl.com/en-us/pr/shopping-saint-laurent-in-leather-600306CSV0J1000.html"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Saint Laurent",
@@ -13344,7 +13344,7 @@ window.products = [
       "secondary_spec_source": "Saint Laurent official international product details",
       "source": "https://www.ysl.com/en-us/pr/le-5-a-7-supple-large-in-grained-leather-814052918.html"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Saint Laurent",
@@ -13471,7 +13471,7 @@ window.products = [
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/speedy-bandouliere-30-monogram-nvprod5320020v/M46980"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Louis Vuitton",
@@ -13602,7 +13602,7 @@ window.products = [
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/neverfull-mm-monogram-nvprod5350101v/M46987/"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Louis Vuitton",
@@ -13731,7 +13731,7 @@ window.products = [
       "secondary_image_source": "Emier exact-model listing for additional side photography",
       "source": "https://us.louisvuitton.com/eng-us/products/onthego-mm-monogram-nvprod2130189v/M45321"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Louis Vuitton",
@@ -13856,7 +13856,7 @@ window.products = [
       "origin": "Imported",
       "source": "https://www.prada.com/us/en/p/prada-galleria-small-saffiano-leather-bag/1BA896_NZV_F0002_V_EOO"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Prada",
@@ -13977,7 +13977,7 @@ window.products = [
       "origin": "Imported",
       "source": "https://www.prada.com/us/en/p/prada-galleria-medium-saffiano-leather-bag/1BA863_NZV_F0002_V_EOO"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Prada",
@@ -14099,7 +14099,7 @@ window.products = [
       "origin": "Imported",
       "source": "https://www.prada.com/us/en/p/prada-galleria-large-saffiano-leather-bag/1BA274_NZV_F0018_V_EOO"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Prada",
@@ -14218,7 +14218,7 @@ window.products = [
       "origin": "Imported",
       "source": "https://www.prada.com/us/en/p/prada-aimee-medium-leather-shoulder-bag/1BC229_2CYS_F0PG7_V_LVM"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Prada",
@@ -14337,7 +14337,7 @@ window.products = [
       "origin": "Made in Italy",
       "source": "https://www.prada.com/us/en/p/prada-bonnie-medium-leather-handbag/1BA426_2CYR_F04F2_V_MOO"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Prada",
@@ -14456,7 +14456,7 @@ window.products = [
       "origin": "Imported",
       "source": "https://www.prada.com/us/en/p/prada-cleo-brushed-leather-shoulder-bag/1BC499_ZO6_F0002_V_OOO"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Prada",
@@ -14577,7 +14577,7 @@ window.products = [
       "origin": "Imported",
       "source": "https://www.prada.com/us/en/p/medium-leather-tote-bag/1BG609_2HF2_F0042_V_DOO"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Prada",
@@ -14697,7 +14697,7 @@ window.products = [
       "origin": "Imported",
       "source": "https://www.prada.com/us/en/p/prada-re-edition-2005-re-nylon-and-saffiano-mini-bag/1N204P_R064_F0DFH"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Prada",
@@ -14817,7 +14817,7 @@ window.products = [
       "origin": "Imported",
       "source": "https://www.prada.com/us/en/p/prada-re-edition-mini-saffiano-leather-bag/1BC204_NZV_F03CW_V_QOM"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Prada",
@@ -14940,7 +14940,7 @@ window.products = [
       "origin": "Imported",
       "source": "https://www.prada.com/us/en/p/prada-carry-mini-leather-handbag/1BA496_2C6A_F0002_V_OOO"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Prada",
@@ -15064,7 +15064,7 @@ window.products = [
       "retail_price_source": "Gucci U.S. official product page",
       "source": "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/gucci-horsebit-1955-small-shoulder-bag-p-65857418YSG1060"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Gucci",
@@ -15190,7 +15190,7 @@ window.products = [
       "retail_price_source": "Gucci U.S. official product page",
       "source": "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/gucci-giglio-small-tote-bag-p-860845FAF1L9653"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Gucci",
@@ -15314,7 +15314,7 @@ window.products = [
       "retail_price_source": "Gucci U.S. official product page",
       "source": "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/half-moon-bags-for-women/gucci-jackie-1961-medium-shoulder-bag-p-863136AAGFZ1000"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Gucci",
@@ -15439,7 +15439,7 @@ window.products = [
       "retail_price_source": "Gucci U.S. official product page",
       "source": "https://www.gucci.com/us/en/pr/women/handbags/top-handle-bags-for-women/gucci-diana-ostrich-small-tote-bag-p-832936EY00G3002"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Gucci",
@@ -15564,7 +15564,7 @@ window.products = [
       "retail_price_source": "Burberry U.S. official product page",
       "source": "https://us.burberry.com/small-primrose-bag-p81290651"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Burberry",
@@ -15689,7 +15689,7 @@ window.products = [
       "retail_price_source": "Burberry U.S. official product page",
       "source": "https://us.burberry.com/top-handle-note-bag-p81097871"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Burberry",
@@ -15815,7 +15815,7 @@ window.products = [
       "retail_price_source": "Burberry U.S. official product page",
       "source": "https://us.burberry.com/small-bridle-saddle-bag-p81342101"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Burberry",
@@ -15939,7 +15939,7 @@ window.products = [
       "retail_price_source": "Burberry U.S. official product page",
       "source": "https://us.burberry.com/small-rider-bag-p81254981"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Burberry",
@@ -16061,7 +16061,7 @@ window.products = [
       "retail_price_source": "Burberry U.S. official product page",
       "source": "https://us.burberry.com/mini-ruffle-bag-p81253101"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Burberry",
@@ -16186,7 +16186,7 @@ window.products = [
       "retail_price_source": "Burberry U.S. official product page",
       "source": "https://us.burberry.com/mini-primrose-bag-p81290771"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Burberry",
@@ -16297,7 +16297,7 @@ window.products = [
       "source": "https://www.usmint.gov/comic-art-24-karat-gold-proof-coin-wonder-woman-25DWG.html"
     },
     "productType": "Gold Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16330,7 +16330,7 @@ window.products = [
       "source": "https://www.usmint.gov/comic-art-24-karat-gold-proof-coin-supergirl-26DSG.html"
     },
     "productType": "Gold Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16357,7 +16357,7 @@ window.products = [
       "source": "https://www.usmint.gov/american-eagle-2026-gold-proof-four-coin-set-26EF.html"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16385,7 +16385,7 @@ window.products = [
       "source": "https://www.usmint.gov/american-eagle-2026-gold-proof-four-coin-set-26EF.html"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16413,7 +16413,7 @@ window.products = [
       "source": "https://www.usmint.gov/american-eagle-2026-gold-proof-four-coin-set-26EF.html"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16441,7 +16441,7 @@ window.products = [
       "source": "https://www.usmint.gov/american-eagle-2026-one-ounce-silver-proof-coin-26EA.html"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16469,7 +16469,7 @@ window.products = [
       "source": "https://www.usmint.gov/american-eagle-2026-one-ounce-palladium-uncirculated-coin-26EK.html"
     },
     "productType": "Coin",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16499,7 +16499,7 @@ window.products = [
       "source": "https://www.usmint.gov/comic-art-one-ounce-silver-medal-batman-25dbs1.html"
     },
     "productType": "Silver Medal",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16529,7 +16529,7 @@ window.products = [
       "source": "https://www.usmint.gov/comic-art-2.5-ounce-silver-medal-batman-25dbs2.html"
     },
     "productType": "Silver Medal",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16559,7 +16559,7 @@ window.products = [
       "source": "https://www.usmint.gov/comic-art-one-ounce-silver-medal-superman-25dss1.html"
     },
     "productType": "Silver Medal",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16589,7 +16589,7 @@ window.products = [
       "source": "https://www.usmint.gov/comic-art-2.5-ounce-silver-medal-superman-25dss2.html"
     },
     "productType": "Silver Medal",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16619,7 +16619,7 @@ window.products = [
       "source": "https://www.usmint.gov/comic-art-one-ounce-silver-medal-wonder-woman-25dws1.html"
     },
     "productType": "Silver Medal",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16649,7 +16649,7 @@ window.products = [
       "source": "https://www.usmint.gov/comic-art-2.5-ounce-silver-medal-wonder-woman-25dws2.html"
     },
     "productType": "Silver Medal",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16679,7 +16679,7 @@ window.products = [
       "source": "https://www.usmint.gov/comic-art-one-ounce-silver-medal-supergirl-26dss1.html"
     },
     "productType": "Silver Medal",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16709,7 +16709,7 @@ window.products = [
       "source": "https://www.usmint.gov/comic-art-2.5-ounce-silver-medal-supergirl-26dss2.html"
     },
     "productType": "Silver Medal",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16738,7 +16738,7 @@ window.products = [
       "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty"
     },
     "productType": "Silver Medal",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16767,7 +16767,7 @@ window.products = [
       "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty"
     },
     "productType": "Silver Medal",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16796,7 +16796,7 @@ window.products = [
       "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty"
     },
     "productType": "Silver Medal",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16825,7 +16825,7 @@ window.products = [
       "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty"
     },
     "productType": "Silver Medal",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16858,7 +16858,7 @@ window.products = [
       "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/liberty-and-britannia/liberty-and-britannia-medal"
     },
     "productType": "Silver Medal",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16892,7 +16892,7 @@ window.products = [
       "authenticity": "Authenticity guaranteed"
     },
     "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Hermès",
@@ -16992,7 +16992,7 @@ window.products = [
       "authenticity": "Authenticity guaranteed"
     },
     "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Hermès",
@@ -17091,7 +17091,7 @@ window.products = [
       "style": "Top Handle / Crossbody"
     },
     "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Dior",
@@ -17190,7 +17190,7 @@ window.products = [
       "style": "Shoulder / Crossbody / Top Handle"
     },
     "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Dior",
@@ -17289,7 +17289,7 @@ window.products = [
       "style": "Top Handle / Crossbody"
     },
     "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Bottega Veneta",
@@ -17388,7 +17388,7 @@ window.products = [
       "style": "Top Handle / Crossbody"
     },
     "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Fendi",
@@ -17487,7 +17487,7 @@ window.products = [
       "style": "Shoulder / Crossbody"
     },
     "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Valentino Garavani",
@@ -17585,7 +17585,7 @@ window.products = [
       "style": "Classic Flap"
     },
     "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "CHANEL",
