@@ -6452,20 +6452,7 @@ window.products = [
       "dimensions": "15.4in x 10.2in x 4.1in",
       "weight": "9.9 lbs"
     },
-    "pre-owned price": 299.99,
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Sony",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "age_group": "Adult",
+    "pre-owned price": 299.99,    "age_group": "Adult",
     "gender": "Men"
   },
   {
@@ -7106,20 +7093,7 @@ window.products = [
       "brand": "Canon",
       "material": "Metal"
     },
-    "sku": "BM-0076",
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Canon",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Camera",
+    "sku": "BM-0076",    "productType": "Camera",
     "inventory": 10,
     "age_group": "Adult",
     "gender": "Unisex"
@@ -7139,20 +7113,7 @@ window.products = [
       "brand": "Dolce & Gabbana",
       "material": "Cotton"
     },
-    "sku": "BM-0077",
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Dolce & Gabbana",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Slippers",
+    "sku": "BM-0077",    "productType": "Slippers",
     "inventory": 400,
     "age_group": "Adult",
     "gender": "Women"
@@ -7174,20 +7135,7 @@ window.products = [
       "brand": "Adidas",
       "material": "Premium construction material"
     },
-    "sku": "BM-0078",
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Adidas",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Snapback",
+    "sku": "BM-0078",    "productType": "Snapback",
     "inventory": 100,
     "age_group": "Adult",
     "gender": "Men"
@@ -7235,6 +7183,18 @@ window.products = [
     "inventory": 100,
     "age_group": "Adult",
     "gender": "Women"
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Burberry",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 317,
@@ -7279,6 +7239,18 @@ window.products = [
     "inventory": 100,
     "age_group": "Adult",
     "gender": "Women"
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Celine",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 318,
@@ -7299,20 +7271,7 @@ window.products = [
       "brand": "Samsung",
       "material": "Premium construction material"
     },
-    "sku": "BM-0081",
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Samsung",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Headphones",
+    "sku": "BM-0081",    "productType": "Headphones",
     "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex"
@@ -7338,20 +7297,7 @@ window.products = [
       "dimensions": "9in x 12.5in",
       "weight": "0.45 lbs"
     },
-    "sku": "BM-0082",
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Papermate",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Clipboard",
+    "sku": "BM-0082",    "productType": "Clipboard",
     "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex"
@@ -7380,20 +7326,7 @@ window.products = [
       "paper_capacity": "250 sheets",
       "warranty": "1 Year Limited Hardware Warranty"
     },
-    "sku": "BM-0083",
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "HP",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Printer",
+    "sku": "BM-0083",    "productType": "Printer",
     "inventory": 10,
     "age_group": "Adult",
     "gender": "Unisex"
@@ -7417,20 +7350,7 @@ window.products = [
       "brand": "Nike",
       "material": "Premium construction material"
     },
-    "sku": "BM-0084",
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Nike",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Snapback",
+    "sku": "BM-0084",    "productType": "Snapback",
     "inventory": 100,
     "age_group": "Adult",
     "gender": "Men"
@@ -7454,20 +7374,7 @@ window.products = [
       "brand": "True Religion",
       "material": "Premium construction material"
     },
-    "sku": "BM-0085",
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "True Religion",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Snapback",
+    "sku": "BM-0085",    "productType": "Snapback",
     "inventory": 100,
     "age_group": "Adult",
     "gender": "Men"
@@ -7709,20 +7616,7 @@ window.products = [
       "color_options": "Charcoal, Beige, Slate",
       "assembly_required": "Yes",
       "warranty": "3 Year Limited Warranty"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Bonds",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "age_group": "Adult",
+    },    "age_group": "Adult",
     "gender": "Unisex"
   },
   {
@@ -7743,20 +7637,7 @@ window.products = [
     "specifications": {
       "brand": "Sony",
       "material": "Premium construction material"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Sony",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "inventory": 100,
+    },    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex"
   },
@@ -7964,20 +7845,7 @@ window.products = [
       "weight": "31 lbs",
       "dimensions": "18.1in W x 7.9in H x 19.9in D",
       "warranty": "3 Year Limited Warranty"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Sony",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "inventory": 100,
+    },    "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex"
   },
@@ -8304,20 +8172,7 @@ window.products = [
     "specifications": {
       "brand": "Burberry",
       "material": "Premium construction material"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Burberry",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Hat",
+    },    "productType": "Hat",
     "inventory": 100,
     "age_group": "Adult",
     "gender": "Men"
@@ -8347,20 +8202,7 @@ window.products = [
       "weight": "28 lbs",
       "dimensions": "48.3in W x 28.0in H x 1.8in D",
       "warranty": "2 Year Manufacturer Warranty"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "LG",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "age_group": "Adult",
+    },    "age_group": "Adult",
     "gender": "Unisex"
   },
   {
@@ -8390,20 +8232,7 @@ window.products = [
       "ports": "USB-C (USB 3.0)",
       "weight": "0.48 lbs",
       "color": "Desert Titanium, Natural Titanium"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Apple",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Phone",
+    },    "productType": "Phone",
     "age_group": "Adult",
     "gender": "Unisex"
   },
@@ -8500,20 +8329,7 @@ window.products = [
       "light_source": "Integrated Addressable RGB LED",
       "power_source": "5V DC USB Power Cord",
       "warranty": "1 Year Warranty"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Bonds",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "age_group": "Adult",
+    },    "age_group": "Adult",
     "gender": "Unisex"
   },
   {
@@ -8716,20 +8532,7 @@ window.products = [
       "max_resolution": "4800 x 1200 dpi",
       "paper_capacity": "250 sheets",
       "warranty": "1 Year Limited Hardware Warranty"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "HP",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Printer",
+    },    "productType": "Printer",
     "inventory": 100,
     "age_group": "Adult",
     "gender": "Unisex"
@@ -8752,20 +8555,7 @@ window.products = [
     "specifications": {
       "brand": "Bonds",
       "material": "Premium construction material"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Bonds",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "age_group": "Adult",
+    },    "age_group": "Adult",
     "gender": "Unisex"
   },
   {
@@ -8881,20 +8671,7 @@ window.products = [
       "dimensions": "21.8in W x 11.5in H x 15.5in D",
       "weight": "34 lbs",
       "warranty": "1 Year Limited Warranty"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "GE",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "age_group": "Adult",
+    },    "age_group": "Adult",
     "gender": "Unisex"
   },
   {
@@ -8919,20 +8696,7 @@ window.products = [
       "weight": "4.5 lbs",
       "finish": "Antique Matte / Patina",
       "authenticity": "Certificate of Authenticity Included"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Bonds Art",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "age_group": "Adult",
+    },    "age_group": "Adult",
     "gender": "Unisex"
   },
   {
@@ -8959,20 +8723,7 @@ window.products = [
       "weight": "8.5 lbs",
       "noise_rating": "57 dB",
       "warranty": "5 Year Tool Warranty"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Ryobi",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "inventory": 200,
+    },    "inventory": 200,
     "age_group": "Adult",
     "gender": "Unisex"
   },
@@ -9370,6 +9121,18 @@ window.products = [
     "pre-owned price": 899.99,
     "age_group": "Adult",
     "gender": "Women"
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Chloe",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 373,
@@ -9617,6 +9380,18 @@ window.products = [
     "inventory": 100,
     "age_group": "Adult",
     "gender": "Women"
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Louis Vuitton",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 148,
@@ -9886,7 +9661,15 @@ window.products = [
       "bag_type": "Flap / shoulder bag",
       "hardware": "Gold-tone metal",
       "source": "https://www.chanel.com/us/fashion/p/AS6522B2673794305/2-55-handbag-lambskin-gold-tone-metal/"
-    },
+    },    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "CHANEL",
+    "brand_display_name": "CHANEL",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -9899,15 +9682,6 @@ window.products = [
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType": "Handbag",
-    "inventory": 1,
-    "age_group": "Adult",
-    "gender": "Women",
-    "brand": "CHANEL",
-    "brand_display_name": "CHANEL",
-    "authenticityGuaranteed": true,
-    "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
   },
   {
     "id": 239,
@@ -9944,7 +9718,15 @@ window.products = [
       "chain_detail": "Mixed-metal gourmette chain with leather interlacing",
       "closure": "Double C turnlock",
       "source": "https://www.chanel.com/us/fashion/p/AS1160B0485294305/chanel-19-handbag-shiny-lambskin-gold-tone-silver-tone-ruthenium-finish-metal/"
-    },
+    },    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "CHANEL",
+    "brand_display_name": "CHANEL",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -9957,15 +9739,6 @@ window.products = [
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType": "Handbag",
-    "inventory": 1,
-    "age_group": "Adult",
-    "gender": "Women",
-    "brand": "CHANEL",
-    "brand_display_name": "CHANEL",
-    "authenticityGuaranteed": true,
-    "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
   },
   {
     "id": 240,
@@ -10001,7 +9774,15 @@ window.products = [
       "hardware": "Ruthenium-finish metal",
       "silhouette": "Structured quilted flap",
       "source": "https://www.chanel.com/us/fashion/p/A67086Y0995394305/boy-chanel-handbag-calfskin-ruthenium-finish-metal/"
-    },
+    },    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "CHANEL",
+    "brand_display_name": "CHANEL",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -10014,15 +9795,6 @@ window.products = [
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType": "Handbag",
-    "inventory": 1,
-    "age_group": "Adult",
-    "gender": "Women",
-    "brand": "CHANEL",
-    "brand_display_name": "CHANEL",
-    "authenticityGuaranteed": true,
-    "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
   },
   {
     "id": 241,
@@ -10059,7 +9831,15 @@ window.products = [
       "hardware": "Gold-tone metal",
       "carry_options": "Hand or shoulder carry",
       "source": "https://www.chanel.com/us/fashion/p/A01112B2574794305/classic-11-12-handbag-lambskin-gold-tone-metal/"
-    },
+    },    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "CHANEL",
+    "brand_display_name": "CHANEL",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -10072,15 +9852,6 @@ window.products = [
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType": "Handbag",
-    "inventory": 1,
-    "age_group": "Adult",
-    "gender": "Women",
-    "brand": "CHANEL",
-    "brand_display_name": "CHANEL",
-    "authenticityGuaranteed": true,
-    "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
   },
   {
     "id": 242,
@@ -10119,7 +9890,15 @@ window.products = [
       "collection_note": "CHANEL 22 line",
       "retail_price_source": "CHANEL U.S. official product page",
       "source": "https://www.chanel.com/us/fashion/p/AS3261B1905994305/chanel-22-handbag-shiny-calfskin-gold-tone-metal/"
-    },
+    },    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "CHANEL",
+    "brand_display_name": "CHANEL",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -10132,15 +9911,6 @@ window.products = [
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType": "Handbag",
-    "inventory": 1,
-    "age_group": "Adult",
-    "gender": "Women",
-    "brand": "CHANEL",
-    "brand_display_name": "CHANEL",
-    "authenticityGuaranteed": true,
-    "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
   },
   {
     "id": 243,
@@ -10179,7 +9949,15 @@ window.products = [
       "collection_note": "CHANEL 22 line",
       "retail_price_source": "CHANEL U.S. official product page",
       "source": "https://www.chanel.com/us/fashion/p/AS3260B1905994305/chanel-22-small-handbag-shiny-calfskin-gold-tone-metal/"
-    },
+    },    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "CHANEL",
+    "brand_display_name": "CHANEL",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -10192,15 +9970,6 @@ window.products = [
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType": "Handbag",
-    "inventory": 1,
-    "age_group": "Adult",
-    "gender": "Women",
-    "brand": "CHANEL",
-    "brand_display_name": "CHANEL",
-    "authenticityGuaranteed": true,
-    "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
   },
   {
     "id": 244,
@@ -10241,7 +10010,15 @@ window.products = [
       "retail_price_source": "CHANEL U.S. official product page",
       "specifications_cross_check": "Bragmybag detailed CHANEL 25 specification reference",
       "source": "https://www.chanel.com/us/fashion/p/AS5293B2030494305/chanel-25-small-handbag-grained-calfskin-gold-tone-metal/"
-    },
+    },    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "CHANEL",
+    "brand_display_name": "CHANEL",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -10254,15 +10031,6 @@ window.products = [
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType": "Handbag",
-    "inventory": 1,
-    "age_group": "Adult",
-    "gender": "Women",
-    "brand": "CHANEL",
-    "brand_display_name": "CHANEL",
-    "authenticityGuaranteed": true,
-    "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
   },
   {
     "id": 245,
@@ -10300,7 +10068,15 @@ window.products = [
       "carry_options": "Crossbody, shoulder or clutch-style carry",
       "retail_price_source": "CHANEL U.S. official product page",
       "source": "https://www.chanel.com/us/fashion/p/AP4241Y01480C3906/classic-wallet-on-chain-lambskin-silver-tone-metal/"
-    },
+    },    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "CHANEL",
+    "brand_display_name": "CHANEL",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -10313,15 +10089,6 @@ window.products = [
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType": "Handbag",
-    "inventory": 1,
-    "age_group": "Adult",
-    "gender": "Women",
-    "brand": "CHANEL",
-    "brand_display_name": "CHANEL",
-    "authenticityGuaranteed": true,
-    "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
   },
   {
     "id": 246,
@@ -10361,20 +10128,7 @@ window.products = [
       "retail_price_source": "Saint Laurent U.S. official product page",
       "image_source": "Saint Laurent / Kering DAM; supplemental Fashionphile directional reference",
       "source": "https://www.ysl.com/en-us/pr/loulou-mini-in-lambskin-821749AAE4Y1000.html"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Saint Laurent",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "821749-AAE4Y-1000",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -10390,6 +10144,18 @@ window.products = [
       "right_side": "images[3]",
       "overhead": "images[4]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Saint Laurent",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "821749-AAE4Y-1000",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 247,
@@ -10429,20 +10195,7 @@ window.products = [
       "retail_price_source": "Saint Laurent U.S. official product page",
       "image_source": "Saint Laurent / Kering DAM; Coveti supplemental gallery",
       "source": "https://www.ysl.com/en-us/pr/college-medium-in-quilted-leather-600279BRM071000.html"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Saint Laurent",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "600279-BRM07-1000",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -10458,6 +10211,18 @@ window.products = [
       "right_side": "images[3]",
       "overhead": "images[4]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Saint Laurent",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "600279-BRM07-1000",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 248,
@@ -10496,20 +10261,7 @@ window.products = [
       "retail_price_source": "Saint Laurent U.S. official product page",
       "image_source": "Saint Laurent / Kering DAM; supplemental directional gallery reference",
       "source": "https://www.ysl.com/en-us/pr/le-5-a-7-supple-small-in-grained-leather-850533AAAUQ1000.html"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Saint Laurent",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "850533-AAAUQ-1000",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -10525,6 +10277,18 @@ window.products = [
       "right_side": "images[3]",
       "overhead": "images[4]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Saint Laurent",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "850533-AAAUQ-1000",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 249,
@@ -10565,20 +10329,7 @@ window.products = [
       "retail_price_source": "Saint Laurent U.S. official product page",
       "image_source": "Saint Laurent / Kering DAM; supplemental retailer reference",
       "source": "https://www.ysl.com/en-us/pr/mombasa-small-in-leather-851432AAGWJ1000.html"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Saint Laurent",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "851432-AAGWJ-1000",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -10594,6 +10345,18 @@ window.products = [
       "right_side": "images[3]",
       "overhead": "images[4]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Saint Laurent",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "851432-AAGWJ-1000",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 250,
@@ -10635,7 +10398,15 @@ window.products = [
       "country_of_origin": "Made in France, Spain or Italy, or made in the U.S. of imported materials",
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/low-key-hobo-mm-h33-nvprod8010483v/M3A865"
-    },
+    },    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "Louis Vuitton",
+    "brand_display_name": "Louis Vuitton",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks."
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -10648,15 +10419,6 @@ window.products = [
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType": "Handbag",
-    "inventory": 1,
-    "age_group": "Adult",
-    "gender": "Women",
-    "brand": "Louis Vuitton",
-    "brand_display_name": "Louis Vuitton",
-    "authenticityGuaranteed": true,
-    "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks."
   },
   {
     "id": 251,
@@ -10699,7 +10461,15 @@ window.products = [
       "country_of_origin": "Made in France, Spain or Italy, or made in the U.S. of imported materials",
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/side-trunk-mm-other-leathers-nvprod8010095v/M29904"
-    },
+    },    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "Louis Vuitton",
+    "brand_display_name": "Louis Vuitton",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks."
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -10712,15 +10482,6 @@ window.products = [
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType": "Handbag",
-    "inventory": 1,
-    "age_group": "Adult",
-    "gender": "Women",
-    "brand": "Louis Vuitton",
-    "brand_display_name": "Louis Vuitton",
-    "authenticityGuaranteed": true,
-    "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks."
   },
   {
     "id": 252,
@@ -10767,7 +10528,15 @@ window.products = [
       "country_of_origin": "Made in France, Spain or Italy, or made in the U.S. of imported materials",
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/carryall-pm-monogram-embleme-nvprod8010269v/M2A184"
-    },
+    },    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "Louis Vuitton",
+    "brand_display_name": "Louis Vuitton",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks."
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -10780,15 +10549,6 @@ window.products = [
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType": "Handbag",
-    "inventory": 1,
-    "age_group": "Adult",
-    "gender": "Women",
-    "brand": "Louis Vuitton",
-    "brand_display_name": "Louis Vuitton",
-    "authenticityGuaranteed": true,
-    "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks."
   },
   {
     "id": 253,
@@ -10832,7 +10592,15 @@ window.products = [
       "country_of_origin": "Made in France, Spain or Italy, or made in the U.S. of imported materials",
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/diane-monogram-empreinte-nvprod6150009v/M2A335"
-    },
+    },    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "Louis Vuitton",
+    "brand_display_name": "Louis Vuitton",
+    "authenticityGuaranteed": true,
+    "authenticity_badge": "Authenticity Guaranteed",
+    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks."
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -10845,15 +10613,6 @@ window.products = [
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType": "Handbag",
-    "inventory": 1,
-    "age_group": "Adult",
-    "gender": "Women",
-    "brand": "Louis Vuitton",
-    "brand_display_name": "Louis Vuitton",
-    "authenticityGuaranteed": true,
-    "authenticity_badge": "Authenticity Guaranteed",
-    "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks."
   },
   {
     "id": 254,
@@ -10901,20 +10660,7 @@ window.products = [
       "country_of_origin": "Made in France, Spain or Italy, or made in the U.S. of imported materials",
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/alma-bb-monogram-nvprod5190086v/M46990"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Louis Vuitton",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "M46990",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -10935,6 +10681,18 @@ window.products = [
         "images[6]"
       ]
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Louis Vuitton",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "M46990",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 255,
@@ -10979,20 +10737,7 @@ window.products = [
       "country_of_origin": "Made in France, Spain or Italy, or made in the U.S. of imported materials",
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/speedy-bandouliere-25-damier-ebene-nvprod5320018v/N40575"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Louis Vuitton",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "N40575",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -11012,6 +10757,18 @@ window.products = [
         "images[5]"
       ]
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Louis Vuitton",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "N40575",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 256,
@@ -11058,20 +10815,7 @@ window.products = [
       "country_of_origin": "Made in France, Spain or Italy, or made in the U.S. of imported materials",
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/pochette-metis-monogram-reverse-canvas-nvprod1770373v/M44876"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Louis Vuitton",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "M44876",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -11092,6 +10836,18 @@ window.products = [
         "images[6]"
       ]
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Louis Vuitton",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "M44876",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 257,
@@ -11137,20 +10893,7 @@ window.products = [
       "country_of_origin": "Made in France, Spain or Italy, or made in the U.S. of imported materials",
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/neverfull-mm-monogram-embleme-nvprod7830227v/M2A096"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Louis Vuitton",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "M2A096",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -11170,6 +10913,18 @@ window.products = [
         "images[5]"
       ]
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Louis Vuitton",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "M2A096",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 258,
@@ -11208,20 +10963,7 @@ window.products = [
       "strap": "Chain strap",
       "craftsmanship": "CHANEL handbag construction",
       "wear": "Shoulder or crossbody"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "CHANEL",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "AS1160-B04852-94305",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -11237,6 +10979,18 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "CHANEL",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "AS1160-B04852-94305",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 259,
@@ -11275,20 +11029,7 @@ window.products = [
       "strap": "Chain strap",
       "craftsmanship": "CHANEL handbag construction",
       "wear": "Shoulder or crossbody"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "CHANEL",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "AS1161-B04852-94305",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -11304,6 +11045,18 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "CHANEL",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "AS1161-B04852-94305",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 260,
@@ -11342,20 +11095,7 @@ window.products = [
       "strap": "Chain strap",
       "craftsmanship": "CHANEL handbag construction",
       "wear": "Shoulder or crossbody"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "CHANEL",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "AS1162-B04852-94305",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -11371,6 +11111,18 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "CHANEL",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "AS1162-B04852-94305",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   [
     {
@@ -11639,20 +11391,7 @@ window.products = [
       "origin": "Made in France, Spain or Italy, or Made in the U.S. of imported materials",
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/loop-hobo-monogram-canvas-nvprod3860089v/M46311"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Louis Vuitton",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "M46311",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -11671,6 +11410,18 @@ window.products = [
         "images[4]"
       ]
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Louis Vuitton",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "M46311",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 265,
@@ -11718,20 +11469,7 @@ window.products = [
       "origin": "Made in France, Spain or Italy, or Made in the U.S. of imported materials",
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/speedy-bandouliere-20-nvprod3160023v/M58953"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Louis Vuitton",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "M58953",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -11751,6 +11489,18 @@ window.products = [
         "images[6]"
       ]
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Louis Vuitton",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "M58953",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 266,
@@ -11793,20 +11543,7 @@ window.products = [
       "origin": "Made in France, Spain or Italy, or Made in the U.S. of imported materials",
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/nano-speedy-monogram-nvprod3430078v/M81085"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Louis Vuitton",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "M81085",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -11825,6 +11562,18 @@ window.products = [
         "images[4]"
       ]
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Louis Vuitton",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "M81085",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 267,
@@ -11862,20 +11611,7 @@ window.products = [
       "carry": "Shoulder carry",
       "retail_price_source": "CHANEL U.S. official product page",
       "source": "https://www.chanel.com/us/fashion/p/AS5553B2030494305/chanel-25-large-handbag-grained-calfskin-gold-tone-metal/"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "CHANEL",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "AS5553-B20304-94305",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -11891,6 +11627,18 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "CHANEL",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "AS5553-B20304-94305",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 268,
@@ -11930,20 +11678,7 @@ window.products = [
       "retail_price_source": "CHANEL U.S. official product page",
       "secondary_spec_source": "Jack Road and other exact-reference listings",
       "source": "https://www.chanel.com/us/fashion/p/AS3980B1905994305/chanel-22-mini-handbag-shiny-calfskin-gold-tone-metal/"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "CHANEL",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "AS3980-B19059-94305",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -11959,6 +11694,18 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "CHANEL",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "AS3980-B19059-94305",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 269,
@@ -11998,20 +11745,7 @@ window.products = [
       "retail_price_source": "CHANEL U.S. official product page",
       "secondary_spec_source": "Exact-reference resale listings",
       "source": "https://www.chanel.com/us/fashion/p/AS0874Y0463494305/mini-2-55-handbag-aged-calfskin-gold-tone-metal/"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "CHANEL",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "AS0874-Y04634-94305",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -12027,6 +11761,18 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "CHANEL",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "AS0874-Y04634-94305",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 270,
@@ -12068,20 +11814,7 @@ window.products = [
       "retail_price_source": "Saint Laurent U.S. official product page",
       "secondary_spec_source": "Saint Laurent official international product details",
       "source": "https://www.ysl.com/en-us/pr/y-tote-in-leather-813744359.html"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Saint Laurent",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "817602AAEB31000",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -12097,6 +11830,18 @@ window.products = [
       "back": "images[2]",
       "overhead": "images[1]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Saint Laurent",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "817602AAEB31000",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 271,
@@ -12139,20 +11884,7 @@ window.products = [
       "retail_price_source": "Saint Laurent U.S. official product page",
       "secondary_spec_source": "Saint Laurent official international product details",
       "source": "https://www.ysl.com/en-us/pr/shopping-saint-laurent-in-leather-600306CSV0J1000.html"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Saint Laurent",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "600306CSV0J1000",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -12171,6 +11903,18 @@ window.products = [
         "images[4]"
       ]
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Saint Laurent",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "600306CSV0J1000",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 272,
@@ -12213,20 +11957,7 @@ window.products = [
       "retail_price_source": "Saint Laurent U.S. official product page",
       "secondary_spec_source": "Saint Laurent official international product details",
       "source": "https://www.ysl.com/en-us/pr/le-5-a-7-supple-large-in-grained-leather-814052918.html"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Saint Laurent",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "850545AAAUQ1000",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -12242,6 +11973,18 @@ window.products = [
       "back": "images[1]",
       "overhead": "images[2]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Saint Laurent",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "850545AAAUQ1000",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 273,
@@ -12286,20 +12029,7 @@ window.products = [
       "origin": "Made in France, Spain or Italy, or made in the U.S. of imported materials",
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/speedy-bandouliere-30-monogram-nvprod5320020v/M46980"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Louis Vuitton",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "M46980",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -12318,6 +12048,18 @@ window.products = [
         "images[4]"
       ]
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Louis Vuitton",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "M46980",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 274,
@@ -12363,20 +12105,7 @@ window.products = [
       "origin": "Made in France, Spain or Italy, or made in the U.S. of imported materials",
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "source": "https://us.louisvuitton.com/eng-us/products/neverfull-mm-monogram-nvprod5350101v/M46987/"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Louis Vuitton",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "M46987",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -12395,6 +12124,18 @@ window.products = [
         "images[4]"
       ]
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Louis Vuitton",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "M46987",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 275,
@@ -12438,20 +12179,7 @@ window.products = [
       "retail_price_source": "Louis Vuitton U.S. official product page",
       "secondary_image_source": "Emier exact-model listing for additional side photography",
       "source": "https://us.louisvuitton.com/eng-us/products/onthego-mm-monogram-nvprod2130189v/M45321"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Louis Vuitton",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "M45321",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -12470,6 +12198,18 @@ window.products = [
         "images[4]"
       ]
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Louis Vuitton",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "M45321",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 276,
@@ -12509,20 +12249,7 @@ window.products = [
       "feet": "Protective purse feet",
       "origin": "Imported",
       "source": "https://www.prada.com/us/en/p/prada-galleria-small-saffiano-leather-bag/1BA896_NZV_F0002_V_EOO"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Prada",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "1BA896_NZV_F0002_V_EOO",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -12537,6 +12264,18 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Prada",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "1BA896_NZV_F0002_V_EOO",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 277,
@@ -12576,20 +12315,7 @@ window.products = [
       "feet": "Protective purse feet",
       "origin": "Imported",
       "source": "https://www.prada.com/us/en/p/prada-galleria-medium-saffiano-leather-bag/1BA863_NZV_F0002_V_EOO"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Prada",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "1BA863_NZV_F0002_V_EOO",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -12604,6 +12330,18 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Prada",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "1BA863_NZV_F0002_V_EOO",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 278,
@@ -12644,20 +12382,7 @@ window.products = [
       "feet": "Protective purse feet",
       "origin": "Imported",
       "source": "https://www.prada.com/us/en/p/prada-galleria-large-saffiano-leather-bag/1BA274_NZV_F0018_V_EOO"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Prada",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "1BA274_NZV_F0018_V_EOO",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -12672,6 +12397,18 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Prada",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "1BA274_NZV_F0018_V_EOO",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 279,
@@ -12709,20 +12446,7 @@ window.products = [
       "strap": "Detachable, adjustable shoulder strap",
       "origin": "Imported",
       "source": "https://www.prada.com/us/en/p/prada-aimee-medium-leather-shoulder-bag/1BC229_2CYS_F0PG7_V_LVM"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Prada",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "1BC229_2CYS_F0PG7_V_LVM",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -12737,6 +12461,18 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Prada",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "1BC229_2CYS_F0PG7_V_LVM",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 280,
@@ -12774,20 +12510,7 @@ window.products = [
       "interior": "Zipped pocket",
       "origin": "Made in Italy",
       "source": "https://www.prada.com/us/en/p/prada-bonnie-medium-leather-handbag/1BA426_2CYR_F04F2_V_MOO"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Prada",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "1BA426_2CYR_F04F2_V_MOO",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -12802,6 +12525,18 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Prada",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "1BA426_2CYR_F04F2_V_MOO",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 281,
@@ -12839,20 +12574,7 @@ window.products = [
       "pocket": "Interior patch pocket",
       "origin": "Imported",
       "source": "https://www.prada.com/us/en/p/prada-cleo-brushed-leather-shoulder-bag/1BC499_ZO6_F0002_V_OOO"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Prada",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "1BC499_ZO6_F0002_V_OOO",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -12867,6 +12589,18 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Prada",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "1BC499_ZO6_F0002_V_OOO",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 282,
@@ -12906,20 +12640,7 @@ window.products = [
       "key_ring": "Removable key ring",
       "origin": "Imported",
       "source": "https://www.prada.com/us/en/p/medium-leather-tote-bag/1BG609_2HF2_F0042_V_DOO"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Prada",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "1BG609_2HF2_F0042_V_DOO",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -12935,6 +12656,18 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Prada",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "1BG609_2HF2_F0042_V_DOO",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 283,
@@ -12972,20 +12705,7 @@ window.products = [
       "pocket": "Interior zipper pocket",
       "origin": "Imported",
       "source": "https://www.prada.com/us/en/p/prada-re-edition-2005-re-nylon-and-saffiano-mini-bag/1N204P_R064_F0DFH"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Prada",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "1N204P_R064_F0DFH",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -13001,6 +12721,18 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Prada",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "1N204P_R064_F0DFH",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 284,
@@ -13038,20 +12770,7 @@ window.products = [
       "key_ring": "Removable leather key ring",
       "origin": "Imported",
       "source": "https://www.prada.com/us/en/p/prada-re-edition-mini-saffiano-leather-bag/1BC204_NZV_F03CW_V_QOM"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Prada",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "1BC204_NZV_F03CW_V_QOM",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -13067,6 +12786,18 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Prada",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "1BC204_NZV_F03CW_V_QOM",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 285,
@@ -13107,20 +12838,7 @@ window.products = [
       "capacity": "Fits a card holder, iPhone 17 Pro Max, small wallet and other small essentials",
       "origin": "Imported",
       "source": "https://www.prada.com/us/en/p/prada-carry-mini-leather-handbag/1BA496_2C6A_F0002_V_OOO"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Prada",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "1BA496_2C6A_F0002_V_OOO",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -13136,6 +12854,18 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Prada",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "1BA496_2C6A_F0002_V_OOO",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   null,
   {
@@ -13177,20 +12907,7 @@ window.products = [
       "capacity": "Fits iPhone Pro Max/Plus, AirPods, small wallet and lipstick",
       "retail_price_source": "Gucci U.S. official product page",
       "source": "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/gucci-horsebit-1955-small-shoulder-bag-p-65857418YSG1060"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Gucci",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -13206,6 +12923,18 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Gucci",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 288,
@@ -13249,20 +12978,7 @@ window.products = [
       "capacity": "Fits an iPad, iPhone, AirPods and small items",
       "retail_price_source": "Gucci U.S. official product page",
       "source": "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/gucci-giglio-small-tote-bag-p-860845FAF1L9653"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Gucci",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -13278,6 +12994,18 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Gucci",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 289,
@@ -13319,20 +13047,7 @@ window.products = [
       "capacity": "Fits iPhone Pro Max/Plus, AirPods, long wallet and lipstick",
       "retail_price_source": "Gucci U.S. official product page",
       "source": "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/half-moon-bags-for-women/gucci-jackie-1961-medium-shoulder-bag-p-863136AAGFZ1000"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Gucci",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -13348,6 +13063,18 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Gucci",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 290,
@@ -13390,20 +13117,7 @@ window.products = [
       "capacity": "Fits iPhone Pro Max/Plus, AirPods, small wallet and lipstick",
       "retail_price_source": "Gucci U.S. official product page",
       "source": "https://www.gucci.com/us/en/pr/women/handbags/top-handle-bags-for-women/gucci-diana-ostrich-small-tote-bag-p-832936EY00G3002"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Gucci",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -13419,6 +13133,18 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Gucci",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 291,
@@ -13461,20 +13187,7 @@ window.products = [
       "includes": "Dust bag",
       "retail_price_source": "Burberry U.S. official product page",
       "source": "https://us.burberry.com/small-primrose-bag-p81290651"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Burberry",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -13490,6 +13203,18 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Burberry",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 292,
@@ -13532,20 +13257,7 @@ window.products = [
       "includes": "Dust bag",
       "retail_price_source": "Burberry U.S. official product page",
       "source": "https://us.burberry.com/top-handle-note-bag-p81097871"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Burberry",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -13561,6 +13273,18 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Burberry",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 293,
@@ -13604,20 +13328,7 @@ window.products = [
       "image_note": "Primary product imagery is from the current Burberry/Farfetch listing; supplemental gallery imagery uses Burberry Bridle-family reference listings where additional angles of the exact current colorway were not exposed as direct image assets.",
       "retail_price_source": "Burberry U.S. official product page",
       "source": "https://us.burberry.com/small-bridle-saddle-bag-p81342101"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Burberry",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -13633,6 +13344,18 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Burberry",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 294,
@@ -13674,20 +13397,7 @@ window.products = [
       "includes": "Dust bag",
       "retail_price_source": "Burberry U.S. official product page",
       "source": "https://us.burberry.com/small-rider-bag-p81254981"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Burberry",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -13704,6 +13414,18 @@ window.products = [
       "overhead": "images[4]"
     },
     "image_note": "All five gallery images are direct Burberry product assets."
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Burberry",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 295,
@@ -13742,20 +13464,7 @@ window.products = [
       "includes": "Dust bag",
       "retail_price_source": "Burberry U.S. official product page",
       "source": "https://us.burberry.com/mini-ruffle-bag-p81253101"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Burberry",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -13772,6 +13481,18 @@ window.products = [
       "overhead": "images[4]"
     },
     "image_note": "All five gallery images are direct Burberry product assets."
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Burberry",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 296,
@@ -13813,20 +13534,7 @@ window.products = [
       "includes": "Dust bag",
       "retail_price_source": "Burberry U.S. official product page",
       "source": "https://us.burberry.com/mini-primrose-bag-p81290771"
-    },
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Burberry",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
-    "productType": "Handbag",
+    },    "productType": "Handbag",
     "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
@@ -13843,6 +13551,18 @@ window.products = [
       "overhead": "images[4]"
     },
     "image_note": "The first four images are official Burberry product assets. The fifth is a top-down/opening view from Nordstrom's Mini Primrose listing, used to supply the requested overhead view."
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Burberry",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 297,
@@ -14471,6 +14191,18 @@ window.products = [
     "gender": "Women",
     "brand": "Hermès",
     "brand_display_name": "Hermès"
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Hermès",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 318,
@@ -14504,6 +14236,18 @@ window.products = [
     "gender": "Women",
     "brand": "Hermès",
     "brand_display_name": "Hermès"
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Hermès",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 319,
@@ -14536,6 +14280,18 @@ window.products = [
     "gender": "Women",
     "brand": "Dior",
     "brand_display_name": "Dior"
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Dior",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 320,
@@ -14568,6 +14324,18 @@ window.products = [
     "gender": "Women",
     "brand": "Dior",
     "brand_display_name": "Dior"
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Dior",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 321,
@@ -14600,6 +14368,18 @@ window.products = [
     "gender": "Women",
     "brand": "Bottega Veneta",
     "brand_display_name": "Bottega Veneta"
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Bottega Veneta",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 322,
@@ -14632,6 +14412,18 @@ window.products = [
     "gender": "Women",
     "brand": "Fendi",
     "brand_display_name": "Fendi"
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Fendi",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 323,
@@ -14664,6 +14456,18 @@ window.products = [
     "gender": "Women",
     "brand": "Valentino Garavani",
     "brand_display_name": "Valentino"
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Valentino Garavani",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 324,
@@ -14714,6 +14518,18 @@ window.products = [
     "description": "Quiet-luxury Louis Vuitton hobo in black grained calfskin with suede lining, adjustable strap and signature engraved padlock.",
     "specifications": {"brand":"Louis Vuitton","model":"Low Key Hobo MM","material":"Grained calfskin","hardware":"Gold-color hardware","dimensions":"31 x 35 x 18 cm","origin":"France, Spain, Italy or USA","style":"Hobo"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton"
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Louis Vuitton",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 326,
@@ -14732,6 +14548,18 @@ window.products = [
     "description": "Compact Multipass Mini in black grained leather with a sculptural hobo silhouette, gold chain detail and detachable Monogram strap.",
     "specifications": {"brand":"Louis Vuitton","model":"Multipass Mini","material":"Grained leather","hardware":"Gold-color hardware","reference":"M2A840","style":"Mini Shoulder Bag"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton"
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Louis Vuitton",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "M2A840",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 327,
@@ -14750,6 +14578,18 @@ window.products = [
     "description": "Miniature Madeleine in black Monogram Empreinte leather with S-lock closure and removable LV Circle charm chain.",
     "specifications": {"brand":"Louis Vuitton","model":"Nano Madeleine","material":"Supple grained cowhide leather","hardware":"Gold-color hardware","dimensions":"21 x 12.5 x 6 cm","reference":"M12144","style":"Nano Top Handle / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton"
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Louis Vuitton",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "M12144",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 328,
@@ -14768,6 +14608,18 @@ window.products = [
     "description": "Express MM in supple brown calf leather accented with Monogram canvas, gold-tone hardware, clochette and padlock.",
     "specifications": {"brand":"Louis Vuitton","model":"Express MM","material":"Calf leather and Monogram canvas","hardware":"Gold-tone hardware","reference":"M26397","style":"Top Handle / Shoulder"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton"
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Louis Vuitton",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "M26397",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 329,
@@ -14786,6 +14638,18 @@ window.products = [
     "description": "Archival-inspired Pochette Papillon in Monogram Canvas with natural cowhide trim and removable leather strap.",
     "specifications": {"brand":"Louis Vuitton","model":"Pochette Papillon","material":"Monogram Canvas and cowhide leather","reference":"M25703","style":"Shoulder / Hand Carry"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton"
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Louis Vuitton",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "M25703",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 330,
@@ -14804,6 +14668,18 @@ window.products = [
     "description": "Small Whisker in black glazed calfskin with a structural handle, giant zip opening, detachable strap and signature embossed branding.",
     "specifications": {"brand":"Loewe","model":"Small Whisker","material":"Glazed calfskin","dimensions":"25.5 x 14 x 17 cm","origin":"Spain","style":"Shoulder / Crossbody / Hand Carry"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Loewe","brand_display_name":"Loewe"
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Loewe",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 331,
@@ -14822,6 +14698,18 @@ window.products = [
     "description": "Hammock Flip in black classic calfskin, designed to transform between a carry-all and body-friendly hobo with versatile carry options.",
     "specifications": {"brand":"Loewe","model":"Hammock Flip","material":"Classic calfskin","origin":"Spain","style":"Top Handle / Hobo / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Loewe","brand_display_name":"Loewe"
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Loewe",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 332,
@@ -14853,7 +14741,7 @@ window.products = [
       "https://www.mytheresa.com/media/1094/1238/100/bb/P01196941_d1.jpg"
     ],
     "description":"Gucci Borsetto medium shoulder bag in supple black leather with Horsebit hardware, Web stripe, top handles and detachable adjustable shoulder strap.",
-    "specifications":{"brand":"Gucci","model":"Borsetto Medium","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder / Crossbody"},
+    "specifications":{"brand":"Gucci","model":"Borsetto Medium","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14864,9 +14752,8 @@ window.products = [
       "mpn": null,
       "mpn_status": not_found_in_catalog,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
     "id":334,"name":"Gucci Paparazzo Medium Leather Tote — Black","category":"accessories","retail price":3650,"sale price": 1199.99,
@@ -14879,7 +14766,7 @@ window.products = [
       "https://www.mytheresa.com/media/1094/1238/100/bb/P01192312_d1.jpg"
     ],
     "description":"Gucci Paparazzo medium tote in black leather with Horsebit hardware, green-and-red Web stripe, structured top handle and detachable shoulder strap.",
-    "specifications":{"brand":"Gucci","model":"Paparazzo Medium","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder"},
+    "specifications":{"brand":"Gucci","model":"Paparazzo Medium","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14890,9 +14777,8 @@ window.products = [
       "mpn": null,
       "mpn_status": not_found_in_catalog,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
     "id":335,"name":"Gucci Jackie Slim Medium Shoulder Bag — Black Leather","category":"accessories","retail price":2450,"sale price": 1199.99,
@@ -14905,7 +14791,7 @@ window.products = [
       "https://www.mytheresa.com/media/1094/1238/100/bb/P01151161_d1.jpg"
     ],
     "description":"Gucci Jackie Slim medium shoulder bag in black leather with the signature piston closure, curved silhouette and detachable belt.",
-    "specifications":{"brand":"Gucci","model":"Jackie Slim Medium","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Shoulder Bag"},
+    "specifications":{"brand":"Gucci","model":"Jackie Slim Medium","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Shoulder Bag"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14916,9 +14802,8 @@ window.products = [
       "mpn": null,
       "mpn_status": not_found_in_catalog,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
     "id":336,"name":"Gucci Brera Medium Crossbody Bag — Black Leather","category":"accessories","retail price":2980,"sale price": 1199.99,
@@ -14931,7 +14816,7 @@ window.products = [
       "https://www.mytheresa.com/media/1094/1238/100/bb/P01248060_d1.jpg"
     ],
     "description":"Gucci Brera medium crossbody in black soft grainy leather with silver-toned hardware, detachable handle and signature Web strap.",
-    "specifications":{"brand":"Gucci","model":"Brera Medium","material":"Black grainy leather","hardware":"Silver-toned","origin":"Italy","style":"Crossbody / Shoulder"},
+    "specifications":{"brand":"Gucci","model":"Brera Medium","material":"Black grainy leather","hardware":"Silver-toned","origin":"Italy","style":"Crossbody / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14942,9 +14827,8 @@ window.products = [
       "mpn": null,
       "mpn_status": not_found_in_catalog,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
     "id":337,"name":"Gucci Giglio Large Tote Bag — Black Leather","category":"accessories","retail price":2950,"sale price": 1499.99,
@@ -14957,7 +14841,7 @@ window.products = [
       "https://media.gucci.com/style/DarkGray_Center_0_0_700x700/1761821103/853971_AAF2H_1060_001_100_0000_Light-groer-gucci-giglio-shopper.jpg"
     ],
     "description":"Gucci Giglio large tote in glossy black leather with Web trim, Double G hardware, removable pouch and spacious GG-lined interior.",
-    "specifications":{"brand":"Gucci","model":"Giglio Large","material":"Black leather","hardware":"Light gold-toned","origin":"Italy","style":"Tote"},
+    "specifications":{"brand":"Gucci","model":"Giglio Large","material":"Black leather","hardware":"Light gold-toned","origin":"Italy","style":"Tote"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14968,9 +14852,8 @@ window.products = [
       "mpn": null,
       "mpn_status": not_found_in_catalog,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
     "id":338,"name":"Gucci Giglio Small Tote Bag — Black GG Canvas","category":"accessories","retail price":2750,"sale price": 999.99,
@@ -14983,7 +14866,7 @@ window.products = [
       "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1774361706/860845_FAFWA_1053_002_069_0052_Light-gucci-giglio-small-tote-bag.jpg"
     ],
     "description":"Gucci Giglio small tote in black GG canvas with leather trim, Web stripe, Double G detail and detachable shoulder strap.",
-    "specifications":{"brand":"Gucci","model":"Giglio Small","material":"GG canvas and leather","hardware":"Gold-toned","origin":"Italy","style":"Tote / Shoulder"},
+    "specifications":{"brand":"Gucci","model":"Giglio Small","material":"GG canvas and leather","hardware":"Gold-toned","origin":"Italy","style":"Tote / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14994,9 +14877,8 @@ window.products = [
       "mpn": null,
       "mpn_status": not_found_in_catalog,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
     "id":339,"name":"Gucci Lady Lunetta Chain Small Shoulder Bag — Black GG Leather","category":"accessories","retail price":2450,"sale price": 999.99,
@@ -15009,7 +14891,7 @@ window.products = [
       "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1781281810/A0034B_AAHC3_1000_006_065_0000_Light-lady-lunetta-chain-small-shoulder-bag.jpg"
     ],
     "description":"Lady Lunetta Chain small shoulder bag in black perforated GG leather with gold chain, Double G zip detail and adjustable leather strap.",
-    "specifications":{"brand":"Gucci","model":"Lady Lunetta Chain Small","material":"Black perforated GG leather","hardware":"Gold-toned","origin":"Italy","style":"Shoulder / Crossbody"},
+    "specifications":{"brand":"Gucci","model":"Lady Lunetta Chain Small","material":"Black perforated GG leather","hardware":"Gold-toned","origin":"Italy","style":"Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15020,9 +14902,8 @@ window.products = [
       "mpn": null,
       "mpn_status": not_found_in_catalog,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
     "id":340,"name":"Gucci Lady Lunetta Small Shoulder Bag — Black GG Denim","category":"accessories","retail price":1450,"sale price": 999.99,
@@ -15035,7 +14916,7 @@ window.products = [
       "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1777477532/874743_FAF8W_1144_007_070_0000_Light-.jpg"
     ],
     "description":"Lady Lunetta small shoulder bag in washed black GG denim with black leather trim, Gucci plaque and detachable adjustable strap.",
-    "specifications":{"brand":"Gucci","model":"Lady Lunetta Small","material":"Black GG denim","hardware":"Palladium-toned","origin":"Italy","style":"Shoulder / Crossbody"},
+    "specifications":{"brand":"Gucci","model":"Lady Lunetta Small","material":"Black GG denim","hardware":"Palladium-toned","origin":"Italy","style":"Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15046,9 +14927,8 @@ window.products = [
       "mpn": null,
       "mpn_status": not_found_in_catalog,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
     "id":341,"name":"Gucci Ophidia Medium Boston Bag — Black Leather","category":"accessories","retail price":2100,"sale price": 1199.99,
@@ -15061,7 +14941,7 @@ window.products = [
       "https://mygemma.com/cdn/shop/products/116193-fv_1200x.jpg?v=1650961451"
     ],
     "description":"Ophidia medium Boston bag in black pebbled leather with green-red Web stripe, GG hardware, top handles and detachable shoulder strap.",
-    "specifications":{"brand":"Gucci","model":"Ophidia Medium Boston","material":"Black pebbled leather","hardware":"Gold-toned","style":"Boston / Crossbody"},
+    "specifications":{"brand":"Gucci","model":"Ophidia Medium Boston","material":"Black pebbled leather","hardware":"Gold-toned","style":"Boston / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15072,9 +14952,8 @@ window.products = [
       "mpn": null,
       "mpn_status": not_found_in_catalog,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
     "id":342,"name":"Gucci Borsetto Medium Boston Bag — Black Leather","category":"accessories","retail price":3100,"sale price": 1199.99,
@@ -15087,7 +14966,7 @@ window.products = [
       "https://www.gucci.com/us/en/pr/women/handbags/crossbody-bags-for-women/borsetto-medium-boston-bag-p-866732AAGIQ1053"
     ],
     "description":"Borsetto medium Boston bag in black soft leather with Horsebit, Web, Diamante lining and detachable adjustable strap.",
-    "specifications":{"brand":"Gucci","model":"Borsetto Medium Boston","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Boston / Crossbody"},
+    "specifications":{"brand":"Gucci","model":"Borsetto Medium Boston","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Boston / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15098,9 +14977,8 @@ window.products = [
       "mpn": null,
       "mpn_status": not_found_in_catalog,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
     "id":343,"name":"Gucci Horsebit Duomo Medium Top Handle Bag — Black Leather","category":"accessories","retail price":3950,"sale price": 1199.99,
@@ -15113,7 +14991,7 @@ window.products = [
       "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/horsebit-duomo-medium-top-handle-bag-p-A006N6AAG8B1000"
     ],
     "description":"Horsebit Duomo medium top handle bag in glossy black leather with emblematic Horsebit hardware, top handle and detachable strap.",
-    "specifications":{"brand":"Gucci","model":"Horsebit Duomo Medium","material":"Black glossy leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder / Crossbody"},
+    "specifications":{"brand":"Gucci","model":"Horsebit Duomo Medium","material":"Black glossy leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15124,9 +15002,8 @@ window.products = [
       "mpn": null,
       "mpn_status": not_found_in_catalog,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
     "id":344,"name":"Gucci Horsebit Duomo Small Top Handle Bag — Black Leather","category":"accessories","retail price":3100,"sale price": 999.99,
@@ -15139,7 +15016,7 @@ window.products = [
       "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/horsebit-duomo-small-top-handle-bag-p-A006O9AAG8B1000"
     ],
     "description":"Horsebit Duomo small top handle bag in glossy black leather with Horsebit hardware, top handle and adjustable detachable strap.",
-    "specifications":{"brand":"Gucci","model":"Horsebit Duomo Small","material":"Black glossy leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder / Crossbody"},
+    "specifications":{"brand":"Gucci","model":"Horsebit Duomo Small","material":"Black glossy leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15150,9 +15027,8 @@ window.products = [
       "mpn": null,
       "mpn_status": not_found_in_catalog,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
     "id":345,"name":"Celine Small Flair in Grained Calfskin — Black","category":"accessories","retail price":3650,"sale price": 999.99,
@@ -15165,7 +15041,7 @@ window.products = [
       "https://image.celine.com/asset/7b032fef-31f4-4610-8325-acd9a6e76895/L10BF5C12-38NO_1_WI26_W_V1.jpg?im=Resize%3D%28800%29"
     ],
     "description":"Celine Small Flair in black grained calfskin with Triomphe turn-lock, removable strap and structured top handle.",
-    "specifications":{"brand":"Celine","model":"Small Flair","material":"Grained calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"L10BF5C12.38NO","style":"Top Handle / Shoulder / Crossbody"},
+    "specifications":{"brand":"Celine","model":"Small Flair","material":"Grained calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"L10BF5C12.38NO","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15176,9 +15052,8 @@ window.products = [
       "mpn": "L10BF5C12.38NO",
       "mpn_status": manufacturer_reference_present_verify,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
     "id":346,"name":"Celine Small Flair in Shiny Calfskin — Chestnut","category":"accessories","retail price":3800,"sale price": 999.99,
@@ -15191,7 +15066,7 @@ window.products = [
       "https://image.celine.com/asset/6be8ff11-f678-4b7f-9b4a-0c4de68a488c/L10BF5B53-18CH_1_WI26_W_V1.jpg?im=Resize%3D(800)"
     ],
     "description":"Celine Small Flair in chestnut shiny calfskin with gold-finish Triomphe turn-lock and removable strap.",
-    "specifications":{"brand":"Celine","model":"Small Flair","material":"Shiny calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"L10BF5B53.18CH","style":"Top Handle / Shoulder / Crossbody"},
+    "specifications":{"brand":"Celine","model":"Small Flair","material":"Shiny calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"L10BF5B53.18CH","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15202,9 +15077,8 @@ window.products = [
       "mpn": "L10BF5B53.18CH",
       "mpn_status": manufacturer_reference_present_verify,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
     "id":347,"name":"Celine Soft Triomphe Bucket in Shiny Lambskin — Syrah","category":"accessories","retail price":3450,"sale price": 1199.99,
@@ -15217,7 +15091,7 @@ window.products = [
       "https://image.celine.com/asset/388b9254-eea3-4376-901c-c359827fb994/L102S3J15-28PO_1_WI26_W_V1.jpg?im=Resize%3D(800)"
     ],
     "description":"Soft Triomphe bucket in Syrah shiny lambskin with Triomphe magnetic closure, suede calfskin lining and adjustable strap.",
-    "specifications":{"brand":"Celine","model":"Soft Triomphe Bucket","material":"Shiny lambskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L102S3J15.28PO","style":"Bucket / Shoulder / Crossbody"},
+    "specifications":{"brand":"Celine","model":"Soft Triomphe Bucket","material":"Shiny lambskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L102S3J15.28PO","style":"Bucket / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15228,9 +15102,8 @@ window.products = [
       "mpn": "L102S3J15.28PO",
       "mpn_status": manufacturer_reference_present_verify,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
     "id":348,"name":"Celine Soft Triomphe Little Halfmoon in Shiny Lambskin — White Cotton","category":"accessories","retail price":2700,"sale price": 999.99,
@@ -15243,7 +15116,7 @@ window.products = [
       "https://image.celine.com/asset/705d9fa7-503d-49af-a672-d5ee6b88cf43/L10373778-00WC_1_FALL26_W_V1.jpg?im=Resize%3D(800)"
     ],
     "description":"Soft Triomphe Little Halfmoon in white cotton shiny lambskin with Triomphe magnetic closure and adjustable strap.",
-    "specifications":{"brand":"Celine","model":"Soft Triomphe Little Halfmoon","material":"Shiny lambskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L10373778.00WC","style":"Shoulder / Slingback"},
+    "specifications":{"brand":"Celine","model":"Soft Triomphe Little Halfmoon","material":"Shiny lambskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L10373778.00WC","style":"Shoulder / Slingback"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15254,9 +15127,8 @@ window.products = [
       "mpn": "L10373778.00WC",
       "mpn_status": manufacturer_reference_present_verify,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
     "id":349,"name":"Celine Teen Nino Bag in Supple Grained Calfskin — Safari","category":"accessories","retail price":3600,"sale price": 1199.99,
@@ -15269,7 +15141,7 @@ window.products = [
       "https://image.celine.com/asset/a760a572-1833-4440-ade6-ac054ebd6bd1/118113FXK-03SA_1_SPR26_W_V1.jpg?im=Resize%3D(800)"
     ],
     "description":"Teen Nino in supple Safari grained calfskin with Triomphe metallic closure, two compartments and removable adjustable strap.",
-    "specifications":{"brand":"Celine","model":"Teen Nino","material":"Supple grained calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"118113FXK.03SA","style":"Top Handle / Shoulder / Crossbody"},
+    "specifications":{"brand":"Celine","model":"Teen Nino","material":"Supple grained calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"118113FXK.03SA","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15280,9 +15152,8 @@ window.products = [
       "mpn": "118113FXK.03SA",
       "mpn_status": manufacturer_reference_present_verify,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
     "id":350,"name":"Celine Small Hobo in Supple Smooth Calfskin — Rice","category":"accessories","retail price":2350,"sale price": 999.99,
@@ -15295,7 +15166,7 @@ window.products = [
       "https://image.celine.com/asset/72187695-3210-4750-82e0-8797cbf94676/L10133Q71-01RC_1_SUM26_W_V1.jpg?im=Resize%3D(800)"
     ],
     "description":"Small Hobo in Rice supple smooth calfskin with suede calfskin lining, gold finishing and removable adjustable strap.",
-    "specifications":{"brand":"Celine","model":"Small Hobo","material":"Supple smooth calfskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L10133Q71.01RC","style":"Hobo / Crossbody"},
+    "specifications":{"brand":"Celine","model":"Small Hobo","material":"Supple smooth calfskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L10133Q71.01RC","style":"Hobo / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15306,9 +15177,8 @@ window.products = [
       "mpn": "L10133Q71.01RC",
       "mpn_status": manufacturer_reference_present_verify,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
     "id":351,"name":"Celine Drop Bucket in Smooth Calfskin — Multicolor","category":"accessories","retail price":4100,"sale price": 1199.99,
@@ -15321,7 +15191,7 @@ window.products = [
       "https://image.celine.com/asset/65d3450d-eb39-4bcc-8b16-b8984211fdff/L102H3J23-14ML_1_SUM26_W_V1.jpg?im=Resize%3D(800)"
     ],
     "description":"Drop Bucket in multicolor smooth calfskin with suede lining, gold finishing and signature sliding Triomphe ball detail.",
-    "specifications":{"brand":"Celine","model":"Drop Bucket","material":"Smooth calfskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L102H3J23.14ML","style":"Bucket / Shoulder"},
+    "specifications":{"brand":"Celine","model":"Drop Bucket","material":"Smooth calfskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L102H3J23.14ML","style":"Bucket / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15332,9 +15202,8 @@ window.products = [
       "mpn": "L102H3J23.14ML",
       "mpn_status": manufacturer_reference_present_verify,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
     "id":352,"name":"Celine Flair in Grained Calfskin — Black","category":"accessories","retail price":4450,"sale price": 1199.99,
@@ -15347,7 +15216,7 @@ window.products = [
       "https://image.celine.com/asset/f2718518-3570-499f-a89b-0b8bb34a8dd5/L10AT5C12-38NO_1_WI26_W_V1.jpg?im=Resize%3D(800)"
     ],
     "description":"Celine Flair in black grained calfskin with double-zip closure, Triomphe turn-lock, structured handle and removable strap.",
-    "specifications":{"brand":"Celine","model":"Flair","material":"Grained calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"L10AT5C12.38NO","style":"Top Handle / Shoulder / Crossbody"},
+    "specifications":{"brand":"Celine","model":"Flair","material":"Grained calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"L10AT5C12.38NO","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15358,9 +15227,8 @@ window.products = [
       "mpn": "L10AT5C12.38NO",
       "mpn_status": manufacturer_reference_present_verify,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
     "id":353,"name":"Celine Luggage in Grained Calfskin — Black","category":"accessories","retail price":4300,"sale price": 1499.99,
@@ -15373,7 +15241,7 @@ window.products = [
       "https://image.celine.com/asset/912f27db-a88d-4e6e-885e-145c0db4ce33/L108K3056-38NO_1_SPR26_W_V1.jpg?im=Resize%3D(800)"
     ],
     "description":"Celine Luggage in black grained calfskin with spacious interior, removable adjustable strap and twin handles.",
-    "specifications":{"brand":"Celine","model":"Luggage","material":"Grained calfskin","lining":"Suede calfskin","reference":"L108K3056.38NO","style":"Top Handle / Shoulder / Crossbody"},
+    "specifications":{"brand":"Celine","model":"Luggage","material":"Grained calfskin","lining":"Suede calfskin","reference":"L108K3056.38NO","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15384,9 +15252,8 @@ window.products = [
       "mpn": "L108K3056.38NO",
       "mpn_status": manufacturer_reference_present_verify,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
     "id":354,"name":"Celine Soft Triomphe Besace in Supple Shiny Lambskin — Black","category":"accessories","retail price":3450,"sale price": 1199.99,
@@ -15399,7 +15266,7 @@ window.products = [
       "https://image.celine.com/asset/567bbd96-64f0-40d6-8c1c-aa87c019a750/123632T88-38NO_1_SPR26_W_V1.jpg?im=Resize%3D(800)"
     ],
     "description":"Soft Triomphe Besace in black supple shiny lambskin with Triomphe magnetic closure, suede lining and adjustable strap.",
-    "specifications":{"brand":"Celine","model":"Soft Triomphe Besace","material":"Supple shiny lambskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"123632T88.38NO","style":"Shoulder / Crossbody"},
+    "specifications":{"brand":"Celine","model":"Soft Triomphe Besace","material":"Supple shiny lambskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"123632T88.38NO","style":"Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15410,9 +15277,8 @@ window.products = [
       "mpn": "123632T88.38NO",
       "mpn_status": manufacturer_reference_present_verify,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
     "id":355,"name":"Dior Médaillon Bucket Bag — Small Black Grained Calfskin","category":"accessories","retail price":3900,"sale price": 999.99,
@@ -15425,7 +15291,7 @@ window.products = [
       "https://assets.christiandior.com/is/image/diorprod/M1531QUQWM900_SBG_E01?%24r9x10_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1850"
     ],
     "description":"Small Dior Médaillon Bucket bag in black grained calfskin with adjustable strap, signature Médaillon detail and detachable Dior Oblique jacquard pouch.",
-    "specifications":{"brand":"Dior","model":"Dior Médaillon Bucket Small","reference":"M1531QUQW_M900","material":"Grained calfskin","lining":"Goatskin and calfskin","hardware":"Gold-tone","origin":"Italy","dimensions":"19 x 18 x 12.5 cm","style":"Bucket / Shoulder"},
+    "specifications":{"brand":"Dior","model":"Dior Médaillon Bucket Small","reference":"M1531QUQW_M900","material":"Grained calfskin","lining":"Goatskin and calfskin","hardware":"Gold-tone","origin":"Italy","dimensions":"19 x 18 x 12.5 cm","style":"Bucket / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15436,9 +15302,8 @@ window.products = [
       "mpn": "M1531QUQW_M900",
       "mpn_status": manufacturer_reference_present_verify,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior"
   },
   {
     "id":356,"name":"Dior Médaillon Bucket Bag — Medium Black Grained Calfskin","category":"accessories","retail price":4600,"sale price": 1199.99,
@@ -15451,7 +15316,7 @@ window.products = [
       "https://assets.christiandior.com/is/image/diorprod/M1532QUQWM900_SBG_E01?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600"
     ],
     "description":"Medium Dior Médaillon Bucket bag in black grained calfskin with adjustable strap, signature Médaillon detail and detachable Dior Oblique jacquard pouch.",
-    "specifications":{"brand":"Dior","model":"Dior Médaillon Bucket Medium","reference":"M1532QUQW_M900","material":"Grained calfskin","lining":"Goatskin and calfskin","hardware":"Gold-tone","origin":"Italy","dimensions":"26.5 x 26 x 15 cm","style":"Bucket / Shoulder"},
+    "specifications":{"brand":"Dior","model":"Dior Médaillon Bucket Medium","reference":"M1532QUQW_M900","material":"Grained calfskin","lining":"Goatskin and calfskin","hardware":"Gold-tone","origin":"Italy","dimensions":"26.5 x 26 x 15 cm","style":"Bucket / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15462,9 +15327,8 @@ window.products = [
       "mpn": "M1532QUQW_M900",
       "mpn_status": manufacturer_reference_present_verify,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior"
   },
   {
     "id":357,"name":"Dior Small Promenade Flap Bag — Black Flat Cannage Calfskin","category":"accessories","retail price":3800,"sale price": 999.99,
@@ -15477,7 +15341,7 @@ window.products = [
       "https://assets.christiandior.com/is/image/diorprod/LOOK_F_26_4_LOOK_054_E04-1?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600"
     ],
     "description":"Small Dior Promenade Flap bag in black flat Cannage calfskin with slender handles and refined Dior bow detailing.",
-    "specifications":{"brand":"Dior","model":"Small Dior Promenade Flap","material":"Flat Cannage calfskin","hardware":"Gold-tone","origin":"Italy","style":"Top Handle / Shoulder"},
+    "specifications":{"brand":"Dior","model":"Small Dior Promenade Flap","material":"Flat Cannage calfskin","hardware":"Gold-tone","origin":"Italy","style":"Top Handle / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15488,16 +15352,15 @@ window.products = [
       "mpn": null,
       "mpn_status": not_found_in_catalog,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior"
   },
   {
     "id":358,"name":"Loewe Mini Amazona 180 Bag — Black Soft Calfskin","category":"accessories","retail price":2990,"sale price": 999.99,
     "image":"https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw1c0e9421/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1F.jpg?q=100&sw=750",
     "images":["https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw1c0e9421/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1F.jpg?q=100&sw=750","https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw3ec25a4a/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1P.jpg?q=100&sw=750","https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw1d8eb63a/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1Q.jpg?q=100&sw=750","https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dwce2cba2e/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1R.jpg?q=100&sw=750"],
     "description":"Loewe Mini Amazona 180 in black soft calfskin with signature toron top handle, concealed closure and removable shoulder/crossbody straps.",
-    "specifications":{"brand":"Loewe","model":"Mini Amazona 180","material":"Soft calfskin","color":"Black","reference":"A039AS4X12-1100","style":"Top Handle / Shoulder / Crossbody"},
+    "specifications":{"brand":"Loewe","model":"Mini Amazona 180","material":"Soft calfskin","color":"Black","reference":"A039AS4X12-1100","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Loewe","brand_display_name":"Loewe"
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15508,9 +15371,8 @@ window.products = [
       "mpn": "A039AS4X12-1100",
       "mpn_status": manufacturer_reference_present_verify,
       "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Loewe","brand_display_name":"Loewe"
   },
 
 ]
