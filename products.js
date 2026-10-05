@@ -12938,8 +12938,8 @@ window.products = [
     "id": 318,
     "name": "Hermès Kelly 25 — Black Togo Leather Gold Hardware",
     "category": "accessories",
-    "retail price": 3758000,
-    "sale price": 3758000,
+    "retail price": 25000,
+    "sale price": 25000,
     "image": "https://assets.voila.id/voila/images/product/hermes/1-product-H038416CC-89-xms-2023-07-20-16.05.jpg",
     "images": [
       "https://assets.voila.id/voila/images/product/hermes/1-product-H038416CC-89-xms-2023-07-20-16.05.jpg",
