@@ -6438,8 +6438,10 @@ window.products = [
     "description": "The PS5 console unleashes new gaming possibilities that you never anticipated. Experience lightning fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D Audio, and an all-new generation of incredible PlayStation games. Lightning Speed Harness the power of a custom CPU, GPU, and SSD with Integrated I/O that rewrite the rules of what a PlayStation console can do. Stunning Games Marvel at incredible graphics and experience new PS5 features. Play a back catalog of supported PS4 games. Breathtaking Immersion Discover a deeper gaming experience with support for haptic feedback, adaptive triggers, and 3D Audio technology. Vertical stand sold separately. PS5 console (CFI-2100 model group â€“ slim). The CFI-2100 models are compatible with PS5 accessories for CFI-2000 products, including Console Covers (sold separately). 3D audio via built-in TV speakers or analog/USB stereo headphones. Set up and latest system software update required.  Internet connection required to pair Disc Drive and PS5 console upon setup.",
     "images": [
       "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80",
-      "https://target.scene7.com/is/image/Target/GUEST_d70f18e4-4f32-4eb5-85a5-03cbdbdebd54?wid=800&hei=800&qlt=80"
-    ],
+      "https://target.scene7.com/is/image/Target/GUEST_d70f18e4-4f32-4eb5-85a5-03cbdbdebd54?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80"],
     "specifications": {
       "brand": "Sony",
       "storage": "825GB Custom High-Speed SSD (slim models have 1TB SSD)",
@@ -6466,8 +6468,10 @@ window.products = [
     "description": "A classic knit cotton shirt from Gucci, tailored for everyday style and casual comfort.",
     "images": [
       "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60",
-      "https://editorialist.com/thumbnails/600/2026/6/043/991/730/43991730~black_1782648216031_1.webp"
-    ],
+      "https://editorialist.com/thumbnails/600/2026/6/043/991/730/43991730~black_1782648216031_1.webp",
+      "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60"],
     "specifications": {
       "brand": "Gucci",
       "material": "100% Cotton",
@@ -6496,8 +6500,9 @@ window.products = [
     "images": [
       "https://editorialist.com/thumbnail/600/2025/9/038/132/970/38132970~black_1782991430059_0.webp?width=600&quality=60",
       "https://editorialist.com/thumbnails/600/2025/9/038/132/970/38132970~black_1782991430059_1.webp",
-      "https://editorialist.com/thumbnails/600/2025/9/038/132/970/38132970~black_1782991430059_2.webp"
-    ],
+      "https://editorialist.com/thumbnails/600/2025/9/038/132/970/38132970~black_1782991430059_2.webp",
+      "https://editorialist.com/thumbnail/600/2025/9/038/132/970/38132970~black_1782991430059_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2025/9/038/132/970/38132970~black_1782991430059_0.webp?width=600&quality=60"],
     "specifications": {
       "brand": "Gucci",
       "material": "100% Nappa Leather",
@@ -6528,8 +6533,8 @@ window.products = [
       "https://img.the-fashion-square.com/32600bc847168fd4c3cdecfea82d3d87_1200.webp",
       "https://img.the-fashion-square.com/5cee4cf0c110f3d3574268b5176e5439_1200.webp",
       "https://img.the-fashion-square.com/64ff0427634130a99cbd779c3bf63831_1200.webp",
-      "https://img.the-fashion-square.com/277e5f4a6dd51add5782a5f594b8494d_1200.webp"
-    ],
+      "https://img.the-fashion-square.com/277e5f4a6dd51add5782a5f594b8494d_1200.webp",
+      "https://img.the-fashion-square.com/32600bc847168fd4c3cdecfea82d3d87_1200.webp"],
     "specifications": {
       "brand": "Gucci",
       "material": "100% Calfskin Saffiano Leather",
@@ -6558,8 +6563,10 @@ window.products = [
     "description": "A compact bi-fold leather wallet from Gucci, containing multiple card slots and cash sleeves.",
     "images": [
       "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTv0I9wKzNdEqVXN_K7kgbBMs3DNj8iSI5Kls5x0Cz-i-k9QdmXtcBhPl8iZFm2R6arSH2QL2kSs4xJ2y8v7rK2kAsRw8fJ_Q",
-      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ4rie3X_qj8_KSKZItuXq3eRMk8gmbnqXVRBlUY_r9B2GmmeIMsqmhoNwVQ04MfRBlqBpov5zJOHx1li66aECdbkzGbwlH"
-    ],
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ4rie3X_qj8_KSKZItuXq3eRMk8gmbnqXVRBlUY_r9B2GmmeIMsqmhoNwVQ04MfRBlqBpov5zJOHx1li66aECdbkzGbwlH",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTv0I9wKzNdEqVXN_K7kgbBMs3DNj8iSI5Kls5x0Cz-i-k9QdmXtcBhPl8iZFm2R6arSH2QL2kSs4xJ2y8v7rK2kAsRw8fJ_Q",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTv0I9wKzNdEqVXN_K7kgbBMs3DNj8iSI5Kls5x0Cz-i-k9QdmXtcBhPl8iZFm2R6arSH2QL2kSs4xJ2y8v7rK2kAsRw8fJ_Q",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTv0I9wKzNdEqVXN_K7kgbBMs3DNj8iSI5Kls5x0Cz-i-k9QdmXtcBhPl8iZFm2R6arSH2QL2kSs4xJ2y8v7rK2kAsRw8fJ_Q"],
     "specifications": {
       "brand": "Gucci",
       "material": "Grained Leather",
@@ -6589,8 +6596,9 @@ window.products = [
     "images": [
       "https://images.stockx.com/images/Gucci-Double-G-Gold-Buckle-15W-Leather-Belt-Black-Studio-1.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&trimcolor=ffffff&updated_at=1606318953",
       "https://images.stockx.com/images/Gucci-Double-G-Gold-Buckle-15W-Leather-Belt-Black-Studio-2.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&trimcolor=ffffff&updated_at=1606318953",
-      "https://images.stockx.com/images/Gucci-Double-G-Gold-Buckle-15W-Leather-Belt-Black-Studio-3.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&trimcolor=ffffff&updated_at=1606318954"
-    ],
+      "https://images.stockx.com/images/Gucci-Double-G-Gold-Buckle-15W-Leather-Belt-Black-Studio-3.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&trimcolor=ffffff&updated_at=1606318954",
+      "https://images.stockx.com/images/Gucci-Double-G-Gold-Buckle-15W-Leather-Belt-Black-Studio-1.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&trimcolor=ffffff&updated_at=1606318953",
+      "https://images.stockx.com/images/Gucci-Double-G-Gold-Buckle-15W-Leather-Belt-Black-Studio-1.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&trimcolor=ffffff&updated_at=1606318953"],
     "specifications": {
       "brand": "Gucci",
       "material": "100% Calfskin Leather",
@@ -6619,8 +6627,10 @@ window.products = [
     "description": "An exquisite luxury timepiece from Gucci, featuring Swiss precision movement and high-grade stainless steel casing.",
     "images": [
       "https://www.bezali.com/cdn/shop/products/YA126407_2048x.jpg?v=1604959027",
-      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSjYO5I6da3OKnvjF36LoIbYQB8aR_1Sd3PMKd_qHRVApOZL2Z4Z3BMZRup1_XEyOs3yEbsWkyKXb20LKO3um7E6_IRIeZPzQYQPmif7NFtxekYcKMZahnBVA"
-    ],
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSjYO5I6da3OKnvjF36LoIbYQB8aR_1Sd3PMKd_qHRVApOZL2Z4Z3BMZRup1_XEyOs3yEbsWkyKXb20LKO3um7E6_IRIeZPzQYQPmif7NFtxekYcKMZahnBVA",
+      "https://www.bezali.com/cdn/shop/products/YA126407_2048x.jpg?v=1604959027",
+      "https://www.bezali.com/cdn/shop/products/YA126407_2048x.jpg?v=1604959027",
+      "https://www.bezali.com/cdn/shop/products/YA126407_2048x.jpg?v=1604959027"],
     "specifications": {
       "brand": "Gucci",
       "material": "18K Gold Plated Stainless Steel",
@@ -6648,8 +6658,11 @@ window.products = [
     "image": "https://editorialist.com/thumbnail/600/2026/7/044/053/702/44053702~flamedgren_1782894655224_0.webp?width=600&quality=60",
     "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
     "images": [
-      "https://editorialist.com/thumbnail/600/2026/7/044/053/702/44053702~flamedgren_1782894655224_0.webp?width=600&quality=60"
-    ],
+      "https://editorialist.com/thumbnail/600/2026/7/044/053/702/44053702~flamedgren_1782894655224_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2026/7/044/053/702/44053702~flamedgren_1782894655224_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2026/7/044/053/702/44053702~flamedgren_1782894655224_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2026/7/044/053/702/44053702~flamedgren_1782894655224_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2026/7/044/053/702/44053702~flamedgren_1782894655224_0.webp?width=600&quality=60"],
     "specifications": {
       "brand": "Gucci",
       "material": "95% Cotton, 5% Spandex",
@@ -6674,8 +6687,11 @@ window.products = [
     "image": "https://editorialist.com/thumbnail/600/2026/7/044/217/913/44217913~black_1783044119714_0.webp?width=600&quality=60",
     "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
     "images": [
-      "https://editorialist.com/thumbnail/600/2026/7/044/217/913/44217913~black_1783044119714_0.webp?width=600&quality=60"
-    ],
+      "https://editorialist.com/thumbnail/600/2026/7/044/217/913/44217913~black_1783044119714_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2026/7/044/217/913/44217913~black_1783044119714_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2026/7/044/217/913/44217913~black_1783044119714_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2026/7/044/217/913/44217913~black_1783044119714_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2026/7/044/217/913/44217913~black_1783044119714_0.webp?width=600&quality=60"],
     "specifications": {
       "brand": "Gucci",
       "material": "95% Cotton, 5% Spandex",
@@ -6702,8 +6718,9 @@ window.products = [
     "images": [
       "https://www.mytheresa.com/image/1094/1238/100/47/P01124224.jpg",
       "https://www.mytheresa.com/image/1094/1238/100/47/P01124224_d2.jpg",
-      "https://www.mytheresa.com/image/1094/1238/100/47/P01124224_d1.jpg"
-    ],
+      "https://www.mytheresa.com/image/1094/1238/100/47/P01124224_d1.jpg",
+      "https://www.mytheresa.com/image/1094/1238/100/47/P01124224.jpg",
+      "https://www.mytheresa.com/image/1094/1238/100/47/P01124224.jpg"],
     "specifications": {
       "brand": "Gucci",
       "material": "80% Wool, 20% Cashmere",
@@ -6731,8 +6748,11 @@ window.products = [
     "image": "https://images.stockx.com/images/Gucci-Technical-Jersey-Shorts-Black.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1637771600",
     "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
     "images": [
-      "https://images.stockx.com/images/Gucci-Technical-Jersey-Shorts-Black.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1637771600"
-    ],
+      "https://images.stockx.com/images/Gucci-Technical-Jersey-Shorts-Black.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1637771600",
+      "https://images.stockx.com/images/Gucci-Technical-Jersey-Shorts-Black.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1637771600",
+      "https://images.stockx.com/images/Gucci-Technical-Jersey-Shorts-Black.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1637771600",
+      "https://images.stockx.com/images/Gucci-Technical-Jersey-Shorts-Black.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1637771600",
+      "https://images.stockx.com/images/Gucci-Technical-Jersey-Shorts-Black.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1637771600"],
     "specifications": {
       "brand": "Gucci",
       "material": "100% Cotton",
@@ -6759,8 +6779,11 @@ window.products = [
     "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800",
     "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
     "images": [
-      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800"
-    ],
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800",
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800",
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800",
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800",
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800"],
     "specifications": {
       "brand": "Gucci",
       "material": "100% Linen",
@@ -6790,8 +6813,8 @@ window.products = [
       "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcROOVj3H0Mgwd5gCJsPJS0v26nNtAMmoDhnsKPC_vNMFd7MMUU",
       "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSAuD16M7aEZzmnA8BEu_4VwVJ3XOqQVW05XLrygBtXwgCt7okq-iGHAxyp-RzlG3WOVhV8jYc",
       "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR0z-k46IYEjIgcSF4Mdqzhd-gUhwHpCv7z8uHVuHVZ6WZgD2xQOMj4T-4MPW2qy55uunV3ltg",
-      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQzELDviNEuxXXNbzw6pfPDxTN8Kdw0JxZzLOCagS_46weW4ZCO"
-    ],
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQzELDviNEuxXXNbzw6pfPDxTN8Kdw0JxZzLOCagS_46weW4ZCO",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcROOVj3H0Mgwd5gCJsPJS0v26nNtAMmoDhnsKPC_vNMFd7MMUU"],
     "specifications": {
       "brand": "Gucci",
       "material": "100% Cotton",
@@ -6821,8 +6844,8 @@ window.products = [
       "https://editorialist.com/thumbnails/600/2026/2/040/629/114/40629114~blue_1770370506523_0.webp",
       "https://editorialist.com/thumbnails/600/2026/2/040/629/114/40629114~blue_1770370506523_1.webp",
       "https://editorialist.com/thumbnails/600/2026/2/040/629/114/40629114~blue_1770370506523_2.webp",
-      "https://editorialist.com/thumbnails/600/2026/2/040/629/114/40629114~blue_1770370506523_3.webp"
-    ],
+      "https://editorialist.com/thumbnails/600/2026/2/040/629/114/40629114~blue_1770370506523_3.webp",
+      "https://editorialist.com/thumbnails/600/2026/2/040/629/114/40629114~blue_1770370506523_0.webp"],
     "specifications": {
       "brand": "Gucci",
       "material": "100% Nappa Leather",
@@ -6849,8 +6872,11 @@ window.products = [
     "image": "https://editorialist.com/thumbnail/600/2026/5/042/711/333/42711333~navy_1783566016064_0.webp?width=600&quality=60",
     "description": "A classic knit cotton shirt from Gucci, tailored for everyday style and casual comfort.",
     "images": [
-      "https://editorialist.com/thumbnail/600/2026/5/042/711/333/42711333~navy_1783566016064_0.webp?width=600&quality=60"
-    ],
+      "https://editorialist.com/thumbnail/600/2026/5/042/711/333/42711333~navy_1783566016064_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2026/5/042/711/333/42711333~navy_1783566016064_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2026/5/042/711/333/42711333~navy_1783566016064_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2026/5/042/711/333/42711333~navy_1783566016064_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2026/5/042/711/333/42711333~navy_1783566016064_0.webp?width=600&quality=60"],
     "specifications": {
       "brand": "Gucci",
       "material": "100% Cotton",
@@ -6880,8 +6906,8 @@ window.products = [
       "https://is4.fwrdassets.com/images/p/fw/zs/BURF-WS205_V1.jpg",
       "https://is4.fwrdassets.com/images/p/fw/zs/BURF-WS205_V4.jpg",
       "https://is4.fwrdassets.com/images/p/fw/zs/BURF-WS205_V2.jpg",
-      "https://is4.fwrdassets.com/images/p/fw/zs/BURF-WS205_V3.jpg"
-    ],
+      "https://is4.fwrdassets.com/images/p/fw/zs/BURF-WS205_V3.jpg",
+      "https://is4.fwrdassets.com/images/p/fw/zs/BURF-WS205_V1.jpg"],
     "specifications": {
       "brand": "Burberry",
       "material": "100% Cotton",
@@ -6908,8 +6934,11 @@ window.products = [
     "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6323/6323759_sd.jpg;maxHeight=1920;maxWidth=900?format=webp",
     "description": "EF-S 18-55mm f/3.5-5.6 standard zoom provides versatility\nDesigned with Canon's optical image stabilizer technology. Expands picture-taking possibilities any time slow shutter speeds are needed.\n\nEF 75-300mm f/4-5.6 4x telephoto zoom lens to entry into telephoto photography\nWell-suited for sports and other applications requiring fast AF. A DC motor is used to power the AF.",
     "images": [
-      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6323/6323759_sd.jpg;maxHeight=1920;maxWidth=900?format=webp"
-    ],
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6323/6323759_sd.jpg;maxHeight=1920;maxWidth=900?format=webp",
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6323/6323759_sd.jpg;maxHeight=1920;maxWidth=900?format=webp",
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6323/6323759_sd.jpg;maxHeight=1920;maxWidth=900?format=webp",
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6323/6323759_sd.jpg;maxHeight=1920;maxWidth=900?format=webp",
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6323/6323759_sd.jpg;maxHeight=1920;maxWidth=900?format=webp"],
     "specifications": {
       "brand": "Canon",
       "material": "Metal"
@@ -6929,8 +6958,11 @@ window.products = [
     "image": "https://editorialist.com/thumbnails/600/2026/5/042/290/122/42290122~brown_1778149407665_3.webp",
     "description": "Dolce & Gabbana presents these shearling slippers featuring a round toe, open-back design, and a branded insole. The slippers are embellished with luxurious shearling for added warmth and style. The branded insole ensures comfort and showcases the designer's signature touch. This slip-on style offers ease of wear, making them a perfect choice for relaxed yet sophisticated lounging.",
     "images": [
-      "https://editorialist.com/thumbnails/600/2026/5/042/290/122/42290122~brown_1778149407665_3.webp"
-    ],
+      "https://editorialist.com/thumbnails/600/2026/5/042/290/122/42290122~brown_1778149407665_3.webp",
+      "https://editorialist.com/thumbnails/600/2026/5/042/290/122/42290122~brown_1778149407665_3.webp",
+      "https://editorialist.com/thumbnails/600/2026/5/042/290/122/42290122~brown_1778149407665_3.webp",
+      "https://editorialist.com/thumbnails/600/2026/5/042/290/122/42290122~brown_1778149407665_3.webp",
+      "https://editorialist.com/thumbnails/600/2026/5/042/290/122/42290122~brown_1778149407665_3.webp"],
     "specifications": {
       "brand": "Dolce & Gabbana",
       "material": "Cotton"
@@ -6952,8 +6984,9 @@ window.products = [
     "images": [
       "https://images.footballfanatics.com/adidas-originals/mens-white-adidas-originals-emblem-20-snapback-hat_ss5_p-203433842+pv-1+u-i1gaoysxxtnyakdrsmtr+v-6bbfwluskdiwva5s8mes.jpg?_hv=2&w=1018",
       "https://images.footballfanatics.com/adidas-originals/mens-white-adidas-originals-emblem-20-snapback-hat_ss5_p-203433842+pv-3+u-i1gaoysxxtnyakdrsmtr+v-i1rlqonorpd4sdp5dthk.jpg?_hv=2&w=1018",
-      "https://images.footballfanatics.com/adidas-originals/mens-white-adidas-originals-emblem-20-snapback-hat_ss5_p-203433842+pv-2+u-i1gaoysxxtnyakdrsmtr+v-77rcjzhbs7v2pvy1dhlu.jpg?_hv=2&w=1018"
-    ],
+      "https://images.footballfanatics.com/adidas-originals/mens-white-adidas-originals-emblem-20-snapback-hat_ss5_p-203433842+pv-2+u-i1gaoysxxtnyakdrsmtr+v-77rcjzhbs7v2pvy1dhlu.jpg?_hv=2&w=1018",
+      "https://images.footballfanatics.com/adidas-originals/mens-white-adidas-originals-emblem-20-snapback-hat_ss5_p-203433842+pv-1+u-i1gaoysxxtnyakdrsmtr+v-6bbfwluskdiwva5s8mes.jpg?_hv=2&w=1018",
+      "https://images.footballfanatics.com/adidas-originals/mens-white-adidas-originals-emblem-20-snapback-hat_ss5_p-203433842+pv-1+u-i1gaoysxxtnyakdrsmtr+v-6bbfwluskdiwva5s8mes.jpg?_hv=2&w=1018"],
     "specifications": {
       "brand": "Adidas",
       "material": "Premium construction material"
@@ -7039,8 +7072,9 @@ window.products = [
     "images": [
       "https://i5.walmartimages.com/seo/Wireless-Headphones-for-Samsung-Galaxy-S23-S22-S21-S20-Ultra-Plus-Foldable-Headset-w-Mic-Hands-free-Earphones-Earbuds-Over-Ear_52440e5a-7f91-4838-bb30-ad7731263d77.76beccc25ae7160ad92777a4e70dc8cc.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
       "https://i5.walmartimages.com/asr/49f2be71-6924-4e8d-b3b3-b422c653e747.fbaad283b8bbdc1e49fa6cfff1fdc79c.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
-      "https://i5.walmartimages.com/asr/74c58236-c9e8-4e34-b584-5f99da85c1d5.65331ca9cad4adefaa96443925065385.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
-    ],
+      "https://i5.walmartimages.com/asr/74c58236-c9e8-4e34-b584-5f99da85c1d5.65331ca9cad4adefaa96443925065385.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/seo/Wireless-Headphones-for-Samsung-Galaxy-S23-S22-S21-S20-Ultra-Plus-Foldable-Headset-w-Mic-Hands-free-Earphones-Earbuds-Over-Ear_52440e5a-7f91-4838-bb30-ad7731263d77.76beccc25ae7160ad92777a4e70dc8cc.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+      "https://i5.walmartimages.com/seo/Wireless-Headphones-for-Samsung-Galaxy-S23-S22-S21-S20-Ultra-Plus-Foldable-Headset-w-Mic-Hands-free-Earphones-Earbuds-Over-Ear_52440e5a-7f91-4838-bb30-ad7731263d77.76beccc25ae7160ad92777a4e70dc8cc.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"],
     "specifications": {
       "brand": "Samsung",
       "material": "Premium construction material"
@@ -7061,8 +7095,10 @@ window.products = [
     "description": "A sturdy wooden clipboard with a strong steel tension clip, ideal for work, classroom, or office note-taking.",
     "images": [
       "https://pipevet.com/media/catalog/product/p/a/parclipboard.jpg",
-      "https://images.unsplash.com/photo-1762341104168-63ddb56e9805?w=800"
-    ],
+      "https://images.unsplash.com/photo-1762341104168-63ddb56e9805?w=800",
+      "https://pipevet.com/media/catalog/product/p/a/parclipboard.jpg",
+      "https://pipevet.com/media/catalog/product/p/a/parclipboard.jpg",
+      "https://pipevet.com/media/catalog/product/p/a/parclipboard.jpg"],
     "specifications": {
       "brand": "Papermate",
       "material": "Tempered Wood & Steel Clip",
@@ -7116,8 +7152,9 @@ window.products = [
     "images": [
       "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf80561c5/1000x1000/478/249/100/478249100a.jpg?sw=800&sh=1028&q=100",
       "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw777235bd/1000x1000/478/249/100/478249100.jpg?sw=800&sh=1028&q=100",
-      "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw90d74e3d/1000x1000/478/249/100/478249100b.jpg?sw=800&sh=1028&q=100"
-    ],
+      "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw90d74e3d/1000x1000/478/249/100/478249100b.jpg?sw=800&sh=1028&q=100",
+      "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf80561c5/1000x1000/478/249/100/478249100a.jpg?sw=800&sh=1028&q=100",
+      "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf80561c5/1000x1000/478/249/100/478249100a.jpg?sw=800&sh=1028&q=100"],
     "specifications": {
       "brand": "Nike",
       "material": "Premium construction material"
@@ -7138,8 +7175,10 @@ window.products = [
     "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
     "images": [
       "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcReGDk-fOu0tz8U8vQNjD_oTW_eHTM2xnZ6qj9zr4Xf9e1W8UvnyYORtesYe0B892p_HO0PzfKCNnkoFIGrIKzsh_XvNPmFy3mm27YVAsEBczcyyTjpUpsE",
-      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRhhxJU-rNTvUYlDty1UmfXx09Wsqh5PuIgxikhGYpmvtiO6iZUnyQizmKRYdZgChokLJ_6s1SC6FOxmhshqHL_flfbD0xeN2P1FJUFA2cs3KIWaMVW1Kx9Lg"
-    ],
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRhhxJU-rNTvUYlDty1UmfXx09Wsqh5PuIgxikhGYpmvtiO6iZUnyQizmKRYdZgChokLJ_6s1SC6FOxmhshqHL_flfbD0xeN2P1FJUFA2cs3KIWaMVW1Kx9Lg",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcReGDk-fOu0tz8U8vQNjD_oTW_eHTM2xnZ6qj9zr4Xf9e1W8UvnyYORtesYe0B892p_HO0PzfKCNnkoFIGrIKzsh_XvNPmFy3mm27YVAsEBczcyyTjpUpsE",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcReGDk-fOu0tz8U8vQNjD_oTW_eHTM2xnZ6qj9zr4Xf9e1W8UvnyYORtesYe0B892p_HO0PzfKCNnkoFIGrIKzsh_XvNPmFy3mm27YVAsEBczcyyTjpUpsE",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcReGDk-fOu0tz8U8vQNjD_oTW_eHTM2xnZ6qj9zr4Xf9e1W8UvnyYORtesYe0B892p_HO0PzfKCNnkoFIGrIKzsh_XvNPmFy3mm27YVAsEBczcyyTjpUpsE"],
     "specifications": {
       "brand": "True Religion",
       "material": "Premium construction material"
@@ -7161,8 +7200,9 @@ window.products = [
     "images": [
       "https://coach.scene7.com/is/image/Coach/cdk37_b5h_a0?$mobileProductV6$",
       "https://coach.scene7.com/is/image/Coach/cdk37_b5h_a45?$mobileProductV6$",
-      "https://coach.scene7.com/is/image/Coach/cdk37_b5h_a46?$mobileProductV6$"
-    ],
+      "https://coach.scene7.com/is/image/Coach/cdk37_b5h_a46?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cdk37_b5h_a0?$mobileProductV6$",
+      "https://coach.scene7.com/is/image/Coach/cdk37_b5h_a0?$mobileProductV6$"],
     "specifications": {
       "brand": "Coach",
       "material": "Polyester & Nylon Shell",
@@ -7192,8 +7232,8 @@ window.products = [
       "https://slimages.macysassets.com/is/image/MCY/products/4/optimized/33221164_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp",
       "https://slimages.macysassets.com/is/image/MCY/products/5/optimized/33221135_fpx.tif?op_sharpen=1&wid=500&fit=fit",
       "1&fmt=webp",
-      "https://slimages.macysassets.com/is/image/MCY/products/6/optimized/33221136_fpx.tif?op_sharpen=1&wid=500&fit=fit"
-    ],
+      "https://slimages.macysassets.com/is/image/MCY/products/6/optimized/33221136_fpx.tif?op_sharpen=1&wid=500&fit=fit",
+      "https://slimages.macysassets.com/is/image/MCY/products/4/optimized/33221164_fpx.tif?op_sharpen=1&wid=500&fit=fit,1&fmt=webp"],
     "specifications": {
       "brand": "Guess",
       "material": "Shearling & Suede Leather",
@@ -7220,8 +7260,9 @@ window.products = [
     "images": [
       "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRdppciVKyXtBI3GnH0jDO-CHizT75F7mJFKYgsuUk2tz--A5lKGmKybl6l6ps",
       "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTIGqw4H55iDHPyZ-lNVUxQW9WTrfuCSHV8NodYc1SP1R-QHTX7FWvRdx-bMA",
-      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQtIojTOzfz4NXb1MQgDgwQFMsB3DcTohD_7i7RtXZ7tBJ0CME0nB6qvPfb70sXw7oKPRR0rQBk"
-    ],
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQtIojTOzfz4NXb1MQgDgwQFMsB3DcTohD_7i7RtXZ7tBJ0CME0nB6qvPfb70sXw7oKPRR0rQBk",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRdppciVKyXtBI3GnH0jDO-CHizT75F7mJFKYgsuUk2tz--A5lKGmKybl6l6ps",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRdppciVKyXtBI3GnH0jDO-CHizT75F7mJFKYgsuUk2tz--A5lKGmKybl6l6ps"],
     "specifications": {
       "brand": "Hermés",
       "type": "Eau de Cologne",
@@ -7246,8 +7287,11 @@ window.products = [
     "image": "https://images.vestiairecollective.com/images/resized/w=2920,q=75,f=auto,/produit/navy-cotton-lacoste-jacket-40436010-1_6.jpg",
     "description": "A classic knit cotton shirt from Lacoste, tailored for everyday style and casual comfort.",
     "images": [
-      "https://images.vestiairecollective.com/images/resized/w=2920,q=75,f=auto,/produit/navy-cotton-lacoste-jacket-40436010-1_6.jpg"
-    ],
+      "https://images.vestiairecollective.com/images/resized/w=2920,q=75,f=auto,/produit/navy-cotton-lacoste-jacket-40436010-1_6.jpg",
+      "https://images.vestiairecollective.com/images/resized/w=2920,q=75,f=auto,/produit/navy-cotton-lacoste-jacket-40436010-1_6.jpg",
+      "https://images.vestiairecollective.com/images/resized/w=2920,q=75,f=auto,/produit/navy-cotton-lacoste-jacket-40436010-1_6.jpg",
+      "https://images.vestiairecollective.com/images/resized/w=2920,q=75,f=auto,/produit/navy-cotton-lacoste-jacket-40436010-1_6.jpg",
+      "https://images.vestiairecollective.com/images/resized/w=2920,q=75,f=auto,/produit/navy-cotton-lacoste-jacket-40436010-1_6.jpg"],
     "specifications": {
       "brand": "Lacoste",
       "material": "100% Cotton",
@@ -7277,8 +7321,8 @@ window.products = [
       "https://watchxnyc.com/cdn/shop/files/watchxnyc-watch-default-title-patek-philippe-grand-complications-grandmaster-chime-black-time-calendar-diamond-dial-white-gold-reversible-case-leather-strap-49-4mm-6300-400g-001-31315235700917.jpg?v=1753988293&width=768",
       "https://www.hourstriker.com/core/images/dbitems/medium/patek-philippe-grand-complications-grandmaster-chime-haute-joaillerie-6300400g-3-22-2024.webp",
       "https://cdn.thewatchpages.com/app/uploads/2023/10/03170001/patek-philippe-grand-complications-grandmaster-chime-haute-joaillerie-6300400g-001-3.jpeg",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Wg_fkW7imr7zYQZg4iacXphaRsZPE0h55Al_JTxHRVK95kHwgtjEOa4&s=10"
-    ],
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Wg_fkW7imr7zYQZg4iacXphaRsZPE0h55Al_JTxHRVK95kHwgtjEOa4&s=10",
+      "https://watchxnyc.com/cdn/shop/files/watchxnyc-watch-default-title-patek-philippe-grand-complications-grandmaster-chime-black-time-calendar-diamond-dial-white-gold-reversible-case-leather-strap-49-4mm-6300-400g-001-31315235700917.jpg?v=1753988293&width=768"],
     "specifications": {
       "brand": "Patek Philippe",
       "material": "18K Gold Plated Stainless Steel",
@@ -7303,8 +7347,11 @@ window.products = [
     "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800",
     "description": "A premium furniture centerpiece designed with solid wood frames and high-density foam cushioning for home comfort.",
     "images": [
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800"
-    ],
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800"],
     "specifications": {
       "brand": "Bonds",
       "material": "Solid Wood Frame & Premium Upholstery",
@@ -7422,8 +7469,11 @@ window.products = [
     "image": "https://editorialist.com/thumbnail/600/2025/6/037/117/150/37117150~black_1750933752573_0.webp?width=600&quality=60",
     "description": "A classic knit cotton shirt from Gucci, tailored for everyday style and casual comfort.",
     "images": [
-      "https://editorialist.com/thumbnail/600/2025/6/037/117/150/37117150~black_1750933752573_0.webp?width=600&quality=60"
-    ],
+      "https://editorialist.com/thumbnail/600/2025/6/037/117/150/37117150~black_1750933752573_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2025/6/037/117/150/37117150~black_1750933752573_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2025/6/037/117/150/37117150~black_1750933752573_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2025/6/037/117/150/37117150~black_1750933752573_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2025/6/037/117/150/37117150~black_1750933752573_0.webp?width=600&quality=60"],
     "specifications": {
       "brand": "Gucci",
       "material": "100% Cotton",
@@ -7449,8 +7499,10 @@ window.products = [
     "description": "A polished signature bracelet from Hermés, designed to add a sophisticated touch to any outfit.",
     "images": [
       "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR_b3k4qxmqjlilEFOqj8l2bWz0Vg-td3nFhT-2wzegVHucN99_O9cpE_e6U6BSxZVgeQimfRZ45dpg7YcEraDrEVv6tx2rkA",
-      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT_iWFY8KPzO4z5X9fEMbb8eBEiWWmdYIVdP_PL8QiNMb3KyOqfNayEkkdQ18SKf1NuDx4RAwZTK1G842a8d-9l0Z2XH28zHA"
-    ],
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT_iWFY8KPzO4z5X9fEMbb8eBEiWWmdYIVdP_PL8QiNMb3KyOqfNayEkkdQ18SKf1NuDx4RAwZTK1G842a8d-9l0Z2XH28zHA",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR_b3k4qxmqjlilEFOqj8l2bWz0Vg-td3nFhT-2wzegVHucN99_O9cpE_e6U6BSxZVgeQimfRZ45dpg7YcEraDrEVv6tx2rkA",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR_b3k4qxmqjlilEFOqj8l2bWz0Vg-td3nFhT-2wzegVHucN99_O9cpE_e6U6BSxZVgeQimfRZ45dpg7YcEraDrEVv6tx2rkA",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR_b3k4qxmqjlilEFOqj8l2bWz0Vg-td3nFhT-2wzegVHucN99_O9cpE_e6U6BSxZVgeQimfRZ45dpg7YcEraDrEVv6tx2rkA"],
     "specifications": {
       "brand": "Hermés",
       "material": "18K Gold Plated Brass",
@@ -7475,8 +7527,9 @@ window.products = [
     "images": [
       "https://images.crutchfieldonline.com/ImageHandler/trim/704/528/products/2022/14/158/g158W5000ES-o_other3.jpg",
       "https://images.crutchfieldonline.com/ImageHandler/trim/704/528/products/2022/14/158/g158W5000ES-F.jpg",
-      "https://images.unsplash.com/photo-1535016120720-40c646be5580?w=800"
-    ],
+      "https://images.unsplash.com/photo-1535016120720-40c646be5580?w=800",
+      "https://images.crutchfieldonline.com/ImageHandler/trim/704/528/products/2022/14/158/g158W5000ES-o_other3.jpg",
+      "https://images.crutchfieldonline.com/ImageHandler/trim/704/528/products/2022/14/158/g158W5000ES-o_other3.jpg"],
     "specifications": {
       "brand": "Sony",
       "brightness": "2,000 Lumens",
@@ -7503,8 +7556,9 @@ window.products = [
     "images": [
       "https://cdn-images.farfetch-contents.com/32/66/01/95/32660195_63083148_600.jpg",
       "https://cdn-images.farfetch-contents.com/32/66/01/95/32660195_63075310_600.jpg",
-      "https://cdn-images.farfetch-contents.com/32/66/01/95/32660195_63076375_600.jpg"
-    ],
+      "https://cdn-images.farfetch-contents.com/32/66/01/95/32660195_63076375_600.jpg",
+      "https://cdn-images.farfetch-contents.com/32/66/01/95/32660195_63083148_600.jpg",
+      "https://cdn-images.farfetch-contents.com/32/66/01/95/32660195_63083148_600.jpg"],
     "specifications": {
       "brand": "Versace",
       "material": "100% Calfskin Saffiano Leather",
@@ -7593,8 +7647,8 @@ window.products = [
       "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7825_V1.jpg",
       "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7825_V2.jpg",
       "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7825_V4.jpg",
-      "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7825_V3.jpg"
-    ],
+      "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7825_V3.jpg",
+      "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7825_V1.jpg"],
     "specifications": {
       "brand": "Hermés",
       "material": "100% Calfskin Saffiano Leather",
@@ -9076,8 +9130,11 @@ window.products = [
     "default_condition": "New",
     "image": "https://www.chanel.com/images/as/q_auto%3Agood%2Cf_auto%2Cfl_lossy%2Cdpr_1.1/w_512/-83808029.jpg",
     "images": [
-      "https://www.chanel.com/images/as/q_auto%3Agood%2Cf_auto%2Cfl_lossy%2Cdpr_1.1/w_512/-83808029.jpg"
-    ],
+      "https://www.chanel.com/images/as/q_auto%3Agood%2Cf_auto%2Cfl_lossy%2Cdpr_1.1/w_512/-83808029.jpg",
+      "https://www.chanel.com/images/as/q_auto%3Agood%2Cf_auto%2Cfl_lossy%2Cdpr_1.1/w_512/-83808029.jpg",
+      "https://www.chanel.com/images/as/q_auto%3Agood%2Cf_auto%2Cfl_lossy%2Cdpr_1.1/w_512/-83808029.jpg",
+      "https://www.chanel.com/images/as/q_auto%3Agood%2Cf_auto%2Cfl_lossy%2Cdpr_1.1/w_512/-83808029.jpg",
+      "https://www.chanel.com/images/as/q_auto%3Agood%2Cf_auto%2Cfl_lossy%2Cdpr_1.1/w_512/-83808029.jpg"],
     "description": "A refined CHANEL 2.55 flap handbag presented in black lambskin with gold-tone metal. This current CHANEL design pairs a softly quilted silhouette with signature chain detailing and compact proportions for polished daytime or evening styling.",
     "specifications": {
       "brand": "CHANEL",
@@ -9117,8 +9174,11 @@ window.products = [
     "default_condition": "New",
     "image": "https://www.chanel.com/images/q_auto%3Agood%2Cf_auto%2Cfl_lossy%2Cdpr_1.1/w_512/-9543208763422.jpg",
     "images": [
-      "https://www.chanel.com/images/q_auto%3Agood%2Cf_auto%2Cfl_lossy%2Cdpr_1.1/w_512/-9543208763422.jpg"
-    ],
+      "https://www.chanel.com/images/q_auto%3Agood%2Cf_auto%2Cfl_lossy%2Cdpr_1.1/w_512/-9543208763422.jpg",
+      "https://www.chanel.com/images/q_auto%3Agood%2Cf_auto%2Cfl_lossy%2Cdpr_1.1/w_512/-9543208763422.jpg",
+      "https://www.chanel.com/images/q_auto%3Agood%2Cf_auto%2Cfl_lossy%2Cdpr_1.1/w_512/-9543208763422.jpg",
+      "https://www.chanel.com/images/q_auto%3Agood%2Cf_auto%2Cfl_lossy%2Cdpr_1.1/w_512/-9543208763422.jpg",
+      "https://www.chanel.com/images/q_auto%3Agood%2Cf_auto%2Cfl_lossy%2Cdpr_1.1/w_512/-9543208763422.jpg"],
     "description": "The CHANEL 19 handbag combines a soft quilted silhouette with a distinctive mixed-metal chain and Double C turnlock. Finished in black shiny lambskin, it is designed for versatile shoulder wear from elevated everyday dressing through evening occasions.",
     "specifications": {
       "brand": "CHANEL",
@@ -9159,8 +9219,11 @@ window.products = [
     "default_condition": "New",
     "image": "https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9555539558430.jpg",
     "images": [
-      "https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9555539558430.jpg"
-    ],
+      "https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9555539558430.jpg",
+      "https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9555539558430.jpg",
+      "https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9555539558430.jpg",
+      "https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9555539558430.jpg",
+      "https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9555539558430.jpg"],
     "description": "The BOY CHANEL handbag gives the house's quilted flap-bag codes a structured, contemporary profile. Crafted in black calfskin with ruthenium-finish metal, its architectural silhouette and chain strap create a polished luxury presentation.",
     "specifications": {
       "brand": "CHANEL",
@@ -9200,8 +9263,11 @@ window.products = [
     "default_condition": "New",
     "image": "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83439605.jpg",
     "images": [
-      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83439605.jpg"
-    ],
+      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83439605.jpg",
+      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83439605.jpg",
+      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83439605.jpg",
+      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83439605.jpg",
+      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83439605.jpg"],
     "description": "The CHANEL Classic 11.12 handbag is an enduring flap-bag silhouette in black lambskin and gold-tone metal. Its rectangular profile, quilted finish and iconic CHANEL hardware provide a refined presentation suitable for hand or shoulder carry.",
     "specifications": {
       "brand": "CHANEL",
@@ -9242,8 +9308,11 @@ window.products = [
     "default_condition": "New",
     "image": "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83732656.jpg",
     "images": [
-      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83732656.jpg"
-    ],
+      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83732656.jpg",
+      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83732656.jpg",
+      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83732656.jpg",
+      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83732656.jpg",
+      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83732656.jpg"],
     "description": "A contemporary CHANEL shoulder bag defined by a supple silhouette, signature quilted construction and an interwoven chain strap. This black version is crafted in shiny calfskin and finished with gold-tone metal, creating a polished everyday luxury bag with ample proportions for day-to-evening use.",
     "specifications": {
       "brand": "CHANEL",
@@ -9286,8 +9355,11 @@ window.products = [
     "default_condition": "New",
     "image": "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83732649.jpg",
     "images": [
-      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83732649.jpg"
-    ],
+      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83732649.jpg",
+      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83732649.jpg",
+      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83732649.jpg",
+      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83732649.jpg",
+      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83732649.jpg"],
     "description": "The CHANEL 22 Small Handbag brings the house’s relaxed hobo profile into a more compact format. Crafted from black shiny calfskin with gold-tone metal, it combines a softly structured quilted body, signature chain detailing and a refined Double C identity for versatile shoulder wear.",
     "specifications": {
       "brand": "CHANEL",
@@ -9330,8 +9402,11 @@ window.products = [
     "default_condition": "New",
     "image": "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83612724.jpg",
     "images": [
-      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83612724.jpg"
-    ],
+      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83612724.jpg",
+      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83612724.jpg",
+      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83612724.jpg",
+      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83612724.jpg",
+      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83612724.jpg"],
     "description": "Introduced as a modern interpretation of CHANEL’s signature handbag codes, the CHANEL 25 Small Handbag pairs a supple, practical silhouette with two signature exterior pockets and a drawstring opening. This black grained calfskin version is finished with gold-tone metal and an adjustable strap for an understated luxury profile.",
     "specifications": {
       "brand": "CHANEL",
@@ -9376,8 +9451,11 @@ window.products = [
     "default_condition": "New",
     "image": "https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9566886756382.jpg",
     "images": [
-      "https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9566886756382.jpg"
-    ],
+      "https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9566886756382.jpg",
+      "https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9566886756382.jpg",
+      "https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9566886756382.jpg",
+      "https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9566886756382.jpg",
+      "https://www.chanel.com/images///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-9566886756382.jpg"],
     "description": "The CHANEL Classic Wallet on Chain combines the house’s quilted flap-bag aesthetic with the organization of a compact wallet. Presented in black and burgundy lambskin with silver-tone metal, this versatile chain wallet is designed to transition between crossbody, shoulder and clutch-style use while keeping everyday essentials organized.",
     "specifications": {
       "brand": "CHANEL",
@@ -11210,8 +11288,8 @@ window.products = [
       "https://www.thedoublef.com/cdn/shop/files/1BA896EOO2AO6_S_PRADA-F0002.d.jpg?v=1772498231&width=1980",
       "https://before-images-item.croketglobal.net/storeItem/63fdd4ec6e7f6d002ed828bf/itemImg/1677579500624/0/item_C4FnJ.jpeg",
       "https://sc3.locondo.jp/contents/commodity_image/PR/PR5638AW003568_8_l.jpg",
-      "https://www.thedoublef.com/cdn/shop/files/1BA896EOO2AO6_S_PRADA-F0002.d.jpg?v=1772498231&width=1980"
-    ],
+      "https://www.thedoublef.com/cdn/shop/files/1BA896EOO2AO6_S_PRADA-F0002.d.jpg?v=1772498231&width=1980",
+      "https://www.thedoublef.com/cdn/shop/files/1BA896EOO2AO6_S_PRADA-F0002.d.jpg?v=1772498231&width=1980"],
     "description": "The Prada Galleria Small is a structured top-handle handbag crafted in signature Saffiano calf leather. Its architectural silhouette combines dual leather handles with a detachable adjustable shoulder strap, gold-tone hardware, external zip pockets, protective feet and the enamelled Prada triangle. The organized interior is lined in logo-print nylon and includes two pockets, one with a zip closure, making the bag suited to polished everyday and professional use.",
     "specifications": {
       "model": "Galleria Small",
@@ -11264,8 +11342,8 @@ window.products = [
       "https://bagista.co.uk/cdn/shop/products/Prada-Galleria-Saffiano-Black-GHW28-2.jpg?v=1597255768&width=1445",
       "https://cdn.snkrdunk.com/upload_bg_removed/57_1BA863_NZV_1.webp",
       "https://efforie.com/cdn/shop/files/Prada_Galleria_Medium_2.jpg?v=1756677703",
-      "https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA457/NZVF0002/1BA457_NZV_F0002_V_EOM_MDLB.jpg"
-    ],
+      "https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA457/NZVF0002/1BA457_NZV_F0002_V_EOM_MDLB.jpg",
+      "https://bagista.co.uk/cdn/shop/products/Prada-Galleria-Saffiano-Black-GHW28-2.jpg?v=1597255768&width=1445"],
     "description": "The Prada Galleria Medium is an enduring structured handbag made from Saffiano calf leather, Prada's distinctive crosshatch leather. The medium silhouette is built around two leather handles, a detachable adjustable shoulder strap and polished metal hardware, with external zipper pockets, protective feet and a logo-print nylon interior organized with two pockets. Its balanced proportions provide a refined option for work, travel and daily carry.",
     "specifications": {
       "model": "Galleria Medium",
@@ -11318,8 +11396,8 @@ window.products = [
       "https://cdn-images.farfetch-contents.com/14/04/07/08/14040708_18545690_322.jpg",
       "https://i.ebayimg.com/images/g/IvUAAOSwAwlix9GG/s-l1600.webp",
       "https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA274/NZVF0018/1BA274_NZV_F0018_V_EOO.jpg",
-      "https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA274/NZVF0018/1BA274_NZV_F0018_V_EOO_SLDA.jpg"
-    ],
+      "https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA274/NZVF0018/1BA274_NZV_F0018_V_EOO_SLDA.jpg",
+      "https://cdn-images.farfetch-contents.com/14/04/07/08/14040708_18545690_322.jpg"],
     "description": "The Prada Galleria Large is a spacious interpretation of Prada's signature structured handbag, crafted from Saffiano calf leather with its characteristic crosshatch texture. The design combines leather handles, a detachable adjustable shoulder strap, external zipper pockets, side snap closures and protective feet. Inside, logo-print nylon lining provides four pockets, including a zip pocket, for organized high-capacity everyday use.",
     "specifications": {
       "model": "Galleria Large",
@@ -11373,8 +11451,8 @@ window.products = [
       "https://www.levelshoes.com/media/catalog/product/cache/d6b308721eea44dce854000e2ac7b2ba/1/b/1bc229lvm2cysf0pg7v_1.jpg",
       "https://image-raw.reversible.com/raw_images/8eae2473d06361ca7d13754244f65bba3f25c87e6f26acdd541d7bcc0c714b8a.webp",
       "https://cdn.clothbase.com/uploads/c700a12a-57e7-4306-93da-f0206a76267f/P01101419_d4.jpg",
-      "https://www.prada.com/content/dam/pradabkg_products/1/1BC/1BC229/2CYSF0PG7/1BC229_2CYS_F0PG7_V_LVM_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1800.1800.jpg"
-    ],
+      "https://www.prada.com/content/dam/pradabkg_products/1/1BC/1BC229/2CYSF0PG7/1BC229_2CYS_F0PG7_V_LVM_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1800.1800.jpg",
+      "https://www.levelshoes.com/media/catalog/product/cache/d6b308721eea44dce854000e2ac7b2ba/1/b/1bc229lvm2cysf0pg7v_1.jpg"],
     "description": "The Prada Aimée Medium reinterprets 1990s minimalism through a softly structured calfskin silhouette designed for comfortable shoulder or crossbody wear. The clean profile is finished with Prada's enamelled triangle logo, metal hardware, a zipper closure and a removable key holder. A nappa-lined interior provides two pockets, including a zip pocket, for organized daily essentials.",
     "specifications": {
       "model": "Aimée Medium",
@@ -11425,8 +11503,8 @@ window.products = [
       "https://www.mytheresa.com/image/1094/1238/100/eb/P01178387.jpg",
       "https://www.mytheresa.com/media/1094/1238/100/bb/P01079968_d5.jpg",
       "https://www.mytheresa.com/image/1094/1238/100/bb/P01079968_d1.jpg",
-      "https://assets.levelshoes.com/cdn-cgi/image/width%3D1500%2Cheight%3D2100%2Cquality%3D95%2Cformat%3Dwebp/media/catalog/product/1/b/1bh215ooo2cyrf01d6v_6.jpg?ts=20250501145519"
-    ],
+      "https://assets.levelshoes.com/cdn-cgi/image/width%3D1500%2Cheight%3D2100%2Cquality%3D95%2Cformat%3Dwebp/media/catalog/product/1/b/1bh215ooo2cyrf01d6v_6.jpg?ts=20250501145519",
+      "https://www.mytheresa.com/image/1094/1238/100/eb/P01178387.jpg"],
     "description": "The Prada Bonnie Medium is a refined structured handbag in soft calf leather with a glossy finish. Its geometric construction gives the silhouette a distinctive contemporary profile while the elongated top handles, detachable adjustable strap, polished hardware and Prada triangle logo provide versatile carrying and recognizable House detailing. A zipped top and organized interior make it practical for everyday use.",
     "specifications": {
       "model": "Bonnie Medium",
@@ -11477,8 +11555,8 @@ window.products = [
       "https://image-cdn.hypb.st/https%3A/s3.store.hypebeast.com/media/image/2d/42/Bag-8H-d0831.jpg?fit=max&q=90&w=720",
       "https://image-cdn.hypb.st/https%3A/s3.store.hypebeast.com/media/image/41/ed/Bag-8-2-6c672.jpg?fit=max&q=90&w=720",
       "https://hotgirlshop.vn/uploads/picture/30062023/News/20630131549-tui-xach-prada-den.jpg",
-      "https://perrineporter.com/cdn/shop/files/39_00cac5ea-249e-4f27-b4ba-2952dd2d671c_900x.png?v=1726766158"
-    ],
+      "https://perrineporter.com/cdn/shop/files/39_00cac5ea-249e-4f27-b4ba-2952dd2d671c_900x.png?v=1726766158",
+      "https://image-cdn.hypb.st/https%3A/s3.store.hypebeast.com/media/image/2d/42/Bag-8H-d0831.jpg?fit=max&q=90&w=720"],
     "description": "The Prada Cleo is a curved shoulder bag inspired by the House's 1990s archives. This black version is crafted in brushed calfskin and shaped with softly rounded lower and side lines. The design features a leather handle, enamelled triangle logo, magnetic closure and Prada-logo nylon lining with an interior patch pocket, creating a streamlined silhouette that transitions easily from day to evening.",
     "specifications": {
       "model": "Cleo",
@@ -12326,8 +12404,11 @@ window.products = [
     "sale price": 2999.99,
     "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwaac34f3a/images/hi-res/coin-programs/comic-art/25DWG_d.jpg?sh=1200&sm=fit&sw=1200",
     "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwaac34f3a/images/hi-res/coin-programs/comic-art/25DWG_d.jpg?sh=1200&sm=fit&sw=1200"
-    ],
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwaac34f3a/images/hi-res/coin-programs/comic-art/25DWG_d.jpg?sh=1200&sm=fit&sw=1200",
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwaac34f3a/images/hi-res/coin-programs/comic-art/25DWG_d.jpg?sh=1200&sm=fit&sw=1200",
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwaac34f3a/images/hi-res/coin-programs/comic-art/25DWG_d.jpg?sh=1200&sm=fit&sw=1200",
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwaac34f3a/images/hi-res/coin-programs/comic-art/25DWG_d.jpg?sh=1200&sm=fit&sw=1200",
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwaac34f3a/images/hi-res/coin-programs/comic-art/25DWG_d.jpg?sh=1200&sm=fit&sw=1200"],
     "description": "A United States Mint Comic Art 24-karat gold proof coin featuring Wonder Woman™, the 2025 release in the DC Super Hero series.",
     "specifications": {
       "brand": "United States Mint",
@@ -12359,8 +12440,11 @@ window.products = [
     "sale price": 2999.99,
     "image": "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwc0fd3307/images/hi-res/coin-programs/comic-art/26DSG_d.jpg?sh=1200&sm=fit&sw=1200",
     "images": [
-      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwc0fd3307/images/hi-res/coin-programs/comic-art/26DSG_d.jpg?sh=1200&sm=fit&sw=1200"
-    ],
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwc0fd3307/images/hi-res/coin-programs/comic-art/26DSG_d.jpg?sh=1200&sm=fit&sw=1200",
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwc0fd3307/images/hi-res/coin-programs/comic-art/26DSG_d.jpg?sh=1200&sm=fit&sw=1200",
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwc0fd3307/images/hi-res/coin-programs/comic-art/26DSG_d.jpg?sh=1200&sm=fit&sw=1200",
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwc0fd3307/images/hi-res/coin-programs/comic-art/26DSG_d.jpg?sh=1200&sm=fit&sw=1200",
+      "https://www.usmint.gov/dw/image/v2/AARB_PRD/on/demandware.static/-/Sites-usm-master-catalog-us/default/dwc0fd3307/images/hi-res/coin-programs/comic-art/26DSG_d.jpg?sh=1200&sm=fit&sw=1200"],
     "description": "A United States Mint Comic Art 24-karat gold proof coin featuring Supergirl™, the 2026 release in the DC Super Hero series.",
     "specifications": {
       "brand": "United States Mint",
@@ -12391,8 +12475,11 @@ window.products = [
     "sale price": 2690,
     "image": "assets/gold-coins/62/view-01.webp",
     "images": [
-      "assets/gold-coins/62/view-01.webp"
-    ],
+      "assets/gold-coins/62/view-01.webp",
+      "assets/gold-coins/62/view-01.webp",
+      "assets/gold-coins/62/view-01.webp",
+      "assets/gold-coins/62/view-01.webp",
+      "assets/gold-coins/62/view-01.webp"],
     "description": "2026 American Eagle collector coin variant from the United States Mint, added as a missing denomination/precious-metal variant in the Bonds Mall catalog.",
     "specifications": {
       "program": "American Eagle",
@@ -12419,8 +12506,11 @@ window.products = [
     "sale price": 1385,
     "image": "assets/gold-coins/62/view-01.webp",
     "images": [
-      "assets/gold-coins/62/view-01.webp"
-    ],
+      "assets/gold-coins/62/view-01.webp",
+      "assets/gold-coins/62/view-01.webp",
+      "assets/gold-coins/62/view-01.webp",
+      "assets/gold-coins/62/view-01.webp",
+      "assets/gold-coins/62/view-01.webp"],
     "description": "2026 American Eagle collector coin variant from the United States Mint, added as a missing denomination/precious-metal variant in the Bonds Mall catalog.",
     "specifications": {
       "program": "American Eagle",
@@ -12447,8 +12537,11 @@ window.products = [
     "sale price": 605,
     "image": "assets/gold-coins/62/view-01.webp",
     "images": [
-      "assets/gold-coins/62/view-01.webp"
-    ],
+      "assets/gold-coins/62/view-01.webp",
+      "assets/gold-coins/62/view-01.webp",
+      "assets/gold-coins/62/view-01.webp",
+      "assets/gold-coins/62/view-01.webp",
+      "assets/gold-coins/62/view-01.webp"],
     "description": "2026 American Eagle collector coin variant from the United States Mint, added as a missing denomination/precious-metal variant in the Bonds Mall catalog.",
     "specifications": {
       "program": "American Eagle",
@@ -12475,8 +12568,11 @@ window.products = [
     "sale price": 173,
     "image": "assets/gold-coins/62/view-01.webp",
     "images": [
-      "assets/gold-coins/62/view-01.webp"
-    ],
+      "assets/gold-coins/62/view-01.webp",
+      "assets/gold-coins/62/view-01.webp",
+      "assets/gold-coins/62/view-01.webp",
+      "assets/gold-coins/62/view-01.webp",
+      "assets/gold-coins/62/view-01.webp"],
     "description": "2026 American Eagle one-ounce silver proof coin, the missing silver precious-metal variant for the American Eagle family.",
     "specifications": {
       "program": "American Eagle",
@@ -12503,8 +12599,11 @@ window.products = [
     "sale price": 1945,
     "image": "assets/gold-coins/62/view-01.webp",
     "images": [
-      "assets/gold-coins/62/view-01.webp"
-    ],
+      "assets/gold-coins/62/view-01.webp",
+      "assets/gold-coins/62/view-01.webp",
+      "assets/gold-coins/62/view-01.webp",
+      "assets/gold-coins/62/view-01.webp",
+      "assets/gold-coins/62/view-01.webp"],
     "description": "2026 American Eagle one-ounce palladium uncirculated coin, the missing palladium precious-metal variant for the American Eagle family.",
     "specifications": {
       "program": "American Eagle",
@@ -12531,8 +12630,11 @@ window.products = [
     "sale price": 200,
     "image": "assets/gold-coins/64/view-01.webp",
     "images": [
-      "assets/gold-coins/64/view-01.webp"
-    ],
+      "assets/gold-coins/64/view-01.webp",
+      "assets/gold-coins/64/view-01.webp",
+      "assets/gold-coins/64/view-01.webp",
+      "assets/gold-coins/64/view-01.webp",
+      "assets/gold-coins/64/view-01.webp"],
     "description": "Comic Art 99.9% fine silver medal featuring Batman™, completing the DC Comic precious-metal variants.",
     "specifications": {
       "program": "Comic Art Coin & Medal Program",
@@ -12561,8 +12663,11 @@ window.products = [
     "sale price": 400,
     "image": "assets/gold-coins/64/view-01.webp",
     "images": [
-      "assets/gold-coins/64/view-01.webp"
-    ],
+      "assets/gold-coins/64/view-01.webp",
+      "assets/gold-coins/64/view-01.webp",
+      "assets/gold-coins/64/view-01.webp",
+      "assets/gold-coins/64/view-01.webp",
+      "assets/gold-coins/64/view-01.webp"],
     "description": "Comic Art 99.9% fine silver medal featuring Batman™, completing the DC Comic precious-metal variants.",
     "specifications": {
       "program": "Comic Art Coin & Medal Program",
@@ -12591,8 +12696,11 @@ window.products = [
     "sale price": 200,
     "image": "assets/gold-coins/65/view-01.webp",
     "images": [
-      "assets/gold-coins/65/view-01.webp"
-    ],
+      "assets/gold-coins/65/view-01.webp",
+      "assets/gold-coins/65/view-01.webp",
+      "assets/gold-coins/65/view-01.webp",
+      "assets/gold-coins/65/view-01.webp",
+      "assets/gold-coins/65/view-01.webp"],
     "description": "Comic Art 99.9% fine silver medal featuring Superman™, completing the DC Comic precious-metal variants.",
     "specifications": {
       "program": "Comic Art Coin & Medal Program",
@@ -12621,8 +12729,11 @@ window.products = [
     "sale price": 400,
     "image": "assets/gold-coins/65/view-01.webp",
     "images": [
-      "assets/gold-coins/65/view-01.webp"
-    ],
+      "assets/gold-coins/65/view-01.webp",
+      "assets/gold-coins/65/view-01.webp",
+      "assets/gold-coins/65/view-01.webp",
+      "assets/gold-coins/65/view-01.webp",
+      "assets/gold-coins/65/view-01.webp"],
     "description": "Comic Art 99.9% fine silver medal featuring Superman™, completing the DC Comic precious-metal variants.",
     "specifications": {
       "program": "Comic Art Coin & Medal Program",
@@ -12651,8 +12762,11 @@ window.products = [
     "sale price": 200,
     "image": "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80",
     "images": [
-      "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80"
-    ],
+      "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80"],
     "description": "Comic Art 99.9% fine silver medal featuring Wonder Woman™, completing the DC Comic precious-metal variants.",
     "specifications": {
       "program": "Comic Art Coin & Medal Program",
@@ -12681,8 +12795,11 @@ window.products = [
     "sale price": 400,
     "image": "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80",
     "images": [
-      "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80"
-    ],
+      "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80",
+      "https://target.scene7.com/is/image/Target/GUEST_c12714d1-b136-41c9-9b43-5579ff0c08f8?wid=800&hei=800&qlt=80"],
     "description": "Comic Art 99.9% fine silver medal featuring Wonder Woman™, completing the DC Comic precious-metal variants.",
     "specifications": {
       "program": "Comic Art Coin & Medal Program",
@@ -12711,8 +12828,11 @@ window.products = [
     "sale price": 200,
     "image": "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60",
     "images": [
-      "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60"
-    ],
+      "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60"],
     "description": "Comic Art 99.9% fine silver medal featuring Supergirl™, completing the DC Comic precious-metal variants.",
     "specifications": {
       "program": "Comic Art Coin & Medal Program",
@@ -12741,8 +12861,11 @@ window.products = [
     "sale price": 400,
     "image": "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60",
     "images": [
-      "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60"
-    ],
+      "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60",
+      "https://editorialist.com/thumbnail/600/2026/6/043/991/730/43991730~black_1782648216031_0.webp?width=600&quality=60"],
     "description": "Comic Art 99.9% fine silver medal featuring Supergirl™, completing the DC Comic precious-metal variants.",
     "specifications": {
       "program": "Comic Art Coin & Medal Program",
@@ -12771,8 +12894,11 @@ window.products = [
     "sale price": 170,
     "image": "assets/gold-coins/106/liberty-2017-obverse.webp",
     "images": [
-      "assets/gold-coins/106/liberty-2017-obverse.webp"
-    ],
+      "assets/gold-coins/106/liberty-2017-obverse.webp",
+      "assets/gold-coins/106/liberty-2017-obverse.webp",
+      "assets/gold-coins/106/liberty-2017-obverse.webp",
+      "assets/gold-coins/106/liberty-2017-obverse.webp",
+      "assets/gold-coins/106/liberty-2017-obverse.webp"],
     "description": "United States Mint American Liberty 2017 silver medal corresponding to the American Liberty gold-coin design.",
     "specifications": {
       "program": "American Liberty",
@@ -12800,8 +12926,11 @@ window.products = [
     "sale price": 170,
     "image": "assets/gold-coins/108/liberty-2019-obverse.webp",
     "images": [
-      "assets/gold-coins/108/liberty-2019-obverse.webp"
-    ],
+      "assets/gold-coins/108/liberty-2019-obverse.webp",
+      "assets/gold-coins/108/liberty-2019-obverse.webp",
+      "assets/gold-coins/108/liberty-2019-obverse.webp",
+      "assets/gold-coins/108/liberty-2019-obverse.webp",
+      "assets/gold-coins/108/liberty-2019-obverse.webp"],
     "description": "United States Mint American Liberty 2019 silver medal corresponding to the American Liberty gold-coin design.",
     "specifications": {
       "program": "American Liberty",
@@ -12829,8 +12958,11 @@ window.products = [
     "sale price": 170,
     "image": "assets/gold-coins/112/liberty-2023-obverse.webp",
     "images": [
-      "assets/gold-coins/112/liberty-2023-obverse.webp"
-    ],
+      "assets/gold-coins/112/liberty-2023-obverse.webp",
+      "assets/gold-coins/112/liberty-2023-obverse.webp",
+      "assets/gold-coins/112/liberty-2023-obverse.webp",
+      "assets/gold-coins/112/liberty-2023-obverse.webp",
+      "assets/gold-coins/112/liberty-2023-obverse.webp"],
     "description": "United States Mint American Liberty 2023 silver medal corresponding to the American Liberty gold-coin design.",
     "specifications": {
       "program": "American Liberty",
@@ -12858,8 +12990,11 @@ window.products = [
     "sale price": 170,
     "image": "assets/gold-coins/114/liberty-2025-obverse.webp",
     "images": [
-      "assets/gold-coins/114/liberty-2025-obverse.webp"
-    ],
+      "assets/gold-coins/114/liberty-2025-obverse.webp",
+      "assets/gold-coins/114/liberty-2025-obverse.webp",
+      "assets/gold-coins/114/liberty-2025-obverse.webp",
+      "assets/gold-coins/114/liberty-2025-obverse.webp",
+      "assets/gold-coins/114/liberty-2025-obverse.webp"],
     "description": "United States Mint American Liberty 2025 silver medal corresponding to the American Liberty gold-coin design.",
     "specifications": {
       "program": "American Liberty",
@@ -12887,8 +13022,11 @@ window.products = [
     "sale price": 89,
     "image": "assets/gold-coins/113/view-01.webp",
     "images": [
-      "assets/gold-coins/113/view-01.webp"
-    ],
+      "assets/gold-coins/113/view-01.webp",
+      "assets/gold-coins/113/view-01.webp",
+      "assets/gold-coins/113/view-01.webp",
+      "assets/gold-coins/113/view-01.webp",
+      "assets/gold-coins/113/view-01.webp"],
     "description": "The silver precious-metal companion to the 2024 Liberty & Britannia 24K high-relief gold proof coin.",
     "specifications": {
       "program": "Liberty & Britannia",
@@ -12920,8 +13058,8 @@ window.products = [
       "https://a.1stdibscdn.com/new-magnificent-hermes-birkin-25-handbag-in-black-box-calf-leather-ghw-for-sale/v_14022/v_246372021732006486080/v_24637202_1732006486875_bg_processed.jpg",
       "https://a.1stdibscdn.com/new-magnificent-hermes-birkin-25-handbag-in-black-box-calf-leather-ghw-for-sale-picture-5/v_14022/v_246372021732006518879/102176_3_master.jpg",
       "https://a.1stdibscdn.com/new-magnificent-hermes-birkin-25-handbag-in-black-box-calf-leather-ghw-for-sale-picture-6/v_14022/v_246372021732006518573/102176_4_master.jpg",
-      "https://a.1stdibscdn.com/new-magnificent-hermes-birkin-25-handbag-in-black-box-calf-leather-ghw-for-sale-picture-7/v_14022/v_246372021732006519054/102176_5_master.jpg"
-    ],
+      "https://a.1stdibscdn.com/new-magnificent-hermes-birkin-25-handbag-in-black-box-calf-leather-ghw-for-sale-picture-7/v_14022/v_246372021732006519054/102176_5_master.jpg",
+      "https://a.1stdibscdn.com/new-magnificent-hermes-birkin-25-handbag-in-black-box-calf-leather-ghw-for-sale/v_14022/v_246372021732006486080/v_24637202_1732006486875_bg_processed.jpg"],
     "description": "Collector-level Hermès Birkin 25 in black Swift calf leather with gold-plated hardware, structured top handles, signature flap and lock system.",
     "specifications": {
       "brand": "Hermès",
@@ -12952,8 +13090,8 @@ window.products = [
       "https://assets.voila.id/voila/images/product/hermes/1-product-H038416CC-89-xms-2023-07-20-16.05.jpg",
       "https://ginzaxiaoma.com/_next/image?q=75&url=https%3A%2F%2Fimg.ginzaxiaoma.com%2Fimages%2F20250918%2Fc8da7c9c4b79c68c9d0d06f80be7a4d2.jpg&w=1920",
       "https://ginzaxiaoma.com/_next/image?q=75&url=https%3A%2F%2Fimg.ginzaxiaoma.com%2Fimages%2F20250918%2Fcb884c89ec1e61e5376e23eaed0240d0.jpg&w=1920",
-      "https://ginzaxiaoma.com/_next/image?q=75&url=https%3A%2F%2Fimg.ginzaxiaoma.com%2Fimages%2F20250918%2F80e9c3e4ace99579752520d429cd19dd.jpg&w=1920"
-    ],
+      "https://ginzaxiaoma.com/_next/image?q=75&url=https%3A%2F%2Fimg.ginzaxiaoma.com%2Fimages%2F20250918%2F80e9c3e4ace99579752520d429cd19dd.jpg&w=1920",
+      "https://assets.voila.id/voila/images/product/hermes/1-product-H038416CC-89-xms-2023-07-20-16.05.jpg"],
     "description": "Iconic Hermès Kelly 25 in black Togo calfskin with gold hardware, top handle, structured flap and detachable shoulder strap.",
     "specifications": {
       "brand": "Hermès",
@@ -12984,8 +13122,8 @@ window.products = [
       "https://assets.christiandior.com/is/image/diorprod/M0565PWRTM900_E01?%24default_GHC%24=&bfc=on&crop=357%2C360%2C1197%2C1452&hei=2000&qlt=80&scale=0.875&wid=1850",
       "https://assets.christiandior.com/is/image/diorprod/M0565PWRTM900_E03?%24default_GHC%24=&bfc=on&crop=448%2C404%2C1079%2C1376&hei=2000&qlt=80&scale=0.875&wid=1850",
       "https://assets.christiandior.com/is/image/diorprod/M0565PWRTM900_E06?%24default_GHC%24=&bfc=on&crop=383%2C495%2C1201%2C1292&hei=2000&qlt=80&scale=0.875&wid=1850",
-      "https://assets.christiandior.com/is/image/diorprod/M0565PWRTM900_E07?%24default_GHC%24=&bfc=on&crop=751%2C175%2C521%2C1611&hei=2000&qlt=80&scale=0.875&wid=1850"
-    ],
+      "https://assets.christiandior.com/is/image/diorprod/M0565PWRTM900_E07?%24default_GHC%24=&bfc=on&crop=751%2C175%2C521%2C1611&hei=2000&qlt=80&scale=0.875&wid=1850",
+      "https://assets.christiandior.com/is/image/diorprod/M0565PWRTM900_E01?%24default_GHC%24=&bfc=on&crop=357%2C360%2C1197%2C1452&hei=2000&qlt=80&scale=0.875&wid=1850"],
     "description": "Medium Lady Dior crafted in black grained calfskin with Cannage stitching, silver-finish D.I.O.R. charms and a removable shoulder strap.",
     "specifications": {
       "brand": "Dior",
@@ -13015,8 +13153,8 @@ window.products = [
       "https://assets.christiandior.com/is/image/diorprod/M0455CCEHM900_E01?%24r4x5_default%24=&bfc=on&crop=307%2C102%2C1324%2C1864&hei=2000&qlt=80&scale=0.7&wid=1600",
       "https://assets.christiandior.com/is/image/diorprod/M0455CCEHM900_E08?%24r4x5_default%24=&bfc=on&crop=415%2C113%2C1173%2C1823&hei=2000&qlt=80&scale=0.7&wid=1600",
       "https://assets.christiandior.com/is/image/diorprod/M0455CCEHM900_E03?%24r4x5_default%24=&bfc=on&crop=455%2C151%2C1091%2C1797&hei=2000&qlt=80&scale=0.7&wid=1600",
-      "https://assets.christiandior.com/is/image/diorprod/LOOK_F_23_4_LOOK_848_E15?%24r4x5_raw%24=&bfc=on&crop=568%2C0%2C1864%2C2000&hei=2000&qlt=80&scale=1&wid=1600"
-    ],
+      "https://assets.christiandior.com/is/image/diorprod/LOOK_F_23_4_LOOK_848_E15?%24r4x5_raw%24=&bfc=on&crop=568%2C0%2C1864%2C2000&hei=2000&qlt=80&scale=1&wid=1600",
+      "https://assets.christiandior.com/is/image/diorprod/M0455CCEHM900_E01?%24r4x5_default%24=&bfc=on&crop=307%2C102%2C1324%2C1864&hei=2000&qlt=80&scale=0.7&wid=1600"],
     "description": "The iconic Dior Saddle bag in black goatskin with its signature D stirrup strap, antique gold-finish CD signatures and removable adjustable strap.",
     "specifications": {
       "brand": "Dior",
@@ -13046,8 +13184,8 @@ window.products = [
       "https://bottega-veneta.dam.kering.com/m/484000fa2e0f6035/Medium-766016VCPP11139_A.jpg?v=3",
       "https://bottega-veneta.dam.kering.com/asset/b13ed2d8-b078-486d-b1e3-cab1a54b2f54/Medium/766016VCPP11139_B.jpg?v=3",
       "https://bottega-veneta.dam.kering.com/m/1556a55741ba8df1/Medium-766016VCPP11139_C.jpg?v=3",
-      "https://bottega-veneta.dam.kering.com/m/12cbb3ed9d1da1c1/Medium-766016VCPP11139_D.jpg?v=3"
-    ],
+      "https://bottega-veneta.dam.kering.com/m/12cbb3ed9d1da1c1/Medium-766016VCPP11139_D.jpg?v=3",
+      "https://bottega-veneta.dam.kering.com/m/484000fa2e0f6035/Medium-766016VCPP11139_A.jpg?v=3"],
     "description": "Bottega Veneta Andiamo top-handle bag in black supple Intrecciato leather with signature knot detail and sliding cross-body strap.",
     "specifications": {
       "brand": "Bottega Veneta",
@@ -13077,8 +13215,8 @@ window.products = [
       "https://static.fendi.com/dam/is/image/fendi/8BN321A6V3F1CJZ_01?hash=25ccf3a6ee56522b477d12b30e330dd4-1976ad452ad&hei=1000&wid=1000",
       "https://static.fendi.com/dam/is/image/fendi/8BN321A6V3F1CJZ_02?hash=72a292f827b25109a1d8d6224fb5acb5-1976c293004&hei=1000&wid=1000",
       "https://static.fendi.com/dam/is/image/fendi/8BN321A6V3F1CJZ_03?hash=a3f5d0dbf1dabcac9b9e540a372e3296-1976d74a225&hei=1000&wid=1000",
-      "https://static.fendi.com/dam/is/image/fendi/8BN321A6V3F1CJZ_04?hash=581b91aa0f3b25295e8d10f0bc026a96-1976ac7c409&hei=1000&wid=1000"
-    ],
+      "https://static.fendi.com/dam/is/image/fendi/8BN321A6V3F1CJZ_04?hash=581b91aa0f3b25295e8d10f0bc026a96-1976ac7c409&hei=1000&wid=1000",
+      "https://static.fendi.com/dam/is/image/fendi/8BN321A6V3F1CJZ_01?hash=25ccf3a6ee56522b477d12b30e330dd4-1976ad452ad&hei=1000&wid=1000"],
     "description": "Iconic Fendi Peekaboo ISeeU Medium in black calfskin with two compartments, twist locks and detachable shoulder strap.",
     "specifications": {
       "brand": "Fendi",
@@ -13108,8 +13246,8 @@ window.products = [
       "https://valentino-cdn.thron.com/delivery/public/image/valentino/14150576-7af0-4093-9031-0b936744eb8b/ihqstx/std/500x0/Valentino-Garavani-Rockstud-Spike-Medium-Shoulder-Bag-In-Nappa-Leather-?format=auto&quality=80&size=35",
       "https://valentino-cdn.thron.com/delivery/public/image/valentino/856dffac-0a15-4bbb-9f62-7767b9bacdc0/ihqstx/std/500x0/Valentino-Garavani-Rockstud-Spike-Medium-Shoulder-Bag-In-Nappa-Leather-?format=auto&quality=80&size=35",
       "https://valentino-cdn.thron.com/delivery/public/image/valentino/75fa2e47-5b69-4200-9b16-9e3788eba49e/ihqstx/std/500x0/Valentino-Garavani-Rockstud-Spike-Medium-Shoulder-Bag-In-Nappa-Leather-?format=auto&quality=80&size=35",
-      "https://valentino-cdn.thron.com/delivery/public/image/valentino/fddea0fb-dfd8-4c2c-a038-9e4d9e3aa33d/ihqstx/std/500x0/Valentino-Garavani-Rockstud-Spike-Medium-Shoulder-Bag-In-Nappa-Leather-?format=auto&quality=80&size=35"
-    ],
+      "https://valentino-cdn.thron.com/delivery/public/image/valentino/fddea0fb-dfd8-4c2c-a038-9e4d9e3aa33d/ihqstx/std/500x0/Valentino-Garavani-Rockstud-Spike-Medium-Shoulder-Bag-In-Nappa-Leather-?format=auto&quality=80&size=35",
+      "https://valentino-cdn.thron.com/delivery/public/image/valentino/14150576-7af0-4093-9031-0b936744eb8b/ihqstx/std/500x0/Valentino-Garavani-Rockstud-Spike-Medium-Shoulder-Bag-In-Nappa-Leather-?format=auto&quality=80&size=35"],
     "description": "Medium Valentino Garavani Rockstud Spike in supple black Nappa lambskin with quilted construction, signature studs and detachable chain strap.",
     "specifications": {
       "brand": "Valentino Garavani",
@@ -13139,8 +13277,8 @@ window.products = [
       "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83439605.jpg%203200w",
       "https://www.chanel.com/images/as///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83152322.jpg%203200w",
       "https://www.chanel.com/images/as///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83152333.jpg%203200w",
-      "https://www.chanel.com/images/as///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83152332.jpg%203200w"
-    ],
+      "https://www.chanel.com/images/as///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83152332.jpg%203200w",
+      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83439605.jpg%203200w"],
     "description": "CHANEL Classic 11.12 handbag in black lambskin with gold-tone metal, quilted construction and iconic CC turn-lock.",
     "specifications": {
       "brand": "CHANEL",
@@ -13170,8 +13308,8 @@ window.products = [
       "https://sg.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-low-key-hobo-mm--M24856_PM1_Side%20view.png?hei=4096&wid=4096",
       "https://sg.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-low-key-hobo-mm--M24856_PM2_Front%20view.png?hei=4096&wid=4096",
       "https://sg.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-low-key-hobo-mm--M24856_PM3_Interior%20view.png?hei=4096&wid=4096",
-      "https://sg.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-low-key-hobo-mm--M24856_PM4_Back%20view.png?hei=4096&wid=4096"
-    ],
+      "https://sg.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-low-key-hobo-mm--M24856_PM4_Back%20view.png?hei=4096&wid=4096",
+      "https://sg.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-low-key-hobo-mm--M24856_PM1_Side%20view.png?hei=4096&wid=4096"],
     "description": "Quiet-luxury Louis Vuitton hobo in black grained calfskin with suede lining, adjustable strap and signature engraved padlock.",
     "specifications": {"brand":"Louis Vuitton","model":"Low Key Hobo MM","material":"Grained calfskin","hardware":"Gold-color hardware","dimensions":"31 x 35 x 18 cm","origin":"France, Spain, Italy or USA","style":"Hobo"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton"
@@ -13187,8 +13325,8 @@ window.products = [
       "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-multipass-mini--M2A840_PM2_Front%20view.png?hei=4096&wid=4096",
       "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-multipass-mini--M2A840_PM1_Side%20view.png?hei=4096&wid=4096",
       "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-multipass-mini--M2A840_PM3_Back%20view.png?hei=4096&wid=4096",
-      "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-multipass-mini--M2A840_PM4_Interior%20view.png?hei=4096&wid=4096"
-    ],
+      "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-multipass-mini--M2A840_PM4_Interior%20view.png?hei=4096&wid=4096",
+      "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-multipass-mini--M2A840_PM2_Front%20view.png?hei=4096&wid=4096"],
     "description": "Compact Multipass Mini in black grained leather with a sculptural hobo silhouette, gold chain detail and detachable Monogram strap.",
     "specifications": {"brand":"Louis Vuitton","model":"Multipass Mini","material":"Grained leather","hardware":"Gold-color hardware","reference":"M2A840","style":"Mini Shoulder Bag"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton"
@@ -13204,8 +13342,8 @@ window.products = [
       "https://en.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-nano-madeleine-monogram-empreinte--M12144_PM2_Front%20view.png?hei=4096&wid=4096",
       "https://en.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-nano-madeleine-monogram-empreinte--M12144_PM1_Side%20view.png?hei=4096&wid=4096",
       "https://en.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-nano-madeleine-monogram-empreinte--M12144_PM3_Back%20view.png?hei=4096&wid=4096",
-      "https://en.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-nano-madeleine-monogram-empreinte--M12144_PM4_Interior%20view.png?hei=4096&wid=4096"
-    ],
+      "https://en.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-nano-madeleine-monogram-empreinte--M12144_PM4_Interior%20view.png?hei=4096&wid=4096",
+      "https://en.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-nano-madeleine-monogram-empreinte--M12144_PM2_Front%20view.png?hei=4096&wid=4096"],
     "description": "Miniature Madeleine in black Monogram Empreinte leather with S-lock closure and removable LV Circle charm chain.",
     "specifications": {"brand":"Louis Vuitton","model":"Nano Madeleine","material":"Supple grained cowhide leather","hardware":"Gold-color hardware","dimensions":"21 x 12.5 x 6 cm","reference":"M12144","style":"Nano Top Handle / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton"
@@ -13221,8 +13359,8 @@ window.products = [
       "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-express-mm--M26397_PM1_Side%20view.png?hei=1090&wid=1090",
       "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-express-mm--M26397_PM2_Front%20view.png?hei=1090&wid=1090",
       "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-express-mm--M26397_PM3_Back%20view.png?hei=1090&wid=1090",
-      "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-express-mm--M26397_PM4_Interior%20view.png?hei=1090&wid=1090"
-    ],
+      "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-express-mm--M26397_PM4_Interior%20view.png?hei=1090&wid=1090",
+      "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-express-mm--M26397_PM1_Side%20view.png?hei=1090&wid=1090"],
     "description": "Express MM in supple brown calf leather accented with Monogram canvas, gold-tone hardware, clochette and padlock.",
     "specifications": {"brand":"Louis Vuitton","model":"Express MM","material":"Calf leather and Monogram canvas","hardware":"Gold-tone hardware","reference":"M26397","style":"Top Handle / Shoulder"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton"
@@ -13238,8 +13376,8 @@ window.products = [
       "https://de.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-papillon--M25703_PM1_Cropped%20worn%20view.png?hei=4096&wid=4096",
       "https://de.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-papillon--M25703_PM2_Front%20view.png?hei=4096&wid=4096",
       "https://de.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-papillon--M25703_PM3_Back%20view.png?hei=4096&wid=4096",
-      "https://de.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-papillon--M25703_PM4_Interior%20view.png?hei=4096&wid=4096"
-    ],
+      "https://de.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-papillon--M25703_PM4_Interior%20view.png?hei=4096&wid=4096",
+      "https://de.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-papillon--M25703_PM1_Cropped%20worn%20view.png?hei=4096&wid=4096"],
     "description": "Archival-inspired Pochette Papillon in Monogram Canvas with natural cowhide trim and removable leather strap.",
     "specifications": {"brand":"Louis Vuitton","model":"Pochette Papillon","material":"Monogram Canvas and cowhide leather","reference":"M25703","style":"Shoulder / Hand Carry"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton"
@@ -13255,8 +13393,8 @@ window.products = [
       "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw5c7258c5/images_rd/ATBBTBBX01/ATBBTBBX01-1100/ATBBTBBX01_1100_1O.jpg?q=100&sw=750",
       "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw5c7258c5/images_rd/ATBBTBBX01/ATBBTBBX01-1100/ATBBTBBX01_1100_2O.jpg?q=100&sw=750",
       "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw5c7258c5/images_rd/ATBBTBBX01/ATBBTBBX01-1100/ATBBTBBX01_1100_3O.jpg?q=100&sw=750",
-      "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw5c7258c5/images_rd/ATBBTBBX01/ATBBTBBX01-1100/ATBBTBBX01_1100_4O.jpg?q=100&sw=750"
-    ],
+      "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw5c7258c5/images_rd/ATBBTBBX01/ATBBTBBX01-1100/ATBBTBBX01_1100_4O.jpg?q=100&sw=750",
+      "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw5c7258c5/images_rd/ATBBTBBX01/ATBBTBBX01-1100/ATBBTBBX01_1100_1O.jpg?q=100&sw=750"],
     "description": "Small Whisker in black glazed calfskin with a structural handle, giant zip opening, detachable strap and signature embossed branding.",
     "specifications": {"brand":"Loewe","model":"Small Whisker","material":"Glazed calfskin","dimensions":"25.5 x 14 x 17 cm","origin":"Spain","style":"Shoulder / Crossbody / Hand Carry"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Loewe","brand_display_name":"Loewe"
@@ -13272,8 +13410,8 @@ window.products = [
       "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A538HHBX07/A538HHBX07-1100/A538HHBX07_1100_1O.jpg?q=100&sw=750",
       "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A538HHBX07/A538HHBX07-1100/A538HHBX07_1100_2O.jpg?q=100&sw=750",
       "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A538HHBX07/A538HHBX07-1100/A538HHBX07_1100_3O.jpg?q=100&sw=750",
-      "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A538HHBX07/A538HHBX07-1100/A538HHBX07_1100_4O.jpg?q=100&sw=750"
-    ],
+      "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A538HHBX07/A538HHBX07-1100/A538HHBX07_1100_4O.jpg?q=100&sw=750",
+      "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A538HHBX07/A538HHBX07-1100/A538HHBX07_1100_1O.jpg?q=100&sw=750"],
     "description": "Hammock Flip in black classic calfskin, designed to transform between a carry-all and body-friendly hobo with versatile carry options.",
     "specifications": {"brand":"Loewe","model":"Hammock Flip","material":"Classic calfskin","origin":"Spain","style":"Top Handle / Hobo / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Loewe","brand_display_name":"Loewe"
@@ -13289,8 +13427,8 @@ window.products = [
       "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A411FC1X01/A411FC1X01-1100/A411FC1X01_1100_1O.jpg?q=100&sw=750",
       "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A411FC1X01/A411FC1X01-1100/A411FC1X01_1100_2O.jpg?q=100&sw=750",
       "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A411FC1X01/A411FC1X01-1100/A411FC1X01_1100_3O.jpg?q=100&sw=750",
-      "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A411FC1X01/A411FC1X01-1100/A411FC1X01_1100_4O.jpg?q=100&sw=750"
-    ],
+      "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A411FC1X01/A411FC1X01-1100/A411FC1X01_1100_4O.jpg?q=100&sw=750",
+      "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A411FC1X01/A411FC1X01-1100/A411FC1X01_1100_1O.jpg?q=100&sw=750"],
     "description": "Loewe Flamenco purse in black nappa leather with a softly gathered silhouette and signature drawstring detailing.",
     "specifications": {"brand":"Loewe","model":"Medium Flamenco Purse","material":"Nappa leather","origin":"Spain","style":"Purse / Shoulder / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Loewe","brand_display_name":"Loewe"
@@ -13299,7 +13437,8 @@ window.products = [
   {
     "id":333,"name":"Gucci Borsetto Medium Leather Shoulder Bag — Black","category":"accessories","retail price":3100,"sale price":3100,
     "image":"https://www.mytheresa.com/media/1094/1238/100/bb/P01196941_d1.jpg",
-    "images":["https://www.mytheresa.com/media/1094/1238/100/bb/P01196941_d1.jpg","https://www.mytheresa.com/media/1094/1238/100/bb/P01196941_d2.jpg","https://www.mytheresa.com/media/1094/1238/100/bb/P01196941_d3.jpg","https://www.mytheresa.com/media/1094/1238/100/bb/P01196941_d4.jpg"],
+    "images":["https://www.mytheresa.com/media/1094/1238/100/bb/P01196941_d1.jpg","https://www.mytheresa.com/media/1094/1238/100/bb/P01196941_d2.jpg","https://www.mytheresa.com/media/1094/1238/100/bb/P01196941_d3.jpg","https://www.mytheresa.com/media/1094/1238/100/bb/P01196941_d4.jpg",
+      "https://www.mytheresa.com/media/1094/1238/100/bb/P01196941_d1.jpg"],
     "description":"Gucci Borsetto medium shoulder bag in supple black leather with Horsebit hardware, Web stripe, top handles and detachable adjustable shoulder strap.",
     "specifications":{"brand":"Gucci","model":"Borsetto Medium","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
@@ -13307,7 +13446,8 @@ window.products = [
   {
     "id":334,"name":"Gucci Paparazzo Medium Leather Tote — Black","category":"accessories","retail price":3650,"sale price":3650,
     "image":"https://www.mytheresa.com/media/1094/1238/100/bb/P01192312_d1.jpg",
-    "images":["https://www.mytheresa.com/media/1094/1238/100/bb/P01192312_d1.jpg","https://www.mytheresa.com/media/1094/1238/100/bb/P01192312_d2.jpg","https://www.mytheresa.com/media/1094/1238/100/bb/P01192312_d3.jpg","https://www.mytheresa.com/media/1094/1238/100/bb/P01192312_d4.jpg"],
+    "images":["https://www.mytheresa.com/media/1094/1238/100/bb/P01192312_d1.jpg","https://www.mytheresa.com/media/1094/1238/100/bb/P01192312_d2.jpg","https://www.mytheresa.com/media/1094/1238/100/bb/P01192312_d3.jpg","https://www.mytheresa.com/media/1094/1238/100/bb/P01192312_d4.jpg",
+      "https://www.mytheresa.com/media/1094/1238/100/bb/P01192312_d1.jpg"],
     "description":"Gucci Paparazzo medium tote in black leather with Horsebit hardware, green-and-red Web stripe, structured top handle and detachable shoulder strap.",
     "specifications":{"brand":"Gucci","model":"Paparazzo Medium","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
@@ -13315,7 +13455,8 @@ window.products = [
   {
     "id":335,"name":"Gucci Jackie Slim Medium Shoulder Bag — Black Leather","category":"accessories","retail price":2450,"sale price":2450,
     "image":"https://www.mytheresa.com/media/1094/1238/100/bb/P01151161_d1.jpg",
-    "images":["https://www.mytheresa.com/media/1094/1238/100/bb/P01151161_d1.jpg","https://www.mytheresa.com/media/1094/1238/100/bb/P01151161_d2.jpg","https://www.mytheresa.com/media/1094/1238/100/bb/P01151161_d3.jpg","https://www.mytheresa.com/media/1094/1238/100/bb/P01151161_d4.jpg"],
+    "images":["https://www.mytheresa.com/media/1094/1238/100/bb/P01151161_d1.jpg","https://www.mytheresa.com/media/1094/1238/100/bb/P01151161_d2.jpg","https://www.mytheresa.com/media/1094/1238/100/bb/P01151161_d3.jpg","https://www.mytheresa.com/media/1094/1238/100/bb/P01151161_d4.jpg",
+      "https://www.mytheresa.com/media/1094/1238/100/bb/P01151161_d1.jpg"],
     "description":"Gucci Jackie Slim medium shoulder bag in black leather with the signature piston closure, curved silhouette and detachable belt.",
     "specifications":{"brand":"Gucci","model":"Jackie Slim Medium","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Shoulder Bag"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
@@ -13323,7 +13464,8 @@ window.products = [
   {
     "id":336,"name":"Gucci Brera Medium Crossbody Bag — Black Leather","category":"accessories","retail price":2980,"sale price":2980,
     "image":"https://www.mytheresa.com/media/1094/1238/100/bb/P01248060_d1.jpg",
-    "images":["https://www.mytheresa.com/media/1094/1238/100/bb/P01248060_d1.jpg","https://www.mytheresa.com/media/1094/1238/100/bb/P01248060_d2.jpg","https://www.mytheresa.com/media/1094/1238/100/bb/P01248060_d3.jpg","https://www.mytheresa.com/media/1094/1238/100/bb/P01248060_d4.jpg"],
+    "images":["https://www.mytheresa.com/media/1094/1238/100/bb/P01248060_d1.jpg","https://www.mytheresa.com/media/1094/1238/100/bb/P01248060_d2.jpg","https://www.mytheresa.com/media/1094/1238/100/bb/P01248060_d3.jpg","https://www.mytheresa.com/media/1094/1238/100/bb/P01248060_d4.jpg",
+      "https://www.mytheresa.com/media/1094/1238/100/bb/P01248060_d1.jpg"],
     "description":"Gucci Brera medium crossbody in black soft grainy leather with silver-toned hardware, detachable handle and signature Web strap.",
     "specifications":{"brand":"Gucci","model":"Brera Medium","material":"Black grainy leather","hardware":"Silver-toned","origin":"Italy","style":"Crossbody / Shoulder"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
@@ -13331,7 +13473,8 @@ window.products = [
   {
     "id":337,"name":"Gucci Giglio Large Tote Bag — Black Leather","category":"accessories","retail price":2950,"sale price":2950,
     "image":"https://media.gucci.com/style/DarkGray_Center_0_0_700x700/1761821103/853971_AAF2H_1060_001_100_0000_Light-groer-gucci-giglio-shopper.jpg",
-    "images":["https://media.gucci.com/style/DarkGray_Center_0_0_700x700/1761821103/853971_AAF2H_1060_001_100_0000_Light-groer-gucci-giglio-shopper.jpg","https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1761821105/853971_AAF2H_1060_013_100_0000_Light-gucci-giglio.jpg","https://media.gucci.com/style/DarkGray_Center_0_0_700x700/1761821103/853971_AAF2H_1060_002_100_0000_Light-groer-gucci-giglio-shopper.jpg","https://media.gucci.com/style/DarkGray_Center_0_0_700x700/1761821103/853971_AAF2H_1060_003_100_0000_Light-groer-gucci-giglio-shopper.jpg"],
+    "images":["https://media.gucci.com/style/DarkGray_Center_0_0_700x700/1761821103/853971_AAF2H_1060_001_100_0000_Light-groer-gucci-giglio-shopper.jpg","https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1761821105/853971_AAF2H_1060_013_100_0000_Light-gucci-giglio.jpg","https://media.gucci.com/style/DarkGray_Center_0_0_700x700/1761821103/853971_AAF2H_1060_002_100_0000_Light-groer-gucci-giglio-shopper.jpg","https://media.gucci.com/style/DarkGray_Center_0_0_700x700/1761821103/853971_AAF2H_1060_003_100_0000_Light-groer-gucci-giglio-shopper.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_700x700/1761821103/853971_AAF2H_1060_001_100_0000_Light-groer-gucci-giglio-shopper.jpg"],
     "description":"Gucci Giglio large tote in glossy black leather with Web trim, Double G hardware, removable pouch and spacious GG-lined interior.",
     "specifications":{"brand":"Gucci","model":"Giglio Large","material":"Black leather","hardware":"Light gold-toned","origin":"Italy","style":"Tote"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
@@ -13339,7 +13482,8 @@ window.products = [
   {
     "id":338,"name":"Gucci Giglio Small Tote Bag — Black GG Canvas","category":"accessories","retail price":2750,"sale price":2750,
     "image":"https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1774361706/860845_FAFWA_1053_002_069_0052_Light-gucci-giglio-small-tote-bag.jpg",
-    "images":["https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1774361706/860845_FAFWA_1053_002_069_0052_Light-gucci-giglio-small-tote-bag.jpg","https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1774361706/860845_FAFWA_1053_001_069_0052_Light-gucci-giglio-small-tote-bag.jpg","https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1774361706/860845_FAFWA_1053_003_069_0052_Light-gucci-giglio-small-tote-bag.jpg","https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1774361706/860845_FAFWA_1053_004_069_0052_Light-gucci-giglio-small-tote-bag.jpg"],
+    "images":["https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1774361706/860845_FAFWA_1053_002_069_0052_Light-gucci-giglio-small-tote-bag.jpg","https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1774361706/860845_FAFWA_1053_001_069_0052_Light-gucci-giglio-small-tote-bag.jpg","https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1774361706/860845_FAFWA_1053_003_069_0052_Light-gucci-giglio-small-tote-bag.jpg","https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1774361706/860845_FAFWA_1053_004_069_0052_Light-gucci-giglio-small-tote-bag.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1774361706/860845_FAFWA_1053_002_069_0052_Light-gucci-giglio-small-tote-bag.jpg"],
     "description":"Gucci Giglio small tote in black GG canvas with leather trim, Web stripe, Double G detail and detachable shoulder strap.",
     "specifications":{"brand":"Gucci","model":"Giglio Small","material":"GG canvas and leather","hardware":"Gold-toned","origin":"Italy","style":"Tote / Shoulder"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
