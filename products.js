@@ -8180,7 +8180,7 @@ window.products = [
     "gender": "Men",
       "brand_origin": "Italy"
     },
-    "inventory": 1,
+    "inventory": 100,
     "pre-owned price": 999.99,
     "age_group": "Adult",
     "gender": "Women",
@@ -8341,7 +8341,7 @@ window.products = [
     "gender": "Women",
       "brand_origin": "USA"
     },
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "marketplace": {
@@ -9376,7 +9376,7 @@ window.products = [
       "hardware": "Gold-tone metal",
       "source": "https://www.chanel.com/us/fashion/p/AS6522B2673794305/2-55-handbag-lambskin-gold-tone-metal/"
     },    "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "CHANEL",
@@ -12150,7 +12150,7 @@ window.products = [
       },
 
     "productType": "Handbag",
-      "inventory": 1,
+      "inventory": 100,
       "age_group": "Adult",
       "gender": "Women",
       "brand": "Saint Laurent",
@@ -16892,7 +16892,7 @@ window.products = [
       "authenticity": "Authenticity guaranteed"
     },
     "productType": "Handbag",
-    "inventory": 1,
+    "inventory": 100,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Hermès",
