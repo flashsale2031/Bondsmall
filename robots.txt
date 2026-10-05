@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bondsmall.com/google-shopping-sitemap.xml
