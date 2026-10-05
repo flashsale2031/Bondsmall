@@ -12902,4 +12902,254 @@ window.products = [
     "brand_display_name": "United States Mint",
     "id": 316
   }
+  {
+    "id": 317,
+    "name": "Hermès Birkin 25 — Black Swift Leather Gold Hardware",
+    "category": "accessories",
+    "retail price": 34665.41,
+    "sale price": 34665.41,
+    "image": "https://a.1stdibscdn.com/new-magnificent-hermes-birkin-25-handbag-in-black-box-calf-leather-ghw-for-sale/v_14022/v_246372021732006486080/v_24637202_1732006486875_bg_processed.jpg",
+    "images": [
+      "https://a.1stdibscdn.com/new-magnificent-hermes-birkin-25-handbag-in-black-box-calf-leather-ghw-for-sale/v_14022/v_246372021732006486080/v_24637202_1732006486875_bg_processed.jpg",
+      "https://a.1stdibscdn.com/new-magnificent-hermes-birkin-25-handbag-in-black-box-calf-leather-ghw-for-sale-picture-5/v_14022/v_246372021732006518879/102176_3_master.jpg",
+      "https://a.1stdibscdn.com/new-magnificent-hermes-birkin-25-handbag-in-black-box-calf-leather-ghw-for-sale-picture-6/v_14022/v_246372021732006518573/102176_4_master.jpg",
+      "https://a.1stdibscdn.com/new-magnificent-hermes-birkin-25-handbag-in-black-box-calf-leather-ghw-for-sale-picture-7/v_14022/v_246372021732006519054/102176_5_master.jpg"
+    ],
+    "description": "Collector-level Hermès Birkin 25 in black Swift calf leather with gold-plated hardware, structured top handles, signature flap and lock system.",
+    "specifications": {
+      "brand": "Hermès",
+      "model": "Birkin 25",
+      "material": "Black Swift calf leather",
+      "hardware": "Gold-plated",
+      "dimensions": "25 x 20 x 13 cm",
+      "origin": "France",
+      "style": "Top Handle",
+      "condition": "New / Collector",
+      "authenticity": "Authenticity guaranteed"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "Hermès",
+    "brand_display_name": "Hermès"
+  },
+  {
+    "id": 318,
+    "name": "Hermès Kelly 25 — Black Togo Leather Gold Hardware",
+    "category": "accessories",
+    "retail price": 3758000,
+    "sale price": 3758000,
+    "image": "https://assets.voila.id/voila/images/product/hermes/1-product-H038416CC-89-xms-2023-07-20-16.05.jpg",
+    "images": [
+      "https://assets.voila.id/voila/images/product/hermes/1-product-H038416CC-89-xms-2023-07-20-16.05.jpg",
+      "https://ginzaxiaoma.com/_next/image?q=75&url=https%3A%2F%2Fimg.ginzaxiaoma.com%2Fimages%2F20250918%2Fc8da7c9c4b79c68c9d0d06f80be7a4d2.jpg&w=1920",
+      "https://ginzaxiaoma.com/_next/image?q=75&url=https%3A%2F%2Fimg.ginzaxiaoma.com%2Fimages%2F20250918%2Fcb884c89ec1e61e5376e23eaed0240d0.jpg&w=1920",
+      "https://ginzaxiaoma.com/_next/image?q=75&url=https%3A%2F%2Fimg.ginzaxiaoma.com%2Fimages%2F20250918%2F80e9c3e4ace99579752520d429cd19dd.jpg&w=1920"
+    ],
+    "description": "Iconic Hermès Kelly 25 in black Togo calfskin with gold hardware, top handle, structured flap and detachable shoulder strap.",
+    "specifications": {
+      "brand": "Hermès",
+      "model": "Kelly 25",
+      "material": "Black Togo calfskin",
+      "hardware": "Gold hardware",
+      "dimensions": "25 x 18 x 9.5 cm",
+      "origin": "France",
+      "style": "Top Handle / Shoulder",
+      "condition": "New / Collector",
+      "authenticity": "Authenticity guaranteed"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "Hermès",
+    "brand_display_name": "Hermès"
+  },
+  {
+    "id": 319,
+    "name": "Dior Medium Lady Dior Bag — Black Grained Cannage Calfskin",
+    "category": "accessories",
+    "retail price": 5900,
+    "sale price": 5900,
+    "image": "https://assets.christiandior.com/is/image/diorprod/M0565PWRTM900_E01?%24default_GHC%24=&bfc=on&crop=357%2C360%2C1197%2C1452&hei=2000&qlt=80&scale=0.875&wid=1850",
+    "images": [
+      "https://assets.christiandior.com/is/image/diorprod/M0565PWRTM900_E01?%24default_GHC%24=&bfc=on&crop=357%2C360%2C1197%2C1452&hei=2000&qlt=80&scale=0.875&wid=1850",
+      "https://assets.christiandior.com/is/image/diorprod/M0565PWRTM900_E03?%24default_GHC%24=&bfc=on&crop=448%2C404%2C1079%2C1376&hei=2000&qlt=80&scale=0.875&wid=1850",
+      "https://assets.christiandior.com/is/image/diorprod/M0565PWRTM900_E06?%24default_GHC%24=&bfc=on&crop=383%2C495%2C1201%2C1292&hei=2000&qlt=80&scale=0.875&wid=1850",
+      "https://assets.christiandior.com/is/image/diorprod/M0565PWRTM900_E07?%24default_GHC%24=&bfc=on&crop=751%2C175%2C521%2C1611&hei=2000&qlt=80&scale=0.875&wid=1850"
+    ],
+    "description": "Medium Lady Dior crafted in black grained calfskin with Cannage stitching, silver-finish D.I.O.R. charms and a removable shoulder strap.",
+    "specifications": {
+      "brand": "Dior",
+      "model": "Medium Lady Dior",
+      "material": "Black grained calfskin",
+      "lining": "Goatskin and calfskin",
+      "hardware": "Silver finish",
+      "dimensions": "24 x 21 x 12 cm",
+      "origin": "Italy",
+      "style": "Top Handle / Crossbody"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "Dior",
+    "brand_display_name": "Dior"
+  },
+  {
+    "id": 320,
+    "name": "Dior Saddle Bag with Strap — Black Goatskin",
+    "category": "accessories",
+    "retail price": 4700,
+    "sale price": 4700,
+    "image": "https://assets.christiandior.com/is/image/diorprod/M0455CCEHM900_E01?%24r4x5_default%24=&bfc=on&crop=307%2C102%2C1324%2C1864&hei=2000&qlt=80&scale=0.7&wid=1600",
+    "images": [
+      "https://assets.christiandior.com/is/image/diorprod/M0455CCEHM900_E01?%24r4x5_default%24=&bfc=on&crop=307%2C102%2C1324%2C1864&hei=2000&qlt=80&scale=0.7&wid=1600",
+      "https://assets.christiandior.com/is/image/diorprod/M0455CCEHM900_E08?%24r4x5_default%24=&bfc=on&crop=415%2C113%2C1173%2C1823&hei=2000&qlt=80&scale=0.7&wid=1600",
+      "https://assets.christiandior.com/is/image/diorprod/M0455CCEHM900_E03?%24r4x5_default%24=&bfc=on&crop=455%2C151%2C1091%2C1797&hei=2000&qlt=80&scale=0.7&wid=1600",
+      "https://assets.christiandior.com/is/image/diorprod/LOOK_F_23_4_LOOK_848_E15?%24r4x5_raw%24=&bfc=on&crop=568%2C0%2C1864%2C2000&hei=2000&qlt=80&scale=1&wid=1600"
+    ],
+    "description": "The iconic Dior Saddle bag in black goatskin with its signature D stirrup strap, antique gold-finish CD signatures and removable adjustable strap.",
+    "specifications": {
+      "brand": "Dior",
+      "model": "Saddle Bag with Strap",
+      "material": "Black goatskin",
+      "lining": "Goatskin",
+      "hardware": "Antique gold finish",
+      "dimensions": "25.5 x 20 x 6.5 cm",
+      "origin": "Italy",
+      "style": "Shoulder / Crossbody / Top Handle"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "Dior",
+    "brand_display_name": "Dior"
+  },
+  {
+    "id": 321,
+    "name": "Bottega Veneta Andiamo — Black Intrecciato Leather",
+    "category": "accessories",
+    "retail price": 5900,
+    "sale price": 5900,
+    "image": "https://bottega-veneta.dam.kering.com/m/484000fa2e0f6035/Medium-766016VCPP11139_A.jpg?v=3",
+    "images": [
+      "https://bottega-veneta.dam.kering.com/m/484000fa2e0f6035/Medium-766016VCPP11139_A.jpg?v=3",
+      "https://bottega-veneta.dam.kering.com/asset/b13ed2d8-b078-486d-b1e3-cab1a54b2f54/Medium/766016VCPP11139_B.jpg?v=3",
+      "https://bottega-veneta.dam.kering.com/m/1556a55741ba8df1/Medium-766016VCPP11139_C.jpg?v=3",
+      "https://bottega-veneta.dam.kering.com/m/12cbb3ed9d1da1c1/Medium-766016VCPP11139_D.jpg?v=3"
+    ],
+    "description": "Bottega Veneta Andiamo top-handle bag in black supple Intrecciato leather with signature knot detail and sliding cross-body strap.",
+    "specifications": {
+      "brand": "Bottega Veneta",
+      "model": "Andiamo",
+      "material": "Lambskin Intrecciato leather",
+      "lining": "Lambskin bonded Intrecciato",
+      "hardware": "Brass finish",
+      "dimensions": "25 x 32 x 11 cm",
+      "origin": "Italy",
+      "style": "Top Handle / Crossbody"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "Bottega Veneta",
+    "brand_display_name": "Bottega Veneta"
+  },
+  {
+    "id": 322,
+    "name": "Fendi Peekaboo ISeeU Medium — Black Calfskin",
+    "category": "accessories",
+    "retail price": 6600,
+    "sale price": 6600,
+    "image": "https://static.fendi.com/dam/is/image/fendi/8BN321A6V3F1CJZ_01?hash=25ccf3a6ee56522b477d12b30e330dd4-1976ad452ad&hei=1000&wid=1000",
+    "images": [
+      "https://static.fendi.com/dam/is/image/fendi/8BN321A6V3F1CJZ_01?hash=25ccf3a6ee56522b477d12b30e330dd4-1976ad452ad&hei=1000&wid=1000",
+      "https://static.fendi.com/dam/is/image/fendi/8BN321A6V3F1CJZ_02?hash=72a292f827b25109a1d8d6224fb5acb5-1976c293004&hei=1000&wid=1000",
+      "https://static.fendi.com/dam/is/image/fendi/8BN321A6V3F1CJZ_03?hash=a3f5d0dbf1dabcac9b9e540a372e3296-1976d74a225&hei=1000&wid=1000",
+      "https://static.fendi.com/dam/is/image/fendi/8BN321A6V3F1CJZ_04?hash=581b91aa0f3b25295e8d10f0bc026a96-1976ac7c409&hei=1000&wid=1000"
+    ],
+    "description": "Iconic Fendi Peekaboo ISeeU Medium in black calfskin with two compartments, twist locks and detachable shoulder strap.",
+    "specifications": {
+      "brand": "Fendi",
+      "model": "Peekaboo ISeeU Medium",
+      "material": "Black calfskin",
+      "lining": "Calfskin / lambskin",
+      "hardware": "Gold finish",
+      "dimensions": "25.5 x 13 x 33.5 cm",
+      "origin": "Italy",
+      "style": "Top Handle / Crossbody"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "Fendi",
+    "brand_display_name": "Fendi"
+  },
+  {
+    "id": 323,
+    "name": "Valentino Garavani Rockstud Spike Medium — Black Nappa Leather",
+    "category": "accessories",
+    "retail price": 3500,
+    "sale price": 3500,
+    "image": "https://valentino-cdn.thron.com/delivery/public/image/valentino/14150576-7af0-4093-9031-0b936744eb8b/ihqstx/std/500x0/Valentino-Garavani-Rockstud-Spike-Medium-Shoulder-Bag-In-Nappa-Leather-?format=auto&quality=80&size=35",
+    "images": [
+      "https://valentino-cdn.thron.com/delivery/public/image/valentino/14150576-7af0-4093-9031-0b936744eb8b/ihqstx/std/500x0/Valentino-Garavani-Rockstud-Spike-Medium-Shoulder-Bag-In-Nappa-Leather-?format=auto&quality=80&size=35",
+      "https://valentino-cdn.thron.com/delivery/public/image/valentino/856dffac-0a15-4bbb-9f62-7767b9bacdc0/ihqstx/std/500x0/Valentino-Garavani-Rockstud-Spike-Medium-Shoulder-Bag-In-Nappa-Leather-?format=auto&quality=80&size=35",
+      "https://valentino-cdn.thron.com/delivery/public/image/valentino/75fa2e47-5b69-4200-9b16-9e3788eba49e/ihqstx/std/500x0/Valentino-Garavani-Rockstud-Spike-Medium-Shoulder-Bag-In-Nappa-Leather-?format=auto&quality=80&size=35",
+      "https://valentino-cdn.thron.com/delivery/public/image/valentino/fddea0fb-dfd8-4c2c-a038-9e4d9e3aa33d/ihqstx/std/500x0/Valentino-Garavani-Rockstud-Spike-Medium-Shoulder-Bag-In-Nappa-Leather-?format=auto&quality=80&size=35"
+    ],
+    "description": "Medium Valentino Garavani Rockstud Spike in supple black Nappa lambskin with quilted construction, signature studs and detachable chain strap.",
+    "specifications": {
+      "brand": "Valentino Garavani",
+      "model": "Rockstud Spike Medium",
+      "material": "Black Nappa lambskin",
+      "lining": "Nappa",
+      "hardware": "Platinum finish",
+      "dimensions": "24 x 16 x 7 cm",
+      "origin": "Italy",
+      "style": "Shoulder / Crossbody"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "Valentino Garavani",
+    "brand_display_name": "Valentino"
+  },
+  {
+    "id": 324,
+    "name": "CHANEL Classic 11.12 Handbag — Black Lambskin Gold-Tone Metal",
+    "category": "accessories",
+    "retail price": 11700,
+    "sale price": 11700,
+    "image": "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83439605.jpg%203200w",
+    "images": [
+      "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83439605.jpg%203200w",
+      "https://www.chanel.com/images/as///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83152322.jpg%203200w",
+      "https://www.chanel.com/images/as///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83152333.jpg%203200w",
+      "https://www.chanel.com/images/as///f_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83152332.jpg%203200w"
+    ],
+    "description": "CHANEL Classic 11.12 handbag in black lambskin with gold-tone metal, quilted construction and iconic CC turn-lock.",
+    "specifications": {
+      "brand": "CHANEL",
+      "model": "Classic 11.12",
+      "material": "Black lambskin",
+      "hardware": "Gold-tone metal",
+      "dimensions": "6.1 x 10 x 2.6 in",
+      "reference": "A01112-B25747-94305",
+      "style": "Classic Flap"
+    },
+    "productType": "Handbag",
+    "inventory": 1,
+    "age_group": "Adult",
+    "gender": "Women",
+    "brand": "CHANEL",
+    "brand_display_name": "CHANEL"
+  }
+
 ]
