@@ -8616,7 +8616,7 @@ window.products = [
     "name": "Women's Chloe Handbag",
     "category": "accessories",
     "retail price": 2999.99,
-    "sale price": 1129.99,
+    "sale price": 1199.99,
     "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_4103480_100168_m",
     "description": "A redefined leather handbag from Chloe with a structured silhouette and spacious compartments.",
     "images": [
