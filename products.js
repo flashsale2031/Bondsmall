@@ -7042,18 +7042,6 @@ window.products = [
     "age_group": "Adult",
     "gender": "Women"
 
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Celine",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": "not_found_in_catalog",
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
   },
   {
     "id": 318,
@@ -7463,18 +7451,7 @@ window.products = [
     "pre-owned price": 499.99,
     "age_group": "Adult",
     "gender": "Women"
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Yves Saint Laurent",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": "not_found_in_catalog",
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
   },
   {
     "id": 332,
@@ -7595,18 +7572,7 @@ window.products = [
     "inventory": 100,
     "age_group": "Adult",
     "gender": "Women"
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Versace",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": "not_found_in_catalog",
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
   },
   {
     "id": 336,
@@ -7670,18 +7636,7 @@ window.products = [
     "productType": "Travel Bag",
     "age_group": "Adult",
     "gender": "Men"
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Nike",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": "not_found_in_catalog",
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
   },
   {
     "id": 338,
