@@ -2,8 +2,11 @@
   'use strict';
   const PRODUCT_ID = 114;
   const IMAGES = [
-    'assets/gold-coins/114/liberty-2025-obverse.webp',
-    'assets/gold-coins/114/liberty-2025-reverse.webp'
+    'assets/gold-coins/114/front-obverse.webp',
+    'assets/gold-coins/114/left-oblique.webp',
+    'assets/gold-coins/114/right-oblique.webp',
+    'assets/gold-coins/114/back-reverse.webp',
+    'assets/gold-coins/114/overhead-presentation.webp'
   ];
   const referenceSources = [
     'https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin',
@@ -20,14 +23,17 @@
       images: IMAGES.slice(),
       image_views: {
         front_main: 'images[0]',
-        back: 'images[1]'
+        left_side: 'images[1]',
+        right_side: 'images[2]',
+        back: 'images[3]',
+        overhead: 'images[4]'
       },
-      photo_display: 'Obverse and reverse',
-      photo_source: 'Official U.S. Mint 2025 obverse and reverse product photos; locally optimized and stored.',
+      photo_display: 'Front, left side, right side, back, and overhead presentation',
+      photo_source: 'Official U.S. Mint 2025 obverse/reverse product photos plus three Bonds Mall generated supplemental views based on the verified coin and packaging references.',
       photo_year: 2025,
       photo_is_representative: false,
-      image_quality_status: 'Verified year-specific obverse/reverse product images; local optimized WebP',
-      image_note: 'Official U.S. Mint 2025 sunflower-and-bee obverse and eagle reverse images; product cards and gallery use these local assets.',
+      image_quality_status: 'Five-view local WebP gallery: two verified U.S. Mint photos and three generated supplemental views',
+      image_note: 'Front/obverse and back/reverse are verified U.S. Mint product photos. Left/right oblique and overhead presentation views are generated from the verified designs and dealer packaging references; they are clearly supplemental and not represented as official Mint photographs.',
       image_reference_sources: referenceSources
     };
   };
