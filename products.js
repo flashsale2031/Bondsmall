@@ -13426,6 +13426,18 @@ window.products = [
     ],
     "description":"Gucci Borsetto medium shoulder bag in supple black leather with Horsebit hardware, Web stripe, top handles and detachable adjustable shoulder strap.",
     "specifications":{"brand":"Gucci","model":"Borsetto Medium","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder / Crossbody"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Gucci",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
@@ -13440,6 +13452,18 @@ window.products = [
     ],
     "description":"Gucci Paparazzo medium tote in black leather with Horsebit hardware, green-and-red Web stripe, structured top handle and detachable shoulder strap.",
     "specifications":{"brand":"Gucci","model":"Paparazzo Medium","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Gucci",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
@@ -13454,6 +13478,18 @@ window.products = [
     ],
     "description":"Gucci Jackie Slim medium shoulder bag in black leather with the signature piston closure, curved silhouette and detachable belt.",
     "specifications":{"brand":"Gucci","model":"Jackie Slim Medium","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Shoulder Bag"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Gucci",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
@@ -13468,6 +13504,18 @@ window.products = [
     ],
     "description":"Gucci Brera medium crossbody in black soft grainy leather with silver-toned hardware, detachable handle and signature Web strap.",
     "specifications":{"brand":"Gucci","model":"Brera Medium","material":"Black grainy leather","hardware":"Silver-toned","origin":"Italy","style":"Crossbody / Shoulder"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Gucci",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
@@ -13482,6 +13530,18 @@ window.products = [
     ],
     "description":"Gucci Giglio large tote in glossy black leather with Web trim, Double G hardware, removable pouch and spacious GG-lined interior.",
     "specifications":{"brand":"Gucci","model":"Giglio Large","material":"Black leather","hardware":"Light gold-toned","origin":"Italy","style":"Tote"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Gucci",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
@@ -13496,6 +13556,18 @@ window.products = [
     ],
     "description":"Gucci Giglio small tote in black GG canvas with leather trim, Web stripe, Double G detail and detachable shoulder strap.",
     "specifications":{"brand":"Gucci","model":"Giglio Small","material":"GG canvas and leather","hardware":"Gold-toned","origin":"Italy","style":"Tote / Shoulder"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Gucci",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
@@ -13510,6 +13582,18 @@ window.products = [
     ],
     "description":"Lady Lunetta Chain small shoulder bag in black perforated GG leather with gold chain, Double G zip detail and adjustable leather strap.",
     "specifications":{"brand":"Gucci","model":"Lady Lunetta Chain Small","material":"Black perforated GG leather","hardware":"Gold-toned","origin":"Italy","style":"Shoulder / Crossbody"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Gucci",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
@@ -13524,6 +13608,18 @@ window.products = [
     ],
     "description":"Lady Lunetta small shoulder bag in washed black GG denim with black leather trim, Gucci plaque and detachable adjustable strap.",
     "specifications":{"brand":"Gucci","model":"Lady Lunetta Small","material":"Black GG denim","hardware":"Palladium-toned","origin":"Italy","style":"Shoulder / Crossbody"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Gucci",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
@@ -13538,6 +13634,18 @@ window.products = [
     ],
     "description":"Ophidia medium Boston bag in black pebbled leather with green-red Web stripe, GG hardware, top handles and detachable shoulder strap.",
     "specifications":{"brand":"Gucci","model":"Ophidia Medium Boston","material":"Black pebbled leather","hardware":"Gold-toned","style":"Boston / Crossbody"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Gucci",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
@@ -13552,6 +13660,18 @@ window.products = [
     ],
     "description":"Borsetto medium Boston bag in black soft leather with Horsebit, Web, Diamante lining and detachable adjustable strap.",
     "specifications":{"brand":"Gucci","model":"Borsetto Medium Boston","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Boston / Crossbody"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Gucci",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
@@ -13566,6 +13686,18 @@ window.products = [
     ],
     "description":"Horsebit Duomo medium top handle bag in glossy black leather with emblematic Horsebit hardware, top handle and detachable strap.",
     "specifications":{"brand":"Gucci","model":"Horsebit Duomo Medium","material":"Black glossy leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder / Crossbody"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Gucci",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
@@ -13580,6 +13712,18 @@ window.products = [
     ],
     "description":"Horsebit Duomo small top handle bag in glossy black leather with Horsebit hardware, top handle and adjustable detachable strap.",
     "specifications":{"brand":"Gucci","model":"Horsebit Duomo Small","material":"Black glossy leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder / Crossbody"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Gucci",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
@@ -13594,6 +13738,18 @@ window.products = [
     ],
     "description":"Celine Small Flair in black grained calfskin with Triomphe turn-lock, removable strap and structured top handle.",
     "specifications":{"brand":"Celine","model":"Small Flair","material":"Grained calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"L10BF5C12.38NO","style":"Top Handle / Shoulder / Crossbody"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Celine",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "L10BF5C12.38NO",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
@@ -13608,6 +13764,18 @@ window.products = [
     ],
     "description":"Celine Small Flair in chestnut shiny calfskin with gold-finish Triomphe turn-lock and removable strap.",
     "specifications":{"brand":"Celine","model":"Small Flair","material":"Shiny calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"L10BF5B53.18CH","style":"Top Handle / Shoulder / Crossbody"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Celine",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "L10BF5B53.18CH",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
@@ -13622,6 +13790,18 @@ window.products = [
     ],
     "description":"Soft Triomphe bucket in Syrah shiny lambskin with Triomphe magnetic closure, suede calfskin lining and adjustable strap.",
     "specifications":{"brand":"Celine","model":"Soft Triomphe Bucket","material":"Shiny lambskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L102S3J15.28PO","style":"Bucket / Shoulder / Crossbody"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Celine",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "L102S3J15.28PO",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
@@ -13636,6 +13816,18 @@ window.products = [
     ],
     "description":"Soft Triomphe Little Halfmoon in white cotton shiny lambskin with Triomphe magnetic closure and adjustable strap.",
     "specifications":{"brand":"Celine","model":"Soft Triomphe Little Halfmoon","material":"Shiny lambskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L10373778.00WC","style":"Shoulder / Slingback"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Celine",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "L10373778.00WC",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
@@ -13650,6 +13842,18 @@ window.products = [
     ],
     "description":"Teen Nino in supple Safari grained calfskin with Triomphe metallic closure, two compartments and removable adjustable strap.",
     "specifications":{"brand":"Celine","model":"Teen Nino","material":"Supple grained calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"118113FXK.03SA","style":"Top Handle / Shoulder / Crossbody"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Celine",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "118113FXK.03SA",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
@@ -13664,6 +13868,18 @@ window.products = [
     ],
     "description":"Small Hobo in Rice supple smooth calfskin with suede calfskin lining, gold finishing and removable adjustable strap.",
     "specifications":{"brand":"Celine","model":"Small Hobo","material":"Supple smooth calfskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L10133Q71.01RC","style":"Hobo / Crossbody"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Celine",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "L10133Q71.01RC",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
@@ -13678,6 +13894,18 @@ window.products = [
     ],
     "description":"Drop Bucket in multicolor smooth calfskin with suede lining, gold finishing and signature sliding Triomphe ball detail.",
     "specifications":{"brand":"Celine","model":"Drop Bucket","material":"Smooth calfskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L102H3J23.14ML","style":"Bucket / Shoulder"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Celine",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "L102H3J23.14ML",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
@@ -13692,6 +13920,18 @@ window.products = [
     ],
     "description":"Celine Flair in black grained calfskin with double-zip closure, Triomphe turn-lock, structured handle and removable strap.",
     "specifications":{"brand":"Celine","model":"Flair","material":"Grained calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"L10AT5C12.38NO","style":"Top Handle / Shoulder / Crossbody"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Celine",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "L10AT5C12.38NO",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
@@ -13706,6 +13946,18 @@ window.products = [
     ],
     "description":"Celine Luggage in black grained calfskin with spacious interior, removable adjustable strap and twin handles.",
     "specifications":{"brand":"Celine","model":"Luggage","material":"Grained calfskin","lining":"Suede calfskin","reference":"L108K3056.38NO","style":"Top Handle / Shoulder / Crossbody"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Celine",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "L108K3056.38NO",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
@@ -13720,6 +13972,18 @@ window.products = [
     ],
     "description":"Soft Triomphe Besace in black supple shiny lambskin with Triomphe magnetic closure, suede lining and adjustable strap.",
     "specifications":{"brand":"Celine","model":"Soft Triomphe Besace","material":"Supple shiny lambskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"123632T88.38NO","style":"Shoulder / Crossbody"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Celine",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "123632T88.38NO",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
@@ -13734,6 +13998,18 @@ window.products = [
     ],
     "description":"Small Dior Médaillon Bucket bag in black grained calfskin with adjustable strap, signature Médaillon detail and detachable Dior Oblique jacquard pouch.",
     "specifications":{"brand":"Dior","model":"Dior Médaillon Bucket Small","reference":"M1531QUQW_M900","material":"Grained calfskin","lining":"Goatskin and calfskin","hardware":"Gold-tone","origin":"Italy","dimensions":"19 x 18 x 12.5 cm","style":"Bucket / Shoulder"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Dior",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "M1531QUQW_M900",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior"
   },
   {
@@ -13748,6 +14024,18 @@ window.products = [
     ],
     "description":"Medium Dior Médaillon Bucket bag in black grained calfskin with adjustable strap, signature Médaillon detail and detachable Dior Oblique jacquard pouch.",
     "specifications":{"brand":"Dior","model":"Dior Médaillon Bucket Medium","reference":"M1532QUQW_M900","material":"Grained calfskin","lining":"Goatskin and calfskin","hardware":"Gold-tone","origin":"Italy","dimensions":"26.5 x 26 x 15 cm","style":"Bucket / Shoulder"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Dior",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "M1532QUQW_M900",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior"
   },
   {
@@ -13762,6 +14050,18 @@ window.products = [
     ],
     "description":"Small Dior Promenade Flap bag in black flat Cannage calfskin with slender handles and refined Dior bow detailing.",
     "specifications":{"brand":"Dior","model":"Small Dior Promenade Flap","material":"Flat Cannage calfskin","hardware":"Gold-tone","origin":"Italy","style":"Top Handle / Shoulder"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Dior",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": not_found_in_catalog,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior"
   },
   {
@@ -13770,6 +14070,18 @@ window.products = [
     "images":["https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw1c0e9421/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1F.jpg?q=100&sw=750","https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw3ec25a4a/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1P.jpg?q=100&sw=750","https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw1d8eb63a/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1Q.jpg?q=100&sw=750","https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dwce2cba2e/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1R.jpg?q=100&sw=750"],
     "description":"Loewe Mini Amazona 180 in black soft calfskin with signature toron top handle, concealed closure and removable shoulder/crossbody straps.",
     "specifications":{"brand":"Loewe","model":"Mini Amazona 180","material":"Soft calfskin","color":"Black","reference":"A039AS4X12-1100","style":"Top Handle / Shoulder / Crossbody"},
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Loewe",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": "A039AS4X12-1100",
+      "mpn_status": manufacturer_reference_present_verify,
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing." 
+    },
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Loewe","brand_display_name":"Loewe"
   },
 
