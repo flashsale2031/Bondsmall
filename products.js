@@ -6474,18 +6474,7 @@ window.products = [
       "sizes_available": "S, M, L, XL",
       "care_instructions": "Machine wash cold, tumble dry low",
       "country_of_origin": "Italy",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Gucci",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Men",
       "style": "Casual / Designer",
       "season": "All Season"
@@ -6516,18 +6505,7 @@ window.products = [
       "sizes_available": "S, M, L, XL",
       "care_instructions": "Dry clean only",
       "country_of_origin": "Italy",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Gucci",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Men",
       "style": "Luxury Outerwear",
       "season": "Winter / Fall"
@@ -6561,18 +6539,7 @@ window.products = [
       "closure_type": "Zip closure",
       "strap_type": "Detachable leather shoulder strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Gucci",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Men",
       "brand_origin": "Italy"
     },
@@ -6603,18 +6570,7 @@ window.products = [
       "closure_type": "Bi-fold",
       "strap_type": "N/A",
       "color_options": "Black, Brown",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Gucci",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Men",
       "brand_origin": "Italy"
     },
@@ -6646,18 +6602,7 @@ window.products = [
       "closure_type": "Buckle closure",
       "strap_type": "N/A",
       "color_options": "Black / Gold",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Gucci",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Men",
       "brand_origin": "Italy"
     },
@@ -6688,18 +6633,7 @@ window.products = [
       "water_resistance": "100 meters (10 ATM)",
       "movement": "Swiss Automatic Mechanical",
       "chain_length": "N/A",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Gucci",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Men",
       "warranty": "5 Year Manufacturer Warranty"
     },
@@ -6728,18 +6662,7 @@ window.products = [
       "sizes_available": "S, M, L, XL",
       "care_instructions": "Machine wash cold",
       "country_of_origin": "Italy",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Gucci",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Men"
     },
     "sku": "BM-0067",
@@ -6766,18 +6689,7 @@ window.products = [
       "sizes_available": "S, M, L, XL",
       "care_instructions": "Machine wash cold",
       "country_of_origin": "Italy",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Gucci",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Men"
     },
     "sku": "BM-0068",
@@ -6806,18 +6718,7 @@ window.products = [
       "sizes_available": "S, M, L, XL",
       "care_instructions": "Dry clean only",
       "country_of_origin": "Italy",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Gucci",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Men",
       "style": "Designer Knitwear",
       "season": "Winter / Fall"
@@ -6847,18 +6748,7 @@ window.products = [
       "sizes_available": "S, M, L, XL",
       "care_instructions": "Machine wash cold",
       "country_of_origin": "Italy",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Gucci",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Men",
       "style": "Casual / Summer",
       "season": "Summer"
@@ -6887,18 +6777,7 @@ window.products = [
       "sizes_available": "S, M, L, XL",
       "care_instructions": "Machine wash cold",
       "country_of_origin": "Italy",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Gucci",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Men",
       "style": "Casual / Summer",
       "season": "Summer"
@@ -6930,18 +6809,7 @@ window.products = [
       "sizes_available": "S, M, L, XL",
       "care_instructions": "Machine wash cold, tumble dry low",
       "country_of_origin": "Italy",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Gucci",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Men",
       "style": "Casual / Designer",
       "season": "All Season"
@@ -6973,18 +6841,7 @@ window.products = [
       "sizes_available": "S, M, L, XL",
       "care_instructions": "Dry clean only",
       "country_of_origin": "Italy",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Gucci",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Men",
       "style": "Luxury Outerwear",
       "season": "Winter / Fall"
@@ -7013,18 +6870,7 @@ window.products = [
       "sizes_available": "S, M, L, XL",
       "care_instructions": "Machine wash cold, tumble dry low",
       "country_of_origin": "Italy",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Gucci",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Women",
       "style": "Casual / Designer",
       "season": "All Season"
@@ -7056,18 +6902,7 @@ window.products = [
       "sizes_available": "S, M, L, XL",
       "care_instructions": "Machine wash cold, tumble dry low",
       "country_of_origin": "Imported",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Burberry",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Women",
       "style": "Casual / Designer",
       "season": "All Season"
@@ -7163,18 +6998,7 @@ window.products = [
       "closure_type": "Chain latch closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Burberry",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Women",
       "brand_origin": "Italy"
     },
@@ -7183,18 +7007,7 @@ window.products = [
     "inventory": 100,
     "age_group": "Adult",
     "gender": "Women"
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Burberry",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
   },
   {
     "id": 317,
@@ -7219,18 +7032,7 @@ window.products = [
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Celine",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Women",
       "brand_origin": "Italy"
     },
@@ -7239,6 +7041,7 @@ window.products = [
     "inventory": 100,
     "age_group": "Adult",
     "gender": "Women"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -7247,7 +7050,7 @@ window.products = [
       "brand_owner": "Celine",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -7401,18 +7204,7 @@ window.products = [
       "sizes_available": "S, M, L, XL",
       "care_instructions": "Dry clean only",
       "country_of_origin": "Italy",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Coach",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Women",
       "style": "Luxury Outerwear",
       "season": "Winter / Fall"
@@ -7445,18 +7237,7 @@ window.products = [
       "sizes_available": "US 7, 8, 9, 10, 11",
       "care_instructions": "Specialist leather or suede cleaner",
       "country_of_origin": "Italy",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Guess",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Men"
     },
     "sku": "BM-0087",
@@ -7487,18 +7268,7 @@ window.products = [
       "scent_notes": "Grapefruit, Wood, Mineral Accord",
       "concentration": "Cologne",
       "country_of_origin": "France",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Hermés",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Men"
     },
     "sku": "BM-0088",
@@ -7529,18 +7299,7 @@ window.products = [
       "sizes_available": "S, M, L, XL",
       "care_instructions": "Machine wash cold, tumble dry low",
       "country_of_origin": "Italy",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Lacoste",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Men",
       "style": "Casual / Designer",
       "season": "All Season"
@@ -7574,18 +7333,7 @@ window.products = [
       "water_resistance": "100 meters (10 ATM)",
       "movement": "Swiss Automatic Mechanical",
       "chain_length": "N/A",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Patek Philippe",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Men",
       "warranty": "5 Year Manufacturer Warranty"
     },
@@ -7668,18 +7416,7 @@ window.products = [
       "sizes_available": "S, M, L, XL",
       "care_instructions": "Dry clean only",
       "country_of_origin": "Italy",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Burberry",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Women",
       "style": "Luxury Outerwear",
       "season": "Winter / Fall"
@@ -7718,18 +7455,7 @@ window.products = [
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Yves Saint Laurent",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Women",
       "brand_origin": "Italy"
     },
@@ -7737,6 +7463,18 @@ window.products = [
     "pre-owned price": 499.99,
     "age_group": "Adult",
     "gender": "Women"
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Yves Saint Laurent",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": "not_found_in_catalog",
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 332,
@@ -7760,18 +7498,7 @@ window.products = [
       "sizes_available": "S, M, L, XL",
       "care_instructions": "Machine wash cold, tumble dry low",
       "country_of_origin": "Italy",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Gucci",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Men",
       "style": "Casual / Designer",
       "season": "All Season"
@@ -7800,18 +7527,7 @@ window.products = [
       "material": "18K Gold Plated Brass",
       "water_resistance": "Water Resistant",
       "chain_length": "7.5 inches",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Hermés",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Women",
       "warranty": "1 Year Limited Warranty"
     },
@@ -7872,7 +7588,14 @@ window.products = [
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gs1": {
+
+    "gender": "Women",
+      "brand_origin": "Italy"
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+    "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
       "verification_service": "Verified by GS1",
@@ -7880,16 +7603,10 @@ window.products = [
       "brand_owner": "Versace",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "gender": "Women",
-      "brand_origin": "Italy"
-    },
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
   },
   {
     "id": 336,
@@ -7916,18 +7633,7 @@ window.products = [
       "sizes_available": "US 7, 8, 9, 10, 11",
       "care_instructions": "Specialist leather or suede cleaner",
       "country_of_origin": "Italy",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Versace",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Men"
     },
     "inventory": 100,
@@ -7957,7 +7663,14 @@ window.products = [
       "closure_type": "Zip closure",
       "strap_type": "Detachable leather shoulder strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gs1": {
+
+    "gender": "Men",
+      "brand_origin": "Italy"
+    },
+    "productType": "Travel Bag",
+    "age_group": "Adult",
+    "gender": "Men"
+    "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
       "verification_service": "Verified by GS1",
@@ -7965,16 +7678,10 @@ window.products = [
       "brand_owner": "Nike",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "gender": "Men",
-      "brand_origin": "Italy"
-    },
-    "productType": "Travel Bag",
-    "age_group": "Adult",
-    "gender": "Men"
   },
   {
     "id": 338,
@@ -7999,7 +7706,14 @@ window.products = [
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gs1": {
+
+    "gender": "Women",
+      "brand_origin": "Paris"
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+    "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
       "verification_service": "Verified by GS1",
@@ -8007,16 +7721,10 @@ window.products = [
       "brand_owner": "Hermés",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "gender": "Women",
-      "brand_origin": "Paris"
-    },
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
   },
   {
     "id": 339,
@@ -8050,7 +7758,14 @@ window.products = [
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gs1": {
+
+    "gender": "Women",
+      "brand_origin": "Italy"
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+    "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
       "verification_service": "Verified by GS1",
@@ -8058,16 +7773,10 @@ window.products = [
       "brand_owner": "Yves Saint Laurent",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "gender": "Women",
-      "brand_origin": "Italy"
-    },
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
   },
   {
     "id": 340,
@@ -8091,18 +7800,7 @@ window.products = [
       "sizes_available": "S, M, L, XL",
       "care_instructions": "Dry clean only",
       "country_of_origin": "Italy",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Chanel",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Women",
       "style": "Designer Knitwear",
       "season": "Winter / Fall"
@@ -8134,18 +7832,7 @@ window.products = [
       "sizes_available": "S, M, L, XL",
       "care_instructions": "Dry clean only",
       "country_of_origin": "Italy",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Givenchy",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Men",
       "style": "Designer Knitwear",
       "season": "Winter / Fall"
@@ -8287,7 +7974,14 @@ window.products = [
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gs1": {
+
+    "gender": "Men",
+      "brand_origin": "USA"
+    },
+    "pre-owned price": 499.99,
+    "age_group": "Adult",
+    "gender": "Men"
+    "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
       "verification_service": "Verified by GS1",
@@ -8295,16 +7989,10 @@ window.products = [
       "brand_owner": "MCM",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "gender": "Men",
-      "brand_origin": "USA"
-    },
-    "pre-owned price": 499.99,
-    "age_group": "Adult",
-    "gender": "Men"
   },
   {
     "id": 347,
@@ -8354,18 +8042,7 @@ window.products = [
       "sizes_available": "US 7, 8, 9, 10, 11",
       "care_instructions": "Specialist leather or suede cleaner",
       "country_of_origin": "Italy",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Chanel",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Women"
     },
     "inventory": 100,
@@ -8394,18 +8071,7 @@ window.products = [
       "sizes_available": "S, M, L, XL",
       "care_instructions": "Machine wash cold, tumble dry low",
       "country_of_origin": "Imported",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Abercrombie & Fitch",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Men",
       "style": "Casual / Designer",
       "season": "All Season"
@@ -8439,18 +8105,7 @@ window.products = [
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Nero (Black)",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Ferragamo",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Women",
       "brand_origin": "Italy"
     },
@@ -8485,18 +8140,7 @@ window.products = [
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Christian Louboutin",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Men",
       "brand_origin": "Italy"
     },
@@ -8504,6 +8148,18 @@ window.products = [
     "pre-owned price": 999.99,
     "age_group": "Adult",
     "gender": "Women"
+    "gs1": {
+      "gtin": null,
+      "gtin_status": "not_verified",
+      "verification_service": "Verified by GS1",
+      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
+      "brand_owner": "Christian Louboutin",
+      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
+      "mpn": null,
+      "mpn_status": "not_found_in_catalog",
+      "identifier_source": "manufacturer_or_GS1_required",
+      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
+    },
   },
   {
     "id": 352,
@@ -8581,18 +8237,7 @@ window.products = [
       "sizes_available": "S, M, L, XL",
       "care_instructions": "Dry clean only",
       "country_of_origin": "Italy",
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Tommy Hilfiger",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "gender": "Women",
       "style": "Luxury Outerwear",
       "season": "Winter / Fall"
@@ -8629,7 +8274,14 @@ window.products = [
       "closure_type": "Magnetic flap closure",
       "strap_type": "Adjustable chain crossbody strap",
       "color_options": "Black, Brown, Tan, Cream",
-      "gs1": {
+
+    "gender": "Women",
+      "brand_origin": "USA"
+    },
+    "inventory": 100,
+    "age_group": "Adult",
+    "gender": "Women"
+    "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
       "verification_service": "Verified by GS1",
@@ -8637,16 +8289,10 @@ window.products = [
       "brand_owner": "Coach",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
-    "gender": "Women",
-      "brand_origin": "USA"
-    },
-    "inventory": 100,
-    "age_group": "Adult",
-    "gender": "Women"
   },
   {
     "id": 356,
@@ -9121,18 +8767,7 @@ window.products = [
     "pre-owned price": 899.99,
     "age_group": "Adult",
     "gender": "Women"
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Chloe",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
   },
   {
     "id": 373,
@@ -9380,18 +9015,7 @@ window.products = [
     "inventory": 100,
     "age_group": "Adult",
     "gender": "Women"
-    "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Louis Vuitton",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": null,
-      "mpn_status": not_found_in_catalog,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
   },
   {
     "id": 148,
@@ -9670,6 +9294,7 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -9678,7 +9303,7 @@ window.products = [
       "brand_owner": "CHANEL",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "AS6522-B26737-94305",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -9727,6 +9352,7 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -9735,7 +9361,7 @@ window.products = [
       "brand_owner": "CHANEL",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "AS1160-B04852-94305",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -9783,6 +9409,7 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -9791,7 +9418,7 @@ window.products = [
       "brand_owner": "CHANEL",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "A67086-Y09953-94305",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -9840,6 +9467,7 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -9848,7 +9476,7 @@ window.products = [
       "brand_owner": "CHANEL",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "A01112-B25747-94305",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -9899,6 +9527,7 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -9907,7 +9536,7 @@ window.products = [
       "brand_owner": "CHANEL",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "AS3261-B19059-94305",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -9958,6 +9587,7 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -9966,7 +9596,7 @@ window.products = [
       "brand_owner": "CHANEL",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "AS3260-B19059-94305",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -10019,6 +9649,7 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -10027,7 +9658,7 @@ window.products = [
       "brand_owner": "CHANEL",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "AS5293-B20304-94305",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -10077,6 +9708,7 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace’s required authentication checks."
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -10085,7 +9717,7 @@ window.products = [
       "brand_owner": "CHANEL",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "AP4241-Y01480-C3906",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -10144,6 +9776,7 @@ window.products = [
       "right_side": "images[3]",
       "overhead": "images[4]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -10152,7 +9785,7 @@ window.products = [
       "brand_owner": "Saint Laurent",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "821749-AAE4Y-1000",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -10211,6 +9844,7 @@ window.products = [
       "right_side": "images[3]",
       "overhead": "images[4]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -10219,7 +9853,7 @@ window.products = [
       "brand_owner": "Saint Laurent",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "600279-BRM07-1000",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -10277,6 +9911,7 @@ window.products = [
       "right_side": "images[3]",
       "overhead": "images[4]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -10285,7 +9920,7 @@ window.products = [
       "brand_owner": "Saint Laurent",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "850533-AAAUQ-1000",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -10345,6 +9980,7 @@ window.products = [
       "right_side": "images[3]",
       "overhead": "images[4]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -10353,7 +9989,7 @@ window.products = [
       "brand_owner": "Saint Laurent",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "851432-AAGWJ-1000",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -10407,6 +10043,7 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks."
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -10415,7 +10052,7 @@ window.products = [
       "brand_owner": "Louis Vuitton",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "M3A865",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -10470,6 +10107,7 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks."
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -10478,7 +10116,7 @@ window.products = [
       "brand_owner": "Louis Vuitton",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "M29904",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -10537,6 +10175,7 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks."
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -10545,7 +10184,7 @@ window.products = [
       "brand_owner": "Louis Vuitton",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "M2A184",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -10601,6 +10240,7 @@ window.products = [
     "authenticityGuaranteed": true,
     "authenticity_badge": "Authenticity Guaranteed",
     "authenticity": "Authenticity Guaranteed badge displayed by Bonds Mall; apply only when the item has passed the marketplace's required authentication checks."
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -10609,7 +10249,7 @@ window.products = [
       "brand_owner": "Louis Vuitton",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "M2A335",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -10681,6 +10321,7 @@ window.products = [
         "images[6]"
       ]
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -10689,7 +10330,7 @@ window.products = [
       "brand_owner": "Louis Vuitton",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "M46990",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -10757,6 +10398,7 @@ window.products = [
         "images[5]"
       ]
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -10765,7 +10407,7 @@ window.products = [
       "brand_owner": "Louis Vuitton",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "N40575",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -10836,6 +10478,7 @@ window.products = [
         "images[6]"
       ]
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -10844,7 +10487,7 @@ window.products = [
       "brand_owner": "Louis Vuitton",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "M44876",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -10913,6 +10556,7 @@ window.products = [
         "images[5]"
       ]
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -10921,7 +10565,7 @@ window.products = [
       "brand_owner": "Louis Vuitton",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "M2A096",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -10979,6 +10623,7 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -10987,7 +10632,7 @@ window.products = [
       "brand_owner": "CHANEL",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "AS1160-B04852-94305",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -11045,6 +10690,7 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -11053,7 +10699,7 @@ window.products = [
       "brand_owner": "CHANEL",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "AS1161-B04852-94305",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -11111,6 +10757,7 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -11119,7 +10766,7 @@ window.products = [
       "brand_owner": "CHANEL",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "AS1162-B04852-94305",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -11169,18 +10816,7 @@ window.products = [
         "retail_price_source": "Saint Laurent U.S. official product page",
         "source": "https://www.ysl.com/en-us/pr/solferino-small-top-handle-in-box-saint-laurent-A002L50SX0W1000.html"
       },
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Saint Laurent",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "A002L50SX0W1000",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "productType": "Handbag",
       "inventory": 1,
       "age_group": "Adult",
@@ -11242,18 +10878,7 @@ window.products = [
         "retail_price_source": "Saint Laurent U.S. official product page",
         "source": "https://www.ysl.com/en-us/pr/simone-large-in-soft-leather-A00FMTAAHXH1000.html"
       },
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Saint Laurent",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "A00FMTAAHXH1000",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "productType": "Handbag",
       "inventory": 1,
       "age_group": "Adult",
@@ -11316,18 +10941,7 @@ window.products = [
         "retail_price_source": "Saint Laurent U.S. official product page",
         "source": "https://www.ysl.com/en-us/pr/sac-de-jour-thin-large-in-grained-leather-810299308.html"
       },
-      "gs1": {
-      "gtin": null,
-      "gtin_status": "not_verified",
-      "verification_service": "Verified by GS1",
-      "verification_url": "https://www.gs1.org/services/verified-by-gs1",
-      "brand_owner": "Saint Laurent",
-      "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
-      "mpn": "631526DTI0W1000",
-      "mpn_status": manufacturer_reference_present_verify,
-      "identifier_source": "manufacturer_or_GS1_required",
-      "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
-    },
+
     "productType": "Handbag",
       "inventory": 1,
       "age_group": "Adult",
@@ -11410,6 +11024,7 @@ window.products = [
         "images[4]"
       ]
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -11418,7 +11033,7 @@ window.products = [
       "brand_owner": "Louis Vuitton",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "M46311",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -11489,6 +11104,7 @@ window.products = [
         "images[6]"
       ]
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -11497,7 +11113,7 @@ window.products = [
       "brand_owner": "Louis Vuitton",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "M58953",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -11562,6 +11178,7 @@ window.products = [
         "images[4]"
       ]
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -11570,7 +11187,7 @@ window.products = [
       "brand_owner": "Louis Vuitton",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "M81085",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -11627,6 +11244,7 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -11635,7 +11253,7 @@ window.products = [
       "brand_owner": "CHANEL",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "AS5553-B20304-94305",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -11694,6 +11312,7 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -11702,7 +11321,7 @@ window.products = [
       "brand_owner": "CHANEL",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "AS3980-B19059-94305",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -11761,6 +11380,7 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -11769,7 +11389,7 @@ window.products = [
       "brand_owner": "CHANEL",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "AS0874-Y04634-94305",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -11830,6 +11450,7 @@ window.products = [
       "back": "images[2]",
       "overhead": "images[1]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -11838,7 +11459,7 @@ window.products = [
       "brand_owner": "Saint Laurent",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "817602AAEB31000",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -11903,6 +11524,7 @@ window.products = [
         "images[4]"
       ]
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -11911,7 +11533,7 @@ window.products = [
       "brand_owner": "Saint Laurent",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "600306CSV0J1000",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -11973,6 +11595,7 @@ window.products = [
       "back": "images[1]",
       "overhead": "images[2]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -11981,7 +11604,7 @@ window.products = [
       "brand_owner": "Saint Laurent",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "850545AAAUQ1000",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -12048,6 +11671,7 @@ window.products = [
         "images[4]"
       ]
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -12056,7 +11680,7 @@ window.products = [
       "brand_owner": "Louis Vuitton",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "M46980",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -12124,6 +11748,7 @@ window.products = [
         "images[4]"
       ]
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -12132,7 +11757,7 @@ window.products = [
       "brand_owner": "Louis Vuitton",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "M46987",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -12198,6 +11823,7 @@ window.products = [
         "images[4]"
       ]
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -12206,7 +11832,7 @@ window.products = [
       "brand_owner": "Louis Vuitton",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "M45321",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -12264,6 +11890,7 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -12272,7 +11899,7 @@ window.products = [
       "brand_owner": "Prada",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "1BA896_NZV_F0002_V_EOO",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -12330,6 +11957,7 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -12338,7 +11966,7 @@ window.products = [
       "brand_owner": "Prada",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "1BA863_NZV_F0002_V_EOO",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -12397,6 +12025,7 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -12405,7 +12034,7 @@ window.products = [
       "brand_owner": "Prada",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "1BA274_NZV_F0018_V_EOO",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -12461,6 +12090,7 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -12469,7 +12099,7 @@ window.products = [
       "brand_owner": "Prada",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "1BC229_2CYS_F0PG7_V_LVM",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -12525,6 +12155,7 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -12533,7 +12164,7 @@ window.products = [
       "brand_owner": "Prada",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "1BA426_2CYR_F04F2_V_MOO",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -12589,6 +12220,7 @@ window.products = [
       "right_side": "images[2]",
       "back": "images[3]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -12597,7 +12229,7 @@ window.products = [
       "brand_owner": "Prada",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "1BC499_ZO6_F0002_V_OOO",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -12656,6 +12288,7 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -12664,7 +12297,7 @@ window.products = [
       "brand_owner": "Prada",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "1BG609_2HF2_F0042_V_DOO",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -12721,6 +12354,7 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -12729,7 +12363,7 @@ window.products = [
       "brand_owner": "Prada",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "1N204P_R064_F0DFH",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -12786,6 +12420,7 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -12794,7 +12429,7 @@ window.products = [
       "brand_owner": "Prada",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "1BC204_NZV_F03CW_V_QOM",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -12854,6 +12489,7 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -12862,7 +12498,7 @@ window.products = [
       "brand_owner": "Prada",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "1BA496_2C6A_F0002_V_OOO",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -12923,6 +12559,7 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -12931,7 +12568,7 @@ window.products = [
       "brand_owner": "Gucci",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -12994,6 +12631,7 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -13002,7 +12640,7 @@ window.products = [
       "brand_owner": "Gucci",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -13063,6 +12701,7 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -13071,7 +12710,7 @@ window.products = [
       "brand_owner": "Gucci",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -13133,6 +12772,7 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -13141,7 +12781,7 @@ window.products = [
       "brand_owner": "Gucci",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -13203,6 +12843,7 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -13211,7 +12852,7 @@ window.products = [
       "brand_owner": "Burberry",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -13273,6 +12914,7 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -13281,7 +12923,7 @@ window.products = [
       "brand_owner": "Burberry",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -13344,6 +12986,7 @@ window.products = [
       "back": "images[3]",
       "overhead": "images[4]"
     }
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -13352,7 +12995,7 @@ window.products = [
       "brand_owner": "Burberry",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -13414,6 +13057,7 @@ window.products = [
       "overhead": "images[4]"
     },
     "image_note": "All five gallery images are direct Burberry product assets."
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -13422,7 +13066,7 @@ window.products = [
       "brand_owner": "Burberry",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -13481,6 +13125,7 @@ window.products = [
       "overhead": "images[4]"
     },
     "image_note": "All five gallery images are direct Burberry product assets."
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -13489,7 +13134,7 @@ window.products = [
       "brand_owner": "Burberry",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -13551,6 +13196,7 @@ window.products = [
       "overhead": "images[4]"
     },
     "image_note": "The first four images are official Burberry product assets. The fifth is a top-down/opening view from Nordstrom's Mini Primrose listing, used to supply the requested overhead view."
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -13559,7 +13205,7 @@ window.products = [
       "brand_owner": "Burberry",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -14191,6 +13837,7 @@ window.products = [
     "gender": "Women",
     "brand": "Hermès",
     "brand_display_name": "Hermès"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14199,7 +13846,7 @@ window.products = [
       "brand_owner": "Hermès",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -14236,6 +13883,7 @@ window.products = [
     "gender": "Women",
     "brand": "Hermès",
     "brand_display_name": "Hermès"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14244,7 +13892,7 @@ window.products = [
       "brand_owner": "Hermès",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -14280,6 +13928,7 @@ window.products = [
     "gender": "Women",
     "brand": "Dior",
     "brand_display_name": "Dior"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14288,7 +13937,7 @@ window.products = [
       "brand_owner": "Dior",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -14324,6 +13973,7 @@ window.products = [
     "gender": "Women",
     "brand": "Dior",
     "brand_display_name": "Dior"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14332,7 +13982,7 @@ window.products = [
       "brand_owner": "Dior",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -14368,6 +14018,7 @@ window.products = [
     "gender": "Women",
     "brand": "Bottega Veneta",
     "brand_display_name": "Bottega Veneta"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14376,7 +14027,7 @@ window.products = [
       "brand_owner": "Bottega Veneta",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -14412,6 +14063,7 @@ window.products = [
     "gender": "Women",
     "brand": "Fendi",
     "brand_display_name": "Fendi"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14420,7 +14072,7 @@ window.products = [
       "brand_owner": "Fendi",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -14456,6 +14108,7 @@ window.products = [
     "gender": "Women",
     "brand": "Valentino Garavani",
     "brand_display_name": "Valentino"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14464,7 +14117,7 @@ window.products = [
       "brand_owner": "Valentino Garavani",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -14518,6 +14171,7 @@ window.products = [
     "description": "Quiet-luxury Louis Vuitton hobo in black grained calfskin with suede lining, adjustable strap and signature engraved padlock.",
     "specifications": {"brand":"Louis Vuitton","model":"Low Key Hobo MM","material":"Grained calfskin","hardware":"Gold-color hardware","dimensions":"31 x 35 x 18 cm","origin":"France, Spain, Italy or USA","style":"Hobo"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14526,7 +14180,7 @@ window.products = [
       "brand_owner": "Louis Vuitton",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -14548,6 +14202,7 @@ window.products = [
     "description": "Compact Multipass Mini in black grained leather with a sculptural hobo silhouette, gold chain detail and detachable Monogram strap.",
     "specifications": {"brand":"Louis Vuitton","model":"Multipass Mini","material":"Grained leather","hardware":"Gold-color hardware","reference":"M2A840","style":"Mini Shoulder Bag"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14556,7 +14211,7 @@ window.products = [
       "brand_owner": "Louis Vuitton",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "M2A840",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -14578,6 +14233,7 @@ window.products = [
     "description": "Miniature Madeleine in black Monogram Empreinte leather with S-lock closure and removable LV Circle charm chain.",
     "specifications": {"brand":"Louis Vuitton","model":"Nano Madeleine","material":"Supple grained cowhide leather","hardware":"Gold-color hardware","dimensions":"21 x 12.5 x 6 cm","reference":"M12144","style":"Nano Top Handle / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14586,7 +14242,7 @@ window.products = [
       "brand_owner": "Louis Vuitton",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "M12144",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -14608,6 +14264,7 @@ window.products = [
     "description": "Express MM in supple brown calf leather accented with Monogram canvas, gold-tone hardware, clochette and padlock.",
     "specifications": {"brand":"Louis Vuitton","model":"Express MM","material":"Calf leather and Monogram canvas","hardware":"Gold-tone hardware","reference":"M26397","style":"Top Handle / Shoulder"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14616,7 +14273,7 @@ window.products = [
       "brand_owner": "Louis Vuitton",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "M26397",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -14638,6 +14295,7 @@ window.products = [
     "description": "Archival-inspired Pochette Papillon in Monogram Canvas with natural cowhide trim and removable leather strap.",
     "specifications": {"brand":"Louis Vuitton","model":"Pochette Papillon","material":"Monogram Canvas and cowhide leather","reference":"M25703","style":"Shoulder / Hand Carry"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14646,7 +14304,7 @@ window.products = [
       "brand_owner": "Louis Vuitton",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "M25703",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -14668,6 +14326,7 @@ window.products = [
     "description": "Small Whisker in black glazed calfskin with a structural handle, giant zip opening, detachable strap and signature embossed branding.",
     "specifications": {"brand":"Loewe","model":"Small Whisker","material":"Glazed calfskin","dimensions":"25.5 x 14 x 17 cm","origin":"Spain","style":"Shoulder / Crossbody / Hand Carry"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Loewe","brand_display_name":"Loewe"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14676,7 +14335,7 @@ window.products = [
       "brand_owner": "Loewe",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -14698,6 +14357,7 @@ window.products = [
     "description": "Hammock Flip in black classic calfskin, designed to transform between a carry-all and body-friendly hobo with versatile carry options.",
     "specifications": {"brand":"Loewe","model":"Hammock Flip","material":"Classic calfskin","origin":"Spain","style":"Top Handle / Hobo / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Loewe","brand_display_name":"Loewe"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14706,7 +14366,7 @@ window.products = [
       "brand_owner": "Loewe",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -14742,6 +14402,7 @@ window.products = [
     ],
     "description":"Gucci Borsetto medium shoulder bag in supple black leather with Horsebit hardware, Web stripe, top handles and detachable adjustable shoulder strap.",
     "specifications":{"brand":"Gucci","model":"Borsetto Medium","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14750,7 +14411,7 @@ window.products = [
       "brand_owner": "Gucci",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -14767,6 +14428,7 @@ window.products = [
     ],
     "description":"Gucci Paparazzo medium tote in black leather with Horsebit hardware, green-and-red Web stripe, structured top handle and detachable shoulder strap.",
     "specifications":{"brand":"Gucci","model":"Paparazzo Medium","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14775,7 +14437,7 @@ window.products = [
       "brand_owner": "Gucci",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -14792,6 +14454,7 @@ window.products = [
     ],
     "description":"Gucci Jackie Slim medium shoulder bag in black leather with the signature piston closure, curved silhouette and detachable belt.",
     "specifications":{"brand":"Gucci","model":"Jackie Slim Medium","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Shoulder Bag"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14800,7 +14463,7 @@ window.products = [
       "brand_owner": "Gucci",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -14817,6 +14480,7 @@ window.products = [
     ],
     "description":"Gucci Brera medium crossbody in black soft grainy leather with silver-toned hardware, detachable handle and signature Web strap.",
     "specifications":{"brand":"Gucci","model":"Brera Medium","material":"Black grainy leather","hardware":"Silver-toned","origin":"Italy","style":"Crossbody / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14825,7 +14489,7 @@ window.products = [
       "brand_owner": "Gucci",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -14842,6 +14506,7 @@ window.products = [
     ],
     "description":"Gucci Giglio large tote in glossy black leather with Web trim, Double G hardware, removable pouch and spacious GG-lined interior.",
     "specifications":{"brand":"Gucci","model":"Giglio Large","material":"Black leather","hardware":"Light gold-toned","origin":"Italy","style":"Tote"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14850,7 +14515,7 @@ window.products = [
       "brand_owner": "Gucci",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -14867,6 +14532,7 @@ window.products = [
     ],
     "description":"Gucci Giglio small tote in black GG canvas with leather trim, Web stripe, Double G detail and detachable shoulder strap.",
     "specifications":{"brand":"Gucci","model":"Giglio Small","material":"GG canvas and leather","hardware":"Gold-toned","origin":"Italy","style":"Tote / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14875,7 +14541,7 @@ window.products = [
       "brand_owner": "Gucci",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -14892,6 +14558,7 @@ window.products = [
     ],
     "description":"Lady Lunetta Chain small shoulder bag in black perforated GG leather with gold chain, Double G zip detail and adjustable leather strap.",
     "specifications":{"brand":"Gucci","model":"Lady Lunetta Chain Small","material":"Black perforated GG leather","hardware":"Gold-toned","origin":"Italy","style":"Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14900,7 +14567,7 @@ window.products = [
       "brand_owner": "Gucci",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -14917,6 +14584,7 @@ window.products = [
     ],
     "description":"Lady Lunetta small shoulder bag in washed black GG denim with black leather trim, Gucci plaque and detachable adjustable strap.",
     "specifications":{"brand":"Gucci","model":"Lady Lunetta Small","material":"Black GG denim","hardware":"Palladium-toned","origin":"Italy","style":"Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14925,7 +14593,7 @@ window.products = [
       "brand_owner": "Gucci",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -14942,6 +14610,7 @@ window.products = [
     ],
     "description":"Ophidia medium Boston bag in black pebbled leather with green-red Web stripe, GG hardware, top handles and detachable shoulder strap.",
     "specifications":{"brand":"Gucci","model":"Ophidia Medium Boston","material":"Black pebbled leather","hardware":"Gold-toned","style":"Boston / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14950,7 +14619,7 @@ window.products = [
       "brand_owner": "Gucci",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -14967,6 +14636,7 @@ window.products = [
     ],
     "description":"Borsetto medium Boston bag in black soft leather with Horsebit, Web, Diamante lining and detachable adjustable strap.",
     "specifications":{"brand":"Gucci","model":"Borsetto Medium Boston","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Boston / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -14975,7 +14645,7 @@ window.products = [
       "brand_owner": "Gucci",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -14992,6 +14662,7 @@ window.products = [
     ],
     "description":"Horsebit Duomo medium top handle bag in glossy black leather with emblematic Horsebit hardware, top handle and detachable strap.",
     "specifications":{"brand":"Gucci","model":"Horsebit Duomo Medium","material":"Black glossy leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15000,7 +14671,7 @@ window.products = [
       "brand_owner": "Gucci",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -15017,6 +14688,7 @@ window.products = [
     ],
     "description":"Horsebit Duomo small top handle bag in glossy black leather with Horsebit hardware, top handle and adjustable detachable strap.",
     "specifications":{"brand":"Gucci","model":"Horsebit Duomo Small","material":"Black glossy leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15025,7 +14697,7 @@ window.products = [
       "brand_owner": "Gucci",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -15042,6 +14714,7 @@ window.products = [
     ],
     "description":"Celine Small Flair in black grained calfskin with Triomphe turn-lock, removable strap and structured top handle.",
     "specifications":{"brand":"Celine","model":"Small Flair","material":"Grained calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"L10BF5C12.38NO","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15050,7 +14723,7 @@ window.products = [
       "brand_owner": "Celine",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "L10BF5C12.38NO",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -15067,6 +14740,7 @@ window.products = [
     ],
     "description":"Celine Small Flair in chestnut shiny calfskin with gold-finish Triomphe turn-lock and removable strap.",
     "specifications":{"brand":"Celine","model":"Small Flair","material":"Shiny calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"L10BF5B53.18CH","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15075,7 +14749,7 @@ window.products = [
       "brand_owner": "Celine",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "L10BF5B53.18CH",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -15092,6 +14766,7 @@ window.products = [
     ],
     "description":"Soft Triomphe bucket in Syrah shiny lambskin with Triomphe magnetic closure, suede calfskin lining and adjustable strap.",
     "specifications":{"brand":"Celine","model":"Soft Triomphe Bucket","material":"Shiny lambskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L102S3J15.28PO","style":"Bucket / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15100,7 +14775,7 @@ window.products = [
       "brand_owner": "Celine",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "L102S3J15.28PO",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -15117,6 +14792,7 @@ window.products = [
     ],
     "description":"Soft Triomphe Little Halfmoon in white cotton shiny lambskin with Triomphe magnetic closure and adjustable strap.",
     "specifications":{"brand":"Celine","model":"Soft Triomphe Little Halfmoon","material":"Shiny lambskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L10373778.00WC","style":"Shoulder / Slingback"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15125,7 +14801,7 @@ window.products = [
       "brand_owner": "Celine",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "L10373778.00WC",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -15142,6 +14818,7 @@ window.products = [
     ],
     "description":"Teen Nino in supple Safari grained calfskin with Triomphe metallic closure, two compartments and removable adjustable strap.",
     "specifications":{"brand":"Celine","model":"Teen Nino","material":"Supple grained calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"118113FXK.03SA","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15150,7 +14827,7 @@ window.products = [
       "brand_owner": "Celine",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "118113FXK.03SA",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -15167,6 +14844,7 @@ window.products = [
     ],
     "description":"Small Hobo in Rice supple smooth calfskin with suede calfskin lining, gold finishing and removable adjustable strap.",
     "specifications":{"brand":"Celine","model":"Small Hobo","material":"Supple smooth calfskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L10133Q71.01RC","style":"Hobo / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15175,7 +14853,7 @@ window.products = [
       "brand_owner": "Celine",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "L10133Q71.01RC",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -15192,6 +14870,7 @@ window.products = [
     ],
     "description":"Drop Bucket in multicolor smooth calfskin with suede lining, gold finishing and signature sliding Triomphe ball detail.",
     "specifications":{"brand":"Celine","model":"Drop Bucket","material":"Smooth calfskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L102H3J23.14ML","style":"Bucket / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15200,7 +14879,7 @@ window.products = [
       "brand_owner": "Celine",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "L102H3J23.14ML",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -15217,6 +14896,7 @@ window.products = [
     ],
     "description":"Celine Flair in black grained calfskin with double-zip closure, Triomphe turn-lock, structured handle and removable strap.",
     "specifications":{"brand":"Celine","model":"Flair","material":"Grained calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"L10AT5C12.38NO","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15225,7 +14905,7 @@ window.products = [
       "brand_owner": "Celine",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "L10AT5C12.38NO",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -15242,6 +14922,7 @@ window.products = [
     ],
     "description":"Celine Luggage in black grained calfskin with spacious interior, removable adjustable strap and twin handles.",
     "specifications":{"brand":"Celine","model":"Luggage","material":"Grained calfskin","lining":"Suede calfskin","reference":"L108K3056.38NO","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15250,7 +14931,7 @@ window.products = [
       "brand_owner": "Celine",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "L108K3056.38NO",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -15267,6 +14948,7 @@ window.products = [
     ],
     "description":"Soft Triomphe Besace in black supple shiny lambskin with Triomphe magnetic closure, suede lining and adjustable strap.",
     "specifications":{"brand":"Celine","model":"Soft Triomphe Besace","material":"Supple shiny lambskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"123632T88.38NO","style":"Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15275,7 +14957,7 @@ window.products = [
       "brand_owner": "Celine",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "123632T88.38NO",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -15292,6 +14974,7 @@ window.products = [
     ],
     "description":"Small Dior Médaillon Bucket bag in black grained calfskin with adjustable strap, signature Médaillon detail and detachable Dior Oblique jacquard pouch.",
     "specifications":{"brand":"Dior","model":"Dior Médaillon Bucket Small","reference":"M1531QUQW_M900","material":"Grained calfskin","lining":"Goatskin and calfskin","hardware":"Gold-tone","origin":"Italy","dimensions":"19 x 18 x 12.5 cm","style":"Bucket / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15300,7 +14983,7 @@ window.products = [
       "brand_owner": "Dior",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "M1531QUQW_M900",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -15317,6 +15000,7 @@ window.products = [
     ],
     "description":"Medium Dior Médaillon Bucket bag in black grained calfskin with adjustable strap, signature Médaillon detail and detachable Dior Oblique jacquard pouch.",
     "specifications":{"brand":"Dior","model":"Dior Médaillon Bucket Medium","reference":"M1532QUQW_M900","material":"Grained calfskin","lining":"Goatskin and calfskin","hardware":"Gold-tone","origin":"Italy","dimensions":"26.5 x 26 x 15 cm","style":"Bucket / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15325,7 +15009,7 @@ window.products = [
       "brand_owner": "Dior",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "M1532QUQW_M900",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -15342,6 +15026,7 @@ window.products = [
     ],
     "description":"Small Dior Promenade Flap bag in black flat Cannage calfskin with slender handles and refined Dior bow detailing.",
     "specifications":{"brand":"Dior","model":"Small Dior Promenade Flap","material":"Flat Cannage calfskin","hardware":"Gold-tone","origin":"Italy","style":"Top Handle / Shoulder"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15350,7 +15035,7 @@ window.products = [
       "brand_owner": "Dior",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": null,
-      "mpn_status": not_found_in_catalog,
+      "mpn_status": "not_found_in_catalog",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
@@ -15361,6 +15046,7 @@ window.products = [
     "images":["https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw1c0e9421/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1F.jpg?q=100&sw=750","https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw3ec25a4a/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1P.jpg?q=100&sw=750","https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw1d8eb63a/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1Q.jpg?q=100&sw=750","https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dwce2cba2e/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1R.jpg?q=100&sw=750"],
     "description":"Loewe Mini Amazona 180 in black soft calfskin with signature toron top handle, concealed closure and removable shoulder/crossbody straps.",
     "specifications":{"brand":"Loewe","model":"Mini Amazona 180","material":"Soft calfskin","color":"Black","reference":"A039AS4X12-1100","style":"Top Handle / Shoulder / Crossbody"},    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Loewe","brand_display_name":"Loewe"
+
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
@@ -15369,7 +15055,7 @@ window.products = [
       "brand_owner": "Loewe",
       "brand_owner_assignment_rule": "Brand owner/manufacturer normally assigns the GTIN; reseller must use the existing manufacturer GTIN when one exists.",
       "mpn": "A039AS4X12-1100",
-      "mpn_status": manufacturer_reference_present_verify,
+      "mpn_status": "manufacturer_reference_present_verify",
       "identifier_source": "manufacturer_or_GS1_required",
       "policy": "Never fabricate or infer a GTIN/UPC. Verify the exact product/variant in Verified by GS1 or obtain it from the manufacturer/supplier before publishing."
     },
