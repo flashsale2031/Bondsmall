@@ -13370,24 +13370,24 @@ window.products = [
   },
   {
     "id":342,"name":"Gucci Borsetto Medium Boston Bag — Black Leather","category":"accessories","retail price":3100,"sale price":3100,
-    "image":"https://www.gucci.com/us/en/pr/women/handbags/crossbody-bags-for-women/borsetto-medium-boston-bag-p-866732AAGIQ1053",
-    "images":["https://www.gucci.com/us/en/pr/women/handbags/crossbody-bags-for-women/borsetto-medium-boston-bag-p-866732AAGIQ1053","https://www.gucci.com/us/en/pr/women/handbags/crossbody-bags-for-women/borsetto-medium-boston-bag-p-866732AAGIQ1053?view=2","https://www.gucci.com/us/en/pr/women/handbags/crossbody-bags-for-women/borsetto-medium-boston-bag-p-866732AAGIQ1053?view=3","https://www.gucci.com/us/en/pr/women/handbags/crossbody-bags-for-women/borsetto-medium-boston-bag-p-866732AAGIQ1053?view=4"],
+    "image":"https://bondsmall.com/assets/main-images/hf-342.webp",
+    "images":["https://bondsmall.com/assets/main-images/hf-342.webp","https://bondsmall.com/assets/main-images/hf-342.webp","https://bondsmall.com/assets/main-images/hf-342.webp","https://bondsmall.com/assets/main-images/hf-342.webp"],
     "description":"Borsetto medium Boston bag in black soft leather with Horsebit, Web, Diamante lining and detachable adjustable strap.",
     "specifications":{"brand":"Gucci","model":"Borsetto Medium Boston","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Boston / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
     "id":343,"name":"Gucci Horsebit Duomo Medium Top Handle Bag — Black Leather","category":"accessories","retail price":3950,"sale price":3950,
-    "image":"https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/horsebit-duomo-medium-top-handle-bag-p-A006N6AAG8B1000",
-    "images":["https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/horsebit-duomo-medium-top-handle-bag-p-A006N6AAG8B1000","https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/horsebit-duomo-medium-top-handle-bag-p-A006N6AAG8B1000?view=2","https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/horsebit-duomo-medium-top-handle-bag-p-A006N6AAG8B1000?view=3","https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/horsebit-duomo-medium-top-handle-bag-p-A006N6AAG8B1000?view=4"],
+    "image":"https://bondsmall.com/assets/main-images/hf-343.webp",
+    "images":["https://bondsmall.com/assets/main-images/hf-343.webp","https://bondsmall.com/assets/main-images/hf-343.webp","https://bondsmall.com/assets/main-images/hf-343.webp","https://bondsmall.com/assets/main-images/hf-343.webp"],
     "description":"Horsebit Duomo medium top handle bag in glossy black leather with emblematic Horsebit hardware, top handle and detachable strap.",
     "specifications":{"brand":"Gucci","model":"Horsebit Duomo Medium","material":"Black glossy leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
     "id":344,"name":"Gucci Horsebit Duomo Small Top Handle Bag — Black Leather","category":"accessories","retail price":3100,"sale price":3100,
-    "image":"https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/horsebit-duomo-small-top-handle-bag-p-A006O9AAG8B1000",
-    "images":["https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/horsebit-duomo-small-top-handle-bag-p-A006O9AAG8B1000","https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/horsebit-duomo-small-top-handle-bag-p-A006O9AAG8B1000?view=2","https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/horsebit-duomo-small-top-handle-bag-p-A006O9AAG8B1000?view=3","https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/horsebit-duomo-small-top-handle-bag-p-A006O9AAG8B1000?view=4"],
+    "image":"https://bondsmall.com/assets/main-images/hf-344.webp",
+    "images":["https://bondsmall.com/assets/main-images/hf-344.webp","https://bondsmall.com/assets/main-images/hf-344.webp","https://bondsmall.com/assets/main-images/hf-344.webp","https://bondsmall.com/assets/main-images/hf-344.webp"],
     "description":"Horsebit Duomo small top handle bag in glossy black leather with Horsebit hardware, top handle and adjustable detachable strap.",
     "specifications":{"brand":"Gucci","model":"Horsebit Duomo Small","material":"Black glossy leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
