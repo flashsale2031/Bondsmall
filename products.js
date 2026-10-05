@@ -4050,7 +4050,7 @@ window.products = [
     "brand_source": "U.S. Mint",
     "photo_display": "Full five-view display",
     "image_quality_status": "Local Bonds Mall generated asset",
-    "image_note": "Local white-background gallery generated from verified APMEX 2013 American Silver Eagle product photos; runtime does not depend on external image hosts. View 05 shows the Mint tube/packaging because individual BU Silver Eagles are sold in protective flips or tubes rather than a gold-style presentation case."
+    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts."
   },
   {
     "id": 103,
