@@ -7671,6 +7671,7 @@ window.products = [
     "marketplace": {
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
       "availability": "in_stock",
+      "inventory_quantity": 100,
       "condition": "new",
       "currency": "USD",
       "country_of_sale": "US",
@@ -7750,6 +7751,7 @@ window.products = [
     "marketplace": {
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
       "availability": "in_stock",
+      "inventory_quantity": 100,
       "condition": "new",
       "currency": "USD",
       "country_of_sale": "US",
@@ -7993,6 +7995,7 @@ window.products = [
     "marketplace": {
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
       "availability": "in_stock",
+      "inventory_quantity": 100,
       "condition": "new",
       "currency": "USD",
       "country_of_sale": "US",
@@ -8188,6 +8191,7 @@ window.products = [
     "marketplace": {
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
       "availability": "in_stock",
+      "inventory_quantity": 100,
       "condition": "new",
       "currency": "USD",
       "country_of_sale": "US",
@@ -8348,6 +8352,7 @@ window.products = [
     "marketplace": {
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
       "availability": "in_stock",
+      "inventory_quantity": 100,
       "condition": "new",
       "currency": "USD",
       "country_of_sale": "US",
@@ -9391,6 +9396,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -9503,6 +9509,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -9614,6 +9621,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -9726,6 +9734,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -9840,6 +9849,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -9954,6 +9964,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -10070,6 +10081,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -10183,6 +10195,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -10305,6 +10318,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -10427,6 +10441,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -10548,6 +10563,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -10671,6 +10687,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -10788,6 +10805,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -10906,6 +10924,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -11028,6 +11047,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -11147,6 +11167,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -11282,6 +11303,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -11413,6 +11435,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -11547,6 +11570,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -11679,6 +11703,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -11800,6 +11825,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -11921,6 +11947,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -12042,6 +12069,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -12363,6 +12391,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -12497,6 +12526,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -12625,6 +12655,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -12745,6 +12776,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -12867,6 +12899,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -12989,6 +13022,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -13113,6 +13147,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -13241,6 +13276,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -13366,6 +13402,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -13496,6 +13533,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -13627,6 +13665,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -13756,6 +13795,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -13877,6 +13917,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -13998,6 +14039,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -14120,6 +14162,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -14239,6 +14282,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -14358,6 +14402,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -14477,6 +14522,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -14599,6 +14645,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -14719,6 +14766,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -14839,6 +14887,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -14962,6 +15011,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -15086,6 +15136,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -15212,6 +15263,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -15336,6 +15388,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -15461,6 +15514,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -15586,6 +15640,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -15711,6 +15766,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -15837,6 +15893,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -15962,6 +16019,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -16084,6 +16142,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -16209,6 +16268,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -16904,6 +16964,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -17004,6 +17065,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -17103,6 +17165,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -17202,6 +17265,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -17301,6 +17365,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -17400,6 +17465,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -17499,6 +17565,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -17616,6 +17683,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -17701,6 +17769,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -17786,6 +17855,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -17871,6 +17941,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -17956,6 +18027,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -18041,6 +18113,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -18126,6 +18199,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -18225,6 +18299,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -18305,6 +18380,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -18385,6 +18461,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -18465,6 +18542,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -18545,6 +18623,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -18625,6 +18704,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -18705,6 +18785,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -18785,6 +18866,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -18865,6 +18947,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -18945,6 +19028,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -19025,6 +19109,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -19105,6 +19190,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -19185,6 +19271,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -19265,6 +19352,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -19345,6 +19433,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -19425,6 +19514,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -19505,6 +19595,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -19585,6 +19676,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -19665,6 +19757,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -19745,6 +19838,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -19825,6 +19919,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -19905,6 +20000,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -19985,6 +20081,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -20065,6 +20162,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -20145,6 +20243,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
@@ -20219,6 +20318,7 @@ window.products = [
       "google_product_category": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
 
       "availability": "in_stock",
+      "inventory_quantity": 100,
 
       "condition": "new",
 
