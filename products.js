@@ -496,11 +496,11 @@ window.products = [
     "sale price": 2499.99,
     "image": "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7803_V1.jpg",
     "description": "Iconic handbag crafted with timeless silhouette.",
-    "images": [
-      "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7803_V1.jpg",
+    "images":["https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7803_V1.jpg",
       "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7803_V2.jpg",
-      "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7803_V3.jpg"
-    ],
+      "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7803_V3.jpg",
+      "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7803_V1.jpg",
+      "https://is4.fwrdassets.com/images/p/fw/zs/FNEF-WY7803_V1.jpg"],
     "specifications": {
       "brand": "Chanel",
       "material": "Quilted Lambskin Leather and Gold-Tone Metal hardware",
@@ -1057,12 +1057,11 @@ window.products = [
     "sale price": 1999.99,
     "image": "assets/generated/prada-handbag-main.webp",
     "description": "A structured handbag with refined detailing.",
-    "images": [
-      "assets/generated/prada-handbag-main.webp",
+    "images":["assets/generated/prada-handbag-main.webp",
       "assets/generated/prada-handbag-back.webp",
       "assets/generated/prada-handbag-detail.webp",
-      "assets/generated/prada-handbag-side.webp"
-    ],
+      "assets/generated/prada-handbag-side.webp",
+      "assets/generated/prada-handbag-main.webp"],
     "specifications": {
       "brand": "Prada",
       "material": "Signature Saffiano Leather & Nylon Lining",
@@ -8613,9 +8612,11 @@ window.products = [
     "sale price": 1129.99,
     "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_4103480_100168_m",
     "description": "A redefined leather handbag from Chloe with a structured silhouette and spacious compartments.",
-    "images": [
-      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_4103480_100168_m"
-    ],
+    "images":["https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_4103480_100168_m",
+      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_4103480_100168_m",
+      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_4103480_100168_m",
+      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_4103480_100168_m",
+      "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_4103480_100168_m"],
     "specifications": {
       "brand": "Chloe",
       "material": "100% Cream Leather",
@@ -8827,12 +8828,11 @@ window.products = [
     "sale price": 999.99,
     "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT4pMDqyUA-Zi5WOs1nBSzFFwh66npvURC-e2CTxxYLqKN0iXARt-MAw18WvrzrCdqdDJEyA6Rn1WE",
     "description": "A refined leather handbag from Christian Dior with a structured silhouette and spacious compartments.",
-    "images": [
-      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT4pMDqyUA-Zi5WOs1nBSzFFwh66npvURC-e2CTxxYLqKN0iXARt-MAw18WvrzrCdqdDJEyA6Rn1WE",
+    "images":["https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT4pMDqyUA-Zi5WOs1nBSzFFwh66npvURC-e2CTxxYLqKN0iXARt-MAw18WvrzrCdqdDJEyA6Rn1WE",
       "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSzmnk6TcPNw-tnMGCdbUAGad4AqNU4gX6Hd5J8F2nDnq2z2RGhvaUvQAkamP3ibFzNIOPA_DIQ_Q",
       "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ3qYFlEpsLr4eijM51SqYxYGr7QhCd5eCoxJNFzUYmJJiP4RkNe3uw1bS42NjlrkQuF-Tpqtuy",
-      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQPAwv92vb9vmIkXfakZlPTH9Z6XHVK1uXu9G1XkwFwEyQg0XjHLA_C1D7ns3SMf0ybsGiLr-A"
-    ],
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQPAwv92vb9vmIkXfakZlPTH9Z6XHVK1uXu9G1XkwFwEyQg0XjHLA_C1D7ns3SMf0ybsGiLr-A",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT4pMDqyUA-Zi5WOs1nBSzFFwh66npvURC-e2CTxxYLqKN0iXARt-MAw18WvrzrCdqdDJEyA6Rn1WE"],
     "specifications": {
       "brand": "Dior",
       "material": "100% Calfskin Saffiano Leather",
@@ -13491,7 +13491,11 @@ window.products = [
   {
     "id":339,"name":"Gucci Lady Lunetta Chain Small Shoulder Bag — Black GG Leather","category":"accessories","retail price":2450,"sale price":2450,
     "image":"https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1781281810/A0034B_AAHC3_1000_006_065_0000_Light-lady-lunetta-chain-small-shoulder-bag.jpg",
-    "images":["https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1781281810/A0034B_AAHC3_1000_006_065_0000_Light-lady-lunetta-chain-small-shoulder-bag.jpg","https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1781281810/A0034B_AAHC3_1000_001_065_0000_Light-lady-lunetta-chain-small-shoulder-bag.jpg","https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1781281810/A0034B_AAHC3_1000_010_065_0000_Light-lady-lunetta-chain-small-shoulder-bag.jpg","https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1781281812/A0034B_AAHC3_1000_010_065_0000_Light-lady-lunetta-chain-small-shoulder-bag.jpg"],
+    "images":["https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1781281810/A0034B_AAHC3_1000_006_065_0000_Light-lady-lunetta-chain-small-shoulder-bag.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1781281810/A0034B_AAHC3_1000_001_065_0000_Light-lady-lunetta-chain-small-shoulder-bag.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1781281810/A0034B_AAHC3_1000_010_065_0000_Light-lady-lunetta-chain-small-shoulder-bag.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1781281812/A0034B_AAHC3_1000_010_065_0000_Light-lady-lunetta-chain-small-shoulder-bag.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1781281810/A0034B_AAHC3_1000_006_065_0000_Light-lady-lunetta-chain-small-shoulder-bag.jpg"],
     "description":"Lady Lunetta Chain small shoulder bag in black perforated GG leather with gold chain, Double G zip detail and adjustable leather strap.",
     "specifications":{"brand":"Gucci","model":"Lady Lunetta Chain Small","material":"Black perforated GG leather","hardware":"Gold-toned","origin":"Italy","style":"Shoulder / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
@@ -13499,7 +13503,11 @@ window.products = [
   {
     "id":340,"name":"Gucci Lady Lunetta Small Shoulder Bag — Black GG Denim","category":"accessories","retail price":1450,"sale price":1450,
     "image":"https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1777477532/874743_FAF8W_1144_007_070_0000_Light-.jpg",
-    "images":["https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1777477532/874743_FAF8W_1144_007_070_0000_Light-.jpg","https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1777477532/874743_FAF8W_1144_001_070_0000_Light-.jpg","https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1777477532/874743_FAF8W_1144_002_070_0000_Light-.jpg","https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1777477532/874743_FAF8W_1144_003_070_0000_Light-.jpg"],
+    "images":["https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1777477532/874743_FAF8W_1144_007_070_0000_Light-.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1777477532/874743_FAF8W_1144_001_070_0000_Light-.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1777477532/874743_FAF8W_1144_002_070_0000_Light-.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1777477532/874743_FAF8W_1144_003_070_0000_Light-.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1777477532/874743_FAF8W_1144_007_070_0000_Light-.jpg"],
     "description":"Lady Lunetta small shoulder bag in washed black GG denim with black leather trim, Gucci plaque and detachable adjustable strap.",
     "specifications":{"brand":"Gucci","model":"Lady Lunetta Small","material":"Black GG denim","hardware":"Palladium-toned","origin":"Italy","style":"Shoulder / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
@@ -13507,7 +13515,11 @@ window.products = [
   {
     "id":341,"name":"Gucci Ophidia Medium Boston Bag — Black Leather","category":"accessories","retail price":2100,"sale price":2100,
     "image":"https://mygemma.com/cdn/shop/products/116193-fv_1200x.jpg?v=1650961451",
-    "images":["https://mygemma.com/cdn/shop/products/116193-fv_1200x.jpg?v=1650961451","https://mygemma.com/cdn/shop/products/116193-bv_1200x.jpg?v=1650961451","https://mygemma.com/cdn/shop/products/116193-iv_1200x.jpg?v=1650961451","https://mygemma.com/cdn/shop/products/116193-d1_1200x.jpg?v=1650961451"],
+    "images":["https://mygemma.com/cdn/shop/products/116193-fv_1200x.jpg?v=1650961451",
+      "https://mygemma.com/cdn/shop/products/116193-bv_1200x.jpg?v=1650961451",
+      "https://mygemma.com/cdn/shop/products/116193-iv_1200x.jpg?v=1650961451",
+      "https://mygemma.com/cdn/shop/products/116193-d1_1200x.jpg?v=1650961451",
+      "https://mygemma.com/cdn/shop/products/116193-fv_1200x.jpg?v=1650961451"],
     "description":"Ophidia medium Boston bag in black pebbled leather with green-red Web stripe, GG hardware, top handles and detachable shoulder strap.",
     "specifications":{"brand":"Gucci","model":"Ophidia Medium Boston","material":"Black pebbled leather","hardware":"Gold-toned","style":"Boston / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
@@ -13515,7 +13527,11 @@ window.products = [
   {
     "id":342,"name":"Gucci Borsetto Medium Boston Bag — Black Leather","category":"accessories","retail price":3100,"sale price":3100,
     "image":"https://bondsmall.com/assets/main-images/hf-342.webp",
-    "images":["https://bondsmall.com/assets/main-images/hf-342.webp","https://bondsmall.com/assets/main-images/hf-342.webp","https://bondsmall.com/assets/main-images/hf-342.webp","https://bondsmall.com/assets/main-images/hf-342.webp"],
+    "images":["https://bondsmall.com/assets/main-images/hf-342.webp",
+      "https://bondsmall.com/assets/main-images/hf-342.webp",
+      "https://bondsmall.com/assets/main-images/hf-342.webp",
+      "https://bondsmall.com/assets/main-images/hf-342.webp",
+      "https://bondsmall.com/assets/main-images/hf-342.webp"],
     "description":"Borsetto medium Boston bag in black soft leather with Horsebit, Web, Diamante lining and detachable adjustable strap.",
     "specifications":{"brand":"Gucci","model":"Borsetto Medium Boston","material":"Black leather","hardware":"Gold-toned","origin":"Italy","style":"Boston / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
@@ -13523,7 +13539,11 @@ window.products = [
   {
     "id":343,"name":"Gucci Horsebit Duomo Medium Top Handle Bag — Black Leather","category":"accessories","retail price":3950,"sale price":3950,
     "image":"https://bondsmall.com/assets/main-images/hf-343.webp",
-    "images":["https://bondsmall.com/assets/main-images/hf-343.webp","https://bondsmall.com/assets/main-images/hf-343.webp","https://bondsmall.com/assets/main-images/hf-343.webp","https://bondsmall.com/assets/main-images/hf-343.webp"],
+    "images":["https://bondsmall.com/assets/main-images/hf-343.webp",
+      "https://bondsmall.com/assets/main-images/hf-343.webp",
+      "https://bondsmall.com/assets/main-images/hf-343.webp",
+      "https://bondsmall.com/assets/main-images/hf-343.webp",
+      "https://bondsmall.com/assets/main-images/hf-343.webp"],
     "description":"Horsebit Duomo medium top handle bag in glossy black leather with emblematic Horsebit hardware, top handle and detachable strap.",
     "specifications":{"brand":"Gucci","model":"Horsebit Duomo Medium","material":"Black glossy leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
@@ -13531,7 +13551,11 @@ window.products = [
   {
     "id":344,"name":"Gucci Horsebit Duomo Small Top Handle Bag — Black Leather","category":"accessories","retail price":3100,"sale price":3100,
     "image":"https://bondsmall.com/assets/main-images/hf-344.webp",
-    "images":["https://bondsmall.com/assets/main-images/hf-344.webp","https://bondsmall.com/assets/main-images/hf-344.webp","https://bondsmall.com/assets/main-images/hf-344.webp","https://bondsmall.com/assets/main-images/hf-344.webp"],
+    "images":["https://bondsmall.com/assets/main-images/hf-344.webp",
+      "https://bondsmall.com/assets/main-images/hf-344.webp",
+      "https://bondsmall.com/assets/main-images/hf-344.webp",
+      "https://bondsmall.com/assets/main-images/hf-344.webp",
+      "https://bondsmall.com/assets/main-images/hf-344.webp"],
     "description":"Horsebit Duomo small top handle bag in glossy black leather with Horsebit hardware, top handle and adjustable detachable strap.",
     "specifications":{"brand":"Gucci","model":"Horsebit Duomo Small","material":"Black glossy leather","hardware":"Gold-toned","origin":"Italy","style":"Top Handle / Shoulder / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
@@ -13539,7 +13563,11 @@ window.products = [
   {
     "id":345,"name":"Celine Small Flair in Grained Calfskin — Black","category":"accessories","retail price":3650,"sale price":3650,
     "image":"https://image.celine.com/asset/7b032fef-31f4-4610-8325-acd9a6e76895/L10BF5C12-38NO_1_WI26_W_V1.jpg?im=Resize%3D%28800%29",
-    "images":["https://image.celine.com/asset/7b032fef-31f4-4610-8325-acd9a6e76895/L10BF5C12-38NO_1_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/0c151616-bdec-426f-8a3c-03c2b0a5e441/L10BF5C12-38NO_2_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/1b7ce01a-7f43-4956-9fb7-0ca22b3bfb31/L10BF5C12-38NO_3_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/3d7ebbae-9ba6-4820-ab06-a0c8b61461a8/L10BF5C12-38NO_4_WI26_W_V1.jpg?im=Resize%3D%28800%29"],
+    "images":["https://image.celine.com/asset/7b032fef-31f4-4610-8325-acd9a6e76895/L10BF5C12-38NO_1_WI26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/0c151616-bdec-426f-8a3c-03c2b0a5e441/L10BF5C12-38NO_2_WI26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/1b7ce01a-7f43-4956-9fb7-0ca22b3bfb31/L10BF5C12-38NO_3_WI26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/3d7ebbae-9ba6-4820-ab06-a0c8b61461a8/L10BF5C12-38NO_4_WI26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/7b032fef-31f4-4610-8325-acd9a6e76895/L10BF5C12-38NO_1_WI26_W_V1.jpg?im=Resize%3D%28800%29"],
     "description":"Celine Small Flair in black grained calfskin with Triomphe turn-lock, removable strap and structured top handle.",
     "specifications":{"brand":"Celine","model":"Small Flair","material":"Grained calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"L10BF5C12.38NO","style":"Top Handle / Shoulder / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
@@ -13547,7 +13575,11 @@ window.products = [
   {
     "id":346,"name":"Celine Small Flair in Shiny Calfskin — Chestnut","category":"accessories","retail price":3800,"sale price":3800,
     "image":"https://image.celine.com/asset/6be8ff11-f678-4b7f-9b4a-0c4de68a488c/L10BF5B53-18CH_1_WI26_W_V1.jpg?im=Resize%3D%28800%29",
-    "images":["https://image.celine.com/asset/6be8ff11-f678-4b7f-9b4a-0c4de68a488c/L10BF5B53-18CH_1_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/b3f193cc-d102-4b4e-83e5-145a38c9fd08/L10BF5B53-18CH_2_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/8052abbc-9d5b-4b40-8d93-c2d59975b9a8/L10BF5B53-18CH_3_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/758a4b92-cd4e-42b0-8bd1-3a47f9f95622/L10BF5B53-18CH_4_WI26_W_V1.jpg?im=Resize%3D%28800%29"],
+    "images":["https://image.celine.com/asset/6be8ff11-f678-4b7f-9b4a-0c4de68a488c/L10BF5B53-18CH_1_WI26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/b3f193cc-d102-4b4e-83e5-145a38c9fd08/L10BF5B53-18CH_2_WI26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/8052abbc-9d5b-4b40-8d93-c2d59975b9a8/L10BF5B53-18CH_3_WI26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/758a4b92-cd4e-42b0-8bd1-3a47f9f95622/L10BF5B53-18CH_4_WI26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/6be8ff11-f678-4b7f-9b4a-0c4de68a488c/L10BF5B53-18CH_1_WI26_W_V1.jpg?im=Resize%3D%28800%29"],
     "description":"Celine Small Flair in chestnut shiny calfskin with gold-finish Triomphe turn-lock and removable strap.",
     "specifications":{"brand":"Celine","model":"Small Flair","material":"Shiny calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"L10BF5B53.18CH","style":"Top Handle / Shoulder / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
@@ -13555,7 +13587,11 @@ window.products = [
   {
     "id":347,"name":"Celine Soft Triomphe Bucket in Shiny Lambskin — Syrah","category":"accessories","retail price":3450,"sale price":3450,
     "image":"https://image.celine.com/asset/388b9254-eea3-4376-901c-c359827fb994/L102S3J15-28PO_1_WI26_W_V1.jpg?im=Resize%3D%28800%29",
-    "images":["https://image.celine.com/asset/388b9254-eea3-4376-901c-c359827fb994/L102S3J15-28PO_1_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/32dcafbb-406d-4c4b-9b0a-e4331e997c06/L102S3J15-28PO_2_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/8ee7b192-e0f7-48c9-83ec-e02f3dac2bc2/L102S3J15-28PO_3_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/357fb391-2ca6-46a9-ab17-11c95d3682dd/L102S3J15-28PO_4_WI26_W_V1.jpg?im=Resize%3D%28800%29"],
+    "images":["https://image.celine.com/asset/388b9254-eea3-4376-901c-c359827fb994/L102S3J15-28PO_1_WI26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/32dcafbb-406d-4c4b-9b0a-e4331e997c06/L102S3J15-28PO_2_WI26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/8ee7b192-e0f7-48c9-83ec-e02f3dac2bc2/L102S3J15-28PO_3_WI26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/357fb391-2ca6-46a9-ab17-11c95d3682dd/L102S3J15-28PO_4_WI26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/388b9254-eea3-4376-901c-c359827fb994/L102S3J15-28PO_1_WI26_W_V1.jpg?im=Resize%3D%28800%29"],
     "description":"Soft Triomphe bucket in Syrah shiny lambskin with Triomphe magnetic closure, suede calfskin lining and adjustable strap.",
     "specifications":{"brand":"Celine","model":"Soft Triomphe Bucket","material":"Shiny lambskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L102S3J15.28PO","style":"Bucket / Shoulder / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
@@ -13563,7 +13599,11 @@ window.products = [
   {
     "id":348,"name":"Celine Soft Triomphe Little Halfmoon in Shiny Lambskin — White Cotton","category":"accessories","retail price":2700,"sale price":2700,
     "image":"https://image.celine.com/asset/705d9fa7-503d-49af-a672-d5ee6b88cf43/L10373778-00WC_1_FALL26_W_V1.jpg?im=Resize%3D%28800%29",
-    "images":["https://image.celine.com/asset/705d9fa7-503d-49af-a672-d5ee6b88cf43/L10373778-00WC_1_FALL26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/96e8dbba-daea-4674-a1c3-6e55841bc540/L10373778-00WC_2_FALL26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/8c935b26-d86b-49a8-8309-d01ab7a6e8c9/L10373778-00WC_3_FALL26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/d21fb5cf-49ae-4cf3-8296-8718c1f974ee/L10373778-00WC_4_FALL26_W_V1.jpg?im=Resize%3D%28800%29"],
+    "images":["https://image.celine.com/asset/705d9fa7-503d-49af-a672-d5ee6b88cf43/L10373778-00WC_1_FALL26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/96e8dbba-daea-4674-a1c3-6e55841bc540/L10373778-00WC_2_FALL26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/8c935b26-d86b-49a8-8309-d01ab7a6e8c9/L10373778-00WC_3_FALL26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/d21fb5cf-49ae-4cf3-8296-8718c1f974ee/L10373778-00WC_4_FALL26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/705d9fa7-503d-49af-a672-d5ee6b88cf43/L10373778-00WC_1_FALL26_W_V1.jpg?im=Resize%3D%28800%29"],
     "description":"Soft Triomphe Little Halfmoon in white cotton shiny lambskin with Triomphe magnetic closure and adjustable strap.",
     "specifications":{"brand":"Celine","model":"Soft Triomphe Little Halfmoon","material":"Shiny lambskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L10373778.00WC","style":"Shoulder / Slingback"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
@@ -13571,7 +13611,11 @@ window.products = [
   {
     "id":349,"name":"Celine Teen Nino Bag in Supple Grained Calfskin — Safari","category":"accessories","retail price":3600,"sale price":3600,
     "image":"https://image.celine.com/asset/a760a572-1833-4440-ade6-ac054ebd6bd1/118113FXK-03SA_1_SPR26_W_V1.jpg?im=Resize%3D%28800%29",
-    "images":["https://image.celine.com/asset/a760a572-1833-4440-ade6-ac054ebd6bd1/118113FXK-03SA_1_SPR26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/556c7491-7070-45d9-82a7-d808f628f2ea/118113FXK-03SA_2_SPR26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/60e3205a-b751-437c-ac43-0402369be1ea/118113FXK-03SA_3_SPR26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/96c4a8d1-b9eb-4e23-9f7f-4d42b40d9f50/118113FXK-03SA_4_SPR26_W_V1.jpg?im=Resize%3D%28800%29"],
+    "images":["https://image.celine.com/asset/a760a572-1833-4440-ade6-ac054ebd6bd1/118113FXK-03SA_1_SPR26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/556c7491-7070-45d9-82a7-d808f628f2ea/118113FXK-03SA_2_SPR26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/60e3205a-b751-437c-ac43-0402369be1ea/118113FXK-03SA_3_SPR26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/96c4a8d1-b9eb-4e23-9f7f-4d42b40d9f50/118113FXK-03SA_4_SPR26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/a760a572-1833-4440-ade6-ac054ebd6bd1/118113FXK-03SA_1_SPR26_W_V1.jpg?im=Resize%3D%28800%29"],
     "description":"Teen Nino in supple Safari grained calfskin with Triomphe metallic closure, two compartments and removable adjustable strap.",
     "specifications":{"brand":"Celine","model":"Teen Nino","material":"Supple grained calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"118113FXK.03SA","style":"Top Handle / Shoulder / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
@@ -13579,7 +13623,11 @@ window.products = [
   {
     "id":350,"name":"Celine Small Hobo in Supple Smooth Calfskin — Rice","category":"accessories","retail price":2350,"sale price":2350,
     "image":"https://image.celine.com/asset/72187695-3210-4750-82e0-8797cbf94676/L10133Q71-01RC_1_SUM26_W_V1.jpg?im=Resize%3D%28800%29",
-    "images":["https://image.celine.com/asset/72187695-3210-4750-82e0-8797cbf94676/L10133Q71-01RC_1_SUM26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/673858da-1537-4545-8bd1-e875a00e61e4/L10133Q71-01RC_2_SUM26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/7c1e9202-621a-4b56-91d4-7d72d10ed0f8/L10133Q71-01RC_3_SUM26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/66d452ae-1597-4ded-9c66-57e80a3fec8f/L10133Q71-01RC_4_SUM26_W_V1.jpg?im=Resize%3D%28800%29"],
+    "images":["https://image.celine.com/asset/72187695-3210-4750-82e0-8797cbf94676/L10133Q71-01RC_1_SUM26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/673858da-1537-4545-8bd1-e875a00e61e4/L10133Q71-01RC_2_SUM26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/7c1e9202-621a-4b56-91d4-7d72d10ed0f8/L10133Q71-01RC_3_SUM26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/66d452ae-1597-4ded-9c66-57e80a3fec8f/L10133Q71-01RC_4_SUM26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/72187695-3210-4750-82e0-8797cbf94676/L10133Q71-01RC_1_SUM26_W_V1.jpg?im=Resize%3D%28800%29"],
     "description":"Small Hobo in Rice supple smooth calfskin with suede calfskin lining, gold finishing and removable adjustable strap.",
     "specifications":{"brand":"Celine","model":"Small Hobo","material":"Supple smooth calfskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L10133Q71.01RC","style":"Hobo / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
@@ -13587,7 +13635,11 @@ window.products = [
   {
     "id":351,"name":"Celine Drop Bucket in Smooth Calfskin — Multicolor","category":"accessories","retail price":4100,"sale price":4100,
     "image":"https://image.celine.com/asset/65d3450d-eb39-4bcc-8b16-b8984211fdff/L102H3J23-14ML_1_SUM26_W_V1.jpg?im=Resize%3D%28800%29",
-    "images":["https://image.celine.com/asset/65d3450d-eb39-4bcc-8b16-b8984211fdff/L102H3J23-14ML_1_SUM26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/e0fe9caa-8285-49e7-ae26-d114f84924dd/L102H3J23-14ML_2_SUM26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/824e1698-fc8d-4718-ad4f-07bae665054a/L102H3J23-14ML_3_SUM26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/2a20730e-d0fa-4395-8878-22821c167db1/L102H3J23-14ML_4_SUM26_W_V1.jpg?im=Resize%3D%28800%29"],
+    "images":["https://image.celine.com/asset/65d3450d-eb39-4bcc-8b16-b8984211fdff/L102H3J23-14ML_1_SUM26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/e0fe9caa-8285-49e7-ae26-d114f84924dd/L102H3J23-14ML_2_SUM26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/824e1698-fc8d-4718-ad4f-07bae665054a/L102H3J23-14ML_3_SUM26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/2a20730e-d0fa-4395-8878-22821c167db1/L102H3J23-14ML_4_SUM26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/65d3450d-eb39-4bcc-8b16-b8984211fdff/L102H3J23-14ML_1_SUM26_W_V1.jpg?im=Resize%3D%28800%29"],
     "description":"Drop Bucket in multicolor smooth calfskin with suede lining, gold finishing and signature sliding Triomphe ball detail.",
     "specifications":{"brand":"Celine","model":"Drop Bucket","material":"Smooth calfskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L102H3J23.14ML","style":"Bucket / Shoulder"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
@@ -13595,7 +13647,11 @@ window.products = [
   {
     "id":352,"name":"Celine Flair in Grained Calfskin — Black","category":"accessories","retail price":4450,"sale price":4450,
     "image":"https://image.celine.com/asset/f2718518-3570-499f-a89b-0b8bb34a8dd5/L10AT5C12-38NO_1_WI26_W_V1.jpg?im=Resize%3D%28800%29",
-    "images":["https://image.celine.com/asset/f2718518-3570-499f-a89b-0b8bb34a8dd5/L10AT5C12-38NO_1_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/66c2a3c3-d705-4169-88b5-96702724b836/L10AT5C12-38NO_2_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/31af773a-95c0-484b-9340-988428569074/L10AT5C12-38NO_3_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/d0c28b3c-5b28-4ce8-99cc-c4ecf920852e/L10AT5C12-38NO_4_WI26_W_V1.jpg?im=Resize%3D%28800%29"],
+    "images":["https://image.celine.com/asset/f2718518-3570-499f-a89b-0b8bb34a8dd5/L10AT5C12-38NO_1_WI26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/66c2a3c3-d705-4169-88b5-96702724b836/L10AT5C12-38NO_2_WI26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/31af773a-95c0-484b-9340-988428569074/L10AT5C12-38NO_3_WI26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/d0c28b3c-5b28-4ce8-99cc-c4ecf920852e/L10AT5C12-38NO_4_WI26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/f2718518-3570-499f-a89b-0b8bb34a8dd5/L10AT5C12-38NO_1_WI26_W_V1.jpg?im=Resize%3D%28800%29"],
     "description":"Celine Flair in black grained calfskin with double-zip closure, Triomphe turn-lock, structured handle and removable strap.",
     "specifications":{"brand":"Celine","model":"Flair","material":"Grained calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"L10AT5C12.38NO","style":"Top Handle / Shoulder / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
@@ -13603,7 +13659,11 @@ window.products = [
   {
     "id":353,"name":"Celine Luggage in Grained Calfskin — Black","category":"accessories","retail price":4300,"sale price":4300,
     "image":"https://image.celine.com/asset/912f27db-a88d-4e6e-885e-145c0db4ce33/L108K3056-38NO_1_SPR26_W_V1.jpg?im=Resize%3D%28800%29",
-    "images":["https://image.celine.com/asset/912f27db-a88d-4e6e-885e-145c0db4ce33/L108K3056-38NO_1_SPR26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/568243a2-25a2-4a1c-ba87-26e76bd73cda/L108K3056-38NO_2_SPR26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/c29ba6d2-b0de-433a-86d8-fb48c41cbd36/L108K3056-38NO_3_SPR26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/31777fcc-09f7-459b-b321-06955a05edd0/L108K3056-38NO_4_SPR26_W_V1.jpg?im=Resize%3D%28800%29"],
+    "images":["https://image.celine.com/asset/912f27db-a88d-4e6e-885e-145c0db4ce33/L108K3056-38NO_1_SPR26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/568243a2-25a2-4a1c-ba87-26e76bd73cda/L108K3056-38NO_2_SPR26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/c29ba6d2-b0de-433a-86d8-fb48c41cbd36/L108K3056-38NO_3_SPR26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/31777fcc-09f7-459b-b321-06955a05edd0/L108K3056-38NO_4_SPR26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/912f27db-a88d-4e6e-885e-145c0db4ce33/L108K3056-38NO_1_SPR26_W_V1.jpg?im=Resize%3D%28800%29"],
     "description":"Celine Luggage in black grained calfskin with spacious interior, removable adjustable strap and twin handles.",
     "specifications":{"brand":"Celine","model":"Luggage","material":"Grained calfskin","lining":"Suede calfskin","reference":"L108K3056.38NO","style":"Top Handle / Shoulder / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
@@ -13611,7 +13671,11 @@ window.products = [
   {
     "id":354,"name":"Celine Soft Triomphe Besace in Supple Shiny Lambskin — Black","category":"accessories","retail price":3450,"sale price":3450,
     "image":"https://image.celine.com/asset/567bbd96-64f0-40d6-8c1c-aa87c019a750/123632T88-38NO_1_SPR26_W_V1.jpg?im=Resize%3D%28800%29",
-    "images":["https://image.celine.com/asset/567bbd96-64f0-40d6-8c1c-aa87c019a750/123632T88-38NO_1_SPR26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/642ae368-d5b6-4593-8d25-28a752acb4d5/123632T88-38NO_2_SPR26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/8a4a03cb-7ed0-4a6b-8923-abe7691d55b1/123632T88-38NO_3_SPR26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/1424a9fe-1f79-4cf2-872f-f47e789c43c5/123632T88-38NO_4_SPR26_W_V1.jpg?im=Resize%3D%28800%29"],
+    "images":["https://image.celine.com/asset/567bbd96-64f0-40d6-8c1c-aa87c019a750/123632T88-38NO_1_SPR26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/642ae368-d5b6-4593-8d25-28a752acb4d5/123632T88-38NO_2_SPR26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/8a4a03cb-7ed0-4a6b-8923-abe7691d55b1/123632T88-38NO_3_SPR26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/1424a9fe-1f79-4cf2-872f-f47e789c43c5/123632T88-38NO_4_SPR26_W_V1.jpg?im=Resize%3D%28800%29",
+      "https://image.celine.com/asset/567bbd96-64f0-40d6-8c1c-aa87c019a750/123632T88-38NO_1_SPR26_W_V1.jpg?im=Resize%3D%28800%29"],
     "description":"Soft Triomphe Besace in black supple shiny lambskin with Triomphe magnetic closure, suede lining and adjustable strap.",
     "specifications":{"brand":"Celine","model":"Soft Triomphe Besace","material":"Supple shiny lambskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"123632T88.38NO","style":"Shoulder / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
@@ -13619,7 +13683,11 @@ window.products = [
   {
     "id":355,"name":"Dior Médaillon Bucket Bag — Small Black Grained Calfskin","category":"accessories","retail price":3900,"sale price":3900,
     "image":"https://assets.christiandior.com/is/image/diorprod/M1531QUQWM900_SBG_E01?%24r9x10_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1850",
-    "images":["https://assets.christiandior.com/is/image/diorprod/M1531QUQWM900_SBG_E01?%24r9x10_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1850","https://assets.christiandior.com/is/image/diorprod/M1531QUQWM900_SBG_E03?%24r9x10_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1850","https://assets.christiandior.com/is/image/diorprod/M1531QUQWM900_SBG_E06?%24r9x10_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1850","https://assets.christiandior.com/is/image/diorprod/LOOK_F_26_3_LOOK_166_E04?%24r9x10_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1850"],
+    "images":["https://assets.christiandior.com/is/image/diorprod/M1531QUQWM900_SBG_E01?%24r9x10_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1850",
+      "https://assets.christiandior.com/is/image/diorprod/M1531QUQWM900_SBG_E03?%24r9x10_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1850",
+      "https://assets.christiandior.com/is/image/diorprod/M1531QUQWM900_SBG_E06?%24r9x10_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1850",
+      "https://assets.christiandior.com/is/image/diorprod/LOOK_F_26_3_LOOK_166_E04?%24r9x10_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1850",
+      "https://assets.christiandior.com/is/image/diorprod/M1531QUQWM900_SBG_E01?%24r9x10_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1850"],
     "description":"Small Dior Médaillon Bucket bag in black grained calfskin with adjustable strap, signature Médaillon detail and detachable Dior Oblique jacquard pouch.",
     "specifications":{"brand":"Dior","model":"Dior Médaillon Bucket Small","reference":"M1531QUQW_M900","material":"Grained calfskin","lining":"Goatskin and calfskin","hardware":"Gold-tone","origin":"Italy","dimensions":"19 x 18 x 12.5 cm","style":"Bucket / Shoulder"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior"
@@ -13627,7 +13695,11 @@ window.products = [
   {
     "id":356,"name":"Dior Médaillon Bucket Bag — Medium Black Grained Calfskin","category":"accessories","retail price":4600,"sale price":4600,
     "image":"https://assets.christiandior.com/is/image/diorprod/M1532QUQWM900_SBG_E01?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600",
-    "images":["https://assets.christiandior.com/is/image/diorprod/M1532QUQWM900_SBG_E01?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600","https://assets.christiandior.com/is/image/diorprod/M1532QUQWM900_SBG_E03?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600","https://assets.christiandior.com/is/image/diorprod/M1532QUQWM900_SBG_E06?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600","https://assets.christiandior.com/is/image/diorprod/M1532QUQWM900_SBG_E07?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600"],
+    "images":["https://assets.christiandior.com/is/image/diorprod/M1532QUQWM900_SBG_E01?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600",
+      "https://assets.christiandior.com/is/image/diorprod/M1532QUQWM900_SBG_E03?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600",
+      "https://assets.christiandior.com/is/image/diorprod/M1532QUQWM900_SBG_E06?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600",
+      "https://assets.christiandior.com/is/image/diorprod/M1532QUQWM900_SBG_E07?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600",
+      "https://assets.christiandior.com/is/image/diorprod/M1532QUQWM900_SBG_E01?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600"],
     "description":"Medium Dior Médaillon Bucket bag in black grained calfskin with adjustable strap, signature Médaillon detail and detachable Dior Oblique jacquard pouch.",
     "specifications":{"brand":"Dior","model":"Dior Médaillon Bucket Medium","reference":"M1532QUQW_M900","material":"Grained calfskin","lining":"Goatskin and calfskin","hardware":"Gold-tone","origin":"Italy","dimensions":"26.5 x 26 x 15 cm","style":"Bucket / Shoulder"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior"
@@ -13635,7 +13707,11 @@ window.products = [
   {
     "id":357,"name":"Dior Small Promenade Flap Bag — Black Flat Cannage Calfskin","category":"accessories","retail price":3800,"sale price":3800,
     "image":"https://assets.christiandior.com/is/image/diorprod/LOOK_F_26_4_LOOK_054_E04-1?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600",
-    "images":["https://assets.christiandior.com/is/image/diorprod/LOOK_F_26_4_LOOK_054_E04-1?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600","https://assets.christiandior.com/is/image/diorprod/LOOK_F_26_4_LOOK_054_E01-1?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600","https://assets.christiandior.com/is/image/diorprod/LOOK_F_26_4_LOOK_054_E13-1?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600","https://assets.christiandior.com/is/image/diorprod/M2867ODKZM900_SBG_E01-1?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600"],
+    "images":["https://assets.christiandior.com/is/image/diorprod/LOOK_F_26_4_LOOK_054_E04-1?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600",
+      "https://assets.christiandior.com/is/image/diorprod/LOOK_F_26_4_LOOK_054_E01-1?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600",
+      "https://assets.christiandior.com/is/image/diorprod/LOOK_F_26_4_LOOK_054_E13-1?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600",
+      "https://assets.christiandior.com/is/image/diorprod/M2867ODKZM900_SBG_E01-1?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600",
+      "https://assets.christiandior.com/is/image/diorprod/LOOK_F_26_4_LOOK_054_E04-1?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600"],
     "description":"Small Dior Promenade Flap bag in black flat Cannage calfskin with slender handles and refined Dior bow detailing.",
     "specifications":{"brand":"Dior","model":"Small Dior Promenade Flap","material":"Flat Cannage calfskin","hardware":"Gold-tone","origin":"Italy","style":"Top Handle / Shoulder"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior"
@@ -13643,7 +13719,11 @@ window.products = [
   {
     "id":358,"name":"Loewe Mini Amazona 180 Bag — Black Soft Calfskin","category":"accessories","retail price":2990,"sale price":2990,
     "image":"https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw1c0e9421/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1F.jpg?q=100&sw=750",
-    "images":["https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw1c0e9421/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1F.jpg?q=100&sw=750","https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw3ec25a4a/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1P.jpg?q=100&sw=750","https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw1d8eb63a/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1Q.jpg?q=100&sw=750","https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dwce2cba2e/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1R.jpg?q=100&sw=750"],
+    "images":["https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw1c0e9421/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1F.jpg?q=100&sw=750",
+      "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw3ec25a4a/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1P.jpg?q=100&sw=750",
+      "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw1d8eb63a/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1Q.jpg?q=100&sw=750",
+      "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dwce2cba2e/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1R.jpg?q=100&sw=750",
+      "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw1c0e9421/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1F.jpg?q=100&sw=750"],
     "description":"Loewe Mini Amazona 180 in black soft calfskin with signature toron top handle, concealed closure and removable shoulder/crossbody straps.",
     "specifications":{"brand":"Loewe","model":"Mini Amazona 180","material":"Soft calfskin","color":"Black","reference":"A039AS4X12-1100","style":"Top Handle / Shoulder / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Loewe","brand_display_name":"Loewe"
