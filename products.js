@@ -13152,4 +13152,141 @@ window.products = [
     "brand_display_name": "CHANEL"
   }
 
+  {
+    "id": 325,
+    "name": "Louis Vuitton Low Key Hobo MM — Black Grained Calfskin",
+    "category": "accessories",
+    "retail price": 3600,
+    "sale price": 3600,
+    "image": "https://sg.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-low-key-hobo-mm--M24856_PM1_Side%20view.png?hei=4096&wid=4096",
+    "images": [
+      "https://sg.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-low-key-hobo-mm--M24856_PM1_Side%20view.png?hei=4096&wid=4096",
+      "https://sg.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-low-key-hobo-mm--M24856_PM2_Front%20view.png?hei=4096&wid=4096",
+      "https://sg.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-low-key-hobo-mm--M24856_PM3_Interior%20view.png?hei=4096&wid=4096",
+      "https://sg.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-low-key-hobo-mm--M24856_PM4_Back%20view.png?hei=4096&wid=4096"
+    ],
+    "description": "Quiet-luxury Louis Vuitton hobo in black grained calfskin with suede lining, adjustable strap and signature engraved padlock.",
+    "specifications": {"brand":"Louis Vuitton","model":"Low Key Hobo MM","material":"Grained calfskin","hardware":"Gold-color hardware","dimensions":"31 x 35 x 18 cm","origin":"France, Spain, Italy or USA","style":"Hobo"},
+    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton"
+  },
+  {
+    "id": 326,
+    "name": "Louis Vuitton Multipass Mini — Black Leather",
+    "category": "accessories",
+    "retail price": 2230,
+    "sale price": 2230,
+    "image": "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-multipass-mini--M2A840_PM2_Front%20view.png?hei=4096&wid=4096",
+    "images": [
+      "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-multipass-mini--M2A840_PM2_Front%20view.png?hei=4096&wid=4096",
+      "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-multipass-mini--M2A840_PM1_Side%20view.png?hei=4096&wid=4096",
+      "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-multipass-mini--M2A840_PM3_Back%20view.png?hei=4096&wid=4096",
+      "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-multipass-mini--M2A840_PM4_Interior%20view.png?hei=4096&wid=4096"
+    ],
+    "description": "Compact Multipass Mini in black grained leather with a sculptural hobo silhouette, gold chain detail and detachable Monogram strap.",
+    "specifications": {"brand":"Louis Vuitton","model":"Multipass Mini","material":"Grained leather","hardware":"Gold-color hardware","reference":"M2A840","style":"Mini Shoulder Bag"},
+    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton"
+  },
+  {
+    "id": 327,
+    "name": "Louis Vuitton Nano Madeleine — Black Monogram Empreinte Leather",
+    "category": "accessories",
+    "retail price": 2300,
+    "sale price": 2300,
+    "image": "https://en.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-nano-madeleine-monogram-empreinte--M12144_PM2_Front%20view.png?hei=4096&wid=4096",
+    "images": [
+      "https://en.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-nano-madeleine-monogram-empreinte--M12144_PM2_Front%20view.png?hei=4096&wid=4096",
+      "https://en.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-nano-madeleine-monogram-empreinte--M12144_PM1_Side%20view.png?hei=4096&wid=4096",
+      "https://en.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-nano-madeleine-monogram-empreinte--M12144_PM3_Back%20view.png?hei=4096&wid=4096",
+      "https://en.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-nano-madeleine-monogram-empreinte--M12144_PM4_Interior%20view.png?hei=4096&wid=4096"
+    ],
+    "description": "Miniature Madeleine in black Monogram Empreinte leather with S-lock closure and removable LV Circle charm chain.",
+    "specifications": {"brand":"Louis Vuitton","model":"Nano Madeleine","material":"Supple grained cowhide leather","hardware":"Gold-color hardware","dimensions":"21 x 12.5 x 6 cm","reference":"M12144","style":"Nano Top Handle / Crossbody"},
+    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton"
+  },
+  {
+    "id": 328,
+    "name": "Louis Vuitton Express MM — Brown Calfskin and Monogram",
+    "category": "accessories",
+    "retail price": 3800,
+    "sale price": 3800,
+    "image": "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-express-mm--M26397_PM1_Side%20view.png?hei=1090&wid=1090",
+    "images": [
+      "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-express-mm--M26397_PM1_Side%20view.png?hei=1090&wid=1090",
+      "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-express-mm--M26397_PM2_Front%20view.png?hei=1090&wid=1090",
+      "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-express-mm--M26397_PM3_Back%20view.png?hei=1090&wid=1090",
+      "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-express-mm--M26397_PM4_Interior%20view.png?hei=1090&wid=1090"
+    ],
+    "description": "Express MM in supple brown calf leather accented with Monogram canvas, gold-tone hardware, clochette and padlock.",
+    "specifications": {"brand":"Louis Vuitton","model":"Express MM","material":"Calf leather and Monogram canvas","hardware":"Gold-tone hardware","reference":"M26397","style":"Top Handle / Shoulder"},
+    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton"
+  },
+  {
+    "id": 329,
+    "name": "Louis Vuitton Pochette Papillon — Monogram Canvas",
+    "category": "accessories",
+    "retail price": 1200,
+    "sale price": 1200,
+    "image": "https://de.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-papillon--M25703_PM1_Cropped%20worn%20view.png?hei=4096&wid=4096",
+    "images": [
+      "https://de.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-papillon--M25703_PM1_Cropped%20worn%20view.png?hei=4096&wid=4096",
+      "https://de.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-papillon--M25703_PM2_Front%20view.png?hei=4096&wid=4096",
+      "https://de.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-papillon--M25703_PM3_Back%20view.png?hei=4096&wid=4096",
+      "https://de.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-papillon--M25703_PM4_Interior%20view.png?hei=4096&wid=4096"
+    ],
+    "description": "Archival-inspired Pochette Papillon in Monogram Canvas with natural cowhide trim and removable leather strap.",
+    "specifications": {"brand":"Louis Vuitton","model":"Pochette Papillon","material":"Monogram Canvas and cowhide leather","reference":"M25703","style":"Shoulder / Hand Carry"},
+    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Louis Vuitton","brand_display_name":"Louis Vuitton"
+  },
+  {
+    "id": 330,
+    "name": "Loewe Small Whisker Bag — Black Glazed Calfskin",
+    "category": "accessories",
+    "retail price": 3400,
+    "sale price": 3400,
+    "image": "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw5c7258c5/images_rd/ATBBTBBX01/ATBBTBBX01-1100/ATBBTBBX01_1100_1O.jpg?q=100&sw=750",
+    "images": [
+      "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw5c7258c5/images_rd/ATBBTBBX01/ATBBTBBX01-1100/ATBBTBBX01_1100_1O.jpg?q=100&sw=750",
+      "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw5c7258c5/images_rd/ATBBTBBX01/ATBBTBBX01-1100/ATBBTBBX01_1100_2O.jpg?q=100&sw=750",
+      "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw5c7258c5/images_rd/ATBBTBBX01/ATBBTBBX01-1100/ATBBTBBX01_1100_3O.jpg?q=100&sw=750",
+      "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw5c7258c5/images_rd/ATBBTBBX01/ATBBTBBX01-1100/ATBBTBBX01_1100_4O.jpg?q=100&sw=750"
+    ],
+    "description": "Small Whisker in black glazed calfskin with a structural handle, giant zip opening, detachable strap and signature embossed branding.",
+    "specifications": {"brand":"Loewe","model":"Small Whisker","material":"Glazed calfskin","dimensions":"25.5 x 14 x 17 cm","origin":"Spain","style":"Shoulder / Crossbody / Hand Carry"},
+    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Loewe","brand_display_name":"Loewe"
+  },
+  {
+    "id": 331,
+    "name": "Loewe Hammock Flip Bag — Black Classic Calfskin",
+    "category": "accessories",
+    "retail price": 3950,
+    "sale price": 3950,
+    "image": "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A538HHBX07/A538HHBX07-1100/A538HHBX07_1100_1O.jpg?q=100&sw=750",
+    "images": [
+      "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A538HHBX07/A538HHBX07-1100/A538HHBX07_1100_1O.jpg?q=100&sw=750",
+      "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A538HHBX07/A538HHBX07-1100/A538HHBX07_1100_2O.jpg?q=100&sw=750",
+      "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A538HHBX07/A538HHBX07-1100/A538HHBX07_1100_3O.jpg?q=100&sw=750",
+      "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A538HHBX07/A538HHBX07-1100/A538HHBX07_1100_4O.jpg?q=100&sw=750"
+    ],
+    "description": "Hammock Flip in black classic calfskin, designed to transform between a carry-all and body-friendly hobo with versatile carry options.",
+    "specifications": {"brand":"Loewe","model":"Hammock Flip","material":"Classic calfskin","origin":"Spain","style":"Top Handle / Hobo / Crossbody"},
+    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Loewe","brand_display_name":"Loewe"
+  },
+  {
+    "id": 332,
+    "name": "Loewe Medium Flamenco Purse — Black Nappa Leather",
+    "category": "accessories",
+    "retail price": 3990,
+    "sale price": 3990,
+    "image": "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A411FC1X01/A411FC1X01-1100/A411FC1X01_1100_1O.jpg?q=100&sw=750",
+    "images": [
+      "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A411FC1X01/A411FC1X01-1100/A411FC1X01_1100_1O.jpg?q=100&sw=750",
+      "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A411FC1X01/A411FC1X01-1100/A411FC1X01_1100_2O.jpg?q=100&sw=750",
+      "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A411FC1X01/A411FC1X01-1100/A411FC1X01_1100_3O.jpg?q=100&sw=750",
+      "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A411FC1X01/A411FC1X01-1100/A411FC1X01_1100_4O.jpg?q=100&sw=750"
+    ],
+    "description": "Loewe Flamenco purse in black nappa leather with a softly gathered silhouette and signature drawstring detailing.",
+    "specifications": {"brand":"Loewe","model":"Medium Flamenco Purse","material":"Nappa leather","origin":"Spain","style":"Purse / Shoulder / Crossbody"},
+    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Loewe","brand_display_name":"Loewe"
+  }
+
 ]
