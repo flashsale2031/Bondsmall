@@ -5,7 +5,8 @@
     const FRONT_DELAY_MS = 10000;
     const BACK_DISPLAY_MS = 5000;
     const IMAGE_TIMEOUT_MS = 4500;
-    const PLACEHOLDER_IMAGE = 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(
+    const EXTERNAL_PLACEHOLDER_IMAGE = 'https://placehold.co/640x640/f7f4ee/75695f?text=Image+unavailable';
+    const INLINE_SAFETY_IMAGE = 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(
         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><rect width="640" height="640" fill="#f7f4ee"/><path d="M220 280h200v80H220z" fill="#d8cfc3"/><text x="320" y="410" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" fill="#75695f">Image unavailable</text></svg>'
     );
 
@@ -133,8 +134,13 @@
             if (image._productCardLoadToken !== token) return;
             clearTimer();
             if (index >= sources.length) {
-                image.src = PLACEHOLDER_IMAGE;
-                image.dataset.cardImageFallback = 'placeholder';
+                image.dataset.cardImageFallback = 'external-placeholder';
+                image.onerror = () => {
+                    image.onerror = null;
+                    image.src = INLINE_SAFETY_IMAGE;
+                    image.dataset.cardImageFallback = 'inline-safety';
+                };
+                image.src = EXTERNAL_PLACEHOLDER_IMAGE;
                 return;
             }
             const source = sources[index++];
