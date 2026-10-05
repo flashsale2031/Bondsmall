@@ -654,24 +654,24 @@ window.products = [
     "category": "artandcollectibles",
     "retail price": 799.99,
     "sale price": 199.99,
-    "image": "https://www.nationalarchivesstore.org/cdn/shop/products/5965f741-f7e2-4c45-a900-bdb4ca247f65.png?v=1759439151&width=3840",
+    "image": "https://m.media-amazon.com/images/I/71g1Qh2QqVL._AC_SL1000_.jpg",
     "description": "A collectible bust honoring Benjamin Franklin, reproduced from Jean-Antoine Houdon's classic portrait bust.",
     "images": [
-      "https://www.nationalarchivesstore.org/cdn/shop/products/5965f741-f7e2-4c45-a900-bdb4ca247f65.png?v=1759439151&width=3840",
+      "https://m.media-amazon.com/images/I/71g1Qh2QqVL._AC_SL1000_.jpg",
       "https://www.nationalarchivesstore.org/cdn/shop/products/Mackenzie_Fisher_-_105506_BUST_6_FRANKLIN_2.jpg?v=1542388876&width=3840",
       "https://www.nationalarchivesstore.org/cdn/shop/products/Mackenzie_Fisher_-_105506_BUST_6_FRANKLIN_3.jpg?v=1542388876&width=3840",
-      "https://www.nationalarchivesstore.org/cdn/shop/products/Mackenzie_Fisher_-_105506_BUST_6_FRANKLIN_4_1.jpg?v=1542388876&width=3840"
+      "https://www.nationalarchivesstore.org/cdn/shop/products/5965f741-f7e2-4c45-a900-bdb4ca247f65.png?v=1759439151&width=3840"
     ],
-    "photo_source": "Current National Archives Store product photography; exact product match confirmed by visual search and product description.",
-    "photo_display": "Front, three-quarter, rear, and side views";
+    "photo_source": "Bronze-finished 6-inch bust photography selected from the identified product listings.",
+    "photo_display": "Alternative front, left side, right side, and alternative right-side front views",
     "specifications": {
       "brand": "",
-      "material": "Hand-poured Cast Plaster / Polyresin",
-      "dimensions": "9.5in H x 6in W x 4.5in D",
-      "weight": "4.2 lbs",
+      "material": "Bronze finished polystone",
+      "dimensions": "6 inches",
+      "weight": "N/A",
       "edition": "Open Edition Historic Reproduction",
-      "authenticity": "Includes National Archives Certificate of Origin",
-      "finish": "Hand-painted Antique Alabaster Matte Finish",
+      "authenticity": "National Archives product photography",
+      "finish": "Bronze finish",
       "country_of_mint": "N/A",
       "purity": "N/A",
       "framed": "No"
