@@ -13489,5 +13489,13 @@ window.products = [
     "specifications":{"brand":"Dior","model":"Small Dior Promenade Flap","material":"Flat Cannage calfskin","hardware":"Gold-tone","origin":"Italy","style":"Top Handle / Shoulder"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior"
   },
+  {
+    "id":358,"name":"Loewe Mini Amazona 180 Bag — Black Soft Calfskin","category":"accessories","retail price":2990,"sale price":2990,
+    "image":"https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw1c0e9421/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1F.jpg?q=100&sw=750",
+    "images":["https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw1c0e9421/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1F.jpg?q=100&sw=750","https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw3ec25a4a/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1P.jpg?q=100&sw=750","https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw1d8eb63a/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1Q.jpg?q=100&sw=750","https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dwce2cba2e/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1R.jpg?q=100&sw=750"],
+    "description":"Loewe Mini Amazona 180 in black soft calfskin with signature toron top handle, concealed closure and removable shoulder/crossbody straps.",
+    "specifications":{"brand":"Loewe","model":"Mini Amazona 180","material":"Soft calfskin","color":"Black","reference":"A039AS4X12-1100","style":"Top Handle / Shoulder / Crossbody"},
+    "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Loewe","brand_display_name":"Loewe"
+  },
 
 ]
