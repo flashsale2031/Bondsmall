@@ -654,11 +654,16 @@ window.products = [
     "category": "artandcollectibles",
     "retail price": 799.99,
     "sale price": 199.99,
-    "image": "https://www.nationalarchivesstore.org/cdn/shop/products/Mackenzie_Fisher_-_105506_BUST_6_FRANKLIN_6_1024x1024.jpg?v=1542388876",
-    "description": "A collectible bust honoring a historic icon.",
+    "image": "https://www.nationalarchivesstore.org/cdn/shop/products/5965f741-f7e2-4c45-a900-bdb4ca247f65.png?v=1759439151&width=3840",
+    "description": "A collectible bust honoring Benjamin Franklin, reproduced from Jean-Antoine Houdon's classic portrait bust.",
     "images": [
-      "https://www.nationalarchivesstore.org/cdn/shop/products/Mackenzie_Fisher_-_105506_BUST_6_FRANKLIN_6_1024x1024.jpg?v=1542388876"
+      "https://www.nationalarchivesstore.org/cdn/shop/products/5965f741-f7e2-4c45-a900-bdb4ca247f65.png?v=1759439151&width=3840",
+      "https://www.nationalarchivesstore.org/cdn/shop/products/Mackenzie_Fisher_-_105506_BUST_6_FRANKLIN_2.jpg?v=1542388876&width=3840",
+      "https://www.nationalarchivesstore.org/cdn/shop/products/Mackenzie_Fisher_-_105506_BUST_6_FRANKLIN_3.jpg?v=1542388876&width=3840",
+      "https://www.nationalarchivesstore.org/cdn/shop/products/Mackenzie_Fisher_-_105506_BUST_6_FRANKLIN_4_1.jpg?v=1542388876&width=3840"
     ],
+    "photo_source": "Current National Archives Store product photography; exact product match confirmed by visual search and product description.",
+    "photo_display": "Front, three-quarter, rear, and side views";
     "specifications": {
       "brand": "",
       "material": "Hand-poured Cast Plaster / Polyresin",
