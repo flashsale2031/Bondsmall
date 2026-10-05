@@ -8017,6 +8017,7 @@ window.products = [
       "identifier_policy": "Use only manufacturer-assigned GTIN/MPN values; never fabricate identifiers.",
       "listing_validation": "requires_verified_gtin_or_valid_manufacturer_mpn_and_matching_landing_page"
     },
+    "inventory": 100,
     "gs1": {
       "gtin": null,
       "gtin_status": "not_verified",
