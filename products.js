@@ -7714,13 +7714,14 @@ window.products = [
     "category": "accessories",
     "retail price": 399.99,
     "sale price": 59.99,
-    "image": "https://cdn-images.farfetch-contents.com/15/36/84/80/15368480_37224527_600.jpg",
+    "image": "https://bondsmall.com/assets/main-images/hf-342.webp",
     "description": "A high-quality product designed to provide excellent performance and everyday reliability.",
     "images": [
-      "https://cdn-images.farfetch-contents.com/15/36/84/80/15368480_37224527_600.jpg",
-      "https://images.stockx.com/images/Burberry-Check-Cotton-Canvas-Bucket-Hat-Birch-Brown.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1642447308",
-      "https://cdn-images.farfetch-contents.com/15/36/84/80/15368480_37224528_600.jpg",
-      "https://images.stockx.com/images/Burberry-Check-Cotton-Canvas-Bucket-Hat-Birch-Brown-2.jpg?fit=fill&bg=FFFFFF&w=480&h=320&q=57&dpr=2&trim=color&updated_at=1642447308"
+      "https://bondsmall.com/assets/main-images/hf-342.webp",
+      "https://bondsmall.com/assets/main-images/hf-342.webp",
+      "https://bondsmall.com/assets/main-images/hf-342.webp",
+      "https://bondsmall.com/assets/main-images/hf-342.webp",
+      "https://bondsmall.com/assets/main-images/hf-342.webp"
     ],
     "specifications": {
       "brand": "Burberry",
@@ -7737,11 +7738,14 @@ window.products = [
     "category": "homeandappliances",
     "retail price": 499.99,
     "sale price": 299.99,
-    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/21afec55-4335-4253-8147-06dd44a6f68b.jpg;maxHeight=828;maxWidth=400?format=webp",
+    "image": "https://bondsmall.com/assets/main-images/hf-343.webp",
     "description": "An ultra high-definition Smart TV featuring vivid colors, deep contrast, and advanced smart platform streaming.",
     "images": [
-      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/21afec55-4335-4253-8147-06dd44a6f68b.jpg;maxHeight=828;maxWidth=400?format=webp",
-      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/70df9969-a281-429c-bb76-1c6ca121546e.jpg;maxHeight=828;maxWidth=400?format=webp"
+      "https://bondsmall.com/assets/main-images/hf-343.webp",
+      "https://bondsmall.com/assets/main-images/hf-343.webp",
+      "https://bondsmall.com/assets/main-images/hf-343.webp",
+      "https://bondsmall.com/assets/main-images/hf-343.webp",
+      "https://bondsmall.com/assets/main-images/hf-343.webp"
     ],
     "specifications": {
       "brand": "LG",
@@ -7763,11 +7767,14 @@ window.products = [
     "category": "electronics",
     "retail price": 2499.99,
     "sale price": 999.99,
-    "image": "https://www.visible.com/shop/assets/images/shop/webp/iPhone_17_Pro_Max_COS_1.webp",
+    "image": "https://bondsmall.com/assets/main-images/hf-344.webp",
     "description": "iPhone 17 Pro Max. The most powerful iPhone ever. Brilliant 6.9-inch display, A19 Pro chip, advanced 48MP camera system, and best-ever battery life.",
     "images": [
-      "https://www.visible.com/shop/assets/images/shop/webp/iPhone_17_Pro_Max_COS_1.webp",
-      "https://www.visible.com/shop/assets/images/shop/webp/iPhone_17_Pro_Max_COS_2.webp"
+      "https://bondsmall.com/assets/main-images/hf-344.webp",
+      "https://bondsmall.com/assets/main-images/hf-344.webp",
+      "https://bondsmall.com/assets/main-images/hf-344.webp",
+      "https://bondsmall.com/assets/main-images/hf-344.webp",
+      "https://bondsmall.com/assets/main-images/hf-344.webp"
     ],
     "specifications": {
       "brand": "Apple",
@@ -13388,79 +13395,79 @@ window.products = [
   {
     "id":345,"name":"Celine Small Flair in Grained Calfskin — Black","category":"accessories","retail price":3650,"sale price":3650,
     "image":"https://image.celine.com/asset/7b032fef-31f4-4610-8325-acd9a6e76895/L10BF5C12-38NO_1_WI26_W_V1.jpg?im=Resize%3D%28800%29",
-    "images":["https://image.celine.com/asset/7b032fef-31f4-4610-8325-acd9a6e76895/L10BF5C12-38NO_1_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/0c151616-bdec-426f-8a3c-03c2b0a5e441/L10BF5C12-38NO_2_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/1b7ce01a-7f43-4956-9fb7-0ca22b3bfb31/L10BF5C12-38NO_3_WI26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/3d7ebbae-9ba6-4820-ab06-a0c8b61461a8/L10BF5C12-38NO_4_WI26_W_V1.jpg?im=Resize%3D(800)"],
+    "images":["https://image.celine.com/asset/7b032fef-31f4-4610-8325-acd9a6e76895/L10BF5C12-38NO_1_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/0c151616-bdec-426f-8a3c-03c2b0a5e441/L10BF5C12-38NO_2_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/1b7ce01a-7f43-4956-9fb7-0ca22b3bfb31/L10BF5C12-38NO_3_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/3d7ebbae-9ba6-4820-ab06-a0c8b61461a8/L10BF5C12-38NO_4_WI26_W_V1.jpg?im=Resize%3D%28800%29"],
     "description":"Celine Small Flair in black grained calfskin with Triomphe turn-lock, removable strap and structured top handle.",
     "specifications":{"brand":"Celine","model":"Small Flair","material":"Grained calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"L10BF5C12.38NO","style":"Top Handle / Shoulder / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
     "id":346,"name":"Celine Small Flair in Shiny Calfskin — Chestnut","category":"accessories","retail price":3800,"sale price":3800,
-    "image":"https://image.celine.com/asset/6be8ff11-f678-4b7f-9b4a-0c4de68a488c/L10BF5B53-18CH_1_WI26_W_V1.jpg?im=Resize%3D(800)",
-    "images":["https://image.celine.com/asset/6be8ff11-f678-4b7f-9b4a-0c4de68a488c/L10BF5B53-18CH_1_WI26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/b3f193cc-d102-4b4e-83e5-145a38c9fd08/L10BF5B53-18CH_2_WI26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/8052abbc-9d5b-4b40-8d93-c2d59975b9a8/L10BF5B53-18CH_3_WI26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/758a4b92-cd4e-42b0-8bd1-3a47f9f95622/L10BF5B53-18CH_4_WI26_W_V1.jpg?im=Resize%3D(800)"],
+    "image":"https://image.celine.com/asset/6be8ff11-f678-4b7f-9b4a-0c4de68a488c/L10BF5B53-18CH_1_WI26_W_V1.jpg?im=Resize%3D%28800%29",
+    "images":["https://image.celine.com/asset/6be8ff11-f678-4b7f-9b4a-0c4de68a488c/L10BF5B53-18CH_1_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/b3f193cc-d102-4b4e-83e5-145a38c9fd08/L10BF5B53-18CH_2_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/8052abbc-9d5b-4b40-8d93-c2d59975b9a8/L10BF5B53-18CH_3_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/758a4b92-cd4e-42b0-8bd1-3a47f9f95622/L10BF5B53-18CH_4_WI26_W_V1.jpg?im=Resize%3D%28800%29"],
     "description":"Celine Small Flair in chestnut shiny calfskin with gold-finish Triomphe turn-lock and removable strap.",
     "specifications":{"brand":"Celine","model":"Small Flair","material":"Shiny calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"L10BF5B53.18CH","style":"Top Handle / Shoulder / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
     "id":347,"name":"Celine Soft Triomphe Bucket in Shiny Lambskin — Syrah","category":"accessories","retail price":3450,"sale price":3450,
-    "image":"https://image.celine.com/asset/388b9254-eea3-4376-901c-c359827fb994/L102S3J15-28PO_1_WI26_W_V1.jpg?im=Resize%3D(800)",
-    "images":["https://image.celine.com/asset/388b9254-eea3-4376-901c-c359827fb994/L102S3J15-28PO_1_WI26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/32dcafbb-406d-4c4b-9b0a-e4331e997c06/L102S3J15-28PO_2_WI26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/8ee7b192-e0f7-48c9-83ec-e02f3dac2bc2/L102S3J15-28PO_3_WI26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/357fb391-2ca6-46a9-ab17-11c95d3682dd/L102S3J15-28PO_4_WI26_W_V1.jpg?im=Resize%3D(800)"],
+    "image":"https://image.celine.com/asset/388b9254-eea3-4376-901c-c359827fb994/L102S3J15-28PO_1_WI26_W_V1.jpg?im=Resize%3D%28800%29",
+    "images":["https://image.celine.com/asset/388b9254-eea3-4376-901c-c359827fb994/L102S3J15-28PO_1_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/32dcafbb-406d-4c4b-9b0a-e4331e997c06/L102S3J15-28PO_2_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/8ee7b192-e0f7-48c9-83ec-e02f3dac2bc2/L102S3J15-28PO_3_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/357fb391-2ca6-46a9-ab17-11c95d3682dd/L102S3J15-28PO_4_WI26_W_V1.jpg?im=Resize%3D%28800%29"],
     "description":"Soft Triomphe bucket in Syrah shiny lambskin with Triomphe magnetic closure, suede calfskin lining and adjustable strap.",
     "specifications":{"brand":"Celine","model":"Soft Triomphe Bucket","material":"Shiny lambskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L102S3J15.28PO","style":"Bucket / Shoulder / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
     "id":348,"name":"Celine Soft Triomphe Little Halfmoon in Shiny Lambskin — White Cotton","category":"accessories","retail price":2700,"sale price":2700,
-    "image":"https://image.celine.com/asset/705d9fa7-503d-49af-a672-d5ee6b88cf43/L10373778-00WC_1_FALL26_W_V1.jpg?im=Resize%3D(800)",
-    "images":["https://image.celine.com/asset/705d9fa7-503d-49af-a672-d5ee6b88cf43/L10373778-00WC_1_FALL26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/96e8dbba-daea-4674-a1c3-6e55841bc540/L10373778-00WC_2_FALL26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/8c935b26-d86b-49a8-8309-d01ab7a6e8c9/L10373778-00WC_3_FALL26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/d21fb5cf-49ae-4cf3-8296-8718c1f974ee/L10373778-00WC_4_FALL26_W_V1.jpg?im=Resize%3D(800)"],
+    "image":"https://image.celine.com/asset/705d9fa7-503d-49af-a672-d5ee6b88cf43/L10373778-00WC_1_FALL26_W_V1.jpg?im=Resize%3D%28800%29",
+    "images":["https://image.celine.com/asset/705d9fa7-503d-49af-a672-d5ee6b88cf43/L10373778-00WC_1_FALL26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/96e8dbba-daea-4674-a1c3-6e55841bc540/L10373778-00WC_2_FALL26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/8c935b26-d86b-49a8-8309-d01ab7a6e8c9/L10373778-00WC_3_FALL26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/d21fb5cf-49ae-4cf3-8296-8718c1f974ee/L10373778-00WC_4_FALL26_W_V1.jpg?im=Resize%3D%28800%29"],
     "description":"Soft Triomphe Little Halfmoon in white cotton shiny lambskin with Triomphe magnetic closure and adjustable strap.",
     "specifications":{"brand":"Celine","model":"Soft Triomphe Little Halfmoon","material":"Shiny lambskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L10373778.00WC","style":"Shoulder / Slingback"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
     "id":349,"name":"Celine Teen Nino Bag in Supple Grained Calfskin — Safari","category":"accessories","retail price":3600,"sale price":3600,
-    "image":"https://image.celine.com/asset/a760a572-1833-4440-ade6-ac054ebd6bd1/118113FXK-03SA_1_SPR26_W_V1.jpg?im=Resize%3D(800)",
-    "images":["https://image.celine.com/asset/a760a572-1833-4440-ade6-ac054ebd6bd1/118113FXK-03SA_1_SPR26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/556c7491-7070-45d9-82a7-d808f628f2ea/118113FXK-03SA_2_SPR26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/60e3205a-b751-437c-ac43-0402369be1ea/118113FXK-03SA_3_SPR26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/96c4a8d1-b9eb-4e23-9f7f-4d42b40d9f50/118113FXK-03SA_4_SPR26_W_V1.jpg?im=Resize%3D(800)"],
+    "image":"https://image.celine.com/asset/a760a572-1833-4440-ade6-ac054ebd6bd1/118113FXK-03SA_1_SPR26_W_V1.jpg?im=Resize%3D%28800%29",
+    "images":["https://image.celine.com/asset/a760a572-1833-4440-ade6-ac054ebd6bd1/118113FXK-03SA_1_SPR26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/556c7491-7070-45d9-82a7-d808f628f2ea/118113FXK-03SA_2_SPR26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/60e3205a-b751-437c-ac43-0402369be1ea/118113FXK-03SA_3_SPR26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/96c4a8d1-b9eb-4e23-9f7f-4d42b40d9f50/118113FXK-03SA_4_SPR26_W_V1.jpg?im=Resize%3D%28800%29"],
     "description":"Teen Nino in supple Safari grained calfskin with Triomphe metallic closure, two compartments and removable adjustable strap.",
     "specifications":{"brand":"Celine","model":"Teen Nino","material":"Supple grained calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"118113FXK.03SA","style":"Top Handle / Shoulder / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
     "id":350,"name":"Celine Small Hobo in Supple Smooth Calfskin — Rice","category":"accessories","retail price":2350,"sale price":2350,
-    "image":"https://image.celine.com/asset/72187695-3210-4750-82e0-8797cbf94676/L10133Q71-01RC_1_SUM26_W_V1.jpg?im=Resize%3D(800)",
-    "images":["https://image.celine.com/asset/72187695-3210-4750-82e0-8797cbf94676/L10133Q71-01RC_1_SUM26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/673858da-1537-4545-8bd1-e875a00e61e4/L10133Q71-01RC_2_SUM26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/7c1e9202-621a-4b56-91d4-7d72d10ed0f8/L10133Q71-01RC_3_SUM26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/66d452ae-1597-4ded-9c66-57e80a3fec8f/L10133Q71-01RC_4_SUM26_W_V1.jpg?im=Resize%3D(800)"],
+    "image":"https://image.celine.com/asset/72187695-3210-4750-82e0-8797cbf94676/L10133Q71-01RC_1_SUM26_W_V1.jpg?im=Resize%3D%28800%29",
+    "images":["https://image.celine.com/asset/72187695-3210-4750-82e0-8797cbf94676/L10133Q71-01RC_1_SUM26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/673858da-1537-4545-8bd1-e875a00e61e4/L10133Q71-01RC_2_SUM26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/7c1e9202-621a-4b56-91d4-7d72d10ed0f8/L10133Q71-01RC_3_SUM26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/66d452ae-1597-4ded-9c66-57e80a3fec8f/L10133Q71-01RC_4_SUM26_W_V1.jpg?im=Resize%3D%28800%29"],
     "description":"Small Hobo in Rice supple smooth calfskin with suede calfskin lining, gold finishing and removable adjustable strap.",
     "specifications":{"brand":"Celine","model":"Small Hobo","material":"Supple smooth calfskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L10133Q71.01RC","style":"Hobo / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
     "id":351,"name":"Celine Drop Bucket in Smooth Calfskin — Multicolor","category":"accessories","retail price":4100,"sale price":4100,
-    "image":"https://image.celine.com/asset/65d3450d-eb39-4bcc-8b16-b8984211fdff/L102H3J23-14ML_1_SUM26_W_V1.jpg?im=Resize%3D(800)",
-    "images":["https://image.celine.com/asset/65d3450d-eb39-4bcc-8b16-b8984211fdff/L102H3J23-14ML_1_SUM26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/e0fe9caa-8285-49e7-ae26-d114f84924dd/L102H3J23-14ML_2_SUM26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/824e1698-fc8d-4718-ad4f-07bae665054a/L102H3J23-14ML_3_SUM26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/2a20730e-d0fa-4395-8878-22821c167db1/L102H3J23-14ML_4_SUM26_W_V1.jpg?im=Resize%3D(800)"],
+    "image":"https://image.celine.com/asset/65d3450d-eb39-4bcc-8b16-b8984211fdff/L102H3J23-14ML_1_SUM26_W_V1.jpg?im=Resize%3D%28800%29",
+    "images":["https://image.celine.com/asset/65d3450d-eb39-4bcc-8b16-b8984211fdff/L102H3J23-14ML_1_SUM26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/e0fe9caa-8285-49e7-ae26-d114f84924dd/L102H3J23-14ML_2_SUM26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/824e1698-fc8d-4718-ad4f-07bae665054a/L102H3J23-14ML_3_SUM26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/2a20730e-d0fa-4395-8878-22821c167db1/L102H3J23-14ML_4_SUM26_W_V1.jpg?im=Resize%3D%28800%29"],
     "description":"Drop Bucket in multicolor smooth calfskin with suede lining, gold finishing and signature sliding Triomphe ball detail.",
     "specifications":{"brand":"Celine","model":"Drop Bucket","material":"Smooth calfskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"L102H3J23.14ML","style":"Bucket / Shoulder"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
     "id":352,"name":"Celine Flair in Grained Calfskin — Black","category":"accessories","retail price":4450,"sale price":4450,
-    "image":"https://image.celine.com/asset/f2718518-3570-499f-a89b-0b8bb34a8dd5/L10AT5C12-38NO_1_WI26_W_V1.jpg?im=Resize%3D(800)",
-    "images":["https://image.celine.com/asset/f2718518-3570-499f-a89b-0b8bb34a8dd5/L10AT5C12-38NO_1_WI26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/66c2a3c3-d705-4169-88b5-96702724b836/L10AT5C12-38NO_2_WI26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/31af773a-95c0-484b-9340-988428569074/L10AT5C12-38NO_3_WI26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/d0c28b3c-5b28-4ce8-99cc-c4ecf920852e/L10AT5C12-38NO_4_WI26_W_V1.jpg?im=Resize%3D(800)"],
+    "image":"https://image.celine.com/asset/f2718518-3570-499f-a89b-0b8bb34a8dd5/L10AT5C12-38NO_1_WI26_W_V1.jpg?im=Resize%3D%28800%29",
+    "images":["https://image.celine.com/asset/f2718518-3570-499f-a89b-0b8bb34a8dd5/L10AT5C12-38NO_1_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/66c2a3c3-d705-4169-88b5-96702724b836/L10AT5C12-38NO_2_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/31af773a-95c0-484b-9340-988428569074/L10AT5C12-38NO_3_WI26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/d0c28b3c-5b28-4ce8-99cc-c4ecf920852e/L10AT5C12-38NO_4_WI26_W_V1.jpg?im=Resize%3D%28800%29"],
     "description":"Celine Flair in black grained calfskin with double-zip closure, Triomphe turn-lock, structured handle and removable strap.",
     "specifications":{"brand":"Celine","model":"Flair","material":"Grained calfskin","lining":"Lambskin","hardware":"Gold finishing","reference":"L10AT5C12.38NO","style":"Top Handle / Shoulder / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
     "id":353,"name":"Celine Luggage in Grained Calfskin — Black","category":"accessories","retail price":4300,"sale price":4300,
-    "image":"https://image.celine.com/asset/912f27db-a88d-4e6e-885e-145c0db4ce33/L108K3056-38NO_1_SPR26_W_V1.jpg?im=Resize%3D(800)",
-    "images":["https://image.celine.com/asset/912f27db-a88d-4e6e-885e-145c0db4ce33/L108K3056-38NO_1_SPR26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/568243a2-25a2-4a1c-ba87-26e76bd73cda/L108K3056-38NO_2_SPR26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/c29ba6d2-b0de-433a-86d8-fb48c41cbd36/L108K3056-38NO_3_SPR26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/31777fcc-09f7-459b-b321-06955a05edd0/L108K3056-38NO_4_SPR26_W_V1.jpg?im=Resize%3D(800)"],
+    "image":"https://image.celine.com/asset/912f27db-a88d-4e6e-885e-145c0db4ce33/L108K3056-38NO_1_SPR26_W_V1.jpg?im=Resize%3D%28800%29",
+    "images":["https://image.celine.com/asset/912f27db-a88d-4e6e-885e-145c0db4ce33/L108K3056-38NO_1_SPR26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/568243a2-25a2-4a1c-ba87-26e76bd73cda/L108K3056-38NO_2_SPR26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/c29ba6d2-b0de-433a-86d8-fb48c41cbd36/L108K3056-38NO_3_SPR26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/31777fcc-09f7-459b-b321-06955a05edd0/L108K3056-38NO_4_SPR26_W_V1.jpg?im=Resize%3D%28800%29"],
     "description":"Celine Luggage in black grained calfskin with spacious interior, removable adjustable strap and twin handles.",
     "specifications":{"brand":"Celine","model":"Luggage","material":"Grained calfskin","lining":"Suede calfskin","reference":"L108K3056.38NO","style":"Top Handle / Shoulder / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
     "id":354,"name":"Celine Soft Triomphe Besace in Supple Shiny Lambskin — Black","category":"accessories","retail price":3450,"sale price":3450,
-    "image":"https://image.celine.com/asset/567bbd96-64f0-40d6-8c1c-aa87c019a750/123632T88-38NO_1_SPR26_W_V1.jpg?im=Resize%3D(800)",
-    "images":["https://image.celine.com/asset/567bbd96-64f0-40d6-8c1c-aa87c019a750/123632T88-38NO_1_SPR26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/642ae368-d5b6-4593-8d25-28a752acb4d5/123632T88-38NO_2_SPR26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/8a4a03cb-7ed0-4a6b-8923-abe7691d55b1/123632T88-38NO_3_SPR26_W_V1.jpg?im=Resize%3D(800)","https://image.celine.com/asset/1424a9fe-1f79-4cf2-872f-f47e789c43c5/123632T88-38NO_4_SPR26_W_V1.jpg?im=Resize%3D(800)"],
+    "image":"https://image.celine.com/asset/567bbd96-64f0-40d6-8c1c-aa87c019a750/123632T88-38NO_1_SPR26_W_V1.jpg?im=Resize%3D%28800%29",
+    "images":["https://image.celine.com/asset/567bbd96-64f0-40d6-8c1c-aa87c019a750/123632T88-38NO_1_SPR26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/642ae368-d5b6-4593-8d25-28a752acb4d5/123632T88-38NO_2_SPR26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/8a4a03cb-7ed0-4a6b-8923-abe7691d55b1/123632T88-38NO_3_SPR26_W_V1.jpg?im=Resize%3D%28800%29","https://image.celine.com/asset/1424a9fe-1f79-4cf2-872f-f47e789c43c5/123632T88-38NO_4_SPR26_W_V1.jpg?im=Resize%3D%28800%29"],
     "description":"Soft Triomphe Besace in black supple shiny lambskin with Triomphe magnetic closure, suede lining and adjustable strap.",
     "specifications":{"brand":"Celine","model":"Soft Triomphe Besace","material":"Supple shiny lambskin","lining":"Suede calfskin","hardware":"Gold finishing","reference":"123632T88.38NO","style":"Shoulder / Crossbody"},
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
