@@ -221,7 +221,7 @@ window.products = [
       "season": "All Season"
     },
     "productType": "Athleisure / Streetwear",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Women"
   },
@@ -273,7 +273,7 @@ window.products = [
       "season": "Summer / Spring"
     },
     "productType": "Casual / Preppy",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Men"
   },
@@ -301,7 +301,7 @@ window.products = [
       "season": "Fall / Winter"
     },
     "productType": "Luxury / Elegant",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Women"
   },
@@ -512,7 +512,7 @@ window.products = [
       "gender": "Women",
       "brand_origin": "France"
     },
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Women"
   },
@@ -1813,7 +1813,7 @@ window.products = [
       "product_type": "Gold Coin"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -1876,7 +1876,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -1940,7 +1940,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2004,7 +2004,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2068,7 +2068,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2132,7 +2132,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2196,7 +2196,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2260,7 +2260,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2324,7 +2324,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2388,7 +2388,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2452,7 +2452,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2516,7 +2516,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2587,7 +2587,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2651,7 +2651,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2708,7 +2708,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2772,7 +2772,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2843,7 +2843,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2900,7 +2900,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -2964,7 +2964,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -3028,7 +3028,7 @@ window.products = [
       "reverse_design": "Miley Busiek family-of-eagles reverse"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -3099,7 +3099,7 @@ window.products = [
       "reverse_design": "Jennie Norris / Renata Gordon eagle (2021 redesign)"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -3163,7 +3163,7 @@ window.products = [
       "reverse_design": "Jennie Norris / Renata Gordon eagle (2021 redesign)"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -3227,7 +3227,7 @@ window.products = [
       "reverse_design": "Jennie Norris / Renata Gordon eagle (2021 redesign)"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -3284,7 +3284,7 @@ window.products = [
       "reverse_design": "Jennie Norris / Renata Gordon eagle (2021 redesign)"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -3348,7 +3348,7 @@ window.products = [
       "reverse_design": "Jennie Norris / Renata Gordon eagle (2021 redesign)"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -4159,7 +4159,7 @@ window.products = [
       "product_type": "Gold Coin"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -4281,7 +4281,7 @@ window.products = [
       "product_type": "Gold Coin"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -4338,7 +4338,7 @@ window.products = [
       "product_type": "Gold Coin"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -4395,7 +4395,7 @@ window.products = [
       "product_type": "Gold Coin"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -4511,7 +4511,7 @@ window.products = [
       "product_type": "Gold Coin"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -4580,7 +4580,7 @@ window.products = [
       "edge": "Plain"
     },
     "productType": "Medal",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -4632,7 +4632,7 @@ window.products = [
       "product_type": "Gold Coin"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -4705,7 +4705,7 @@ window.products = [
       "denomination": "$100"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -4757,7 +4757,7 @@ window.products = [
       "product_type": "Gold Coin"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -4885,7 +4885,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5140,7 +5140,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5203,7 +5203,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5268,7 +5268,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5331,7 +5331,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5393,7 +5393,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5456,7 +5456,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5519,7 +5519,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5584,7 +5584,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5648,7 +5648,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5712,7 +5712,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5776,7 +5776,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5840,7 +5840,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5904,7 +5904,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -5968,7 +5968,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -6030,7 +6030,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -6095,7 +6095,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -6159,7 +6159,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -6223,7 +6223,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -6287,7 +6287,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -6351,7 +6351,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -6413,7 +6413,7 @@ window.products = [
       "reverse_design": "American bison based on James Earle Fraser's Buffalo Nickel"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "US Mint",
@@ -6481,7 +6481,7 @@ window.products = [
     },
     "sku": "BM-0061",
     "productType": "Shirt",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Men"
   },
@@ -6512,7 +6512,7 @@ window.products = [
     },
     "sku": "BM-0062",
     "productType": "Coat",
-    "inventory": 100,
+    "inventory": 1,
     "pre-owned price": 999.99,
     "age_group": "Adult",
     "gender": "Men"
@@ -6545,7 +6545,7 @@ window.products = [
     },
     "sku": "BM-0063",
     "productType": "Travel Bag",
-    "inventory": 100,
+    "inventory": 1,
     "pre-owned price": 499.99,
     "age_group": "Adult",
     "gender": "Men"
@@ -6576,7 +6576,7 @@ window.products = [
     },
     "sku": "BM-0064",
     "productType": "Wallet",
-    "inventory": 100,
+    "inventory": 1,
     "pre-owned price": 19.99,
     "age_group": "Adult",
     "gender": "Men"
@@ -6608,7 +6608,7 @@ window.products = [
     },
     "sku": "BM-0065",
     "productType": "Belt",
-    "inventory": 100,
+    "inventory": 1,
     "pre-owned price": 199.99,
     "age_group": "Adult",
     "gender": "Men"
@@ -6639,7 +6639,7 @@ window.products = [
     },
     "sku": "BM-0066",
     "productType": "Watch",
-    "inventory": 100,
+    "inventory": 1,
     "pre-owned price": 799.99,
     "age_group": "Adult",
     "gender": "Men"
@@ -6667,7 +6667,7 @@ window.products = [
     },
     "sku": "BM-0067",
     "productType": "Socks",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Men"
   },
@@ -6694,7 +6694,7 @@ window.products = [
     },
     "sku": "BM-0068",
     "productType": "Underwear",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Men"
   },
@@ -6725,7 +6725,7 @@ window.products = [
     },
     "sku": "BM-0069",
     "productType": "Sweater",
-    "inventory": 100,
+    "inventory": 1,
     "pre-owned price": 799.99,
     "age_group": "Adult",
     "gender": "Men"
@@ -6755,7 +6755,7 @@ window.products = [
     },
     "sku": "BM-0070",
     "productType": "Shorts",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Men"
   },
@@ -6784,7 +6784,7 @@ window.products = [
     },
     "sku": "BM-0071",
     "productType": "Pants",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Men"
   },
@@ -6816,7 +6816,7 @@ window.products = [
     },
     "sku": "BM-0072",
     "productType": "Sweater",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Men"
   },
@@ -6848,7 +6848,7 @@ window.products = [
     },
     "sku": "BM-0073",
     "productType": "Jacket",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Men"
   },
@@ -6877,7 +6877,7 @@ window.products = [
     },
     "sku": "BM-0074",
     "productType": "Shirt",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Women"
   },
@@ -6909,7 +6909,7 @@ window.products = [
     },
     "sku": "BM-0075",
     "productType": "Shirt",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Women"
   },
@@ -6971,7 +6971,7 @@ window.products = [
       "material": "Premium construction material"
     },
     "sku": "BM-0078",    "productType": "Snapback",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Men"
   },
@@ -7004,7 +7004,7 @@ window.products = [
     },
     "sku": "BM-0079",
     "productType": "Handbag",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Women"
 
@@ -7038,7 +7038,7 @@ window.products = [
     },
     "sku": "BM-0080",
     "productType": "Handbag",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Women"
 
@@ -7063,7 +7063,7 @@ window.products = [
       "material": "Premium construction material"
     },
     "sku": "BM-0081",    "productType": "Headphones",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex"
   },
@@ -7089,7 +7089,7 @@ window.products = [
       "weight": "0.45 lbs"
     },
     "sku": "BM-0082",    "productType": "Clipboard",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex"
   },
@@ -7142,7 +7142,7 @@ window.products = [
       "material": "Premium construction material"
     },
     "sku": "BM-0084",    "productType": "Snapback",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Men"
   },
@@ -7166,7 +7166,7 @@ window.products = [
       "material": "Premium construction material"
     },
     "sku": "BM-0085",    "productType": "Snapback",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Men"
   },
@@ -7199,7 +7199,7 @@ window.products = [
     },
     "sku": "BM-0086",
     "productType": "Jacket",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Women"
   },
@@ -7230,7 +7230,7 @@ window.products = [
     },
     "sku": "BM-0087",
     "productType": "Slippers",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Men"
   },
@@ -7261,7 +7261,7 @@ window.products = [
     },
     "sku": "BM-0088",
     "productType": "Cologne",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Men"
   },
@@ -7294,7 +7294,7 @@ window.products = [
     },
     "sku": "BM-0089",
     "productType": "Hoodie",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Men"
   },
@@ -7373,7 +7373,7 @@ window.products = [
     "specifications": {
       "brand": "Sony",
       "material": "Premium construction material"
-    },    "inventory": 100,
+    },    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex"
   },
@@ -7410,7 +7410,7 @@ window.products = [
       "season": "Winter / Fall"
     },
     "productType": "Luxury Outerwear",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Women"
   },
@@ -7447,7 +7447,7 @@ window.products = [
     "gender": "Women",
       "brand_origin": "Italy"
     },
-    "inventory": 100,
+    "inventory": 1,
     "pre-owned price": 499.99,
     "age_group": "Adult",
     "gender": "Women"
@@ -7509,7 +7509,7 @@ window.products = [
       "warranty": "1 Year Limited Warranty"
     },
     "productType": "Bracelet",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Women"
   },
@@ -7538,7 +7538,7 @@ window.products = [
       "weight": "31 lbs",
       "dimensions": "18.1in W x 7.9in H x 19.9in D",
       "warranty": "3 Year Limited Warranty"
-    },    "inventory": 100,
+    },    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex"
   },
@@ -7569,7 +7569,7 @@ window.products = [
     "gender": "Women",
       "brand_origin": "Italy"
     },
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Women"
 
@@ -7602,7 +7602,7 @@ window.products = [
 
     "gender": "Men"
     },
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Men"
   },
@@ -7815,7 +7815,7 @@ window.products = [
       "season": "Winter / Fall"
     },
     "productType": "Designer Knitwear",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Women"
   },
@@ -7869,7 +7869,7 @@ window.products = [
       "brand": "Burberry",
       "material": "Premium construction material"
     },    "productType": "Hat",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Men"
   },
@@ -8081,7 +8081,7 @@ window.products = [
 
     "gender": "Women"
     },
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Women"
   },
@@ -8180,7 +8180,7 @@ window.products = [
     "gender": "Men",
       "brand_origin": "Italy"
     },
-    "inventory": 100,
+    "inventory": 1,
     "pre-owned price": 999.99,
     "age_group": "Adult",
     "gender": "Women",
@@ -8252,7 +8252,7 @@ window.products = [
       "paper_capacity": "250 sheets",
       "warranty": "1 Year Limited Hardware Warranty"
     },    "productType": "Printer",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex"
   },
@@ -8341,7 +8341,7 @@ window.products = [
     "gender": "Women",
       "brand_origin": "USA"
     },
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
     "marketplace": {
@@ -8508,7 +8508,7 @@ window.products = [
       "brand": "Nintendo",
       "material": "Premium construction material"
     },
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Men"
   },
@@ -8537,7 +8537,7 @@ window.products = [
       "season": "All Season"
     },
     "productType": "Casual / Designer",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Women"
   },
@@ -8569,7 +8569,7 @@ window.products = [
       "season": "All Season"
     },
     "productType": "Casual / Designer",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Women"
   },
@@ -8656,7 +8656,7 @@ window.products = [
       "gender": "Women",
       "brand_origin": "Italy"
     },
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Women"
   },
@@ -8794,7 +8794,7 @@ window.products = [
       "gender": "Men",
       "brand_origin": "Italy"
     },
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Women"
   },
@@ -8826,7 +8826,7 @@ window.products = [
       "warranty": "5 Year Manufacturer Warranty"
     },
     "productType": "Watch",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Men"
   },
@@ -8853,7 +8853,7 @@ window.products = [
       "brand_origin": "Italy"
     },
     "productType": "Handbag",
-    "inventory": 100,
+    "inventory": 1,
     "pre-owned price": 899.99,
     "age_group": "Adult",
     "gender": "Women"
@@ -8956,7 +8956,7 @@ window.products = [
       "brand": "Sony",
       "material": "Premium construction material"
     },
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex"
   },
@@ -8985,7 +8985,7 @@ window.products = [
       "season": "All Season"
     },
     "productType": "Sweater",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Women"
   },
@@ -9070,7 +9070,7 @@ window.products = [
       "gender": "Women",
       "brand_origin": "Italy"
     },
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Women"
   },
@@ -9102,7 +9102,7 @@ window.products = [
       "brand_origin": "Italy"
     },
     "productType": "Handbag",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Women"
 
@@ -9136,7 +9136,7 @@ window.products = [
       "warranty": "2 Year Manufacturer Warranty"
     },
     "productType": "TV",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex"
   },
@@ -9168,7 +9168,7 @@ window.products = [
       "season": "Winter / Fall"
     },
     "productType": "Luxury Outerwear",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Women"
   },
@@ -9246,7 +9246,7 @@ window.products = [
       "connectivity": "USB-C",
       "warranty": "1 Year Limited Warranty"
     },
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Men"
   },
@@ -9275,7 +9275,7 @@ window.products = [
       "season": "Summer"
     },
     "productType": "Casual / Summer",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Women"
   },
@@ -9303,7 +9303,7 @@ window.products = [
       "weight": "1.8 lbs",
       "warranty": "1 Year Limited Warranty"
     },
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex"
   },
@@ -9376,7 +9376,7 @@ window.products = [
       "hardware": "Gold-tone metal",
       "source": "https://www.chanel.com/us/fashion/p/AS6522B2673794305/2-55-handbag-lambskin-gold-tone-metal/"
     },    "productType": "Handbag",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "CHANEL",
@@ -12150,7 +12150,7 @@ window.products = [
       },
 
     "productType": "Handbag",
-      "inventory": 100,
+      "inventory": 1,
       "age_group": "Adult",
       "gender": "Women",
       "brand": "Saint Laurent",
@@ -12212,7 +12212,7 @@ window.products = [
       },
 
     "productType": "Handbag",
-      "inventory": 100,
+      "inventory": 1,
       "age_group": "Adult",
       "gender": "Women",
       "brand": "Saint Laurent",
@@ -12275,7 +12275,7 @@ window.products = [
       },
 
     "productType": "Handbag",
-      "inventory": 100,
+      "inventory": 1,
       "age_group": "Adult",
       "gender": "Women",
       "brand": "Saint Laurent",
@@ -16297,7 +16297,7 @@ window.products = [
       "source": "https://www.usmint.gov/comic-art-24-karat-gold-proof-coin-wonder-woman-25DWG.html"
     },
     "productType": "Gold Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16330,7 +16330,7 @@ window.products = [
       "source": "https://www.usmint.gov/comic-art-24-karat-gold-proof-coin-supergirl-26DSG.html"
     },
     "productType": "Gold Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16357,7 +16357,7 @@ window.products = [
       "source": "https://www.usmint.gov/american-eagle-2026-gold-proof-four-coin-set-26EF.html"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16385,7 +16385,7 @@ window.products = [
       "source": "https://www.usmint.gov/american-eagle-2026-gold-proof-four-coin-set-26EF.html"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16413,7 +16413,7 @@ window.products = [
       "source": "https://www.usmint.gov/american-eagle-2026-gold-proof-four-coin-set-26EF.html"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16441,7 +16441,7 @@ window.products = [
       "source": "https://www.usmint.gov/american-eagle-2026-one-ounce-silver-proof-coin-26EA.html"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16469,7 +16469,7 @@ window.products = [
       "source": "https://www.usmint.gov/american-eagle-2026-one-ounce-palladium-uncirculated-coin-26EK.html"
     },
     "productType": "Coin",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16499,7 +16499,7 @@ window.products = [
       "source": "https://www.usmint.gov/comic-art-one-ounce-silver-medal-batman-25dbs1.html"
     },
     "productType": "Silver Medal",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16529,7 +16529,7 @@ window.products = [
       "source": "https://www.usmint.gov/comic-art-2.5-ounce-silver-medal-batman-25dbs2.html"
     },
     "productType": "Silver Medal",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16559,7 +16559,7 @@ window.products = [
       "source": "https://www.usmint.gov/comic-art-one-ounce-silver-medal-superman-25dss1.html"
     },
     "productType": "Silver Medal",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16589,7 +16589,7 @@ window.products = [
       "source": "https://www.usmint.gov/comic-art-2.5-ounce-silver-medal-superman-25dss2.html"
     },
     "productType": "Silver Medal",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16619,7 +16619,7 @@ window.products = [
       "source": "https://www.usmint.gov/comic-art-one-ounce-silver-medal-wonder-woman-25dws1.html"
     },
     "productType": "Silver Medal",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16649,7 +16649,7 @@ window.products = [
       "source": "https://www.usmint.gov/comic-art-2.5-ounce-silver-medal-wonder-woman-25dws2.html"
     },
     "productType": "Silver Medal",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16679,7 +16679,7 @@ window.products = [
       "source": "https://www.usmint.gov/comic-art-one-ounce-silver-medal-supergirl-26dss1.html"
     },
     "productType": "Silver Medal",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16709,7 +16709,7 @@ window.products = [
       "source": "https://www.usmint.gov/comic-art-2.5-ounce-silver-medal-supergirl-26dss2.html"
     },
     "productType": "Silver Medal",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16738,7 +16738,7 @@ window.products = [
       "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty"
     },
     "productType": "Silver Medal",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16767,7 +16767,7 @@ window.products = [
       "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty"
     },
     "productType": "Silver Medal",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16796,7 +16796,7 @@ window.products = [
       "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty"
     },
     "productType": "Silver Medal",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16825,7 +16825,7 @@ window.products = [
       "source": "https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty"
     },
     "productType": "Silver Medal",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Unisex",
     "brand": "United States Mint",
@@ -16892,7 +16892,7 @@ window.products = [
       "authenticity": "Authenticity guaranteed"
     },
     "productType": "Handbag",
-    "inventory": 100,
+    "inventory": 1,
     "age_group": "Adult",
     "gender": "Women",
     "brand": "Hermès",
