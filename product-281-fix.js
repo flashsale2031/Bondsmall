@@ -1,20 +1,19 @@
 (() => {
   'use strict';
-  const PRODUCT_ID = 114;
+  const PRODUCT_ID = 281;
   const IMAGES = [
-    'assets/gold-coins/114/front-obverse.webp',
-    'assets/gold-coins/114/left-oblique.webp',
-    'assets/gold-coins/114/right-oblique.webp',
-    'assets/gold-coins/114/back-reverse.webp',
-    'assets/gold-coins/114/overhead-presentation.webp'
+    'assets/prada-cleo-black/front-retailer.webp',
+    'assets/prada-cleo-black/left-angle-retailer.webp',
+    'assets/prada-cleo-black/right-side.webp',
+    'assets/prada-cleo-black/back.webp',
+    'assets/prada-cleo-black/overhead-interior.webp'
   ];
   const referenceSources = [
-    'https://www.usmint.gov/learn/coins-and-medals/collectible-coins/american-liberty/2025-high-relief-gold-coin',
-    'https://www.apmex.com/product/318944/2025-w-high-relief-american-liberty-gold-proof-box-coa',
-    'https://www.rinkorrarecoins.com/item/2025-w-1oz-american-liberty-gold-high-relief-proof-box-and-coa/1GHR2025',
-    'https://www.jmbullion.com/2025-w-1-oz-proof-american-liberty-high-relief-gold-coin-pcgs-pr70-dcam/'
+    'https://www.prada.com/ww/en/p/prada-cleo-brushed-leather-shoulder-bag/1BC499_ZO6_F0002_V_OOO',
+    'https://www.farfetch.com/shopping/women/prada-cleo-brushed-leather-shoulder-bag-item-16175632.aspx',
+    'https://www.prada.cn/cn/en/p/prada-cleo-brushed-leather-shoulder-bag/1BC499_ZO6_F0002_V_OOO',
+    'https://www.saksfifthavenue.com/product/prada-cleobrushed-leather-shoulder-bag-0400098957024.html'
   ];
-
   const patch = product => {
     if (!product || Number(product.id) !== PRODUCT_ID) return product;
     return {
@@ -28,16 +27,15 @@
         back: 'images[3]',
         overhead: 'images[4]'
       },
-      photo_display: 'Front, left side, right side, back, and overhead presentation',
-      photo_source: 'Official U.S. Mint 2025 obverse/reverse product photos plus three Bonds Mall generated supplemental views based on the verified coin and packaging references.',
-      photo_year: 2025,
+      photo_display: 'Front, left side, right side, back, and overhead interior',
+      photo_source: 'Two retailer-sourced product views plus three Bonds Mall generated supplemental views based on the official Prada Cleo model references.',
+      photo_year: null,
       photo_is_representative: false,
-      image_quality_status: 'Five-view local WebP gallery: two verified U.S. Mint photos and three generated supplemental views',
-      image_note: 'Front/obverse and back/reverse are verified U.S. Mint product photos. Left/right oblique and overhead presentation views are generated from the verified designs and dealer packaging references; they are clearly supplemental and not represented as official Mint photographs.',
+      image_quality_status: 'Five-view local WebP gallery: two sourced retailer views and three generated supplemental views',
+      image_note: 'The front and left-angle views are sourced product photography. The right-side, back, and overhead/interior views are generated from the verified Prada Cleo silhouette, brushed calfskin, hardware, lining, dimensions, and construction references; they are clearly supplemental and not represented as official Prada photographs.',
       image_reference_sources: referenceSources
     };
   };
-
   function patchCollections() {
     if (Array.isArray(window.products)) window.products = window.products.map(patch);
     const authority = window.BondsmallCatalogAuthority;
@@ -51,7 +49,6 @@
       });
     }
   }
-
   patchCollections();
   document.addEventListener('bondsmall-catalog-chunk-loaded', event => {
     if (Array.isArray(event.detail?.records)) event.detail.records.forEach(p => {
@@ -61,5 +58,5 @@
   });
   document.addEventListener('bondsmall-catalog-page-ready', patchCollections);
   document.addEventListener('bondsmall-category-page-loaded', patchCollections);
-  window.BondsmallProduct114Images = Object.freeze(IMAGES.slice());
+  window.BondsmallProduct281Images = Object.freeze(IMAGES.slice());
 })();
