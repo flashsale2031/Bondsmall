@@ -6969,7 +6969,7 @@ window.products = [
     "name": "Women's Burberry Handbag",
     "category": "accessories",
     "retail price": 2499.99,
-    "sale price": 999.99,
+    "sale price": 1199.99,
     "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_5499473_100296_m",
     "description": "A refined leather handbag from Burberry with a structured silhouette and spacious compartments.",
     "images": [
@@ -7001,7 +7001,7 @@ window.products = [
     "name": "Women's Celine Handbag",
     "category": "accessories",
     "retail price": 2499.99,
-    "sale price": 999.99,
+    "sale price": 1199.99,
     "image": "https://image.celine.com/c608082db4ab6ee7/original/118113GG2-01RC_1_SPR25_P1_W.tif?im=Resize=(900)",
     "description": "A refined leather handbag from Celine with a structured silhouette and spacious compartments.",
     "images": [
@@ -9170,7 +9170,7 @@ window.products = [
     "name": "CHANEL 19 Handbag — Black Shiny Lambskin",
     "category": "accessories",
     "retail price": 7200,
-    "sale price": 999.99,
+    "sale price": 1199.99,
     "pre-owned price": 799.99,
     "new price": 999.99,
     "condition": "New",
@@ -9307,7 +9307,7 @@ window.products = [
     "name": "CHANEL 22 Handbag — Black Shiny Calfskin",
     "category": "accessories",
     "retail price": 6400,
-    "sale price": 999.99,
+    "sale price": 1499.99,
     "pre-owned price": 799.99,
     "new price": 999.99,
     "condition": "New",
@@ -9556,7 +9556,7 @@ window.products = [
     "name": "Saint Laurent COLLEGE MEDIUM in Quilted Leather — Black",
     "category": "accessories",
     "retail price": 2800,
-    "sale price": 999.99,
+    "sale price": 1199.99,
     "pre-owned price": 799.99,
     "new price": 999.99,
     "condition": "New",
@@ -9724,7 +9724,7 @@ window.products = [
     "name": "Louis Vuitton Low Key Hobo MM — Monogram Rouge Calf Leather",
     "category": "accessories",
     "retail price": 4050,
-    "sale price": 999.99,
+    "sale price": 1199.99,
     "pre-owned price": 799.99,
     "new price": 999.99,
     "condition": "New",
@@ -9775,7 +9775,7 @@ window.products = [
     "name": "Louis Vuitton Side Trunk MM — Mahogany Calfskin",
     "category": "accessories",
     "retail price": 4750,
-    "sale price": 999.99,
+    "sale price": 1199.99,
     "pre-owned price": 799.99,
     "new price": 999.99,
     "condition": "New",
@@ -9827,7 +9827,7 @@ window.products = [
     "name": "Louis Vuitton CarryAll PM — Monogram Emblème",
     "category": "accessories",
     "retail price": 3150,
-    "sale price": 999.99,
+    "sale price": 1199.99,
     "pre-owned price": 799.99,
     "new price": 999.99,
     "condition": "New",
@@ -10138,7 +10138,7 @@ window.products = [
     "name": "Louis Vuitton Neverfull MM — Monogram Emblème Bleu",
     "category": "accessories",
     "retail price": 3350,
-    "sale price": 999.99,
+    "sale price": 1199.99,
     "pre-owned price": 799.99,
     "new price": 999.99,
     "condition": "New",
@@ -10259,7 +10259,7 @@ window.products = [
     "name": "CHANEL 19 Large Handbag",
     "category": "accessories",
     "retail price": 7900,
-    "sale price": 1199.99,
+    "sale price": 1499.99,
     "pre-owned price": 999.99,
     "new price": 1199.99,
     "condition": "New",
@@ -10314,7 +10314,7 @@ window.products = [
     "name": "CHANEL 19 Maxi Handbag",
     "category": "accessories",
     "retail price": 8500,
-    "sale price": 1199.99,
+    "sale price": 1499.99,
     "pre-owned price": 999.99,
     "new price": 1199.99,
     "condition": "New",
@@ -10555,7 +10555,7 @@ window.products = [
     "name": "Louis Vuitton Loop Hobo — Monogram Canvas",
     "category": "accessories",
     "retail price": 3150,
-    "sale price": 1199.99,
+    "sale price": 1499.99,
     "pre-owned price": 999.99,
     "new price": 1199.99,
     "condition": "New",
@@ -10621,7 +10621,7 @@ window.products = [
     "name": "Louis Vuitton Speedy Bandoulière 20 — Monogram Empreinte Leather",
     "category": "accessories",
     "retail price": 2850,
-    "sale price": 1199.99,
+    "sale price": 999.99,
     "pre-owned price": 999.99,
     "new price": 1199.99,
     "condition": "New",
@@ -10689,7 +10689,7 @@ window.products = [
     "name": "Louis Vuitton Nano Speedy — Monogram",
     "category": "accessories",
     "retail price": 1960,
-    "sale price": 1199.99,
+    "sale price": 999.99,
     "pre-owned price": 999.99,
     "new price": 1199.99,
     "condition": "New",
@@ -10805,7 +10805,7 @@ window.products = [
     "name": "CHANEL 22 Mini Handbag — Black Shiny Calfskin",
     "category": "accessories",
     "retail price": 5500,
-    "sale price": 1499.99,
+    "sale price": 999.99,
     "pre-owned price": 1199.99,
     "new price": 1499.99,
     "condition": "New",
@@ -10861,7 +10861,7 @@ window.products = [
     "name": "Mini 2.55 Handbag — Black Aged Calfskin",
     "category": "accessories",
     "retail price": 5600,
-    "sale price": 1499.99,
+    "sale price": 999.99,
     "pre-owned price": 1199.99,
     "new price": 1499.99,
     "condition": "New",
@@ -11096,7 +11096,7 @@ window.products = [
     "name": "Louis Vuitton Speedy Bandoulière 30 — Monogram Canvas",
     "category": "accessories",
     "retail price": 2040,
-    "sale price": 1499.99,
+    "sale price": 1199.99,
     "pre-owned price": 1199.99,
     "new price": 1499.99,
     "condition": "New",
@@ -11160,7 +11160,7 @@ window.products = [
     "name": "Louis Vuitton Neverfull MM — Monogram Canvas",
     "category": "accessories",
     "retail price": 2240,
-    "sale price": 1499.99,
+    "sale price": 1199.99,
     "pre-owned price": 1199.99,
     "new price": 1499.99,
     "condition": "New",
@@ -11225,7 +11225,7 @@ window.products = [
     "name": "Louis Vuitton OnTheGo MM — Monogram Canvas",
     "category": "accessories",
     "retail price": 3400,
-    "sale price": 1499.99,
+    "sale price": 1199.99,
     "pre-owned price": 1199.99,
     "new price": 1499.99,
     "condition": "New",
@@ -11288,7 +11288,7 @@ window.products = [
     "name": "Prada Galleria Small Saffiano Leather Bag — Black",
     "category": "accessories",
     "retail price": 4800,
-    "sale price": 1499.99,
+    "sale price": 999.99,
     "pre-owned price": 1199.99,
     "new price": 1499.99,
     "condition": "New",
@@ -11343,7 +11343,7 @@ window.products = [
     "name": "Prada Galleria Medium Saffiano Leather Bag — Black",
     "category": "accessories",
     "retail price": 5100,
-    "sale price": 1499.99,
+    "sale price": 1199.99,
     "pre-owned price": 1199.99,
     "new price": 1499.99,
     "condition": "New",
@@ -11454,7 +11454,7 @@ window.products = [
     "name": "Prada Aimée Medium Leather Shoulder Bag — White",
     "category": "accessories",
     "retail price": 3450,
-    "sale price": 1499.99,
+    "sale price": 1199.99,
     "pre-owned price": 1199.99,
     "new price": 1499.99,
     "condition": "New",
@@ -11507,7 +11507,7 @@ window.products = [
     "name": "Prada Bonnie Medium Leather Handbag — Palisander",
     "category": "accessories",
     "retail price": 3550,
-    "sale price": 1499.99,
+    "sale price": 1199.99,
     "pre-owned price": 1199.99,
     "new price": 1499.99,
     "condition": "New",
@@ -11560,7 +11560,7 @@ window.products = [
     "name": "Prada Cleo Brushed Leather Shoulder Bag — Black",
     "category": "accessories",
     "retail price": 3500,
-    "sale price": 1499.99,
+    "sale price": 1199.99,
     "pre-owned price": 1199.99,
     "new price": 1499.99,
     "condition": "New",
@@ -11613,7 +11613,7 @@ window.products = [
     "name": "Prada Signet Medium Leather Tote Bag — Chestnut Brown",
     "category": "accessories",
     "retail price": 3900,
-    "sale price": 1499.99,
+    "sale price": 1199.99,
     "pre-owned price": 1199.99,
     "new price": 1499.99,
     "condition": "New",
@@ -11669,7 +11669,7 @@ window.products = [
     "name": "Prada Re-Edition 2005 Re-Nylon and Saffiano Mini Bag — Burnt Brown",
     "category": "accessories",
     "retail price": 1390,
-    "sale price": 1499.99,
+    "sale price": 999.99,
     "pre-owned price": 1199.99,
     "new price": 1499.99,
     "condition": "New",
@@ -11723,7 +11723,7 @@ window.products = [
     "name": "Prada Re-Edition Mini Saffiano Leather Bag — Caramel",
     "category": "accessories",
     "retail price": 2900,
-    "sale price": 1499.99,
+    "sale price": 999.99,
     "pre-owned price": 1199.99,
     "new price": 1499.99,
     "condition": "New",
@@ -11777,7 +11777,7 @@ window.products = [
     "name": "Prada Carry Mini Leather Handbag — Black",
     "category": "accessories",
     "retail price": 2600,
-    "sale price": 1499.99,
+    "sale price": 999.99,
     "pre-owned price": 1199.99,
     "new price": 1499.99,
     "condition": "New",
@@ -11835,7 +11835,7 @@ window.products = [
     "name": "Gucci Horsebit 1955 Small Shoulder Bag — Black Leather",
     "category": "accessories",
     "retail price": 3550,
-    "sale price": 1499.99,
+    "sale price": 999.99,
     "pre-owned price": 1199.99,
     "new price": 1499.99,
     "condition": "New",
@@ -11892,7 +11892,7 @@ window.products = [
     "name": "Gucci Giglio Small Tote Bag — Sand and Brown GG Fabric",
     "category": "accessories",
     "retail price": 1850,
-    "sale price": 1499.99,
+    "sale price": 999.99,
     "pre-owned price": 1199.99,
     "new price": 1499.99,
     "condition": "New",
@@ -11952,7 +11952,7 @@ window.products = [
     "name": "Gucci Jackie 1961 Medium Shoulder Bag — Black Hand-Treated Leather",
     "category": "accessories",
     "retail price": 3450,
-    "sale price": 1499.99,
+    "sale price": 1199.99,
     "pre-owned price": 1199.99,
     "new price": 1499.99,
     "condition": "New",
@@ -12010,7 +12010,7 @@ window.products = [
     "name": "Gucci Diana Small Tote Bag — Green Ostrich Leather",
     "category": "accessories",
     "retail price": 10000,
-    "sale price": 1499.99,
+    "sale price": 999.99,
     "pre-owned price": 1199.99,
     "new price": 1499.99,
     "condition": "New",
@@ -12069,7 +12069,7 @@ window.products = [
     "name": "Burberry Small Primrose Bag — Archive Beige Check",
     "category": "Accessories",
     "retail price": 2095,
-    "sale price": 1499.99,
+    "sale price": 999.99,
     "pre-owned price": 1199.99,
     "new price": 1499.99,
     "condition": "New",
@@ -12187,7 +12187,7 @@ window.products = [
     "name": "Burberry Small Bridle Saddle Bag — Chocolate Brown Check",
     "category": "Accessories",
     "retail price": 2150,
-    "sale price": 1499.99,
+    "sale price": 999.99,
     "pre-owned price": 1199.99,
     "new price": 1499.99,
     "condition": "New",
@@ -12247,7 +12247,7 @@ window.products = [
     "name": "Burberry Small Rider Bag — Black Lambskin",
     "category": "Accessories",
     "retail price": 2950,
-    "sale price": 1199.99,
+    "sale price": 999.99,
     "pre-owned price": 999.99,
     "new price": 1199.99,
     "condition": "New",
@@ -12306,7 +12306,7 @@ window.products = [
     "name": "Burberry Mini Ruffle Bag — Black Lambskin",
     "category": "Accessories",
     "retail price": 2950,
-    "sale price": 1199.99,
+    "sale price": 999.99,
     "pre-owned price": 999.99,
     "new price": 1199.99,
     "condition": "New",
@@ -12362,7 +12362,7 @@ window.products = [
     "name": "Burberry Mini Primrose Bag — Archive Beige Check",
     "category": "Accessories",
     "retail price": 1895,
-    "sale price": 1199.99,
+    "sale price": 999.99,
     "pre-owned price": 999.99,
     "new price": 1199.99,
     "condition": "New",
@@ -13016,7 +13016,7 @@ window.products = [
     "name": "Hermès Birkin 25 — Black Swift Leather Gold Hardware",
     "category": "accessories",
     "retail price": 34665.41,
-    "sale price": 34665.41,
+    "sale price": 999.99,
     "image": "https://a.1stdibscdn.com/new-magnificent-hermes-birkin-25-handbag-in-black-box-calf-leather-ghw-for-sale/v_14022/v_246372021732006486080/v_24637202_1732006486875_bg_processed.jpg",
     "images": [
       "https://a.1stdibscdn.com/new-magnificent-hermes-birkin-25-handbag-in-black-box-calf-leather-ghw-for-sale/v_14022/v_246372021732006486080/v_24637202_1732006486875_bg_processed.jpg",
@@ -13049,7 +13049,7 @@ window.products = [
     "name": "Hermès Kelly 25 — Black Togo Leather Gold Hardware",
     "category": "accessories",
     "retail price": 25000,
-    "sale price": 25000,
+    "sale price": 999.99,
     "image": "https://assets.voila.id/voila/images/product/hermes/1-product-H038416CC-89-xms-2023-07-20-16.05.jpg",
     "images": [
       "https://assets.voila.id/voila/images/product/hermes/1-product-H038416CC-89-xms-2023-07-20-16.05.jpg",
@@ -13082,7 +13082,7 @@ window.products = [
     "name": "Dior Medium Lady Dior Bag — Black Grained Cannage Calfskin",
     "category": "accessories",
     "retail price": 5900,
-    "sale price": 5900,
+    "sale price": 1199.99,
     "image": "https://assets.christiandior.com/is/image/diorprod/M0565PWRTM900_E01?%24default_GHC%24=&bfc=on&crop=357%2C360%2C1197%2C1452&hei=2000&qlt=80&scale=0.875&wid=1850",
     "images": [
       "https://assets.christiandior.com/is/image/diorprod/M0565PWRTM900_E01?%24default_GHC%24=&bfc=on&crop=357%2C360%2C1197%2C1452&hei=2000&qlt=80&scale=0.875&wid=1850",
@@ -13114,7 +13114,7 @@ window.products = [
     "name": "Dior Saddle Bag with Strap — Black Goatskin",
     "category": "accessories",
     "retail price": 4700,
-    "sale price": 4700,
+    "sale price": 1199.99,
     "image": "https://assets.christiandior.com/is/image/diorprod/M0455CCEHM900_E01?%24r4x5_default%24=&bfc=on&crop=307%2C102%2C1324%2C1864&hei=2000&qlt=80&scale=0.7&wid=1600",
     "images": [
       "https://assets.christiandior.com/is/image/diorprod/M0455CCEHM900_E01?%24r4x5_default%24=&bfc=on&crop=307%2C102%2C1324%2C1864&hei=2000&qlt=80&scale=0.7&wid=1600",
@@ -13146,7 +13146,7 @@ window.products = [
     "name": "Bottega Veneta Andiamo — Black Intrecciato Leather",
     "category": "accessories",
     "retail price": 5900,
-    "sale price": 5900,
+    "sale price": 1199.99,
     "image": "https://bottega-veneta.dam.kering.com/m/484000fa2e0f6035/Medium-766016VCPP11139_A.jpg?v=3",
     "images": [
       "https://bottega-veneta.dam.kering.com/m/484000fa2e0f6035/Medium-766016VCPP11139_A.jpg?v=3",
@@ -13178,7 +13178,7 @@ window.products = [
     "name": "Fendi Peekaboo ISeeU Medium — Black Calfskin",
     "category": "accessories",
     "retail price": 6600,
-    "sale price": 6600,
+    "sale price": 1199.99,
     "image": "https://static.fendi.com/dam/is/image/fendi/8BN321A6V3F1CJZ_01?hash=25ccf3a6ee56522b477d12b30e330dd4-1976ad452ad&hei=1000&wid=1000",
     "images": [
       "https://static.fendi.com/dam/is/image/fendi/8BN321A6V3F1CJZ_01?hash=25ccf3a6ee56522b477d12b30e330dd4-1976ad452ad&hei=1000&wid=1000",
@@ -13210,7 +13210,7 @@ window.products = [
     "name": "Valentino Garavani Rockstud Spike Medium — Black Nappa Leather",
     "category": "accessories",
     "retail price": 3500,
-    "sale price": 3500,
+    "sale price": 1199.99,
     "image": "https://valentino-cdn.thron.com/delivery/public/image/valentino/14150576-7af0-4093-9031-0b936744eb8b/ihqstx/std/500x0/Valentino-Garavani-Rockstud-Spike-Medium-Shoulder-Bag-In-Nappa-Leather-?format=auto&quality=80&size=35",
     "images": [
       "https://valentino-cdn.thron.com/delivery/public/image/valentino/14150576-7af0-4093-9031-0b936744eb8b/ihqstx/std/500x0/Valentino-Garavani-Rockstud-Spike-Medium-Shoulder-Bag-In-Nappa-Leather-?format=auto&quality=80&size=35",
@@ -13242,7 +13242,7 @@ window.products = [
     "name": "CHANEL Classic 11.12 Handbag — Black Lambskin Gold-Tone Metal",
     "category": "accessories",
     "retail price": 11700,
-    "sale price": 11700,
+    "sale price": 999.99,
     "image": "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83439605.jpg%203200w",
     "images": [
       "https://www.chanel.com/images/as///c_crop%2Cw_1600%2Cg_north%2Cf_auto%2Cq_auto%3Agood%2Cdpr_1.1/w_3200/-83439605.jpg%203200w",
@@ -13274,7 +13274,7 @@ window.products = [
     "name": "Louis Vuitton Low Key Hobo MM — Black Grained Calfskin",
     "category": "accessories",
     "retail price": 3600,
-    "sale price": 3600,
+    "sale price": 1199.99,
     "image": "https://sg.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-low-key-hobo-mm--M24856_PM1_Side%20view.png?hei=4096&wid=4096",
     "images": [
       "https://sg.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-low-key-hobo-mm--M24856_PM1_Side%20view.png?hei=4096&wid=4096",
@@ -13292,7 +13292,7 @@ window.products = [
     "name": "Louis Vuitton Multipass Mini — Black Leather",
     "category": "accessories",
     "retail price": 2230,
-    "sale price": 2230,
+    "sale price": 999.99,
     "image": "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-multipass-mini--M2A840_PM2_Front%20view.png?hei=4096&wid=4096",
     "images": [
       "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-multipass-mini--M2A840_PM2_Front%20view.png?hei=4096&wid=4096",
@@ -13310,7 +13310,7 @@ window.products = [
     "name": "Louis Vuitton Nano Madeleine — Black Monogram Empreinte Leather",
     "category": "accessories",
     "retail price": 2300,
-    "sale price": 2300,
+    "sale price": 999.99,
     "image": "https://en.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-nano-madeleine-monogram-empreinte--M12144_PM2_Front%20view.png?hei=4096&wid=4096",
     "images": [
       "https://en.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-nano-madeleine-monogram-empreinte--M12144_PM2_Front%20view.png?hei=4096&wid=4096",
@@ -13328,7 +13328,7 @@ window.products = [
     "name": "Louis Vuitton Express MM — Brown Calfskin and Monogram",
     "category": "accessories",
     "retail price": 3800,
-    "sale price": 3800,
+    "sale price": 1199.99,
     "image": "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-express-mm--M26397_PM1_Side%20view.png?hei=1090&wid=1090",
     "images": [
       "https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-express-mm--M26397_PM1_Side%20view.png?hei=1090&wid=1090",
@@ -13346,7 +13346,7 @@ window.products = [
     "name": "Louis Vuitton Pochette Papillon — Monogram Canvas",
     "category": "accessories",
     "retail price": 1200,
-    "sale price": 1200,
+    "sale price": 1199.99,
     "image": "https://de.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-papillon--M25703_PM1_Cropped%20worn%20view.png?hei=4096&wid=4096",
     "images": [
       "https://de.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-papillon--M25703_PM1_Cropped%20worn%20view.png?hei=4096&wid=4096",
@@ -13364,7 +13364,7 @@ window.products = [
     "name": "Loewe Small Whisker Bag — Black Glazed Calfskin",
     "category": "accessories",
     "retail price": 3400,
-    "sale price": 3400,
+    "sale price": 999.99,
     "image": "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw5c7258c5/images_rd/ATBBTBBX01/ATBBTBBX01-1100/ATBBTBBX01_1100_1O.jpg?q=100&sw=750",
     "images": [
       "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw5c7258c5/images_rd/ATBBTBBX01/ATBBTBBX01-1100/ATBBTBBX01_1100_1O.jpg?q=100&sw=750",
@@ -13382,7 +13382,7 @@ window.products = [
     "name": "Loewe Hammock Flip Bag — Black Classic Calfskin",
     "category": "accessories",
     "retail price": 3950,
-    "sale price": 3950,
+    "sale price": 1199.99,
     "image": "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A538HHBX07/A538HHBX07-1100/A538HHBX07_1100_1O.jpg?q=100&sw=750",
     "images": [
       "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A538HHBX07/A538HHBX07-1100/A538HHBX07_1100_1O.jpg?q=100&sw=750",
@@ -13400,7 +13400,7 @@ window.products = [
     "name": "Loewe Medium Flamenco Purse — Black Nappa Leather",
     "category": "accessories",
     "retail price": 3990,
-    "sale price": 3990,
+    "sale price": 1199.99,
     "image": "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A411FC1X01/A411FC1X01-1100/A411FC1X01_1100_1O.jpg?q=100&sw=750",
     "images": [
       "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/images_rd/A411FC1X01/A411FC1X01-1100/A411FC1X01_1100_1O.jpg?q=100&sw=750",
@@ -13415,7 +13415,7 @@ window.products = [
   }
 
   {
-    "id":333,"name":"Gucci Borsetto Medium Leather Shoulder Bag — Black","category":"accessories","retail price":3100,"sale price":3100,
+    "id":333,"name":"Gucci Borsetto Medium Leather Shoulder Bag — Black","category":"accessories","retail price":3100,"sale price": 1199.99,
     "image":"https://www.mytheresa.com/media/1094/1238/100/bb/P01196941_d1.jpg",
     "images": [
       "https://www.mytheresa.com/media/1094/1238/100/bb/P01196941_d1.jpg",
@@ -13429,7 +13429,7 @@ window.products = [
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
-    "id":334,"name":"Gucci Paparazzo Medium Leather Tote — Black","category":"accessories","retail price":3650,"sale price":3650,
+    "id":334,"name":"Gucci Paparazzo Medium Leather Tote — Black","category":"accessories","retail price":3650,"sale price": 1199.99,
     "image":"https://www.mytheresa.com/media/1094/1238/100/bb/P01192312_d1.jpg",
     "images": [
       "https://www.mytheresa.com/media/1094/1238/100/bb/P01192312_d1.jpg",
@@ -13443,7 +13443,7 @@ window.products = [
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
-    "id":335,"name":"Gucci Jackie Slim Medium Shoulder Bag — Black Leather","category":"accessories","retail price":2450,"sale price":2450,
+    "id":335,"name":"Gucci Jackie Slim Medium Shoulder Bag — Black Leather","category":"accessories","retail price":2450,"sale price": 1199.99,
     "image":"https://www.mytheresa.com/media/1094/1238/100/bb/P01151161_d1.jpg",
     "images": [
       "https://www.mytheresa.com/media/1094/1238/100/bb/P01151161_d1.jpg",
@@ -13457,7 +13457,7 @@ window.products = [
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
-    "id":336,"name":"Gucci Brera Medium Crossbody Bag — Black Leather","category":"accessories","retail price":2980,"sale price":2980,
+    "id":336,"name":"Gucci Brera Medium Crossbody Bag — Black Leather","category":"accessories","retail price":2980,"sale price": 1199.99,
     "image":"https://www.mytheresa.com/media/1094/1238/100/bb/P01248060_d1.jpg",
     "images": [
       "https://www.mytheresa.com/media/1094/1238/100/bb/P01248060_d1.jpg",
@@ -13471,7 +13471,7 @@ window.products = [
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
-    "id":337,"name":"Gucci Giglio Large Tote Bag — Black Leather","category":"accessories","retail price":2950,"sale price":2950,
+    "id":337,"name":"Gucci Giglio Large Tote Bag — Black Leather","category":"accessories","retail price":2950,"sale price": 1499.99,
     "image":"https://media.gucci.com/style/DarkGray_Center_0_0_700x700/1761821103/853971_AAF2H_1060_001_100_0000_Light-groer-gucci-giglio-shopper.jpg",
     "images": [
       "https://media.gucci.com/style/DarkGray_Center_0_0_700x700/1761821103/853971_AAF2H_1060_001_100_0000_Light-groer-gucci-giglio-shopper.jpg",
@@ -13485,7 +13485,7 @@ window.products = [
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
-    "id":338,"name":"Gucci Giglio Small Tote Bag — Black GG Canvas","category":"accessories","retail price":2750,"sale price":2750,
+    "id":338,"name":"Gucci Giglio Small Tote Bag — Black GG Canvas","category":"accessories","retail price":2750,"sale price": 999.99,
     "image":"https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1774361706/860845_FAFWA_1053_002_069_0052_Light-gucci-giglio-small-tote-bag.jpg",
     "images": [
       "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1774361706/860845_FAFWA_1053_002_069_0052_Light-gucci-giglio-small-tote-bag.jpg",
@@ -13499,7 +13499,7 @@ window.products = [
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
-    "id":339,"name":"Gucci Lady Lunetta Chain Small Shoulder Bag — Black GG Leather","category":"accessories","retail price":2450,"sale price":2450,
+    "id":339,"name":"Gucci Lady Lunetta Chain Small Shoulder Bag — Black GG Leather","category":"accessories","retail price":2450,"sale price": 999.99,
     "image":"https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1781281810/A0034B_AAHC3_1000_006_065_0000_Light-lady-lunetta-chain-small-shoulder-bag.jpg",
     "images": [
       "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1781281810/A0034B_AAHC3_1000_006_065_0000_Light-lady-lunetta-chain-small-shoulder-bag.jpg",
@@ -13513,7 +13513,7 @@ window.products = [
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
-    "id":340,"name":"Gucci Lady Lunetta Small Shoulder Bag — Black GG Denim","category":"accessories","retail price":1450,"sale price":1450,
+    "id":340,"name":"Gucci Lady Lunetta Small Shoulder Bag — Black GG Denim","category":"accessories","retail price":1450,"sale price": 999.99,
     "image":"https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1777477532/874743_FAF8W_1144_007_070_0000_Light-.jpg",
     "images": [
       "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1777477532/874743_FAF8W_1144_007_070_0000_Light-.jpg",
@@ -13527,7 +13527,7 @@ window.products = [
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
-    "id":341,"name":"Gucci Ophidia Medium Boston Bag — Black Leather","category":"accessories","retail price":2100,"sale price":2100,
+    "id":341,"name":"Gucci Ophidia Medium Boston Bag — Black Leather","category":"accessories","retail price":2100,"sale price": 1199.99,
     "image":"https://mygemma.com/cdn/shop/products/116193-fv_1200x.jpg?v=1650961451",
     "images": [
       "https://mygemma.com/cdn/shop/products/116193-fv_1200x.jpg?v=1650961451",
@@ -13541,7 +13541,7 @@ window.products = [
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
-    "id":342,"name":"Gucci Borsetto Medium Boston Bag — Black Leather","category":"accessories","retail price":3100,"sale price":3100,
+    "id":342,"name":"Gucci Borsetto Medium Boston Bag — Black Leather","category":"accessories","retail price":3100,"sale price": 1199.99,
     "image":"https://www.gucci.com/us/en/pr/women/handbags/crossbody-bags-for-women/borsetto-medium-boston-bag-p-866732AAGIQ1053",
     "images": [
       "https://www.gucci.com/us/en/pr/women/handbags/crossbody-bags-for-women/borsetto-medium-boston-bag-p-866732AAGIQ1053",
@@ -13555,7 +13555,7 @@ window.products = [
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
-    "id":343,"name":"Gucci Horsebit Duomo Medium Top Handle Bag — Black Leather","category":"accessories","retail price":3950,"sale price":3950,
+    "id":343,"name":"Gucci Horsebit Duomo Medium Top Handle Bag — Black Leather","category":"accessories","retail price":3950,"sale price": 1199.99,
     "image":"https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/horsebit-duomo-medium-top-handle-bag-p-A006N6AAG8B1000",
     "images": [
       "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/horsebit-duomo-medium-top-handle-bag-p-A006N6AAG8B1000",
@@ -13569,7 +13569,7 @@ window.products = [
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
-    "id":344,"name":"Gucci Horsebit Duomo Small Top Handle Bag — Black Leather","category":"accessories","retail price":3100,"sale price":3100,
+    "id":344,"name":"Gucci Horsebit Duomo Small Top Handle Bag — Black Leather","category":"accessories","retail price":3100,"sale price": 999.99,
     "image":"https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/horsebit-duomo-small-top-handle-bag-p-A006O9AAG8B1000",
     "images": [
       "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/horsebit-duomo-small-top-handle-bag-p-A006O9AAG8B1000",
@@ -13583,7 +13583,7 @@ window.products = [
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Gucci","brand_display_name":"Gucci"
   },
   {
-    "id":345,"name":"Celine Small Flair in Grained Calfskin — Black","category":"accessories","retail price":3650,"sale price":3650,
+    "id":345,"name":"Celine Small Flair in Grained Calfskin — Black","category":"accessories","retail price":3650,"sale price": 999.99,
     "image":"https://image.celine.com/asset/7b032fef-31f4-4610-8325-acd9a6e76895/L10BF5C12-38NO_1_WI26_W_V1.jpg?im=Resize%3D%28800%29",
     "images": [
       "https://image.celine.com/asset/7b032fef-31f4-4610-8325-acd9a6e76895/L10BF5C12-38NO_1_WI26_W_V1.jpg?im=Resize%3D%28800%29",
@@ -13597,7 +13597,7 @@ window.products = [
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
-    "id":346,"name":"Celine Small Flair in Shiny Calfskin — Chestnut","category":"accessories","retail price":3800,"sale price":3800,
+    "id":346,"name":"Celine Small Flair in Shiny Calfskin — Chestnut","category":"accessories","retail price":3800,"sale price": 999.99,
     "image":"https://image.celine.com/asset/6be8ff11-f678-4b7f-9b4a-0c4de68a488c/L10BF5B53-18CH_1_WI26_W_V1.jpg?im=Resize%3D(800)",
     "images": [
       "https://image.celine.com/asset/6be8ff11-f678-4b7f-9b4a-0c4de68a488c/L10BF5B53-18CH_1_WI26_W_V1.jpg?im=Resize%3D(800)",
@@ -13611,7 +13611,7 @@ window.products = [
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
-    "id":347,"name":"Celine Soft Triomphe Bucket in Shiny Lambskin — Syrah","category":"accessories","retail price":3450,"sale price":3450,
+    "id":347,"name":"Celine Soft Triomphe Bucket in Shiny Lambskin — Syrah","category":"accessories","retail price":3450,"sale price": 1199.99,
     "image":"https://image.celine.com/asset/388b9254-eea3-4376-901c-c359827fb994/L102S3J15-28PO_1_WI26_W_V1.jpg?im=Resize%3D(800)",
     "images": [
       "https://image.celine.com/asset/388b9254-eea3-4376-901c-c359827fb994/L102S3J15-28PO_1_WI26_W_V1.jpg?im=Resize%3D(800)",
@@ -13625,7 +13625,7 @@ window.products = [
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
-    "id":348,"name":"Celine Soft Triomphe Little Halfmoon in Shiny Lambskin — White Cotton","category":"accessories","retail price":2700,"sale price":2700,
+    "id":348,"name":"Celine Soft Triomphe Little Halfmoon in Shiny Lambskin — White Cotton","category":"accessories","retail price":2700,"sale price": 999.99,
     "image":"https://image.celine.com/asset/705d9fa7-503d-49af-a672-d5ee6b88cf43/L10373778-00WC_1_FALL26_W_V1.jpg?im=Resize%3D(800)",
     "images": [
       "https://image.celine.com/asset/705d9fa7-503d-49af-a672-d5ee6b88cf43/L10373778-00WC_1_FALL26_W_V1.jpg?im=Resize%3D(800)",
@@ -13639,7 +13639,7 @@ window.products = [
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
-    "id":349,"name":"Celine Teen Nino Bag in Supple Grained Calfskin — Safari","category":"accessories","retail price":3600,"sale price":3600,
+    "id":349,"name":"Celine Teen Nino Bag in Supple Grained Calfskin — Safari","category":"accessories","retail price":3600,"sale price": 1199.99,
     "image":"https://image.celine.com/asset/a760a572-1833-4440-ade6-ac054ebd6bd1/118113FXK-03SA_1_SPR26_W_V1.jpg?im=Resize%3D(800)",
     "images": [
       "https://image.celine.com/asset/a760a572-1833-4440-ade6-ac054ebd6bd1/118113FXK-03SA_1_SPR26_W_V1.jpg?im=Resize%3D(800)",
@@ -13653,7 +13653,7 @@ window.products = [
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
-    "id":350,"name":"Celine Small Hobo in Supple Smooth Calfskin — Rice","category":"accessories","retail price":2350,"sale price":2350,
+    "id":350,"name":"Celine Small Hobo in Supple Smooth Calfskin — Rice","category":"accessories","retail price":2350,"sale price": 999.99,
     "image":"https://image.celine.com/asset/72187695-3210-4750-82e0-8797cbf94676/L10133Q71-01RC_1_SUM26_W_V1.jpg?im=Resize%3D(800)",
     "images": [
       "https://image.celine.com/asset/72187695-3210-4750-82e0-8797cbf94676/L10133Q71-01RC_1_SUM26_W_V1.jpg?im=Resize%3D(800)",
@@ -13667,7 +13667,7 @@ window.products = [
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
-    "id":351,"name":"Celine Drop Bucket in Smooth Calfskin — Multicolor","category":"accessories","retail price":4100,"sale price":4100,
+    "id":351,"name":"Celine Drop Bucket in Smooth Calfskin — Multicolor","category":"accessories","retail price":4100,"sale price": 1199.99,
     "image":"https://image.celine.com/asset/65d3450d-eb39-4bcc-8b16-b8984211fdff/L102H3J23-14ML_1_SUM26_W_V1.jpg?im=Resize%3D(800)",
     "images": [
       "https://image.celine.com/asset/65d3450d-eb39-4bcc-8b16-b8984211fdff/L102H3J23-14ML_1_SUM26_W_V1.jpg?im=Resize%3D(800)",
@@ -13681,7 +13681,7 @@ window.products = [
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
-    "id":352,"name":"Celine Flair in Grained Calfskin — Black","category":"accessories","retail price":4450,"sale price":4450,
+    "id":352,"name":"Celine Flair in Grained Calfskin — Black","category":"accessories","retail price":4450,"sale price": 1199.99,
     "image":"https://image.celine.com/asset/f2718518-3570-499f-a89b-0b8bb34a8dd5/L10AT5C12-38NO_1_WI26_W_V1.jpg?im=Resize%3D(800)",
     "images": [
       "https://image.celine.com/asset/f2718518-3570-499f-a89b-0b8bb34a8dd5/L10AT5C12-38NO_1_WI26_W_V1.jpg?im=Resize%3D(800)",
@@ -13695,7 +13695,7 @@ window.products = [
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
-    "id":353,"name":"Celine Luggage in Grained Calfskin — Black","category":"accessories","retail price":4300,"sale price":4300,
+    "id":353,"name":"Celine Luggage in Grained Calfskin — Black","category":"accessories","retail price":4300,"sale price": 1499.99,
     "image":"https://image.celine.com/asset/912f27db-a88d-4e6e-885e-145c0db4ce33/L108K3056-38NO_1_SPR26_W_V1.jpg?im=Resize%3D(800)",
     "images": [
       "https://image.celine.com/asset/912f27db-a88d-4e6e-885e-145c0db4ce33/L108K3056-38NO_1_SPR26_W_V1.jpg?im=Resize%3D(800)",
@@ -13709,7 +13709,7 @@ window.products = [
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
-    "id":354,"name":"Celine Soft Triomphe Besace in Supple Shiny Lambskin — Black","category":"accessories","retail price":3450,"sale price":3450,
+    "id":354,"name":"Celine Soft Triomphe Besace in Supple Shiny Lambskin — Black","category":"accessories","retail price":3450,"sale price": 1199.99,
     "image":"https://image.celine.com/asset/567bbd96-64f0-40d6-8c1c-aa87c019a750/123632T88-38NO_1_SPR26_W_V1.jpg?im=Resize%3D(800)",
     "images": [
       "https://image.celine.com/asset/567bbd96-64f0-40d6-8c1c-aa87c019a750/123632T88-38NO_1_SPR26_W_V1.jpg?im=Resize%3D(800)",
@@ -13723,7 +13723,7 @@ window.products = [
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Celine","brand_display_name":"Celine"
   },
   {
-    "id":355,"name":"Dior Médaillon Bucket Bag — Small Black Grained Calfskin","category":"accessories","retail price":3900,"sale price":3900,
+    "id":355,"name":"Dior Médaillon Bucket Bag — Small Black Grained Calfskin","category":"accessories","retail price":3900,"sale price": 999.99,
     "image":"https://assets.christiandior.com/is/image/diorprod/M1531QUQWM900_SBG_E01?%24r9x10_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1850",
     "images": [
       "https://assets.christiandior.com/is/image/diorprod/M1531QUQWM900_SBG_E01?%24r9x10_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1850",
@@ -13737,7 +13737,7 @@ window.products = [
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior"
   },
   {
-    "id":356,"name":"Dior Médaillon Bucket Bag — Medium Black Grained Calfskin","category":"accessories","retail price":4600,"sale price":4600,
+    "id":356,"name":"Dior Médaillon Bucket Bag — Medium Black Grained Calfskin","category":"accessories","retail price":4600,"sale price": 1199.99,
     "image":"https://assets.christiandior.com/is/image/diorprod/M1532QUQWM900_SBG_E01?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600",
     "images": [
       "https://assets.christiandior.com/is/image/diorprod/M1532QUQWM900_SBG_E01?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600",
@@ -13751,7 +13751,7 @@ window.products = [
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior"
   },
   {
-    "id":357,"name":"Dior Small Promenade Flap Bag — Black Flat Cannage Calfskin","category":"accessories","retail price":3800,"sale price":3800,
+    "id":357,"name":"Dior Small Promenade Flap Bag — Black Flat Cannage Calfskin","category":"accessories","retail price":3800,"sale price": 999.99,
     "image":"https://assets.christiandior.com/is/image/diorprod/LOOK_F_26_4_LOOK_054_E04-1?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600",
     "images": [
       "https://assets.christiandior.com/is/image/diorprod/LOOK_F_26_4_LOOK_054_E04-1?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600",
@@ -13765,7 +13765,7 @@ window.products = [
     "productType":"Handbag","inventory":1,"age_group":"Adult","gender":"Women","brand":"Dior","brand_display_name":"Dior"
   },
   {
-    "id":358,"name":"Loewe Mini Amazona 180 Bag — Black Soft Calfskin","category":"accessories","retail price":2990,"sale price":2990,
+    "id":358,"name":"Loewe Mini Amazona 180 Bag — Black Soft Calfskin","category":"accessories","retail price":2990,"sale price": 999.99,
     "image":"https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw1c0e9421/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1F.jpg?q=100&sw=750",
     "images":["https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw1c0e9421/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1F.jpg?q=100&sw=750","https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw3ec25a4a/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1P.jpg?q=100&sw=750","https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw1d8eb63a/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1Q.jpg?q=100&sw=750","https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dwce2cba2e/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1R.jpg?q=100&sw=750"],
     "description":"Loewe Mini Amazona 180 in black soft calfskin with signature toron top handle, concealed closure and removable shoulder/crossbody straps.",
