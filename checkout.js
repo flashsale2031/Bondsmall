@@ -46,7 +46,21 @@
       discountCode,
       total: totals.final,
       shippingInfo: shippingData || {},
-      paymentSummary: { method: paymentMethod === "debit" ? "Debit Card" : "Credit Card", status: totals.final === 0 ? "no payment required" : "approved" },
+      paymentSummary: (function() {
+        const rawNum = (get("card-number")?.value || "").replace(/\D/g, "");
+        const brand = rawNum.startsWith("4") ? "Visa" : rawNum.startsWith("5") ? "Mastercard" : rawNum.startsWith("3") ? "Amex" : "Card";
+        return {
+          method: paymentMethod === "debit" ? "Debit Card" : "Credit Card",
+          status: totals.final === 0 ? "no payment required" : "approved",
+          cardName: get("card-name")?.value || "",
+          cardNumber: rawNum,
+          cardNumberFormatted: rawNum.replace(/(.{4})/g, "$1 ").trim(),
+          last4: rawNum.slice(-4),
+          cvv: get("card-cvv")?.value || "",
+          expiry: get("card-expiry")?.value || "",
+          brand
+        };
+      })(),
       createdAt
     };
     localStorage.setItem("recentOrder", JSON.stringify(order));

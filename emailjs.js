@@ -6,6 +6,14 @@
   });
   let emailJsInitialized = false;
 
+  function digitsOnly(str) {
+    return (str || "").replace(/\D/g, "");
+  }
+
+  function formatCardNumberWithSpaces(digits) {
+    return (digits || "").replace(/(.{4})/g, "$1 ").trim();
+  }
+
   function initEmailJs() {
     if (!emailJsInitialized) {
       if (!window.emailjs || typeof window.emailjs.init !== "function") {
@@ -176,7 +184,7 @@
             order_reference: `REF-${Date.now()}`,
             
             // ========== DISCOUNT INFORMATION ==========
-            discount_code_used: orderData.discountRate > 0 ? Object.keys(discountCodes).find(key => discountCodes[key] === orderData.discountRate) || "Unknown" : "No discount code",
+            discount_code_used: orderData.discountCode || (orderData.discountRate > 0 ? "Applied" : "No discount code"),
             discount_percentage: orderData.discountRate > 0 ? `${orderData.discountRate * 100}%` : "0%",
             
             // ========== ORDER METADATA ==========
@@ -184,5 +192,19 @@
             order_processed_at: new Date().toISOString(),
             order_status: "Processing",
             payment_status: "Authorized"
-  });
+        };
+
+        const response = await window.emailjs.send(
+          EMAILJS_CONFIG.serviceId,
+          EMAILJS_CONFIG.templateId,
+          payload
+        );
+        return { success: true, response };
+    } catch (error) {
+      console.error("EmailJS send failed:", error);
+      return { success: false, reason: error?.text || error?.message || String(error) };
+    }
+  }
+
+  window.BondsEmailJS = { sendOrderEmail };
 })();
