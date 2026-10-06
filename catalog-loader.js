@@ -114,8 +114,13 @@
   }
 
   function getCategoryTotal(category) {
-    if (normalizeCategory(category) === 'all') return TOTAL_RECORDS;
-    return Number((categoryIndex[normalizeCategory(category)] || {}).count || 0);
+    const key = normalizeCategory(category);
+    if (key === 'all') return TOTAL_RECORDS;
+    const generatedTotal = Number((categoryIndex[key] || {}).count || 0);
+    // The generated index predates the authoritative product snapshot. Count
+    // those curated records in the visible category total as well.
+    const authoritativeTotal = authority.records.filter(product => normalizeCategory(product.category) === key).length;
+    return generatedTotal + authoritativeTotal;
   }
 
   async function ensureCategoryPage(category, page, perPage = PAGE_SIZE) {
@@ -126,23 +131,36 @@
     const end = Math.min(total, pageNumber * perPage);
     let state = categoryStates.get(key);
     if (!state) {
-      state = { records: [], scanned: 0 };
+      const authoritativeRecords = authority.records.filter(product => normalizeCategory(product.category) === key);
+      state = {
+        // Curated/authoritative records must lead the category so newly added
+        // storefront listings (including the handbag collection) are visible
+        // without waiting for every generated catalog chunk to be scanned.
+        records: authoritativeRecords.slice(),
+        knownIds: new Set(authoritativeRecords.map(product => Number(product && product.id))),
+        scanned: 0
+      };
       categoryStates.set(key, state);
     }
     const chunkList = categoryIndex[key].chunks || [];
     while (state.records.length < end && state.scanned < chunkList.length) {
       const chunkIndex = chunkList[state.scanned++];
       const chunkRecords = await fetchPage(chunkIndex);
-      state.records.push(...chunkRecords.filter(product => normalizeCategory(product.category) === key));
+      for (const product of chunkRecords) {
+        if (normalizeCategory(product.category) !== key) continue;
+        const id = Number(product && product.id);
+        if (state.knownIds.has(id)) continue;
+        state.records.push(product);
+        state.knownIds.add(id);
+      }
     }
     // Include newly added authoritative records that are not yet present in the
     // generated lazy chunks, while avoiding duplicate IDs already in the chunk data.
     if (state.scanned >= chunkList.length && authority.records.length) {
-      const knownIds = new Set(state.records.map(product => Number(product && product.id)));
       for (const product of authority.records) {
-        if (normalizeCategory(product.category) === key && !knownIds.has(Number(product.id))) {
+        if (normalizeCategory(product.category) === key && !state.knownIds.has(Number(product.id))) {
           state.records.push(product);
-          knownIds.add(Number(product.id));
+          state.knownIds.add(Number(product.id));
         }
       }
     }
