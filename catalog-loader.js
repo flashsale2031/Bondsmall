@@ -113,6 +113,14 @@
     return String(category || 'all').toLowerCase().replace(/[^a-z]/g, '');
   }
 
+  function isPriorityRecord(product, category) {
+    const name = String(product && product.name || '').toLowerCase();
+    const key = normalizeCategory(category);
+    if (key === 'accessories') return product && product.productType === 'Handbag' || /\b(handbag|bag)\b/.test(name);
+    if (key === 'artandcollectibles') return /\b(gold|silver|coin|medal)\b/.test(name);
+    return false;
+  }
+
   function getCategoryTotal(category) {
     const key = normalizeCategory(category);
     if (key === 'all') return TOTAL_RECORDS;
@@ -132,12 +140,15 @@
     let state = categoryStates.get(key);
     if (!state) {
       const authoritativeRecords = authority.records.filter(product => normalizeCategory(product.category) === key);
+      const priorityRecords = authoritativeRecords.filter(product => isPriorityRecord(product, key));
+      const standardRecords = authoritativeRecords.filter(product => !isPriorityRecord(product, key));
+      const orderedAuthoritativeRecords = priorityRecords.concat(standardRecords);
       state = {
         // Curated/authoritative records must lead the category so newly added
         // storefront listings (including the handbag collection) are visible
         // without waiting for every generated catalog chunk to be scanned.
-        records: authoritativeRecords.slice(),
-        knownIds: new Set(authoritativeRecords.map(product => Number(product && product.id))),
+        records: orderedAuthoritativeRecords.slice(),
+        knownIds: new Set(orderedAuthoritativeRecords.map(product => Number(product && product.id))),
         scanned: 0
       };
       categoryStates.set(key, state);
