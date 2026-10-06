@@ -9,7 +9,7 @@
   const base = 'catalog-pages/';
   const target = window.products = window.products || [];
   const authority = window.BondsmallCatalogAuthority || { records: [], has: () => false, get: () => null };
-  const version = '2.4.10-liberty-images-1';
+  const version = '2.4.11-unique-coin-ids-1';
   const categoryIndex = (window.BondsmallCategoryIndex && window.BondsmallCategoryIndex.categories) || {};
   const categoryStates = new Map();
 
@@ -196,6 +196,8 @@
     getCategoryTotal,
     getProductById(productId) {
       const id = Number(productId);
+      const authoritative = authority.get(id);
+      if (authoritative) return Promise.resolve(authoritative);
       if (!Number.isFinite(id) || id < 1 || id > TOTAL_RECORDS) return Promise.resolve(null);
       return fetchPage(Math.floor((id - 1) / PAGE_SIZE)).then((records) => records.find((product) => Number(product.id) === id) || null);
     },

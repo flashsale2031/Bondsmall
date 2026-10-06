@@ -16390,7 +16390,7 @@ window.products = [
 
   },
   {
-    "id": 297,
+    "id": 1231542,
     "name": "Comic Art 24-Karat Gold Proof Coin — Wonder Woman™",
     "category": "artandcollectibles",
     "retail price": 3390,
@@ -16423,7 +16423,7 @@ window.products = [
     "brand_display_name": "United States Mint"
   },
   {
-    "id": 298,
+    "id": 1231543,
     "name": "Comic Art 24-Karat Gold Proof Coin — Supergirl™",
     "category": "artandcollectibles",
     "retail price": 3390,
@@ -16481,7 +16481,7 @@ window.products = [
     "gender": "Unisex",
     "brand": "United States Mint",
     "brand_display_name": "United States Mint",
-    "id": 299
+    "id": 1231544
   },
   {
     "name": "2026 American Eagle One-Quarter Ounce Gold Proof $10 Coin",
@@ -16509,7 +16509,7 @@ window.products = [
     "gender": "Unisex",
     "brand": "United States Mint",
     "brand_display_name": "United States Mint",
-    "id": 300
+    "id": 1231545
   },
   {
     "name": "2026 American Eagle One-Tenth Ounce Gold Proof $5 Coin",
@@ -16537,7 +16537,7 @@ window.products = [
     "gender": "Unisex",
     "brand": "United States Mint",
     "brand_display_name": "United States Mint",
-    "id": 301
+    "id": 1231546
   },
   {
     "name": "2026 American Eagle One Ounce Silver Proof $1 Coin",
@@ -16565,7 +16565,7 @@ window.products = [
     "gender": "Unisex",
     "brand": "United States Mint",
     "brand_display_name": "United States Mint",
-    "id": 302
+    "id": 1231547
   },
   {
     "name": "2026 American Eagle One Ounce Palladium Uncirculated $25 Coin",
@@ -16593,7 +16593,7 @@ window.products = [
     "gender": "Unisex",
     "brand": "United States Mint",
     "brand_display_name": "United States Mint",
-    "id": 303
+    "id": 1231548
   },
   {
     "name": "Comic Art One Ounce Silver Medal — Batman™",
@@ -16623,7 +16623,7 @@ window.products = [
     "gender": "Unisex",
     "brand": "United States Mint",
     "brand_display_name": "United States Mint",
-    "id": 304
+    "id": 1231549
   },
   {
     "name": "Comic Art 2.5 Ounce Silver Medal — Batman™",
@@ -16653,7 +16653,7 @@ window.products = [
     "gender": "Unisex",
     "brand": "United States Mint",
     "brand_display_name": "United States Mint",
-    "id": 305
+    "id": 1231550
   },
   {
     "name": "Comic Art One Ounce Silver Medal — Superman™",
@@ -16683,7 +16683,7 @@ window.products = [
     "gender": "Unisex",
     "brand": "United States Mint",
     "brand_display_name": "United States Mint",
-    "id": 306
+    "id": 1231551
   },
   {
     "name": "Comic Art 2.5 Ounce Silver Medal — Superman™",
@@ -16713,7 +16713,7 @@ window.products = [
     "gender": "Unisex",
     "brand": "United States Mint",
     "brand_display_name": "United States Mint",
-    "id": 307
+    "id": 1231552
   },
   {
     "name": "Comic Art One Ounce Silver Medal — Wonder Woman™",
@@ -16743,7 +16743,7 @@ window.products = [
     "gender": "Unisex",
     "brand": "United States Mint",
     "brand_display_name": "United States Mint",
-    "id": 308
+    "id": 1231553
   },
   {
     "name": "Comic Art 2.5 Ounce Silver Medal — Wonder Woman™",
@@ -16773,7 +16773,7 @@ window.products = [
     "gender": "Unisex",
     "brand": "United States Mint",
     "brand_display_name": "United States Mint",
-    "id": 309
+    "id": 1231554
   },
   {
     "name": "Comic Art One Ounce Silver Medal — Supergirl™",
@@ -16803,7 +16803,7 @@ window.products = [
     "gender": "Unisex",
     "brand": "United States Mint",
     "brand_display_name": "United States Mint",
-    "id": 310
+    "id": 1231555
   },
   {
     "name": "Comic Art 2.5 Ounce Silver Medal — Supergirl™",
@@ -16833,7 +16833,7 @@ window.products = [
     "gender": "Unisex",
     "brand": "United States Mint",
     "brand_display_name": "United States Mint",
-    "id": 311
+    "id": 1231556
   },
   {
     "name": "2017 American Liberty 225th Anniversary Silver Medal",
@@ -16862,7 +16862,7 @@ window.products = [
     "gender": "Unisex",
     "brand": "United States Mint",
     "brand_display_name": "United States Mint",
-    "id": 312
+    "id": 1231557
   },
   {
     "name": "2019 American Liberty High Relief Silver Medal",
@@ -16891,7 +16891,7 @@ window.products = [
     "gender": "Unisex",
     "brand": "United States Mint",
     "brand_display_name": "United States Mint",
-    "id": 313
+    "id": 1231558
   },
   {
     "name": "2023 American Liberty Silver Medal",
@@ -16920,7 +16920,7 @@ window.products = [
     "gender": "Unisex",
     "brand": "United States Mint",
     "brand_display_name": "United States Mint",
-    "id": 314
+    "id": 1231559
   },
   {
     "name": "2025 American Liberty Silver Medal",
@@ -16949,7 +16949,7 @@ window.products = [
     "gender": "Unisex",
     "brand": "United States Mint",
     "brand_display_name": "United States Mint",
-    "id": 315
+    "id": 1231560
   },
   {
     "name": "2024 Liberty & Britannia 99.9% Silver Proof Medal",
@@ -16982,10 +16982,10 @@ window.products = [
     "gender": "Unisex",
     "brand": "United States Mint",
     "brand_display_name": "United States Mint",
-    "id": 316
+    "id": 1231561
   },
   {
-    "id": 317,
+    "id": 1231562,
     "name": "Hermès Birkin 25 — Black Swift Leather Gold Hardware",
     "category": "accessories",
     "retail price": 34665.41,
@@ -17087,7 +17087,7 @@ window.products = [
 
   },
   {
-    "id": 318,
+    "id": 1231563,
     "name": "Hermès Kelly 25 — Black Togo Leather Gold Hardware",
     "category": "accessories",
     "retail price": 25000,
@@ -17189,7 +17189,7 @@ window.products = [
 
   },
   {
-    "id": 319,
+    "id": 1231564,
     "name": "Dior Medium Lady Dior Bag — Black Grained Cannage Calfskin",
     "category": "accessories",
     "retail price": 5900,
@@ -17290,7 +17290,7 @@ window.products = [
 
   },
   {
-    "id": 320,
+    "id": 1231565,
     "name": "Dior Saddle Bag with Strap — Black Goatskin",
     "category": "accessories",
     "retail price": 4700,
@@ -17391,7 +17391,7 @@ window.products = [
 
   },
   {
-    "id": 321,
+    "id": 1231566,
     "name": "Bottega Veneta Andiamo — Black Intrecciato Leather",
     "category": "accessories",
     "retail price": 5900,
@@ -17492,7 +17492,7 @@ window.products = [
 
   },
   {
-    "id": 322,
+    "id": 1231567,
     "name": "Fendi Peekaboo ISeeU Medium — Black Calfskin",
     "category": "accessories",
     "retail price": 6600,
@@ -17593,7 +17593,7 @@ window.products = [
 
   },
   {
-    "id": 323,
+    "id": 1231568,
     "name": "Valentino Garavani Rockstud Spike Medium — Black Nappa Leather",
     "category": "accessories",
     "retail price": 3500,
@@ -17694,7 +17694,7 @@ window.products = [
 
   },
   {
-    "id": 324,
+    "id": 1231569,
     "name": "CHANEL Classic 11.12 Handbag — Black Lambskin Gold-Tone Metal",
     "category": "accessories",
     "retail price": 11700,
@@ -17726,7 +17726,7 @@ window.products = [
 
   },
   {
-    "id": 325,
+    "id": 1231570,
     "name": "Louis Vuitton Low Key Hobo MM — Black Grained Calfskin",
     "category": "accessories",
     "retail price": 3600,
@@ -17813,7 +17813,7 @@ window.products = [
 
   },
   {
-    "id": 326,
+    "id": 1231571,
     "name": "Louis Vuitton Multipass Mini — Black Leather",
     "category": "accessories",
     "retail price": 2230,
@@ -17900,7 +17900,7 @@ window.products = [
 
   },
   {
-    "id": 327,
+    "id": 1231572,
     "name": "Louis Vuitton Nano Madeleine — Black Monogram Empreinte Leather",
     "category": "accessories",
     "retail price": 2300,
@@ -17987,7 +17987,7 @@ window.products = [
 
   },
   {
-    "id": 328,
+    "id": 1231573,
     "name": "Louis Vuitton Express MM — Brown Calfskin and Monogram",
     "category": "accessories",
     "retail price": 3800,
@@ -18074,7 +18074,7 @@ window.products = [
 
   },
   {
-    "id": 329,
+    "id": 1231574,
     "name": "Louis Vuitton Pochette Papillon — Monogram Canvas",
     "category": "accessories",
     "retail price": 1200,
@@ -18161,7 +18161,7 @@ window.products = [
 
   },
   {
-    "id": 330,
+    "id": 1231575,
     "name": "Loewe Small Whisker Bag — Black Glazed Calfskin",
     "category": "accessories",
     "retail price": 3400,
@@ -18248,7 +18248,7 @@ window.products = [
 
   },
   {
-    "id": 331,
+    "id": 1231576,
     "name": "Loewe Hammock Flip Bag — Black Classic Calfskin",
     "category": "accessories",
     "retail price": 3950,
@@ -18335,7 +18335,7 @@ window.products = [
 
   },
   {
-    "id": 332,
+    "id": 1231577,
     "name": "Loewe Medium Flamenco Purse — Black Nappa Leather",
     "category": "accessories",
     "retail price": 3990,
@@ -18354,7 +18354,7 @@ window.products = [
 
   },
   {
-    "id":333,"name":"Gucci Borsetto Medium Leather Shoulder Bag — Black","category":"accessories","retail price":3100,"sale price": 1199.99,
+    "id":1231578,"name":"Gucci Borsetto Medium Leather Shoulder Bag — Black","category":"accessories","retail price":3100,"sale price": 1199.99,
     "image":"https://www.mytheresa.com/media/1094/1238/100/bb/P01196941_d1.jpg",
     "images": [
       "https://www.mytheresa.com/media/1094/1238/100/bb/P01196941_d1.jpg",
@@ -18436,7 +18436,7 @@ window.products = [
 
   },
   {
-    "id":334,"name":"Gucci Paparazzo Medium Leather Tote — Black","category":"accessories","retail price":3650,"sale price": 1199.99,
+    "id":1231579,"name":"Gucci Paparazzo Medium Leather Tote — Black","category":"accessories","retail price":3650,"sale price": 1199.99,
     "image":"https://www.mytheresa.com/media/1094/1238/100/bb/P01192312_d1.jpg",
     "images": [
       "https://www.mytheresa.com/media/1094/1238/100/bb/P01192312_d1.jpg",
@@ -18518,7 +18518,7 @@ window.products = [
 
   },
   {
-    "id":335,"name":"Gucci Jackie Slim Medium Shoulder Bag — Black Leather","category":"accessories","retail price":2450,"sale price": 1199.99,
+    "id":1231580,"name":"Gucci Jackie Slim Medium Shoulder Bag — Black Leather","category":"accessories","retail price":2450,"sale price": 1199.99,
     "image":"https://www.mytheresa.com/media/1094/1238/100/bb/P01151161_d1.jpg",
     "images": [
       "https://www.mytheresa.com/media/1094/1238/100/bb/P01151161_d1.jpg",
@@ -18600,7 +18600,7 @@ window.products = [
 
   },
   {
-    "id":336,"name":"Gucci Brera Medium Crossbody Bag — Black Leather","category":"accessories","retail price":2980,"sale price": 1199.99,
+    "id":1231581,"name":"Gucci Brera Medium Crossbody Bag — Black Leather","category":"accessories","retail price":2980,"sale price": 1199.99,
     "image":"https://www.mytheresa.com/media/1094/1238/100/bb/P01248060_d1.jpg",
     "images": [
       "https://www.mytheresa.com/media/1094/1238/100/bb/P01248060_d1.jpg",
@@ -18682,7 +18682,7 @@ window.products = [
 
   },
   {
-    "id":337,"name":"Gucci Giglio Large Tote Bag — Black Leather","category":"accessories","retail price":2950,"sale price": 1499.99,
+    "id":1231582,"name":"Gucci Giglio Large Tote Bag — Black Leather","category":"accessories","retail price":2950,"sale price": 1499.99,
     "image":"https://media.gucci.com/style/DarkGray_Center_0_0_700x700/1761821103/853971_AAF2H_1060_001_100_0000_Light-groer-gucci-giglio-shopper.jpg",
     "images": [
       "https://media.gucci.com/style/DarkGray_Center_0_0_700x700/1761821103/853971_AAF2H_1060_001_100_0000_Light-groer-gucci-giglio-shopper.jpg",
@@ -18764,7 +18764,7 @@ window.products = [
 
   },
   {
-    "id":338,"name":"Gucci Giglio Small Tote Bag — Black GG Canvas","category":"accessories","retail price":2750,"sale price": 999.99,
+    "id":1231583,"name":"Gucci Giglio Small Tote Bag — Black GG Canvas","category":"accessories","retail price":2750,"sale price": 999.99,
     "image":"https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1774361706/860845_FAFWA_1053_002_069_0052_Light-gucci-giglio-small-tote-bag.jpg",
     "images": [
       "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1774361706/860845_FAFWA_1053_002_069_0052_Light-gucci-giglio-small-tote-bag.jpg",
@@ -18846,7 +18846,7 @@ window.products = [
 
   },
   {
-    "id":339,"name":"Gucci Lady Lunetta Chain Small Shoulder Bag — Black GG Leather","category":"accessories","retail price":2450,"sale price": 999.99,
+    "id":1231584,"name":"Gucci Lady Lunetta Chain Small Shoulder Bag — Black GG Leather","category":"accessories","retail price":2450,"sale price": 999.99,
     "image":"https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1781281810/A0034B_AAHC3_1000_006_065_0000_Light-lady-lunetta-chain-small-shoulder-bag.jpg",
     "images": [
       "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1781281810/A0034B_AAHC3_1000_006_065_0000_Light-lady-lunetta-chain-small-shoulder-bag.jpg",
@@ -18928,7 +18928,7 @@ window.products = [
 
   },
   {
-    "id":340,"name":"Gucci Lady Lunetta Small Shoulder Bag — Black GG Denim","category":"accessories","retail price":1450,"sale price": 999.99,
+    "id":1231585,"name":"Gucci Lady Lunetta Small Shoulder Bag — Black GG Denim","category":"accessories","retail price":1450,"sale price": 999.99,
     "image":"https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1777477532/874743_FAF8W_1144_007_070_0000_Light-.jpg",
     "images": [
       "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1777477532/874743_FAF8W_1144_007_070_0000_Light-.jpg",
@@ -19010,7 +19010,7 @@ window.products = [
 
   },
   {
-    "id":341,"name":"Gucci Ophidia Medium Boston Bag — Black Leather","category":"accessories","retail price":2100,"sale price": 1199.99,
+    "id":1231586,"name":"Gucci Ophidia Medium Boston Bag — Black Leather","category":"accessories","retail price":2100,"sale price": 1199.99,
     "image":"https://mygemma.com/cdn/shop/products/116193-fv_1200x.jpg?v=1650961451",
     "images": [
       "https://mygemma.com/cdn/shop/products/116193-fv_1200x.jpg?v=1650961451",
@@ -19092,7 +19092,7 @@ window.products = [
 
   },
   {
-    "id":342,"name":"Gucci Borsetto Medium Boston Bag — Black Leather","category":"accessories","retail price":3100,"sale price": 1199.99,
+    "id":1231587,"name":"Gucci Borsetto Medium Boston Bag — Black Leather","category":"accessories","retail price":3100,"sale price": 1199.99,
     "image":"https://www.gucci.com/us/en/pr/women/handbags/crossbody-bags-for-women/borsetto-medium-boston-bag-p-866732AAGIQ1053",
     "images": [
       "https://www.gucci.com/us/en/pr/women/handbags/crossbody-bags-for-women/borsetto-medium-boston-bag-p-866732AAGIQ1053",
@@ -19174,7 +19174,7 @@ window.products = [
 
   },
   {
-    "id":343,"name":"Gucci Horsebit Duomo Medium Top Handle Bag — Black Leather","category":"accessories","retail price":3950,"sale price": 1199.99,
+    "id":1231588,"name":"Gucci Horsebit Duomo Medium Top Handle Bag — Black Leather","category":"accessories","retail price":3950,"sale price": 1199.99,
     "image":"https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/horsebit-duomo-medium-top-handle-bag-p-A006N6AAG8B1000",
     "images": [
       "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/horsebit-duomo-medium-top-handle-bag-p-A006N6AAG8B1000",
@@ -19256,7 +19256,7 @@ window.products = [
 
   },
   {
-    "id":344,"name":"Gucci Horsebit Duomo Small Top Handle Bag — Black Leather","category":"accessories","retail price":3100,"sale price": 999.99,
+    "id":1231589,"name":"Gucci Horsebit Duomo Small Top Handle Bag — Black Leather","category":"accessories","retail price":3100,"sale price": 999.99,
     "image":"https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/horsebit-duomo-small-top-handle-bag-p-A006O9AAG8B1000",
     "images": [
       "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/horsebit-duomo-small-top-handle-bag-p-A006O9AAG8B1000",
@@ -19420,7 +19420,7 @@ window.products = [
 
   },
   {
-    "id":346,"name":"Celine Small Flair in Shiny Calfskin — Chestnut","category":"accessories","retail price":3800,"sale price": 999.99,
+    "id":1231590,"name":"Celine Small Flair in Shiny Calfskin — Chestnut","category":"accessories","retail price":3800,"sale price": 999.99,
     "image":"https://image.celine.com/asset/6be8ff11-f678-4b7f-9b4a-0c4de68a488c/L10BF5B53-18CH_1_WI26_W_V1.jpg?im=Resize%3D(800)",
     "images": [
       "https://image.celine.com/asset/6be8ff11-f678-4b7f-9b4a-0c4de68a488c/L10BF5B53-18CH_1_WI26_W_V1.jpg?im=Resize%3D(800)",
@@ -19502,7 +19502,7 @@ window.products = [
 
   },
   {
-    "id":347,"name":"Celine Soft Triomphe Bucket in Shiny Lambskin — Syrah","category":"accessories","retail price":3450,"sale price": 1199.99,
+    "id":1231591,"name":"Celine Soft Triomphe Bucket in Shiny Lambskin — Syrah","category":"accessories","retail price":3450,"sale price": 1199.99,
     "image":"https://image.celine.com/asset/388b9254-eea3-4376-901c-c359827fb994/L102S3J15-28PO_1_WI26_W_V1.jpg?im=Resize%3D(800)",
     "images": [
       "https://image.celine.com/asset/388b9254-eea3-4376-901c-c359827fb994/L102S3J15-28PO_1_WI26_W_V1.jpg?im=Resize%3D(800)",
@@ -19584,7 +19584,7 @@ window.products = [
 
   },
   {
-    "id":348,"name":"Celine Soft Triomphe Little Halfmoon in Shiny Lambskin — White Cotton","category":"accessories","retail price":2700,"sale price": 999.99,
+    "id":1231592,"name":"Celine Soft Triomphe Little Halfmoon in Shiny Lambskin — White Cotton","category":"accessories","retail price":2700,"sale price": 999.99,
     "image":"https://image.celine.com/asset/705d9fa7-503d-49af-a672-d5ee6b88cf43/L10373778-00WC_1_FALL26_W_V1.jpg?im=Resize%3D(800)",
     "images": [
       "https://image.celine.com/asset/705d9fa7-503d-49af-a672-d5ee6b88cf43/L10373778-00WC_1_FALL26_W_V1.jpg?im=Resize%3D(800)",
@@ -19666,7 +19666,7 @@ window.products = [
 
   },
   {
-    "id":349,"name":"Celine Teen Nino Bag in Supple Grained Calfskin — Safari","category":"accessories","retail price":3600,"sale price": 1199.99,
+    "id":1231593,"name":"Celine Teen Nino Bag in Supple Grained Calfskin — Safari","category":"accessories","retail price":3600,"sale price": 1199.99,
     "image":"https://image.celine.com/asset/a760a572-1833-4440-ade6-ac054ebd6bd1/118113FXK-03SA_1_SPR26_W_V1.jpg?im=Resize%3D(800)",
     "images": [
       "https://image.celine.com/asset/a760a572-1833-4440-ade6-ac054ebd6bd1/118113FXK-03SA_1_SPR26_W_V1.jpg?im=Resize%3D(800)",
@@ -19748,7 +19748,7 @@ window.products = [
 
   },
   {
-    "id":350,"name":"Celine Small Hobo in Supple Smooth Calfskin — Rice","category":"accessories","retail price":2350,"sale price": 999.99,
+    "id":1231594,"name":"Celine Small Hobo in Supple Smooth Calfskin — Rice","category":"accessories","retail price":2350,"sale price": 999.99,
     "image":"https://image.celine.com/asset/72187695-3210-4750-82e0-8797cbf94676/L10133Q71-01RC_1_SUM26_W_V1.jpg?im=Resize%3D(800)",
     "images": [
       "https://image.celine.com/asset/72187695-3210-4750-82e0-8797cbf94676/L10133Q71-01RC_1_SUM26_W_V1.jpg?im=Resize%3D(800)",
@@ -19830,7 +19830,7 @@ window.products = [
 
   },
   {
-    "id":351,"name":"Celine Drop Bucket in Smooth Calfskin — Multicolor","category":"accessories","retail price":4100,"sale price": 1199.99,
+    "id":1231595,"name":"Celine Drop Bucket in Smooth Calfskin — Multicolor","category":"accessories","retail price":4100,"sale price": 1199.99,
     "image":"https://image.celine.com/asset/65d3450d-eb39-4bcc-8b16-b8984211fdff/L102H3J23-14ML_1_SUM26_W_V1.jpg?im=Resize%3D(800)",
     "images": [
       "https://image.celine.com/asset/65d3450d-eb39-4bcc-8b16-b8984211fdff/L102H3J23-14ML_1_SUM26_W_V1.jpg?im=Resize%3D(800)",
@@ -19912,7 +19912,7 @@ window.products = [
 
   },
   {
-    "id":352,"name":"Celine Flair in Grained Calfskin — Black","category":"accessories","retail price":4450,"sale price": 1199.99,
+    "id":1231596,"name":"Celine Flair in Grained Calfskin — Black","category":"accessories","retail price":4450,"sale price": 1199.99,
     "image":"https://image.celine.com/asset/f2718518-3570-499f-a89b-0b8bb34a8dd5/L10AT5C12-38NO_1_WI26_W_V1.jpg?im=Resize%3D(800)",
     "images": [
       "https://image.celine.com/asset/f2718518-3570-499f-a89b-0b8bb34a8dd5/L10AT5C12-38NO_1_WI26_W_V1.jpg?im=Resize%3D(800)",
@@ -19994,7 +19994,7 @@ window.products = [
 
   },
   {
-    "id":353,"name":"Celine Luggage in Grained Calfskin — Black","category":"accessories","retail price":4300,"sale price": 1499.99,
+    "id":1231597,"name":"Celine Luggage in Grained Calfskin — Black","category":"accessories","retail price":4300,"sale price": 1499.99,
     "image":"https://image.celine.com/asset/912f27db-a88d-4e6e-885e-145c0db4ce33/L108K3056-38NO_1_SPR26_W_V1.jpg?im=Resize%3D(800)",
     "images": [
       "https://image.celine.com/asset/912f27db-a88d-4e6e-885e-145c0db4ce33/L108K3056-38NO_1_SPR26_W_V1.jpg?im=Resize%3D(800)",
@@ -20076,7 +20076,7 @@ window.products = [
 
   },
   {
-    "id":354,"name":"Celine Soft Triomphe Besace in Supple Shiny Lambskin — Black","category":"accessories","retail price":3450,"sale price": 1199.99,
+    "id":1231598,"name":"Celine Soft Triomphe Besace in Supple Shiny Lambskin — Black","category":"accessories","retail price":3450,"sale price": 1199.99,
     "image":"https://image.celine.com/asset/567bbd96-64f0-40d6-8c1c-aa87c019a750/123632T88-38NO_1_SPR26_W_V1.jpg?im=Resize%3D(800)",
     "images": [
       "https://image.celine.com/asset/567bbd96-64f0-40d6-8c1c-aa87c019a750/123632T88-38NO_1_SPR26_W_V1.jpg?im=Resize%3D(800)",
@@ -20158,7 +20158,7 @@ window.products = [
 
   },
   {
-    "id":355,"name":"Dior Médaillon Bucket Bag — Small Black Grained Calfskin","category":"accessories","retail price":3900,"sale price": 999.99,
+    "id":1231599,"name":"Dior Médaillon Bucket Bag — Small Black Grained Calfskin","category":"accessories","retail price":3900,"sale price": 999.99,
     "image":"https://assets.christiandior.com/is/image/diorprod/M1531QUQWM900_SBG_E01?%24r9x10_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1850",
     "images": [
       "https://assets.christiandior.com/is/image/diorprod/M1531QUQWM900_SBG_E01?%24r9x10_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1850",
@@ -20240,7 +20240,7 @@ window.products = [
 
   },
   {
-    "id":356,"name":"Dior Médaillon Bucket Bag — Medium Black Grained Calfskin","category":"accessories","retail price":4600,"sale price": 1199.99,
+    "id":1231600,"name":"Dior Médaillon Bucket Bag — Medium Black Grained Calfskin","category":"accessories","retail price":4600,"sale price": 1199.99,
     "image":"https://assets.christiandior.com/is/image/diorprod/M1532QUQWM900_SBG_E01?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600",
     "images": [
       "https://assets.christiandior.com/is/image/diorprod/M1532QUQWM900_SBG_E01?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600",
@@ -20322,7 +20322,7 @@ window.products = [
 
   },
   {
-    "id":357,"name":"Dior Small Promenade Flap Bag — Black Flat Cannage Calfskin","category":"accessories","retail price":3800,"sale price": 999.99,
+    "id":1231601,"name":"Dior Small Promenade Flap Bag — Black Flat Cannage Calfskin","category":"accessories","retail price":3800,"sale price": 999.99,
     "image":"https://assets.christiandior.com/is/image/diorprod/LOOK_F_26_4_LOOK_054_E04-1?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600",
     "images": [
       "https://assets.christiandior.com/is/image/diorprod/LOOK_F_26_4_LOOK_054_E04-1?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600",
@@ -20404,7 +20404,7 @@ window.products = [
 
   },
   {
-    "id":358,"name":"Loewe Mini Amazona 180 Bag — Black Soft Calfskin","category":"accessories","retail price":2990,"sale price": 999.99,
+    "id":1231602,"name":"Loewe Mini Amazona 180 Bag — Black Soft Calfskin","category":"accessories","retail price":2990,"sale price": 999.99,
     "image":"https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw1c0e9421/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1F.jpg?q=100&sw=750",
     "images":["https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw1c0e9421/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1F.jpg?q=100&sw=750","https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw3ec25a4a/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1P.jpg?q=100&sw=750","https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw1d8eb63a/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1Q.jpg?q=100&sw=750","https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dwce2cba2e/images_rd/A039AS4X12/A039AS4X12-1100/A039AS4X12_1100_1R.jpg?q=100&sw=750"],
     "description":"Loewe Mini Amazona 180 in black soft calfskin with signature toron top handle, concealed closure and removable shoulder/crossbody straps.",
