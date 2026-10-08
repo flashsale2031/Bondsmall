@@ -4,6 +4,8 @@
  */
 
 let activeReviewProductId = "";
+let reviewCarouselProductId = "";
+let reviewCarouselIndex = 0;
 /* Gold-coin image quality layer: prefer curated product-specific images over
    legacy placeholders and build galleries from verified product sources. */
 window.BondsGoldCoinImages = window.BondsGoldCoinImages || (() => {
@@ -351,10 +353,38 @@ function renderProductReviews(productId) {
         return;
     }
 
-    reviews
-        .slice()
-        .reverse()
-        .forEach((review) => {
+    const orderedReviews = reviews.slice().reverse();
+    if (reviewCarouselProductId !== String(productId)) {
+        reviewCarouselProductId = String(productId);
+        reviewCarouselIndex = 0;
+    }
+    reviewCarouselIndex = Math.max(0, Math.min(reviewCarouselIndex, orderedReviews.length - 1));
+    const review = orderedReviews[reviewCarouselIndex];
+    const carousel = document.createElement("div");
+    carousel.className = "reviews-carousel";
+    carousel.setAttribute("aria-label", `Review ${reviewCarouselIndex + 1} of ${orderedReviews.length}`);
+    const previousButton = document.createElement("button");
+    previousButton.type = "button";
+    previousButton.className = "review-carousel-nav review-carousel-prev";
+    previousButton.dataset.reviewNav = "prev";
+    previousButton.setAttribute("aria-label", "Previous comment");
+    previousButton.disabled = reviewCarouselIndex === 0;
+    previousButton.textContent = "‹";
+    const viewport = document.createElement("div");
+    viewport.className = "review-carousel-viewport";
+    const position = document.createElement("p");
+    position.className = "review-carousel-position";
+    position.textContent = `${reviewCarouselIndex + 1} of ${orderedReviews.length}`;
+    viewport.appendChild(position);
+    const nextButton = document.createElement("button");
+    nextButton.type = "button";
+    nextButton.className = "review-carousel-nav review-carousel-next";
+    nextButton.dataset.reviewNav = "next";
+    nextButton.setAttribute("aria-label", "Next comment");
+    nextButton.disabled = reviewCarouselIndex === orderedReviews.length - 1;
+    nextButton.textContent = "›";
+
+    [review].forEach((review) => {
             const item = document.createElement("article");
             item.className = "review-item";
 
@@ -405,8 +435,10 @@ function renderProductReviews(productId) {
             meta.append(stars, date);
             body.append(meta, comment);
             item.append(authorEl, body);
-            listEl.appendChild(item);
+            viewport.appendChild(item);
         });
+    carousel.append(previousButton, viewport, nextButton);
+    listEl.appendChild(carousel);
 }
 
 function initDeliveryOptions() {
@@ -883,6 +915,20 @@ function ensureDelegatedListeners() {
         }
     });
 
+    const reviewsList = document.getElementById("reviews-list");
+    if (reviewsList && !reviewsList.dataset.carouselBound) {
+        reviewsList.dataset.carouselBound = "true";
+        reviewsList.addEventListener("click", (event) => {
+            const button = event.target.closest("[data-review-nav]");
+            if (!button || button.disabled) return;
+            const reviews = loadProductReviews(activeReviewProductId).slice().reverse();
+            if (!reviews.length) return;
+            reviewCarouselIndex += button.dataset.reviewNav === "next" ? 1 : -1;
+            reviewCarouselIndex = Math.max(0, Math.min(reviewCarouselIndex, reviews.length - 1));
+            renderProductReviews(activeReviewProductId);
+        });
+    }
+
     document.querySelectorAll("#review-form .star-button").forEach((button) => {
         button.addEventListener("click", () => {
             const rating = Number(button.dataset.rating);
@@ -930,6 +976,7 @@ function ensureDelegatedListeners() {
             date: new Date().toISOString()
         });
         saveProductReviews(activeReviewProductId, reviews);
+        reviewCarouselIndex = 0;
         renderProductReviews(activeReviewProductId);
 
         if (msg) {
@@ -1051,6 +1098,12 @@ function ensurePopupLayoutStyles() {
         body.product-page-mode #product-modal #review-messages { min-height: 1.4em; margin: .85rem 0 0; color: #3d6f48; line-height: 1.45; }
         body.product-page-mode #product-modal #reviews-summary { margin: .85rem 0; color: #5c5348; }
         body.product-page-mode #product-modal #reviews-list { margin-top: 1rem; }
+        body.product-page-mode #product-modal .reviews-carousel { display: grid; grid-template-columns: 42px minmax(0, 1fr) 42px; align-items: center; gap: .65rem; }
+        body.product-page-mode #product-modal .review-carousel-viewport { min-width: 0; }
+        body.product-page-mode #product-modal .review-carousel-nav { display: inline-flex; align-items: center; justify-content: center; width: 42px; height: 42px; padding: 0; border: 1px solid #d8cec4; border-radius: 50%; background: #fff; color: #1c1b1a; font-size: 2rem; line-height: 1; cursor: pointer; }
+        body.product-page-mode #product-modal .review-carousel-nav:hover:not(:disabled) { background: #f4ebdd; border-color: #b9a793; }
+        body.product-page-mode #product-modal .review-carousel-nav:disabled { opacity: .35; cursor: not-allowed; }
+        body.product-page-mode #product-modal .review-carousel-position { margin: 0 0 .45rem; color: #766d64; font-size: .78rem; text-align: center; }
         body.product-page-mode #product-modal .reviews-empty-state { margin: 0; padding: 1rem; border: 1px solid #e5ddd4; border-radius: 8px; color: #5c5348; }
         body.product-page-mode #product-modal .coverage-link { display: inline; white-space: normal; }
         body.product-page-mode #product-modal .coverage-link-icon { display: inline; width: 1em; height: 1em; max-width: 1em; max-height: 1em; vertical-align: -.14em; margin-left: .2em; }
@@ -1064,6 +1117,8 @@ function ensurePopupLayoutStyles() {
         body.product-page-mode #product-modal .similar-nav-btn { min-width: 44px; min-height: 40px; border: 1px solid #d8cec4; border-radius: 10px; background: #fff; cursor: pointer; }
         body.product-page-mode #product-modal + .site-footer { margin-top: 0; }
         @media (max-width: 720px) {
+            body.product-page-mode #product-modal .reviews-carousel { grid-template-columns: 34px minmax(0, 1fr) 34px; gap: .35rem; }
+            body.product-page-mode #product-modal .review-carousel-nav { width: 34px; height: 34px; font-size: 1.65rem; }
             body.product-page-mode #product-modal .product-image-col { display: grid; grid-template-columns: 116px minmax(0, 1fr); gap: .75rem; align-items: start; }
             body.product-page-mode #product-modal .popup-header { grid-template-columns: auto minmax(0, 1fr) auto; grid-template-rows: auto auto; padding: .7rem 1rem 1rem; }
             body.product-page-mode #product-modal .popup-header .header-left { grid-column: 1 / 3; grid-row: 1; }
