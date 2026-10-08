@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - BONDS MALL</title>
+    <link rel="stylesheet" href="support-pages.css">
+    <link rel="stylesheet" href="site-footer.css">
+    <style>
+        :root { color-scheme: light; }
+        body { background: #f8f5ef; color: #1f1a14; }
+        .public-profile-shell { width: min(960px, calc(100% - 2rem)); margin: 2rem auto 4rem; }
+        .public-profile-header { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 1.4rem; align-items: center; padding: 1.5rem; border: 1px solid #e5ddd4; border-radius: 16px; background: #fffdf9; box-shadow: 0 8px 24px rgba(54,39,26,.06); }
+        .public-profile-picture { width: 128px; height: 128px; border: 3px solid #ded5ca; border-radius: 50%; object-fit: cover; background: #f2f2f2; }
+        .public-profile-heading { margin: 0 0 .35rem; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(1.8rem, 4vw, 2.8rem); }
+        .public-profile-label { margin: 0 0 1rem; color: #766d64; }
+        .public-profile-rating { display: flex; flex-wrap: wrap; align-items: center; gap: .55rem; }
+        .public-profile-rating-stars { color: #d59b00; letter-spacing: .08em; }
+        .public-profile-rating-value { font-weight: 800; }
+        .public-profile-rating-count { color: #766d64; font-size: .9rem; }
+        .public-profile-section { margin-top: 1.5rem; padding: 1.25rem; border: 1px solid #e5ddd4; border-radius: 16px; background: #fffdf9; }
+        .public-profile-section h2 { margin: 0 0 1rem; font-family: Georgia, 'Times New Roman', serif; font-size: 1.55rem; }
+        .profile-products { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 1rem; }
+        .profile-product-card { display: flex; flex-direction: column; overflow: hidden; border: 1px solid #e2d9ce; border-radius: 12px; background: #fff; color: inherit; text-decoration: none; transition: transform .18s ease, box-shadow .18s ease; }
+        .profile-product-card:hover, .profile-product-card:focus-visible { transform: translateY(-2px); box-shadow: 0 8px 22px rgba(54,39,26,.12); outline: none; }
+        .profile-product-card img { width: 100%; height: 180px; object-fit: contain; background: #f4f1ec; }
+        .profile-product-copy { padding: .75rem; }
+        .profile-product-copy h3 { margin: 0 0 .45rem; font-size: .95rem; line-height: 1.3; }
+        .profile-product-copy p { margin: 0; color: #1f7a46; font-weight: 800; }
+        .profile-empty { margin: 0; padding: 1rem; border: 1px dashed #d8cec4; border-radius: 10px; color: #766d64; }
+        @media (max-width: 560px) { .public-profile-header { grid-template-columns: 1fr; text-align: center; justify-items: center; } .public-profile-rating { justify-content: center; } .public-profile-picture { width: 104px; height: 104px; } .public-profile-shell { width: min(100% - 1rem, 960px); margin-top: 1rem; } }
+    </style>
+</head>
+<body>
+    <main class="public-profile-shell" aria-labelledby="profile-page-username">
+        <section class="public-profile-header">
+            <img id="profile-page-picture" class="public-profile-picture" alt="Profile picture">
+            <div>
+                <p class="public-profile-label">Bonds Mall customer profile</p>
+                <h1 id="profile-page-username" class="public-profile-heading">Guest</h1>
+                <div class="public-profile-rating" aria-label="Customer rating">
+                    <span id="profile-page-rating-stars" class="public-profile-rating-stars" aria-hidden="true">☆☆☆☆☆</span>
+                    <strong id="profile-page-rating">No rating yet</strong>
+                    <span id="profile-page-rating-count" class="public-profile-rating-count">0 customer reviews</span>
+                </div>
+            </div>
+        </section>
+        <section class="public-profile-section" aria-labelledby="products-heading">
+            <h2 id="products-heading">Products for sale</h2>
+            <div id="profile-products" class="profile-products" aria-live="polite"></div>
+        </section>
+    </main>
+    <script src="products.js?v=20261008-profile-page"></script>
+    <script src="reviews.js?v=20261008-profile-page"></script>
+    <script src="profilepage.js?v=20261008-profile-page"></script>
+</body>
+</html>

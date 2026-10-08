@@ -6,6 +6,12 @@
 let activeReviewProductId = "";
 let reviewCarouselProductId = "";
 let reviewCarouselIndex = 0;
+const GUEST_PROFILE_IMAGE = "data:image/svg+xml;charset=UTF-8," + encodeURIComponent(
+    "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='#f2f2f2'/><circle cx='50' cy='34' r='19' fill='#111'/><path d='M17 91c3-22 16-34 33-34s30 12 33 34' fill='#111'/></svg>"
+);
+function reviewProfileId(author) {
+    return String(author?.profileId || author?.username || "Guest").trim().toLowerCase().replace(/[^a-z0-9._-]+/g, "-") || "guest";
+}
 /* Gold-coin image quality layer: prefer curated product-specific images over
    legacy placeholders and build galleries from verified product sources. */
 window.BondsGoldCoinImages = window.BondsGoldCoinImages || (() => {
@@ -301,6 +307,7 @@ function getCurrentReviewAuthor() {
     }
 
     return {
+        profileId: String(profile.username || profile.name || (profile.email || "user").split("@")[0]).trim().toLowerCase().replace(/[^a-z0-9._-]+/g, "-") || "user",
         username: profile.username || profile.name || (profile.email || "User").split("@")[0],
         picture: profile.picture || ""
     };
@@ -388,24 +395,24 @@ function renderProductReviews(productId) {
             const item = document.createElement("article");
             item.className = "review-item";
 
-            const author = review.author || { username: "Guest", picture: "" };
-            const authorEl = document.createElement("div");
+            const author = review.author || { profileId: "guest", username: "Guest", picture: "" };
+            const profileId = reviewProfileId(author);
+            const authorEl = document.createElement("a");
             authorEl.className = "review-author";
+            authorEl.href = `profilepage.html?user=${encodeURIComponent(profileId)}`;
+            authorEl.title = `View ${author.username || "Guest"}'s profile`;
 
             const avatar = document.createElement("div");
             avatar.className = "review-avatar";
-
-            if (author.picture) {
-                const img = document.createElement("img");
-                img.src = author.picture;
-                img.alt = "";
-                img.loading = "lazy";
-                avatar.appendChild(img);
-            } else {
-                avatar.classList.add("review-avatar--default");
-                avatar.setAttribute("aria-hidden", "true");
-                avatar.textContent = "G";
-            }
+            const img = document.createElement("img");
+            img.src = author.picture || GUEST_PROFILE_IMAGE;
+            img.alt = `${author.username || "Guest"} profile picture`;
+            img.loading = "lazy";
+            img.addEventListener("error", () => {
+                img.onerror = null;
+                img.src = GUEST_PROFILE_IMAGE;
+            });
+            avatar.appendChild(img);
 
             const username = document.createElement("div");
             username.className = "review-username";
@@ -1104,6 +1111,15 @@ function ensurePopupLayoutStyles() {
         body.product-page-mode #product-modal .review-carousel-nav:hover:not(:disabled) { background: #f4ebdd; border-color: #b9a793; }
         body.product-page-mode #product-modal .review-carousel-nav:disabled { opacity: .35; cursor: not-allowed; }
         body.product-page-mode #product-modal .review-carousel-position { margin: 0 0 .45rem; color: #766d64; font-size: .78rem; text-align: center; }
+        body.product-page-mode #product-modal .review-item { padding: 1rem; border: 1px solid #e5ddd4; border-radius: 10px; background: #fffdf9; }
+        body.product-page-mode #product-modal .review-author { display: inline-flex; align-items: center; gap: .6rem; margin-bottom: .7rem; color: #1c1b1a; text-decoration: none; }
+        body.product-page-mode #product-modal .review-author:hover .review-username, body.product-page-mode #product-modal .review-author:focus-visible .review-username { text-decoration: underline; }
+        body.product-page-mode #product-modal .review-avatar { width: 42px; height: 42px; overflow: hidden; border: 1px solid #cfcfcf; border-radius: 50%; background: #f2f2f2; }
+        body.product-page-mode #product-modal .review-avatar img { display: block; width: 100%; height: 100%; object-fit: cover; }
+        body.product-page-mode #product-modal .review-username { font-weight: 800; }
+        body.product-page-mode #product-modal .review-body p { margin: .6rem 0 0; line-height: 1.55; overflow-wrap: anywhere; }
+        body.product-page-mode #product-modal .review-item-meta { display: flex; align-items: center; justify-content: space-between; gap: .75rem; color: #766d64; font-size: .82rem; }
+        body.product-page-mode #product-modal .review-item-stars { color: #d59b00; letter-spacing: .06em; }
         body.product-page-mode #product-modal .reviews-empty-state { margin: 0; padding: 1rem; border: 1px solid #e5ddd4; border-radius: 8px; color: #5c5348; }
         body.product-page-mode #product-modal .coverage-link { display: inline; white-space: normal; }
         body.product-page-mode #product-modal .coverage-link-icon { display: inline; width: 1em; height: 1em; max-width: 1em; max-height: 1em; vertical-align: -.14em; margin-left: .2em; }
