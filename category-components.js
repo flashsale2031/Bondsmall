@@ -31,7 +31,7 @@
       const fallback = document.createElement('article');
       fallback.className = 'category-feature category-feature--error';
       fallback.innerHTML = '<p class="category-component-error">This category could not be loaded. <button type="button" class="category-retry">Try again</button></p>';
-      fallback.querySelector('button').addEventListener('click', () => { fallback.remove(); loadCategory(key); });
+      fallback.querySelector('button').addEventListener('click', async () => { fallback.remove(); await loadCategory(key); document.dispatchEvent(new CustomEvent('bondsmall-category-components-ready')); });
       root.appendChild(fallback);
       console.error('[Bonds Mall] Failed to load category "' + key + '".', error);
     }
