@@ -5,6 +5,11 @@
   window.BondsmallCategoryModules['electronics'] = {
     key: 'electronics', selector: '[data-category-feature="electronics"]',
     productsSelector: '[data-category-preview-products="electronics"]',
-    moreHref: 'search-results.html?category=electronics'
+    moreHref: 'search-results.html?category=electronics',
+    // Fail closed if the shared gallery validator has not initialized yet.
+    isEligibleProduct(product) {
+      return typeof window.BondsmallHasAppropriateGallery === 'function' &&
+        window.BondsmallHasAppropriateGallery(product);
+    }
   };
 })();

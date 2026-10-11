@@ -5,6 +5,11 @@
   window.BondsmallCategoryModules['accessories'] = {
     key: 'accessories', selector: '[data-category-feature="accessories"]',
     productsSelector: '[data-category-preview-products="accessories"]',
-    moreHref: 'search-results.html?category=accessories'
+    moreHref: 'search-results.html?category=accessories',
+    // Fail closed if the shared gallery validator has not initialized yet.
+    isEligibleProduct(product) {
+      return typeof window.BondsmallHasAppropriateGallery === 'function' &&
+        window.BondsmallHasAppropriateGallery(product);
+    }
   };
 })();

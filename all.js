@@ -67,10 +67,21 @@
         return Boolean(productImage(product)) && !productHasPlaceholderPhoto(product);
     }
 
+    // Shared contract consumed by every independently loaded category card module.
+    // A product is eligible only when it has a real primary image and every
+    // registered gallery photo is free of placeholder/generated-image paths.
+    window.BondsmallHasAppropriateGallery = hasRealMainImage;
+
+    function eligibleForCategory(key, product) {
+        const module = window.BondsmallCategoryModules && window.BondsmallCategoryModules[key];
+        return hasRealMainImage(product) &&
+            (!module || typeof module.isEligibleProduct !== 'function' || module.isEligibleProduct(product));
+    }
+
     function imageForCategory(category) {
         const key = normalize(category);
         const products = Array.isArray(window.products) ? window.products : [];
-        const match = products.find((product) => normalize(product.category) === key && hasRealMainImage(product));
+        const match = products.find((product) => normalize(product.category) === key && eligibleForCategory(key, product));
         return match ? productImage(match) : '';
     }
 
@@ -97,7 +108,7 @@
         if (!container) return;
         const failed = failedPreviewImages.get(key) || new Set();
         const eligible = (records || productListForCategory(key)).filter((product) =>
-            hasRealMainImage(product) && !failed.has(String(product.id))
+            eligibleForCategory(key, product) && !failed.has(String(product.id))
         );
         const products = eligible.slice(0, 3);
         if (!products.length) {
@@ -159,7 +170,7 @@
         const isIndexPage = window.location.pathname === '/' || window.location.pathname.endsWith('/index.html');
         document.querySelectorAll('[data-category-image]').forEach((image) => {
             const key = image.dataset.categoryImage;
-            const featuredArtProduct = (Array.isArray(window.products) ? window.products : []).find((product) => Number(product.id) === 49);
+            const featuredArtProduct = (Array.isArray(window.products) ? window.products : []).find((product) => Number(product.id) === 49 && eligibleForCategory('artandcollectibles', product));
             const imageOverride = isIndexPage && key === 'artandcollectibles' && featuredArtProduct
                 ? productImage(featuredArtProduct)
                 : (isIndexPage && key === 'accessories'
