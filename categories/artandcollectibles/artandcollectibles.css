@@ -1,0 +1,5 @@
+/* Art & Collectibles category card styles. Keep changes scoped to this category. */
+.category-feature--artandcollectibles { --category-card-accent: #9b4b3e; }
+.category-feature--artandcollectibles .category-showcase-card { border-color: color-mix(in srgb, var(--category-card-accent) 18%, transparent); }
+.category-feature--artandcollectibles .category-view-more { color: var(--category-card-accent); }
+.category-feature--artandcollectibles .category-view-more:focus-visible { outline: 2px solid var(--category-card-accent); outline-offset: 3px; }
