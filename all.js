@@ -34,7 +34,7 @@
         if (/placeholder|place-holder|no[-_ ]?image|missing[-_ ]?image|default[-_ ]?product|coming[-_ ]?soon|fallback|dummyimage|placehold\\.co|placeholder\\.com|via\\.placeholder|bonds-mall-logo/i.test(normalized)) return true;
         // Legacy coin gallery files are registered generated placeholder views,
         // even though their URLs resemble normal image assets (for example #62).
-        if (/\\/assets\\/gold-coins\\/\\d+\\/view-\\d+\\.(?:webp|svg)(?:[?#].*)?$/i.test(normalized)) return true;
+        if (/\/assets\/gold-coins\/\d+\/view-\d+\.(?:webp|svg)(?:[?#].*)?$/i.test(normalized)) return true;
         return Object.values(fallbackImages).some((fallback) => src === fallback);
     }
 
