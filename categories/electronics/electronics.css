@@ -1,0 +1,5 @@
+/* Electronics category card styles. Keep changes scoped to this category. */
+.category-feature--electronics { --category-card-accent: #9b4b3e; }
+.category-feature--electronics .category-showcase-card { border-color: color-mix(in srgb, var(--category-card-accent) 18%, transparent); }
+.category-feature--electronics .category-view-more { color: var(--category-card-accent); }
+.category-feature--electronics .category-view-more:focus-visible { outline: 2px solid var(--category-card-accent); outline-offset: 3px; }
