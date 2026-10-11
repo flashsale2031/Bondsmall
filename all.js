@@ -141,6 +141,10 @@
     document.addEventListener('DOMContentLoaded', init);
     document.addEventListener('bondsmall-category-components-ready', () => {
         document.getElementById('category-showcase')?.querySelector('.category-components-loading')?.remove();
-        init();
+        if (!initialized) init();
+        else {
+            hydrateCards();
+            hydrateCategoryPreviews();
+        }
     });
 })();
