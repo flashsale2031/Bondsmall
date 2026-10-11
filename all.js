@@ -27,15 +27,34 @@
         return String(value || '').toLowerCase().replace(/[^a-z]/g, '');
     }
 
+    function isPlaceholderImage(value) {
+        const src = String(value || '').trim();
+        if (!src) return true;
+        const normalized = src.toLowerCase();
+        if (/placeholder|place-holder|no[-_ ]?image|missing[-_ ]?image|default[-_ ]?product|coming[-_ ]?soon|fallback|dummyimage|placehold\.co|placeholder\.com|via\.placeholder|bonds-mall-logo/i.test(normalized)) return true;
+        return Object.values(fallbackImages).some((fallback) => src === fallback);
+    }
+
+    function imageCandidates(product) {
+        const values = [product?.image, product?.mainImage, product?.main_image, product?.images, product?.photo_paths]
+            .flatMap((value) => Array.isArray(value) ? value : [value]);
+        return [...new Set(values.map((value) => typeof value === 'string' ? value.trim() : '').filter((value) => value && !isPlaceholderImage(value)))];
+    }
+
     function productImage(product) {
-        return product?.image || product?.mainImage || product?.images?.[0] || product?.photo_paths?.[0] || fallbackImages[normalize(product?.category)] || 'bonds-mall-logo.png';
+        const primary = Array.isArray(product?.image) ? product.image[0] : (product?.image || product?.mainImage || product?.main_image);
+        return !isPlaceholderImage(primary) ? String(primary).trim() : '';
+    }
+
+    function hasRealMainImage(product) {
+        return Boolean(productImage(product));
     }
 
     function imageForCategory(category) {
         const key = normalize(category);
         const products = Array.isArray(window.products) ? window.products : [];
-        const match = products.find((product) => normalize(product.category) === key && productImage(product));
-        return match ? productImage(match) : fallbackImages[key] || 'bonds-mall-logo.png';
+        const match = products.find((product) => normalize(product.category) === key && hasRealMainImage(product));
+        return match ? productImage(match) : '';
     }
 
     function money(value) {
@@ -43,32 +62,47 @@
         return Number.isFinite(number) ? `$${number.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}` : '';
     }
 
+    const failedPreviewImages = new Map();
+
     function productListForCategory(key) {
         const products = Array.isArray(window.products) ? window.products : [];
-        return products.filter((product) => normalize(product.category) === key).slice(0, 3);
+        return products.filter((product) => normalize(product.category) === key && hasRealMainImage(product));
+    }
+
+    function escapeHtml(value) {
+        return String(value ?? '').replace(/[&<>"']/g, (character) => ({
+            '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+        })[character]);
     }
 
     function renderPreviewProducts(key, records) {
         const container = document.querySelector(`[data-category-preview-products="${key}"]`);
         if (!container) return;
-        const products = (records || productListForCategory(key)).slice(0, 3);
+        const failed = failedPreviewImages.get(key) || new Set();
+        const eligible = (records || productListForCategory(key)).filter((product) =>
+            hasRealMainImage(product) && !failed.has(String(product.id))
+        );
+        const products = eligible.slice(0, 3);
         if (!products.length) {
-            container.innerHTML = '<p class="category-preview-empty">Products are loading for this collection.</p>';
+            container.innerHTML = '<p class="category-preview-empty">More products are being checked for real product images.</p>';
             return;
         }
         container.innerHTML = products.map((product) => {
             const name = String(product.name || product.title || 'Product');
             const image = productImage(product);
             const price = product['sale price'] ?? product.salePrice ?? product.price;
-            return `<a class="category-preview-card" href="./?product=${encodeURIComponent(product.id)}" aria-label="View ${name}">
-                <img class="category-preview-image" src="${image}" alt="${name}" loading="lazy">
-                <span class="category-preview-copy"><span class="category-preview-name">${name}</span><span class="category-preview-price">${money(price)}</span></span>
+            return `<a class="category-preview-card" href="./?product=${encodeURIComponent(product.id)}" aria-label="View ${escapeHtml(name)}">
+                <img class="category-preview-image" src="${escapeHtml(image)}" alt="${escapeHtml(name)}" loading="lazy" data-preview-product-id="${escapeHtml(product.id)}">
+                <span class="category-preview-copy"><span class="category-preview-name">${escapeHtml(name)}</span><span class="category-preview-price">${money(price)}</span></span>
             </a>`;
         }).join('');
-        container.querySelectorAll('img').forEach((img) => {
+        container.querySelectorAll('img[data-preview-product-id]').forEach((img) => {
             img.addEventListener('error', () => {
-                img.onerror = null;
-                img.src = fallbackImages[key] || 'bonds-mall-logo.png';
+                const failedIds = failedPreviewImages.get(key) || new Set();
+                failedIds.add(img.dataset.previewProductId);
+                failedPreviewImages.set(key, failedIds);
+                // Re-select from the full loaded candidate set; never substitute a placeholder.
+                renderPreviewProducts(key, eligible);
             }, { once: true });
         });
     }
@@ -83,7 +117,7 @@
             // Load previews sequentially so concurrent category requests cannot overwrite one another.
             for (const key of keys) {
                 try {
-                    const records = await catalog.ensureCategoryPage(key, 1, 3);
+                    const records = await catalog.ensureCategoryPage(key, 1, 30);
                     renderPreviewProducts(key, records);
                 } catch (_) {
                     renderPreviewProducts(key);
@@ -117,9 +151,10 @@
                         ? 'assets/category-ferrari-mens-jacket.webp'
                         : (isIndexPage && key === 'women' ? 'assets/category-womens-bailey-bow-ii-ugg-boots.webp' : null)));
             image.src = imageOverride || imageForCategory(key);
+            if (!image.src || image.src === window.location.href) image.removeAttribute('src');
             image.onerror = () => {
                 image.onerror = null;
-                image.src = fallbackImages[key] || 'bonds-mall-logo.png';
+                image.removeAttribute('src');
             };
         });
         document.querySelectorAll('.category-hover-icon').forEach((icon) => {
