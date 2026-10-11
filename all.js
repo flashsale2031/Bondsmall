@@ -31,14 +31,29 @@
         const src = String(value || '').trim();
         if (!src) return true;
         const normalized = src.toLowerCase();
-        if (/placeholder|place-holder|no[-_ ]?image|missing[-_ ]?image|default[-_ ]?product|coming[-_ ]?soon|fallback|dummyimage|placehold\.co|placeholder\.com|via\.placeholder|bonds-mall-logo/i.test(normalized)) return true;
+        if (/placeholder|place-holder|no[-_ ]?image|missing[-_ ]?image|default[-_ ]?product|coming[-_ ]?soon|fallback|dummyimage|placehold\\.co|placeholder\\.com|via\\.placeholder|bonds-mall-logo/i.test(normalized)) return true;
+        // Legacy coin gallery files are registered generated placeholder views,
+        // even though their URLs resemble normal image assets (for example #62).
+        if (/\\/assets\\/gold-coins\\/\\d+\\/view-\\d+\\.(?:webp|svg)(?:[?#].*)?$/i.test(normalized)) return true;
         return Object.values(fallbackImages).some((fallback) => src === fallback);
     }
 
+    function collectImageValues(value) {
+        if (Array.isArray(value)) return value.flatMap(collectImageValues);
+        if (value && typeof value === 'object') return Object.values(value).flatMap(collectImageValues);
+        return typeof value === 'string' ? [value] : [];
+    }
+
     function imageCandidates(product) {
-        const values = [product?.image, product?.mainImage, product?.main_image, product?.images, product?.photo_paths]
-            .flatMap((value) => Array.isArray(value) ? value : [value]);
-        return [...new Set(values.map((value) => typeof value === 'string' ? value.trim() : '').filter((value) => value && !isPlaceholderImage(value)))];
+        const values = [product?.image, product?.mainImage, product?.main_image, product?.images, product?.photo_paths, product?.image_views]
+            .flatMap(collectImageValues);
+        return [...new Set(values.map((value) => value.trim()).filter((value) => value && !isPlaceholderImage(value)))];
+    }
+
+    function productHasPlaceholderPhoto(product) {
+        const values = [product?.image, product?.mainImage, product?.main_image, product?.images, product?.photo_paths, product?.image_views]
+            .flatMap(collectImageValues);
+        return values.some((value) => isPlaceholderImage(value));
     }
 
     function productImage(product) {
@@ -47,7 +62,9 @@
     }
 
     function hasRealMainImage(product) {
-        return Boolean(productImage(product));
+        // Fail closed: a real-looking main image is insufficient if any gallery
+        // photo is registered as a placeholder.
+        return Boolean(productImage(product)) && !productHasPlaceholderPhoto(product);
     }
 
     function imageForCategory(category) {
