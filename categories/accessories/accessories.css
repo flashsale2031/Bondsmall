@@ -1,0 +1,5 @@
+/* Accessories category card styles. Keep changes scoped to this category. */
+.category-feature--accessories { --category-card-accent: #9b4b3e; }
+.category-feature--accessories .category-showcase-card { border-color: color-mix(in srgb, var(--category-card-accent) 18%, transparent); }
+.category-feature--accessories .category-view-more { color: var(--category-card-accent); }
+.category-feature--accessories .category-view-more:focus-visible { outline: 2px solid var(--category-card-accent); outline-offset: 3px; }
