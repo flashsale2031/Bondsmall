@@ -125,7 +125,12 @@
         });
     }
 
+    let initialized = false;
     function init() {
+        if (initialized) return;
+        const root = document.getElementById('category-showcase');
+        if (root && !root.querySelector('[data-category-feature]')) return;
+        initialized = true;
         hydrateCards();
         hydrateCategoryPreviews();
         document.addEventListener('bondsmall-catalog-chunk-loaded', () => {
@@ -134,4 +139,8 @@
     }
 
     document.addEventListener('DOMContentLoaded', init);
+    document.addEventListener('bondsmall-category-components-ready', () => {
+        document.getElementById('category-showcase')?.querySelector('.category-components-loading')?.remove();
+        init();
+    });
 })();
