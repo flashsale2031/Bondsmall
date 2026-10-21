@@ -16,7 +16,7 @@ function reviewProfileId(author) {
    legacy placeholders and build galleries from verified product sources. */
 window.BondsGoldCoinImages = window.BondsGoldCoinImages || (() => {
     const placeholder = (src) => /^data:image\//i.test(String(src || ""));
-    const productSpecificImageIds = new Set([104, 106, 107, 108, 110, 112, 114]);
+    const productSpecificImageIds = new Set([62, 104, 106, 107, 108, 110, 112, 114]);
     const usable = (src) => {
         const s = String(src || "");
         if ((!/^https?:\/\//i.test(s) && !/^(?:assets\/|\.\/|\/)/i.test(s)) || placeholder(s)) return false;
@@ -40,7 +40,7 @@ window.BondsGoldCoinImages = window.BondsGoldCoinImages || (() => {
         const id = Number(product && product.id);
         const name = String(product && product.name || "").toLowerCase();
         const category = String(product && product.category || "").toLowerCase();
-        // These curated Liberty listings have product-specific sources in products.js.
+        // These curated gold listings have product-specific images in products.js.
         // Do not replace them with the shared placeholder WebP set.
         if (productSpecificImageIds.has(id)) return null;
         const isGold = Number.isFinite(id) &&
