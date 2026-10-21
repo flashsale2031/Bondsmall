@@ -11,13 +11,6 @@
         women: "Women's"
     };
 
-    const discountCodes = {
-        SAVE10: 0.1,
-        MALL15: 0.15,
-        BONDS20: 0.2,
-        PRESIDENTBONDS: 1
-    };
-
     const taxRate = 0.087;
     const cartStorageKey = "bonds_mall_cart";
 
@@ -26,6 +19,7 @@
     let activeModalProductId = null;
     let shippingData = null;
     let activeDiscountRate = 0;
+    let activeDiscountCode = "";
     let activePaymentMethod = "credit";
     let currentPage = 1;
 
@@ -861,7 +855,10 @@
         const finalTotal = withTax * (1 - activeDiscountRate);
 
         taxTotalEl.textContent = `Total with 8.7% tax: ${formatMoney(withTax)}`;
-        finalTotalEl.textContent = `Final total: ${formatMoney(finalTotal)}`;
+        const offerLabel = activeDiscountCode === window.BondsDiscounts.newCustomerOffer.code
+            ? " (25% new-customer offer applied)"
+            : "";
+        finalTotalEl.textContent = `Final total${offerLabel}: ${formatMoney(finalTotal)}`;
     }
 
     function renderCart() {
@@ -873,6 +870,7 @@
             paymentSection.classList.add("hidden");
             discountSection.classList.add("hidden");
             activeDiscountRate = 0;
+            activeDiscountCode = "";
             return;
         }
 
@@ -900,15 +898,7 @@
     }
 
     function getPreOwnedPrice(product) {
-        if (Number(product && product.id) === 28) return 3749.99;
-        // Prefer the explicit pre-owned price from the product data; otherwise
-        // fall back to a generic 20%-off discount on the sale price.
-        const explicit = Number(product["pre-owned price"] || product.preOwnedPrice);
-        if (Number.isFinite(explicit) && explicit > 0) {
-            return explicit;
-        }
-        const base = Number(product.price || product["sale price"] || product.salePrice) || 0;
-        return Math.round(base * 0.8 * 100) / 100;
+        return window.BondsDiscounts.preOwnedPrice(product);
     }
 
     function addToCart(productId, addQty = 1, condition = "", deliveryOption = "std") {
@@ -1312,7 +1302,14 @@
 
     function applyDiscount() {
         const code = normalize(discountCodeInput.value).toUpperCase();
-        activeDiscountRate = discountCodes[code] || 0;
+        const rate = window.BondsDiscounts.rateForCode(code);
+        if (rate > 0) {
+            activeDiscountRate = rate;
+            activeDiscountCode = code;
+        } else if (activeDiscountCode !== window.BondsDiscounts.newCustomerOffer.code) {
+            activeDiscountRate = 0;
+            activeDiscountCode = "";
+        }
         updateCheckoutTotals();
     }
 
@@ -1323,7 +1320,7 @@
 
     function getDiscountCodeUsed() {
         if (activeDiscountRate === 0) return "No discount code";
-        return Object.keys(discountCodes).find(key => discountCodes[key] === activeDiscountRate) || "Unknown";
+        return activeDiscountCode || window.BondsDiscounts.codeForRate(activeDiscountRate) || "Unknown";
     }
 
     function showOrderVerificationLoader() {
@@ -1449,6 +1446,7 @@
             cart = [];
             shippingData = null;
             activeDiscountRate = 0;
+            activeDiscountCode = "";
             discountCodeInput.value = "";
             hostedCardToken = null;
             hostedCardReady = false;
@@ -1609,7 +1607,19 @@
                     zip: document.getElementById("ship-zip").value,
                     country: document.getElementById("ship-country").value
                 };
+                const repeatCheck = window.BondsMembers.checkRepeatAccountInfo(shippingData);
+                if (repeatCheck.eligible) {
+                    activeDiscountRate = window.BondsDiscounts.newCustomerOffer.rate;
+                    activeDiscountCode = window.BondsDiscounts.newCustomerOffer.code;
+                    discountCodeInput.value = "";
+                } else {
+                    activeDiscountRate = 0;
+                    activeDiscountCode = "";
+                }
                 showPayment();
+                setPaymentMessage(repeatCheck.eligible
+                    ? "25% new-customer offer applied after checking account and receipt details saved in this browser."
+                    : "The 25% offer was not applied because matching account or receipt details were found in this browser.", repeatCheck.eligible);
             });
         }
 

@@ -678,14 +678,12 @@ function initCondition(product) {
     const options = ["New", "Pre-Owned"];
 
     // Helper: update the displayed sale price based on chosen condition
-    function applyConditionPrice(opt) {
-        if (!saleEl) return;
-        if (normalizedCondition(opt) === "Pre-Owned") {
-            const override = usedConditionPrice(product) ?? Number(product["pre-owned price"] || product.preOwnedPrice);
-            const discounted = Number.isFinite(override) && override > 0
-                ? override
-                : Math.round(basePrice * 0.8 * 100) / 100;
-            saleEl.textContent = formatPopupMoney(discounted);
+        function applyConditionPrice(opt) {
+            if (!saleEl) return;
+            if (normalizedCondition(opt) === "Pre-Owned") {
+                const override = usedConditionPrice(product) ?? Number(product["pre-owned price"] || product.preOwnedPrice);
+                const discounted = window.BondsDiscounts.preOwnedPrice(product, { basePrice, overridePrice: override });
+                saleEl.textContent = formatPopupMoney(discounted);
             saleEl.title = Number.isFinite(override) && override > 0
                 ? "Pre-Owned condition price"
                 : "20% Pre-Owned discount applied";

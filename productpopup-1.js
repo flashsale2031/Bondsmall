@@ -470,9 +470,9 @@ function initCondition(product) {
         if (opt === "Pre-Owned") {
             const explicit = Number(product["pre-owned price"] || product.preOwnedPrice);
             const hasExplicit = Number.isFinite(explicit) && explicit > 0;
-            const discounted = hasExplicit ? explicit : Math.round(basePrice * 0.8 * 100) / 100;
+            const discounted = window.BondsDiscounts.preOwnedPrice(product, { basePrice });
             saleEl.textContent = formatPopupMoney(discounted);
-            saleEl.title = hasExplicit ? "Pre-Owned price" : "20% Pre-Owned discount applied";
+            saleEl.title = hasExplicit || Number(product.id) === 28 ? "Pre-Owned price" : "20% Pre-Owned discount applied";
         } else {
             saleEl.textContent = formatPopupMoney(basePrice);
             saleEl.title = "";
