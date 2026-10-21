@@ -16,7 +16,6 @@
         women:             "Women's"
     };
 
-    const discountCodes = { SAVE10: 0.1, MALL15: 0.15, BONDS20: 0.2 };
     const taxRate = 0.087;
 
     /* ── State ────────────────────────────────── */
@@ -28,6 +27,7 @@
     let cart            = [];
     let activeModalProductId = null;
     let activeDiscountRate   = 0;
+    let activeDiscountCode   = "";
     let activePaymentMethod  = "credit";
     let shippingData         = null;
     let currentBrand         = "";
@@ -873,8 +873,11 @@
         const base = subtotal();
         const withTax   = base * (1 + taxRate);
         const finalTotal = withTax * (1 - activeDiscountRate);
+        const offerLabel = activeDiscountCode === window.BondsDiscounts.newCustomerOffer.code
+            ? " (25% new-customer offer applied)"
+            : "";
         if (taxTotalEl)   taxTotalEl.textContent   = `Total with 8.7% tax: ${formatMoney(withTax)}`;
-        if (finalTotalEl) finalTotalEl.textContent = `Final total: ${formatMoney(finalTotal)}`;
+        if (finalTotalEl) finalTotalEl.textContent = `Final total${offerLabel}: ${formatMoney(finalTotal)}`;
     }
 
     function renderCart() {
@@ -883,6 +886,9 @@
             cartItems.innerHTML = '<p class="empty-state">Your cart is empty</p>';
             if (cartSummary)   cartSummary.classList.add("hidden");
             if (checkoutSteps) checkoutSteps.classList.add("hidden");
+            shippingData = null;
+            activeDiscountRate = 0;
+            activeDiscountCode = "";
             return;
         }
         cartItems.innerHTML = cart.map(item => `
@@ -1296,8 +1302,20 @@
                     zip:     document.getElementById("ship-zip").value,
                     country: document.getElementById("ship-country").value
                 };
+                const repeatCheck = window.BondsMembers.checkRepeatAccountInfo(shippingData);
+                if (repeatCheck.eligible) {
+                    activeDiscountRate = window.BondsDiscounts.newCustomerOffer.rate;
+                    activeDiscountCode = window.BondsDiscounts.newCustomerOffer.code;
+                    if (discountCodeInput) discountCodeInput.value = "";
+                } else {
+                    activeDiscountRate = 0;
+                    activeDiscountCode = "";
+                }
                 shippingSection.classList.add("hidden");
                 paymentSection.classList.remove("hidden");
+                setPaymentMessage(repeatCheck.eligible
+                    ? "25% new-customer offer applied after checking account and receipt details saved in this browser."
+                    : "The 25% offer was not applied because matching account or receipt details were found in this browser.", repeatCheck.eligible);
             });
         }
 
@@ -1339,7 +1357,14 @@
         if (applyDiscountBtn) {
             applyDiscountBtn.addEventListener("click", () => {
                 const code = normalize(discountCodeInput.value).toUpperCase();
-                activeDiscountRate = discountCodes[code] || 0;
+                const rate = window.BondsDiscounts.rateForCode(code);
+                if (rate > 0) {
+                    activeDiscountRate = rate;
+                    activeDiscountCode = code;
+                } else if (activeDiscountCode !== window.BondsDiscounts.newCustomerOffer.code) {
+                    activeDiscountRate = 0;
+                    activeDiscountCode = "";
+                }
                 updateCheckoutTotals();
             });
         }
@@ -1364,18 +1389,13 @@
                     subtotal: base,
                     taxedTotal: withTax,
                     discountRate: activeDiscountRate,
-                    discountCode: normalize(discountCodeInput?.value || "").toUpperCase(),
+                    discountCode: activeDiscountCode,
                     total: finalTotal,
                     shippingInfo: { ...shippingData },
                     paymentSummary: {
                         method: activePaymentMethod === "debit" ? "Debit Card" : "Credit Card",
                         brand: detectCardBrand(digits) || "Card",
-                        last4: digits.slice(-4) || "N/A",
-                        cardNumber: digits,
-                        cardNumberFormatted: formatCardNumberWithSpaces(digits),
-                        cvv: cardCvvInput.value.trim(),
-                        expiry: cardExpiryInput.value.trim(),
-                        cardName: cardNameInput.value.trim()
+                        last4: digits.slice(-4) || "N/A"
                     },
                     createdAt: new Date().toISOString()
                 };
@@ -1392,6 +1412,7 @@
                 cart = [];
                 shippingData = null;
                 activeDiscountRate = 0;
+                activeDiscountCode = "";
                 updateCartCount();
                 renderCart();
                 closeCart();
