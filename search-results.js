@@ -635,7 +635,7 @@
 
     /* ── Pagination helpers ────────────────────── */
     function getProductsPerPage() {
-        return 20;
+        return window.matchMedia("(max-width: 720px)").matches ? 20 : 21;
     }
 
     function renderSRPagination(totalItems) {
@@ -1507,7 +1507,7 @@
             };
             document.addEventListener("bondsmall-catalog-ready", retryCategoryPage, { once: true });
             window.setTimeout(retryCategoryPage, 1500);
-        } else if (currentPage > 1 && window.BondsmallCatalog && typeof window.BondsmallCatalog.ensurePage === "function") {
+        } else if (window.BondsmallCatalog && typeof window.BondsmallCatalog.ensurePage === "function") {
             window.BondsmallCatalog.ensurePage(currentPage, getProductsPerPage()).then(renderAll).catch(renderAll);
         } else {
             renderAll();
@@ -1560,17 +1560,22 @@
             });
         }
 
-        /* ── Re-render on window resize ── */
-        let lastWidth = window.innerWidth;
+        /* ── Reload pagination when the viewport crosses the mobile breakpoint ── */
+        let lastPerPage = getProductsPerPage();
         let resizeTimer;
         window.addEventListener("resize", () => {
             clearTimeout(resizeTimer);
             resizeTimer = setTimeout(() => {
-                if (window.innerWidth !== lastWidth) {
-                    lastWidth = window.innerWidth;
-                    currentPage = 1;
-                    renderProducts();
-                    renderResultsHeader();
+                const nextPerPage = getProductsPerPage();
+                if (nextPerPage === lastPerPage) return;
+                lastPerPage = nextPerPage;
+                currentPage = 1;
+                if (currentCategory !== "all" && window.BondsmallCatalog && typeof window.BondsmallCatalog.ensureCategoryPage === "function") {
+                    requestCategoryPage(1);
+                } else if (window.BondsmallCatalog && typeof window.BondsmallCatalog.ensurePage === "function") {
+                    window.BondsmallCatalog.ensurePage(1, nextPerPage).then(renderAll).catch(renderAll);
+                } else {
+                    renderAll();
                 }
             }, 200);
         });
