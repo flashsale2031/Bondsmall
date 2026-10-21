@@ -1590,14 +1590,12 @@ window.products = [
     "retail price": 7499.99,
     "sale price": 5799.99,
     "pre-owned price": 3749.99,
-    "image": "assets/gold-coins/62/view-01.webp",
+    "productType": "Coin",
+    "image": "assets/gold-coins/62/2026-gold-eagle-proof-obverse.webp",
     "description": "The 2026 American Eagle One Ounce Gold Proof Coin celebrates the 250th anniversary of our Nation's founding with this limited-edition release! Includes anti-counterfeit variable reeding. Struck at the United States Mint facility at West Point. Quantities are limited, don't miss this golden opportunity for this special one-year only edition!",
     "images": [
-      "assets/gold-coins/62/view-01.webp",
-      "assets/gold-coins/62/view-02.webp",
-      "assets/gold-coins/62/view-03.webp",
-      "assets/gold-coins/62/view-04.webp",
-      "assets/gold-coins/62/view-05.webp"
+      "assets/gold-coins/62/2026-gold-eagle-proof-obverse.webp",
+      "assets/gold-coins/62/2026-gold-eagle-proof-reverse.webp"
     ],
     "specifications": {
       "brand": "US Mint",
@@ -1623,14 +1621,18 @@ window.products = [
     "brand_source": "U.S. Mint",
     "image_views": {
       "front_main": "images[0]",
-      "back": "images[1]",
-      "left_side": "images[2]",
-      "right_side": "images[3]",
-      "case_photo": "images[4]"
+      "back": "images[1]"
     },
-    "photo_display": "Full five-view display",
-    "image_note": "Bonds Mall local white-background product photography generated from catalog source images; runtime does not depend on external image hosts.",
-    "image_quality_status": "Local Bonds Mall generated asset"
+    "photo_display": "Obverse and reverse",
+    "photo_source": "Pinehurst Coins listing for the 2026-W Proof $50 American Gold Eagle; design matched to U.S. Mint item 26EB.",
+    "photo_year": 2026,
+    "photo_is_representative": true,
+    "image_note": "Representative product-specific views of the 2026 Liberty Bell 250 American Eagle Gold Proof; the obverse shows 1776–2026 and the reverse shows the Eagle design.",
+    "image_quality_status": "Verified year-specific obverse/reverse views; locally optimized WebP",
+    "image_reference_sources": [
+      "https://www.usmint.gov/american-eagle-2026-one-ounce-gold-proof-coin-26EB.html",
+      "https://pinehurstcoins.com/product/2026-w-proof-50-american-gold-eagle-1-oz-box-ogp-coa/"
+    ]
   },
   {
     "id": 63,

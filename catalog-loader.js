@@ -35,10 +35,10 @@
         ![91, 93, 97, 98, 102].includes(id);
       if (!isGoldCoin) return chosen;
 
-      // These curated Liberty listings have authoritative, year-specific images
+      // These curated gold listings have authoritative, product-specific images
       // in products.js. Preserve them instead of replacing them with the legacy
       // shared WebP placeholder gallery during lazy catalog hydration.
-      if ([104, 106, 107, 108, 110, 112, 114].includes(id)) return chosen;
+      if ([62, 104, 106, 107, 108, 110, 112, 114].includes(id)) return chosen;
 
       // Uncurated gold coins retain the legacy shared WebP gallery convention.
       const extension = [108, 109, 110, 112, 114].includes(id) ? 'svg?v=20261003-7' : 'webp';
