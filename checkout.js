@@ -215,6 +215,8 @@
     const createdAt = new Date().toISOString();
     const rawNumber = (get("card-number")?.value || "").replace(/\D/g, "");
     const appliedReward = totals.rewardApplied ? rewardOffer : null;
+    const eligibleSpend = roundMoney(totals.final / 1.087);
+    const pointsEarned = window.BondsRewards?.calculatePointsEarned(eligibleSpend) || 0;
     const order = {
       orderId: `ORD-${Date.now()}-${Math.floor(Math.random() * 9000 + 1000)}`,
       products: items.map((item) => ({
@@ -233,6 +235,8 @@
       discountCode: appliedReward ? appliedReward.code : discountCode,
       discountAmount: totals.discountAmount,
       pointsRedeemed: appliedReward ? totals.pointsRedeemed : 0,
+      eligibleSpend,
+      pointsEarned,
       total: totals.final,
       shippingInfo: shippingData || {},
       paymentSummary: totals.final === 0
@@ -248,14 +252,13 @@
 
     try {
       localStorage.setItem("recentOrder", JSON.stringify(order));
-      if (rewardOffer) {
-        if (appliedReward) {
-          const completed = window.BondsRewards.completeOffer(appliedReward.id, totals.pointsRedeemed);
-          if (!completed.ok) console.error("Order completed but Rewards balance update failed:", completed.reason);
-        } else {
-          window.BondsRewards?.clearPendingOffer();
-        }
-      }
+      const rewardCompletion = window.BondsRewards?.completeOrder({
+        orderId: order.orderId,
+        eligibleSpend,
+        offerId: appliedReward?.id || null,
+        pointsRequired: totals.pointsRedeemed
+      });
+      if (rewardCompletion && !rewardCompletion.ok) console.error("Order completed but Rewards balance update failed:", rewardCompletion.reason);
       if (window.BondsCart?.clear) window.BondsCart.clear();
       else localStorage.removeItem(CART_KEY);
       let emailResult;
