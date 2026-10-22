@@ -3,8 +3,9 @@
 
   const BALANCE_KEY = "fc_rewards";
   const PENDING_KEY = "fc_pending_reward";
-  const POINTS_PER_DOLLAR = 20; // Existing exchange: 100 points = $5.
-  const DEFAULT_STATE = Object.freeze({ points: 2150, totalEarned: 5420, redeemed: 3270, tier: "Silver" });
+  const POINTS_PER_DOLLAR = 20; // Redemption: 100 points = $5.
+  const POINTS_EARNED_PER_DOLLAR = 10;
+  const DEFAULT_STATE = Object.freeze({ points: 2150, totalEarned: 5420, redeemed: 3270, tier: "Silver", awardedOrders: Object.freeze([]) });
   const catalog = [
     ...[5, 10, 20, 25, 30, 40, 50, 100].map((amount) => ({
       id: `free-${amount}`,
@@ -44,7 +45,10 @@
       points: asCount(source.points, DEFAULT_STATE.points),
       totalEarned: asCount(source.totalEarned, DEFAULT_STATE.totalEarned),
       redeemed: asCount(source.redeemed, DEFAULT_STATE.redeemed),
-      tier: typeof source.tier === "string" && source.tier ? source.tier : DEFAULT_STATE.tier
+      tier: typeof source.tier === "string" && source.tier ? source.tier : DEFAULT_STATE.tier,
+      awardedOrders: Array.isArray(source.awardedOrders)
+        ? source.awardedOrders.filter((orderId) => typeof orderId === "string").slice(-500)
+        : []
     };
   }
 
@@ -115,6 +119,37 @@
     };
   }
 
+  function calculatePointsEarned(eligibleSpend) {
+    return Math.floor(money(eligibleSpend) * POINTS_EARNED_PER_DOLLAR + 1e-9);
+  }
+
+  function completeOrder({ orderId, eligibleSpend = 0, offerId = null, pointsRequired = 0 } = {}) {
+    const normalizedOrderId = typeof orderId === "string" ? orderId.trim() : "";
+    if (!normalizedOrderId) return { ok: false, reason: "A valid order ID is required." };
+    const state = readState();
+    if (state.awardedOrders.includes(normalizedOrderId)) {
+      return { ok: true, alreadyProcessed: true, state, pointsEarned: 0, pointsRedeemed: 0 };
+    }
+
+    const offer = offerId ? getOffer(offerId) : null;
+    if (offerId && !offer) return { ok: false, reason: "Reward is no longer available." };
+    const cost = offer && offer.kind === "points" ? Math.max(0, Math.ceil(Number(pointsRequired) || 0)) : 0;
+    if (cost > state.points) return { ok: false, reason: "There are not enough points to complete this reward." };
+
+    const earned = calculatePointsEarned(eligibleSpend);
+    state.points = state.points - cost + earned;
+    state.totalEarned += earned;
+    state.redeemed += cost;
+    state.awardedOrders = [...state.awardedOrders, normalizedOrderId].slice(-500);
+    try {
+      window.localStorage.setItem(BALANCE_KEY, JSON.stringify(state));
+      if (offer) window.localStorage.removeItem(PENDING_KEY);
+      return { ok: true, state, pointsEarned: earned, pointsRedeemed: cost };
+    } catch (_) {
+      return { ok: false, reason: "The Rewards balance could not be updated in this browser." };
+    }
+  }
+
   function completeOffer(id, pointsRequired = 0) {
     const offer = getOffer(id);
     if (!offer) return { ok: false, reason: "Reward is no longer available." };
@@ -137,6 +172,8 @@
 
   window.BondsRewards = Object.freeze({
     pointsPerDollar: POINTS_PER_DOLLAR,
+    pointsRedeemedPerDollar: POINTS_PER_DOLLAR,
+    pointsEarnedPerDollar: POINTS_EARNED_PER_DOLLAR,
     getCatalog,
     getOffer,
     getState: readState,
@@ -144,6 +181,8 @@
     selectOffer,
     clearPendingOffer,
     quote,
-    completeOffer
+    completeOffer,
+    calculatePointsEarned,
+    completeOrder
   });
 })();

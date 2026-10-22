@@ -1382,6 +1382,8 @@
                 const base = subtotal();
                 const withTax = base * (1 + taxRate);
                 const finalTotal = withTax * (1 - activeDiscountRate);
+                const eligibleSpend = Number(Math.max(0, finalTotal / (1 + taxRate)).toFixed(2));
+                const pointsEarned = window.BondsRewards?.calculatePointsEarned(eligibleSpend) || 0;
                 const digits = digitsOnly(cardNumberInput.value);
                 const recentOrder = {
                     orderId: `ORD-${Date.now()}-${Math.floor(Math.random() * 9000 + 1000)}`,
@@ -1391,6 +1393,8 @@
                     discountRate: activeDiscountRate,
                     discountCode: activeDiscountCode,
                     total: finalTotal,
+                    eligibleSpend,
+                    pointsEarned,
                     shippingInfo: { ...shippingData },
                     paymentSummary: {
                         method: activePaymentMethod === "debit" ? "Debit Card" : "Credit Card",
@@ -1400,6 +1404,8 @@
                     createdAt: new Date().toISOString()
                 };
                 localStorage.setItem("recentOrder", JSON.stringify(recentOrder));
+                const rewardUpdate = window.BondsRewards?.completeOrder({ orderId: recentOrder.orderId, eligibleSpend });
+                if (rewardUpdate && !rewardUpdate.ok) console.error("Order submitted but Rewards points could not be added:", rewardUpdate.reason);
                 const emailResult = await Promise.race([
                     Promise.resolve().then(() => window.BondsEmailJS.sendOrderEmail(recentOrder)).catch((error) => ({
                         success: false,
