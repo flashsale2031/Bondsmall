@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redeem Rewards - BONDS MALL</title>
+    <link rel="stylesheet" href="support-pages.css">
+    <link rel="stylesheet" href="site-footer.css">
+    <link rel="stylesheet" href="localization.css?v=1.0.4">
+    <style>
+        .redeem-hero { background: linear-gradient(135deg, #f8f5ef, #fffdf8); border: 2px solid #1f4f90; border-radius: 16px; padding: 2rem; text-align: center; margin-bottom: 1.5rem; }
+        .redeem-hero h1 { margin: 0 0 .5rem; color: #1f4f90; }
+        .redeem-balance { margin: .75rem 0; color: #1f4f90; font-size: 2rem; font-weight: 800; }
+        .redeem-note { border: 1px solid #d9e3ef; border-left: 4px solid #1f4f90; border-radius: 10px; background: #f7faff; padding: 1rem 1.1rem; color: #34445a; line-height: 1.55; margin: 0 0 1.5rem; }
+        .redeem-section { margin: 1.5rem 0 2rem; }
+        .redeem-section h2 { margin: 0 0 .35rem; color: #1f1a14; }
+        .redeem-section-intro { color: #5c5348; margin: 0 0 1rem; }
+        .redeem-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 1rem; }
+        .redeem-card { display: flex; flex-direction: column; align-items: flex-start; background: #fffdf8; border: 1px solid #e9dece; border-radius: 14px; padding: 1.15rem; min-height: 190px; box-shadow: 0 4px 14px rgba(31, 26, 20, .04); }
+        .redeem-card h3 { margin: .75rem 0 .35rem; color: #1f4f90; font-size: 1.35rem; }
+        .redeem-card p { margin: 0 0 1rem; color: #5c5348; font-size: .92rem; line-height: 1.45; flex: 1; }
+        .redeem-card-tag { background: #eef4fb; color: #1f4f90; border-radius: 999px; padding: .28rem .65rem; font-size: .76rem; font-weight: 800; }
+        .redeem-button, .continue-shop { display: inline-flex; justify-content: center; align-items: center; min-height: 42px; border: 0; border-radius: 9px; padding: .65rem 1rem; background: #212121; color: white; font: inherit; font-weight: 700; text-decoration: none; cursor: pointer; }
+        .redeem-button:hover, .redeem-button:focus-visible, .continue-shop:hover, .continue-shop:focus-visible { background: #1f4f90; }
+        .redeem-button.is-selected { background: #1f4f90; }
+        .selection-panel { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .8rem; border-radius: 12px; padding: 1rem 1.1rem; margin: 1.25rem 0 0; background: #f8f5ef; border: 1px solid #e9dece; }
+        .selection-panel p { margin: 0; color: #3f3a33; line-height: 1.45; }
+        .selection-panel [hidden] { display: none; }
+        .redeem-back { display: inline-block; margin: .2rem 0 1rem; color: #1f4f90; font-weight: 700; }
+        @media (max-width: 560px) { .redeem-hero { padding: 1.35rem; } .redeem-grid { grid-template-columns: 1fr; } .selection-panel { align-items: stretch; flex-direction: column; } }
+    </style>
+    <script src="localization.js?v=1.0.4" defer></script>
+</head>
+<body data-page="rewards-redeem">
+    <header class="support-header">
+        <div class="brand">BONDS MALL</div>
+        <a href="rewards.html">Back to Rewards</a>
+    </header>
+
+    <main class="support-shell">
+        <a class="redeem-back" href="rewards.html">&larr; Rewards dashboard</a>
+        <section class="redeem-hero">
+            <p class="all-eyebrow">BONDS MALL REWARDS</p>
+            <h1>Redeem Your Rewards</h1>
+            <p>Choose one reward for your next order. Your current balance:</p>
+            <div class="redeem-balance"><span id="redeem-points-balance">2,150</span> points</div>
+        </section>
+
+        <p class="redeem-note"><strong>Freebies cost 0 points.</strong> Points offers are priced dynamically at checkout using the existing rate of 100 points = $5: the point cost is based on the actual discount amount for your order. No points are deducted until the order is completed. Only one discount offer can be used per order.</p>
+
+        <section class="redeem-section" aria-labelledby="freebies-title">
+            <h2 id="freebies-title">Freebies</h2>
+            <p class="redeem-section-intro">Fixed-dollar discounts that do not use your points. The discount is capped at the order total; unused value is not paid out.</p>
+            <div class="redeem-grid" id="freebies-grid"></div>
+        </section>
+
+        <section class="redeem-section" aria-labelledby="points-title">
+            <h2 id="points-title">Points</h2>
+            <p class="redeem-section-intro">Choose a percentage discount. The points required are calculated from the final eligible order total at checkout.</p>
+            <div class="redeem-grid" id="points-grid"></div>
+        </section>
+
+        <div class="selection-panel" aria-live="polite">
+            <p id="reward-selection-status">Choose one offer to use on your next order. Offers do not stack.</p>
+            <a id="continue-to-shop" class="continue-shop" href="bondsmall.html" hidden>Continue shopping</a>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer-top">
+            <div class="site-footer-brand-wrap">
+                <div class="site-footer-brand">BONDS MALL</div>
+                <p class="site-footer-tagline">Premium commerce platform with trusted checkout and support.</p>
+            </div>
+            <div class="site-footer-stickers" aria-label="Trust stickers">
+                <span class="sticker">Secure Payments</span>
+                <span class="sticker">24/7 Support</span>
+                <span class="sticker">Verified Store</span>
+            </div>
+        </div>
+        <nav class="site-footer-menu" aria-label="Footer menu">
+            <a href="customer-service.html"><span class="footer-icon" aria-hidden="true">CS</span>Customer Service</a>
+            <a href="faq.html"><span class="footer-icon" aria-hidden="true">FQ</span>FAQ</a>
+            <a href="dispute-center.html"><span class="footer-icon" aria-hidden="true">DC</span>Dispute Center</a>
+            <a href="profile.html"><span class="footer-icon" aria-hidden="true">PR</span>Profile</a>
+            <a href="order-history.html"><span class="footer-icon" aria-hidden="true">OH</span>Order History</a>
+            <a href="rewards.html"><span class="footer-icon" aria-hidden="true">RW</span>Rewards</a>
+        </nav>
+        <div class="site-footer-bottom">2026 &copy; Bonds Mall. All Rights Are Reserved.</div>
+    </footer>
+
+    <script src="rewards-redemption.js?v=20261022-rewards-redemption-1"></script>
+    <script src="rewards.js?v=20261022-rewards-redemption-1"></script>
+</body>
+</html>

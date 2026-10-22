@@ -61,6 +61,26 @@
             color: #1f4f90;
         }
 
+        .reward-action {
+            color: inherit;
+            text-decoration: none;
+            transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+        }
+
+        .reward-action:hover,
+        .reward-action:focus-visible {
+            border-color: #1f4f90;
+            box-shadow: 0 8px 20px rgba(31, 79, 144, 0.12);
+            transform: translateY(-2px);
+        }
+
+        .reward-action .reward-meta {
+            display: block;
+            margin-top: 0.55rem;
+            color: #5c5348;
+            font-size: 0.82rem;
+        }
+
         .tiers-section {
             background: #fffdf8;
             border: 1px solid #e9dece;
@@ -146,11 +166,12 @@
                 <h3>Total Earned</h3>
                 <div class="reward-value" id="total-earned">5,420</div>
             </div>
-            <div class="reward-item">
+            <a class="reward-item reward-action" href="rewards-redeem.html" aria-label="Redeem rewards and browse discounts">
                 <div class="reward-icon">&#128640;</div>
-                <h3>Redeemed</h3>
-                <div class="reward-value" id="redeemed">3,270</div>
-            </div>
+                <h3>Redeem</h3>
+                <div class="reward-value">Browse discounts</div>
+                <span class="reward-meta">Points redeemed: <span id="redeemed">3,270</span></span>
+            </a>
             <div class="reward-item">
                 <div class="reward-icon">&#11088;</div>
                 <h3>Tier Level</h3>
@@ -231,7 +252,7 @@
     </nav>
 </footer>
 
-    <script src="rewards.js"></script>
+    <script src="rewards-redemption.js?v=20261022-rewards-redemption-1"></script>
+    <script src="rewards.js?v=20261022-rewards-redemption-1"></script>
 </body>
 </html>
-
