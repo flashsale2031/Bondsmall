@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "Bonds Mall",
+  "short_name": "Bonds Mall",
+  "description": "Shop the Bonds Mall selection on the web or from your home screen.",
+  "start_url": "/index.html?source=installed-app",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#101010",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/assets/app-icons/app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/app-icons/app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

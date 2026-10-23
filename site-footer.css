@@ -104,6 +104,26 @@
     text-decoration: underline;
 }
 
+.site-footer-menu a.footer-app-link {
+    flex: 0 0 100%;
+    width: fit-content;
+    max-width: max-content;
+    padding: 0.38rem 0.65rem;
+    border: 1px solid #806522;
+    border-radius: 7px;
+    background: #17140e;
+    color: #f1d892;
+    font-weight: 800;
+}
+
+.site-footer-menu a.footer-app-link:hover,
+.site-footer-menu a.footer-app-link:focus-visible {
+    border-color: #c8a544;
+    background: #211b0e;
+    color: #fff4cf;
+    text-decoration: none;
+}
+
 .site-footer-bottom {
     margin-top: 0.95rem;
     padding-top: 0.8rem;
